@@ -49,10 +49,11 @@ const NICHOS = [
   { id: "cafe", name: "Café ☕", file: "cafe-☕" }
 ];
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
   document.getElementById('anoFooter').textContent = new Date().getFullYear();
   renderNichos();
-  loadRecipes();
+  await loadRecipes();
+  loadRecipeFromURL();
 });
 
 async function loadRecipes() {
