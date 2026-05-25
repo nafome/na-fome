@@ -114,7 +114,37 @@ function selectNicho(nicho) {
 
 function scrollNichos(dir) {
   const scroll = document.getElementById('nichosScroll');
-  scroll.scrollBy({ left: dir * 240, behavior: 'smooth' });
+
+  const scrollAmount = 240;
+  const maxScroll = scroll.scrollWidth - scroll.clientWidth;
+
+  if (dir > 0) {
+    // Se chegou no final → volta pro começo
+    if (scroll.scrollLeft + scrollAmount >= maxScroll) {
+      scroll.scrollTo({
+        left: 0,
+        behavior: 'smooth'
+      });
+    } else {
+      scroll.scrollBy({
+        left: scrollAmount,
+        behavior: 'smooth'
+      });
+    }
+  } else {
+    // Se está no começo → vai pro final
+    if (scroll.scrollLeft <= 0) {
+      scroll.scrollTo({
+        left: maxScroll,
+        behavior: 'smooth'
+      });
+    } else {
+      scroll.scrollBy({
+        left: -scrollAmount,
+        behavior: 'smooth'
+      });
+    }
+  }
 }
 
 function spin() {
