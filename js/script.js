@@ -206,6 +206,9 @@ function spin() {
 }
 
 function showResult(recipe) {
+
+  history.pushState({}, '', `?receita=${recipe.slug}`);
+
   const resultSection = document.getElementById('resultSection');
   const resultContent = document.getElementById('resultContent');
   
