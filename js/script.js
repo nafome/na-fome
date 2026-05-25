@@ -154,7 +154,7 @@ function spin() {
     return;
   }
   
-  const filtered = all_recipes.filter(r => {
+  const filtered = allRecipes.filter(r => {
     // Busca aproximada pela categoria formatada
     const catSearch = currentNicho.name.toLowerCase().replace(/[^\w\s]/g, '').trim();
     const recipeCat = r.categoria.toLowerCase().replace(/[^\w\s]/g, '').trim();
