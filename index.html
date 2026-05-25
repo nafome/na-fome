@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title id="pageTitle">Na Fome — Sorteio de Receitas</title>
+  <meta name="description" id="metaDesc" content="Tá com fome mas sem ideia? Sorteie uma receita agora. Receitas rápidas, baratas e fáceis para qualquer situação.">
+  <meta name="keywords" content="receitas fáceis, o que fazer pra comer, receita rápida, receita barata, na fome, sorteio de receitas, receitas brasileiras">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" id="canonical" href="https://nafome.com.br/">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+
+  <!-- Open Graph / WhatsApp / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Na Fome">
+  <meta property="og:title" id="ogTitle" content="Na Fome — Sorteio de Receitas">
+  <meta property="og:description" id="ogDesc" content="Tá com fome mas sem ideia? Sorteie uma receita agora!">
+  <meta property="og:url" id="ogUrl" content="https://nafome.com.br/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" id="twTitle" content="Na Fome — Sorteio de Receitas">
+  <meta name="twitter:description" id="twDesc" content="Tá com fome mas sem ideia? Sorteie uma receita agora!">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- CSS Externo -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page-wrap">
+    <header>
+      <div class="logo" onclick="voltarInicio()" title="Voltar ao início">Na<span>Fome</span> 🍳</div>
+      <div class="tagline">Tá com fome mas sem ideia? A gente resolve isso.</div>
+    </header>
+
+    <div class="section-label">Qual é a sua situação?</div>
+
+    <div class="nichos-row">
+      <div class="scroll-arrow" onclick="scrollNichos(-1)">‹</div>
+      <div class="nichos-scroll" id="nichosScroll">
+        <!-- Nichos renderizados via JS -->
+      </div>
+      <div class="scroll-arrow" onclick="scrollNichos(1)">›</div>
+    </div>
+    <div class="bloco-tag" id="blocoTag"></div>
+
+    <div class="main-cols">
+      <div>
+        <div class="slot-machine">
+          <div class="slot-header">🎰 Sorteio de Receita</div>
+          <div class="slot-window">
+            <div class="slot-overlay"></div>
+            <div class="slot-overlay bot"></div>
+            <div class="slot-line"></div>
+            <div class="slot-inner" id="slotInner">
+              <div class="slot-item"><span>☝️ Escolha um nicho acima</span></div>
+            </div>
+          </div>
+          <button class="spin-btn" id="spinBtn" onclick="spin()">
+            <span id="spinBtnText">🎲 Girar!</span>
+          </button>
+          <div class="slot-hint" id="slotHint">Selecione um nicho para começar</div>
+        </div>
+      </div>
+
+      <div class="result-section" id="resultSection">
+        <div id="resultContent"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    Na Fome © <span id="anoFooter"></span> — Feito pra quem tá com fome e sem ideia 🍽️<br>
+    <a href="#" onclick="abrirModal('sobre'); return false;">Sobre</a> &middot;
+    <a href="#" onclick="abrirModal('privacidade'); return false;">Privacidade</a>
+  </footer>
+
+  <!-- MODAL SOBRE / PRIVACIDADE -->
+  <div class="modal-overlay" id="modalOverlay" onclick="fecharModalFora(event)">
+    <div class="modal-box">
+      <div class="modal-header">
+        <div class="modal-title" id="modalTitle">Sobre o Na Fome</div>
+        <button class="modal-close" onclick="fecharModal()">✕</button>
+      </div>
+      <div class="modal-tabs">
+        <button class="modal-tab active" id="tabSobre" onclick="trocarAba('sobre')">Sobre</button>
+        <button class="modal-tab" id="tabPrivacidade" onclick="trocarAba('privacidade')">Privacidade</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-content active" id="contentSobre">
+          <p>O <strong>Na Fome</strong> nasceu de um problema real: você abre a geladeira, fecha, abre de novo e nada aparece. A ideia é simples — sorteia uma receita e vai pra cozinha.</p>
+          <h3>Como funciona</h3>
+          <p>Escolha a sua situação (tô duro, final do mês, recebi hoje...), aperta Girar e a máquina sorteia uma receita do banco. Cada receita vem com ingredientes, modo de preparo, tempo, custo estimado e uma dica.</p>
+          <h3>De onde vêm as receitas</h3>
+          <p>Todas as receitas são criadas e testadas pela equipe do Na Fome. Foco em receitas acessíveis, com ingredientes que qualquer pessoa tem em casa (ou pode comprar barato).</p>
+          <h3>Contato</h3>
+          <p>Sugestões, receitas ou erros pra reportar: <strong>suporte.nafome@gmail.com</strong></p>
+        </div>
+        <div class="modal-content" id="contentPrivacidade">
+          <p>Sua privacidade é importante. Esta política explica como o Na Fome coleta e usa informações.</p>
+          <h3>Dados coletados</h3>
+          <p>O Na Fome não coleta dados pessoais diretamente. Porém, utilizamos serviços de terceiros que podem coletar dados de uso anônimos, incluindo Google Analytics e Google AdSense.</p>
+          <h3>Cookies e publicidade</h3>
+          <p>Este site pode exibir anúncios do Google AdSense. O Google pode usar cookies para exibir anúncios baseados em visitas anteriores deste ou de outros sites. Você pode optar por não receber publicidade personalizada em <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener">google.com/settings/ads</a>.</p>
+          <h3>Dados de terceiros</h3>
+          <p>Utilizamos fontes de dados externas somente para análise de tráfego (Google Analytics). Nenhum dado pessoal identificável é compartilhado com terceiros além dos citados.</p>
+          <h3>Contato</h3>
+          <p>Dúvidas sobre privacidade: <strong>suporte.nafome@gmail.com</strong></p>
+          <p style="font-size:12px;color:#aaa;margin-top:16px;">Última atualização: Maio de 2026</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Externo -->
+  <script src="js/script.js"></script>
+</body>
+</html>
