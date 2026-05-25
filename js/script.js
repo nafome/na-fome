@@ -24,7 +24,7 @@ const NICHOS = [
   { id: "jantar-romantico", name: "Jantar romântico 🕯️", file: "jantar-romântico-🕯️" },
   { id: "churrasco", name: "Churrasco 🔥", file: "churrasco-🔥" },
   { id: "comida-de-rua", name: "Comida de rua 🥙", file: "comida-de-rua-🥙" },
-  { id: "comida-regional", name: "Comida regional 🇧🇷", file: "comida-regional-🇧🇷" },
+  { id: "comida-regional", name: "Comida regional 🍛", file: "comida-regional-🍛" },
   { id: "detox", name: "Detox 🥒", file: "detox-🥒" },
   { id: "to-de-dieta", name: "Tô de dieta 🥑", file: "to-de-dieta-🥑" },
   { id: "ganhar-massa", name: "Ganhar massa 🏋️", file: "ganhar-massa-🏋️" },
