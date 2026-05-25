@@ -301,3 +301,12 @@ function voltarInicio() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
   setTimeout(() => location.reload(), 500);
 }
+
+function loadRecipeFromURL() {
+  const params = new URLSearchParams(window.location.search);
+  const slug = params.get('receita');
+  if (!slug) return;
+  const recipe = all_recipes.find(r => r.slug === slug);
+  if (!recipe) return;
+  showResult(recipe);
+}
