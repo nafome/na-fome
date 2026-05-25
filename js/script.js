@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 async function loadRecipes() {
   try {
     const response = await fetch('data/receitas.json');
-    all_recipes = await response.json();
+    allRecipes = await response.json();
     console.log(`Carregadas ${all_recipes.length} receitas.`);
   } catch (error) {
     console.error('Erro ao carregar receitas:', error);
