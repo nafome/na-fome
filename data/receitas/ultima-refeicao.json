@@ -1,0 +1,319 @@
+[
+  {
+    "id": 1,
+    "titulo": "O Adeus do Chef: Bife Acebolado Para Quem Quer Ir Com Estilo",
+    "slug": "adeus-do-chef-bife-acebolado-estilo",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "2 bifes de contra-filé (porque se for pra ir, que seja com qualidade)",
+      "1 cebola grande fatiada (chora cebola, que hoje você brilha)",
+      "2 dentes de alho picados (pra afastar até o mau humor)",
+      "2 ovos (fritos, para completar a tristeza dignamente)",
+      "1 xícara de arroz branco",
+      "1 xícara de feijão preto",
+      "Sal e pimenta-do-reino a gosto",
+      "Óleo ou azeite para fritar"
+    ],
+    "modoPreparo": [
+      "Tempere os bifes com sal e pimenta; eles merecem essa última homenagem.",
+      "Em uma panela, frite o alho até dourar (não queime, aqui é despedida, não churrasco na rua).",
+      "Adicione a cebola fatiada e refogue até ficar transparente, porque até a cebola vai limpar suas lágrimas.",
+      "Frite os bifes na frigideira quente com óleo até o ponto que você desejar (seja feliz, você escolhe se vai á carne ou ao céu).",
+      "Cozinhe o arroz normalmente, pensando naquela playlist que você queria ouvir toda vez que comeu isso.",
+      "Cozinhe o feijão até ficar macio, como sua alma precisando de um abraço.",
+      "Frite os ovos, de preferência com a gema mole como seu coração com saudade.",
+      "Monte o prato juntando tudo com a dignidade que sua última refeição merece."
+    ],
+    "descricao": "Quando a última refeição chama, o bife acebolado responde com uma explosão de sabor e consolo. Arroz, feijão e ovo frito? Ah, o combo que até o destino respeita.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "2 porções",
+    "dica": "Se essa última refeição não te fizer esquecer o resto, pelo menos pelo cheiro a vizinhança vai lembrar de você com carinho."
+  },
+  {
+    "id": 2,
+    "titulo": "Frango Frito Crocante: A Última Força Antes do Juízo Final",
+    "slug": "frango-frito-crocante-a-ultima-forca-antes-do-juizo-final",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "500g de coxas de frango (porque peito é para os fracos)",
+      "2 xícaras de farinha de trigo",
+      "1 colher de chá de páprica (pra fingir que você sabe temperar)",
+      "1 colher de chá de alho em pó",
+      "Sal e pimenta do reino a gosto",
+      "2 ovos (para o banho de frango no spa)",
+      "Óleo para fritar (o sonho do colesterol)",
+      "4 batatas médias",
+      "50g de manteiga (porque purê sem manteiga é gente sem alma)",
+      "Leite quente para dar liga",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Lave as coxas de frango e se prepare psicologicamente para a frigideira.",
+      "Em uma tigela, bata os ovos com sal e pimenta; é tipo a rollercoaster do frango.",
+      "Em outra tigela, misture a farinha, páprica, alho em pó, sal e pimenta. Essa é a armadura do frango contra a quela temida fritura.",
+      "Mergulhe o frango nos ovos, depois na farinha. Repita se quiser aumentar a camada protetora (ou a gordura).",
+      "Frite as coxas no óleo quente até ficarem douradas e crocantes, ou até você acreditar que já deu mole pra galinha virar frango bem passado.",
+      "Enquanto isso, descasque as batatas, corte em pedaços e cozinhe em água salgada até ficarem macias – esse é o spa das batatas.",
+      "Amasse as batatas com manteiga e leite quente até virar um purê cremoso, perfeito para abraçar seu frango gorduroso.",
+      "Sirva o frango e o purê juntos, porque na última refeição, a gente quer amor e gordura."
+    ],
+    "descricao": "O clássico frango frito crocante com purê de batata, perfeito para quando sua última refeição precisa ser uma ótima desculpa para esquecer a vida e abraçar o colesterol.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "3 porções",
+    "dica": "Se vai ser a última, abuse da crocância e não economize na manteiga. Afinal, não tem dietinha no além."
+  },
+  {
+    "id": 3,
+    "titulo": "A Última Fatia: Pizza de Calabresa com Mussarela que Vai Te Levar com Sabor",
+    "slug": "a-ultima-fatia-pizza-calabresa-mussarela",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "1 disco de massa para pizza pronta (30cm)",
+      "150g de mussarela ralada",
+      "150g de calabresa fatiada finamente",
+      "100ml de molho de tomate",
+      "Azeite de oliva a gosto",
+      "Orégano a gosto",
+      "Pimenta do reino opcional (pra dar aquele susto final)"
+    ],
+    "modoPreparo": [
+      "Pré-aqueça o forno a 220°C, porque nessa altura você não quer demora.",
+      "Espalhe o molho de tomate no disco de massa, como se estivesse pintando uma obra-prima... ou só cobrindo a cara da fome.",
+      "Cubra com a mussarela ralada – porque nesse momento o queijo é o melhor amigo do homem.",
+      "Distribua as fatias de calabresa por cima, garantindo que cada mordida tenha um pouco de perigo.",
+      "Polvilhe orégano e regue um fio de azeite, porque até o fim do mundo merece sabor.",
+      "Leve ao forno por 12 a 15 minutos, ou até o queijo borbulhar como aquele sentimento de culpa depois de uma pizza inteira."
+    ],
+    "descricao": "A última refeição perfeita pra quem quer partir com gosto, sem frescura e com direito a muito queijo, calabresa e aquele toque de 'amo a vida, mas vou nessa mesmo assim'.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Se está escolhendo sua última refeição, faça questão de que a pizza não acabe antes de você. Priorize as bordas, elas não julgam."
+  },
+  {
+    "id": 4,
+    "titulo": "O Hambúrguer da Sobrevida: Duplo, com Bacon e Queijo pra Quem Vai Comer Até o Último Suspiro",
+    "slug": "o-hamburguer-da-sobrevida-duplo-com-bacon-e-queijo-pra-quem-vai-comer-ate-o-ultimo-suspiro",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "2 hambúrgueres bovinos (150g cada)",
+      "4 fatias de bacon crocante",
+      "2 fatias generosas de queijo cheddar",
+      "2 pães de hambúrguer com gergelim",
+      "Folhas de alface americana",
+      "2 fatias de tomate",
+      "Maionese à gosto",
+      "Ketchup e mostarda para finalizar",
+      "Sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere os hambúrgueres com sal e pimenta a gosto – a vida já é cheia de incertezas, o tempero pelo menos não pode faltar.",
+      "Grelhe os hambúrgueres em fogo médio-alto por cerca de 4 minutos de cada lado para garantir suculência (ou até o ponto que sua consciência culposa aguentar).",
+      "Frite o bacon até ficar crocante — perfeito para dar aquela sensação que você ainda está vivendo ao máximo.",
+      "Enquanto isso, toste levemente os pães para evitar aquele desastre melado no final.",
+      "Coloque uma fatia de queijo cheddar sobre cada hambúrguer ainda na grelha para derreter e deixar tudo mais gostoso (e gorduroso, claro).",
+      "Monte o sanduíche: pão, alface, Hambúrguer com queijo, bacon, tomate, maionese e finalize com o pão de cima.",
+      "Aperte tudo com firmeza, porque última refeição que é última, tem que ser uma explosão de sabor e caloria.",
+      "Sirva imediatamente e aproveite como se não houvesse amanhã (porque o objetivo é que a última refeição seja inesquecível)."
+    ],
+    "descricao": "Para quem quer mandar seu paladar pro além com estilo: hambúrguer duplo, bacon crocante e queijo cheddar derretido que até sua alma vai querer repetir.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 35,00",
+    "porcoes": "1 porção",
+    "dica": "Se a dieta bater na porta, diga que essa é a última refeição... e que depois disso só salada — promessa de comediante, né?"
+  },
+  {
+    "id": 5,
+    "titulo": "Macarrão com Almôndegas: Seu Último Pedido Antes do Juízo Final",
+    "slug": "macarrao-almondegas-ultimo-pedido-juizo-final",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "250g de macarrão tipo espaguete",
+      "300g de carne moída",
+      "1 ovo",
+      "2 dentes de alho picados",
+      "1/2 xícara de farinha de rosca",
+      "1 xícara de molho de tomate",
+      "1 cebola pequena picada",
+      "Sal e pimenta a gosto",
+      "Azeite para fritar",
+      "Queijo parmesão ralado para finalizar (opcional)"
+    ],
+    "modoPreparo": [
+      "Misture a carne moída com o ovo, farinha de rosca, alho, sal e pimenta até formar uma massa homogênea.",
+      "Modele bolinhas pequenas com a massa e reserve.",
+      "Refogue a cebola no azeite até ficar transparente.",
+      "Junte as almôndegas e frite até dourar por todos os lados — imagine que está correndo contra o tempo para fazer sua última refeição valer a pena.",
+      "Adicione o molho de tomate, tampe a panela e deixe cozinhar por 15 minutos em fogo baixo.",
+      "Cozinhe o macarrão conforme as instruções da embalagem — porque mesmo no último momento, ninguém merece macarrão duro.",
+      "Escorra o macarrão e misture ao molho com almôndegas.",
+      "Sirva com queijo ralado para aquele toque de 'vai com Deus'."
+    ],
+    "descricao": "Se você vai encarar o último jantar da sua vida, que seja com macarrão, almôndegas e um pouco de esperança de que o inferno tenha sobremesa.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "3 porções",
+    "dica": "No seu último prato, capriche no tempero, mas não exagere na quantidade — afinal, nem o melhor macarrão do mundo vai deixar você reclamar do tamanho da conta depois."
+  },
+  {
+    "id": 6,
+    "titulo": "Última mordida: Cheeseburger, batata e o refri da salvação",
+    "slug": "ultima-mordida-cheeseburger-batata-refri-salvacao",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "1 pão de hambúrguer com gergelim (porque na última não se passa vontade)",
+      "1 hambúrguer bovino de 150g (pra segurar o rojão)",
+      "2 fatias de queijo cheddar (mais queijo, menos drama)",
+      "Folhas de alface (pra fingir que é saudável)",
+      "2 rodelas de tomate (porque até no fim tem que ter um pouco de cor)",
+      "1 colher de sopa de maionese (aquele toque de “não tô nem aí”)",
+      "100g de batata para fritar (batata é vida)",
+      "Óleo para fritar (pra deixar crocantinho e gordurento)",
+      "1 copo de refrigerante gelado (a última bebida que vai te consolar)"
+    ],
+    "modoPreparo": [
+      "Aqueça uma frigideira e grelhe o hambúrguer até ficar no ponto que sua alma merece.",
+      "Derreta as fatias de queijo em cima do hambúrguer quente, porque queijo derretido é amor líquido.",
+      "Monte o sanduíche: pão, maionese, alface, tomate, hambúrguer com queijo e a parte de cima do pão. Seja generoso, que hoje é sua última refeição!",
+      "Frite as batatas em óleo quente até ficarem douradas e crocantes, do jeito que faz até a tristeza parecer mais gostosa.",
+      "Sirva o cheeseburger acompanhado das batatas fritas e o copo de refrigerante gelado, porque lágrimas combinam com gás.",
+      "Sente, mastigue com calma e aproveite cada mordida como se fosse um final de série da Netflix."
+    ],
+    "descricao": "Se é pra ir, que seja com muito queijo, batata crocante e refri gelado. A última garfada com estilo e zero arrependimento.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "1 porção",
+    "dica": "Não faça dieta na última refeição; o único carboidrato que importa agora é o pão do burger."
+  },
+  {
+    "id": 7,
+    "titulo": "A Última Panqueca: Porque Se For Pra Ir, Que Seja Com Bacon e Maple",
+    "slug": "a-ultima-panqueca-porque-se-for-pra-ir-que-seja-com-bacon-e-maple",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "1 xícara de farinha de trigo",
+      "1 colher de sopa de açúcar",
+      "1 colher de chá de fermento em pó",
+      "1 pitada de sal",
+      "1 xícara de leite",
+      "1 ovo",
+      "2 fatias de bacon",
+      "2 ovos para fritar (modo maníaco de última refeição)",
+      "xarope de maple a gosto",
+      "manteiga para untar a frigideira"
+    ],
+    "modoPreparo": [
+      "Misture a farinha, açúcar, fermento e sal em uma tigela. Parece que sua vida ainda está sob controle.",
+      "Adicione o leite e o ovo, mexa até virar uma massa que não faça você desistir da vida.",
+      "Frite o bacon até ficar crocante – sério, se essa for sua última refeição, que seja com algo que faça barulho na boca.",
+      "Na frigideira untada com manteiga, coloque porções da massa e frite as panquecas até dourar.",
+      "Enquanto isso, faça os ovos fritos do seu jeito favorito: mole, duro ou como um tsunami na frigideira.",
+      "Empilhe as panquecas, coloque o bacon crocante por cima, os ovos e regue com muito xarope de maple. Porque afinal, você merece um final doce, salgado e gorduroso."
+    ],
+    "descricao": "Se vai ser a última, que seja gordice máxima: panqueca com bacon, ovos e maple, a combinação perfeita para dizer “me leva” sem arrependimentos.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Não economize no bacon e no maple; afinal, se essa é sua última refeição, pelo menos deixe sua alma feliz e sua barriga confortável."
+  },
+  {
+    "id": 8,
+    "titulo": "Sorvete de Chocolate com Calda Quente: A Despedida do Prazer Gelado",
+    "slug": "sorvete-de-chocolate-com-calda-quente-a-despedida-do-prazer-gelado",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "2 bolas generosas de sorvete de chocolate (porque se for a última, tem que ser com gosto)",
+      "100 ml de creme de leite",
+      "2 colheres de sopa de cacau em pó",
+      "3 colheres de sopa de açúcar (para adoçar a sua amarga despedida)",
+      "1 pitada de sal (pra equilibrar a vida e a morte)",
+      "1 colher de sopa de manteiga (pra dar aquela escorregada final)"
+    ],
+    "modoPreparo": [
+      "Em uma panela, misture o creme de leite, o cacau em pó, o açúcar e o sal — essa calda quente é o abraço que você vai querer antes de partir.",
+      "Leve ao fogo médio, mexendo sempre, até começar a ferver e engrossar levemente. Não deixe queimar, afinal, a última coisa que você quer é deixar saudade queimada.",
+      "Retire do fogo e acrescente a manteiga mexendo até derreter completamente. Isso é a suavidade que a vida negou.",
+      "Coloque as bolas de sorvete em uma taça grande (pra ninguém ficar pequeno na hora da despedida).",
+      "Despeje a calda quente por cima, assistindo o choque térmico que resume sua existência: quente, frio e uma leve confusão.",
+      "Sirva imediatamente, porque esperar nessa última refeição é para os fracos."
+    ],
+    "descricao": "Quando a última refeição pede um drama gelado com um toque quente para fazer até a morte rir e chorar ao mesmo tempo.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Se for realmente sua última refeição, esqueça as calorias e capriche na calda – afinal, a balança não vai cobrar depois."
+  },
+  {
+    "id": 9,
+    "titulo": "Picanha do Último Suspiro: Brasa, Farofa e Pão de Alho para o Juízo Final",
+    "slug": "picanha-do-ultimo-suspiro-brasa-farofa-pao-alho-juizo-final",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "1 peça de picanha (aprox. 1kg)",
+      "Sal grosso a gosto",
+      "Carvão para grelha",
+      "2 xícaras de farinha de mandioca",
+      "1 cebola picada",
+      "2 dentes de alho picados",
+      "Manteiga (2 colheres de sopa)",
+      "Cheiro-verde a gosto",
+      "4 pães franceses",
+      "1 pote de manteiga com alho (ou faça em casa: manteiga + alho picado + salsinha)"
+    ],
+    "modoPreparo": [
+      "Acenda a churrasqueira e deixe o carvão ficar bem quente — se for a sua última refeição, pelo menos que ela seja quente, né?",
+      "Tempere a picanha com sal grosso generosamente, como se estivesse dizendo 'se eu não sobreviver, pelo menos a carne está bem temperada'.",
+      "Coloque a picanha na grelha sobre a brasa, sem pressa. Deixe o fogo fazer o trabalho; nada de paranoia mexendo o tempo todo.",
+      "Enquanto a picanha assa, derreta a manteiga na frigideira, refogue a cebola e o alho até ficarem dourados, depois acrescente a farinha de mandioca e o cheiro-verde. Misture bem, porque farofa sem essa paixão é só farinha.",
+      "Para o pão de alho, corte os pães ao meio, passe a manteiga de alho por dentro e leve à grelha até ficarem dourados e crocantes — a última chance de sentir aquele cheirinho que faz qualquer abraço ser melhor.",
+      "Quando a picanha estiver corada e suculenta, retire da grelha, deixe descansar um minuto (tempo suficiente para refletir sobre a vida) e fatie.",
+      "Sirva tudo junto, com a farofa crocante e o pão que te fará esquecer por alguns minutos que a vida é curta... mas a picanha é eterna."
+    ],
+    "descricao": "Aquela picanha para celebrar a última refeição com estilo, porque se é para partir, que seja com a barriga cheia e a alma rindo.",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 70,00",
+    "porcoes": "4 porções",
+    "dica": "Se a sua última refeição for essa, garanta que o churrasqueiro não seja você — ninguém merece o 'tchau queimado' no prato final."
+  },
+  {
+    "id": 10,
+    "titulo": "Frango Assado para a Última Ceia: Sobrevivência em Batatas Coradas",
+    "slug": "frango-assado-ultima-ceia-batatas-coradas",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "1 frango inteiro (de preferência um que não te julgue)",
+      "4 batatas médias cortadas em cubos (ou na desculpa perfeita pra sair da academia)",
+      "Alface, tomate e cebola para a salada (a ilusão de saudabilidade final)",
+      "3 dentes de alho amassados",
+      "Suco de 1 limão (não, não é pra bebere, é pra temperar)",
+      "Azeite de oliva o quanto baste (pra deixar a vida mais saborosa)",
+      "Sal e pimenta-do-reino a gosto (porque até na última refeição tem que ter tempero)",
+      "Alecrim fresco (ou aquele que sobrou esquecido no fundo da geladeira)"
+    ],
+    "modoPreparo": [
+      "Pré-aqueça o forno a 200°C, porque todo mundo precisa de calor na vida, principalmente o frango.",
+      "Tempere o frango com alho, limão, sal, pimenta e azeite. Massageie como quem tenta convencer a si mesmo que tudo vai dar certo.",
+      "Coloque o frango em uma assadeira e distribua as batatas ao redor, regando com azeite e temperando com alecrim, sal e pimenta.",
+      "Leve ao forno por cerca de 1h20, ou até o frango estar dourado e as batatas aquele espetáculo crocante, tempo suficiente para repensar todas as suas escolhas de vida.",
+      "Enquanto isso, corte a salada e prepare seu discurso de gratidão pela comida que está prestes a entrar na sua boca.",
+      "Retire o frango e as batatas do forno, sirva com a salada fresca e prepare-se para a última mordida épica."
+    ],
+    "descricao": "A refeição perfeita para aquela última chance de mostrar que você sabe cozinhar — ou pelo menos fingir bem.",
+    "tempo": "90 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Se essa é sua última refeição, pelo menos faça como o frango: fique bem dourado e seja inesquecível."
+  }
+]

@@ -1,0 +1,310 @@
+[
+  {
+    "id": 1,
+    "titulo": "Bacalhau à Brás: Porque até na Páscoa a gente merece um rango que não é só chocolate",
+    "slug": "bacalhau-a-bras-porque-ate-na-pascoa-a-gente-merece-um-rango-que-nao-e-so-chocolate",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "300g de bacalhau dessalgado e desfiado",
+      "4 ovos",
+      "2 batatas médias cortadas em palha ou 1 pacote de batata palha pronta",
+      "1 cebola média picada",
+      "3 dentes de alho picados",
+      "Azeite a gosto",
+      "Salsinha picada a gosto",
+      "Sal e pimenta do reino a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e o alho no azeite até ficarem transparentes – cuidado para não queimar, ninguém gosta de Páscoa com cheiro de churrasco acidental.",
+      "Adicione o bacalhau desfiado e deixe cozinhar por uns 5 minutos para ele se misturar nos temperos e sentir que está em festa.",
+      "Enquanto isso, bata os ovos com uma pitada de sal e pimenta, como se estivesse preparando um discurso para convencer seu estômago de que isso é saudável.",
+      "Misture as batatas palha ao refogado de bacalhau, reserve uma parte para colocar por cima e dar aquele toque crocante – porque quem disse que Páscoa não pode ter textura?",
+      "Despeje os ovos batidos sobre o bacalhau com batata, mexendo suavemente até que os ovos estejam cozidos, mas sem virar um omelete do churrasco de família.",
+      "Finalize com a batata palha reservada e a salsinha picada para aquele visual Instagramável.",
+      "Sirva quente e prepare-se para esquecer, por alguns minutos, que deveria estar comendo ovo de chocolate."
+    ],
+    "descricao": "Se a sua Páscoa anda muito doce, vem conferir o bacalhau à Brás que é quase um tapa na mesa: carinho, sabor e aquela batata palha que todo mundo rouba.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "4 porções",
+    "dica": "Se acabar a batata palha antes do final, não culpe a receita… culpe a família que não sabe esperar jantar."
+  },
+  {
+    "id": 2,
+    "titulo": "Bacalhau com Batatas: O Encontro do Feriado com a Geladeira Vazia",
+    "slug": "bacalhau-com-batatas-o-encontro-do-feriado-com-a-geladeira-vazia",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "500g de bacalhau dessalgado",
+      "4 batatas médias",
+      "1 cebola grande",
+      "3 dentes de alho",
+      "100ml de azeite de oliva",
+      "Salsinha a gosto",
+      "Pimenta-do-reino e sal a gosto",
+      "Azeitonas pretas para decorar"
+    ],
+    "modoPreparo": [
+      "Preaqueça o forno a 200°C e prepare-se para provar que a paciência é uma virtude.",
+      "Descasque as batatas e corte em rodelas grossas, para evitar aquela farofa no prato.",
+      "Corte o bacalhau em lascas generosas – nada de pão no pote, aqui é coração!",
+      "Pique a cebola e o alho e refogue no azeite até que o cheiro comece a atacar as narinas.",
+      "Em uma assadeira, faça camadas – batatas no fundo, bacalhau por cima, e repita como se fosse montar um castelo com comida.",
+      "Regue tudo generosamente com o azeite (afinal, festa sem azeite não é festa).",
+      "Tempere com sal, pimenta e salsinha, um toque de classe para parecer que você sabe cozinhar.",
+      "Leve ao forno por aproximadamente 40 minutos ou até que as batatas estejam macias e o cheiro tenha tomado conta da casa.",
+      "Na hora de servir, decore com as azeitonas – para aquele toque “instagramável” que ninguém perguntou, mas todo mundo ama."
+    ],
+    "descricao": "Se a Páscoa representa renovação, esse bacalhau é a chance de renovar a promessa de que você vai cozinhar mais (pelo menos até a próxima sobremesa congelada).",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 55,00",
+    "porcoes": "4 porções",
+    "dica": "Não esqueça de dessalgar o bacalhau com calma – porque ninguém merece Páscoa com sabor de mar do canal das águas residuais."
+  },
+  {
+    "id": 3,
+    "titulo": "Bolinho de Bacalhau: O Rei da Páscoa que Não Precisa de Ovo",
+    "slug": "bolinho-de-bacalhau-o-rei-da-pascoa-que-nao-precisa-de-ovo",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "500g de bacalhau dessalgado e desfiado",
+      "500g de batatas",
+      "1 cebola média picada",
+      "2 dentes de alho picados",
+      "3 ovos",
+      "Salsinha picada a gosto",
+      "Sal e pimenta-do-reino a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Cozinhe as batatas com casca até ficarem macias, descasque e amasse como purê.",
+      "Misture o bacalhau desfiado com a cebola, alho, salsinha, ovos e o purê de batatas.",
+      "Tempere com sal e pimenta, mas cuidado para não exagerar, o bacalhau já vem com uma pitadinha de mar!",
+      "Modele bolinhos com as mãos (se grudar, não se preocupe, é só um sinal de amor pela cozinha).",
+      "Frite em óleo quente até dourar, igual dignidade em segunda-feira, difícil mas vale a pena!",
+      "Escorra em papel absorvente e sirva quente para impressionar a família (ou pelo menos conquistar o próximo churrasco)."
+    ],
+    "descricao": "Porque na Páscoa não é só ovo que reina: aprenda a fazer o bolinho de bacalhau que faz até sua tia pedir bis.",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "6 porções",
+    "dica": "Se o bolinho escapar da frigideira e voar, não se preocupe, significa que está muito leve... ou que você tá precisando de aula de frying 101."
+  },
+  {
+    "id": 4,
+    "titulo": "Bacalhau ao Molho de Natas: O Papo de Páscoa Que Seu Estômago Vai Amar",
+    "slug": "bacalhau-ao-molho-de-natas-papo-de-pascoa",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "500g de bacalhau dessalgado e desfiado (sim, aquele que parecia um tijolo)",
+      "2 colheres de sopa de azeite de oliva (pra disfarçar a origem piscatória)",
+      "1 cebola grande picada com lágrimas garantidas",
+      "2 dentes de alho picados (pra expulsar o mau olhado)",
+      "200g de creme de leite fresco (as famosas natas)",
+      "100g de queijo parmesão ralado (pra gratinar e impressionar a sogra)",
+      "1 colher de sopa de farinha de trigo (pra dar aquela engrossada esperada)",
+      "300ml de leite integral (fiel amigo do molho)",
+      "Sal e pimenta-do-reino a gosto (mas cuidado pra não transformar em salada)",
+      "Salsinha picada para finalizar (porque ninguém é de ferro)"
+    ],
+    "modoPreparo": [
+      "Pré-aqueça o forno a 200°C e prepare-se pra ver magia acontecendo.",
+      "Em uma panela, aqueça o azeite e refogue a cebola até ela ficar transparente, mas não triste.",
+      "Junte o alho e refogue por mais um minutinho, só pra não deixar ninguém sem companhia.",
+      "Adicione a farinha de trigo e mexa bem para formar um roux – basicamente, aquele molho que parece uma lama deliciosa.",
+      "Vá adicionando o leite aos poucos, mexendo sempre para não criar bolota – tipo reunião chata, ninguém quer.",
+      "Deixe o molho engrossar, tempere com sal e pimenta, e acrescenta o creme de leite para aquela textura de abraço de vó.",
+      "Incorpore o bacalhau desfiado no molho e misture com carinho, como se estivesse consolando um amigo na Páscoa.",
+      "Coloque tudo em um refratário, cubra com o queijo parmesão ralado e leve ao forno para gratinar até dourar (ou até a casa cheirar como um verdadeiro banquete).",
+      "Retire do forno, salpique salsinha e sirva com orgulho (e fome)."
+    ],
+    "descricao": "A receita ideal para quem quer impressionar no almoço de Páscoa e explanar todo seu amor por peixe salgado e molhos cremosos, tudo isso sem perder o humor – porque né, ninguém merece uma Páscoa sem piada e um estômago vazio!",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 65,00",
+    "porcoes": "4 porções",
+    "dica": "Se o bacalhau te olhar torto depois de dessalgar, fala que é só pra garantir que ele perdiu o sal — e não a paciência!"
+  },
+  {
+    "id": 5,
+    "titulo": "Bacalhau com Grão-de-Bico: a Páscoa que sua mãe aprovaria (se ela não fosse tão exigente)",
+    "slug": "bacalhau-com-grao-de-bico-pascoa-da-mamae",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "500g de bacalhau dessalgado",
+      "2 xícaras de grão-de-bico cozido",
+      "1 cebola grande picada",
+      "3 dentes de alho picados",
+      "4 ovos cozidos",
+      "Azeite extra virgem a gosto",
+      "Salsinha picada a gosto",
+      "Sal e pimenta do reino a gosto"
+    ],
+    "modoPreparo": [
+      "Dessalgue o bacalhau com a paciência que você não teve no último encontro amoroso: deixe de molho por 24 horas, trocando a água algumas vezes.",
+      "Cozinhe o grão-de-bico até ficar macio, ou até ele aceitar seu pedido educado para amolecer.",
+      "Em uma panela, refogue a cebola e o alho no azeite até ficarem douradinhos, porque ninguém merece cebola crua em festa de família.",
+      "Junte o bacalhau desfiado e deixe cozinhar por alguns minutos, soltando aquela vontade boa de cheirar a casa.",
+      "Acrescente o grão-de-bico, misture tudo como você mistura suas emoções numa terça-feira à noite.",
+      "Tempere com sal e pimenta do reino a gosto, mas lembre-se: é Páscoa, não carnaval de sabores.",
+      "Sirva com ovos cozidos decorando por cima e uma generosa regada de azeite, porque na vida, e na cozinha, azeite nunca é demais."
+    ],
+    "descricao": "Aquela receita de Páscoa que junta tradição e um toque de humor para ninguém cair no sono à mesa (ou pelo menos tentar). Bacalhau com grão-de-bico, porque a reunião de família merece algo mais que só peixe, e um pouco de stand-up no prato.",
+    "tempo": "90 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 65,00",
+    "porcoes": "4 porções",
+    "dica": "Se o bacalhau insistir em ficar salgado, faça como na vida: troque a água até conseguir o resultado perfeito. E nunca conte para os convidados essa saga—mantenha a mágica viva!"
+  },
+  {
+    "id": 6,
+    "titulo": "Ovo de Páscoa Caseiro: Porque 1kg de chocolate comprando no mercado já é um investimento!",
+    "slug": "ovo-de-pascoa-caseiro-porque-1kg-de-chocolate-e-um-investimento",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "500g de chocolate ao leite (e nada de fingir que é chocolate meio amargo, por favor)",
+      "Forma para ovo de Páscoa (ou a tampa daquele pote de sorvete vazio que você nunca usa)",
+      "1 colher de sopa de manteiga (pra dar brilho e fingir que você é um confeiteiro profissional)",
+      "Papel manteiga para facilitar na hora de desenformar (porque o ovo grudado não combina com felicidade)"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate em banho-maria ou no micro-ondas (sem deixar virar ovo de pedra, por favor).",
+      "Misture a manteiga ao chocolate derretido para dar aquele brilho digno de Instagram.",
+      "Com uma colher, espalhe o chocolate derretido nas formas, não economiza, porque ovo fino é tristeza.",
+      "Leve à geladeira por 15 minutos, repita a camada para ficar mais resistente (ninguém quer ovo que desaba ao primeiro toque!).",
+      "Depois de endurecido, desenforme com jeitinho – ou use a tática do soco na mesa (não recomendado).",
+      "Decore se quiser, ou coma o ovo puro mesmo que já tá valendo."
+    ],
+    "descricao": "Porque fazer ovo de Páscoa em casa é a desculpa perfeita pra comer chocolate sem sentir culpa e dar aquela mão na economia da família.",
+    "tempo": "45 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "1 ovo médio",
+    "dica": "Se o chocolate não quiser desgrudar da forma, culpa da gravidade, mas um pontinho de paciência e outra camada de manteiga na forma podem salvar seu ovo (e sua dignidade)."
+  },
+  {
+    "id": 7,
+    "titulo": "Trufa de Chocolate com Cachaça e Castanha: a Páscoa que embala e crocaa!",
+    "slug": "trufa-de-chocolate-com-cachaca-e-castanha-a-pascoa-que-embala-e-crocaa",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "200g de chocolate meio amargo picado",
+      "100ml de creme de leite fresco",
+      "50ml de cachaça boa (aquela que você não esconde)",
+      "1 colher de sopa de manteiga sem sal",
+      "100g de castanhas-do-pará picadas",
+      "Cacau em pó para enrolar"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate com a manteiga em banho-maria. Se o chocolate tentar fugir, segure firme, ele só quer o seu amor.",
+      "Misture o creme de leite no chocolate derretido até ficar um creme liso. Se ficar empelotado, respira, tá quase lá.",
+      "Adicione a cachaça e mexa bem. Agora a trufa tá na vibe 'festa junina na Páscoa'.",
+      "Leve à geladeira por cerca de 2 horas até firmar. Tempo para preparar a playlist de embalo.",
+      "Com o creme firme, faça bolinhas, role nas castanhas picadas para dar crocância e depois passe no cacau em pó.",
+      "Coloque em forminhas e mantenha na geladeira até a hora de servir para não virar lanchinho de madrugada."
+    ],
+    "descricao": "A trufa que resolve dois problemas: a Páscoa chata e a vontade de beber algo diferente. Chocolate, cachaça e castanha pra ninguém botar defeito e sim confete!",
+    "tempo": "30 min + 2h geladeira",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "15 porções",
+    "dica": "Se as trufas ficaram meio duronas, não se preocupe — é só a cachaça dizendo que você está no clima de festa. Aproveita e proseia!"
+  },
+  {
+    "id": 8,
+    "titulo": "Pavê de Chocolate com Chantilly: Porque Quem Não Quis Pavê na Páscoa, Nunca Foi Feliz",
+    "slug": "pave-de-chocolate-com-chantilly-porque-quem-nao-quis-pave-na-pascoa-nunca-foi-feliz",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "200g de biscoito maisena (ou aquele biscoito esquecido na despensa)",
+      "300ml de creme de leite fresco para chantilly",
+      "200g de chocolate meio amargo picado",
+      "2 colheres de sopa de açúcar",
+      "1 caixa de leite condensado",
+      "1 caixa de creme de leite",
+      "1 colher de sopa de manteiga",
+      "100ml de leite para molhar os biscoitos",
+      "Chocolate granulado para decorar"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate com a manteiga em banho-maria, mexendo até ficar homogêneo — sem queimar, afinal, ninguém quer chocolate amargo e drama extra.",
+      "Misture o leite condensado e o creme de leite ao chocolate derretido para formar uma ganache cremosa.",
+      "Molhe rapidamente os biscoitos no leite, com cuidado para não virar sopa, e faça uma camada no fundo da forma.",
+      "Cubra os biscoitos com uma camada generosa da ganache de chocolate.",
+      "Repita as camadas até acabar os ingredientes, terminando com ganache.",
+      "Bata o creme de leite fresco com o açúcar até virar chantilly — e sem perder a linha, como na reunião do trabalho.",
+      "Cubra o pavê com o chantilly e decorate com chocolate granulado.",
+      "Leve à geladeira por pelo menos 4 horas (ou até a próxima reunião familiar)."
+    ],
+    "descricao": "O pavê que vai salvar sua Páscoa e convencer todo mundo que até comida pode ser motivo de piada e festa!",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "8 porções",
+    "dica": "Se alguém reclamar que tá querendo pavê ou pacomê, lembre que na vida o importante é ter chantilly — e bom humor!"
+  },
+  {
+    "id": 9,
+    "titulo": "Mousse de Chocolate com Ovos de Codorna: Delícia Mini, Estresse Máximo",
+    "slug": "mousse-de-chocolate-com-ovos-de-codorna-delicia-mini-estresse-maximo",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "200g de chocolate meio amargo",
+      "3 ovos (separe as claras das gemas)",
+      "12 ovos de codorna cozidos e descascados",
+      "3 colheres de sopa de açúcar",
+      "1 lata de creme de leite sem soro",
+      "1 pitada de sal"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate em banho-maria ou no micro-ondas com cuidado para não virar carvão — porque ninguém merece mousse salgada de carvão.",
+      "Separe as claras das gemas e bata as claras em neve com uma pitada de sal, porque até na cozinha a gente tenta fazer as coisas subirem.",
+      "Misture as gemas ao chocolate derretido e depois incorpore delicadamente o creme de leite.",
+      "Adicione o açúcar ao suspiro (claras em neve) e misture tudo com jeitinho, como quem conversa com o crush pela primeira vez.",
+      "Em taças pequenas ou em um refratário, coloque uma camada de mousse, disponha os ovos de codorna cortados pela metade — a parte mais desafiadora, porque descascar esses mini ovos parece um trabalho de ninja.",
+      "Finalize com outra camada de mousse e leve à geladeira por pelo menos 4 horas para firmar e para você ter tempo de rir queimar os dedos com o chocolate quente."
+    ],
+    "descricao": "Uma mousse sofisticada que usa os ovos de codorna para transformar sua Páscoa em uma caça ao tesouro gastronômica — porque encontrar um ovinho miniatura nas sobremesas é tipo academia mental.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "6 porções",
+    "dica": "Descascar os ovos de codorna é a verdadeira prova de paciência; aproveite para praticar a meditação ou xingar baixinho enquanto ninguém ouve."
+  },
+  {
+    "id": 10,
+    "titulo": "Bolo de Cenoura: A Verdadeira Verdura que se Fantasia de Sobremesa na Páscoa",
+    "slug": "bolo-de-cenoura-verdadeira-verdura-que-se-fantasia-de-sobremesa-na-pascoa",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "3 cenouras médias raladas (porque cenoura crua não é opção)",
+      "4 ovos (a proteína oficial da proteína da Páscoa)",
+      "1 xícara de óleo (se for de girassol, parabéns, você é fitness)",
+      "2 xícaras de açúcar (porque porcaria saudável não é o nosso foco)",
+      "2 e 1/2 xícaras de farinha de trigo (a base da felicidade)",
+      "1 colher de sopa de fermento em pó (o foguete que levanta o bolo)",
+      "200g de chocolate meio amargo para cobertura (porque mais amargo que o seu chefe)",
+      "3 colheres de sopa de manteiga (que a gente não conta calorias nessa festa)",
+      "3 colheres de sopa de leite (pra dar aquela cremosa que é tipo abraço de vó)"
+    ],
+    "modoPreparo": [
+      "Pré-aqueça o forno a 180°C - ou faça como eu, ligue o forno e esqueça, vai dar certo.",
+      "No liquidificador, bata as cenouras raladas, ovos e óleo até virar aquele suco laranja suspeito.",
+      "Despeje tudo numa tigela e misture com açúcar e farinha até parecer uma massa de boliche, mas não tão dura.",
+      "Adicione o fermento last minute, tipo fofoca boa, e misture rapidinho.",
+      "Coloque a massa em uma forma untada e enfarinhada. Já aproveita pra lamber a colher, ninguém vai julgar.",
+      "Asse por cerca de 40 minutos, ou até quando o palito sair limpinho (ou você cansar de esperar).",
+      "Enquanto isso, derreta o chocolate com manteiga e leite em banho-maria (ou método ‘mimimi, por que não derrete?’, mexa sempre).",
+      "Espalhe a cobertura no bolo quando ele estiver frio, porque vamos combinar que chocolate quente no bolo de cenoura é quase uma bomba relógio."
+    ],
+    "descricao": "Quem disse que cenoura é só para coelhos? Esse bolo é a prova de que até uma verdura pode entrar na festa da Páscoa com direito a chocolate e tudo.",
+    "tempo": "60 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "10 porções",
+    "dica": "Se ninguém quiser dividir o bolo, finja que experimentou demais e vá dormir cedo — amanhã a dieta começa mesmo, né?"
+  }
+]

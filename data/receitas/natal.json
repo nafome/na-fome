@@ -1,0 +1,323 @@
+[
+  {
+    "id": 1,
+    "titulo": "Peru Turbinado com Farofa que Faz Até a Tia Chata Querer Repeteco",
+    "slug": "peru-turbinado-farofa-tia-chata-repeteco",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "1 peru inteiro (3 a 4 kg)",
+      "200g de bacon picado",
+      "150g de castanhas-do-pará picadas",
+      "2 xícaras de farinha de mandioca",
+      "1 cebola média picada",
+      "3 dentes de alho picados",
+      "2 colheres de sopa de manteiga",
+      "Salsinha picada a gosto",
+      "Sal e pimenta-do-reino a gosto",
+      "Suco de 1 limão",
+      "2 folhas de louro",
+      "1/2 xícara de vinho branco seco"
+    ],
+    "modoPreparo": [
+      "Tempere o peru com sal, pimenta, suco de limão e folhas de louro. Deixe marinando por pelo menos 4 horas, ou até o peru ficar com inveja do pavê da sua tia.",
+      "Em uma panela, derreta a manteiga e refogue o bacon até ficar douradinho (cheiro que conquista até o Papai Noel).",
+      "Acrescente a cebola e o alho, refogue até ficarem transparentes (tipo as desculpas do seu amigo para não ir na ceia).",
+      "Junte as castanhas, mexa bem e depois adicione a farinha de mandioca, mexendo até ficar tudo bem incorporado e sequinho como a conversa do tio no churrasco.",
+      "Finalize com salsinha e ajuste o sal e a pimenta.",
+      "Recheie o peru com essa farofa poderosa, feche com palitos ou linha para não escapar a farofa — porque fugir nessa hora só se for da dieta.",
+      "Coloque o peru em uma assadeira, regue com o vinho branco e cubra com papel alumínio.",
+      "Asse em forno preaquecido a 180°C por cerca de 3 horas, retirando o papel alumínio nos últimos 40 minutos para dourar e fazer inveja no vizinho.",
+      "Deixe o peru descansar por 15 minutos antes de cortar, senão até a farofa vai ficar traumatizada."
+    ],
+    "descricao": "O peru que vai deixar sua família falando de comida e não de política na ceia de Natal. Recheado com farofa de castanhas e bacon, para conquistar paladares e desafiar dietas.",
+    "tempo": "4h",
+    "dificuldade": "Médio",
+    "preco": "R$ 90,00",
+    "porcoes": "10 porções",
+    "dica": "Se sobrar farofa, aproveite para fazer aquele lanchinho meia-noite, porque ninguém merece acordar só para peruar de novo."
+  },
+  {
+    "id": 2,
+    "titulo": "Tender Glaceado: Quando o Natal Resolve Enganar Sua Dieta",
+    "slug": "tender-glaceado-quando-o-natal-resolve-enganar-sua-dieta",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "1 tender defumado (aprox. 1,5 kg)",
+      "5 colheres de sopa de mel",
+      "3 colheres de sopa de mostarda amarela",
+      "Cravos-da-índia a gosto",
+      "Suco de 1 laranja",
+      "1/2 xícara de água",
+      "Pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Faça cortes superficiais no tender formando um losango e espete os cravos-da-índia em alguns dos cortes (pra dar aquele charme que o peru não tem).",
+      "Misture o mel, a mostarda, o suco de laranja, a água e a pimenta-do-reino em uma tigela até virar uma cobertura que vai enganar seu cérebro dizendo que você está fazendo algo saudável.",
+      "Pincele o tender com essa mistura generosamente (ou seja, se joga no mel que o Natal é só uma vez por ano).",
+      "Leve ao forno pré-aquecido a 180°C por aproximadamente 40 minutos, regando de vez em quando com o molho para não deixar o bicho morrer de sede.",
+      "Quando estiver dourado e caramelizado, retire do forno, deixe descansar uns 5 minutos (pra fingir que você tem paciência)… e sirva para a família perguntando: ‘Quem precisa da dieta quando tem tender assim?’"
+    ],
+    "descricao": "O tender glaceado que é tão doce quanto as promessas de dieta no Réveillon, mas infinitamente mais gostoso.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 70,00",
+    "porcoes": "6 porções",
+    "dica": "Se alguém reclamar do preço, fale que o verdadeiro ingrediente especial é o estresse de explicar todo ano que você não vai fazer arroz com passas."
+  },
+  {
+    "id": 3,
+    "titulo": "Pernil de Porco Natalino: Mais Alho Que Vizinho Detetive",
+    "slug": "pernil-de-porco-natalino-mais-alho-que-vizinho-detetive",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "1 pernil de porco de aproximadamente 3kg",
+      "10 dentes de alho amassados (pra espantar até o Grinch)",
+      "2 laranjas (suco e raspas)",
+      "Sal a gosto (não seja mão de vaca)",
+      "Pimenta-do-reino moída na hora",
+      "3 colheres de sopa de azeite",
+      "Alecrim fresco a gosto",
+      "1 cebola grande picada",
+      "1 xícara de vinho branco seco (ou aquele que sobrou da ceia)"
+    ],
+    "modoPreparo": [
+      "Faça pequenos cortes no pernil para o tempero invadir como fofoca de família.",
+      "Misture o alho, suco e raspas de laranja, azeite, sal, pimenta, alecrim e cebola para a marinada que vai fazer o pernil cantar.",
+      "Espalhe essa marinada no pernil, esfregando como se fosse o creme milagroso da beleza, e deixe na geladeira por pelo menos 12 horas (ou até o vizinho pedir o segredo).",
+      "Pré-aqueça o forno a 180ºC. Coloque o pernil numa assadeira e regue com o vinho branco, para não deixar o assunto secar.",
+      "Cubra com papel alumínio e asse por cerca de 3 horas, regando de vez em quando com o próprio suco, pra manter a fama de suculento.",
+      "Nos últimos 30 minutos, retire o papel para dourar e conquistar aquela casquinha crocante que faz todo mundo esconder a dieta.",
+      "Deixe descansar por uns 15 minutos antes de fatiar, assim o pernil se ajeita, igual a gente quando tenta parecer adulto."
+    ],
+    "descricao": "O pernil de porco que vai fazer seu Natal brilhar mais que pisca-pisca! Com bastante alho pra evitar visita indesejada e laranja pra aquele toque azedinho que todo tio gosta de fingir que entende.",
+    "tempo": "4h",
+    "dificuldade": "Médio",
+    "preco": "R$ 70,00",
+    "porcoes": "10 porções",
+    "dica": "Se alguém reclamar do cheiro de alho, diga que é o espírito natalino te possuindo... ou o vampiro mais próximo saindo de perto."
+  },
+  {
+    "id": 4,
+    "titulo": "Rabanada Tradicional: A Desculpa Perfeita Para Repetir a Ceia",
+    "slug": "rabanada-tradicional-a-desculpa-perfeita-para-repetir-a-ceia",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "6 fatias de pão francês dorminhoco (de pelo menos 2 dias)",
+      "2 ovos (porque só pão não dá sustância)",
+      "1 xícara de leite (para molhar a alma... e o pão)",
+      "1 colher de sopa de açúcar (a medida oficial do Natal)",
+      "1 colher de chá de canela em pó (o tempero do amor e da barriga cheia)",
+      "Óleo ou manteiga para fritar (acredite, isso é necessário para a magia acontecer)",
+      "Açúcar e canela em pó para polvilhar (invista nessa combinação que é sucesso garantido)"
+    ],
+    "modoPreparo": [
+      "Em uma tigela, bata os ovos com o leite, o açúcar e a canela até formar um creme que vai fazer seu coração aquecer.",
+      "Molhe cada fatia de pão nesse creme, mas sem deixar virar uma panqueca. Você quer rabanada, não sopa.",
+      "Aqueça o óleo ou manteiga em uma frigideira. Se for usar manteiga, aproveite pra não sentir tão culpado.",
+      "Frite as fatias até ficarem douradinhas dos dois lados. Se não dourar, não conte pra ninguém que tentou.",
+      "Escorra em papel absorvente para tirar o excesso de gordura – porque hoje é Natal, não carnaval no quentinho.",
+      "Polvilhe generosamente com a mistura de açúcar e canela. Lembre-se: se não tiver açúcar pra jogar, nem vale a pena."
+    ],
+    "descricao": "Aquela rabanada que a vovó faz para a gente repetir a ceia umas três vezes, porque só o Panetone não engorda tanto.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "6 porções",
+    "dica": "Se a rabanada não ficar perfeita, culpe o pão. Se ficar, guarde o segredo para o Natal do ano que vem."
+  },
+  {
+    "id": 5,
+    "titulo": "Panetone Caseiro: Porque Natal sem fruta cristalizada é tipo festa sem tio do pavê",
+    "slug": "panetone-caseiro-porque-natal-sem-fruta-cristalizada-e-tipo-festa-sem-tio-do-pave",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "500g de farinha de trigo",
+      "100g de açúcar",
+      "10g de sal",
+      "20g de fermento biológico fresco",
+      "200ml de leite morno",
+      "4 ovos",
+      "150g de manteiga em temperatura ambiente",
+      "200g de frutas cristalizadas",
+      "100g de uvas-passas",
+      "1 colher de sopa de essência de baunilha",
+      "Raspas de 1 laranja",
+      "Raspas de 1 limão",
+      "1 gema para pincelar"
+    ],
+    "modoPreparo": [
+      "Dissolva o fermento no leite morno com uma colher de açúcar e deixe ativar por 10 minutos. Se não espumar, melhor trocar o fermento e repensar a vida.",
+      "Em uma tigela grande, misture a farinha, o açúcar, o sal, as raspas de laranja e limão.",
+      "Faça uma cova no meio e adicione os ovos, manteiga, essência de baunilha e o fermento ativado. Misture até formar uma massa pegajosa. Se grudou na mão, parabéns, você está no caminho certo.",
+      "Sove a massa por uns 15 minutos até ficar elástica e brilhante. Se sua cozinha ficar parecendo academia, é normal.",
+      "Cubra a massa com um pano úmido e deixe descansar por 1h30 até dobrar de volume. Aproveite para maratonar algo, porque paciência é ingrediente surpresa.",
+      "Incorpore as frutas cristalizadas e as uvas-passas, distribuindo bem. Se sobrar fruta, coma sem culpa, é Natal!",
+      "Coloque a massa em uma forma de panetone de 1kg, pincele com gema e deixe crescer por mais 40 minutos.",
+      "Pré-aqueça o forno a 180ºC e asse o panetone por 40 a 50 minutos ou até dourar e passar no teste do palito (que é menos traumático que o de matemática).",
+      "Deixe esfriar, corte uma fatia e finja que é saudável pelo esforço envolvido."
+    ],
+    "descricao": "Aprenda a fazer um panetone caseiro tão gostoso que sua tia vai pedir receita e seu tio do pavê vai perder o posto.",
+    "tempo": "2h40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "10 porções",
+    "dica": "Se errar a receita, diga que é uma nova versão gourmet. Natal perdoa tudo, menos panetone sem coração."
+  },
+  {
+    "id": 6,
+    "titulo": "Chester Assado com Laranja e Ervas: o Natal que vai fazer até a tia comer sem reclamar",
+    "slug": "chester-assado-laranja-ervas-tia-silenciosa",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "1 Chester inteiro (aproximadamente 3kg)",
+      "3 laranjas (suco e raspas)",
+      "4 dentes de alho amassados",
+      "2 ramos de alecrim fresco",
+      "2 ramos de tomilho fresco",
+      "1 colher de sopa de manteiga",
+      "Sal e pimenta-do-reino a gosto",
+      "Azeite de oliva"
+    ],
+    "modoPreparo": [
+      "Preaqueça o forno a 200°C – assim você já começa o preparo com o mesmo calor que o Natal na casa da sogra.",
+      "Esprema o suco das laranjas e reserve as raspas – porque laranja no Natal é tipo aquele tio no churrasco: indispensável.",
+      "Misture o suco das laranjas, alho, manteiga derretida, azeite, sal, pimenta, alecrim, tomilho e raspas de laranja para fazer a 'marinada da paz'.",
+      "Massageie o Chester com essa mistura como se estivesse tentando convencer o peru a não fugir da ceia.",
+      "Leve o Chester ao forno, coberto com papel alumínio, por cerca de 2 horas. Retire o papel e deixe dourar por mais 30 minutos – para garantir aquele bronzeado natalino digno de Instagram.",
+      "Deixe descansar por 10 minutos antes de fatiar, porque até a ave merece um descanso depois de tanta maratona."
+    ],
+    "descricao": "A receita que vai salvar seu Natal e, de quebra, fazer aquele parente chato elogiar a comida pela primeira vez na história.",
+    "tempo": "2h 45min",
+    "dificuldade": "Médio",
+    "preco": "R$ 70,00",
+    "porcoes": "8 porções",
+    "dica": "Se o Chester ficar seco, finja que foi o calor da discussão familiar que causou isso; na próxima vez, aumente a manteiga e a paciência."
+  },
+  {
+    "id": 7,
+    "titulo": "Arroz Natalino: O Casamento Feliz entre Uvas Passas e Castanhas (Sem Discussão Familiar)",
+    "slug": "arroz-natalino-casamento-ufp-castanhas-sem-discussao-familiar",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "2 xícaras de arroz branco",
+      "4 xícaras de água",
+      "1/2 xícara de uvas passas",
+      "1/2 xícara de castanhas picadas (castanha-do-pará ou caju)",
+      "1 colher de sopa de manteiga",
+      "1 cebola pequena picada",
+      "2 dentes de alho picados",
+      "Sal a gosto",
+      "Pimenta-do-reino a gosto",
+      "Salsinha picada para decorar"
+    ],
+    "modoPreparo": [
+      "Lave bem o arroz para tirar aquela farinha que ninguém quer na boca no Natal.",
+      "Em uma panela, refogue a cebola e o alho na manteiga até ficarem douradinhos, porque até o arroz gosta de dar uma bronzeada.",
+      "Adicione o arroz e mexa por 2 minutos para ele entrar no clima natalino.",
+      "Coloque a água, o sal e a pimenta, tampe e cozinhe em fogo baixo por cerca de 15 minutos ou até a água secar.",
+      "Enquanto isso, hidrate as uvas passas em água morna por 5 minutos, para ficarem mais fofinhas que sua tia no almoço de Natal.",
+      "Quando o arroz estiver pronto, misture as uvas passas e as castanhas picadas — a combinação que nem a sua sogra consegue criticar.",
+      "Desligue o fogo e tampe a panela por 5 minutos para dar aquele descanso merecido.",
+      "Salpique salsinha para parecer que você sabe cozinhar além do arroz com ovo."
+    ],
+    "descricao": "O arroz que vai salvar você das conversas chatas no Natal — com passas e castanhas que garantem crocância e doçura sem frescura.",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "6 porções",
+    "dica": "Se a família reclamar que tem passas demais, diga que elas são as estrelinhas cadentes do seu prato. Sempre funciona."
+  },
+  {
+    "id": 8,
+    "titulo": "Farofa de Natal que Até a Vovó Aprova (ou Finge Que Aprova)",
+    "slug": "farofa-natal-vovo-aprova",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "2 xícaras de farinha de mandioca",
+      "200g de linguiça calabresa cortada em cubos",
+      "1 cebola média picada",
+      "2 dentes de alho picados",
+      "1/2 xícara de frutas secas picadas (uva-passas, damasco e ameixa)",
+      "1/4 xícara de castanha de caju picada",
+      "3 colheres de sopa de manteiga",
+      "Sal e pimenta-do-reino a gosto",
+      "Salsa picada para finalizar"
+    ],
+    "modoPreparo": [
+      "Em uma frigideira grande, derreta a manteiga e refogue a cebola até ficar transparente. Se a cebola começar a gritar, é só sinal que você está no caminho certo.",
+      "Acrescente o alho e a linguiça calabresa. Frite até a linguiça estar dourada e soltando aquele cheiro que faz qualquer dieta correr.",
+      "Junte as frutas secas e as castanhas, mexendo com amor e paciência, como quem evita discutir política na ceia.",
+      "Adicione a farinha de mandioca aos poucos, misturando tudo até a farofa ficar dourada e com aquela textura que faz o peru parecer coadjuvante.",
+      "Tempere com sal, pimenta e finalize com salsa picada para fingir que foi saudável desde o início."
+    ],
+    "descricao": "Uma farofa de Natal que reúne sabor, tradição e aquela pitada de 'quero mais' que até a tia que só come alface vai querer repetir.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "6 porções",
+    "dica": "Se sobrar farofa, não guarde para amanhã: use como arma secreta para conquistar os amigos no churrasco do ano novo."
+  },
+  {
+    "id": 9,
+    "titulo": "Bacalhau ao Forno: Porque Natal Sem Bagunça é Só Segunda-feira",
+    "slug": "bacalhau-ao-forno-porque-natal-sem-bagunca-e-so-segunda-feira",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "500g de bacalhau dessalgado e desfiado (ou aquele que sobre do amigo gourmet)",
+      "4 batatas médias cortadas em rodelas (para fingir que é saudável)",
+      "1 cebola grande fatiada (chore, você merece)",
+      "2 dentes de alho picados (porque vampiros não são convidados)",
+      "100g de azeitonas pretas sem caroço (a vida tem que ter algum preto aqui e ali)",
+      "Azeite de oliva extra virgem (porque a gente finge que é fitness no Natal)",
+      "Salsinha picada a gosto (para parecer que sabe cozinhar)",
+      "Pimenta-do-reino e sal a gosto (leva calma, é Natal, não competição)"
+    ],
+    "modoPreparo": [
+      "Pré-aqueça o forno a 200°C. Se você já está quente por dentro, é só ligar o forno mesmo.",
+      "Cozinhe as batatas em água fervente até ficarem macias. Nada de virar purê, hein!",
+      "Enquanto isso, refogue a cebola e o alho no azeite até ficarem douradinhos – aproveite pra sentir aquele cheirinho de vitória.",
+      "Misture o bacalhau com a cebola, alho, batatas e as azeitonas.",
+      "Tempere com sal, pimenta e salsinha. Lembre-se que o tempero é igual piada: menos é mais.",
+      "Coloque tudo em um refratário, regue com mais azeite e leve ao forno por cerca de 20 minutos até dourar e fazer os vizinhos invejarem sua ceia.",
+      "Sirva quente, com a certeza que vai ser a única coisa que todo mundo vai perguntar onde você comprou."
+    ],
+    "descricao": "Aquela receita de Natal que junta tradição, preguiça e muito sabor, para você impressionar sem precisar de manual do sogro.",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 70,00",
+    "porcoes": "4 porções",
+    "dica": "Se alguém reclamar que é pouco salgado, ofereça mais vinho. Funciona no Natal e na vida."
+  },
+  {
+    "id": 10,
+    "titulo": "Salpicão de Frango: O Natal que a Vovó Aprovou (Depois de Reclamar Da Cozinha Toda Hora)",
+    "slug": "salpicao-de-frango-natal-vovo-aprovou",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "500g de peito de frango desfiado",
+      "1 cenoura grande ralada",
+      "1 maçã verde picada em cubos",
+      "1 lata de milho verde escorrido",
+      "1/2 xícara de uvas-passas (opcional para os corajosos)",
+      "1 vidro pequeno de maionese",
+      "1 vidro pequeno de creme de leite",
+      "Sal e pimenta-do-reino a gosto",
+      "Salsinha picada a gosto",
+      "Batata palha para finalizar (muita batata palha)"
+    ],
+    "modoPreparo": [
+      "Cozinhe o peito de frango em água com um pouco de sal até ficar macio. Depois, desfie com as mãos para aproveitar a força do espírito natalino.",
+      "Em uma tigela grande, misture o frango desfiado, a cenoura ralada, a maçã picada, o milho verde e as uvas-passas — porque Natal sem uva-passa é como amigo sem piada ruim.",
+      "Adicione a maionese e o creme de leite aos poucos, misturando até ficar com a textura que sua tia vai elogiar, mas sua mãe vai dizer que tá demais.",
+      "Tempere com sal, pimenta e salsinha a gosto. Lembre-se: comida sem tempero é igual presente sem papel de presente, triste e sem graça.",
+      "Leve à geladeira por pelo menos 1 hora para pegar aquele clima de reunião familiar fria e longa.",
+      "Na hora de servir, jogue a batata palha por cima — porque ninguém merece salpicão sem batata palha crocante, isso é só sopa rica em salada."
+    ],
+    "descricao": "O salpicão de frango que vai salvar seu Natal: fácil, saboroso e com batata palha suficiente para cobrir suas frustrações familiares.",
+    "tempo": "60 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "6 porções",
+    "dica": "Se sobrar, diga que é 'ceia do dia seguinte' para justificar comer frio no café da manhã — tradição de verdade."
+  }
+]

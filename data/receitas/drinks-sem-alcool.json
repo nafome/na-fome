@@ -1,0 +1,269 @@
+[
+  {
+    "id": 1,
+    "titulo": "Limonada Suíça com Leite Condensado: O Suco que Engana que é Sobremesa",
+    "slug": "limonada-suica-com-leite-condensado-o-suco-que-engana-que-e-sobremesa",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "3 limões grandes",
+      "200 ml de água gelada",
+      "4 colheres de sopa de leite condensado",
+      "gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Lave bem os limões e corte as extremidades para evitar amargor, a menos que você goste da vida um pouco amarga.",
+      "Corte os limões em pedaços e coloque no liquidificador com a água gelada.",
+      "Bata rapidamente só para triturar os limões sem transformar tudo numa sopa de bagaço.",
+      "Coe a mistura para tirar as sementes e o bagaço—ninguém quer engolir limão com caroço, a não ser que queira reclamar do estômago depois.",
+      "Adicione o leite condensado, mexa bem e ajuste o doce, porque ninguém merece uma limonada que parece tristeza com azedo demais.",
+      "Finalize com gelo e sirva geladinha, porque calor e limonada docinha é uma combinação que só o verão entende."
+    ],
+    "descricao": "Uma limonada que é o típico amigo que engana no visual: parece suquinho, mas chega chegando como sobremesa líquida. Ah, e sem álcool, porque a vida já é amarga suficiente sem precisar disso.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "4 porções",
+    "dica": "Se quiser impressionar, arrisque um guardanapo dizendo que é receita da vovó; funciona igual a uma boa piada: o segredo está na entrega."
+  },
+  {
+    "id": 2,
+    "titulo": "Refresco de Paraíso: Água de Coco com Hortelã e Limão pra Fingir que Tá na Praia",
+    "slug": "refresco-de-paraiso-agua-de-coco-com-hortela-e-limao",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "500 ml de água de coco gelada",
+      "10 folhas de hortelã frescas",
+      "Suco de 1 limão siciliano",
+      "Gelo a gosto",
+      "Rodelas de limão para decorar"
+    ],
+    "modoPreparo": [
+      "Em um copo grande, amasse delicadamente as folhas de hortelã para liberar o aroma (não vire um jardim suspenso, só um soco suave).",
+      "Adicione o suco do limão siciliano e a água de coco gelada.",
+      "Misture tudo com uma colher, enquanto tenta imaginar que está numa praia e não no apartamento apertado.",
+      "Complete com gelo a gosto e decore com as rodelas de limão.",
+      "Sirva imediatamente antes que a vontade de tomar uma caipirinha verdadeira te ataque."
+    ],
+    "descricao": "Uma bebida tropical que te faz sentir na praia, mesmo que a única areia por perto seja a do planejamento das férias.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,50",
+    "porcoes": "2 porções",
+    "dica": "Se a água de coco acabar, finja que água filtrada com hortelã é um spa para o seu paladar. Ninguém precisa saber."
+  },
+  {
+    "id": 3,
+    "titulo": "Suquinho Zen: Maracujá com Menta pra Desestressar Sem Pirar no Álcool",
+    "slug": "suquinho-zen-maracuja-com-menta-pra-desestressar-sem-pirar-no-alcool",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "2 maracujás grandes (ou 1 xícara de polpa congelada, porque ninguém merece espremer põe-lá-tudo-em-guerra)",
+      "1 punhado generoso de folhas de menta frescas",
+      "1 litro de água gelada",
+      "2 colheres de sopa de açúcar (ou adoçante, para não virar um docinho de vó moderninha)",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Corte os maracujás ao meio e retire a polpa (sem fazer cara de quem tá arrancando o coração do bicho).",
+      "No liquidificador, bata a polpa com a água e o açúcar até misturar bem – se não tiver liquidificador, respira fundo e prepara pra suar.",
+      "Coele para tirar as sementes, porque ninguém quer mastigar mais semente que chiclete.",
+      "Misture as folhas de menta delicadamente – mas não pisoteie elas, esse é o suco zen, não um campo de guerra.",
+      "Sirva com muito gelo e uma folha de menta pra fingir que a vida tá sob controle."
+    ],
+    "descricao": "Um drink que te deixa zen sem te fazer investir em terapia ou vodka. Maracujá com menta: a dupla que canta 'calma que a vida é um suco'.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida tá difícil, pelo menos o suco pode ser refrescante – e se alguém reclamar, oferece um gole pra nem precisar discutir."
+  },
+  {
+    "id": 4,
+    "titulo": "Chá Gelado de Hibisco com Laranja: Porque Água é Muito Sem Graça",
+    "slug": "cha-gelado-de-hibisco-com-laranja-agua-e-muito-sem-graca",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "2 saquinhos de chá de hibisco",
+      "500 ml de água filtrada",
+      "1 laranja média",
+      "2 colheres de sopa de mel ou adoçante de sua preferência",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Ferva a água e desligue o fogo.",
+      "Coloque os saquinhos de chá de hibisco na água quente e deixe em infusão por 5 a 7 minutos. Nada de virar chá de força, ok?",
+      "Esprema a laranja, separando o suco das sementes (não convidadas).",
+      "Misture o suco da laranja e o mel no chá ainda morno, mexa até dissolver o mel – tipo um bartender hipster, mas em casa.",
+      "Leve para gelar na geladeira por pelo menos 1 hora, ou até ficar tão gelado quanto a sua ex nas segundas-feiras.",
+      "Sirva com bastante gelo e, se quiser, uma rodela de laranja para fingir que você é chique."
+    ],
+    "descricao": "Um chá gelado que é reforço fitness para quem quer hidratar com estilo e sem virar suco sem açúcar amarga.",
+    "tempo": "15 min (+ 1h de geladeira)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,50",
+    "porcoes": "4 porções",
+    "dica": "Se achar que falta ‘bala na agulha’, peça um suco de limão extra e finja que sabe de coquetelaria."
+  },
+  {
+    "id": 5,
+    "titulo": "Limonada Rosa: A Bebida que Seu Ex Nunca Te Deu",
+    "slug": "limonada-rosa-a-bebida-que-seu-ex-nunca-te-deu",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "500 ml de água gelada",
+      "1 limão tahiti espremido",
+      "2 colheres de sopa de açúcar (ou aquele chá de açúcar que você tem na gaveta)",
+      "100 ml de suco de framboesa (pode ser natural ou congelada)",
+      "Gelo a gosto",
+      "Framboesas inteiras para decorar (opcional)"
+    ],
+    "modoPreparo": [
+      "Misture a água gelada com o suco de limão e o açúcar até dissolver bem (assim como você tenta dissolver os problemas).",
+      "Adicione o suco de framboesa e mexa delicadamente, como quem tenta não acordar o vizinho no domingo cedo.",
+      "Coloque gelo em um copo bem bonito (ou qualquer copo, não vamos julgar), despeje a limonada rosa.",
+      "Decore com as framboesas inteiras para achar que vida é glamour."
+    ],
+    "descricao": "Uma limonada rosa com framboesa que é mais refrescante que fofoca no grupo da família e muito mais doce que seu crush que nunca responde.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Se quiser impressionar, use um canudo colorido. Porque beber limonada rosa em copo transparente sem canudo é tipo série sem final: falta algo."
+  },
+  {
+    "id": 6,
+    "titulo": "Smoothie de Manga com Cúrcuma e Gengibre: o suco que te faz perguntar 'Será que tô saudável ou só rico em memes?'",
+    "slug": "smoothie-manga-curcuma-gengibre-suco-memes",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "1 manga média madura",
+      "1 colher de chá de cúrcuma em pó",
+      "1 pedaço pequeno de gengibre fresco (cerca de 2 cm)",
+      "200 ml de leite de coco",
+      "1 colher de sopa de mel ou adoçante de sua preferência",
+      "gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Descasque e corte a manga em pedaços.",
+      "Rale ou pique o gengibre fresco em pedaços pequenos.",
+      "No liquidificador, bata a manga, a cúrcuma, o gengibre, o leite de coco e o mel até a mistura ficar homogênea.",
+      "Adicione gelo a gosto e bata novamente para ficar fresquinho.",
+      "Sirva imediatamente e impressione seu fígado com essa mistura poderosa."
+    ],
+    "descricao": "Um smoothie que é tipo aquele amigo que aparece todo dia com um conselho de saúde: te faz bem, mas também te deixa desconfiado do quanto é gostoso.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Se alguém reclamar do gosto, diga que é 'detox de criatividade' – a desculpa perfeita para qualquer sobrevivente da cozinha."
+  },
+  {
+    "id": 7,
+    "titulo": "Refresque Seu Juízo: Vitamina de Abacaxi com Hortelã e Limão - Sem Ressaca, Só Sabor!",
+    "slug": "refresque-seu-juizo-vitamina-de-abacaxi-com-hortela-e-limao",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "1 xícara de abacaxi picado (fresco, porque enlatado não engana ninguém)",
+      "1 colher de sopa de folhas de hortelã frescas",
+      "Suco de 1 limão siciliano",
+      "1 copo de água de coco gelada",
+      "Gelo a gosto",
+      "Açúcar ou mel a gosto (para não virar suco de dieta triste)"
+    ],
+    "modoPreparo": [
+      "Coloque o abacaxi, a hortelã, o suco de limão e a água de coco no liquidificador.",
+      "Bata tudo até ficar lisinho, tipo aquele papo que você nunca tem com a balança.",
+      "Prove e, se estiver muito ácido, adicione açúcar ou mel para adoçar a vida (e a vitamina).",
+      "Sirva com bastante gelo, porque ninguém merece vitamina morna em pleno verão brasileiro."
+    ],
+    "descricao": "Uma vitamina tão refrescante que até seu chefe vai achar que você está de férias (e sem álcool pra não ter desculpa).",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,50",
+    "porcoes": "2 porções",
+    "dica": "Se sua vida está um caos, essa vitamina é igual, mas pelo menos te deixa hidratado e com hálito de gente ética."
+  },
+  {
+    "id": 8,
+    "titulo": "Refrescância que até sua sogra vai aprovar",
+    "slug": "refrescancia-ate-sogra-aprova",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "500 ml de suco de melancia (sem as sementes, para evitar disputas familiares)",
+      "Suco de 1 limão siciliano (ou aquele que você achou na geladeira)",
+      "Uma pitada generosa de sal (não o drama, o sal mesmo)",
+      "Gelo a gosto",
+      "Folhas de hortelã para decorar (opcional, mas faça por causa da foto)"
+    ],
+    "modoPreparo": [
+      "No liquidificador, junte o suco de melancia e o suco de limão.",
+      "Adicione a pitada de sal - sim, o sal é o segredo, confie em mim ou não, é seu suco.",
+      "Bata tudo com bastante gelo até ficar bem geladinho (porque ninguém merece suco morno, né?).",
+      "Sirva em copos altos, decore com hortelã e encare o verão com estilo e humor."
+    ],
+    "descricao": "O suco que vai salvar seus dias quentes e fazer seu rim achar que está na praia – só que sem o alcool e com um toque daquele sal que ninguém entende, mas adora.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "2 porções",
+    "dica": "Se alguém reclamar do sal, diga que é só um abraço salgado da vida, porque bebida sem sal é igual show sem piada: sem graça!"
+  },
+  {
+    "id": 9,
+    "titulo": "Chá Gelado de Pêssego com Vanilla: Porque Água Nunca Te Surpreende",
+    "slug": "cha-gelado-de-pessego-com-vanilla-porque-agua-nunca-te-surpreende",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "2 saquinhos de chá de pêssego",
+      "500 ml de água filtrada",
+      "200 ml de suco de pêssego natural",
+      "1 colher de chá de extrato de baunilha (vanilla)",
+      "Mel ou açúcar a gosto",
+      "Gelo a vontade",
+      "Rodelas de pêssego para decorar"
+    ],
+    "modoPreparo": [
+      "Ferva a água e coloque os saquinhos de chá de pêssego, deixe em infusão por 5 minutos. Se deixar muito, vira chá concentrado ou seu chá fica tão forte que você vai achar que está bebendo perfume.",
+      "Remova os saquinhos e deixe o chá esfriar até a temperatura ambiente, porque ninguém merece queimar a língua só pra se refrescar.",
+      "Adicione o suco de pêssego natural e o extrato de baunilha, misture bem para parecer que você sabe o que está fazendo na cozinha.",
+      "Adoce com mel ou açúcar conforme seu gosto (ou conforme seu nível de gula).",
+      "Coloque bastante gelo, afinal, estamos falando de chá gelado, não sopa fria.",
+      "Decore com rodelas de pêssego e sirva naquele copo estiloso que você joga no Instagram só pra parecer chique."
+    ],
+    "descricao": "Um chá gelado que é praticamente um abraço refrescante no seu verão, com uma pitada de baunilha para lembrar que a vida pode ser doce sem álcool.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Se não tiver extrato de baunilha, use a desculpa para tomar sorvete de baunilha e diga que é ingrediente secreto."
+  },
+  {
+    "id": 10,
+    "titulo": "Kombucha de Maracujá: A Bebida que Fermenta Mais que Sua Vida Social",
+    "slug": "kombucha-de-maracuja-a-bebida-que-fermenta-mais-que-sua-vida-social",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "1 SCOBY de kombucha (aquele bichinho fermentador que é mais famoso que sua sogra)",
+      "1 litro de chá preto ou verde (porque até a kombucha precisa de um empurrãozinho de cafeína)",
+      "100g de açúcar (o combustível da folia dos micro-organismos)",
+      "200 ml de suco de maracujá concentrado (o azedinho que vai dar graça à vida)",
+      "Água filtrada (muita, porque hidratação nunca é demais)"
+    ],
+    "modoPreparo": [
+      "Prepare o chá preto ou verde como se fosse fazer um café, mas com menos culpa.",
+      "Dissolva o açúcar no chá ainda quente. Lembre-se: a kombucha é uma festa, mas ela não gosta de convidados amargos.",
+      "Deixe o chá esfriar até temperatura ambiente, porque ninguém fermenta bem no calor do drama.",
+      "Coloque o chá adoçado em um vidro grande, adicione o SCOBY e o líquido starter (alguém precisa começar a festa).",
+      "Cubra com um pano limpo e deixe fermentar por 7 a 10 dias, observando a mágica acontecer como quando você esquece o WhatsApp aberto.",
+      "Após a fermentação, remova o SCOBY com cuidado (não dê um susto nele) e adicione o suco de maracujá.",
+      "Engarrafe e deixe fermentar por mais 2 a 3 dias para criar a efervescência que vai fazer seu intestino dançar.",
+      "Refrigere e sirva gelada, preferencialmente antes de contar essa receita no seu próximo encontro social."
+    ],
+    "descricao": "Kombucha de maracujá: o drink sem álcool que fermenta mais que suas histórias no grupo da família.",
+    "tempo": "15 dias",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Se o SCOBY parecer mais uma medusa alienígena, não se assuste — ela só quer transformar seu chá em festa, não explodir sua cozinha."
+  }
+]

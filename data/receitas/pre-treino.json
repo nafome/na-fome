@@ -1,0 +1,269 @@
+[
+  {
+    "id": 1,
+    "titulo": "Banana Power: A Torrada que Disfarça Seu Pré-Treino",
+    "slug": "banana-power-a-torrada-que-disfarca-seu-pre-treino",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "1 fatia de pão integral",
+      "1 banana madura",
+      "2 colheres de sopa de pasta de amendoim natural",
+      "Uma pitada de canela (opcional, pra fingir que é gourmet)"
+    ],
+    "modoPreparo": [
+      "Torre a fatia de pão integral até ela ficar com aquele toque crocante que faz barulho na hora da mordida.",
+      "Espalhe a pasta de amendoim como se estivesse pintando uma obra de arte — ou apenas tente não fazer bagunça.",
+      "Corte a banana em rodelas e distribua por cima da pasta de amendoim, porque a gente nunca descarta a fruta do pré-treino.",
+      "Polvilhe uma pitada de canela para impressionar os outros na cozinha, mesmo que eles não percebam."
+    ],
+    "descricao": "Porque nada diz 'pré-treino' como carregar a bateria com o combo clássico de banana e pasta de amendoim, sem abrir mão do pão integral — a verdadeira capa de super-herói desse combustível.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,50",
+    "porcoes": "1 porção",
+    "dica": "Se quiser se sentir um atleta profissional, coma fingindo que está ali fazendo um vídeo de treino — mesmo que seja só pra sair da cama."
+  },
+  {
+    "id": 2,
+    "titulo": "Mingau de Aveia: Energia Netflix & Treino Sem Pânico",
+    "slug": "mingau-de-aveia-energia-netflix-treino-sem-panico",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "1/2 xícara de aveia em flocos",
+      "1 xícara de leite (pode ser vegetal, pode ser líquido de Netflix, vai lá)",
+      "1 colher de sopa de mel (açúcar disfarçado, mas vai)",
+      "1/2 colher de chá de canela em pó",
+      "Uma pitada de paciência (para não desistir no meio)"
+    ],
+    "modoPreparo": [
+      "Coloque a aveia e o leite em uma panela pequena.",
+      "Leve ao fogo médio mexendo sempre para não virar um grude da vida.",
+      "Quando começar a engrossar, adicione a canela e misture para parecer que você sabe cozinhar.",
+      "Desligue o fogo e coloque o mel por cima para aquela doçura que faz você esquecer que está se preparando para treino, não para festa.",
+      "Coma antes que seu celular te tente com vídeos de gatos fofos."
+    ],
+    "descricao": "Porque nada te prepara melhor para o treino do que um mingau que é quase um abraço em forma de carboidrato.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "1 porção",
+    "dica": "Se o mingau ficar muito grosso, não entre em pânico, é só o travo da vida te desafiando a ajustar o leite."
+  },
+  {
+    "id": 3,
+    "titulo": "Tapioca Power: Ovo Mexido e Queijo Minas para Virar Atleta (Ou Quase)",
+    "slug": "tapioca-power-ovo-mexido-queijo-minas-para-virar-atleta-ou-quase",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "2 colheres de sopa de goma de tapioca",
+      "2 ovos",
+      "50g de queijo minas frescal ralado",
+      "1 pitada de sal",
+      "1 colher de chá de manteiga ou azeite",
+      "pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça uma frigideira antiaderente e espalhe a goma de tapioca formando uma panqueca fina.",
+      "Deixe a tapioca cozinhar até as bordas soltarem, como se estivesse tímida, e reserve.",
+      "Na mesma frigideira, derreta a manteiga ou aqueça o azeite.",
+      "Bata os ovos com sal e pimenta e despeje na frigideira, mexendo sem parar para não virar omelete hardcore.",
+      "Quando os ovos estiverem cremosos, adicione o queijo minas e mexa até começar a derreter – é quase um abraço.",
+      "Monte a tapioca recheando com o ovo mexido e queijo, dobre como se estivesse escondendo um superpoder.",
+      "Coma rápido para não perder o boost (e o ônibus, porque pré-treino tem hora!)."
+    ],
+    "descricao": "A receita que vai te transformar no filho do Flash com o Saci — tapioca leve, ovo energizante e queijo para dar aquele toque mineiro, porque força também é cultura.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Se preferir, aposte no queijo minas curado para dar o 'up' de sabor, porque força física também depende de força no paladar."
+  },
+  {
+    "id": 4,
+    "titulo": "Açaí Simples: Energia pra Você Não Dormir na Esteira",
+    "slug": "acai-simples-energia-pra-voce-nao-dormir-na-esteira",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "200g de polpa de açaí congelada",
+      "1 banana média",
+      "3 colheres de sopa de granola",
+      "100ml de água ou leite vegetal",
+      "Mel a gosto (se for fã de algo doce além do seu treino)"
+    ],
+    "modoPreparo": [
+      "No liquidificador, coloque a polpa de açaí e a água (ou leite vegetal) para facilitar a mistura.",
+      "Bata até ficar com textura cremosa, daqueles que fazem você querer provar só com a colher mesmo.",
+      "Coloque o creme em uma tigela, fatie a banana por cima e jogue a granola para dar aquele crocante que seu combustível merece.",
+      "Se quiser um toque doce extra, regue com um fio de mel — porque ninguém é de ferro, né?"
+    ],
+    "descricao": "Para aqueles que precisam de um pré-treino que dê gás sem virar chef gourmet. Energia na medida para não dormir na esteira e evitar a crise existencial do final do treino.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "1 porção",
+    "dica": "Se acabar o açaí antes do treino, vale chorar até a mãe comprar mais... ou usar sorvete mesmo, ninguém vai julgar."
+  },
+  {
+    "id": 5,
+    "titulo": "Pão Integral com Ricota e Mel: Energia de Mãe que Reclama",
+    "slug": "pao-integral-ricota-mel-energia-mae-reclama",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "2 fatias de pão integral (porque saúde é caro, mas pão integral é mais barato que terapia)",
+      "3 colheres de sopa de ricota (aquela que parece queijo, mas não é tão cara quanto o queijo mesmo)",
+      "1 colher de sopa de mel (para adoçar suas esperanças e o treino)",
+      "1 pitada de canela (opcional, mas só pra parecer que você sabe cozinhar)"
+    ],
+    "modoPreparo": [
+      "Passe a ricota nas fatias de pão com a coragem que te falta na academia.",
+      "Regue com mel, lembrando que o mel é o açúcar que a nutricionista deixa passar.",
+      "Se quiser parecer chef e saudável, polvilhe canela por cima.",
+      "Coma antes do treino, aproveitando a ignorância sobre o carboidrato certo."
+    ],
+    "descricao": "O pré-treino perfeito pra quem quer força, sabor e uma desculpa para não levantar cedo: “Sou saudável, mas com humor”.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "1 porção",
+    "dica": "Não esqueça: essa receita não vai te transformar no atleta, mas vai te deixar menos sem graça na hora da esteira."
+  },
+  {
+    "id": 6,
+    "titulo": "Vitamina Turbinada pra Bombar no Treino (e Não no Sofá)",
+    "slug": "vitamina-turbinada-pra-bombar-no-treino-e-nao-no-sofa",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "2 bananas nanicas maduras (aquelas que não dão trabalho pra descascar)",
+      "3 colheres de sopa de aveia em flocos (nada de aveia de Pinterest, viu?)",
+      "300 ml de leite desnatado (pra tentar enganar a balança)",
+      "1 colher de mel (pra fingir que é saudável e gostoso)",
+      "Gelo a gosto (porque suar no treino com vitamina quente, só se for novela mexicana)"
+    ],
+    "modoPreparo": [
+      "Jogue a banana no liquidificador (se acabar grudando, lave as mãos na área, ninguém te julga).",
+      "Adicione a aveia, o leite desnatado e o mel, porque a vida precisa de um pouco de doçura.",
+      "Bata tudo até ficar uma mistura lisinha, quase um shake de praia de tão chique.",
+      "Jogue o gelo, bata de novo, ou só coloque direto se preferir se sentir o Mr. Freeze.",
+      "Sirva na cara do sono e tome antes de se transformar em maratonista (ou no máximo, andar até o ônibus)."
+    ],
+    "descricao": "A vitamina perfeita pra quem quer energia no treino, mas preguiça de pratos complicados — porque energizar o corpo não precisa te dar trabalho.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "2 porções",
+    "dica": "Se o treino bater forte, obviamente a vitamina não vai ajudar... mas pelo menos você vai estar bem alimentado pra pedir uma pizza depois!"
+  },
+  {
+    "id": 7,
+    "titulo": "Bolinho de Aveia com Banana: Energia que Nem Wi-Fi na Academia",
+    "slug": "bolinho-de-aveia-com-banana-energia-que-nem-wifi-na-academia",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "2 bananas maduras (porque nem só de proteína vive o atleta)",
+      "1 xícara de aveia em flocos (aquela que a gente promete comer todo dia)",
+      "1 colher de sopa de mel (para adoçar a vida e o treino)",
+      "1 ovo (para dar aquela liga, não para levantar peso sozinho)",
+      "1 colher de chá de canela em pó (pra dar um charme e fingir que sabe cozinhar)",
+      "1 colher de chá de fermento em pó (o segredo do bolinho ficar fofinho, não você)",
+      "uma pitada de sal (porque até balança gosta de equilíbrio)"
+    ],
+    "modoPreparo": [
+      "Preaqueça o forno a 180°C e já prepare o palco para o show do seu bolinho.",
+      "Amasse as bananas com um garfo, como se fosse a vontade de comer doce depois do treino.",
+      "Misture a aveia, o mel, o ovo, a canela e o fermento na banana amassada. Se quiser, faça uma dancinha para agilizar.",
+      "Adicione a pitada de sal, aquela pitada de vida que tudo equilibra.",
+      "Coloque a massa em forminhas ou em uma assadeira untada - só não vale usar o mesmo pote que usou para cozinhar, ninguém merece lavar duas vezes.",
+      "Asse por cerca de 20 minutos ou até que o cheiro comece a invadir a casa e seus vizinhos fiquem curiosos.",
+      "Deixe esfriar (se conseguir esperar), e aproveite sua bomba de energia que não precisa de Wi-Fi."
+    ],
+    "descricao": "O bolinho que te dá energia pra malhar e motivos pra sorrir (porque treino sem comida boa é cilada, Bino!).",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,50",
+    "porcoes": "6 porções",
+    "dica": "Se a preguiça bater, lembre que até maratonista começa dando um passo – e esse passo pode começar abrindo o forno."
+  },
+  {
+    "id": 8,
+    "titulo": "Cuscuz Nordestino com Ovo Cozido: Energia de Raiz pra Academia e Pra Vida",
+    "slug": "cuscuz-nordestino-com-ovo-cozido-energia-de-raiz",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "1 xícara de flocos de milho para cuscuz",
+      "1 pitada de sal",
+      "1/2 xícara de água quente",
+      "2 ovos",
+      "1 colher de manteiga",
+      "Cebolinha picada a gosto"
+    ],
+    "modoPreparo": [
+      "Misture os flocos de milho com o sal em uma tigela.",
+      "Adicione a água quente aos poucos, mexendo até formar uma farofa úmida.",
+      "Coloque a manteiga em uma cuscuzeira e leve para aquecer.",
+      "Despeje o cuscuz na cuscuzeira, tampe e deixe cozinhar no vapor por cerca de 15 minutos.",
+      "Enquanto isso, cozinhe os ovos em água fervente por 10 minutos para ficarem cozidos firmes.",
+      "Desenforme o cuscuz, decore com cebolinha e sirva acompanhado dos ovos cozidos."
+    ],
+    "descricao": "Quer energia nordestina pra aguentar o treino? Esse cuscuz com ovo é tipo aquele carbo que fala 'fica tranquilo, vou te sustentar' enquanto você sofre na esteira.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,50",
+    "porcoes": "2 porções",
+    "dica": "Se o treino ficar difícil, lembre que o cuscuz não te abandona — ao contrário do seu personal trainer no último exercício."
+  },
+  {
+    "id": 9,
+    "titulo": "Energia que Não Acaba: Iogurte Turbinado para Pré-Treino",
+    "slug": "energia-que-nao-acaba-iogurte-turbinado-para-pre-treino",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "1 pote de iogurte natural (170g)",
+      "3 colheres de sopa de granola",
+      "1 colher de sopa de mel",
+      "1 banana (opcional, mas você sabe que vai querer)",
+      "1 pitada de paciência para não comer tudo antes do treino"
+    ],
+    "modoPreparo": [
+      "Abra o pote do iogurte com a força de quem quer evitar a preguiça do treino.",
+      "Coloque a granola por cima, aquela crocância que faz parecer que você está saudável de verdade.",
+      "Regue com o mel, porque a vida já é amarga demais.",
+      "Se quiser, corte a banana e adicione para enganar o cérebro com uma docinho extra.",
+      "Misture tudo, finja que está preparando uma bomba energética e coma antes que a fome te traia."
+    ],
+    "descricao": "A receita perfeita pra quem quer energia rápida e sabor sem drama. Porque levantar do sofá já é um treino, né?",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,50",
+    "porcoes": "1 porção",
+    "dica": "Se estiver com preguiça até de abrir o pote, lembre-se: o prêmio é mais energia do que efeito Netflix em dia de limpeza."
+  },
+  {
+    "id": 10,
+    "titulo": "Torrada Integral com Abacate: Porque Sal Rosa é o Novo Pó de Mágica",
+    "slug": "torrada-integral-abacate-sal-rosa-novo-po-de-magica",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "2 fatias de pão integral",
+      "1/2 abacate maduro",
+      "1 pitada generosa de sal rosa do Himalaia",
+      "gotas de limão a gosto",
+      "pimenta-do-reino moída na hora (opcional)",
+      "azeite de oliva extra virgem (uma 'pingadinha')"
+    ],
+    "modoPreparo": [
+      "Torre as fatias de pão até ficarem douradinhas, tipo final de novela das 8.",
+      "Com um garfo, amasse o abacate até virar uma pasta que nem no Tinder: compreensível, mas não perfeito.",
+      "Acrescente as gotinhas de limão para aquele toque que não vai deixar o sabor parecido com a sua terça-feira.",
+      "Passe a pasta de abacate nas torradas com a mesma dedicação que você ignora mensagens dizendo 'vamo academia?'.",
+      "Polvilhe o sal rosa do Himalaia como se fosse o tempero secreto da sua vida fitness.",
+      "Se quiser bancar o chef, adicione um pouco de pimenta-do-reino moída na hora e uma 'pingadinha' de azeite.",
+      "Aproveite antes do treino, ou melhor, antes de desistir dele."
+    ],
+    "descricao": "A receita que junta saúde e aquele toque gourmet que você finge que entende, pra não passar vergonha na academia.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Lembre-se: sal rosa não vai te fazer virar marombeiro, mas pelo menos deixa a torrada mais charmosa do que você no espelho do vestiário."
+  }
+]

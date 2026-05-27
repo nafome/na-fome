@@ -1,0 +1,294 @@
+[
+  {
+    "id": 1,
+    "titulo": "Pipoca de Manteiga que Engana Cinema (mas é só no sabor)",
+    "slug": "pipoca-manteiga-que-engana-cinema",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "1/2 xícara de milho para pipoca",
+      "3 colheres de sopa de manteiga",
+      "1 colher de chá de sal",
+      "Óleo vegetal para estourar"
+    ],
+    "modoPreparo": [
+      "Aqueça uma panela grande com um pouco de óleo e faça o teste com um grão de pipoca para saber a temperatura.",
+      "Quando o grão estourar, coloque o restante do milho e tampe a panela.",
+      "Agite a panela de vez em quando para não queimar a pipoca e espere os estouros diminuírem.",
+      "Derreta a manteiga e regue a pipoca estourada com ela, mexendo bem para espalhar.",
+      "Polvilhe o sal e misture novamente como se estivesse tentando impressionar alguém na cozinha."
+    ],
+    "descricao": "Aquela pipoca de cinema que você pode fazer em casa pra evitar filas, gastar menos e ainda fingir que tá em Hollywood — só que sem o ingresso caro e o ator famoso.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,50",
+    "porcoes": "4 porções",
+    "dica": "Se a manteiga gritar com você como o atendente da sessão, significa que está na temperatura perfeita. E lembre-se: estoura a pipoca, não o orçamento!"
+  },
+  {
+    "id": 2,
+    "titulo": "Nachos: O Casal Perfeito do Sofá e da Preguiça",
+    "slug": "nachos-o-casal-perfeito-do-sofa-e-da-preguica",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "200g de tortilhas de milho em triângulos (tipo nachos)",
+      "150g de queijo cheddar ralado",
+      "1/2 xícara de creme de leite",
+      "1 jalapeño fatiado (ou mais se achar que é pouco drama)",
+      "1 colher de sopa de manteiga",
+      "Sal a gosto",
+      "Salsa para decorar (se quiser fingir que é saudável)"
+    ],
+    "modoPreparo": [
+      "Pré-aqueça o forno a 180ºC. Porque se a pipoca já queima no microondas, melhor garantir.",
+      "Derreta a manteiga em uma panela pequena, adicione o creme de leite e o queijo cheddar. Mexa até virar uma calda de queijo que faria qualquer cinema chorar.",
+      "Espalhe os nachos em uma travessa que aguente sua gula e vontade de maratona sem levantar do sofá.",
+      "Despeje o queijo derretido sobre os nachos com a delicadeza de quem evita chamar atenção no meio da sessão.",
+      "Distribua as fatias de jalapeño por cima. Se quiser chorar por outro motivo que não filme triste, esse é o momento.",
+      "Leve ao forno por 5-7 minutos, ou até o queijo borbulhar como seu coração em final de temporada.",
+      "Retire do forno, salpique salsa pra fingir que é fitness e aproveite antes do crush chegar (ou do namorado perceber o cheiro)."
+    ],
+    "descricao": "Nachos com queijo cheddar derretido e jalapeño: o combustível oficial das maratonas de série para quem não tem tempo (ou paciência) para jantar direito.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "2 porções",
+    "dica": "Se a pimenta for forte demais, diga que é efeito especial e finja que entende de filme de terror."
+  },
+  {
+    "id": 3,
+    "titulo": "Pipoca Glamourosa: Caramelo, Flor de Sal e Drama de Cinema",
+    "slug": "pipoca-glamourosa-caramelo-flor-de-sal-e-drama-de-cinema",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "1/2 xícara de milho para pipoca",
+      "1/2 xícara de açúcar",
+      "2 colheres de sopa de manteiga",
+      "1 colher de sopa de xarope de milho (opcional, para caramelo mais crocante)",
+      "1 colher de chá de flor de sal"
+    ],
+    "modoPreparo": [
+      "Estoure a pipoca normalmente e reserve (não tem nada mais decepcionante que pipoca queimada no meio do filme, né?).",
+      "Em uma panela, derreta a manteiga em fogo médio, adicione o açúcar e o xarope de milho. Mexa sem parar – esse é o momento em que você percebe que paciência não é só coisa de filme de drama.",
+      "Quando a mistura começar a borbulhar e ficar com aquela cor de caramelo, desligue o fogo e jogue a flor de sal pra dar aquela reviravolta inesperada na trama.",
+      "Misture bem o caramelo com a pipoca, tentando não queimar os dedos nem o próprio filme que você está assistindo.",
+      "Espalhe a pipoca caramelizada em uma superfície untada para esfriar e endurecer – e espere ansiosamente pelo close final da sua snack perfeita."
+    ],
+    "descricao": "Para quem acha que pipoca de cinema só pode ser salgada ou amanteigada, essa versão doce com flor de sal vai ser o plot twist da sua noite de filme.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Se a flor de sal te parecer demais, lembra que na vida e no cinema, o sal é que dá graça – porque pipoca só doce é igual comédia sem punchline: sem sal nem açúcar!"
+  },
+  {
+    "id": 4,
+    "titulo": "Hot Dog de Rua: O Filme de Terror Que Seu Estômago Vai Amar",
+    "slug": "hot-dog-de-rua-o-filme-de-terror-que-seu-estomago-vai-amar",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "1 pão para hot dog",
+      "1 salsicha tipo Viena",
+      "Mostarda amarela a gosto",
+      "Ketchup a gosto",
+      "Batata palha (opcional, mas essencial para suspense)",
+      "1 colher de sopa de maionese (o plot twist)",
+      "Cebola picada (cena final emocionante)"
+    ],
+    "modoPreparo": [
+      "Cozinhe a salsicha até que ela chore (ferva por 5 minutos).",
+      "Aqueça o pão por alguns segundos, tipo aquela pipoca no microondas que explode sem pedir licença.",
+      "Espalhe a maionese como se fosse seu resumo da semana: rápido e sem explicação.",
+      "Coloque a salsicha quente no pão para manter o suspense da temperatura.",
+      "Adicione mostarda e ketchup como se estivesse fazendo uma crítica de filme: com muita emoção e algumas gotas de sarcasmo.",
+      "Finalize com a cebola picada e a batata palha — porque todo bom roteiro tem reviravolta crocante."
+    ],
+    "descricao": "Um hot dog que tem mais reviravolta que final de filme de suspense. A combinação clássica de mostarda e ketchup, mas com aquele tempero de quem viu muita pipoca queimada no cinema.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Se sua vida fosse um filme, esse hot dog seria a cena que te salva da ressaca moral depois do terceiro drama seguido."
+  },
+  {
+    "id": 5,
+    "titulo": "Mini Pizza de Frigideira para Maratona: Porque Parar o Filme é Trapalhada",
+    "slug": "mini-pizza-de-frigideira-para-maratona",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "1 pão sírio pequeno ou 1 pão francês cortado ao meio",
+      "2 colheres de sopa de molho de tomate",
+      "50g de queijo muçarela ralado",
+      "1 fatia de presunto picada",
+      "Orégano a gosto",
+      "Azeitonas para dar aquele toque 'hollywoodiano'",
+      "1 fio de azeite"
+    ],
+    "modoPreparo": [
+      "Aqueça a frigideira em fogo médio e coloque um fio de azeite – nada de virar um deserto ali.",
+      "Coloque a base da pizza (pão sírio ou pão francês) na frigideira para dar uma leve tostada.",
+      "Espalhe o molho de tomate por cima como se estivesse pintando um Oscar imaginário.",
+      "Adicione a muçarela e o presunto, sem economizar – aqui ninguém está de dieta, está assistindo filme.",
+      "Salpique orégano e as azeitonas para dar aquele toque gourmet que só o cinema merece.",
+      "Tampe a frigideira e deixe cozinhar por uns 5 minutos, até o queijo derreter e o pão ficar crocante – sem precisar pausar pra esticar as pernas.",
+      "Use uma espátula para retirar a mini pizza e aproveite sem culpa – afinal, a pipoca não mata ninguém, mas a fome sí."
+    ],
+    "descricao": "Mini pizza feita rapidinho na frigideira para você maratonar seu filme favorito sem perder nenhum plot twist (ou pipoca no teclado).",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Se o filme te deixar emocionado, lembre que pizza na frigideira é mais rápida que terapia... e menos cara."
+  },
+  {
+    "id": 6,
+    "titulo": "Brownie de Chocolate com Nozes: O Plot Twist da Sua Dieta",
+    "slug": "brownie-de-chocolate-com-nozes-o-plot-twist-da-sua-dieta",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "200g de chocolate meio amargo",
+      "150g de manteiga",
+      "1 xícara de açúcar",
+      "3 ovos",
+      "1/2 xícara de farinha de trigo",
+      "1 pitada de sal",
+      "1 colher de chá de essência de baunilha",
+      "100g de nozes picadas"
+    ],
+    "modoPreparo": [
+      "Pré-aqueça o forno a 180°C. Você vai precisar de calor, nem que seja só pra ver a mágica acontecer.",
+      "Derreta o chocolate e a manteiga juntos no micro-ondas ou banho-maria – mas nada de contaminar a receita com drama, fique tranquilo.",
+      "Misture o açúcar e os ovos até virar uma mistura meio estranha, mas prometo que dá certo.",
+      "Incorpore a mistura de chocolate derretido com a essência de baunilha.",
+      "Adicione a farinha e o sal peneirados para evitar grumos – igual evitar spoilers no grupo do WhatsApp.",
+      "Por último, misture as nozes, porque todo bom filme tem um plot twist crocante.",
+      "Despeje tudo numa forma untada e leve ao forno por cerca de 25 minutos. Não fique abismado se quiser comer antes do final.",
+      "Deixe esfriar um pouco antes de cortar, ou você vai se queimar e o final vai ter um drama a mais."
+    ],
+    "descricao": "O brownie que vai fazer seu paladar gritar 'diretor, quero sessão extra!' e a sua dieta implorar clemência.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "8 porções",
+    "dica": "Se alguém disser que brownie não é sobremesa de cinema, mostre que o verdadeiro blockbuster é esse aqui – mas prepare o controle remoto para pausar a dieta."
+  },
+  {
+    "id": 7,
+    "titulo": "Batata Frita Caseira: O Oscar das Batatas com Molho de Queijo Que Merece um Close-up",
+    "slug": "batata-frita-caseira-oscar-das-batatas-molho-queijo",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "4 batatas médias (se puder escolher, escolha as que parecem a estrela do elenco)",
+      "Óleo para fritar (a quantidade necessária para uma performance brilhante)",
+      "Sal a gosto (porque até protagonista precisa de um tempero)",
+      "100g de queijo cheddar ralado (ou aquele que você encontra no fundo da geladeira)",
+      "1 caixa de creme de leite (para dar suavidade, tipo um roteiro bem escrito)",
+      "1 colher de sopa de manteiga (o coadjuvante indispensável)",
+      "Pimenta-do-reino a gosto (a pitada dramática da receita)"
+    ],
+    "modoPreparo": [
+      "Lave as batatas e corte em palitos, imaginando que cada uma é uma cena da sua série favorita.",
+      "Aqueça o óleo numa panela funda—sem pânico, não é uma explosão de efeito especial, só cuidado para não virar filme de terror.",
+      "Frite as batatas aos poucos até ficarem douradas e crocantes, estilo aquele personagem que aparece só para roubar a cena.",
+      "Escorra em papel toalha e salpique o sal com a graça de um protagonista no baile de formatura.",
+      "Para o molho, derreta a manteiga em fogo baixo, junte o queijo e mexa até derreter, depois acrescente o creme de leite e misture como se estivesse dirigindo uma sequência de ação sem cortes.",
+      "Tempere com pimenta-do-reino a gosto — aquele toque de suspense que deixa tudo mais interessante.",
+      "Sirva as batatas ainda quentinhas com o molho de queijo por cima. Aplausos são opcionais, mas recomendados."
+    ],
+    "descricao": "A batata frita que merece mais destaque que personagem coadjuvante, servida com um molho de queijo digno de um final de temporada surpreendente.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "3 porções",
+    "dica": "Se alguém reclamar que não tá igual do cinema, diga que foi edição da Netflix: cortamos as cenas ruins e deixamos só o crunch!"
+  },
+  {
+    "id": 8,
+    "titulo": "Slider de Hambúrguer em Pão de Leite: O Mini Filme que Rende Sequela na Sua Fome",
+    "slug": "slider-de-hamburguer-em-pao-de-leite-mini-filme-fome",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "10 pães de leite pequenos (tipo pãozinho de padaria)",
+      "500g de carne moída (patinho ou acém, escolha seu protagonista)",
+      "Sal e pimenta do reino a gosto (os críticos mandam bem)",
+      "1 cebola pequena picada",
+      "4 fatias de queijo muçarela (a estrela do elenco)",
+      "Folhas de alface (para aquela frescura de roteiro)",
+      "Molho barbecue ou ketchup (o plot twist)",
+      "Óleo para grelhar"
+    ],
+    "modoPreparo": [
+      "Tempere a carne com sal, pimenta e a cebola picada, misturando bem como se fosse cuidar do roteiro.",
+      "Modele a carne em mini hambúrgueres, do tamanho dos pães de leite, para ninguém sair do cinema com fome.",
+      "Aqueça uma frigideira com um pouco de óleo e grelhe os mini hambúrgueres até dourarem dos dois lados.",
+      "No último minuto, coloque fatias de queijo por cima para derreter e conquistar o público.",
+      "Corte os pães de leite ao meio e toste levemente as partes internas para aquele efeito especial.",
+      "Monte os sliders: pão, hambúrguer com queijo, alface e o molho de sua escolha (não vale pedir pipoca).",
+      "Sirva quente, prepare a maratona e não esqueça do filmão chamado apetite."
+    ],
+    "descricao": "Esse slider é tipo blockbuster: pequeno, rápido e com muita emoção para sua fome de cinema.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "10 porções",
+    "dica": "Se o filme for ruim, pelo menos o slider tá garantido – e olha que ele é mais gostoso que a maioria dos finais inesperados!"
+  },
+  {
+    "id": 9,
+    "titulo": "Pipoca de Chocolate com Amendoim: O Filme do Sabor Que Você Não Sabia Que Queria",
+    "slug": "pipoca-de-chocolate-com-amendoim-o-filme-do-sabor-que-voce-nao-sabia-que-queria",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "1/2 xícara de milho para pipoca",
+      "2 colheres de sopa de óleo",
+      "100g de chocolate ao leite picado",
+      "1/2 xícara de amendoim torrado sem sal",
+      "2 colheres de sopa de açúcar (opcional, para os dramáticos)",
+      "1 pitada de sal"
+    ],
+    "modoPreparo": [
+      "Estoure o milho em uma panela com óleo – aquela cena de suspense do 'vai ou não vai estourar'.",
+      "Enquanto a pipoca está no auge do drama do estouro, derreta o chocolate em banho-maria ou no micro-ondas, sem deixar queimar — ninguém quer um final amargo.",
+      "Misture o amendoim com a pipoca quentinha, faça uma reunião de elenco para combinar os sabores.",
+      "Despeje o chocolate derretido sobre a pipoca com amendoim e mexa até que tudo esteja bem envolvido, tipo abraço de amizade que você sempre quis.",
+      "Espalhe em uma assadeira forrada com papel manteiga e deixe esfriar para o chocolate endurecer — paciência, essa é a parte da trama onde você espera o grande final."
+    ],
+    "descricao": "A pipoca tradicional ficou com ciúmes, inventou de virar estrela com chocolate e amendoim. O resultado? Uma mistura digna de tapete vermelho no sofá da sua sala.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Se o crush aparecer do nada, tenha essa pipoca por perto: é chocolate, amendoim e drama na medida certa – até o Netflix ficou com inveja."
+  },
+  {
+    "id": 10,
+    "titulo": "Alitas de Frango no Forno: Porque Não é Hollywood, Mas Dá Pra Fingir",
+    "slug": "alitas-de-frango-no-forno-porque-nao-e-hollywood-mas-da-pra-fingir",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "1 kg de asas de frango (ou alitas, pra parecer que você sabe inglês)",
+      "1 colher de chá de sal (porque até o filme tem que ter tempero)",
+      "1/2 colher de chá de pimenta-do-reino",
+      "1 colher de chá de alho em pó",
+      "1/2 colher de chá de páprica defumada (o plot twist do sabor)",
+      "2 colheres de sopa de manteiga derretida (a estrela do molho)",
+      "1/4 xícara de molho de pimenta tipo buffalo (a explosão de ação)",
+      "1 colher de sopa de vinagre de maçã (pra dar aquela reviravolta)",
+      "Aipo e molho blue cheese para acompanhar (os sidekicks que ninguém pediu, mas todo mundo ama)"
+    ],
+    "modoPreparo": [
+      "Pré-aqueça o forno a 220°C, porque essa trama vai esquentar rápido.",
+      "Tempere as asas com sal, pimenta, alho em pó e páprica defumada — já preparar o elenco pra ação.",
+      "Coloque as alitas numa assadeira forrada com papel alumínio para evitar aquele final trágico de grudar tudo.",
+      "Asse por 40 minutos, virando na metade — como um bom roteiro com reviravolta.",
+      "Enquanto isso, misture a manteiga derretida com o molho de pimenta e o vinagre. Esse é o nosso molho ‘voz-off’ que dá o tom.",
+      "Quando as asas estiverem douradinhas, mergulhe no molho e retorne ao forno por mais 5 minutos. O grand finale é sempre picante.",
+      "Sirva com aipo e o molho blue cheese, porque até o melhor vilão merece um sidekick cremoso."
+    ],
+    "descricao": "Alitas de frango no forno com molho buffalo: a receita que vai deixar seu sofá mais interessante que a última temporada da sua série favorita.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "4 porções",
+    "dica": "Não tente fingir que vai comer só uma alita — spoiler: você vai acabar comendo todas e culpando o roteiro da dieta."
+  }
+]

@@ -1,1088 +1,332 @@
 [
   {
-    "id": 860,
-    "titulo": "Camarão ao Alho e Óleo com Toque de Limão Siciliano",
-    "slug": "camarao-ao-alho-e-oleo-com-toque-de-limao-siciliano",
-    "categoria": "Frutos Do Mar ",
+    "id": 1,
+    "titulo": "Moqueca de Camarão: O Mar Embriagado no Leite de Coco",
+    "slug": "moqueca-de-camarao-o-mar-embriagado-no-leite-de-coco",
+    "categoria": "Frutos do mar 🦐",
     "ingredientes": [
-      "g camarão médio limpo",
-      "dentes de alho picados",
-      "colheres de sopa de azeite de oliva",
-      "Suco de 1/2 limão siciliano",
-      "Sal e pimenta-do-reino a gosto"
+      "500g de camarão limpo",
+      "2 tomates maduros picados",
+      "1 pimentão vermelho picado",
+      "1 cebola média em rodelas",
+      "3 dentes de alho amassados",
+      "200ml de leite de coco",
+      "3 colheres de sopa de azeite de dendê",
+      "Coentro fresco a gosto",
+      "Sal e pimenta-do-reino a gosto",
+      "Suco de 1 limão"
     ],
     "modoPreparo": [
-      "Aqueça o azeite na frigideira em fogo médio.",
-      "Refogue o alho até dourar, mas sem queimar (não faça igual àquele boleto atrasado, que queima seu bolso).",
-      "Adicione o camarão, tempere com sal e pimenta, cozinhe até ficarem rosados (3-4 min).",
-      "Regue com o suco do limão e misture rapidamente."
+      "Tempere os camarões com sal, pimenta e suco de limão. Deixe marinar enquanto você finge que sabe cozinhar.",
+      "Em uma panela, aqueça o azeite de dendê e refogue a cebola e o alho até ficarem transparentes – ou até você perceber que esqueceu o tempo como sempre.",
+      "Junte o pimentão e os tomates, mexa e deixe cozinhar até formar um molho que parece mais uma obra de arte do que seu histórico na cozinha.",
+      "Coloque os camarões, misture bem e deixe cozinhar por cerca de 5 minutos para não transformar o camarão em chiclete.",
+      "Adicione o leite de coco e o coentro, mexa delicadamente como quem não quer estragar nada e deixe ferver por mais 5 minutos.",
+      "Desligue o fogo, sirva com arroz branco e prepare-se para fingir que você é chef enquanto devora tudo."
     ],
-    "descricao": "Porque às vezes o amor é simples: alho, óleo e um pouco de limão pra temperar a vida.",
-    "tempo": "20 min",
-    "dificuldade": "Fácil",
-    "preco": "R$ 35,00",
-    "porcoes": "2 porções",
-    "dica": "Não deixe o alho queimar, senão seu jantar vira drama mexicano – intenso, ardido e com muito choro."
-  },
-  {
-    "id": 861,
-    "titulo": "Risoto de Lula ao Vinho Branco",
-    "slug": "risoto-de-lula-ao-vinho-branco",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g de lula cortada em anéis",
-      "xícara de arroz arbóreo",
-      "/2 cebola picada",
-      "dentes de alho picados",
-      "/2 xícara de vinho branco seco",
-      "litro de caldo de legumes quente",
-      "colheres de sopa de manteiga",
-      "g de queijo parmesão ralado",
-      "Sal e pimenta-do-reino a gosto"
-    ],
-    "modoPreparo": [
-      "Refogue cebola e alho na manteiga até ficarem translúcidos.",
-      "Adicione o arroz e mexa por 2 minutos para envolver os grãos.",
-      "Despeje o vinho branco e mexa até evaporar.",
-      "Vá adicionando o caldo quente aos poucos, mexendo sempre, até o arroz ficar al dente (cerca de 18 min).",
-      "Em outra frigideira, cozinhe as lulas rapidamente até ficarem macias.",
-      "Misture as lulas ao risoto, tempere com sal, pimenta e parmesão."
-    ],
-    "descricao": "Um risoto que é tipo aquele amigo sofisticado: faz a festa, mas não se mistura com qualquer um.",
+    "descricao": "Uma moqueca que é como aquela sogra sarcástica: cheia de personalidade, tempero e pronta para te fazer rir – e comer bem.",
     "tempo": "40 min",
     "dificuldade": "Médio",
-    "preco": "R$ 48,00",
-    "porcoes": "3 porções",
-    "dica": "Risoto é igual relacionamento sério: precisa de atenção constante, ou fica duro e sem graça."
-  },
-  {
-    "id": 862,
-    "titulo": "Salada Tropical de Mariscos com Manga e Coentro",
-    "slug": "salada-tropical-de-mariscos-com-manga-e-coentro",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g mix de mariscos cozidos (mexilhão, lula e camarão)",
-      "manga madura cortada em cubos",
-      "/2 cebola roxa fatiada fina",
-      "punhado de coentro fresco picado",
-      "Suco de 1 limão",
-      "Sal e pimenta-do-reino a gosto",
-      "colheres de sopa de azeite"
-    ],
-    "modoPreparo": [
-      "Misture os mariscos, manga, cebola e coentro na tigela.",
-      "Tempere com suco de limão, azeite, sal e pimenta.",
-      "Sirva gelado, porque frio é o único jeito de aguentar segunda-feira."
-    ],
-    "descricao": "Pra te convencer que frutos do mar podem ser tão refrescantes quanto sua desculpa pra não sair.",
-    "tempo": "15 min",
-    "dificuldade": "Fácil",
-    "preco": "R$ 30,00",
-    "porcoes": "2 porções",
-    "dica": "Se o coentro te lembra tinta de caneta, deixe de frescura, a vida é curta e essa salada é refrescante demais pra perder."
-  },
-  {
-    "id": 863,
-    "titulo": "Moqueca Baiana de Camarão com Leite de Coco",
-    "slug": "moqueca-baiana-de-camarao-com-leite-de-coco",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g camarão limpo",
-      "tomates maduros picados",
-      "pimentão vermelho cortado em tiras",
-      "cebola grande em rodelas",
-      "dentes de alho picados",
-      "ml leite de coco",
-      "colheres de sopa de azeite de dendê",
-      "Coentro a gosto",
-      "Sal e pimenta-do-reino a gosto"
-    ],
-    "modoPreparo": [
-      "Em uma panela, faça camadas com cebola, tomate e pimentão.",
-      "Coloque o camarão por cima, tempere com sal, pimenta e alho.",
-      "Regue com leite de coco e azeite de dendê.",
-      "Cozinhe em fogo baixo, com panela semi-tampada, por 25 minutos.",
-      "Finalize com coentro picado antes de servir."
-    ],
-    "descricao": "A moqueca é tipo aquela sogra: cheia de tempero, mas a gente ama no final.",
-    "tempo": "50 min",
-    "dificuldade": "Médio",
-    "preco": "R$ 55,00",
+    "preco": "R$ 45,00",
     "porcoes": "4 porções",
-    "dica": "Se a moqueca não te deixar feliz, tente pagar o boleto antes do vencimento – aí sim a felicidade é garantida."
+    "dica": "Não deixe o dendê virar óleo de motor; a moqueca é comida, não peça pro mecânico, ok?"
   },
   {
-    "id": 864,
-    "titulo": "Espaguete ao Molho de Mariscos Picante",
-    "slug": "espaguete-ao-molho-de-mariscos-picante",
-    "categoria": "Frutos Do Mar ",
+    "id": 2,
+    "titulo": "Camarão na Moranga: A Moranga que Virou Festa e o Camarão que Deu Show",
+    "slug": "camarao-na-moranga-a-moranga-que-virou-festa-e-o-camarao-que-deu-show",
+    "categoria": "Frutos do mar 🦐",
     "ingredientes": [
-      "g espaguete",
-      "g mix de mariscos (camarão, lula, mexilhão)",
-      "dentes de alho picados",
-      "pimenta dedo-de-moça sem sementes picada",
-      "g tomate pelado",
-      "colheres de sopa de azeite",
-      "Sal e pimenta-do-reino a gosto",
-      "Manjericão fresco para decorar"
+      "1 moranga média (aquela que você acha que é um abóbora, mas é VIP)",
+      "500g de camarão limpo (sem drama, só a parte bonita)",
+      "2 dentes de alho picados (para afastar vampiros e invejosos)",
+      "1 cebola média picada (choro de emoção garantido)",
+      "1 tomate picado (pra dar cor e fingir que é dieta)",
+      "200ml de creme de leite (porque gordice às vezes é amor)",
+      "3 colheres de sopa de requeijão (a cola que une essa bagunça)",
+      "Cheiro verde a gosto (pra fingir que é saudável)",
+      "Sal e pimenta do reino a gosto (só não exagera, que não é competição)"
     ],
     "modoPreparo": [
-      "Cozinhe o espaguete conforme instruções da embalagem.",
-      "Em uma frigideira, aqueça o azeite e refogue o alho e a pimenta.",
-      "Adicione os tomates pelados e cozinhe até formar um molho.",
-      "Junte os mariscos, tempere e cozinhe até ficarem macios.",
-      "Misture o espaguete ao molho, decore com manjericão e sirva."
+      "Pré-aqueça o forno a 180°C, porque a moranga merece um spa quente.",
+      "Corte a tampa da moranga e retire as sementes com jeitinho, como tirando um ex da vida.",
+      "Leve a moranga ao forno por aproximadamente 30 minutos para ela amolecer e ficar maravilhosa.",
+      "Enquanto isso, aqueça uma panela com azeite e refogue a cebola e o alho até ficarem dourados, tipo final de novela.",
+      "Junte o tomate e refogue até murchar, como a esperança de segunda-feira.",
+      "Adicione o camarão, salteie até ficar rosa (o camarão, não você), tempere com sal e pimenta a gosto.",
+      "Desligue o fogo e misture o creme de leite, o requeijão e o cheiro verde – uma festa na panela.",
+      "Retire a moranga do forno, recheie com a mistura de camarão, cubra com a tampa e leve ao forno por mais 15 minutos.",
+      "Retire, chame os amigos e aproveite antes que alguém coma tudo sozinho."
     ],
-    "descricao": "Forte que nem aquele chefe que só falta te mandar pro espaço, mas pelo menos essa pimenta vale a pena.",
-    "tempo": "30 min",
-    "dificuldade": "Médio",
-    "preco": "R$ 42,00",
-    "porcoes": "3 porções",
-    "dica": "Se o molho ficar muito apimentado, beba água, não chame o chefe – ele não vai entender."
-  },
-  {
-    "id": 865,
-    "titulo": "Tacos de Peixe com Molho de Abacate e Coentro",
-    "slug": "tacos-de-peixe-com-molho-de-abacate-e-coentro",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g filé de peixe branco (tilápia ou similar)",
-      "tortilhas pequenas de milho",
-      "abacate maduro",
-      "Suco de 1 limão",
-      "punhado de coentro fresco picado",
-      "Sal e pimenta-do-reino a gosto",
-      "colheres de sopa de azeite"
-    ],
-    "modoPreparo": [
-      "Tempere o peixe com sal, pimenta e limão.",
-      "Grelhe o peixe na frigideira com azeite até dourar e cozinhar por completo.",
-      "Amasse o abacate com limão, sal e coentro para fazer o molho.",
-      "Monte os tacos com peixe e molho de abacate."
-    ],
-    "descricao": "Porque às vezes a vida pede um pouco de México com gostinho de praia e zero compromisso.",
-    "tempo": "25 min",
-    "dificuldade": "Fácil",
-    "preco": "R$ 38,00",
-    "porcoes": "4 porções",
-    "dica": "Se o abacate estiver duro, trate como boleto atrasado: espere mais um pouco ou chame reforço (aquele amigo que entende do assunto)."
-  },
-  {
-    "id": 866,
-    "titulo": "Bolinho de Bacalhau Crocante",
-    "slug": "bolinho-de-bacalhau-crocante",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g bacalhau dessalgado e desfiado",
-      "g batata cozida e amassada",
-      "cebola pequena picada",
-      "dentes de alho picados",
-      "ovo",
-      "Salsa picada a gosto",
-      "Sal e pimenta-do-reino a gosto",
-      "Óleo para fritar"
-    ],
-    "modoPreparo": [
-      "Misture o bacalhau, batata, cebola, alho, ovo e salsa até formar uma massa homogênea.",
-      "Modele bolinhos com as mãos.",
-      "Frite em óleo quente até dourar, escorra em papel absorvente."
-    ],
-    "descricao": "Bolinho que é quase uma terapia: crocante por fora, macio por dentro e com personalidade forte.",
-    "tempo": "45 min",
-    "dificuldade": "Médio",
-    "preco": "R$ 40,00",
-    "porcoes": "4 porções",
-    "dica": "Bolinho de bacalhau é igual boleto: se não cuidar, vira um problemão na sua vida (mas esse dá pra comer sem culpa)."
-  },
-  {
-    "id": 867,
-    "titulo": "Ceviche de Camarão com Manga e Pimenta",
-    "slug": "ceviche-de-camarao-com-manga-e-pimenta",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g camarão cru limpo e cortado em pedaços pequenos",
-      "Suco de 3 limões",
-      "manga cortada em cubos",
-      "pimenta dedo-de-moça picadinha",
-      "/2 cebola roxa fatiada",
-      "Sal a gosto",
-      "Coentro picado a gosto"
-    ],
-    "modoPreparo": [
-      "Misture o camarão com o suco de limão e deixe marinar por 10 minutos.",
-      "Junte manga, cebola, pimenta, sal e coentro.",
-      "Misture delicadamente e sirva gelado."
-    ],
-    "descricao": "Pra quem gosta de emoção: ácido, picante e doce, tudo na mesma tigela – igual segunda-feira de manhã.",
-    "tempo": "15 min",
-    "dificuldade": "Fácil",
-    "preco": "R$ 33,00",
-    "porcoes": "2 porções",
-    "dica": "Se o ceviche for muito ácido, não é você, é o limão – a vida adulta é essa montanha-russa mesmo."
-  },
-  {
-    "id": 868,
-    "titulo": "Bobó de Camarão Clássico",
-    "slug": "bobo-de-camarao-classico",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g camarão limpo",
-      "g mandioca cozida e amassada",
-      "cebola picada",
-      "dentes de alho picados",
-      "ml leite de coco",
-      "colheres de sopa azeite de dendê",
-      "tomates picados",
-      "Coentro a gosto",
-      "Sal e pimenta-do-reino a gosto"
-    ],
-    "modoPreparo": [
-      "Refogue cebola, alho e tomates no azeite de dendê.",
-      "Junte o camarão e cozinhe até mudar de cor.",
-      "Misture a mandioca amassada e o leite de coco, mexa bem até virar um creme.",
-      "Tempere e finalize com coentro."
-    ],
-    "descricao": "Pra quando você quer comer uma comida que abraça, mas que não te cobra nenhuma prestação.",
+    "descricao": "Um clássico dos frutos do mar que une a elegância da moranga com a gostosura do camarão. Perfeito pra aquela visita surpresa ou pra impressionar a sogra — ou pelo menos tentar.",
     "tempo": "60 min",
     "dificuldade": "Médio",
-    "preco": "R$ 60,00",
-    "porcoes": "4 porções",
-    "dica": "Bobó é a prova de que até na cozinha a gente pode virar um abraço quentinho – e sem precisar dividir a Netflix."
-  },
-  {
-    "id": 869,
-    "titulo": "Ostras Gratinadas com Queijo e Ervas Finas",
-    "slug": "ostras-gratinadas-com-queijo-e-ervas-finas",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "ostras frescas na concha",
-      "g queijo parmesão ralado",
-      "colheres de sopa de manteiga",
-      "dente de alho picado",
-      "Salsa e tomilho picados a gosto",
-      "Pimenta-do-reino a gosto"
-    ],
-    "modoPreparo": [
-      "Pré-aqueça o forno a 200ºC.",
-      "Misture manteiga, alho e ervas.",
-      "Abra as ostras, coloque uma porção da mistura de manteiga em cada uma.",
-      "Polvilhe parmesão e asse por 10 minutos até dourar."
-    ],
-    "descricao": "Ostras: porque às vezes você quer parecer sofisticado até na hora de se alimentar.",
-    "tempo": "25 min",
-    "dificuldade": "Médio",
-    "preco": "R$ 70,00",
-    "porcoes": "6 porções",
-    "dica": "Ostras são como boletos: caras, mas se não pagar, não tem como aproveitar a vida."
-  },
-  {
-    "id": 870,
-    "titulo": "Lagosta Grelhada com Manteiga de Alho e Limão",
-    "slug": "lagosta-grelhada-com-manteiga-de-alho-e-limao",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "lagostas médias cortadas ao meio",
-      "g manteiga",
-      "dentes de alho picados",
-      "Suco de 1 limão",
-      "Sal e pimenta-do-reino a gosto"
-    ],
-    "modoPreparo": [
-      "Derreta a manteiga, misture alho e limão.",
-      "Tempere as lagostas com sal e pimenta.",
-      "Grelhe as lagostas com o lado da carne para baixo por 10 minutos.",
-      "Vire, pincele a manteiga temperada e grelhe por mais 5 minutos."
-    ],
-    "descricao": "Pra impressionar no jantar sem precisar fingir que entende de vinhos caros.",
-    "tempo": "35 min",
-    "dificuldade": "Difícil",
-    "preco": "R$ 120,00",
-    "porcoes": "2 porções",
-    "dica": "Lagosta é igual boleto do cartão: só paga quem quer, mas quem come agradece."
-  },
-  {
-    "id": 871,
-    "titulo": "Caldinho de Sururu com Toque de Coentro",
-    "slug": "caldinho-de-sururu-com-toque-de-coentro",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g sururu limpo",
-      "cebola picada",
-      "dentes de alho picados",
-      "tomate picado",
-      "pimenta dedo-de-moça picada",
-      "punhado de coentro",
-      "ml água",
-      "Sal a gosto"
-    ],
-    "modoPreparo": [
-      "Refogue cebola, alho, tomate e pimenta.",
-      "Adicione o sururu e água, cozinhe por 25 minutos.",
-      "Bata metade do caldo no liquidificador e volte para a panela.",
-      "Tempere com sal e coentro, aqueça e sirva."
-    ],
-    "descricao": "Aquele caldinho que é mais reconfortante que abraço de mãe em dia ruim.",
-    "tempo": "40 min",
-    "dificuldade": "Médio",
-    "preco": "R$ 28,00",
-    "porcoes": "3 porções",
-    "dica": "Caldinho é como boleto: às vezes aperta, mas depois dá aquele alívio gostoso."
-  },
-  {
-    "id": 872,
-    "titulo": "Espetinhos de Camarão com Molho de Maracujá Picante",
-    "slug": "espetinhos-de-camarao-com-molho-de-maracuja-picante",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g camarão limpo",
-      "maracujá (polpa)",
-      "pimenta dedo-de-moça picada",
-      "colheres de sopa de mel",
-      "Sal e pimenta-do-reino a gosto"
-    ],
-    "modoPreparo": [
-      "Tempere o camarão com sal e pimenta.",
-      "Monte os espetinhos com o camarão.",
-      "Grelhe até ficarem rosados.",
-      "Misture a polpa do maracujá, pimenta e mel para fazer o molho.",
-      "Sirva os espetinhos acompanhados do molho."
-    ],
-    "descricao": "Pra quem gosta de juntar o útil ao agradável, ou seja, camarão com emoção e um pouco de azedume.",
-    "tempo": "30 min",
-    "dificuldade": "Fácil",
-    "preco": "R$ 40,00",
-    "porcoes": "4 porções",
-    "dica": "Se a pimenta picar demais, respira fundo – é só uma pequena vingança da vida adulta."
-  },
-  {
-    "id": 873,
-    "titulo": "Paella de Frutos do Mar",
-    "slug": "paella-de-frutos-do-mar",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g camarão",
-      "g lula em anéis",
-      "g mexilhão",
-      "xícaras de arroz para paella ou arbóreo",
-      "cebola picada",
-      "dentes de alho picados",
-      "tomate picado",
-      "pimentão vermelho picado",
-      "colher de chá de açafrão",
-      "xícaras de caldo de peixe",
-      "Azeite, sal e pimenta a gosto"
-    ],
-    "modoPreparo": [
-      "Refogue cebola, alho, tomate e pimentão no azeite.",
-      "Adicione o arroz e açafrão, misture bem.",
-      "Coloque o caldo e cozinhe em fogo médio.",
-      "Quando o arroz estiver quase pronto, acrescente os frutos do mar.",
-      "Cozinhe até o arroz absorver tudo e os frutos do mar estiverem no ponto."
-    ],
-    "descricao": "A paella é tipo aquela reunião de família: cheia de gente, barulho e todo mundo quer um pedaço.",
-    "tempo": "60 min",
-    "dificuldade": "Difícil",
-    "preco": "R$ 80,00",
-    "porcoes": "6 porções",
-    "dica": "Paella é igual boleto da luz: demora, mas no final todo mundo quer pagar pra ver o resultado."
-  },
-  {
-    "id": 874,
-    "titulo": "Cuscuz Marítimo com Camarão e Leite de Coco",
-    "slug": "cuscuz-maritimo-com-camarao-e-leite-de-coco",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "xícaras de farinha de milho para cuscuz",
-      "g camarão limpo",
-      "cebola picada",
-      "tomates picados",
-      "ml leite de coco",
-      "colheres de sopa de azeite de oliva",
-      "Sal e pimenta a gosto",
-      "Coentro a gosto"
-    ],
-    "modoPreparo": [
-      "Hidrate o cuscuz conforme instruções da embalagem.",
-      "Refogue a cebola e tomate no azeite, adicione o camarão até cozinhar.",
-      "Misture o leite de coco ao refogado.",
-      "Junte o cuscuz ao refogado, mexa e deixe descansar tampado por 5 minutos."
-    ],
-    "descricao": "Porque cuscuz não é só coisa do Nordeste, e frutos do mar merecem esse abraço nordestino.",
-    "tempo": "45 min",
-    "dificuldade": "Médio",
-    "preco": "R$ 42,00",
-    "porcoes": "3 porções",
-    "dica": "Cuscuz com camarão é igual boleto: se não pagar, não rola a festa."
-  },
-  {
-    "id": 875,
-    "titulo": "Sushi de Salmão com Cream Cheese e Cebolinha",
-    "slug": "sushi-de-salmao-com-cream-cheese-e-cebolinha",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g salmão fresco em tiras",
-      "xícaras de arroz para sushi",
-      "colher de sopa de vinagre de arroz",
-      "g cream cheese",
-      "Cebolinha picada a gosto",
-      "Alga nori",
-      "Sal e açúcar a gosto"
-    ],
-    "modoPreparo": [
-      "Cozinhe o arroz, tempere com vinagre, sal e açúcar.",
-      "Sobre a esteira, coloque a alga, espalhe o arroz, disponha o cream cheese, salmão e cebolinha.",
-      "Enrole firmemente e corte em pedaços."
-    ],
-    "descricao": "Pra quem acha que frutos do mar não combinam com preguiça, esse sushi é a prova do contrário.",
-    "tempo": "50 min",
-    "dificuldade": "Difícil",
     "preco": "R$ 65,00",
     "porcoes": "4 porções",
-    "dica": "Fazer sushi em casa é igual pagar boleto: dá trabalho, mas a satisfação é gigante."
+    "dica": "Se ficar sem companhia pra dividir, faça questão de tirar selfies com a moranga recheada antes de devorar; é a única audiência garantida que você vai ter."
   },
   {
-    "id": 876,
-    "titulo": "Caldinha de Camarão para Petisco",
-    "slug": "caldinha-de-camarao-para-petisco",
-    "categoria": "Frutos Do Mar ",
+    "id": 3,
+    "titulo": "Bobó de Camarão: O prato que faz até seu crush perguntar se vai ter repeteco",
+    "slug": "bobo-de-camarao-o-prato-que-faz-ate-seu-crush-perguntar-se-vai-ter-repeteco",
+    "categoria": "Frutos do mar 🦐",
     "ingredientes": [
-      "g camarão limpo",
-      "tomate maduro picado",
-      "/2 cebola picada",
-      "dente de alho picado",
-      "ml caldo de legumes",
-      "colher de sopa de azeite",
-      "Sal e pimenta a gosto"
+      "500g de camarão limpo",
+      "500g de mandioca (aipim) cozida",
+      "200ml de leite de coco",
+      "2 colheres de sopa de azeite de dendê",
+      "1 cebola média picada",
+      "2 dentes de alho picados",
+      "1 tomate picado",
+      "1 pimenta dedo-de-moça (opcional, pra dar aquele frio na barriga)",
+      "Coentro a gosto",
+      "Sal e pimenta-do-reino a gosto"
     ],
     "modoPreparo": [
-      "Refogue cebola e alho no azeite até dourar.",
-      "Junte tomate e refogue por 5 minutos.",
-      "Acrescente o caldo e o camarão, cozinhe até o camarão ficar rosado.",
-      "Bata metade do caldo no liquidificador, volte para a panela e ajuste o sal."
+      "Refogue a cebola e o alho no azeite de dendê até ficarem douradinhos — esse cheirinho já dá vontade de beijar o vizinho.",
+      "Acrescente o camarão e cozinhe até ficarem rosadinhos, não até virarem lagosta, ok?",
+      "Junte o tomate e a pimenta dedo-de-moça, porque só um pouco de fogo na vida não faz mal.",
+      "Bata a mandioca cozida com o leite de coco até virar um creme lisinho, que nem discurso fácil de entender.",
+      "Misture o creme de mandioca com o camarão refogado e deixe apurar por uns 5 minutos.",
+      "Finalize com coentro, sal e pimenta-do-reino a gosto — se não gostar de coentro, finja que só tá decorando o prato."
     ],
-    "descricao": "O caldinho que te salva quando a vida tá mais seca que seu bolso no fim do mês.",
-    "tempo": "30 min",
-    "dificuldade": "Fácil",
-    "preco": "R$ 28,00",
-    "porcoes": "4 porções",
-    "dica": "Caldinho é como boleto atrasado: só melhora depois que você resolve encarar."
-  },
-  {
-    "id": 877,
-    "titulo": "Tartar de Atum com Abacate e Gergelim",
-    "slug": "tartar-de-atum-com-abacate-e-gergelim",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g atum fresco picado miudinho",
-      "/2 abacate maduro em cubos",
-      "colher de sopa de gergelim torrado",
-      "colher de sopa de shoyu",
-      "Suco de 1 limão",
-      "Sal e pimenta a gosto"
-    ],
-    "modoPreparo": [
-      "Misture o atum com shoyu, limão, sal e pimenta.",
-      "Acrescente o abacate delicadamente.",
-      "Polvilhe com gergelim antes de servir."
-    ],
-    "descricao": "Tartar: pra quem quer parecer chique sem esforço, ou pelo menos tentar.",
-    "tempo": "20 min",
-    "dificuldade": "Fácil",
-    "preco": "R$ 50,00",
-    "porcoes": "2 porções",
-    "dica": "Tartar é igual boleto: só funciona se você não enrolar."
-  },
-  {
-    "id": 878,
-    "titulo": "Camarão na Moranga Cremoso",
-    "slug": "camarao-na-moranga-cremoso",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "moranga média",
-      "g camarão limpo",
-      "cebola picada",
-      "dentes de alho picados",
-      "ml creme de leite",
-      "tomates picados",
-      "Sal e pimenta a gosto",
-      "Azeite a gosto"
-    ],
-    "modoPreparo": [
-      "Cozinhe a moranga inteira até ficar macia.",
-      "Corte a tampa, retire as sementes e reserve.",
-      "Refogue cebola, alho, tomate e camarão até o camarão cozinhar.",
-      "Adicione o creme de leite, tempere e misture.",
-      "Recheie a moranga, tampe e leve ao forno por 15 minutos."
-    ],
-    "descricao": "Moranga com camarão: um casamento que até seu chefe ficaria com inveja.",
-    "tempo": "70 min",
-    "dificuldade": "Médio",
-    "preco": "R$ 55,00",
-    "porcoes": "4 porções",
-    "dica": "Se a moranga não abrir fácil, não force – igual boletos, tem hora certa pra tudo."
-  },
-  {
-    "id": 879,
-    "titulo": "Ensopado de Polvo com Batatas",
-    "slug": "ensopado-de-polvo-com-batatas",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g polvo limpo",
-      "batatas médias cortadas em cubos",
-      "cebola picada",
-      "dentes de alho picados",
-      "tomates picados",
-      "folha de louro",
-      "Sal e pimenta a gosto",
-      "Azeite a gosto"
-    ],
-    "modoPreparo": [
-      "Cozinhe o polvo na panela de pressão por 40 minutos até ficar macio.",
-      "Refogue cebola, alho e tomate no azeite.",
-      "Adicione o polvo, batatas, louro, sal e pimenta.",
-      "Cozinhe até as batatas ficarem macias."
-    ],
-    "descricao": "Polvo: porque sua vida já tem muitos tentáculos de problemas, mas esse a gente resolve na panela.",
-    "tempo": "90 min",
-    "dificuldade": "Difícil",
-    "preco": "R$ 75,00",
-    "porcoes": "4 porções",
-    "dica": "Polvo é igual boleto: demorado, mas no final vale a pena."
-  },
-  {
-    "id": 880,
-    "titulo": "Sashimi de Salmão com Molho de Gengibre e Soja",
-    "slug": "sashimi-de-salmao-com-molho-de-gengibre-e-soja",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g salmão fresco em fatias finas",
-      "colheres de sopa de shoyu",
-      "colher de chá de gengibre ralado",
-      "colher de chá de óleo de gergelim",
-      "Cebolinha picada para decorar"
-    ],
-    "modoPreparo": [
-      "Misture shoyu, gengibre e óleo para o molho.",
-      "Disponha as fatias de salmão no prato.",
-      "Regue com o molho e decore com cebolinha."
-    ],
-    "descricao": "Pra quem quer comer peixe cru e parecer que entende, mesmo só entendendo de boleto.",
-    "tempo": "15 min",
-    "dificuldade": "Fácil",
-    "preco": "R$ 60,00",
-    "porcoes": "2 porções",
-    "dica": "Sashimi é como boleto: fácil de entender, difícil de pagar."
-  },
-  {
-    "id": 881,
-    "titulo": "Camarão Empanado Crocante com Molho Tártaro",
-    "slug": "camarao-empanado-crocante-com-molho-tartaro",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g camarão limpo",
-      "xícara de farinha de trigo",
-      "ovos batidos",
-      "xícara de farinha de rosca",
-      "Óleo para fritar",
-      "Molho tártaro pronto para acompanhar"
-    ],
-    "modoPreparo": [
-      "Passe os camarões na farinha, depois nos ovos, e por último na farinha de rosca.",
-      "Frite em óleo quente até dourar.",
-      "Escorra em papel absorvente e sirva com molho tártaro."
-    ],
-    "descricao": "Pra quando você quer ser criança de novo, mas só o boleto que não te deixa.",
-    "tempo": "40 min",
-    "dificuldade": "Fácil",
-    "preco": "R$ 38,00",
-    "porcoes": "3 porções",
-    "dica": "Camarão empanado é igual boleto: crocante na hora, mas depois vem a preocupação."
-  },
-  {
-    "id": 882,
-    "titulo": "Sopa de Mariscos com Leite de Coco e Curry",
-    "slug": "sopa-de-mariscos-com-leite-de-coco-e-curry",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g mix de mariscos",
-      "cebola picada",
-      "dentes de alho picados",
-      "colher de sopa de curry em pó",
-      "ml leite de coco",
-      "ml caldo de peixe",
-      "Sal e pimenta a gosto",
-      "Coentro para decorar"
-    ],
-    "modoPreparo": [
-      "Refogue cebola e alho até dourar.",
-      "Acrescente curry e mexa por 1 minuto.",
-      "Adicione o caldo, leite de coco e mariscos, cozinhe até os mariscos abrirem.",
-      "Tempere, decore com coentro e sirva quente."
-    ],
-    "descricao": "Sopa que é tipo aquele amigo do trabalho: exótico, quente e que te surpreende.",
-    "tempo": "45 min",
-    "dificuldade": "Médio",
-    "preco": "R$ 45,00",
-    "porcoes": "4 porções",
-    "dica": "Sopa com curry é igual boleto atrasado: esquenta o coração e o bolso."
-  },
-  {
-    "id": 883,
-    "titulo": "Salada de Polvo com Batata e Azeite de Ervas",
-    "slug": "salada-de-polvo-com-batata-e-azeite-de-ervas",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g polvo cozido e cortado em pedaços",
-      "batatas cozidas e cortadas",
-      "cebola roxa fatiada",
-      "Azeite de oliva",
-      "Alho picado",
-      "Salsinha e tomilho picados",
-      "Sal e pimenta a gosto"
-    ],
-    "modoPreparo": [
-      "Misture o polvo, batata e cebola na tigela.",
-      "Faça um molho com azeite, alho, ervas, sal e pimenta.",
-      "Regue a salada e misture bem antes de servir."
-    ],
-    "descricao": "Pra provar que polvo pode ser mais amigo do que sua última fatura no cartão.",
-    "tempo": "30 min",
-    "dificuldade": "Médio",
-    "preco": "R$ 50,00",
-    "porcoes": "3 porções",
-    "dica": "Salada de polvo é igual boletos: se você não controlar, vira bagunça."
-  },
-  {
-    "id": 884,
-    "titulo": "Camarão à Provençal com Pão Italiano",
-    "slug": "camarao-a-provencal-com-pao-italiano",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g camarão limpo",
-      "dentes de alho picados",
-      "colheres de sopa de azeite",
-      "Salsinha picada a gosto",
-      "Sal e pimenta a gosto",
-      "Fatias de pão italiano para acompanhar"
-    ],
-    "modoPreparo": [
-      "Aqueça o azeite e refogue o alho até dourar.",
-      "Adicione o camarão, tempere e cozinhe até ficar rosado.",
-      "Finalize com salsinha e sirva com pão italiano."
-    ],
-    "descricao": "Pra quem quer se sentir na França, mas só tem boleto e pão francês.",
-    "tempo": "25 min",
-    "dificuldade": "Fácil",
-    "preco": "R$ 36,00",
-    "porcoes": "2 porções",
-    "dica": "Se seu francês não é bom, pelo menos o camarão à provençal vai te salvar do aperto."
-  },
-  {
-    "id": 885,
-    "titulo": "Salmão assado com Crosta de Ervas e Limão",
-    "slug": "salmao-assado-com-crosta-de-ervas-e-limao",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "filés de salmão",
-      "colher de sopa de salsinha picada",
-      "colher de sopa de tomilho picado",
-      "Raspas de 1 limão",
-      "Sal e pimenta a gosto",
-      "Azeite para pincelar"
-    ],
-    "modoPreparo": [
-      "Misture as ervas e raspas de limão.",
-      "Tempere o salmão com sal, pimenta e azeite.",
-      "Cubra os filés com a mistura de ervas.",
-      "Asse a 200ºC por 20 minutos."
-    ],
-    "descricao": "Porque às vezes a gente quer ser saudável, mas com estilo e sem perder tempo.",
-    "tempo": "35 min",
-    "dificuldade": "Médio",
-    "preco": "R$ 58,00",
-    "porcoes": "2 porções",
-    "dica": "Salmão assado é igual boleto pago em dia: dá aquela sensação boa de dever cumprido."
-  },
-  {
-    "id": 886,
-    "titulo": "Mexilhão ao Vinho Branco com Alho e Salsa",
-    "slug": "mexilhao-ao-vinho-branco-com-alho-e-salsa",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g mexilhão limpo",
-      "dentes de alho picados",
-      "/2 xícara de vinho branco seco",
-      "Salsa picada",
-      "Sal e pimenta a gosto",
-      "Azeite"
-    ],
-    "modoPreparo": [
-      "Aqueça azeite e refogue o alho.",
-      "Adicione os mexilhões e o vinho.",
-      "Tampe e cozinhe até abrir (5-7 minutos).",
-      "Tempere e finalize com salsa."
-    ],
-    "descricao": "Pra quem quer algo rápido e que impressiona mais que seu chefe na reunião.",
-    "tempo": "25 min",
-    "dificuldade": "Fácil",
-    "preco": "R$ 30,00",
-    "porcoes": "3 porções",
-    "dica": "Mexilhão é igual boleto próximo do vencimento: se não abrir, você se complica."
-  },
-  {
-    "id": 887,
-    "titulo": "Tortilha de Camarão com Legumes",
-    "slug": "tortilha-de-camarao-com-legumes",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g camarão cozido e picado",
-      "ovos",
-      "/2 cebola picada",
-      "/2 pimentão picado",
-      "cenoura ralada",
-      "Sal e pimenta a gosto",
-      "Azeite para fritar"
-    ],
-    "modoPreparo": [
-      "Bata os ovos com sal e pimenta.",
-      "Refogue cebola, pimentão e cenoura até ficarem macios.",
-      "Misture os legumes e o camarão aos ovos.",
-      "Cozinhe na frigideira até firmar dos dois lados."
-    ],
-    "descricao": "Porque até na cozinha dá pra ser multi-tarefa e ainda parecer saudável.",
-    "tempo": "30 min",
-    "dificuldade": "Fácil",
-    "preco": "R$ 35,00",
-    "porcoes": "3 porções",
-    "dica": "Tortilha é igual boleto quitado: simples, mas faz você dormir tranquilo."
-  },
-  {
-    "id": 888,
-    "titulo": "Sopa Fria de Pepino com Camarão e Hortelã",
-    "slug": "sopa-fria-de-pepino-com-camarao-e-hortela",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "pepino grande descascado e picado",
-      "g camarão cozido",
-      "iogurte natural pequeno",
-      "Folhas de hortelã a gosto",
-      "Sal e pimenta do reino a gosto"
-    ],
-    "modoPreparo": [
-      "Bata o pepino, hortelã, iogurte, sal e pimenta no liquidificador.",
-      "Sirva gelado com camarões por cima."
-    ],
-    "descricao": "Pra refrescar mais que seus amigos reclamando do boleto todo mês.",
-    "tempo": "20 min",
-    "dificuldade": "Fácil",
-    "preco": "R$ 30,00",
-    "porcoes": "2 porções",
-    "dica": "Sopa fria é igual boleto pago cedo: dá aquela sensação deliciosa de alívio."
-  },
-  {
-    "id": 889,
-    "titulo": "Camarão com Quinoa e Legumes ao Curry",
-    "slug": "camarao-com-quinoa-e-legumes-ao-curry",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g camarão limpo",
-      "xícara de quinoa",
-      "cenoura picada",
-      "abobrinha picada",
-      "colher de sopa de curry em pó",
-      "Sal e pimenta a gosto",
-      "Azeite"
-    ],
-    "modoPreparo": [
-      "Cozinhe a quinoa conforme instrução.",
-      "Refogue os legumes com azeite e curry.",
-      "Adicione o camarão e cozinhe até rosar.",
-      "Misture a quinoa e ajuste o tempero."
-    ],
-    "descricao": "Pra quem quer proteína de verdade, mas não quer virar um relógio de malhar.",
-    "tempo": "35 min",
-    "dificuldade": "Médio",
-    "preco": "R$ 42,00",
-    "porcoes": "3 porções",
-    "dica": "Camarão com quinoa é igual boleto pago em dia: o combo perfeito pra vida adulta."
-  },
-  {
-    "id": 890,
-    "titulo": "Paillard de Peixe com Molho de Manteiga e Alcaparras",
-    "slug": "paillard-de-peixe-com-molho-de-manteiga-e-alcaparras",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "filés finos de peixe branco",
-      "g manteiga",
-      "colher de sopa de alcaparras",
-      "Suco de 1/2 limão",
-      "Sal e pimenta a gosto"
-    ],
-    "modoPreparo": [
-      "Grelhe os filés temperados até dourar rápido.",
-      "Derreta a manteiga, junte alcaparras e limão.",
-      "Regue o peixe com o molho antes de servir."
-    ],
-    "descricao": "Pra quem curte uma coisa leve, mas quer parecer que sabe o que tá fazendo.",
-    "tempo": "25 min",
-    "dificuldade": "Médio",
-    "preco": "R$ 45,00",
-    "porcoes": "2 porções",
-    "dica": "Paillard é igual boleto quitado: rápido, fácil e deixa uma boa impressão."
-  },
-  {
-    "id": 891,
-    "titulo": "Ceviche de Lula com Cítricos e Pimenta Rosa",
-    "slug": "ceviche-de-lula-com-citricos-e-pimenta-rosa",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g lula limpa e fatiada",
-      "Suco de 2 limões",
-      "Suco de 1 laranja",
-      "colher de chá de pimenta rosa",
-      "cebola roxa fatiada",
-      "Sal a gosto"
-    ],
-    "modoPreparo": [
-      "Misture lula com sucos e deixe marinar por 15 minutos.",
-      "Junte cebola, pimenta e sal.",
-      "Sirva gelado, porque a vida já é quente demais."
-    ],
-    "descricao": "Pra quem gosta de sabor ácido, picante e uma pitada de drama na vida.",
-    "tempo": "20 min",
-    "dificuldade": "Fácil",
-    "preco": "R$ 38,00",
-    "porcoes": "2 porções",
-    "dica": "Ceviche de lula é igual boleto atrasado: só aceita a pimenta se você não fugir."
-  },
-  {
-    "id": 892,
-    "titulo": "Camarão ao Curry com Arroz de Coco",
-    "slug": "camarao-ao-curry-com-arroz-de-coco",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g camarão limpo",
-      "xícara de arroz",
-      "ml leite de coco",
-      "colher de sopa de curry",
-      "cebola picada",
-      "Sal e pimenta a gosto",
-      "Azeite"
-    ],
-    "modoPreparo": [
-      "Cozinhe o arroz com o leite de coco em fogo baixo.",
-      "Refogue cebola no azeite, adicione o curry e camarão.",
-      "Cozinhe até camarão ficar rosado.",
-      "Sirva o camarão sobre o arroz."
-    ],
-    "descricao": "Porque às vezes a gente quer esquecer os boletos e viajar só com o paladar.",
-    "tempo": "40 min",
-    "dificuldade": "Médio",
-    "preco": "R$ 48,00",
-    "porcoes": "3 porções",
-    "dica": "Camarão ao curry é igual boleto pago: te leva pra longe do estresse, pelo menos por um tempo."
-  },
-  {
-    "id": 893,
-    "titulo": "Farofa de Camarão com Dendê e Castanha",
-    "slug": "farofa-de-camarao-com-dende-e-castanha",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g camarão limpo",
-      "xícaras de farinha de mandioca",
-      "colheres de sopa de azeite de dendê",
-      "cebola picada",
-      "g castanhas picadas",
-      "Sal a gosto"
-    ],
-    "modoPreparo": [
-      "Refogue a cebola no azeite de dendê.",
-      "Acrescente o camarão e cozinhe até rosar.",
-      "Junte a farinha e castanhas, mexa até dourar.",
-      "Ajuste o sal e sirva."
-    ],
-    "descricao": "Pra quem quer uma farofa que não é só acompanhamento, é protagonista da festa.",
-    "tempo": "35 min",
-    "dificuldade": "Fácil",
-    "preco": "R$ 42,00",
-    "porcoes": "4 porções",
-    "dica": "Farofa com dendê é igual boleto: se não pagar, só te sobra o azedume."
-  },
-  {
-    "id": 894,
-    "titulo": "Camarão ao Molho de Maracujá com Gengibre",
-    "slug": "camarao-ao-molho-de-maracuja-com-gengibre",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g camarão limpo",
-      "Polpa de 1 maracujá",
-      "colher de chá de gengibre ralado",
-      "colher de sopa de mel",
-      "Sal e pimenta a gosto",
-      "Azeite"
-    ],
-    "modoPreparo": [
-      "Refogue o camarão no azeite até rosar.",
-      "Misture maracujá, gengibre e mel, adicione ao camarão.",
-      "Cozinhe por mais 5 minutos até o molho reduzir."
-    ],
-    "descricao": "Pra quem quer sabor com punch, igual aquele chefe que não te deixa em paz.",
-    "tempo": "30 min",
-    "dificuldade": "Médio",
-    "preco": "R$ 40,00",
-    "porcoes": "3 porções",
-    "dica": "Molho de maracujá é igual boleto: azedinho, mas fundamental pra dar aquele sabor especial."
-  },
-  {
-    "id": 895,
-    "titulo": "Polvo Grelhado com Batatas ao Alecrim",
-    "slug": "polvo-grelhado-com-batatas-ao-alecrim",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g polvo limpo",
-      "batatas médias",
-      "Alecrim fresco",
-      "Azeite",
-      "Sal e pimenta a gosto"
-    ],
-    "modoPreparo": [
-      "Cozinhe o polvo até ficar macio.",
-      "Cozinhe as batatas e corte em rodelas.",
-      "Grelhe o polvo e as batatas com azeite e alecrim.",
-      "Tempere e sirva."
-    ],
-    "descricao": "Polvo na grelha para provar que até os mais complicados têm solução na cozinha.",
-    "tempo": "60 min",
-    "dificuldade": "Difícil",
-    "preco": "R$ 70,00",
-    "porcoes": "3 porções",
-    "dica": "Polvo é igual boleto: difícil de domar, mas o resultado compensa."
-  },
-  {
-    "id": 896,
-    "titulo": "Paella Vegana com Mix de Mariscos Vegetais",
-    "slug": "paella-vegana-com-mix-de-mariscos-vegetais",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "xícaras de arroz arbóreo",
-      "g mix de mariscos vegetais (proteína de soja e algas)",
-      "cebola picada",
-      "dentes de alho picados",
-      "tomate picado",
-      "pimentão cortado",
-      "Açafrão a gosto",
-      "xícaras de caldo de legumes",
-      "Azeite, sal e pimenta a gosto"
-    ],
-    "modoPreparo": [
-      "Refogue cebola, alho, tomate e pimentão no azeite.",
-      "Junte arroz e açafrão, mexa bem.",
-      "Acrescente caldo aos poucos, mexendo até o arroz cozinhar.",
-      "Adicione os mariscos vegetais nos últimos 10 minutos."
-    ],
-    "descricao": "Pra quem quer o sabor do mar sem culpa, nem boletos atrasados.",
+    "descricao": "Bobó de camarão: a desculpa perfeita pra chamar os amigos e impressionar até quem acha que pimenta é invenção do diabo.",
     "tempo": "50 min",
     "dificuldade": "Médio",
     "preco": "R$ 45,00",
     "porcoes": "4 porções",
-    "dica": "Paella vegana é igual boleto pago antecipado: você se sente leve e responsável."
+    "dica": "Se o resultado não ficar tão cremoso, não culpe a receita: culpe o fornecedor da mandioca... ou finja que é assim mesmo, artesanal."
   },
   {
-    "id": 897,
-    "titulo": "Camarão ao Molho de Laranja e Gengibre",
-    "slug": "camarao-ao-molho-de-laranja-e-gengibre",
-    "categoria": "Frutos Do Mar ",
+    "id": 4,
+    "titulo": "Peixe Assado que Até Sua Sogra Vai Aprovar (ou pelo menos fingir)",
+    "slug": "peixe-assado-que-ate-sogra-vai-aprovar",
+    "categoria": "Frutos do mar 🦐",
     "ingredientes": [
-      "g camarão limpo",
-      "Suco de 2 laranjas",
-      "colher de chá de gengibre ralado",
-      "colher de sopa de mel",
-      "Sal e pimenta a gosto",
-      "Azeite"
+      "1 filé grande de peixe branco (pode ser robalo, tilápia, ou fique amigo do seu pescador local)",
+      "1 limão siciliano (porque limão normal é muito mainstream)",
+      "2 dentes de alho picados (para espantar vampiros e visitas indesejadas)",
+      "1/2 xícara de ervas frescas picadas (salsinha, alecrim, tomilho, aquele cheiro que sua cozinha merece)",
+      "3 colheres de sopa de azeite de oliva (para a pele do peixe ficar mais brilhante que seu futuro)",
+      "Sal e pimenta do reino a gosto (para temperar sua vida)",
+      "Farinha de rosca ou pão ralado (para aquela crosta que parece que você fez mil cursos de cozinha)"
     ],
     "modoPreparo": [
-      "Refogue o camarão no azeite até rosar.",
-      "Misture suco de laranja, gengibre e mel.",
-      "Adicione o molho ao camarão e cozinhe por 5 minutos."
+      "Pré-aqueça o forno a 200°C, porque paciência é uma virtude que nem todo mundo tem.",
+      "Misture as ervas, o alho, o azeite, o sal, a pimenta e a raspinha do limão em uma tigela. Se quiser, faça uma dancinha para criar clima.",
+      "Passe essa mistura generosamente sobre o filé de peixe, cobrir também os lados, afinal, ninguém gosta de ficar de fora do agito.",
+      "Cubra o peixe com a farinha de rosca pressionando para formar a crosta – é o casaco estiloso do peixe.",
+      "Asse por cerca de 20 minutos ou até o peixe ficar soltando aquele cheiro que faz vizinho aparecer com fome.",
+      "Regue com o suco do limão siciliano antes de servir, porque a vida precisa de um sabor azedinho para ser interessante."
     ],
-    "descricao": "Pra quem quer um molho que é a mistura perfeita entre ‘doce’ e ‘não me estressa’.",
+    "descricao": "Uma receita que te faz parecer chef, impressiona a família e ainda mantém o peixe longe daquele gosto de 'tem coisa errada aqui'.",
     "tempo": "30 min",
     "dificuldade": "Médio",
-    "preco": "R$ 38,00",
-    "porcoes": "3 porções",
-    "dica": "Molho de laranja é igual boleto: pode ser azedo, mas com a dose certa vira doce."
-  },
-  {
-    "id": 898,
-    "titulo": "Sashimi de Polvo com Molho de Limão e Pimenta",
-    "slug": "sashimi-de-polvo-com-molho-de-limao-e-pimenta",
-    "categoria": "Frutos Do Mar ",
-    "ingredientes": [
-      "g polvo cozido e fatiado fino",
-      "Suco de 1 limão",
-      "pimenta dedo-de-moça picada",
-      "Sal a gosto",
-      "Coentro para decorar"
-    ],
-    "modoPreparo": [
-      "Misture limão, pimenta e sal para o molho.",
-      "Disponha o polvo no prato e regue com o molho.",
-      "Decore com coentro e sirva."
-    ],
-    "descricao": "Pra quem gosta de aventura: polvo cru e um molho que não perdoa.",
-    "tempo": "20 min",
-    "dificuldade": "Médio",
-    "preco": "R$ 55,00",
+    "preco": "R$ 35,00",
     "porcoes": "2 porções",
-    "dica": "Sashimi de polvo é igual boleto atrasado: só os fortes encaram sem drama."
+    "dica": "Se a crosta grudar na assadeira, finja que é parte do charme rústico – ninguém precisa saber que você esqueceu o papel alumínio!"
   },
   {
-    "id": 899,
-    "titulo": "Camarão com Espinafre ao Creme de Alho",
-    "slug": "camarao-com-espinafre-ao-creme-de-alho",
-    "categoria": "Frutos Do Mar ",
+    "id": 5,
+    "titulo": "Caldeirada Maravilhosa: O Mar na Sua Panela (Sem Precisar Mergulhar)",
+    "slug": "caldeirada-maravilhosa-o-mar-na-sua-panela-sem-precisar-mergulhar",
+    "categoria": "Frutos do mar 🦐",
     "ingredientes": [
-      "g camarão limpo",
-      "g espinafre fresco",
-      "dentes de alho picados",
-      "ml creme de leite",
-      "Sal e pimenta a gosto",
-      "Azeite"
+      "300g de camarão limpo",
+      "300g de peixe branco em postas (merluza, robalo ou similar)",
+      "200g de mexilhões",
+      "200g de lula em rodelas",
+      "2 tomates maduros picados",
+      "1 cebola média picada",
+      "3 dentes de alho picados",
+      "1 pimentão vermelho picado",
+      "1/2 xícara de azeite de oliva",
+      "1/2 xícara de vinho branco seco",
+      "1 colher de sopa de extrato de tomate",
+      "Salsinha picada a gosto",
+      "Sal e pimenta-do-reino a gosto",
+      "1 folha de louro",
+      "Suco de 1 limão"
     ],
     "modoPreparo": [
-      "Refogue o alho no azeite, acrescente o espinafre até murchar.",
-      "Adicione o camarão e cozinhe até rosar.",
-      "Junte o creme de leite, tempere e aqueça até engrossar."
+      "Tempere os frutos do mar com sal, pimenta e limão. Reserve enquanto toma coragem para começar.",
+      "Em uma panela grande, aqueça o azeite e refogue a cebola, o alho e o pimentão até ficarem macios — ou até não aguentar mais o cheiro de cebola.",
+      "Adicione os tomates picados e o extrato de tomate. Cozinhe até formar um molho consistente, tipo aquele fim de pepino antes da festa acabar.",
+      "Coloque o vinho branco e a folha de louro. Deixe o álcool evaporar enquanto pensa na conta de luz da próxima mês.",
+      "Junte o peixe, tampe a panela e cozinhe por 5 minutos — o peixe vai se sentir na sauna, mas é por uma boa causa.",
+      "Adicione camarão, lula e mexilhões, cozinhe por mais 5 minutos ou até que todos estejam no ponto, igual aquele amigo que aparece só pra festa ficar boa.",
+      "Finalize com salsinha picada, ajuste o sal e a pimenta — aqui é o momento de provar e fingir que entende do que está comendo.",
+      "Sirva quente e aproveite o sabor do mar, sem precisar colocar os pés na areia e sem ficar com areia no sapato."
     ],
-    "descricao": "Pra quem quer um prato que é praticamente uma sessão de terapia em forma de comida.",
-    "tempo": "35 min",
+    "descricao": "Quer sentir o mar sem fazer balé na areia? Essa caldeirada mistura tudo que vem do mar num lugar só, pra sua cozinha virar uma praia (com ar-condicionado).",
+    "tempo": "50 min",
     "dificuldade": "Médio",
-    "preco": "R$ 38,00",
-    "porcoes": "3 porções",
-    "dica": "Camarão com espinafre é igual boleto pago: te deixa leve e satisfeito."
+    "preco": "R$ 65,00",
+    "porcoes": "4 porções",
+    "dica": "Se os frutos do mar começarem a fugir da panela, lembre que a cerveja gelada está ao alcance das mãos para ajudar na negociação."
   },
   {
-    "id": 900,
-    "titulo": "Tartar de Camarão com Manga e Hortelã",
-    "slug": "tartar-de-camarao-com-manga-e-hortela",
-    "categoria": "Frutos Do Mar ",
+    "id": 6,
+    "titulo": "Casquinha de Siri Gratinada: O Mar que Cai no Pão (e Não na Conta)",
+    "slug": "casquinha-de-siri-gratinada-o-mar-que-cai-no-pao",
+    "categoria": "Frutos do mar 🦐",
     "ingredientes": [
-      "g camarão cru picado",
-      "manga em cubos pequenos",
-      "Folhas de hortelã picadas",
-      "Suco de 1 limão",
-      "Sal e pimenta a gosto"
+      "300g de carne de siri limpa",
+      "1 colher de sopa de manteiga",
+      "1 cebola pequena picada",
+      "2 dentes de alho picados",
+      "1 tomate maduro picado",
+      "2 colheres de sopa de cheiro-verde picado",
+      "1 colher de sopa de farinha de trigo",
+      "100ml de leite",
+      "sal e pimenta-do-reino a gosto",
+      "queijo parmesão ralado para gratinar",
+      "casquinhas de siri (ou conchas para servir)"
     ],
     "modoPreparo": [
-      "Misture o camarão com limão, sal e pimenta.",
-      "Acrescente manga e hortelã.",
-      "Sirva gelado."
+      "Derreta a manteiga em uma panela e refogue a cebola e o alho até ficarem dourados – assim, pelo menos a cozinha vai ficar animada.",
+      "Adicione o tomate e a carne de siri, refogue por 5 minutos, como se estivesse convencendo o siri a colaborar.",
+      "Misture a farinha de trigo para dar liga, como aquele amigo que une a galera no churrasco.",
+      "Vá adicionando o leite aos poucos, mexendo até criar um creme consistente – como um relacionamento, tem que ter paciência.",
+      "Tempere com sal, pimenta e cheiro-verde. Experimente para não acabar parecendo almoço de hospital.",
+      "Recheie as casquinhas com o creme, cubra com queijo parmesão e leve ao forno preaquecido a 200ºC para gratinar por cerca de 10 minutos, até que o queijo forme aquela casquinha irresistível.",
+      "Sirva quente e prepare-se para fingir que sabe o que está comendo."
     ],
-    "descricao": "Pra quem gosta de frescor e quer fingir que tá numa praia mesmo com boleto na mão.",
-    "tempo": "20 min",
+    "descricao": "Um clássico do litoral que dá vontade de abraçar o siri antes de comer. Surpreenda seu paladar e esqueça o preço do peixe fresco (por pelo menos uns 30 minutos).",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Se a receita não der certo, finja que é um novo estilo gastronômico: 'Mar na Casquinha, versão abstrata'."
+  },
+  {
+    "id": 7,
+    "titulo": "Arroz de Mariscos: a Praia que Cabe na Panela",
+    "slug": "arroz-de-mariscos-a-praia-que-cabe-na-panela",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "2 xícaras de arroz branco",
+      "500g de mistura de mariscos (mexilhões, camarões e lulas)",
+      "1 cebola média picada",
+      "2 dentes de alho picados",
+      "1 tomate grande picado",
+      "1 pimentão vermelho picado",
+      "1/2 xícara de vinho branco seco",
+      "4 xícaras de caldo de peixe ou legumes",
+      "2 colheres de sopa de azeite de oliva",
+      "Salsinha e coentro a gosto",
+      "Sal e pimenta do reino a gosto",
+      "Suco de 1 limão"
+    ],
+    "modoPreparo": [
+      "Em uma panela grande, aqueça o azeite e refogue a cebola e o alho até ficarem transparentes. Se você já chorou mais por causa da cebola do que da última DR, está no caminho certo.",
+      "Adicione o tomate e o pimentão e refogue por 5 minutos. Sua cozinha já deve estar cheirando a férias na praia, mesmo que você esteja no quarto de solteiro.",
+      "Junte os mariscos e refogue por 3 minutos, para eles perceberem que chegaram ao lugar certo.",
+      "Despeje o vinho branco e deixe evaporar o álcool, porque ninguém quer ressaca culinária.",
+      "Acrescente o arroz e mexa bem para misturar tudo, garantindo que o arroz também entre na festa.",
+      "Adicione o caldo e tempere com sal e pimenta. Aumente o fogo até ferver, depois abaixe para médio e tampe a panela. Sim, como aquele ex que só aparece quando você menos espera.",
+      "Cozinhe por 15 minutos até o arroz estar macio e o caldo quase seco. Se quiser, coloque um pano de prato por cima da tampa para evitar aquela água assustadora pingando.",
+      "Finalize com suco de limão e ervas frescas. Isso é o glamour que o chef nunca te contou.",
+      "Sirva quente e prepare-se para fingir que passou horas cozinhando, quando na verdade só queria matar a fome e impressionar os crushes."
+    ],
+    "descricao": "Um arroz de mariscos que é praticamente uma viagem à praia – só que sem areia nos sapatos e com muito mais sabor.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Se sobrar, não jogue fora! Reaqueça com uma cerveja gelada e finja que é um prato gourmet para impressionar na segunda-feira."
+  },
+  {
+    "id": 8,
+    "titulo": "Filé de Tilápia Grelhado com Molho de Maracujá: o Crush que Você Merece na Dieta",
+    "slug": "file-tilapia-grelhado-molho-maracuja-crush-dieta",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "4 filés de tilápia",
+      "1 maracujá azedo",
+      "2 colheres de sopa de mel",
+      "1 colher de sopa de azeite de oliva",
+      "Sal e pimenta-do-reino a gosto",
+      "1 dente de alho picado",
+      "Salsinha picada para decorar"
+    ],
+    "modoPreparo": [
+      "Tempere os filés de tilápia com sal, pimenta e alho picado. Deixe descansar como aquele crush que nunca responde rápido.",
+      "Aqueça o azeite numa frigideira e grelhe os filés por 3 a 4 minutos de cada lado, até ficarem douradinhos — tipo sua paciência na segunda-feira.",
+      "Enquanto isso, corte o maracujá ao meio, retire a polpa e coe para tirar as sementes (ou faça como na dieta, faça que não viu).",
+      "Misture a polpa do maracujá com o mel até formar um molho agridoce que é tipo o equilíbrio da vida: amargo e doce ao mesmo tempo.",
+      "Regue o molho sobre os filés grelhados e decore com salsinha porque a gente finge que é sofisticado.",
+      "Sirva na hora, porque peixe frio até parece ex que só te traz dor de cabeça."
+    ],
+    "descricao": "Receita que prova que comer saudável não precisa ser tão triste quanto segunda-feira sem café. Tilápia grelhada com um molho de maracujá agridoce para enganar a fome e deixar o paladar feliz (pelo menos temporariamente).",
+    "tempo": "30 min",
     "dificuldade": "Fácil",
-    "preco": "R$ 40,00",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Se o molho ficar muito azedo, lembre-se: na vida também tem momentos amargos, mas adicionar um pouco de mel ajuda (na comida e no coração)."
+  },
+  {
+    "id": 9,
+    "titulo": "Lula Grelhada: pra impressionar o crush (ou pelo menos o estômago)",
+    "slug": "lula-grelhada-pra-impressionar-o-crush-ou-pelo-menos-o-estomago",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "500g de lula limpa",
+      "3 dentes de alho picados",
+      "suco de 1 limão",
+      "2 colheres de sopa de azeite de oliva",
+      "sal a gosto",
+      "pimenta-do-reino moída na hora",
+      "salsinha picada para decorar"
+    ],
+    "modoPreparo": [
+      "Marinar a lula com alho, suco de limão, sal e pimenta por 15 minutos. Não é uma sessão de terapia, apenas deixe o peixe respirar.",
+      "Preaqueça a grelha ou frigideira com azeite. Se não tiver grelha, uso frigideira mesmo, a gente improvisa na vida e na cozinha.",
+      "Grelhe as lulas por cerca de 2-3 minutos de cada lado, até ficarem douradinhas. Se passar do ponto vira borracha, e ninguém quer chiclete no almoço.",
+      "Retire, salpique a salsinha e sirva com aquele suquinho de limão extra. Porque limão nunca é demais, igual conselho não solicitado."
+    ],
+    "descricao": "A lula que vai fazer você se sentir chef e não o faz de bobo na cozinha. Rápida, saborosa e com uma vibe cítrica que até ex te esqueceria.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 35,00",
     "porcoes": "2 porções",
-    "dica": "Tartar é igual boleto: se não fizer direito, só sobra amargor."
+    "dica": "Se a lula agarrar na grelha, não entre em pânico. É igual relacionamento: não precisa forçar, deixa acontecer natural."
+  },
+  {
+    "id": 10,
+    "titulo": "Vatapá de Camarão Seco: Porque Camarão Fresco é para os Fracos",
+    "slug": "vatapa-de-camarao-seco-porque-camarao-fresco-e-para-os-fracos",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "500g de camarão seco dessalgado",
+      "2 pães franceses amanhecidos",
+      "200ml de leite de coco",
+      "1 cebola média picada",
+      "2 dentes de alho picados",
+      "1 tomate sem sementes picado",
+      "1/2 xícara de azeite de dendê",
+      "50g de amendoim torrado",
+      "50g de castanha de caju torrada",
+      "pimenta a gosto",
+      "sal a gosto",
+      "coentro ou cheiro-verde para decorar"
+    ],
+    "modoPreparo": [
+      "Coloque o pão para demolhar no leite de coco até amolecer (tempo ideal para maratonar um episódio da sua série favorita).",
+      "No liquidificador, bata o pão embebido, o amendoim e a castanha até formar uma pasta cremosa – essa vai ser a base do 'magical vatapá'.",
+      "Refogue a cebola e o alho no azeite de dendê até ficarem douradinhos, que nem o bronzeado do tio do churrasco.",
+      "Adicione o tomate e refogue até desmanchar, porque tomate inteiro no vatapá só se for tomate-game.",
+      "Misture a pasta do liquidificador com o refogado e acrescente o camarão seco dessalgado.",
+      "Mexa em fogo baixo até começar a desgrudar da panela, como aquela conversa que você tenta sair de uma festa chata.",
+      "Tempere com sal e pimenta a gosto (vale a pena testar, mas não transforme em batalha naval).",
+      "Decore com coentro ou cheiro-verde, para fingir que está saudável.",
+      "Sirva com arroz branco e se prepare para explicar que camarão seco não é coisa de vó, mas de quem sabe aproveitar a vida."
+    ],
+    "descricao": "Uma receita que prova que camarão seco é o herói anônimo dos frutos do mar: saboroso, econômico e com uma personalidade que não pede frescor, só respeito.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Se alguém reclamar do camarão seco, só diga que frescura é pra peixe, e eu prefiro camarão com personalidade!"
   }
 ]
