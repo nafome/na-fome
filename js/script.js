@@ -15,7 +15,7 @@ const NICHOS = [
   { id: "to-duro", name: "Tô duro 🪙", file: "to-duro" },
   { id: "final-do-mes", name: "Final do mês 💸", file: "final-do-mes" },
   { id: "recebi-hoje", name: "Recebi hoje 💰", file: "recebi-hoje" },
-  { id: "gourmet", name: "Gourmet ⭐⭐⭐⭐⭐", file: "gourmet" },
+  { id: "gourmet", name: "Gourmet 💎", file: "gourmet" },
 
   // 🥗 Saúde / Dieta / Treino
   { id: "detox", name: "Detox 🥒", file: "detox" },
