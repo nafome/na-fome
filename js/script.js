@@ -236,6 +236,10 @@ function showResult(recipe) {
             <strong>💡 Dica do Chef:</strong> ${recipe.dica}
           </div>
         ` : ''}
+
+        <button class="share-btn" onclick="compartilhar('${recipe.slug}', '${recipe.titulo.replace(/'/g, "\\'")}')">
+          📤 Compartilhar essa receita
+        </button>
       </div>
     </div>
   `;
@@ -303,4 +307,17 @@ function trocarAba(tipo) {
 
 function voltarInicio() {
   window.location.href = 'https://nafome.netlify.app/';
+}
+
+function compartilhar(slug, titulo) {
+  const url = `https://nafome.netlify.app/?receita=${slug}`;
+  const texto = `Olha essa receita que eu achei no Na Fome: ${titulo}`;
+
+  if (navigator.share) {
+    navigator.share({ title: titulo, text: texto, url: url });
+  } else {
+    navigator.clipboard.writeText(url).then(() => {
+      alert('Link copiado!');
+    });
+  }
 }
