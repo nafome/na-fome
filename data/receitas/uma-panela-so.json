@@ -1,0 +1,1060 @@
+[
+  {
+    "id": 1904,
+    "titulo": "Risoto Pós-Treino do Guerreiro Moderno",
+    "slug": "risoto-pos-treino-do-guerreiro-moderno",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "xícara de arroz arbóreo",
+      "g de peito de frango em cubos",
+      "/2 cebola picada",
+      "dentes de alho picados",
+      "xícaras de caldo de legumes quente",
+      "colher de sopa de azeite",
+      "g de queijo parmesão ralado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça o azeite na panela e refogue cebola e alho até ficarem translúcidos.",
+      "Adicione o frango e doure por 5 minutos.",
+      "Junte o arroz, mexa bem e comece a adicionar o caldo aos poucos, mexendo sempre até o arroz ficar cremoso e cozido.",
+      "Finalize com o queijo parmesão, ajuste o sal e a pimenta."
+    ],
+    "descricao": "Porque suar na academia já basta, na cozinha é só praticidade e proteína.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "2 porções",
+    "dica": "Se cozinhar mais que o necessário, vira mingau – tipo boletos atrasados, só piora com o tempo."
+  },
+  {
+    "id": 1905,
+    "titulo": "Jantar Romântico de Macarrão ao Molho de Camarão",
+    "slug": "jantar-romantico-de-macarrao-ao-molho-de-camarao",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "g de macarrão tipo talharim",
+      "g de camarões limpos",
+      "/2 cebola picada",
+      "dentes de alho picados",
+      "ml de creme de leite",
+      "tomate picado",
+      "colher de sopa de azeite",
+      "Sal, pimenta e cheiro-verde a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão na panela com água e sal até ficar al dente, escorra e reserve.",
+      "Na mesma panela, aqueça o azeite e refogue cebola, alho e tomate.",
+      "Acrescente o camarão e cozinhe até ficarem rosados.",
+      "Adicione o creme de leite, sal, pimenta e misture o macarrão ao molho.",
+      "Finalize com cheiro-verde."
+    ],
+    "descricao": "Porque amor à primeira vista pede um prato que cabe numa panela só e no coração.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 38,00",
+    "porcoes": "2 porções",
+    "dica": "Se o amor acabar, pelo menos o macarrão você comeu. Sobre ex, esquece, mas não esquece de lavar a panela."
+  },
+  {
+    "id": 1906,
+    "titulo": "Omelete de Forno Integral para Café da Manhã",
+    "slug": "omelete-de-forno-integral-para-cafe-da-manha",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "ovos",
+      "/2 xícara de espinafre picado",
+      "colheres de sopa de queijo cottage",
+      "/4 de cebola picada",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com sal e pimenta.",
+      "Misture o espinafre, a cebola e o queijo cottage.",
+      "Despeje tudo na assadeira untada e leve ao forno pré-aquecido a 180°C por 15 minutos."
+    ],
+    "descricao": "Acordar cedo é cruel, mas pelo menos o café da manhã não precisa ser.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "2 porções",
+    "dica": "Se o café da manhã é seu pior inimigo, essa omelete é o aliado que cabe na panela – e na sua vontade de voltar a dormir."
+  },
+  {
+    "id": 1907,
+    "titulo": "Sopa Cremosa de Abóbora com Gengibre",
+    "slug": "sopa-cremosa-de-abobora-com-gengibre",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "g de abóbora descascada e picada",
+      "cebola picada",
+      "dentes de alho",
+      "pedaço de gengibre (2 cm) ralado",
+      "litro de água ou caldo de legumes",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho na panela com azeite até dourar.",
+      "Adicione a abóbora, gengibre e o caldo, cozinhe até a abóbora ficar macia.",
+      "Bata tudo com o mixer até virar creme, ajuste sal e pimenta."
+    ],
+    "descricao": "Pra esquentar a alma e enganar a fome, porque boletos não se pagam com sopa, infelizmente.",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,50",
+    "porcoes": "3 porções",
+    "dica": "Se a vida te der abóbora, faça sopa. Se der boleto, chora e faz a sopa mesmo assim."
+  },
+  {
+    "id": 1908,
+    "titulo": "Quinoa com Legumes e Frango Desfiado",
+    "slug": "quinoa-com-legumes-e-frango-desfiado",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "xícara de quinoa",
+      "g de peito de frango cozido e desfiado",
+      "cenoura ralada",
+      "/2 abobrinha picada",
+      "/2 cebola picada",
+      "dentes de alho",
+      "xícaras de água",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no azeite até dourar.",
+      "Acrescente os legumes, refogue por 5 minutos.",
+      "Adicione a quinoa, o frango e a água, cozinhe com a panela tampada até a quinoa absorver toda a água.",
+      "Ajuste o sal e a pimenta."
+    ],
+    "descricao": "Porque \"tem que ser saudável\" e \"não tem tempo\" virou mantra da vida adulta.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "3 porções",
+    "dica": "Cozinhar quinoa é igual boleto: no começo parece complicado, mas depois só falta pagar."
+  },
+  {
+    "id": 1909,
+    "titulo": "Estrogonofe Vegano de Grão-de-Bico",
+    "slug": "estrogonofe-vegano-de-grao-de-bico",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "xícaras de grão-de-bico cozido",
+      "/2 cebola picada",
+      "dentes de alho picados",
+      "ml de creme de castanha de caju",
+      "colher de sopa de molho shoyu",
+      "colher de sopa de páprica doce",
+      "Sal e pimenta a gosto",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no azeite até dourar.",
+      "Acrescente o grão-de-bico, páprica e molho shoyu, misture bem.",
+      "Adicione o creme de castanha, cozinhe até engrossar e tempere."
+    ],
+    "descricao": "Pra provar que dá pra ser vegano e não virar um saco de folhas.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "3 porções",
+    "dica": "Se alguém perguntar onde está a carne, responda que ela está no seu bolso – com esses preços, não sobra pra nada."
+  },
+  {
+    "id": 1910,
+    "titulo": "Panqueca Integral Recheada de Ricota e Espinafre",
+    "slug": "panqueca-integral-recheada-de-ricota-e-espinafre",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "xícara de farinha integral",
+      "ovo",
+      "xícara de leite",
+      "g de ricota amassada",
+      "/2 xícara de espinafre cozido e picado",
+      "Sal e pimenta a gosto",
+      "Azeite para untar"
+    ],
+    "modoPreparo": [
+      "Misture a farinha, ovo, leite e sal até formar uma massa líquida.",
+      "Faça panquecas na panela untada, virando para dourar dos dois lados.",
+      "Misture ricota e espinafre, tempere e recheie as panquecas.",
+      "Enrole e sirva quente."
+    ],
+    "descricao": "Porque comer bem e rápido é o verdadeiro relacionamento sério.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "3 porções",
+    "dica": "Fazer panqueca é igual namoro: se você não virar na hora certa, queima tudo."
+  },
+  {
+    "id": 1911,
+    "titulo": "Arroz Doce Proteico de Aveia e Whey",
+    "slug": "arroz-doce-proteico-de-aveia-e-whey",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "/2 xícara de arroz cozido",
+      "colheres de sopa de aveia em flocos",
+      "scoop de whey sabor baunilha",
+      "xícara de leite desnatado",
+      "Canela em pó a gosto",
+      "Adoçante ou mel a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque o arroz, aveia e leite na panela e cozinhe até engrossar.",
+      "Retire do fogo e misture o whey e o adoçante.",
+      "Sirva com canela polvilhada."
+    ],
+    "descricao": "Sobremesa que engana a fome e o personal trainer que vive no seu pé.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida não te der açúcar, coloca whey e finge que é festa."
+  },
+  {
+    "id": 1912,
+    "titulo": "Moqueca de Banana-da-Terra Vegana",
+    "slug": "moqueca-de-banana-da-terra-vegana",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "bananas-da-terra maduras cortadas em rodelas",
+      "pimentão vermelho picado",
+      "cebola grande picada",
+      "tomates picados",
+      "ml de leite de coco",
+      "colher de sopa de azeite de dendê",
+      "Coentro, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, pimentão e tomate no azeite de dendê até murchar.",
+      "Acrescente as bananas, leite de coco, sal, pimenta e deixe cozinhar com a panela tampada até as bananas amolecerem.",
+      "Finalize com coentro picado."
+    ],
+    "descricao": "Porque peixe no prato é luxo, mas sabor a gente finge que tem.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "3 porções",
+    "dica": "Essa moqueca é como ex: parece que não vai dar certo, mas surpreende no final."
+  },
+  {
+    "id": 1913,
+    "titulo": "Macarrão com Molho de Tomate Rústico e Manjericão",
+    "slug": "macarrao-com-molho-de-tomate-rustico-e-manjericao",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "g de macarrão penne",
+      "tomates maduros picados",
+      "dentes de alho picados",
+      "Folhas de manjericão a gosto",
+      "colher de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão em água salgada até ficar al dente, escorra e reserve.",
+      "Na mesma panela, refogue alho no azeite, adicione os tomates e deixe cozinhar até formar um molho rústico.",
+      "Misture o macarrão ao molho, tempere e finalize com manjericão."
+    ],
+    "descricao": "Porque às vezes a vida pede só um prato simples e amor próprio.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Macarrão é igual boleto: quando você pensa que acabou, aparece outro no meio do caminho."
+  },
+  {
+    "id": 1914,
+    "titulo": "Batata Doce com Carne Moída e Legumes",
+    "slug": "batata-doce-com-carne-moida-e-legumes",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "batatas doces médias cortadas em cubos",
+      "g de carne moída",
+      "cenoura ralada",
+      "/2 cebola picada",
+      "dentes de alho picados",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no azeite até dourar.",
+      "Adicione a carne moída e cozinhe até perder a cor rosada.",
+      "Acrescente a batata doce, cenoura, sal, pimenta e água suficiente para cozinhar até os legumes ficarem macios."
+    ],
+    "descricao": "Energia pra virar adulto e pagar as contas sem desmaiar.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "3 porções",
+    "dica": "Se a vida te der batata doce, faça essa receita; se der boleto, faça também... mas chora um pouco."
+  },
+  {
+    "id": 1915,
+    "titulo": "Panqueca Americana Fit de Banana e Aveia",
+    "slug": "panqueca-americana-fit-de-banana-e-aveia",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "banana madura amassada",
+      "ovos",
+      "colheres de sopa de aveia em flocos",
+      "/2 colher de chá de fermento em pó",
+      "Canela a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes até formar uma massa homogênea.",
+      "Aqueça a panela e faça pequenas panquecas, virando até dourar dos dois lados."
+    ],
+    "descricao": "Pra enganar o estômago e o crush que só curte foto no Instagram.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "2 porções",
+    "dica": "Panqueca fit é igual promessa de ano novo: todo mundo começa animado, mas nem sempre termina."
+  },
+  {
+    "id": 1916,
+    "titulo": "Feijoada Light de Uma Panela",
+    "slug": "feijoada-light-de-uma-panela",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "xícaras de feijão preto cozido",
+      "g de carne magra em cubos",
+      "linguiça calabresa cortada em rodelas (opcional)",
+      "cebola picada",
+      "dentes de alho picados",
+      "folha de louro",
+      "Sal e pimenta a gosto",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no azeite até dourar.",
+      "Acrescente as carnes e doure levemente.",
+      "Junte o feijão, louro, sal, pimenta e um pouco de água, cozinhe até os sabores se incorporarem."
+    ],
+    "descricao": "A versão da feijoada que não pesa na consciência, mas agrada na barriga.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "4 porções",
+    "dica": "Feijoada light é tipo promessa de dieta: você sabe que pode, mas a tentação é outra."
+  },
+  {
+    "id": 1917,
+    "titulo": "Curry de Grão-de-Bico com Leite de Coco",
+    "slug": "curry-de-grao-de-bico-com-leite-de-coco",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "xícaras de grão-de-bico cozido",
+      "cebola picada",
+      "dentes de alho picados",
+      "colher de sopa de curry em pó",
+      "ml de leite de coco",
+      "tomate picado",
+      "Sal e pimenta a gosto",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no azeite até dourar.",
+      "Adicione o curry e mexa por 1 minuto para liberar os aromas.",
+      "Coloque o grão-de-bico, tomate e leite de coco, cozinhe até engrossar.",
+      "Ajuste sal e pimenta."
+    ],
+    "descricao": "Sabor exótico que cabe na panela e no seu bolso.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "3 porções",
+    "dica": "Curry é como boleto atrasado: arde na hora, mas depois traz um gostinho exótico."
+  },
+  {
+    "id": 1918,
+    "titulo": "Panqueca de Espinafre com Recheio de Frango Cremoso",
+    "slug": "panqueca-de-espinafre-com-recheio-de-frango-cremoso",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "xícara de espinafre cozido e picado",
+      "xícara de farinha de trigo",
+      "ovo",
+      "xícara de leite",
+      "g de frango cozido e desfiado",
+      "colheres de sopa de requeijão",
+      "Sal e pimenta a gosto",
+      "Azeite para untar"
+    ],
+    "modoPreparo": [
+      "Bata no liquidificador espinafre, farinha, ovo, leite e sal até virar massa.",
+      "Faça panquecas na panela untada.",
+      "Misture frango com requeijão, sal e pimenta, recheie as panquecas."
+    ],
+    "descricao": "O verdinho que sua mãe queria que você comesse, mas com recheio que você ama.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "3 porções",
+    "dica": "Se a vida te der espinafre, transforme em panqueca; se der preguiça, deixa pra amanhã."
+  },
+  {
+    "id": 1919,
+    "titulo": "Arroz à Grega com Frango e Legumes",
+    "slug": "arroz-a-grega-com-frango-e-legumes",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "xícaras de arroz",
+      "g de peito de frango em cubos",
+      "cenoura picada",
+      "/2 pimentão vermelho picado",
+      "/2 cebola picada",
+      "xícaras de água",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola no azeite, junte o frango e doure.",
+      "Acrescente os legumes e refogue por 5 minutos.",
+      "Coloque o arroz, água, sal e pimenta, cozinhe até a água secar."
+    ],
+    "descricao": "Aquele clássico que você só faz porque é o que sobra da festa.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 24,00",
+    "porcoes": "4 porções",
+    "dica": "Arroz à grega é igual boleto: quando você acha que acabou, tem mais um escondido."
+  },
+  {
+    "id": 1920,
+    "titulo": "Polenta Cremosa com Ragu de Carne",
+    "slug": "polenta-cremosa-com-ragu-de-carne",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "xícara de fubá",
+      "xícaras de água",
+      "g de carne moída",
+      "/2 cebola picada",
+      "dentes de alho picados",
+      "tomate picado",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o fubá na água, mexendo sempre até engrossar e formar polenta.",
+      "Em outra etapa (mesma panela), refogue cebola e alho, adicione a carne e o tomate, cozinhe até formar um ragu.",
+      "Sirva a polenta com o ragu por cima."
+    ],
+    "descricao": "Porque às vezes o conforto mora numa panela só e numa boa carne.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "3 porções",
+    "dica": "Polenta é tipo boleto parcelado: demora pra ficar pronta, mas no fim vale a pena."
+  },
+  {
+    "id": 1921,
+    "titulo": "Ensopado de Lentilha com Legumes",
+    "slug": "ensopado-de-lentilha-com-legumes",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "xícaras de lentilha",
+      "cenoura picada",
+      "batata picada",
+      "/2 cebola picada",
+      "dentes de alho picados",
+      "folha de louro",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no azeite.",
+      "Junte lentilha, legumes, louro, sal, pimenta e água suficiente para cobrir.",
+      "Cozinhe até a lentilha e legumes ficarem macios."
+    ],
+    "descricao": "A comida que abraça, mas não cobra juros.",
+    "tempo": "45 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Ensopado é igual conta de luz: todo mês chega, mas pelo menos esquenta a casa."
+  },
+  {
+    "id": 1922,
+    "titulo": "Macarrão Integral com Molho de Abacate e Limão",
+    "slug": "macarrao-integral-com-molho-de-abacate-e-limao",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "g de macarrão integral",
+      "abacate maduro",
+      "Suco de 1 limão",
+      "dente de alho pequeno",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão até al dente e escorra.",
+      "Amasse o abacate com limão, alho, sal, pimenta e azeite até virar um creme.",
+      "Misture o macarrão ao molho de abacate e sirva."
+    ],
+    "descricao": "Pra quem quer saudável e gostoso, mas só tem uma panela e paciência curta.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Esse molho é igual ex que some: suave, mas não some do prato."
+  },
+  {
+    "id": 1923,
+    "titulo": "Suflê de Legumes na Panela",
+    "slug": "sufle-de-legumes-na-panela",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "ovos",
+      "/2 xícara de legumes cozidos e picados (cenoura, abobrinha)",
+      "colheres de sopa de farinha de trigo",
+      "/2 xícara de leite",
+      "Sal e pimenta a gosto",
+      "Azeite para untar"
+    ],
+    "modoPreparo": [
+      "Bata ovos, farinha, leite, sal e pimenta até homogeneizar.",
+      "Misture os legumes e despeje a mistura na panela untada.",
+      "Tampe e cozinhe em fogo baixo até firmar (cerca de 20 minutos)."
+    ],
+    "descricao": "Porque nem todo herói usa forno, alguns só precisam de uma panela.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 16,00",
+    "porcoes": "2 porções",
+    "dica": "Suflê é como boleto de cartão: demora pra aparecer, mas quando aparece, não tem como escapar."
+  },
+  {
+    "id": 1924,
+    "titulo": "Tilápia ao Molho de Mostarda com Purê de Batata Doce",
+    "slug": "tilapia-ao-molho-de-mostarda-com-pure-de-batata-doce",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "filés de tilápia",
+      "batatas doces médias",
+      "colher de sopa de mostarda Dijon",
+      "/2 cebola picada",
+      "colher de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe as batatas doces até ficarem macias e amasse formando purê.",
+      "Na panela, refogue cebola no azeite, adicione os filés e doure dos dois lados.",
+      "Misture mostarda ao purê, tempere a tilápia e sirva junto."
+    ],
+    "descricao": "Jantar chique na panela única, pra impressionar até o boleto mais cruel.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "2 porções",
+    "dica": "Tilápia na panela só? Agora só falta a conta de luz colaborar e não cortar."
+  },
+  {
+    "id": 1925,
+    "titulo": "Panqueca de Batata com Recheio de Queijo e Presunto",
+    "slug": "panqueca-de-batata-com-recheio-de-queijo-e-presunto",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "batatas médias raladas",
+      "ovo",
+      "g de queijo muçarela fatiado",
+      "g de presunto fatiado",
+      "Sal e pimenta a gosto",
+      "Azeite para untar"
+    ],
+    "modoPreparo": [
+      "Misture as batatas raladas, ovo, sal e pimenta até formar massa.",
+      "Faça panquecas na panela untada, deixe dourar dos dois lados.",
+      "Recheie com queijo e presunto, dobre e sirva."
+    ],
+    "descricao": "A combinação que sua vó aprovaria, mesmo no meio da correria da vida.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 17,00",
+    "porcoes": "3 porções",
+    "dica": "Se a vida te der batata, faça panqueca; se der preguiça, peça delivery e chora."
+  },
+  {
+    "id": 1926,
+    "titulo": "Fricassê de Frango na Panela Só",
+    "slug": "fricasse-de-frango-na-panela-so",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "g de peito de frango desfiado",
+      "lata de milho verde",
+      "lata de creme de leite",
+      "copo de requeijão cremoso",
+      "cebola picada",
+      "Sal e pimenta a gosto",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola no azeite até dourar.",
+      "Acrescente o frango, milho, creme de leite e requeijão, misture bem.",
+      "Cozinhe até ficar cremoso e tempere."
+    ],
+    "descricao": "Porque comida de mãe é assim: prática, cremosa e que consola boletos atrasados.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "3 porções",
+    "dica": "Fricassê é igual boleto: quando você acha que acabou, sempre tem mais um."
+  },
+  {
+    "id": 1927,
+    "titulo": "Arroz de Forno com Legumes e Queijo",
+    "slug": "arroz-de-forno-com-legumes-e-queijo",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "xícaras de arroz cozido",
+      "xícara de legumes variados picados (cenoura, ervilha, milho)",
+      "/2 xícara de queijo ralado",
+      "/2 cebola picada",
+      "ovos",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e legumes até ficarem macios.",
+      "Misture o arroz com os legumes, ovos batidos e metade do queijo.",
+      "Cozinhe tampado em fogo baixo até firmar.",
+      "Polvilhe o queijo restante e deixe derreter antes de servir."
+    ],
+    "descricao": "Aquele abraço rápido e gostoso que só uma panela sabe dar.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "3 porções",
+    "dica": "Arroz de forno é tipo amigo que aparece só pra festa: fácil, gostoso e todo mundo gosta."
+  },
+  {
+    "id": 1928,
+    "titulo": "Sauté de Camarão com Alho e Limão",
+    "slug": "saute-de-camarao-com-alho-e-limao",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "g de camarões limpos",
+      "dentes de alho fatiados",
+      "Suco de 1 limão",
+      "colher de sopa de azeite",
+      "Sal, pimenta e salsinha a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça o azeite e doure o alho.",
+      "Acrescente os camarões e cozinhe até ficarem rosados.",
+      "Regue com o suco de limão, tempere e finalize com salsinha."
+    ],
+    "descricao": "Pra quem quer impressionar com pouco esforço e muita panela.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 40,00",
+    "porcoes": "2 porções",
+    "dica": "Se o amor não bater à porta, pelo menos o camarão vai bater na sua panela."
+  },
+  {
+    "id": 1929,
+    "titulo": "Panqueca de Abobrinha com Queijo Branco",
+    "slug": "panqueca-de-abobrinha-com-queijo-branco",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "abobrinha média ralada",
+      "ovos",
+      "colheres de sopa de farinha de trigo",
+      "g de queijo branco picado",
+      "Sal e pimenta a gosto",
+      "Azeite para untar"
+    ],
+    "modoPreparo": [
+      "Misture abobrinha, ovos, farinha, sal e pimenta até formar massa.",
+      "Faça panquecas na panela untada.",
+      "Recheie com queijo e dobre para servir."
+    ],
+    "descricao": "Verde que te quero verde, sabor que te quero mais.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "2 porções",
+    "dica": "Comer verde é bom, mas se for na panela só é melhor ainda – menos louça pra lavar, mais tempo pra reclamar da vida."
+  },
+  {
+    "id": 1930,
+    "titulo": "Caldo Verde Simplificado na Panela Só",
+    "slug": "caldo-verde-simplificado-na-panela-so",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "batatas médias picadas",
+      "/2 maço de couve fatiada fina",
+      "linguiça calabresa em rodelas (opcional)",
+      "cebola picada",
+      "dentes de alho picados",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, alho e linguiça no azeite.",
+      "Acrescente as batatas e cubra com água, cozinhe até amolecer.",
+      "Bata as batatas até virar creme, junte a couve e cozinhe por mais 5 minutos.",
+      "Tempere e sirva."
+    ],
+    "descricao": "A receita que aquece o coração e não a paciência.",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "3 porções",
+    "dica": "Caldo verde é tipo fatura do cartão: sempre volta pra te esquentar o bolso."
+  },
+  {
+    "id": 1931,
+    "titulo": "Espaguete de Abobrinha com Molho Pesto",
+    "slug": "espaguete-de-abobrinha-com-molho-pesto",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "abobrinhas grandes em espaguete",
+      "/2 xícara de manjericão fresco",
+      "colheres de sopa de nozes",
+      "dente de alho",
+      "/4 xícara de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a abobrinha rapidamente na panela com um fio de azeite.",
+      "Bata manjericão, nozes, alho, azeite, sal e pimenta no processador.",
+      "Misture o pesto à abobrinha e sirva."
+    ],
+    "descricao": "Pra quem quer fugir do macarrão, mas não da panela única.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Espaguete de abobrinha é igual promessa de dieta: começa bem, mas sempre tem uma pizza no caminho."
+  },
+  {
+    "id": 1932,
+    "titulo": "Paella Vegetariana na Panela Só",
+    "slug": "paella-vegetariana-na-panela-so",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "xícara de arroz parboilizado",
+      "/2 cebola picada",
+      "pimentão vermelho picado",
+      "tomate picado",
+      "xícara de ervilhas",
+      "colher de chá de açafrão",
+      "xícaras de caldo de legumes",
+      "Sal e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e pimentão no azeite até murchar.",
+      "Acrescente arroz, tomate, ervilhas, açafrão e caldo, tempere.",
+      "Cozinhe com a panela tampada até o arroz absorver o caldo."
+    ],
+    "descricao": "Sabor do Mediterrâneo que cabe na sua panela e na sua vida corrida.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Paella é igual boleto: só fica boa quando você dá atenção e não deixa acumular."
+  },
+  {
+    "id": 1933,
+    "titulo": "Strogonoff de Carne Magra com Cogumelos",
+    "slug": "strogonoff-de-carne-magra-com-cogumelos",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "g de carne magra em tiras",
+      "/2 cebola picada",
+      "dentes de alho picados",
+      "g de cogumelos fatiados",
+      "ml de creme de leite",
+      "colher de sopa de mostarda",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no azeite até dourar.",
+      "Doure a carne, junte os cogumelos e cozinhe.",
+      "Adicione creme de leite, mostarda, sal e pimenta, misture e cozinhe até o molho engrossar."
+    ],
+    "descricao": "Pra quem quer sabor e proteína, mas sem drama na cozinha.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 32,00",
+    "porcoes": "3 porções",
+    "dica": "Strogonoff é tipo boleto do cartão: só fica bom quando você sabe pagar a tempo."
+  },
+  {
+    "id": 1934,
+    "titulo": "Suflê de Mandioquinha com Queijo",
+    "slug": "sufle-de-mandioquinha-com-queijo",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "g de mandioquinha cozida e amassada",
+      "ovos separados (claras e gemas)",
+      "g de queijo ralado",
+      "Sal e pimenta a gosto",
+      "Azeite para untar"
+    ],
+    "modoPreparo": [
+      "Misture a mandioquinha, as gemas e o queijo.",
+      "Bata as claras em neve e incorpore delicadamente à mistura.",
+      "Despeje na panela untada e cozinhe em fogo baixo com tampa por 30 minutos."
+    ],
+    "descricao": "Pra impressionar o crush e o boleto que chegou no mesmo dia.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "2 porções",
+    "dica": "Suflê é igual vontade de trabalhar numa segunda: tem que bater muito pra dar certo."
+  },
+  {
+    "id": 1935,
+    "titulo": "Panqueca de Aveia com Recheio de Banana e Mel",
+    "slug": "panqueca-de-aveia-com-recheio-de-banana-e-mel",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "xícara de aveia em flocos finos",
+      "ovo",
+      "xícara de leite",
+      "banana fatiada",
+      "Mel a gosto",
+      "Canela em pó a gosto"
+    ],
+    "modoPreparo": [
+      "Misture aveia, ovo e leite até formar massa.",
+      "Faça panquecas na panela untada.",
+      "Recheie com banana e regue com mel e canela."
+    ],
+    "descricao": "A sobremesa que faz o café da manhã parecer menos uma tortura.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "2 porções",
+    "dica": "Panqueca de aveia é tipo boleto no fim do mês: aparece de repente, mas traz doçura."
+  },
+  {
+    "id": 1936,
+    "titulo": "Frango ao Curry com Arroz Integral",
+    "slug": "frango-ao-curry-com-arroz-integral",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "g de peito de frango em cubos",
+      "xícara de arroz integral",
+      "cebola picada",
+      "dentes de alho picados",
+      "colher de sopa de curry em pó",
+      "xícaras de água",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no azeite até dourar.",
+      "Acrescente o frango e curry, cozinhe até o frango dourar.",
+      "Junte o arroz, a água, sal e pimenta, cozinhe até o arroz ficar macio."
+    ],
+    "descricao": "Um prato que junta sabor, saúde e a desculpa perfeita para não lavar tanta louça.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "3 porções",
+    "dica": "Frango ao curry é igual boletos: quando você acha que acabou, aparece mais um pedido de pagamento."
+  },
+  {
+    "id": 1937,
+    "titulo": "Batata Rosti com Ovo Pochê na Panela",
+    "slug": "batata-rosti-com-ovo-poche-na-panela",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "batatas médias raladas",
+      "ovos",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere as batatas raladas com sal e pimenta.",
+      "Aqueça azeite na panela, espalhe as batatas formando um disco e cozinhe até dourar dos dois lados.",
+      "Em outra panela, faça os ovos pochê em água com vinagre.",
+      "Sirva o batata rosti com o ovo por cima."
+    ],
+    "descricao": "O clássico suíço que vai fazer seu café da manhã parecer viagem... sem sair da cozinha.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Fazer ovo pochê é igual vida adulta: parece difícil, mas você aprende na marra."
+  },
+  {
+    "id": 1938,
+    "titulo": "Macarrão com Brócolis e Molho de Queijo",
+    "slug": "macarrao-com-brocolis-e-molho-de-queijo",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "g de macarrão tipo penne",
+      "xícara de brócolis picado",
+      "ml de creme de leite",
+      "g de queijo parmesão ralado",
+      "dente de alho picado",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão com o brócolis juntos até ficarem macios, escorra.",
+      "Na mesma panela, refogue alho no azeite, junte creme de leite e queijo.",
+      "Misture o macarrão e brócolis ao molho, tempere e sirva."
+    ],
+    "descricao": "Porque né, nem só de boletos e trabalho vive a gente, tem que ter queijo também.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida te der brócolis, joga queijo por cima e esquece os boletos por um instante."
+  },
+  {
+    "id": 1939,
+    "titulo": "Torta de Liquidificador Salgada na Panela",
+    "slug": "torta-de-liquidificador-salgada-na-panela",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "ovos",
+      "xícara de leite",
+      "/2 xícara de óleo",
+      "xícaras de farinha de trigo",
+      "colher de sopa de fermento em pó",
+      "xícara de frango desfiado ou legumes cozidos",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Bata ovos, leite, óleo, farinha, fermento, sal e pimenta no liquidificador.",
+      "Misture o recheio escolhido.",
+      "Despeje na panela untada e cozinhe em fogo baixo com tampa por cerca de 30 minutos."
+    ],
+    "descricao": "Porque às vezes falta forno, mas nunca falta criatividade (e fome).",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Fazer torta na panela é igual boleto no fim do mês: você não quer, mas não tem escolha."
+  },
+  {
+    "id": 1940,
+    "titulo": "Sopa de Lentilha com Calabresa",
+    "slug": "sopa-de-lentilha-com-calabresa",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "xícaras de lentilha",
+      "g de calabresa em rodelas",
+      "cebola picada",
+      "dentes de alho picados",
+      "folha de louro",
+      "Sal, pimenta e azeite a gosto",
+      "Água suficiente para cobrir"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, alho e calabresa no azeite.",
+      "Acrescente lentilha, louro, sal, pimenta e água, cozinhe até a lentilha ficar macia.",
+      "Ajuste temperos e sirva quente."
+    ],
+    "descricao": "Pra esquentar o corpo e acalmar o coração que já tá no vermelho.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "3 porções",
+    "dica": "Sopa é tipo boleto atrasado: quanto mais espera, mais difícil fica de digerir."
+  },
+  {
+    "id": 1941,
+    "titulo": "Espaguete ao Alho e Óleo com Tomate-Cereja",
+    "slug": "espaguete-ao-alho-e-oleo-com-tomate-cereja",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "g de espaguete",
+      "dentes de alho fatiados",
+      "xícara de tomate-cereja cortados ao meio",
+      "/4 xícara de azeite",
+      "Sal, pimenta e salsinha a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o espaguete até al dente e reserve.",
+      "Na panela pequena, aqueça azeite e doure o alho.",
+      "Adicione os tomates, sal e pimenta, refogue por 2 minutos.",
+      "Misture o espaguete ao molho, finalize com salsinha."
+    ],
+    "descricao": "Simples, rápido e melhor que muitas desculpas para não cozinhar.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "2 porções",
+    "dica": "Alho e óleo é igual boleto que você paga: simples, direto e sem desculpas."
+  },
+  {
+    "id": 1942,
+    "titulo": "Cuscuz Paulista na Panela Só",
+    "slug": "cuscuz-paulista-na-panela-so",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "xícaras de farinha de milho para cuscuz",
+      "lata de sardinha ou frango desfiado",
+      "/2 cebola picada",
+      "tomate picado",
+      "/2 pimentão picado",
+      "/2 xícara de ervilha",
+      "xícaras de água",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, tomate, pimentão e ervilha no azeite.",
+      "Acrescente a sardinha, farinha de milho, água, sal e pimenta.",
+      "Cozinhe mexendo até engrossar e soltar do fundo da panela."
+    ],
+    "descricao": "Aquele prato que junta tudo que você tem na geladeira e ainda parece festa.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "3 porções",
+    "dica": "Cuscuz é igual boleto parcelado: você sabe que vem, só não sabe quando acaba."
+  },
+  {
+    "id": 1943,
+    "titulo": "Nhoque de Batata com Molho de Tomate Simples",
+    "slug": "nhoque-de-batata-com-molho-de-tomate-simples",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "g de batata cozida e amassada",
+      "xícara de farinha de trigo",
+      "ovo",
+      "Sal a gosto",
+      "tomates maduros picados",
+      "dentes de alho picados",
+      "colher de sopa de azeite",
+      "Manjericão para decorar"
+    ],
+    "modoPreparo": [
+      "Misture batata, farinha, ovo e sal até formar massa, modele os nhoques.",
+      "Cozinhe os nhoques em água fervente até subirem à superfície, retire e reserve.",
+      "Na panela, refogue alho no azeite, adicione tomates e cozinhe até virar molho.",
+      "Misture os nhoques ao molho e sirva com manjericão."
+    ],
+    "descricao": "Porque nem todo herói usa capa, alguns usam uma panela só.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "3 porções",
+    "dica": "Nhoque é igual boleto: demora pra ficar pronto, mas quando cai na conta, não tem escapatória."
+  },
+  {
+    "id": 1944,
+    "titulo": "Panqueca de Frango com Molho Branco",
+    "slug": "panqueca-de-frango-com-molho-branco",
+    "categoria": "Uma Panela So ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "ovo",
+      "xícara de leite",
+      "g de frango cozido e desfiado",
+      "colher de sopa de manteiga",
+      "colher de sopa de farinha de trigo (para molho)",
+      "xícara de leite (para molho)",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture farinha, ovo, leite e sal até formar massa, faça panquecas na panela untada.",
+      "Prepare o molho branco: derreta manteiga, junte farinha, mexa e acrescente leite até engrossar.",
+      "Recheie as panquecas com frango, cubra com molho branco e sirva."
+    ],
+    "descricao": "Porque panqueca nunca sai de moda, só o dinheiro que some.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "3 porções",
+    "dica": "Panqueca com molho branco é igual boleto: sempre tem um extra pra apertar o orçamento."
+  }
+]

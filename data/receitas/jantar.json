@@ -1,0 +1,1108 @@
+[
+  {
+    "id": 984,
+    "titulo": "Filé de Frango ao Molho de Mostarda e Mel com Legumes Sauté",
+    "slug": "file-de-frango-ao-molho-de-mostarda-e-mel-com-legumes-saute",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "g filé de frango",
+      "colher de sopa de mostarda Dijon",
+      "colher de sopa de mel",
+      "dente de alho picado",
+      "cenoura média fatiada",
+      "abobrinha média fatiada",
+      "Sal e pimenta a gosto",
+      "Azeite de oliva para refogar"
+    ],
+    "modoPreparo": [
+      "Tempere o frango com sal, pimenta e alho.",
+      "Em frigideira quente com azeite, doure o frango até ficar cozido.",
+      "Misture mostarda e mel, despeje sobre o frango e deixe caramelizar.",
+      "Em outra frigideira, refogue a cenoura e a abobrinha até ficarem al dente."
+    ],
+    "descricao": "Porque jantar saudável é o que a balança prega, mas o coração chora por pizza.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 28,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida tá amarga, pelo menos o molho não precisa ser – misture mostarda com mel, igual a sua relação com boletos: um pouco doce, mas ainda assim amarga."
+  },
+  {
+    "id": 985,
+    "titulo": "Risoto de Cogumelos com Vinho Branco",
+    "slug": "risoto-de-cogumelos-com-vinho-branco",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "xícara de arroz arbóreo",
+      "g de cogumelos frescos fatiados",
+      "/2 cebola picada",
+      "/2 xícara de vinho branco seco",
+      "ml caldo de legumes quente",
+      "colheres de sopa de manteiga",
+      "g queijo parmesão ralado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola na manteiga até ficar translúcida.",
+      "Adicione os cogumelos e refogue até dourar.",
+      "Acrescente o arroz, mexa até ficar translúcido.",
+      "Regue com vinho branco e deixe evaporar.",
+      "Vá adicionando o caldo aos poucos, mexendo sempre até o arroz cozinhar.",
+      "Finalize com parmesão, sal e pimenta."
+    ],
+    "descricao": "Pra quem quer impressionar e fingir que sabe cozinhar de verdade.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "3 porções",
+    "dica": "Fazer risoto é igual pagar boleto: exige paciência e mexer muito, mas no final você se sente adulto e responsável por pelo menos uma coisa."
+  },
+  {
+    "id": 986,
+    "titulo": "Salmão Grelhado com Purê de Batata Doce",
+    "slug": "salmao-grelhado-com-pure-de-batata-doce",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "filés de salmão (150g cada)",
+      "g batata doce",
+      "colher de sopa de manteiga",
+      "Sal, pimenta e limão a gosto",
+      "Azeite para grelhar"
+    ],
+    "modoPreparo": [
+      "Cozinhe a batata doce até ficar macia e esprema.",
+      "Misture a manteiga ao purê, tempere com sal.",
+      "Tempere o salmão com sal, pimenta e limão.",
+      "Grelhe o salmão em azeite até dourar dos dois lados."
+    ],
+    "descricao": "Porque jantar leve é o que seu corpo pede, mas seu estômago implora por mais.",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 45,00",
+    "porcoes": "2 porções",
+    "dica": "Se o salmão não ficar perfeito, lembre-se: até boleto atrasado ainda dá um jeito, já o peixe queimado... só se fingir que foi braseado."
+  },
+  {
+    "id": 987,
+    "titulo": "Espaguete ao Molho de Tomate com Almôndegas Caseiras",
+    "slug": "espaguete-ao-molho-de-tomate-com-almondegas-caseiras",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "g espaguete",
+      "g carne moída",
+      "ovo",
+      "/2 xícara de farinha de rosca",
+      "dentes de alho picados",
+      "g molho de tomate",
+      "Sal e pimenta a gosto",
+      "Queijo parmesão ralado para servir"
+    ],
+    "modoPreparo": [
+      "Misture carne, ovo, farinha, alho, sal e pimenta; forme almôndegas.",
+      "Frite as almôndegas até dourar e reserve.",
+      "Cozinhe o espaguete conforme instruções.",
+      "Refogue o molho de tomate, adicione as almôndegas e deixe apurar.",
+      "Sirva com parmesão ralado."
+    ],
+    "descricao": "Jantar de domingo pra fingir que sua vida amorosa tá em dia.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 32,00",
+    "porcoes": "4 porções",
+    "dica": "Se essa receita não salvar seu romance, pelo menos o espaguete vai te segurar firme – igual boleto atrasado que não te larga."
+  },
+  {
+    "id": 988,
+    "titulo": "Omelete de Espinafre com Queijo e Tomate",
+    "slug": "omelete-de-espinafre-com-queijo-e-tomate",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "ovos",
+      "/2 xícara de espinafre picado",
+      "tomates-cereja cortados ao meio",
+      "g queijo muçarela ralado",
+      "Sal e pimenta a gosto",
+      "Azeite para untar"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com sal e pimenta.",
+      "Aqueça a frigideira com azeite, despeje os ovos.",
+      "Adicione espinafre, tomates e queijo por cima.",
+      "Cozinhe em fogo baixo até firmar."
+    ],
+    "descricao": "Porque às vezes a vida adulta é só um ovo mexido disfarçado de janta gourmet.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "1 porção",
+    "dica": "Fazer omelete é tipo lidar com boletos: simples, mas se vacilar, tudo desanda rapidinho."
+  },
+  {
+    "id": 989,
+    "titulo": "Strogonoff de Carne com Arroz Integral",
+    "slug": "strogonoff-de-carne-com-arroz-integral",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "g de carne em tiras",
+      "cebola picada",
+      "g de champignon fatiado",
+      "ml creme de leite",
+      "colheres de sopa de ketchup",
+      "colher de sopa de mostarda",
+      "xícara de arroz integral",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o arroz integral conforme instruções.",
+      "Refogue a cebola, junte a carne até dourar.",
+      "Acrescente champignon, ketchup e mostarda, misture.",
+      "Adicione creme de leite, ajuste sal e pimenta, aqueça sem ferver."
+    ],
+    "descricao": "Porque nada diz “vida adulta” como creme de leite e boletos em dia.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "3 porções",
+    "dica": "O strogonoff é a prova que até boletos podem virar algo cremoso e gostoso – só não deixe passar do vencimento."
+  },
+  {
+    "id": 990,
+    "titulo": "Berinjela Recheada com Carne Moída e Queijo",
+    "slug": "berinjela-recheada-com-carne-moida-e-queijo",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "berinjelas médias",
+      "g carne moída",
+      "cebola picada",
+      "dentes de alho picados",
+      "g queijo muçarela ralado",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Corte as berinjelas ao meio, retire a polpa e reserve.",
+      "Refogue cebola, alho, carne e a polpa da berinjela picada.",
+      "Tempere, recheie as berinjelas e cubra com queijo.",
+      "Leve ao forno a 200ºC por 25 minutos."
+    ],
+    "descricao": "Jantar que engana a fome e o coração solitário.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "3 porções",
+    "dica": "Berinjela recheada é igual promessa de início de dieta: parece ótimo, mas no final tem queijo demais pra resistir."
+  },
+  {
+    "id": 991,
+    "titulo": "Sopa Cremosa de Abóbora com Gengibre",
+    "slug": "sopa-cremosa-de-abobora-com-gengibre",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "g abóbora descascada e picada",
+      "pedaço pequeno de gengibre ralado",
+      "cebola picada",
+      "ml caldo de legumes",
+      "Sal e pimenta a gosto",
+      "Creme de leite para servir (opcional)"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e gengibre na panela.",
+      "Adicione a abóbora e o caldo, cozinhe até amaciar.",
+      "Bata tudo no liquidificador até ficar cremoso.",
+      "Tempere e sirva com creme de leite."
+    ],
+    "descricao": "Pra esquentar a alma e fingir que cuidar da saúde é fácil.",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Sopa cremosa é tipo boleto pago: aquece seu coração e traz alívio imediato, mesmo que temporário."
+  },
+  {
+    "id": 992,
+    "titulo": "Tacos de Peixe com Molho de Iogurte e Hortelã",
+    "slug": "tacos-de-peixe-com-molho-de-iogurte-e-hortela",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "g filé de peixe branco",
+      "tortilhas de milho",
+      "iogurte natural",
+      "Hortelã picada a gosto",
+      "limão",
+      "Sal, pimenta e azeite a gosto",
+      "Repolho picado para acompanhar"
+    ],
+    "modoPreparo": [
+      "Tempere o peixe com sal, pimenta e limão.",
+      "Grelhe o peixe em azeite até dourar.",
+      "Misture o iogurte com hortelã, sal e limão.",
+      "Monte os tacos com peixe, molho e repolho."
+    ],
+    "descricao": "Porque jantar leve pode ser tão divertido quanto fugir dos boletos.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 38,00",
+    "porcoes": "3 porções",
+    "dica": "Tacos são como boletos: fáceis de montar, mas o impacto financeiro só vem depois... na conta."
+  },
+  {
+    "id": 993,
+    "titulo": "Panqueca de Espinafre com Ricota e Nozes",
+    "slug": "panqueca-de-espinafre-com-ricota-e-nozes",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "ovos",
+      "/2 xícara de leite",
+      "xícara de espinafre cozido e picado",
+      "g ricota esfarelada",
+      "/4 xícara de nozes picadas",
+      "Sal e pimenta a gosto",
+      "Azeite para untar"
+    ],
+    "modoPreparo": [
+      "Misture farinha, ovos e leite até formar massa líquida.",
+      "Acrescente espinafre, sal e pimenta.",
+      "Faça as panquecas na frigideira untada.",
+      "Recheie com ricota e nozes, dobre e sirva."
+    ],
+    "descricao": "Jantar pra quem quer parecer saudável sem esforço, igual promessa de academia.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "4 porções",
+    "dica": "Panqueca recheada é igual promessa de dieta: só dá trabalho se você quiser fazer direito."
+  },
+  {
+    "id": 994,
+    "titulo": "Lasanha de Abobrinha com Molho Branco e Frango Desfiado",
+    "slug": "lasanha-de-abobrinha-com-molho-branco-e-frango-desfiado",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "abobrinhas médias cortadas em fatias finas",
+      "g frango cozido e desfiado",
+      "ml leite",
+      "colheres de sopa de manteiga",
+      "colheres de sopa de farinha de trigo",
+      "Sal, noz-moscada e pimenta a gosto",
+      "Queijo muçarela ralado para gratinar"
+    ],
+    "modoPreparo": [
+      "Prepare molho branco: derreta manteiga, junte farinha, mexa e acrescente leite aos poucos até engrossar. Tempere.",
+      "Monte camadas: abobrinha, frango, molho branco.",
+      "Finalize com queijo e leve ao forno a 200ºC por 30 minutos."
+    ],
+    "descricao": "Porque jantar leve não precisa ser tristeza no prato.",
+    "tempo": "60 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 42,00",
+    "porcoes": "4 porções",
+    "dica": "Lasanha de abobrinha é como boletos: quanto mais camadas, mais difícil de dar conta, mas no fim tem aquele gostinho de vitória."
+  },
+  {
+    "id": 995,
+    "titulo": "Carne de Panela com Batatas e Cenouras",
+    "slug": "carne-de-panela-com-batatas-e-cenouras",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "g carne para panela em cubos",
+      "batatas médias cortadas",
+      "cenouras cortadas",
+      "cebola picada",
+      "dentes de alho picados",
+      "Sal, pimenta e louro a gosto",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no azeite.",
+      "Adicione a carne e sele todos os lados.",
+      "Coloque os temperos, cubra com água e cozinhe na pressão por 40 minutos.",
+      "Abra a panela, adicione batatas e cenouras, cozinhe por mais 20 minutos sem pressão."
+    ],
+    "descricao": "Jantar de quem sabe que a vida adulta é fogo, mas o estômago não pode reclamar.",
+    "tempo": "1h30min",
+    "dificuldade": "Médio",
+    "preco": "R$ 37,00",
+    "porcoes": "4 porções",
+    "dica": "Cozinhar carne de panela é igual boleto atrasado: demora, mas o resultado final te faz sentir no controle da vida (por enquanto)."
+  },
+  {
+    "id": 996,
+    "titulo": "Quiche de Alho-Poró com Massa Integral",
+    "slug": "quiche-de-alho-poro-com-massa-integral",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "massa de torta integral pronta ou caseira",
+      "talos de alho-poró fatiados",
+      "ovos",
+      "ml creme de leite",
+      "g queijo parmesão ralado",
+      "Sal, pimenta e noz-moscada a gosto",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Pré-asse a massa na forma por 10 minutos a 180ºC.",
+      "Refogue o alho-poró no azeite até murchar.",
+      "Bata ovos, creme de leite, queijo e temperos.",
+      "Misture o alho-poró e despeje sobre a massa.",
+      "Asse por 35 minutos até firmar e dourar."
+    ],
+    "descricao": "Porque às vezes a vida adulta pede um mimo que não é pizza congelada.",
+    "tempo": "1h10min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 35,00",
+    "porcoes": "6 porções",
+    "dica": "Fazer quiche é igual boleto: tem que ter paciência pra esperar o tempo certo, senão tudo desmonta."
+  },
+  {
+    "id": 997,
+    "titulo": "Batata Rústica com Alecrim e Alho",
+    "slug": "batata-rustica-com-alecrim-e-alho",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "batatas médias cortadas em gomos",
+      "dentes de alho picados",
+      "ramos de alecrim fresco",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture batatas, alho, alecrim, azeite, sal e pimenta na tigela.",
+      "Distribua na assadeira em camada única.",
+      "Asse a 220ºC por 35 minutos, mexendo na metade do tempo."
+    ],
+    "descricao": "Jantar pra quem quer crocância sem culpa (ou quase).",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "3 porções",
+    "dica": "Batata rústica é igual boleto: parece simples, mas quando menos espera, vira um drama crocante."
+  },
+  {
+    "id": 998,
+    "titulo": "Salada Morna de Grão-de-Bico, Tomate Seco e Rúcula",
+    "slug": "salada-morna-de-grao-de-bico-tomate-seco-e-rucula",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "xícara de grão-de-bico cozido",
+      "/2 xícara de tomate seco picado",
+      "xícaras de rúcula",
+      "colheres de sopa de azeite",
+      "Sal, pimenta e limão a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o grão-de-bico com tomate seco e rúcula.",
+      "Tempere com azeite, sal, pimenta e limão.",
+      "Sirva em temperatura ambiente ou morna."
+    ],
+    "descricao": "Porque jantar saudável não precisa ser triste e sem graça.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Salada morna é igual boleto pago: dá aquela sensação boa de que você tá no controle da vida, mesmo que só por um instante."
+  },
+  {
+    "id": 999,
+    "titulo": "Filé Mignon ao Molho de Vinho Tinto com Batatas Sauté",
+    "slug": "file-mignon-ao-molho-de-vinho-tinto-com-batatas-saute",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "filés mignon (150g cada)",
+      "/2 xícara de vinho tinto seco",
+      "g batatas cortadas em cubos",
+      "dentes de alho",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe as batatas em água até ficarem macias.",
+      "Frite as batatas com alho e azeite até dourar.",
+      "Tempere os filés com sal e pimenta, grelhe ao ponto desejado.",
+      "Na mesma frigideira, reduza o vinho para molho.",
+      "Sirva o filé com o molho e as batatas."
+    ],
+    "descricao": "Jantar pra mostrar que você tá rico só no prato, porque no banco... nem tanto.",
+    "tempo": "50 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 60,00",
+    "porcoes": "2 porções",
+    "dica": "Filé ao vinho é igual boleto com juros: você sabe que vai pesar, mas às vezes vale o preço do luxo."
+  },
+  {
+    "id": 1000,
+    "titulo": "Nhoque de Mandioquinha com Molho de Tomate e Manjericão",
+    "slug": "nhoque-de-mandioquinha-com-molho-de-tomate-e-manjericao",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "g mandioquinha cozida e amassada",
+      "xícara de farinha de trigo (aproximadamente)",
+      "ovo",
+      "Sal a gosto",
+      "g molho de tomate caseiro",
+      "Folhas de manjericão fresco para decorar"
+    ],
+    "modoPreparo": [
+      "Misture mandioquinha, ovo, sal e farinha até formar massa macia.",
+      "Enrole a massa em rolinhos e corte nhoques.",
+      "Cozinhe os nhoques em água fervente até subirem.",
+      "Sirva com molho de tomate quente e manjericão."
+    ],
+    "descricao": "Jantar pra quem quer conforto sem culpa – ou pelo menos tenta.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "3 porções",
+    "dica": "Fazer nhoque é igual boleto: se colocar farinha demais, fica duro e ninguém quer pagar esse preço."
+  },
+  {
+    "id": 1001,
+    "titulo": "Escondidinho de Carne Seca com Purê de Mandioca",
+    "slug": "escondidinho-de-carne-seca-com-pure-de-mandioca",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "g carne seca dessalgada e desfiada",
+      "g mandioca cozida e amassada",
+      "colheres de sopa de manteiga",
+      "cebola picada",
+      "Sal e pimenta a gosto",
+      "Queijo coalho ralado para gratinar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e carne seca até dourar.",
+      "Misture a manteiga ao purê de mandioca, tempere.",
+      "Em assadeira, faça uma camada de carne, outra de purê.",
+      "Cubra com queijo e leve ao forno para gratinar."
+    ],
+    "descricao": "Jantar pra quem quer esconder os problemas e a fome atrás do purê.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "4 porções",
+    "dica": "Escondidinho é igual boleto escondido na gaveta: você sabe que tá lá, mas finge que não existe."
+  },
+  {
+    "id": 1002,
+    "titulo": "Frango Xadrez com Arroz Jasmine",
+    "slug": "frango-xadrez-com-arroz-jasmine",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "g peito de frango em cubos",
+      "pimentão vermelho em cubos",
+      "cebola média em cubos",
+      "colheres de sopa molho shoyu",
+      "colher de sopa amido de milho",
+      "xícara de arroz jasmine",
+      "Sal e óleo para refogar"
+    ],
+    "modoPreparo": [
+      "Cozinhe o arroz conforme instruções.",
+      "Refogue frango até dourar, reserve.",
+      "Na mesma panela, refogue pimentão e cebola.",
+      "Volte o frango, adicione shoyu e amido dissolvido em água.",
+      "Cozinhe até o molho engrossar."
+    ],
+    "descricao": "Jantar pra quem quer dar um upgrade no básico sem enlouquecer.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 32,00",
+    "porcoes": "3 porções",
+    "dica": "Frango xadrez é tipo boleto parcelado: você acha que tá dando conta, mas no fim sempre sobra uma parcela a pagar."
+  },
+  {
+    "id": 1003,
+    "titulo": "Berinjela à Parmegiana Light",
+    "slug": "berinjela-a-parmegiana-light",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "berinjelas médias cortadas em fatias",
+      "g molho de tomate caseiro",
+      "g queijo muçarela light ralado",
+      "ovos para empanar",
+      "Farinha de rosca para empanar",
+      "Sal e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Salgue as fatias de berinjela e deixe escorrer 20 minutos.",
+      "Passe as fatias em ovo batido e farinha de rosca.",
+      "Frite em pouco azeite até dourar.",
+      "Em assadeira, monte camadas de berinjela, molho e queijo.",
+      "Leve ao forno a 200ºC por 20 minutos."
+    ],
+    "descricao": "Jantar pra quem quer iludir a balança e o coração ao mesmo tempo.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "3 porções",
+    "dica": "Berinjela à parmegiana light é igual boleto parcelado: parece leve, mas no fim pesa no bolso (e na consciência)."
+  },
+  {
+    "id": 1004,
+    "titulo": "Suflê de Queijo com Salada Verde",
+    "slug": "sufle-de-queijo-com-salada-verde",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "ovos (claras e gemas separadas)",
+      "g queijo prato ralado",
+      "colheres de sopa de manteiga",
+      "colheres de sopa de farinha de trigo",
+      "ml leite",
+      "Sal e noz-moscada a gosto",
+      "Folhas verdes para acompanhar"
+    ],
+    "modoPreparo": [
+      "Faça um molho branco com manteiga, farinha e leite, tempere.",
+      "Misture as gemas ao molho e o queijo ralado.",
+      "Bata as claras em neve e incorpore delicadamente.",
+      "Despeje na forma untada e asse em banho-maria a 180ºC por 35 minutos.",
+      "Sirva com salada."
+    ],
+    "descricao": "Jantar pra fingir que você manja do riscado e não só do delivery.",
+    "tempo": "50 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 30,00",
+    "porcoes": "4 porções",
+    "dica": "Suflê é igual boleto que você esqueceu: se abrir a porta na hora errada, tudo desanda rapidinho."
+  },
+  {
+    "id": 1005,
+    "titulo": "Moqueca Baiana de Peixe com Arroz Branco",
+    "slug": "moqueca-baiana-de-peixe-com-arroz-branco",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "g filé de peixe branco",
+      "tomates picados",
+      "cebola picada",
+      "pimentão verde picado",
+      "ml leite de coco",
+      "Coentro e azeite de dendê a gosto",
+      "Sal e pimenta a gosto",
+      "xícaras de arroz branco"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, tomate e pimentão no azeite de dendê.",
+      "Adicione o peixe, tempere, cubra com leite de coco e cozinhe até o peixe ficar macio.",
+      "Cozinhe o arroz branco separadamente.",
+      "Finalize com coentro fresco."
+    ],
+    "descricao": "Jantar pra quem quer viajar sem sair da cozinha (e sem boleto internacional).",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 50,00",
+    "porcoes": "4 porções",
+    "dica": "Moqueca é igual boleto atrasado: quanto mais você enrola, mais difícil fica, mas o sabor compensa o sufoco."
+  },
+  {
+    "id": 1006,
+    "titulo": "Panqueca de Frango com Espinafre e Molho Branco",
+    "slug": "panqueca-de-frango-com-espinafre-e-molho-branco",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "ovos",
+      "/2 xícara de leite",
+      "g frango cozido e desfiado",
+      "xícara de espinafre cozido e picado",
+      "ml molho branco pronto",
+      "Sal e pimenta a gosto",
+      "Azeite para untar"
+    ],
+    "modoPreparo": [
+      "Faça a massa das panquecas misturando farinha, ovos e leite.",
+      "Cozinhe as panquecas em frigideira untada.",
+      "Misture frango e espinafre para o recheio.",
+      "Recheie as panquecas, cubra com molho branco e aqueça no forno."
+    ],
+    "descricao": "Jantar pra quem quer disfarçar que a preguiça venceu a dieta.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 27,00",
+    "porcoes": "4 porções",
+    "dica": "Panqueca recheada é igual boleto parcelado: você sabe que vai ter trabalho, mas no fim até que vale a pena."
+  },
+  {
+    "id": 1007,
+    "titulo": "Escondidinho de Lentilha com Purê de Batata",
+    "slug": "escondidinho-de-lentilha-com-pure-de-batata",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "xícara de lentilha cozida",
+      "batatas médias cozidas e amassadas",
+      "cebola picada",
+      "dentes de alho picados",
+      "colher de sopa de azeite",
+      "Sal e pimenta a gosto",
+      "Queijo ralado para gratinar (opcional)"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no azeite, acrescente lentilha, tempere.",
+      "Misture manteiga ao purê de batata, tempere.",
+      "Em assadeira, faça camadas de lentilha e purê.",
+      "Cubra com queijo e leve ao forno para gratinar."
+    ],
+    "descricao": "Jantar que prova que até legumes podem ser heróis no prato.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "3 porções",
+    "dica": "Lentilha no jantar é igual boleto pago: dá aquela sensação de que tá tudo sob controle, mesmo que só por um tempo."
+  },
+  {
+    "id": 1008,
+    "titulo": "Pizza Caseira de Massa Integral com Vegetais",
+    "slug": "pizza-caseira-de-massa-integral-com-vegetais",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "xícaras de farinha integral",
+      "colher de chá de fermento biológico seco",
+      "/2 xícara de água morna",
+      "colher de sopa de azeite",
+      "g molho de tomate",
+      "g queijo muçarela ralado",
+      "Vegetais diversos (pimentão, cebola, tomate, azeitonas)",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Misture farinha, fermento, água, azeite e sal; amasse e deixe crescer 40 minutos.",
+      "Abra a massa com rolo e coloque na assadeira.",
+      "Espalhe molho, queijo e vegetais.",
+      "Asse a 220ºC por 20 minutos."
+    ],
+    "descricao": "Porque todo adulto merece a ilusão de que cozinha igual pizzaria.",
+    "tempo": "1h10min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Fazer pizza em casa é igual boleto: dá trabalho, mas no fim você se sente o rei do pedaço (ou da conta)."
+  },
+  {
+    "id": 1009,
+    "titulo": "Quibe Assado com Tabule",
+    "slug": "quibe-assado-com-tabule",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "g trigo para quibe",
+      "g carne moída",
+      "cebola picada",
+      "Hortelã e salsinha picadas",
+      "tomates picados",
+      "pepino picado",
+      "Suco de 1 limão",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Hidrate o trigo conforme instruções.",
+      "Misture trigo, carne, cebola, sal e pimenta.",
+      "Coloque na assadeira e asse a 200ºC por 30 minutos.",
+      "Misture tomate, pepino, hortelã, salsinha, limão e azeite para o tabule."
+    ],
+    "descricao": "Jantar pra quem quer fingir que tá saudável e sem tempo.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 29,00",
+    "porcoes": "4 porções",
+    "dica": "Quibe assado é igual boleto: você tenta fazer saudável, mas no fim sempre tem um tempero que pesa demais."
+  },
+  {
+    "id": 1010,
+    "titulo": "Salada de Quinoa com Frango Grelhado e Abacate",
+    "slug": "salada-de-quinoa-com-frango-grelhado-e-abacate",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "xícara de quinoa cozida",
+      "g peito de frango",
+      "/2 abacate em cubos",
+      "tomate picado",
+      "Folhas verdes (alface, rúcula)",
+      "Azeite, limão, sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Cozinhe a quinoa conforme instruções.",
+      "Grelhe o frango temperado com sal e pimenta, corte em tiras.",
+      "Misture quinoa, frango, abacate, tomate e folhas.",
+      "Tempere com azeite e limão."
+    ],
+    "descricao": "Porque jantar saudável pode ser chique, até para quem só quer sentar e não pensar em boleto.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 35,00",
+    "porcoes": "2 porções",
+    "dica": "Salada com abacate é tipo boleto pago com desconto: parece que tá tudo certo, mas você sabe que poderia ser melhor."
+  },
+  {
+    "id": 1011,
+    "titulo": "Bife Acebolado com Purê de Mandioquinha",
+    "slug": "bife-acebolado-com-pure-de-mandioquinha",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "bifes de sua preferência",
+      "cebolas médias fatiadas",
+      "g mandioquinha cozida e amassada",
+      "colher de sopa de manteiga",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere os bifes com sal e pimenta, grelhe em azeite.",
+      "Na mesma frigideira, refogue a cebola até caramelizar.",
+      "Misture a manteiga ao purê de mandioquinha, tempere.",
+      "Sirva bifes com cebolas por cima e purê ao lado."
+    ],
+    "descricao": "Jantar que prova que às vezes o clássico ganha do gourmet.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 30,00",
+    "porcoes": "2 porções",
+    "dica": "Bife acebolado é igual boleto: simples, direto, e você não quer complicar a vida (mas sempre complica)."
+  },
+  {
+    "id": 1012,
+    "titulo": "Macarrão ao Molho Pesto com Tomate Seco",
+    "slug": "macarrao-ao-molho-pesto-com-tomate-seco",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "g macarrão de sua preferência",
+      "maço de manjericão fresco",
+      "g queijo parmesão ralado",
+      "/4 xícara nozes ou pinoli",
+      "/2 xícara azeite",
+      "g tomate seco picado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão conforme instruções.",
+      "Bata manjericão, queijo, nozes, azeite, sal e pimenta até formar pesto.",
+      "Misture o molho ao macarrão escorrido.",
+      "Acrescente tomate seco e sirva."
+    ],
+    "descricao": "Jantar pra quem quer fingir que sabe o que está fazendo na cozinha.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "2 porções",
+    "dica": "Molho pesto é igual boleto pago no débito automático: prático, eficiente e evita dor de cabeça depois."
+  },
+  {
+    "id": 1013,
+    "titulo": "Frango ao Curry com Leite de Coco e Arroz Basmati",
+    "slug": "frango-ao-curry-com-leite-de-coco-e-arroz-basmati",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "g peito de frango em cubos",
+      "cebola picada",
+      "colheres de sopa curry em pó",
+      "ml leite de coco",
+      "xícara de arroz basmati",
+      "Sal, pimenta e óleo para refogar"
+    ],
+    "modoPreparo": [
+      "Cozinhe o arroz conforme instruções.",
+      "Refogue cebola, acrescente frango e curry, mexa bem.",
+      "Junte leite de coco, tempere e cozinhe até o molho engrossar.",
+      "Sirva com arroz."
+    ],
+    "descricao": "Jantar pra quem quer dar uma apimentada na vida sem estourar o orçamento.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 38,00",
+    "porcoes": "3 porções",
+    "dica": "Curry é igual boleto: se exagerar, queima seu orçamento; se faltar, perde a graça."
+  },
+  {
+    "id": 1014,
+    "titulo": "Torta de Legumes com Massa de Grão-de-Bico",
+    "slug": "torta-de-legumes-com-massa-de-grao-de-bico",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "xícara de grão-de-bico cozido",
+      "/2 xícara de farinha de trigo",
+      "cenoura ralada",
+      "abobrinha ralada",
+      "ovos",
+      "Sal, pimenta e ervas a gosto",
+      "g queijo ralado opcional"
+    ],
+    "modoPreparo": [
+      "Bata grão-de-bico, farinha e ovos no processador até formar massa.",
+      "Misture os legumes, tempere e despeje na assadeira.",
+      "Salpique queijo e asse a 180ºC por 40 minutos."
+    ],
+    "descricao": "Jantar pra quem quer parecer fitness mas sem abrir mão do sabor.",
+    "tempo": "1h",
+    "dificuldade": "Difícil",
+    "preco": "R$ 33,00",
+    "porcoes": "4 porções",
+    "dica": "Torta de grão-de-bico é igual boleto: você acha que vai dar trabalho, mas no fim só quer que acabe logo."
+  },
+  {
+    "id": 1015,
+    "titulo": "Espaguete ao Alho e Óleo com Camarões",
+    "slug": "espaguete-ao-alho-e-oleo-com-camaroes",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "g espaguete",
+      "g camarão limpo",
+      "dentes de alho fatiados",
+      "/4 xícara de azeite",
+      "Pimenta calabresa, sal e salsinha a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o espaguete conforme instruções.",
+      "Em frigideira, doure alho no azeite, junte camarões e tempere.",
+      "Misture o espaguete escorrido ao camarão, finalize com salsa."
+    ],
+    "descricao": "Jantar para quem quer algo rápido, chique e que faça parecer que sabe viver.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 45,00",
+    "porcoes": "2 porções",
+    "dica": "Espaguete alho e óleo é igual boleto pago no débito: simples, rápido e evita dor de cabeça."
+  },
+  {
+    "id": 1016,
+    "titulo": "Ratatouille Simples com Queijo de Cabra",
+    "slug": "ratatouille-simples-com-queijo-de-cabra",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "berinjela pequena em rodelas",
+      "abobrinha pequena em rodelas",
+      "tomates maduros em rodelas",
+      "cebola em rodelas",
+      "g queijo de cabra",
+      "Azeite, sal, pimenta e ervas finas"
+    ],
+    "modoPreparo": [
+      "Em assadeira untada, alterne camadas dos legumes.",
+      "Tempere com azeite, sal, pimenta e ervas.",
+      "Cubra com queijo de cabra e asse a 180ºC por 35 minutos."
+    ],
+    "descricao": "Jantar pra quem quer parecer francês e não pagar a conta do bistrô.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "3 porções",
+    "dica": "Ratatouille é igual boleto atrasado: todo mundo sabe que é bom, mas ninguém quer encarar a trabalheira."
+  },
+  {
+    "id": 1017,
+    "titulo": "Espetinho de Frango com Legumes Grelhados",
+    "slug": "espetinho-de-frango-com-legumes-grelhados",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "g peito de frango em cubos",
+      "pimentão em cubos",
+      "cebola em cubos",
+      "abobrinha em rodelas",
+      "Azeite, sal, pimenta e ervas a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere frango e legumes com azeite e temperos.",
+      "Monte os espetinhos alternando frango e legumes.",
+      "Grelhe até dourar e cozinhar bem."
+    ],
+    "descricao": "Jantar pra quem quer fingir que tá na praia, mas tá só no quintal (ou na cozinha).",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 28,00",
+    "porcoes": "3 porções",
+    "dica": "Espetinho é igual boleto: se deixar pra última hora, vira um churrasco de desespero."
+  },
+  {
+    "id": 1018,
+    "titulo": "Cuscuz Marroquino com Legumes e Frango ao Curry",
+    "slug": "cuscuz-marroquino-com-legumes-e-frango-ao-curry",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "xícara de cuscuz marroquino",
+      "g frango em cubos",
+      "cenoura ralada",
+      "abobrinha em cubos",
+      "colheres de sopa curry em pó",
+      "/2 cebola picada",
+      "Sal, pimenta e azeite"
+    ],
+    "modoPreparo": [
+      "Hidrate o cuscuz conforme embalagem.",
+      "Refogue cebola e frango com curry até dourar.",
+      "Acrescente legumes e cozinhe até ficarem macios.",
+      "Misture o cuscuz ao refogado e sirva."
+    ],
+    "descricao": "Jantar pra quem quer viajar no paladar e não no boleto.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "3 porções",
+    "dica": "Cuscuz marroquino é igual boleto internacional: parece exótico, mas no fim é mais um que você precisa pagar."
+  },
+  {
+    "id": 1019,
+    "titulo": "Escondidinho de Abóbora com Carne Moída e Queijo",
+    "slug": "escondidinho-de-abobora-com-carne-moida-e-queijo",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "g abóbora cozida e amassada",
+      "g carne moída",
+      "cebola picada",
+      "dentes de alho picados",
+      "g queijo muçarela ralado",
+      "Sal, pimenta e azeite"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, alho e carne até dourar, tempere.",
+      "Misture a abóbora com sal e reserve.",
+      "Em assadeira, coloque camada de carne, depois abóbora e queijo.",
+      "Leve ao forno para gratinar por 25 minutos."
+    ],
+    "descricao": "Jantar pra quem quer esconder a fome e a tristeza atrás do queijo derretido.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 33,00",
+    "porcoes": "4 porções",
+    "dica": "Escondidinho é igual boleto esquecido: quando lembra, já tá tudo derretido (e caro)."
+  },
+  {
+    "id": 1020,
+    "titulo": "Panini de Queijo, Tomate e Manjericão",
+    "slug": "panini-de-queijo-tomate-e-manjericao",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "fatias de pão ciabatta ou outro de sua preferência",
+      "g queijo muçarela",
+      "tomates fatiados",
+      "Folhas de manjericão fresco",
+      "Azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Monte os sanduíches com queijo, tomate e manjericão.",
+      "Passe azeite no pão e grelhe na sanduicheira ou frigideira até dourar.",
+      "Sirva quente."
+    ],
+    "descricao": "Jantar pra quem quer rapidez e sabor, sem parecer que tá comendo pão com queijo.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Panini é igual boleto pago em dia: simples, rápido, e te deixa com aquela sensação boa de vitória."
+  },
+  {
+    "id": 1021,
+    "titulo": "Salmão ao Forno com Crosta de Ervas e Limão",
+    "slug": "salmao-ao-forno-com-crosta-de-ervas-e-limao",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "filés de salmão (150g cada)",
+      "limão (raspas e suco)",
+      "Mix de ervas frescas picadas (salsinha, cebolinha, tomilho)",
+      "Sal, pimenta e azeite"
+    ],
+    "modoPreparo": [
+      "Tempere o salmão com sal, pimenta e limão.",
+      "Misture as ervas com raspas de limão e azeite.",
+      "Cubra os filés com a mistura e asse a 200ºC por 20 minutos."
+    ],
+    "descricao": "Jantar pra quem quer parecer chef, mas só quer impressionar o crush.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 50,00",
+    "porcoes": "2 porções",
+    "dica": "Salmão ao forno é igual boleto que você tenta esquecer: bonito, cheiroso, mas no fim sempre aparece pra te cobrar."
+  },
+  {
+    "id": 1022,
+    "titulo": "Macarrão Integral com Molho de Abacate e Limão",
+    "slug": "macarrao-integral-com-molho-de-abacate-e-limao",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "g macarrão integral",
+      "abacate maduro",
+      "Suco de 1 limão",
+      "dente de alho",
+      "Sal, pimenta e azeite a gosto",
+      "Queijo parmesão ralado para servir"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão conforme instruções.",
+      "Bata no liquidificador abacate, limão, alho, azeite, sal e pimenta até virar molho.",
+      "Misture o molho ao macarrão quente.",
+      "Sirva com queijo ralado."
+    ],
+    "descricao": "Jantar pra quem quer ser saudável e hipster ao mesmo tempo (ou pelo menos tenta).",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "2 porções",
+    "dica": "Molho de abacate é igual boleto parcelado: parece saudável, mas no fim pesa no orçamento e na consciência."
+  },
+  {
+    "id": 1023,
+    "titulo": "Calabresa Acebolada com Polenta Cremosa",
+    "slug": "calabresa-acebolada-com-polenta-cremosa",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "g calabresa fatiada",
+      "cebolas grandes fatiadas",
+      "xícara de farinha de milho para polenta",
+      "xícaras de água",
+      "Sal e pimenta a gosto",
+      "Queijo ralado opcional"
+    ],
+    "modoPreparo": [
+      "Refogue a calabresa e cebola até dourar.",
+      "Cozinhe a polenta na água com sal, mexendo até engrossar.",
+      "Sirva a calabresa sobre a polenta, com queijo se desejar."
+    ],
+    "descricao": "Jantar pra quem quer abraço de vó em forma de comida (e um pouco de culpa).",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 28,00",
+    "porcoes": "3 porções",
+    "dica": "Calabresa acebolada é igual boleto inesperado: chega quente e bagunça seus planos, mas faz você se sentir vivo."
+  },
+  {
+    "id": 1024,
+    "titulo": "Sanduíche Natural de Atum com Salada Verde",
+    "slug": "sanduiche-natural-de-atum-com-salada-verde",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "latas de atum em água",
+      "fatias de pão integral",
+      "/2 cebola roxa picada",
+      "talo de salsão picado",
+      "colheres de sopa de maionese light",
+      "Folhas verdes variadas",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture atum, cebola, salsão, maionese, sal e pimenta.",
+      "Monte os sanduíches com a mistura e folhas verdes.",
+      "Sirva imediatamente."
+    ],
+    "descricao": "Jantar pra quem quer algo leve, mas não quer perder a pose fitness.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Sanduíche natural é igual boleto pago antecipado: você sabe que fez o certo, mas ainda sente falta da pizza."
+  },
+  {
+    "id": 1025,
+    "titulo": "Frango ao Molho de Laranja com Quinua",
+    "slug": "frango-ao-molho-de-laranja-com-quinua",
+    "categoria": "Jantar ",
+    "ingredientes": [
+      "g peito de frango em cubos",
+      "Suco e raspas de 2 laranjas",
+      "colher de sopa de mel",
+      "xícara de quinua",
+      "Sal, pimenta e azeite"
+    ],
+    "modoPreparo": [
+      "Cozinhe a quinua conforme instruções.",
+      "Grelhe o frango temperado com sal e pimenta.",
+      "Faça o molho com suco, raspas de laranja e mel, reduza na frigideira.",
+      "Misture o frango ao molho e sirva com quinua."
+    ],
+    "descricao": "Jantar pra quem quer doce e saudável, mas sem parecer que tá fazendo dieta.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 38,00",
+    "porcoes": "2 porções",
+    "dica": "Molho de laranja é igual boleto pago com desconto: doce na medida certa pra não doer tanto."
+  }
+]

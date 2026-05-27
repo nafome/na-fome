@@ -1,0 +1,1010 @@
+[
+  {
+    "id": 1988,
+    "titulo": "Omelete de Grão-de-Bico Pós-Treino",
+    "slug": "omelete-de-grao-de-bico-pos-treino",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "xícara de farinha de grão-de-bico",
+      "xícara de água",
+      "/2 cebola picada",
+      "tomate picado",
+      "Sal e pimenta a gosto",
+      "Azeite para untar"
+    ],
+    "modoPreparo": [
+      "Misture a farinha de grão-de-bico com água até formar uma massa homogênea.",
+      "Adicione cebola, tomate, sal e pimenta, misture bem.",
+      "Aqueça a frigideira com azeite, despeje a massa e cozinhe em fogo médio até dourar dos dois lados."
+    ],
+    "descricao": "A proteína que te ajuda a aguentar o tranco sem virar purê no sofá",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida adulta te cobra até o último centavo, pelo menos essa omelete cobra só seu esforço – e ainda te deixa forte pra encarar boletos."
+  },
+  {
+    "id": 1989,
+    "titulo": "Salada Mediterrânea com Quinoa e Tofu Grelhado",
+    "slug": "salada-mediterranea-com-quinoa-e-tofu-grelhado",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "xícara de quinoa",
+      "g de tofu firme",
+      "pepino picado",
+      "tomates-cereja cortados ao meio",
+      "/4 de cebola roxa fatiada fina",
+      "Azeitonas pretas a gosto",
+      "Suco de 1 limão",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a quinoa conforme instruções da embalagem e deixe esfriar.",
+      "Corte o tofu em fatias e grelhe até dourar dos dois lados.",
+      "Misture todos os ingredientes na tigela, tempere com limão, azeite, sal e pimenta."
+    ],
+    "descricao": "Porque até o tofu merece um upgrade na vida, igual você no LinkedIn",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "3 porções",
+    "dica": "Se você acha que tofu é sem graça, é porque nunca viu um grelhado bem feito – igual aquele crush que só aparece quando quer."
+  },
+  {
+    "id": 1990,
+    "titulo": "Smoothie Verde Energético com Proteína de Ervilha",
+    "slug": "smoothie-verde-energetico-com-proteina-de-ervilha",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "banana madura",
+      "colheres de proteína de ervilha",
+      "punhado de espinafre fresco",
+      "ml de água de coco",
+      "colher de chá de mel"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar homogêneo.",
+      "Sirva gelado e beba antes que a vontade de dormir vença."
+    ],
+    "descricao": "O energético que não te abandona antes do meio-dia (diferente do seu chefe)",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "1 porção",
+    "dica": "Esse smoothie é tipo aquele amigo que aparece na hora certa: te dá energia e não pede nada em troca, só não espere que ele pague seu café."
+  },
+  {
+    "id": 1991,
+    "titulo": "Tacos Vegetarianos de Feijão Preto e Abacate",
+    "slug": "tacos-vegetarianos-de-feijao-preto-e-abacate",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "tortillas de milho",
+      "xícaras de feijão preto cozido",
+      "abacate maduro amassado",
+      "tomate picado",
+      "/2 cebola picada",
+      "Suco de 1 limão",
+      "Coentro a gosto",
+      "Sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e o tomate, junte o feijão e tempere.",
+      "Misture o abacate com limão, sal e coentro para fazer o guacamole.",
+      "Monte os tacos com feijão e guacamole, sirva na hora."
+    ],
+    "descricao": "Porque a vida é curta demais pra não comer taco sem culpa",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida te der feijão, faça tacos; se te der boletos, pelo menos coma feliz."
+  },
+  {
+    "id": 1992,
+    "titulo": "Risoto de Cogumelos ao Vinho Branco",
+    "slug": "risoto-de-cogumelos-ao-vinho-branco",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "xícaras de arroz arbóreo",
+      "g de cogumelos variados picados",
+      "cebola picada",
+      "/2 xícara de vinho branco seco",
+      "litro de caldo de legumes quente",
+      "colheres de sopa de manteiga",
+      "g de queijo parmesão ralado (opcional)",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola na manteiga até ficar transparente.",
+      "Acrescente o arroz e mexa por 2 minutos, depois adicione o vinho até evaporar.",
+      "Vá adicionando o caldo aos poucos, mexendo sempre, até o arroz ficar cremoso e al dente.",
+      "Em outra panela, refogue os cogumelos, misture ao risoto e finalize com parmesão."
+    ],
+    "descricao": "Sofisticação que cabe no seu bolso e no seu estômago",
+    "tempo": "45 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida adulta já te dá caldo, pelo menos faça um risoto que te faça esquecer isso – com vinho, claro, porque boletos não pagam sozinhos."
+  },
+  {
+    "id": 1993,
+    "titulo": "Panqueca de Espinafre com Ricota",
+    "slug": "panqueca-de-espinafre-com-ricota",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "xícara de farinha de trigo integral",
+      "ovo",
+      "xícara de leite vegetal",
+      "xícara de espinafre cozido e picado",
+      "g de ricota amassada",
+      "Sal e noz-moscada a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a farinha, ovo e leite até formar uma massa lisa.",
+      "Incorpore o espinafre e tempere com sal e noz-moscada.",
+      "Faça panquecas na frigideira, recheie com ricota e dobre ao meio."
+    ],
+    "descricao": "Porque nem só de tapioca vive o café da manhã saudável",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "3 porções",
+    "dica": "Se seu dia começa igual panqueca: enrolado e meio mole, pelo menos a comida não precisa ser assim."
+  },
+  {
+    "id": 1994,
+    "titulo": "Hambúrguer de Lentilha com Molho Barbecue Vegano",
+    "slug": "hamburguer-de-lentilha-com-molho-barbecue-vegano",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "xícaras de lentilha cozida",
+      "/2 cebola picada",
+      "dentes de alho amassados",
+      "/2 xícara de farinha de aveia",
+      "Sal, pimenta e páprica defumada a gosto",
+      "Pão de hambúrguer integral",
+      "Molho barbecue vegano pronto"
+    ],
+    "modoPreparo": [
+      "Bata a lentilha, cebola e alho no processador até virar massa.",
+      "Misture a farinha e tempere, molde os hambúrgueres.",
+      "Frite em frigideira até dourar dos dois lados, sirva com pão e molho."
+    ],
+    "descricao": "O hambúrguer que não te julga por pedir delivery todo dia",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Se o crush não aceita suas mudanças, esse hambúrguer pelo menos aceita seu apetite."
+  },
+  {
+    "id": 1995,
+    "titulo": "Bowl de Açaí com Granola e Frutas",
+    "slug": "bowl-de-acai-com-granola-e-frutas",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "g de polpa de açaí congelada",
+      "banana congelada",
+      "/2 xícara de suco de laranja",
+      "Granola a gosto",
+      "Frutas frescas para decorar (morango, kiwi, etc.)"
+    ],
+    "modoPreparo": [
+      "Bata a polpa de açaí, banana e suco até ficar cremoso.",
+      "Despeje na tigela, cubra com granola e frutas."
+    ],
+    "descricao": "O café da manhã que faz você parecer fitness no Instagram",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "1 porção",
+    "dica": "Se sua vida é congelante como o açaí, pelo menos o café da manhã pode ser mais doce que boleto chegando."
+  },
+  {
+    "id": 1996,
+    "titulo": "Lasanha de Berinjela com Molho de Tomate Caseiro",
+    "slug": "lasanha-de-berinjela-com-molho-de-tomate-caseiro",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "berinjelas grandes fatiadas",
+      "ml de molho de tomate caseiro",
+      "g de queijo muçarela vegano ou tradicional",
+      "Manjericão fresco",
+      "Sal, pimenta e azeite"
+    ],
+    "modoPreparo": [
+      "Grelhe as fatias de berinjela até dourar.",
+      "Monte camadas na assadeira: berinjela, molho, queijo e manjericão.",
+      "Asse por 35 minutos em forno pré-aquecido a 180°C até borbulhar."
+    ],
+    "descricao": "A prova de que você pode ser sofisticado sem pagar três vezes no supermercado",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida te der berinjela, faça lasanha – porque chorar não paga as contas."
+  },
+  {
+    "id": 1997,
+    "titulo": "Panqueca de Aveia com Banana e Canela",
+    "slug": "panqueca-de-aveia-com-banana-e-canela",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "xícara de aveia em flocos finos",
+      "banana madura amassada",
+      "ovo",
+      "/2 xícara de leite vegetal",
+      "colher de chá de canela em pó",
+      "Mel para servir",
+      "xícaras de grão-de-bico cozido",
+      "cebola picada",
+      "dentes de alho amassados",
+      "colher de sopa de curry em pó",
+      "ml de leite de coco",
+      "tomate picado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes até formar uma massa homogênea.",
+      "Cozinhe as panquecas na frigideira quente, virando quando formar bolhas.",
+      "Sirva com mel por cima.",
+      "Refogue cebola e alho até dourar.",
+      "Adicione curry, tomate e grão-de-bico, misture bem.",
+      "Acrescente leite de coco, cozinhe por 20 minutos em fogo baixo."
+    ],
+    "descricao": "O abraço quentinho que sua alma vegetariana merece",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida anda um pouco amarga, um curry desses é tipo abraço de vó: quentinho e sem cobrança."
+  },
+  {
+    "id": 1998,
+    "titulo": "Espaguete de Abobrinha com Molho Pesto de Manjericão",
+    "slug": "espaguete-de-abobrinha-com-molho-pesto-de-manjericao",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "abobrinhas grandes em espaguete",
+      "maço de manjericão fresco",
+      "/4 de xícara de nozes",
+      "/4 de xícara de azeite",
+      "dentes de alho",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Bata no processador o manjericão, nozes, alho, azeite e sal até virar pesto.",
+      "Refogue o espaguete de abobrinha por 2 minutos na frigideira.",
+      "Misture com o pesto e sirva imediatamente."
+    ],
+    "descricao": "Pra você que quer macarrão sem culpa e sem drama",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida te enrola igual abobrinha, pelo menos o jantar pode ser leve e saboroso – sem drama no prato."
+  },
+  {
+    "id": 1999,
+    "titulo": "Sopa Cremosa de Abóbora com Gengibre",
+    "slug": "sopa-cremosa-de-abobora-com-gengibre",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "kg de abóbora picada",
+      "cebola picada",
+      "dentes de alho",
+      "pedaço pequeno de gengibre fresco ralado",
+      "ml de caldo de legumes",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho, acrescente abóbora e gengibre, cubra com caldo.",
+      "Cozinhe até a abóbora ficar macia.",
+      "Bata tudo no liquidificador, volte à panela, ajuste sal e aqueça antes de servir."
+    ],
+    "descricao": "O remédio que não precisa de receita e ainda esquenta o coração",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida te der abóbora, faça sopa; se der problema, faça piada – pelo menos uma coisa você domina."
+  },
+  {
+    "id": 2000,
+    "titulo": "Bolinho de Arroz Integral com Queijo Vegano",
+    "slug": "bolinho-de-arroz-integral-com-queijo-vegano",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "xícaras de arroz integral cozido",
+      "g de queijo vegano ralado",
+      "colher de sopa de farinha de trigo",
+      "Salsinha picada",
+      "Sal e pimenta a gosto",
+      "Azeite para fritar ou assar"
+    ],
+    "modoPreparo": [
+      "Misture o arroz com queijo, farinha, salsinha e temperos até dar liga.",
+      "Modele bolinhos e asse a 200°C por 20 minutos ou frite até dourar.",
+      "Sirva quente com molho de sua preferência."
+    ],
+    "descricao": "Aproveitamento que até sua tia no grupo da família vai aprovar",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "6 porções",
+    "dica": "Se a vida tá meio seca igual arroz frio, pelo menos esses bolinhos dão sabor e conquistam até o paladar da sogra."
+  },
+  {
+    "id": 2001,
+    "titulo": "Wrap de Homus com Legumes Grelhados",
+    "slug": "wrap-de-homus-com-legumes-grelhados",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "tortillas integrais",
+      "xícara de homus pronto",
+      "abobrinha fatiada",
+      "pimentão vermelho fatiado",
+      "cenoura ralada",
+      "Sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Grelhe abobrinha e pimentão até ficarem macios.",
+      "Espalhe homus nas tortillas, coloque os legumes e cenoura.",
+      "Enrole firme e corte ao meio para servir."
+    ],
+    "descricao": "Aquela marmita que não te faz passar vergonha no trabalho",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida tá enrolada igual seu wrap, pelo menos o almoço não pode ser um desastre – salve o homus!"
+  },
+  {
+    "id": 2002,
+    "titulo": "Salada de Grãos com Castanhas e Ervas Frescas",
+    "slug": "salada-de-graos-com-castanhas-e-ervas-frescas",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "xícara de trigo para quibe cozido",
+      "xícara de lentilha cozida",
+      "/2 xícara de castanhas picadas",
+      "Salsinha e hortelã frescas picadas",
+      "Suco de 1 limão",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe os grãos até ficarem macios e deixe esfriar.",
+      "Misture os grãos com castanhas, ervas, limão, azeite, sal e pimenta.",
+      "Ajuste temperos e sirva fresca."
+    ],
+    "descricao": "O mix que faz seu corpo agradecer e seu bolso chorar menos",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "3 porções",
+    "dica": "Se sua vida é um quebra-cabeça, essa salada é a peça que encaixa sabor e saúde – sem perder a cabeça."
+  },
+  {
+    "id": 2003,
+    "titulo": "Quiche Vegana de Espinafre e Tomate Seco",
+    "slug": "quiche-vegana-de-espinafre-e-tomate-seco",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "massa pronta vegana para torta",
+      "g de espinafre cozido e escorrido",
+      "g de tofu amassado",
+      "/4 xícara de leite vegetal",
+      "tomates secos picados",
+      "Sal, pimenta e noz-moscada a gosto",
+      "g de mandioquinha cozida e amassada",
+      "xícara de polvilho doce",
+      "/2 xícara de polvilho azedo",
+      "/3 xícara de azeite",
+      "/2 xícara de leite vegetal",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Forre a forma com a massa e pré-asse por 10 minutos.",
+      "Misture o espinafre, tofu, leite e temperos.",
+      "Despeje sobre a massa, adicione tomates secos e asse por 30 minutos.",
+      "Misture a mandioquinha com polvilhos, azeite, leite e sal até formar uma massa.",
+      "Modele bolinhas, coloque na assadeira untada.",
+      "Asse em forno pré-aquecido a 180°C por 30 minutos até dourar."
+    ],
+    "descricao": "Porque até quem odeia cozinha merece um pãozinho quentinho",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "12 unidades",
+    "dica": "Se a vida amarga, esse pãozinho é o conforto que não pesa na consciência – nem no bolso."
+  },
+  {
+    "id": 2004,
+    "titulo": "Espetinho Vegetariano com Molho de Amendoim",
+    "slug": "espetinho-vegetariano-com-molho-de-amendoim",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "abobrinha cortada em rodelas grossas",
+      "pimentão amarelo em cubos grandes",
+      "g de cogumelos champignon inteiros",
+      "g de tofu firme em cubos",
+      "/2 xícara de pasta de amendoim",
+      "colheres de sopa de molho shoyu",
+      "Suco de 1 limão",
+      "Água para ajustar molho"
+    ],
+    "modoPreparo": [
+      "Monte os espetinhos intercalando vegetais e tofu.",
+      "Misture pasta de amendoim, shoyu, limão e água até molho homogêneo.",
+      "Grelhe os espetinhos até dourar e sirva com o molho."
+    ],
+    "descricao": "Aquele churrasco que até seu vizinho vegetariano vai invejar",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 26,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida tá pedindo fogo, acenda esse espetinho – que pelo menos não vai te queimar no churrasco social."
+  },
+  {
+    "id": 2005,
+    "titulo": "Hambúrguer de Grão-de-Bico com Beterraba",
+    "slug": "hamburguer-de-grao-de-bico-com-beterraba",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "xícaras de grão-de-bico cozido",
+      "beterraba média ralada",
+      "/2 cebola picada",
+      "/2 xícara de farinha de linhaça",
+      "Sal, pimenta e cominho a gosto"
+    ],
+    "modoPreparo": [
+      "Processe o grão-de-bico com cebola até formar uma pasta.",
+      "Misture com beterraba, farinha e temperos, molde hambúrgueres.",
+      "Frite até dourar dos dois lados."
+    ],
+    "descricao": "O pink que vai colorir sua dieta e seu humor",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 19,00",
+    "porcoes": "4 porções",
+    "dica": "Se o dia tá sem graça, esse hambúrguer rosa é a cor que faltava pra sua dieta e seu feed."
+  },
+  {
+    "id": 2006,
+    "titulo": "Tabule de Couve-Flor com Hortelã",
+    "slug": "tabule-de-couve-flor-com-hortela",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "cabeça média de couve-flor ralada",
+      "tomates picados",
+      "pepino picado",
+      "/2 cebola roxa picada",
+      "Hortelã fresca picada",
+      "Suco de 1 limão",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Rale a couve-flor até parecer cuscuz.",
+      "Misture com os vegetais, hortelã, limão e azeite.",
+      "Tempere e sirva fresca."
+    ],
+    "descricao": "A salada que faz você esquecer que está de dieta (ou não)",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "3 porções",
+    "dica": "Se a vida te dá couve-flor, transforme em festa – porque ninguém merece dieta sem graça."
+  },
+  {
+    "id": 2007,
+    "titulo": "Muffin Integral de Banana e Nozes",
+    "slug": "muffin-integral-de-banana-e-nozes",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "bananas maduras amassadas",
+      "xícara de farinha integral",
+      "/2 xícara de açúcar mascavo",
+      "/3 xícara de óleo vegetal",
+      "colher de chá de fermento em pó",
+      "/2 xícara de nozes picadas",
+      "Canela a gosto"
+    ],
+    "modoPreparo": [
+      "Misture bananas, açúcar e óleo.",
+      "Acrescente farinha, fermento e canela, mexa até homogeneizar.",
+      "Coloque nas formas, polvilhe nozes e asse a 180°C por 25 minutos."
+    ],
+    "descricao": "O lanche que é quase um abraço em forma de doce saudável",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "6 unidades",
+    "dica": "Se a vida te dá bananas, faça muffin – porque chorar em silêncio é para os fracos."
+  },
+  {
+    "id": 2008,
+    "titulo": "Berinjela Recheada com Quinoa e Legumes",
+    "slug": "berinjela-recheada-com-quinoa-e-legumes",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "berinjelas médias cortadas ao meio",
+      "xícara de quinoa cozida",
+      "cenoura ralada",
+      "/2 pimentão picado",
+      "cebola picada",
+      "Sal, pimenta e azeite"
+    ],
+    "modoPreparo": [
+      "Retire o miolo das berinjelas e reserve.",
+      "Refogue o miolo com cebola, cenoura e pimentão, misture com quinoa.",
+      "Recheie as berinjelas, regue azeite e asse por 30 minutos a 180°C."
+    ],
+    "descricao": "A janta que faz você parecer chef mesmo na preguiça",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 24,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida te dá berinjela, faça festa no prato – porque comer bem é o mínimo do respeito próprio."
+  },
+  {
+    "id": 2009,
+    "titulo": "Panqueca Americana Vegana de Chocolate",
+    "slug": "panqueca-americana-vegana-de-chocolate",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "colher de sopa de cacau em pó",
+      "colher de sopa de açúcar mascavo",
+      "colher de chá de fermento em pó",
+      "xícara de leite vegetal",
+      "colher de chá de vinagre de maçã"
+    ],
+    "modoPreparo": [
+      "Misture o leite e vinagre, deixe talhar por 5 minutos.",
+      "Combine os secos, depois adicione o líquido e mexa até homogeneizar.",
+      "Cozinhe panquecas na frigideira quente até formar bolhas, vire e doure."
+    ],
+    "descricao": "O doce que não vai te julgar pelo domingo preguiçoso",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida é amarga, pelo menos essa panqueca é doce e vegana – tipo o crush que nunca volta."
+  },
+  {
+    "id": 2010,
+    "titulo": "Salada de Grão-de-Bico com Tahine e Limão",
+    "slug": "salada-de-grao-de-bico-com-tahine-e-limao",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "xícaras de grão-de-bico cozido",
+      "colheres de sopa de tahine",
+      "Suco de 1 limão",
+      "dente de alho amassado",
+      "Salsinha picada",
+      "Sal e pimenta a gosto",
+      "g de batata doce em cubos",
+      "dentes de alho picados",
+      "Ramos de alecrim fresco",
+      "Azeite, sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Misture tahine, limão e alho até virar molho.",
+      "Adicione o grão-de-bico, salsinha, tempere e misture bem.",
+      "Sirva fresca ou em temperatura ambiente.",
+      "Misture batata, alho, alecrim, azeite, sal e pimenta.",
+      "Espalhe na assadeira e asse a 200°C por 35 minutos, mexendo na metade do tempo.",
+      "Sirva quente."
+    ],
+    "descricao": "O snack que é igual boleto: sempre aparece, mas pelo menos é gostoso",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "3 porções",
+    "dica": "Se a vida tá difícil, pelo menos a batata doce assada não te deixa na mão – nem seu estômago."
+  },
+  {
+    "id": 2011,
+    "titulo": "Cuscuz Marroquino com Legumes Assados",
+    "slug": "cuscuz-marroquino-com-legumes-assados",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "xícara de cuscuz marroquino",
+      "abobrinha picada",
+      "cenoura picada",
+      "/2 pimentão picado",
+      "colher de chá de cominho",
+      "Azeite, sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Tempere os legumes com azeite, cominho, sal e pimenta e asse a 200°C por 20 minutos.",
+      "Hidrate o cuscuz com água quente, tampe e deixe absorver.",
+      "Misture o cuscuz com os legumes assados e sirva."
+    ],
+    "descricao": "A desculpa perfeita pra usar especiarias e impressionar no almoço",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida te dá legumes, faça cuscuz – e se der drama, pelo menos o prato tá garantido."
+  },
+  {
+    "id": 2012,
+    "titulo": "Pão Sírio Recheado com Falafel e Molho de Tahine",
+    "slug": "pao-sirio-recheado-com-falafel-e-molho-de-tahine",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "xícaras de grão-de-bico deixado de molho por 12h",
+      "cebola picada",
+      "dentes de alho",
+      "colher de chá de cominho",
+      "Salsa picada",
+      "Sal e pimenta",
+      "Pães sírios",
+      "Molho tahine para acompanhar"
+    ],
+    "modoPreparo": [
+      "Processe grão-de-bico, cebola, alho, cominho, salsa, sal e pimenta até virar pasta grossa.",
+      "Modele bolinhos e frite até dourar.",
+      "Sirva nos pães com molho tahine."
+    ],
+    "descricao": "O lanche que vai salvar seu jantar e seu humor",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Se seu dia tá virando um falafel de problemas, pelo menos o lanche é crocante e cheio de sabor."
+  },
+  {
+    "id": 2013,
+    "titulo": "Creme de Abacate com Cacau e Melado",
+    "slug": "creme-de-abacate-com-cacau-e-melado",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "abacate maduro",
+      "colheres de sopa de cacau em pó",
+      "colher de sopa de melado de cana",
+      "colher de chá de essência de baunilha"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes até ficar cremoso.",
+      "Leve à geladeira por 30 minutos antes de servir."
+    ],
+    "descricao": "A sobremesa que é quase um pecado, mas sem culpa",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida é amarga, esse creme é o doce que você merece – e ainda saudável pra não sentir culpa."
+  },
+  {
+    "id": 2014,
+    "titulo": "Escondidinho de Mandioquinha com Lentilha",
+    "slug": "escondidinho-de-mandioquinha-com-lentilha",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "kg de mandioquinha cozida e amassada",
+      "xícaras de lentilha cozida",
+      "cebola picada",
+      "dentes de alho",
+      "Azeite, sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho, acrescente lentilha e tempere.",
+      "Coloque lentilha no fundo da assadeira, cubra com purê de mandioquinha.",
+      "Leve ao forno a 180°C por 25 minutos até dourar."
+    ],
+    "descricao": "O conforto em forma de comida que paga o aluguel da alma",
+    "tempo": "55 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 26,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida te esconde problemas, esconda também no purê – pelo menos o conforto é garantido."
+  },
+  {
+    "id": 2015,
+    "titulo": "Guacamole Rápido com Chips de Batata Doce",
+    "slug": "guacamole-rapido-com-chips-de-batata-doce",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "abacates maduros",
+      "Suco de 1 limão",
+      "tomate picado",
+      "/2 cebola picada",
+      "Sal e pimenta",
+      "batatas doces cortadas em fatias finas",
+      "Azeite"
+    ],
+    "modoPreparo": [
+      "Amasse o abacate, misture com limão, tomate, cebola, sal e pimenta.",
+      "Tempere as fatias de batata doce com azeite e asse a 200°C por 20 minutos.",
+      "Sirva guacamole com chips."
+    ],
+    "descricao": "O petisco que faz qualquer reunião em casa valer a pena",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "3 porções",
+    "dica": "Se a vida te dá abacate, faça guacamole – e se te dá preguiça, pelo menos tem chips crocantes."
+  },
+  {
+    "id": 2016,
+    "titulo": "Panini Vegetariano com Queijo e Pesto",
+    "slug": "panini-vegetariano-com-queijo-e-pesto",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "fatias de pão integral",
+      "g de queijo muçarela ou vegano",
+      "colheres de sopa de pesto de manjericão",
+      "tomate fatiado",
+      "Folhas de rúcula"
+    ],
+    "modoPreparo": [
+      "Monte os sanduíches com pesto, queijo, tomate e rúcula.",
+      "Leve à sanduicheira até o queijo derreter e o pão dourar.",
+      "Sirva quente."
+    ],
+    "descricao": "O sanduíche que vai te fazer esquecer o fast food por um dia",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida é rápida, esse panini é o abraço quente que você merece no intervalo."
+  },
+  {
+    "id": 2017,
+    "titulo": "Salada de Lentilha com Abacate e Tomate",
+    "slug": "salada-de-lentilha-com-abacate-e-tomate",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "xícaras de lentilha cozida",
+      "abacate em cubos",
+      "tomate grande picado",
+      "Suco de 1 limão",
+      "Azeite, sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Misture lentilha, abacate e tomate na tigela.",
+      "Tempere com limão, azeite, sal e pimenta.",
+      "Sirva fresca."
+    ],
+    "descricao": "A mistura que vai te fazer querer almoçar mais vezes em casa",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "3 porções",
+    "dica": "Se a vida tá meio sem tempero, essa salada é o tempero que faltava – e sem drama no prato."
+  },
+  {
+    "id": 2018,
+    "titulo": "Bolo de Cenoura Integral com Cobertura de Chocolate Vegana",
+    "slug": "bolo-de-cenoura-integral-com-cobertura-de-chocolate-vegana",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "cenouras médias",
+      "xícaras de farinha integral",
+      "/2 xícara de óleo vegetal",
+      "xícara de açúcar mascavo",
+      "colher de sopa de fermento em pó",
+      "g de chocolate vegano para cobertura",
+      "/2 xícara de leite vegetal"
+    ],
+    "modoPreparo": [
+      "Bata cenoura, óleo e leite no liquidificador.",
+      "Misture com farinha, açúcar e fermento.",
+      "Asse a 180°C por 35 minutos.",
+      "Derreta o chocolate, cubra o bolo depois de frio."
+    ],
+    "descricao": "Porque ninguém merece bolo sem chocolate na vida adulta",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 24,00",
+    "porcoes": "8 porções",
+    "dica": "Se a vida é amarga, esse bolo é a prova que dá pra adoçar – e sem culpa."
+  },
+  {
+    "id": 2019,
+    "titulo": "Espetinho de Legumes com Molho Chimichurri",
+    "slug": "espetinho-de-legumes-com-molho-chimichurri",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "abobrinha em cubos",
+      "pimentão vermelho em cubos",
+      "cebola roxa em pedaços",
+      "g de cogumelos",
+      "maço de salsinha",
+      "dentes de alho",
+      "/2 xícara de azeite",
+      "Vinagre, sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Monte os espetinhos alternando legumes.",
+      "Misture salsinha, alho, azeite, vinagre, sal e pimenta para o chimichurri.",
+      "Grelhe os espetinhos e sirva com o molho."
+    ],
+    "descricao": "O segredo pra parecer gourmet sem gastar horrores",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida não te dá churrasco, faça espetinho – pelo menos o sabor é garantido."
+  },
+  {
+    "id": 2020,
+    "titulo": "Panqueca Integral de Maçã com Canela",
+    "slug": "panqueca-integral-de-maca-com-canela",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "xícara de farinha integral",
+      "/2 xícara de leite vegetal",
+      "maçã ralada",
+      "ovo",
+      "colher de chá de canela",
+      "colher de sopa de mel"
+    ],
+    "modoPreparo": [
+      "Misture farinha, leite, ovo e canela.",
+      "Incorpore maçã ralada.",
+      "Cozinhe as panquecas até dourar dos dois lados."
+    ],
+    "descricao": "O café da manhã que vai fazer seu despertador pedir arrego",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Se o despertador te odeia, essa panqueca é o motivo pra você amar o café da manhã."
+  },
+  {
+    "id": 2021,
+    "titulo": "Feijoada Vegetariana com Tofu Defumado",
+    "slug": "feijoada-vegetariana-com-tofu-defumado",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "xícaras de feijão preto cozido",
+      "g de tofu defumado em cubos",
+      "cebola picada",
+      "dentes de alho",
+      "folha de louro",
+      "Sal, pimenta, cominho"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho, acrescente tofu e doure.",
+      "Junte feijão, louro e temperos, cozinhe por 30 minutos.",
+      "Ajuste temperos e sirva com arroz e couve refogada."
+    ],
+    "descricao": "O prato nacional que até o vegetariano mais raiz respeita",
+    "tempo": "60 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 35,00",
+    "porcoes": "6 porções",
+    "dica": "Se a vida te dá feijão, faça feijoada – porque chorar não paga aluguel, mas comida boa ajuda."
+  },
+  {
+    "id": 2022,
+    "titulo": "Creme de Ervilha com Hortelã e Limão",
+    "slug": "creme-de-ervilha-com-hortela-e-limao",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "g de ervilhas congeladas",
+      "cebola picada",
+      "dente de alho",
+      "Suco de 1 limão",
+      "Folhas de hortelã a gosto",
+      "Sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho, junte ervilhas e água até cobrir.",
+      "Cozinhe até as ervilhas amaciarem.",
+      "Bata com hortelã e limão, tempere e sirva."
+    ],
+    "descricao": "A sopa que refresca e esquenta ao mesmo tempo, igual seu chefe",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "4 porções",
+    "dica": "Se seu chefe é um misto de quente e frio, essa sopa é o equilíbrio que falta na sua vida."
+  },
+  {
+    "id": 2023,
+    "titulo": "Nhoque de Mandioca com Molho Cremoso de Castanha e Gengibre",
+    "slug": "nhoque-de-mandioca-com-molho-cremoso-de-castanha-e-gengibre",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "kg de mandioca cozida e espremida",
+      "colheres de sopa de farinha de arroz (ou outra farinha sem glúten)",
+      "colher de chá de sal",
+      "pitada de noz-moscada",
+      "xícara de castanhas de caju cruas, deixadas de molho por 4 horas",
+      "dente de alho",
+      "pedaço pequeno de gengibre fresco (cerca de 2 cm)",
+      "/2 xícara de água filtrada (para o molho)",
+      "Suco de meio limão",
+      "Azeite para dourar",
+      "Pimenta do reino a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a mandioca espremida com a farinha de arroz, o sal e a noz-moscada até formar uma massa que dê para enrolar. Se estiver pegajosa, coloque um pouco mais de farinha.",
+      "Faça rolinhos com a massa, corte em pedaços pequenos e modele os nhoques, apertando levemente com um garfo para criar as marquinhas clássicas. Reserve.",
+      "No processador, bata as castanhas escorridas, o alho, o gengibre, o suco de limão, a água e uma pitada de sal até formar um molho cremoso, parecido com um molho branco vegetal. Ajuste a água para a consistência desejada.",
+      "Cozinhe os nhoques em água fervente salgada até que subam à superfície (cerca de 2 minutos). Retire com escumadeira e escorra bem.",
+      "Em uma frigideira com um fio de azeite, doure os nhoques rapidamente para dar uma textura levemente crocante.",
+      "Sirva os nhoques regados com o molho cremoso de castanha e gengibre, finalizando com pimenta do reino moída na hora."
+    ],
+    "descricao": "Porque até a mandioca quer virar diva no prato – e com um molho que faz até quem odeia castanha pedir bis!",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$25,00",
+    "porcoes": "4",
+    "dica": "Se a mandioca fosse gente, estaria se achando a Beyoncé do prato. Mas cuidado: não tente namorar o molho de castanha e gengibre, porque ele é ciumento e intenso – igual seu crush no Tinder!"
+  },
+  {
+    "id": 2024,
+    "titulo": "Nhoque Crocante de Batata-Doce com Molho de Amendoim Picante",
+    "slug": "nhoque-crocante-de-batata-doce-com-molho-de-amendoim-picante",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "g de batata-doce",
+      "xícara de farinha de trigo integral (mais um pouco para polvilhar)",
+      "colher de chá de sal",
+      "/2 colher de chá de noz-moscada ralada",
+      "colheres de sopa de azeite de oliva",
+      "/2 xícara de pasta de amendoim natural",
+      "colher de sopa de molho de soja (shoyu)",
+      "colher de chá de melado ou açúcar mascavo",
+      "colher de chá de pimenta dedo-de-moça picada (sem sementes para menos drama)",
+      "Suco de 1 limão",
+      "Cebolinha picada para decorar"
+    ],
+    "modoPreparo": [
+      "Cozinhe as batatas-doces com casca em água fervente até ficarem macias (cerca de 20 minutos). Depois, descasque e amasse bem com um garfo ou espremedor.",
+      "Em uma tigela, misture a batata-doce amassada, o sal, a noz-moscada e a farinha integral aos poucos até formar uma massa que desgrude das mãos, mas sem endurecer demais.",
+      "Polvilhe farinha na bancada e faça rolinhos com a massa. Corte em pedaços pequenos formando os nhoques. Reserve.",
+      "Aqueça o azeite em uma frigideira antiaderente e frite os nhoques até ficarem douradinhos e crocantes, virando para dourar dos dois lados.",
+      "Em uma tigela, misture a pasta de amendoim, o molho de soja, o melado, a pimenta e o suco de limão até formar um molho cremoso. Se ficar muito grosso, adicione um pouco de água para ajustar.",
+      "Sirva os nhoques crocantes regados com o molho de amendoim picante e finalize com cebolinha picada por cima."
+    ],
+    "descricao": "Porque até vegetariano merece uma explosão de sabor que não dá vontade de chamar o delivery!",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "4",
+    "dica": ""
+  },
+  {
+    "id": 2025,
+    "titulo": "Bolinho Crocante de Jaca com Molho de Manga Apimentado",
+    "slug": "bolinho-crocante-de-jaca-com-molho-de-manga-apimentado",
+    "categoria": "Vegetariano ",
+    "ingredientes": [
+      "g de jaca verde desfiada",
+      "xícara de farinha de grão-de-bico",
+      "/2 xícara de farinha de rosca (pode ser integral)",
+      "cebola pequena picada finamente",
+      "dentes de alho amassados",
+      "colher de chá de páprica defumada",
+      "colher de chá de cominho em pó",
+      "Sal e pimenta-do-reino a gosto",
+      "Óleo para fritar",
+      "manga madura",
+      "pimenta dedo-de-moça sem sementes",
+      "Suco de 1 limão",
+      "colher de sopa de melado ou açúcar mascavo"
+    ],
+    "modoPreparo": [
+      "Em uma panela média, refogue a cebola e o alho até dourar. Acrescente a jaca desfiada, a páprica, o cominho, sal e pimenta. Cozinhe por 10 minutos até a jaca estar macia e com sabor incorporado.",
+      "Transfira a mistura para uma tigela grande, adicione a farinha de grão-de-bico e a farinha de rosca, misturando até formar uma massa consistente que dê para moldar bolinhos. Se necessário, ajuste a farinha para dar ponto.",
+      "Modele bolinhos pequenos e frite em óleo quente até dourar por igual. Reserve em papel absorvente.",
+      "Para o molho, bata no liquidificador a manga, a pimenta dedo-de-moça, o suco de limão e o melado até ficar cremoso e levemente picante.",
+      "Sirva os bolinhos quentes acompanhados do molho de manga apimentado."
+    ],
+    "descricao": "Porque até a jaca merece virar estrela do boteco vegetariano!",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "4",
+    "dica": "Se a jaca fosse gente, ia querer ser bolinho frito: crocante por fora, macia por dentro e causando paixão à primeira mordida — igual crush que só aparece na festa do amigo!"
+  }
+]

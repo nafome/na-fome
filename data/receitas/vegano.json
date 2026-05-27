@@ -1,0 +1,1126 @@
+[
+  {
+    "id": 1945,
+    "titulo": "Panquecas Proteicas de Aveia e Banana",
+    "slug": "panquecas-proteicas-de-aveia-e-banana",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "xícara de aveia em flocos",
+      "banana madura amassada",
+      "colher de sopa de farinha de linhaça dourada",
+      "colher de chá de fermento em pó",
+      "xícara de leite vegetal (amêndoas, soja ou aveia)",
+      "colher de chá de óleo de coco para untar"
+    ],
+    "modoPreparo": [
+      "Misture a aveia, a farinha de linhaça, o fermento e a banana amassada no bowl.",
+      "Adicione o leite vegetal aos poucos até formar uma massa cremosa.",
+      "Aqueça a frigideira, unte com óleo de coco e despeje porções da massa formando panquecas.",
+      "Cozinhe por 2-3 minutos de cada lado até dourar."
+    ],
+    "descricao": "Café da manhã que te dá energia pra fingir que vai malhar hoje",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Se a panqueca grudar, não se culpe – é só a vida adulta te lembrando que nada na vida é tão fácil quanto parecia no Instagram."
+  },
+  {
+    "id": 1946,
+    "titulo": "Almôndegas de Lentilha com Molho de Tomate Picante",
+    "slug": "almondegas-de-lentilha-com-molho-de-tomate-picante",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "xícaras de lentilha cozida e escorrida",
+      "cebola pequena picada",
+      "dentes de alho amassados",
+      "/2 xícara de farinha de rosca vegana",
+      "colher de chá de cominho em pó",
+      "ml de molho de tomate caseiro",
+      "pimenta dedo-de-moça picada (opcional)",
+      "Sal e pimenta a gosto",
+      "Azeite para cozinhar"
+    ],
+    "modoPreparo": [
+      "No processador, bata a lentilha, cebola, alho, cominho, sal e pimenta até virar uma pasta grossa.",
+      "Misture a farinha de rosca para dar liga e forme bolinhas.",
+      "Asse as almôndegas em forno pré-aquecido a 200ºC por 20 minutos, virando na metade.",
+      "Enquanto isso, aqueça o molho de tomate com a pimenta e regue as almôndegas antes de servir."
+    ],
+    "descricao": "Porque até vegano merece um abraço em forma de comida",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida te der lentilhas, faça almôndegas – porque nem só de boletos e reuniões vive o vegano!"
+  },
+  {
+    "id": 1947,
+    "titulo": "Salada de Quinoa com Abacate e Tomate Cereja",
+    "slug": "salada-de-quinoa-com-abacate-e-tomate-cereja",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "xícara de quinoa cozida",
+      "abacate maduro cortado em cubos",
+      "g de tomate cereja cortado ao meio",
+      "Suco de 1 limão",
+      "colheres de sopa de azeite de oliva",
+      "Sal e pimenta do reino a gosto",
+      "Folhas de hortelã para decorar"
+    ],
+    "modoPreparo": [
+      "Cozinhe a quinoa conforme instruções da embalagem e deixe esfriar.",
+      "Em uma tigela, misture a quinoa, o abacate, os tomates e tempere com limão, azeite, sal e pimenta.",
+      "Decore com hortelã e sirva imediatamente."
+    ],
+    "descricao": "A salada que é tão fresca quanto sua vontade de sair no domingo",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "3 porções",
+    "dica": "Se a vida te der abacate, faça essa salada – porque guacamole é delicioso, mas tem que ter vida social pra isso."
+  },
+  {
+    "id": 1948,
+    "titulo": "Curry de Grão-de-Bico com Leite de Coco",
+    "slug": "curry-de-grao-de-bico-com-leite-de-coco",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "xícaras de grão-de-bico cozido",
+      "cebola média picada",
+      "dentes de alho picados",
+      "colher de sopa de curry em pó",
+      "ml de leite de coco",
+      "tomate picado",
+      "colher de sopa de óleo de coco ou azeite",
+      "Sal a gosto",
+      "Coentro fresco para finalizar"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e o alho no óleo até ficarem transparentes.",
+      "Adicione o curry e mexa por 1 minuto para liberar o aroma.",
+      "Junte o tomate e o grão-de-bico, misture bem.",
+      "Acrescente o leite de coco, tempere com sal e deixe cozinhar em fogo baixo por 20 minutos.",
+      "Finalize com coentro fresco e sirva com arroz."
+    ],
+    "descricao": "Aquela receita que abraça sua alma enquanto o boleto abraça sua conta",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,50",
+    "porcoes": "4 porções",
+    "dica": "Se a vida está pegando fogo, pelo menos seu curry não precisa pegar – controle a pimenta, não a raiva."
+  },
+  {
+    "id": 1949,
+    "titulo": "Smoothie Verde Pós-Treino com Proteína de Ervilha",
+    "slug": "smoothie-verde-pos-treino-com-proteina-de-ervilha",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "banana congelada",
+      "xícara de espinafre fresco",
+      "colher de sopa de proteína de ervilha vegana",
+      "ml de leite de amêndoas",
+      "colher de chá de sementes de chia",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar homogêneo.",
+      "Sirva gelado e beba antes que o sofá te vença."
+    ],
+    "descricao": "Energia líquida pra quando o sofá te chama de volta",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "1 porção",
+    "dica": "Esse smoothie é como academia: você sabe que deve fazer, mas a vontade é de maratonar série."
+  },
+  {
+    "id": 1950,
+    "titulo": "Tofu Grelhado com Molho de Mostarda e Ervas",
+    "slug": "tofu-grelhado-com-molho-de-mostarda-e-ervas",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "g de tofu firme cortado em fatias",
+      "colheres de sopa de mostarda Dijon",
+      "colher de sopa de azeite de oliva",
+      "colher de chá de ervas finas secas",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o tofu com sal, pimenta e azeite.",
+      "Grelhe as fatias em frigideira quente até dourar dos dois lados.",
+      "Misture a mostarda com as ervas e sirva por cima do tofu grelhado."
+    ],
+    "descricao": "Porque até o tofu merece uma chance de brilhar na vida",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Se o tofu te parecer sem graça, lembre-se que até o boleto pode ser fatiado e ainda assim amedrontar."
+  },
+  {
+    "id": 1951,
+    "titulo": "Escondidinho de Mandioquinha com Cogumelos",
+    "slug": "escondidinho-de-mandioquinha-com-cogumelos",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "g de mandioquinha descascada e cortada",
+      "g de cogumelos frescos fatiados",
+      "cebola picada",
+      "dentes de alho amassados",
+      "ml de leite de coco",
+      "colheres de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a mandioquinha até ficar macia e amasse com leite de coco até virar purê.",
+      "Refogue cebola, alho e cogumelos no azeite até dourar, tempere com sal e pimenta.",
+      "Em um refratário, coloque o refogado, cubra com o purê e leve ao forno a 180ºC por 20 minutos."
+    ],
+    "descricao": "Aquela comfort food que te abraça mais que seu crush no WhatsApp",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "4 porções",
+    "dica": "Se sua vida está uma bagunça, pelo menos seu escondidinho pode ser organizado – e delicioso!"
+  },
+  {
+    "id": 1952,
+    "titulo": "Wrap de Alface com Homus e Legumes Crocantes",
+    "slug": "wrap-de-alface-com-homus-e-legumes-crocantes",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "folhas grandes de alface americana",
+      "/2 xícara de homus pronto",
+      "cenoura ralada",
+      "pepino fatiado em tiras finas",
+      "/2 pimentão vermelho fatiado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Lave e seque as folhas de alface.",
+      "Espalhe homus em cada folha, recheie com os legumes e tempere.",
+      "Enrole as folhas como wrap e sirva imediatamente."
+    ],
+    "descricao": "Pra quem quer ser saudável, mas não abre mão do crunch no meio da vida",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida é enrolada, pelo menos seu wrap não precisa ser – e ainda te dá crédito saudável."
+  },
+  {
+    "id": 1953,
+    "titulo": "Moqueca Vegana de Banana da Terra",
+    "slug": "moqueca-vegana-de-banana-da-terra",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "bananas da terra maduras cortadas em rodelas",
+      "cebola grande fatiada",
+      "tomates maduros picados",
+      "pimentão verde fatiado",
+      "ml de leite de coco",
+      "colheres de sopa de azeite de dendê",
+      "Coentro fresco picado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola, o pimentão e os tomates no azeite de dendê até amolecerem.",
+      "Acrescente as bananas, o leite de coco, sal e pimenta e cozinhe em fogo médio por 20 minutos.",
+      "Finalize com coentro e sirva com arroz branco."
+    ],
+    "descricao": "O sabor do Brasil que te faz esquecer que o boleto chegou",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida está amarga, pelo menos a moqueca pode ser doce – e cheia de dendê para dar aquele sabor de vitória."
+  },
+  {
+    "id": 1954,
+    "titulo": "Bolinho de Grão-de-Bico com Hortelã",
+    "slug": "bolinho-de-grao-de-bico-com-hortela",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "xícaras de grão-de-bico cozido",
+      "cebola pequena",
+      "dentes de alho",
+      "punhado de hortelã fresca",
+      "/2 xícara de farinha de trigo integral",
+      "Sal e pimenta a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Bata o grão-de-bico, cebola, alho e hortelã no processador até formar uma massa grossa.",
+      "Misture a farinha, tempere e modele bolinhos.",
+      "Frite em óleo quente até dourar, escorra no papel absorvente e sirva."
+    ],
+    "descricao": "Crocância que faz você esquecer que segunda-feira existe",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "3 porções (15 bolinhos)",
+    "dica": "Se a vida te der bolinhos, faça festa – porque segunda-feira já tem drama demais."
+  },
+  {
+    "id": 1955,
+    "titulo": "Risoto Cremoso de Cogumelos Selvagens",
+    "slug": "risoto-cremoso-de-cogumelos-selvagens",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "xícaras de arroz arbóreo",
+      "g de mix de cogumelos selvagens fatiados",
+      "cebola picada",
+      "dente de alho picado",
+      "litro de caldo de legumes quente",
+      "/2 xícara de vinho branco seco (opcional)",
+      "colheres de sopa de azeite",
+      "Sal e pimenta a gosto",
+      "Salsinha picada para decorar"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e o alho no azeite até dourar.",
+      "Adicione os cogumelos e cozinhe até amolecerem.",
+      "Junte o arroz e mexa por 2 minutos.",
+      "Se usar, adicione o vinho e deixe evaporar.",
+      "Vá adicionando o caldo quente concha a concha, mexendo sempre, até o arroz ficar cremoso e al dente.",
+      "Tempere e decore com salsinha antes de servir."
+    ],
+    "descricao": "Sofisticação pra impressionar até seu crush do Tinder (ou o gato)",
+    "tempo": "50 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Risoto é como relacionamento sério: requer paciência, mexer com cuidado e sempre estar pronto pra dar aquela atenção."
+  },
+  {
+    "id": 1956,
+    "titulo": "Bolo de Cenoura com Cobertura de Chocolate Vegano",
+    "slug": "bolo-de-cenoura-com-cobertura-de-chocolate-vegano",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "cenouras médias raladas",
+      "xícaras de farinha de trigo integral",
+      "xícara de açúcar mascavo",
+      "/2 xícara de óleo vegetal",
+      "xícara de leite vegetal",
+      "colher de sopa de fermento em pó",
+      "g de chocolate vegano para cobertura",
+      "colher de sopa de óleo de coco para a cobertura"
+    ],
+    "modoPreparo": [
+      "Bata no liquidificador as cenouras, óleo e leite até homogeneizar.",
+      "Misture os secos em uma tigela e junte a mistura líquida, mexendo até ficar uniforme.",
+      "Adicione o fermento por último e misture delicadamente.",
+      "Asse em forma untada a 180°C por 40 minutos.",
+      "Derreta o chocolate com óleo de coco e espalhe sobre o bolo frio."
+    ],
+    "descricao": "Adoça a vida melhor que mensagem de ex que não volta mais",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "8 porções",
+    "dica": "Se a vida te der cenouras, faça bolo – pelo menos essa doçura não some depois de 3 dias."
+  },
+  {
+    "id": 1957,
+    "titulo": "Espaguete de Abobrinha ao Pesto de Manjericão",
+    "slug": "espaguete-de-abobrinha-ao-pesto-de-manjericao",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "abobrinhas médias cortadas em espaguete",
+      "maço de manjericão fresco",
+      "/4 xícara de castanhas de caju",
+      "dentes de alho",
+      "/4 xícara de azeite de oliva",
+      "Sal a gosto",
+      "Tomate seco para decorar (opcional)"
+    ],
+    "modoPreparo": [
+      "Bata no processador o manjericão, castanhas, alho, azeite e sal até formar pesto.",
+      "Refogue o espaguete de abobrinha por 2-3 minutos no azeite até ficar al dente.",
+      "Misture o pesto ao espaguete e decore com tomate seco."
+    ],
+    "descricao": "Pra enganar a fome e fingir que tá na dieta (sem sofrimento)",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Abobrinha no prato é tipo desculpa pra não ir na festa – convence, mas todo mundo sabe que você queria mesmo é pizza."
+  },
+  {
+    "id": 1958,
+    "titulo": "Feijoada Vegana com Tofu Defumado e Couve Refogada",
+    "slug": "feijoada-vegana-com-tofu-defumado-e-couve-refogada",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "xícaras de feijão preto",
+      "g de tofu defumado em cubos",
+      "cebola grande picada",
+      "dentes de alho picados",
+      "folha de louro",
+      "maço de couve fatiada",
+      "colheres de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Deixe o feijão de molho por 8 horas e cozinhe na panela de pressão com louro até ficar macio.",
+      "Refogue o tofu, cebola e alho no azeite até dourar.",
+      "Misture o tofu ao feijão cozido, ajuste o sal e pimenta.",
+      "Refogue a couve separadamente com um pouco de alho e azeite.",
+      "Sirva a feijoada com couve refogada."
+    ],
+    "descricao": "O clássico que prova que não precisa de carne pra dar samba no estômago",
+    "tempo": "90 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 40,00",
+    "porcoes": "6 porções",
+    "dica": "Se sua vida tá mais enrolada que feijão na panela, pelo menos o sabor tá garantido."
+  },
+  {
+    "id": 1959,
+    "titulo": "Hambúrguer de Grão-de-Bico e Beterraba",
+    "slug": "hamburguer-de-grao-de-bico-e-beterraba",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "xícaras de grão-de-bico cozido",
+      "beterraba média ralada",
+      "/2 cebola picada",
+      "/2 xícara de farinha de aveia",
+      "colher de chá de cominho",
+      "Sal e pimenta a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Bata o grão-de-bico no processador até formar uma pasta.",
+      "Misture com beterraba, cebola, farinha, cominho, sal e pimenta.",
+      "Modele hambúrgueres e frite em óleo quente até dourar dos dois lados."
+    ],
+    "descricao": "Pra quem quer hambúrguer, mas não quer culpa (nem carne)",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "4 hambúrgueres",
+    "dica": "Se a vida te der beterraba, faça hambúrguer – é a desculpa perfeita pra fugir da carne e ainda impressionar."
+  },
+  {
+    "id": 1960,
+    "titulo": "Panqueca de Grão-de-Bico com Recheio de Espinafre e Tofu",
+    "slug": "panqueca-de-grao-de-bico-com-recheio-de-espinafre-e-tofu",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "xícara de farinha de grão-de-bico",
+      "xícara de água",
+      "Sal a gosto",
+      "g de espinafre fresco",
+      "g de tofu firme esfarelado",
+      "dente de alho picado",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Misture a farinha de grão-de-bico, água e sal até formar massa líquida.",
+      "Refogue o alho e o espinafre no azeite, misture o tofu e tempere.",
+      "Faça panquecas na frigideira, recheie com a mistura de espinafre e tofu, dobre e sirva."
+    ],
+    "descricao": "A panqueca que não te deixa na mão quando o estômago grita \"socorro\"",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "3 porções",
+    "dica": "Panqueca de grão-de-bico é tipo aquele amigo que nunca te deixa na mão – resistente e versátil."
+  },
+  {
+    "id": 1961,
+    "titulo": "Sopa Detox de Abóbora com Gengibre",
+    "slug": "sopa-detox-de-abobora-com-gengibre",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "g de abóbora picada",
+      "cebola picada",
+      "dentes de alho amassados",
+      "pedaço de gengibre (3 cm) ralado",
+      "litro de água",
+      "Sal e pimenta a gosto",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola, alho e gengibre no azeite até dourar.",
+      "Adicione a abóbora e a água, cozinhe até amolecer.",
+      "Bata tudo no liquidificador até ficar cremoso, ajuste o sal e pimenta.",
+      "Sirva quente."
+    ],
+    "descricao": "Pra limpar a alma enquanto a vida só suja com boletos",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Sopa detox é como promessa de Ano Novo: todo mundo faz, mas a vida insiste em sujar tudo de novo."
+  },
+  {
+    "id": 1962,
+    "titulo": "Tacos Veganos de Jaca Desfiada",
+    "slug": "tacos-veganos-de-jaca-desfiada",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "g de jaca verde cozida e desfiada",
+      "cebola picada",
+      "dentes de alho picados",
+      "colher de chá de páprica defumada",
+      "colher de chá de cominho",
+      "Tortillas de milho para servir",
+      "Coentro e limão para acompanhar",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no azeite, adicione a jaca e os temperos.",
+      "Cozinhe por 20 minutos, mexendo para incorporar sabor.",
+      "Sirva a jaca desfiada nas tortillas com coentro e limão."
+    ],
+    "descricao": "A jaca que te engana melhor que conversa de vendedor de carro",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida te dá jaca, faça tacos – porque disfarçar é uma arte que todo vegano domina."
+  },
+  {
+    "id": 1963,
+    "titulo": "Ceviche Vegano de Palmito com Manga",
+    "slug": "ceviche-vegano-de-palmito-com-manga",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "g de palmito picado em cubos",
+      "manga madura em cubos",
+      "Suco de 2 limões",
+      "/2 cebola roxa fatiada finamente",
+      "Coentro picado a gosto",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o palmito, manga, cebola e coentro na tigela.",
+      "Regue com suco de limão, tempere e deixe marinar por 15 minutos.",
+      "Sirva gelado."
+    ],
+    "descricao": "Pra quem quer sabor de praia, mas só tem a vida seca do escritório",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "3 porções",
+    "dica": "Ceviche vegano é como férias: refrescante, inesperado e você finge que está longe do chefe."
+  },
+  {
+    "id": 1964,
+    "titulo": "Panetone Vegano com Frutas Secas",
+    "slug": "panetone-vegano-com-frutas-secas",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "xícaras de farinha de trigo",
+      "xícara de açúcar mascavo",
+      "xícara de leite vegetal morno",
+      "colher de sopa de fermento biológico seco",
+      "/2 xícara de óleo vegetal",
+      "pitada de sal",
+      "xícara de frutas secas (uva passa, damasco, cranberry)",
+      "colher de chá de essência de baunilha"
+    ],
+    "modoPreparo": [
+      "Ative o fermento no leite morno com uma colher de açúcar por 10 minutos.",
+      "Misture farinha, açúcar, sal, óleo e essência, adicione o fermento ativado e sove a massa.",
+      "Incorpore as frutas secas e deixe crescer por 1 hora.",
+      "Modele e coloque na forma, deixe crescer mais 30 minutos.",
+      "Asse a 180ºC por 40 minutos."
+    ],
+    "descricao": "Natal antecipado pra enganar a tristeza dos boletos do fim de ano",
+    "tempo": "120 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 45,00",
+    "porcoes": "10 porções",
+    "dica": "Fazer panetone em casa é como criar filho: demora, dá trabalho, mas a recompensa vale a pena (e você não troca por boletos)."
+  },
+  {
+    "id": 1965,
+    "titulo": "Pizza Vegana com Queijo de Castanha de Caju",
+    "slug": "pizza-vegana-com-queijo-de-castanha-de-caju",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "xícaras de farinha de trigo",
+      "colher de chá de fermento biológico seco",
+      "/4 xícara de água morna",
+      "/4 xícara de azeite",
+      "Sal a gosto",
+      "xícara de castanha de caju hidratada",
+      "Suco de 1 limão",
+      "dente de alho",
+      "Levedura nutricional a gosto",
+      "Molho de tomate caseiro",
+      "Legumes para cobertura (tomate, pimentão, cebola)"
+    ],
+    "modoPreparo": [
+      "Prepare a massa misturando farinha, fermento, água, azeite e sal, deixando crescer 1 hora.",
+      "Triture a castanha com limão, alho, água e levedura até formar um creme tipo \"queijo\".",
+      "Abra a massa, espalhe molho, o queijo vegano e os legumes.",
+      "Asse a 220ºC por 20 minutos."
+    ],
+    "descricao": "Porque pizza sem queijo é quase um relacionamento sem beijo",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Pizza vegana é tipo aquele crush que surpreende – você não espera, mas se apaixona rápido."
+  },
+  {
+    "id": 1966,
+    "titulo": "Mousse de Chocolate com Abacate",
+    "slug": "mousse-de-chocolate-com-abacate",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "abacates maduros",
+      "/2 xícara de cacau em pó",
+      "/4 xícara de xarope de agave ou maple",
+      "colher de chá de essência de baunilha",
+      "Pitada de sal"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar cremoso.",
+      "Leve à geladeira por pelo menos 1 hora antes de servir."
+    ],
+    "descricao": "Sobremesa que engana até seu cérebro e não sua consciência",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Mousse de abacate é como felicidade: tem que estar escondidinha pra você se surpreender quando encontra."
+  },
+  {
+    "id": 1967,
+    "titulo": "Sanduíche de Berinjela Empanada com Maionese de Alho",
+    "slug": "sanduiche-de-berinjela-empanada-com-maionese-de-alho",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "berinjela cortada em fatias grossas",
+      "xícara de farinha de trigo",
+      "/2 xícara de leite vegetal",
+      "xícara de farinha de rosca",
+      "dentes de alho",
+      "/2 xícara de maionese vegana pronta",
+      "Sal e pimenta a gosto",
+      "Pão integral para servir"
+    ],
+    "modoPreparo": [
+      "Tempere as fatias de berinjela com sal e pimenta.",
+      "Passe na farinha, depois no leite vegetal e por último na farinha de rosca.",
+      "Frite as fatias até dourar e escorra em papel absorvente.",
+      "Misture o alho amassado com a maionese vegana.",
+      "Monte o sanduíche com berinjela e maionese."
+    ],
+    "descricao": "Crunch que salva qualquer lanche da mesmice e da TPM",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "2 porções",
+    "dica": "Sanduíche é tipo amizade verdadeira: precisa de crocância e tempero na medida certa pra durar."
+  },
+  {
+    "id": 1968,
+    "titulo": "Bolinho de Chuva Vegano com Açúcar e Canela",
+    "slug": "bolinho-de-chuva-vegano-com-acucar-e-canela",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "/2 xícara de açúcar",
+      "/2 xícara de leite vegetal",
+      "colher de sopa de fermento em pó",
+      "colher de chá de canela em pó",
+      "Óleo para fritar",
+      "Açúcar com canela para polvilhar"
+    ],
+    "modoPreparo": [
+      "Misture farinha, açúcar, fermento e canela.",
+      "Adicione o leite vegetal até formar uma massa grossa.",
+      "Frite colheradas em óleo quente até dourar.",
+      "Escorra e passe no açúcar com canela."
+    ],
+    "descricao": "Nostalgia que não pesa na consciência – só na cintura mesmo",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "4 porções",
+    "dica": "Bolinho de chuva é como chuva de boleto: inevitável, mas pelo menos um é gostoso."
+  },
+  {
+    "id": 1969,
+    "titulo": "Tabule com Trigo para Quibe e Hortelã",
+    "slug": "tabule-com-trigo-para-quibe-e-hortela",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "xícara de trigo para quibe hidratado",
+      "tomates picados",
+      "pepino picado",
+      "cebola pequena picada",
+      "punhado de hortelã picada",
+      "Suco de 2 limões",
+      "colheres de sopa de azeite",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes na tigela.",
+      "Tempere com limão, azeite e sal.",
+      "Sirva gelado."
+    ],
+    "descricao": "Salada que é quase um convite pra festa no corpo e na alma",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Tabule é como crush no WhatsApp: refrescante, leve e cheio de esperança."
+  },
+  {
+    "id": 1970,
+    "titulo": "Pão de Queijo Vegano de Mandioquinha",
+    "slug": "pao-de-queijo-vegano-de-mandioquinha",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "g de polvilho doce",
+      "g de mandioquinha cozida e amassada",
+      "/2 xícara de leite vegetal",
+      "/4 xícara de óleo vegetal",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a mandioquinha com o polvilho e o sal.",
+      "Aqueça o leite vegetal com o óleo e despeje sobre a mistura, mexendo até formar uma massa.",
+      "Modele bolinhas e asse a 180ºC por 25 minutos."
+    ],
+    "descricao": "Aquele clássico mineiro que virou vegano e conquistou o Brasil",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "15 unidades",
+    "dica": "Pão de queijo vegano é a prova que até saudade pode ser reinventada – e sem lactose."
+  },
+  {
+    "id": 1971,
+    "titulo": "Lasanha de Berinjela com Tofu e Espinafre",
+    "slug": "lasanha-de-berinjela-com-tofu-e-espinafre",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "berinjelas fatiadas longitudinalmente",
+      "g de tofu amassado",
+      "xícaras de espinafre refogado",
+      "xícaras de molho de tomate",
+      "dentes de alho picados",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Grelhe as fatias de berinjela até ficarem macias.",
+      "Misture o tofu com o espinafre, alho, sal e pimenta.",
+      "Monte camadas na assadeira: molho, berinjela, recheio, repetindo.",
+      "Finalize com molho e asse a 180ºC por 30 minutos."
+    ],
+    "descricao": "Jantar pra impressionar até a sogra que acha que vegano só come alface",
+    "tempo": "60 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 35,00",
+    "porcoes": "6 porções",
+    "dica": "Lasanha vegana é tipo papo com sogra: precisa de camadas e paciência, mas no final vale a pena."
+  },
+  {
+    "id": 1972,
+    "titulo": "Crepioca Vegana de Espinafre e Tomate Seco",
+    "slug": "crepioca-vegana-de-espinafre-e-tomate-seco",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "colheres de sopa de farinha de grão-de-bico",
+      "/2 xícara de água",
+      "/2 xícara de espinafre picado",
+      "tomates secos picados",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a goma, farinha e a água até formar uma massa líquida.",
+      "Acrescente o espinafre e os tomates, tempere.",
+      "Despeje a massa na frigideira quente e cozinhe até firmar dos dois lados."
+    ],
+    "descricao": "Café da manhã pra quem quer praticidade, sabor e não falir o mês",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Crepioca é a prova que dá pra ser rápido, gostoso e saudável – ao contrário da conta de luz."
+  },
+  {
+    "id": 1973,
+    "titulo": "Cuscuz Marroquino com Legumes e Amêndoas",
+    "slug": "cuscuz-marroquino-com-legumes-e-amendoas",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "xícara de cuscuz marroquino",
+      "xícara de água fervente",
+      "cenoura picada",
+      "abobrinha picada",
+      "/4 xícara de amêndoas laminadas",
+      "colheres de sopa de azeite",
+      "Sal, pimenta e salsinha a gosto"
+    ],
+    "modoPreparo": [
+      "Hidrate o cuscuz na água fervente coberto por 5 minutos.",
+      "Refogue os legumes no azeite até ficarem macios.",
+      "Misture o cuscuz com os legumes, tempere e salpique amêndoas e salsinha."
+    ],
+    "descricao": "O prato que te faz parecer que viajou, mesmo se só saiu do sofá",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Cuscuz é como férias na cabeça: você não foi, mas pelo menos comeu bem."
+  },
+  {
+    "id": 1974,
+    "titulo": "Brigadeiro Vegano de Cacau e Leite de Coco",
+    "slug": "brigadeiro-vegano-de-cacau-e-leite-de-coco",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "lata de leite de coco (400ml)",
+      "colheres de sopa de cacau em pó",
+      "colheres de sopa de açúcar mascavo",
+      "colher de sopa de óleo de coco",
+      "Chocolate granulado vegano para enrolar"
+    ],
+    "modoPreparo": [
+      "Misture o leite de coco, cacau e açúcar na panela.",
+      "Cozinhe em fogo médio, mexendo sempre até desgrudar do fundo.",
+      "Deixe esfriar, enrole os brigadeiros e passe no granulado."
+    ],
+    "descricao": "Aquele docinho que salva a autoestima em dia ruim (e o bolso também)",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "20 brigadeiros",
+    "dica": "Brigadeiro vegano é o melhor tipo de amor: doce, simples e que não te deixa na mão."
+  },
+  {
+    "id": 1975,
+    "titulo": "Salpicão Vegano com Maionese de Castanha de Caju",
+    "slug": "salpicao-vegano-com-maionese-de-castanha-de-caju",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "cenoura ralada",
+      "maçã verde picada",
+      "/2 xícara de ervilhas cozidas",
+      "/2 xícara de milho verde",
+      "/2 xícara de uva passa",
+      "xícara de maionese vegana de castanha de caju",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes numa tigela.",
+      "Tempere com sal e pimenta e incorpore a maionese.",
+      "Leve à geladeira por 30 minutos antes de servir."
+    ],
+    "descricao": "A salada que faz qualquer reunião de família menos traumática",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "6 porções",
+    "dica": "Salpicão é a prova de que reunião de família pode ser doce – pelo menos no prato."
+  },
+  {
+    "id": 1976,
+    "titulo": "Batata Doce Assada com Alecrim e Alho",
+    "slug": "batata-doce-assada-com-alecrim-e-alho",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "batatas doces médias cortadas em cubos",
+      "dentes de alho picados",
+      "ramos de alecrim fresco",
+      "colheres de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a batata com alho, alecrim, azeite, sal e pimenta.",
+      "Espalhe na assadeira e asse a 200ºC por 35 minutos, mexendo na metade do tempo."
+    ],
+    "descricao": "O carboidrato que te abraça e não te cobra nada depois",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "3 porções",
+    "dica": "Batata doce assada é tipo domingo: simples, aconchegante e a gente sempre quer repetir."
+  },
+  {
+    "id": 1977,
+    "titulo": "Creme de Amendoim com Banana e Granola",
+    "slug": "creme-de-amendoim-com-banana-e-granola",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "colheres de sopa de creme de amendoim natural",
+      "banana fatiada",
+      "colheres de sopa de granola vegana"
+    ],
+    "modoPreparo": [
+      "Em uma tigela, espalhe o creme de amendoim.",
+      "Cubra com banana fatiada e salpique granola por cima."
+    ],
+    "descricao": "Café da manhã pra quem quer energia e não desculpas esfarrapadas",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "1 porção",
+    "dica": "Creme de amendoim é tipo motivação: você sabe que precisa, mas só funciona se fizer o esforço."
+  },
+  {
+    "id": 1978,
+    "titulo": "Quiche Vegana de Alho-Poró com Massa Integral",
+    "slug": "quiche-vegana-de-alho-poro-com-massa-integral",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "/2 xícara de farinha de trigo integral",
+      "/2 xícara de óleo vegetal",
+      "/4 xícara de água gelada",
+      "alhos-porós fatiados",
+      "g de tofu firme amassado",
+      "/4 xícara de leite vegetal",
+      "Sal, pimenta e noz-moscada a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a farinha, óleo e água até formar massa, leve à geladeira 30 minutos.",
+      "Refogue o alho-poró até amaciar.",
+      "Misture o tofu, leite, alho-poró e temperos.",
+      "Abra a massa na forma, despeje o recheio e asse a 180ºC por 30 minutos."
+    ],
+    "descricao": "Jantar sofisticado que não exige diploma de chef nem paciência de monge",
+    "tempo": "60 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 38,00",
+    "porcoes": "6 porções",
+    "dica": "Quiche vegana é tipo vida adulta: precisa de preparo, mas no final é só sucesso."
+  },
+  {
+    "id": 1979,
+    "titulo": "Bolo de Chocolate com Beterraba e Café",
+    "slug": "bolo-de-chocolate-com-beterraba-e-cafe",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "beterrabas médias cozidas e picadas",
+      "xícara de açúcar mascavo",
+      "/2 xícara de óleo vegetal",
+      "xícara de café forte coado",
+      "xícaras de farinha de trigo",
+      "/2 xícara de cacau em pó",
+      "colher de sopa de fermento em pó",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Bata no liquidificador beterraba, açúcar, óleo e café até homogeneizar.",
+      "Misture os secos numa tigela e incorpore a mistura líquida.",
+      "Adicione fermento, misture e asse a 180ºC por 35 minutos."
+    ],
+    "descricao": "A combinação que acorda seu paladar e entorpece seu cansaço",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "8 porções",
+    "dica": "Bolo de beterraba com café é a desculpa perfeita pra devorar doce e fingir que tá saudável."
+  },
+  {
+    "id": 1980,
+    "titulo": "Panqueca de Banana com Farinha de Amêndoas",
+    "slug": "panqueca-de-banana-com-farinha-de-amendoas",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "banana madura amassada",
+      "ovos veganos (linhaça + água)",
+      "/2 xícara de farinha de amêndoas",
+      "colher de chá de fermento em pó",
+      "Canela a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a banana, ovos veganos, farinha, fermento e canela.",
+      "Despeje porções na frigideira quente e cozinhe até dourar dos dois lados."
+    ],
+    "descricao": "O café da manhã que te faz esquecer que o snooze existe",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Panqueca de banana é como soneca: melhor quando é rápida, doce e sem culpa."
+  },
+  {
+    "id": 1981,
+    "titulo": "Espetinho Vegano de Legumes com Molho Barbecue Caseiro",
+    "slug": "espetinho-vegano-de-legumes-com-molho-barbecue-caseiro",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "abobrinha fatiada",
+      "pimentão vermelho cortado em cubos",
+      "cebola roxa em pedaços",
+      "g de cogumelos inteiros",
+      "xícara de molho barbecue vegano (caseiro ou comprado)",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Monte os espetinhos intercalando os legumes.",
+      "Tempere com sal e pimenta.",
+      "Grelhe os espetinhos até dourar.",
+      "Aqueça o molho barbecue e pincele nos espetinhos antes de servir."
+    ],
+    "descricao": "Porque até churrasco pode ser vegano e sem crise de consciência",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Espetinho vegano é o jeito mais fácil de dizer “foco na saúde” sem perder o sabor – nem o churrasco."
+  },
+  {
+    "id": 1982,
+    "titulo": "Pamonha Vegana Doce com Coco e Açúcar Mascavo",
+    "slug": "pamonha-vegana-doce-com-coco-e-acucar-mascavo",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "espigas de milho verde ralado",
+      "xícara de leite de coco",
+      "/2 xícara de açúcar mascavo",
+      "/2 xícara de coco ralado fresco",
+      "Folhas de milho para embrulhar",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o milho ralado com leite de coco, açúcar, coco ralado e uma pitada de sal.",
+      "Envolva a mistura nas folhas de milho formando pacotinhos.",
+      "Cozinhe os pacotinhos em água fervente por 60 minutos."
+    ],
+    "descricao": "A prova de que tradição e veganismo podem dançar juntos no mesmo forró",
+    "tempo": "90 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 30,00",
+    "porcoes": "6 porções",
+    "dica": "Pamonha vegana é tipo festa junina da vida: cheia de sabor e cheia de histórias pra contar."
+  },
+  {
+    "id": 1983,
+    "titulo": "Hambúrguer de Feijão Preto com Aveia",
+    "slug": "hamburguer-de-feijao-preto-com-aveia",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "xícaras de feijão preto cozido",
+      "/2 xícara de aveia em flocos",
+      "cebola pequena picada",
+      "dentes de alho amassados",
+      "colher de chá de cominho",
+      "Sal e pimenta a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Bata o feijão no processador até virar uma pasta.",
+      "Misture com aveia, cebola, alho, cominho, sal e pimenta.",
+      "Modele hambúrgueres e frite até dourar."
+    ],
+    "descricao": "Pra quem quer proteína e sabor sem drama nem fila de fast-food",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "4 hambúrgueres",
+    "dica": "Hambúrguer vegano é como resposta rápida no WhatsApp: eficiente e te deixa satisfeito."
+  },
+  {
+    "id": 1984,
+    "titulo": "Panqueca Americana Vegana com Maple Syrup e Frutas",
+    "slug": "panqueca-americana-vegana-com-maple-syrup-e-frutas",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "colher de sopa de açúcar",
+      "colher de chá de fermento em pó",
+      "xícara de leite vegetal",
+      "colher de sopa de óleo vegetal",
+      "Frutas frescas a gosto",
+      "Maple syrup para servir"
+    ],
+    "modoPreparo": [
+      "Misture os ingredientes secos e depois adicione o leite e óleo até formar massa.",
+      "Cozinhe porções na frigideira quente até borbulhar, vire e doure do outro lado.",
+      "Sirva com frutas e maple syrup."
+    ],
+    "descricao": "Pra começar o dia como se fosse sábado, mesmo sendo terça-feira",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "3 porções",
+    "dica": "Panqueca americana é a desculpa perfeita pra esquecer a dieta e lembrar que vida é feita de pequenos prazeres."
+  },
+  {
+    "id": 1985,
+    "titulo": "Moqueca de Palmito com Pimentões Coloridos",
+    "slug": "moqueca-de-palmito-com-pimentoes-coloridos",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "g de palmito cortado em rodelas",
+      "cebola média fatiada",
+      "pimentão vermelho em tiras",
+      "pimentão amarelo em tiras",
+      "tomates picados",
+      "ml de leite de coco",
+      "colheres de sopa de azeite de dendê",
+      "Coentro fresco picado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, pimentões e tomates no azeite de dendê até amolecerem.",
+      "Adicione o palmito, leite de coco, sal e pimenta.",
+      "Cozinhe em fogo baixo por 20 minutos.",
+      "Finalize com coentro e sirva com arroz branco."
+    ],
+    "descricao": "O sabor do litoral brasileiro sem precisar enfrentar trânsito ou fila",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 32,00",
+    "porcoes": "4 porções",
+    "dica": "Moqueca vegana é a prova que você pode ter sabor e consciência – e ainda escapar do trânsito."
+  },
+  {
+    "id": 1986,
+    "titulo": "Pudim Vegano de Chia com Leite de Amêndoas e Frutas Vermelhas",
+    "slug": "pudim-vegano-de-chia-com-leite-de-amendoas-e-frutas-vermelhas",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "/2 xícara de sementes de chia",
+      "xícaras de leite de amêndoas",
+      "colheres de sopa de xarope de agave",
+      "Frutas vermelhas para decorar"
+    ],
+    "modoPreparo": [
+      "Misture as sementes de chia, leite de amêndoas e xarope.",
+      "Deixe na geladeira por pelo menos 6 horas ou durante a noite.",
+      "Sirva com frutas vermelhas por cima."
+    ],
+    "descricao": "Doce que hidrata, alimenta e ainda finge que é saudável",
+    "tempo": "6 horas (geladeira)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Pudim de chia é como promessa de dieta: precisa de tempo e paciência, mas no final vale a pena."
+  },
+  {
+    "id": 1987,
+    "titulo": "Creme de Abacate com Lima e Hortelã",
+    "slug": "creme-de-abacate-com-lima-e-hortela",
+    "categoria": "Vegano ",
+    "ingredientes": [
+      "abacates maduros",
+      "Suco de 2 limas",
+      "Folhas de hortelã a gosto",
+      "colheres de sopa de açúcar de coco"
+    ],
+    "modoPreparo": [
+      "Bata tudo no liquidificador até ficar cremoso.",
+      "Sirva gelado decorado com hortelã."
+    ],
+    "descricao": "Sobremesa rápida pra quem quer refrescar e não complicar a vida",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "3 porções",
+    "dica": "Esse creme é tipo feriado: rápido, refrescante e deixa todo mundo feliz."
+  }
+]

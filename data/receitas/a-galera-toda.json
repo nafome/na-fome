@@ -1,0 +1,961 @@
+[
+  {
+    "id": 1,
+    "titulo": "Pizza de Frigideira Express – Porque ninguém tem tempo pra forno nem pra vida",
+    "slug": "pizza-de-frigideira-express-porque-ninguem-tem-tempo-pra-forno-nem-pra-vida",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "/3 xícara de água morna",
+      "colher de sopa de azeite",
+      "pitada de sal",
+      "g de molho de tomate pronto",
+      "g de queijo muçarela ralado",
+      "Orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Misture farinha, água, azeite e sal até formar uma massa homogênea.",
+      "Aqueça a frigideira, espalhe a massa formando um disco.",
+      "Cozinhe em fogo médio por 3 minutos, vire, espalhe o molho, queijo e orégano, tampe até derreter o queijo."
+    ],
+    "descricao": "A pizza perfeita pra galera que quer festa, mas só tem 15 minutos e muita pressa",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida te der boletos, faça pizza na frigideira; pelo menos o estresse vai derreter junto com o queijo."
+  },
+  {
+    "id": 2,
+    "titulo": "Sanduíche de Mortadela Gourmet – O clássico que nunca sai de moda, só o emprego que some",
+    "slug": "sanduiche-de-mortadela-gourmet-o-classico-que-nunca-sai-de-moda-so-o-emprego-que-some",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "fatias generosas de mortadela",
+      "pães tipo francês",
+      "fatias de queijo prato",
+      "Maionese a gosto",
+      "Folhas de alface"
+    ],
+    "modoPreparo": [
+      "Corte os pães ao meio e passe maionese nas duas partes.",
+      "Coloque fatias de mortadela, queijo e alface.",
+      "Feche o sanduíche e sirva na hora."
+    ],
+    "descricao": "Pra galera que quer se sentir no Mercado Central, mas mora no apê pequeno",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "3 porções",
+    "dica": "Se o seu amor é igual esse sanduíche, cheio de camadas mas termina rápido, pelo menos o sabor fica."
+  },
+  {
+    "id": 3,
+    "titulo": "Salada Colorida da Galera – Pra fingir que tá saudável enquanto espera o churrasco",
+    "slug": "salada-colorida-da-galera-pra-fingir-que-ta-saudavel-enquanto-espera-o-churrasco",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "tomates maduros picados",
+      "pepino médio em cubos",
+      "cenoura ralada",
+      "cebola roxa picada",
+      "/2 xícara de cheiro-verde picado",
+      "Suco de 1 limão",
+      "Sal e pimenta a gosto",
+      "colheres de azeite"
+    ],
+    "modoPreparo": [
+      "Misture todos os vegetais numa tigela.",
+      "Tempere com limão, sal, pimenta e azeite.",
+      "Mexa bem e sirva fresca."
+    ],
+    "descricao": "Porque dar uma de fitness antes da festa é o novo “cheguei cedo no rolê”",
+    "tempo": "12 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "6 porções",
+    "dica": "Essa salada é igual promessa de Ano Novo: cheia de boas intenções, mas no fim todo mundo vai pro churrasco mesmo."
+  },
+  {
+    "id": 4,
+    "titulo": "Bruschetta da Resenha – O aperitivo que nem a ressaca consegue derrubar",
+    "slug": "bruschetta-da-resenha-o-aperitivo-que-nem-a-ressaca-consegue-derrubar",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "baguete cortada em fatias",
+      "tomates maduros picados",
+      "dentes de alho picados",
+      "Folhas de manjericão fresco",
+      "colheres de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Torre as fatias de baguete no forno a 180°C por 8 minutos.",
+      "Misture tomates, alho, manjericão, azeite, sal e pimenta.",
+      "Coloque a mistura sobre as torradas e sirva."
+    ],
+    "descricao": "Pra galera que quer fingir que sabe cozinhar, mas só sabe torrar pão",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "5 porções",
+    "dica": "Se a vida te der tomate, faz bruschetta; pelo menos alguém vai querer te ouvir falar."
+  },
+  {
+    "id": 5,
+    "titulo": "Coxinha de Frango Fit – Porque até na festa a galera tenta salvar a dieta (mentira, só tenta)",
+    "slug": "coxinha-de-frango-fit-porque-ate-na-festa-a-galera-tenta-salvar-a-dieta-mentira-so-tenta",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "g de peito de frango cozido e desfiado",
+      "xícara de batata-doce cozida e amassada",
+      "/2 cebola picada",
+      "dentes de alho picados",
+      "Sal e pimenta a gosto",
+      "colher de sopa de azeite",
+      "xícara de farinha de aveia para empanar",
+      "ovos batidos"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no azeite, junte o frango, tempere e deixe esfriar.",
+      "Misture frango com batata-doce até formar uma massa moldável.",
+      "Modele as coxinhas, passe nos ovos e depois na farinha de aveia.",
+      "Asse em forno a 200°C por 25 minutos ou até dourar."
+    ],
+    "descricao": "A coxinha que engana a turma e deixa todo mundo com aquela dúvida cruel: é saudável ou gostoso?",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "12 unidades",
+    "dica": "Se dieta fosse fácil, a gente não precisaria fingir que coxinha assada é igual a de buteco."
+  },
+  {
+    "id": 6,
+    "titulo": "Guacamole da Galera – O molho que vai fazer até seu tio reclamão pedir bis",
+    "slug": "guacamole-da-galera-o-molho-que-vai-fazer-ate-seu-tio-reclamao-pedir-bis",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "abacates maduros",
+      "tomate picado sem sementes",
+      "/2 cebola roxa picada",
+      "Suco de 1 limão",
+      "Coentro a gosto",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Amasse os abacates com o garfo até ficar cremoso.",
+      "Misture tomate, cebola, coentro, limão, sal e pimenta.",
+      "Sirva com tortilhas ou pão."
+    ],
+    "descricao": "Pra galera que acha que abacate só serve pra passar no pão, olha o que você tá perdendo",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "6 porções",
+    "dica": "Guacamole é tipo a galera do WhatsApp: mistura tudo, às vezes dá certo, às vezes vira bagunça – mas a gente ama assim mesmo."
+  },
+  {
+    "id": 7,
+    "titulo": "Espetinho de Queijo Coalho com Mel e Pimenta – Pra galera que gosta de misturar gostos e confundir papilas",
+    "slug": "espetinho-de-queijo-coalho-com-mel-e-pimenta-pra-galera-que-gosta-de-misturar-gostos-e-confundir-papilas",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "g de queijo coalho em cubos",
+      "colheres de sopa de mel",
+      "pitada de pimenta calabresa",
+      "colher de azeite"
+    ],
+    "modoPreparo": [
+      "Aqueça a frigideira com azeite.",
+      "Espete os cubos de queijo e grelhe até dourar.",
+      "Regue com mel e polvilhe pimenta antes de servir."
+    ],
+    "descricao": "O combo que vai da calmaria do queijo ao inferno da pimenta, igual reunião de família",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 28,00",
+    "porcoes": "8 porções",
+    "dica": "Se a vida te der pimenta, joga mel por cima e vê se alguém reclama – igual festa que mistura amigo do trabalho com da rua."
+  },
+  {
+    "id": 8,
+    "titulo": "Macarrão Alho e Óleo Turbinado – Pra galera que quer algo simples, mas com gostinho de “tô me esforçando”",
+    "slug": "macarrao-alho-e-oleo-turbinado-pra-galera-que-quer-algo-simples-mas-com-gostinho-de-to-me-esforcando",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "g de espaguete",
+      "dentes de alho fatiados",
+      "colheres de sopa de azeite",
+      "Pimenta-do-reino moída na hora a gosto",
+      "Salsinha picada a gosto",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão em água salgada até ficar al dente.",
+      "Enquanto isso, aqueça o azeite e doure o alho sem queimar.",
+      "Misture o macarrão escorrido com o alho, azeite, pimenta e salsinha."
+    ],
+    "descricao": "Porque às vezes o maior desafio é não queimar o alho e não ligar o despertador cedo no outro dia",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Fazer alho e óleo é igual boleto: parece fácil, mas se vacilar, queima tudo e você chora."
+  },
+  {
+    "id": 9,
+    "titulo": "Brigadeirão de Micro-ondas – Pra galera que quer doce na velocidade do Wi-Fi ruim",
+    "slug": "brigadeirao-de-micro-ondas-pra-galera-que-quer-doce-na-velocidade-do-wi-fi-ruim",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "lata de leite condensado",
+      "colheres de sopa de chocolate em pó",
+      "ovo",
+      "colher de sopa de manteiga"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes na caneca até ficar homogêneo.",
+      "Leve ao micro-ondas por 5 minutos, mexendo a cada minuto para não queimar.",
+      "Deixe esfriar um pouco antes de servir."
+    ],
+    "descricao": "O brigadeiro que é tão rápido que nem dá tempo de pensar nos boletos do mês",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "6 porções",
+    "dica": "Brigadeirão de micro-ondas é a prova que a preguiça pode virar arte – só não vale queimar, senão vira carvão."
+  },
+  {
+    "id": 10,
+    "titulo": "Tábua de Frios “Vai Ter de Tudo” – Pra galera que quer impressionar mas só tem dinheiro pra 3 coisas",
+    "slug": "tabua-de-frios-vai-ter-de-tudo-pra-galera-que-quer-impressionar-mas-so-tem-dinheiro-pra-3-coisas",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "g de salame fatiado",
+      "g de queijo gouda em cubos",
+      "g de azeitonas verdes",
+      "pote pequeno de geleia de pimenta",
+      "Pão italiano fatiado"
+    ],
+    "modoPreparo": [
+      "Arrume os frios, queijos e azeitonas na tábua de forma harmoniosa.",
+      "Coloque a geleia em potinho para acompanhar.",
+      "Sirva com pão fatiado ao lado."
+    ],
+    "descricao": "Monta a tábua que parece jantar de chef, mas é só desculpa pra bebericar e comer de tudo um pouco",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 45,00",
+    "porcoes": "6 porções",
+    "dica": "Se a tábua de frios fosse conta de luz, a gente ia ficar chateado, mas essa vale cada centavo."
+  },
+  {
+    "id": 11,
+    "titulo": "Hambúrguer Caseiro da Resenha – Pra galera que quer hambúrguer, mas sem fila no fast food e sem crise existencial",
+    "slug": "hamburguer-caseiro-da-resenha-pra-galera-que-quer-hamburguer-mas-sem-fila-no-fast-food-e-sem-crise-existencial",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "g de carne moída bovina",
+      "cebola pequena ralada",
+      "Sal e pimenta a gosto",
+      "pães de hambúrguer",
+      "fatias de queijo cheddar",
+      "Folhas de alface",
+      "tomate fatiado"
+    ],
+    "modoPreparo": [
+      "Misture a carne com cebola, sal e pimenta e molde 4 hambúrgueres.",
+      "Grelhe em frigideira quente até o ponto desejado, colocando o queijo por cima para derreter.",
+      "Monte os hambúrgueres com alface, tomate e pão."
+    ],
+    "descricao": "Porque o verdadeiro burger é o que a gente faz com as mãos e come com a boca – sem culpa e sem pressa",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Fazer hambúrguer em casa é igual pagar boleto: dá trabalho, mas no fim você se sente o rei da cocada."
+  },
+  {
+    "id": 12,
+    "titulo": "Batata Rústica da Galera – Porque batata nunca é demais, principalmente quando tá frita e com queijo",
+    "slug": "batata-rustica-da-galera-porque-batata-nunca-e-demais-principalmente-quando-ta-frita-e-com-queijo",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "kg de batatas cortadas em palitos grossos",
+      "colheres de azeite",
+      "colher de sopa de alecrim fresco picado",
+      "Sal, pimenta e páprica a gosto",
+      "g de queijo parmesão ralado"
+    ],
+    "modoPreparo": [
+      "Misture as batatas com azeite, alecrim, sal, pimenta e páprica.",
+      "Asse em forno a 200°C por 30 minutos, mexendo na metade do tempo.",
+      "Retire, polvilhe o queijo e volte ao forno por mais 5 minutos."
+    ],
+    "descricao": "A batata que vai fazer você esquecer que amanhã é segunda e que a academia existe",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "5 porções",
+    "dica": "Batata rústica é igual a vida adulta: cheia de tempero, um pouco desorganizada, mas no fim é gostosa do jeito que é."
+  },
+  {
+    "id": 13,
+    "titulo": "Quibe de Forno da Galera – Aquele prato que junta todo mundo e não deixa ninguém perguntar “o que tem pra comer?”",
+    "slug": "quibe-de-forno-da-galera-aquele-prato-que-junta-todo-mundo-e-nao-deixa-ninguem-perguntar-o-que-tem-pra-comer",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "g de trigo para quibe hidratado",
+      "g de carne moída",
+      "cebola picada",
+      "/2 xícara de hortelã picada",
+      "Sal, pimenta e cominho a gosto",
+      "Azeite para regar"
+    ],
+    "modoPreparo": [
+      "Misture o trigo escorrido, carne, cebola, hortelã e temperos até homogeneizar.",
+      "Coloque na assadeira, regue com azeite e leve ao forno a 200°C por 40 minutos.",
+      "Sirva quente ou frio."
+    ],
+    "descricao": "Pra galera que quer comida que agrada vizinho, amigo e até o tio do pavê",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "8 porções",
+    "dica": "Quibe de forno é igual reunião com a galera: demora pra ficar pronto, mas quando tá, todo mundo come e ninguém reclama."
+  },
+  {
+    "id": 14,
+    "titulo": "Espetinho Vegano de Legumes – Pra galera que quer fingir que é saudável, mas só tá ali pelo churrasco",
+    "slug": "espetinho-vegano-de-legumes-pra-galera-que-quer-fingir-que-e-saudavel-mas-so-ta-ali-pelo-churrasco",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "abobrinha cortada em rodelas",
+      "pimentão vermelho em cubos",
+      "cebola roxa em pedaços",
+      "/2 berinjela em cubos",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere os legumes com sal, pimenta e azeite.",
+      "Espete os legumes alternando cores e formas.",
+      "Grelhe até ficarem macios e dourados."
+    ],
+    "descricao": "O espetinho que vai salvar sua reputação fitness e te deixar livre pra atacar a picanha depois",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "6 porções",
+    "dica": "Se sua dieta é igual esse espetinho, cheia de legumes e desculpas, relaxa – o churrasco tá logo ali."
+  },
+  {
+    "id": 15,
+    "titulo": "Mousse de Maracujá da Galera – A sobremesa que refresca e salva qualquer festa da monotonia",
+    "slug": "mousse-de-maracuja-da-galera-a-sobremesa-que-refresca-e-salva-qualquer-festa-da-monotonia",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "lata de leite condensado",
+      "lata de creme de leite sem soro",
+      "lata de suco de maracujá concentrado",
+      "Polpa de 1 maracujá para decorar"
+    ],
+    "modoPreparo": [
+      "Bata no liquidificador leite condensado, creme de leite e suco de maracujá.",
+      "Despeje em taças ou tigela e leve à geladeira por 4 horas.",
+      "Decore com polpa de maracujá antes de servir."
+    ],
+    "descricao": "Porque depois de tanto “senta que lá vem história”, só o maracujá pra acalmar a galera",
+    "tempo": "25 min + geladeira",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "6 porções",
+    "dica": "Mousse de maracujá é igual amigo que seca no WhatsApp: aparece na hora certa e deixa todo mundo feliz."
+  },
+  {
+    "id": 16,
+    "titulo": "Panqueca Recheada da Galera – O jeito mais fácil de juntar a turma na cozinha e acabar com os ingredientes esquecidos",
+    "slug": "panqueca-recheada-da-galera-o-jeito-mais-facil-de-juntar-a-turma-na-cozinha-e-acabar-com-os-ingredientes-esquecidos",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "xícara de leite",
+      "ovo",
+      "g de queijo muçarela ralado",
+      "g de presunto fatiado",
+      "Sal e manteiga para untar"
+    ],
+    "modoPreparo": [
+      "Misture farinha, leite, ovo e sal até formar uma massa líquida.",
+      "Aqueça a frigideira, unte com manteiga e faça panquecas finas.",
+      "Recheie com presunto e queijo, enrole e sirva quente."
+    ],
+    "descricao": "Se a vida fosse panqueca, seria recheada de surpresas – e de queijo, muito queijo",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "6 porções",
+    "dica": "Panqueca recheada é igual reunião de família: enrola, enrola, mas no final todo mundo quer mais."
+  },
+  {
+    "id": 17,
+    "titulo": "Ceviche Rápido da Galera – Pra quem quer parecer chique e fresco, mas sem perder a vibe do boteco",
+    "slug": "ceviche-rapido-da-galera-pra-quem-quer-parecer-chique-e-fresco-mas-sem-perder-a-vibe-do-boteco",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "g de filé de tilápia cortado em cubos pequenos",
+      "Suco de 4 limões",
+      "cebola roxa em fatias finas",
+      "pimenta dedo-de-moça picada (sem semente)",
+      "Coentro a gosto",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o peixe com o suco de limão e sal, deixe marinar por 15 minutos.",
+      "Acrescente cebola, pimenta e coentro, misture.",
+      "Sirva gelado com torradas ou chips."
+    ],
+    "descricao": "O prato que junta peixe cru e limão na medida certa, igual conversa boa na madrugada",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "5 porções",
+    "dica": "Ceviche é igual festa com open bar: começa gelado e refrescante, mas termina quente e animado."
+  },
+  {
+    "id": 18,
+    "titulo": "Escondidinho de Carne Seca – O conforto que a galera merece depois daquele dia que parecia fácil, mas virou novela",
+    "slug": "escondidinho-de-carne-seca-o-conforto-que-a-galera-merece-depois-daquele-dia-que-parecia-facil-mas-virou-novela",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "g de carne seca dessalgada e desfiada",
+      "kg de mandioca cozida e amassada",
+      "colheres de manteiga",
+      "cebola picada",
+      "dentes de alho picados",
+      "Sal e pimenta a gosto",
+      "Queijo coalho ralado para gratinar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho, junte a carne seca e refogue mais 5 minutos.",
+      "Misture a mandioca amassada com manteiga, sal e pimenta.",
+      "Em assadeira, faça uma camada de carne e cubra com purê.",
+      "Polvilhe queijo e leve ao forno a 200°C para gratinar por 20 minutos."
+    ],
+    "descricao": "Porque todo mundo merece um abraço em forma de comida, ainda mais se for com purê e carne seca",
+    "tempo": "1h10min",
+    "dificuldade": "Médio",
+    "preco": "R$ 38,00",
+    "porcoes": "6 porções",
+    "dica": "Escondidinho é igual aquele segredo que a galera tenta esconder, mas no fundo todo mundo sabe – e adora."
+  },
+  {
+    "id": 19,
+    "titulo": "Caldo de Feijão Cremoso – O abraço quentinho que a galera precisa depois do rolê",
+    "slug": "caldo-de-feijao-cremoso-o-abraco-quentinho-que-a-galera-precisa-depois-do-role",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "xícaras de feijão carioca cozido",
+      "litro de água",
+      "cebola picada",
+      "dentes de alho picados",
+      "g de bacon em cubos (opcional)",
+      "Sal e pimenta a gosto",
+      "Cheiro-verde para decorar"
+    ],
+    "modoPreparo": [
+      "Refogue bacon, cebola e alho até dourar, acrescente feijão e água.",
+      "Cozinhe por 30 minutos na pressão.",
+      "Bata parte do caldo no liquidificador para ficar cremoso e volte à panela.",
+      "Ajuste sal, pimenta e sirva com cheiro-verde."
+    ],
+    "descricao": "Porque depois de tanto agito, só um caldo pra te lembrar que a vida é mais que boleto e reunião",
+    "tempo": "1h30min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "6 porções",
+    "dica": "Caldo de feijão é igual abraço de mãe: sempre aquece, mesmo quando a vida tá um gelo."
+  },
+  {
+    "id": 20,
+    "titulo": "Vinagrete da Galera – O tempero que salva qualquer churrasco e qualquer amizade",
+    "slug": "vinagrete-da-galera-o-tempero-que-salva-qualquer-churrasco-e-qualquer-amizade",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "tomates maduros picados",
+      "cebola média picada",
+      "/2 pimentão verde picado",
+      "/2 xícara de vinagre",
+      "colheres de azeite",
+      "Sal e pimenta a gosto",
+      "Cheiro-verde picado"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes em uma tigela.",
+      "Ajuste o sal e a pimenta.",
+      "Deixe descansar por 10 minutos para apurar o sabor."
+    ],
+    "descricao": "Porque naquela briga de quem vai lavar a louça, o vinagrete sempre une os espíritos",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "8 porções",
+    "dica": "Vinagrete é igual conversa de bar: meio azedo, mas sem ele a festa não acontece."
+  },
+  {
+    "id": 21,
+    "titulo": "Tapioca Recheada da Galera – O café da manhã dos campeões que sobreviveram até a resenha",
+    "slug": "tapioca-recheada-da-galera-o-cafe-da-manha-dos-campeoes-que-sobreviveram-ate-a-resenha",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "xícara de goma de tapioca hidratada",
+      "g de queijo coalho ralado",
+      "colher de sopa de manteiga",
+      "Mel ou geleia para acompanhar"
+    ],
+    "modoPreparo": [
+      "Aqueça a frigideira e espalhe a goma formando um disco.",
+      "Espalhe o queijo coalho, tampe e deixe derreter.",
+      "Dobre a tapioca ao meio e sirva com mel ou geleia."
+    ],
+    "descricao": "A tapioca que sustenta até o churrasco da noite, porque ninguém é de ferro nem de açúcar",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "3 porções",
+    "dica": "Tapioca é igual domingo: simples, gostosa e a gente sempre quer mais uma."
+  },
+  {
+    "id": 22,
+    "titulo": "Bolinho de Bacalhau da Galera – Pra quem quer fingir que é sofisticado, mas na verdade só ama fritura",
+    "slug": "bolinho-de-bacalhau-da-galera-pra-quem-quer-fingir-que-e-sofisticado-mas-na-verdade-so-ama-fritura",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "g de bacalhau dessalgado e desfiado",
+      "g de batata cozida e amassada",
+      "cebola picada",
+      "ovos",
+      "Salsa picada a gosto",
+      "Sal e pimenta a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Misture bacalhau, batata, cebola, ovos, salsa, sal e pimenta até formar massa.",
+      "Modele bolinhos com colher.",
+      "Frite em óleo quente até dourar, escorra em papel absorvente."
+    ],
+    "descricao": "O bolinho que une a galera na amizade e na gordura boa (ou nem tanto)",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 45,00",
+    "porcoes": "20 unidades",
+    "dica": "Bolinho de bacalhau é igual festa boa: todo mundo quer um, mas ninguém quer dividir."
+  },
+  {
+    "id": 23,
+    "titulo": "Omelete Turbinado da Galera – O café da manhã que vira almoço e às vezes até jantar",
+    "slug": "omelete-turbinado-da-galera-o-cafe-da-manha-que-vira-almoco-e-as-vezes-ate-jantar",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "ovos",
+      "g de queijo muçarela ralado",
+      "g de presunto picado",
+      "Sal, pimenta e cheiro-verde a gosto",
+      "colher de manteiga"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com sal, pimenta e cheiro-verde.",
+      "Aqueça a manteiga e despeje os ovos batidos.",
+      "Quando começar a firmar, espalhe queijo e presunto, dobre e sirva."
+    ],
+    "descricao": "Porque quando a fome bate forte, só ovo não dá conta – mas com queijo e presunto, vira banquete",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Omelete é igual reunião da galera: simples, rápido e se tiver queijo, melhor ainda."
+  },
+  {
+    "id": 24,
+    "titulo": "Churrasquinho de Frango com Molho Barbecue Caseiro – Porque a galera merece um churrasco com sabor e sem crise de fim de mês",
+    "slug": "churrasquinho-de-frango-com-molho-barbecue-caseiro-porque-a-galera-merece-um-churrasco-com-sabor-e-sem-crise-de-fim-de-mes",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "kg de peito de frango cortado em cubos",
+      "/2 xícara de ketchup",
+      "colheres de sopa de mel",
+      "colher de sopa de molho inglês",
+      "colher de chá de páprica defumada",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture ketchup, mel, molho inglês, páprica, sal e pimenta para fazer o molho.",
+      "Marine o frango no molho por pelo menos 30 minutos.",
+      "Espete o frango e grelhe até dourar, pincelando mais molho durante o cozimento."
+    ],
+    "descricao": "O churrasquinho que não falta no rolê e nem na piada sobre dividir a conta",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "8 porções",
+    "dica": "Se a conta do churrasco apertar, pelo menos o sabor vai estar pagando as contas da felicidade."
+  },
+  {
+    "id": 25,
+    "titulo": "Salpicão da Galera – O clássico da festa que mistura tudo e ainda agrada até quem diz que não gosta de salada",
+    "slug": "salpicao-da-galera-o-classico-da-festa-que-mistura-tudo-e-ainda-agrada-ate-quem-diz-que-nao-gosta-de-salada",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "xícaras de frango cozido e desfiado",
+      "cenoura ralada",
+      "maçã verde em cubos",
+      "/2 xícara de uvas-passas",
+      "/2 xícara de milho verde",
+      "/2 xícara de maionese",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes em uma tigela.",
+      "Ajuste o sal e a pimenta.",
+      "Leve à geladeira por 30 minutos antes de servir."
+    ],
+    "descricao": "A salada que todo mundo quer, mas ninguém sabe o que tem dentro – igual papo de bar",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "8 porções",
+    "dica": "Salpicão é igual grupo de WhatsApp da família: cheio de coisas diferentes, mas no fim todo mundo acaba junto."
+  },
+  {
+    "id": 26,
+    "titulo": "Pão de Queijo Recheado com Catupiry – O clássico mineiro que não deixa ninguém na mão, nem na fome",
+    "slug": "pao-de-queijo-recheado-com-catupiry-o-classico-mineiro-que-nao-deixa-ninguem-na-mao-nem-na-fome",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "g de polvilho azedo",
+      "xícara de leite",
+      "/2 xícara de óleo",
+      "ovos",
+      "g de queijo ralado",
+      "Catupiry para rechear",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Ferva leite, óleo e sal; despeje sobre o polvilho e misture.",
+      "Acrescente ovos e queijo, mexa até formar massa.",
+      "Modele bolinhas, recheie com catupiry e asse a 200°C por 25 minutos."
+    ],
+    "descricao": "Porque pão de queijo é amor em forma de bolinha e recheio é o bônus que ninguém reclama",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "20 unidades",
+    "dica": "Pão de queijo é igual aquela amizade verdadeira: quentinha, recheada e que nunca decepciona."
+  },
+  {
+    "id": 27,
+    "titulo": "Misto Quente Turbinado – O lanche que a galera come em pé, mas com estilo de chef",
+    "slug": "misto-quente-turbinado-o-lanche-que-a-galera-come-em-pe-mas-com-estilo-de-chef",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "fatias de pão de forma",
+      "fatias de presunto",
+      "fatias de queijo prato",
+      "Manteiga para passar no pão"
+    ],
+    "modoPreparo": [
+      "Passe manteiga nas fatias de pão.",
+      "Monte o sanduíche com presunto e queijo.",
+      "Leve à sanduicheira ou frigideira até dourar e o queijo derreter."
+    ],
+    "descricao": "O sanduíche que leva o “só mais um rapidinho” para outro patamar – e o café da manhã também",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Misto quente é igual reunião de condomínio: simples, rápido e todo mundo gosta (menos a síndica)."
+  },
+  {
+    "id": 28,
+    "titulo": "Bolinho de Arroz da Galera – Aquele petisco que reaproveita sobras e salva lares",
+    "slug": "bolinho-de-arroz-da-galera-aquele-petisco-que-reaproveita-sobras-e-salva-lares",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "xícaras de arroz cozido",
+      "ovos",
+      "/2 xícara de queijo ralado",
+      "colheres de sopa de farinha de trigo",
+      "Sal, pimenta e cheiro-verde a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Misture arroz, ovos, queijo, farinha e temperos até formar massa.",
+      "Modele bolinhos e frite em óleo quente até dourar.",
+      "Escorra em papel absorvente e sirva."
+    ],
+    "descricao": "Porque nem todo superpoder é voar, às vezes é transformar arroz velho em festa na boca",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "15 unidades",
+    "dica": "Bolinho de arroz é igual reunião de amigos: feito com o que sobra, mas cheio de sabor."
+  },
+  {
+    "id": 29,
+    "titulo": "Canjica Doce Cremosa da Galera – A sobremesa que abraça e conforta em qualquer estação",
+    "slug": "canjica-doce-cremosa-da-galera-a-sobremesa-que-abraca-e-conforta-em-qualquer-estacao",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "g de canjica branca",
+      "litro de leite",
+      "lata de leite condensado",
+      "xícara de açúcar",
+      "Canela em pau para cozinhar",
+      "Canela em pó para polvilhar"
+    ],
+    "modoPreparo": [
+      "Deixe canjica de molho por 8 horas.",
+      "Cozinhe a canjica com água e canela até ficar macia.",
+      "Junte leite, leite condensado e açúcar, cozinhe mexendo até engrossar.",
+      "Sirva polvilhado com canela em pó."
+    ],
+    "descricao": "Porque a felicidade às vezes vem em forma de milho branco com leite condensado",
+    "tempo": "1h30min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "8 porções",
+    "dica": "Canjica é igual festa na roça: demora, mas quando chega, ninguém quer ir embora."
+  },
+  {
+    "id": 30,
+    "titulo": "Esfiha Aberta de Carne – A delícia árabe que a galera ama e nunca sobra no prato",
+    "slug": "esfiha-aberta-de-carne-a-delicia-arabe-que-a-galera-ama-e-nunca-sobra-no-prato",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "g de farinha de trigo",
+      "g de fermento biológico seco",
+      "colher de açúcar",
+      "colher de sal",
+      "xícara de água morna",
+      "g de carne moída temperada",
+      "cebola picada",
+      "Suco de 1 limão"
+    ],
+    "modoPreparo": [
+      "Prepare a massa misturando farinha, fermento, açúcar, sal e água; deixe crescer por 1 hora.",
+      "Abra a massa em círculos, coloque o recheio de carne temperada com cebola e limão.",
+      "Asse a 200°C por 15 minutos ou até dourar."
+    ],
+    "descricao": "Porque abrir a esfiha é abrir o coração pra galera toda – e pra fome também",
+    "tempo": "1h20min",
+    "dificuldade": "Médio",
+    "preco": "R$ 38,00",
+    "porcoes": "10 unidades",
+    "dica": "Esfiha aberta é igual festa boa: aberta, cheia de recheio e ninguém quer que acabe."
+  },
+  {
+    "id": 31,
+    "titulo": "Misto Quente de Forno com Ovo – Porque café da manhã pra galera é sagrado e precisa ser reforçado",
+    "slug": "misto-quente-de-forno-com-ovo-porque-cafe-da-manha-pra-galera-e-sagrado-e-precisa-ser-reforcado",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "fatias de pão de forma",
+      "ovos",
+      "fatias de presunto",
+      "fatias de queijo mussarela",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Em cada fatia de pão, coloque presunto, queijo e um ovo cru temperado.",
+      "Cubra com outra fatia de pão, pressionando levemente.",
+      "Leve ao forno a 180°C por 20 minutos ou até o ovo firmar."
+    ],
+    "descricao": "O lanche que acorda até quem jurou que ia dormir cedo e só quer mais cinco minutinhos",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "4 porções",
+    "dica": "Esse misto é igual aquele amigo que aparece cedo na resenha: surpreende e deixa todo mundo feliz."
+  },
+  {
+    "id": 32,
+    "titulo": "Moqueca Rápida de Peixe – O sabor do verão que a galera pede quando quer impressionar sem sofrer",
+    "slug": "moqueca-rapida-de-peixe-o-sabor-do-verao-que-a-galera-pede-quando-quer-impressionar-sem-sofrer",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "kg de filé de peixe em postas",
+      "tomates picados",
+      "pimentão verde picado",
+      "cebola picada",
+      "ml de leite de coco",
+      "colheres de sopa de azeite de dendê",
+      "Coentro a gosto",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, tomate e pimentão no azeite de dendê.",
+      "Coloque o peixe, tempere com sal e pimenta, cubra com leite de coco e cozinhe até o peixe ficar macio.",
+      "Finalize com coentro picado."
+    ],
+    "descricao": "Porque moqueca boa é igual boleto pago: dá trabalho, mas vale cada centavo",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 50,00",
+    "porcoes": "6 porções",
+    "dica": "Moqueca é igual ressaca: bate forte, mas no fim deixa um gostinho bom."
+  },
+  {
+    "id": 33,
+    "titulo": "Pavê de Chocolate da Galera – A sobremesa que faz qualquer reunião virar festa",
+    "slug": "pave-de-chocolate-da-galera-a-sobremesa-que-faz-qualquer-reuniao-virar-festa",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "pacote de biscoito maisena",
+      "latas de leite condensado",
+      "latas de leite (usar a lata de leite condensado como medida)",
+      "colheres de sopa de amido de milho",
+      "g de chocolate meio amargo picado",
+      "caixa de creme de leite"
+    ],
+    "modoPreparo": [
+      "Faça um creme branco com leite, leite condensado e amido, cozinhando até engrossar.",
+      "Derreta o chocolate e misture com o creme de leite para fazer o creme de chocolate.",
+      "Em um refratário, alterne camadas de biscoito e cremes, terminando com o de chocolate.",
+      "Leve à geladeira por pelo menos 3 horas antes de servir."
+    ],
+    "descricao": "Porque pavê é aquele amigo que todo mundo gosta, mas ninguém assume que ama demais",
+    "tempo": "1h + geladeira",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "8 porções",
+    "dica": "Pavê é igual aquela história de “é pavê ou pacomê”: no fim, todo mundo come e ninguém reclama."
+  },
+  {
+    "id": 34,
+    "titulo": "Cuscuz Paulista da Galera – O prato que junta sabor e história numa panela só",
+    "slug": "cuscuz-paulista-da-galera-o-prato-que-junta-sabor-e-historia-numa-panela-so",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "xícaras de farinha de milho flocada",
+      "ml de caldo de legumes",
+      "g de sardinha em óleo",
+      "tomate picado",
+      "/2 cebola picada",
+      "/2 pimentão picado",
+      "/2 xícara de ervilha",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, tomate, pimentão e ervilha.",
+      "Junte o caldo quente e a farinha, mexendo até formar um mingau.",
+      "Coloque em forma untada, pressione e deixe esfriar.",
+      "Desenforme e decore com sardinha antes de servir."
+    ],
+    "descricao": "Porque cuscuz não é só nordestino, é patrimônio da galera que gosta de comida de verdade",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "6 porções",
+    "dica": "Cuscuz é igual reunião de família: cheio de ingredientes, uns estranham, mas no final todo mundo ama."
+  },
+  {
+    "id": 35,
+    "titulo": "Churros Caseiros da Galera – O doce que é festa até na cozinha",
+    "slug": "churros-caseiros-da-galera-o-doce-que-e-festa-ate-na-cozinha",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "xícara de água",
+      "colheres de sopa de óleo",
+      "pitada de sal",
+      "xícara de farinha de trigo",
+      "Açúcar e canela para polvilhar",
+      "Doce de leite para rechear (opcional)"
+    ],
+    "modoPreparo": [
+      "Ferva água, óleo e sal; junte a farinha e mexa até formar massa.",
+      "Coloque a massa no saco e frite tiras em óleo quente até dourar.",
+      "Escorra, polvilhe açúcar com canela e recheie com doce de leite se quiser."
+    ],
+    "descricao": "Porque fazer churros em casa é a desculpa perfeita pra comer doce e botar a culpa na receita",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "20 unidades",
+    "dica": "Churros caseiros são igual finais de novela: levam tempo, mas o resultado é doce e inesquecível."
+  },
+  {
+    "id": 36,
+    "titulo": "Espaguete à Carbonara da Galera – O prato italiano que não deixa a galera na mão nem no bolso",
+    "slug": "espaguete-a-carbonara-da-galera-o-prato-italiano-que-nao-deixa-a-galera-na-mao-nem-no-bolso",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "g de espaguete",
+      "g de bacon em cubos",
+      "ovos",
+      "/2 xícara de queijo parmesão ralado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o espaguete al dente.",
+      "Frite o bacon até ficar crocante.",
+      "Bata ovos com parmesão, sal e pimenta.",
+      "Misture o macarrão quente com o bacon e rapidamente com a mistura de ovos para formar um molho cremoso."
+    ],
+    "descricao": "Porque às vezes a gente quer algo sofisticado, mas não quer lavar muita louça depois",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Carbonara é igual convite de festa: rápido, gostoso e não deixa ninguém na mão (nem com fome)."
+  },
+  {
+    "id": 37,
+    "titulo": "Smoothie Energético da Galera – O boost que faltava pra levantar do sofá e encarar o rolê",
+    "slug": "smoothie-energetico-da-galera-o-boost-que-faltava-pra-levantar-do-sofa-e-encarar-o-role",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "bananas maduras",
+      "xícara de leite (ou bebida vegetal)",
+      "colheres de sopa de aveia",
+      "colher de mel",
+      "colher de sopa de pasta de amendoim"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes até ficar homogêneo.",
+      "Sirva gelado."
+    ],
+    "descricao": "Porque nem só de cerveja e pizza vive a galera, pelo menos antes da segunda-feira",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "3 porções",
+    "dica": "Smoothie é igual tentativa de dieta: começa animado e termina com cerveja na mão."
+  },
+  {
+    "id": 38,
+    "titulo": "Empadão de Frango da Galera – O clássico da festa que nunca decepciona e sempre some rápido",
+    "slug": "empadao-de-frango-da-galera-o-classico-da-festa-que-nunca-decepciona-e-sempre-some-rapido",
+    "categoria": "A Galera Toda ",
+    "ingredientes": [
+      "g de farinha de trigo",
+      "g de manteiga gelada",
+      "ovo",
+      "g de frango cozido e desfiado",
+      "cebola picada",
+      "dentes de alho picados",
+      "tomate picado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture farinha, manteiga e ovo até formar massa; deixe descansar.",
+      "Refogue cebola, alho, tomate e frango; tempere.",
+      "Abra metade da massa na forma, coloque o recheio e cubra com o restante da massa.",
+      "Asse a 180°C por 40 minutos."
+    ],
+    "descricao": "Porque empadão é como boleto: todo mundo sabe que vai chegar, mas ninguém quer abrir mão",
+    "tempo": "1h20min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "8 porções",
+    "dica": "Empadão é igual reunião de boletos: chega rápido, some rápido e todo mundo quer um pedaço."
+  }
+]

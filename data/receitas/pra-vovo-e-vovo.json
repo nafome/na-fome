@@ -1,0 +1,978 @@
+[
+  {
+    "id": 1432,
+    "titulo": "Bolo de Fubá Cremoso da Vovó Marocas",
+    "slug": "bolo-de-fuba-cremoso-da-vovo-marocas",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "xícaras de fubá mimoso",
+      "xícara de açúcar cristal",
+      "ovos caipiras",
+      "vidro pequeno de leite de coco (200 ml)",
+      "xícara de leite integral",
+      "/2 xícara de óleo de milho",
+      "colher de sopa de fermento em pó"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com o açúcar até formar um creme claro.",
+      "Acrescente o óleo, o leite e o leite de coco, misture bem.",
+      "Adicione o fubá e o fermento, mexa delicadamente.",
+      "Despeje na forma untada e enfarinhada.",
+      "Leve ao forno preaquecido a 180ºC por 40 minutos."
+    ],
+    "descricao": "Porque nada melhor que um bolo que não desmancha igual promessa de político",
+    "tempo": "50 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "8 porções",
+    "dica": "Se o bolo sair do forno e você ainda estiver esperando a aposentadoria, pelo menos tem um café da tarde garantido!"
+  },
+  {
+    "id": 1433,
+    "titulo": "Canja de Galinha com Toque de Nostalgia",
+    "slug": "canja-de-galinha-com-toque-de-nostalgia",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "peito de frango com osso",
+      "cenoura média picada",
+      "batata média picada",
+      "cebola pequena picada",
+      "dentes de alho amassados",
+      "/2 xícara de arroz branco",
+      "Sal e pimenta a gosto",
+      "Cheiro-verde picado a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o peito de frango em água com sal até ficar macio.",
+      "Retire o frango, desfie e reserve o caldo.",
+      "Em outra panela, refogue cebola e alho, junte o caldo e os legumes.",
+      "Adicione o arroz e cozinhe até tudo ficar macio.",
+      "Volte o frango desfiado, ajuste o sal e finalize com cheiro-verde."
+    ],
+    "descricao": "A canja que cura até a vontade de discutir com o controle remoto",
+    "tempo": "1h 10 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "6 porções",
+    "dica": "Se a canja não curar o resfriado, pelo menos vai curar a tristeza de ver a conta de luz chegar."
+  },
+  {
+    "id": 1434,
+    "titulo": "Pão de Queijo Mineirinho da Vovó Zefa",
+    "slug": "pao-de-queijo-mineirinho-da-vovo-zefa",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "g de polvilho doce",
+      "xícara de leite morno",
+      "/2 xícara de óleo",
+      "ovos",
+      "g de queijo minas padrão ralado",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Ferva o leite com o óleo e despeje sobre o polvilho.",
+      "Misture até formar uma massa morna.",
+      "Acrescente os ovos, o queijo e o sal, mexa até ficar homogêneo.",
+      "Modele bolinhas e coloque na assadeira.",
+      "Asse em forno preaquecido a 200ºC por 25 minutos."
+    ],
+    "descricao": "Pequeno, redondo, e mais querido que visita surpresa (mas só às vezes)",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "20 unidades",
+    "dica": "Se o pão de queijo acabar rápido, não se preocupe, é só fingir que foi o cachorro que comeu."
+  },
+  {
+    "id": 1435,
+    "titulo": "Sopa de Legumes da Vovó com Toque de Cachaça (só pra dar coragem)",
+    "slug": "sopa-de-legumes-da-vovo-com-toque-de-cachaca-so-pra-dar-coragem",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "batatas médias picadas",
+      "cenouras picadas",
+      "chuchu picado",
+      "cebola picada",
+      "dentes de alho picados",
+      "litro de caldo de legumes",
+      "Sal e pimenta a gosto",
+      "colher de sopa de cachaça (opcional)"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho, junte os legumes e o caldo.",
+      "Cozinhe até os legumes ficarem macios.",
+      "Bata a sopa no liquidificador para ficar cremosa.",
+      "Volte para a panela, ajuste o sal, pimenta e acrescente a cachaça.",
+      "Aqueça mais 5 minutos e sirva."
+    ],
+    "descricao": "A sopa que esconde os legumes melhor do que neto esconde celular na hora da visita",
+    "tempo": "1h",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "5 porções",
+    "dica": "A cachaça é só um toque, não vá usar a sopa pra dançar forró depois, hein!"
+  },
+  {
+    "id": 1436,
+    "titulo": "Arroz de Leite da Vovó com Jeitinho de Abraço",
+    "slug": "arroz-de-leite-da-vovo-com-jeitinho-de-abraco",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "xícara de arroz branco",
+      "litro de leite integral",
+      "/2 xícara de açúcar",
+      "pau de canela",
+      "Casca de 1 limão"
+    ],
+    "modoPreparo": [
+      "Lave o arroz e coloque para cozinhar no leite com a canela e a casca de limão.",
+      "Cozinhe em fogo baixo, mexendo de vez em quando.",
+      "Quando o arroz estiver macio e o creme espesso, acrescente o açúcar.",
+      "Misture bem e deixe engrossar mais um pouco.",
+      "Retire a canela e o limão antes de servir."
+    ],
+    "descricao": "Doce que é mais doce que neto pedindo dinheiro",
+    "tempo": "45 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "6 porções",
+    "dica": "Se o arroz grudar na panela, não desanime, assim como boletos, sempre grudam na vida da gente."
+  },
+  {
+    "id": 1437,
+    "titulo": "Torta de Frango da Vovó com Crosta que Não Cai no Prato",
+    "slug": "torta-de-frango-da-vovo-com-crosta-que-nao-cai-no-prato",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "xícaras de farinha de trigo",
+      "g de manteiga gelada",
+      "ovo",
+      "kg de peito de frango cozido e desfiado",
+      "cebola picada",
+      "tomate picado",
+      "/2 xícara de cheiro-verde",
+      "Sal e pimenta a gosto",
+      "lata de creme de leite"
+    ],
+    "modoPreparo": [
+      "Misture a farinha com a manteiga até formar uma farofa.",
+      "Acrescente o ovo e água gelada até formar uma massa homogênea.",
+      "Refrite a cebola, junte o frango, tomate, cheiro-verde, sal e pimenta.",
+      "Misture o creme de leite ao recheio e deixe esfriar.",
+      "Abra a massa, forre a forma, coloque o recheio e cubra com outra camada de massa.",
+      "Asse em forno pré-aquecido a 180ºC por 45 minutos."
+    ],
+    "descricao": "Porque a gente quer comer sem precisar de cadeira para levantar depois",
+    "tempo": "1h 20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "8 porções",
+    "dica": "Se a torta quebrar, não se preocupe, pelo menos não foi sua coluna hoje."
+  },
+  {
+    "id": 1438,
+    "titulo": "Mingau de Aveia com Banana e Mel da Vovó Fitness",
+    "slug": "mingau-de-aveia-com-banana-e-mel-da-vovo-fitness",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "/2 xícara de aveia em flocos",
+      "xícaras de leite desnatado",
+      "banana madura amassada",
+      "colher de sopa de mel",
+      "Canela a gosto"
+    ],
+    "modoPreparo": [
+      "Leve a aveia e o leite ao fogo baixo, mexendo até engrossar.",
+      "Desligue, misture a banana amassada e o mel.",
+      "Sirva com canela polvilhada por cima."
+    ],
+    "descricao": "Porque vovó também quer ficar em forma para correr atrás do neto",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "2 porções",
+    "dica": "Se o neto reclamar que mingau não é comida, diga que é só pra ele aprender a comer direitinho."
+  },
+  {
+    "id": 1439,
+    "titulo": "Peixe ao Forno com Legumes da Vovó Saudável",
+    "slug": "peixe-ao-forno-com-legumes-da-vovo-saudavel",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "filés de peixe branco (ex: tilápia)",
+      "batatas cortadas em rodelas finas",
+      "cenoura em rodelas",
+      "cebola em fatias",
+      "dentes de alho picados",
+      "Suco de 1 limão",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere os filés com limão, sal, pimenta e alho.",
+      "Em uma assadeira, faça camadas com batata, cenoura e cebola.",
+      "Coloque os filés por cima e regue com azeite.",
+      "Cubra com papel alumínio e leve ao forno a 180ºC por 30 minutos.",
+      "Retire o papel e deixe dourar mais 5 minutos."
+    ],
+    "descricao": "O prato que diz “eu me cuido” enquanto você pensa no boleto que vai pagar",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 30,00",
+    "porcoes": "4 porções",
+    "dica": "Se o peixe grudar na assadeira, lembre-se que até a vida adulta tem seus “pegos”."
+  },
+  {
+    "id": 1440,
+    "titulo": "Biscoito de Polvilho do Vovô Zé",
+    "slug": "biscoito-de-polvilho-do-vovo-ze",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "g de polvilho azedo",
+      "xícara de água fervente",
+      "/2 xícara de óleo",
+      "colher de sopa de sal",
+      "ovos"
+    ],
+    "modoPreparo": [
+      "Misture o polvilho com o sal.",
+      "Acrescente a água fervente e mexa até amornar.",
+      "Junte o óleo e os ovos, misturando até formar massa lisa.",
+      "Modele os biscoitos com saco de confeitar ou colher.",
+      "Asse em forno preaquecido a 200ºC por 20 minutos."
+    ],
+    "descricao": "Crocante como a memória dele falando que já viu tudo nessa vida",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "30 unidades",
+    "dica": "Se o biscoito quebrar, pelo menos não foi o vovô que caiu hoje!"
+  },
+  {
+    "id": 1441,
+    "titulo": "Frango com Quiabo da Vovó Maria",
+    "slug": "frango-com-quiabo-da-vovo-maria",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "kg de frango em pedaços",
+      "g de quiabo limpo e cortado",
+      "dentes de alho amassados",
+      "cebola picada",
+      "tomates picados",
+      "Sal e pimenta a gosto",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue alho e cebola no azeite até dourar.",
+      "Acrescente o frango e deixe dourar de todos os lados.",
+      "Junte os tomates, tempere, tampe e cozinhe por 30 minutos na pressão.",
+      "Abra a panela, adicione o quiabo e cozinhe por mais 20 minutos, sem pressão, mexendo sempre.",
+      "Ajuste o sal e sirva."
+    ],
+    "descricao": "O prato que junta dois clássicos: o sabor e a paciência pra esperar o neto visitar",
+    "tempo": "1h 30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "6 porções",
+    "dica": "Se o quiabo grudar na panela, não desanime – ele só quer atenção, igual neto no domingo."
+  },
+  {
+    "id": 1442,
+    "titulo": "Pavê de Chocolate com Café da Vovó",
+    "slug": "pave-de-chocolate-com-cafe-da-vovo",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "pacote de biscoito champagne",
+      "xícaras de leite",
+      "lata de leite condensado",
+      "colheres de sopa de café solúvel",
+      "g de chocolate meio amargo picado",
+      "caixinha de creme de leite"
+    ],
+    "modoPreparo": [
+      "Dissolva o café no leite e umedeça os biscoitos.",
+      "Derreta o chocolate e misture com o creme de leite.",
+      "Em uma tigela, misture o leite condensado com o chocolate derretido.",
+      "Monte camadas intercalando biscoitos e creme.",
+      "Leve à geladeira por pelo menos 3 horas antes de servir."
+    ],
+    "descricao": "Sobremesa que é mais rápida que conversa em reunião de família",
+    "tempo": "40 min + geladeira",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "8 porções",
+    "dica": "Se o pavê sumir rápido, não se culpe, culpa da família que não sabe esperar."
+  },
+  {
+    "id": 1443,
+    "titulo": "Omelete Recheado da Vovó Esperta",
+    "slug": "omelete-recheado-da-vovo-esperta",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "ovos",
+      "fatias de presunto picado",
+      "/2 xícara de queijo ralado",
+      "Sal e pimenta a gosto",
+      "colher de sopa de manteiga"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com sal e pimenta.",
+      "Aqueça a manteiga na frigideira, despeje os ovos.",
+      "Quando começar a firmar, espalhe o presunto e o queijo.",
+      "Dobre a omelete ao meio e deixe cozinhar mais 1 minuto.",
+      "Sirva quente."
+    ],
+    "descricao": "Porque nem todo herói usa capa, alguns só sabem fazer omelete",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "2 porções",
+    "dica": "Se queimar a omelete, diz que foi “toque especial da vovó”, ninguém vai duvidar."
+  },
+  {
+    "id": 1444,
+    "titulo": "Purê de Batata com Queijo da Vovó Carinhosa",
+    "slug": "pure-de-batata-com-queijo-da-vovo-carinhosa",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "kg de batatas",
+      "/2 xícara de leite quente",
+      "colheres de sopa de manteiga",
+      "g de queijo parmesão ralado",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe as batatas até ficarem bem macias.",
+      "Esprema as batatas ainda quentes.",
+      "Misture a manteiga, o leite e o queijo até formar purê cremoso.",
+      "Ajuste o sal e sirva."
+    ],
+    "descricao": "O purê tão macio que até a vizinha vai querer um pouco",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "4 porções",
+    "dica": "Se o purê ficar grudando, é só lembrar que até as contas grudam na gente todo mês."
+  },
+  {
+    "id": 1445,
+    "titulo": "Moqueca de Banana da Vovó Vegana",
+    "slug": "moqueca-de-banana-da-vovo-vegana",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "bananas-da-terra maduras",
+      "cebola em rodelas",
+      "tomates fatiados",
+      "pimentão vermelho em tiras",
+      "ml de leite de coco",
+      "Coentro e azeite a gosto",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Corte as bananas em rodelas grossas.",
+      "Em panela, faça camadas de cebola, tomate, pimentão e banana.",
+      "Tempere com sal, pimenta e regue com leite de coco e azeite.",
+      "Cozinhe em fogo baixo por 30 minutos, sem mexer.",
+      "Finalize com coentro fresco e sirva."
+    ],
+    "descricao": "A moqueca que prova que banana não é só pra macaco e vovó sabe disso",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "4 porções",
+    "dica": "Se o neto reclamar, diga que é só pra ele aprender a comer coisa boa e saudável."
+  },
+  {
+    "id": 1446,
+    "titulo": "Bife à Rolê da Vovó com Jeitinho",
+    "slug": "bife-a-role-da-vovo-com-jeitinho",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "bifes de coxão mole",
+      "g de bacon em tiras",
+      "cenoura em tiras finas",
+      "cebola picada",
+      "dentes de alho picados",
+      "Sal, pimenta e óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Tempere os bifes com sal e pimenta.",
+      "Recheie com bacon e cenoura, enrole e prenda com palitos.",
+      "Sele os bifes na frigideira com óleo até dourar.",
+      "Refogue cebola e alho, junte os bifes e cubra com água.",
+      "Cozinhe em fogo baixo por 40 minutos até macio."
+    ],
+    "descricao": "Rolê que não cansa, só a gente que fica cansado de enrolar na vida",
+    "tempo": "1h 10 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "6 porções",
+    "dica": "Se enrolar demais, lembra que até a aposentadoria demora pra chegar."
+  },
+  {
+    "id": 1447,
+    "titulo": "Pudim de Leite Condensado da Vovó Maravilha",
+    "slug": "pudim-de-leite-condensado-da-vovo-maravilha",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "lata de leite condensado",
+      "latas de leite integral (medida da lata condensada)",
+      "ovos",
+      "xícara de açúcar (para a calda)"
+    ],
+    "modoPreparo": [
+      "Faça a calda caramelizando o açúcar e despeje na forma.",
+      "Bata o leite condensado, o leite e os ovos até misturar bem.",
+      "Despeje na forma caramelizada.",
+      "Leve para assar em banho-maria a 180ºC por 1 hora.",
+      "Depois de frio, leve à geladeira por no mínimo 4 horas antes de desenformar."
+    ],
+    "descricao": "A sobremesa que é mais doce que lembrança boa (e mais fácil que entender internet)",
+    "tempo": "1h 20 min + geladeira",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "8 porções",
+    "dica": "Se o pudim trincar, diz que é “toque artesanal”, igual boleto que chega todo mês."
+  },
+  {
+    "id": 1448,
+    "titulo": "Salada Colorida da Vovó que Não Se Esquece",
+    "slug": "salada-colorida-da-vovo-que-nao-se-esquece",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "alface americana picada",
+      "tomate grande picado",
+      "cenoura ralada",
+      "/2 beterraba cozida ralada",
+      "/2 xícara de milho verde",
+      "Azeite, vinagre e sal a gosto"
+    ],
+    "modoPreparo": [
+      "Lave e pique todos os legumes.",
+      "Misture numa tigela grande.",
+      "Tempere com azeite, vinagre e sal.",
+      "Sirva fresca."
+    ],
+    "descricao": "A salada que é mais alegre que neto na hora do lanche",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Se alguém reclamar que salada não é comida, responde que é o “combustível” pra aguentar as conversas da família."
+  },
+  {
+    "id": 1449,
+    "titulo": "Feijão Tropeiro da Vovó Mineira",
+    "slug": "feijao-tropeiro-da-vovo-mineira",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "g de feijão carioquinha cozido e escorrido",
+      "g de bacon picado",
+      "ovos",
+      "cebola picada",
+      "dentes de alho picados",
+      "xícaras de farinha de mandioca torrada",
+      "Sal e pimenta a gosto",
+      "Cheiro-verde picado"
+    ],
+    "modoPreparo": [
+      "Frite o bacon até dourar, acrescente cebola e alho e refogue.",
+      "Junte o feijão, mexa bem.",
+      "Bata os ovos e faça ovos mexidos na frigideira separada.",
+      "Adicione os ovos mexidos e a farinha de mandioca ao feijão.",
+      "Mexa até incorporar, tempere e finalize com cheiro-verde."
+    ],
+    "descricao": "O feijão que dá energia até pra brigar com a vida (e com a conta do supermercado)",
+    "tempo": "1h 30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "6 porções",
+    "dica": "Se a farinha empelotar, não se preocupe, até essa receita tem seus ‘problemas de idade’."
+  },
+  {
+    "id": 1450,
+    "titulo": "Escondidinho de Carne Seca da Vovó Raquel",
+    "slug": "escondidinho-de-carne-seca-da-vovo-raquel",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "g de carne seca dessalgada e desfiada",
+      "kg de mandioca cozida e amassada",
+      "cebola picada",
+      "dentes de alho picados",
+      "/2 xícara de requeijão cremoso",
+      "Sal, pimenta e manteiga a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho, acrescente a carne seca e cozinhe por 10 minutos.",
+      "Misture o requeijão à mandioca amassada, tempere com manteiga, sal e pimenta.",
+      "Em uma assadeira, faça uma camada de mandioca, outra de carne e cubra com mandioca.",
+      "Leve ao forno a 180ºC por 20 minutos para gratinar."
+    ],
+    "descricao": "Escondidinho que nem boleto, a gente finge que não vê, mas tá lá",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "6 porções",
+    "dica": "Se o escondidinho sumir rápido, culpa do neto que acha que é lanche gourmet."
+  },
+  {
+    "id": 1451,
+    "titulo": "Creme de Abóbora com Gengibre da Vovó Moderninha",
+    "slug": "creme-de-abobora-com-gengibre-da-vovo-moderninha",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "g de abóbora descascada e picada",
+      "cebola picada",
+      "pedaço de gengibre ralado (2 cm)",
+      "litro de caldo de legumes",
+      "Sal e pimenta a gosto",
+      "Creme de leite para servir (opcional)"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e o gengibre até ficarem macios.",
+      "Acrescente a abóbora e o caldo, cozinhe até a abóbora amolecer.",
+      "Bata tudo no liquidificador até virar creme.",
+      "Volte para a panela, ajuste o sal e a pimenta e aqueça.",
+      "Sirva com um fio de creme de leite."
+    ],
+    "descricao": "O creme que aquece mais que fofoca na praça",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Se o creme ficar muito grosso, não se preocupe, é só a vida dando uma engrossada também."
+  },
+  {
+    "id": 1452,
+    "titulo": "Macarrão com Molho Branco e Ervas da Vovó Caprichosa",
+    "slug": "macarrao-com-molho-branco-e-ervas-da-vovo-caprichosa",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "g de macarrão tipo penne",
+      "colheres de sopa de manteiga",
+      "colheres de sopa de farinha de trigo",
+      "ml de leite",
+      "Sal, noz-moscada e pimenta a gosto",
+      "Ervas frescas picadas (salsa, cebolinha)"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão até ficar al dente.",
+      "Derreta a manteiga, junte a farinha e mexa formando um roux.",
+      "Acrescente o leite aos poucos, mexendo até formar molho branco.",
+      "Tempere com sal, noz-moscada, pimenta e as ervas.",
+      "Misture o molho ao macarrão e sirva."
+    ],
+    "descricao": "O molho que junta mais gente na mesa que reunião de condomínio",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Se o molho empelotar, finja que é textura rústica, estilo “vovó gourmet”."
+  },
+  {
+    "id": 1453,
+    "titulo": "Empadão de Palmito da Vovó Tradicional",
+    "slug": "empadao-de-palmito-da-vovo-tradicional",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "xícaras de farinha de trigo",
+      "g de manteiga gelada",
+      "ovo",
+      "vidro de palmito picado (300 g)",
+      "cebola picada",
+      "dentes de alho picados",
+      "/2 xícara de creme de leite",
+      "Sal, pimenta e cheiro-verde a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a farinha com a manteiga até formar uma farofa.",
+      "Acrescente o ovo e água gelada até formar massa.",
+      "Refrite cebola, alho e palmito, tempere e misture o creme de leite.",
+      "Abra metade da massa na forma, coloque o recheio e cubra com o restante da massa.",
+      "Asse a 180ºC por 45 minutos ou até dourar."
+    ],
+    "descricao": "A empada que segura mais segredo que conversa na porta da igreja",
+    "tempo": "1h 15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "8 porções",
+    "dica": "Se a massa rachar, diga que é charme de quem já tem suas histórias."
+  },
+  {
+    "id": 1454,
+    "titulo": "Vitamina de Mamão com Laranja da Vovó Energética",
+    "slug": "vitamina-de-mamao-com-laranja-da-vovo-energetica",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "mamão papaia médio",
+      "Suco de 2 laranjas",
+      "copo de leite integral",
+      "colher de mel"
+    ],
+    "modoPreparo": [
+      "Descasque e corte o mamão em pedaços.",
+      "Bata no liquidificador com o suco de laranja, o leite e o mel.",
+      "Sirva gelado."
+    ],
+    "descricao": "O impulso que vovó precisa pra acompanhar as fofocas na praça",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "2 porções",
+    "dica": "Se a vitamina acabar rápido, é sinal que a vovó tá mais rápida que o neto no videogame."
+  },
+  {
+    "id": 1455,
+    "titulo": "Farofa de Banana da Terra da Vovó Saborosa",
+    "slug": "farofa-de-banana-da-terra-da-vovo-saborosa",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "bananas-da-terra maduras cortadas em cubos",
+      "xícaras de farinha de mandioca torrada",
+      "cebola picada",
+      "g de bacon picado",
+      "Sal e pimenta a gosto",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Frite o bacon até dourar, acrescente a cebola e refogue.",
+      "Junte as bananas e refogue rapidamente.",
+      "Misture a farinha aos poucos, mexendo até incorporar.",
+      "Tempere com sal e pimenta."
+    ],
+    "descricao": "Farofa que é mais versátil que conselho de vó",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "6 porções",
+    "dica": "Se a farofa grudar, não reclame, pegue um cafezinho e aproveite o momento."
+  },
+  {
+    "id": 1456,
+    "titulo": "Caldo Verde da Vovó Portuguesa",
+    "slug": "caldo-verde-da-vovo-portuguesa",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "g de batata",
+      "linguiça calabresa fatiada",
+      "cebola picada",
+      "dentes de alho picados",
+      "maço de couve fatiada fina",
+      "Sal e pimenta a gosto",
+      "Azeite"
+    ],
+    "modoPreparo": [
+      "Cozinhe a batata com cebola e alho até amolecer.",
+      "Bata a mistura para formar um creme.",
+      "Volte para a panela, adicione a linguiça e a couve.",
+      "Cozinhe por mais 10 minutos, tempere e finalize com azeite."
+    ],
+    "descricao": "Caldo que aquece o corpo e o coração (melhor que aviso de boleto no celular)",
+    "tempo": "1h",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "5 porções",
+    "dica": "Se o caldo ficar muito grosso, conta que é sopa “premium”, igual a vida."
+  },
+  {
+    "id": 1457,
+    "titulo": "Chá de Ervas da Vovó Relax",
+    "slug": "cha-de-ervas-da-vovo-relax",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "colher de sopa de camomila seca",
+      "colher de sopa de erva-doce",
+      "colher de sopa de hortelã fresca",
+      "Água fervente"
+    ],
+    "modoPreparo": [
+      "Coloque as ervas na chaleira ou bule.",
+      "Despeje a água fervente sobre as ervas.",
+      "Deixe em infusão por 10 minutos.",
+      "Coe e sirva quente."
+    ],
+    "descricao": "A infusão que acalma mais que conversa com o gerente do banco",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,00",
+    "porcoes": "4 porções",
+    "dica": "Se a conversa do banco apertar, pelo menos o chá vai deixar o coração mais calmo."
+  },
+  {
+    "id": 1458,
+    "titulo": "Bolo de Laranja com Casca da Vovó Econômica",
+    "slug": "bolo-de-laranja-com-casca-da-vovo-economica",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "ovos",
+      "xícaras de açúcar",
+      "/2 xícara de óleo",
+      "xícaras de farinha de trigo",
+      "laranja inteira (com casca) picada",
+      "colher de sopa de fermento em pó"
+    ],
+    "modoPreparo": [
+      "Bata os ovos, o açúcar, o óleo e a laranja no liquidificador.",
+      "Misture a farinha e o fermento à massa.",
+      "Coloque em forma untada e asse a 180ºC por 40 minutos."
+    ],
+    "descricao": "Bolo que aproveita tudo, até a paciência pra pagar conta",
+    "tempo": "50 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "8 porções",
+    "dica": "Se o bolo ficar meio amargo, diz que é “toque especial” pra manter a linha (e o bolso)."
+  },
+  {
+    "id": 1459,
+    "titulo": "Salpicão da Vovó Festiva",
+    "slug": "salpicao-da-vovo-festiva",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "xícaras de frango cozido e desfiado",
+      "cenoura ralada",
+      "maçã verde picada",
+      "/2 xícara de uva passa",
+      "/2 xícara de maionese",
+      "/2 xícara de milho verde",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes em uma tigela.",
+      "Ajuste o sal e a maionese conforme o gosto.",
+      "Leve à geladeira por 30 minutos antes de servir."
+    ],
+    "descricao": "Salpicão que anima mais que visita da família inteira no domingo",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "6 porções",
+    "dica": "Se o neto fizer cara feia, lembra que salpicão é tipo amor de vó: tem que insistir."
+  },
+  {
+    "id": 1460,
+    "titulo": "Bolinho de Chuva da Vovó com Açúcar e Canela",
+    "slug": "bolinho-de-chuva-da-vovo-com-acucar-e-canela",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "ovos",
+      "xícara de leite",
+      "xícaras de farinha de trigo",
+      "colheres de sopa de açúcar",
+      "colher de sopa de fermento em pó",
+      "Açúcar e canela para polvilhar",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Misture ovos, leite, farinha, açúcar e fermento até formar massa homogênea.",
+      "Aqueça o óleo e frite colheradas da massa até dourar.",
+      "Escorra em papel absorvente.",
+      "Passe no açúcar com canela."
+    ],
+    "descricao": "O bolinho que é mais amado que o controle remoto (e mais disputado também)",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "20 unidades",
+    "dica": "Se o bolinho acabar rápido, culpa do neto que não sabe dividir nem o lanche."
+  },
+  {
+    "id": 1461,
+    "titulo": "Frango Assado com Ervas da Vovó Clássica",
+    "slug": "frango-assado-com-ervas-da-vovo-classica",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "frango inteiro (1,5 kg)",
+      "dentes de alho amassados",
+      "Suco de 1 limão",
+      "Sal, pimenta, alecrim e tomilho a gosto",
+      "Azeite para pincelar"
+    ],
+    "modoPreparo": [
+      "Tempere o frango com alho, limão, sal, pimenta e ervas.",
+      "Deixe marinar por pelo menos 1 hora.",
+      "Pincele azeite e asse em forno a 180ºC por 1h20, virando na metade."
+    ],
+    "descricao": "Frango que é mais tradicional que piada de tio no churrasco",
+    "tempo": "1h 30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 35,00",
+    "porcoes": "6 porções",
+    "dica": "Se o frango ficar meio seco, diz que é “toque de força” pra aguentar a semana."
+  },
+  {
+    "id": 1462,
+    "titulo": "Mingau de Milho Verde da Vovó Caipira",
+    "slug": "mingau-de-milho-verde-da-vovo-caipira",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "espigas de milho verde debulhadas",
+      "ml de leite",
+      "/2 xícara de açúcar",
+      "pitada de sal"
+    ],
+    "modoPreparo": [
+      "Bata o milho com o leite no liquidificador.",
+      "Coe para retirar resíduos e leve à panela.",
+      "Cozinhe mexendo até engrossar.",
+      "Acrescente açúcar e sal, misture e sirva."
+    ],
+    "descricao": "O mingau que é mais brasileiro que briga por vaga na fila",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "4 porções",
+    "dica": "Se o mingau grudar, lembra que até a felicidade às vezes demora pra aparecer."
+  },
+  {
+    "id": 1463,
+    "titulo": "Salada de Frutas da Vovó Colorida",
+    "slug": "salada-de-frutas-da-vovo-colorida",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "maçã picada",
+      "banana fatiada",
+      "laranja em gomos",
+      "fatia de abacaxi picada",
+      "Suco de 1 limão",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todas as frutas em uma tigela.",
+      "Regue com suco de limão e mel.",
+      "Sirva gelado."
+    ],
+    "descricao": "A salada que é mais vibrante que reunião de família animada",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Se o neto reclamar que fruta é só pra passar fome, dê mais uma colherada e siga firme."
+  },
+  {
+    "id": 1464,
+    "titulo": "Polenta Mole da Vovó Italiana",
+    "slug": "polenta-mole-da-vovo-italiana",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "xícara de fubá",
+      "xícaras de água",
+      "colher de sopa de manteiga",
+      "Sal a gosto",
+      "Queijo ralado para polvilhar (opcional)"
+    ],
+    "modoPreparo": [
+      "Ferva a água com sal.",
+      "Acrescente o fubá aos poucos, mexendo sempre para não empelotar.",
+      "Cozinhe até engrossar e fique cremosa.",
+      "Adicione manteiga e misture.",
+      "Sirva polvilhado com queijo."
+    ],
+    "descricao": "Polenta que abraça mais que visita inesperada (e não pede nada em troca)",
+    "tempo": "45 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "6 porções",
+    "dica": "Se a polenta endurecer, lembre que até contrato de celular às vezes trava."
+  },
+  {
+    "id": 1465,
+    "titulo": "Chá de Camomila com Mel da Vovó Calmante",
+    "slug": "cha-de-camomila-com-mel-da-vovo-calmante",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "colheres de sopa de camomila seca",
+      "ml de água fervente",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque a camomila na água fervente.",
+      "Deixe em infusão por 10 minutos.",
+      "Coe e adoce com mel.",
+      "Sirva quente."
+    ],
+    "descricao": "O chá que acalma mais que neto na hora de dormir (só que demora um pouco)",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,00",
+    "porcoes": "2 porções",
+    "dica": "Se o chá não acalmar, pelo menos o cafezinho da tarde vai ajudar a aguentar o resto do dia."
+  },
+  {
+    "id": 1466,
+    "titulo": "Ensopado de Carne com Legumes da Vovó Forte",
+    "slug": "ensopado-de-carne-com-legumes-da-vovo-forte",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "kg de carne bovina em cubos",
+      "batatas médias picadas",
+      "cenouras picadas",
+      "cebola picada",
+      "dentes de alho picados",
+      "tomates picados",
+      "Sal, pimenta e cheiro-verde a gosto",
+      "Óleo para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue alho e cebola no óleo até dourar.",
+      "Junte a carne e sele todos os lados.",
+      "Acrescente tomate, sal e pimenta, tampe a panela e cozinhe na pressão por 40 minutos.",
+      "Abra a panela, adicione os legumes e cozinhe sem pressão até ficarem macios.",
+      "Finalize com cheiro-verde e sirva."
+    ],
+    "descricao": "O ensopado que dá força até pra aguentar a família inteira no almoço de domingo",
+    "tempo": "1h 40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "6 porções",
+    "dica": "Se a carne ficar dura, diz que é “tough love” da vovó."
+  },
+  {
+    "id": 1467,
+    "titulo": "Cafézinho com Leite da Vovó Aconchegante",
+    "slug": "cafezinho-com-leite-da-vovo-aconchegante",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "xícaras de café coado",
+      "ml de leite integral",
+      "Açúcar a gosto"
+    ],
+    "modoPreparo": [
+      "Prepare o café coado.",
+      "Aqueça o leite sem deixar ferver.",
+      "Misture o café ao leite, adoce a gosto.",
+      "Sirva quente."
+    ],
+    "descricao": "O café que faz qualquer boleto parecer menor (pelo menos na mente)",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 2,50",
+    "porcoes": "2 porções",
+    "dica": "Se o café acabar rápido, pede pra neto fazer o próximo, que ele sabe tudo de tecnologia."
+  },
+  {
+    "id": 1468,
+    "titulo": "Bolinho de Batata com Queijo da Vovó Prática",
+    "slug": "bolinho-de-batata-com-queijo-da-vovo-pratica",
+    "categoria": "Pra Vovo E Vovo ",
+    "ingredientes": [
+      "kg de batatas cozidas e amassadas",
+      "g de queijo mussarela ralado",
+      "ovos",
+      "Farinha de trigo para dar ponto",
+      "Sal e pimenta a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Misture batata, queijo, ovos, sal e pimenta.",
+      "Acrescente farinha aos poucos até dar ponto para modelar.",
+      "Modele bolinhos e frite em óleo quente até dourar.",
+      "Escorra em papel absorvente e sirva."
+    ],
+    "descricao": "Bolinho que some mais rápido que as meias no varal",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "20 unidades",
+    "dica": "Se os bolinhos acabarem rápido, não se culpe – é sinal que a receita é sucesso!"
+  }
+]

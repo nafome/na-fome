@@ -1,0 +1,956 @@
+[
+  {
+    "id": 1702,
+    "titulo": "Mousse de Chocolate dos Deuses Endividados",
+    "slug": "mousse-de-chocolate-dos-deuses-endividados",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "g de chocolate meio amargo",
+      "ovos (gemas e claras separadas)",
+      "colheres de sopa de açúcar",
+      "pitada de sal"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate em banho-maria ou micro-ondas, mexendo a cada 30 segundos.",
+      "Bata as claras em neve com o sal até formar picos firmes, adicionando o açúcar aos poucos.",
+      "Misture as gemas ao chocolate derretido, depois incorpore delicadamente as claras em neve.",
+      "Distribua em taças e leve à geladeira por pelo menos 2 horas antes de servir."
+    ],
+    "descricao": "Porque até quem tá no vermelho merece um pouco de doce no extrato",
+    "tempo": "20 min (+ 2h de geladeira)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida tá dura, pelo menos o mousse não é – faça e deixe o boleto esperar na fila do crediário."
+  },
+  {
+    "id": 1703,
+    "titulo": "Brownie Explosão de Chocolate e Nozes",
+    "slug": "brownie-explosao-de-chocolate-e-nozes",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "g de chocolate meio amargo",
+      "g de manteiga",
+      "xícara de açúcar",
+      "ovos",
+      "/4 de xícara de farinha de trigo",
+      "/2 xícara de nozes picadas"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate com a manteiga em banho-maria.",
+      "Misture o açúcar e os ovos até ficar homogêneo, depois junte o chocolate derretido.",
+      "Incorpore a farinha e as nozes, despeje na forma untada e asse a 180ºC por 25-30 minutos."
+    ],
+    "descricao": "Praquela vontade de comer chocolate e ainda parecer saudável pros outros",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "8 porções",
+    "dica": "Se seu chefe reclamar, dê um pedaço do brownie – chocolate é o único argumento que não pedem feedback."
+  },
+  {
+    "id": 1704,
+    "titulo": "Pavê de Chocolate com Bis e Memórias do Ensino Fundamental",
+    "slug": "pave-de-chocolate-com-bis-e-memorias-do-ensino-fundamental",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "lata de leite condensado",
+      "caixinha de creme de leite",
+      "colheres de sopa de chocolate em pó",
+      "pacote de bis triturado",
+      "xícara de leite para molhar o bis"
+    ],
+    "modoPreparo": [
+      "Misture o leite condensado, o creme de leite e o chocolate em pó até formar um creme liso.",
+      "Molhe os bis rapidamente no leite e faça uma camada na travessa.",
+      "Cubra com o creme, repita as camadas e finalize com bis triturado.",
+      "Leve à geladeira por 3 horas antes de servir."
+    ],
+    "descricao": "Porque a gente cresce, mas o pavê nunca sai da roda de amigos",
+    "tempo": "40 min (+ 3h de geladeira)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,50",
+    "porcoes": "6 porções",
+    "dica": "Assim como aquela nota que nunca veio, a paciência é essencial para o pavê perfeito – ou só coma na hora."
+  },
+  {
+    "id": 1705,
+    "titulo": "Sorvete Rápido de Chocolate com Banana (Sem Máquina)",
+    "slug": "sorvete-rapido-de-chocolate-com-banana-sem-maquina",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "bananas maduras congeladas",
+      "colheres de sopa de cacau em pó",
+      "colher de sopa de mel"
+    ],
+    "modoPreparo": [
+      "Bata as bananas congeladas com o cacau e o mel até virar um creme homogêneo.",
+      "Coloque em recipiente e leve ao congelador por 4 horas.",
+      "Sirva com raspas de chocolate se quiser parecer gourmet."
+    ],
+    "descricao": "Pra quem quer sorvete e não quer nem escutar falar em máquina",
+    "tempo": "15 min (+ 4h congelador)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida congelar suas expectativas, pelo menos seu sorvete vai estar no ponto."
+  },
+  {
+    "id": 1706,
+    "titulo": "Pudim de Chocolate da Vovó Moderna",
+    "slug": "pudim-de-chocolate-da-vovo-moderna",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "lata de leite condensado",
+      "latas de leite (medida da lata condensado)",
+      "ovos",
+      "colheres de sopa de cacau em pó",
+      "xícara de açúcar para a calda"
+    ],
+    "modoPreparo": [
+      "Faça a calda caramelizando o açúcar e despeje na forma.",
+      "Bata no liquidificador o leite condensado, leite, ovos e cacau.",
+      "Despeje na forma caramelizada e asse em banho-maria a 180ºC por 40 minutos."
+    ],
+    "descricao": "Tradição com chocolate porque nostalgia sem açúcar é só saudade",
+    "tempo": "1h (20 min preparo + 40 min forno)",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "6 porções",
+    "dica": "Se o pudim rachar, culpe a vida adulta que é assim mesmo – doce e cheio de imperfeições."
+  },
+  {
+    "id": 1707,
+    "titulo": "Trufas de Chocolate com Pimenta – Pra Esquentar a Vida",
+    "slug": "trufas-de-chocolate-com-pimenta-pra-esquentar-a-vida",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "g de chocolate meio amargo",
+      "ml de creme de leite",
+      "pitada de pimenta caiena",
+      "Cacau em pó para polvilhar"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate e misture com o creme de leite e a pimenta.",
+      "Leve à geladeira por 2 horas até firmar.",
+      "Modele as trufas com as mãos e passe no cacau em pó."
+    ],
+    "descricao": "Porque apimentar a relação não precisa ser só no Whatsapp",
+    "tempo": "30 min (+ 2h geladeira)",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "12 trufas",
+    "dica": "Se a pimenta não te assustar, o boleto do cartão sim – aproveite a trufa."
+  },
+  {
+    "id": 1708,
+    "titulo": "Torta Gelada de Chocolate com Oreo – O Crime Perfeito",
+    "slug": "torta-gelada-de-chocolate-com-oreo-o-crime-perfeito",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "g de biscoito Oreo triturado",
+      "g de manteiga derretida",
+      "g de chocolate ao leite",
+      "ml de creme de leite"
+    ],
+    "modoPreparo": [
+      "Misture o biscoito com a manteiga e pressione na forma para formar a base.",
+      "Derreta o chocolate, misture com o creme de leite até ficar cremoso e despeje sobre a base.",
+      "Leve à geladeira por 3 horas antes de desenformar e servir."
+    ],
+    "descricao": "Porque misturar biscoito e chocolate é tão fácil quanto sumir da reunião chata",
+    "tempo": "25 min (+ 3h geladeira)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "8 porções",
+    "dica": "Se a vida te der biscoitos, faça torta. Se der boleto, chame um amigo pra dividir."
+  },
+  {
+    "id": 1709,
+    "titulo": "Fondue de Chocolate com Frutas – O Encontro que Não Acaba",
+    "slug": "fondue-de-chocolate-com-frutas-o-encontro-que-nao-acaba",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "g de chocolate meio amargo",
+      "ml de creme de leite",
+      "Frutas variadas (morango, banana, abacaxi)"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate com o creme de leite em fogo baixo até ficar homogêneo.",
+      "Lave e corte as frutas em pedaços para espetar.",
+      "Sirva o chocolate quente em recipiente e mergulhe as frutas."
+    ],
+    "descricao": "Praquela desculpa de reunião que termina só quando acaba o chocolate",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 30,00",
+    "porcoes": "4 porções",
+    "dica": "Se a reunião for longa, aumente o chocolate – pelo menos a boca não fica seca de tanto enrolar."
+  },
+  {
+    "id": 1710,
+    "titulo": "Pavê de Chocolate Branco com Framboesa – Amor em Camadas",
+    "slug": "pave-de-chocolate-branco-com-framboesa-amor-em-camadas",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "g de chocolate branco",
+      "lata de creme de leite",
+      "caixinha de framboesas frescas",
+      "pacote de biscoitos champagne",
+      "xícara de leite para molhar"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate branco, misture com o creme de leite até virar um creme liso.",
+      "Molhe os biscoitos no leite e faça uma camada na travessa.",
+      "Coloque uma camada do creme, espalhe algumas framboesas.",
+      "Repita as camadas e finalize com framboesas por cima.",
+      "Leve à geladeira por 4 horas antes de servir."
+    ],
+    "descricao": "Pra mostrar que sobremesa também entende de relacionamento complicado",
+    "tempo": "45 min (+ 4h geladeira)",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "6 porções",
+    "dica": "Se o amor não der certo, pelo menos o pavê vai estar geladinho pra consolar."
+  },
+  {
+    "id": 1711,
+    "titulo": "Brigadeirão de Chocolate – O Clássico Indestrutível",
+    "slug": "brigadeirao-de-chocolate-o-classico-indestrutivel",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "lata de leite condensado",
+      "lata de creme de leite",
+      "xícara de chocolate em pó",
+      "ovos",
+      "Chocolate granulado para decorar"
+    ],
+    "modoPreparo": [
+      "Bata no liquidificador o leite condensado, creme de leite, chocolate em pó e ovos.",
+      "Despeje na forma untada com manteiga e asse em banho-maria a 180ºC por 40 minutos.",
+      "Depois de frio, desenforme e decore com granulado."
+    ],
+    "descricao": "Porque todo mundo merece um brigadeiro que vira bolo e vice-versa",
+    "tempo": "1h (20 min preparo + 40 min forno)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "8 porções",
+    "dica": "Se a vida tá um brigadeirão, pelo menos o brigadeirão é doce e não cobra juros."
+  },
+  {
+    "id": 1712,
+    "titulo": "Bombom Gelado de Chocolate com Coco – Praíso na Boca",
+    "slug": "bombom-gelado-de-chocolate-com-coco-praiso-na-boca",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "g de chocolate ao leite",
+      "vidro pequeno de leite de coco",
+      "g de coco ralado",
+      "colher de sopa de açúcar"
+    ],
+    "modoPreparo": [
+      "Misture o leite de coco, coco ralado e açúcar até formar uma pasta.",
+      "Derreta o chocolate e preencha as forminhas pela metade.",
+      "Coloque uma colher da mistura de coco e cubra com mais chocolate.",
+      "Leve à geladeira por 2 horas para firmar."
+    ],
+    "descricao": "Porque às vezes o paraíso cabe numa mordida gelada e sem culpa",
+    "tempo": "25 min (+ 2h geladeira)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "10 bombons",
+    "dica": "Se o boleto chegar e a vontade de chorar bater, um bombom gelado ajuda mais que terapia."
+  },
+  {
+    "id": 1713,
+    "titulo": "Crepe Doce de Chocolate com Morango – Romance de Segunda",
+    "slug": "crepe-doce-de-chocolate-com-morango-romance-de-segunda",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "ovo",
+      "xícara de leite",
+      "colheres de sopa de açúcar",
+      "g de chocolate meio amargo picado",
+      "Morangos fatiados para rechear"
+    ],
+    "modoPreparo": [
+      "Misture a farinha, ovo, leite e açúcar até formar uma massa líquida.",
+      "Despeje uma concha na frigideira quente e faça o crepe fino.",
+      "Derreta o chocolate e espalhe sobre o crepe, adicione morangos e dobre.",
+      "Sirva quente."
+    ],
+    "descricao": "Pra alimentar o amor e a preguiça num só gesto",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "4 porções",
+    "dica": "Se o amor não der certo, pelo menos o crepe vai estar quente e gostoso pra te esquentar."
+  },
+  {
+    "id": 1714,
+    "titulo": "Cookies de Chocolate com Gotas e Café – Acorda, Vida!",
+    "slug": "cookies-de-chocolate-com-gotas-e-cafe-acorda-vida",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "xícaras de farinha de trigo",
+      "colher de chá de fermento em pó",
+      "g de manteiga",
+      "xícara de açúcar mascavo",
+      "ovo",
+      "colher de chá de café solúvel",
+      "g de gotas de chocolate"
+    ],
+    "modoPreparo": [
+      "Misture manteiga e açúcar até formar um creme.",
+      "Acrescente o ovo e o café solúvel, misture bem.",
+      "Adicione farinha e fermento, incorpore as gotas de chocolate.",
+      "Modele os cookies e asse a 180ºC por 12-15 minutos."
+    ],
+    "descricao": "Pra quem quer doce e café, porque adulto é isso: necessidade urgente",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "12 cookies",
+    "dica": "Se a vida tá difícil, o café e o cookie são a terapia que o boleto não cobre."
+  },
+  {
+    "id": 1715,
+    "titulo": "Pavê de Nutella com Amendoim – Porque Adulto Também Merece",
+    "slug": "pave-de-nutella-com-amendoim-porque-adulto-tambem-merece",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "pote de Nutella (200 g)",
+      "pacote de biscoitos de maisena",
+      "ml de leite para molhar biscoitos",
+      "xícara de amendoim torrado e triturado"
+    ],
+    "modoPreparo": [
+      "Molhe os biscoitos no leite e faça uma camada na travessa.",
+      "Espalhe uma camada generosa de Nutella e polvilhe amendoim.",
+      "Repita as camadas e finalize com amendoim.",
+      "Leve à geladeira por 3 horas antes de servir."
+    ],
+    "descricao": "Pra fingir que tá saudável enquanto entope o cartão",
+    "tempo": "30 min (+ 3h geladeira)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "6 porções",
+    "dica": "Se o amor não der certo, pelo menos a Nutella tá sempre disponível pra substituir."
+  },
+  {
+    "id": 1716,
+    "titulo": "Cupcake de Chocolate com Cobertura de Chantilly",
+    "slug": "cupcake-de-chocolate-com-cobertura-de-chantilly",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "/2 xícara de cacau em pó",
+      "xícara de açúcar",
+      "/2 xícara de óleo vegetal",
+      "ovos",
+      "colher de chá de fermento em pó",
+      "ml de creme de leite fresco para chantilly",
+      "colheres de sopa de açúcar para chantilly"
+    ],
+    "modoPreparo": [
+      "Misture farinha, cacau, açúcar e fermento.",
+      "Adicione óleo e ovos, mexa até homogeneizar.",
+      "Coloque a massa nas forminhas e asse a 180ºC por 20-25 minutos.",
+      "Bata o creme de leite com açúcar até formar chantilly e cubra os cupcakes."
+    ],
+    "descricao": "Porque a vida adulta precisa de dose extra de fofura (e açúcar)",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "12 cupcakes",
+    "dica": "Se o dia tá feio, um cupcake e chantilly podem ser seu sorriso – grátis e sem boleto."
+  },
+  {
+    "id": 1717,
+    "titulo": "Bombocado de Chocolate com Coco Cremoso",
+    "slug": "bombocado-de-chocolate-com-coco-cremoso",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "ovos",
+      "xícara de açúcar",
+      "xícara de farinha de trigo",
+      "g de chocolate meio amargo derretido",
+      "vidro pequeno de leite de coco",
+      "g de coco ralado"
+    ],
+    "modoPreparo": [
+      "Bata ovos e açúcar até ficar fofo.",
+      "Misture a farinha e o chocolate derretido.",
+      "Despeje em forma untada e asse a 180ºC por 25 minutos.",
+      "Faça um creme com leite de coco e coco ralado para acompanhar."
+    ],
+    "descricao": "Um abraço quente de chocolate que nem seu chefe sabe dar",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "8 porções",
+    "dica": "Se o chefe apertar, ofereça um bombocado – talvez ele aceite um abraço doce."
+  },
+  {
+    "id": 1718,
+    "titulo": "Sorvete de Chocolate Proteico Pós-Treino",
+    "slug": "sorvete-de-chocolate-proteico-pos-treino",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "bananas congeladas",
+      "scoops de whey sabor chocolate",
+      "ml de leite desnatado",
+      "colher de sopa de cacau em pó"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes até virar um creme.",
+      "Coloque no recipiente e leve ao congelador por 3 horas.",
+      "Sirva gelado."
+    ],
+    "descricao": "Pra poder dizer que chocolate também constrói músculo (mentira, mas vale)",
+    "tempo": "10 min (+ 3h congelador)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Se o personal não acreditar, mostre o sorvete – o resto a gente finge que é músculo."
+  },
+  {
+    "id": 1719,
+    "titulo": "Tiramisu de Chocolate com Café – Para Quem Não Tem Tempo de Viajar",
+    "slug": "tiramisu-de-chocolate-com-cafe-para-quem-nao-tem-tempo-de-viajar",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "g de queijo mascarpone",
+      "ovos (gemas e claras separadas)",
+      "colheres de sopa de açúcar",
+      "g de biscoitos champagne",
+      "ml de café forte frio",
+      "colheres de sopa de cacau em pó"
+    ],
+    "modoPreparo": [
+      "Bata as gemas com açúcar até ficar cremoso.",
+      "Misture o mascarpone e incorpore as claras em neve delicadamente.",
+      "Molhe os biscoitos no café e faça uma camada na travessa.",
+      "Cubra com o creme, repita as camadas e finalize com cacau em pó.",
+      "Leve à geladeira por 4 horas antes de servir."
+    ],
+    "descricao": "Um passaporte para a Itália sem precisar sair do sofá (nem do boleto)",
+    "tempo": "40 min (+ 4h geladeira)",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "6 porções",
+    "dica": "Se a vida tá amarga, o tiramisu é o seu café com açúcar – só não paga juros."
+  },
+  {
+    "id": 1720,
+    "titulo": "Pavê de Chocolate com Amora – Sofisticação que o Boleto Não Permite",
+    "slug": "pave-de-chocolate-com-amora-sofisticacao-que-o-boleto-nao-permite",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "lata de leite condensado",
+      "caixinha de creme de leite",
+      "g de chocolate meio amargo",
+      "pacote de biscoito champagne",
+      "xícara de amoras frescas",
+      "xícara de leite para molhar os biscoitos"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate e misture com o creme de leite.",
+      "Misture leite condensado e reserve.",
+      "Molhe os biscoitos no leite e faça uma camada na travessa.",
+      "Coloque uma camada do creme de chocolate, depois leite condensado e amoras.",
+      "Repita as camadas e finalize com amoras.",
+      "Leve à geladeira por 3 horas."
+    ],
+    "descricao": "Porque a gente tenta ser sofisticado, mas só o chocolate salva",
+    "tempo": "40 min (+ 3h geladeira)",
+    "dificuldade": "Médio",
+    "preco": "R$ 27,00",
+    "porcoes": "6 porções",
+    "dica": "Se a conta não fechar, pelo menos o pavê fecha com chave de chocolate."
+  },
+  {
+    "id": 1721,
+    "titulo": "Bolo de Caneca de Chocolate – Solução Para Rápidos e Estressados",
+    "slug": "bolo-de-caneca-de-chocolate-solucao-para-rapidos-e-estressados",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "colheres de sopa de farinha de trigo",
+      "colheres de sopa de açúcar",
+      "colheres de sopa de cacau em pó",
+      "ovo",
+      "colheres de sopa de leite",
+      "colheres de sopa de óleo",
+      "/2 colher de chá de fermento em pó"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes na caneca até ficar homogêneo.",
+      "Leve ao micro-ondas por 3 minutos em potência alta.",
+      "Deixe esfriar um pouco e coma direto da caneca."
+    ],
+    "descricao": "Porque às vezes o desespero pede bolo em 5 minutos (sem sair do sofá)",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "1 porção",
+    "dica": "Se o chefe ligar, diga que está em reunião importante com o micro-ondas."
+  },
+  {
+    "id": 1722,
+    "titulo": "Pavê de Chocolate com Doce de Leite e Amendoim – A Combinação Imbatível",
+    "slug": "pave-de-chocolate-com-doce-de-leite-e-amendoim-a-combinacao-imbativel",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "lata de doce de leite",
+      "g de chocolate meio amargo derretido",
+      "pacote de biscoito maisena",
+      "xícara de leite para molhar",
+      "/2 xícara de amendoim triturado"
+    ],
+    "modoPreparo": [
+      "Molhe os biscoitos no leite e faça uma camada na travessa.",
+      "Espalhe uma camada de doce de leite, depois uma de chocolate.",
+      "Polvilhe amendoim e repita as camadas.",
+      "Finalize com amendoim e leve à geladeira por 3 horas."
+    ],
+    "descricao": "Pra juntar o que a vida separou: chocolate, doce e amendoim",
+    "tempo": "35 min (+ 3h geladeira)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 24,00",
+    "porcoes": "6 porções",
+    "dica": "Se a vida te der amendoim, faça pavê – não precisa nem descascar boleto."
+  },
+  {
+    "id": 1723,
+    "titulo": "Panna Cotta de Chocolate com Calda de Frutas Vermelhas",
+    "slug": "panna-cotta-de-chocolate-com-calda-de-frutas-vermelhas",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "ml de creme de leite fresco",
+      "g de chocolate meio amargo picado",
+      "colheres de sopa de açúcar",
+      "folhas de gelatina hidratadas",
+      "xícara de frutas vermelhas para calda",
+      "colheres de sopa de açúcar para calda"
+    ],
+    "modoPreparo": [
+      "Aqueça o creme de leite com o açúcar e o chocolate até derreter.",
+      "Junte a gelatina dissolvida e mexa bem.",
+      "Distribua em forminhas e leve à geladeira por 4 horas.",
+      "Faça a calda cozinhando as frutas com açúcar até reduzir.",
+      "Sirva a panna cotta com a calda por cima."
+    ],
+    "descricao": "Sofisticação que nem sua conta bancária acredita",
+    "tempo": "30 min (+ 4h geladeira)",
+    "dificuldade": "Médio",
+    "preco": "R$ 32,00",
+    "porcoes": "6 porções",
+    "dica": "Se o boleto for surpresa, pelo menos a panna cotta não é – pode planejar."
+  },
+  {
+    "id": 1724,
+    "titulo": "Picolé Caseiro de Chocolate com Leite Condensado",
+    "slug": "picole-caseiro-de-chocolate-com-leite-condensado",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "lata de leite condensado",
+      "ml de leite",
+      "colheres de sopa de chocolate em pó"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar homogêneo.",
+      "Despeje nas forminhas, coloque os palitos e leve ao congelador por 6 horas.",
+      "Desenforme e sirva."
+    ],
+    "descricao": "Pra refrescar a alma enquanto a conta esquenta",
+    "tempo": "15 min (+ 6h congelador)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "6 picolés",
+    "dica": "Se a vida der calor, o picolé é seu ar-condicionado portátil (sem pagar luz)."
+  },
+  {
+    "id": 1725,
+    "titulo": "Brownie de Chocolate Branco com Framboesa",
+    "slug": "brownie-de-chocolate-branco-com-framboesa",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "g de chocolate branco",
+      "g de manteiga",
+      "xícara de açúcar",
+      "ovos",
+      "xícara de farinha de trigo",
+      "/2 xícara de framboesas frescas"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate branco com manteiga.",
+      "Misture açúcar e ovos, depois adicione o chocolate.",
+      "Incorpore a farinha e as framboesas delicadamente.",
+      "Asse a 180ºC por 25-30 minutos."
+    ],
+    "descricao": "Pra adoçar a vida com um toque de drama e fruta azeda",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 26,00",
+    "porcoes": "8 porções",
+    "dica": "Se a framboesa azedar, pelo menos o chocolate branco tá lá pra equilibrar a vida."
+  },
+  {
+    "id": 1726,
+    "titulo": "Milkshake de Chocolate com Café – Remédio para Segunda-feira",
+    "slug": "milkshake-de-chocolate-com-cafe-remedio-para-segunda-feira",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "bolas de sorvete de chocolate",
+      "ml de leite",
+      "ml de café forte frio",
+      "Chantilly para decorar (opcional)"
+    ],
+    "modoPreparo": [
+      "Bata o sorvete, leite e café até ficar cremoso.",
+      "Sirva em copos e decore com chantilly se quiser."
+    ],
+    "descricao": "Porque café e chocolate juntos são o combustível da sobrevivência",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "2 porções",
+    "dica": "Se a segunda te derrubar, esse milkshake te levanta – e não cobra taxa extra."
+  },
+  {
+    "id": 1727,
+    "titulo": "Bolo Gelado de Chocolate com Creme de Leite Ninho",
+    "slug": "bolo-gelado-de-chocolate-com-creme-de-leite-ninho",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "ovos",
+      "xícara de açúcar",
+      "xícara de farinha de trigo",
+      "/2 xícara de cacau em pó",
+      "colher de chá de fermento",
+      "lata de creme de leite",
+      "xícara de leite em pó (Ninho)"
+    ],
+    "modoPreparo": [
+      "Bata ovos e açúcar até dobrar de volume.",
+      "Adicione farinha, cacau e fermento, misture delicadamente.",
+      "Asse a 180ºC por 25 minutos, deixe esfriar.",
+      "Misture o creme de leite com o leite em pó até virar creme e espalhe sobre o bolo.",
+      "Leve à geladeira por 30 minutos antes de servir."
+    ],
+    "descricao": "Pra enganar o estômago e o coração com sabor e nostalgia",
+    "tempo": "1h (30 min preparo + 30 min geladeira)",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "8 porções",
+    "dica": "Se a vida não der bolo, faça um bolo gelado – pelo menos não precisa de calor humano."
+  },
+  {
+    "id": 1728,
+    "titulo": "Chocolate Quente Cremoso com Marshmallow – Adoçando o Tédio",
+    "slug": "chocolate-quente-cremoso-com-marshmallow-adocando-o-tedio",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "ml de leite",
+      "colheres de sopa de chocolate em pó",
+      "colheres de sopa de açúcar",
+      "Marshmallows para decorar"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite com o chocolate em pó e açúcar, mexendo até dissolver.",
+      "Sirva em canecas e coloque marshmallows por cima."
+    ],
+    "descricao": "Pra esquentar o coração enquanto o boleto congela sua conta",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida tá amarga, o chocolate quente é o abraço que o boleto não dá."
+  },
+  {
+    "id": 1729,
+    "titulo": "Pavê de Chocolate com Maracujá – O Azedinho que a Vida Pede",
+    "slug": "pave-de-chocolate-com-maracuja-o-azedinho-que-a-vida-pede",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "lata de leite condensado",
+      "g de chocolate meio amargo",
+      "caixinha de creme de leite",
+      "Polpa de 2 maracujás",
+      "pacote de biscoito maisena",
+      "xícara de leite para molhar"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate e misture com creme de leite.",
+      "Molhe os biscoitos no leite e faça uma camada.",
+      "Coloque uma camada de creme de chocolate, depois uma de leite condensado misturado com a polpa de maracujá.",
+      "Repita camadas e leve à geladeira por 3 horas."
+    ],
+    "descricao": "Porque nem só de chocolate vive o coração (mas quase)",
+    "tempo": "35 min (+ 3h geladeira)",
+    "dificuldade": "Médio",
+    "preco": "R$ 26,00",
+    "porcoes": "6 porções",
+    "dica": "Se o maracujá azedar a vida, o chocolate volta a adoçar – equilíbrio que a gente paga caro."
+  },
+  {
+    "id": 1730,
+    "titulo": "Trufas de Chocolate com Licor – Pra Esquentar as Conversas",
+    "slug": "trufas-de-chocolate-com-licor-pra-esquentar-as-conversas",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "g de chocolate meio amargo",
+      "ml de creme de leite",
+      "colheres de sopa de licor (ex: amarula, rum)",
+      "Cacau em pó para enrolar"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate e misture com creme de leite e licor.",
+      "Leve à geladeira por 2 horas até firmar.",
+      "Modele as trufas e passe no cacau em pó."
+    ],
+    "descricao": "Porque nem só de café vive a resenha da noite",
+    "tempo": "40 min (+ 2h geladeira)",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "15 trufas",
+    "dica": "Se a conversa travar, jogue uma trufa – chocolate e licor resolvem mais que reunião de condomínio."
+  },
+  {
+    "id": 1731,
+    "titulo": "Pavê de Chocolate com Castanhas – Porque Vida de Adulto é Séria",
+    "slug": "pave-de-chocolate-com-castanhas-porque-vida-de-adulto-e-seria",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "lata de leite condensado",
+      "g de chocolate meio amargo",
+      "caixinha de creme de leite",
+      "pacote de biscoito maisena",
+      "xícara de leite para molhar",
+      "/2 xícara de castanhas picadas"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate e misture com creme de leite.",
+      "Molhe os biscoitos no leite e faça uma camada na travessa.",
+      "Coloque uma camada de creme de chocolate, polvilhe castanhas.",
+      "Repita as camadas e finalize com castanhas.",
+      "Leve à geladeira por 3 horas."
+    ],
+    "descricao": "Pra fingir que você tá cuidando da saúde enquanto come doce",
+    "tempo": "40 min (+ 3h geladeira)",
+    "dificuldade": "Médio",
+    "preco": "R$ 27,00",
+    "porcoes": "6 porções",
+    "dica": "Se a vida apertar, pelo menos as castanhas dão um crunch pra segurar o choro."
+  },
+  {
+    "id": 1732,
+    "titulo": "Pavê de Chocolate com Abacaxi – Adoçando a Ressaca",
+    "slug": "pave-de-chocolate-com-abacaxi-adocando-a-ressaca",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "lata de leite condensado",
+      "g de chocolate ao leite",
+      "caixinha de creme de leite",
+      "xícara de abacaxi picado",
+      "pacote de biscoito maisena",
+      "xícara de leite para molhar"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate e misture com creme de leite.",
+      "Molhe os biscoitos no leite e faça uma camada na travessa.",
+      "Coloque camada de creme de chocolate, depois abacaxi.",
+      "Repita as camadas e leve à geladeira por 3 horas."
+    ],
+    "descricao": "Porque até o azedume do abacaxi precisa de um pouco de doce",
+    "tempo": "35 min (+ 3h geladeira)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "6 porções",
+    "dica": "Se a ressaca bater, esse pavê é seu melhor amigo – doce e hidratante."
+  },
+  {
+    "id": 1733,
+    "titulo": "Pão de Mel Recheado com Chocolate Cremoso",
+    "slug": "pao-de-mel-recheado-com-chocolate-cremoso",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "ovos",
+      "xícara de açúcar mascavo",
+      "xícara de mel",
+      "xícaras de farinha de trigo",
+      "colher de chá de canela",
+      "colher de chá de cravo em pó",
+      "colher de chá de fermento",
+      "g de chocolate meio amargo para recheio",
+      "ml de creme de leite"
+    ],
+    "modoPreparo": [
+      "Misture ovos, açúcar mascavo e mel até ficar homogêneo.",
+      "Adicione farinha, canela, cravo e fermento, misture.",
+      "Asse em forminhas untadas a 180ºC por 30 minutos.",
+      "Derreta o chocolate com creme de leite para o recheio.",
+      "Corte os pães ao meio e recheie com o creme."
+    ],
+    "descricao": "Porque doce e conforto são sinônimos de sobrevivência na vida adulta",
+    "tempo": "1h (30 min preparo + 30 min forno + 10 min recheio)",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "12 unidades",
+    "dica": "Se a vida te der mel e canela, faça pão de mel – pelo menos a boca fica doce."
+  },
+  {
+    "id": 1734,
+    "titulo": "Bombom de Chocolate com Caramelo Salgado",
+    "slug": "bombom-de-chocolate-com-caramelo-salgado",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "g de chocolate meio amargo",
+      "/2 xícara de açúcar",
+      "colheres de sopa de manteiga",
+      "/4 colher de chá de sal",
+      "ml de creme de leite"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate e preencha as forminhas pela metade.",
+      "Faça o caramelo derretendo açúcar até dourar, adicione manteiga, creme de leite e sal, mexa até homogêneo.",
+      "Coloque o caramelo sobre o chocolate nas forminhas e cubra com mais chocolate.",
+      "Leve à geladeira por 2 horas para firmar."
+    ],
+    "descricao": "O doce que tem mais sal que a sua conta bancária",
+    "tempo": "40 min (+ 2h geladeira)",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "12 bombons",
+    "dica": "Se a vida tá salgada, pelo menos o bombom é doce e com um toque de sal pra fingir equilíbrio."
+  },
+  {
+    "id": 1735,
+    "titulo": "Pavê de Chocolate com Chantilly e Morango – Clássico que Nunca Falha",
+    "slug": "pave-de-chocolate-com-chantilly-e-morango-classico-que-nunca-falha",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "pacote de biscoito champagne",
+      "g de chocolate meio amargo derretido",
+      "lata de creme de leite",
+      "ml de creme de leite fresco para chantilly",
+      "colheres de sopa de açúcar para chantilly",
+      "g de morangos fatiados",
+      "xícara de leite para molhar biscoitos"
+    ],
+    "modoPreparo": [
+      "Bata o creme de leite fresco com açúcar até formar chantilly.",
+      "Misture o chocolate derretido com o creme de leite normal até formar um creme.",
+      "Molhe os biscoitos no leite e faça uma camada na travessa.",
+      "Coloque uma camada do creme de chocolate, depois chantilly e morangos.",
+      "Repita as camadas e finalize com chantilly e morangos.",
+      "Leve à geladeira por 3 horas."
+    ],
+    "descricao": "Porque todo mundo merece um clássico pra fugir da rotina amarga",
+    "tempo": "30 min (+ 3h geladeira)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "6 porções",
+    "dica": "Se a rotina apertar, um pavê clássico com morango é o abraço doce que ninguém te dá."
+  },
+  {
+    "id": 1736,
+    "titulo": "Trufa Light de Chocolate com Abacate – Pra Enganar a Dieta",
+    "slug": "trufa-light-de-chocolate-com-abacate-pra-enganar-a-dieta",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "abacate maduro",
+      "colheres de sopa de cacau em pó",
+      "colheres de sopa de mel",
+      "Cacau em pó para enrolar"
+    ],
+    "modoPreparo": [
+      "Bata o abacate, cacau e mel até formar um creme.",
+      "Leve à geladeira por 1 hora para firmar.",
+      "Modele as trufas e passe no cacau em pó."
+    ],
+    "descricao": "Porque até na dieta a gente quer um pouco de gostoso e vergonhoso",
+    "tempo": "25 min (+ 1h geladeira)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "10 trufas",
+    "dica": "Se a dieta não der certo, pelo menos a trufa light não vai te julgar (mas o espelho sim)."
+  },
+  {
+    "id": 1737,
+    "titulo": "Pudim de Chocolate com Café – Despertar dos Deuses",
+    "slug": "pudim-de-chocolate-com-cafe-despertar-dos-deuses",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "lata de leite condensado",
+      "latas de leite (medida da lata condensado)",
+      "ovos",
+      "colheres de sopa de chocolate em pó",
+      "colheres de sopa de café solúvel",
+      "xícara de açúcar para calda"
+    ],
+    "modoPreparo": [
+      "Faça a calda caramelizando o açúcar e despeje na forma.",
+      "Bata no liquidificador leite condensado, leite, ovos, chocolate e café até ficar homogêneo.",
+      "Despeje na forma caramelizada e asse em banho-maria a 180°C por 40 minutos."
+    ],
+    "descricao": "Pra acordar até o mais preguiçoso dos boletos",
+    "tempo": "1h (20 min preparo + 40 min forno)",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "6 porções",
+    "dica": "Se o café não acordar você, pelo menos o pudim vai dar um gás – e não cobra hora extra."
+  },
+  {
+    "id": 1738,
+    "titulo": "Bolo de Chocolate com Recheio de Doce de Leite e Nozes",
+    "slug": "bolo-de-chocolate-com-recheio-de-doce-de-leite-e-nozes",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "ovos",
+      "xícara de açúcar",
+      "xícara de farinha de trigo",
+      "/2 xícara de cacau em pó",
+      "colher de chá de fermento",
+      "lata de doce de leite",
+      "/2 xícara de nozes picadas"
+    ],
+    "modoPreparo": [
+      "Bata ovos e açúcar até dobrar de volume.",
+      "Adicione farinha, cacau e fermento, misture delicadamente.",
+      "Asse a 180ºC por 40 minutos e deixe esfriar.",
+      "Corte o bolo ao meio, recheie com doce de leite e nozes.",
+      "Feche e sirva."
+    ],
+    "descricao": "Pra vida ser doce, mesmo que o boleto não",
+    "tempo": "1h20 (40 min preparo + 40 min forno)",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "10 porções",
+    "dica": "Se a vida te der nozes, faça um bolo – pelo menos elas não cobram juros."
+  },
+  {
+    "id": 1739,
+    "titulo": "Sorvete de Chocolate Vegano com Leite de Coco",
+    "slug": "sorvete-de-chocolate-vegano-com-leite-de-coco",
+    "categoria": "Sobremesa ",
+    "ingredientes": [
+      "ml de leite de coco",
+      "colheres de sopa de cacau em pó",
+      "/2 xícara de açúcar demerara",
+      "colher de chá de essência de baunilha"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes até ficar homogêneo.",
+      "Leve ao congelador por 4 horas, mexendo a cada hora para evitar cristais.",
+      "Sirva gelado."
+    ],
+    "descricao": "Pra provar que doce bom não precisa de drama animal",
+    "tempo": "15 min (+ 4h congelador)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida não for vegana, faça o sorvete vegano – pelo menos ele não reclama."
+  }
+]

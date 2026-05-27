@@ -1,0 +1,1022 @@
+[
+  {
+    "id": 1350,
+    "titulo": "Mini Pizzas de Pão de Forma Divertidas",
+    "slug": "mini-pizzas-de-pao-de-forma-divertidas",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "fatias de pão de forma sem casca",
+      "colheres de sopa de molho de tomate",
+      "g de queijo muçarela ralado",
+      "azeitonas fatiadas",
+      "Orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Corte as fatias de pão ao meio formando mini pães.",
+      "Espalhe o molho de tomate sobre cada mini pão.",
+      "Cubra com queijo, azeitonas e polvilhe orégano.",
+      "Leve ao forno preaquecido a 180°C por 10 minutos ou até o queijo derreter."
+    ],
+    "descricao": "Porque pizza gigante dá trabalho e criança tem atenção curta, igual a boleto vencido",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Se a criançada reclamar que é “muito saudável”, diga que é igual boleto: você não quer, mas tem que encarar mesmo assim."
+  },
+  {
+    "id": 1351,
+    "titulo": "Purê de Batata com Sorriso de Ervilhas",
+    "slug": "pure-de-batata-com-sorriso-de-ervilhas",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "batatas médias",
+      "/2 xícara de ervilhas cozidas",
+      "colheres de sopa de manteiga",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe as batatas até ficarem macias.",
+      "Amasse as batatas com manteiga e sal até virar purê.",
+      "Decore o purê com as ervilhas fazendo um sorriso (ou careta, depende do humor do dia)."
+    ],
+    "descricao": "O jeito mais fácil de fazer criança comer verdura sem virar guerra civil",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "3 porções",
+    "dica": "Se reclamar que é “comida de neném”, diga que adulto que só come miojo também não tá muito diferente, só menos engraçado."
+  },
+  {
+    "id": 1352,
+    "titulo": "Bolinhos Coloridos de Cenoura e Abobrinha",
+    "slug": "bolinhos-coloridos-de-cenoura-e-abobrinha",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "cenouras médias raladas",
+      "abobrinha média ralada",
+      "ovos",
+      "/2 xícara de farinha de trigo",
+      "Sal e pimenta a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Misture cenoura, abobrinha, ovos, farinha, sal e pimenta até formar uma massa.",
+      "Aqueça óleo na frigideira e coloque colheradas da massa.",
+      "Frite até dourar dos dois lados e escorra em papel absorvente."
+    ],
+    "descricao": "A única forma de fazer criança amar legumes sem precisar de mágica ou chantagem",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "6 porções",
+    "dica": "Se a criança perguntar “isso é comida de verdade?”, responda que sim, e que boletos também são comida pro seu bolso, só que mais dolorosa."
+  },
+  {
+    "id": 1353,
+    "titulo": "Sanduíche de Frango com Maionese de Abacate",
+    "slug": "sanduiche-de-frango-com-maionese-de-abacate",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "filés de peito de frango grelhados e fatiados",
+      "fatias de pão integral",
+      "/2 abacate maduro",
+      "colher de sopa de maionese",
+      "Folhas de alface",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Amasse o abacate com a maionese, sal e pimenta até virar um creme.",
+      "Passe o creme nas fatias de pão.",
+      "Monte o sanduíche com frango e alface."
+    ],
+    "descricao": "Um lanche que até quem odeia salada vai fingir que gosta (porque não pode reclamar)",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Se a criança reclamar que abacate é “bicho estranho”, diga que boletos também são bicho estranho, mas ninguém escapa deles."
+  },
+  {
+    "id": 1354,
+    "titulo": "Brigadeiro de Colher Nutritivo",
+    "slug": "brigadeiro-de-colher-nutritivo",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "lata de leite condensado light",
+      "colher de sopa de cacau em pó",
+      "colher de sopa de pasta de amendoim natural",
+      "Granulado de chocolate para decorar (opcional)"
+    ],
+    "modoPreparo": [
+      "Misture leite condensado, cacau e pasta de amendoim na panela.",
+      "Cozinhe em fogo baixo, mexendo sempre até engrossar.",
+      "Sirva em tigelas e decore com granulado."
+    ],
+    "descricao": "Brigadeiro que não deixa só a boca feliz, mas também a consciência (e o bolso, que já tá sofrendo)",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "4 porções",
+    "dica": "Se criança perguntar “isso é saudável?”, diga que é um ‘brigadeiro disfarçado’ igual adulto na reunião de segunda-feira."
+  },
+  {
+    "id": 1355,
+    "titulo": "Omelete de Queijo com Tomatinho Cereja",
+    "slug": "omelete-de-queijo-com-tomatinho-cereja",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "ovos",
+      "g de queijo muçarela ralado",
+      "tomatinhos cereja cortados ao meio",
+      "Sal e pimenta a gosto",
+      "Azeite para untar"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com sal e pimenta.",
+      "Aqueça a frigideira untada e despeje os ovos.",
+      "Quando começar a firmar, coloque o queijo e os tomatinhos.",
+      "Dobre a omelete ao meio e cozinhe até o queijo derreter."
+    ],
+    "descricao": "O jeito mais rápido de transformar ovo em festa, sem precisar de mágica ou internet lenta",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "1 porção",
+    "dica": "Se reclamar que ovo é “sem graça”, diga que boleto também é, mas a gente paga mesmo assim."
+  },
+  {
+    "id": 1356,
+    "titulo": "Smoothie Energético de Banana e Aveia",
+    "slug": "smoothie-energetico-de-banana-e-aveia",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "bananas maduras",
+      "xícara de leite (pode ser vegetal)",
+      "colheres de sopa de aveia",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque todos os ingredientes no liquidificador.",
+      "Bata até ficar homogêneo.",
+      "Sirva gelado."
+    ],
+    "descricao": "Porque criança cansada só se recupera com vitamina, não com série da Netflix",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "2 porções",
+    "dica": "Se criança reclamar que é “só vitamina”, diga que adulto tomando café preto é quase a mesma coisa, só que sem mel."
+  },
+  {
+    "id": 1357,
+    "titulo": "Espetinho de Frutas com Iogurte Colorido",
+    "slug": "espetinho-de-frutas-com-iogurte-colorido",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "maçã cortada em cubos",
+      "banana em rodelas",
+      "/2 mamão em cubos",
+      "pote de iogurte natural",
+      "Mel e frutas vermelhas para colorir o iogurte"
+    ],
+    "modoPreparo": [
+      "Monte os espetinhos intercalando as frutas.",
+      "Misture o iogurte com mel e frutas vermelhas para dar cor.",
+      "Sirva os espetinhos com o iogurte para mergulhar."
+    ],
+    "descricao": "O jeito mais fácil de fazer criança pensar que está comendo doce, mas é só fruta disfarçada",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "4 porções",
+    "dica": "Se a criançada reclamar que é “comida de adulto”, diga que adulto também reclama do chefe, mas tá lá, firme e forte."
+  },
+  {
+    "id": 1358,
+    "titulo": "Panquecas de Banana com Mel",
+    "slug": "panquecas-de-banana-com-mel",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "bananas maduras amassadas",
+      "ovo",
+      "/2 xícara de farinha de trigo",
+      "/4 xícara de leite",
+      "Mel para servir"
+    ],
+    "modoPreparo": [
+      "Misture banana, ovo, farinha e leite até formar massa homogênea.",
+      "Aqueça frigideira untada e coloque porções da massa.",
+      "Cozinhe dos dois lados até dourar.",
+      "Sirva com mel por cima."
+    ],
+    "descricao": "Porque a vida já é amarga demais, mas a panqueca não precisa ser",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "4 porções",
+    "dica": "Se reclamar que panqueca é “sem graça”, diga que boletos atrasados são muito mais emocionantes, só que ninguém quer."
+  },
+  {
+    "id": 1359,
+    "titulo": "Salada de Macarrão Colorida para Pequenos Gourmets",
+    "slug": "salada-de-macarrao-colorida-para-pequenos-gourmets",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "g de macarrão parafuso",
+      "/2 cenoura ralada",
+      "/2 pimentão vermelho picado",
+      "/2 xícara de milho verde",
+      "/2 xícara de ervilhas",
+      "Molho de iogurte ou maionese caseira"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão conforme instruções e escorra.",
+      "Misture o macarrão com os legumes e o molho.",
+      "Leve à geladeira por 15 minutos e sirva."
+    ],
+    "descricao": "Porque criança com fome não quer saber de salada, mas macarrão colorido é outra história",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 16,00",
+    "porcoes": "4 porções",
+    "dica": "Se criança reclamar que “tem verdura demais”, diga que adulto reclamando do trabalho é igual, mas salário é o que não vem."
+  },
+  {
+    "id": 1360,
+    "titulo": "Cookies Integrais de Chocolate e Aveia",
+    "slug": "cookies-integrais-de-chocolate-e-aveia",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "xícara de farinha integral",
+      "/2 xícara de aveia em flocos",
+      "/2 xícara de açúcar mascavo",
+      "/4 xícara de óleo de coco",
+      "ovo",
+      "/2 xícara de gotas de chocolate meio amargo",
+      "colher de chá de fermento em pó"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes até formar massa homogênea.",
+      "Faça bolinhas e achate na assadeira untada.",
+      "Asse em forno preaquecido a 180°C por 15 minutos."
+    ],
+    "descricao": "Porque criança merece doce, mas sem virar adulto quebrado no fim do mês",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "12 unidades",
+    "dica": "Se criança reclamar que “cookie integral não é cookie de verdade”, diga que boleto integral é o que dói mesmo, sem desconto."
+  },
+  {
+    "id": 1361,
+    "titulo": "Sopa Cremosa de Abóbora com Croutons Divertidos",
+    "slug": "sopa-cremosa-de-abobora-com-croutons-divertidos",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "g de abóbora picada",
+      "batata média",
+      "cenoura média",
+      "/2 cebola picada",
+      "xícaras de caldo de legumes",
+      "Pão para croutons",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, cenoura e abóbora na panela.",
+      "Adicione batata e caldo, cozinhe até os legumes amaciarem.",
+      "Bata tudo no mixer até virar creme.",
+      "Corte o pão em cubos, frite em azeite até dourar e sirva junto."
+    ],
+    "descricao": "A única sopa que criança aceita sem fingir que tá engasgando na vida",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "4 porções",
+    "dica": "Se criança reclamar que sopa é “comida de doente”, diga que adulto também só quer sopa quando a vida aperta, mas chama de “momento detox”."
+  },
+  {
+    "id": 1362,
+    "titulo": "Wrap de Frango com Queijo e Verduras",
+    "slug": "wrap-de-frango-com-queijo-e-verduras",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "tortilhas de trigo",
+      "g de frango desfiado temperado",
+      "g de queijo prato fatiado",
+      "Folhas de alface e tomate fatiado",
+      "Maionese ou molho de sua preferência"
+    ],
+    "modoPreparo": [
+      "Aqueça as tortilhas na frigideira.",
+      "Monte os wraps com frango, queijo, alface, tomate e maionese.",
+      "Enrole firme e corte ao meio para servir."
+    ],
+    "descricao": "Porque enrolar comida é igual enrolar reunião chata: todo mundo gosta, mas ninguém quer sair antes",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "3 porções",
+    "dica": "Se criança reclamar que “não quer comida enrolada”, diga que adulto também não quer contas enroladas, mas paga do mesmo jeito."
+  },
+  {
+    "id": 1363,
+    "titulo": "Muffins de Maçã e Canela para Pequenos Fominhas",
+    "slug": "muffins-de-maca-e-canela-para-pequenos-fominhas",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "maçãs raladas",
+      "e 1/2 xícara de farinha de trigo",
+      "/2 xícara de açúcar",
+      "/2 xícara de leite",
+      "ovo",
+      "colher de chá de canela",
+      "colher de chá de fermento em pó",
+      "/4 xícara de óleo"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes secos.",
+      "Em outra tigela, misture ovo, leite, óleo e maçã.",
+      "Junte as duas misturas e mexa até homogeneizar.",
+      "Coloque nas forminhas e asse a 180°C por 25 minutos."
+    ],
+    "descricao": "O jeito mais gostoso de fazer a criançada pedir mais fruta que doce (quase um milagre)",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 16,00",
+    "porcoes": "8 unidades",
+    "dica": "Se criança reclamar que “bolo é coisa de adulto”, diga que adulto que paga boleto também reclama, mas não tem escolha."
+  },
+  {
+    "id": 1364,
+    "titulo": "Arroz Colorido com Legumes e Frango",
+    "slug": "arroz-colorido-com-legumes-e-frango",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "xícaras de arroz cozido",
+      "g de peito de frango em cubos",
+      "/2 pimentão vermelho picado",
+      "/2 cenoura ralada",
+      "/2 xícara de ervilhas",
+      "Sal, azeite e temperos a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue o frango até dourar e reserve.",
+      "Na mesma panela, refogue os legumes até ficarem macios.",
+      "Misture o arroz, o frango e os legumes.",
+      "Ajuste o sal e sirva quente."
+    ],
+    "descricao": "A receita que faz criança pensar que tá comendo arco-íris, mas é só comida mesmo",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Se criança perguntar “tem grama nesse prato?”, responda que é só tempero, diferente do boleto que é grana que some."
+  },
+  {
+    "id": 1365,
+    "titulo": "Tapioca Recheada com Banana e Canela",
+    "slug": "tapioca-recheada-com-banana-e-canela",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca hidratada",
+      "banana fatiada",
+      "Canela em pó a gosto",
+      "Mel para servir"
+    ],
+    "modoPreparo": [
+      "Espalhe a goma na frigideira quente formando uma disco.",
+      "Quando firmar, coloque as fatias de banana e polvilhe canela.",
+      "Dobre a tapioca ao meio e sirva com mel."
+    ],
+    "descricao": "Porque tapioca é tipo boleto: parece simples, mas sempre dá um trabalhinho",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "2 porções",
+    "dica": "Se criança reclamar que tapioca não é sobremesa, diga que adulto que paga boleto também não acha, mas não tem jeito."
+  },
+  {
+    "id": 1366,
+    "titulo": "Salgadinho de Queijo Assado em Formato de Estrela",
+    "slug": "salgadinho-de-queijo-assado-em-formato-de-estrela",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "g de queijo minas ralado",
+      "xícara de farinha de trigo",
+      "/2 xícara de manteiga gelada",
+      "gema para pincelar",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Misture queijo, farinha, manteiga e sal até formar massa.",
+      "Abra a massa e corte com cortador em formato de estrela.",
+      "Pincele gema e asse a 180°C por 15 minutos."
+    ],
+    "descricao": "O jeito mais divertido de fazer criança pensar que está comendo festa, não lanche",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "6 porções",
+    "dica": "Se criança reclamar que é “coisa de adulto”, diga que adulto também reclama do chefe, mas ainda assim paga boleto."
+  },
+  {
+    "id": 1367,
+    "titulo": "Iogurte Caseiro com Mel e Frutinhas",
+    "slug": "iogurte-caseiro-com-mel-e-frutinhas",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "litro de leite integral",
+      "colheres de sopa de iogurte natural (para iniciar)",
+      "Mel a gosto",
+      "Frutas picadas (morango, kiwi, etc)"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite até quase ferver e deixe esfriar até 40°C.",
+      "Misture o iogurte e coloque nos potes.",
+      "Deixe na geladeira por 6 horas.",
+      "Sirva com mel e frutas."
+    ],
+    "descricao": "A sobremesa que engana e ainda ajuda na digestão, porque criança também merece conforto pós-batalha",
+    "tempo": "20 min + 6h geladeira",
+    "dificuldade": "Médio",
+    "preco": "R$ 10,00",
+    "porcoes": "4 porções",
+    "dica": "Se criança reclamar que “tem que esperar muito”, diga que espera por boleto no banco é mais demorado e ninguém reclama."
+  },
+  {
+    "id": 1368,
+    "titulo": "Bolo de Cenoura com Cobertura de Chocolate Saudável",
+    "slug": "bolo-de-cenoura-com-cobertura-de-chocolate-saudavel",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "cenouras médias",
+      "ovos",
+      "/2 xícara de óleo",
+      "xícaras de farinha de trigo",
+      "e 1/2 xícara de açúcar",
+      "colher de sopa de fermento em pó",
+      "g de chocolate meio amargo para cobertura"
+    ],
+    "modoPreparo": [
+      "Bata cenoura, ovos e óleo no liquidificador.",
+      "Misture a farinha, açúcar e fermento em uma tigela.",
+      "Junte as duas misturas e mexa até homogêneo.",
+      "Asse a 180°C por 40 minutos.",
+      "Derreta o chocolate e cubra o bolo depois de frio."
+    ],
+    "descricao": "Porque bolo de cenoura é o único jeito de criança comer legume feliz e sujando tudo",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "10 porções",
+    "dica": "Se criança reclamar que bolo é com muita cenoura, diga que boleto tem muita taxa e ninguém reclama."
+  },
+  {
+    "id": 1369,
+    "titulo": "Espaguete à Bolonhesa Infantil",
+    "slug": "espaguete-a-bolonhesa-infantil",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "g de macarrão espaguete",
+      "g de carne moída magra",
+      "/2 cebola picada",
+      "tomates maduros picados",
+      "colheres de sopa de extrato de tomate",
+      "Sal, azeite e temperos a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão conforme instruções e escorra.",
+      "Refogue a cebola no azeite, adicione a carne e cozinhe até dourar.",
+      "Acrescente tomates, extrato, sal e cozinhe até apurar.",
+      "Misture o molho ao macarrão e sirva."
+    ],
+    "descricao": "A desculpa perfeita pra criança comer carne moída sem reclamar nem um pouco",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "4 porções",
+    "dica": "Se criança reclamar que “tem carne estranha”, diga que boleto também é estranho, mas todo mês aparece."
+  },
+  {
+    "id": 1370,
+    "titulo": "Espetinho de Queijo Coalho com Mel e Orégano",
+    "slug": "espetinho-de-queijo-coalho-com-mel-e-oregano",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "g de queijo coalho em cubos",
+      "Mel a gosto",
+      "Orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Espete os cubos de queijo nos palitos.",
+      "Grelhe em frigideira até dourar.",
+      "Regue com mel e polvilhe orégano antes de servir."
+    ],
+    "descricao": "A combinação que faz criança pensar que está comendo doce e adulto fingir que dieta funciona",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "4 porções",
+    "dica": "Se criança reclamar que “queijo com mel é esquisito”, diga que boleto com juros também é, mas a gente paga."
+  },
+  {
+    "id": 1371,
+    "titulo": "Crepioca Colorida com Recheio de Frango",
+    "slug": "crepioca-colorida-com-recheio-de-frango",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "ovo",
+      "Corante natural (beterraba, espinafre) opcional",
+      "g de frango desfiado temperado",
+      "Queijo ralado a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a goma, o ovo e o corante escolhido.",
+      "Aqueça a frigideira e despeje a mistura formando discos.",
+      "Cozinhe dos dois lados, recheie com frango e queijo, dobre e sirva."
+    ],
+    "descricao": "A tapioca moderninha que faz criança esquecer que tá comendo ovo (e adulto que tá na dieta)",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Se criança perguntar “por que a comida é colorida?”, diga que é pra animar, diferente das contas que só chegam cinzas."
+  },
+  {
+    "id": 1372,
+    "titulo": "Nuggets Caseiros de Frango Crocantes",
+    "slug": "nuggets-caseiros-de-frango-crocantes",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "g de peito de frango moído",
+      "ovo",
+      "/2 xícara de farinha de rosca",
+      "Sal e temperos a gosto",
+      "Farinha de trigo para empanar"
+    ],
+    "modoPreparo": [
+      "Misture o frango, ovo, farinha de rosca e temperos.",
+      "Modele os nuggets, passe na farinha de trigo e na farinha de rosca.",
+      "Asse a 200°C por 25 minutos, virando na metade do tempo."
+    ],
+    "descricao": "Porque nuggets prontos são a desculpa perfeita para o delivery, mas a gente pode ser mais raiz",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "5 porções",
+    "dica": "Se criança reclamar que “não tem sabor de fast food”, diga que boleto também não tem sabor, só dói no bolso."
+  },
+  {
+    "id": 1373,
+    "titulo": "Mingau de Aveia com Frutas e Mel",
+    "slug": "mingau-de-aveia-com-frutas-e-mel",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "/2 xícara de aveia em flocos",
+      "xícara de leite",
+      "Mel a gosto",
+      "Frutas picadas para decorar"
+    ],
+    "modoPreparo": [
+      "Cozinhe a aveia no leite até engrossar.",
+      "Sirva em tigelas, decore com frutas e mel."
+    ],
+    "descricao": "O café da manhã que faz criança pensar que tá na casa da vovó, sem precisar de cólica",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "2 porções",
+    "dica": "Se criança reclamar que mingau é “comida de doente”, diga que boletos também deixam a gente doente, mas não tem escapatória."
+  },
+  {
+    "id": 1374,
+    "titulo": "Sanduíche Divertido de Pepino e Cream Cheese",
+    "slug": "sanduiche-divertido-de-pepino-e-cream-cheese",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "fatias de pão de forma integral",
+      "g de cream cheese",
+      "pepino fatiado finamente",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Espalhe cream cheese nas fatias de pão.",
+      "Coloque as fatias de pepino formando desenhos ou rostinhos.",
+      "Feche o sanduíche e sirva."
+    ],
+    "descricao": "O lanche que faz criança pensar que tá comendo arte, não comida chata",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "2 porções",
+    "dica": "Se criança reclamar que “não é lanche de verdade”, diga que adulto que paga boleto também acha que não é vida, mas é."
+  },
+  {
+    "id": 1375,
+    "titulo": "Pizza de Tapioca com Queijo e Presunto",
+    "slug": "pizza-de-tapioca-com-queijo-e-presunto",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "g de queijo muçarela fatiado",
+      "g de presunto fatiado",
+      "Orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Espalhe a goma na frigideira formando disco.",
+      "Quando firmar, coloque queijo, presunto e orégano.",
+      "Dobre a tapioca ao meio e cozinhe até queijo derreter."
+    ],
+    "descricao": "A pizza que não pesa no estômago nem no orçamento, ideal pra criança e adulto cansado",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "2 porções",
+    "dica": "Se criança reclamar que “não é pizza de verdade”, diga que boleto também não é presente, mas ninguém devolve."
+  },
+  {
+    "id": 1376,
+    "titulo": "Sorvete Caseiro de Iogurte com Morango",
+    "slug": "sorvete-caseiro-de-iogurte-com-morango",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "potes de iogurte natural",
+      "xícara de morangos picados",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador.",
+      "Coloque em potes e leve ao congelador por 4 horas.",
+      "Sirva gelado."
+    ],
+    "descricao": "A sobremesa gelada que faz criança esquecer que foi embora a mamãe da sorveteria",
+    "tempo": "10 min + congelamento",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Se criança reclamar que “não é sorvete de verdade”, diga que boleto também não é diversão, mas tá aí pra gente pagar."
+  },
+  {
+    "id": 1377,
+    "titulo": "Crepe Doce de Chocolate e Morango",
+    "slug": "crepe-doce-de-chocolate-e-morango",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "ovo",
+      "xícara de leite",
+      "colheres de sopa de açúcar",
+      "g de chocolate meio amargo derretido",
+      "Morangos fatiados"
+    ],
+    "modoPreparo": [
+      "Misture farinha, ovo, leite e açúcar até virar massa líquida.",
+      "Cozinhe finas camadas na frigideira até dourar.",
+      "Recheie com chocolate derretido e morangos, dobre e sirva."
+    ],
+    "descricao": "O jeito mais rápido de fazer criança esquecer que tem que dormir cedo",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Se criança reclamar que é “muito doce”, diga que boleto também é, mas não tem como adoçar."
+  },
+  {
+    "id": 1378,
+    "titulo": "Bolinho de Chuva Integral com Canela",
+    "slug": "bolinho-de-chuva-integral-com-canela",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "xícara de farinha integral",
+      "/2 xícara de açúcar mascavo",
+      "ovo",
+      "/2 xícara de leite",
+      "colher de chá de fermento",
+      "Canela em pó para polvilhar",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes até formar massa.",
+      "Frite colheradas em óleo quente até dourar.",
+      "Escorra e polvilhe canela."
+    ],
+    "descricao": "Porque bolinho de chuva é felicidade que nem boleto atrasado estraga",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "10 porções",
+    "dica": "Se criança reclamar que bolinho é “coisa de velho”, diga que adulto que paga boleto também reclama, mas não tem escapatória."
+  },
+  {
+    "id": 1379,
+    "titulo": "Pizza de Batata Doce com Queijo e Tomate",
+    "slug": "pizza-de-batata-doce-com-queijo-e-tomate",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "batatas doces médias raladas",
+      "g de queijo muçarela ralado",
+      "tomate fatiado",
+      "Orégano e sal a gosto",
+      "Azeite"
+    ],
+    "modoPreparo": [
+      "Esprema a batata doce ralada para tirar líquido.",
+      "Misture com sal e espalhe em forma formando disco.",
+      "Asse a 200°C por 20 minutos.",
+      "Cubra com queijo, tomate e orégano e asse mais 10 minutos."
+    ],
+    "descricao": "A pizza que faz criança pensar que tá comendo batata frita, mas é saúde na veia",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "3 porções",
+    "dica": "Se criança reclamar que pizza é diferente, diga que boleto também muda todo mês, e ninguém entende."
+  },
+  {
+    "id": 1380,
+    "titulo": "Muffin Salgado de Espinafre e Queijo",
+    "slug": "muffin-salgado-de-espinafre-e-queijo",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "/2 xícara de leite",
+      "ovo",
+      "/2 xícara de espinafre cozido picado",
+      "g de queijo ralado",
+      "colher de chá de fermento",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture farinha, fermento, sal e pimenta.",
+      "Em outra tigela, bata ovo, leite, espinafre e queijo.",
+      "Junte as duas misturas e mexa.",
+      "Coloque nas forminhas e asse a 180°C por 25 minutos."
+    ],
+    "descricao": "O jeito mais fácil de fazer criança comer verdura e ainda pedir bis",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 17,00",
+    "porcoes": "8 unidades",
+    "dica": "Se criança reclamar que “verdura não é gostosa”, diga que boleto também não, mas a gente paga sorrindo (ou fingindo)."
+  },
+  {
+    "id": 1381,
+    "titulo": "Picolé de Frutas Natural",
+    "slug": "picole-de-frutas-natural",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "xícaras de frutas variadas picadas (melancia, morango, manga)",
+      "xícara de água ou suco natural",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Bata as frutas com água e mel no liquidificador.",
+      "Coloque nas forminhas e leve ao congelador por 4 horas.",
+      "Sirva gelado."
+    ],
+    "descricao": "A sobremesa gelada que não derrete rápido, diferente da paciência dos pais",
+    "tempo": "10 min + congelamento",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "6 porções",
+    "dica": "Se criança reclamar que demora, diga que boleto também demora pra acabar, e ninguém reclama."
+  },
+  {
+    "id": 1382,
+    "titulo": "Cuscuz Nordestino Colorido para Criançada",
+    "slug": "cuscuz-nordestino-colorido-para-criancada",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "xícaras de flocão de milho",
+      "xícaras de água quente",
+      "/2 xícara de ervilhas",
+      "/2 cenoura ralada",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o flocão com sal e legumes.",
+      "Regue com água quente e misture.",
+      "Leve para cozinhar na cuscuzeira por 15 minutos.",
+      "Sirva quente."
+    ],
+    "descricao": "Porque comida regional também pode ser a estrela do lanche da molecada",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "4 porções",
+    "dica": "Se criança reclamar que “parece areia”, diga que boleto que nem areia é: você pisa e não some nunca."
+  },
+  {
+    "id": 1383,
+    "titulo": "Pastelzinho Assado de Ricota e Espinafre",
+    "slug": "pastelzinho-assado-de-ricota-e-espinafre",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "g de massa para pastel pronta",
+      "g de ricota amassada",
+      "/2 xícara de espinafre cozido e picado",
+      "Sal e noz-moscada a gosto",
+      "gema para pincelar"
+    ],
+    "modoPreparo": [
+      "Misture ricota, espinafre, sal e noz-moscada.",
+      "Corte a massa em círculos, recheie e feche como pastel.",
+      "Pincele gema e asse a 180°C por 25 minutos."
+    ],
+    "descricao": "O salgadinho saudável que faz criança esquecer que tá comendo verdura",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "6 porções",
+    "dica": "Se criança reclamar que “pastel assado não é pastel”, diga que boleto assado no bolso também não é nada bom."
+  },
+  {
+    "id": 1384,
+    "titulo": "Mousse de Maracujá Natural",
+    "slug": "mousse-de-maracuja-natural",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "lata de leite condensado",
+      "lata de creme de leite",
+      "lata de suco de maracujá concentrado"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador.",
+      "Coloque em taças e leve à geladeira por 2 horas.",
+      "Sirva gelado."
+    ],
+    "descricao": "A sobremesa que faz criança pensar que tá na praia, sem sair da cozinha",
+    "tempo": "15 min + geladeira",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "4 porções",
+    "dica": "Se criança reclamar que “é azedo”, diga que boleto também é, mas a gente paga sorrindo (ou quase)."
+  },
+  {
+    "id": 1385,
+    "titulo": "Wrap de Banana com Pasta de Amendoim",
+    "slug": "wrap-de-banana-com-pasta-de-amendoim",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "tortilhas de trigo",
+      "colheres de sopa de pasta de amendoim",
+      "banana fatiada"
+    ],
+    "modoPreparo": [
+      "Espalhe a pasta de amendoim nas tortilhas.",
+      "Coloque fatias de banana e enrole.",
+      "Corte ao meio e sirva."
+    ],
+    "descricao": "O lanche que faz criança esquecer que pasta de amendoim é grude e adulto que paga boleto é grude no banco",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "2 porções",
+    "dica": "Se criança reclamar que “é grudenta”, diga que boleto grudado no orçamento é o pior dos grudentos."
+  },
+  {
+    "id": 1386,
+    "titulo": "Bolinho de Arroz Assado com Queijo",
+    "slug": "bolinho-de-arroz-assado-com-queijo",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "xícaras de arroz cozido",
+      "/2 xícara de queijo ralado",
+      "ovo",
+      "Sal e temperos a gosto",
+      "Farinha de trigo para dar ponto"
+    ],
+    "modoPreparo": [
+      "Misture arroz, queijo, ovo, sal e temperos.",
+      "Acrescente farinha até dar ponto para modelar bolinhos.",
+      "Coloque na assadeira untada e asse a 180°C por 25 minutos."
+    ],
+    "descricao": "O jeito mais fácil de reaproveitar sobras e evitar que criança reclame de novo",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 10,00",
+    "porcoes": "6 porções",
+    "dica": "Se criança reclamar que “é comida velha”, diga que boleto atrasado também é velho, mas a gente paga."
+  },
+  {
+    "id": 1387,
+    "titulo": "Espetinho de Legumes Grelhados com Molho Especial",
+    "slug": "espetinho-de-legumes-grelhados-com-molho-especial",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "Abobrinha, cenoura, pimentão em cubos",
+      "Azeite, sal e ervas finas",
+      "Molho de iogurte com limão para acompanhar"
+    ],
+    "modoPreparo": [
+      "Monte os espetinhos com os legumes.",
+      "Tempere com azeite, sal e ervas.",
+      "Grelhe até dourar e sirva com molho."
+    ],
+    "descricao": "A desculpa perfeita pra criança comer verdura sem perceber que tá fazendo bem",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Se criança reclamar que “tem muita verde”, diga que boleto também tem muita coisa verde (dinheiro que some)."
+  },
+  {
+    "id": 1388,
+    "titulo": "Panqueca de Aveia com Mel e Frutas",
+    "slug": "panqueca-de-aveia-com-mel-e-frutas",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "xícara de aveia em flocos finos",
+      "ovo",
+      "/2 xícara de leite",
+      "Mel e frutas para servir"
+    ],
+    "modoPreparo": [
+      "Misture aveia, ovo e leite até formar massa.",
+      "Cozinhe na frigideira porções da massa até dourar.",
+      "Sirva com mel e frutas."
+    ],
+    "descricao": "Porque panqueca saudável é quase um milagre na vida adulta e na infantil",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "3 porções",
+    "dica": "Se criança reclamar que panqueca é “sem graça”, diga que boleto também não é festa, mas faz parte."
+  },
+  {
+    "id": 1389,
+    "titulo": "Salada de Frutas com Sorvete de Iogurte",
+    "slug": "salada-de-frutas-com-sorvete-de-iogurte",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "Frutas variadas picadas (banana, maçã, morango, kiwi)",
+      "Sorvete de iogurte natural",
+      "Mel para adoçar"
+    ],
+    "modoPreparo": [
+      "Misture as frutas na tigela.",
+      "Sirva com uma bola de sorvete e um fio de mel."
+    ],
+    "descricao": "O jeito mais doce e saudável de fazer criança pedir sobremesa sem drama",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Se criança reclamar que “sorvete de iogurte não é sorvete de verdade”, diga que boleto também não é diversão, mas tá aí firme."
+  },
+  {
+    "id": 1390,
+    "titulo": "Bolo de Iogurte com Frutas Vermelhas",
+    "slug": "bolo-de-iogurte-com-frutas-vermelhas",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "pote de iogurte natural",
+      "ovos",
+      "xícaras de farinha de trigo",
+      "xícara de açúcar",
+      "/2 xícara de óleo",
+      "colher de sopa de fermento",
+      "xícara de frutas vermelhas"
+    ],
+    "modoPreparo": [
+      "Misture iogurte, ovos, açúcar e óleo.",
+      "Acrescente farinha e fermento, mexa até homogêneo.",
+      "Adicione frutas e despeje na forma.",
+      "Asse a 180°C por 40 minutos."
+    ],
+    "descricao": "O bolo que faz criança pensar que tá comendo festa, e adulto que tá no aperto pensar em férias",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "10 porções",
+    "dica": "Se criança reclamar que bolo é “com muita fruta”, diga que boleto com muita taxa também não é legal, mas não tem escapatória."
+  },
+  {
+    "id": 1391,
+    "titulo": "Pão de Queijo Miniatura Para Pequenos Fominhas",
+    "slug": "pao-de-queijo-miniatura-para-pequenos-fominhas",
+    "categoria": "Pra Criancada ",
+    "ingredientes": [
+      "g de polvilho doce",
+      "ml de leite",
+      "ml de óleo",
+      "ovos",
+      "g de queijo minas ralado",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Ferva leite, óleo e sal.",
+      "Despeje sobre o polvilho e misture até formar massa.",
+      "Acrescente ovos e queijo, misture bem.",
+      "Modele bolinhas e asse a 180°C por 25 minutos."
+    ],
+    "descricao": "Porque pão de queijo é o super-herói dos lanches infantis, salvando a fome e o humor",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "20 unidades",
+    "dica": "Se criança reclamar que “pão de queijo é pequeno”, diga que boleto também é pequeno, mas o susto é grande."
+  }
+]

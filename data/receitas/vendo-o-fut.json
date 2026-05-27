@@ -1,0 +1,1000 @@
+[
+  {
+    "id": 2026,
+    "titulo": "Shake Poderoso do Pós-Jogo",
+    "slug": "shake-poderoso-do-pos-jogo",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "ml leite desnatado",
+      "scoop whey protein sabor baunilha",
+      "banana madura",
+      "colheres de sopa aveia em flocos",
+      "colher de sopa mel"
+    ],
+    "modoPreparo": [
+      "Coloque todos os ingredientes no liquidificador.",
+      "Bata por 1 minuto até ficar homogêneo.",
+      "Sirva imediatamente para não perder o gás, igual ao atacante no segundo tempo."
+    ],
+    "descricao": "Proteína para aguentar o VAR e a vida real que não perdoa",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "1 porção",
+    "dica": "Se bater demais, vira sorvete e aí só serve no inverno, igual promessa de fim de ano que nunca sai do papel."
+  },
+  {
+    "id": 2027,
+    "titulo": "Sanduíche de Atacante Raçudo",
+    "slug": "sanduiche-de-atacante-racudo",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "fatias de pão integral",
+      "g peito de frango grelhado desfiado",
+      "folhas de alface",
+      "fatias de tomate",
+      "colher de sopa maionese light",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Grelhe o peito de frango temperado com sal e pimenta.",
+      "Monte o sanduíche com alface, tomate, frango e maionese entre as fatias de pão.",
+      "Sirva com a fome de quem está vendo o jogo e o churrasco atrasado."
+    ],
+    "descricao": "Porque se o atacante não for rápido, pelo menos o lanche tem que ser",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "1 porção",
+    "dica": "Se o sanduíche cair no chão, lembre-se: seis segundos de regra só valem para o futebol, não para a cozinha."
+  },
+  {
+    "id": 2028,
+    "titulo": "Omelete do Técnico Nervoso",
+    "slug": "omelete-do-tecnico-nervoso",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "ovos",
+      "colher de sopa queijo ralado",
+      "fatias de presunto picadas",
+      "Sal e pimenta a gosto",
+      "colher de sopa azeite"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com sal e pimenta.",
+      "Aqueça o azeite e despeje os ovos batidos na frigideira.",
+      "Adicione o presunto e o queijo, dobre a omelete e cozinhe até dourar."
+    ],
+    "descricao": "Pra levantar a moral depois de tomar aquele gol no último minuto",
+    "tempo": "12 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Se a omelete virar ovos mexidos, não se desespere, acontece até com técnico de VAR."
+  },
+  {
+    "id": 2029,
+    "titulo": "Salada do Zagueiro Imbatível",
+    "slug": "salada-do-zagueiro-imbativel",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "xícaras alface americana picada",
+      "xícara rúcula",
+      "pepino pequeno fatiado",
+      "tomates-cereja cortados ao meio",
+      "g queijo feta esfarelado",
+      "Azeite, sal e vinagre a gosto"
+    ],
+    "modoPreparo": [
+      "Lave e pique todas as verduras.",
+      "Misture em uma tigela com azeite, vinagre e sal.",
+      "Salpique o queijo feta por cima e sirva antes que o adversário ataque."
+    ],
+    "descricao": "Verde que te quero forte pra bloquear até boleto chato",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "2 porções",
+    "dica": "Se a salada murchar, não é só você que tá cansado, a alface também sente o peso da vida adulta."
+  },
+  {
+    "id": 2030,
+    "titulo": "Macarronada do Meia-Arteiro",
+    "slug": "macarronada-do-meia-arteiro",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "g macarrão integral",
+      "g carne moída magra",
+      "lata molho de tomate",
+      "cebola média picada",
+      "dentes alho picados",
+      "Sal, pimenta e orégano a gosto",
+      "Queijo parmesão ralado para polvilhar"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão conforme instruções da embalagem.",
+      "Refogue cebola e alho, acrescente a carne moída e tempere.",
+      "Junte o molho de tomate e deixe apurar por 10 minutos.",
+      "Misture o molho ao macarrão escorrido e sirva com parmesão."
+    ],
+    "descricao": "Energia de carboidrato pra driblar o sofá e a preguiça",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "3 porções",
+    "dica": "Se a massa grudar, não é só sua vida que tá complicada, até o macarrão quer atenção."
+  },
+  {
+    "id": 2031,
+    "titulo": "Tapioca do Goleiro Esperto",
+    "slug": "tapioca-do-goleiro-esperto",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "colheres de sopa goma de tapioca",
+      "fatias queijo minas frescal",
+      "fatias tomate",
+      "Orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça a frigideira e espalhe a goma formando uma camada fina.",
+      "Deixe cozinhar até firmar, coloque o queijo e o tomate.",
+      "Dobre a tapioca e deixe o queijo derreter, salpique orégano."
+    ],
+    "descricao": "Pra defender a fome e ainda marcar ponto com a saúde",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Se a tapioca grudar, não culpe só a frigideira, talvez você também tá grudado no sofá."
+  },
+  {
+    "id": 2032,
+    "titulo": "Suco Verde do Preparador Físico",
+    "slug": "suco-verde-do-preparador-fisico",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "maçã verde picada",
+      "pepino pequeno",
+      "folhas couve",
+      "Suco de 1 limão",
+      "ml água gelada"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar homogêneo.",
+      "Coe se preferir e sirva com gelo."
+    ],
+    "descricao": "Detox pra limpar a alma depois do VAR polêmico",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Se o suco ficar amargo, lembre-se: a vida já tem amargor suficiente, o suco não precisa ajudar."
+  },
+  {
+    "id": 2033,
+    "titulo": "Pizza do Torcedor Sofredor",
+    "slug": "pizza-do-torcedor-sofredor",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "g farinha de trigo",
+      "ml água morna",
+      "g fermento biológico",
+      "colher sopa azeite",
+      "g mussarela ralada",
+      "g molho de tomate",
+      "Orégano e manjericão a gosto"
+    ],
+    "modoPreparo": [
+      "Misture fermento com água morna, depois farinha e azeite; sove até formar massa.",
+      "Deixe crescer por 30 minutos coberta.",
+      "Abra a massa, espalhe molho, queijo e temperos.",
+      "Asse em forno pré-aquecido a 220°C por 15 minutos."
+    ],
+    "descricao": "Pra enganar a tristeza do placar e a conta do bar",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "4 porções",
+    "dica": "Se a massa não crescer, o único crescimento que você vai ver hoje é o preço do ingresso."
+  },
+  {
+    "id": 2034,
+    "titulo": "Barrinha Energética do Reservista",
+    "slug": "barrinha-energetica-do-reservista",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "xícara aveia em flocos",
+      "/2 xícara mel",
+      "/2 xícara pasta de amendoim integral",
+      "/4 xícara castanhas picadas",
+      "/4 xícara uvas-passas"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes até formar uma massa homogênea.",
+      "Forre uma forma com papel manteiga e aperte a mistura formando uma camada.",
+      "Leve à geladeira por 1 hora e corte em barrinhas."
+    ],
+    "descricao": "Energia na medida pra quem entra no segundo tempo da vida",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "5 porções",
+    "dica": "Se a barrinha quebrar, não se desespere, às vezes na vida só sobra migalha mesmo."
+  },
+  {
+    "id": 2035,
+    "titulo": "Caldo de Cana do Meio-Campo",
+    "slug": "caldo-de-cana-do-meio-campo",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "ml caldo de cana fresco",
+      "Suco de 1 limão pequeno"
+    ],
+    "modoPreparo": [
+      "Extraia o caldo da cana na hora.",
+      "Misture com o suco de limão e sirva gelado."
+    ],
+    "descricao": "Doce na medida pra manter a energia e a paciência com juiz",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "1 porção",
+    "dica": "Se não tiver espremedor, substitua por suco de laranja, que nem técnico, faz o que pode."
+  },
+  {
+    "id": 2036,
+    "titulo": "Bolinho de Arroz do Reserva Esperançoso",
+    "slug": "bolinho-de-arroz-do-reserva-esperancoso",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "xícaras arroz cozido",
+      "ovo",
+      "colheres farinha de trigo",
+      "/2 cebola picada",
+      "Sal, pimenta e cheiro-verde a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Misture o arroz, ovo, farinha, cebola e temperos até formar massa.",
+      "Modele bolinhos e frite em óleo quente até dourar.",
+      "Escorra em papel absorvente e sirva quente."
+    ],
+    "descricao": "Pra não desperdiçar e ainda tentar marcar um gol na cozinha",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Se o bolinho desmanchar, é igual promessa de campanha: muita enrolação e pouco resultado."
+  },
+  {
+    "id": 2037,
+    "titulo": "Panqueca do Atleta em Recuperação",
+    "slug": "panqueca-do-atleta-em-recuperacao",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "xícara farinha de aveia",
+      "ovo",
+      "xícara leite desnatado",
+      "colher chá fermento em pó",
+      "colher sopa mel",
+      "Frutas para cobertura (banana ou morango)"
+    ],
+    "modoPreparo": [
+      "Misture farinha, ovo, leite, mel e fermento até ficar homogêneo.",
+      "Aqueça a frigideira e despeje porções da massa.",
+      "Cozinhe cada lado até dourar e sirva com frutas."
+    ],
+    "descricao": "Refeição leve pra levantar do sofá e do limbo",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "3 porções",
+    "dica": "Se a panqueca grudar, é só um sinal que você também precisa levantar do sofá."
+  },
+  {
+    "id": 2038,
+    "titulo": "Espetinho de Frutas do Torcedor Fitness",
+    "slug": "espetinho-de-frutas-do-torcedor-fitness",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "maçã cortada em cubos",
+      "banana em rodelas",
+      "kiwi em cubos",
+      "xícara uvas sem sementes",
+      "Mel para regar"
+    ],
+    "modoPreparo": [
+      "Monte as frutas nos espetos intercalando as variedades.",
+      "Regue com mel e sirva fresco.",
+      "Leve à geladeira se preferir geladinho."
+    ],
+    "descricao": "Vitaminas no palito pra não deixar a preguiça ser gol",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "4 porções",
+    "dica": "Se alguma fruta escorregar do espeto, não se preocupe, até fruta tem vida difícil."
+  },
+  {
+    "id": 2039,
+    "titulo": "Risoto do Craque Sofisticado",
+    "slug": "risoto-do-craque-sofisticado",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "xícaras arroz arbóreo",
+      "cebola pequena picada",
+      "/2 xícara vinho branco seco",
+      "litro caldo de legumes quente",
+      "g queijo parmesão ralado",
+      "colheres sopa manteiga",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola na manteiga até ficar transparente.",
+      "Acrescente o arroz e mexa por 2 minutos.",
+      "Adicione o vinho e mexa até evaporar.",
+      "Vá colocando o caldo aos poucos, mexendo sempre até o arroz cozinhar.",
+      "Finalize com queijo parmesão, ajuste sal e pimenta."
+    ],
+    "descricao": "Pra impressionar a torcida sem perder o estilo (nem o apetite)",
+    "tempo": "40 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Se a paciência acabar antes do risoto, relaxa, até craque perde pênalti de vez em quando."
+  },
+  {
+    "id": 2040,
+    "titulo": "Smoothie de Banana e Café do Madrugador",
+    "slug": "smoothie-de-banana-e-cafe-do-madrugador",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "banana madura",
+      "ml café coado forte e frio",
+      "ml leite desnatado",
+      "colher sopa mel"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar homogêneo.",
+      "Sirva gelado e pronto pra virar craque no trabalho."
+    ],
+    "descricao": "Energia dupla pra acordar antes do juiz apitar o jogo",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "1 porção",
+    "dica": "Se o café acabar, tome só a banana, que pelo menos engana o estômago e o chefe."
+  },
+  {
+    "id": 2041,
+    "titulo": "Tostex do Volante Guerreiro",
+    "slug": "tostex-do-volante-guerreiro",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "fatias pão de forma integral",
+      "fatias queijo prato",
+      "fatias presunto magro",
+      "colher sopa manteiga"
+    ],
+    "modoPreparo": [
+      "Monte o sanduíche com presunto e queijo entre as fatias de pão.",
+      "Passe manteiga por fora e toste na sanduicheira ou frigideira até dourar.",
+      "Sirva quente e crocante pra não deixar a fome passar a bola."
+    ],
+    "descricao": "Reforço na marcação e na fome entre um jogo e outro",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "1 porção",
+    "dica": "Se queimar o pão, relaxa, até volante às vezes pisa na bola."
+  },
+  {
+    "id": 2042,
+    "titulo": "Sopa do Preparador Mental",
+    "slug": "sopa-do-preparador-mental",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "cenouras médias picadas",
+      "batatas médias picadas",
+      "cebola picada",
+      "dente alho",
+      "litro caldo de legumes",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho até dourar.",
+      "Acrescente cenoura, batata e caldo, cozinhe até os legumes amolecerem.",
+      "Bata no liquidificador, volte para a panela, ajuste temperos e aqueça antes de servir."
+    ],
+    "descricao": "Caldo quente pra acalmar o coração que tá no sufoco do campeonato",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 16,00",
+    "porcoes": "4 porções",
+    "dica": "Se a sopa ficar sem graça, coloque mais sal, que nem aquele atacante que só marca gol de vez em quando."
+  },
+  {
+    "id": 2043,
+    "titulo": "Wrap do Jogador em Viagem",
+    "slug": "wrap-do-jogador-em-viagem",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "tortilhas integrais",
+      "g peito de peru fatiado",
+      "folhas alface",
+      "fatias tomate",
+      "colheres sopa cream cheese light"
+    ],
+    "modoPreparo": [
+      "Espalhe cream cheese na tortilha.",
+      "Coloque alface, tomate e peito de peru.",
+      "Enrole firme, corte ao meio e sirva."
+    ],
+    "descricao": "Rápido, prático e sem frescura, igual aquele técnico que só fala no intervalo",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "2 porções",
+    "dica": "Se enrolar demais, vai virar nó e aí só serve pra amarrar as chuteiras."
+  },
+  {
+    "id": 2044,
+    "titulo": "Bolo de Banana do Volante Trabalhador",
+    "slug": "bolo-de-banana-do-volante-trabalhador",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "bananas maduras amassadas",
+      "ovos",
+      "/2 xícara óleo de coco",
+      "xícara açúcar mascavo",
+      "xícaras farinha de trigo integral",
+      "colher chá fermento em pó"
+    ],
+    "modoPreparo": [
+      "Misture bananas, ovos, óleo e açúcar.",
+      "Acrescente a farinha e o fermento, misture até ficar homogêneo.",
+      "Asse em forno médio 180°C por 40 minutos."
+    ],
+    "descricao": "Doce que dá energia pra aguentar o tranco e o boleto todo mês",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "8 porções",
+    "dica": "Se o bolo afundar, não é só sua vida que tá em crise, até o bolo tem seus dias ruins."
+  },
+  {
+    "id": 2045,
+    "titulo": "Bruschetta do Técnico Inspirado",
+    "slug": "bruschetta-do-tecnico-inspirado",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "baguete fatiada",
+      "tomates maduros picados",
+      "dentes alho picados",
+      "Manjericão fresco a gosto",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Toste as fatias de baguete levemente.",
+      "Misture tomate, alho, manjericão, azeite, sal e pimenta.",
+      "Cubra as torradas com a mistura e sirva."
+    ],
+    "descricao": "Entrada rápida pra levantar o astral do time e da cozinha",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "4 porções",
+    "dica": "Se o tomate estiver sem gosto, lembre-se: a vida também não costuma ser sempre doce."
+  },
+  {
+    "id": 2046,
+    "titulo": "Tapioca Doce do Torcedor Apaixonado",
+    "slug": "tapioca-doce-do-torcedor-apaixonado",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "colheres sopa goma de tapioca",
+      "colheres sopa leite condensado",
+      "colher sopa coco ralado"
+    ],
+    "modoPreparo": [
+      "Aqueça a frigideira e espalhe a goma formando uma camada fina.",
+      "Cozinhe até firmar, espalhe leite condensado e polvilhe coco.",
+      "Dobre a tapioca e sirva."
+    ],
+    "descricao": "Pra adoçar a derrota e a vida amorosa em crise",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "1 porção",
+    "dica": "Se a tapioca rasgar, não se preocupe, às vezes coração também sofre rasgos."
+  },
+  {
+    "id": 2047,
+    "titulo": "Bolinho de Grão-de-Bico do Meio-Campo Versátil",
+    "slug": "bolinho-de-grao-de-bico-do-meio-campo-versatil",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "xícaras grão-de-bico cozido",
+      "cebola pequena picada",
+      "dentes alho",
+      "/2 xícara farinha de trigo",
+      "Salsa, sal e pimenta a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Processe o grão-de-bico, cebola e alho até virar pasta.",
+      "Misture farinha e temperos, forme bolinhos.",
+      "Frite em óleo quente até dourar e escorra."
+    ],
+    "descricao": "Proteína vegana pra quem marca no ataque e na cozinha",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Se o bolinho desmanchar, não se abale, até craque às vezes perde a bola no meio-campo."
+  },
+  {
+    "id": 2048,
+    "titulo": "Cuscuz Paulista do Craque da Cozinha",
+    "slug": "cuscuz-paulista-do-craque-da-cozinha",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "xícaras farinha de milho flocada",
+      "lata sardinha",
+      "tomate picado",
+      "/2 cebola picada",
+      "pimentão pequeno picado",
+      "xícara água quente",
+      "Sal, azeite e cheiro-verde a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, tomate e pimentão, junte sardinha e tempere.",
+      "Misture a farinha com água quente até hidratar.",
+      "Acrescente o refogado, coloque na forma e pressione.",
+      "Deixe descansar 15 minutos e desenforme."
+    ],
+    "descricao": "Um prato só pra ganhar o jogo da praticidade e do sabor",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Se o cuscuz desmanchar, não é só sua carreira que tá instável, até comida tem crise."
+  },
+  {
+    "id": 2049,
+    "titulo": "Mousse de Maracujá do Torcedor Sofisticado",
+    "slug": "mousse-de-maracuja-do-torcedor-sofisticado",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "lata leite condensado",
+      "lata creme de leite",
+      "lata suco de maracujá concentrado"
+    ],
+    "modoPreparo": [
+      "Bata leite condensado, creme de leite e suco até ficar homogêneo.",
+      "Coloque em taças e leve à geladeira por 3 horas.",
+      "Sirva gelado e pronto pra apagar o sofrimento."
+    ],
+    "descricao": "Sobremesa que acalma até juiz em dia ruim",
+    "tempo": "20 min (+3h geladeira)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Se não endurecer, não se culpe, até a vida às vezes fica mole demais."
+  },
+  {
+    "id": 2050,
+    "titulo": "Tapioca com Ovo Mexido do Goleiro Atento",
+    "slug": "tapioca-com-ovo-mexido-do-goleiro-atento",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "colheres sopa goma de tapioca",
+      "ovos",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Faça a tapioca na frigideira até firmar.",
+      "Em outra frigideira, mexa os ovos com sal e pimenta.",
+      "Recheie a tapioca com ovos mexidos e dobre."
+    ],
+    "descricao": "Segurança no gol e no café da manhã, sem falhas",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Se o ovo grudar, não é só sua vida que tá pegajosa, até café da manhã tem seus dramas."
+  },
+  {
+    "id": 2051,
+    "titulo": "Salada de Quinoa do Meia Criativo",
+    "slug": "salada-de-quinoa-do-meia-criativo",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "xícara quinoa",
+      "pepino picado",
+      "tomates-cereja cortados",
+      "/2 cebola roxa picada",
+      "Azeite, limão, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a quinoa até ficar macia e deixe esfriar.",
+      "Misture com os vegetais e tempere.",
+      "Sirva fresca, como jogada ensaiada."
+    ],
+    "descricao": "Proteína e estilo pra quem joga fora e dentro de campo",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "3 porções",
+    "dica": "Se a quinoa ficar amarga, não se preocupe, às vezes nem o craque agrada todo mundo."
+  },
+  {
+    "id": 2052,
+    "titulo": "Churrasco do Torcedor Emocionado",
+    "slug": "churrasco-do-torcedor-emocionado",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "kg carne bovina (picanha ou fraldinha)",
+      "Sal grosso a gosto",
+      "Limão para pincelar"
+    ],
+    "modoPreparo": [
+      "Tempere a carne com sal grosso.",
+      "Grelhe na churrasqueira até o ponto desejado.",
+      "Pincele limão para dar sabor e sirva com alegria."
+    ],
+    "descricao": "Porque nada une mais que uma carne e um gol na última hora",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 50,00",
+    "porcoes": "6 porções",
+    "dica": "Se o churrasco atrasar, pelo menos você já tem desculpa pra faltar no jogo."
+  },
+  {
+    "id": 2053,
+    "titulo": "Biscoitos de Aveia do Preparador de Categoria",
+    "slug": "biscoitos-de-aveia-do-preparador-de-categoria",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "xícaras aveia em flocos",
+      "/2 xícara açúcar mascavo",
+      "/2 xícara óleo de coco",
+      "ovo",
+      "colher chá fermento em pó"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes até formar massa.",
+      "Modele bolinhas e achate na assadeira.",
+      "Asse em forno 180°C por 15 minutos."
+    ],
+    "descricao": "Snack saudável pra segurar a ansiedade do VAR",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "20 unidades",
+    "dica": "Se os biscoitos grudarem, pense que pelo menos não grudaram na sua consciência."
+  },
+  {
+    "id": 2054,
+    "titulo": "Misto Quente do Zagueiro Clássico",
+    "slug": "misto-quente-do-zagueiro-classico",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "fatias pão de forma",
+      "fatia queijo mussarela",
+      "fatia presunto",
+      "colher sopa manteiga"
+    ],
+    "modoPreparo": [
+      "Monte o sanduíche com presunto e queijo.",
+      "Passe manteiga nas fatias por fora.",
+      "Doure na sanduicheira ou frigideira até o queijo derreter."
+    ],
+    "descricao": "Simples, eficiente e sempre na defesa da fome",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "1 porção",
+    "dica": "Se o queijo não derreter, não é só seu coração que tá duro nesse jogo da vida."
+  },
+  {
+    "id": 2055,
+    "titulo": "Canja do Torcedor Convalescente",
+    "slug": "canja-do-torcedor-convalescente",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "peito de frango inteiro",
+      "xícara arroz",
+      "cenouras picadas",
+      "cebola picada",
+      "Sal e cheiro-verde a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o frango com cebola e sal até estar macio.",
+      "Retire o frango, desfie e volte o caldo com arroz e cenoura para cozinhar.",
+      "Junte o frango desfiado, ajuste temperos e cozinhe até o arroz ficar macio."
+    ],
+    "descricao": "Calorzinho amigo pra curar ressaca de derrota e de festa",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Se a canja ficar aguada, pense que até na cozinha às vezes a gente perde a bola."
+  },
+  {
+    "id": 2056,
+    "titulo": "Iogurte com Granola do Meia Atento",
+    "slug": "iogurte-com-granola-do-meia-atento",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "g iogurte natural desnatado",
+      "colheres sopa granola",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque o iogurte na tigela.",
+      "Acrescente a granola e regue com mel.",
+      "Misture na hora de consumir."
+    ],
+    "descricao": "Um café da manhã rápido pra assistir o jogo sem perder lance",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Se a granola amolecer, não significa que você está velho, é só ela que não aguenta o tranco."
+  },
+  {
+    "id": 2057,
+    "titulo": "Frango ao Curry do Atacante Internacional",
+    "slug": "frango-ao-curry-do-atacante-internacional",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "g peito de frango em cubos",
+      "cebola picada",
+      "dentes alho picados",
+      "colher sopa curry em pó",
+      "ml leite de coco",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho, acrescente frango e tempere.",
+      "Adicione curry e leite de coco, cozinhe até o frango ficar macio.",
+      "Ajuste temperos e sirva com arroz branco."
+    ],
+    "descricao": "Sabor de vitória pra quem quer marcar gol e conquistar paladar",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Se o curry ficar forte demais, pense que até craque às vezes exagera na comemoração."
+  },
+  {
+    "id": 2058,
+    "titulo": "Batata Doce Assada do Preparador Físico",
+    "slug": "batata-doce-assada-do-preparador-fisico",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "batatas doces médias",
+      "Azeite, sal e alecrim a gosto"
+    ],
+    "modoPreparo": [
+      "Lave e corte as batatas em palitos.",
+      "Tempere com azeite, sal e alecrim.",
+      "Asse em forno 200°C por 40 minutos até dourar."
+    ],
+    "descricao": "Carboidrato complexo pra correr atrás do prejuízo e da conta",
+    "tempo": "60 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "2 porções",
+    "dica": "Se a batata queimar, relaxa, às vezes até a batata está cansada de tanto esforço."
+  },
+  {
+    "id": 2059,
+    "titulo": "Salada Caprese do Técnico Italiano",
+    "slug": "salada-caprese-do-tecnico-italiano",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "tomates maduros fatiados",
+      "g mussarela de búfala fatiada",
+      "Folhas de manjericão fresco",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Intercale fatias de tomate e mussarela no prato.",
+      "Distribua as folhas de manjericão.",
+      "Regue com azeite, salpique sal e pimenta."
+    ],
+    "descricao": "Simples e elegante, pra fazer inveja até no VAR",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Se a mussarela não for fresca, o único gol será contra a sua saúde."
+  },
+  {
+    "id": 2060,
+    "titulo": "Panini do Jogador Estiloso",
+    "slug": "panini-do-jogador-estiloso",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "fatias pão ciabatta",
+      "fatias peito de peru",
+      "fatias queijo prato",
+      "colher sopa pesto"
+    ],
+    "modoPreparo": [
+      "Monte o sanduíche com pesto, peito de peru e queijo.",
+      "Prense no sanduicheira ou frigideira até o queijo derreter.",
+      "Sirva quente e crocante."
+    ],
+    "descricao": "Sanduba prensado pra impressionar a torcida e o crush",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "1 porção",
+    "dica": "Se o pão esfarelar, não se culpe, às vezes até o pão perde a bola na hora H."
+  },
+  {
+    "id": 2061,
+    "titulo": "Vitamina de Morango com Aveia do Meia Promessa",
+    "slug": "vitamina-de-morango-com-aveia-do-meia-promessa",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "xícara morangos frescos",
+      "banana madura",
+      "colheres sopa aveia",
+      "ml leite desnatado",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes até ficar homogêneo.",
+      "Sirva gelado para não perder o pique."
+    ],
+    "descricao": "Energia rápida pra quem quer jogar bem e não dormir no jogo",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vitamina ficar aguada, não se preocupe, até promessa às vezes é só água."
+  },
+  {
+    "id": 2062,
+    "titulo": "Ceviche do Torcedor Tropical",
+    "slug": "ceviche-do-torcedor-tropical",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "g filé de tilápia em cubos",
+      "Suco de 3 limões",
+      "cebola roxa fatiada",
+      "Coentro picado a gosto",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o peixe com suco de limão, cebola, coentro, sal e pimenta.",
+      "Deixe marinar na geladeira por 20 minutos.",
+      "Sirva fresco."
+    ],
+    "descricao": "Frescor pra não desanimar mesmo com jogo quente e clima quente",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "3 porções",
+    "dica": "Se o peixe ficar muito ácido, pense que às vezes a vida também dá umas piscadas erradas."
+  },
+  {
+    "id": 2063,
+    "titulo": "Batido de Proteína e Café do Apoiador Noturno",
+    "slug": "batido-de-proteina-e-cafe-do-apoiador-noturno",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "scoop whey protein chocolate",
+      "ml café coado frio",
+      "ml leite desnatado",
+      "colher sopa cacau em pó"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes até ficar cremoso.",
+      "Sirva gelado para não apagar no segundo tempo."
+    ],
+    "descricao": "Energia pra quem assiste jogo até de madrugada e ainda acorda cedo",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "1 porção",
+    "dica": "Se o café acabar, substitua por coragem, que é o que não falta pra quem assiste VAR."
+  },
+  {
+    "id": 2064,
+    "titulo": "Tapioca de Frango com Catupiry do Craque da Bola e da Cozinha",
+    "slug": "tapioca-de-frango-com-catupiry-do-craque-da-bola-e-da-cozinha",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "colheres sopa goma de tapioca",
+      "g frango desfiado temperado",
+      "colheres sopa catupiry"
+    ],
+    "modoPreparo": [
+      "Faça a tapioca na frigideira até firmar.",
+      "Recheie com frango e catupiry.",
+      "Dobre e deixe até o catupiry derreter."
+    ],
+    "descricao": "Recheio gostoso pra segurar a fome e a torcida",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "1 porção",
+    "dica": "Se a tapioca rasgar, pelo menos não foi seu coração que levou cartão vermelho."
+  },
+  {
+    "id": 2065,
+    "titulo": "Café com Leite do Técnico Padrão",
+    "slug": "cafe-com-leite-do-tecnico-padrao",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "ml café coado",
+      "ml leite quente",
+      "Açúcar a gosto"
+    ],
+    "modoPreparo": [
+      "Prepare o café coado.",
+      "Aqueça o leite e misture ao café.",
+      "Adoce a gosto e sirva quente."
+    ],
+    "descricao": "Clássico pra acordar e não dormir no meio do jogo",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,00",
+    "porcoes": "1 porção",
+    "dica": "Se o café ficar fraco, não é só o time que tá sem vontade, você também."
+  },
+  {
+    "id": 2066,
+    "titulo": "Bolo Salgado do Jogador Completo",
+    "slug": "bolo-salgado-do-jogador-completo",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "ovos",
+      "/2 xícara óleo",
+      "xícara leite",
+      "xícaras farinha de trigo",
+      "colher sopa fermento",
+      "g presunto picado",
+      "g queijo ralado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Bata ovos, óleo e leite.",
+      "Misture farinha, fermento, presunto, queijo, sal e pimenta.",
+      "Asse em forno 180°C por 40 minutos."
+    ],
+    "descricao": "Refeição que não deixa passar fome nem tempo de jogo",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "6 porções",
+    "dica": "Se o bolo não crescer, não se culpe, às vezes a vida só sabe fazer cera."
+  },
+  {
+    "id": 2067,
+    "titulo": "Chá Gelado de Hibisco do Torcedor Zen",
+    "slug": "cha-gelado-de-hibisco-do-torcedor-zen",
+    "categoria": "Vendo O Fut ",
+    "ingredientes": [
+      "sachês chá de hibisco",
+      "litro água",
+      "Mel ou adoçante a gosto",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Ferva a água e faça o chá com os sachês por 5 minutos.",
+      "Adoce a gosto, deixe esfriar e sirva com gelo."
+    ],
+    "descricao": "Relaxa, respira, o jogo só acaba depois do apito final",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "2 porções",
+    "dica": "Se o chá ficar amargo, pense que às vezes o juiz também não ajuda."
+  }
+]

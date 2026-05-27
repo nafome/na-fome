@@ -1,0 +1,899 @@
+[
+  {
+    "id": 239,
+    "titulo": "Pastel de Feira Crocante e Sem Mimimi",
+    "slug": "pastel-de-feira-crocante-e-sem-mimimi",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "g farinha de trigo",
+      "colher (chá) de sal",
+      "colher (sopa) de óleo",
+      "ml de água morna",
+      "Recheio: 300g carne moída refogada com cebola e cheiro-verde",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Misture a farinha, sal e óleo numa tigela e vá adicionando a água aos poucos até formar uma massa lisa.",
+      "Abra a massa com o rolo até ficar fina e corte em retângulos.",
+      "Recheie com a carne moída, feche dobrando e aperte as bordas com um garfo.",
+      "Frite em óleo quente até dourar dos dois lados."
+    ],
+    "descricao": "Porque a vida já é dura, o pastel pelo menos tem que ser crocante.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 8,00",
+    "porcoes": "4 porções",
+    "dica": "Se o pastel ficar murcho, não culpe a vida, culpe o óleo frio — fritura de feira não perdoa preguiça."
+  },
+  {
+    "id": 240,
+    "titulo": "Tapioca de Queijo Coalho com Melado de Cana",
+    "slug": "tapioca-de-queijo-coalho-com-melado-de-cana",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "g goma de tapioca hidratada",
+      "g queijo coalho fatiado",
+      "Melado de cana a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça a frigideira e espalhe a goma de tapioca formando uma panqueca fina.",
+      "Quando começar a desgrudar, coloque o queijo coalho e dobre ao meio.",
+      "Sirva com melado de cana por cima."
+    ],
+    "descricao": "Aquele lanche que é doce, salgado e ainda te faz duvidar da sua dieta.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "2 porções",
+    "dica": "Se a tapioca grudar, relaxa, é igual ex: aquele ex que insiste em ficar grudado – só precisa de um pouco mais de calor."
+  },
+  {
+    "id": 241,
+    "titulo": "Sanduíche de Pernil com Vinagrete Arretado",
+    "slug": "sanduiche-de-pernil-com-vinagrete-arretado",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "g pernil temperado e assado",
+      "pão francês grande ou 3 pequenos",
+      "tomates picados",
+      "cebola roxa picada",
+      "Salsinha, sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Asse o pernil temperado em forno médio por cerca de 40 minutos até ficar macio.",
+      "Pique o pernil em fatias finas e prepare o vinagrete misturando tomate, cebola, salsinha, azeite, sal e pimenta.",
+      "Monte o sanduíche com o pernil e o vinagrete dentro do pão."
+    ],
+    "descricao": "Aquele lanche que te deixa de boca aberta e bolso vazio, mas vale cada mordida.",
+    "tempo": "50 min (se o pernil for feito na hora)",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "3 porções",
+    "dica": "Sanduíche de pernil é igual boleto vencido: demora a chegar, mas quando chega, pesa no bolso e no coração."
+  },
+  {
+    "id": 242,
+    "titulo": "Cuscuz Paulista na Mão",
+    "slug": "cuscuz-paulista-na-mao",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "g farinha de milho flocada",
+      "ml caldo de legumes",
+      "g sardinha em óleo",
+      "tomate picado",
+      "cebola picada",
+      "/2 pimentão picado",
+      "Azeitonas e ovos cozidos para decorar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, tomate e pimentão até murchar.",
+      "Acrescente a farinha de milho e mexa até incorporar.",
+      "Adicione o caldo aos poucos até formar uma massa úmida.",
+      "Coloque sardinha, misture e transfira para a forma.",
+      "Decore com azeitonas e ovos e deixe firmar por 10 minutos."
+    ],
+    "descricao": "Porque cuscuz de rua é como amizade verdadeira: simples, mas cheio de sabor.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Se o cuscuz grudar na forma, não bata na panela igual quando o boleto aperta, use uma espátula e paciência."
+  },
+  {
+    "id": 243,
+    "titulo": "Churros Recheados com Doce de Leite e Canela",
+    "slug": "churros-recheados-com-doce-de-leite-e-canela",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "ml água",
+      "colheres (sopa) açúcar",
+      "pitada de sal",
+      "g farinha de trigo",
+      "Óleo para fritar",
+      "Doce de leite para rechear",
+      "Açúcar e canela para polvilhar"
+    ],
+    "modoPreparo": [
+      "Ferva água, açúcar e sal; retire do fogo e junte a farinha mexendo rápido até formar uma massa.",
+      "Coloque a massa no saco de confeitar e forme tiras no óleo quente.",
+      "Frite até dourar, escorra e recheie com doce de leite.",
+      "Polvilhe açúcar com canela."
+    ],
+    "descricao": "Aquele doce que te faz esquecer os boletos por 5 minutos, no mínimo.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 10,00",
+    "porcoes": "6 porções",
+    "dica": "Churros é igual aquele crush que some, quando aparece, é só doce e alegria – aproveita antes que acabe."
+  },
+  {
+    "id": 244,
+    "titulo": "Hot Dog Brasileiro com Maionese Temperada",
+    "slug": "hot-dog-brasileiro-com-maionese-temperada",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "salsichas",
+      "pães para hot dog",
+      "Maionese caseira (gema, óleo, limão)",
+      "colher (sopa) de catchup",
+      "colher (sopa) de mostarda",
+      "Milho verde, ervilha e batata palha a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe as salsichas em água fervente por 5 minutos.",
+      "Misture maionese com alho e limão para temperar.",
+      "Monte o cachorro quente com salsicha, maionese, milho, ervilha, batata palha, catchup e mostarda no pão."
+    ],
+    "descricao": "Porque cachorro quente aqui não é só pão e salsicha, é evento social.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "2 porções",
+    "dica": "Cachorro quente sem batata palha é igual domingo sem futebol – até existe, mas não faz sentido."
+  },
+  {
+    "id": 245,
+    "titulo": "Pastel de Nata Salgado com Frango e Catupiry",
+    "slug": "pastel-de-nata-salgado-com-frango-e-catupiry",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "g farinha de trigo",
+      "colher (chá) de sal",
+      "colher (sopa) de óleo",
+      "ml água morna",
+      "g frango desfiado temperado",
+      "g catupiry",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Faça a massa misturando farinha, sal, óleo e água até ficar lisa.",
+      "Abra a massa, corte em quadrados, recheie com frango e catupiry.",
+      "Dobre e feche as bordas com garfo, frite até dourar."
+    ],
+    "descricao": "O pastel que é tão irresistível que devia até ter terapia para parar de comer.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 9,00",
+    "porcoes": "4 porções",
+    "dica": "Se o catupiry escapar na fritura, não chora; é só mais um motivo para repetir o pastel."
+  },
+  {
+    "id": 246,
+    "titulo": "Espetinho de Frango com Molho de Amendoim Picante",
+    "slug": "espetinho-de-frango-com-molho-de-amendoim-picante",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "g peito de frango em cubos",
+      "Sal, pimenta e limão a gosto",
+      "colheres (sopa) de pasta de amendoim",
+      "colher (chá) de molho de pimenta",
+      "colheres (sopa) de água"
+    ],
+    "modoPreparo": [
+      "Tempere o frango com sal, pimenta e limão.",
+      "Monte os espetinhos e grelhe na frigideira até dourar.",
+      "Misture a pasta de amendoim, pimenta e água até formar um molho cremoso.",
+      "Sirva os espetinhos com o molho."
+    ],
+    "descricao": "Porque todo brasileiro merece um espetinho que esquenta até a alma e o boleto.",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Molho de amendoim é tipo aquele amigo inconveniente – parece estranho no começo, mas depois não vive sem."
+  },
+  {
+    "id": 247,
+    "titulo": "Acarajé Baiano na Rua, Sem Erro",
+    "slug": "acaraje-baiano-na-rua-sem-erro",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "g feijão-fradinho demolhado e descascado",
+      "cebola média",
+      "Sal a gosto",
+      "Azeite de dendê para fritar",
+      "Vatapá, caruru e camarão seco para acompanhar"
+    ],
+    "modoPreparo": [
+      "Bata o feijão com cebola e sal até formar uma massa leve.",
+      "Aqueça o dendê em panela funda.",
+      "Modele bolinhos com colher e frite até dourar.",
+      "Sirva com vatapá, caruru e camarão seco."
+    ],
+    "descricao": "Se a vida tá difícil, pelo menos o acarajé não precisa ser.",
+    "tempo": "1h",
+    "dificuldade": "Difícil",
+    "preco": "R$ 18,00",
+    "porcoes": "6 porções",
+    "dica": "Fazer acarajé é igual pagar imposto: dá trabalho, mas se não fizer, não tem direito a reclamar."
+  },
+  {
+    "id": 248,
+    "titulo": "Burrito Caipira de Frango com Quiabo",
+    "slug": "burrito-caipira-de-frango-com-quiabo",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "tortillas de trigo grandes",
+      "g frango desfiado temperado",
+      "g quiabo cortado e refogado",
+      "g arroz branco cozido",
+      "Queijo ralado a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue o quiabo até ficar macio.",
+      "Misture o frango, arroz e quiabo.",
+      "Aqueça a tortilla, recheie com a mistura e queijo.",
+      "Enrole em formato de burrito."
+    ],
+    "descricao": "O burrito que resolveu dar um rolê no interior e não avisou.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "3 porções",
+    "dica": "Burrito com quiabo é igual amizade verdadeira: às vezes dá aquela meleca, mas o sabor compensa."
+  },
+  {
+    "id": 249,
+    "titulo": "Coxinha de Frango Cremosa com Massa de Batata",
+    "slug": "coxinha-de-frango-cremosa-com-massa-de-batata",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "g peito de frango desfiado",
+      "g batata cozida e amassada",
+      "cebola picada",
+      "dente de alho",
+      "litro óleo para fritar",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho, junte o frango, sal e pimenta.",
+      "Modele a massa de batata em formato de coxinha, recheie com frango.",
+      "Empane com farinha de rosca.",
+      "Frite em óleo quente até dourar."
+    ],
+    "descricao": "A coxinha que te faz esquecer a dieta e a conta atrasada.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 10,00",
+    "porcoes": "8 porções",
+    "dica": "Se a massa quebrar, não é você, é ela — coxinha também tem crise existencial."
+  },
+  {
+    "id": 250,
+    "titulo": "Açaí na Tigela com Granola e Banana",
+    "slug": "acai-na-tigela-com-granola-e-banana",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "g polpa de açaí congelada",
+      "bananas",
+      "ml suco de laranja",
+      "Granola a gosto"
+    ],
+    "modoPreparo": [
+      "Bata a polpa de açaí com a banana e suco até ficar cremoso.",
+      "Sirva em tigelas e acrescente granola por cima."
+    ],
+    "descricao": "A energia da rua com sabor e zero culpa (ou quase).",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Açaí é tipo aquele amigo fitness que aparece só no verão, mas deixa saudade o ano todo."
+  },
+  {
+    "id": 251,
+    "titulo": "Bolinho de Bacalhau da Esquina",
+    "slug": "bolinho-de-bacalhau-da-esquina",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "g bacalhau dessalgado e desfiado",
+      "g batata cozida e amassada",
+      "cebola picada",
+      "ovos",
+      "Salsinha picada",
+      "Sal e pimenta a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola, misture o bacalhau, batata, ovos e salsinha.",
+      "Modele bolinhos e frite em óleo quente até dourar."
+    ],
+    "descricao": "O bolinho que é tão bom que até o vizinho quer a receita (e o seu segredo).",
+    "tempo": "1h20 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 25,00",
+    "porcoes": "6 porções",
+    "dica": "Bolinho de bacalhau é igual conta de luz em agosto: pode até assustar, mas a gente não vive sem."
+  },
+  {
+    "id": 252,
+    "titulo": "Kibe Frito com Molho de Tahine",
+    "slug": "kibe-frito-com-molho-de-tahine",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "g trigo para kibe",
+      "g carne moída",
+      "cebola ralada",
+      "Hortelã picada",
+      "Sal e pimenta",
+      "Óleo para fritar",
+      "Molho tahine pronto"
+    ],
+    "modoPreparo": [
+      "Hidrate o trigo, escorra e misture com carne, cebola, hortelã, sal e pimenta.",
+      "Modele os kibes e frite em óleo quente até dourar.",
+      "Sirva com molho tahine."
+    ],
+    "descricao": "O clássico do churrasco de rua que é uma festa no paladar e na boca.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "5 porções",
+    "dica": "Kibe é igual aquele tio no churrasco: aparece simples, mas todo mundo ama."
+  },
+  {
+    "id": 253,
+    "titulo": "Esfiha Aberta de Carne com Cebola",
+    "slug": "esfiha-aberta-de-carne-com-cebola",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "g farinha de trigo",
+      "g fermento biológico",
+      "ml água morna",
+      "g carne moída temperada",
+      "cebola picada",
+      "Sal, pimenta e cominho a gosto"
+    ],
+    "modoPreparo": [
+      "Prepare a massa misturando farinha, fermento e água, deixe crescer por 30 min.",
+      "Abra a massa em círculos, coloque carne e cebola temperada.",
+      "Asse em forno médio por 20 minutos."
+    ],
+    "descricao": "O lanche que prova que sírio é o tiozão da rua.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "6 porções",
+    "dica": "Se a massa não crescer, não desanime, igual quando a conta não cai e você espera o salário."
+  },
+  {
+    "id": 254,
+    "titulo": "Burrito Vegano de Grão-de-Bico e Abacate",
+    "slug": "burrito-vegano-de-grao-de-bico-e-abacate",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "tortillas integrais",
+      "g grão-de-bico cozido e temperado",
+      "abacate maduro em fatias",
+      "Alface e tomate picados",
+      "Molho de limão e coentro"
+    ],
+    "modoPreparo": [
+      "Aqueça o grão-de-bico temperado na frigideira.",
+      "Monte o burrito com grão-de-bico, abacate, alface, tomate e molho.",
+      "Enrole e sirva."
+    ],
+    "descricao": "Para quem quer street food que não pese na consciência nem no bolso.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 13,00",
+    "porcoes": "2 porções",
+    "dica": "Burrito vegano é igual final de novela das 6: surpreende quem achava que só ia ter drama."
+  },
+  {
+    "id": 255,
+    "titulo": "Tapioca de Frango com Catupiry e Orégano",
+    "slug": "tapioca-de-frango-com-catupiry-e-oregano",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "g goma de tapioca hidratada",
+      "g frango desfiado temperado",
+      "g catupiry",
+      "Orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Espalhe a goma na frigideira quente formando uma panqueca.",
+      "Quando soltar, recheie com frango e catupiry, polvilhe orégano.",
+      "Dobre ao meio e sirva quente."
+    ],
+    "descricao": "A tapioca que faz você esquecer que a fila do ônibus nunca anda.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,50",
+    "porcoes": "2 porções",
+    "dica": "Tapioca é igual reunião que podia ser e-mail: rápida e sem frescura."
+  },
+  {
+    "id": 256,
+    "titulo": "Sanduíche de Mortadela Completo",
+    "slug": "sanduiche-de-mortadela-completo",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "pão francês grande",
+      "g mortadela fatiada",
+      "fatias de queijo prato",
+      "Tomate, alface e maionese a gosto"
+    ],
+    "modoPreparo": [
+      "Corte o pão ao meio, espalhe maionese.",
+      "Coloque a mortadela, queijo, tomate e alface.",
+      "Feche e sirva."
+    ],
+    "descricao": "O clássico do Mercadão que é uma aula de como ser feliz e gordo ao mesmo tempo.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "2 porções",
+    "dica": "Sanduíche de mortadela é igual boleto atrasado: todo mundo sabe que não devia, mas ninguém resiste."
+  },
+  {
+    "id": 257,
+    "titulo": "Pão com Linguiça na Chapa com Cebola Caramelizada",
+    "slug": "pao-com-linguica-na-chapa-com-cebola-caramelizada",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "pães franceses",
+      "g linguiça fresca fatiada",
+      "cebola grande fatiada",
+      "Manteiga a gosto"
+    ],
+    "modoPreparo": [
+      "Caramelize a cebola na manteiga em fogo baixo até dourar.",
+      "Grelhe a linguiça na chapa até cozinhar.",
+      "Monte o sanduíche com linguiça e cebola no pão."
+    ],
+    "descricao": "A combinação que vai fazer você esquecer o trânsito e o chefe chato.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Se a linguiça ficar crua, não se preocupe, é só mais um motivo para pedir uma cerveja."
+  },
+  {
+    "id": 258,
+    "titulo": "Bolinho de Chuva com Açúcar e Canela",
+    "slug": "bolinho-de-chuva-com-acucar-e-canela",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "ovos",
+      "colheres (sopa) açúcar",
+      "xícara farinha de trigo",
+      "colher (chá) fermento em pó",
+      "Óleo para fritar",
+      "Açúcar e canela para polvilhar"
+    ],
+    "modoPreparo": [
+      "Misture ovos, açúcar, farinha e fermento até formar uma massa homogênea.",
+      "Frite colheradas em óleo quente até dourar.",
+      "Escorra e passe no açúcar com canela."
+    ],
+    "descricao": "A nostalgia frita que é o abraço que a vida não deu hoje.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "20 bolinhos",
+    "dica": "Bolinho de chuva é igual final de expediente na sexta: doce, rápido e a gente quer repetir."
+  },
+  {
+    "id": 259,
+    "titulo": "Espetinho de Queijo Coalho com Mel e Pimenta",
+    "slug": "espetinho-de-queijo-coalho-com-mel-e-pimenta",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "g queijo coalho em cubos",
+      "Mel a gosto",
+      "Pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Monte os espetinhos com queijo coalho.",
+      "Grelhe até dourar levemente.",
+      "Regue com mel e polvilhe pimenta."
+    ],
+    "descricao": "O doce com salgado que vai te fazer repensar suas escolhas na rua.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "4 porções",
+    "dica": "Se o espeto quebrar, não se desespere, é só a vida lembrando que nem tudo é perfeito."
+  },
+  {
+    "id": 260,
+    "titulo": "Pastel de Palmito com Requeijão",
+    "slug": "pastel-de-palmito-com-requeijao",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "g farinha de trigo",
+      "colher (chá) de sal",
+      "colher (sopa) de óleo",
+      "ml água morna",
+      "g palmito picado",
+      "g requeijão cremoso",
+      "Sal, pimenta e cheiro-verde",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Misture farinha, sal, óleo e água até formar massa lisa.",
+      "Refogue o palmito com sal, pimenta e cheiro-verde.",
+      "Recheie os pastéis com palmito e requeijão, feche e frite."
+    ],
+    "descricao": "Porque nem só de carne vive o pastel, mas de recheio gostoso também.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 9,00",
+    "porcoes": "4 porções",
+    "dica": "Se o requeijão escapar, não se culpe; até o recheio tem vontade própria na vida."
+  },
+  {
+    "id": 261,
+    "titulo": "Crepe de Nutella com Morango",
+    "slug": "crepe-de-nutella-com-morango",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "xícara farinha de trigo",
+      "ovo",
+      "xícara leite",
+      "Nutella a gosto",
+      "Morangos fatiados"
+    ],
+    "modoPreparo": [
+      "Misture farinha, ovo e leite até formar massa líquida.",
+      "Faça crepes finos na frigideira.",
+      "Recheie com Nutella e morango, dobre e sirva."
+    ],
+    "descricao": "A sobremesa que é tipo Netflix: vicia e não deixa ninguém sozinho.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "3 porções",
+    "dica": "Se o crepe rasgar, relaxa, até o melhor relacionamento tem suas falhas."
+  },
+  {
+    "id": 262,
+    "titulo": "Pastel de Pizza com Queijo e Calabresa",
+    "slug": "pastel-de-pizza-com-queijo-e-calabresa",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "g farinha de trigo",
+      "colher (chá) de sal",
+      "colher (sopa) de óleo",
+      "ml água morna",
+      "g calabresa picada",
+      "g queijo mussarela ralado",
+      "Molho de tomate temperado",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Prepare a massa com farinha, sal, óleo e água até ficar lisa.",
+      "Refogue calabresa, misture com queijo e molho de tomate.",
+      "Recheie os pastéis, feche e frite até dourar."
+    ],
+    "descricao": "A ciranda perfeita entre pastel e pizza que sua fome pediu em prece.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 10,00",
+    "porcoes": "4 porções",
+    "dica": "Se o molho vazar, não se culpe; até o melhor plano de vida tem seus imprevistos."
+  },
+  {
+    "id": 263,
+    "titulo": "Beiju de Tapioca com Coco e Leite Condensado",
+    "slug": "beiju-de-tapioca-com-coco-e-leite-condensado",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "g goma de tapioca hidratada",
+      "Coco ralado a gosto",
+      "Leite condensado para servir"
+    ],
+    "modoPreparo": [
+      "Espalhe a goma na frigideira quente formando uma panqueca fina.",
+      "Polvilhe coco ralado e dobre.",
+      "Sirva com leite condensado por cima."
+    ],
+    "descricao": "Aquele docinho que é mais fácil que pagar boleto, só que mais gostoso.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "2 porções",
+    "dica": "Se o beiju grudar, não se desespere, é só a tapioca querendo mais atenção."
+  },
+  {
+    "id": 264,
+    "titulo": "Salgado Frito de Queijo com Orégano",
+    "slug": "salgado-frito-de-queijo-com-oregano",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "g queijo mussarela em cubos",
+      "pacote massa folhada pronta",
+      "Orégano a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Corte a massa folhada em quadrados.",
+      "Recheie com queijo, polvilhe orégano e feche.",
+      "Frite até dourar."
+    ],
+    "descricao": "Aquele petisco que é praticamente um abraço em forma de massa.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "6 porções",
+    "dica": "Se o queijo escapar, não chore, chame o delivery e aproveite a vida."
+  },
+  {
+    "id": 265,
+    "titulo": "Sanduíche de Linguiça com Pão de Alho",
+    "slug": "sanduiche-de-linguica-com-pao-de-alho",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "pães franceses",
+      "g linguiça calabresa fatiada",
+      "Manteiga de alho para passar no pão",
+      "Cebola roxa fatiada"
+    ],
+    "modoPreparo": [
+      "Passe manteiga de alho no pão e toste na chapa.",
+      "Grelhe a linguiça até dourar.",
+      "Monte o sanduíche com linguiça e cebola."
+    ],
+    "descricao": "Porque na vida adulta, uns 5 minutinhos na chapa salvam qualquer dia ruim.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 11,00",
+    "porcoes": "3 porções",
+    "dica": "Se o pão queimar, lembre-se: até a vida dá uma torrada vez ou outra."
+  },
+  {
+    "id": 266,
+    "titulo": "Churrasco Grego de Rua com Molho Tzatziki",
+    "slug": "churrasco-grego-de-rua-com-molho-tzatziki",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "g carne de cordeiro moída",
+      "Alho, cebola, sal e especiarias a gosto",
+      "Pão pita ou pão sírio",
+      "Molho tzatziki (iogurte, pepino, alho, limão)"
+    ],
+    "modoPreparo": [
+      "Misture a carne com temperos e molde no espeto vertical.",
+      "Grelhe girando até cozinhar por dentro.",
+      "Sirva fatiado no pão com molho tzatziki."
+    ],
+    "descricao": "O giro que rodou o mundo e parou na sua esquina.",
+    "tempo": "1h",
+    "dificuldade": "Difícil",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Se não tiver espeto, improvise com paciência, que nem a gente com os boletos atrasados."
+  },
+  {
+    "id": 267,
+    "titulo": "Sanduíche de Falafel com Tahine e Salada",
+    "slug": "sanduiche-de-falafel-com-tahine-e-salada",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "g grão-de-bico demolhado",
+      "cebola pequena",
+      "dentes de alho",
+      "Salsa e coentro",
+      "Sal e pimenta",
+      "Óleo para fritar",
+      "Pão sírio e tahine para servir"
+    ],
+    "modoPreparo": [
+      "Processe grão-de-bico com cebola, alho e temperos até virar massa.",
+      "Modele bolinhos e frite até dourar.",
+      "Sirva no pão com tahine e salada."
+    ],
+    "descricao": "O lanche que prova que comida de rua pode ser saudável e cheia de atitude.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 16,00",
+    "porcoes": "4 porções",
+    "dica": "Falafel é igual promessa de segunda-feira: parece difícil, mas quando acontece, é uma delícia."
+  },
+  {
+    "id": 268,
+    "titulo": "Misto Quente na Chapa com Queijo e Presunto Artesanal",
+    "slug": "misto-quente-na-chapa-com-queijo-e-presunto-artesanal",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "fatias de pão de forma",
+      "fatias de presunto artesanal",
+      "fatias de queijo mussarela",
+      "Manteiga para passar no pão"
+    ],
+    "modoPreparo": [
+      "Passe manteiga no pão, monte com presunto e queijo.",
+      "Leve à chapa ou sanduicheira até dourar e o queijo derreter."
+    ],
+    "descricao": "O lanche que te salva do apocalipse da fome e do cansaço.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Se queimar, não se preocupe, pelo menos é crocante e a vida continua."
+  },
+  {
+    "id": 269,
+    "titulo": "Espetinho de Camarão com Alho e Limão",
+    "slug": "espetinho-de-camarao-com-alho-e-limao",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "g camarão limpo",
+      "dentes de alho picados",
+      "Suco de 1 limão",
+      "Sal, pimenta e azeite"
+    ],
+    "modoPreparo": [
+      "Tempere o camarão com alho, limão, sal e pimenta.",
+      "Espete e grelhe na frigideira com azeite até ficar rosado."
+    ],
+    "descricao": "O luxo acessível que cabe no bolso e no estômago.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "4 porções",
+    "dica": "Se o camarão ficar borrachudo, é igual desculpa esfarrapada: ninguém merece, mas acontece."
+  },
+  {
+    "id": 270,
+    "titulo": "Cachorro-Quente com Purê de Batata e Bacon",
+    "slug": "cachorro-quente-com-pure-de-batata-e-bacon",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "salsichas",
+      "pães para cachorro-quente",
+      "Purê de batata cremoso",
+      "g bacon frito em cubos",
+      "Maionese, catchup e mostarda"
+    ],
+    "modoPreparo": [
+      "Cozinhe as salsichas.",
+      "Prepare purê de batata cremoso.",
+      "Monte o cachorro-quente com salsicha, purê, bacon e molhos."
+    ],
+    "descricao": "A invenção que prova que a gordura em dobro é o dobro de amor.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "2 porções",
+    "dica": "Se a balança reclamar, manda ela passear e aproveita o lanche."
+  },
+  {
+    "id": 271,
+    "titulo": "Bolinho de Mandioca com Carne Seca",
+    "slug": "bolinho-de-mandioca-com-carne-seca",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "g mandioca cozida e amassada",
+      "g carne seca desfiada e refogada",
+      "Sal e pimenta a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Misture mandioca com carne seca, tempere.",
+      "Modele bolinhos e frite em óleo quente."
+    ],
+    "descricao": "O quitute que é raiz, literalmente, e enche a barriga da galera.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "6 porções",
+    "dica": "Se o bolinho abrir na fritura, não se culpe; até na cozinha a vida dá umas escapadas."
+  },
+  {
+    "id": 272,
+    "titulo": "Quibe Assado com Coalhada e Hortelã",
+    "slug": "quibe-assado-com-coalhada-e-hortela",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "g trigo para quibe hidratado",
+      "g carne moída",
+      "Cebola, sal, pimenta e hortelã picada",
+      "Coalhada para acompanhar"
+    ],
+    "modoPreparo": [
+      "Misture trigo, carne e temperos.",
+      "Coloque em assadeira e leve ao forno por 40 minutos.",
+      "Sirva com coalhada e hortelã."
+    ],
+    "descricao": "O lanche que junta o melhor do Oriente com a preguiça do Ocidente.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "5 porções",
+    "dica": "Se o quibe ficar seco, não reclame, igual segunda-feira: só resta aceitar."
+  },
+  {
+    "id": 273,
+    "titulo": "Sanduíche Bauru Clássico com Tomate e Queijo",
+    "slug": "sanduiche-bauru-classico-com-tomate-e-queijo",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "fatias de pão de forma",
+      "fatias de presunto",
+      "fatias de queijo prato",
+      "fatias de tomate",
+      "Manteiga para passar no pão"
+    ],
+    "modoPreparo": [
+      "Monte o sanduíche com presunto, queijo e tomate.",
+      "Passe manteiga no pão e toste na sanduicheira até dourar."
+    ],
+    "descricao": "O lanche que nunca sai de moda, igual desculpa para faltar à academia.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "1 porção",
+    "dica": "Se o queijo não derreter, culpe o forno, não o entregador da pizza."
+  },
+  {
+    "id": 274,
+    "titulo": "Pão de Queijo Recheado com Linguiça Calabresa",
+    "slug": "pao-de-queijo-recheado-com-linguica-calabresa",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "g polvilho doce",
+      "ml leite",
+      "ml óleo",
+      "ovos",
+      "g linguiça calabresa cozida e picada",
+      "g queijo mussarela ralado",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Ferva leite e óleo, misture com polvilho e sal.",
+      "Espere esfriar, junte ovos, queijo e linguiça.",
+      "Modele bolinhas e asse por 40 minutos."
+    ],
+    "descricao": "O pãozinho mineiro que resolveu se rebelar e virar lanche de rua.",
+    "tempo": "1h10 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "10 unidades",
+    "dica": "Se o pão de queijo não crescer, não se preocupe, até ele tem seus dias de folga."
+  },
+  {
+    "id": 275,
+    "titulo": "Tacos Mexicanos de Carne com Guacamole",
+    "slug": "tacos-mexicanos-de-carne-com-guacamole",
+    "categoria": "Comida De Rua ",
+    "ingredientes": [
+      "tortilhas de milho",
+      "g carne moída temperada",
+      "abacates maduros",
+      "Cebola, tomate, limão e coentro para guacamole"
+    ],
+    "modoPreparo": [
+      "Cozinhe a carne moída com temperos.",
+      "Amasse abacates com cebola, tomate, limão e coentro para guacamole.",
+      "Monte os tacos com carne e guacamole."
+    ],
+    "descricao": "O mexicano que invadiu a rua e conquistou o coração do brasileiro.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Se o guacamole ficar amargo, culpa o abacate, não a sua escolha de vida."
+  }
+]

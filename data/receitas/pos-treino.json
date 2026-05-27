@@ -1,0 +1,923 @@
+[
+  {
+    "id": 1311,
+    "titulo": "Omelete Turbo de Claras com Espinafre",
+    "slug": "omelete-turbo-de-claras-com-espinafre",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "claras de ovo",
+      "xícara de espinafre fresco picado",
+      "colher de sopa de queijo cottage",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Bata as claras com sal e pimenta na tigela.",
+      "Aqueça a frigideira, coloque o espinafre e refogue até murchar.",
+      "Despeje as claras batidas, espalhe o queijo e cozinhe até firmar."
+    ],
+    "descricao": "Porque depois do treino até o espinafre quer virar músculo.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "1 porção",
+    "dica": "Se o espinafre te pedir pra virar músculo, responda que o boleto já virou dívida, aqui é só proteína!"
+  },
+  {
+    "id": 1312,
+    "titulo": "Shake de Whey com Banana e Aveia",
+    "slug": "shake-de-whey-com-banana-e-aveia",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "scoop de whey protein sabor baunilha",
+      "banana madura",
+      "colheres de sopa de aveia em flocos",
+      "ml de leite desnatado"
+    ],
+    "modoPreparo": [
+      "Coloque todos os ingredientes no liquidificador.",
+      "Bata até obter uma mistura homogênea.",
+      "Sirva gelado e beba antes dos músculos dormirem."
+    ],
+    "descricao": "Aquele empurrãozinho para os músculos saírem da preguiça pós-treino.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "1 porção",
+    "dica": "Se esse shake não acordar seus músculos, tenta chamar o boleto pra ver se eles se mexem!"
+  },
+  {
+    "id": 1313,
+    "titulo": "Salada de Quinoa com Frango e Legumes",
+    "slug": "salada-de-quinoa-com-frango-e-legumes",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "xícara de quinoa",
+      "g de peito de frango em cubos",
+      "/2 pimentão vermelho picado",
+      "cenoura ralada",
+      "colheres de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a quinoa conforme instruções da embalagem e reserve.",
+      "Em frigideira, refogue o frango com sal e pimenta até dourar.",
+      "Misture a quinoa, o frango e os legumes na tigela, regue com azeite e sirva."
+    ],
+    "descricao": "Porque proteína sem salada é igual academia sem Wi-Fi: sem graça e improdutiva.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "2 porções",
+    "dica": "Se o frango fugir da frigideira, lembra que boleto nunca foge do seu bolso!"
+  },
+  {
+    "id": 1314,
+    "titulo": "Panqueca Proteica de Aveia e Banana",
+    "slug": "panqueca-proteica-de-aveia-e-banana",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "banana madura",
+      "ovos",
+      "colheres de sopa de aveia em flocos",
+      "scoop de whey protein sabor baunilha",
+      "Canela a gosto"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até virar massa homogênea.",
+      "Aqueça a frigideira e faça pequenas panquecas, cozinhando dos dois lados.",
+      "Sirva com mel ou frutas vermelhas."
+    ],
+    "descricao": "Pra quem quer malhar e comer doce sem culpa – porque a vida já é amarga demais.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "2 porções",
+    "dica": "Se a panqueca grudar, não se preocupe, pelo menos é só a massa grudando, diferente do boleto que gruda na mente."
+  },
+  {
+    "id": 1315,
+    "titulo": "Iogurte Grego com Mix de Castanhas e Mel",
+    "slug": "iogurte-grego-com-mix-de-castanhas-e-mel",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "g de iogurte grego natural",
+      "colheres de sopa de mix de castanhas picadas",
+      "colher de sopa de mel"
+    ],
+    "modoPreparo": [
+      "Coloque o iogurte na tigela.",
+      "Polvilhe as castanhas por cima.",
+      "Regue com mel e sirva imediatamente."
+    ],
+    "descricao": "Proteína e gordura boa pra enganar a fome, porque o amor só engana mesmo.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,50",
+    "porcoes": "1 porção",
+    "dica": "Se o mel não adoçar sua vida, tenta olhar o extrato bancário que é mais amargo que palestra de segunda-feira."
+  },
+  {
+    "id": 1316,
+    "titulo": "Tapioca Recheada com Ricota e Peito de Peru",
+    "slug": "tapioca-recheada-com-ricota-e-peito-de-peru",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca hidratada",
+      "g de ricota amassada",
+      "g de peito de peru fatiado",
+      "Orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça a frigideira e espalhe a goma formando uma camada fina.",
+      "Cozinhe até as bordas soltarem, vire.",
+      "Recheie com ricota, peito de peru e orégano, dobre e sirva."
+    ],
+    "descricao": "Porque até a tapioca quer malhar, mas sem perder a classe.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "1 porção",
+    "dica": "Se a tapioca abrir, não é você que tá errado, é ela querendo fugir do treino também."
+  },
+  {
+    "id": 1317,
+    "titulo": "Sanduíche Integral de Atum com Abacate",
+    "slug": "sanduiche-integral-de-atum-com-abacate",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "fatias de pão integral",
+      "lata de atum em água drenado",
+      "/2 abacate maduro amassado",
+      "Suco de 1/2 limão",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o atum com o abacate, limão, sal e pimenta na tigela.",
+      "Espalhe a mistura nas fatias de pão.",
+      "Feche o sanduíche e sirva na hora."
+    ],
+    "descricao": "Pra engolir proteína e gordura boa sem parecer que tá devorando o cardápio inteiro.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "1 porção",
+    "dica": "Se o abacate tá caro, pensa que é o investimento pra não virar um boleto ambulante."
+  },
+  {
+    "id": 1318,
+    "titulo": "Arroz Integral com Feijão Preto e Ovo Pochê",
+    "slug": "arroz-integral-com-feijao-preto-e-ovo-poche",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "xícara de arroz integral cozido",
+      "/2 xícara de feijão preto cozido",
+      "ovo",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o ovo pochê: ferva água, quebre o ovo numa concha e deslize na água, cozinhe por 3 minutos.",
+      "Aqueça o arroz e o feijão juntos em panela.",
+      "Sirva o arroz com feijão e coloque o ovo pochê por cima."
+    ],
+    "descricao": "Porque sustância e equilíbrio é o que falta na vida – e no prato.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "1 porção",
+    "dica": "Se o ovo desmanchar, aceita que nem tudo na vida sai perfeito, diferente do boleto que chega todo mês."
+  },
+  {
+    "id": 1319,
+    "titulo": "Smoothie Verde com Proteína e Linhaça",
+    "slug": "smoothie-verde-com-proteina-e-linhaca",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "scoop de whey protein sabor neutro",
+      "xícara de couve picada",
+      "maçã verde picada",
+      "colher de sopa de linhaça moída",
+      "ml de água de coco"
+    ],
+    "modoPreparo": [
+      "Coloque todos os ingredientes no liquidificador.",
+      "Bata até ficar homogêneo.",
+      "Sirva gelado."
+    ],
+    "descricao": "Porque seu corpo merece um detox, mas não de boletos.",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "1 porção",
+    "dica": "Se o smoothie ficar verde demais, lembra que seu extrato bancário também anda meio esverdeado."
+  },
+  {
+    "id": 1320,
+    "titulo": "Bolinho de Batata Doce com Frango Desfiado",
+    "slug": "bolinho-de-batata-doce-com-frango-desfiado",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "batatas doces médias cozidas e amassadas",
+      "g de peito de frango desfiado",
+      "ovo",
+      "Sal, pimenta e cheiro-verde a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a batata doce, frango, ovo e temperos na tigela até formar massa.",
+      "Modele bolinhos e coloque na assadeira untada.",
+      "Asse a 200°C por 25 minutos ou até dourar."
+    ],
+    "descricao": "Porque depois do treino você merece um bolinho, não um drama.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "4 porções",
+    "dica": "Se os bolinhos grudarem, pelo menos é mais fácil do que segurar a conta no fim do mês."
+  },
+  {
+    "id": 1321,
+    "titulo": "Wrap Integral de Peru com Abobrinha Grelhada",
+    "slug": "wrap-integral-de-peru-com-abobrinha-grelhada",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "wrap integral",
+      "g de peito de peru fatiado",
+      "/2 abobrinha fatiada e grelhada",
+      "colher de sopa de cream cheese light"
+    ],
+    "modoPreparo": [
+      "Grelhe a abobrinha até ficar macia.",
+      "Espalhe o cream cheese no wrap, coloque o peru e a abobrinha.",
+      "Enrole firme e sirva."
+    ],
+    "descricao": "Enrole suas desculpas e coma proteína, que é pra variar o treino e a dieta.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "1 porção",
+    "dica": "Se enrolar errado, pelo menos você não enrola na academia igual na dieta."
+  },
+  {
+    "id": 1322,
+    "titulo": "Crepioca Proteica com Frango e Requeijão",
+    "slug": "crepioca-proteica-com-frango-e-requeijao",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "colheres de sopa de tapioca",
+      "ovo",
+      "g de frango desfiado",
+      "colher de sopa de requeijão light",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a tapioca, ovo e sal na tigela.",
+      "Aqueça a frigideira e despeje a mistura formando uma crepioca.",
+      "Quando firmar, vire, espalhe frango e requeijão, dobre e sirva."
+    ],
+    "descricao": "Misturando carbo e proteína pra não deixar a preguiça ganhar do shape.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 11,00",
+    "porcoes": "1 porção",
+    "dica": "Se a crepioca colar, culpa do boleto que pesa mais que a goma."
+  },
+  {
+    "id": 1323,
+    "titulo": "Salmão Grelhado com Batata Doce e Brócolis",
+    "slug": "salmao-grelhado-com-batata-doce-e-brocolis",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "filés de salmão (150 g cada)",
+      "batatas doces médias cortadas em cubos",
+      "maço de brócolis",
+      "Azeite, sal, pimenta e limão a gosto"
+    ],
+    "modoPreparo": [
+      "Asse as batatas doces em forno a 200°C por 25 minutos.",
+      "Cozinhe o brócolis no vapor até ficar macio.",
+      "Grelhe o salmão com azeite, sal, pimenta e finalize com limão."
+    ],
+    "descricao": "Pra quem quer ser forte e bonito, e não só forte na desculpa.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 38,00",
+    "porcoes": "2 porções",
+    "dica": "Se o salmão grudar na frigideira, não se preocupe, pelo menos ele não gruda nas suas contas como o boleto."
+  },
+  {
+    "id": 1324,
+    "titulo": "Mix de Oleaginosas e Frutas Secas",
+    "slug": "mix-de-oleaginosas-e-frutas-secas",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "g de castanhas de caju",
+      "g de amêndoas",
+      "g de damascos secos picados",
+      "g de uvas passas"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes na tigela.",
+      "Consuma imediatamente ou leve na marmita.",
+      "Energia e praticidade para o treino e o boleto."
+    ],
+    "descricao": "Energia rápida pra não deixar o cansaço virar desculpa – ou será só um papo furado?",
+    "tempo": "2 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Se faltar energia, tenta comer o boleto que ele é pesado, mas não recomendado."
+  },
+  {
+    "id": 1325,
+    "titulo": "Panini Integral de Frango com Queijo Branco",
+    "slug": "panini-integral-de-frango-com-queijo-branco",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "fatias de pão integral",
+      "g de peito de frango cozido e desfiado",
+      "fatias de queijo branco",
+      "Orégano e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Monte o sanduíche com frango, queijo e orégano.",
+      "Passe azeite nas fatias e leve para o sanduicheira até dourar.",
+      "Sirva quente para não virar desculpa esfriada."
+    ],
+    "descricao": "Pra mostrar que pão integral pode ser tão gostoso quanto aquela pizza que você prometeu não comer.",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "1 porção",
+    "dica": "Se o queijo não derreter, culpa o forno, não o boleto que também nunca derrete."
+  },
+  {
+    "id": 1326,
+    "titulo": "Bowl de Iogurte com Granola Proteica e Morangos",
+    "slug": "bowl-de-iogurte-com-granola-proteica-e-morangos",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "g de iogurte natural integral",
+      "colheres de sopa de granola proteica",
+      "morangos fatiados",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque o iogurte na tigela.",
+      "Adicione a granola e os morangos por cima.",
+      "Regue com mel e sirva."
+    ],
+    "descricao": "Pra quem quer malhar e se sentir numa propaganda fitness – só que sem pagar agência.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "1 porção",
+    "dica": "Se a granola acabar rápido, culpa a fome, não o boleto que sempre sobra."
+  },
+  {
+    "id": 1327,
+    "titulo": "Espetinho de Frango com Legumes Grelhados",
+    "slug": "espetinho-de-frango-com-legumes-grelhados",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "g de peito de frango em cubos",
+      "abobrinha cortada em rodelas",
+      "pimentão vermelho em cubos",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o frango e os legumes com sal, pimenta e azeite.",
+      "Monte os espetinhos alternando frango e legumes.",
+      "Grelhe até dourar todos os lados e sirva."
+    ],
+    "descricao": "Pra espetar a preguiça e devorar a proteína sem drama.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "3 porções",
+    "dica": "Se o espetinho virar bagunça, lembra que o boleto vira fatura, sempre bagunça a vida."
+  },
+  {
+    "id": 1328,
+    "titulo": "Batida de Cacau com Whey e Pasta de Amendoim",
+    "slug": "batida-de-cacau-com-whey-e-pasta-de-amendoim",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "scoop de whey protein sabor chocolate",
+      "colher de sopa de pasta de amendoim natural",
+      "ml de leite desnatado",
+      "colher de chá de cacau em pó"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar cremoso.",
+      "Sirva gelado para um pós-treino digno.",
+      "Aproveite sem culpa."
+    ],
+    "descricao": "Porque quem malha merece chocolate, mas sem culpa nem chamar o boleto.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 13,00",
+    "porcoes": "1 porção",
+    "dica": "Se o amendoim acabar rápido, culpa o apetite, não o boleto que nunca acaba."
+  },
+  {
+    "id": 1329,
+    "titulo": "Bowl de Grão-de-Bico com Atum e Tomate",
+    "slug": "bowl-de-grao-de-bico-com-atum-e-tomate",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "xícara de grão-de-bico cozido",
+      "lata de atum em água drenado",
+      "tomate picado",
+      "Salsinha, azeite, sal e limão a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o grão-de-bico, atum e tomate na tigela.",
+      "Tempere com salsinha, azeite, sal e limão.",
+      "Sirva fresco."
+    ],
+    "descricao": "Porque proteína vegetal e animal juntos é tipo casal que dá certo: forte e saudável.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "2 porções",
+    "dica": "Se o grão-de-bico te deixar inchado, lembra que o boleto é que realmente pesa."
+  },
+  {
+    "id": 1330,
+    "titulo": "Muffin Salgado de Ovo com Legumes",
+    "slug": "muffin-salgado-de-ovo-com-legumes",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "ovos",
+      "/2 xícara de cenoura ralada",
+      "/2 xícara de espinafre picado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com sal e pimenta.",
+      "Misture os legumes e despeje nas formas de muffin.",
+      "Asse a 180°C por 20 minutos ou até firmar."
+    ],
+    "descricao": "Porque até os muffins querem entrar na festa do shape pós-treino.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,50",
+    "porcoes": "6 unidades",
+    "dica": "Se o muffin murchar, não é você, é o boleto que sempre diminui seu salário."
+  },
+  {
+    "id": 1331,
+    "titulo": "Panqueca de Batata Doce com Cottage e Mel",
+    "slug": "panqueca-de-batata-doce-com-cottage-e-mel",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "batata doce média cozida e amassada",
+      "ovos",
+      "colheres de sopa de farinha de aveia",
+      "colheres de sopa de queijo cottage",
+      "Mel para servir"
+    ],
+    "modoPreparo": [
+      "Bata a batata doce, ovos e farinha no liquidificador até virar massa.",
+      "Cozinhe as panquecas na frigideira até dourar dos dois lados.",
+      "Sirva com queijo cottage e mel por cima."
+    ],
+    "descricao": "Pra quem quer doce, proteína e carboidrato na mesma mordida – equilíbrio é tudo, menos no boleto.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "2 porções",
+    "dica": "Se a panqueca grudar, culpa a batata, não o boleto que gruda na sua mente."
+  },
+  {
+    "id": 1332,
+    "titulo": "Salada de Grãos com Ovo Cozido e Abacate",
+    "slug": "salada-de-graos-com-ovo-cozido-e-abacate",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "/2 xícara de lentilhas cozidas",
+      "/2 xícara de grão-de-bico cozido",
+      "ovos cozidos picados",
+      "/2 abacate em cubos",
+      "Sal, azeite e limão a gosto"
+    ],
+    "modoPreparo": [
+      "Misture as lentilhas, grão-de-bico e ovos na tigela.",
+      "Adicione o abacate, tempere com sal, azeite e limão.",
+      "Sirva imediatamente."
+    ],
+    "descricao": "Porque o pós-treino também pode ser um banquete, e não só um aperto no bolso.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Se o abacate estiver caro, pensa que é o preço da saúde, não do boleto que só aumenta."
+  },
+  {
+    "id": 1333,
+    "titulo": "Brownie Proteico de Feijão Preto",
+    "slug": "brownie-proteico-de-feijao-preto",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "xícara de feijão preto cozido e escorrido",
+      "ovos",
+      "colheres de sopa de cacau em pó",
+      "colheres de sopa de mel",
+      "scoop de whey protein sabor chocolate",
+      "colher de chá de fermento em pó"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até virar massa homogênea.",
+      "Despeje em forma untada e asse a 180°C por 25-30 minutos.",
+      "Deixe esfriar antes de cortar."
+    ],
+    "descricao": "Porque até o doce pode ter proteína e salvar seu treino – e a sua alma.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 16,00",
+    "porcoes": "8 porções",
+    "dica": "Se o brownie grudou na forma, lembra que boleto também gruda na conta bancária."
+  },
+  {
+    "id": 1334,
+    "titulo": "Macarrão Integral com Molho de Ricota e Espinafre",
+    "slug": "macarrao-integral-com-molho-de-ricota-e-espinafre",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "g de macarrão integral",
+      "g de ricota",
+      "xícara de espinafre fresco",
+      "dente de alho picado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão conforme instruções.",
+      "Refogue o alho e o espinafre, misture a ricota até formar molho.",
+      "Misture o molho ao macarrão e sirva."
+    ],
+    "descricao": "Porque carboidrato pós-treino não é vilão, é aliado de verdade – diferente do boleto.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Se o macarrão grudar, entende que nem tudo na vida é perfeito, só o boleto que é certeza."
+  },
+  {
+    "id": 1335,
+    "titulo": "Tapioca de Banana com Pasta de Amendoim e Canela",
+    "slug": "tapioca-de-banana-com-pasta-de-amendoim-e-canela",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca hidratada",
+      "banana madura fatiada",
+      "colher de sopa de pasta de amendoim natural",
+      "Canela a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça a frigideira e espalhe a goma formando uma camada fina.",
+      "Cozinhe até soltar das bordas, vire.",
+      "Recheie com banana, pasta de amendoim e canela, dobre e sirva."
+    ],
+    "descricao": "O doce que malha junto com você, sem deixar a culpa bater na porta.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "1 porção",
+    "dica": "Se a tapioca abrir, relaxa, o boleto não abre se não for pra apertar."
+  },
+  {
+    "id": 1336,
+    "titulo": "Frango Xadrez Light com Arroz Integral",
+    "slug": "frango-xadrez-light-com-arroz-integral",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "g de peito de frango em cubos",
+      "/2 pimentão verde em cubos",
+      "/2 cebola picada",
+      "colheres de sopa de molho shoyu light",
+      "xícara de arroz integral cozido",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue o frango até dourar, junte cebola e pimentão.",
+      "Adicione o molho shoyu e cozinhe até reduzir.",
+      "Sirva com arroz integral."
+    ],
+    "descricao": "Porque até o frango quer entrar na dança do pós-treino saudável.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 26,00",
+    "porcoes": "3 porções",
+    "dica": "Se o frango grudar, não é você, é o boleto que gruda na consciência."
+  },
+  {
+    "id": 1337,
+    "titulo": "Panqueca de Proteína com Recheio de Ricota e Espinafre",
+    "slug": "panqueca-de-proteina-com-recheio-de-ricota-e-espinafre",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "ovos",
+      "colheres de sopa de farinha de aveia",
+      "scoop de whey protein sabor neutro",
+      "g de ricota",
+      "/2 xícara de espinafre cozido e picado",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Bata ovos, farinha e whey até formar massa.",
+      "Cozinhe as panquecas até dourar dos dois lados.",
+      "Misture ricota e espinafre para o recheio, recheie as panquecas e sirva."
+    ],
+    "descricao": "Pra quem quer malhar e comer como rei, mas sem gastar como um.",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "2 porções",
+    "dica": "Se a panqueca rasgar, não desanima, o boleto sempre rasga seu orçamento."
+  },
+  {
+    "id": 1338,
+    "titulo": "Bife de Patinho com Purê de Mandioquinha",
+    "slug": "bife-de-patinho-com-pure-de-mandioquinha",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "g de bife de patinho",
+      "g de mandioquinha cozida",
+      "colher de sopa de manteiga",
+      "Sal, pimenta e alho a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere e grelhe o bife até o ponto desejado.",
+      "Amasse a mandioquinha com manteiga, sal e pimenta formando purê.",
+      "Sirva o bife acompanhado do purê."
+    ],
+    "descricao": "Porque músculo precisa de carne e carboidrato, e não só de desculpas.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "2 porções",
+    "dica": "Se o bife grudar, não se preocupe, o boleto cola na conta igual chiclete."
+  },
+  {
+    "id": 1339,
+    "titulo": "Salada de Frutas Proteica com Iogurte e Sementes",
+    "slug": "salada-de-frutas-proteica-com-iogurte-e-sementes",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "maçã picada",
+      "banana picada",
+      "/2 xícara de morangos fatiados",
+      "g de iogurte natural",
+      "colher de sopa de sementes de chia",
+      "colher de sopa de sementes de abóbora"
+    ],
+    "modoPreparo": [
+      "Misture as frutas na tigela.",
+      "Adicione o iogurte e as sementes.",
+      "Sirva gelado."
+    ],
+    "descricao": "Pra adoçar a vida sem deixar a preguiça e o boleto dominarem.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Se a fruta acabar rápido, culpa a fome, não o boleto que só aumenta."
+  },
+  {
+    "id": 1340,
+    "titulo": "Escondidinho de Frango com Purê de Batata Doce",
+    "slug": "escondidinho-de-frango-com-pure-de-batata-doce",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "g de peito de frango desfiado",
+      "g de batata doce cozida e amassada",
+      "cebola picada",
+      "colher de sopa de azeite",
+      "Sal, pimenta e cheiro-verde a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola no azeite e adicione o frango, tempere.",
+      "Coloque o frango no fundo da forma.",
+      "Espalhe o purê de batata doce por cima e leve ao forno a 180°C por 20 minutos."
+    ],
+    "descricao": "Aquele conforto de mãe, mas turbinado pra pós-treino.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "3 porções",
+    "dica": "Se o purê ficar grudando, lembra que o boleto é que gruda na mente e no bolso."
+  },
+  {
+    "id": 1341,
+    "titulo": "Smoothie de Morango com Aveia e Whey",
+    "slug": "smoothie-de-morango-com-aveia-e-whey",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "scoop de whey protein sabor morango",
+      "/2 xícara de morangos congelados",
+      "colheres de sopa de aveia",
+      "ml de leite desnatado"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes até ficar cremoso.",
+      "Sirva gelado.",
+      "Beba antes do sofá te abraçar."
+    ],
+    "descricao": "Porque até o copo pode malhar junto com você.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "1 porção",
+    "dica": "Se o smoothie não te animar, tenta olhar o extrato bancário, aí o ânimo é garantido... de raiva."
+  },
+  {
+    "id": 1342,
+    "titulo": "Quiche de Espinafre com Massa Integral",
+    "slug": "quiche-de-espinafre-com-massa-integral",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "xícara de farinha integral",
+      "/2 xícara de manteiga gelada",
+      "ovos",
+      "xícara de espinafre cozido e picado",
+      "/2 xícara de queijo branco ralado",
+      "Sal e noz-moscada a gosto"
+    ],
+    "modoPreparo": [
+      "Misture farinha e manteiga até formar farofa, acrescente água para formar massa.",
+      "Forre a forma, asse por 15 minutos a 180°C.",
+      "Bata ovos, espinafre, queijo, sal e noz-moscada, despeje sobre a massa e asse por mais 30 minutos."
+    ],
+    "descricao": "Porque até o salgado pode ser saudável e ainda te ajudar no shape.",
+    "tempo": "50 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 35,00",
+    "porcoes": "6 porções",
+    "dica": "Se a massa quebrar, lembra que boleto também quebra seu orçamento."
+  },
+  {
+    "id": 1343,
+    "titulo": "Wrap de Grão-de-Bico com Homus e Pepino",
+    "slug": "wrap-de-grao-de-bico-com-homus-e-pepino",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "wrap integral",
+      "/2 xícara de grão-de-bico cozido",
+      "colheres de sopa de homus",
+      "/2 pepino fatiado",
+      "Sal e limão a gosto"
+    ],
+    "modoPreparo": [
+      "Bata o grão-de-bico com homus, sal e limão até virar pasta.",
+      "Espalhe no wrap, adicione o pepino e enrole.",
+      "Sirva fresco."
+    ],
+    "descricao": "Envolve a fome, a proteína e a preguiça num só pacote.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "1 porção",
+    "dica": "Se o wrap rasgar, não é você, é o boleto que rasga seu orçamento."
+  },
+  {
+    "id": 1344,
+    "titulo": "Omelete com Legumes e Queijo Cottage",
+    "slug": "omelete-com-legumes-e-queijo-cottage",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "ovos",
+      "/2 tomate picado",
+      "/4 cebola picada",
+      "colheres de sopa de queijo cottage",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com sal e pimenta.",
+      "Refogue os legumes na frigideira, despeje os ovos e cozinhe até firmar.",
+      "Acrescente o queijo cottage antes de dobrar e sirva."
+    ],
+    "descricao": "Pra quem quer proteína de verdade sem enrolação – só o boleto que enrola.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "1 porção",
+    "dica": "Se o omelete grudar, culpa o boleto que gruda no seu bolso também."
+  },
+  {
+    "id": 1345,
+    "titulo": "Tapioca com Frango desfiado e Guacamole",
+    "slug": "tapioca-com-frango-desfiado-e-guacamole",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca hidratada",
+      "g de frango desfiado temperado",
+      "/2 abacate amassado com limão (guacamole)",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça a frigideira e espalhe a goma formando uma camada fina.",
+      "Cozinhe até soltar das bordas, vire.",
+      "Recheie com frango e guacamole, dobre e sirva."
+    ],
+    "descricao": "Mistura brasileira com mexicana pra salvar seu pós-treino e o humor.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "1 porção",
+    "dica": "Se a tapioca abrir, lembra que boleto também abre seu bolso, só que sem dó."
+  },
+  {
+    "id": 1346,
+    "titulo": "Salada de Lentilha com Atum e Tomate Cereja",
+    "slug": "salada-de-lentilha-com-atum-e-tomate-cereja",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "xícara de lentilha cozida",
+      "lata de atum em água drenado",
+      "tomates cereja cortados ao meio",
+      "Azeite, sal e limão a gosto"
+    ],
+    "modoPreparo": [
+      "Misture lentilha, atum e tomates na tigela.",
+      "Tempere com azeite, sal e limão.",
+      "Sirva na hora."
+    ],
+    "descricao": "Porque até na salada a proteína não pode faltar – diferente do seu saldo bancário.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "2 porções",
+    "dica": "Se a lentilha demorar pra cozinhar, pensa que seu boleto demora menos pra chegar todo mês."
+  },
+  {
+    "id": 1347,
+    "titulo": "Smoothie de Abacate com Whey e Mel",
+    "slug": "smoothie-de-abacate-com-whey-e-mel",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "/2 abacate maduro",
+      "scoop de whey protein sabor baunilha",
+      "colher de sopa de mel",
+      "ml de leite desnatado"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes até ficar cremoso.",
+      "Sirva gelado para refrescar o pós-treino.",
+      "Aproveite a energia."
+    ],
+    "descricao": "O cremoso que sustenta mais que promessa de dieta.",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "1 porção",
+    "dica": "Se o abacate sumir do mercado, culpa o boleto, que não deixa nada barato."
+  },
+  {
+    "id": 1348,
+    "titulo": "Panqueca Integral com Recheio de Cottage e Morango",
+    "slug": "panqueca-integral-com-recheio-de-cottage-e-morango",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "xícara de farinha integral",
+      "ovo",
+      "ml de leite desnatado",
+      "g de queijo cottage",
+      "morangos fatiados",
+      "Mel para regar"
+    ],
+    "modoPreparo": [
+      "Misture farinha, ovo e leite até formar massa.",
+      "Cozinhe as panquecas na frigideira até dourar dos dois lados.",
+      "Recheie com cottage e morangos, regue com mel e sirva."
+    ],
+    "descricao": "Porque doce saudável é tipo boleto pago: raro, mas vale a pena.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "2 porções",
+    "dica": "Se a panqueca grudar, culpa a farinha, não o boleto que gruda no orçamento."
+  },
+  {
+    "id": 1349,
+    "titulo": "Mix de Proteínas com Frutas e Sementes",
+    "slug": "mix-de-proteinas-com-frutas-e-sementes",
+    "categoria": "Pos Treino ",
+    "ingredientes": [
+      "ovos cozidos picados",
+      "g de queijo branco em cubos",
+      "maçã picada",
+      "colher de sopa de sementes de girassol",
+      "colher de sopa de semente de chia"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes na tigela.",
+      "Sirva imediatamente.",
+      "Energia e saúde no mesmo prato."
+    ],
+    "descricao": "O combo pra você que quer tudo no pós-treino sem drama nem culpa.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "1 porção",
+    "dica": "Se faltar ânimo, lembra que boleto não dá desconto, mas essa receita dá força."
+  }
+]

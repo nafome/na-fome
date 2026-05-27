@@ -1,0 +1,1078 @@
+[
+  {
+    "id": 1740,
+    "titulo": "Sopa Cremosa de Abóbora com Gengibre",
+    "slug": "sopa-cremosa-de-abobora-com-gengibre",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "kg de abóbora picada",
+      "pedaço de 3 cm de gengibre fresco ralado",
+      "cebola média picada",
+      "dentes de alho picados",
+      "ml de caldo de legumes",
+      "ml de leite de coco",
+      "Sal e pimenta-do-reino a gosto",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e o alho no azeite até ficarem transparentes.",
+      "Acrescente a abóbora e o gengibre, cubra com o caldo de legumes e cozinhe até a abóbora amolecer.",
+      "Bata tudo no liquidificador com o leite de coco até ficar cremoso, ajuste o sal e a pimenta."
+    ],
+    "descricao": "Porque no frio só o abraço da sopa consegue entender seu drama.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida tá fria, pelo menos a sopa não está – aqueça ela e o coração, porque boleto não aquece nem a alma."
+  },
+  {
+    "id": 1741,
+    "titulo": "Chocolate Quente com Canela e Pimenta",
+    "slug": "chocolate-quente-com-canela-e-pimenta",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "ml de leite integral",
+      "colheres de sopa de cacau em pó",
+      "colheres de sopa de açúcar mascavo",
+      "pitada de canela em pó",
+      "pitada pequena de pimenta-do-reino",
+      "Chantilly para decorar (opcional)"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite em fogo médio, sem deixar ferver.",
+      "Misture o cacau, açúcar, canela e pimenta, mexendo bem até dissolver.",
+      "Sirva quente com chantilly por cima, se quiser se sentir rico por 5 minutos."
+    ],
+    "descricao": "O único calor que você pode sentir sem sair do sofá e sem drama.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "2 porções",
+    "dica": "Se esquentar o corpo não paga boleto, mas pelo menos o chocolate quente paga o mimo da alma."
+  },
+  {
+    "id": 1742,
+    "titulo": "Fondue de Queijo com Pão Italiano",
+    "slug": "fondue-de-queijo-com-pao-italiano",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "g de queijo mussarela ralado",
+      "g de queijo prato ralado",
+      "dente de alho para untar a panela",
+      "ml de vinho branco seco",
+      "colher de chá de amido de milho",
+      "Pão italiano em cubos para acompanhar"
+    ],
+    "modoPreparo": [
+      "Unte a panela com o dente de alho cortado ao meio.",
+      "Aqueça o vinho e dissolva o amido, adicione os queijos aos poucos até derreter completamente.",
+      "Sirva imediatamente com os cubos de pão para mergulhar e fingir que a vida está sob controle."
+    ],
+    "descricao": "Porque no frio é aceitável derreter o queijo e a dignidade.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Se o frio te der vontade de chorar, mergulhe o pão no queijo e finja que é terapia gourmet."
+  },
+  {
+    "id": 1743,
+    "titulo": "Caldo Verde Tradicional",
+    "slug": "caldo-verde-tradicional",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "g de batata",
+      "g de couve fatiada finamente",
+      "linguiça calabresa fatiada",
+      "cebola média picada",
+      "dentes de alho picados",
+      ",5 litro de água",
+      "Sal e pimenta a gosto",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no azeite até dourar, junte a linguiça e deixe fritar.",
+      "Acrescente as batatas cortadas, cubra com água e cozinhe até amolecer.",
+      "Bata as batatas no liquidificador, volte para a panela, adicione a couve e cozinhe por 5 minutos."
+    ],
+    "descricao": "A prova de que couve pode ser estrela e não só coadjuvante da vida.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,50",
+    "porcoes": "6 porções",
+    "dica": "Se o frio não te der amor, pelo menos esse caldo vai te dar um abraço quentinho e sem cobranças."
+  },
+  {
+    "id": 1744,
+    "titulo": "Escondidinho de Carne Seca com Purê de Mandioca",
+    "slug": "escondidinho-de-carne-seca-com-pure-de-mandioca",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "g de carne seca dessalgada e desfiada",
+      "kg de mandioca cozida e amassada",
+      "cebola picada",
+      "dentes de alho picados",
+      "ml de leite",
+      "colheres de sopa de manteiga",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho, junte a carne seca e deixe dourar.",
+      "Misture a mandioca amassada com leite, manteiga, sal e pimenta até virar purê.",
+      "Em uma assadeira, faça uma camada de carne, cubra com purê e leve ao forno por 20 minutos."
+    ],
+    "descricao": "Porque às vezes o melhor jeito de se esquentar é com um esconderijo saboroso.",
+    "tempo": "1h15min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida te desfiar, seja como a carne seca: se ajeita, se esconde e ainda fica gostoso."
+  },
+  {
+    "id": 1745,
+    "titulo": "Chá de Ervas com Limão e Mel",
+    "slug": "cha-de-ervas-com-limao-e-mel",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "ml de água",
+      "colher de sopa de erva cidreira seca",
+      "colher de sopa de camomila seca",
+      "Suco de meio limão",
+      "colheres de chá de mel"
+    ],
+    "modoPreparo": [
+      "Ferva a água e despeje sobre as ervas em uma caneca.",
+      "Deixe em infusão por 5 a 7 minutos.",
+      "Adicione o limão e o mel, mexa e beba antes que o frio congele sua vontade de viver."
+    ],
+    "descricao": "A única reunião que você vai querer participar no frio.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "2 porções",
+    "dica": "Se o boleto congelar sua conta, pelo menos o chá descongela seu humor."
+  },
+  {
+    "id": 1746,
+    "titulo": "Panquecas Americanas com Calda de Maple e Nozes",
+    "slug": "panquecas-americanas-com-calda-de-maple-e-nozes",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "xícaras de farinha de trigo",
+      "colheres de sopa de açúcar",
+      "colheres de chá de fermento em pó",
+      "/2 colher de chá de sal",
+      "ovos",
+      "/2 xícara de leite",
+      "colheres de sopa de manteiga derretida",
+      "Calda de maple e nozes picadas para servir"
+    ],
+    "modoPreparo": [
+      "Misture os ingredientes secos em uma tigela.",
+      "Bata ovos, leite e manteiga, junte aos secos e misture até ficar homogêneo.",
+      "Cozinhe porções na frigideira até dourar dos dois lados, sirva com calda e nozes."
+    ],
+    "descricao": "Para começar o dia quentinho e fingir que a vida é doce.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Se a conta do mês te deixar em pânico, pelo menos a panqueca te deixa em doce conforto."
+  },
+  {
+    "id": 1747,
+    "titulo": "Mingau de Aveia com Banana e Canela",
+    "slug": "mingau-de-aveia-com-banana-e-canela",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "xícara de aveia em flocos",
+      "xícaras de leite",
+      "banana madura amassada",
+      "colher de chá de canela em pó",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a aveia e o leite na panela, leve ao fogo médio mexendo até engrossar.",
+      "Adicione a banana amassada e a canela, mexa bem.",
+      "Sirva quente com mel por cima para disfarçar a amargura da vida."
+    ],
+    "descricao": "Aquele abraço quentinho que sua mãe fazia e que o frio queria roubar.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "2 porções",
+    "dica": "Se o frio congelar seus planos, pelo menos o mingau descongela seu humor."
+  },
+  {
+    "id": 1748,
+    "titulo": "Vinho Quente com Frutas e Especiarias",
+    "slug": "vinho-quente-com-frutas-e-especiarias",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "garrafa de vinho tinto seco",
+      "laranja em rodelas",
+      "maçã em cubos",
+      "cravos-da-índia",
+      "pau de canela",
+      "colheres de sopa de açúcar mascavo"
+    ],
+    "modoPreparo": [
+      "Em uma panela, misture o vinho, as frutas, cravos, canela e açúcar.",
+      "Aqueça em fogo baixo sem deixar ferver por 15 minutos.",
+      "Coe e sirva quente, aproveitando que o frio não tem vez."
+    ],
+    "descricao": "O único vício que seu coração frio aprova sem culpa.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "4 porções",
+    "dica": "Se o boleto te deixar gelado, esse vinho vai te deixar quente e meio alegre demais."
+  },
+  {
+    "id": 1749,
+    "titulo": "Ragu de Carne com Polenta Cremosa",
+    "slug": "ragu-de-carne-com-polenta-cremosa",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "g de carne bovina em cubos",
+      "cebola picada",
+      "dentes de alho picados",
+      "tomates maduros picados",
+      "ml de vinho tinto",
+      "colher de sopa de extrato de tomate",
+      "litro de água",
+      "xícara de fubá para polenta",
+      "g de manteiga",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Doure a carne na panela, retire e reserve.",
+      "Refogue cebola e alho, junte tomate, extrato e vinho, deixe reduzir.",
+      "Volte a carne, cubra com água e cozinhe até ficar macia.",
+      "Prepare a polenta com fubá, água e manteiga, mexendo até engrossar.",
+      "Sirva o ragu sobre a polenta cremosa."
+    ],
+    "descricao": "Porque no frio a vida pede um abraço de carne e carboidrato.",
+    "tempo": "1h30min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida te der limões, faça um ragu; se te der frio, faça uma polenta — no fim, só o vinho salva."
+  },
+  {
+    "id": 1750,
+    "titulo": "Empadão de Frango com Requeijão",
+    "slug": "empadao-de-frango-com-requeijao",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "g de peito de frango cozido e desfiado",
+      "cebola picada",
+      "dentes de alho picados",
+      "tomate picado",
+      "g de requeijão cremoso",
+      "xícaras de farinha de trigo",
+      "g de manteiga gelada",
+      "ovo para pincelar",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Faça a massa juntando farinha e manteiga até formar uma farofa, acrescente água gelada para dar ponto.",
+      "Refogue cebola, alho, tomate e frango, tempere e misture o requeijão.",
+      "Forre a forma com metade da massa, coloque o recheio e cubra com o restante da massa.",
+      "Pincele com ovo e asse a 180°C por 40 minutos."
+    ],
+    "descricao": "Porque a melhor forma de esquentar o coração é com massa e recheio.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "6 porções",
+    "dica": "Se o amor está em falta, esse empadão é o crush que vai te esquentar e não te deixar no vácuo."
+  },
+  {
+    "id": 1751,
+    "titulo": "Sagu de Vinho com Creme de Baunilha",
+    "slug": "sagu-de-vinho-com-creme-de-baunilha",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "xícara de sagu",
+      "ml de vinho tinto",
+      "xícara de açúcar",
+      "litro de leite",
+      "fava de baunilha ou essência",
+      "gemas",
+      "colheres de sopa de amido de milho",
+      "colheres de sopa de açúcar para o creme"
+    ],
+    "modoPreparo": [
+      "Lave o sagu e cozinhe no vinho com açúcar até ficar transparente e macio.",
+      "Para o creme, misture leite, baunilha, gemas, amido e açúcar, leve ao fogo mexendo até engrossar.",
+      "Sirva o sagu frio com o creme quente por cima."
+    ],
+    "descricao": "Porque até o frio merece uma sobremesa que derrete na boca, não na conta.",
+    "tempo": "1h20min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Se o frio congelar seus planos, essa dupla descongela até o coração mais empedernido."
+  },
+  {
+    "id": 1752,
+    "titulo": "Pizza de Calabresa com Catupiry",
+    "slug": "pizza-de-calabresa-com-catupiry",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "g de farinha de trigo",
+      "g de fermento biológico seco",
+      "colher de chá de açúcar",
+      "colher de chá de sal",
+      "ml de água morna",
+      "g de calabresa fatiada",
+      "g de catupiry",
+      "Molho de tomate a gosto",
+      "Queijo mussarela ralado para cobrir"
+    ],
+    "modoPreparo": [
+      "Misture farinha, fermento, açúcar, sal e água até formar uma massa, deixe crescer por 40 minutos.",
+      "Abra a massa, espalhe o molho, cubra com calabresa, catupiry e mussarela.",
+      "Asse em forno pré-aquecido a 220°C por 20 minutos."
+    ],
+    "descricao": "Porque no frio pizza é abraço em forma de queijo derretido.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "6 porções",
+    "dica": "Se o frio te fizer querer sumir, pelo menos a pizza vai aparecer e não te deixar na mão."
+  },
+  {
+    "id": 1753,
+    "titulo": "Bobó de Camarão",
+    "slug": "bobo-de-camarao",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "g de camarões limpos",
+      "g de mandioca cozida",
+      "cebola picada",
+      "dentes de alho picados",
+      "ml de leite de coco",
+      "tomates maduros picados",
+      "pimenta dedo-de-moça sem sementes",
+      "Coentro a gosto",
+      "Azeite de dendê",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, alho, tomate e pimenta no azeite de dendê.",
+      "Bata a mandioca com leite de coco até virar um creme e junte ao refogado.",
+      "Acrescente os camarões e cozinhe até ficarem rosados, finalize com coentro."
+    ],
+    "descricao": "Porque até o frio amazônico merece um prato pra esquentar e impressionar.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 60,00",
+    "porcoes": "4 porções",
+    "dica": "Se o frio te deixar em choque, esse bobó vai te deixar no paraíso tropical sem sair de casa."
+  },
+  {
+    "id": 1754,
+    "titulo": "Cuscuz Nordestino com Manteiga e Queijo Coalho",
+    "slug": "cuscuz-nordestino-com-manteiga-e-queijo-coalho",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "xícaras de flocão de milho",
+      "xícaras de água",
+      "Sal a gosto",
+      "Manteiga para servir",
+      "g de queijo coalho fatiado"
+    ],
+    "modoPreparo": [
+      "Misture o flocão com água e sal, deixe hidratar por 5 minutos.",
+      "Coloque na cuscuzeira e cozinhe no vapor por 20 minutos.",
+      "Sirva com manteiga e queijo coalho grelhado por cima."
+    ],
+    "descricao": "Porque o calor da cozinha é o único que não te cobra juros.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Se o frio congelar seu sorriso, esse cuscuz vai dar um jeito de descongelar até o boleto."
+  },
+  {
+    "id": 1755,
+    "titulo": "Pão de Queijo Recheado com Calabresa Picante",
+    "slug": "pao-de-queijo-recheado-com-calabresa-picante",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "g de polvilho azedo",
+      "ml de leite",
+      "ml de óleo",
+      "ovos",
+      "g de queijo minas ralado",
+      "g de calabresa moída e temperada",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Ferva leite e óleo e despeje no polvilho, mexa até formar uma massa.",
+      "Acrescente ovos, queijo e misture bem.",
+      "Faça bolinhas, recheie com calabresa e asse a 200°C por 25 minutos."
+    ],
+    "descricao": "Porque o frio é só um motivo para comer mais e se justificar depois.",
+    "tempo": "1h10min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "20 unidades",
+    "dica": "Se o frio te deixar quadrado, pelo menos o pão de queijo vai te deixar redondo e feliz."
+  },
+  {
+    "id": 1756,
+    "titulo": "Escondidinho de Batata Doce com Carne Moída Picante",
+    "slug": "escondidinho-de-batata-doce-com-carne-moida-picante",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "g de batata doce cozida e amassada",
+      "g de carne moída",
+      "cebola picada",
+      "dentes de alho picados",
+      "pimenta dedo-de-moça picada",
+      "colheres de sopa de manteiga",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, alho, pimenta e carne até dourar, tempere a gosto.",
+      "Misture a batata doce com manteiga, sal e pimenta.",
+      "Em uma assadeira, coloque a carne, cubra com batata doce e leve ao forno por 25 minutos."
+    ],
+    "descricao": "Porque no frio o melhor lugar pra se esconder é entre camadas de sabor.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 27,00",
+    "porcoes": "4 porções",
+    "dica": "Se o frio te deixar na moita, esconda-se nesse prato e finja que a vida é um pouco mais fácil."
+  },
+  {
+    "id": 1757,
+    "titulo": "Canja de Galinha com Legumes",
+    "slug": "canja-de-galinha-com-legumes",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "g de peito de frango com osso",
+      "cenoura picada",
+      "batata picada",
+      "/2 xícara de arroz",
+      "cebola picada",
+      "dentes de alho picados",
+      "Sal e pimenta a gosto",
+      "Cheiro-verde para finalizar"
+    ],
+    "modoPreparo": [
+      "Cozinhe o frango com cebola e alho até ficar macio, retire e desfie.",
+      "Volte o caldo com legumes e arroz para cozinhar até amaciar.",
+      "Junte o frango desfiado, ajuste temperos e finalize com cheiro-verde."
+    ],
+    "descricao": "O remédio que a vovó indicaria e que a Netflix não vai te dar.",
+    "tempo": "1h",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "5 porções",
+    "dica": "Se o frio te deixar sem ação, essa canja vai te levantar e não cobrar Netflix."
+  },
+  {
+    "id": 1758,
+    "titulo": "Bolo de Chocolate com Café e Canela",
+    "slug": "bolo-de-chocolate-com-cafe-e-canela",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "xícaras de farinha de trigo",
+      "xícara de cacau em pó",
+      "colher de chá de canela em pó",
+      "colher de sopa de fermento em pó",
+      "ovos",
+      "xícara de açúcar",
+      "xícara de café forte frio",
+      "/2 xícara de óleo vegetal"
+    ],
+    "modoPreparo": [
+      "Misture ingredientes secos em uma tigela.",
+      "Bata ovos, açúcar, café e óleo, junte aos secos e mexa até homogeneizar.",
+      "Asse em forno pré-aquecido a 180°C por 35 minutos."
+    ],
+    "descricao": "Porque só o bolo quente com café forte salva a alma congelada.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "8 porções",
+    "dica": "Se a vida te der frio, pelo menos o bolo com café vai te dar energia pra reclamar com estilo."
+  },
+  {
+    "id": 1759,
+    "titulo": "Creme de Mandioquinha com Alho-Poró",
+    "slug": "creme-de-mandioquinha-com-alho-poro",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "g de mandioquinha descascada e picada",
+      "alho-poró fatiado",
+      "cebola picada",
+      "ml de caldo de legumes",
+      "ml de creme de leite",
+      "Sal e noz-moscada a gosto",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue alho-poró e cebola no azeite até amaciar.",
+      "Junte mandioquinha e caldo, cozinhe até a mandioquinha ficar macia.",
+      "Bata no liquidificador com creme de leite, ajustando sal e noz-moscada."
+    ],
+    "descricao": "Porque sopa tem que ser chique para aquecer até os mais refinados.",
+    "tempo": "45 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Se o frio congelar seu senso de humor, esse creme vai derreter até seu desânimo."
+  },
+  {
+    "id": 1760,
+    "titulo": "Quentão de Laranja com Especiarias",
+    "slug": "quentao-de-laranja-com-especiarias",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "litro de suco de laranja natural",
+      "pedaço de gengibre em fatias",
+      "cravos-da-índia",
+      "paus de canela",
+      "xícara de açúcar mascavo"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes em uma panela e leve ao fogo médio.",
+      "Deixe ferver lentamente por 20 minutos mexendo de vez em quando.",
+      "Sirva quente e finja que a fatura do cartão não existe."
+    ],
+    "descricao": "Porque o frio merece um gole que aquece mais que crise no fim do mês.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Se o frio congelar seu ânimo, esse quentão vai descongelar até seu cartão de crédito."
+  },
+  {
+    "id": 1761,
+    "titulo": "Rosti de Batata com Queijo e Bacon",
+    "slug": "rosti-de-batata-com-queijo-e-bacon",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "batatas médias raladas",
+      "g de queijo mussarela ralado",
+      "g de bacon picado e frito",
+      "Sal e pimenta a gosto",
+      "Azeite para fritar"
+    ],
+    "modoPreparo": [
+      "Esprema a água das batatas raladas, tempere com sal e pimenta.",
+      "Na frigideira, espalhe metade das batatas, cubra com bacon e queijo, depois o restante das batatas.",
+      "Frite em fogo médio até dourar dos dois lados, virando com cuidado."
+    ],
+    "descricao": "A batata mostrando quem manda no frio e no seu estômago.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "3 porções",
+    "dica": "Se o frio te deixar duro, esse rosti vai te deixar crocante e feliz."
+  },
+  {
+    "id": 1762,
+    "titulo": "Mingau de Milho Verde com Coco",
+    "slug": "mingau-de-milho-verde-com-coco",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "espigas de milho verde debulhadas",
+      "ml de leite de coco",
+      "colheres de sopa de açúcar",
+      "Pitada de sal"
+    ],
+    "modoPreparo": [
+      "Bata o milho com o leite de coco no liquidificador até formar um creme.",
+      "Coe para retirar resíduos e leve ao fogo com açúcar e sal.",
+      "Mexa até engrossar e sirva quente."
+    ],
+    "descricao": "A doçura que o frio pede e o coração agradece sem boletos.",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "4 porções",
+    "dica": "Se o frio congelar seu apetite, esse mingau vai descongelar até seu bom humor."
+  },
+  {
+    "id": 1763,
+    "titulo": "Caldo de Feijão Preto com Bacon e Pimenta",
+    "slug": "caldo-de-feijao-preto-com-bacon-e-pimenta",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "g de feijão preto",
+      "g de bacon em cubos",
+      "cebola picada",
+      "dentes de alho picados",
+      "pimenta dedo-de-moça picada",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o feijão na panela de pressão por 30 minutos.",
+      "Refogue bacon, cebola, alho e pimenta, junte ao feijão cozido.",
+      "Ajuste o sal, deixe apurar por 15 minutos e sirva quente."
+    ],
+    "descricao": "O verdadeiro super-herói do frio, salvando até o dia mais difícil.",
+    "tempo": "1h30min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "6 porções",
+    "dica": "Se o frio te congelar até a alma, esse caldo vai te descongelar e ainda te dar gás pra reclamar da vida."
+  },
+  {
+    "id": 1764,
+    "titulo": "Batata Recheada com Creme de Queijo e Bacon Crocante",
+    "slug": "batata-recheada-com-creme-de-queijo-e-bacon-crocante",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "batatas grandes",
+      "g de queijo cremoso",
+      "g de bacon frito e picado",
+      "Sal e pimenta a gosto",
+      "Cebolinha para decorar"
+    ],
+    "modoPreparo": [
+      "Asse as batatas inteiras por 45 minutos a 200°C até ficarem macias.",
+      "Corte ao meio, retire o miolo e misture com queijo, bacon, sal e pimenta.",
+      "Recheie as cascas, leve ao forno por mais 15 minutos e decore com cebolinha."
+    ],
+    "descricao": "Porque no frio a batata vira seu melhor amigo com recheio de amor.",
+    "tempo": "1h10min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Se o frio te deixar na seca, essa batata recheada vem para molhar sua alma."
+  },
+  {
+    "id": 1765,
+    "titulo": "Canjica Doce Cremosa com Leite Condensado",
+    "slug": "canjica-doce-cremosa-com-leite-condensado",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "xícaras de canjica branca",
+      "litro de leite",
+      "lata de leite condensado",
+      "vidro de leite de coco",
+      "Canela em pó para polvilhar"
+    ],
+    "modoPreparo": [
+      "Deixe a canjica de molho por 4 horas, depois cozinhe até ficar macia.",
+      "Acrescente leite, leite condensado e leite de coco, cozinhe até engrossar.",
+      "Sirva quente polvilhada com canela."
+    ],
+    "descricao": "A sobremesa que te abraça mais forte que seu cobertor velho.",
+    "tempo": "1h20min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "6 porções",
+    "dica": "Se o frio congelar seu entusiasmo, essa canjica vai descongelar seu sorriso e sua alma."
+  },
+  {
+    "id": 1766,
+    "titulo": "Chá de Hortelã com Limão e Mel",
+    "slug": "cha-de-hortela-com-limao-e-mel",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "ml de água",
+      "punhado de folhas de hortelã frescas",
+      "Suco de meio limão",
+      "colheres de chá de mel"
+    ],
+    "modoPreparo": [
+      "Ferva a água e despeje sobre as folhas de hortelã.",
+      "Deixe em infusão por 5 minutos, coe.",
+      "Adicione limão e mel, mexa e sirva quente."
+    ],
+    "descricao": "A única reunião que vai deixar seu hálito fresco e seu corpo quente.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "2 porções",
+    "dica": "Se o frio congelar sua vontade de socializar, pelo menos esse chá vai te esquentar e refrescar."
+  },
+  {
+    "id": 1767,
+    "titulo": "Torta de Maçã com Canela",
+    "slug": "torta-de-maca-com-canela",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "maçãs médias descascadas e fatiadas",
+      "colher de chá de canela em pó",
+      "/2 xícara de açúcar",
+      "xícaras de farinha de trigo",
+      "g de manteiga gelada",
+      "ovo para pincelar"
+    ],
+    "modoPreparo": [
+      "Faça a massa misturando farinha e manteiga até formar farofa, acrescente água para dar ponto.",
+      "Forre a forma com metade da massa, coloque maçãs temperadas com açúcar e canela.",
+      "Cubra com o restante da massa, pincele ovo e asse a 180°C por 40 minutos."
+    ],
+    "descricao": "Porque o frio pede uma desculpa doce para devorar a vida.",
+    "tempo": "1h20min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "8 porções",
+    "dica": "Se o frio congelar sua vontade de viver, essa torta vai descongelar seu humor e seu estômago."
+  },
+  {
+    "id": 1768,
+    "titulo": "Mingau de Milho com Leite e Coco",
+    "slug": "mingau-de-milho-com-leite-e-coco",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "lata de milho verde",
+      "ml de leite",
+      "ml de leite de coco",
+      "colheres de sopa de açúcar",
+      "colher de amido de milho",
+      "Canela em pó para polvilhar"
+    ],
+    "modoPreparo": [
+      "Bata o milho com um pouco do leite no liquidificador.",
+      "Misture o creme com o restante do leite, leite de coco, açúcar e amido.",
+      "Cozinhe mexendo até engrossar e sirva com canela."
+    ],
+    "descricao": "Aquele carinho doce que o frio insiste em roubar.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Se o frio congelar até seu sorriso, esse mingau vai descongelar até seu boleto."
+  },
+  {
+    "id": 1769,
+    "titulo": "Sopa de Lentilha com Linguiça e Cenoura",
+    "slug": "sopa-de-lentilha-com-linguica-e-cenoura",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "g de lentilha",
+      "g de linguiça calabresa fatiada",
+      "cenoura picada",
+      "cebola picada",
+      "dentes de alho picados",
+      ",5 litro de água",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue linguiça, cebola e alho até dourar.",
+      "Junte lentilha, cenoura e água, cozinhe até lentilha amolecer.",
+      "Tempere e sirva quente, porque frio e boleto só se enfrentam com sopa."
+    ],
+    "descricao": "Porque no frio só a sopa e o boleto pesado te acompanham.",
+    "tempo": "50 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Se o frio congelar seu ânimo, essa sopa vai descongelar até seu humor pra reclamar."
+  },
+  {
+    "id": 1770,
+    "titulo": "Brigadeiro Quente com Pimenta",
+    "slug": "brigadeiro-quente-com-pimenta",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "lata de leite condensado",
+      "colheres de sopa de cacau em pó",
+      "colher de sopa de manteiga",
+      "pitada de pimenta caiena",
+      "Chocolate granulado para enrolar"
+    ],
+    "modoPreparo": [
+      "Misture leite condensado, cacau, manteiga e pimenta na panela.",
+      "Cozinhe em fogo baixo mexendo até desgrudar do fundo.",
+      "Enrole, passe no granulado e sirva quente para esquentar até as mágoas."
+    ],
+    "descricao": "O doce que esquenta mais que seu ex no WhatsApp.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "8 porções",
+    "dica": "Se o frio te congelar, esse brigadeiro vai te deixar quente e com vontade de causar."
+  },
+  {
+    "id": 1771,
+    "titulo": "Frango ao Molho de Mostarda com Purê de Batata",
+    "slug": "frango-ao-molho-de-mostarda-com-pure-de-batata",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "filés de peito de frango",
+      "colheres de sopa de mostarda Dijon",
+      "ml de creme de leite",
+      "kg de batatas",
+      "colheres de sopa de manteiga",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe batatas, amasse com manteiga e sal até virar purê.",
+      "Doure o frango na frigideira, retire e reserve.",
+      "Na mesma frigideira, misture creme de leite e mostarda, aqueça e volte o frango para o molho."
+    ],
+    "descricao": "Porque frio e molho picante são a combinação que cabe no seu orçamento.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Se o frio congelar seu entusiasmo, esse prato vai descongelar até seu amor próprio."
+  },
+  {
+    "id": 1772,
+    "titulo": "Risoto de Cogumelos com Parmesão",
+    "slug": "risoto-de-cogumelos-com-parmesao",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "xícara de arroz arbóreo",
+      "g de cogumelos variados fatiados",
+      "cebola picada",
+      "dentes de alho picados",
+      "/2 xícara de vinho branco",
+      "litro de caldo de legumes quente",
+      "g de queijo parmesão ralado",
+      "colheres de sopa de manteiga",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho, junte os cogumelos até dourar.",
+      "Acrescente o arroz, mexa, adicione o vinho e deixe evaporar.",
+      "Vá adicionando o caldo aos poucos até o arroz cozinhar.",
+      "Finalize com manteiga e parmesão."
+    ],
+    "descricao": "Porque o frio merece um prato que é abraço, vinho e boleto juntos.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Se o frio te congelar o sorriso, esse risoto vai descongelar até seu boleto atrasado."
+  },
+  {
+    "id": 1773,
+    "titulo": "Batata Suíça com Queijo e Presunto",
+    "slug": "batata-suica-com-queijo-e-presunto",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "batatas médias raladas",
+      "g de queijo mussarela ralado",
+      "g de presunto fatiado picado",
+      "Sal e pimenta a gosto",
+      "Azeite para fritar"
+    ],
+    "modoPreparo": [
+      "Esprema a água das batatas raladas, tempere com sal e pimenta.",
+      "Misture queijo e presunto, junte às batatas.",
+      "Frite porções na frigideira até dourar dos dois lados."
+    ],
+    "descricao": "Porque no frio a vida pede algo que só o queijo derretido entrega.",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "3 porções",
+    "dica": "Se o frio congelar sua vontade de cozinhar, essa batata suíça vai descongelar até sua preguiça."
+  },
+  {
+    "id": 1774,
+    "titulo": "Caldo de Mandioquinha com Carne Seca Desfiada",
+    "slug": "caldo-de-mandioquinha-com-carne-seca-desfiada",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "g de mandioquinha descascada e picada",
+      "g de carne seca dessalgada e desfiada",
+      "cebola picada",
+      "dentes de alho picados",
+      ",5 litro de água",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho, junte a carne seca e refogue por 5 minutos.",
+      "Acrescente mandioquinha e água, cozinhe até a mandioquinha amolecer.",
+      "Bata parte da mandioquinha para engrossar, ajuste temperos e sirva quente."
+    ],
+    "descricao": "O conforto que só um caldo quente pode dar quando a vida tá congelada.",
+    "tempo": "1h10min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "5 porções",
+    "dica": "Se o frio congelar seu humor, esse caldo vai descongelar até sua vontade de pagar boletos."
+  },
+  {
+    "id": 1775,
+    "titulo": "Pamonha Salgada com Queijo e Linguiça",
+    "slug": "pamonha-salgada-com-queijo-e-linguica",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "espigas de milho verde ralado",
+      "g de linguiça calabresa picada e frita",
+      "g de queijo minas picado",
+      "colher de sopa de manteiga",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o milho ralado com manteiga e sal.",
+      "Recheie com linguiça e queijo, enrole em folhas de milho.",
+      "Cozinhe a vapor por 1 hora."
+    ],
+    "descricao": "Porque no frio até a pamonha vira estrela do jantar.",
+    "tempo": "1h30min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "6 porções",
+    "dica": "Se o frio congelar sua vontade de jantar, essa pamonha vai descongelar até sua preguiça."
+  },
+  {
+    "id": 1776,
+    "titulo": "Mingau de Tapioca com Leite de Coco e Canela",
+    "slug": "mingau-de-tapioca-com-leite-de-coco-e-canela",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "xícara de tapioca granulada",
+      "ml de leite de coco",
+      "ml de leite integral",
+      "colheres de sopa de açúcar",
+      "Canela em pó para polvilhar"
+    ],
+    "modoPreparo": [
+      "Misture leite de coco, leite e açúcar, aqueça.",
+      "Adicione a tapioca e cozinhe mexendo até engrossar.",
+      "Sirva quente polvilhado com canela."
+    ],
+    "descricao": "Aquele quentinho que só a infância e a tapioca sabem dar.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Se o frio congelar seu sorriso, esse mingau descongela até seu boleto atrasado."
+  },
+  {
+    "id": 1777,
+    "titulo": "Pão Caseiro com Ervas e Azeite",
+    "slug": "pao-caseiro-com-ervas-e-azeite",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "g de farinha de trigo",
+      "g de fermento biológico seco",
+      "colher de chá de sal",
+      "colher de chá de açúcar",
+      "ml de água morna",
+      "Ervas finas a gosto",
+      "Azeite para pincelar"
+    ],
+    "modoPreparo": [
+      "Misture farinha, fermento, sal, açúcar e água até formar massa, sove e deixe crescer por 1h.",
+      "Adicione as ervas, modele o pão, coloque na forma e deixe crescer mais 30 minutos.",
+      "Pincele azeite e asse a 200°C por 35 minutos."
+    ],
+    "descricao": "O único pão que vale a pena acordar cedo no frio.",
+    "tempo": "2h",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "8 porções",
+    "dica": "Se o frio congelar sua preguiça, esse pão vai descongelar seu espírito e seu café da manhã."
+  },
+  {
+    "id": 1778,
+    "titulo": "Sopa de Cebola Gratinada",
+    "slug": "sopa-de-cebola-gratinada",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "cebolas grandes fatiadas",
+      "dentes de alho picados",
+      "litro de caldo de carne",
+      "ml de vinho branco",
+      "g de queijo gruyère ralado",
+      "colheres de sopa de manteiga",
+      "Fatias de pão francês",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebolas e alho na manteiga até caramelizar.",
+      "Adicione vinho e caldo, cozinhe por 30 minutos.",
+      "Sirva em tigelas com fatias de pão e queijo, gratine no forno até dourar."
+    ],
+    "descricao": "Porque no frio até a cebola chora junto com você.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida te fizer chorar, chora junto com essa sopa e ainda fica quentinho."
+  },
+  {
+    "id": 1779,
+    "titulo": "Café com Canela e Leite Quente",
+    "slug": "cafe-com-canela-e-leite-quente",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "ml de café forte coado",
+      "ml de leite",
+      "colher de chá de canela em pó",
+      "Açúcar a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite com canela até quase ferver.",
+      "Misture o café com o leite quente.",
+      "Adoce a gosto e sirva imediatamente."
+    ],
+    "descricao": "O combustível oficial do trabalhador congelado.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,00",
+    "porcoes": "2 porções",
+    "dica": "Se o frio congelar seu sono, esse café vai descongelar até seu chefe."
+  },
+  {
+    "id": 1780,
+    "titulo": "Caldo de Mandioquinha com Gengibre e Frango Desfiado",
+    "slug": "caldo-de-mandioquinha-com-gengibre-e-frango-desfiado",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "g de mandioquinha picada",
+      "g de peito de frango cozido e desfiado",
+      "pedaço de gengibre ralado (3 cm)",
+      "cebola picada",
+      "dentes de alho picados",
+      ",5 litro de água",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, alho e gengibre até perfumar.",
+      "Junte mandioquinha e água, cozinhe até amolecer.",
+      "Bata parte da mandioquinha, volte para a panela, adicione o frango e ajuste temperos."
+    ],
+    "descricao": "O combo perfeito para espantar o frio e até os parentes chatos.",
+    "tempo": "1h",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "5 porções",
+    "dica": "Se o frio congelar seu sorriso, esse caldo vai descongelar até sua vontade de socializar."
+  },
+  {
+    "id": 1781,
+    "titulo": "Pizza de Mandioca com Recheio de Carne Moída",
+    "slug": "pizza-de-mandioca-com-recheio-de-carne-moida",
+    "categoria": "To Com Frio ",
+    "ingredientes": [
+      "g de mandioca cozida e amassada",
+      "ovo",
+      "g de carne moída temperada",
+      "cebola picada",
+      "dentes de alho picados",
+      "g de queijo mussarela ralado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture mandioca com ovo e sal, forme a massa e espalhe na forma.",
+      "Refogue carne com cebola e alho, tempere e coloque sobre a massa.",
+      "Cubra com queijo e leve ao forno a 200°C por 30 minutos."
+    ],
+    "descricao": "Porque até a mandioca sabe que frio combina com calor e recheio.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "6 porções",
+    "dica": "Se o frio congelar sua criatividade, essa pizza de mandioca vai descongelar seu apetite e seu sorriso."
+  }
+]

@@ -1,0 +1,932 @@
+[
+  {
+    "id": 1067,
+    "titulo": "Sanduíche Explosão Noturna",
+    "slug": "sanduiche-explosao-noturna",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "fatias de pão de forma integral",
+      "fatias de queijo prato",
+      "fatias de presunto",
+      "ovo",
+      "colher de sopa de manteiga"
+    ],
+    "modoPreparo": [
+      "Aqueça a frigideira e derreta a manteiga.",
+      "Frite o ovo mexido rapidamente, tempere com sal e pimenta.",
+      "Monte o sanduíche com presunto, queijo e o ovo, doure dos dois lados até o queijo derreter."
+    ],
+    "descricao": "Porque a fome bate quando o sono foge, igual boleto atrasado.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vida te der sono, faça esse sanduíche. Pelo menos a fome você resolve, diferente daquela dívida que só aumenta."
+  },
+  {
+    "id": 1068,
+    "titulo": "Mingau de Aveia com Banana e Canela",
+    "slug": "mingau-de-aveia-com-banana-e-canela",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "colheres de sopa de aveia em flocos",
+      "xícara de leite (ou bebida vegetal)",
+      "banana madura fatiada",
+      "colher de chá de canela em pó",
+      "colher de chá de mel (opcional)"
+    ],
+    "modoPreparo": [
+      "Em uma panela, misture a aveia e o leite, leve ao fogo médio.",
+      "Mexa até engrossar, cerca de 5 minutos.",
+      "Sirva com banana fatiada, canela e mel por cima."
+    ],
+    "descricao": "Aquele abraço quentinho que você merece, sem precisar sair da cama.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,50",
+    "porcoes": "1 porção",
+    "dica": "Comer mingau de madrugada é igual promessa de fim de ano: parece simples, mas só quem tenta sabe o trabalho."
+  },
+  {
+    "id": 1069,
+    "titulo": "Omelete de Micro-ondas da Sobrevivência",
+    "slug": "omelete-de-micro-ondas-da-sobrevivencia",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "ovos",
+      "colheres de sopa de queijo ralado",
+      "colher de sopa de tomate picado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Quebre os ovos na caneca e bata com o garfo.",
+      "Misture o queijo, tomate, sal e pimenta.",
+      "Leve ao micro-ondas por 2 minutos, depois verifique e cozinhe mais se precisar."
+    ],
+    "descricao": "Para quem quer proteína, mas só tem 5 minutos e preguiça de vida adulta.",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Omelete de micro-ondas é como relacionamento sério: rápido, prático e às vezes deixa a desejar, mas quebra o galho."
+  },
+  {
+    "id": 1070,
+    "titulo": "Pipoca Doce com Toque de Café",
+    "slug": "pipoca-doce-com-toque-de-cafe",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "/2 xícara de milho para pipoca",
+      "colheres de sopa de açúcar",
+      "colher de chá de café solúvel",
+      "colheres de sopa de óleo"
+    ],
+    "modoPreparo": [
+      "Aqueça o óleo na panela, adicione o milho e tampe.",
+      "Quando começar a estourar, agite a panela para não queimar.",
+      "Em uma tigela, misture açúcar e café solúvel e polvilhe sobre a pipoca quente."
+    ],
+    "descricao": "Porque maratona de série sem pipoca é igual boleto sem juros: não existe.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,00",
+    "porcoes": "3 porções",
+    "dica": "Se a vida adoça sua alma, essa pipoca adoça a madrugada e o coração (ou pelo menos a Netflix)."
+  },
+  {
+    "id": 1071,
+    "titulo": "Vitamina Turbo do Sono Que Não Vem",
+    "slug": "vitamina-turbo-do-sono-que-nao-vem",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "banana",
+      "colher de sopa de pasta de amendoim",
+      "ml de leite ou bebida vegetal",
+      "colher de chá de cacau em pó"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar homogêneo.",
+      "Sirva gelado ou na temperatura ambiente."
+    ],
+    "descricao": "Para quem acorda às 3 da manhã e quer parecer gente no trabalho às 8.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,50",
+    "porcoes": "1 porção",
+    "dica": "Essa vitamina é como aquele amigo que te acorda dizendo “vamos malhar?” – só serve pra te deixar acordado, não pro resto."
+  },
+  {
+    "id": 1072,
+    "titulo": "Pão na Chapa com Requeijão e Orégano",
+    "slug": "pao-na-chapa-com-requeijao-e-oregano",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "fatias de pão francês",
+      "colheres de sopa de requeijão cremoso",
+      "Orégano a gosto",
+      "Manteiga para untar"
+    ],
+    "modoPreparo": [
+      "Passe manteiga nas fatias de pão.",
+      "Coloque na frigideira quente e doure dos dois lados.",
+      "Espalhe o requeijão e polvilhe orégano por cima antes de servir."
+    ],
+    "descricao": "O clássico dos clássicos, porque pão sempre salva a madrugada e a dignidade.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,00",
+    "porcoes": "1 porção",
+    "dica": "Pão na chapa é tipo boleto: sempre chega, mas pelo menos esse você pode saborear."
+  },
+  {
+    "id": 1073,
+    "titulo": "Macarrão Instantâneo Gourmetizado",
+    "slug": "macarrao-instantaneo-gourmetizado",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "pacote de macarrão instantâneo",
+      "ovo",
+      "colher de sopa de manteiga",
+      "colheres de sopa de queijo ralado",
+      "Cebolinha picada a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão conforme instruções.",
+      "Em outra panela, derreta a manteiga e frite o ovo estrelado.",
+      "Misture o macarrão cozido, o tempero, o ovo, o queijo e a cebolinha."
+    ],
+    "descricao": "Porque até miojo merece uma chance na alta gastronomia da madrugada.",
+    "tempo": "12 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Gourmetizar miojo é igual dar nó na gravata com preguiça: pode não resolver tudo, mas o esforço conta."
+  },
+  {
+    "id": 1074,
+    "titulo": "Tapioca Noturna com Queijo e Mel",
+    "slug": "tapioca-noturna-com-queijo-e-mel",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca hidratada",
+      "fatias de queijo coalho",
+      "colher de sopa de mel"
+    ],
+    "modoPreparo": [
+      "Espalhe a goma na frigideira quente formando um disco.",
+      "Quando firmar, coloque o queijo e dobre ao meio.",
+      "Deixe derreter, retire e regue com mel."
+    ],
+    "descricao": "A sobremesa que é café da manhã disfarçado, para enganar a madrugada.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "1 porção",
+    "dica": "Tapioca de madrugada é tipo ex: parece boa ideia, mas no final só te deixa com vontade de mais."
+  },
+  {
+    "id": 1075,
+    "titulo": "Café Cremoso de Caneca",
+    "slug": "cafe-cremoso-de-caneca",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "xícara de café forte coado",
+      "colheres de sopa de leite condensado",
+      "colheres de sopa de leite integral"
+    ],
+    "modoPreparo": [
+      "Prepare o café coado bem forte.",
+      "Misture na caneca o café, o leite condensado e o leite.",
+      "Mexa bem até ficar cremoso e sirva quente."
+    ],
+    "descricao": "Porque café preto é pra quem tem coragem, mas madrugada pede conforto.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 2,00",
+    "porcoes": "1 porção",
+    "dica": "Café cremoso é tipo amigo que te acorda pra festa – te dá energia, mas também te deixa meio grudento."
+  },
+  {
+    "id": 1076,
+    "titulo": "Crepioca do Desespero",
+    "slug": "crepioca-do-desespero",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "ovo",
+      "Sal a gosto",
+      "colheres de sopa de queijo ralado"
+    ],
+    "modoPreparo": [
+      "Misture a goma, o ovo, o sal e o queijo até ficar homogêneo.",
+      "Despeje na frigideira aquecida formando uma panqueca.",
+      "Cozinhe dos dois lados até dourar e sirva quente."
+    ],
+    "descricao": "Quando o relógio bate 2 da manhã e o estômago grita mais alto que seu chefe.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "1 porção",
+    "dica": "Crepioca é igual promessa de dieta: começa animado, acaba no meio da madrugada com queijo."
+  },
+  {
+    "id": 1077,
+    "titulo": "Salada Rápida de Grão-de-Bico e Atum",
+    "slug": "salada-rapida-de-grao-de-bico-e-atum",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "lata de grão-de-bico cozido e escorrido",
+      "lata de atum em água",
+      "tomate picado",
+      "Suco de 1/2 limão",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o grão-de-bico, o atum e o tomate na tigela.",
+      "Tempere com limão, sal e pimenta.",
+      "Sirva gelado ou em temperatura ambiente."
+    ],
+    "descricao": "Porque às vezes você quer ser saudável, mas só até onde o sono deixa.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "2 porções",
+    "dica": "Salada de madrugada é a desculpa que damos para o corpo “Calma, amanhã eu pago o boleto... quer dizer, dieta”."
+  },
+  {
+    "id": 1078,
+    "titulo": "Brownie de Caneca para Insônia",
+    "slug": "brownie-de-caneca-para-insonia",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "colheres de sopa de farinha de trigo",
+      "colheres de sopa de cacau em pó",
+      "colheres de sopa de açúcar",
+      "ovo",
+      "colheres de sopa de óleo",
+      "colheres de sopa de leite"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes na caneca até ficar homogêneo.",
+      "Leve ao micro-ondas por 1 minuto e meio.",
+      "Deixe esfriar um pouco e aproveite."
+    ],
+    "descricao": "O doce que entende seu desespero, sem sair da sua cama.",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,50",
+    "porcoes": "1 porção",
+    "dica": "Brownie de caneca é o abraço doce que você merece depois de discutir com seu travesseiro."
+  },
+  {
+    "id": 1079,
+    "titulo": "Sopa de Legumes Express para Virar a Noite",
+    "slug": "sopa-de-legumes-express-para-virar-a-noite",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "cenoura picada",
+      "batata média picada",
+      "/2 cebola picada",
+      "dente de alho picado",
+      "ml de caldo de legumes",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e o alho na panela até dourar.",
+      "Adicione a cenoura, batata e caldo, cozinhe até os legumes ficarem macios.",
+      "Bata no liquidificador para uma textura cremosa ou sirva pedaçudo."
+    ],
+    "descricao": "Porque até os adultos cansados precisam fingir que comem bem.",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Sopa de legumes é tipo boleto: parece que não vai acabar nunca, mas no final dá uma sensação boa."
+  },
+  {
+    "id": 1080,
+    "titulo": "Tapioca com Ovo Mexido e Queijo Coalho",
+    "slug": "tapioca-com-ovo-mexido-e-queijo-coalho",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca hidratada",
+      "ovos",
+      "fatias de queijo coalho",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com sal e pimenta e faça um mexido na frigideira.",
+      "Em outra frigideira, faça a tapioca até firmar.",
+      "Coloque o mexido e o queijo coalho dentro da tapioca, dobre e sirva quente."
+    ],
+    "descricao": "A mistura perfeita para quem não sabe se janta ou se só quer um lanchinho.",
+    "tempo": "12 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "1 porção",
+    "dica": "Tapioca com ovo é o amigo que aparece na madrugada e te lembra que a vida é simples (mas o boleto não)."
+  },
+  {
+    "id": 1081,
+    "titulo": "Cuscuz Nordestino para Acordar o Corpo",
+    "slug": "cuscuz-nordestino-para-acordar-o-corpo",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "colheres de sopa de farinha de milho para cuscuz",
+      "pitada de sal",
+      "colher de sopa de manteiga",
+      "fatias de queijo coalho"
+    ],
+    "modoPreparo": [
+      "Hidrate a farinha com água e sal, deixe descansar 5 minutos.",
+      "Coloque na cuscuzeira e cozinhe no vapor por 10 minutos.",
+      "Sirva com manteiga e queijo coalho derretido por cima."
+    ],
+    "descricao": "Porque às vezes você precisa de um abraço salgado pra continuar acordado.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Cuscuz é como conta atrasada, sempre tem que encarar, mas pelo menos é gostoso."
+  },
+  {
+    "id": 1082,
+    "titulo": "Pizza Rápida de Pão Sírio",
+    "slug": "pizza-rapida-de-pao-sirio",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "pães sírios pequenos",
+      "colheres de sopa de molho de tomate",
+      "g de muçarela ralada",
+      "Orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Abra os pães sírios e espalhe o molho de tomate.",
+      "Cubra com muçarela e orégano.",
+      "Leve ao forno ou frigideira até o queijo derreter."
+    ],
+    "descricao": "Aquela pizza que não exige entrega nem coragem pra abrir a geladeira.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "2 porções",
+    "dica": "Pizza de pão sírio é igual promessa em reunião de condomínio: rápida, prática e todo mundo gosta."
+  },
+  {
+    "id": 1083,
+    "titulo": "Sanduíche Natural do Sofá",
+    "slug": "sanduiche-natural-do-sofa",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "fatias de pão integral",
+      "folhas de alface",
+      "fatias de peito de peru",
+      "fatias de tomate",
+      "colher de sopa de maionese"
+    ],
+    "modoPreparo": [
+      "Espalhe a maionese nas fatias de pão.",
+      "Monte o sanduíche com alface, peito de peru e tomate.",
+      "Sirva sem pressa, mas com fome."
+    ],
+    "descricao": "Porque a preguiça às vezes ganha, mas a fome não perdoa.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Sanduíche natural é tipo boleto parcelado: parece mais leve, mas no fim pesa no bolso e na consciência."
+  },
+  {
+    "id": 1084,
+    "titulo": "Tapioca Doce com Chocolate e Morango",
+    "slug": "tapioca-doce-com-chocolate-e-morango",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca hidratada",
+      "morangos fatiados",
+      "colheres de sopa de chocolate meio amargo picado"
+    ],
+    "modoPreparo": [
+      "Espalhe a goma na frigideira quente até firmar.",
+      "Coloque os morangos e chocolate sobre a tapioca.",
+      "Dobre ao meio e deixe o chocolate derreter, sirva quente."
+    ],
+    "descricao": "A sobremesa que diz “vou dormir cedo” mas só come depois das 2.",
+    "tempo": "12 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Tapioca doce é igual promessa de dieta: começa doce e termina derretendo no meio da madrugada."
+  },
+  {
+    "id": 1085,
+    "titulo": "Panqueca de Banana com Aveia e Mel",
+    "slug": "panqueca-de-banana-com-aveia-e-mel",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "banana amassada",
+      "ovos",
+      "colheres de sopa de aveia em flocos",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a banana, ovos e aveia até formar uma massa.",
+      "Cozinhe pequenas panquecas na frigideira untada até dourar dos dois lados.",
+      "Sirva com mel por cima."
+    ],
+    "descricao": "Café da manhã pra quem acorda tarde demais... ou nunca dorme.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "2 porções",
+    "dica": "Panqueca de banana é tipo amigo que te chama pra sair de madrugada: doce, saudável e às vezes meio sem noção."
+  },
+  {
+    "id": 1086,
+    "titulo": "Espetinho de Queijo Coalho com Mel e Pimenta",
+    "slug": "espetinho-de-queijo-coalho-com-mel-e-pimenta",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "g de queijo coalho em cubos",
+      "colheres de sopa de mel",
+      "Pimenta do reino moída a gosto"
+    ],
+    "modoPreparo": [
+      "Espete os cubos de queijo coalho.",
+      "Grelhe até dourar, virando para não queimar.",
+      "Pincele mel e polvilhe pimenta antes de servir."
+    ],
+    "descricao": "Para quem quer ser raiz, mas com um toque de modernidade ardida.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "2 porções",
+    "dica": "Queijo coalho com mel é como boleto com desconto: combinação improvável, mas que dá certo na prática."
+  },
+  {
+    "id": 1087,
+    "titulo": "Iogurte Grego com Granola e Frutas Vermelhas",
+    "slug": "iogurte-grego-com-granola-e-frutas-vermelhas",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "pote de iogurte grego natural",
+      "colheres de sopa de granola",
+      "/2 xícara de frutas vermelhas congeladas"
+    ],
+    "modoPreparo": [
+      "Coloque o iogurte na tigela.",
+      "Acrescente a granola e as frutas vermelhas por cima.",
+      "Misture se quiser ou coma assim mesmo."
+    ],
+    "descricao": "O luxo que a sua madrugada merece, mesmo que o boleto não.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "1 porção",
+    "dica": "Iogurte grego é tipo amigo que tem vida social: você sabe que existe, mas só vê de vez em quando."
+  },
+  {
+    "id": 1088,
+    "titulo": "Caldo de Canja Simples",
+    "slug": "caldo-de-canja-simples",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "g de peito de frango com osso",
+      "/2 xícara de arroz",
+      "cenoura picada",
+      "batata picada",
+      "Sal e cheiro-verde a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o frango em água até ficar macio.",
+      "Retire o frango, desfie e volte para a panela com arroz e legumes.",
+      "Cozinhe até o arroz e legumes ficarem macios, tempere e sirva com cheiro-verde."
+    ],
+    "descricao": "O abraço literal que você precisa depois de maratona e chatices da vida.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "3 porções",
+    "dica": "Canja é como amigo que te ajuda a levantar da cama: simples, eficaz e cheio de afeto."
+  },
+  {
+    "id": 1089,
+    "titulo": "Crepe Salgado de Atum com Requeijão",
+    "slug": "crepe-salgado-de-atum-com-requeijao",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "ovo",
+      "xícara de leite",
+      "lata de atum escorrido",
+      "colheres de sopa de requeijão",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture farinha, ovo, leite e sal até formar uma massa líquida.",
+      "Faça os crepes na frigideira aquecida.",
+      "Recheie com atum misturado ao requeijão, dobre e sirva."
+    ],
+    "descricao": "Quando você quer jantar sem parecer que está comendo o que sobrou da geladeira.",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Crepe salgado é igual promessa de segunda-feira: todo mundo sabe que vai ser bom, mas nem sempre acontece."
+  },
+  {
+    "id": 1090,
+    "titulo": "Sanduíche de Frango Desfiado com Maionese Temperada",
+    "slug": "sanduiche-de-frango-desfiado-com-maionese-temperada",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "g de peito de frango cozido e desfiado",
+      "fatias de pão de forma",
+      "colheres de sopa de maionese",
+      "colher de sopa de salsinha picada",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o frango com a maionese, salsinha, sal e pimenta.",
+      "Monte os sanduíches com a mistura e pão.",
+      "Sirva imediatamente ou leve à frigideira para tostar."
+    ],
+    "descricao": "Porque a vida adulta é feita de soluções práticas e recheios generosos.",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "2 porções",
+    "dica": "Sanduíche de frango é tipo boleto parcelado: você acha que vai dar conta, mas no fim sempre surpreende."
+  },
+  {
+    "id": 1091,
+    "titulo": "Chá de Camomila com Mel e Gengibre",
+    "slug": "cha-de-camomila-com-mel-e-gengibre",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "sachê de chá de camomila",
+      "pedaço pequeno de gengibre fatiado",
+      "colher de chá de mel"
+    ],
+    "modoPreparo": [
+      "Ferva a água e coloque o sachê de camomila e o gengibre por 5 minutos.",
+      "Coe e adoce com mel.",
+      "Beba quente para acalmar a alma e a mente."
+    ],
+    "descricao": "O calmante natural que custa menos que terapia e é mais fácil de preparar.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,50",
+    "porcoes": "1 porção",
+    "dica": "Chá de camomila é igual amigo que não te deixa na mão: sempre tem quando você mais precisa."
+  },
+  {
+    "id": 1092,
+    "titulo": "Torrada com Abacate e Ovo Pochê",
+    "slug": "torrada-com-abacate-e-ovo-poche",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "fatia de pão integral",
+      "/2 abacate maduro",
+      "ovo",
+      "Sal, pimenta e limão a gosto"
+    ],
+    "modoPreparo": [
+      "Toste o pão até dourar.",
+      "Amasse o abacate com sal, pimenta e limão e espalhe sobre a torrada.",
+      "Cozinhe o ovo em água fervente com vinagre por 3 minutos e coloque sobre a torrada."
+    ],
+    "descricao": "O luxo simples que prova que você pode ser adulto e não um desastre total.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 10,00",
+    "porcoes": "1 porção",
+    "dica": "Ovo pochê é igual promessa de academia: parece difícil, mas quando você consegue, se sente um campeão."
+  },
+  {
+    "id": 1093,
+    "titulo": "Mix de Castanhas e Frutas Secas",
+    "slug": "mix-de-castanhas-e-frutas-secas",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "g de castanha de caju",
+      "g de castanha do pará",
+      "g de damasco seco picado",
+      "g de uva passa"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes na tigela.",
+      "Sirva imediatamente ou guarde para a próxima crise noturna."
+    ],
+    "descricao": "O snack saudável para parecer que você tem a vida organizada, mesmo que não tenha.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "1 porção",
+    "dica": "Mix de castanhas é tipo boleto que você paga em dia: raro, mas traz uma satisfação inexplicável."
+  },
+  {
+    "id": 1094,
+    "titulo": "Crepioca de Frango com Espinafre",
+    "slug": "crepioca-de-frango-com-espinafre",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "ovo",
+      "g de frango desfiado",
+      "/2 xícara de espinafre refogado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a goma, ovo, sal e pimenta.",
+      "Despeje na frigideira formando uma panqueca.",
+      "Recheie com frango e espinafre, dobre e deixe aquecer."
+    ],
+    "descricao": "Quando você quer saúde, mas só até onde o sabor permite.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "1 porção",
+    "dica": "Crepioca é como boleto atrasado: você tenta ignorar, mas no fim tem que encarar com estilo."
+  },
+  {
+    "id": 1095,
+    "titulo": "Misto Quente com Pão Integral e Queijo Minas",
+    "slug": "misto-quente-com-pao-integral-e-queijo-minas",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "fatias de pão integral",
+      "fatias de queijo minas",
+      "fatias de presunto magro",
+      "Manteiga para passar no pão"
+    ],
+    "modoPreparo": [
+      "Passe manteiga nas fatias de pão.",
+      "Monte o sanduíche com presunto e queijo.",
+      "Leve à sanduicheira ou frigideira até dourar e o queijo derreter."
+    ],
+    "descricao": "Porque misto quente é a terapia em forma de lanche.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Misto quente é igual boleto com desconto: sempre deixa a vida mais leve."
+  },
+  {
+    "id": 1096,
+    "titulo": "Cuscuz Doce com Coco e Leite Condensado",
+    "slug": "cuscuz-doce-com-coco-e-leite-condensado",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "colheres de sopa de farinha de milho para cuscuz",
+      "pitada de sal",
+      "colheres de sopa de coco ralado",
+      "colheres de sopa de leite condensado"
+    ],
+    "modoPreparo": [
+      "Hidrate a farinha com água e sal, deixe descansar 5 minutos.",
+      "Cozinhe no vapor por 10 minutos.",
+      "Sirva com coco ralado e leite condensado por cima."
+    ],
+    "descricao": "A sobremesa que é um tapa na cara da dieta, mas você merece.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "2 porções",
+    "dica": "Cuscuz doce é como final de novela: sempre surpreende e deixa um gostinho de quero mais."
+  },
+  {
+    "id": 1097,
+    "titulo": "Sanduíche de Queijo Brie com Geleia de Pimenta",
+    "slug": "sanduiche-de-queijo-brie-com-geleia-de-pimenta",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "fatias de pão de forma",
+      "g de queijo brie",
+      "colher de sopa de geleia de pimenta"
+    ],
+    "modoPreparo": [
+      "Coloque o queijo brie nas fatias de pão.",
+      "Adicione a geleia de pimenta por cima.",
+      "Sirva imediatamente, sem medo de ser feliz."
+    ],
+    "descricao": "O toque sofisticado que sua madrugada merece – ou pelo menos tenta.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "1 porção",
+    "dica": "Queijo brie com geleia é igual boleto quitado: raro, mas traz uma alegria inexplicável."
+  },
+  {
+    "id": 1098,
+    "titulo": "Salada de Frutas Tropical da Madrugada",
+    "slug": "salada-de-frutas-tropical-da-madrugada",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "maçã picada",
+      "/2 manga picada",
+      "kiwi picado",
+      "Suco de 1/2 limão",
+      "colher de sopa de mel"
+    ],
+    "modoPreparo": [
+      "Misture todas as frutas na tigela.",
+      "Regue com o suco de limão e mel.",
+      "Sirva fresco ou gelado."
+    ],
+    "descricao": "A luz no fim do túnel quando só resta a geladeira e a preguiça.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "2 porções",
+    "dica": "Salada de frutas é tipo promessa de ano novo: saudável, bonita e cheia de esperança."
+  },
+  {
+    "id": 1099,
+    "titulo": "Iogurte Natural com Mel e Nozes Picadas",
+    "slug": "iogurte-natural-com-mel-e-nozes-picadas",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "pote de iogurte natural",
+      "colher de sopa de mel",
+      "colheres de sopa de nozes picadas"
+    ],
+    "modoPreparo": [
+      "Coloque o iogurte na tigela.",
+      "Adicione o mel e as nozes por cima.",
+      "Misture se preferir ou coma direto."
+    ],
+    "descricao": "Pra fingir que você está cuidando da saúde enquanto assiste mais um episódio.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Iogurte com mel é igual boleto pago em dia: simples, mas te deixa leve por dentro."
+  },
+  {
+    "id": 1100,
+    "titulo": "Pão de Queijo Express",
+    "slug": "pao-de-queijo-express",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "g de polvilho doce",
+      "ml de leite",
+      "ml de óleo",
+      "ovo",
+      "g de queijo minas ralado",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Ferva o leite com o óleo e despeje sobre o polvilho, misture até amornar.",
+      "Acrescente o ovo, queijo e sal, mexa até formar massa homogênea.",
+      "Faça bolinhas, coloque na assadeira e asse a 180ºC por 20 minutos."
+    ],
+    "descricao": "O clássico mineiro que até quem não sabe cozinhar pode dominar.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 10,00",
+    "porcoes": "8 unidades",
+    "dica": "Pão de queijo é o amigo fiel da madrugada: sempre quentinho e pronto pra te salvar."
+  },
+  {
+    "id": 1101,
+    "titulo": "Smoothie Verde Energético",
+    "slug": "smoothie-verde-energetico",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "banana congelada",
+      "/2 maçã picada",
+      "punhado de espinafre",
+      "ml de água de coco",
+      "colher de chá de mel"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar homogêneo.",
+      "Sirva gelado."
+    ],
+    "descricao": "Porque a gente tenta ser saudável, mas só até o primeiro gole.",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "1 porção",
+    "dica": "Smoothie verde é tipo promessa de academia: cheio de boas intenções e gostinho de esforço."
+  },
+  {
+    "id": 1102,
+    "titulo": "Wrap de Frango com Alface e Molho de Iogurte",
+    "slug": "wrap-de-frango-com-alface-e-molho-de-iogurte",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "tortilla de trigo integral",
+      "g de frango desfiado temperado",
+      "Folhas de alface",
+      "colheres de sopa de iogurte natural",
+      "colher de chá de limão",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o iogurte com limão, sal e pimenta.",
+      "Aqueça a tortilla na frigideira.",
+      "Recheie com frango, alface e o molho, enrole e sirva."
+    ],
+    "descricao": "O lanche que tenta ser saudável, mas não abre mão do sabor.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 13,00",
+    "porcoes": "1 porção",
+    "dica": "Wrap é como boleto parcelado: enrola, enrola, mas no fim dá certo."
+  },
+  {
+    "id": 1103,
+    "titulo": "Bolo de Caneca de Chocolate com Café",
+    "slug": "bolo-de-caneca-de-chocolate-com-cafe",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "colheres de sopa de farinha de trigo",
+      "colheres de sopa de açúcar",
+      "colheres de sopa de cacau em pó",
+      "ovo",
+      "colheres de sopa de leite",
+      "colher de chá de café solúvel",
+      "colheres de sopa de óleo"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes na caneca até ficar homogêneo.",
+      "Leve ao micro-ondas por 2 minutos.",
+      "Deixe esfriar um pouco e aproveite."
+    ],
+    "descricao": "A sobremesa que entende a sua madrugada insone e te dá um up.",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "1 porção",
+    "dica": "Bolo de caneca com café é igual final de mês: vira tudo uma mistura louca, mas no fim dá energia pra continuar."
+  },
+  {
+    "id": 1104,
+    "titulo": "Torrada com Pasta de Ricota e Tomate Seco",
+    "slug": "torrada-com-pasta-de-ricota-e-tomate-seco",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "fatias de pão integral",
+      "colheres de sopa de ricota amassada",
+      "tomates secos picados",
+      "Orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Toste as fatias de pão.",
+      "Misture a ricota com os tomates secos e orégano.",
+      "Espalhe a pasta nas torradas e sirva."
+    ],
+    "descricao": "O sabor sofisticado para quem quer fingir que sabe cozinhar.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "1 porção",
+    "dica": "Torrada com ricota é tipo boleto pago adiantado: dá um orgulho que ninguém entende, mas a gente sente."
+  },
+  {
+    "id": 1105,
+    "titulo": "Mousse Rápido de Maracujá",
+    "slug": "mousse-rapido-de-maracuja",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "lata de leite condensado",
+      "lata de creme de leite",
+      "lata de suco de maracujá concentrado"
+    ],
+    "modoPreparo": [
+      "Misture bem todos os ingredientes até ficar homogêneo.",
+      "Coloque em potes e leve à geladeira por no mínimo 2 horas.",
+      "Sirva gelado."
+    ],
+    "descricao": "A sobremesa azedinha que adoça até a vida mais amarga.",
+    "tempo": "15 min + refrigeração",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "3 porções",
+    "dica": "Mousse de maracujá é igual fatura do cartão: azeda, mas tem seu charme."
+  },
+  {
+    "id": 1106,
+    "titulo": "Café Gelado com Leite Condensado",
+    "slug": "cafe-gelado-com-leite-condensado",
+    "categoria": "Madrugada ",
+    "ingredientes": [
+      "xícara de café forte coado e frio",
+      "colheres de sopa de leite condensado",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o café com o leite condensado até dissolver.",
+      "Coloque gelo no copo e despeje o café doce.",
+      "Mexa e tome com vontade."
+    ],
+    "descricao": "O combustível que você precisa quando o sono insiste em brincar de esconde-esconde.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,00",
+    "porcoes": "1 porção",
+    "dica": "Café gelado com leite condensado é tipo boleto pago no débito automático: prático, doce e sem dor de cabeça."
+  }
+]

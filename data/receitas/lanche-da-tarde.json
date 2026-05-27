@@ -1,0 +1,997 @@
+[
+  {
+    "id": 1026,
+    "titulo": "Sanduíche de Frango com Maionese de Abacate",
+    "slug": "sanduiche-de-frango-com-maionese-de-abacate",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "g de peito de frango desfiado",
+      "colheres de sopa de maionese",
+      "/2 abacate maduro",
+      "fatias de pão integral",
+      "Folhas de alface a gosto",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o frango com sal e pimenta e aqueça na frigideira até dourar.",
+      "Amasse o abacate e misture com a maionese para fazer a pasta.",
+      "Monte o sanduíche com o pão, a pasta de abacate, o frango e a alface."
+    ],
+    "descricao": "Porque lanchar saudável não precisa ser um castigo do boleto vencido.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida te der abacate, faça maionese. Se te der boletos, pelo menos coma bem!"
+  },
+  {
+    "id": 1027,
+    "titulo": "Pão de Queijo Recheado com Goiabada Cremosa",
+    "slug": "pao-de-queijo-recheado-com-goiabada-cremosa",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "g de polvilho azedo",
+      "ml de leite",
+      "ml de óleo",
+      "ovo",
+      "g de queijo minas padrão ralado",
+      "g de goiabada cremosa",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o polvilho com o leite quente, óleo e sal até formar uma massa.",
+      "Adicione o ovo e o queijo ralado, misture bem.",
+      "Modele bolinhas, recheie com goiabada, feche e asse a 180ºC por 25 minutos."
+    ],
+    "descricao": "O único casal que não vai te deixar na mão no lanche da tarde.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,50",
+    "porcoes": "4 porções",
+    "dica": "Se a sua vida amorosa é fria, pelo menos o pão de queijo recheado vai te aquecer."
+  },
+  {
+    "id": 1028,
+    "titulo": "Tapioca de Banana com Canela e Mel",
+    "slug": "tapioca-de-banana-com-canela-e-mel",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca hidratada",
+      "banana madura fatiada",
+      "Canela em pó a gosto",
+      "Mel para regar"
+    ],
+    "modoPreparo": [
+      "Aqueça a frigideira e espalhe a goma formando um disco.",
+      "Cozinhe até firmar e vire para aquecer do outro lado.",
+      "Recheie com banana, polvilhe canela e regue com mel."
+    ],
+    "descricao": "Porque nem só de boletos e café preto vive o adulto.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida está amarga, joga mel que fica doce. Se não, toma um café."
+  },
+  {
+    "id": 1029,
+    "titulo": "Sanduíche Caprese no Pão Ciabatta",
+    "slug": "sanduiche-caprese-no-pao-ciabatta",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "pão ciabatta médio",
+      "g de mussarela de búfala",
+      "tomates maduros em fatias",
+      "Folhas de manjericão fresco",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Corte o pão ao meio e coloque fatias de mussarela e tomate.",
+      "Adicione folhas de manjericão e tempere com azeite, sal e pimenta.",
+      "Feche o sanduíche e sirva imediatamente."
+    ],
+    "descricao": "Porque às vezes o lanche precisa ser mais sofisticado que sua vida social.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "2 porções",
+    "dica": "Esse sanduíche é mais fácil de montar que sua rotina de exercícios... e mais gostoso também."
+  },
+  {
+    "id": 1030,
+    "titulo": "Bolo de Cenoura com Cobertura de Chocolate",
+    "slug": "bolo-de-cenoura-com-cobertura-de-chocolate",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "cenouras médias picadas",
+      "ovos",
+      "xícara de óleo",
+      "xícaras de açúcar",
+      "e 1/2 xícaras de farinha de trigo",
+      "colher de sopa de fermento em pó",
+      "/2 xícara de leite",
+      "colheres de sopa de chocolate em pó",
+      "colheres de sopa de açúcar",
+      "colher de sopa de manteiga"
+    ],
+    "modoPreparo": [
+      "Bata no liquidificador as cenouras, ovos e óleo até ficar homogêneo.",
+      "Misture o açúcar, farinha e fermento, incorpore delicadamente.",
+      "Asse em forma untada a 180ºC por 40 minutos.",
+      "Para a cobertura, misture tudo em panela, leve ao fogo até engrossar e despeje sobre o bolo."
+    ],
+    "descricao": "O lanche que faz você esquecer que o boleto venceu ontem.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "8 porções",
+    "dica": "Esse bolo é tão bom que se fosse boleto, a gente pagava feliz."
+  },
+  {
+    "id": 1031,
+    "titulo": "Sanduíche de Atum com Maionese de Ervas",
+    "slug": "sanduiche-de-atum-com-maionese-de-ervas",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "lata de atum em água",
+      "colheres de sopa de maionese",
+      "Salsinha e cebolinha picadas a gosto",
+      "fatias de pão de forma integral",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Escorra o atum e misture com maionese, salsinha, cebolinha, sal e pimenta.",
+      "Passe a mistura nas fatias de pão.",
+      "Monte o sanduíche e sirva."
+    ],
+    "descricao": "Porque até o atum sabe que a vida adulta é uma mistura de caos com maionese.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "2 porções",
+    "dica": "Se o atum consegue se juntar com maionese, você consegue juntar as contas no fim do mês."
+  },
+  {
+    "id": 1032,
+    "titulo": "Crepioca de Queijo e Presunto",
+    "slug": "crepioca-de-queijo-e-presunto",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "ovo",
+      "fatias de presunto magro",
+      "fatias de queijo prato",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Bata o ovo com a goma e o sal até ficar homogêneo.",
+      "Despeje na frigideira aquecida formando uma camada fina.",
+      "Quando firmar, coloque o presunto e o queijo, dobre a crepioca e sirva."
+    ],
+    "descricao": "O lanche que é tão versátil quanto desculpas para não ir à academia.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Essa crepioca é mais rápida que você tentando explicar o boleto atrasado pro gerente."
+  },
+  {
+    "id": 1033,
+    "titulo": "Salada de Frutas com Iogurte e Granola",
+    "slug": "salada-de-frutas-com-iogurte-e-granola",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "maçã picada",
+      "banana fatiada",
+      "/2 mamão picado",
+      "pote de iogurte natural (170g)",
+      "colheres de sopa de granola"
+    ],
+    "modoPreparo": [
+      "Misture as frutas em uma tigela.",
+      "Adicione o iogurte por cima.",
+      "Salpique a granola e sirva."
+    ],
+    "descricao": "O lanche que grita “vida saudável” enquanto a mente pensa no próximo boleto.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Frutas e granola pra enganar o estômago e esquecer que boletos não pedem licença."
+  },
+  {
+    "id": 1034,
+    "titulo": "Pão Sírio com Homus e Tomate Seco",
+    "slug": "pao-sirio-com-homus-e-tomate-seco",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "pães sírios pequenos",
+      "colheres de sopa de homus",
+      "tomates secos hidratados",
+      "Folhas de rúcula a gosto"
+    ],
+    "modoPreparo": [
+      "Corte o pão sírio ao meio.",
+      "Espalhe o homus generosamente.",
+      "Distribua os tomates secos e a rúcula, feche e sirva."
+    ],
+    "descricao": "O lanche que é mais sofisticado que sua desculpa para faltar no trabalho.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Se sua vida fosse tão organizada quanto esse lanche, já tinha pago o boleto."
+  },
+  {
+    "id": 1035,
+    "titulo": "Wrap Integral de Frango com Cream Cheese",
+    "slug": "wrap-integral-de-frango-com-cream-cheese",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "tortilhas integrais",
+      "g de frango desfiado e temperado",
+      "colheres de sopa de cream cheese",
+      "Folhas de alface e tomate fatiado"
+    ],
+    "modoPreparo": [
+      "Aqueça o frango em frigideira até dourar.",
+      "Espalhe cream cheese nas tortilhas.",
+      "Recheie com frango, alface e tomate, enrole firmemente."
+    ],
+    "descricao": "Enroladinho que te deixa feliz, diferente da sua caixa de e-mails.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Se enrolar no trabalho é ruim, enrolar no wrap é só gostoso."
+  },
+  {
+    "id": 1036,
+    "titulo": "Biscoitos Salgados de Queijo e Orégano",
+    "slug": "biscoitos-salgados-de-queijo-e-oregano",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "xícaras de farinha de trigo",
+      "g de manteiga gelada",
+      "g de queijo parmesão ralado",
+      "colher de chá de orégano",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a farinha com a manteiga até formar uma farofa.",
+      "Adicione queijo, orégano e sal, misture até virar massa.",
+      "Abra a massa, corte em formatos e asse a 180ºC por 20 minutos."
+    ],
+    "descricao": "Porque até na crise a gente precisa de um petisco que não te cobre juros.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 10,00",
+    "porcoes": "20 unidades",
+    "dica": "Esses biscoitos são a única coisa que vai te dar um retorno sem juros hoje."
+  },
+  {
+    "id": 1037,
+    "titulo": "Pãozinho de Batata com Recheio de Catupiry",
+    "slug": "paozinho-de-batata-com-recheio-de-catupiry",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "g de batata cozida e amassada",
+      "ovos",
+      "colheres de sopa de manteiga",
+      "xícara de farinha de trigo",
+      "g de catupiry",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a batata, ovos, manteiga e sal.",
+      "Adicione a farinha até a massa desgrudar das mãos.",
+      "Modele bolinhas, abra, recheie com catupiry, feche e asse a 180ºC por 25 minutos."
+    ],
+    "descricao": "O lanche que abraça você mais que sua sogra no domingo.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "6 porções",
+    "dica": "Se o boleto apertar, pelo menos o pãozinho de batata vai te abraçar com queijo."
+  },
+  {
+    "id": 1038,
+    "titulo": "Sanduíche de Berinjela Grelhada com Queijo Minas",
+    "slug": "sanduiche-de-berinjela-grelhada-com-queijo-minas",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "berinjela média em fatias",
+      "g de queijo minas frescal",
+      "fatias de pão integral",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere e grelhe as fatias de berinjela até dourar.",
+      "Monte o sanduíche com berinjela e queijo minas.",
+      "Sirva com fio de azeite por cima."
+    ],
+    "descricao": "Para os dias que você quer ser saudável, mas com gostinho de rebeldia.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 16,50",
+    "porcoes": "2 porções",
+    "dica": "Se a vida é uma berinjela, pelo menos o sanduíche não precisa ser amarga."
+  },
+  {
+    "id": 1039,
+    "titulo": "Coxinha Fit de Frango com Recheio de Requeijão Light",
+    "slug": "coxinha-fit-de-frango-com-recheio-de-requeijao-light",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "ml de caldo de frango",
+      "xícara de farinha de trigo integral",
+      "g de peito de frango desfiado",
+      "colheres de sopa de requeijão light",
+      "Sal e temperos a gosto"
+    ],
+    "modoPreparo": [
+      "Ferva o caldo e adicione a farinha, mexendo até formar massa.",
+      "Modele as coxinhas, recheie com frango e requeijão.",
+      "Asse ou frite em óleo quente até dourar."
+    ],
+    "descricao": "A coxinha que não engorda, só o boleto que pesa.",
+    "tempo": "45 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 25,00",
+    "porcoes": "8 unidades",
+    "dica": "Se a vontade de fugir do boleto é grande, essa coxinha fit ajuda a disfarçar."
+  },
+  {
+    "id": 1040,
+    "titulo": "Muffin Salgado de Espinafre e Queijo",
+    "slug": "muffin-salgado-de-espinafre-e-queijo",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "ovos",
+      "xícara de espinafre cozido e picado",
+      "/2 xícara de queijo ralado",
+      "/2 xícara de farinha de trigo",
+      "/4 xícara de leite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com leite, adicione farinha, queijo e espinafre.",
+      "Tempere e coloque nas formas para muffin.",
+      "Asse a 180ºC por 25 minutos."
+    ],
+    "descricao": "O lanche que parece saudável, mas é só para enganar o chefe.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "6 porções",
+    "dica": "Se o chefe não aceitar seu lanche, pelo menos o estresse não vai entrar na receita."
+  },
+  {
+    "id": 1041,
+    "titulo": "Sanduíche de Ovo Mexido com Cebolinha",
+    "slug": "sanduiche-de-ovo-mexido-com-cebolinha",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "ovos",
+      "fatias de pão de forma",
+      "Cebolinha picada a gosto",
+      "Sal e pimenta a gosto",
+      "Manteiga para fritar"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com sal, pimenta e cebolinha.",
+      "Cozinhe na frigideira com manteiga mexendo até firmar.",
+      "Sirva no pão."
+    ],
+    "descricao": "Simples, rápido, e melhor que sua reunião das 15h.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "1 porção",
+    "dica": "Se a reunião é um ovo mexido, pelo menos no lanche a gente acerta o ponto."
+  },
+  {
+    "id": 1042,
+    "titulo": "Sanduíche Natural de Frango com Cenoura Ralada",
+    "slug": "sanduiche-natural-de-frango-com-cenoura-ralada",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "g de peito de frango cozido e desfiado",
+      "colheres de sopa de maionese light",
+      "cenoura ralada",
+      "fatias de pão integral",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o frango com a maionese, cenoura, sal e pimenta.",
+      "Passe a mistura nas fatias de pão.",
+      "Monte e sirva."
+    ],
+    "descricao": "O lanche que tenta te convencer que você é fitness, mesmo sabendo que não.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vontade de ser fitness é pouca, pelo menos o lanche ajuda no disfarce."
+  },
+  {
+    "id": 1043,
+    "titulo": "Pão Francês com Queijo Coalho na Chapa",
+    "slug": "pao-frances-com-queijo-coalho-na-chapa",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "pão francês",
+      "g de queijo coalho",
+      "Manteiga para a chapa"
+    ],
+    "modoPreparo": [
+      "Corte o pão ao meio e a manteiga nas bordas.",
+      "Grelhe o queijo na chapa até dourar.",
+      "Monte o sanduíche e sirva quente."
+    ],
+    "descricao": "O clássico que nunca te abandona, diferente do seu salário.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Se o salário some rápido, pelo menos o pão com queijo fica por perto."
+  },
+  {
+    "id": 1044,
+    "titulo": "Bolinho de Chuva com Açúcar e Canela",
+    "slug": "bolinho-de-chuva-com-acucar-e-canela",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "ovos",
+      "xícara de leite",
+      "colher de sopa de açúcar",
+      "xícaras de farinha de trigo",
+      "colher de chá de fermento em pó",
+      "Açúcar e canela para polvilhar",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Misture ovos, leite e açúcar.",
+      "Adicione farinha e fermento, misture até formar massa homogênea.",
+      "Frite colheradas da massa em óleo quente até dourar.",
+      "Escorra e passe em açúcar com canela."
+    ],
+    "descricao": "O lanche que é a prova de que nem tudo que é doce estraga sua vida.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "10 unidades",
+    "dica": "Se a vida está difícil, pelo menos o bolinho de chuva está doce e fofinho."
+  },
+  {
+    "id": 1045,
+    "titulo": "Pão de Forma com Pasta de Amendoim e Mel",
+    "slug": "pao-de-forma-com-pasta-de-amendoim-e-mel",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "fatias de pão de forma integral",
+      "colheres de sopa de pasta de amendoim",
+      "colher de sopa de mel"
+    ],
+    "modoPreparo": [
+      "Espalhe a pasta de amendoim nas fatias de pão.",
+      "Regue com mel e feche o sanduíche.",
+      "Sirva na hora."
+    ],
+    "descricao": "Energia rápida pra aguentar as contas e as piadas ruins da família.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vida é amarga, a pasta de amendoim e mel são o abraço que você merece."
+  },
+  {
+    "id": 1046,
+    "titulo": "Panqueca Integral com Recheio de Ricota e Espinafre",
+    "slug": "panqueca-integral-com-recheio-de-ricota-e-espinafre",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "xícara de farinha integral",
+      "ovo",
+      "xícara de leite",
+      "g de ricota amassada",
+      "xícara de espinafre cozido e picado",
+      "Sal e noz-moscada a gosto"
+    ],
+    "modoPreparo": [
+      "Misture farinha, ovo e leite até formar massa homogênea.",
+      "Faça pequenas panquecas na frigideira quente.",
+      "Recheie com ricota misturada ao espinafre e dobre."
+    ],
+    "descricao": "Porque lanchar saudável dá trabalho, mas a gente finge que gosta.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "3 porções",
+    "dica": "Essa panqueca é mais organizada que sua planilha de gastos."
+  },
+  {
+    "id": 1047,
+    "titulo": "Bruschetta de Tomate, Manjericão e Azeite",
+    "slug": "bruschetta-de-tomate-manjericao-e-azeite",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "baguete fatiada",
+      "tomates maduros picados",
+      "Folhas de manjericão a gosto",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Torre as fatias de baguete no forno ou grill.",
+      "Misture tomates, manjericão, azeite, sal e pimenta.",
+      "Coloque a mistura sobre as torradas e sirva."
+    ],
+    "descricao": "O lanche que é aquela tentativa de ser chique sem gastar tudo.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "A bruschetta é mais rápida que sua desculpa para faltar no happy hour."
+  },
+  {
+    "id": 1048,
+    "titulo": "Pão Integral com Pasta de Grão-de-Bico e Limão",
+    "slug": "pao-integral-com-pasta-de-grao-de-bico-e-limao",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "xícara de grão-de-bico cozido",
+      "Suco de 1 limão",
+      "dente de alho",
+      "colheres de sopa de azeite",
+      "Sal e pimenta a gosto",
+      "fatias de pão integral"
+    ],
+    "modoPreparo": [
+      "Bata o grão-de-bico, limão, alho, azeite, sal e pimenta até virar pasta.",
+      "Espalhe a pasta nas fatias de pão.",
+      "Sirva imediatamente."
+    ],
+    "descricao": "Pra quem quer ser saudável, mas só até o limão aparecer.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 11,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida te der limão, faça pasta; se te der boleto, chora mesmo."
+  },
+  {
+    "id": 1049,
+    "titulo": "Sanduíche de Mortadela com Queijo e Picles",
+    "slug": "sanduiche-de-mortadela-com-queijo-e-picles",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "fatias de pão francês",
+      "fatias de mortadela",
+      "fatias de queijo prato",
+      "Picles fatiado a gosto",
+      "Manteiga para passar no pão"
+    ],
+    "modoPreparo": [
+      "Passe manteiga no pão e monte com mortadela, queijo e picles.",
+      "Feche e sirva."
+    ],
+    "descricao": "O clássico que prova que nem tudo que é simples é ruim.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "1 porção",
+    "dica": "Se o lanche é simples, o boleto não precisa complicar também."
+  },
+  {
+    "id": 1050,
+    "titulo": "Tapioca Recheada com Queijo Coalho e Melado de Cana",
+    "slug": "tapioca-recheada-com-queijo-coalho-e-melado-de-cana",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca hidratada",
+      "g de queijo coalho fatiado",
+      "colheres de sopa de melado de cana"
+    ],
+    "modoPreparo": [
+      "Espalhe a goma na frigideira quente até formar disco.",
+      "Coloque o queijo coalho, dobre a tapioca e deixe derreter.",
+      "Sirva com melado por cima."
+    ],
+    "descricao": "O doce que não é só pra quem tem doce na vida, que é raro.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "2 porções",
+    "dica": "Um doce que te lembra que a vida tem sim momentos gostosos... entre um boleto e outro."
+  },
+  {
+    "id": 1051,
+    "titulo": "Sanduíche de Almôndega ao Molho de Tomate",
+    "slug": "sanduiche-de-almondega-ao-molho-de-tomate",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "g de carne moída",
+      "/2 cebola picada",
+      "dente de alho picado",
+      "xícara de molho de tomate",
+      "Sal, pimenta e ervas a gosto",
+      "Pães franceses para servir"
+    ],
+    "modoPreparo": [
+      "Misture carne, cebola, alho, sal e pimenta; modele almôndegas.",
+      "Frite as almôndegas até dourar, adicione molho e cozinhe 10 minutos.",
+      "Monte os sanduíches com as almôndegas e molho."
+    ],
+    "descricao": "O lanche que te sustenta mais que o salário no fim do mês.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "3 porções",
+    "dica": "Se o salário não sustenta, pelo menos o sanduíche sustenta a fome."
+  },
+  {
+    "id": 1052,
+    "titulo": "Bolo de Fubá Cremoso com Coco",
+    "slug": "bolo-de-fuba-cremoso-com-coco",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "xícara de fubá",
+      "xícara de farinha de trigo",
+      "xícara de açúcar",
+      "ovos",
+      "vidro de leite de coco (200ml)",
+      "/2 xícara de óleo",
+      "colher de sopa de fermento"
+    ],
+    "modoPreparo": [
+      "Bata ovos, açúcar e óleo.",
+      "Adicione fubá, farinha, leite de coco e fermento.",
+      "Asse a 180ºC por 40 minutos."
+    ],
+    "descricao": "O lanche que é mais confortável que suas desculpas para não sair.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 13,00",
+    "porcoes": "8 porções",
+    "dica": "Se o conforto fosse boleto, ninguém reclamava de pagar."
+  },
+  {
+    "id": 1053,
+    "titulo": "Croissant Recheado com Presunto e Queijo",
+    "slug": "croissant-recheado-com-presunto-e-queijo",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "croissants prontos",
+      "fatias de presunto",
+      "fatias de queijo mussarela"
+    ],
+    "modoPreparo": [
+      "Corte os croissants ao meio.",
+      "Recheie com presunto e queijo.",
+      "Aqueça no forno a 180ºC por 10 minutos até o queijo derreter."
+    ],
+    "descricao": "O lanche que faz você se sentir rico, mesmo com conta no vermelho.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Se o saldo bancário é croissant, que seja recheado de alegria."
+  },
+  {
+    "id": 1054,
+    "titulo": "Pão Sírio com Falafel e Molho Tahine",
+    "slug": "pao-sirio-com-falafel-e-molho-tahine",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "xícara de grão-de-bico demolhado",
+      "/2 cebola picada",
+      "dentes de alho",
+      "colher de chá de cominho",
+      "Sal e pimenta a gosto",
+      "Pães sírios para servir",
+      "Molho tahine para acompanhar"
+    ],
+    "modoPreparo": [
+      "Bata grão-de-bico, cebola, alho, cominho, sal e pimenta até virar massa.",
+      "Modele bolinhos e frite em óleo quente até dourar.",
+      "Sirva no pão sírio com molho tahine."
+    ],
+    "descricao": "O lanche que é um rolê no oriente sem sair da cozinha (ou do boleto).",
+    "tempo": "40 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Se o boleto é árabe, o falafel pelo menos é mais saboroso."
+  },
+  {
+    "id": 1055,
+    "titulo": "Muffin Doce de Maçã com Canela",
+    "slug": "muffin-doce-de-maca-com-canela",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "maçãs raladas",
+      "ovos",
+      "xícara de açúcar",
+      "/2 xícara de óleo",
+      "xícaras de farinha de trigo",
+      "colher de chá de fermento",
+      "colher de chá de canela"
+    ],
+    "modoPreparo": [
+      "Misture ovos, açúcar e óleo.",
+      "Adicione farinha, fermento, canela e maçã.",
+      "Asse em forminhas a 180ºC por 25 minutos."
+    ],
+    "descricao": "O lanche que é mais doce que a sua esperança no fim do mês.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "6 porções",
+    "dica": "Se o mês está difícil, pelo menos o muffin está doce e macio."
+  },
+  {
+    "id": 1056,
+    "titulo": "Sanduíche de Salame com Queijo e Picles",
+    "slug": "sanduiche-de-salame-com-queijo-e-picles",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "fatias de pão italiano",
+      "fatias de salame",
+      "fatias de queijo prato",
+      "Picles a gosto"
+    ],
+    "modoPreparo": [
+      "Monte o sanduíche com salame, queijo e picles entre as fatias de pão.",
+      "Sirva imediatamente."
+    ],
+    "descricao": "Para os dias que você quer um lanche com personalidade e sem frescura.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vida é um salame, que pelo menos o sanduíche tenha queijo."
+  },
+  {
+    "id": 1057,
+    "titulo": "Crepioca Doce de Morango com Chocolate",
+    "slug": "crepioca-doce-de-morango-com-chocolate",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "ovos",
+      "colheres de sopa de goma de tapioca",
+      "Morangos fatiados a gosto",
+      "Chocolate meio amargo picado"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com a goma.",
+      "Despeje na frigideira formando disco.",
+      "Quando firme, adicione morango e chocolate, dobre e sirva."
+    ],
+    "descricao": "O lanche que é um beijo na boca da dieta.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Se a dieta fosse beijo, a crepioca doce já teria me tornado milionário."
+  },
+  {
+    "id": 1058,
+    "titulo": "Pãozinho de Leite com Recheio de Doce de Leite e Coco",
+    "slug": "paozinho-de-leite-com-recheio-de-doce-de-leite-e-coco",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "g de farinha de trigo",
+      "ovo",
+      "ml de leite morno",
+      "g de açúcar",
+      "g de fermento biológico",
+      "g de doce de leite",
+      "Coco ralado para polvilhar"
+    ],
+    "modoPreparo": [
+      "Misture fermento, leite e açúcar, deixe ativar.",
+      "Adicione farinha e ovo, amasse até formar massa lisa.",
+      "Modele pãezinhos, recheie com doce de leite, deixe crescer e asse a 180ºC por 25 minutos.",
+      "Polvilhe coco ralado por cima."
+    ],
+    "descricao": "O lanche que é um abraço açucarado no fim da tarde.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 16,00",
+    "porcoes": "6 porções",
+    "dica": "Se o boleto estiver pesado, pelo menos o pão doce é leve e doce como abraço."
+  },
+  {
+    "id": 1059,
+    "titulo": "Biscoitos de Aveia com Banana e Mel",
+    "slug": "biscoitos-de-aveia-com-banana-e-mel",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "bananas maduras amassadas",
+      "xícara de aveia em flocos",
+      "colheres de sopa de mel",
+      "colher de chá de canela"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes até formar massa.",
+      "Modele bolinhas e achate na assadeira.",
+      "Asse a 180ºC por 15 minutos."
+    ],
+    "descricao": "O lanche que é uma desculpa saudável para não sair do sofá.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "12 unidades",
+    "dica": "Se a preguiça é grande, esses biscoitos são seu coração batendo na cozinha."
+  },
+  {
+    "id": 1060,
+    "titulo": "Sanduíche de Pernil Desfiado com Cebola Caramelizada",
+    "slug": "sanduiche-de-pernil-desfiado-com-cebola-caramelizada",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "g de pernil cozido e desfiado",
+      "cebola grande fatiada",
+      "colher de sopa de açúcar",
+      "fatias de pão ciabatta",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Caramelize a cebola com açúcar em frigideira.",
+      "Aqueça o pernil e misture com a cebola.",
+      "Monte o sanduíche com a mistura e sirva."
+    ],
+    "descricao": "Porque um lanche caprichado sempre faz você esquecer o boleto por um instante.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 23,00",
+    "porcoes": "2 porções",
+    "dica": "Se o boleto é amargo, a cebola caramelizada e o pernil dão um sabor diferente."
+  },
+  {
+    "id": 1061,
+    "titulo": "Torrada Integral com Ricota e Mel",
+    "slug": "torrada-integral-com-ricota-e-mel",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "fatias de pão integral",
+      "colheres de sopa de ricota amassada",
+      "Mel para regar"
+    ],
+    "modoPreparo": [
+      "Torre o pão até ficar crocante.",
+      "Espalhe a ricota e regue com mel.",
+      "Sirva na hora."
+    ],
+    "descricao": "O lanche que é o jeitinho doce de dizer “vai passar, boleto”.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vida está amarga, a torrada com ricota e mel é o docinho que salva."
+  },
+  {
+    "id": 1062,
+    "titulo": "Crepe Salgado de Calabresa com Queijo",
+    "slug": "crepe-salgado-de-calabresa-com-queijo",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "ovo",
+      "xícara de leite",
+      "g de calabresa fatiada",
+      "g de queijo mussarela ralado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture farinha, ovo, leite e sal até formar massa líquida.",
+      "Faça crepes finos na frigideira.",
+      "Recheie com calabresa e queijo, dobre e deixe o queijo derreter."
+    ],
+    "descricao": "O lanche que é um carinho no estômago e uma facada no colesterol.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Se o boleto é pesado, o crepe pelo menos é leve e gostoso."
+  },
+  {
+    "id": 1063,
+    "titulo": "Sanduíche Vegetariano com Berinjela e Abobrinha Grelhadas",
+    "slug": "sanduiche-vegetariano-com-berinjela-e-abobrinha-grelhadas",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "berinjela média em fatias",
+      "abobrinha média em fatias",
+      "fatias de pão integral",
+      "Pasta de ricota para passar",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere e grelhe as fatias de berinjela e abobrinha.",
+      "Passe a pasta de ricota no pão.",
+      "Monte o sanduíche com os legumes grelhados."
+    ],
+    "descricao": "O lanche que prova que não precisa de carne pra ser gostoso (mas com carne também é bom).",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 17,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida é cheia de legumes, que pelo menos o lanche seja saboroso."
+  },
+  {
+    "id": 1064,
+    "titulo": "Biscoitos de Polvilho com Queijo",
+    "slug": "biscoitos-de-polvilho-com-queijo",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "g de polvilho azedo",
+      "ml de leite",
+      "ml de óleo",
+      "ovo",
+      "g de queijo parmesão ralado",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o polvilho com leite quente, óleo e sal até formar massa.",
+      "Acrescente ovo e queijo, misture bem.",
+      "Modele biscoitos, coloque na assadeira e asse a 180ºC por 20 minutos."
+    ],
+    "descricao": "O lanche crocante que não te cobra juros nem no sabor.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "15 unidades",
+    "dica": "Se o boleto pesa, pelo menos o biscoito de polvilho é leve e gostoso."
+  },
+  {
+    "id": 1065,
+    "titulo": "Sanduíche de Peito de Peru com Cream Cheese e Rúcula",
+    "slug": "sanduiche-de-peito-de-peru-com-cream-cheese-e-rucula",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "fatias de pão integral",
+      "g de peito de peru fatiado",
+      "colheres de sopa de cream cheese",
+      "Folhas de rúcula a gosto"
+    ],
+    "modoPreparo": [
+      "Espalhe cream cheese nas fatias de pão.",
+      "Recheie com peito de peru e rúcula.",
+      "Monte os sanduíches e sirva."
+    ],
+    "descricao": "O lanche que é chique, mas não chique demais pra sua carteira.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 19,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida está apertada, pelo menos o sanduíche está bem recheado."
+  },
+  {
+    "id": 1066,
+    "titulo": "Pão de Mel com Recheio de Doce de Leite",
+    "slug": "pao-de-mel-com-recheio-de-doce-de-leite",
+    "categoria": "Lanche Da Tarde ",
+    "ingredientes": [
+      "xícaras de farinha de trigo",
+      "xícara de mel",
+      "xícara de açúcar mascavo",
+      "/2 xícara de leite",
+      "ovos",
+      "colher de chá de bicarbonato",
+      "colher de chá de canela",
+      "colher de chá de cravo em pó",
+      "Doce de leite para rechear"
+    ],
+    "modoPreparo": [
+      "Misture os líquidos e o açúcar, depois adicione os secos.",
+      "Asse em forma untada a 180ºC por 30 minutos.",
+      "Corte ao meio, recheie com doce de leite e feche."
+    ],
+    "descricao": "O lanche que é um mimo pra você mesmo, porque boleto não perdoa.",
+    "tempo": "60 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 25,00",
+    "porcoes": "8 porções",
+    "dica": "Se o boleto é doce amargo, esse pão de mel é só doce."
+  }
+]

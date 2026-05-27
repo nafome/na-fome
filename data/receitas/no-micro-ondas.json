@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1225,
+    "titulo": "Omelete Express de Força-Tarefa",
+    "slug": "omelete-express-de-forca-tarefa",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "ovos",
+      "g de queijo mussarela ralado",
+      "colher de sopa de leite",
+      "Sal e pimenta a gosto",
+      "colher de sopa de presunto picado"
+    ],
+    "modoPreparo": [
+      "Quebre os ovos na caneca e bata com garfo até homogeneizar.",
+      "Adicione o queijo, presunto, leite, sal e pimenta e misture.",
+      "Leve ao micro-ondas por 1 minuto, mexa e volte por mais 1 minuto ou até firmar."
+    ],
+    "descricao": "Acordou tarde, quer proteína e não tempo pra drama? Omelete no micro é seu melhor amigo.",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "1 porção",
+    "dica": "Se o micro-ondas fosse gente, seria aquele amigo que resolve tudo rápido, mas não te entende direito. Não deixe passar do ponto, senão vira borracha gourmet."
+  },
+  {
+    "id": 1226,
+    "titulo": "Arroz de Microondas Turbo Fácil",
+    "slug": "arroz-de-microondas-turbo-facil",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "xícara de arroz branco",
+      "xícaras de água",
+      "colher de chá de sal",
+      "colher de sopa de óleo"
+    ],
+    "modoPreparo": [
+      "Lave o arroz e coloque no recipiente com água, sal e óleo.",
+      "Cubra e leve ao micro-ondas por 10 minutos em potência alta.",
+      "Mexa, cubra novamente e cozinhe por mais 8 minutos ou até a água secar."
+    ],
+    "descricao": "Aquele arroz que não te abandona, mesmo quando você esquece o fogão ligado.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,50",
+    "porcoes": "2 porções",
+    "dica": "Se o arroz te abandonar, pelo menos o micro-ondas não vai. Mas não esqueça de deixar o arroz de molho, ele não é mágico, só rápido."
+  },
+  {
+    "id": 1227,
+    "titulo": "Batata Recheada de Microondas – Fast & Furiosa",
+    "slug": "batata-recheada-de-microondas-fast-furiosa",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "batata média",
+      "colheres de sopa de requeijão cremoso",
+      "fatias de queijo prato",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Fure a batata com garfo várias vezes.",
+      "Coloque no micro-ondas por 8 minutos em potência alta.",
+      "Corte ao meio, recheie com requeijão e queijo, volte ao micro por 2 minutos para derreter."
+    ],
+    "descricao": "Batata com recheio que nem seu chefe: cheia de surpresas e pressão.",
+    "tempo": "12 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "1 porção",
+    "dica": "A batata é o carboidrato que todo mundo ama, porque é fácil de lidar, diferente da vida adulta. Não esqueça de furar, não queremos batata-bomba."
+  },
+  {
+    "id": 1228,
+    "titulo": "Lasanha Low Effort no Microondas",
+    "slug": "lasanha-low-effort-no-microondas",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "folhas de massa para lasanha pré-cozida",
+      "g de molho de tomate",
+      "g de queijo mussarela fatiado",
+      "g de presunto fatiado",
+      "Sal e orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Em um recipiente, monte camadas: molho, massa, presunto, queijo, repita.",
+      "Finalize com molho e queijo por cima, tempere com orégano.",
+      "Leve ao micro-ondas por 10 minutos, até queijo derreter e massa amolecer."
+    ],
+    "descricao": "Para quem quer lasanha mas só tem 10 minutos e muita preguiça.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "2 porções",
+    "dica": "Fazer lasanha no micro é igual a tentar pagar boleto no último minuto: funciona, mas não é o ideal. Se seu micro não é potente, ajuste o tempo e não desista."
+  },
+  {
+    "id": 1229,
+    "titulo": "Brownie de Caneca para Sobreviventes",
+    "slug": "brownie-de-caneca-para-sobreviventes",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "colheres de sopa de farinha de trigo",
+      "colheres de sopa de açúcar",
+      "colheres de sopa de cacau em pó",
+      "ovo",
+      "colheres de sopa de óleo",
+      "colheres de sopa de leite",
+      "pitada de fermento em pó"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes na caneca até ficar homogêneo.",
+      "Leve ao micro-ondas por 2 minutos em potência alta.",
+      "Deixe esfriar 1 minuto e coma direto da caneca."
+    ],
+    "descricao": "Praquele desespero pós-trabalho que só um doce rápido resolve.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,00",
+    "porcoes": "1 porção",
+    "dica": "Brownie de caneca é igual reunião de Zoom: rápido, prático e você não precisa se arrumar. Mas cuidado pra não virar pedra, não é competição de resistência."
+  },
+  {
+    "id": 1230,
+    "titulo": "Pipoca Gourmet de Microondas com Toque Caro",
+    "slug": "pipoca-gourmet-de-microondas-com-toque-caro",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "/2 xícara de milho para pipoca",
+      "colher de sopa de manteiga derretida",
+      "Sal a gosto",
+      "pitada de páprica doce"
+    ],
+    "modoPreparo": [
+      "Coloque o milho no pote, tampe deixando pequena abertura.",
+      "Leve ao micro-ondas por 3-4 minutos, até parar de estourar.",
+      "Misture manteiga derretida, sal e páprica na pipoca."
+    ],
+    "descricao": "Porque pipoca normal é muito mainstream e boletos não pagam sozinhos.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,50",
+    "porcoes": "2 porções",
+    "dica": "Pipoca no micro é aquele amigo que faz barulho no momento certo e some quando você precisa. Não saia da cozinha, micro-ondas não tem botão “pausa”."
+  },
+  {
+    "id": 1231,
+    "titulo": "Frango com Legumes Express no Microondas",
+    "slug": "frango-com-legumes-express-no-microondas",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "g de peito de frango cortado em cubos",
+      "cenoura média em rodelas finas",
+      "/2 abobrinha picada",
+      "colher de sopa de azeite",
+      "Sal, pimenta e ervas a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes no recipiente, tempere.",
+      "Cubra e cozinhe no micro-ondas por 10 minutos, mexendo na metade do tempo.",
+      "Verifique se o frango está cozido, caso contrário, cozinhe mais 2 minutos."
+    ],
+    "descricao": "Pra quem quer comer saudável mas o sono venceu a batalha.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Frango no micro é igual promessa de político: precisa de revisão. Não confie na cor, sempre cheque o cheiro — vida adulta é isso, desconfiar até do micro-ondas."
+  },
+  {
+    "id": 1232,
+    "titulo": "Mingau de Aveia Turbo para Cansados",
+    "slug": "mingau-de-aveia-turbo-para-cansados",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "colheres de sopa de aveia em flocos",
+      "xícara de leite ou bebida vegetal",
+      "colher de sopa de mel",
+      "Canela a gosto"
+    ],
+    "modoPreparo": [
+      "Misture aveia e leite na tigela.",
+      "Leve ao micro-ondas por 2 minutos, mexa e volte por mais 1 minuto.",
+      "Adicione mel e canela e misture antes de consumir."
+    ],
+    "descricao": "Aquele café da manhã que só o microondas e a preguiça conseguem explicar.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,00",
+    "porcoes": "1 porção",
+    "dica": "Mingau de aveia é o abraço quentinho que você merece, mas a preguiça insiste em ser maior. Se quiser, joga uma fruta picada e finge que tá na pousada dos seus sonhos."
+  },
+  {
+    "id": 1233,
+    "titulo": "Macarrão Alho e Óleo na Pressa",
+    "slug": "macarrao-alho-e-oleo-na-pressa",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "g de macarrão tipo espaguete",
+      "dentes de alho picados",
+      "colheres de sopa de azeite",
+      "Sal e pimenta a gosto",
+      "Salsa picada a gosto"
+    ],
+    "modoPreparo": [
+      "Quebre o macarrão ao meio na tigela e cubra com água e sal.",
+      "Cozinhe no micro-ondas por 8 minutos, mexendo na metade do tempo.",
+      "Escorra, misture alho e azeite, tempere e polvilhe salsa."
+    ],
+    "descricao": "Para quem quer impressionar sem nem sujar o fogão — nem a dignidade.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "2 porções",
+    "dica": "Macarrão no micro é igual ex: “vou só tomar uma água” na balada: não é bem verdade, mas dá pra salvar o rolê. Se o alho queimar, culpa do micro, não sua."
+  },
+  {
+    "id": 1234,
+    "titulo": "Panqueca de Caneca para Sobreviver Segunda-Feira",
+    "slug": "panqueca-de-caneca-para-sobreviver-segunda-feira",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "colheres de sopa de farinha de trigo",
+      "ovo",
+      "colheres de sopa de leite",
+      "colher de chá de fermento em pó",
+      "colher de chá de açúcar",
+      "Pitada de sal"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes na caneca até formar massa homogênea.",
+      "Cozinhe no micro-ondas por 2 minutos.",
+      "Sirva com mel, geleia ou o que tiver na geladeira (inclusive coragem)."
+    ],
+    "descricao": "Quando a vontade é zero, mas a fome é um boletão.",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "1 porção",
+    "dica": "Panqueca de caneca é o abraço rápido da cozinha: não vai te salvar de tudo, mas dá uma força. Não esqueça o fermento, ou vira bolacha – igual promessa de dieta."
+  },
+  {
+    "id": 1235,
+    "titulo": "Salmão ao Lemon Pepper no Microondas",
+    "slug": "salmao-ao-lemon-pepper-no-microondas",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "filés de salmão (150g cada)",
+      "Suco de 1 limão",
+      "colher de chá de pimenta do reino moída",
+      "Sal a gosto",
+      "colher de sopa de azeite"
+    ],
+    "modoPreparo": [
+      "Tempere o salmão com sal, pimenta e suco de limão.",
+      "Coloque no recipiente, regue com azeite e cubra.",
+      "Cozinhe por 8 minutos no micro-ondas, até o peixe ficar opaco e macio."
+    ],
+    "descricao": "Jantar romântico? Só se for fast e sem drama, igual seu ex.",
+    "tempo": "12 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "2 porções",
+    "dica": "Salmão no micro é quase um relacionamento sério: pede cuidado, mas é rápido. Não exagere no tempo, senão vira pirralho seco, e ninguém merece."
+  },
+  {
+    "id": 1236,
+    "titulo": "Mousse de Maracujá Vapt-Vupt",
+    "slug": "mousse-de-maracuja-vapt-vupt",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "lata de leite condensado",
+      "lata de creme de leite",
+      "lata de suco de maracujá concentrado",
+      "envelope de gelatina sem sabor hidratada"
+    ],
+    "modoPreparo": [
+      "Misture leite condensado, creme de leite e suco de maracujá.",
+      "Adicione a gelatina hidratada e misture bem.",
+      "Leve ao micro por 30 segundos para dissolver a gelatina, mexa e deixe gelar por 2 horas."
+    ],
+    "descricao": "Praquela sobremesa que você quer fazer, mas só tem micro e coragem.",
+    "tempo": "10 min + geladeira",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "3 porções",
+    "dica": "Mousse de micro é como romance à distância: precisa de paciência (geladeira). Se tentar apressar, vira sopa fria, e ninguém quer isso."
+  },
+  {
+    "id": 1237,
+    "titulo": "Pizza na Caneca para Sobreviventes do Fim de Semana",
+    "slug": "pizza-na-caneca-para-sobreviventes-do-fim-de-semana",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "colheres de sopa de farinha de trigo",
+      "/8 colher de chá de fermento em pó",
+      "colheres de sopa de leite",
+      "colher de sopa de molho de tomate",
+      "fatias de queijo mussarela picadas",
+      "Orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Misture farinha, fermento e leite na caneca até formar massa.",
+      "Espalhe molho de tomate por cima, adicione queijo e orégano.",
+      "Leve ao micro por 4 minutos ou até a massa crescer e o queijo derreter."
+    ],
+    "descricao": "Porque pizza de verdade às vezes só no delivery... ou no micro mesmo.",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Pizza de caneca é o fast-food da autoajuda: conforta, mas não cura boletos. Se encher demais, vira massa de pão e você vira padeiro frustrado."
+  },
+  {
+    "id": 1238,
+    "titulo": "Quiche Rápida de Espinafre e Queijo",
+    "slug": "quiche-rapida-de-espinafre-e-queijo",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "ovos",
+      "g de espinafre cozido e picado",
+      "g de queijo ricota amassado",
+      "Sal, pimenta e noz moscada a gosto"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com sal, pimenta e noz moscada.",
+      "Misture espinafre e ricota ao ovo.",
+      "Coloque na forma untada e cozinhe no micro por 8-10 minutos até firmar."
+    ],
+    "descricao": "Pra impressionar sem gastar o que não tem (ou paciência).",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 10,00",
+    "porcoes": "2 porções",
+    "dica": "Quiche no micro é tipo aquele colega que não aparece muito, mas quando aparece é memorável. Não abra muito o micro enquanto cozinha, não é reality show."
+  },
+  {
+    "id": 1239,
+    "titulo": "Pudim de Microondas sem Ovo",
+    "slug": "pudim-de-microondas-sem-ovo",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "lata de leite condensado",
+      "latas de leite (medida da lata condensado)",
+      "colher de sopa de amido de milho",
+      "/2 xícara de açúcar para calda"
+    ],
+    "modoPreparo": [
+      "Faça a calda no micro com açúcar até derreter e dourar, espalhe na forma.",
+      "Misture leite condensado, leite e amido até dissolver.",
+      "Coloque na forma e cozinhe no micro por 10 minutos, mexendo na metade do tempo.",
+      "Deixe esfriar e leve à geladeira por 2 horas."
+    ],
+    "descricao": "Pra quem quer doce sem risco de virar omelete no meio do caminho.",
+    "tempo": "12 min + geladeira",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "4 porções",
+    "dica": "Pudim no micro é a prova que até sem ovos dá pra ser doce — igual a vida adulta sem férias. Se a calda endurecer, trate como boletos: tenta resolver depois."
+  },
+  {
+    "id": 1240,
+    "titulo": "Suflê de Queijo sem Forno",
+    "slug": "sufle-de-queijo-sem-forno",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "ovos (claras e gemas separadas)",
+      "g de queijo prato ralado",
+      "Sal e noz moscada a gosto"
+    ],
+    "modoPreparo": [
+      "Bata as claras em neve na tigela (com garfo ou batedor).",
+      "Misture as gemas ao queijo, sal e noz moscada.",
+      "Incorpore delicadamente as claras na mistura.",
+      "Coloque no recipiente e cozinhe por 8-10 minutos até crescer e firmar."
+    ],
+    "descricao": "Pra quem quer classe, mas só tem micro e a desculpa de preguiça.",
+    "tempo": "12 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 11,00",
+    "porcoes": "2 porções",
+    "dica": "Suflê no micro é o relacionamento que você quer: leve e cheio de ar — só não deixe passar do tempo ou vira um choro seco."
+  },
+  {
+    "id": 1241,
+    "titulo": "Creme de Milho Cremoso em Minutos",
+    "slug": "creme-de-milho-cremoso-em-minutos",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "lata de milho verde escorrido",
+      "xícara de leite",
+      "colheres de sopa de amido de milho",
+      "colher de sopa de manteiga",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Bata o milho, leite e amido no liquidificador até virar creme.",
+      "Coloque na tigela, adicione manteiga, sal e pimenta.",
+      "Cozinhe no micro por 7-8 minutos, mexendo na metade do tempo."
+    ],
+    "descricao": "Porque milagre no microondas é mais comum que pagar boleto em dia.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "2 porções",
+    "dica": "Creme de milho é tipo aquele amigo que aparece só pra ajudar: simples, prático e evita desespero. Se endurecer, não culpe o milho, culpa a pressa."
+  },
+  {
+    "id": 1242,
+    "titulo": "Sanduíche Quente na Caneca",
+    "slug": "sanduiche-quente-na-caneca",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "fatias de pão de forma picadas",
+      "fatias de presunto picadas",
+      "fatias de queijo mussarela picadas",
+      "colheres de sopa de leite",
+      "ovo"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes na caneca até formar massa.",
+      "Cozinhe no microondas por 4 minutos ou até firmar.",
+      "Sirva quente direto da caneca."
+    ],
+    "descricao": "Praqueles dias que você quer um lanche quente, mas sem sair do sofá.",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "1 porção",
+    "dica": "Sanduíche na caneca é o Tinder da cozinha: rápido, sem compromisso e às vezes surpreende. Não deixe passar do tempo, senão vira borracha gourmet."
+  },
+  {
+    "id": 1243,
+    "titulo": "Chocotone de Caneca para Solteiros",
+    "slug": "chocotone-de-caneca-para-solteiros",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "colheres de sopa de farinha de trigo",
+      "colheres de sopa de açúcar",
+      "colher de sopa de cacau em pó",
+      "ovo",
+      "colheres de sopa de leite",
+      "colher de chá de fermento em pó",
+      "colheres de sopa de gotas de chocolate"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes, exceto as gotas, até formar massa.",
+      "Acrescente as gotas e misture.",
+      "Cozinhe no micro por 4 minutos."
+    ],
+    "descricao": "Natal a gente finge que não tá só, mas esse chocotone salva a autoestima.",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,50",
+    "porcoes": "1 porção",
+    "dica": "Chocotone na caneca é a prova que o amor próprio pode ser doce e rápido. Se ficar seco, culpa o microondas, não o coração partido."
+  },
+  {
+    "id": 1244,
+    "titulo": "Arroz Doce Cremoso em Minutos",
+    "slug": "arroz-doce-cremoso-em-minutos",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "xícara de arroz lavado",
+      "xícaras de leite",
+      "lata de leite condensado",
+      "Canela em pau e em pó a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque arroz, leite e canela em pau na tigela.",
+      "Cozinhe no micro por 12 minutos, mexendo a cada 4 minutos.",
+      "Adicione leite condensado, misture e cozinhe mais 3 minutos.",
+      "Sirva polvilhado com canela em pó."
+    ],
+    "descricao": "A sobremesa que lembra infância, mesmo quando não lembra as contas pagas.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "3 porções",
+    "dica": "Arroz doce no micro é nostalgia líquida: rápido e doce como a infância — só não esqueça que adulto também tem boletos."
+  },
+  {
+    "id": 1245,
+    "titulo": "Nuggets Caseiros no Microondas",
+    "slug": "nuggets-caseiros-no-microondas",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "g de peito de frango moído",
+      "ovo",
+      "colheres de sopa de farinha de rosca",
+      "Sal, pimenta e temperos a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o frango, ovo, farinha e temperos até formar massa.",
+      "Modele pequenos nuggets e coloque no prato.",
+      "Cozinhe no micro por 10 minutos, virando na metade do tempo."
+    ],
+    "descricao": "Pra quem quer fast-food, mas o coração bate por frango caseiro.",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "3 porções",
+    "dica": "Nuggets no micro é a versão adulta de “fast-food saudável”: rápido, mas não livre de culpa. Se ficarem secos, chame de “croquete gourmet”."
+  },
+  {
+    "id": 1246,
+    "titulo": "Pudim de Chia com Frutas Rápido",
+    "slug": "pudim-de-chia-com-frutas-rapido",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "colheres de sopa de chia",
+      "xícara de leite vegetal",
+      "colher de sopa de mel",
+      "Frutas picadas a gosto"
+    ],
+    "modoPreparo": [
+      "Misture chia, leite e mel na tigela.",
+      "Leve ao micro por 1 minuto, mexa e deixe na geladeira por 2 horas.",
+      "Sirva com frutas por cima."
+    ],
+    "descricao": "Pra quem quer saudável e gostoso, mas o tempo só dá pra micro mesmo.",
+    "tempo": "5 min + geladeira",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "2 porções",
+    "dica": "Pudim de chia no micro é como promessa de dieta: começa rápido, mas precisa de paciência. Se esquecer, vira gelatina, e ninguém quer isso."
+  },
+  {
+    "id": 1247,
+    "titulo": "Creme de Abóbora com Gengibre",
+    "slug": "creme-de-abobora-com-gengibre",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "g de abóbora picada",
+      "pedaço pequeno de gengibre ralado",
+      "xícara de água",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque abóbora, gengibre, água e sal na tigela.",
+      "Cozinhe no micro por 10 minutos até amolecer.",
+      "Bata com mixer até virar creme, ajuste tempero e sirva."
+    ],
+    "descricao": "Sopa de adulto cansado: quentinha, rápida e com tempero pra espantar boleto.",
+    "tempo": "12 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,50",
+    "porcoes": "2 porções",
+    "dica": "Creme de abóbora no micro é abraço de vó instantâneo. Se ficar muito grosso, coloque mais água e pense na aposentadoria."
+  },
+  {
+    "id": 1248,
+    "titulo": "Panettone de Caneca com Frutas Secas",
+    "slug": "panettone-de-caneca-com-frutas-secas",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "colheres de sopa de farinha de trigo",
+      "/8 colher de chá de fermento em pó",
+      "colheres de sopa de leite",
+      "colher de sopa de açúcar",
+      "ovo",
+      "colheres de sopa de frutas secas picadas"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes até formar massa.",
+      "Adicione as frutas secas e misture.",
+      "Cozinhe no micro por 4 minutos."
+    ],
+    "descricao": "Natal na pressa, mas com estilo e aquele toque de “não me julgue”.",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "1 porção",
+    "dica": "Panettone de caneca é a solução para natal sem crise: doce, rápido e com calor — igual família na ceia. Se crescer demais, culpa o fermento, não o tio do pavê."
+  },
+  {
+    "id": 1249,
+    "titulo": "Lasanha de Berinjela Expressa",
+    "slug": "lasanha-de-berinjela-expressa",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "berinjela média cortada em fatias finas",
+      "g de molho de tomate",
+      "g de queijo mussarela",
+      "Orégano e sal a gosto"
+    ],
+    "modoPreparo": [
+      "Monte camadas no recipiente: berinjela, molho, queijo, repita.",
+      "Cubra, tempere com orégano e sal.",
+      "Cozinhe por 12 minutos até berinjela amolecer e queijo derreter."
+    ],
+    "descricao": "Pra quem quer jantar saudável, mas só tem 15 minutos e crises existenciais.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "2 porções",
+    "dica": "Lasanha de berinjela no micro é o equilíbrio entre dieta e preguiça. Se o queijo não derreter, finja que é estilo rústico."
+  },
+  {
+    "id": 1250,
+    "titulo": "Purê de Batata Rápido com Alho",
+    "slug": "pure-de-batata-rapido-com-alho",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "batatas médias descascadas e picadas",
+      "dente de alho picado",
+      "colheres de sopa de manteiga",
+      "Sal e pimenta a gosto",
+      "/4 xícara de leite"
+    ],
+    "modoPreparo": [
+      "Cozinhe as batatas com alho no micro por 7 minutos até ficarem macias.",
+      "Amasse as batatas com manteiga, leite, sal e pimenta.",
+      "Misture até virar purê cremoso."
+    ],
+    "descricao": "Pra acompanhar aquele prato que você nem sabe o nome, mas quer fingir.",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "2 porções",
+    "dica": "Purê no micro é o conforto em forma de comida. Se ficar empelotado, culpe a pressa, não a batata."
+  },
+  {
+    "id": 1251,
+    "titulo": "Torta de Maçã na Caneca",
+    "slug": "torta-de-maca-na-caneca",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "maçã picada",
+      "colheres de sopa de farinha de trigo",
+      "colheres de sopa de açúcar",
+      "colher de chá de canela",
+      "colheres de sopa de leite",
+      "colher de sopa de óleo",
+      "/4 colher de chá de fermento"
+    ],
+    "modoPreparo": [
+      "Misture maçã, açúcar e canela na caneca.",
+      "Adicione farinha, fermento, leite e óleo, misture tudo.",
+      "Cozinhe por 3-4 minutos no micro."
+    ],
+    "descricao": "Pra aquele desejo de doce que aparece no meio da noite e o micro é seu aliado.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Torta de maçã na caneca é terapia para quem não quer dividir bolo com ninguém. Se passar do ponto, vira maçã assada com sotaque de carvão."
+  },
+  {
+    "id": 1252,
+    "titulo": "Molho Branco Rápido no Microondas",
+    "slug": "molho-branco-rapido-no-microondas",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "colher de sopa de manteiga",
+      "colher de sopa de farinha de trigo",
+      "xícara de leite",
+      "Sal, pimenta e noz moscada a gosto"
+    ],
+    "modoPreparo": [
+      "Derreta manteiga na tigela no micro por 1 minuto.",
+      "Misture a farinha e leve por 1 minuto, mexendo.",
+      "Adicione o leite aos poucos, mexa e cozinhe por 4 minutos, mexendo a cada minuto.",
+      "Tempere e sirva."
+    ],
+    "descricao": "Praquele molho chique que vai salvar seu macarrão, e sua autoestima.",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,50",
+    "porcoes": "2 porções",
+    "dica": "Molho branco no micro é igual boleto pago: dá trabalho, mas melhora a vida. Não pare de mexer, senão vira mingau revoltado."
+  },
+  {
+    "id": 1253,
+    "titulo": "Cuscuz Paulista no Microondas",
+    "slug": "cuscuz-paulista-no-microondas",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "xícara de farinha de milho flocada",
+      "xícara de água",
+      "g de sardinha escorrida",
+      "tomate picado",
+      "/2 cebola picada",
+      "Sal e cheiro verde a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e tomate no micro com um pouco de azeite por 3 minutos.",
+      "Misture água, farinha, sardinha, sal e cheiro verde.",
+      "Leve ao micro por 10 minutos, mexendo na metade do tempo."
+    ],
+    "descricao": "Para provar que nordestino é rápido e esperto até na cozinha.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 13,00",
+    "porcoes": "3 porções",
+    "dica": "Cuscuz no micro é quase um milagre nordestino na vida adulta. Se não firmar, chame de risoto inovador."
+  },
+  {
+    "id": 1254,
+    "titulo": "Salada Quente de Grão de Bico",
+    "slug": "salada-quente-de-grao-de-bico",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "xícara de grão de bico cozido",
+      "tomate picado",
+      "/2 cebola picada",
+      "colher de sopa de azeite",
+      "Sal, pimenta e limão a gosto"
+    ],
+    "modoPreparo": [
+      "Misture grão de bico, tomate, cebola, azeite, sal e pimenta.",
+      "Cozinhe no micro por 5 minutos para aquecer.",
+      "Regue com limão e sirva."
+    ],
+    "descricao": "Praquela salada que te engana e faz você se sentir saudável sem esforço.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,50",
+    "porcoes": "2 porções",
+    "dica": "Salada quente no micro é o truque pra enganar a fome e a consciência. Se esquecer, vira lanche frio e você vira adulto confuso."
+  },
+  {
+    "id": 1255,
+    "titulo": "Quibe de Microondas com Toque Ágil",
+    "slug": "quibe-de-microondas-com-toque-agil",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "g de trigo para quibe hidratado",
+      "g de carne moída",
+      "cebola pequena picada",
+      "Hortelã picada a gosto",
+      "Sal, pimenta e cominho a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes até ficar homogêneo.",
+      "Coloque na tigela untada e pressione para firmar.",
+      "Cozinhe no micro por 10 minutos, mexendo na metade do tempo."
+    ],
+    "descricao": "Para quem quer quibe, mas não quer drama nem bolhas no fogão.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Quibe no micro é o atalho da culinária árabe para preguiçosos com estilo. Se não cozinhar bem, culpa o micro, não sua habilidade."
+  },
+  {
+    "id": 1256,
+    "titulo": "Creme de Cenoura com Gengibre",
+    "slug": "creme-de-cenoura-com-gengibre",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "g de cenoura picada",
+      "pedaço pequeno de gengibre ralado",
+      "xícara de água",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe cenoura, gengibre e água no micro por 10 minutos.",
+      "Bata até virar creme, tempere e sirva."
+    ],
+    "descricao": "Um abraço quente no estômago pra espantar crise e boleto atrasado.",
+    "tempo": "12 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "2 porções",
+    "dica": "Creme de cenoura no micro é o calmante que não precisa de receita médica. Se ficar grosso, jogue mais água e menos drama."
+  },
+  {
+    "id": 1257,
+    "titulo": "Misto Quente na Caneca",
+    "slug": "misto-quente-na-caneca",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "fatias de pão de forma picadas",
+      "fatias de presunto picadas",
+      "fatias de queijo picadas",
+      "ovo",
+      "colheres de sopa de leite"
+    ],
+    "modoPreparo": [
+      "Misture tudo na caneca até formar massa.",
+      "Cozinhe no micro por 4 minutos até firmar.",
+      "Sirva quente."
+    ],
+    "descricao": "Para o lanche que bate de frente com a preguiça e a fome ao mesmo tempo.",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "1 porção",
+    "dica": "Misto quente na caneca é o abraço rápido que você merece. Se passar do ponto, vira pizza de pão e aí já era."
+  },
+  {
+    "id": 1258,
+    "titulo": "Creme de Espinafre com Queijo Rápido",
+    "slug": "creme-de-espinafre-com-queijo-rapido",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "g de espinafre cozido e picado",
+      "xícara de leite",
+      "colheres de sopa de queijo cremoso",
+      "Sal, pimenta e noz moscada a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes na tigela.",
+      "Cozinhe no micro por 7 minutos, mexendo na metade do tempo.",
+      "Bata até ficar cremoso e sirva."
+    ],
+    "descricao": "Pra quem quer verde na vida, mas só tem micro e vontade de maratonar.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "2 porções",
+    "dica": "Creme de espinafre no micro é o verde que seu corpo implora, mesmo que sua mente queria pizza. Se ficar estranho, finja que é receita avant-garde."
+  },
+  {
+    "id": 1259,
+    "titulo": "Mousse de Chocolate na Caneca",
+    "slug": "mousse-de-chocolate-na-caneca",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "colheres de sopa de chocolate em pó",
+      "colher de sopa de açúcar",
+      "colher de sopa de farinha de trigo",
+      "ovo",
+      "colheres de sopa de leite"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes até ficar homogêneo.",
+      "Cozinhe no micro por 1 minuto.",
+      "Leve à geladeira por 1 hora antes de consumir."
+    ],
+    "descricao": "Praquele doce que salva o dia sem sair do sofá nem do micro.",
+    "tempo": "5 min + geladeira",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "1 porção",
+    "dica": "Mousse de caneca é o Tinder dos doces: rápido e cheio de expectativas. Não coma quente, senão vira drama ao invés de sobremesa."
+  },
+  {
+    "id": 1260,
+    "titulo": "Frango com Curry e Leite de Coco no Microondas",
+    "slug": "frango-com-curry-e-leite-de-coco-no-microondas",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "g de peito de frango em cubos",
+      "ml de leite de coco",
+      "colher de chá de curry em pó",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes no recipiente.",
+      "Cubra e cozinhe por 12 minutos, mexendo na metade do tempo.",
+      "Verifique o cozimento e ajuste temperos."
+    ],
+    "descricao": "Uma viagem gastronômica que cabe no seu micro e no seu bolso.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Frango no micro com curry é a prova que dá pra viajar sem sair de casa — só não esquece o boleto da passagem."
+  },
+  {
+    "id": 1261,
+    "titulo": "Tapioca de Microondas com Recheio de Queijo",
+    "slug": "tapioca-de-microondas-com-recheio-de-queijo",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "g de queijo coalho ou mussarela",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Espalhe a goma no prato formando círculo fino.",
+      "Cozinhe por 1 minuto até firmar.",
+      "Coloque o queijo, dobre e volte ao micro por 1 minuto para derreter."
+    ],
+    "descricao": "Pra quem quer tapioca, mas só tem micro e pressa.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,00",
+    "porcoes": "1 porção",
+    "dica": "Tapioca no micro é o jeitinho rápido do nordeste para a vida corrida. Se passar do tempo, vira borracha gourmet — igual seu amor próprio depois da quinta cerveja."
+  },
+  {
+    "id": 1262,
+    "titulo": "Café Cremoso de Microondas",
+    "slug": "cafe-cremoso-de-microondas",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "colheres de sopa de café solúvel",
+      "colheres de sopa de açúcar",
+      "colheres de sopa de leite em pó",
+      "colheres de sopa de água quente"
+    ],
+    "modoPreparo": [
+      "Bata café, açúcar e leite em pó até formar espuma.",
+      "Aqueça a água no micro por 1 minuto e misture ao creme.",
+      "Sirva imediatamente."
+    ],
+    "descricao": "Pra quem precisa daquele café com energia e sem fila no bar.",
+    "tempo": "3 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 2,00",
+    "porcoes": "1 porção",
+    "dica": "Café cremoso no micro é o escudo contra a preguiça matinal. Se não fizer espuma, jogue a culpa no café, não na sua mão tremendo."
+  },
+  {
+    "id": 1263,
+    "titulo": "Bolo de Cenoura na Caneca",
+    "slug": "bolo-de-cenoura-na-caneca",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "colheres de sopa de farinha de trigo",
+      "colher de sopa de açúcar",
+      "colher de sopa de óleo",
+      "colheres de sopa de cenoura ralada",
+      "/4 colher de chá de fermento em pó",
+      "ovo",
+      "colheres de sopa de leite"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes até formar massa.",
+      "Cozinhe no micro por 4 minutos.",
+      "Espere esfriar um pouco e aproveite."
+    ],
+    "descricao": "O bolo que não exige nada além do micro e da sua fome.",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "1 porção",
+    "dica": "Bolo de cenoura na caneca é o consolo que cabe na sua mão. Se não crescer, pense que é dieta disfarçada."
+  },
+  {
+    "id": 1264,
+    "titulo": "Creme de Abacate com Limão",
+    "slug": "creme-de-abacate-com-limao",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "abacate maduro",
+      "Suco de 1 limão",
+      "colheres de sopa de açúcar ou mel"
+    ],
+    "modoPreparo": [
+      "Amasse o abacate na tigela.",
+      "Misture limão e açúcar até ficar cremoso.",
+      "Refrigere por 10 minutos ou sirva direto."
+    ],
+    "descricao": "Pra quem quer vitamina e preguiça na mesma colherada.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "2 porções",
+    "dica": "Creme de abacate é o fast-food da saúde: simples, rápido e cheio de gordurinhas boas — igual sua desculpa pra não ir à academia."
+  },
+  {
+    "id": 1265,
+    "titulo": "Lasanha de Microondas com Frango e Ricota",
+    "slug": "lasanha-de-microondas-com-frango-e-ricota",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "folhas de massa pré-cozida para lasanha",
+      "g de frango desfiado",
+      "g de ricota amassada",
+      "g de molho de tomate",
+      "Orégano e sal a gosto"
+    ],
+    "modoPreparo": [
+      "Monte camadas de massa, frango com ricota, molho, repita.",
+      "Cubra com molho e orégano.",
+      "Cozinhe por 12 minutos até a massa amolecer."
+    ],
+    "descricao": "Pra quem quer jantar digno sem suar a camisa ou o fogão.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Lasanha no micro é o casamento perfeito entre pressa e gosto. Se o frango estiver seco, finja que é estilo “rusticão”."
+  },
+  {
+    "id": 1266,
+    "titulo": "Pudim de Leite Condensado Rápido",
+    "slug": "pudim-de-leite-condensado-rapido",
+    "categoria": "No Micro Ondas ",
+    "ingredientes": [
+      "lata de leite condensado",
+      "latas de leite (medida da lata condensado)",
+      "ovos",
+      "/2 xícara de açúcar para calda"
+    ],
+    "modoPreparo": [
+      "Faça a calda no micro com açúcar até dourar e espalhe na forma.",
+      "Misture leite condensado, leite e ovos.",
+      "Cozinhe no micro por 10 minutos, mexendo na metade do tempo.",
+      "Deixe esfriar e leve à geladeira."
+    ],
+    "descricao": "A sobremesa oficial de quem perdeu a paciência mas não a esperança.",
+    "tempo": "12 min + geladeira",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "4 porções",
+    "dica": "Pudim no micro é o truque para salvar sua dignidade doce. Se endurecer demais, chame de \"pudim de pedra\" e venda como obra de arte."
+  }
+]

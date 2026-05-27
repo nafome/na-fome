@@ -1,0 +1,1080 @@
+[
+  {
+    "id": 1267,
+    "titulo": "Sanduíche Crocante da Vovó Moderninha",
+    "slug": "sanduiche-crocante-da-vovo-moderninha",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "fatias de pão integral",
+      "fatias de queijo prato",
+      "fatias de presunto magro",
+      "folhas de alface",
+      "colheres de sopa de maionese",
+      "tomate cortado em rodelas"
+    ],
+    "modoPreparo": [
+      "Espalhe a maionese nas fatias de pão.",
+      "Monte o sanduíche com presunto, queijo, alface e tomate.",
+      "Corte ao meio e embale para o piquenique."
+    ],
+    "descricao": "Praquele lanche que até a vovó aprovaria, se ela não estivesse no WhatsApp reclamando do Brasil",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Se o sanduíche ficar meio amassado no caminho, finge que é estilo \"gourmet rústico\" e ninguém vai notar — igual boletos atrasados, ninguém quer ver, mas todo mundo tem."
+  },
+  {
+    "id": 1268,
+    "titulo": "Salada Colorida de Grãos do Amor Livre",
+    "slug": "salada-colorida-de-graos-do-amor-livre",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "xícara de quinoa cozida",
+      "/2 xícara de grão-de-bico cozido",
+      "/2 xícara de milho verde",
+      "tomate picado",
+      "/4 de cebola roxa picada",
+      "Suco de 1 limão",
+      "colheres de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os grãos com o tomate e a cebola na tigela.",
+      "Tempere com limão, azeite, sal e pimenta.",
+      "Leve para a cesta e não esqueça do guardanapo, porque grão cai mais que notificação de boleto."
+    ],
+    "descricao": "Porque até no piquenique a gente tenta ser saudável, mas sem abrir mão da zoeira",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,50",
+    "porcoes": "4 porções",
+    "dica": "Se a salada parecer sem graça, joga um pouco de pimenta; se queimar, finge que é \"picante emocional\", igual ex que só dá dor de cabeça."
+  },
+  {
+    "id": 1269,
+    "titulo": "Wrap de Frango que Não Cai Barriga",
+    "slug": "wrap-de-frango-que-nao-cai-barriga",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "tortilhas de trigo",
+      "g de peito de frango desfiado",
+      "cenoura ralada",
+      "folhas de alface",
+      "colheres de sopa de cream cheese",
+      "Sal, pimenta e alho em pó a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o frango com sal, pimenta e alho; refogue até dourar.",
+      "Espalhe o cream cheese na tortilha, coloque o frango, cenoura e alface.",
+      "Enrole firme, corte ao meio e embale para não virar bagunça."
+    ],
+    "descricao": "Para quem quer impressionar no piquenique, mas a única coisa que impressiona é a conta do cartão",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "3 porções",
+    "dica": "Se o wrap abrir no meio, finge que é efeito especial, igual vida adulta: tudo desmorona, mas a gente finge que tá tudo bem."
+  },
+  {
+    "id": 1270,
+    "titulo": "Muffin Salgado de Queijo e Ervas do Desespero",
+    "slug": "muffin-salgado-de-queijo-e-ervas-do-desespero",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "ovos",
+      "xícara de farinha de trigo",
+      "/2 xícara de leite",
+      "/2 xícara de queijo ralado",
+      "colher de chá de fermento em pó",
+      "colheres de sopa de ervas finas",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com o leite, junte a farinha, fermento, queijo e ervas.",
+      "Tempere com sal e pimenta, misture até homogêneo.",
+      "Coloque nas forminhas e asse em forno pré-aquecido a 180°C por 25 minutos."
+    ],
+    "descricao": "Porque às vezes o piquenique é só desculpa pra comer coisas que parecem bolo, mas são salgadas",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "6 porções",
+    "dica": "Se o muffin ficar seco, acredita que é \"estilo fitness\" e queimar calorias mastigando é seu plano B."
+  },
+  {
+    "id": 1271,
+    "titulo": "Salpicão Tropical do Tio Zé",
+    "slug": "salpicao-tropical-do-tio-ze",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "xícaras de frango desfiado",
+      "maçã verde picada",
+      "cenoura ralada",
+      "/2 xícara de uva passa",
+      "/2 xícara de milho verde",
+      "/2 xícara de maionese",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes em uma tigela.",
+      "Tempere com sal e pimenta.",
+      "Leve para a cesta e aproveite o piquenique sem drama."
+    ],
+    "descricao": "Salada que tá mais para festa na boca do que reunião de condomínio",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Se o salpicão ficar muito doce, finge que é receita de ex: parece bom, mas tem uns pedaços que incomodam."
+  },
+  {
+    "id": 1272,
+    "titulo": "Pão de Queijo da Tia Joana (Que Nunca Falha)",
+    "slug": "pao-de-queijo-da-tia-joana-que-nunca-falha",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "g de polvilho doce",
+      "ml de leite",
+      "ml de óleo",
+      "ovos",
+      "g de queijo minas padrão ralado",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Ferva o leite com o óleo e o sal.",
+      "Despeje sobre o polvilho e misture até formar uma massa.",
+      "Incorpore os ovos e o queijo, faça bolinhas e asse a 180°C por 30 minutos."
+    ],
+    "descricao": "Pra quem quer fingir que tá na roça, mas só tá no parque mesmo",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "12 unidades",
+    "dica": "Se o pão de queijo não crescer, não se preocupe, assim como boletos, às vezes a vida só encolhe e a gente finge que é normal."
+  },
+  {
+    "id": 1273,
+    "titulo": "Salada Caprese na Marmita do Amor",
+    "slug": "salada-caprese-na-marmita-do-amor",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "tomates maduros fatiados",
+      "g de mussarela de búfala fatiada",
+      "Folhas de manjericão fresco",
+      "Azeite extra virgem",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Monte camadas alternadas de tomate, mussarela e manjericão.",
+      "Tempere com sal, pimenta e regue com azeite.",
+      "Embale com cuidado para o piquenique não virar guerra."
+    ],
+    "descricao": "Porque o amor pode até ser complicado, mas tomate, manjericão e queijo são certezas",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "2 porções",
+    "dica": "Se o queijo escapar da marmita, finge que é parte do charme, tipo sua vida amorosa: sempre escapa alguma coisa."
+  },
+  {
+    "id": 1274,
+    "titulo": "Bolinho de Chuva Salgado com Queijo e Orégano",
+    "slug": "bolinho-de-chuva-salgado-com-queijo-e-oregano",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "xícaras de farinha de trigo",
+      "colher de chá de fermento em pó",
+      "/2 colher de chá de sal",
+      "ovo",
+      "xícara de leite",
+      "g de queijo ralado",
+      "Orégano a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Misture farinha, fermento, sal e orégano.",
+      "Acrescente ovo, leite e queijo, misture até formar massa homogênea.",
+      "Frite colheradas da massa em óleo quente até dourar."
+    ],
+    "descricao": "Bolinho de chuva que não é doce, igual aquela promessa de dieta que nunca cai bem",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "10 unidades",
+    "dica": "Se o bolinho abrir na fritura, finge que é estilo \"explosão de sabor\" — igual boletos, às vezes o susto é maior que o dano."
+  },
+  {
+    "id": 1275,
+    "titulo": "Salada de Macarrão Colorida do Sol",
+    "slug": "salada-de-macarrao-colorida-do-sol",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "g de macarrão parafuso",
+      "/2 xícara de ervilha",
+      "/2 xícara de milho",
+      "tomate picado",
+      "/4 de cebola picada",
+      "colheres de sopa de maionese",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão al dente, escorra e deixe esfriar.",
+      "Misture com os legumes, tomate, cebola e maionese.",
+      "Tempere com sal e pimenta e leve para o piquenique."
+    ],
+    "descricao": "Porque macarrão frio é quase tão bom quanto piada ruim, só que menos indigestão",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 17,00",
+    "porcoes": "4 porções",
+    "dica": "Se o macarrão grudar, finge que é abraço apertado, tipo sua mãe que não respeita espaço pessoal."
+  },
+  {
+    "id": 1276,
+    "titulo": "Espetinho de Frutas Tropical da Paixão",
+    "slug": "espetinho-de-frutas-tropical-da-paixao",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "manga em cubos",
+      "abacaxi em cubos",
+      "kiwi em fatias",
+      "banana em rodelas",
+      "Suco de 1 limão"
+    ],
+    "modoPreparo": [
+      "Corte as frutas em pedaços médios.",
+      "Espete as frutas nos palitos alternando as cores.",
+      "Regue com suco de limão para não escurecer e leve na cesta."
+    ],
+    "descricao": "Porque até as frutas querem um pouco de glamour no seu piquenique que nem você tentando pagar o boleto atrasado",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "4 porções",
+    "dica": "Se a banana escurecer, finge que é bronzeado natural, igual a gente tentando parecer saudável no Instagram."
+  },
+  {
+    "id": 1277,
+    "titulo": "Quiche de Alho-Poró do Desespero Gourmet",
+    "slug": "quiche-de-alho-poro-do-desespero-gourmet",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "massa pronta para torta",
+      "talos de alho-poró picados",
+      "ovos",
+      "ml de creme de leite",
+      "g de queijo ralado",
+      "Sal, pimenta e noz-moscada a gosto"
+    ],
+    "modoPreparo": [
+      "Forre a forma com a massa e pré-asse por 10 minutos a 180°C.",
+      "Refogue o alho-poró até murchar.",
+      "Bata ovos, creme de leite, queijo e temperos; junte o alho-poró.",
+      "Despeje na forma e asse por 30 minutos."
+    ],
+    "descricao": "Praquele prato chique que você leva só pra mostrar que sabe cozinhar, mesmo que só tenha aprendido no YouTube",
+    "tempo": "50 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 28,00",
+    "porcoes": "6 porções",
+    "dica": "Se a quiche rachar, finge que é charme, igual sua vida amorosa: cheia de pedaços que não encaixam."
+  },
+  {
+    "id": 1278,
+    "titulo": "Pão Sírio Recheado com Homus e Legumes",
+    "slug": "pao-sirio-recheado-com-homus-e-legumes",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "pães sírios",
+      "xícara de homus pronto",
+      "cenoura ralada",
+      "pepino fatiado",
+      "Folhas de alface"
+    ],
+    "modoPreparo": [
+      "Corte o pão sírio ao meio formando uma bolsinha.",
+      "Recheie com homus, cenoura, pepino e alface.",
+      "Embale para o piquenique e evite que vaze."
+    ],
+    "descricao": "Porque pão sírio é igual boleto: você sabe que vai ter que lidar, mas prefere adiar",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "3 porções",
+    "dica": "Se o pão rasgar, finge que é estilo \"look descontraído\", igual sua camisa velha que você não larga."
+  },
+  {
+    "id": 1279,
+    "titulo": "Bolo de Cenoura com Cobertura de Chocolate em Potinho",
+    "slug": "bolo-de-cenoura-com-cobertura-de-chocolate-em-potinho",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "cenouras médias",
+      "ovos",
+      "xícara de óleo",
+      "xícaras de açúcar",
+      "e 1/2 xícaras de farinha de trigo",
+      "colher de sopa de fermento",
+      "g de chocolate meio amargo para cobertura",
+      "caixinha de creme de leite"
+    ],
+    "modoPreparo": [
+      "Bata no liquidificador cenoura, ovos e óleo.",
+      "Misture com açúcar, farinha e fermento.",
+      "Asse a 180°C por 35 minutos, depois cubra com ganache feita com chocolate e creme de leite."
+    ],
+    "descricao": "Porque até no piquenique a gente merece um docinho, afinal boletos não pagam a nossa felicidade",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "6 porções",
+    "dica": "Se o bolo ficar meio seco, finge que é \"versão light\", igual sua vida depois de pagar boletos."
+  },
+  {
+    "id": 1280,
+    "titulo": "Salada de Batata com Maionese do Que Não Tem Tempo",
+    "slug": "salada-de-batata-com-maionese-do-que-nao-tem-tempo",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "batatas médias cozidas e picadas",
+      "/2 xícara de maionese",
+      "/4 de cebola picada",
+      "/2 cenoura ralada",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe e pique as batatas.",
+      "Misture todos os ingredientes em uma tigela.",
+      "Tempere e leve para o piquenique."
+    ],
+    "descricao": "A salada que é mais rápida que sua vontade de limpar a casa antes do piquenique",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Se a maionese ficar demais, finge que é \"extra cremoso\", igual seu café depois das 3 da tarde."
+  },
+  {
+    "id": 1281,
+    "titulo": "Sanduíche Natural de Atum com Abacate",
+    "slug": "sanduiche-natural-de-atum-com-abacate",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "lata de atum em água",
+      "/2 abacate amassado",
+      "fatias de pão integral",
+      "colher de sopa de maionese",
+      "Sal, pimenta e limão a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o atum com o abacate, maionese, sal, pimenta e limão.",
+      "Espalhe sobre as fatias de pão.",
+      "Monte os sanduíches e corte ao meio."
+    ],
+    "descricao": "Porque até o atum quer ser saudável no meio da bagunça do piquenique",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Se o sanduíche ficar meio mole, finge que é \"estilo gourmet descontraído\", igual seu chefe na sexta-feira."
+  },
+  {
+    "id": 1282,
+    "titulo": "Chips de Batata-Doce Crocantes do Fim de Semana",
+    "slug": "chips-de-batata-doce-crocantes-do-fim-de-semana",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "batatas-doces médias fatiadas bem finas",
+      "colheres de sopa de azeite",
+      "Sal e páprica a gosto"
+    ],
+    "modoPreparo": [
+      "Preaqueça o forno a 180°C.",
+      "Misture as fatias com azeite, sal e páprica.",
+      "Espalhe na assadeira e asse por 30 minutos, virando na metade."
+    ],
+    "descricao": "Porque todo mundo quer ser saudável, mas nada supera a crocância do pecado",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 10,00",
+    "porcoes": "3 porções",
+    "dica": "Se queimar um pouco, finge que é \"sabor defumado\" igual sua conta de luz em julho."
+  },
+  {
+    "id": 1283,
+    "titulo": "Omelete Frio de Forno com Tomate e Queijo",
+    "slug": "omelete-frio-de-forno-com-tomate-e-queijo",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "ovos",
+      "tomate picado",
+      "g de queijo ralado",
+      "Sal, pimenta e cheiro-verde a gosto"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com sal, pimenta e cheiro-verde.",
+      "Misture tomate e queijo.",
+      "Asse em forma untada a 180°C por 20 minutos, deixe esfriar antes de levar."
+    ],
+    "descricao": "Omelete que você pode comer frio, porque ser prático é a nova arte da sobrevivência",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "3 porções",
+    "dica": "Se a omelete grudar, finge que é \"textura artesanal\", igual seus planos de final de semana: nunca dão certo."
+  },
+  {
+    "id": 1284,
+    "titulo": "Salada de Couscous Marroquino com Hortelã",
+    "slug": "salada-de-couscous-marroquino-com-hortela",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "xícara de couscous",
+      "xícara de água fervente",
+      "/2 pepino picado",
+      "tomate picado",
+      "Folhas de hortelã picadas",
+      "Suco de 1 limão",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque o couscous em tigela e cubra com água fervente, tampe por 5 minutos.",
+      "Solte o couscous com garfo e misture com os vegetais e temperos.",
+      "Leve para o piquenique e faça sucesso."
+    ],
+    "descricao": "Porque até o couscous quer dar um rolê no parque e fingir que é chique",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Se o couscous ficar grudado, finge que é abraço apertado, igual sua vontade de ficar na cama na segunda-feira."
+  },
+  {
+    "id": 1285,
+    "titulo": "Pão de Forma Recheado com Cream Cheese e Pepino",
+    "slug": "pao-de-forma-recheado-com-cream-cheese-e-pepino",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "fatias de pão de forma integral",
+      "g de cream cheese",
+      "pepino fatiado finamente",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Espalhe cream cheese nas fatias de pão.",
+      "Distribua as fatias de pepino por cima, tempere.",
+      "Monte os sanduíches, corte as bordas e sirva."
+    ],
+    "descricao": "Pra quem quer algo simples, mas que parece que sabe o que tá fazendo – tipo fingir que entende de economia",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Se o pepino escorregar, finge que é estilo \"vida escorregadia\" — igual seus planos de dieta."
+  },
+  {
+    "id": 1286,
+    "titulo": "Salada de Lentilha com Tomate Seco e Rúcula",
+    "slug": "salada-de-lentilha-com-tomate-seco-e-rucula",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "xícara de lentilha cozida",
+      "/2 xícara de tomate seco picado",
+      "xícara de rúcula",
+      "colheres de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a lentilha até ficar macia e escorra.",
+      "Misture com tomate seco e rúcula.",
+      "Tempere com azeite, sal e pimenta."
+    ],
+    "descricao": "Porque lentilha é a única coisa que a gente come no Ano Novo, mas merece um upgrade até no piquenique",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 16,00",
+    "porcoes": "4 porções",
+    "dica": "Se a lentilha ficar meio mole, finge que é \"amaldiçoada\", igual sua conta bancária depois do fim do mês."
+  },
+  {
+    "id": 1287,
+    "titulo": "Mini Pizzas de Pão Sírio Rápidas",
+    "slug": "mini-pizzas-de-pao-sirio-rapidas",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "pães sírios cortados ao meio",
+      "g de molho de tomate",
+      "g de mussarela ralada",
+      "Orégano a gosto",
+      "Fatias de tomate para decorar"
+    ],
+    "modoPreparo": [
+      "Espalhe molho sobre os pães sírios.",
+      "Cubra com queijo e orégano.",
+      "Leve ao forno a 180°C até o queijo derreter e sirva frio ou morno."
+    ],
+    "descricao": "Pra quem quer pizza, mas não quer sujar a cozinha inteira — ou a paciência dos vizinhos",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 17,00",
+    "porcoes": "4 porções",
+    "dica": "Se o queijo não derreter direito, finge que é estilo \"pizza fitness\", igual seu crush que não dá moral."
+  },
+  {
+    "id": 1288,
+    "titulo": "Salada de Frutas com Mel e Hortelã",
+    "slug": "salada-de-frutas-com-mel-e-hortela",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "maçã picada",
+      "pera picada",
+      "manga picada",
+      "banana em rodelas",
+      "colheres de sopa de mel",
+      "Folhas de hortelã picadas"
+    ],
+    "modoPreparo": [
+      "Misture todas as frutas em uma tigela.",
+      "Regue com mel e misture delicadamente.",
+      "Salpique hortelã e leve para o piquenique."
+    ],
+    "descricao": "Porque fruta tem que ter mel, mas o piquenique não pode virar festa da abelha",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "4 porções",
+    "dica": "Se as frutas escurecerem, finge que é \"bronzeado natural\", igual seu entusiasmo na segunda-feira."
+  },
+  {
+    "id": 1289,
+    "titulo": "Quibe Assado de Forno para Piquenique Sem Drama",
+    "slug": "quibe-assado-de-forno-para-piquenique-sem-drama",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "g de carne moída",
+      "xícara de trigo para quibe hidratado",
+      "cebola picada",
+      "Hortelã a gosto",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes até formar uma massa homogênea.",
+      "Espalhe em assadeira untada.",
+      "Asse a 180°C por 30 minutos, corte em quadrados e leve para o piquenique."
+    ],
+    "descricao": "Pra quem quer um petisco que não derrama molho nem culpa",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "6 porções",
+    "dica": "Se o quibe ficar seco, finge que é “projeto low carb”, igual sua vontade de malhar."
+  },
+  {
+    "id": 1290,
+    "titulo": "Sanduíche de Berinjela Grelhada com Pesto",
+    "slug": "sanduiche-de-berinjela-grelhada-com-pesto",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "berinjela fatiada",
+      "fatias de pão ciabatta",
+      "colheres de sopa de pesto pronto",
+      "Queijo de cabra a gosto",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere as fatias de berinjela e grelhe até ficar macia.",
+      "Espalhe pesto no pão, coloque berinjela e queijo.",
+      "Monte o sanduíche e embale para o piquenique."
+    ],
+    "descricao": "Pra quem quer ser vegetariano só no piquenique, pra não perder a festa",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 19,00",
+    "porcoes": "2 porções",
+    "dica": "Se a berinjela ficar amarga, finge que é \"sabor da vida adulta\", igual boletos que não param de chegar."
+  },
+  {
+    "id": 1291,
+    "titulo": "Salada de Rúcula com Pera e Nozes",
+    "slug": "salada-de-rucula-com-pera-e-nozes",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "xícaras de rúcula",
+      "pera fatiada",
+      "/2 xícara de nozes picadas",
+      "g de queijo gorgonzola",
+      "Azeite e vinagre balsâmico a gosto"
+    ],
+    "modoPreparo": [
+      "Misture rúcula, pera e nozes.",
+      "Esfarele o queijo por cima.",
+      "Tempere com azeite e vinagre."
+    ],
+    "descricao": "Porque salada também pode ser chique, igual a desculpa que você dá pra não ir trabalhar",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "3 porções",
+    "dica": "Se a pera estiver meio dura, finge que é \"crocrante natural\", igual seu humor na segunda-feira."
+  },
+  {
+    "id": 1292,
+    "titulo": "Bolo Gelado de Coco com Abacaxi",
+    "slug": "bolo-gelado-de-coco-com-abacaxi",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "ovos",
+      "xícaras de açúcar",
+      "xícaras de farinha de trigo",
+      "colher de sopa de fermento",
+      "vidro de leite de coco",
+      "abacaxi picado",
+      "Coco ralado para decorar"
+    ],
+    "modoPreparo": [
+      "Bata ovos e açúcar até ficar fofo.",
+      "Misture farinha e fermento.",
+      "Asse a 180°C por 35 minutos.",
+      "Depois de frio, fure o bolo e regue com leite de coco.",
+      "Decore com abacaxi e coco ralado."
+    ],
+    "descricao": "Porque bolo gelado é a desculpa perfeita pra beber água com bolo e não só água",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "8 porções",
+    "dica": "Se o bolo ficar meio molhado demais, finge que é efeito da chuva da vida — só que mais doce."
+  },
+  {
+    "id": 1293,
+    "titulo": "Guacamole Básico para Piquenique Sem Estresse",
+    "slug": "guacamole-basico-para-piquenique-sem-estresse",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "abacates maduros",
+      "tomate picado",
+      "/2 cebola picada",
+      "Suco de 1 limão",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Amasse o abacate com garfo.",
+      "Misture tomate, cebola e limão.",
+      "Tempere e leve com tortilhas para o piquenique."
+    ],
+    "descricao": "Pra quem quer abacate, mas não quer virar bolsista de supermercado",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "3 porções",
+    "dica": "Se o abacate estiver meio duro, finge que é \"fitness\", igual sua preguiça de levantar cedo."
+  },
+  {
+    "id": 1294,
+    "titulo": "Biscoito Salgado de Parmesão e Alecrim",
+    "slug": "biscoito-salgado-de-parmesao-e-alecrim",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "g de manteiga",
+      "g de queijo parmesão ralado",
+      "colher de sopa de alecrim picado",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes até formar massa.",
+      "Abra a massa e corte em formatos desejados.",
+      "Asse em forno a 180°C por 20 minutos."
+    ],
+    "descricao": "Porque biscoito salgado é a desculpa perfeita pra abrir a cerveja no parque",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "20 unidades",
+    "dica": "Se os biscoitos ficarem duros, finge que é \"sabor crocante da vida\", igual seu humor depois do expediente."
+  },
+  {
+    "id": 1295,
+    "titulo": "Suco Detox Verde Refrescante",
+    "slug": "suco-detox-verde-refrescante",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "maçã verde",
+      "pepino pequeno",
+      "punhado de couve",
+      "Suco de 1 limão",
+      "ml de água de coco"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador.",
+      "Coe se quiser e sirva gelado."
+    ],
+    "descricao": "Pra quem quer parecer saudável enquanto come um brigadeiro escondido",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "2 porções",
+    "dica": "Se o suco ficar amargo, finge que é \"sabor da vida\", igual boletos que só aumentam."
+  },
+  {
+    "id": 1296,
+    "titulo": "Barrinha Caseira de Granola com Chocolate",
+    "slug": "barrinha-caseira-de-granola-com-chocolate",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "xícaras de granola",
+      "/2 xícara de mel",
+      "g de chocolate meio amargo picado",
+      "colher de sopa de manteiga"
+    ],
+    "modoPreparo": [
+      "Misture granola, mel e manteiga até ficar pegajoso.",
+      "Pressione em assadeira e asse a 180°C por 15 minutos.",
+      "Espalhe chocolate por cima e deixe esfriar antes de cortar."
+    ],
+    "descricao": "Pra quem quer energia no piquenique, mas não quer pagar a academia depois",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "6 barrinhas",
+    "dica": "Se a barrinha quebrar, finge que é \"quebra da rotina\", igual segunda-feira que não acaba nunca."
+  },
+  {
+    "id": 1297,
+    "titulo": "Sanduíche de Ovo Mexido com Ciboulette",
+    "slug": "sanduiche-de-ovo-mexido-com-ciboulette",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "ovos",
+      "colheres de sopa de leite",
+      "Ciboulette picada a gosto",
+      "Sal e pimenta",
+      "fatias de pão"
+    ],
+    "modoPreparo": [
+      "Bata ovos com leite, sal, pimenta e ciboulette.",
+      "Cozinhe mexendo até firmar.",
+      "Sirva nos pães e embale para o piquenique."
+    ],
+    "descricao": "Pra quem quer um café da manhã tardio no piquenique, sem parecer que acordou agora",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "2 porções",
+    "dica": "Se o ovo ficar meio borrachudo, finge que é \"textura gourmet\", igual sua desculpa pra não ir trabalhar."
+  },
+  {
+    "id": 1298,
+    "titulo": "Panqueca Americana Recheada com Geleia",
+    "slug": "panqueca-americana-recheada-com-geleia",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "ovo",
+      "xícara de leite",
+      "colher de sopa de açúcar",
+      "colher de chá de fermento",
+      "Geleia de frutas a gosto"
+    ],
+    "modoPreparo": [
+      "Misture os ingredientes até formar massa homogênea.",
+      "Faça panquecas na frigideira quente.",
+      "Recheie com geleia, dobre e embale para o piquenique."
+    ],
+    "descricao": "Porque panqueca é desculpa pra comer doce e fingir que tá na Disney",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Se a panqueca grudar, finge que é \"selo de autenticidade\", igual sua conta bancária depois do fim do mês."
+  },
+  {
+    "id": 1299,
+    "titulo": "Wrap Vegano de Hummus e Legumes",
+    "slug": "wrap-vegano-de-hummus-e-legumes",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "tortilhas integrais",
+      "xícara de hummus",
+      "/2 cenoura ralada",
+      "/2 pepino fatiado",
+      "Folhas de alface"
+    ],
+    "modoPreparo": [
+      "Espalhe hummus nas tortilhas.",
+      "Coloque os legumes e alface.",
+      "Enrole, corte e embale para o piquenique."
+    ],
+    "descricao": "Pra quem quer salvar o mundo, mas só até o horário do piquenique",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 19,00",
+    "porcoes": "2 porções",
+    "dica": "Se o wrap abrir, finge que é \"abraço apertado\", igual sua vontade de ir embora do trabalho."
+  },
+  {
+    "id": 1300,
+    "titulo": "Salada de Grão-de-Bico com Atum e Cebola Roxa",
+    "slug": "salada-de-grao-de-bico-com-atum-e-cebola-roxa",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "xícara de grão-de-bico cozido",
+      "lata de atum",
+      "/2 cebola roxa picada",
+      "Suco de 1 limão",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture grão-de-bico, atum e cebola.",
+      "Tempere com limão, azeite, sal e pimenta.",
+      "Leve para o piquenique feliz da vida."
+    ],
+    "descricao": "Porque grão-de-bico é o novo feijão, só que mais hipster e menos drama",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Se a cebola estiver forte demais, finge que é “perfume natural”, igual sua vontade de chorar vendo as contas."
+  },
+  {
+    "id": 1301,
+    "titulo": "Bolinho de Batata Recheado com Catupiry",
+    "slug": "bolinho-de-batata-recheado-com-catupiry",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "batatas médias cozidas e amassadas",
+      "g de catupiry",
+      "ovo",
+      "colheres de sopa de farinha de trigo",
+      "Sal e pimenta a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Misture batata, ovo, farinha, sal e pimenta até formar massa.",
+      "Faça bolinhas, recheie com catupiry e feche bem.",
+      "Frite em óleo quente até dourar."
+    ],
+    "descricao": "Pra quem quer um petisco cremoso que não te julga por repetir a terceira vez",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "10 unidades",
+    "dica": "Se o bolinho abrir, finge que é “efeito surpresa”, igual sua conta bancária depois do fim do mês."
+  },
+  {
+    "id": 1302,
+    "titulo": "Smoothie de Morango com Banana Refrescante",
+    "slug": "smoothie-de-morango-com-banana-refrescante",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "banana madura",
+      "xícara de morangos",
+      "ml de leite ou leite vegetal",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador.",
+      "Sirva gelado no piquenique."
+    ],
+    "descricao": "Pra quem quer parecer que tá cuidando da saúde, mas só quer um geladinho gostoso",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Se o smoothie ficar doce demais, finge que é “carinho líquido”, igual seu chefe quando dá folga na sexta."
+  },
+  {
+    "id": 1303,
+    "titulo": "Espetinho Caprese com Molho Pesto",
+    "slug": "espetinho-caprese-com-molho-pesto",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "bolinhas de mussarela de búfala",
+      "tomates cereja",
+      "Folhas de manjericão",
+      "colheres de sopa de molho pesto"
+    ],
+    "modoPreparo": [
+      "Espete tomate, mussarela e manjericão alternando nos palitos.",
+      "Regue com molho pesto.",
+      "Leve para o piquenique sem medo."
+    ],
+    "descricao": "Porque espetinho não é só pra churrasco, é pra impressionar no piquenique também",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Se o pesto escorrer, finge que é \"arte abstrata\", igual sua vida financeira."
+  },
+  {
+    "id": 1304,
+    "titulo": "Bolo de Fubá Cremoso com Erva-Doce",
+    "slug": "bolo-de-fuba-cremoso-com-erva-doce",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "ovos",
+      "e 1/2 xícara de açúcar",
+      "xícaras de fubá",
+      "xícara de farinha de trigo",
+      "xícara de leite",
+      "colher de sopa de fermento",
+      "colher de sopa de erva-doce"
+    ],
+    "modoPreparo": [
+      "Bata ovos e açúcar até formar creme.",
+      "Adicione fubá, farinha, leite, erva-doce e fermento.",
+      "Asse a 180°C por 40 minutos."
+    ],
+    "descricao": "Porque bolo de fubá é tradição, e tradição é a desculpa pra comer sem culpa no piquenique",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "8 porções",
+    "dica": "Se o bolo ficar rachado, finge que é “efeito do calor”, igual sua vontade de trabalhar num dia quente."
+  },
+  {
+    "id": 1305,
+    "titulo": "Salada de Repolho com Maçã e Cenoura Crocante",
+    "slug": "salada-de-repolho-com-maca-e-cenoura-crocante",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "xícaras de repolho picado",
+      "maçã picada",
+      "cenoura ralada",
+      "colheres de sopa de maionese",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture repolho, maçã e cenoura.",
+      "Acrescente maionese, sal e pimenta.",
+      "Misture bem e leve para o piquenique."
+    ],
+    "descricao": "Porque salada de repolho é quase uma festa, só que menos animada",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "4 porções",
+    "dica": "Se a salada ficar meio aguada, finge que é \"molho extra\", igual sua vontade de trabalhar na sexta."
+  },
+  {
+    "id": 1306,
+    "titulo": "Cookies de Aveia com Gotas de Chocolate",
+    "slug": "cookies-de-aveia-com-gotas-de-chocolate",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "xícara de aveia em flocos",
+      "/2 xícara de farinha de trigo",
+      "/2 xícara de açúcar mascavo",
+      "/2 xícara de manteiga",
+      "ovo",
+      "colher de chá de fermento",
+      "g de gotas de chocolate"
+    ],
+    "modoPreparo": [
+      "Misture manteiga e açúcar até formar creme.",
+      "Adicione ovo, farinha, aveia e fermento.",
+      "Junte as gotas de chocolate, forme bolinhas e asse a 180°C por 15 minutos."
+    ],
+    "descricao": "Porque cookie é a solução pra tudo, menos pra problemas financeiros",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "10 unidades",
+    "dica": "Se o cookie ficar duro, finge que é \"sabor resistente\", igual sua vontade de sair da cama cedo."
+  },
+  {
+    "id": 1307,
+    "titulo": "Suco de Laranja com Gengibre e Hortelã",
+    "slug": "suco-de-laranja-com-gengibre-e-hortela",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "laranjas espremidas",
+      "pedaço pequeno de gengibre ralado",
+      "Folhas de hortelã para decorar"
+    ],
+    "modoPreparo": [
+      "Esprema as laranjas.",
+      "Misture o gengibre no suco.",
+      "Sirva com hortelã e gelo."
+    ],
+    "descricao": "Porque suco natural é a única coisa que refresca mais que férias",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "2 porções",
+    "dica": "Se o gengibre ficar forte, finge que é \"sabor da coragem\", igual sua cara na segunda-feira cedo."
+  },
+  {
+    "id": 1308,
+    "titulo": "Tábua de Frios Simples para Piquenique",
+    "slug": "tabua-de-frios-simples-para-piquenique",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "g de queijo gouda",
+      "g de salame fatiado",
+      "g de azeitonas",
+      "Pão italiano fatiado",
+      "Uvas para decorar"
+    ],
+    "modoPreparo": [
+      "Disponha os frios e frutas na tábua de forma harmônica.",
+      "Sirva com pão fatiado.",
+      "Leve para o piquenique e finja que sabe o que está fazendo."
+    ],
+    "descricao": "Pra quem quer impressionar sem nem suar — porque suar só se for na academia",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 30,00",
+    "porcoes": "4 porções",
+    "dica": "Se a tábua parecer bagunçada, finge que é \"arte moderna\", igual sua agenda na sexta-feira."
+  },
+  {
+    "id": 1309,
+    "titulo": "Salada de Pepino com Iogurte e Dill",
+    "slug": "salada-de-pepino-com-iogurte-e-dill",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "pepinos fatiados finamente",
+      "pote de iogurte natural",
+      "colher de sopa de dill picado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture pepino, iogurte e dill.",
+      "Tempere com sal e pimenta.",
+      "Leve para o piquenique geladinho."
+    ],
+    "descricao": "Porque pepino com iogurte combina mais que você com fim de semana",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "3 porções",
+    "dica": "Se o iogurte talhar, finge que é \"toque especial\", igual sua desculpa pra faltar na reunião."
+  },
+  {
+    "id": 1310,
+    "titulo": "Brownie de Chocolate com Nozes no Pote",
+    "slug": "brownie-de-chocolate-com-nozes-no-pote",
+    "categoria": "Piquenique ",
+    "ingredientes": [
+      "g de chocolate meio amargo",
+      "g de manteiga",
+      "xícara de açúcar",
+      "ovos",
+      "xícara de farinha de trigo",
+      "/2 xícara de nozes picadas"
+    ],
+    "modoPreparo": [
+      "Derreta chocolate e manteiga.",
+      "Misture com açúcar, ovos, farinha e nozes.",
+      "Asse a 180°C por 30 minutos, corte em pedaços e coloque nos potes."
+    ],
+    "descricao": "Porque doce no pote é a desculpa perfeita pra não dividir com ninguém",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "6 potes",
+    "dica": "Se o brownie ficar seco, finge que é “sabor robusto”, igual sua vontade de trabalhar na segunda-feira."
+  }
+]

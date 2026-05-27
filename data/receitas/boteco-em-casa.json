@@ -1,0 +1,928 @@
+[
+  {
+    "id": 79,
+    "titulo": "Bolinho de Bacalhau Crocante do Seu Zé",
+    "slug": "bolinho-de-bacalhau-crocante-do-seu-ze",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de bacalhau dessalgado e desfiado",
+      "batatas médias cozidas e espremidas",
+      "cebola pequena picada",
+      "dentes de alho amassados",
+      "ovos",
+      "/2 xícara de salsinha picada",
+      "Sal e pimenta-do-reino a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Misture o bacalhau, as batatas, cebola, alho, ovos e salsinha numa tigela até formar uma massa.",
+      "Modele bolinhos com as mãos e reserve.",
+      "Aqueça o óleo e frite os bolinhos até dourarem, escorra em papel absorvente."
+    ],
+    "descricao": "Porque todo boteco tem um Seu Zé e um bolinho que some antes de você pedir",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "6 porções",
+    "dica": "Se seu bolinho sumir rápido demais, talvez esteja com mais fãs do que seu grupo do WhatsApp. Faça em dobro e esconda a segunda leva!"
+  },
+  {
+    "id": 80,
+    "titulo": "Torresmo Crocante que Não Te Julga",
+    "slug": "torresmo-crocante-que-nao-te-julga",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de barriga de porco cortada em cubos",
+      "Sal a gosto",
+      "Água para cozinhar"
+    ],
+    "modoPreparo": [
+      "Cozinhe os cubos de barriga de porco em água com sal até ficarem macios.",
+      "Escorra e seque bem os cubos.",
+      "Frite em óleo quente até ficarem dourados e crocantes."
+    ],
+    "descricao": "Praquele petisco que faz dieta chorar e coração bater mais forte",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "4 porções",
+    "dica": "Se o seu bolso tá mais seco que o torresmo, aproveite a crocância e esqueça o extrato bancário por um momento."
+  },
+  {
+    "id": 81,
+    "titulo": "Pastelzinho de Carne com Massa Quebradiça",
+    "slug": "pastelzinho-de-carne-com-massa-quebradica",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de farinha de trigo",
+      "ml de água morna",
+      "ml de óleo",
+      "pitada de sal",
+      "g de carne moída temperada",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Misture farinha, óleo, sal e água até formar uma massa lisa, deixe descansar 30 min.",
+      "Abra a massa com o rolo e corte círculos.",
+      "Recheie com carne moída, feche e frite até dourar."
+    ],
+    "descricao": "Pastel que não fura e não te deixa com vergonha na roda de boteco",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 24,50",
+    "porcoes": "8 porções",
+    "dica": "Se seu pastel abrir, não se preocupe, é só fingir que é estilo \"boteco gourmet\" e cobrar mais caro."
+  },
+  {
+    "id": 82,
+    "titulo": "Calabresa Acebolada do Seu Madruga",
+    "slug": "calabresa-acebolada-do-seu-madruga",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de calabresa em rodelas",
+      "cebolas grandes em rodelas",
+      "colheres de óleo",
+      "Pimenta-do-reino e sal a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça o óleo e frite a calabresa até dourar.",
+      "Acrescente a cebola e refogue até murchar.",
+      "Tempere com pimenta e sal e sirva quente."
+    ],
+    "descricao": "Porque todo mundo precisa de uma calabresa que coloca ordem no boteco",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Se a calabresa parece que vai fugir da frigideira, é só lembrar que ela é mais fiel que muita gente por aí."
+  },
+  {
+    "id": 83,
+    "titulo": "Mandioca Frita com Maionese Temperada",
+    "slug": "mandioca-frita-com-maionese-temperada",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "kg de mandioca descascada e cortada",
+      "Sal a gosto",
+      "Óleo para fritar",
+      "/2 xícara de maionese",
+      "dente de alho amassado",
+      "Suco de 1/2 limão",
+      "Pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a mandioca em água até ficar macia, escorra e deixe secar.",
+      "Frite a mandioca em óleo quente até dourar.",
+      "Misture maionese, alho, limão e pimenta para o molho.",
+      "Sirva mandioca com a maionese temperada."
+    ],
+    "descricao": "A mandioca que te entende quando você só quer petiscar e esquecer boletos",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Se a mandioca estiver mais crocante que sua paciência na segunda-feira, é porque você fez certo."
+  },
+  {
+    "id": 84,
+    "titulo": "Ceviche de Tilápia do Boteco Tropical",
+    "slug": "ceviche-de-tilapia-do-boteco-tropical",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de filé de tilápia cortado em cubos",
+      "Suco de 4 limões",
+      "cebola roxa fatiada fina",
+      "tomate picado",
+      "Coentro a gosto",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o peixe com o suco de limão e deixe marinar por 15 minutos.",
+      "Acrescente cebola, tomate, coentro, sal e pimenta.",
+      "Misture e sirva gelado."
+    ],
+    "descricao": "Pra fingir que tá na praia enquanto seu bolso tá na seca",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Se o limão deixar seu rosto mais amargo que segunda-feira, lembre-se que é só mais um golpe da vida adulta."
+  },
+  {
+    "id": 85,
+    "titulo": "Espetinho de Frango com Molho de Mostarda e Mel",
+    "slug": "espetinho-de-frango-com-molho-de-mostarda-e-mel",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de peito de frango em cubos",
+      "Sal e pimenta a gosto",
+      "colheres de sopa de mostarda",
+      "colher de sopa de mel",
+      "colher de sopa de azeite"
+    ],
+    "modoPreparo": [
+      "Tempere o frango com sal e pimenta.",
+      "Espete os cubos no espeto.",
+      "Grelhe ou frite até dourar.",
+      "Misture mostarda, mel e azeite e sirva como molho."
+    ],
+    "descricao": "Porque até o frango merece um pouco de glamour no boteco",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "6 porções",
+    "dica": "Se o frango grudar na grelha, não é você, é ele querendo te prender pra mais um drink."
+  },
+  {
+    "id": 86,
+    "titulo": "Isca de Tilápia com Molho Tártaro",
+    "slug": "isca-de-tilapia-com-molho-tartaro",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de filés de tilápia cortados em tiras",
+      "Suco de 1 limão",
+      "Sal e pimenta a gosto",
+      "xícara de farinha de trigo",
+      "ovo",
+      "Óleo para fritar",
+      "/2 xícara de maionese",
+      "colher de sopa de alcaparras picadas",
+      "colher de sopa de picles picado"
+    ],
+    "modoPreparo": [
+      "Tempere as tiras de peixe com limão, sal e pimenta.",
+      "Passe as tiras na farinha, depois no ovo batido, e novamente na farinha.",
+      "Frite em óleo quente até dourar.",
+      "Misture a maionese, alcaparras e picles para o molho tártaro."
+    ],
+    "descricao": "Porque peixe frito no boteco é felicidade líquida e crocante",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 32,00",
+    "porcoes": "5 porções",
+    "dica": "Se o peixe sair do óleo mais rápido que sua vontade de trabalhar, é sinal que tá perfeito."
+  },
+  {
+    "id": 87,
+    "titulo": "Linguiça Blumenau na Cerveja",
+    "slug": "linguica-blumenau-na-cerveja",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de linguiça Blumenau cortada em rodelas",
+      "lata de cerveja clara",
+      "cebola grande fatiada",
+      "colher de sopa de óleo"
+    ],
+    "modoPreparo": [
+      "Aqueça o óleo e refogue a cebola até dourar.",
+      "Junte as rodelas de linguiça e doure levemente.",
+      "Despeje a cerveja, tampe e cozinhe até o líquido reduzir."
+    ],
+    "descricao": "Um brinde à linguiça que leva cerveja até pra cozinhar, porque ninguém é de ferro",
+    "tempo": "45 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 30,00",
+    "porcoes": "4 porções",
+    "dica": "Se o cheiro da linguiça na cerveja te acordar mais que despertador, é porque tá no ponto certo."
+  },
+  {
+    "id": 88,
+    "titulo": "Batata Rústica com Alecrim e Sal Grosso",
+    "slug": "batata-rustica-com-alecrim-e-sal-grosso",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "kg de batatas cortadas em gomos",
+      "colheres de sopa de azeite",
+      "Sal grosso a gosto",
+      "Alecrim fresco a gosto"
+    ],
+    "modoPreparo": [
+      "Preaqueça o forno a 220°C.",
+      "Misture as batatas com azeite, sal grosso e alecrim.",
+      "Disponha na assadeira e asse por 40 minutos ou até dourar."
+    ],
+    "descricao": "Praquela batata que parece simples, mas é mais trabalhada que sua vida financeira",
+    "tempo": "50 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Se as batatas ficarem mais crocantes que sua desculpa pra faltar no trabalho, você acertou."
+  },
+  {
+    "id": 89,
+    "titulo": "Torresmo de Barriga com Pimenta Biquinho",
+    "slug": "torresmo-de-barriga-com-pimenta-biquinho",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de barriga de porco em cubos",
+      "colher de sopa de sal",
+      "colher de chá de pimenta-do-reino",
+      "Pimenta biquinho para decorar",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Tempere a barriga com sal e pimenta e deixe descansar 15 minutos.",
+      "Frite em óleo quente até dourar e ficar crocante.",
+      "Sirva com pimenta biquinho."
+    ],
+    "descricao": "Pra esquentar o boteco e o coração de quem não tem tempo pra dieta",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Se o torresmo estalar mais que suas contas atrasadas, é porque tá perfeito."
+  },
+  {
+    "id": 90,
+    "titulo": "Sanduíche de Pernil Desfiado com Vinagrete",
+    "slug": "sanduiche-de-pernil-desfiado-com-vinagrete",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de pernil cozido e desfiado",
+      "pães tipo francês",
+      "cebola picada",
+      "tomate picado",
+      "/2 pimentão picado",
+      "Suco de 1 limão",
+      "Sal e pimenta a gosto",
+      "Azeite"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola no azeite, adicione o pernil e aqueça.",
+      "Misture tomate, pimentão, limão, sal e pimenta para o vinagrete.",
+      "Monte o sanduíche com pernil e vinagrete."
+    ],
+    "descricao": "Porque o pernil desfiado é o ex que todo mundo quer reencontrar no boteco",
+    "tempo": "1h10min",
+    "dificuldade": "Médio",
+    "preco": "R$ 27,00",
+    "porcoes": "4 porções",
+    "dica": "Se o sanduíche sumir tão rápido quanto seu dinheiro no fim do mês, é porque tá irresistível."
+  },
+  {
+    "id": 91,
+    "titulo": "Misto Quente com Queijo Coalho e Orégano",
+    "slug": "misto-quente-com-queijo-coalho-e-oregano",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "fatias de pão de forma",
+      "fatias de queijo coalho",
+      "fatias de presunto",
+      "Orégano a gosto",
+      "Manteiga para passar no pão"
+    ],
+    "modoPreparo": [
+      "Monte o sanduíche com presunto, queijo e orégano.",
+      "Passe manteiga nas fatias de pão e leve à sanduicheira ou frigideira.",
+      "Cozinhe até o queijo derreter e o pão dourar."
+    ],
+    "descricao": "O clássico que nunca sai de moda, igual aquela cerveja gelada que você esqueceu de comprar",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Se seu misto quente está mais quente que seu chefe na segunda, aproveite e coma com gosto."
+  },
+  {
+    "id": 92,
+    "titulo": "Caldo de Feijão com Torresmo",
+    "slug": "caldo-de-feijao-com-torresmo",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de feijão preto",
+      "cebola picada",
+      "dentes de alho amassados",
+      "g de bacon em cubos",
+      "Sal e pimenta a gosto",
+      "Água suficiente",
+      "Torresmo para acompanhar"
+    ],
+    "modoPreparo": [
+      "Deixe o feijão de molho por 8 horas.",
+      "Refogue cebola, alho e bacon na panela de pressão.",
+      "Adicione o feijão, água até cobrir e cozinhe por 30 minutos após pressão.",
+      "Tempere, sirva com torresmo."
+    ],
+    "descricao": "A receita que é quase abraço de mãe depois de um dia ruim no trabalho",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Se seu caldo ficou mais quente que suas conversas em grupo, é sinal que fez certinho."
+  },
+  {
+    "id": 93,
+    "titulo": "Bolinho de Carne Seca com Queijo Coalho",
+    "slug": "bolinho-de-carne-seca-com-queijo-coalho",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de carne seca dessalgada e desfiada",
+      "g de queijo coalho em cubos",
+      "batatas cozidas e espremidas",
+      "cebola picada",
+      "dente de alho amassado",
+      "Sal e pimenta a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho, misture com a carne seca, batata e queijo.",
+      "Modele bolinhos, recheando com queijo.",
+      "Frite até dourar."
+    ],
+    "descricao": "Quando a carne seca e o queijo se encontram, até boleto vira piada",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "6 porções",
+    "dica": "Se o bolinho sumir mais rápido que seu salário, é porque tá bom demais pra dividir."
+  },
+  {
+    "id": 94,
+    "titulo": "Espetinho de Coração com Alho e Limão",
+    "slug": "espetinho-de-coracao-com-alho-e-limao",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de coração de frango limpo",
+      "Suco de 2 limões",
+      "dentes de alho picados",
+      "Sal e pimenta a gosto",
+      "Azeite para grelhar"
+    ],
+    "modoPreparo": [
+      "Tempere os corações com limão, alho, sal e pimenta por 20 minutos.",
+      "Espete e grelhe com azeite até dourar.",
+      "Sirva quente."
+    ],
+    "descricao": "Pra quem gosta de coração batendo forte, seja na paixão ou no boteco",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "5 porções",
+    "dica": "Se o coração bater mais forte que sua vontade de ir ao trabalho, é sinal de que o boteco chegou."
+  },
+  {
+    "id": 95,
+    "titulo": "Cachaça Caseira com Limão e Mel",
+    "slug": "cachaca-caseira-com-limao-e-mel",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "ml de cachaça",
+      "Suco de 1 limão",
+      "colher de sopa de mel"
+    ],
+    "modoPreparo": [
+      "Misture a cachaça com suco de limão e mel até dissolver.",
+      "Sirva gelado."
+    ],
+    "descricao": "Porque às vezes a gente precisa transformar a crise em festa",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "4 porções",
+    "dica": "Se a cachaça der mais ânimo que seu chefe, aproveite e comemore a vida adulta."
+  },
+  {
+    "id": 96,
+    "titulo": "Pão de Alho do Boteco que Nunca Falha",
+    "slug": "pao-de-alho-do-boteco-que-nunca-falha",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "pão francês grande cortado ao meio",
+      "dentes de alho amassados",
+      "colheres de sopa de manteiga",
+      "Salsinha picada a gosto"
+    ],
+    "modoPreparo": [
+      "Misture manteiga, alho e salsinha.",
+      "Espalhe no pão e leve ao forno a 180°C por 15 minutos.",
+      "Sirva quente."
+    ],
+    "descricao": "Pão com alho que acompanha melhor que amigo de bar",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "4 porções",
+    "dica": "Se o cheiro do alho deixar seu crush afastado, pelo menos o boteco vai te amar."
+  },
+  {
+    "id": 97,
+    "titulo": "Moela ao Molho Apimentado",
+    "slug": "moela-ao-molho-apimentado",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de moela limpa",
+      "cebola picada",
+      "dentes de alho amassados",
+      "tomates picados",
+      "pimenta dedo-de-moça picada",
+      "Sal, pimenta e cheiro-verde a gosto",
+      "Óleo para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no óleo, junte moela e doure.",
+      "Adicione tomates, pimenta, sal e água suficiente.",
+      "Cozinhe na pressão por 40 minutos.",
+      "Finalize com cheiro-verde e sirva."
+    ],
+    "descricao": "Pra quem gosta de desafio no boteco e na vida",
+    "tempo": "1h20min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 22,00",
+    "porcoes": "4 porções",
+    "dica": "Se a moela der trabalho, lembre que a vida adulta não é mais fácil, só tem mais bebida."
+  },
+  {
+    "id": 98,
+    "titulo": "Torresmo de Rolo com Melado de Cana",
+    "slug": "torresmo-de-rolo-com-melado-de-cana",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de pele de porco enrolada (torresmo de rolo)",
+      "Sal a gosto",
+      "Melado de cana para regar",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Tempere o torresmo com sal e deixe descansar 30 minutos.",
+      "Frite em óleo quente até dourar e crocante.",
+      "Regue com melado antes de servir."
+    ],
+    "descricao": "Pra quem gosta de torresmo com gosto de infância e um toque de boteco",
+    "tempo": "1h30min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Se o torresmo for mais doce que sua conversa com a sogra, tá na hora de virar cliente VIP."
+  },
+  {
+    "id": 99,
+    "titulo": "Calabresa ao Molho Barbecue Caseiro",
+    "slug": "calabresa-ao-molho-barbecue-caseiro",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de calabresa em rodelas",
+      "/2 xícara de ketchup",
+      "colheres de sopa de mel",
+      "colher de sopa de vinagre",
+      "colher de chá de páprica defumada",
+      "cebola pequena picada"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola na frigideira, junte a calabresa e doure.",
+      "Em panela, misture ketchup, mel, vinagre e páprica para o molho.",
+      "Cozinhe o molho até engrossar e misture com a calabresa."
+    ],
+    "descricao": "Porque o boteco merece uma calabresa com molho digno de churrasco americano",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Se o molho ficar mais doce que sua vida amorosa, não se preocupe, é só boteco!"
+  },
+  {
+    "id": 100,
+    "titulo": "Queijo Coalho na Chapa com Mel e Pimenta",
+    "slug": "queijo-coalho-na-chapa-com-mel-e-pimenta",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de queijo coalho em fatias",
+      "Mel a gosto",
+      "Pimenta-do-reino moída na hora"
+    ],
+    "modoPreparo": [
+      "Grelhe o queijo na chapa até dourar ambos os lados.",
+      "Regue com mel e polvilhe pimenta.",
+      "Sirva quente."
+    ],
+    "descricao": "Porque queijo coalho é o melhor amigo do boteco e do seu coração",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "3 porções",
+    "dica": "Se o queijo grudar mais que boleto na sua conta, vale a pena garantir a crocância."
+  },
+  {
+    "id": 101,
+    "titulo": "Misto de Linguiça com Queijo e Cebola Caramelizada",
+    "slug": "misto-de-linguica-com-queijo-e-cebola-caramelizada",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de linguiça toscana sem pele",
+      "cebola grande fatiada",
+      "g de queijo muçarela ralado",
+      "Azeite para refogar",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola em azeite até caramelizar.",
+      "Acrescente a linguiça e cozinhe até dourar.",
+      "Misture o queijo, espere derreter e sirva."
+    ],
+    "descricao": "Porque misturar linguiça e cebola é quase terapia de boteco",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 26,00",
+    "porcoes": "4 porções",
+    "dica": "Se o misto sumir mais rápido que sua vontade de sair da cama, é sinal de sucesso."
+  },
+  {
+    "id": 102,
+    "titulo": "Frango à Passarinho com Alho e Salsa",
+    "slug": "frango-a-passarinho-com-alho-e-salsa",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de frango cortado em pedaços pequenos",
+      "dentes de alho picados",
+      "Salsa picada a gosto",
+      "Sal e pimenta a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Tempere o frango com sal, pimenta e alho.",
+      "Frite em óleo quente até dourar.",
+      "Salpique salsa antes de servir."
+    ],
+    "descricao": "Praquele frango que te ajuda a esquecer que amanhã tem reunião chata",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "5 porções",
+    "dica": "Se o frango estalar mais que sua paciência, é hora de brindar com mais uma cerveja."
+  },
+  {
+    "id": 103,
+    "titulo": "Vinagrete de Tomate com Cebola Roxa",
+    "slug": "vinagrete-de-tomate-com-cebola-roxa",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "tomates médios picados",
+      "cebola roxa picada",
+      "Suco de 1 limão",
+      "colheres de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes numa tigela.",
+      "Deixe descansar 10 minutos antes de servir.",
+      "Ajuste temperos se necessário."
+    ],
+    "descricao": "O molho que salva qualquer petisco e sua vida amorosa no boteco",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "6 porções",
+    "dica": "Se o vinagrete for mais azedo que sua última DR, aproveite que no boteco a gente se entende."
+  },
+  {
+    "id": 104,
+    "titulo": "Espetinho de Queijo Coalho com Orégano e Mel",
+    "slug": "espetinho-de-queijo-coalho-com-oregano-e-mel",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de queijo coalho em cubos",
+      "Orégano a gosto",
+      "Mel para regar"
+    ],
+    "modoPreparo": [
+      "Espete os cubos de queijo.",
+      "Grelhe na chapa até dourar.",
+      "Salpique orégano e regue com mel antes de servir."
+    ],
+    "descricao": "Porque queijo na brasa é amor que não se explica, só se devora",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Se o mel fizer mais sucesso que seu crush, pelo menos o boteco tá garantido."
+  },
+  {
+    "id": 105,
+    "titulo": "Frango Empanado Crocante com Molho de Mostarda",
+    "slug": "frango-empanado-crocante-com-molho-de-mostarda",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de peito de frango em tiras",
+      "xícara de farinha de trigo",
+      "ovos batidos",
+      "xícara de farinha de rosca",
+      "Óleo para fritar",
+      "colheres de sopa de mostarda",
+      "colher de sopa de mel"
+    ],
+    "modoPreparo": [
+      "Passe o frango na farinha, depois no ovo e na farinha de rosca.",
+      "Frite até dourar.",
+      "Misture mostarda e mel para o molho."
+    ],
+    "descricao": "Porque empanar é a arte de fazer frango ganhar status VIP no boteco",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 24,00",
+    "porcoes": "5 porções",
+    "dica": "Se o frango empanado estalar mais que seus boletos atrasados, é hora de esquecer a conta e focar no sabor."
+  },
+  {
+    "id": 106,
+    "titulo": "Bolinho de Arroz com Queijo e Cebolinha",
+    "slug": "bolinho-de-arroz-com-queijo-e-cebolinha",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "xícaras de arroz cozido",
+      "g de queijo muçarela ralado",
+      "ovo",
+      "Cebolinha picada a gosto",
+      "Sal e pimenta a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Misture arroz, queijo, ovo, cebolinha, sal e pimenta.",
+      "Modele bolinhos e frite até dourar."
+    ],
+    "descricao": "Aquele bolinho que salva restinho de arroz e sua dignidade no boteco",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "6 porções",
+    "dica": "Se o bolinho sumir da frigideira tão rápido quanto seu interesse por segunda-feira, é porque tá bom demais."
+  },
+  {
+    "id": 107,
+    "titulo": "Coxinha de Jaca Verde Vegana",
+    "slug": "coxinha-de-jaca-verde-vegana",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de jaca verde desfiada e cozida",
+      "xícaras de farinha de trigo",
+      "litro de caldo de legumes",
+      "cebola picada",
+      "dentes de alho amassados",
+      "Sal e pimenta a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho, junte a jaca e tempere.",
+      "Ferva o caldo, adicione a farinha e mexa até formar massa.",
+      "Modele as coxinhas, recheie com jaca, empane e frite."
+    ],
+    "descricao": "Pra quem quer boteco sem culpa, só risadas e sabor",
+    "tempo": "1h30min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 27,00",
+    "porcoes": "6 porções",
+    "dica": "Se a coxinha vegana virar a estrela do boteco, é sinal que até dieta pode ser divertida."
+  },
+  {
+    "id": 108,
+    "titulo": "Espetinho de Camarão com Alho e Limão",
+    "slug": "espetinho-de-camarao-com-alho-e-limao",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de camarão limpo",
+      "dentes de alho picados",
+      "Suco de 1 limão",
+      "Sal e pimenta a gosto",
+      "Azeite para grelhar"
+    ],
+    "modoPreparo": [
+      "Tempere camarão com alho, limão, sal e pimenta por 15 minutos.",
+      "Espete e grelhe até ficar rosado.",
+      "Sirva quente."
+    ],
+    "descricao": "Praquele toque sofisticado pra impressionar até o tio do bar",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "4 porções",
+    "dica": "Se o camarão for mais caro que sua conta de luz, pelo menos vale o glamour no boteco."
+  },
+  {
+    "id": 109,
+    "titulo": "Salgadinhos de Queijo e Presunto com Massa de Batata",
+    "slug": "salgadinhos-de-queijo-e-presunto-com-massa-de-batata",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "batatas médias cozidas e amassadas",
+      "xícaras de farinha de trigo",
+      "g de queijo muçarela picado",
+      "g de presunto picado",
+      "Sal e pimenta a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Misture batata, farinha, sal e pimenta até formar massa.",
+      "Abra a massa, recheie com queijo e presunto, feche e modele salgadinhos.",
+      "Frite até dourar."
+    ],
+    "descricao": "Porque salgadinho de boteco é quase terapia em forma de comida",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "10 porções",
+    "dica": "Se o salgadinho desaparecer mais rápido que seus planos na sexta-feira, é porque o sucesso tá garantido."
+  },
+  {
+    "id": 110,
+    "titulo": "Frango ao Molho Barbecue com Batata Frita",
+    "slug": "frango-ao-molho-barbecue-com-batata-frita",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de frango em pedaços",
+      "xícara de molho barbecue",
+      "kg de batatas para fritar",
+      "Sal a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Cozinhe o frango até ficar macio, misture com o molho barbecue e deixe apurar.",
+      "Frite as batatas até dourar.",
+      "Sirva frango com batata."
+    ],
+    "descricao": "Combinação que deixa até boleto atrasado mais suportável",
+    "tempo": "1h10min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Se o molho fica mais grudado que suas dívidas, pelo menos o sabor vai te abraçar."
+  },
+  {
+    "id": 111,
+    "titulo": "Linguiça ao Alho e Cerveja na Panela",
+    "slug": "linguica-ao-alho-e-cerveja-na-panela",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de linguiça calabresa fatiada",
+      "lata de cerveja",
+      "dentes de alho picados",
+      "cebola fatiada",
+      "Azeite"
+    ],
+    "modoPreparo": [
+      "Refogue alho e cebola no azeite, junte a linguiça e doure.",
+      "Acrescente a cerveja, tampe e cozinhe até reduzir o líquido."
+    ],
+    "descricao": "Porque linguiça com cerveja é quase o casamento perfeito do boteco",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 24,00",
+    "porcoes": "4 porções",
+    "dica": "Se o cheiro da linguiça invadir a vizinhança, pelo menos faça amizade com todo mundo."
+  },
+  {
+    "id": 112,
+    "titulo": "Coração de Galinha Grelhado com Limão e Pimenta",
+    "slug": "coracao-de-galinha-grelhado-com-limao-e-pimenta",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de coração de galinha limpo",
+      "Suco de 2 limões",
+      "Sal e pimenta a gosto",
+      "Azeite para grelhar"
+    ],
+    "modoPreparo": [
+      "Tempere os corações com limão, sal e pimenta por 20 minutos.",
+      "Espete e grelhe até dourar.",
+      "Sirva quente."
+    ],
+    "descricao": "Pra quem gosta de coração forte, de boteco e da vida",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 19,00",
+    "porcoes": "4 porções",
+    "dica": "Se o coração bater mais forte que seu despertador, é hora de boteco!"
+  },
+  {
+    "id": 113,
+    "titulo": "Bolinho de Mandioca com Carne Moída",
+    "slug": "bolinho-de-mandioca-com-carne-moida",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de mandioca cozida e amassada",
+      "g de carne moída temperada",
+      "cebola picada",
+      "ovo",
+      "Sal e pimenta a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e misture com a carne moída temperada.",
+      "Misture a mandioca, o ovo, sal e pimenta.",
+      "Modele bolinhos recheados com carne e frite até dourar."
+    ],
+    "descricao": "Quando mandioca e carne se juntam, até segunda-feira fica feliz",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "6 porções",
+    "dica": "Se o bolinho sumir antes da cerveja esquentar, é sinal que o boteco em casa tá bombando."
+  },
+  {
+    "id": 114,
+    "titulo": "Linguiça de Frango com Molho de Mostarda e Mel",
+    "slug": "linguica-de-frango-com-molho-de-mostarda-e-mel",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de linguiça de frango fatiada",
+      "colheres de sopa de mostarda",
+      "colher de sopa de mel",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Frite a linguiça até dourar.",
+      "Misture mostarda e mel e aqueça rapidamente.",
+      "Sirva linguiça com molho por cima."
+    ],
+    "descricao": "Pra quem quer fugir da tradicional, mas não da cerveja gelada",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 23,00",
+    "porcoes": "4 porções",
+    "dica": "Se o molho for mais doce que suas mensagens não respondidas, aproveite o momento."
+  },
+  {
+    "id": 115,
+    "titulo": "Espetinho de Carne com Pimentão e Cebola",
+    "slug": "espetinho-de-carne-com-pimentao-e-cebola",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "g de carne bovina em cubos",
+      "pimentão vermelho cortado em pedaços",
+      "cebola cortada em pedaços",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere a carne com sal e pimenta.",
+      "Monte espetos intercalando carne, pimentão e cebola.",
+      "Grelhe com azeite até dourar."
+    ],
+    "descricao": "Porque espetinho sem pimentão é igual boleto sem juros, não existe",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 28,00",
+    "porcoes": "5 porções",
+    "dica": "Se o espetinho acabar mais rápido que seu saldo bancário, é porque tá irresistível."
+  },
+  {
+    "id": 116,
+    "titulo": "Salada de Maionese do Boteco Raiz",
+    "slug": "salada-de-maionese-do-boteco-raiz",
+    "categoria": "Boteco Em Casa ",
+    "ingredientes": [
+      "batatas cozidas e picadas",
+      "cenouras cozidas e picadas",
+      "lata de ervilha",
+      "/2 xícara de maionese",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes numa tigela.",
+      "Ajuste sal e pimenta.",
+      "Leve à geladeira por 20 minutos antes de servir."
+    ],
+    "descricao": "A salada que é mais raiz que boleto atrasado e cerveja quente",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "6 porções",
+    "dica": "Se a salada for mais refrescante que sua conversa com o chefe, tá na hora de brindar."
+  }
+]

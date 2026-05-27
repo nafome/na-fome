@@ -1,0 +1,964 @@
+[
+  {
+    "id": 780,
+    "titulo": "Hambúrguer Clássico do Sofá",
+    "slug": "hamburguer-classico-do-sofa",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g carne moída bovina (patinho)",
+      "pães de hambúrguer",
+      "fatias queijo prato",
+      "folhas alface",
+      "rodelas tomate",
+      "colheres sopa maionese",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere a carne com sal e pimenta e molde 2 hambúrgueres.",
+      "Aqueça a frigideira e grelhe os hambúrgueres por 4 minutos de cada lado.",
+      "Monte o lanche com pão, hambúrguer, queijo, alface, tomate e maionese."
+    ],
+    "descricao": "Quando a preguiça vence o delivery, mas a fome não.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "2 porções",
+    "dica": "Se o boleto apertar, invista no hambúrguer caseiro, porque delivery não aceita parcelamento no cartão, infelizmente."
+  },
+  {
+    "id": 781,
+    "titulo": "Batata Rústica Crocante",
+    "slug": "batata-rustica-crocante",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "batatas médias com casca",
+      "colheres sopa azeite",
+      "colher chá sal grosso",
+      "colher chá páprica defumada",
+      "Alecrim a gosto"
+    ],
+    "modoPreparo": [
+      "Lave bem as batatas e corte em gomos grandes.",
+      "Misture com azeite, sal, páprica e alecrim, espalhe na assadeira.",
+      "Asse por 35 minutos a 200°C, virando na metade."
+    ],
+    "descricao": "O acompanhamento que é mais pedido que aumento salarial.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 8,00",
+    "porcoes": "3 porções",
+    "dica": "Se a batata não ficar crocante, não culpe a receita, culpa a sua pressa igual na vida adulta que nunca deixa nada crocante."
+  },
+  {
+    "id": 782,
+    "titulo": "Sanduíche de Frango Desfiado Picante",
+    "slug": "sanduiche-de-frango-desfiado-picante",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g peito de frango cozido e desfiado",
+      "pães de hambúrguer integral",
+      "colheres sopa maionese",
+      "colher sopa molho de pimenta",
+      "colher sopa cebola picada",
+      "Folhas de rúcula a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o frango desfiado com maionese, molho de pimenta e cebola.",
+      "Recheie os pães com a mistura e rúcula.",
+      "Sirva quente ou frio, que nem aquele crush que some e volta."
+    ],
+    "descricao": "Pra quem quer sabor com um tapa na cara de pimenta.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Se o fogo da pimenta te pegar, lembre: é só o tempero da vida adulta, que às vezes queima mais que boleto atrasado."
+  },
+  {
+    "id": 783,
+    "titulo": "Cachorro-Quente Gourmet Caseiro",
+    "slug": "cachorro-quente-gourmet-caseiro",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "salsichas",
+      "pães para cachorro-quente",
+      "colheres sopa ketchup",
+      "colheres sopa mostarda",
+      "/2 cebola picada",
+      "colheres sopa maionese",
+      "Batata palha a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe as salsichas em água fervente por 5 minutos.",
+      "Doure a cebola na frigideira e reserve.",
+      "Monte o lanche com pão, salsicha, cebola, ketchup, mostarda, maionese e batata palha."
+    ],
+    "descricao": "O clássico que nunca sai da moda, mesmo com a crise.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Cachorro-quente é igual boleto: a gente sabe que vai chegar, mas sempre finge surpresa na hora."
+  },
+  {
+    "id": 784,
+    "titulo": "Mini Pizzas de Pão de Forma",
+    "slug": "mini-pizzas-de-pao-de-forma",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "fatias de pão de forma",
+      "colheres sopa molho de tomate",
+      "g mussarela ralada",
+      "fatias de tomate",
+      "Orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Espalhe o molho de tomate sobre as fatias de pão.",
+      "Cubra com mussarela, tomate e orégano.",
+      "Leve ao forno a 180°C por 15 minutos ou até derreter o queijo."
+    ],
+    "descricao": "A pizza que nasceu na cozinha do desespero.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "4 porções",
+    "dica": "Se você acha que pizza é só para sair, é porque nunca fez essa no pão de forma e se sentiu o chef da quebrada."
+  },
+  {
+    "id": 785,
+    "titulo": "Wrap de Carne com Molho Especial",
+    "slug": "wrap-de-carne-com-molho-especial",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "tortilhas grandes",
+      "g carne moída temperada",
+      "tomate picado",
+      "/2 cebola picada",
+      "colheres sopa maionese",
+      "Alface a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a carne moída até dourar e reserve.",
+      "Misture maionese com tomate e cebola para o molho.",
+      "Monte as tortilhas com alface, carne e molho, enrole firme."
+    ],
+    "descricao": "Porque enrolar a vida nunca foi tão saboroso.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Se enrolar demais, vira nó na vida e no wrap. Enrole só o que der, que já tá ótimo."
+  },
+  {
+    "id": 786,
+    "titulo": "Hambúrguer de Lentilha Vegano",
+    "slug": "hamburguer-de-lentilha-vegano",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g lentilha cozida",
+      "/2 cebola picada",
+      "dentes alho picados",
+      "colheres sopa farinha de aveia",
+      "Sal e pimenta a gosto",
+      "pães de hambúrguer veganos"
+    ],
+    "modoPreparo": [
+      "Bata a lentilha, cebola e alho no processador até formar uma pasta grossa.",
+      "Misture a farinha, sal e pimenta e molde os hambúrgueres.",
+      "Frite na frigideira antiaderente até dourar dos dois lados."
+    ],
+    "descricao": "A revolução vegana que até seu tio do churrasco vai querer provar.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 16,00",
+    "porcoes": "3 porções",
+    "dica": "Se o vegano da família reclamar, ofereça com pão e diga que é o hambúrguer de amor, que não sai caro nem engorda."
+  },
+  {
+    "id": 787,
+    "titulo": "Nuggets Crocantes de Frango Caseiros",
+    "slug": "nuggets-crocantes-de-frango-caseiros",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g peito de frango moído",
+      "ovo",
+      "/2 xícara farinha de rosca",
+      "/4 xícara farinha de trigo",
+      "Sal e pimenta a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Misture o frango moído com sal, pimenta e ovo até dar liga.",
+      "Modele os nuggets, passe na farinha de trigo e depois na farinha de rosca.",
+      "Frite em óleo quente até dourar, escorra no papel toalha."
+    ],
+    "descricao": "Porque pedir nuggets na lanchonete é quase uma religião.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "4 porções",
+    "dica": "Se a cozinha virar zona de guerra, lembra que nuggets são a desculpa perfeita pra evitar lavar a louça."
+  },
+  {
+    "id": 788,
+    "titulo": "Hambúrguer de Calabresa com Cebola Caramelizada",
+    "slug": "hamburguer-de-calabresa-com-cebola-caramelizada",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g calabresa moída",
+      "cebola grande fatiada",
+      "pães de hambúrguer",
+      "fatias queijo prato",
+      "colher sopa açúcar mascavo"
+    ],
+    "modoPreparo": [
+      "Caramelize a cebola com açúcar mascavo até dourar.",
+      "Modele a calabresa em forma de hambúrguer e frite até dourar.",
+      "Monte o lanche com pão, hambúrguer, queijo e cebola caramelizada."
+    ],
+    "descricao": "Para quem quer um lanche com tempero de novela mexicana.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,50",
+    "porcoes": "2 porções",
+    "dica": "Se a cebola queimar, não chore. É só a vida lembrando que nem tudo é doce, até no fast food."
+  },
+  {
+    "id": 789,
+    "titulo": "Hot Dog de Guacamole",
+    "slug": "hot-dog-de-guacamole",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "salsichas",
+      "pães para cachorro-quente",
+      "abacate maduro",
+      "tomate picado",
+      "/4 cebola picada",
+      "Suco de 1/2 limão",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe as salsichas em água fervente por 5 minutos.",
+      "Amasse o abacate e misture com tomate, cebola, limão, sal e pimenta.",
+      "Monte o hot dog com salsicha, pão e guacamole por cima."
+    ],
+    "descricao": "O cachorro-quente que virou festa mexicana na sua cozinha.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "2 porções",
+    "dica": "Se o abacate estiver duro, não force a vida nem o guacamole, igual a promessa de academia na segunda-feira."
+  },
+  {
+    "id": 790,
+    "titulo": "Hambúrguer de Queijo Coalho com Melado",
+    "slug": "hamburguer-de-queijo-coalho-com-melado",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g queijo coalho em fatias grossas",
+      "pães de hambúrguer",
+      "colheres sopa melado de cana",
+      "Folhas de rúcula a gosto"
+    ],
+    "modoPreparo": [
+      "Grelhe o queijo coalho na frigideira até dourar dos dois lados.",
+      "Regue o queijo com melado ainda na frigideira para caramelizar.",
+      "Monte o hambúrguer com pão, queijo e rúcula."
+    ],
+    "descricao": "O sabor do Nordeste que vai fazer seu coração bater mais forte que boleto atrasado.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Se o melado grudar demais na frigideira, lembre que a vida também é assim: às vezes a gente gruda, mas não pode desistir."
+  },
+  {
+    "id": 791,
+    "titulo": "Hambúrguer de Atum com Maionese de Ervas",
+    "slug": "hamburguer-de-atum-com-maionese-de-ervas",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "latas atum sólido drenado",
+      "ovo",
+      "colheres sopa farinha de rosca",
+      "Sal e pimenta a gosto",
+      "pães de hambúrguer",
+      "colheres sopa maionese",
+      "Salsinha e cebolinha picadas"
+    ],
+    "modoPreparo": [
+      "Misture atum, ovo, farinha, sal e pimenta e molde os hambúrgueres.",
+      "Frite em frigideira com um fio de óleo até dourar.",
+      "Misture a maionese com ervas e sirva com o hambúrguer no pão."
+    ],
+    "descricao": "Para impressionar no fast food sem usar desculpa de pizza.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "2 porções",
+    "dica": "Se atum parecer estranho, pense que é só o mar dando seu toque especial, igual a conta de luz todo mês."
+  },
+  {
+    "id": 792,
+    "titulo": "Hambúrguer de Carne com Bacon e Ovo",
+    "slug": "hamburguer-de-carne-com-bacon-e-ovo",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g carne moída bovina",
+      "fatias bacon",
+      "ovos",
+      "pães de hambúrguer",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Modele e tempere a carne, frite os hambúrgueres até ficar ao ponto.",
+      "Frite o bacon até ficar crocante e reserve.",
+      "Frite os ovos mexidos ou estrelados a gosto.",
+      "Monte o hambúrguer com bacon e ovo no pão."
+    ],
+    "descricao": "O combo que segura o café da manhã e a alma.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "2 porções",
+    "dica": "Se a barriga roncar mais que noticiário, esse lanche é tiro certo, só não esquece da balança depois."
+  },
+  {
+    "id": 793,
+    "titulo": "Hambúrguer de Cogumelos com Queijo Brie",
+    "slug": "hamburguer-de-cogumelos-com-queijo-brie",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g cogumelos frescos fatiados",
+      "pães de hambúrguer",
+      "fatias queijo brie",
+      "dente alho picado",
+      "colher sopa manteiga"
+    ],
+    "modoPreparo": [
+      "Refogue o alho na manteiga, junte os cogumelos e cozinhe até murchar.",
+      "Monte o hambúrguer com os cogumelos refogados e queijo brie.",
+      "Leve ao forno quente por 5 minutos para derreter o queijo."
+    ],
+    "descricao": "Sofisticação para o lanche que sua mãe não entende.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida te der cogumelos, transforma em hambúrguer e finge que é jantar romântico, mesmo sozinho."
+  },
+  {
+    "id": 794,
+    "titulo": "Hambúrguer de Carne com Molho Barbecue Caseiro",
+    "slug": "hamburguer-de-carne-com-molho-barbecue-caseiro",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g carne moída",
+      "pães de hambúrguer",
+      "/2 xícara ketchup",
+      "colheres sopa açúcar mascavo",
+      "colher sopa vinagre",
+      "colher chá molho inglês",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture ketchup, açúcar, vinagre e molho inglês e cozinhe em fogo baixo até engrossar.",
+      "Tempere e modele a carne, frite os hambúrgueres até o ponto desejado.",
+      "Monte o lanche com hambúrguer e bastante molho barbecue."
+    ],
+    "descricao": "Porque molho é a alma do negócio e a desculpa pra lambuzar.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Se o molho ficar grudado na panela, lembre que a vida também gruda, só não vale desistir no meio do caminho."
+  },
+  {
+    "id": 795,
+    "titulo": "Hambúrguer de Fraldinha com Queijo Cheddar",
+    "slug": "hamburguer-de-fraldinha-com-queijo-cheddar",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g carne moída de fraldinha",
+      "pães de hambúrguer",
+      "fatias queijo cheddar",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere a carne, molde hambúrgueres e frite até o ponto desejado.",
+      "Coloque o queijo por cima para derreter levemente.",
+      "Monte o sanduíche com pão e hambúrguer."
+    ],
+    "descricao": "Porque às vezes só um corte nobre salva o fim de semana.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 27,00",
+    "porcoes": "2 porções",
+    "dica": "Se a fraldinha faltar na feira, substitua com amor e espere boleto passar pra comprar de novo."
+  },
+  {
+    "id": 796,
+    "titulo": "Hambúrguer de Queijo Minas com Goiabada",
+    "slug": "hamburguer-de-queijo-minas-com-goiabada",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g queijo minas frescal em fatias",
+      "pães de hambúrguer",
+      "colheres sopa goiabada cremosa",
+      "Folhas de hortelã para decorar"
+    ],
+    "modoPreparo": [
+      "Grelhe as fatias de queijo até dourar levemente.",
+      "Monte o pão com queijo quente e goiabada por cima.",
+      "Decore com hortelã e sirva."
+    ],
+    "descricao": "O famoso \"Romeu e Julieta\" que virou fast food.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Se o amor fosse tão fácil quanto esse lanche, a gente já teria resolvido tudo no churrasco do domingo."
+  },
+  {
+    "id": 797,
+    "titulo": "Hambúrguer de Carne com Bacon e Abacate",
+    "slug": "hamburguer-de-carne-com-bacon-e-abacate",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g carne moída",
+      "fatias bacon",
+      "/2 abacate amassado",
+      "pães de hambúrguer",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Modele e tempere os hambúrgueres, frite até o ponto.",
+      "Frite o bacon até ficar crocante.",
+      "Monte o lanche com pão, hambúrguer, bacon e abacate amassado."
+    ],
+    "descricao": "A mistura que é mais inesperada que promessa de político.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 26,00",
+    "porcoes": "2 porções",
+    "dica": "Se o abacate não estiver maduro, finge que é assim mesmo, igual a vida adulta que nunca tá no ponto."
+  },
+  {
+    "id": 798,
+    "titulo": "Hot Dog com Maionese de Alho e Batata Palha Caseira",
+    "slug": "hot-dog-com-maionese-de-alho-e-batata-palha-caseira",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "salsichas",
+      "pães para cachorro-quente",
+      "batatas médias raladas",
+      "dentes alho picados",
+      "colheres sopa maionese",
+      "Sal a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Frite as salsichas em água fervente por 5 minutos.",
+      "Rale e esprema as batatas para tirar o excesso de água, frite em óleo quente até dourar.",
+      "Misture maionese com alho e sal. Monte o hot dog com salsicha, maionese e batata palha caseira."
+    ],
+    "descricao": "O clássico que não sai da cabeça nem da boca.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "2 porções",
+    "dica": "Se a batata virar purê, respira fundo, lembra que nem sempre a receita da vida sai crocante."
+  },
+  {
+    "id": 799,
+    "titulo": "Hambúrguer de Frango com Molho de Iogurte e Hortelã",
+    "slug": "hamburguer-de-frango-com-molho-de-iogurte-e-hortela",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g peito de frango moído",
+      "pães de hambúrguer",
+      "/2 xícara iogurte natural",
+      "Hortelã picada a gosto",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Modele e tempere o frango, frite até dourar.",
+      "Misture o iogurte com hortelã, sal e pimenta.",
+      "Monte o hambúrguer com o molho por cima."
+    ],
+    "descricao": "O lanche que te faz parecer saudável sem esforço.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Se lembrar que iogurte estraga rápido, aproveita o lanche antes que vire piada de geladeira."
+  },
+  {
+    "id": 800,
+    "titulo": "Hambúrguer de Carne com Cebola Roxa e Queijo Azul",
+    "slug": "hamburguer-de-carne-com-cebola-roxa-e-queijo-azul",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g carne moída",
+      "pães de hambúrguer",
+      "cebola roxa fatiada",
+      "g queijo azul em fatias",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Frite a cebola na frigideira até ficar macia e dourada.",
+      "Modele e tempere a carne, frite os hambúrgueres.",
+      "Monte o lanche com hambúrguer, cebola e queijo azul."
+    ],
+    "descricao": "Para quem quer causar na reunião de família.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "2 porções",
+    "dica": "Se o queijo azul for forte demais, finge que é o tempero da vida adulta: intenso e difícil de entender."
+  },
+  {
+    "id": 801,
+    "titulo": "Hambúrguer de Carne com Molho de Queijo e Picles",
+    "slug": "hamburguer-de-carne-com-molho-de-queijo-e-picles",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g carne moída",
+      "pães de hambúrguer",
+      "g queijo cheddar ralado",
+      "/4 xícara leite",
+      "fatias picles",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Modele e tempere o hambúrguer, frite até dourar.",
+      "Derreta o queijo com leite em fogo baixo até virar molho cremoso.",
+      "Monte o lanche com hambúrguer, molho de queijo e picles."
+    ],
+    "descricao": "O lanche que é quase uma festa para o paladar.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 23,00",
+    "porcoes": "2 porções",
+    "dica": "Se o molho talhar, não se preocupe, acontece mais que aquela promessa de dieta na segunda."
+  },
+  {
+    "id": 802,
+    "titulo": "Hambúrguer de Carne com Bacon e Cebola na Mostarda",
+    "slug": "hamburguer-de-carne-com-bacon-e-cebola-na-mostarda",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g carne moída",
+      "fatias bacon",
+      "cebola fatiada",
+      "colheres sopa mostarda Dijon",
+      "pães de hambúrguer",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Frite o bacon até ficar crocante e reserve.",
+      "Na mesma frigideira, refogue a cebola com mostarda até caramelizar.",
+      "Modele e frite os hambúrgueres, monte com bacon e cebola na mostarda."
+    ],
+    "descricao": "O lanche que é tiro certo para espantar crise existencial.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "2 porções",
+    "dica": "Se a cebola queimar, finge que é o tempero da vida: às vezes amarga, mas faz parte."
+  },
+  {
+    "id": 803,
+    "titulo": "Hambúrguer de Grão-de-Bico com Tahine",
+    "slug": "hamburguer-de-grao-de-bico-com-tahine",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g grão-de-bico cozido",
+      "colher sopa tahine",
+      "/2 cebola picada",
+      "dente alho picado",
+      "Sal e pimenta a gosto",
+      "pães de hambúrguer"
+    ],
+    "modoPreparo": [
+      "Bata o grão-de-bico, cebola, alho e tahine até formar uma massa.",
+      "Tempere, molde os hambúrgueres e frite até dourar.",
+      "Monte com pão e o acompanhamento que preferir."
+    ],
+    "descricao": "Quando o fast food resolve virar filosofia de vida.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "3 porções",
+    "dica": "Se o grão-de-bico quiser grudar nos dentes, lembra que é só o preço da saúde, igual academia todo mês."
+  },
+  {
+    "id": 804,
+    "titulo": "Hambúrguer de Carne com Molho de Gorgonzola e Nozes",
+    "slug": "hamburguer-de-carne-com-molho-de-gorgonzola-e-nozes",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g carne moída",
+      "pães de hambúrguer",
+      "g queijo gorgonzola",
+      "/4 xícara creme de leite",
+      "colheres sopa nozes picadas",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Modele e tempere a carne, frite os hambúrgueres.",
+      "Derreta o gorgonzola com creme de leite até formar molho cremoso.",
+      "Monte o lanche com hambúrguer, molho e nozes por cima."
+    ],
+    "descricao": "O lanche que é quase um encontro de milionários.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "2 porções",
+    "dica": "Se o molho ficar forte demais, finge que é o tempero da vida adulta: intenso, cheio de surpresas e boletos."
+  },
+  {
+    "id": 805,
+    "titulo": "Hambúrguer de Carne com Queijo e Picles de Beterraba",
+    "slug": "hamburguer-de-carne-com-queijo-e-picles-de-beterraba",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g carne moída",
+      "pães de hambúrguer",
+      "fatias queijo prato",
+      "beterraba pequena em fatias finas",
+      "/2 xícara vinagre",
+      "colher sopa açúcar",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Prepare o picles cozinhando a beterraba com vinagre, açúcar e sal por 10 minutos e deixe esfriar.",
+      "Modele e tempere a carne, frite os hambúrgueres.",
+      "Monte o lanche com queijo e picles de beterraba."
+    ],
+    "descricao": "O lanche que une o tradicional e o exótico na mesma mordida.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "2 porções",
+    "dica": "Se o picles ficar azedo demais, lembra que a vida também não é sempre doce, mas tá tudo certo."
+  },
+  {
+    "id": 806,
+    "titulo": "Hambúrguer de Carne com Queijo e Maionese de Alho Negro",
+    "slug": "hamburguer-de-carne-com-queijo-e-maionese-de-alho-negro",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g carne moída",
+      "pães de hambúrguer",
+      "fatias queijo prato",
+      "dentes alho negro amassados",
+      "colheres sopa maionese",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture alho negro na maionese e reserve.",
+      "Modele e tempere a carne, frite os hambúrgueres.",
+      "Monte o lanche com queijo e maionese de alho negro."
+    ],
+    "descricao": "O sabor que vai fazer você se sentir chef, mesmo com conta atrasada.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "2 porções",
+    "dica": "Se o alho negro parecer estranho, finge que é o novo “exótico” que venceu o boleto e veio pra ficar."
+  },
+  {
+    "id": 807,
+    "titulo": "Hambúrguer de Carne com Molho de Mostarda e Mel",
+    "slug": "hamburguer-de-carne-com-molho-de-mostarda-e-mel",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g carne moída",
+      "pães de hambúrguer",
+      "colheres sopa mostarda Dijon",
+      "colher sopa mel",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Modele e tempere a carne, frite os hambúrgueres.",
+      "Misture mostarda e mel para o molho.",
+      "Monte o lanche com hambúrguer e molho por cima."
+    ],
+    "descricao": "O lanche que é uma briga de sabores, mas no final dá beijo.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Se a mistura ficar esquisita, lembra que a vida adulta é essa confusão, mas a gente finge que tá tudo ótimo."
+  },
+  {
+    "id": 808,
+    "titulo": "Hambúrguer de Costela com Queijo Provolone",
+    "slug": "hamburguer-de-costela-com-queijo-provolone",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g carne de costela moída",
+      "pães de hambúrguer",
+      "fatias queijo provolone",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere a carne, molde hambúrgueres e frite lentamente para ficar suculento.",
+      "Coloque o queijo para derreter sobre o hambúrguer ainda na frigideira.",
+      "Monte o lanche com pão e hambúrguer."
+    ],
+    "descricao": "O lanche que é mais resistente que seu sono na segunda-feira.",
+    "tempo": "50 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 35,00",
+    "porcoes": "2 porções",
+    "dica": "Se a costela demorar a cozinhar, lembra que até boletos atrasam, mas não podem ser ignorados."
+  },
+  {
+    "id": 809,
+    "titulo": "Hambúrguer de Carne com Bacon e Molho de Pimenta Doce",
+    "slug": "hamburguer-de-carne-com-bacon-e-molho-de-pimenta-doce",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g carne moída",
+      "fatias bacon",
+      "colheres sopa molho de pimenta doce",
+      "pães de hambúrguer",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Frite o bacon até ficar crocante e reserve.",
+      "Modele a carne, tempere e frite os hambúrgueres.",
+      "Monte o lanche com bacon e molho de pimenta doce por cima."
+    ],
+    "descricao": "O lanche que é uma festa na boca com fogueira no coração.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "2 porções",
+    "dica": "Se o fogo pegar mais que o esperado, finge que é só a paixão pelo lanche, não a conta atrasada."
+  },
+  {
+    "id": 810,
+    "titulo": "Hambúrguer de Carne com Queijo e Maionese de Limão Siciliano",
+    "slug": "hamburguer-de-carne-com-queijo-e-maionese-de-limao-siciliano",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g carne moída",
+      "pães de hambúrguer",
+      "fatias queijo prato",
+      "colheres sopa maionese",
+      "Raspas de 1 limão siciliano",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a maionese com raspas de limão e reserve.",
+      "Modele e tempere a carne, frite os hambúrgueres.",
+      "Monte o lanche com queijo e maionese de limão."
+    ],
+    "descricao": "O toque cítrico que deixa a vida menos amarga que boletos.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "2 porções",
+    "dica": "Se o limão deixar o lanche azedo, finge que é só a vida adulta dando aquele toque especial."
+  },
+  {
+    "id": 811,
+    "titulo": "Hambúrguer de Carne com Molho de Alho e Parmesão",
+    "slug": "hamburguer-de-carne-com-molho-de-alho-e-parmesao",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g carne moída",
+      "pães de hambúrguer",
+      "colheres sopa maionese",
+      "dentes alho amassados",
+      "colheres sopa parmesão ralado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture maionese, alho e parmesão e reserve.",
+      "Modele e tempere os hambúrgueres, frite até dourar.",
+      "Monte o lanche com hambúrguer e molho de alho e parmesão."
+    ],
+    "descricao": "Pra quem quer transformar o fast food em alta gastronomia de boteco.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 24,00",
+    "porcoes": "2 porções",
+    "dica": "Se o cheiro de alho ficar forte, finge que é só seu perfume de sucesso, não o cheiro de conta atrasada."
+  },
+  {
+    "id": 812,
+    "titulo": "Hambúrguer de Carne com Queijo Suíço e Molho de Mostarda",
+    "slug": "hamburguer-de-carne-com-queijo-suico-e-molho-de-mostarda",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g carne moída",
+      "pães de hambúrguer",
+      "fatias queijo suíço",
+      "colheres sopa mostarda amarela",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Modele e tempere a carne, frite os hambúrgueres.",
+      "Coloque o queijo suíço para derreter sobre o hambúrguer.",
+      "Monte o lanche com mostarda."
+    ],
+    "descricao": "O clássico chique que ninguém resiste, nem a vida corrida.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 24,00",
+    "porcoes": "2 porções",
+    "dica": "Se a mostarda escapar, finge que é só a vida querendo adicionar emoção à rotina."
+  },
+  {
+    "id": 813,
+    "titulo": "Hambúrguer de Carne com Cebola Caramelizada e Queijo Brie",
+    "slug": "hamburguer-de-carne-com-cebola-caramelizada-e-queijo-brie",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g carne moída",
+      "cebola grande fatiada",
+      "pães de hambúrguer",
+      "fatias queijo brie",
+      "colher sopa açúcar mascavo",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Caramelize a cebola com açúcar mascavo até ficar dourada.",
+      "Modele e tempere a carne, frite os hambúrgueres.",
+      "Monte o lanche com hambúrguer, queijo brie e cebola caramelizada."
+    ],
+    "descricao": "O lanche que é um namoro sério com seu paladar.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "2 porções",
+    "dica": "Se a cebola queimar, finge que é só a vida dando aquele tempero extra de drama."
+  },
+  {
+    "id": 814,
+    "titulo": "Hambúrguer de Carne com Molho de Gorgonzola e Rúcula",
+    "slug": "hamburguer-de-carne-com-molho-de-gorgonzola-e-rucula",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g carne moída",
+      "pães de hambúrguer",
+      "g queijo gorgonzola",
+      "Folhas de rúcula a gosto",
+      "/4 xícara creme de leite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Modele e tempere a carne, frite os hambúrgueres.",
+      "Derreta o gorgonzola com creme de leite até formar molho.",
+      "Monte o lanche com hambúrguer, molho e rúcula."
+    ],
+    "descricao": "Para quem quer se sentir sofisticado sem sair do sofá.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "2 porções",
+    "dica": "Se o gorgonzola for forte demais, finge que é só o tempero da vida adulta, cheio de surpresas."
+  },
+  {
+    "id": 815,
+    "titulo": "Hambúrguer de Carne com Queijo e Bacon Crocante",
+    "slug": "hamburguer-de-carne-com-queijo-e-bacon-crocante",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g carne moída",
+      "fatias bacon",
+      "pães de hambúrguer",
+      "fatias queijo prato",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Frite o bacon até ficar crocante e reserve.",
+      "Modele e tempere a carne, frite os hambúrgueres.",
+      "Monte o lanche com bacon e queijo."
+    ],
+    "descricao": "O lanche que é a desculpa perfeita para esquecer os boletos.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 27,00",
+    "porcoes": "2 porções",
+    "dica": "Se o bacon grudar na frigideira, finge que é só a vida grudando, mas a gente não desiste."
+  },
+  {
+    "id": 816,
+    "titulo": "Hambúrguer de Carne com Molho de Tomate Picante e Queijo",
+    "slug": "hamburguer-de-carne-com-molho-de-tomate-picante-e-queijo",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g carne moída",
+      "pães de hambúrguer",
+      "g molho de tomate caseiro picante",
+      "fatias queijo prato",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Modele e tempere a carne, frite os hambúrgueres.",
+      "Aqueça o molho de tomate picante.",
+      "Monte o lanche com hambúrguer, molho e queijo."
+    ],
+    "descricao": "O lanche que é uma explosão de sabor e emoção.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "2 porções",
+    "dica": "Se o molho ficar muito quente, finge que é só a vida te dando aquele tapa de realidade."
+  },
+  {
+    "id": 817,
+    "titulo": "Hambúrguer de Carne com Queijo e Picles Caseiro",
+    "slug": "hamburguer-de-carne-com-queijo-e-picles-caseiro",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g carne moída",
+      "pães de hambúrguer",
+      "fatias queijo prato",
+      "pepino pequeno em fatias finas",
+      "/4 xícara vinagre",
+      "colher sopa açúcar",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Prepare o picles com pepino, vinagre, açúcar e sal, deixe descansar por 20 minutos.",
+      "Modele e tempere a carne, frite os hambúrgueres.",
+      "Monte o lanche com queijo e picles."
+    ],
+    "descricao": "O lanche que junta o azedo e o salgado pra fazer a paz na boca.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "2 porções",
+    "dica": "Se o picles ficar azedo demais, finge que é só a vida dando aquele tempero extra de emoção."
+  },
+  {
+    "id": 818,
+    "titulo": "Hambúrguer de Carne com Molho de Iogurte e Pepino",
+    "slug": "hamburguer-de-carne-com-molho-de-iogurte-e-pepino",
+    "categoria": "Fast Food Caseiro ",
+    "ingredientes": [
+      "g carne moída",
+      "pães de hambúrguer",
+      "/2 xícara iogurte natural",
+      "/4 pepino ralado e espremido",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Modele e tempere a carne, frite os hambúrgueres.",
+      "Misture iogurte, pepino, sal e pimenta.",
+      "Monte o lanche com molho por cima."
+    ],
+    "descricao": "O lanche que é refrescante igual promessa de férias que nunca vem.",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Se o lanche ficar meio aguado, finge que é só a vida te lembrando que nem tudo sai como planejado."
+  }
+]

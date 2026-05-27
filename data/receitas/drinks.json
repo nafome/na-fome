@@ -1,0 +1,904 @@
+[
+  {
+    "id": 706,
+    "titulo": "Caipirinha do Desespero",
+    "slug": "caipirinha-do-desespero",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "unidade Limão tahiti",
+      "ml Cachaça",
+      "colheres de sopa Açúcar",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Corte o limão em 4 partes e macere com o açúcar no copo.",
+      "Adicione a cachaça e mexa bem.",
+      "Complete com gelo e mexa mais um pouco."
+    ],
+    "descricao": "Quando a conta do cartão chega e só resta a cachaça pra consolar",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vida te der limões, faça uma caipirinha. Se der boletos, faça duas."
+  },
+  {
+    "id": 707,
+    "titulo": "Mojito da Ressaca",
+    "slug": "mojito-da-ressaca",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "folhas Hortelã",
+      "colheres de chá Açúcar",
+      "Suco de 2 limões",
+      "ml Rum branco",
+      "Água com gás a gosto",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Macere a hortelã com o açúcar e o suco de limão no copo.",
+      "Adicione o rum, o gelo e misture.",
+      "Complete com água com gás e mexa suavemente."
+    ],
+    "descricao": "Para quando você prometeu nunca mais beber e já está mentindo para si mesmo",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "O segredo é não pensar na ressaca amanhã, só no gole de hoje."
+  },
+  {
+    "id": 708,
+    "titulo": "Sex on the Beach Paulista",
+    "slug": "sex-on-the-beach-paulista",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Vodka",
+      "ml Suco de pêssego",
+      "ml Suco de laranja",
+      "ml Grenadine",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Encha o copo com gelo.",
+      "Adicione a vodka, suco de pêssego e suco de laranja.",
+      "Finalize com grenadine, deixando escorrer para dar o efeito degrade."
+    ],
+    "descricao": "Praia zero, mas o drink é verão garantido na alma paulista",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "1 porção",
+    "dica": "Se a praia não vem até você, traga o verão em copo e finja que não tem boletos."
+  },
+  {
+    "id": 709,
+    "titulo": "Gin Tônica do Adulto Cansado",
+    "slug": "gin-tonica-do-adulto-cansado",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Gin",
+      "ml Água tônica",
+      "fatias Limão siciliano",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque gelo no copo.",
+      "Adicione o gin e a água tônica.",
+      "Mexa suavemente e decore com limão siciliano."
+    ],
+    "descricao": "Porque às vezes só um gin salva o dia (e o sono só depois)",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "1 porção",
+    "dica": "Gin tônica é o café dos adultos que não querem mais café (mas querem esquecer o chefe)."
+  },
+  {
+    "id": 710,
+    "titulo": "Bloody Mary do Trabalho",
+    "slug": "bloody-mary-do-trabalho",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Vodka",
+      "ml Suco de tomate",
+      "ml Suco de limão",
+      "gotas Molho inglês",
+      "gotas Molho de pimenta",
+      "Pitada de sal e pimenta",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes no copo com gelo.",
+      "Mexa bem para incorporar os temperos.",
+      "Decore com talo de salsão ou aipo."
+    ],
+    "descricao": "Para quem quer matar a sede e ressuscitar a vontade de trabalhar",
+    "tempo": "10 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "1 porção",
+    "dica": "Se o chefe fosse assim picante, até dava vontade de trabalhar."
+  },
+  {
+    "id": 711,
+    "titulo": "Margarita do Fim de Semana",
+    "slug": "margarita-do-fim-de-semana",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Tequila",
+      "ml Triple sec",
+      "ml Suco de limão",
+      "Sal para borda",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Passe limão na borda do copo e mergulhe no sal.",
+      "Na coqueteleira, misture tequila, triple sec e suco de limão com gelo.",
+      "Coe para o copo e sirva."
+    ],
+    "descricao": "Porque o sal na borda é pra lembrar dos boletos que não param de chegar",
+    "tempo": "12 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vida te der tequila, aproveite e faça a festa, boletos que esperem."
+  },
+  {
+    "id": 712,
+    "titulo": "Piña Colada do Ipanema Imaginário",
+    "slug": "pina-colada-do-ipanema-imaginario",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Rum branco",
+      "ml Suco de abacaxi",
+      "ml Leite de coco",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar cremoso.",
+      "Sirva em copos altos com um pedaço de abacaxi na borda.",
+      "Aproveite a \"praia\" sem areia (e sem cobrar condomínio)."
+    ],
+    "descricao": "Pra sentir que tá na praia, mesmo se a praia for só o quintal do vizinho",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "2 porções",
+    "dica": "Se areia na praia te irrita, esse drink é sua areia zero — só a sensação."
+  },
+  {
+    "id": 713,
+    "titulo": "Clericot do Crush",
+    "slug": "clericot-do-crush",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "garrafa Vinho branco seco",
+      "ml Água com gás",
+      "maçã em cubos",
+      "pêra em cubos",
+      "laranja em fatias",
+      "ml Licor de laranja",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Em um jarro, coloque as frutas, o licor e o vinho.",
+      "Deixe descansar por pelo menos 15 minutos na geladeira.",
+      "Na hora de servir, adicione água com gás e gelo."
+    ],
+    "descricao": "Mistura de frutas e álcool pra tentar adoçar a rejeição",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Se o crush não responde, pelo menos o clericot responde com álcool."
+  },
+  {
+    "id": 714,
+    "titulo": "Moscow Mule da Segunda-Feira",
+    "slug": "moscow-mule-da-segunda-feira",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Vodka",
+      "ml Ginger beer",
+      "ml Suco de limão",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Encha a caneca com gelo.",
+      "Adicione vodka e suco de limão.",
+      "Complete com ginger beer e mexa suavemente."
+    ],
+    "descricao": "Para fingir que a vida é mais leve, mesmo que o despertador não colabore",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 23,00",
+    "porcoes": "1 porção",
+    "dica": "Se a segunda-feira fosse tão refrescante quanto esse drink, o mundo seria outro."
+  },
+  {
+    "id": 715,
+    "titulo": "Aperol Spritz do Fim do Expediente",
+    "slug": "aperol-spritz-do-fim-do-expediente",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Aperol",
+      "ml Espumante brut",
+      "ml Água com gás",
+      "Gelo a gosto",
+      "fatia laranja para decorar"
+    ],
+    "modoPreparo": [
+      "Encha a taça com gelo.",
+      "Adicione o Aperol, o espumante e a água com gás.",
+      "Misture delicadamente e decore com a laranja."
+    ],
+    "descricao": "Porque o expediente só acaba quando o spritz acaba, e vice-versa",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 27,00",
+    "porcoes": "1 porção",
+    "dica": "Se o chefe chamar, diga que está cuidando do \"spritz do expediente\"."
+  },
+  {
+    "id": 716,
+    "titulo": "Caipiroska do Final de Namoro",
+    "slug": "caipiroska-do-final-de-namoro",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "limão",
+      "ml Vodka",
+      "colheres de açúcar",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Corte o limão em pedaços e macere com o açúcar.",
+      "Adicione a vodka e misture.",
+      "Complete com gelo e mexa."
+    ],
+    "descricao": "Pra quando o amor acaba e o álcool vira melhor amigo",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "1 porção",
+    "dica": "Se o coração partiu, pelo menos a caipiroska segura as pontas."
+  },
+  {
+    "id": 717,
+    "titulo": "Bellini do Dia de Festa",
+    "slug": "bellini-do-dia-de-festa",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Purê de pêssego",
+      "ml Espumante brut"
+    ],
+    "modoPreparo": [
+      "Coloque o purê de pêssego no fundo da taça.",
+      "Complete lentamente com o espumante.",
+      "Misture delicadamente e sirva."
+    ],
+    "descricao": "Porque todo mundo merece um pouco de classe antes do caos",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 35,00",
+    "porcoes": "1 porção",
+    "dica": "Bellini é o jeito elegante de dizer \"hoje vou beber até esquecer o boleto\"."
+  },
+  {
+    "id": 718,
+    "titulo": "Drink Sem Nome (Mas com Álcool)",
+    "slug": "drink-sem-nome-mas-com-alcool",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Gin",
+      "ml Suco de limão",
+      "ml Xarope de açúcar",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque todos os ingredientes na coqueteleira com gelo.",
+      "Agite bem por 15 segundos.",
+      "Coe para o copo e sirva."
+    ],
+    "descricao": "Pra quando você não sabe o que quer, só sabe que quer beber",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "1 porção",
+    "dica": "Se não souber o nome, pelo menos o álcool você sabe que tem."
+  },
+  {
+    "id": 719,
+    "titulo": "Spritz de Maracujá com Tequila",
+    "slug": "spritz-de-maracuja-com-tequila",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Tequila",
+      "ml Suco de maracujá",
+      "ml Água com gás",
+      "ml Aperol",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Em taças com gelo, coloque a tequila e o suco de maracujá.",
+      "Adicione o Aperol e complete com água com gás.",
+      "Misture suavemente e sirva."
+    ],
+    "descricao": "A mistura perfeita para fingir que a vida é doce e azeda ao mesmo tempo",
+    "tempo": "12 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 32,00",
+    "porcoes": "2 porções",
+    "dica": "Maracujá te acalma, tequila te anima — igual a segunda-feira, só que com álcool."
+  },
+  {
+    "id": 720,
+    "titulo": "Chá Gelado com Vodka do Cansaço",
+    "slug": "cha-gelado-com-vodka-do-cansaco",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Chá preto gelado",
+      "ml Vodka",
+      "colher de chá Mel",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Adoce o chá gelado com mel e mexa até dissolver.",
+      "Adicione a vodka e o gelo.",
+      "Misture e sirva."
+    ],
+    "descricao": "Porque nem só de café vive quem tem mil tarefas e zero férias",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vida te tirar o sono, pelo menos o chá com vodka te tira a vontade de trabalhar."
+  },
+  {
+    "id": 721,
+    "titulo": "Frappé de Café com Licor de Amêndoas",
+    "slug": "frappe-de-cafe-com-licor-de-amendoas",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Café espresso frio",
+      "ml Licor de amêndoas",
+      "ml Leite gelado",
+      "colher de sopa Açúcar",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar cremoso.",
+      "Sirva em copo alto com canudo.",
+      "Aproveite o combustível do dia."
+    ],
+    "descricao": "O combustível alcoólico pra quem acorda cedo e chora por dentro",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "1 porção",
+    "dica": "Café com álcool: o verdadeiro \"levanta e sacode\" do adulto exausto."
+  },
+  {
+    "id": 722,
+    "titulo": "Drink Detox com Vodka",
+    "slug": "drink-detox-com-vodka",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Vodka",
+      "ml Suco de pepino",
+      "ml Suco de limão",
+      "folhas Hortelã",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Macere a hortelã na coqueteleira.",
+      "Adicione a vodka, suco de pepino, suco de limão e gelo.",
+      "Agite e coe para o copo."
+    ],
+    "descricao": "Pra tentar equilibrar a vida entre a segunda-feira saudável e a sexta irresponsável",
+    "tempo": "12 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "1 porção",
+    "dica": "Detox é como o boleto: você sabe que vai chegar, mas tenta evitar até última hora."
+  },
+  {
+    "id": 723,
+    "titulo": "Cherry Bomb",
+    "slug": "cherry-bomb",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Bourbon",
+      "ml Licor de cereja",
+      "ml Suco de limão",
+      "Gelo a gosto",
+      "Cereja para decorar"
+    ],
+    "modoPreparo": [
+      "Encha o copo com gelo.",
+      "Adicione bourbon, licor de cereja e suco de limão.",
+      "Misture e decore com a cereja."
+    ],
+    "descricao": "Explosão de sabor pra quem quer esquecer o chefe e lembrar que tem vida",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 26,00",
+    "porcoes": "1 porção",
+    "dica": "Se o chefe fosse assim doce, talvez a segunda fosse mais fácil."
+  },
+  {
+    "id": 724,
+    "titulo": "Kombucha Spritz",
+    "slug": "kombucha-spritz",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Kombucha sabor cítrico",
+      "ml Gin",
+      "ml Suco de limão",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque gelo no copo, adicione gin e suco de limão.",
+      "Complete com kombucha.",
+      "Misture delicadamente e sirva."
+    ],
+    "descricao": "Para quem quer parecer saudável, mas não abre mão do álcool",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 24,00",
+    "porcoes": "1 porção",
+    "dica": "Kombucha com álcool: a desculpa perfeita para beber e dizer que tá cuidando da saúde."
+  },
+  {
+    "id": 725,
+    "titulo": "Hot Toddy do Inverno",
+    "slug": "hot-toddy-do-inverno",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Whisky",
+      "ml Água quente",
+      "colher de sopa Mel",
+      "fatia Limão",
+      "pau de canela"
+    ],
+    "modoPreparo": [
+      "Aqueça a água e coloque na caneca.",
+      "Adicione whisky, mel, limão e canela.",
+      "Misture até o mel dissolver e sirva quente."
+    ],
+    "descricao": "Esquenta corpo e alma, e ainda faz você esquecer o frio e a conta de luz",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "1 porção",
+    "dica": "Se o inverno congelar sua alma, o Hot Toddy vai descongelar (ou pelo menos te embriagar)."
+  },
+  {
+    "id": 726,
+    "titulo": "Spritz Tropical com Maracujá e Hortelã",
+    "slug": "spritz-tropical-com-maracuja-e-hortela",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Aperol",
+      "ml Suco de maracujá",
+      "ml Água com gás",
+      "Folhas de hortelã",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Em taças com gelo, adicione Aperol e suco de maracujá.",
+      "Complete com água com gás.",
+      "Decore com hortelã e misture suavemente."
+    ],
+    "descricao": "O verão engarrafado pra esquecer que a praia tá lotada demais",
+    "tempo": "12 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 29,00",
+    "porcoes": "2 porções",
+    "dica": "Se a praia tá lotada, pelo menos o copo pode ser seu paraíso particular."
+  },
+  {
+    "id": 727,
+    "titulo": "Cider Quente com Maçã e Canela",
+    "slug": "cider-quente-com-maca-e-canela",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Suco de maçã natural",
+      "ml Rum escuro",
+      "paus de canela",
+      "cravos-da-índia",
+      "fatias de laranja",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça o suco de maçã com canela, cravos e laranja, sem deixar ferver.",
+      "Coe e adoce com mel.",
+      "Adicione rum, mexa e sirva quente."
+    ],
+    "descricao": "Pra sentir que tá na Europa, mesmo que o boleto só permita Netflix",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "2 porções",
+    "dica": "Se não pode viajar, pelo menos o copo te leva pra Europa (ou pra cozinha da sogra)."
+  },
+  {
+    "id": 728,
+    "titulo": "Batida de Coco com Abacaxi",
+    "slug": "batida-de-coco-com-abacaxi",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Leite de coco",
+      "ml Suco de abacaxi",
+      "ml Cachaça",
+      "colheres de sopa Açúcar",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar homogêneo.",
+      "Sirva em copos com gelo.",
+      "Aproveite o sabor do verão."
+    ],
+    "descricao": "O drink que é praticamente uma sobremesa, mas você finge que é saudável",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida é amarga, essa batida é o seu açúcar."
+  },
+  {
+    "id": 729,
+    "titulo": "Martini do Solteiro",
+    "slug": "martini-do-solteiro",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Gin",
+      "ml Vermute seco",
+      "Azeitona para decorar",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque gelo na coqueteleira com gin e vermute.",
+      "Agite bem e coe para a taça.",
+      "Decore com azeitona e sirva."
+    ],
+    "descricao": "Porque às vezes o happy hour é só você contra a garrafa",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vida amorosa tá deserta, pelo menos o martini é sempre fiel."
+  },
+  {
+    "id": 730,
+    "titulo": "Caipirinha de Maracujá com Pimenta",
+    "slug": "caipirinha-de-maracuja-com-pimenta",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "unidade Maracujá",
+      "ml Cachaça",
+      "colheres de sopa Açúcar",
+      "pitada Pimenta dedo-de-moça",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Retire a polpa do maracujá e macere com açúcar e pimenta.",
+      "Adicione a cachaça e misture.",
+      "Complete com gelo e mexa."
+    ],
+    "descricao": "Pra apimentar a vida e o paladar, porque monotonia não é opção",
+    "tempo": "12 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vida tá sem graça, um pouco de pimenta na caipirinha resolve (ou pelo menos distrai)."
+  },
+  {
+    "id": 731,
+    "titulo": "Daiquiri de Morango",
+    "slug": "daiquiri-de-morango",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Rum branco",
+      "g Morangos frescos",
+      "ml Suco de limão",
+      "colheres de sopa Açúcar",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar cremoso.",
+      "Sirva em taças geladas.",
+      "Aproveite o sabor do verão."
+    ],
+    "descricao": "Para quem quer um drink doce, mas não quer virar criança",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "2 porções",
+    "dica": "Morango e álcool: a combinação perfeita para esquecer o boleto e lembrar de ser feliz."
+  },
+  {
+    "id": 732,
+    "titulo": "Spritz de Melancia com Hortelã",
+    "slug": "spritz-de-melancia-com-hortela",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "g Melancia sem sementes",
+      "ml Aperol",
+      "ml Água com gás",
+      "Folhas de hortelã",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Bata a melancia no liquidificador e coe.",
+      "Em taças com gelo, coloque Aperol e suco de melancia.",
+      "Complete com água com gás e decore com hortelã."
+    ],
+    "descricao": "Pra quem quer refrescar e se refrescar de problemas",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida te der melancia, faça spritz e esqueça a fatura do cartão."
+  },
+  {
+    "id": 733,
+    "titulo": "Old Fashioned do Tiozão Moderno",
+    "slug": "old-fashioned-do-tiozao-moderno",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Bourbon",
+      "cubo Açúcar",
+      "gotas Angostura",
+      "Casca de laranja para decorar",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Macere o cubo de açúcar com angostura no copo.",
+      "Adicione o bourbon e gelo.",
+      "Mexa bem e decore com a casca de laranja."
+    ],
+    "descricao": "Clássico que nem boleto atrasado: nunca sai de moda",
+    "tempo": "10 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "1 porção",
+    "dica": "Old Fashioned é o drink do tiozão que sabe das coisas – e dos boletos."
+  },
+  {
+    "id": 734,
+    "titulo": "Spritz de Lichia com Espumante",
+    "slug": "spritz-de-lichia-com-espumante",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Purê de lichia",
+      "ml Espumante brut",
+      "ml Água com gás",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque gelo nas taças.",
+      "Adicione purê de lichia e espumante.",
+      "Complete com água com gás e mexa suavemente."
+    ],
+    "descricao": "Porque um pouco de exotismo ajuda a enganar a rotina",
+    "tempo": "12 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 38,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida parece repetitiva, um toque de lichia pode ser a distração perfeita."
+  },
+  {
+    "id": 735,
+    "titulo": "Margarita Frozen de Manga",
+    "slug": "margarita-frozen-de-manga",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Tequila",
+      "ml Triple sec",
+      "g Manga picada",
+      "Suco de 2 limões",
+      "Gelo a gosto",
+      "Sal para borda"
+    ],
+    "modoPreparo": [
+      "Passe limão na borda dos copos e mergulhe no sal.",
+      "Bata no liquidificador tequila, triple sec, manga, limão e gelo.",
+      "Sirva nos copos e aproveite."
+    ],
+    "descricao": "Pra quem quer fugir do calor e da vida adulta ao mesmo tempo",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida tá quente demais, um frozen bem feito é o seu melhor amigo (e o ar-condicionado do coração)."
+  },
+  {
+    "id": 736,
+    "titulo": "Spritz de Maracujá com Gin e Alecrim",
+    "slug": "spritz-de-maracuja-com-gin-e-alecrim",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Gin",
+      "ml Suco de maracujá",
+      "ml Água com gás",
+      "ramos Alecrim fresco",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Em taças com gelo, adicione gin e suco de maracujá.",
+      "Complete com água com gás.",
+      "Decore com alecrim e misture suavemente."
+    ],
+    "descricao": "O drink que é tão chique que até seu boleto vai querer pagar",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 33,00",
+    "porcoes": "2 porções",
+    "dica": "Se até o boleto quer fugir, ofereça um spritz de alecrim e veja o milagre acontecer."
+  },
+  {
+    "id": 737,
+    "titulo": "Mimosa do Café da Manhã Feliz",
+    "slug": "mimosa-do-cafe-da-manha-feliz",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Suco de laranja natural",
+      "ml Espumante brut"
+    ],
+    "modoPreparo": [
+      "Encha as taças metade com suco de laranja.",
+      "Complete com espumante.",
+      "Sirva imediatamente para começar o dia feliz."
+    ],
+    "descricao": "Porque o domingo merece algo mais do que café e culpa",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 28,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida te acorda cedo demais, a mimosa te faz esquecer disso (pelo menos até a segunda)."
+  },
+  {
+    "id": 738,
+    "titulo": "Mule de Abacaxi com Pimenta Rosa",
+    "slug": "mule-de-abacaxi-com-pimenta-rosa",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Vodka",
+      "ml Suco de abacaxi",
+      "ml Suco de limão",
+      "Ginger beer a gosto",
+      "Pimenta rosa para decorar",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque gelo na caneca, adicione vodka, suco de abacaxi e limão.",
+      "Complete com ginger beer.",
+      "Decore com pimenta rosa e mexa suavemente."
+    ],
+    "descricao": "Mistura que apimenta o paladar e a conversa com os vizinhos",
+    "tempo": "10 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 26,00",
+    "porcoes": "1 porção",
+    "dica": "Se o vizinho reclama do barulho, pelo menos o drink tá valendo."
+  },
+  {
+    "id": 739,
+    "titulo": "Rosé Tônica com Frutas Vermelhas",
+    "slug": "rose-tonica-com-frutas-vermelhas",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Vinho rosé",
+      "ml Água tônica",
+      "g Frutas vermelhas (morango, amora)",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque gelo na taça.",
+      "Adicione vinho rosé e água tônica.",
+      "Adicione frutas vermelhas e mexa delicadamente."
+    ],
+    "descricao": "Para fingir que a vida é um filme francês, mesmo que seja só Netflix",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 30,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vida fosse tão leve quanto esse drink, até os boletos dariam risada."
+  },
+  {
+    "id": 740,
+    "titulo": "Caipirinha de Kiwi com Gengibre",
+    "slug": "caipirinha-de-kiwi-com-gengibre",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "kiwis maduros",
+      "ml Cachaça",
+      "colheres de açúcar",
+      "pedaço pequeno de gengibre ralado",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Descasque e corte os kiwis, macere com açúcar e gengibre.",
+      "Adicione a cachaça, misture bem.",
+      "Complete com gelo e mexa."
+    ],
+    "descricao": "Pra dar um tapa no paladar e na rotina sem sair de casa",
+    "tempo": "12 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 19,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vida tá sem sabor, esse drink é o tempero que faltava (e o boletinho que sobra)."
+  },
+  {
+    "id": 741,
+    "titulo": "Spritz de Hibisco com Limão Siciliano",
+    "slug": "spritz-de-hibisco-com-limao-siciliano",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Aperol",
+      "ml Chá de hibisco gelado",
+      "ml Água com gás",
+      "Fatias de limão siciliano",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Encha as taças com gelo.",
+      "Adicione Aperol e chá de hibisco.",
+      "Complete com água com gás, decore com limão e misture."
+    ],
+    "descricao": "Pra dar aquele toque floral que faz o boleto parecer menos cruel",
+    "tempo": "12 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 31,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida te dá hibisco, faça um spritz e finja que tá tudo florido."
+  },
+  {
+    "id": 742,
+    "titulo": "Batida de Maracujá com Leite Condensado",
+    "slug": "batida-de-maracuja-com-leite-condensado",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Polpa de maracujá",
+      "ml Cachaça",
+      "colheres de sopa Leite condensado",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar homogêneo.",
+      "Sirva em copos com gelo.",
+      "Aproveite o carinho em forma de drink."
+    ],
+    "descricao": "O abraço doce que você merece depois do chefe mal-humorado",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Se o chefe não te abraça, a batida de maracujá abraça (e embriaga também)."
+  },
+  {
+    "id": 743,
+    "titulo": "Spritz de Limão com Manjericão",
+    "slug": "spritz-de-limao-com-manjericao",
+    "categoria": "Drinks ",
+    "ingredientes": [
+      "ml Aperol",
+      "ml Suco de limão",
+      "ml Água com gás",
+      "Folhas de manjericão fresco",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Macere levemente o manjericão no fundo da taça.",
+      "Adicione gelo, Aperol, suco de limão e complete com água com gás.",
+      "Misture suavemente e sirva."
+    ],
+    "descricao": "Refrescância que até o boleto mais cabeludo aguenta",
+    "tempo": "12 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 27,00",
+    "porcoes": "2 porções",
+    "dica": "Se o boleto te sufoca, esse spritz te refresca — quase um milagre líquido."
+  }
+]

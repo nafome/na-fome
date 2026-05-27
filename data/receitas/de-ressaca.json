@@ -1,0 +1,971 @@
+[
+  {
+    "id": 625,
+    "titulo": "Caldo de Galinha do Ressacado Profundo",
+    "slug": "caldo-de-galinha-do-ressacado-profundo",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "kg de carcaça de galinha",
+      "litros de água",
+      "cenouras médias picadas",
+      "cebola picada",
+      "dentes de alho amassados",
+      "Sal a gosto",
+      "Pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque a carcaça de galinha na panela com água e leve ao fogo alto até ferver.",
+      "Reduza o fogo para médio e adicione cenoura, cebola, alho, sal e pimenta.",
+      "Cozinhe por 30 minutos, coe o caldo e sirva bem quente."
+    ],
+    "descricao": "Porque acordar parecendo um zumbi não é desculpa pra comer qualquer coisa.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "3 porções",
+    "dica": "Se a ressaca te deixar mais lento que boleto vencendo, esse caldo vai ser seu combustível – só não esquece de pagar as contas também!"
+  },
+  {
+    "id": 626,
+    "titulo": "Omelete Ressaca Power",
+    "slug": "omelete-ressaca-power",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "ovos",
+      "tomate picado",
+      "colheres de sopa de queijo ralado",
+      "Sal e pimenta a gosto",
+      "colher de sopa de azeite"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com o sal e a pimenta na tigela.",
+      "Aqueça o azeite na frigideira e refogue o tomate rapidamente.",
+      "Despeje os ovos batidos, polvilhe o queijo e cozinhe até firmar."
+    ],
+    "descricao": "O clássico “quebrador de ressaca” que nem sua ex vai querer esquecer.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,50",
+    "porcoes": "1 porção",
+    "dica": "Omelete é tipo amigo fiel na ressaca: simples, confiável e não te julga por ter mandado mensagem pro crush às 3 da manhã."
+  },
+  {
+    "id": 627,
+    "titulo": "Vitamina Anti-Cabeça Latejante",
+    "slug": "vitamina-anti-cabeca-latejante",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "banana madura",
+      "ml de leite gelado",
+      "colher de sopa de mel",
+      "g de mamão picado",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque todos os ingredientes no liquidificador.",
+      "Bata até obter uma mistura homogênea.",
+      "Sirva imediatamente, antes que a vontade de chorar volte."
+    ],
+    "descricao": "Porque café sozinho é só um grito silencioso de desespero.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "2 porções",
+    "dica": "Essa vitamina é tipo aquele amigo que te ajuda a levantar da cama, só que sem julgar se você dormiu com a maquiagem da balada ainda."
+  },
+  {
+    "id": 628,
+    "titulo": "Arroz de Forno do Sofrimento",
+    "slug": "arroz-de-forno-do-sofrimento",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "xícaras de arroz cozido",
+      "lata de milho",
+      "peito de frango desfiado",
+      "xícara de queijo mussarela ralado",
+      "/2 xícara de creme de leite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o arroz, frango, milho, creme de leite, sal e pimenta na tigela.",
+      "Transfira para a assadeira, cubra com queijo ralado.",
+      "Leve ao forno a 180°C por 20 minutos até gratinar."
+    ],
+    "descricao": "Quando você quer comer algo que vale a pena e não parecer um ET ambulante.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida te der ressaca, faça arroz de forno – porque nem só de miojo vive o adulto que não quer ligar pra ninguém."
+  },
+  {
+    "id": 629,
+    "titulo": "Chá de Gengibre Salvando Vidas",
+    "slug": "cha-de-gengibre-salvando-vidas",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "cm de gengibre fresco fatiado",
+      "ml de água",
+      "colher de sopa de mel",
+      "Suco de 1/2 limão"
+    ],
+    "modoPreparo": [
+      "Ferva a água na panela e adicione o gengibre.",
+      "Deixe ferver por 10 minutos, desligue o fogo.",
+      "Coe, adicione mel e limão, misture e sirva quente."
+    ],
+    "descricao": "Para espantar a ressaca, a preguiça e até a vontade de responder WhatsApp.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,50",
+    "porcoes": "2 porções",
+    "dica": "Esse chá é tipo aquele crush que some, mas volta quando você mais precisa – só que ele realmente resolve seu problema."
+  },
+  {
+    "id": 630,
+    "titulo": "Sanduíche do Sofrimento Feliz",
+    "slug": "sanduiche-do-sofrimento-feliz",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "fatias de pão integral",
+      "fatias de queijo prato",
+      "fatias de presunto magro",
+      "ovo frito",
+      "Maionese a gosto"
+    ],
+    "modoPreparo": [
+      "Passe maionese nas fatias de pão.",
+      "Monte o sanduíche com presunto, queijo e ovo frito.",
+      "Aqueça na frigideira até o queijo derreter."
+    ],
+    "descricao": "Porque ressaca não é desculpa pra se alimentar como um urso hibernando.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "1 porção",
+    "dica": "Esse sanduíche é tão bom que vai fazer você esquecer que a conta do bar chegou junto com a ressaca."
+  },
+  {
+    "id": 631,
+    "titulo": "Batida Energética Pós-Noitada",
+    "slug": "batida-energetica-pos-noitada",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "ml de suco de laranja natural",
+      "banana",
+      "colher de sopa de mel",
+      "colher de sopa de aveia",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar cremoso.",
+      "Sirva com gelo para refrescar a alma.",
+      "Beba rápido antes que a vontade de dormir volte."
+    ],
+    "descricao": "Aquele boost que nem café forte e nem motivação do chefe conseguem dar.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida fosse fácil, a batida energética seria receita de família e não só remédio pra ressaca."
+  },
+  {
+    "id": 632,
+    "titulo": "Sopa de Legumes do Sofrimento",
+    "slug": "sopa-de-legumes-do-sofrimento",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "cenouras picadas",
+      "batatas médias picadas",
+      "abobrinha picada",
+      "litro de água",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe as cenouras, batatas e abobrinha na água até ficarem macias.",
+      "Bata tudo no liquidificador até virar um creme.",
+      "Volte para a panela, ajuste o sal e aqueça antes de servir."
+    ],
+    "descricao": "Porque até a sua saúde merece um “amém” depois da noitada.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "3 porções",
+    "dica": "Essa sopa é tipo melhor amigo que te leva pra casa e ainda traz remédio – raro, mas essencial."
+  },
+  {
+    "id": 633,
+    "titulo": "Tapioca do Esquecimento",
+    "slug": "tapioca-do-esquecimento",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca hidratada",
+      "colheres de queijo coalho ralado",
+      "colher de chá de manteiga"
+    ],
+    "modoPreparo": [
+      "Aqueça a frigideira e espalhe a goma de tapioca formando uma panqueca fina.",
+      "Salpique o queijo sobre a tapioca.",
+      "Dobre ao meio e deixe derreter o queijo, retire e sirva com manteiga."
+    ],
+    "descricao": "Porque até o carboidrato precisa ser leve pra ressaca pesada.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vida te der tapioca, faça essa receita e esqueça que você prometeu só beber água amanhã."
+  },
+  {
+    "id": 634,
+    "titulo": "Macarrão Alho e Óleo Ressaca Style",
+    "slug": "macarrao-alho-e-oleo-ressaca-style",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "g de macarrão espaguete",
+      "dentes de alho fatiados",
+      "colheres de sopa de azeite",
+      "Sal a gosto",
+      "Pimenta-do-reino a gosto",
+      "Salsinha picada para finalizar"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão em água salgada até ficar al dente.",
+      "Em uma frigideira, aqueça o azeite e doure o alho.",
+      "Misture o macarrão escorrido ao alho e azeite, tempere, finalize com salsinha e sirva."
+    ],
+    "descricao": "Porque a simplicidade às vezes é o melhor remédio para o caos do fígado.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "2 porções",
+    "dica": "Se bateu fome na ressaca, esse macarrão é tipo aquele boleto que você sabe que vai chegar, não adianta fugir."
+  },
+  {
+    "id": 635,
+    "titulo": "Suco Verde Ressaca Level Hard",
+    "slug": "suco-verde-ressaca-level-hard",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "maçã verde",
+      "folha grande de couve",
+      "Suco de 1 limão",
+      "ml de água de coco",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar homogêneo.",
+      "Coe se preferir menos fibra.",
+      "Sirva gelado para dar aquele soco no mal-estar."
+    ],
+    "descricao": "Para quem acha que verde cura até a dívida do cartão.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "2 porções",
+    "dica": "Suco verde é tipo promessa de segunda-feira: parece que vai ajudar, mas só o tempo dirá."
+  },
+  {
+    "id": 636,
+    "titulo": "Purê de Batata do Sofrimento",
+    "slug": "pure-de-batata-do-sofrimento",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "g de batatas",
+      "colheres de sopa de manteiga",
+      "ml de leite",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe as batatas descascadas até ficarem macias.",
+      "Amasse as batatas com o espremedor, misture manteiga, leite e sal.",
+      "Sirva quentinho e se aconchegue no sofá."
+    ],
+    "descricao": "Porque às vezes a vida só quer conforto em forma de batata.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "3 porções",
+    "dica": "Purê é igual amor de mãe: simples, quentinho e te ajuda a sobreviver aos boletos do mês."
+  },
+  {
+    "id": 637,
+    "titulo": "Cuscuz Nordestino do Recomeço",
+    "slug": "cuscuz-nordestino-do-recomeco",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "xícara de flocos de milho para cuscuz",
+      "/2 xícara de água",
+      "colher de chá de sal",
+      "Manteiga a gosto"
+    ],
+    "modoPreparo": [
+      "Misture os flocos de milho com sal e água até hidratar.",
+      "Coloque na cuscuzeira e cozinhe por 15 minutos.",
+      "Sirva com manteiga derretida por cima."
+    ],
+    "descricao": "Porque até o Nordeste sabe lidar melhor com ressaca que a gente.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "2 porções",
+    "dica": "Cuscuz é tão simples e eficaz que deveria ser receita de paz mundial – ou pelo menos da paz com a ressaca."
+  },
+  {
+    "id": 638,
+    "titulo": "Café Turbinado do Sofrimento",
+    "slug": "cafe-turbinado-do-sofrimento",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "xícara de café forte coado",
+      "colher de sopa de açúcar mascavo",
+      "pitada de canela em pó",
+      "ml de leite quente"
+    ],
+    "modoPreparo": [
+      "Prepare o café coado forte.",
+      "Misture o açúcar e a canela.",
+      "Adicione o leite quente, mexa e beba com vontade."
+    ],
+    "descricao": "Porque café fraco em dia de ressaca é quase piada de tio no churrasco.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,00",
+    "porcoes": "1 porção",
+    "dica": "Café turbinado é como aquele amigo que te puxa pra balada mas também te ajuda a levantar de manhã. Só cuidado pra não virar sócio do café."
+  },
+  {
+    "id": 639,
+    "titulo": "Salada Colorida do Juízo",
+    "slug": "salada-colorida-do-juizo",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "tomates cortados em cubos",
+      "pepino fatiado",
+      "cenoura ralada",
+      "/2 cebola roxa fatiada",
+      "Folhas de alface",
+      "Azeite, sal e limão para temperar"
+    ],
+    "modoPreparo": [
+      "Lave e prepare todos os legumes.",
+      "Misture em uma tigela com azeite, sal e limão.",
+      "Sirva fresquinho para dar aquela sensação de “recomeço”."
+    ],
+    "descricao": "Porque ressaca também pede um pouco de dignidade no prato.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "2 porções",
+    "dica": "Salada é tipo boletos pagos: ninguém gosta, mas é melhor fazer pra não sofrer depois."
+  },
+  {
+    "id": 640,
+    "titulo": "Mingau de Aveia do Retorno à Vida",
+    "slug": "mingau-de-aveia-do-retorno-a-vida",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "colheres de sopa de aveia em flocos",
+      "ml de leite ou água",
+      "colher de mel",
+      "Canela a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a aveia no leite ou água até engrossar.",
+      "Adicione mel e canela, misture bem.",
+      "Sirva quente para abraçar o estômago."
+    ],
+    "descricao": "Porque ressaca merece café da manhã que abraça, não só empurra.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,50",
+    "porcoes": "1 porção",
+    "dica": "Mingau de aveia é como aquele amigo que aparece só quando você tá mal, mas tá valendo o carinho."
+  },
+  {
+    "id": 641,
+    "titulo": "Panqueca de Banana do Esquecimento",
+    "slug": "panqueca-de-banana-do-esquecimento",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "banana madura amassada",
+      "ovos",
+      "colheres de sopa de farinha de aveia",
+      "Mel para servir"
+    ],
+    "modoPreparo": [
+      "Misture banana, ovos e farinha até formar uma massa homogênea.",
+      "Aqueça a frigideira e faça pequenas panquecas.",
+      "Sirva com mel por cima."
+    ],
+    "descricao": "Porque doce na ressaca é terapia com cobertura de açúcar.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "2 porções",
+    "dica": "Panqueca de banana é tipo desculpa perfeita: doce, rapidinho e faz você esquecer o que fez ontem à noite."
+  },
+  {
+    "id": 642,
+    "titulo": "Caldo Verde do Ressacaço",
+    "slug": "caldo-verde-do-ressacaco",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "batatas médias",
+      "linguiça calabresa defumada fatiada",
+      "maço de couve fatiado fininho",
+      "cebola picada",
+      "dentes de alho picados",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho na panela.",
+      "Cozinhe as batatas em água, depois bata no liquidificador até virar creme.",
+      "Volte o creme para panela, adicione a linguiça e couve, cozinhe por 10 minutos.",
+      "Tempere e sirva quente."
+    ],
+    "descricao": "Porque nada como couve pra escovar o fígado e a alma.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Caldo verde é como boleto em dia: você não quer, mas sabe que faz bem enfrentar."
+  },
+  {
+    "id": 643,
+    "titulo": "Smoothie de Melancia e Hortelã",
+    "slug": "smoothie-de-melancia-e-hortela",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "xícaras de melancia picada sem sementes",
+      "Folhas de hortelã a gosto",
+      "Suco de 1 limão",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar homogêneo.",
+      "Sirva gelado para dar um banho de frescor na alma."
+    ],
+    "descricao": "Aquele refresco que faz seu corpo lembrar que ele existe.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida te der melancia, faça esse smoothie e esqueça que o boleto tá chegando – pelo menos por 10 minutos."
+  },
+  {
+    "id": 644,
+    "titulo": "Polenta Cremosa do Sofrimento",
+    "slug": "polenta-cremosa-do-sofrimento",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "xícara de fubá",
+      "xícaras de água",
+      "colheres de sopa de manteiga",
+      "Sal a gosto",
+      "Queijo ralado para finalizar (opcional)"
+    ],
+    "modoPreparo": [
+      "Ferva a água com sal na panela.",
+      "Vá adicionando o fubá aos poucos, mexendo sem parar para não empelotar.",
+      "Cozinhe até engrossar, adicione manteiga e queijo, misture e sirva quente."
+    ],
+    "descricao": "A textura do conforto que sua cabeça pediu, mas seu fígado não sabe.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "3 porções",
+    "dica": "Polenta é igual aquela desculpa pra não sair: parece difícil, mas no fim é só questão de mexer um pouco – e ter paciência."
+  },
+  {
+    "id": 645,
+    "titulo": "Mingau de Milho Verde do Recomeço",
+    "slug": "mingau-de-milho-verde-do-recomeco",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "lata de milho verde escorrido",
+      "ml de leite",
+      "colheres de sopa de açúcar",
+      "colher de chá de amido de milho"
+    ],
+    "modoPreparo": [
+      "Bata o milho com o leite no liquidificador.",
+      "Coe e leve ao fogo com açúcar e amido, mexendo até engrossar.",
+      "Sirva quente."
+    ],
+    "descricao": "Porque resgatar a infância é o melhor remédio pra cabeça de adulto quebrada.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,50",
+    "porcoes": "2 porções",
+    "dica": "Mingau de milho é tipo abraço de vó: simples, doce e faz você esquecer que a vida adulta cobra juros altos."
+  },
+  {
+    "id": 646,
+    "titulo": "Tapioca de Frango Desfiado e Requeijão",
+    "slug": "tapioca-de-frango-desfiado-e-requeijao",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca hidratada",
+      "g de frango desfiado temperado",
+      "colheres de sopa de requeijão cremoso"
+    ],
+    "modoPreparo": [
+      "Aqueça a frigideira e espalhe a goma formando uma panqueca.",
+      "Recheie com o frango e requeijão.",
+      "Dobre a tapioca ao meio, cozinhe até o recheio aquecer e sirva."
+    ],
+    "descricao": "Porque o recheio da vida não pode ser sempre só arrependimento.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "1 porção",
+    "dica": "Tapioca recheada é tipo aquela conversa que você evita, mas que no fim te faz bem – só que com menos drama."
+  },
+  {
+    "id": 647,
+    "titulo": "Caldo de Mandioca Reconfortante",
+    "slug": "caldo-de-mandioca-reconfortante",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "g de mandioca descascada e picada",
+      "litro de água",
+      "cebola picada",
+      "dentes de alho picados",
+      "cubo de caldo de legumes",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho na panela.",
+      "Adicione mandioca, água e caldo, cozinhe até mandioca amolecer.",
+      "Bata parte do caldo no liquidificador para engrossar, volte para a panela e tempere."
+    ],
+    "descricao": "Para quando a vida te virar de cabeça pra baixo e ainda derrubar a cerveja no sofá.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Caldo de mandioca é como férias: demora pra preparar, mas vale cada minuto de espera."
+  },
+  {
+    "id": 648,
+    "titulo": "Sanduíche Natural do Juízo Rápido",
+    "slug": "sanduiche-natural-do-juizo-rapido",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "fatias de pão integral",
+      "folhas de alface",
+      "fatias de peito de peru",
+      "fatias de tomate",
+      "colher de sopa de cream cheese"
+    ],
+    "modoPreparo": [
+      "Espalhe cream cheese nas fatias de pão.",
+      "Monte o sanduíche com alface, peito de peru e tomate.",
+      "Sirva imediatamente."
+    ],
+    "descricao": "Porque às vezes a ressaca pede saúde, mas a preguiça fala mais alto.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "1 porção",
+    "dica": "Sanduíche natural é tipo boleto digital: rápido, prático e não te deixa na mão (ou na ressaca)."
+  },
+  {
+    "id": 649,
+    "titulo": "Mingau de Chia com Frutas",
+    "slug": "mingau-de-chia-com-frutas",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "colheres de sopa de chia",
+      "ml de leite de amêndoas ou outro",
+      "colher de mel",
+      "Frutas picadas para decorar (morango, banana)"
+    ],
+    "modoPreparo": [
+      "Misture chia, leite e mel na tigela.",
+      "Leve à geladeira por pelo menos 8 horas.",
+      "Sirva com frutas picadas por cima."
+    ],
+    "descricao": "Porque hidratar o corpo e a alma é um ato de coragem pós-balada.",
+    "tempo": "8 horas (de descanso)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Mingau de chia é tipo promessa de dieta: leva tempo, mas no fim você se sente melhor (e menos culpado)."
+  },
+  {
+    "id": 650,
+    "titulo": "Macarrão com Molho de Tomate Caseiro",
+    "slug": "macarrao-com-molho-de-tomate-caseiro",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "g de macarrão penne",
+      "tomates maduros picados",
+      "cebola picada",
+      "dentes de alho",
+      "colheres de sopa de azeite",
+      "Sal, pimenta e manjericão a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão em água salgada até al dente.",
+      "Refogue cebola e alho no azeite, adicione tomates e cozinhe até desmanchar.",
+      "Bata o molho no liquidificador para textura homogênea, volte para a panela e tempere.",
+      "Misture o macarrão ao molho e sirva."
+    ],
+    "descricao": "Porque molho pronto só funciona quando a vida tá em dia, não a sua cabeça.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "3 porções",
+    "dica": "Molho feito em casa é como dívida paga: alivia o peso e dá uma sensação de vitória."
+  },
+  {
+    "id": 651,
+    "titulo": "Sopa de Feijão Leve",
+    "slug": "sopa-de-feijao-leve",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "xícara de feijão carioca",
+      "litro de água",
+      "cebola picada",
+      "dentes de alho picados",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Deixe o feijão de molho por 8 horas.",
+      "Cozinhe o feijão na panela de pressão com água, cebola e alho por 25 minutos.",
+      "Tempere e sirva quente."
+    ],
+    "descricao": "Porque até o feijão quer te ajudar a levantar da cama difícil.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 16,00",
+    "porcoes": "3 porções",
+    "dica": "Feijão na ressaca é tipo aquela mensagem que você evita, mas que no fim te conforta – nunca subestime o poder do básico."
+  },
+  {
+    "id": 652,
+    "titulo": "Bolo de Banana Saudável",
+    "slug": "bolo-de-banana-saudavel",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "bananas maduras amassadas",
+      "ovos",
+      "/2 xícara de açúcar mascavo",
+      "xícara de farinha integral",
+      "colher de chá de fermento em pó",
+      "colher de chá de canela"
+    ],
+    "modoPreparo": [
+      "Bata ovos e açúcar, acrescente bananas e misture.",
+      "Adicione farinha, fermento e canela, misture até homogeneizar.",
+      "Despeje na forma e asse a 180°C por 35 minutos."
+    ],
+    "descricao": "Porque até a sobremesa merece ser amiga do fígado quebrado.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 10,00",
+    "porcoes": "6 porções",
+    "dica": "Bolo saudável é como promessa de academia pós-ressaca: começa bem, mas o sofá ainda ganha a disputa."
+  },
+  {
+    "id": 653,
+    "titulo": "Torrada com Abacate e Ovo Pochê",
+    "slug": "torrada-com-abacate-e-ovo-poche",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "fatia de pão integral",
+      "/2 abacate maduro amassado",
+      "ovo",
+      "Sal, pimenta e limão a gosto"
+    ],
+    "modoPreparo": [
+      "Torre a fatia de pão.",
+      "Cozinhe o ovo em água fervente com vinagre por 3 minutos para pochê.",
+      "Espalhe o abacate na torrada, tempere e coloque o ovo por cima."
+    ],
+    "descricao": "Porque ressaca merece um toque gourmet, mesmo que seja só pra impressionar o espelho.",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "1 porção",
+    "dica": "Ovo pochê é tipo relacionamento sério: parece difícil, mas no final vale o esforço (e o sabor)."
+  },
+  {
+    "id": 654,
+    "titulo": "Mingau de Arroz com Canela",
+    "slug": "mingau-de-arroz-com-canela",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "/2 xícara de arroz lavado",
+      "ml de leite",
+      "colheres de sopa de açúcar",
+      "Canela em pó a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o arroz no leite com açúcar até ficar bem macio e cremoso.",
+      "Sirva quente polvilhado com canela."
+    ],
+    "descricao": "Porque ressaca pede um abraço quentinho e açucarado.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "2 porções",
+    "dica": "Mingau de arroz é como você na segunda-feira: devagar, mas chegando lá."
+  },
+  {
+    "id": 655,
+    "titulo": "Suco de Laranja com Gengibre e Mel",
+    "slug": "suco-de-laranja-com-gengibre-e-mel",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "Suco de 4 laranjas",
+      "cm de gengibre ralado",
+      "colher de sopa de mel"
+    ],
+    "modoPreparo": [
+      "Esprema as laranjas e misture o gengibre e o mel.",
+      "Mexa bem e sirva gelado."
+    ],
+    "descricao": "O combo oficial para mandar o mau humor e a ressaca embora.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "2 porções",
+    "dica": "Esse suco é como resposta de chefe: direto, eficiente e você sai vivo no final."
+  },
+  {
+    "id": 656,
+    "titulo": "Frango Desfiado com Legumes Refogados",
+    "slug": "frango-desfiado-com-legumes-refogados",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "g de peito de frango cozido e desfiado",
+      "cenoura em tiras",
+      "abobrinha em tiras",
+      "cebola fatiada",
+      "colheres de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola no azeite até ficar transparente.",
+      "Adicione cenoura e abobrinha, cozinhe até ficarem macios.",
+      "Junte o frango, tempere e aqueça antes de servir."
+    ],
+    "descricao": "Porque até a ressaca merece uma comidinha que não vai te fazer chorar mais.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "3 porções",
+    "dica": "Frango com legumes é tipo final de mês: você sabe que tem que encarar, mas pelo menos tem recompensa."
+  },
+  {
+    "id": 657,
+    "titulo": "Mingau de Aveia com Maçã e Canela",
+    "slug": "mingau-de-aveia-com-maca-e-canela",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "colheres de sopa de aveia",
+      "ml de leite",
+      "maçã picada",
+      "colher de chá de canela",
+      "colher de mel"
+    ],
+    "modoPreparo": [
+      "Cozinhe a aveia no leite até engrossar.",
+      "Adicione a maçã, canela e mel, misture e sirva quente."
+    ],
+    "descricao": "O abraço quentinho que você esqueceu que precisava.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "1 porção",
+    "dica": "Mingau com maçã é como mensagem do crush: doce, quentinho e que você quer repetir."
+  },
+  {
+    "id": 658,
+    "titulo": "Sopa de Abóbora com Gengibre",
+    "slug": "sopa-de-abobora-com-gengibre",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "g de abóbora picada",
+      "cebola picada",
+      "pedaço pequeno de gengibre ralado",
+      "litro de água",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e gengibre na panela.",
+      "Adicione a abóbora e água, cozinhe até a abóbora amolecer.",
+      "Bata tudo no liquidificador até ficar cremoso, volte à panela, tempere e aqueça."
+    ],
+    "descricao": "O empurrãozinho que seu corpo pede pra levantar a cabeça.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "3 porções",
+    "dica": "Essa sopa é tipo aquele amigo que te puxa pra academia: você não quer, mas no fim agradece."
+  },
+  {
+    "id": 659,
+    "titulo": "Salada de Grão-de-Bico Refrescante",
+    "slug": "salada-de-grao-de-bico-refrescante",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "lata de grão-de-bico escorrido",
+      "tomate picado",
+      "/2 cebola picada",
+      "Suco de 1 limão",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes na tigela.",
+      "Ajuste o tempero e sirva fresco."
+    ],
+    "descricao": "Porque proteína na ressaca é amor com gosto de sal.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Grão-de-bico na ressaca é como aquele boleto que você esquece: melhor encarar logo e se livrar."
+  },
+  {
+    "id": 660,
+    "titulo": "Ensopado de Lentilha Conforto Total",
+    "slug": "ensopado-de-lentilha-conforto-total",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "xícara de lentilhas",
+      "cebola picada",
+      "dentes de alho picados",
+      "tomates picados",
+      "litro de água",
+      "Sal, pimenta e cominho a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho na panela.",
+      "Adicione lentilhas, tomates, água e temperos.",
+      "Cozinhe até as lentilhas ficarem macias e o caldo engrossar."
+    ],
+    "descricao": "Porque ressaca pede comida que abraça e não só empurra.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 17,00",
+    "porcoes": "3 porções",
+    "dica": "Lentilha é tipo aquele amigo que aparece só quando você precisa, mas que faz toda diferença no final."
+  },
+  {
+    "id": 661,
+    "titulo": "Crepioca do Recomeço Rápido",
+    "slug": "crepioca-do-recomeco-rapido",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "colheres de tapioca",
+      "ovo",
+      "Sal a gosto",
+      "colher de queijo ralado (opcional)"
+    ],
+    "modoPreparo": [
+      "Misture ovo, tapioca e sal até formar massa homogênea.",
+      "Aqueça a frigideira, despeje a massa e cozinhe dos dois lados.",
+      "Adicione queijo e dobre ao meio, sirva quente."
+    ],
+    "descricao": "Porque a vida não pode parar só porque a cabeça não ajuda.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Crepioca é como promessa de dieta: fácil de fazer, difícil de resistir ao sofá depois."
+  },
+  {
+    "id": 662,
+    "titulo": "Chá de Camomila com Mel e Limão",
+    "slug": "cha-de-camomila-com-mel-e-limao",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "sachê de camomila",
+      "ml de água quente",
+      "colher de mel",
+      "Suco de 1/2 limão"
+    ],
+    "modoPreparo": [
+      "Prepare o chá de camomila com água quente.",
+      "Adicione mel e limão, misture e beba devagar."
+    ],
+    "descricao": "O calmante natural que sua mente grita que precisa.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,00",
+    "porcoes": "1 porção",
+    "dica": "Chá de camomila é como aquele tio que não fala muito, mas quando fala, acalma geral."
+  },
+  {
+    "id": 663,
+    "titulo": "Mingau de Milho com Coco",
+    "slug": "mingau-de-milho-com-coco",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "lata de milho verde escorrido",
+      "ml de leite de coco",
+      "colheres de sopa de açúcar mascavo",
+      "colher de farinha de tapioca"
+    ],
+    "modoPreparo": [
+      "Bata o milho com leite de coco no liquidificador.",
+      "Coe e leve ao fogo com açúcar e farinha, mexendo até engrossar.",
+      "Sirva quente ou frio."
+    ],
+    "descricao": "Porque ressaca pede doce, mas sem culpa (ou quase).",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "2 porções",
+    "dica": "Esse mingau é tipo férias curtas: doce, rápido e deixa vontade de repetir."
+  },
+  {
+    "id": 664,
+    "titulo": "Caldo de Legumes Detox",
+    "slug": "caldo-de-legumes-detox",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "cenouras",
+      "talos de salsão",
+      "abobrinha",
+      "cebola",
+      "litros de água",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Pique todos os legumes e coloque na panela com água.",
+      "Cozinhe por 30 minutos, coe e tempere com sal.",
+      "Beba quente ou morno."
+    ],
+    "descricao": "Para dar um reset no corpo antes do próximo boleto (ou rolezinho).",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "3 porções",
+    "dica": "Caldo detox é como promessa de dieta pós-fim de semana: quase nunca cumprida, mas sempre tentada."
+  },
+  {
+    "id": 665,
+    "titulo": "Iogurte Natural com Mel e Granola",
+    "slug": "iogurte-natural-com-mel-e-granola",
+    "categoria": "De Ressaca ",
+    "ingredientes": [
+      "pote de iogurte natural",
+      "colher de mel",
+      "colheres de granola"
+    ],
+    "modoPreparo": [
+      "Misture o mel no iogurte.",
+      "Cubra com granola e sirva."
+    ],
+    "descricao": "Porque ressaca também pede crocância e doçura na vida.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "1 porção",
+    "dica": "Iogurte com granola é tipo mensagem de bom dia: simples, rápida e deixa o coração mais leve, mesmo na ressaca."
+  }
+]

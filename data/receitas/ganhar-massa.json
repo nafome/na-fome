@@ -1,0 +1,994 @@
+[
+  {
+    "id": 901,
+    "titulo": "Omelete Power dos Campeões",
+    "slug": "omelete-power-dos-campeoes",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "ovos inteiros",
+      "g de peito de frango desfiado",
+      "g de queijo cottage",
+      "colher de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com sal e pimenta na tigela.",
+      "Aqueça o azeite na frigideira e refogue o frango rapidamente.",
+      "Despeje os ovos batidos, espalhe o queijo cottage e cozinhe até firmar."
+    ],
+    "descricao": "Porque começar o dia com um ovo é quase tão essencial quanto pagar o boleto no vencimento.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Se seu dia tá mais vazio que conta bancária no fim do mês, essa omelete vai te encher de energia e proteína. E o frango? É pra lembrar que a vida adulta é frágil, mas a proteína não precisa ser."
+  },
+  {
+    "id": 902,
+    "titulo": "Shake do Hulk Pós-Treino",
+    "slug": "shake-do-hulk-pos-treino",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "ml de leite desnatado",
+      "banana madura",
+      "colheres de sopa de whey protein sabor baunilha",
+      "colher de sopa de aveia em flocos",
+      "colher de sopa de pasta de amendoim"
+    ],
+    "modoPreparo": [
+      "Coloque todos os ingredientes no liquidificador.",
+      "Bata até ficar homogêneo e cremoso.",
+      "Sirva imediatamente para não virar um drama."
+    ],
+    "descricao": "Porque crescer músculos é mais fácil que entender a fatura do cartão.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "1 porção",
+    "dica": "Shake tão potente que, se fosse boleto, você pagaria feliz da vida. Beba logo, antes que a preguiça vença o treino e o apetite."
+  },
+  {
+    "id": 903,
+    "titulo": "Panqueca Integral do Maromba",
+    "slug": "panqueca-integral-do-maromba",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "xícara de farinha de aveia",
+      "ovos inteiros",
+      "ml de leite desnatado",
+      "colher de chá de fermento em pó",
+      "g de peito de peru fatiado",
+      "g de queijo branco ralado"
+    ],
+    "modoPreparo": [
+      "Misture farinha, ovos, leite e fermento até formar uma massa homogênea.",
+      "Aqueça a frigideira e despeje porções da massa, fazendo panquecas finas.",
+      "Recheie com peito de peru e queijo, dobre e deixe o queijo derreter."
+    ],
+    "descricao": "Mais recheada que sua caixa de entrada de e-mails não lidos.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 10,50",
+    "porcoes": "3 porções",
+    "dica": "Se a vida te der limões, faça panquecas recheadas. Porque aqui só amarga se você deixar o queijo queimar, igual aquele chefe que só reclama."
+  },
+  {
+    "id": 904,
+    "titulo": "Arroz Integral com Lentilha Maromba",
+    "slug": "arroz-integral-com-lentilha-maromba",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "xícaras de arroz integral",
+      "xícara de lentilha",
+      "xícaras de água",
+      "colher de sopa de azeite",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Lave bem a lentilha e deixe de molho por 30 minutos.",
+      "Cozinhe a lentilha em 2 xícaras de água até amaciar.",
+      "Em outra panela, cozinhe o arroz integral com 2 xícaras de água e sal.",
+      "Misture lentilha e arroz, refogue com azeite e ajuste o sal."
+    ],
+    "descricao": "O casal que dá certo na panela e na hipertrofia.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 9,00",
+    "porcoes": "4 porções",
+    "dica": "Arroz e lentilha juntos são tipo casal que se entende: um dá proteína, o outro, fibra. Se a vida fosse assim fácil, nem precisaria de academia."
+  },
+  {
+    "id": 905,
+    "titulo": "Salada de Grão-de-Bico Turbinada",
+    "slug": "salada-de-grao-de-bico-turbinada",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "lata de grão-de-bico cozido (240g)",
+      "tomate picado",
+      "/2 cebola roxa picada",
+      "punhado de salsinha picada",
+      "Suco de 1 limão",
+      "colher de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Escorra e lave o grão-de-bico.",
+      "Misture todos os ingredientes na tigela.",
+      "Tempere com limão, azeite, sal e pimenta e mexa bem."
+    ],
+    "descricao": "Porque até salada pode ser tão forte quanto aquele tio na academia.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,50",
+    "porcoes": "3 porções",
+    "dica": "Grão-de-bico é o amigo que não te deixa na mão na dieta. Se a vida te der cebola, chora, mas não desiste do limão nem do treino."
+  },
+  {
+    "id": 906,
+    "titulo": "Frango Grelhado com Batata Doce Assada",
+    "slug": "frango-grelhado-com-batata-doce-assada",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "g de peito de frango",
+      "g de batata doce",
+      "colher de sopa de azeite",
+      "Sal, pimenta, alho em pó a gosto",
+      "Alecrim fresco (opcional)"
+    ],
+    "modoPreparo": [
+      "Corte a batata doce em rodelas, tempere com azeite, sal e alecrim.",
+      "Leve ao forno a 200°C por 40 minutos, virando na metade do tempo.",
+      "Tempere o frango e grelhe em frigideira quente até dourar e cozinhar por dentro."
+    ],
+    "descricao": "A combinação que é mais confiável que promessa de político em época de eleição.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Se seu compromisso é crescer, trate o frango e a batata doce como sua prioridade – só não vale fugir do forno igual da vida adulta."
+  },
+  {
+    "id": 907,
+    "titulo": "Vitamina de Abacate e Aveia",
+    "slug": "vitamina-de-abacate-e-aveia",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "/2 abacate médio",
+      "colheres de sopa de aveia",
+      "ml de leite desnatado",
+      "colher de mel (opcional)",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque todos os ingredientes no liquidificador.",
+      "Bata até ficar cremoso e homogêneo.",
+      "Sirva gelado para refrescar a vontade de desistir do treino."
+    ],
+    "descricao": "Porque a gordura boa aqui é a única que não te faz culpa depois do treino.",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "1 porção",
+    "dica": "Abacate é tipo boleto: você sabe que é bom, mas às vezes pesa no bolso. Aqui, pesa só na conta do sabor e da proteína."
+  },
+  {
+    "id": 908,
+    "titulo": "Sanduíche Integral do Hulk",
+    "slug": "sanduiche-integral-do-hulk",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "fatias de pão integral",
+      "g de peito de peru fatiado",
+      "fatia de queijo minas",
+      "Folhas de alface",
+      "fatias de tomate",
+      "Mostarda a gosto"
+    ],
+    "modoPreparo": [
+      "Monte o sanduíche com os ingredientes na ordem que preferir.",
+      "Passe mostarda ou outro molho se quiser dar aquela malícia.",
+      "Sirva na hora para evitar pão murcho e vida amorosa triste."
+    ],
+    "descricao": "Pra mostrar que maromba também sabe comer rápido sem perder a potência.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 11,00",
+    "porcoes": "1 porção",
+    "dica": "Se sua vida fosse tão organizada quanto esse sanduíche, já teria ganho massa e dinheiro. Mas pelo menos a fome você resolve rapidinho."
+  },
+  {
+    "id": 909,
+    "titulo": "Macarrão Integral com Molho de Atum",
+    "slug": "macarrao-integral-com-molho-de-atum",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "g de macarrão integral",
+      "lata de atum em água",
+      "dente de alho picado",
+      "colher de sopa de azeite",
+      "Sal, pimenta e salsinha a gosto",
+      "g de iogurte grego natural",
+      "g de castanhas variadas picadas",
+      "colher de sopa de mel"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão conforme instruções da embalagem.",
+      "Refogue o alho no azeite, adicione o atum e tempere.",
+      "Misture o molho com o macarrão escorrido e finalize com salsinha.",
+      "Coloque o iogurte na tigela.",
+      "Salpique as castanhas por cima.",
+      "Regue com mel e sirva imediatamente."
+    ],
+    "descricao": "Porque gorduras boas são tipo aquele amigo que só aparece pra ajudar (e não pra cobrar).",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,50",
+    "porcoes": "1 porção",
+    "dica": "Se a sua paciência para cozinhar é menor que fila de banco, essa receita é para você. E castanhas? Só cuidado pra não comer tudo de uma vez e parecer um esquilo."
+  },
+  {
+    "id": 910,
+    "titulo": "Tapioca Recheada com Queijo e Ovo Mexido",
+    "slug": "tapioca-recheada-com-queijo-e-ovo-mexido",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "ovos",
+      "g de queijo minas frescal",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com sal e pimenta e faça ovo mexido na frigideira.",
+      "Espalhe a goma de tapioca na frigideira quente formando uma panqueca fina.",
+      "Recheie com o ovo mexido e o queijo, dobre e sirva."
+    ],
+    "descricao": "A energia que você precisa, sem enrolação (literalmente).",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "1 porção",
+    "dica": "Se você acha que tapioca é só para criança, experimente essa versão e cresça na vida e no músculo, que é o que importa."
+  },
+  {
+    "id": 911,
+    "titulo": "Bowl de Quinoa com Frango e Abacate",
+    "slug": "bowl-de-quinoa-com-frango-e-abacate",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "xícara de quinoa",
+      "g de peito de frango grelhado e picado",
+      "/2 abacate cortado em cubos",
+      "punhado de folhas verdes",
+      "colher de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a quinoa em 2 xícaras de água até absorver.",
+      "Misture a quinoa com o frango e as folhas verdes.",
+      "Finalize com cubos de abacate, azeite, sal e pimenta."
+    ],
+    "descricao": "O combo que vai te transformar numa máquina, ou pelo menos em alguém mais saudável que ontem.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida é uma salada mista de problemas, faça um bowl que pelo menos te deixe forte para encarar tudo. E abacate? É a gordura boa que sua carteira reclama, mas seu corpo agradece."
+  },
+  {
+    "id": 912,
+    "titulo": "Espetinho de Carne Magra com Legumes",
+    "slug": "espetinho-de-carne-magra-com-legumes",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "g de carne magra em cubos (patinho ou coxão mole)",
+      "pimentão vermelho cortado em cubos",
+      "cebola cortada em pedaços",
+      "abobrinha cortada em rodelas",
+      "Sal, pimenta e alho em pó a gosto"
+    ],
+    "modoPreparo": [
+      "Monte os espetinhos alternando carne e legumes.",
+      "Tempere com sal, pimenta e alho.",
+      "Grelhe até a carne estar no ponto desejado e os legumes macios."
+    ],
+    "descricao": "Fácil de fazer e difícil de errar, diferente muita coisa na vida adulta.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "4 porções",
+    "dica": "Espetinho é a vida prática para quem quer ganhar massa e não quer se perder na cozinha. Se a carne não der certo, pelo menos os legumes vão te lembrar que você tentou."
+  },
+  {
+    "id": 913,
+    "titulo": "Mousse Proteico de Chocolate Amargo",
+    "slug": "mousse-proteico-de-chocolate-amargo",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "ovos (claras e gemas separadas)",
+      "g de chocolate amargo 70%",
+      "colher de sopa de adoçante culinário",
+      "pitada de sal"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate em banho-maria.",
+      "Bata as claras em neve com o sal até ficarem firmes.",
+      "Misture as gemas ao chocolate derretido e depois incorpore delicadamente as claras.",
+      "Coloque em potinhos e leve à geladeira por pelo menos 2 horas."
+    ],
+    "descricao": "Porque até quem malha merece um docinho pra não virar um drama ambulante.",
+    "tempo": "15 min + 2h de geladeira",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "4 porções",
+    "dica": "Mousse proteico é a desculpa perfeita pra comer chocolate e ainda parecer saudável. Se a vida te der limões, faça mousse – mas de chocolate, que é mais gostoso."
+  },
+  {
+    "id": 914,
+    "titulo": "Panqueca de Batata Doce com Cottage",
+    "slug": "panqueca-de-batata-doce-com-cottage",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "g de batata doce ralada",
+      "ovos",
+      "g de queijo cottage",
+      "Sal e pimenta a gosto",
+      "colher de sopa de azeite"
+    ],
+    "modoPreparo": [
+      "Misture a batata doce ralada com os ovos, queijo, sal e pimenta.",
+      "Aqueça o azeite e faça pequenas panquecas, dourando dos dois lados.",
+      "Sirva quente, acompanhado de uma proteína se quiser ser gente fina."
+    ],
+    "descricao": "O carboidrato que vai te dar mais energia que aquele cafezinho das 3 da tarde.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Batata doce ralada é a prova de que você pode ser raiz e moderninho ao mesmo tempo. Se a preguiça bater, lembra que tem gente que tá pagando boleto e nem tem batata."
+  },
+  {
+    "id": 915,
+    "titulo": "Bowl Colorido com Ovo Pochê e Abacate",
+    "slug": "bowl-colorido-com-ovo-poche-e-abacate",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "ovo",
+      "/2 abacate em fatias",
+      "/2 xícara de arroz integral cozido",
+      "/2 tomate picado",
+      "Folhas verdes a gosto",
+      "Sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Ferva água e prepare o ovo pochê (cozinhando o ovo sem casca por 3 minutos).",
+      "Monte o bowl com arroz, abacate, tomate e folhas.",
+      "Coloque o ovo pochê por cima, tempere e sirva."
+    ],
+    "descricao": "Porque ganhar massa também é questão de estilo e Instagram.",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "1 porção",
+    "dica": "Se você acha que ovo pochê é coisa de chef, tenta fazer em casa sem colocar a casa abaixo. Se der errado, pelo menos a vontade de crescer continua."
+  },
+  {
+    "id": 916,
+    "titulo": "Bife de Patinho com Brócolis ao Alho",
+    "slug": "bife-de-patinho-com-brocolis-ao-alho",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "g de bife de patinho",
+      "g de brócolis",
+      "dentes de alho picados",
+      "colher de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o bife e grelhe na frigideira até o ponto desejado.",
+      "Cozinhe o brócolis no vapor ou água fervente até ficar macio.",
+      "Refogue o alho no azeite, acrescente o brócolis e misture antes de servir junto com o bife."
+    ],
+    "descricao": "A proteína que é mais confiável que promessa de academia na segunda-feira.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "2 porções",
+    "dica": "Se o brócolis te lembra comida de hospital, tenta dar uma chance. Pelo menos ele não te cobra juros, diferente do boleto atrasado."
+  },
+  {
+    "id": 917,
+    "titulo": "Barrinha Caseira de Proteína e Castanhas",
+    "slug": "barrinha-caseira-de-proteina-e-castanhas",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "xícara de aveia em flocos",
+      "/2 xícara de pasta de amendoim",
+      "colheres de sopa de mel",
+      "/4 xícara de whey protein",
+      "/4 xícara de castanhas picadas"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes até formar uma massa pegajosa.",
+      "Forre a assadeira com papel manteiga e espalhe a massa, nivelando.",
+      "Leve ao forno a 180°C por 20 minutos, corte em barrinhas e deixe esfriar."
+    ],
+    "descricao": "Porque ninguém merece depender de barrinhas caras e sem gosto.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "8 barrinhas",
+    "dica": "Barrinha caseira é tipo relacionamento: dá trabalho, mas no final você ganha o que merece. E o melhor: não te deixa na mão no meio do treino."
+  },
+  {
+    "id": 918,
+    "titulo": "Crepioca do Maromba",
+    "slug": "crepioca-do-maromba",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "ovos",
+      "colheres de sopa de goma de tapioca",
+      "g de queijo branco ralado",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com a goma de tapioca e sal.",
+      "Aqueça a frigideira antiaderente e despeje a mistura, deixando cozinhar até firmar.",
+      "Polvilhe o queijo por cima e dobre a crepioca antes de servir."
+    ],
+    "descricao": "Aquela massa fina que carrega mais proteína que seu grupo da família no zap.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "1 porção",
+    "dica": "Se sua vida tá mais enrolada que essa crepioca, pelo menos a proteína está garantida. E não esquece de pagar as contas, porque músculo não paga boleto."
+  },
+  {
+    "id": 919,
+    "titulo": "Tilápia Assada com Ervas e Purê de Mandioquinha",
+    "slug": "tilapia-assada-com-ervas-e-pure-de-mandioquinha",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "g de filé de tilápia",
+      "g de mandioquinha",
+      "colher de sopa de azeite",
+      "Ervas finas (alecrim, tomilho)",
+      "Sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Tempere a tilápia com sal, pimenta e ervas, coloque na assadeira e regue com azeite.",
+      "Leve ao forno a 200°C por 20 minutos.",
+      "Cozinhe a mandioquinha até ficar macia, amasse com mixer e tempere a gosto."
+    ],
+    "descricao": "Sofisticação que cabe no prato e no bolso, diferente do seu cartão de crédito.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "2 porções",
+    "dica": "Se peixe te lembra dieta, pensa que é investimento em saúde. Mas cuidado pra não virar aquele cliente que só reclama do preço do camarão."
+  },
+  {
+    "id": 920,
+    "titulo": "Panetone Proteico de Banana e Aveia",
+    "slug": "panetone-proteico-de-banana-e-aveia",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "bananas maduras amassadas",
+      "ovos",
+      "xícara de aveia em flocos",
+      "colheres de sopa de whey protein sabor baunilha",
+      "colher de sopa de fermento em pó",
+      "colher de chá de canela"
+    ],
+    "modoPreparo": [
+      "Misture as bananas, ovos e whey até formar uma massa.",
+      "Adicione aveia, fermento e canela, mexa até homogeneizar.",
+      "Coloque na forma untada e asse a 180°C por 40 minutos."
+    ],
+    "descricao": "Natal fora de época pra quem quer ganhar massa e não só peso na consciência.",
+    "tempo": "60 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 20,00",
+    "porcoes": "6 porções",
+    "dica": "Panetone proteico é o jeito de dizer “eu me amo” sem culpa. Se a vida fosse tão doce quanto essa receita, o boleto seria só uma lembrança ruim."
+  },
+  {
+    "id": 921,
+    "titulo": "Strogonoff de Frango Fit com Creme de Ricota",
+    "slug": "strogonoff-de-frango-fit-com-creme-de-ricota",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "g de peito de frango em cubos",
+      "cebola picada",
+      "dentes de alho picados",
+      "g de creme de ricota",
+      "colher de sopa de azeite",
+      "colher de sopa de molho de tomate",
+      "Sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no azeite até dourar.",
+      "Adicione o frango e cozinhe até ficar branco.",
+      "Misture o molho de tomate e o creme de ricota, aqueça sem deixar ferver.",
+      "Tempere e sirva com arroz integral."
+    ],
+    "descricao": "Clássico que ganhou musculatura e perdeu culpa.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "3 porções",
+    "dica": "Se o strogonoff é sua paixão de infância, agora ele quer ser seu aliado na dieta. E o creme de ricota? Tipo amigo que te ajuda a pagar o aluguel."
+  },
+  {
+    "id": 922,
+    "titulo": "Quiche Proteica de Espinafre e Ricota",
+    "slug": "quiche-proteica-de-espinafre-e-ricota",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "ovos",
+      "g de ricota",
+      "g de espinafre cozido e picado",
+      "/2 xícara de farinha de aveia",
+      "Sal, pimenta e noz-moscada"
+    ],
+    "modoPreparo": [
+      "Misture ovos, ricota, espinafre e farinha até formar massa homogênea.",
+      "Tempere com sal, pimenta e noz-moscada.",
+      "Despeje na forma untada e asse a 180°C por 35 minutos."
+    ],
+    "descricao": "Porque ganhar massa não é só levantar peso, é levantar garfo também.",
+    "tempo": "50 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Quiche proteica é pra mostrar que você pode ser chique e forte ao mesmo tempo. Se a vida fosse só isso, boleto seria só um detalhe."
+  },
+  {
+    "id": 923,
+    "titulo": "Maminha Assada com Legumes Raízes",
+    "slug": "maminha-assada-com-legumes-raizes",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "g de maminha",
+      "cenouras em pedaços",
+      "batatas médias cortadas",
+      "cebola grande",
+      "colheres de sopa de azeite",
+      "Sal, pimenta e alecrim",
+      "ml de água de coco",
+      "punhado de espinafre fresco",
+      "banana",
+      "colher de sopa de whey protein",
+      "colher de sopa de linhaça moída"
+    ],
+    "modoPreparo": [
+      "Tempere a maminha com sal, pimenta e alecrim.",
+      "Coloque na assadeira junto com os legumes temperados e regados com azeite.",
+      "Asse a 200°C por 1 hora, até a carne ficar macia e legumes dourados.",
+      "Bata todos os ingredientes até ficar homogêneo.",
+      "Sirva imediatamente para não perder o pique."
+    ],
+    "descricao": "Porque nem só de músculos vive o marombeiro, mas de saúde também.",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 11,00",
+    "porcoes": "1 porção",
+    "dica": "Smoothie verde é o jeito disfarçado de tomar salada. Se seu paladar é mais chato que boleto atrasado, começa por essa receita."
+  },
+  {
+    "id": 924,
+    "titulo": "Escondidinho de Carne Moída com Purê de Batata Doce",
+    "slug": "escondidinho-de-carne-moida-com-pure-de-batata-doce",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "g de carne moída magra",
+      "g de batata doce",
+      "cebola picada",
+      "dentes de alho",
+      "colher de sopa de azeite",
+      "Sal, pimenta e cheiro-verde"
+    ],
+    "modoPreparo": [
+      "Cozinhe a batata doce e amasse formando purê.",
+      "Refogue cebola e alho no azeite, adicione a carne, tempere e cozinhe.",
+      "Em um refratário, coloque a carne, cubra com o purê e leve ao forno para gratinar por 15 minutos."
+    ],
+    "descricao": "Porque até o purê pode ser forte e conquistar seu coração (e músculo).",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "3 porções",
+    "dica": "Escondidinho é a prova de que as melhores coisas da vida vêm escondidas. Igual músculo, que só aparece depois de muito esforço e choro na academia."
+  },
+  {
+    "id": 925,
+    "titulo": "Wrap Integral de Frango com Abacate",
+    "slug": "wrap-integral-de-frango-com-abacate",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "wrap integral",
+      "g de frango grelhado desfiado",
+      "/4 de abacate fatiado",
+      "Folhas de alface",
+      "colher de sopa de iogurte natural"
+    ],
+    "modoPreparo": [
+      "Aqueça o wrap na frigideira por 1 minuto.",
+      "Recheie com frango, abacate, alface e iogurte.",
+      "Enrole firmemente e sirva."
+    ],
+    "descricao": "Pra quem quer lanchar rápido sem perder a pose de atleta.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "1 porção",
+    "dica": "Wrap é o combo perfeito para quem tem pressa, fome e ainda quer parecer saudável. Se enrolar no treino, pelo menos enrola no wrap."
+  },
+  {
+    "id": 926,
+    "titulo": "Panqueca de Aveia com Pasta de Amendoim",
+    "slug": "panqueca-de-aveia-com-pasta-de-amendoim",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "xícara de aveia em flocos",
+      "ovos",
+      "banana madura amassada",
+      "colheres de sopa de pasta de amendoim"
+    ],
+    "modoPreparo": [
+      "Misture aveia, ovos e banana até formar massa.",
+      "Cozinhe pequenas porções na frigideira até dourar dos dois lados.",
+      "Sirva com pasta de amendoim por cima."
+    ],
+    "descricao": "Porque a vida pede carboidrato, mas o músculo pede proteína.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "2 porções",
+    "dica": "Se sua vontade de malhar é igual à de fazer essa panqueca, o jeito é passar pasta de amendoim e fingir que tá tudo certo."
+  },
+  {
+    "id": 927,
+    "titulo": "Filé de Salmão Grelhado com Aspargos",
+    "slug": "file-de-salmao-grelhado-com-aspargos",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "g de filé de salmão",
+      "g de aspargos frescos",
+      "colher de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o salmão com sal e pimenta.",
+      "Grelhe o salmão no azeite até dourar por fora e ficar macio por dentro.",
+      "Cozinhe os aspargos no vapor e sirva junto."
+    ],
+    "descricao": "Sofisticação e proteína pra quem quer crescer e ainda impressionar a patroa.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "2 porções",
+    "dica": "Se até o salmão tá na sua dieta, parabéns: você tá jogando no time dos deuses fitness. Só não esquece de lavar a grelha depois, porque ninguém merece."
+  },
+  {
+    "id": 928,
+    "titulo": "Bolinho de Atum e Batata Doce",
+    "slug": "bolinho-de-atum-e-batata-doce",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "lata de atum em água escorrida",
+      "g de batata doce cozida e amassada",
+      "ovo",
+      "colheres de sopa de farinha de aveia",
+      "Sal, pimenta e cheiro-verde"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes até formar uma massa firme.",
+      "Modele bolinhos e coloque na assadeira.",
+      "Asse a 200°C por 25 minutos até dourar."
+    ],
+    "descricao": "Pra quem quer ganhar massa e manter a preguiça em dia.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 16,00",
+    "porcoes": "12 bolinhos",
+    "dica": "Bolinho de atum é a prova que você pode ser gostoso e saudável. Se a vida te der preguiça, pelo menos terá bolinho para enganar a fome."
+  },
+  {
+    "id": 929,
+    "titulo": "Salada de Frango com Abacate e Quinoa",
+    "slug": "salada-de-frango-com-abacate-e-quinoa",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "g de peito de frango grelhado e picado",
+      "/2 xícara de quinoa cozida",
+      "/2 abacate em cubos",
+      "Folhas verdes variadas",
+      "Suco de limão, sal e azeite para temperar"
+    ],
+    "modoPreparo": [
+      "Cozinhe a quinoa conforme instruções.",
+      "Misture todos os ingredientes na tigela.",
+      "Tempere com limão, sal e azeite e sirva."
+    ],
+    "descricao": "A salada que vai te fazer repensar se só a cerveja engorda.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Se sua dieta parece um eterno “deixa pra amanhã”, essa salada vai te dar um tapa na cara – com sabor e proteína, claro."
+  },
+  {
+    "id": 930,
+    "titulo": "Frango ao Curry com Leite de Coco e Arroz Integral",
+    "slug": "frango-ao-curry-com-leite-de-coco-e-arroz-integral",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "g de peito de frango em cubos",
+      "cebola picada",
+      "colher de sopa de curry em pó",
+      "ml de leite de coco light",
+      "xícara de arroz integral",
+      "Sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Cozinhe o arroz integral conforme embalagem.",
+      "Refogue cebola e frango, adicione curry e leite de coco.",
+      "Cozinhe até o molho reduzir e frango estar macio."
+    ],
+    "descricao": "Porque até o curry pode ser parceiro do seu shape.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 23,00",
+    "porcoes": "3 porções",
+    "dica": "Se o curry não te conquistar, pelo menos o leite de coco vai fazer você esquecer dos boletos por alguns minutos."
+  },
+  {
+    "id": 931,
+    "titulo": "Tapioca de Atum com Cream Cheese",
+    "slug": "tapioca-de-atum-com-cream-cheese",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "lata de atum em água escorrida",
+      "colheres de sopa de cream cheese light",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Espalhe a goma na frigideira quente formando uma panqueca.",
+      "Misture o atum com o cream cheese, sal e pimenta.",
+      "Recheie a tapioca e dobre ao meio."
+    ],
+    "descricao": "A combinação que junta força e sabor, sem complicação.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "1 porção",
+    "dica": "Se sua vida é um eterno “eu quero, mas não posso”, pelo menos na tapioca você pode tudo – até rechear com atum e cream cheese sem culpa."
+  },
+  {
+    "id": 932,
+    "titulo": "Omelete de Claras com Espinafre e Tomate",
+    "slug": "omelete-de-claras-com-espinafre-e-tomate",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "claras de ovo",
+      "punhado de espinafre picado",
+      "tomate picado",
+      "Sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Bata as claras com sal e pimenta.",
+      "Refogue o espinafre e tomate rapidamente.",
+      "Despeje as claras na frigideira, adicione os vegetais e cozinhe até firmar."
+    ],
+    "descricao": "Proteína pura pra quem quer crescer e não virar meme.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vida te der claras, faz omelete. Se te der boletos, faz omelete também, mas com uma dose extra de paciência."
+  },
+  {
+    "id": 933,
+    "titulo": "Panqueca de Ricota com Mel e Nozes",
+    "slug": "panqueca-de-ricota-com-mel-e-nozes",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "g de ricota amassada",
+      "ovos",
+      "colheres de sopa de farinha de aveia",
+      "Mel a gosto",
+      "Nozes picadas para decorar"
+    ],
+    "modoPreparo": [
+      "Misture ricota, ovos e farinha até formar massa.",
+      "Faça pequenas panquecas na frigideira.",
+      "Sirva com mel e nozes por cima."
+    ],
+    "descricao": "A sobremesa que engana, mas só um pouquinho.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Se doce é seu ponto fraco, essa panqueca vai te salvar do fim do mundo – ou pelo menos do fim da dieta."
+  },
+  {
+    "id": 934,
+    "titulo": "Espaguete Integral com Almôndegas de Frango",
+    "slug": "espaguete-integral-com-almondegas-de-frango",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "g de espaguete integral",
+      "g de frango moído",
+      "ovo",
+      "/4 xícara de farinha de aveia",
+      "dente de alho picado",
+      "xícara de molho de tomate caseiro",
+      "Sal, pimenta e salsinha"
+    ],
+    "modoPreparo": [
+      "Misture frango, ovo, farinha, alho e temperos, forme almôndegas.",
+      "Asse as almôndegas a 200°C por 25 minutos.",
+      "Cozinhe o espaguete e sirva com almôndegas e molho de tomate."
+    ],
+    "descricao": "O prato que prova que dá pra ser saudável e gostoso ao mesmo tempo.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Se até o macarrão integral tá na sua, parabéns: você tá pronto pra vencer a vida – ou pelo menos a fome depois do treino."
+  },
+  {
+    "id": 935,
+    "titulo": "Mousse de Abacate com Cacau e Whey",
+    "slug": "mousse-de-abacate-com-cacau-e-whey",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "abacate médio",
+      "colheres de sopa de cacau em pó",
+      "colheres de sopa de whey protein sabor chocolate",
+      "colher de sopa de mel"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar cremoso.",
+      "Leve à geladeira por 1 hora antes de servir."
+    ],
+    "descricao": "O doce que vai te convencer que dieta pode ser uma delícia.",
+    "tempo": "10 min + 1h geladeira",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "3 porções",
+    "dica": "Se a vida te der abacate, faz mousse. Se te der problemas, faz treino e esquece tudo."
+  },
+  {
+    "id": 936,
+    "titulo": "Sopa de Lentilha com Frango Desfiado",
+    "slug": "sopa-de-lentilha-com-frango-desfiado",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "xícara de lentilha",
+      "g de peito de frango cozido e desfiado",
+      "cebola picada",
+      "dentes de alho",
+      "cenoura picada",
+      "colher de sopa de azeite",
+      "Sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, alho e cenoura no azeite.",
+      "Adicione a lentilha e água suficiente, cozinhe até amaciar.",
+      "Acrescente o frango, ajuste o sal e cozinhe mais 5 minutos."
+    ],
+    "descricao": "Aquela sopinha que abraça e ajuda a crescer ao mesmo tempo.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Sopa é pra vida adulta o que abraço é pra alma: necessário e reconfortante. Se o boleto apertar, pelo menos a sopa aquece o coração."
+  },
+  {
+    "id": 937,
+    "titulo": "Batata Doce Recheada com Ricota e Espinafre",
+    "slug": "batata-doce-recheada-com-ricota-e-espinafre",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "batatas doces médias",
+      "g de ricota",
+      "punhado de espinafre cozido e picado",
+      "Sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Asse as batatas doces inteiras a 200°C por 40 minutos.",
+      "Corte ao meio, retire parte da polpa e misture com ricota e espinafre.",
+      "Recheie as batatas, tempere e volte ao forno por 10 minutos."
+    ],
+    "descricao": "A batata que virou estrela do prato e do shape.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "2 porções",
+    "dica": "Batata doce recheada é o que há de mais perto de um abraço culinário. Se a vida apertar, pelo menos a fome vai embora."
+  },
+  {
+    "id": 938,
+    "titulo": "Bolo Proteico de Banana com Aveia",
+    "slug": "bolo-proteico-de-banana-com-aveia",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "bananas maduras amassadas",
+      "ovos",
+      "xícara de aveia em flocos",
+      "colheres de sopa de whey protein",
+      "colher de sopa de fermento"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes até formar massa homogênea.",
+      "Coloque na forma untada e asse a 180°C por 40 minutos."
+    ],
+    "descricao": "Porque bolo não precisa ser pecado, só se for o boleto.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "8 porções",
+    "dica": "Bolo proteico é pra quem quer crescer e ainda comer doce sem culpa. Se a vida fosse só isso, o boleto seria só diversão."
+  },
+  {
+    "id": 939,
+    "titulo": "Almôndega Surpresa do Marombado",
+    "slug": "almondega-surpresa-do-marombado",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "g carne moída magra (patinho ou coxão mole)",
+      "xícara de feijão preto cozido e amassado",
+      "/2 xícara de aveia em flocos finos",
+      "ovo inteiro",
+      "/4 de cebola picadinha",
+      "dentes de alho espremidos",
+      "colheres de sopa de salsinha picada",
+      "colher de chá de cominho em pó",
+      "Sal e pimenta do reino a gosto",
+      "xícara de molho de tomate caseiro (ou pronto, mas nada de preguiça!)",
+      "/2 xícara de queijo minas frescal ralado (ou cottage, se quiser ser fitness até no queijo)"
+    ],
+    "modoPreparo": [
+      "Em uma tigela grande, misture a carne moída, o feijão preto amassado, a aveia, o ovo, cebola, alho, salsinha, cominho, sal e pimenta. Mexa até virar uma massinha homogênea (não precisa virar Hulk, mas ajude a misturar bem).",
+      "Modele almôndegas do tamanho da sua vontade (recomendo tamanho “pegada firme”), recheando o centro com um pouco do queijo minas para aquele efeito “surpresa que deixa o peito do maromba até mais forte”.",
+      "Disponha as almôndegas na assadeira untada e leve ao forno pré-aquecido a 200°C por cerca de 25 minutos, regando com o molho de tomate na metade do tempo para elas não se sentirem abandonadas.",
+      "Sirva quentinho, com uma saladinha ou arroz integral, para ganhar massa e não perder a pose."
+    ],
+    "descricao": "Porque ganhar massa não precisa ser sem graça, e surpresa é o tempero da vida (e do treino)!",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "4",
+    "dica": "Se alguém reclamar que tá muito saudável, responde que até o Popeye precisou de espinafre, e você tem almôndega com feijão, que é quase o mesmo, só que mais gostoso!"
+  },
+  {
+    "id": 940,
+    "titulo": "Bolinho Explosão de Proteína com Touch de Macaxeira",
+    "slug": "bolinho-explosao-de-proteina-com-touch-de-macaxeira",
+    "categoria": "Ganhar Massa ",
+    "ingredientes": [
+      "g de macaxeira ralada (a famosa mandioca, mas com nome chique pra impressionar na academia)",
+      "g de peito de frango cozido e desfiado",
+      "ovos",
+      "colheres de sopa de aveia em flocos finos",
+      "colher de sopa de queijo parmesão ralado",
+      "colher de chá de fermento em pó",
+      "punhado generoso de espinafre picado (pra fingir que é saudável)",
+      "Sal e pimenta-do-reino a gosto",
+      "Azeite para untar e dourar"
+    ],
+    "modoPreparo": [
+      "Em uma tigela grande, misture a macaxeira ralada, o frango desfiado, os ovos, a aveia, o queijo parmesão, o espinafre, o fermento, sal e pimenta até formar uma massa homogênea e manejável.",
+      "Modele bolinhos com as mãos, do tamanho que couber na sua vontade (mas nada de bolinho tamanho melancia, ok?).",
+      "Aqueça uma frigideira antiaderente com um fio de azeite e doure os bolinhos por cerca de 5 minutos de cada lado, até ficarem dourados e firmes. Se preferir, asse em forno pré-aquecido a 200°C por 25 minutos, virando na metade do tempo."
+    ],
+    "descricao": "Porque ganhar massa também pode ser uma festa no prato — e sem explosão no fogão!",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$25,00",
+    "porcoes": "8 bolinhos",
+    "dica": "Se alguém reclamar que é só “mais um bolinho”, responda que é “o bolinho que vai fazer seu bíceps dizer: ‘Valeu, chef!’” – e não esqueça de ter um espelho por perto para ver os músculos crescerem... ou pelo menos pra ver o sorriso depois da mordida!"
+  }
+]

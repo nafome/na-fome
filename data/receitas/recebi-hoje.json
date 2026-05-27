@@ -1,0 +1,971 @@
+[
+  {
+    "id": 1469,
+    "titulo": "Omelete do Salário que Caiu",
+    "slug": "omelete-do-salario-que-caiu",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "ovos",
+      "colher de sopa de leite",
+      "Sal a gosto",
+      "Pimenta-do-reino a gosto",
+      "colher de sopa de queijo ralado"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com leite, sal e pimenta na tigela.",
+      "Aqueça a frigideira, despeje a mistura e deixe cozinhar em fogo médio.",
+      "Quando começar a firmar, polvilhe o queijo e dobre a omelete ao meio."
+    ],
+    "descricao": "Quando o dinheiro entra e você lembra que ovo é proteína, não boleto",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Se a omelete abrir, não se preocupe — é tipo a sua conta bancária vazando antes do dia 5."
+  },
+  {
+    "id": 1470,
+    "titulo": "Macarrão Expresso da Fatura Baixa",
+    "slug": "macarrao-expresso-da-fatura-baixa",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "g de macarrão tipo espaguete",
+      "dentes de alho picados",
+      "colheres de sopa de azeite",
+      "lata de molho de tomate",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão em água com sal até ficar al dente.",
+      "Refogue o alho no azeite, adicione o molho de tomate, sal e pimenta.",
+      "Escorra o macarrão, misture ao molho e sirva."
+    ],
+    "descricao": "Porque nem todo dinheiro novo dá pra pagar jantar caro, mas dá pra matar a fome",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "2 porções",
+    "dica": "Esse macarrão é igual a boleto atrasado: rápido e inevitável, mas pelo menos você come feliz."
+  },
+  {
+    "id": 1471,
+    "titulo": "Arroz com Ovo do “Recebi Hoje, Mas Já Foi”",
+    "slug": "arroz-com-ovo-do-recebi-hoje-mas-ja-foi",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "xícara de arroz branco cozido",
+      "ovos",
+      "colher de sopa de óleo",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça o óleo na frigideira e frite os ovos mexidos, tempere com sal.",
+      "Misture o arroz cozido ao ovo mexido e aqueça tudo junto.",
+      "Sirva imediatamente antes do dinheiro desaparecer."
+    ],
+    "descricao": "Aquele clássico que lembra que dinheiro vem e vai mais rápido que internet ruim",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "1 porção",
+    "dica": "Se o arroz grudar, lembre que até a vida adulta insiste em te deixar na mão."
+  },
+  {
+    "id": 1472,
+    "titulo": "Salada “Saldo Positivo” de Grão-de-Bico",
+    "slug": "salada-saldo-positivo-de-grao-de-bico",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "xícara de grão-de-bico cozido",
+      "tomate picado",
+      "½ cebola roxa picada",
+      "Suco de 1 limão",
+      "colheres de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Escorra o grão-de-bico e misture todos os ingredientes na tigela.",
+      "Tempere com limão, azeite, sal e pimenta.",
+      "Deixe na geladeira por 10 minutos antes de servir."
+    ],
+    "descricao": "Porque até o saldo bancário precisa de fibras pra não entupir",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Grão-de-bico é igual dinheiro: demora pra chegar, mas quando chega, dá aquela sensação boa."
+  },
+  {
+    "id": 1473,
+    "titulo": "Pão de Queijo do Primeira Parcela",
+    "slug": "pao-de-queijo-do-primeira-parcela",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "g de polvilho doce",
+      "ml de leite",
+      "ml de óleo",
+      "ovo",
+      "g de queijo minas ralado",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Ferva o leite com o óleo e despeje sobre o polvilho, mexendo até formar uma massa.",
+      "Deixe esfriar, adicione o ovo, queijo e sal; misture bem.",
+      "Modele bolinhas, coloque na assadeira e asse a 180°C por 25 minutos."
+    ],
+    "descricao": "Porque a alegria do parcelamento é a mesma do pão quentinho saindo do forno",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "8 unidades",
+    "dica": "Se a massa grudar na mão, pense que é igual boleto: às vezes incomoda, mas faz parte."
+  },
+  {
+    "id": 1474,
+    "titulo": "Sanduíche “Saldo Suficiente” de Frango Desfiado",
+    "slug": "sanduiche-saldo-suficiente-de-frango-desfiado",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "filés de peito de frango",
+      "fatias de pão integral",
+      "folhas de alface",
+      "fatias de tomate",
+      "colher de sopa de maionese",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe os filés de frango com sal e pimenta até ficarem macios.",
+      "Desfie o frango com um garfo e misture com a maionese.",
+      "Monte o sanduíche com alface, tomate e o frango desfiado."
+    ],
+    "descricao": "Quando o dinheiro chega, mas o coração ainda tá apertado na marmita",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Frango desfiado na vida é igual dinheiro fracionado: nunca vem tudo de uma vez, mas dá pra sobreviver."
+  },
+  {
+    "id": 1475,
+    "titulo": "Mingau do Primeiro Dinheiro no Bolso",
+    "slug": "mingau-do-primeiro-dinheiro-no-bolso",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "colheres de sopa de aveia",
+      "xícara de leite",
+      "colher de sopa de açúcar mascavo",
+      "Canela a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a aveia, leite e açúcar na panela.",
+      "Cozinhe em fogo baixo mexendo sempre até engrossar.",
+      "Sirva com canela polvilhada por cima."
+    ],
+    "descricao": "Porque até a gente merece um abraço quentinho quando o saldo entra",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "1 porção",
+    "dica": "Se o mingau virar papa, pense que às vezes a vida adulta é um pouco assim: pegajosa e sem explicação."
+  },
+  {
+    "id": 1476,
+    "titulo": "Sopa “Saldo Zerado” de Legumes",
+    "slug": "sopa-saldo-zerado-de-legumes",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "batatas médias picadas",
+      "cenouras picadas",
+      "cebola picada",
+      "dentes de alho picados",
+      "litro de água",
+      "Sal e pimenta a gosto",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no azeite até ficarem transparentes.",
+      "Adicione batata, cenoura, água, sal e pimenta; cozinhe até os legumes amaciarem.",
+      "Bata a sopa no liquidificador se quiser cremosa ou sirva rústica."
+    ],
+    "descricao": "Aquele caldo que conforta mais que ver o extrato bancário",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "3 porções",
+    "dica": "Se a sopa ficar rala, pelo menos ela não vai te cobrar juros como o banco."
+  },
+  {
+    "id": 1477,
+    "titulo": "Tapioca “Saldo no Azul”",
+    "slug": "tapioca-saldo-no-azul",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "colheres de sopa de queijo coalho ralado",
+      "colher de sopa de manteiga"
+    ],
+    "modoPreparo": [
+      "Aqueça a frigideira e espalhe a goma formando uma camada fina.",
+      "Quando firmar, espalhe o queijo e dobre a tapioca.",
+      "Coloque a manteiga por cima e sirva quente."
+    ],
+    "descricao": "Porque a felicidade é simples e cabe em 3 ingredientes",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,50",
+    "porcoes": "1 porção",
+    "dica": "Se a tapioca grudar, é só pensar que até o dinheiro às vezes insiste em não aparecer."
+  },
+  {
+    "id": 1478,
+    "titulo": "Bolo “Recebi e Já Pensei no Boleto”",
+    "slug": "bolo-recebi-e-ja-pensei-no-boleto",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "ovos",
+      "xícara de açúcar",
+      "xícaras de farinha de trigo",
+      "xícara de leite",
+      "colher de sopa de fermento em pó",
+      "colher de chá de essência de baunilha"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com açúcar até formar um creme claro.",
+      "Adicione o leite, farinha, fermento e baunilha, misturando delicadamente.",
+      "Despeje na forma untada e asse a 180°C por 35 minutos."
+    ],
+    "descricao": "O bolo que some mais rápido que seu saldo depois do pagamento",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "8 porções",
+    "dica": "Se o bolo virar pedra, pelo menos você não perde dinheiro, ao contrário do extrato."
+  },
+  {
+    "id": 1479,
+    "titulo": "Frango ao Curry do Dinheiro que Caiu do Céu",
+    "slug": "frango-ao-curry-do-dinheiro-que-caiu-do-ceu",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "g de peito de frango em cubos",
+      "cebola picada",
+      "dentes de alho picados",
+      "colher de sopa de curry em pó",
+      "ml de leite de coco",
+      "Sal e pimenta a gosto",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no azeite até dourar.",
+      "Adicione o frango, tempere com sal, pimenta e curry; deixe dourar.",
+      "Acrescente o leite de coco, cozinhe até o molho engrossar."
+    ],
+    "descricao": "Porque às vezes o saldo aparece do nada e merece sabor exótico",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "3 porções",
+    "dica": "Curry na vida é igual dinheiro inesperado: transforma o comum em festa."
+  },
+  {
+    "id": 1480,
+    "titulo": "Wrap “Recebi Hoje, Quero Gastar Depois”",
+    "slug": "wrap-recebi-hoje-quero-gastar-depois",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "tortilhas de trigo",
+      "g de peito de peru fatiado",
+      "folhas de alface",
+      "fatias de queijo mussarela",
+      "colher de sopa de maionese"
+    ],
+    "modoPreparo": [
+      "Aqueça as tortilhas na frigideira por alguns segundos.",
+      "Espalhe maionese, coloque alface, peito de peru e queijo.",
+      "Enrole firmemente e sirva."
+    ],
+    "descricao": "Porque enrolar o dinheiro é melhor quando ele vem enrolado também",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "2 porções",
+    "dica": "Se o wrap desmontar, é igual o planejamento financeiro: precisa de mais treino."
+  },
+  {
+    "id": 1481,
+    "titulo": "Salpicão do “Recebi Hoje, Mas Já Planejei o Pix”",
+    "slug": "salpicao-do-recebi-hoje-mas-ja-planejei-o-pix",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "g de frango cozido e desfiado",
+      "cenoura ralada",
+      "maçã picada",
+      "½ xícara de uva passa",
+      "colheres de sopa de maionese",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes na tigela.",
+      "Tempere com sal, pimenta e maionese até ficar cremoso.",
+      "Leve à geladeira por 15 minutos antes de servir."
+    ],
+    "descricao": "A salada que te lembra que dinheiro bom é o que rende, não o que some rápido",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Se a uva passa afundar, é igual seu dinheiro no fim do mês: some misteriosamente."
+  },
+  {
+    "id": 1482,
+    "titulo": "Panqueca “Recebi Hoje, Mas Já Quero Férias”",
+    "slug": "panqueca-recebi-hoje-mas-ja-quero-ferias",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "ovo",
+      "xícara de leite",
+      "colher de sopa de açúcar",
+      "pitada de sal",
+      "Recheio de sua preferência (doce ou salgado)"
+    ],
+    "modoPreparo": [
+      "Misture farinha, ovo, leite, açúcar e sal até formar massa lisa.",
+      "Aqueça a frigideira e faça panquecas finas, dourando dos dois lados.",
+      "Recheie e enrole antes de servir."
+    ],
+    "descricao": "Porque dinheiro novo merece recheio e drama na cozinha",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "3 porções",
+    "dica": "Se a panqueca rasgar, pelo menos você não rasga seu cartão de crédito ainda."
+  },
+  {
+    "id": 1483,
+    "titulo": "Espaguete à Bolonhesa do “Saldo Que Não Dura”",
+    "slug": "espaguete-a-bolonhesa-do-saldo-que-nao-dura",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "g de carne moída",
+      "cebola picada",
+      "dentes de alho picados",
+      "lata de molho de tomate",
+      "g de espaguete",
+      "Sal, pimenta e orégano a gosto",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no azeite, adicione a carne e cozinhe até dourar.",
+      "Acrescente o molho de tomate, tempere e deixe apurar por 20 minutos.",
+      "Cozinhe o espaguete em água com sal, escorra e misture ao molho."
+    ],
+    "descricao": "Porque o molho vermelho é mais persistente que a fatura do cartão",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "3 porções",
+    "dica": "Se o molho espirrar na camisa, aproveite e pague o boleto com estilo."
+  },
+  {
+    "id": 1484,
+    "titulo": "Quiche de Legumes do “Saldo Pra Gastar com Estilo”",
+    "slug": "quiche-de-legumes-do-saldo-pra-gastar-com-estilo",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "g de farinha de trigo",
+      "g de manteiga gelada",
+      "ovos",
+      "ml de creme de leite",
+      "xícara de legumes picados (cenoura, abobrinha, etc.)",
+      "Sal e noz-moscada a gosto"
+    ],
+    "modoPreparo": [
+      "Misture farinha e manteiga até formar uma farofa; adicione água para dar ponto e forre a forma.",
+      "Bata ovos com creme de leite, sal e noz-moscada; junte legumes.",
+      "Despeje na forma e asse a 180°C por 40 minutos."
+    ],
+    "descricao": "Porque às vezes a grana entra e a gente quer fingir que sabe cozinhar",
+    "tempo": "60 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 35,00",
+    "porcoes": "6 porções",
+    "dica": "Se a massa quebrar, pense que até o seu saldo às vezes dá uma trincada."
+  },
+  {
+    "id": 1485,
+    "titulo": "Crepioca do “Rende Mais Que o Saldo”",
+    "slug": "crepioca-do-rende-mais-que-o-saldo",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "ovo",
+      "Sal a gosto",
+      "Recheio opcional (queijo, presunto)"
+    ],
+    "modoPreparo": [
+      "Misture a goma de tapioca com o ovo e sal.",
+      "Aqueça a frigideira, despeje a mistura e cozinhe até firmar.",
+      "Recheie e dobre a crepioca ao meio."
+    ],
+    "descricao": "Porque economizar no café da manhã é arte e sobrevivência",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,50",
+    "porcoes": "1 porção",
+    "dica": "Se a crepioca ficar grudada, é só pensar que até a conta bancária às vezes empaca."
+  },
+  {
+    "id": 1486,
+    "titulo": "Bife Acebolado do “Salário que Não Engana”",
+    "slug": "bife-acebolado-do-salario-que-nao-engana",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "g de contra-filé em bifes",
+      "cebola grande em rodelas",
+      "Sal, pimenta e óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Tempere os bifes com sal e pimenta.",
+      "Aqueça o óleo e frite os bifes até o ponto desejado; reserve.",
+      "Na mesma frigideira, refogue a cebola até dourar e sirva sobre os bifes."
+    ],
+    "descricao": "Porque dinheiro fresco merece proteína de verdade, não miojo",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "2 porções",
+    "dica": "Se a cebola queimar, é tipo sua conta no fim do mês: amarga e difícil de engolir."
+  },
+  {
+    "id": 1487,
+    "titulo": "Mousse de Maracujá da “Grana que Vem e Vai”",
+    "slug": "mousse-de-maracuja-da-grana-que-vem-e-vai",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "lata de leite condensado",
+      "lata de creme de leite",
+      "lata de suco concentrado de maracujá"
+    ],
+    "modoPreparo": [
+      "Bata o leite condensado, creme de leite e suco de maracujá até ficar homogêneo.",
+      "Coloque em taças ou recipiente e leve à geladeira por no mínimo 3 horas.",
+      "Sirva gelado."
+    ],
+    "descricao": "Porque o saldo some, mas a sobremesa fica na memória",
+    "tempo": "3 h (incluindo geladeira)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Se o mousse ficar meio líquido, é igual seu saldo: às vezes some sem avisar."
+  },
+  {
+    "id": 1488,
+    "titulo": "Caldo de Feijão do “Dinheiro que Esquenta a Alma”",
+    "slug": "caldo-de-feijao-do-dinheiro-que-esquenta-a-alma",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "g de feijão carioca",
+      "pedaço de bacon picado",
+      "cebola picada",
+      "dentes de alho picados",
+      "Sal e pimenta a gosto",
+      "Água suficiente para cozinhar"
+    ],
+    "modoPreparo": [
+      "Cozinhe o feijão na panela de pressão com água por 30 minutos.",
+      "Refogue bacon, cebola e alho, junte ao feijão cozido.",
+      "Deixe ferver até engrossar ligeiramente e tempere."
+    ],
+    "descricao": "A receita que prova que até pouco pode ser muito quando bem feito",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 10,00",
+    "porcoes": "4 porções",
+    "dica": "Se o caldo ficar ralo, lembre-se que até o seu saldo tem dias assim: desaponta."
+  },
+  {
+    "id": 1489,
+    "titulo": "Pizza Caseira do “Recebi Hoje, Quero Só Viver”",
+    "slug": "pizza-caseira-do-recebi-hoje-quero-so-viver",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "g de farinha de trigo",
+      "g de fermento biológico seco",
+      "ml de água morna",
+      "colheres de sopa de azeite",
+      "g de molho de tomate",
+      "g de queijo mussarela",
+      "Orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Misture fermento, água, farinha e azeite até formar uma massa; deixe crescer 40 minutos.",
+      "Abra a massa, coloque na assadeira, espalhe molho, queijo e orégano.",
+      "Asse a 220°C por 20 minutos e sirva."
+    ],
+    "descricao": "Porque dinheiro novo merece festa até na cozinha",
+    "tempo": "1h 10 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 40,00",
+    "porcoes": "6 fatias",
+    "dica": "Se a massa ficar dura, pense que até o seu saldo às vezes é meio insosso."
+  },
+  {
+    "id": 1490,
+    "titulo": "Salada de Atum do “Saldo que Não Deixa Afundar”",
+    "slug": "salada-de-atum-do-saldo-que-nao-deixa-afundar",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "lata de atum em água",
+      "tomate picado",
+      "/2 cebola picada",
+      "colher de sopa de maionese",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Escorra o atum e misture com tomate, cebola e maionese.",
+      "Tempere com sal e pimenta.",
+      "Sirva gelado."
+    ],
+    "descricao": "Porque até dinheiro instável merece uma alimentação estável",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 17,00",
+    "porcoes": "2 porções",
+    "dica": "Se a maionese virar um molho estranho, é tipo sua planilha financeira: confusa e imprevisível."
+  },
+  {
+    "id": 1491,
+    "titulo": "Batata Rústica do “Recebi Hoje, Quero Descontar”",
+    "slug": "batata-rustica-do-recebi-hoje-quero-descontar",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "batatas médias",
+      "colheres de sopa de azeite",
+      "Sal grosso e alecrim a gosto"
+    ],
+    "modoPreparo": [
+      "Corte as batatas em palitos grossos com casca.",
+      "Misture com azeite, sal grosso e alecrim.",
+      "Asse em forno pré-aquecido a 200°C por 30 minutos, virando na metade."
+    ],
+    "descricao": "Porque às vezes o saldo só dá pra fritar as preocupações",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "3 porções",
+    "dica": "Se a batata queimar, é igual seu saldo no fim do mês: um desespero inesperado."
+  },
+  {
+    "id": 1492,
+    "titulo": "Cuscuz Nordestino do “Recebi Hoje, Mas Já Penso no Pix”",
+    "slug": "cuscuz-nordestino-do-recebi-hoje-mas-ja-penso-no-pix",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "xícara de farinha de milho para cuscuz",
+      "xícara de água",
+      "Sal a gosto",
+      "Manteiga para servir"
+    ],
+    "modoPreparo": [
+      "Hidrate a farinha com água e sal, misturando bem.",
+      "Coloque na cuscuzeira e cozinhe no vapor por 15 minutos.",
+      "Sirva com manteiga."
+    ],
+    "descricao": "Porque até o dinheiro mais rápido merece um café da manhã lento",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "2 porções",
+    "dica": "Se o cuscuz ficar seco, pense que até o seu saldo às vezes é um pouco ranzinza."
+  },
+  {
+    "id": 1493,
+    "titulo": "Moqueca Rápida do “Recebi Hoje, Mas Já Quero Praia”",
+    "slug": "moqueca-rapida-do-recebi-hoje-mas-ja-quero-praia",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "g de peixe em postas",
+      "cebola fatiada",
+      "tomate picado",
+      "pimentão fatiado",
+      "ml de leite de coco",
+      "Coentro a gosto",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Em panela, faça camadas de cebola, tomate, pimentão e peixe.",
+      "Tempere com sal, pimenta e coentro, cubra com leite de coco.",
+      "Cozinhe tampado em fogo baixo por 25 minutos."
+    ],
+    "descricao": "Porque dinheiro bom é aquele que te leva pra longe do boleto",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 45,00",
+    "porcoes": "3 porções",
+    "dica": "Se o peixe desmanchar, é igual sua conta bancária depois do fim do mês: só sobram lembranças."
+  },
+  {
+    "id": 1494,
+    "titulo": "Smoothie Energético do “Dinheiro que Dá Energia”",
+    "slug": "smoothie-energetico-do-dinheiro-que-da-energia",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "banana madura",
+      "/2 xícara de morango",
+      "ml de leite ou bebida vegetal",
+      "colher de sopa de mel"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar homogêneo.",
+      "Sirva imediatamente."
+    ],
+    "descricao": "Porque saldo cheio merece um boost antes do próximo boleto",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "1 porção",
+    "dica": "Se o smoothie ficar aguado, é igual seu saldo: às vezes decepciona, mas cumpre o básico."
+  },
+  {
+    "id": 1495,
+    "titulo": "Strogonoff Econômico do “Recebi Hoje, Mas Já Quero Gastar”",
+    "slug": "strogonoff-economico-do-recebi-hoje-mas-ja-quero-gastar",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "g de carne em tiras",
+      "cebola picada",
+      "lata de creme de leite",
+      "colheres de sopa de ketchup",
+      "Sal e pimenta a gosto",
+      "Óleo para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola no óleo até dourar, adicione a carne e cozinhe.",
+      "Junte ketchup, creme de leite, sal e pimenta; misture bem.",
+      "Cozinhe por 5 minutos e sirva com arroz branco."
+    ],
+    "descricao": "Porque o saldo é curto, mas o desejo é grande",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "3 porções",
+    "dica": "Se o molho talhar, pense que é só o saldo querendo fazer drama."
+  },
+  {
+    "id": 1496,
+    "titulo": "Salada de Quinoa do “Saldo que Vem Pra Ficar”",
+    "slug": "salada-de-quinoa-do-saldo-que-vem-pra-ficar",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "xícara de quinoa",
+      "pepino picado",
+      "tomate picado",
+      "Suco de 1 limão",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a quinoa conforme instruções da embalagem e deixe esfriar.",
+      "Misture com pepino, tomate, limão, azeite, sal e pimenta.",
+      "Sirva fresca."
+    ],
+    "descricao": "Porque dinheiro bem investido rende sabor e saúde",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "3 porções",
+    "dica": "Se a quinoa amargar, é igual suas decisões financeiras: às vezes você aprende na marra."
+  },
+  {
+    "id": 1497,
+    "titulo": "Bolo de Caneca do “Dinheiro que Caiu, Mas Não Aconteceu Nada”",
+    "slug": "bolo-de-caneca-do-dinheiro-que-caiu-mas-nao-aconteceu-nada",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "colheres de sopa de farinha de trigo",
+      "colheres de sopa de açúcar",
+      "colheres de sopa de cacau em pó",
+      "ovo",
+      "colheres de sopa de leite",
+      "colheres de sopa de óleo",
+      "colher de chá de fermento em pó"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes na caneca até ficar homogêneo.",
+      "Leve ao micro-ondas por 3 minutos.",
+      "Deixe esfriar um pouco e coma direto da caneca."
+    ],
+    "descricao": "Pra quem quer um doce rápido antes do boleto chegar",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,00",
+    "porcoes": "1 porção",
+    "dica": "Se o bolo secar, é igual seu saldo: rápido e decepcionante."
+  },
+  {
+    "id": 1498,
+    "titulo": "Moqueca Veggie do “Recebi Hoje, Quero Salvar o Mundo”",
+    "slug": "moqueca-veggie-do-recebi-hoje-quero-salvar-o-mundo",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "berinjela em cubos",
+      "abobrinha em cubos",
+      "tomate picado",
+      "cebola picada",
+      "ml de leite de coco",
+      "Coentro, sal e pimenta a gosto",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola no azeite, junte berinjela e abobrinha até amolecer.",
+      "Adicione tomate, leite de coco, sal, pimenta e coentro.",
+      "Cozinhe em fogo baixo por 20 minutos."
+    ],
+    "descricao": "Porque o saldo novo também pode ser verde e consciente",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "3 porções",
+    "dica": "Se o sabor ficar estranho, é só o saldo querendo te dar uma lição."
+  },
+  {
+    "id": 1499,
+    "titulo": "Cuscuz Paulista do “Recebi Hoje, Mas Já Estou No Vermelho”",
+    "slug": "cuscuz-paulista-do-recebi-hoje-mas-ja-estou-no-vermelho",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "xícaras de farinha de milho fina",
+      "g de peixe desfiado",
+      "tomate picado",
+      "cebola picada",
+      "pimentão picado",
+      "ovos cozidos fatiados",
+      "Sal, pimenta e azeite"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, tomate e pimentão no azeite; adicione peixe e tempere.",
+      "Misture a farinha de milho com o refogado e água suficiente para dar ponto.",
+      "Coloque em forma, decore com ovos, e cozinhe no vapor por 30 minutos."
+    ],
+    "descricao": "Porque até quando o saldo some, a comida tem que ser bonita",
+    "tempo": "50 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 35,00",
+    "porcoes": "6 porções",
+    "dica": "Se o cuscuz desmanchar, é igual seu planejamento financeiro: cheio de surpresas."
+  },
+  {
+    "id": 1500,
+    "titulo": "Pudim de Leite Condensado do “Saldo Que Derrete”",
+    "slug": "pudim-de-leite-condensado-do-saldo-que-derrete",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "lata de leite condensado",
+      "latas de leite (use a lata do leite condensado como medida)",
+      "ovos",
+      "xícara de açúcar para caramelizar"
+    ],
+    "modoPreparo": [
+      "Caramelize a forma com açúcar e reserve.",
+      "Bata no liquidificador leite condensado, leite e ovos.",
+      "Despeje na forma, asse em banho-maria a 180°C por 1 hora."
+    ],
+    "descricao": "Porque dinheiro e pudim têm algo em comum: desaparecem rápido",
+    "tempo": "1h 30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "8 porções",
+    "dica": "Se o pudim ficar com furinhos, é igual seu extrato bancário: cheio de buracos."
+  },
+  {
+    "id": 1501,
+    "titulo": "Pastel de Forno do “Dinheiro Que Não Dá Pra Comer Na Rua”",
+    "slug": "pastel-de-forno-do-dinheiro-que-nao-da-pra-comer-na-rua",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "g de massa pronta para pastel de forno",
+      "g de carne moída",
+      "cebola picada",
+      "Sal, pimenta e azeite",
+      "gema para pincelar"
+    ],
+    "modoPreparo": [
+      "Refogue a carne com cebola, sal e pimenta; deixe esfriar.",
+      "Abra a massa, corte em retângulos, recheie com carne e feche.",
+      "Pincele gema e asse a 200°C por 25 minutos."
+    ],
+    "descricao": "Pra quem recebeu hoje, mas não quer gastar com pastel na feira",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "6 unidades",
+    "dica": "Se o pastel abrir, é tipo o seu extrato: cheio de surpresas não convidadas."
+  },
+  {
+    "id": 1502,
+    "titulo": "Bolo de Cenoura com Cobertura de Chocolate do “Recebi Hoje, Quero Doce”",
+    "slug": "bolo-de-cenoura-com-cobertura-de-chocolate-do-recebi-hoje-quero-doce",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "cenouras médias",
+      "ovos",
+      "xícara de óleo",
+      "xícaras de açúcar",
+      "e ½ xícaras de farinha de trigo",
+      "colher de sopa de fermento",
+      "lata de leite condensado (para cobertura)",
+      "colheres de sopa de chocolate em pó"
+    ],
+    "modoPreparo": [
+      "Bata no liquidificador cenoura, ovos, óleo e açúcar.",
+      "Misture a farinha e fermento, leve para assar a 180°C por 40 minutos.",
+      "Faça a cobertura com leite condensado e chocolate, leve ao fogo até engrossar e espalhe no bolo."
+    ],
+    "descricao": "Porque saldo positivo merece uma explosão de açúcar na vida",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "10 porções",
+    "dica": "Se a cobertura ficar dura, é igual seu saldo depois das contas: só tristeza."
+  },
+  {
+    "id": 1503,
+    "titulo": "Escondidinho de Carne do “Saldo Que Ainda Esconde Surpresas”",
+    "slug": "escondidinho-de-carne-do-saldo-que-ainda-esconde-surpresas",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "g de carne moída",
+      "kg de mandioca cozida e amassada",
+      "cebola picada",
+      "dentes de alho picados",
+      "Sal, pimenta e azeite",
+      "Queijo ralado para gratinar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho, adicione carne, tempere e cozinhe.",
+      "Em um refratário, coloque a carne, cubra com a mandioca amassada.",
+      "Polvilhe queijo e leve ao forno para gratinar por 20 minutos."
+    ],
+    "descricao": "Porque dinheiro novo merece um prato que esconde o sofrimento",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Se o escondidinho ficar seco, é igual seu saldo: desaparece sem avisar."
+  },
+  {
+    "id": 1504,
+    "titulo": "Tapioca Doce “Recebi Hoje e Quero Mimar”",
+    "slug": "tapioca-doce-recebi-hoje-e-quero-mimar",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "colher de sopa de leite condensado",
+      "Coco ralado a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça a frigideira e espalhe a goma formando uma camada fina.",
+      "Quando firmar, espalhe leite condensado e polvilhe coco ralado.",
+      "Dobre a tapioca e sirva quente."
+    ],
+    "descricao": "Porque saldo novo merece um carinho açucarado na cozinha",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Se a goma não firmar, pensa que nem todo dinheiro fica no bolso, às vezes some rapidinho."
+  },
+  {
+    "id": 1505,
+    "titulo": "Arroz Carreteiro do “Recebi Hoje, Mas Já Quero Sair”",
+    "slug": "arroz-carreteiro-do-recebi-hoje-mas-ja-quero-sair",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "xícaras de arroz",
+      "g de carne seca dessalgada e desfiada",
+      "cebola picada",
+      "dentes de alho picados",
+      "Sal e pimenta a gosto",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no azeite, adicione a carne seca e refogue.",
+      "Junte o arroz, água suficiente e tempere.",
+      "Cozinhe até o arroz secar e sirva."
+    ],
+    "descricao": "Porque dinheiro novo pede um prato forte antes da conta chegar",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Se o arroz grudar no fundo, é igual boleto atrasado: ninguém quer, mas acontece."
+  },
+  {
+    "id": 1506,
+    "titulo": "Vitamina de Frutas do “Saldo que Dá Energia Pra Ficar no Azul”",
+    "slug": "vitamina-de-frutas-do-saldo-que-da-energia-pra-ficar-no-azul",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "banana",
+      "maçã picada",
+      "ml de suco de laranja",
+      "colher de sopa de mel"
+    ],
+    "modoPreparo": [
+      "Bata tudo no liquidificador até ficar homogêneo.",
+      "Sirva imediatamente."
+    ],
+    "descricao": "Porque até o dinheiro mais curto merece um boost natural",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vitamina ficar aguada, é igual seu saldo: às vezes decepciona, mas ajuda."
+  },
+  {
+    "id": 1507,
+    "titulo": "Esfiha Aberta do “Recebi Hoje, Mas Já Quero Gastar”",
+    "slug": "esfiha-aberta-do-recebi-hoje-mas-ja-quero-gastar",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "g de farinha de trigo",
+      "g de fermento biológico seco",
+      "ml de água morna",
+      "g de carne moída temperada",
+      "Sal, pimenta e azeite"
+    ],
+    "modoPreparo": [
+      "Misture a farinha, fermento e água até formar massa; deixe crescer 40 minutos.",
+      "Abra a massa, corte discos, coloque recheio e asse a 200°C por 20 minutos.",
+      "Sirva quente."
+    ],
+    "descricao": "Porque até o saldo curto merece uma viagem ao oriente médio",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "6 unidades",
+    "dica": "Se a esfiha abrir, é igual seu extrato bancário: cheia de surpresas não convidadas."
+  },
+  {
+    "id": 1508,
+    "titulo": "Churrasco Simples do “Saldo Que Vem Pra Celebrar”",
+    "slug": "churrasco-simples-do-saldo-que-vem-pra-celebrar",
+    "categoria": "Recebi Hoje ",
+    "ingredientes": [
+      "kg de carne bovina (picanha ou maminha)",
+      "Sal grosso a gosto",
+      "Limão para temperar"
+    ],
+    "modoPreparo": [
+      "Tempere a carne com sal grosso e limão.",
+      "Grelhe a carne na churrasqueira até o ponto desejado.",
+      "Corte em fatias e sirva."
+    ],
+    "descricao": "Porque quando o dinheiro cai, só dá vontade de chamar os amigos",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 50,00",
+    "porcoes": "5 porções",
+    "dica": "Se a carne queimar, pense que até seu saldo às vezes dá uma queimadinha básica."
+  }
+]

@@ -1,0 +1,854 @@
+[
+  {
+    "id": 159,
+    "titulo": "Café Expresso Clássico",
+    "slug": "cafe-expresso-classico",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "g de café moído para expresso",
+      "ml de água filtrada"
+    ],
+    "modoPreparo": [
+      "Aqueça a máquina de café expresso.",
+      "Coloque o café moído no porta-filtro e compacte levemente.",
+      "Acione a máquina para extrair o café diretamente na xícara."
+    ],
+    "descricao": "O empurrão que sua vida adulta insiste em pedir, tipo boleto vencido.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,00",
+    "porcoes": "1 porção",
+    "dica": "Se o café sair amargo demais, não é sua vida que está amarga, é só ajustar a moagem. Ou talvez seja mesmo."
+  },
+  {
+    "id": 160,
+    "titulo": "Café com Leite Cremoso da Vovó",
+    "slug": "cafe-com-leite-cremoso-da-vovo",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de leite integral",
+      "ml de café coado forte",
+      "colher de chá de açúcar (opcional)"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite na panela até quase ferver.",
+      "Bata o leite com o fouet até formar espuma cremosa.",
+      "Despeje o café nas canecas e adicione o leite por cima."
+    ],
+    "descricao": "Aquele abraço quentinho que nem seu crush te manda no WhatsApp.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,50",
+    "porcoes": "2 porções",
+    "dica": "Fazer espuma é igual a pagar boleto: ninguém quer, mas se não fizer, a vida fica sem graça."
+  },
+  {
+    "id": 161,
+    "titulo": "Mocha de Chocolate e Café para Sobreviver à Segunda",
+    "slug": "mocha-de-chocolate-e-cafe-para-sobreviver-a-segunda",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café expresso",
+      "ml de leite integral",
+      "colheres de sopa de chocolate em pó",
+      "colher de sopa de açúcar",
+      "Chantilly para decorar"
+    ],
+    "modoPreparo": [
+      "Misture o chocolate em pó com o açúcar e o leite em uma panela.",
+      "Aqueça mexendo até o chocolate dissolver completamente.",
+      "Adicione o café expresso, misture e despeje na caneca.",
+      "Cubra com chantilly a gosto."
+    ],
+    "descricao": "Porque café sozinho não salva, chocolate ajuda a disfarçar a tragédia.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 7,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vida te der limões, faça limonada. Se te der boletos, faça mocha e finja que tá tudo bem."
+  },
+  {
+    "id": 162,
+    "titulo": "Café Gelado com Leite Condensado – Adoçando o Caos",
+    "slug": "cafe-gelado-com-leite-condensado-adocando-o-caos",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado forte e gelado",
+      "ml de leite integral gelado",
+      "colheres de sopa de leite condensado",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Em uma jarra, misture o café gelado com o leite condensado até dissolver.",
+      "Adicione o leite gelado e mexa bem.",
+      "Sirva nos copos com bastante gelo."
+    ],
+    "descricao": "O café que refresca e faz você esquecer que tem reunião às 8h.",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,50",
+    "porcoes": "2 porções",
+    "dica": "Café gelado é igual férias: passa rápido, mas pelo menos dá um alívio."
+  },
+  {
+    "id": 163,
+    "titulo": "Cappuccino Caseiro com Canela – Porque a Vida é um Drama",
+    "slug": "cappuccino-caseiro-com-canela-porque-a-vida-e-um-drama",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café expresso",
+      "ml de leite integral",
+      "colher de chá de açúcar",
+      "Canela em pó para polvilhar"
+    ],
+    "modoPreparo": [
+      "Prepare o café expresso.",
+      "Aqueça e bata o leite até formar espuma densa.",
+      "Coloque o café na caneca, adicione o leite e cubra com espuma.",
+      "Polvilhe canela por cima."
+    ],
+    "descricao": "A espuma que cobre o estresse, mas não paga suas contas.",
+    "tempo": "12 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "A espuma de leite é tipo sua paciência: quanto mais bate, mais fina fica."
+  },
+  {
+    "id": 164,
+    "titulo": "Café Turbinado com Whey – Para os Atletas do Sofá",
+    "slug": "cafe-turbinado-com-whey-para-os-atletas-do-sofa",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado forte",
+      "scoop de whey protein sabor baunilha",
+      "ml de leite desnatado",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar homogêneo.",
+      "Sirva imediatamente para não perder a motivação."
+    ],
+    "descricao": "Proteína para o corpo, cafeína para aguentar a vida real.",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Se o sofá não te levanta, pelo menos o café com whey tenta."
+  },
+  {
+    "id": 165,
+    "titulo": "Café com Cardamomo – O Exótico que Seu Boleto Não Permite",
+    "slug": "cafe-com-cardamomo-o-exotico-que-seu-boleto-nao-permite",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado",
+      "vagens de cardamomo",
+      "Açúcar a gosto"
+    ],
+    "modoPreparo": [
+      "Quebre levemente as vagens de cardamomo.",
+      "Ferva o café junto com as vagens por 5 minutos.",
+      "Coe e sirva adoçado a gosto."
+    ],
+    "descricao": "Sabor diferente pra fingir que sua vida é internacional.",
+    "tempo": "10 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 9,00",
+    "porcoes": "2 porções",
+    "dica": "Cardamomo é como amigo falso: dá um sabor diferente, mas não resolve seus problemas."
+  },
+  {
+    "id": 166,
+    "titulo": "Latte de Baunilha – Doce Engano Matinal",
+    "slug": "latte-de-baunilha-doce-engano-matinal",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café expresso",
+      "ml de leite integral",
+      "colher de chá de essência de baunilha",
+      "Açúcar a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite com a baunilha e o açúcar, mexendo bem.",
+      "Faça espuma com o leite usando o batedor.",
+      "Adicione o café expresso na caneca e despeje o leite por cima."
+    ],
+    "descricao": "O café que te faz pensar que a vida é doce, até ver o extrato bancário.",
+    "tempo": "12 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 7,50",
+    "porcoes": "1 porção",
+    "dica": "Esse latte é igual promessa de político: doce no começo, mas não sustenta."
+  },
+  {
+    "id": 167,
+    "titulo": "Café com Leite de Coco e Gengibre – Energia e Drama",
+    "slug": "cafe-com-leite-de-coco-e-gengibre-energia-e-drama",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado",
+      "ml de leite de coco",
+      "pedaço pequeno de gengibre ralado",
+      "Açúcar a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite de coco com o gengibre por 5 minutos.",
+      "Coe para retirar o gengibre.",
+      "Misture o café coado ao leite de coco e adoçe."
+    ],
+    "descricao": "Para quem quer acordar e ainda sentir que está numa praia... ou quase.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 8,00",
+    "porcoes": "2 porções",
+    "dica": "Gengibre no café é tipo cobrar boletos em grupo: esquenta o bicho."
+  },
+  {
+    "id": 168,
+    "titulo": "Café Dalgona – A Moda Que Te Cansa Antes do Trabalho",
+    "slug": "cafe-dalgona-a-moda-que-te-cansa-antes-do-trabalho",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "colheres de sopa de café solúvel",
+      "colheres de sopa de açúcar",
+      "colheres de sopa de água quente",
+      "ml de leite gelado"
+    ],
+    "modoPreparo": [
+      "Bata o café, açúcar e água quente até formar um creme firme.",
+      "Coloque o leite no copo e adicione o creme por cima."
+    ],
+    "descricao": "Porque bater café virou exercício físico, e a vida é mesmo uma academia.",
+    "tempo": "10 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 5,00",
+    "porcoes": "1 porção",
+    "dica": "Se bater café fosse um esporte, já estaria na olimpíada da preguiça."
+  },
+  {
+    "id": 169,
+    "titulo": "Café com Leite Quente e Torrada de Queijo – Café da Manhã dos Campeões",
+    "slug": "cafe-com-leite-quente-e-torrada-de-queijo-cafe-da-manha-dos-campeoes",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado quente",
+      "ml de leite quente",
+      "fatias de pão de forma",
+      "fatias de queijo prato"
+    ],
+    "modoPreparo": [
+      "Aqueça o café e o leite, misture na caneca.",
+      "Torre o pão e coloque o queijo por cima para derreter.",
+      "Sirva juntos e aproveite o pouco tempo antes do caos."
+    ],
+    "descricao": "O combo que te prepara pra perder no trânsito e no trabalho.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "1 porção",
+    "dica": "Torrada com queijo é o abraço que você não recebe do chefe."
+  },
+  {
+    "id": 170,
+    "titulo": "Café com Leite e Cacau – Pra Quem Quer Sofrer Doce",
+    "slug": "cafe-com-leite-e-cacau-pra-quem-quer-sofrer-doce",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado",
+      "ml de leite integral",
+      "colheres de sopa de cacau em pó",
+      "Açúcar a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o cacau com açúcar e um pouco de leite e aqueça até dissolver.",
+      "Adicione o restante do leite e o café, mexa bem.",
+      "Sirva quente."
+    ],
+    "descricao": "Porque só café não é drama suficiente, precisa do cacau pra aumentar.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "2 porções",
+    "dica": "Se o café com cacau fosse um relacionamento, seria aquele que te faz sofrer mas você não larga."
+  },
+  {
+    "id": 171,
+    "titulo": "Café com Hortelã Refrescante – Mentira que Anima",
+    "slug": "cafe-com-hortela-refrescante-mentira-que-anima",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado",
+      "ml de água",
+      "folhas de hortelã",
+      "Açúcar a gosto"
+    ],
+    "modoPreparo": [
+      "Ferva a água com as folhas de hortelã por 3 minutos.",
+      "Misture o chá de hortelã com o café coado e adoce.",
+      "Sirva quente ou gelado."
+    ],
+    "descricao": "O café que tenta te enganar dizendo que você tá renovado.",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,50",
+    "porcoes": "1 porção",
+    "dica": "Hortelã no café é igual promessa de dieta: refrescante, mas você sabe que não vai durar."
+  },
+  {
+    "id": 172,
+    "titulo": "Café com Leite e Canela – A Doce Tortura da Manhã",
+    "slug": "cafe-com-leite-e-canela-a-doce-tortura-da-manha",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado",
+      "ml de leite integral",
+      "colher de chá de canela em pó",
+      "Açúcar a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite com a canela até quase ferver.",
+      "Misture o café coado e adoce a gosto.",
+      "Sirva quente."
+    ],
+    "descricao": "Canela pra dar sabor, café pra disfarçar o cansaço, vida pra complicar.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,50",
+    "porcoes": "2 porções",
+    "dica": "Canela no café é igual cobrança de boleto: aparece sem avisar e não tem jeito."
+  },
+  {
+    "id": 173,
+    "titulo": "Café com Leite de Amêndoas e Mel – Sofisticação que o Boleto Não Permite",
+    "slug": "cafe-com-leite-de-amendoas-e-mel-sofisticacao-que-o-boleto-nao-permite",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado",
+      "ml de leite de amêndoas",
+      "colher de sopa de mel"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite de amêndoas com o mel, mexendo até dissolver.",
+      "Adicione o café coado e misture.",
+      "Sirva quente."
+    ],
+    "descricao": "Porque às vezes a gente tenta ser saudável, mas o boleto grita “desista”.",
+    "tempo": "12 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 10,00",
+    "porcoes": "1 porção",
+    "dica": "Leite de amêndoas no café é tipo amigo que só aparece quando precisa: fino, mas raro."
+  },
+  {
+    "id": 174,
+    "titulo": "Café com Chantilly e Raspas de Chocolate – A Felicidade Instantânea",
+    "slug": "cafe-com-chantilly-e-raspas-de-chocolate-a-felicidade-instantanea",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café expresso",
+      "ml de leite integral",
+      "Chantilly a gosto",
+      "g de chocolate meio amargo para raspar"
+    ],
+    "modoPreparo": [
+      "Aqueça e misture leite com café.",
+      "Despeje na caneca e cubra com chantilly.",
+      "Rale o chocolate por cima."
+    ],
+    "descricao": "Porque só café não basta, tem que ter açúcar, gordura e culpa junto.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "1 porção",
+    "dica": "Chantilly no café é como férias: só dura um pouco, mas vale cada segundo."
+  },
+  {
+    "id": 175,
+    "titulo": "Café com Leite de Aveia e Canela – O Sofrimento Vegano",
+    "slug": "cafe-com-leite-de-aveia-e-canela-o-sofrimento-vegano",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado",
+      "ml de leite de aveia",
+      "colher de chá de canela em pó",
+      "Açúcar mascavo a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite de aveia com a canela e o açúcar.",
+      "Misture o café coado e sirva quente."
+    ],
+    "descricao": "Quando o boleto não é só da conta, é também da dieta.",
+    "tempo": "12 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 8,00",
+    "porcoes": "2 porções",
+    "dica": "Leite de aveia é como promessa de academia: muita vontade, pouca prática."
+  },
+  {
+    "id": 176,
+    "titulo": "Café com Licor de Amêndoas – Pra Adultos com Problemas",
+    "slug": "cafe-com-licor-de-amendoas-pra-adultos-com-problemas",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café expresso",
+      "ml de licor de amêndoas",
+      "Chantilly para decorar (opcional)"
+    ],
+    "modoPreparo": [
+      "Prepare o café expresso.",
+      "Adicione o licor ao café e misture.",
+      "Decore com chantilly se desejar."
+    ],
+    "descricao": "O café que entende seu drama e ainda ajuda a esquecer.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "1 porção",
+    "dica": "Licor no café é o “jeitinho” do adulto que não aguenta mais boletos."
+  },
+  {
+    "id": 177,
+    "titulo": "Café com Leite Condensado e Paçoca – Brasilidade em Cada Gole",
+    "slug": "cafe-com-leite-condensado-e-pacoca-brasilidade-em-cada-gole",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado",
+      "ml de leite integral",
+      "colheres de sopa de leite condensado",
+      "unidades de paçoca esfarelada"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite com o leite condensado até quase ferver.",
+      "Misture o café coado ao leite.",
+      "Polvilhe a paçoca por cima antes de servir."
+    ],
+    "descricao": "Porque brasileiro é assim: mistura tudo e ainda acha que é simples.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 7,50",
+    "porcoes": "2 porções",
+    "dica": "Paçoca no café é tipo abraço de vó: doce, acolhedor e meio bagunçado."
+  },
+  {
+    "id": 178,
+    "titulo": "Café com Canela e Pimenta – Pra Quem Quer Sofrer em Grande Estilo",
+    "slug": "cafe-com-canela-e-pimenta-pra-quem-quer-sofrer-em-grande-estilo",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado",
+      "pitada de canela em pó",
+      "pitada de pimenta-do-reino moída",
+      "Açúcar a gosto"
+    ],
+    "modoPreparo": [
+      "Prepare o café coado.",
+      "Misture a canela, a pimenta e o açúcar no café quente.",
+      "Sirva imediatamente."
+    ],
+    "descricao": "Aquele café que te aquece e arde igual a fatura do cartão.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,50",
+    "porcoes": "1 porção",
+    "dica": "Pimenta no café é igual chefe gritando: dói, mas faz você ficar alerta."
+  },
+  {
+    "id": 179,
+    "titulo": "Café com Creme de Leite e Melado – Doce Ilusão",
+    "slug": "cafe-com-creme-de-leite-e-melado-doce-ilusao",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado",
+      "colheres de sopa de creme de leite",
+      "colher de sopa de melado de cana"
+    ],
+    "modoPreparo": [
+      "Misture o café com o creme de leite até ficar homogêneo.",
+      "Adicione o melado e mexa bem.",
+      "Sirva quente."
+    ],
+    "descricao": "Pra quem quer café com açúcar, gordura e culpa em um só copo.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "1 porção",
+    "dica": "Creme de leite no café é tipo férias prolongadas: você sabe que devia evitar, mas não resiste."
+  },
+  {
+    "id": 180,
+    "titulo": "Café com Baunilha e Noz-Moscada – O Luxo da Simplicidade",
+    "slug": "cafe-com-baunilha-e-noz-moscada-o-luxo-da-simplicidade",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado",
+      "ml de leite integral",
+      "colher de chá de essência de baunilha",
+      "pitada de noz-moscada ralada",
+      "Açúcar a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite com a baunilha e a noz-moscada.",
+      "Misture o café coado e adoce a gosto.",
+      "Sirva quente."
+    ],
+    "descricao": "Porque às vezes a gente quer se sentir rico, mesmo que só no café.",
+    "tempo": "12 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 8,00",
+    "porcoes": "2 porções",
+    "dica": "Noz-moscada no café é tipo elogio falso: deixa tudo mais interessante, mas não engana ninguém."
+  },
+  {
+    "id": 181,
+    "titulo": "Café com Leite e Mel – A Doçura que o Boleto Não Permite",
+    "slug": "cafe-com-leite-e-mel-a-docura-que-o-boleto-nao-permite",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado",
+      "ml de leite integral",
+      "colheres de sopa de mel"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite e misture com o café coado.",
+      "Adicione o mel e mexa até dissolver.",
+      "Sirva quente."
+    ],
+    "descricao": "Doce na medida para enganar a fome e a tristeza.",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,00",
+    "porcoes": "2 porções",
+    "dica": "Mel no café é como elogio do chefe: doce, raro e faz o dia valer a pena."
+  },
+  {
+    "id": 182,
+    "titulo": "Café com Licor de Cacau e Chantilly – O Pecado em Forma de Bebida",
+    "slug": "cafe-com-licor-de-cacau-e-chantilly-o-pecado-em-forma-de-bebida",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café expresso",
+      "ml de licor de cacau",
+      "Chantilly para decorar"
+    ],
+    "modoPreparo": [
+      "Prepare o café expresso.",
+      "Misture com o licor de cacau.",
+      "Cubra com chantilly e sirva."
+    ],
+    "descricao": "Porque café sem culpa é só café, e quem quer isso?",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 13,00",
+    "porcoes": "1 porção",
+    "dica": "Licor no café é como feriado prolongado: só faz bem se você souber aproveitar."
+  },
+  {
+    "id": 183,
+    "titulo": "Café com Creme de Coco e Açúcar Mascavo – Tropicalizando a Rotina",
+    "slug": "cafe-com-creme-de-coco-e-acucar-mascavo-tropicalizando-a-rotina",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado",
+      "ml de creme de coco",
+      "colheres de sopa de açúcar mascavo"
+    ],
+    "modoPreparo": [
+      "Aqueça o creme de coco com o açúcar mascavo até dissolver.",
+      "Misture o café coado e sirva quente."
+    ],
+    "descricao": "Aquele café que te leva pra praia, mesmo se você só for até a cozinha.",
+    "tempo": "12 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 9,00",
+    "porcoes": "2 porções",
+    "dica": "Creme de coco no café é tipo férias de 3 dias: pouco, mas faz o coração sorrir."
+  },
+  {
+    "id": 184,
+    "titulo": "Café com Leite e Amêndoas Torradas – Crocância que Você Não Pediu",
+    "slug": "cafe-com-leite-e-amendoas-torradas-crocancia-que-voce-nao-pediu",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado",
+      "ml de leite integral",
+      "g de amêndoas torradas picadas",
+      "Açúcar a gosto"
+    ],
+    "modoPreparo": [
+      "Torre as amêndoas em frigideira até dourar.",
+      "Aqueça o leite e misture com o café coado.",
+      "Sirva o café com leite e polvilhe as amêndoas por cima."
+    ],
+    "descricao": "Porque café bom é café que te surpreende, tipo boleto que não vem.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 10,00",
+    "porcoes": "2 porções",
+    "dica": "Amêndoas torradas no café são como surpresa boa: raras, mas te deixam feliz."
+  },
+  {
+    "id": 185,
+    "titulo": "Café com Leite e Açúcar Mascavo – O Básico que Salva Vidas",
+    "slug": "cafe-com-leite-e-acucar-mascavo-o-basico-que-salva-vidas",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado",
+      "ml de leite integral",
+      "colheres de sopa de açúcar mascavo"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite e misture com o café coado.",
+      "Adicione o açúcar mascavo e mexa.",
+      "Sirva quente."
+    ],
+    "descricao": "Porque às vezes tudo que você precisa é do básico, tipo férias.",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,50",
+    "porcoes": "2 porções",
+    "dica": "Açúcar mascavo no café é como abraço apertado: simples, mas reconfortante."
+  },
+  {
+    "id": 186,
+    "titulo": "Café com Leite e Melado de Cana – Adoçando o Sofrimento",
+    "slug": "cafe-com-leite-e-melado-de-cana-adocando-o-sofrimento",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado",
+      "ml de leite integral",
+      "colher de sopa de melado de cana"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite e misture ao café.",
+      "Adicione o melado e mexa bem.",
+      "Sirva quente."
+    ],
+    "descricao": "O café que tenta compensar o boleto que não para de chegar.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,50",
+    "porcoes": "1 porção",
+    "dica": "Melado no café é como sonho de férias: doce, mas rápido."
+  },
+  {
+    "id": 187,
+    "titulo": "Café com Leite de Soja e Canela – Acordando Sem Culpa",
+    "slug": "cafe-com-leite-de-soja-e-canela-acordando-sem-culpa",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado",
+      "ml de leite de soja",
+      "colher de chá de canela em pó",
+      "Açúcar a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite de soja com a canela e o açúcar.",
+      "Misture o café coado e sirva quente."
+    ],
+    "descricao": "Pra quem quer café, mas precisa fingir que é saudável.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "2 porções",
+    "dica": "Leite de soja no café é tipo promessa de segunda-feira: cheia de boas intenções, mas difícil de cumprir."
+  },
+  {
+    "id": 188,
+    "titulo": "Café com Leite e Chocolate Branco Ralado – Docinho que Te Engana",
+    "slug": "cafe-com-leite-e-chocolate-branco-ralado-docinho-que-te-engana",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado",
+      "ml de leite integral",
+      "g de chocolate branco ralado",
+      "Açúcar a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite com o chocolate ralado até derreter.",
+      "Misture o café coado e sirva quente."
+    ],
+    "descricao": "Porque café amargo não paga boleto, mas chocolate branco ajuda a esquecer.",
+    "tempo": "12 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 9,00",
+    "porcoes": "1 porção",
+    "dica": "Chocolate branco no café é igual aquele amigo que só aparece pra festa: doce e inesperado."
+  },
+  {
+    "id": 189,
+    "titulo": "Café com Leite e Gengibre em Pó – Pra Aquecer a Alma e o Bolo",
+    "slug": "cafe-com-leite-e-gengibre-em-po-pra-aquecer-a-alma-e-o-bolo",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado",
+      "ml de leite integral",
+      "colher de chá de gengibre em pó",
+      "Açúcar a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite com o gengibre e o açúcar.",
+      "Misture o café coado e sirva quente."
+    ],
+    "descricao": "O café que te esquenta antes do boleto congelar sua conta.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,50",
+    "porcoes": "2 porções",
+    "dica": "Gengibre no café é como aquele puxão de orelha: ardido, mas necessário."
+  },
+  {
+    "id": 190,
+    "titulo": "Café com Leite e Açúcar Mascavo com Biscoito Amanteigado – A Conforto Total",
+    "slug": "cafe-com-leite-e-acucar-mascavo-com-biscoito-amanteigado-a-conforto-total",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado",
+      "ml de leite integral",
+      "colheres de sopa de açúcar mascavo",
+      "biscoitos amanteigados"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite e misture com o café e o açúcar.",
+      "Sirva nas canecas com os biscoitos ao lado."
+    ],
+    "descricao": "Porque café bom é café que vem com biscoito pra aguentar a vida.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "2 porções",
+    "dica": "Biscoito no café é igual abraço de amigo: simples, mas salva o dia."
+  },
+  {
+    "id": 191,
+    "titulo": "Café com Leite e Cacau em Pó – O Clássico que Nunca Falha",
+    "slug": "cafe-com-leite-e-cacau-em-po-o-classico-que-nunca-falha",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado",
+      "ml de leite integral",
+      "colheres de sopa de cacau em pó",
+      "Açúcar a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite com o cacau e o açúcar, mexendo até dissolver.",
+      "Misture o café coado e sirva quente."
+    ],
+    "descricao": "A mistura que é o “bom dia” pra alma e o “pague seu boleto” pra carteira.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "2 porções",
+    "dica": "Cacau no café é como cobrar boleto em grupo: todo mundo participa, mas ninguém quer."
+  },
+  {
+    "id": 192,
+    "titulo": "Café com Leite e Canela em Pau – Aquele Toque Especial",
+    "slug": "cafe-com-leite-e-canela-em-pau-aquele-toque-especial",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado",
+      "ml de leite integral",
+      "pau de canela",
+      "Açúcar a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite com o pau de canela por 5 minutos.",
+      "Misture o café coado, adoce e sirva."
+    ],
+    "descricao": "Porque café também merece um carinho, diferente da fatura.",
+    "tempo": "12 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 6,00",
+    "porcoes": "2 porções",
+    "dica": "Canela em pau no café é tipo conselho de mãe: insistente, mas faz bem."
+  },
+  {
+    "id": 193,
+    "titulo": "Café com Leite e Baunilha em Fava – O Sabor do Sofrimento Chique",
+    "slug": "cafe-com-leite-e-baunilha-em-fava-o-sabor-do-sofrimento-chique",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado",
+      "ml de leite integral",
+      "fava de baunilha",
+      "Açúcar a gosto"
+    ],
+    "modoPreparo": [
+      "Corte a fava de baunilha e raspe as sementes.",
+      "Aqueça o leite com as sementes e a fava por 10 minutos.",
+      "Misture o café coado, adoce e sirva."
+    ],
+    "descricao": "Pra fingir que a crise é só no bolso, e não no paladar.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 11,00",
+    "porcoes": "2 porções",
+    "dica": "Fava de baunilha no café é igual boleto atrasado: caro, mas dá um gostinho especial."
+  },
+  {
+    "id": 194,
+    "titulo": "Café com Leite e Avelã – O Luxo que Você Merece (ou Não)",
+    "slug": "cafe-com-leite-e-avela-o-luxo-que-voce-merece-ou-nao",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado",
+      "ml de leite integral",
+      "colheres de sopa de creme de avelã"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite e misture o creme de avelã até dissolver.",
+      "Adicione o café coado, misture e sirva quente."
+    ],
+    "descricao": "Aquele café que te faz sentir rico, pelo menos por um gole.",
+    "tempo": "12 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 10,00",
+    "porcoes": "1 porção",
+    "dica": "Creme de avelã no café é igual final de novela: doce, inesperado e você quer mais."
+  },
+  {
+    "id": 195,
+    "titulo": "Café com Leite e Açúcar de Coco – O Doce que Não Engorda (Mentira)",
+    "slug": "cafe-com-leite-e-acucar-de-coco-o-doce-que-nao-engorda-mentira",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado",
+      "ml de leite integral",
+      "colheres de sopa de açúcar de coco"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite com o açúcar de coco até dissolver.",
+      "Misture o café coado e sirva quente."
+    ],
+    "descricao": "Porque a gente finge que é saudável até no café.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "2 porções",
+    "dica": "Açúcar de coco no café é tipo promessa de dieta: você sabe que não vai cumprir, mas tenta."
+  },
+  {
+    "id": 196,
+    "titulo": "Café com Leite Condensado e Canela em Pó – A Felicidade na Medida Certa",
+    "slug": "cafe-com-leite-condensado-e-canela-em-po-a-felicidade-na-medida-certa",
+    "categoria": "Cafe ",
+    "ingredientes": [
+      "ml de café coado",
+      "ml de leite integral",
+      "colheres de sopa de leite condensado",
+      "Canela em pó para polvilhar"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite com o leite condensado até quase ferver.",
+      "Misture o café coado e sirva nas canecas.",
+      "Polvilhe canela em pó por cima."
+    ],
+    "descricao": "O café que é um abraço doce, quente e com pitada de “vai dar tudo certo” (ou não).",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,50",
+    "porcoes": "2 porções",
+    "dica": "Leite condensado no café é o jeitinho brasileiro de adoçar o amargo da vida."
+  }
+]

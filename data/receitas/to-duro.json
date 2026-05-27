@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1866,
+    "titulo": "Omelete de Restos da Geladeira",
+    "slug": "omelete-de-restos-da-geladeira",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "ovos",
+      "pitada de sal",
+      "colheres de sopa de vegetais variados picados (qualquer coisa da geladeira)",
+      "colher de sopa de queijo ralado (se tiver)"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com o sal na tigela.",
+      "Misture os vegetais e o queijo ralado.",
+      "Despeje a mistura na frigideira quente e cozinhe até firmar, virando para dourar ambos os lados."
+    ],
+    "descricao": "Quando o bolso aperta, até o que sobrou vira banquete.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,50",
+    "porcoes": "1 porção",
+    "dica": "Se a geladeira está tão vazia que parece cenário de filme pós-apocalíptico, pelo menos faça um omelete que tenha história pra contar – ou pelo menos um sabor que não seja só \"desespero\"."
+  },
+  {
+    "id": 1867,
+    "titulo": "Macarrão de Pacote com Ovo Estrelado",
+    "slug": "macarrao-de-pacote-com-ovo-estrelado",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "pacote de macarrão instantâneo",
+      "ovo",
+      "colher de sopa de óleo",
+      "Temperos do pacote"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão conforme instruções do pacote.",
+      "Frite o ovo na frigideira com óleo.",
+      "Escorra o macarrão, misture o tempero e sirva com o ovo por cima."
+    ],
+    "descricao": "Gourmetizar miojo porque a grana não dá pra caviar.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,00",
+    "porcoes": "1 porção",
+    "dica": "Se o boleto te chamar mais que a fome, pelo menos não deixa o ovo virar pedra – ele é o luxo que seu bolso pode bancar hoje."
+  },
+  {
+    "id": 1868,
+    "titulo": "Arroz com Feijão do Amor Próprio",
+    "slug": "arroz-com-feijao-do-amor-proprio",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "xícara de feijão carioca",
+      "xícara de arroz branco",
+      "dente de alho picado",
+      "colher de sopa de óleo",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Deixe o feijão de molho por 1 hora.",
+      "Cozinhe o feijão na panela de pressão por 20 minutos com sal e alho.",
+      "Em outra panela, refogue alho no óleo, adicione o arroz e água, cozinhe até secar.",
+      "Sirva arroz com feijão, porque amor próprio é ter comida na mesa."
+    ],
+    "descricao": "A combinação que nunca te deixa na mão, mesmo quando a carteira chora.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 6,00",
+    "porcoes": "3 porções",
+    "dica": "Se a grana tá curta, pelo menos o arroz com feijão não te deixa na mão – diferente daquele crush que sumiu depois do primeiro \"oi\"."
+  },
+  {
+    "id": 1869,
+    "titulo": "Sopa de Legumes de Desempregado",
+    "slug": "sopa-de-legumes-de-desempregado",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "batatas médias",
+      "cenouras",
+      "cebola pequena",
+      "talo de salsão (se tiver)",
+      "Sal e pimenta a gosto",
+      "Água suficiente para cobrir os legumes"
+    ],
+    "modoPreparo": [
+      "Pique todos os legumes em cubos pequenos.",
+      "Coloque na panela, cubra com água e cozinhe até os legumes amolecerem.",
+      "Tempere com sal e pimenta e sirva quente."
+    ],
+    "descricao": "Quando a geladeira grita \"socorro\" e o estômago só aceita caldo.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "4 porções",
+    "dica": "Sopa é igual boleto: não dá pra escapar, mas pelo menos te deixa quentinho e sem pressa de abrir a carteira."
+  },
+  {
+    "id": 1870,
+    "titulo": "Sanduíche de Ovo com Pão Dormido",
+    "slug": "sanduiche-de-ovo-com-pao-dormido",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "fatias de pão dormido",
+      "ovo",
+      "colher de chá de manteiga ou óleo",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Torre as fatias de pão na frigideira com um pouco de manteiga.",
+      "Frite o ovo, tempere com sal e pimenta.",
+      "Monte o sanduíche com o ovo entre as fatias e sirva."
+    ],
+    "descricao": "O luxo do pão amanhecido com o glamour da fritura econômica.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 2,50",
+    "porcoes": "1 porção",
+    "dica": "Pão dormido é como aquele amigo que não te responde, mas tá sempre ali – só que esse você pode comer sem culpa."
+  },
+  {
+    "id": 1871,
+    "titulo": "Farofa de Banana com Ovo",
+    "slug": "farofa-de-banana-com-ovo",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "bananas nanicas maduras",
+      "ovos",
+      "colheres de sopa de farinha de mandioca",
+      "colher de sopa de óleo",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Corte as bananas em rodelas e frite no óleo até dourar.",
+      "Bata os ovos com sal e despeje na frigideira, mexendo até cozinhar.",
+      "Adicione a farinha de mandioca, mexa até ficar úmido, sirva."
+    ],
+    "descricao": "O casamento perfeito entre o \"tô duro\" e o \"tô com fome\".",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,50",
+    "porcoes": "2 porções",
+    "dica": "Farofa de banana é igual boleto de cartão: surpresa garantida e você sempre acaba pagando com o que tem."
+  },
+  {
+    "id": 1872,
+    "titulo": "Panqueca de Aveia e Banana",
+    "slug": "panqueca-de-aveia-e-banana",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "banana madura amassada",
+      "colheres de sopa de aveia em flocos",
+      "ovo",
+      "colher de chá de óleo"
+    ],
+    "modoPreparo": [
+      "Misture a banana, aveia e ovo até formar uma massa.",
+      "Aqueça a frigideira com óleo e despeje porções da massa.",
+      "Cozinhe até dourar dos dois lados, sirva com mel ou açúcar."
+    ],
+    "descricao": "Café da manhã de rico? Não, só a cara de pau mesmo.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,80",
+    "porcoes": "2 porções",
+    "dica": "Aveia e banana: a dupla que te faz parecer fitness, mas na verdade você só quer economizar e adiar o boleto do cartão."
+  },
+  {
+    "id": 1873,
+    "titulo": "Arroz Temperado com Sardinha",
+    "slug": "arroz-temperado-com-sardinha",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "xícara de arroz",
+      "lata de sardinha com molho",
+      "dente de alho picado",
+      "colher de sopa de óleo",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue o alho no óleo até dourar.",
+      "Adicione o arroz e água, cozinhe até secar.",
+      "Misture a sardinha com o molho, tempere e sirva por cima do arroz."
+    ],
+    "descricao": "Luxo dos pobres: proteína em lata que não quebra o cofrinho.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "2 porções",
+    "dica": "Sardinha é o caviar dos bolsos vazios – cheira estranho, mas sustenta o dia e não pede aumento."
+  },
+  {
+    "id": 1874,
+    "titulo": "Salada de Grão-de-Bico Simples",
+    "slug": "salada-de-grao-de-bico-simples",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "lata de grão-de-bico escorrido",
+      "cebola pequena picada",
+      "Suco de 1 limão",
+      "Sal e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o grão-de-bico com a cebola na tigela.",
+      "Tempere com limão, sal e azeite.",
+      "Sirva frio ou em temperatura ambiente."
+    ],
+    "descricao": "Quando você quer parecer saudável, mas só tem grão e cebola.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,50",
+    "porcoes": "3 porções",
+    "dica": "Salada de grão-de-bico é igual promessa de político: parece boa, mas você sabe que vai ter que se virar nos 30 pra bancar."
+  },
+  {
+    "id": 1875,
+    "titulo": "Caldo de Mandioca com Linguiça de Pacote",
+    "slug": "caldo-de-mandioca-com-linguica-de-pacote",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "g de mandioca descascada e picada",
+      "linguiça calabresa pequena",
+      "cebola picada",
+      "dentes de alho picados",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a mandioca em água até ficar macia.",
+      "Refogue cebola, alho e linguiça fatiada na panela.",
+      "Adicione a mandioca cozida, amasse parte dela para engrossar o caldo.",
+      "Tempere e deixe ferver por mais 5 minutos."
+    ],
+    "descricao": "Conforto barato que esconde o vazio da carteira e da alma.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 8,00",
+    "porcoes": "4 porções",
+    "dica": "Caldo de mandioca é como aquele amigo que aparece só na hora do aperto: simples, mas te salva da fome e da solidão."
+  },
+  {
+    "id": 1876,
+    "titulo": "Bolo de Caneca de Micro-ondas Econômico",
+    "slug": "bolo-de-caneca-de-micro-ondas-economico",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "colheres de sopa de farinha de trigo",
+      "colheres de sopa de açúcar",
+      "colher de sopa de óleo",
+      "colheres de sopa de leite",
+      "ovo pequeno",
+      "colher de chá de fermento em pó"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes na caneca até formar uma massa homogênea.",
+      "Leve ao micro-ondas por 3 minutos em potência alta.",
+      "Deixe esfriar um pouco e coma direto da caneca."
+    ],
+    "descricao": "Sobremesa express que não exige parcelar no cartão.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 2,00",
+    "porcoes": "1 porção",
+    "dica": "Bolo de caneca é a prova que na vida a pressa é inimiga da dieta – e amiga da economia."
+  },
+  {
+    "id": 1877,
+    "titulo": "Purê de Batata com Cebola Caramelizada",
+    "slug": "pure-de-batata-com-cebola-caramelizada",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "batatas médias",
+      "cebola grande",
+      "colher de sopa de manteiga ou margarina",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe as batatas até ficarem macias.",
+      "Amasse as batatas com sal e manteiga até virar purê.",
+      "Em frigideira, refogue a cebola fatiada até caramelizar.",
+      "Sirva o purê com a cebola por cima."
+    ],
+    "descricao": "Sofisticação barata pra enganar o crush e o estômago.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 6,50",
+    "porcoes": "3 porções",
+    "dica": "Purê com cebola caramelizada é o jeitinho brasileiro de dizer “tô pobre, mas tô chique”."
+  },
+  {
+    "id": 1878,
+    "titulo": "Espaguete com Molho de Tomate Caseiro",
+    "slug": "espaguete-com-molho-de-tomate-caseiro",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "g de espaguete",
+      "tomates maduros",
+      "dente de alho picado",
+      "colher de sopa de óleo",
+      "Sal, pimenta e orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o espaguete até ficar al dente.",
+      "Pique os tomates e refogue o alho no óleo.",
+      "Adicione os tomates, tempere e cozinhe até formar molho.",
+      "Misture o espaguete no molho e sirva."
+    ],
+    "descricao": "Clássico eterno que nem o boleto atrasado consegue derrubar.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 7,00",
+    "porcoes": "2 porções",
+    "dica": "Molho de tomate caseiro é tipo boleto: demora, mas no fim você se arrepende de não ter feito antes."
+  },
+  {
+    "id": 1879,
+    "titulo": "Salada de Repolho com Cenoura e Maionese",
+    "slug": "salada-de-repolho-com-cenoura-e-maionese",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "/2 repolho pequeno fatiado fino",
+      "cenouras raladas",
+      "colheres de sopa de maionese",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o repolho e a cenoura na tigela.",
+      "Adicione a maionese, sal e pimenta, mexa bem.",
+      "Leve à geladeira por 10 minutos antes de servir."
+    ],
+    "descricao": "Salada de pobre que engana a vista e a fome.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,00",
+    "porcoes": "3 porções",
+    "dica": "Salada com maionese é tipo promessa de dieta: parece boa, mas no fundo você sabe que vai acabar no fast food."
+  },
+  {
+    "id": 1880,
+    "titulo": "Cuscuz de Milho Simples",
+    "slug": "cuscuz-de-milho-simples",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "xícara de flocos de milho para cuscuz",
+      "xícara de água quente",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque os flocos de milho numa tigela, adicione sal.",
+      "Acrescente a água quente e misture, deixe hidratar por 5 minutos.",
+      "Cozinhe na cuscuzeira por 15 minutos e sirva."
+    ],
+    "descricao": "O clássico nordestino que cabe no orçamento apertado.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,00",
+    "porcoes": "2 porções",
+    "dica": "Cuscuz é a prova que dá pra ser raiz e moderno ao mesmo tempo – e ainda economizar uns trocados pro boleto."
+  },
+  {
+    "id": 1881,
+    "titulo": "Sanduíche de Patê de Sardinha",
+    "slug": "sanduiche-de-pate-de-sardinha",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "lata de sardinha",
+      "colheres de sopa de maionese",
+      "fatias de pão",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Amasse a sardinha com a maionese na tigela.",
+      "Tempere com sal e pimenta.",
+      "Passe o patê nas fatias de pão e monte os sanduíches."
+    ],
+    "descricao": "Quando o pão com patê vira banquete de chef (ou quase).",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "2 porções",
+    "dica": "Patê de sardinha é o tiozão dos patês: ninguém quer, mas quando aparece, salva o churrasco (ou o fim do mês)."
+  },
+  {
+    "id": 1882,
+    "titulo": "Mingau de Aveia com Leite e Açúcar",
+    "slug": "mingau-de-aveia-com-leite-e-acucar",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "colheres de sopa de aveia em flocos",
+      "xícara de leite (ou água para economizar)",
+      "colher de sopa de açúcar"
+    ],
+    "modoPreparo": [
+      "Leve o leite ao fogo até ferver.",
+      "Acrescente a aveia e o açúcar, mexa até engrossar.",
+      "Sirva quente."
+    ],
+    "descricao": "Conforto barato pro coração e pro bolso.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 2,50",
+    "porcoes": "1 porção",
+    "dica": "Mingau é tipo abraço de vó: simples, barato e capaz de salvar seu dia de boleto atrasado."
+  },
+  {
+    "id": 1883,
+    "titulo": "Batata Doce Assada com Tempero de Alho",
+    "slug": "batata-doce-assada-com-tempero-de-alho",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "batatas doces médias",
+      "colher de sopa de azeite ou óleo",
+      "dentes de alho picados",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Lave e corte as batatas em rodelas grossas.",
+      "Misture alho, azeite e sal, tempere as batatas.",
+      "Asse em forno médio por 35 minutos, virando na metade."
+    ],
+    "descricao": "A batata que engana o estômago e o cartão de crédito.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,50",
+    "porcoes": "2 porções",
+    "dica": "Batata doce é o carboidrato que faz seu bolso chorar menos e sua fome chorar mais (de felicidade)."
+  },
+  {
+    "id": 1884,
+    "titulo": "Panqueca de Farinha de Trigo com Recheio de Doce de Leite",
+    "slug": "panqueca-de-farinha-de-trigo-com-recheio-de-doce-de-leite",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "ovo",
+      "xícara de leite",
+      "colheres de sopa de açúcar",
+      "Doce de leite para rechear"
+    ],
+    "modoPreparo": [
+      "Misture a farinha, ovo, leite e açúcar até formar massa líquida.",
+      "Aqueça a frigideira e faça panquecas finas.",
+      "Recheie com doce de leite e dobre ao meio."
+    ],
+    "descricao": "Pra adoçar a vida sem esvaziar a carteira – nem a esperança.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,00",
+    "porcoes": "3 porções",
+    "dica": "Panqueca doce é igual boleto parcelado: você sabe que vai pagar, mas pelo menos o sabor é bom enquanto dura."
+  },
+  {
+    "id": 1885,
+    "titulo": "Salada de Tomate com Cebola e Vinagrete",
+    "slug": "salada-de-tomate-com-cebola-e-vinagrete",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "tomates maduros",
+      "cebola pequena",
+      "colheres de sopa de vinagre",
+      "colheres de sopa de óleo",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Corte os tomates e a cebola em fatias finas.",
+      "Misture vinagre, óleo, sal e pimenta formando o vinagrete.",
+      "Regue os legumes com o vinagrete e sirva."
+    ],
+    "descricao": "Frescor barato pra fingir que tá tudo sob controle.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,00",
+    "porcoes": "3 porções",
+    "dica": "Salada simples é como aquele amigo que não te chama pra festa, mas aparece quando você menos espera (e você agradece)."
+  },
+  {
+    "id": 1886,
+    "titulo": "Farofa de Ovo com Cebola",
+    "slug": "farofa-de-ovo-com-cebola",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "ovos",
+      "/2 cebola picada",
+      "colheres de sopa de farinha de mandioca",
+      "colher de sopa de óleo",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola no óleo até dourar.",
+      "Bata os ovos e despeje na frigideira, mexa até cozinhar.",
+      "Adicione a farinha, mexa até ficar úmido, tempere e sirva."
+    ],
+    "descricao": "O segredo do sabor que não quebra o cofrinho.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,50",
+    "porcoes": "2 porções",
+    "dica": "Farofa é tipo boleto que você paga só depois do prazo, mas o sabor continua ali, firme e forte."
+  },
+  {
+    "id": 1887,
+    "titulo": "Purê de Abóbora com Cebola e Alho",
+    "slug": "pure-de-abobora-com-cebola-e-alho",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "g de abóbora descascada e picada",
+      "cebola pequena picada",
+      "dentes de alho picados",
+      "colher de sopa de óleo",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a abóbora até ficar macia.",
+      "Amasse a abóbora com sal.",
+      "Refogue alho e cebola no óleo, misture ao purê.",
+      "Ajuste o tempero e sirva."
+    ],
+    "descricao": "Sabor de comida caseira que não pede aumento no salário.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 5,50",
+    "porcoes": "3 porções",
+    "dica": "Purê de abóbora é tipo aquela dívida que você esquece, mas volta pra atormentar – só que esse só te faz feliz."
+  },
+  {
+    "id": 1888,
+    "titulo": "Bolinho de Arroz com Sobras",
+    "slug": "bolinho-de-arroz-com-sobras",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "xícaras de arroz cozido",
+      "ovo",
+      "colheres de farinha de trigo",
+      "Sal e temperos a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Misture o arroz, ovo, farinha e temperos até dar ponto.",
+      "Modele bolinhos com as mãos.",
+      "Frite em óleo quente até dourar."
+    ],
+    "descricao": "Nada se perde, tudo se transforma – até a fome.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 3,00",
+    "porcoes": "4 porções",
+    "dica": "Bolinho de arroz é igual boleto pago em dia: raro, mas quando acontece, é motivo de festa."
+  },
+  {
+    "id": 1889,
+    "titulo": "Mingau de Milho Verde com Leite",
+    "slug": "mingau-de-milho-verde-com-leite",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "espiga de milho verde (ou 1 lata de milho)",
+      "xícaras de leite",
+      "colheres de sopa de açúcar"
+    ],
+    "modoPreparo": [
+      "Bata o milho no liquidificador com um pouco de leite.",
+      "Coe a mistura e leve ao fogo com o restante do leite e açúcar.",
+      "Mexa até engrossar e sirva."
+    ],
+    "descricao": "Doce barato que aquece a alma e o bolso.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,50",
+    "porcoes": "2 porções",
+    "dica": "Mingau de milho é tipo esperança de promoção: doce, quentinho e que faz você acreditar no impossível."
+  },
+  {
+    "id": 1890,
+    "titulo": "Macarrão com Molho de Sardinha e Tomate",
+    "slug": "macarrao-com-molho-de-sardinha-e-tomate",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "g de macarrão",
+      "lata de sardinha",
+      "tomates maduros picados",
+      "dente de alho picado",
+      "colher de sopa de óleo",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão até al dente.",
+      "Refogue alho no óleo, adicione tomates e cozinhe até formar molho.",
+      "Junte a sardinha, tempere e misture ao macarrão."
+    ],
+    "descricao": "Pra mostrar que você sabe cozinhar mesmo com o que tem.",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 7,50",
+    "porcoes": "2 porções",
+    "dica": "Sardinha no macarrão é igual aquele boleto que você esqueceu: aparece quando menos espera, mas no fim dá um sabor especial."
+  },
+  {
+    "id": 1891,
+    "titulo": "Tapioca de Queijo Simples",
+    "slug": "tapioca-de-queijo-simples",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca hidratada",
+      "fatias de queijo muçarela ou outro barato"
+    ],
+    "modoPreparo": [
+      "Aqueça a frigideira e espalhe a goma formando um disco.",
+      "Quando firmar, coloque o queijo e dobre ao meio.",
+      "Espere derreter e sirva."
+    ],
+    "descricao": "Quando o queijo faz o papel de investidor na sua economia alimentar.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,00",
+    "porcoes": "1 porção",
+    "dica": "Tapioca é o investimento mais seguro da vida: não rende juros, mas rende sabor e economia."
+  },
+  {
+    "id": 1892,
+    "titulo": "Sopa de Macarrão com Ovo e Legumes",
+    "slug": "sopa-de-macarrao-com-ovo-e-legumes",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "g de macarrão para sopa",
+      "ovo",
+      "cenoura pequena picada",
+      "batata pequena picada",
+      "Sal e temperos a gosto",
+      "Água para o caldo"
+    ],
+    "modoPreparo": [
+      "Cozinhe a cenoura e a batata na água até amolecer.",
+      "Adicione o macarrão e cozinhe até ficar macio.",
+      "Quebre o ovo e misture delicadamente para cozinhar no caldo.",
+      "Tempere e sirva quente."
+    ],
+    "descricao": "O caldo quente que não deixa nem o frio nem a conta te congelar.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 6,00",
+    "porcoes": "3 porções",
+    "dica": "Sopa com ovo é tipo salário no fim do mês: não é muito, mas dá um alívio e sustenta a gente até o próximo."
+  },
+  {
+    "id": 1893,
+    "titulo": "Arroz Carreteiro Econômico",
+    "slug": "arroz-carreteiro-economico",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "xícaras de arroz cozido",
+      "g de carne moída ou sobras de carne",
+      "cebola picada",
+      "dentes de alho picados",
+      "colher de sopa de óleo",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue alho e cebola no óleo até dourar.",
+      "Adicione a carne e cozinhe até perder a cor crua.",
+      "Misture o arroz, tempere e deixe apurar por 10 minutos."
+    ],
+    "descricao": "O prato que transforma sobras em festa – e a carteira agradece.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 7,00",
+    "porcoes": "3 porções",
+    "dica": "Arroz carreteiro é o amigo que pega o que sobrou da festa e transforma em banquete – só que sem cobrar couvert artístico."
+  },
+  {
+    "id": 1894,
+    "titulo": "Cuscuz com Ovos Mexidos",
+    "slug": "cuscuz-com-ovos-mexidos",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "xícara de flocos de milho para cuscuz",
+      "ovos",
+      "Sal a gosto",
+      "colher de sopa de óleo"
+    ],
+    "modoPreparo": [
+      "Hidrate o cuscuz com água quente e cozinhe na cuscuzeira.",
+      "Bata os ovos com sal e faça ovos mexidos na frigideira.",
+      "Sirva o cuscuz com os ovos por cima."
+    ],
+    "descricao": "Café da manhã de milionário no espírito, pobre no bolso.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "2 porções",
+    "dica": "Cuscuz com ovos é a prova que até no aperto dá pra ser gourmet – ou pelo menos fingir no Instagram."
+  },
+  {
+    "id": 1895,
+    "titulo": "Pizza de Pão Sírio com Molho de Tomate e Queijo",
+    "slug": "pizza-de-pao-sirio-com-molho-de-tomate-e-queijo",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "pães sírios",
+      "colheres de sopa de molho de tomate",
+      "g de queijo ralado ou fatiado",
+      "Orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Espalhe o molho de tomate sobre o pão sírio.",
+      "Cubra com queijo e orégano.",
+      "Leve ao forno preaquecido a 180°C por 10 minutos ou até derreter o queijo."
+    ],
+    "descricao": "Quando a vontade de pizza é maior que o saldo da conta.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "2 porções",
+    "dica": "Pizza de pão sírio é o jeitinho brasileiro de driblar a fome e o boleto atrasado – simples, rápido e com gosto de vitória."
+  },
+  {
+    "id": 1896,
+    "titulo": "Mingau Salgado de Aveia com Legumes",
+    "slug": "mingau-salgado-de-aveia-com-legumes",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "colheres de sopa de aveia em flocos",
+      "xícara de água",
+      "/2 cenoura ralada",
+      "/4 cebola picada",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e a cenoura em uma panela com um pouco de óleo.",
+      "Adicione a água e a aveia, mexa até engrossar.",
+      "Tempere e sirva quente."
+    ],
+    "descricao": "Pra enganar o estômago e o gerente do banco.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,00",
+    "porcoes": "2 porções",
+    "dica": "Mingau salgado é igual boleto que não para de chegar: você não quer, mas sabe que vai ter que encarar."
+  },
+  {
+    "id": 1897,
+    "titulo": "Salada de Batata com Maionese Caseira",
+    "slug": "salada-de-batata-com-maionese-caseira",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "batatas médias",
+      "colheres de sopa de maionese caseira (ovo, óleo, limão, sal)",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe as batatas com casca até ficarem macias.",
+      "Descasque e corte em cubos.",
+      "Misture com a maionese caseira, tempere e leve à geladeira antes de servir."
+    ],
+    "descricao": "Frescor barato que engana até sua tia chata.",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 6,00",
+    "porcoes": "3 porções",
+    "dica": "Salada de batata com maionese é o truque do pobre que quer parecer chef sem gastar no supermercado."
+  },
+  {
+    "id": 1898,
+    "titulo": "Ovo Pochê no Pão Torrado",
+    "slug": "ovo-poche-no-pao-torrado",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "ovo",
+      "fatias de pão",
+      "colher de sopa de vinagre (para o ovo)",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Ferva água com vinagre e faça o ovo pochê, cozinhando por 3 minutos.",
+      "Torre o pão na frigideira ou torradeira.",
+      "Coloque o ovo sobre o pão e tempere."
+    ],
+    "descricao": "O brunch dos desempregados com estilo.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 4,50",
+    "porcoes": "1 porção",
+    "dica": "Ovo pochê é igual boleto parcelado: você sabe que vai ter trabalho, mas pelo menos a aparência é bonita."
+  },
+  {
+    "id": 1899,
+    "titulo": "Bolinho de Mandioca com Queijo",
+    "slug": "bolinho-de-mandioca-com-queijo",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "g de mandioca cozida e amassada",
+      "g de queijo ralado",
+      "ovo",
+      "Sal e pimenta a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Misture a mandioca amassada, queijo, ovo e temperos até ficar homogêneo.",
+      "Modele bolinhos com as mãos.",
+      "Frite em óleo quente até dourar e escorra."
+    ],
+    "descricao": "Petisco barato pra enganar o estômago e a vontade de sair.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 8,00",
+    "porcoes": "4 porções",
+    "dica": "Bolinho de mandioca é igual feriado prolongado: raro, mas quando acontece, todo mundo aproveita."
+  },
+  {
+    "id": 1900,
+    "titulo": "Sanduíche de Atum com Maionese",
+    "slug": "sanduiche-de-atum-com-maionese",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "lata de atum",
+      "colheres de sopa de maionese",
+      "fatias de pão",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o atum com a maionese, sal e pimenta.",
+      "Passe a mistura nas fatias de pão.",
+      "Monte os sanduíches e sirva."
+    ],
+    "descricao": "O clássico do pobre que quer fingir que tá na dieta.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "2 porções",
+    "dica": "Sanduíche de atum é como boleto: aparece sempre, mas você aprende a lidar e até gosta do sabor."
+  },
+  {
+    "id": 1901,
+    "titulo": "Café Preto com Pão com Manteiga",
+    "slug": "cafe-preto-com-pao-com-manteiga",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "xícara de café preto",
+      "fatias de pão",
+      "colher de sopa de manteiga"
+    ],
+    "modoPreparo": [
+      "Prepare o café coado ou solúvel.",
+      "Torre as fatias de pão e passe manteiga.",
+      "Sirva junto."
+    ],
+    "descricao": "O combo que mantém o pobre acordado e sonhando.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 2,00",
+    "porcoes": "1 porção",
+    "dica": "Café preto com pão é o abraço diário que seu bolso pode pagar – e o único pacote que não chega atrasado."
+  },
+  {
+    "id": 1902,
+    "titulo": "Frango Desfiado com Arroz e Cenoura",
+    "slug": "frango-desfiado-com-arroz-e-cenoura",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "peito de frango pequeno",
+      "xícara de arroz",
+      "cenoura ralada",
+      "Sal e temperos a gosto",
+      "colher de sopa de óleo"
+    ],
+    "modoPreparo": [
+      "Cozinhe o frango em água com sal, desfie e reserve o caldo.",
+      "Refogue a cenoura no óleo, adicione o arroz e o caldo do frango.",
+      "Cozinhe até o arroz ficar macio.",
+      "Misture o frango desfiado e sirva."
+    ],
+    "descricao": "Refeição que engana a fome e o gerente do banco.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 9,00",
+    "porcoes": "3 porções",
+    "dica": "Frango desfiado é igual àquele amigo que sempre aparece na hora do aperto: simples, mas essencial."
+  },
+  {
+    "id": 1903,
+    "titulo": "Bolo Salgado de Liquidificador",
+    "slug": "bolo-salgado-de-liquidificador",
+    "categoria": "To Duro ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "ovo",
+      "/2 xícara de óleo",
+      "/2 xícara de leite",
+      "colher de sopa de fermento em pó",
+      "lata de sardinha ou atum",
+      "Sal e temperos a gosto"
+    ],
+    "modoPreparo": [
+      "Bata no liquidificador a farinha, ovo, óleo, leite e fermento.",
+      "Misture a sardinha ou atum e tempere.",
+      "Despeje na forma untada e leve ao forno médio por 30 minutos."
+    ],
+    "descricao": "Pra enganar a fome e dizer que cozinha sem gastar uma fortuna.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 7,00",
+    "porcoes": "4 porções",
+    "dica": "Bolo salgado é o jeito do pobre ser gourmet sem precisar pagar o jantar – só não esquece de avisar que não é doce."
+  }
+]

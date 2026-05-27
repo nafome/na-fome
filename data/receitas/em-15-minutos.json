@@ -1,0 +1,876 @@
+[
+  {
+    "id": 744,
+    "titulo": "Omelete Power Turbo de Frango com Espinafre",
+    "slug": "omelete-power-turbo-de-frango-com-espinafre",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "ovos",
+      "g peito de frango desfiado cozido",
+      "punhado de espinafre fresco",
+      "colher de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com sal e pimenta na tigela.",
+      "Aqueça o azeite na frigideira, refogue o espinafre rapidamente.",
+      "Adicione o frango, despeje os ovos batidos e cozinhe até firmar."
+    ],
+    "descricao": "Porque nem todo herói usa capa, alguns usam frigideira e pressa.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "1 porção",
+    "dica": "Omelete é igual boleto, você só quer que acabe rápido e sem sustos, mas pelo menos essa dá energia sem calote."
+  },
+  {
+    "id": 745,
+    "titulo": "Salada Mediterrânea Express com Grão-de-Bico",
+    "slug": "salada-mediterranea-express-com-grao-de-bico",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "lata de grão-de-bico escorrido (240g)",
+      "tomates-cereja cortados ao meio",
+      "g queijo feta esfarelado",
+      "/2 cebola roxa picada",
+      "colheres de sopa de azeite",
+      "Suco de 1 limão",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o grão-de-bico, tomates, cebola e queijo na tigela.",
+      "Regue com azeite, limão, sal e pimenta.",
+      "Mexa bem e sirva sem drama."
+    ],
+    "descricao": "Salada que nem sua vida social: rápida, saudável e cheia de grão.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,50",
+    "porcoes": "2 porções",
+    "dica": "Essa salada é tão rápida que até sua procrastinação vai ficar com inveja."
+  },
+  {
+    "id": 746,
+    "titulo": "Macarrão ao Alho e Óleo com Camarão",
+    "slug": "macarrao-ao-alho-e-oleo-com-camarao",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "g macarrão espaguete",
+      "g camarão limpo",
+      "dentes de alho fatiados",
+      "colheres de sopa de azeite",
+      "Salsinha picada a gosto",
+      "Sal e pimenta do reino a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão em água com sal até ficar al dente e escorra.",
+      "Em uma frigideira, aqueça o azeite, doure o alho e refogue o camarão até ficar rosado.",
+      "Misture o macarrão ao molho, salpique salsinha e sirva."
+    ],
+    "descricao": "Porque às vezes a vida é só alho, óleo e um pouco de glamour.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "2 porções",
+    "dica": "Se o camarão não te conquistar, pelo menos o alho vai afastar aquele crush inconveniente."
+  },
+  {
+    "id": 747,
+    "titulo": "Sanduíche Natural Pós-Treino de Atum e Abacate",
+    "slug": "sanduiche-natural-pos-treino-de-atum-e-abacate",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "fatias de pão integral",
+      "lata de atum em água (120g)",
+      "/2 abacate maduro amassado",
+      "Suco de 1/2 limão",
+      "Sal e pimenta a gosto",
+      "Folhas de alface"
+    ],
+    "modoPreparo": [
+      "Misture o atum, abacate, limão, sal e pimenta na tigela.",
+      "Passe a mistura nas fatias de pão e adicione alface.",
+      "Monte o sanduíche e, se quiser, toste levemente."
+    ],
+    "descricao": "Energia pra malhar e disposição pra fugir das pessoas na academia.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "1 porção",
+    "dica": "Esse lanche é tão rápido que até a preguiça manda um \"vai nessa que tá bom\"."
+  },
+  {
+    "id": 748,
+    "titulo": "Panqueca de Aveia com Banana e Canela",
+    "slug": "panqueca-de-aveia-com-banana-e-canela",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "banana madura amassada",
+      "ovos",
+      "colheres de sopa de aveia em flocos",
+      "colher de chá de canela em pó",
+      "Mel para servir (opcional)"
+    ],
+    "modoPreparo": [
+      "Misture a banana, ovos, aveia e canela até formar uma massa homogênea.",
+      "Aqueça a frigideira e despeje porções da massa formando panquecas.",
+      "Cozinhe por 2-3 minutos de cada lado até dourar e sirva com mel."
+    ],
+    "descricao": "Café da manhã para quem quer acordar, mas o corpo só quer dormir.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "2 porções",
+    "dica": "Essa panqueca é tão rápida que dá tempo até de reclamar do despertador antes de comer."
+  },
+  {
+    "id": 749,
+    "titulo": "Wrap de Frango com Molho de Iogurte e Hortelã",
+    "slug": "wrap-de-frango-com-molho-de-iogurte-e-hortela",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "tortilhas de trigo integral",
+      "g peito de frango cozido e desfiado",
+      "colheres de sopa de iogurte natural",
+      "Folhas de hortelã picadas",
+      "Folhas de alface",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o iogurte, hortelã, sal e pimenta na tigela.",
+      "Aqueça o frango na frigideira, espalhe sobre as tortilhas.",
+      "Adicione alface e o molho, enrole os wraps e sirva."
+    ],
+    "descricao": "O lanche que diz “tô saudável” mas não abre mão do sabor.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Esse wrap é tão prático que até sua sogra vai achar que você sabe cozinhar."
+  },
+  {
+    "id": 750,
+    "titulo": "Sopa Rápida de Legumes com Gengibre",
+    "slug": "sopa-rapida-de-legumes-com-gengibre",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "cenouras médias picadas",
+      "batata média picada",
+      "/2 cebola picada",
+      "pedaço de gengibre fresco (2 cm) ralado",
+      "ml de caldo de legumes",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e gengibre na panela por 2 minutos.",
+      "Adicione cenoura, batata e caldo, cozinhe até os legumes amaciarem (10 min).",
+      "Bata no liquidificador até ficar cremoso, tempere e sirva."
+    ],
+    "descricao": "Para aquecer o corpo e esquentar as ideias antes do boletão do mês.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "3 porções",
+    "dica": "Sopa que esquenta mais rápido que sua internet quando o Wi-Fi cai."
+  },
+  {
+    "id": 751,
+    "titulo": "Salada Caprese com Redução de Balsâmico",
+    "slug": "salada-caprese-com-reducao-de-balsamico",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "tomates maduros fatiados",
+      "g mussarela de búfala fatiada",
+      "Folhas de manjericão fresco",
+      "colheres de sopa de vinagre balsâmico",
+      "colher de sopa de açúcar",
+      "Azeite a gosto",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Em panela pequena, reduza o vinagre com açúcar até engrossar (5-7 min).",
+      "Monte camadas de tomate, mussarela e manjericão no prato.",
+      "Regue com azeite, a redução e tempere com sal e pimenta."
+    ],
+    "descricao": "Sofisticação que cabe no tempo de um bloco de WhatsApp.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "2 porções",
+    "dica": "Essa salada é tão chique que até seu vizinho vai pedir para entrar no seu grupo da família."
+  },
+  {
+    "id": 752,
+    "titulo": "Bowl Vegano de Quinoa com Legumes Grelhados",
+    "slug": "bowl-vegano-de-quinoa-com-legumes-grelhados",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "xícara de quinoa cozida",
+      "abobrinha fatiada",
+      "cenoura fatiada",
+      "/2 pimentão vermelho fatiado",
+      "colheres de sopa de azeite",
+      "Sal, pimenta e ervas a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a quinoa conforme instruções (cerca de 12 min).",
+      "Enquanto isso, grelhe os legumes no azeite temperado.",
+      "Monte o bowl com quinoa e legumes, tempere com ervas e sirva."
+    ],
+    "descricao": "Porque ser vegano rápido é quase um esporte radical.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "2 porções",
+    "dica": "Esse bowl é mais rápido que você dizer “só mais cinco minutinhos” para o chefe."
+  },
+  {
+    "id": 753,
+    "titulo": "Tapioca Rápida de Queijo Coalho com Mel e Pimenta",
+    "slug": "tapioca-rapida-de-queijo-coalho-com-mel-e-pimenta",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "g queijo coalho fatiado",
+      "colher de chá de mel",
+      "Pimenta do reino a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça a frigideira e espalhe a goma formando uma panqueca.",
+      "Quando firmar, coloque o queijo, dobre e deixe derreter.",
+      "Sirva com mel e uma pitada de pimenta."
+    ],
+    "descricao": "O famoso “doce com salgado” pra confundir o paladar e a vida.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vida tá amarga, pelo menos essa tapioca te dá um docinho com pitada de malícia."
+  },
+  {
+    "id": 754,
+    "titulo": "Smoothie Verde Pós-Festa com Abacaxi e Hortelã",
+    "slug": "smoothie-verde-pos-festa-com-abacaxi-e-hortela",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "fatia grande de abacaxi",
+      "punhado de folhas de hortelã",
+      "/2 pepino picado",
+      "ml de água de coco",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar homogêneo.",
+      "Sirva gelado e tente se convencer que vai melhorar."
+    ],
+    "descricao": "Porque ressaca é só um lembrete que você precisa de mais verde na vida.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "1 porção",
+    "dica": "Esse smoothie é mais refrescante que sua desculpa para faltar na academia."
+  },
+  {
+    "id": 755,
+    "titulo": "Pão Sírio com Homus e Tomate Seco",
+    "slug": "pao-sirio-com-homus-e-tomate-seco",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "pães sírios pequenos",
+      "g homus pronto",
+      "tomates secos fatiados",
+      "Folhas de rúcula"
+    ],
+    "modoPreparo": [
+      "Corte os pães ao meio e espalhe homus generosamente.",
+      "Adicione tomates secos e folhas de rúcula.",
+      "Feche e sirva para impressionar sem esforço."
+    ],
+    "descricao": "O lanche que te faz parecer gourmet, mesmo com preguiça de lavar a louça.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "2 porções",
+    "dica": "Com esse lanche, até sua sogra vai achar que você é o chef da casa (mentira, mas sonhar não custa)."
+  },
+  {
+    "id": 756,
+    "titulo": "Espaguete de Abobrinha com Molho Pesto",
+    "slug": "espaguete-de-abobrinha-com-molho-pesto",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "abobrinhas médias em espiral",
+      "colheres de sopa de pesto pronto",
+      "colher de sopa de azeite",
+      "Queijo parmesão ralado a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça o azeite e refogue rapidamente o espaguete de abobrinha por 3 minutos.",
+      "Misture o pesto e mexa até incorporar.",
+      "Sirva com parmesão ralado por cima."
+    ],
+    "descricao": "Aquele macarrão que é saudável, mas não deixa você sentir falta do carboidrato na alma.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Esse prato é tão leve que até seu boleto do cartão vai parecer menos pesado."
+  },
+  {
+    "id": 757,
+    "titulo": "Tacos Rápidos de Carne Moída com Guacamole",
+    "slug": "tacos-rapidos-de-carne-moida-com-guacamole",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "g carne moída magra",
+      "tortilhas de milho pequenas",
+      "abacate maduro",
+      "Suco de 1 limão",
+      "tomate picado",
+      "/4 cebola picada",
+      "Sal, pimenta e temperos mexicanos a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a carne na frigideira com temperos até dourar.",
+      "Amasse o abacate com limão, tomate, cebola, sal e pimenta para fazer o guacamole.",
+      "Monte os tacos com carne e guacamole, sirva quente."
+    ],
+    "descricao": "A comida que te faz esquecer que amanhã tem reunião chata.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 27,00",
+    "porcoes": "3 porções",
+    "dica": "Esses tacos são tão bons que você vai esquecer que sua vida amorosa tá mais fria que freezer."
+  },
+  {
+    "id": 758,
+    "titulo": "Salada de Grãos com Frango e Molho Mostarda e Mel",
+    "slug": "salada-de-graos-com-frango-e-molho-mostarda-e-mel",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "xícara de grãos cozidos (feijão-fradinho, lentilha, etc)",
+      "g peito de frango cozido e desfiado",
+      "colheres de sopa de mostarda",
+      "colher de sopa de mel",
+      "colher de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a mostarda, mel, azeite, sal e pimenta para fazer o molho.",
+      "Em uma tigela, junte os grãos e o frango, adicione o molho e misture bem.",
+      "Sirva imediatamente ou leve à geladeira."
+    ],
+    "descricao": "O encontro perfeito entre “quero saudável” e “quero sabor” – sem drama.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "2 porções",
+    "dica": "Salada tão rápida que até o seu chefe vai achar que você trabalha em ritmo de feriado."
+  },
+  {
+    "id": 759,
+    "titulo": "Crepioca de Queijo com Tomate e Manjericão",
+    "slug": "crepioca-de-queijo-com-tomate-e-manjericao",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "ovo",
+      "g queijo mussarela ralado",
+      "tomates-cereja fatiados",
+      "Folhas de manjericão",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a goma de tapioca com o ovo na tigela.",
+      "Despeje na frigideira quente formando uma crepioca, espalhe o queijo e deixe derreter.",
+      "Adicione tomates e manjericão, dobre e sirva."
+    ],
+    "descricao": "Aquele café da manhã que acorda seu estômago antes do seu chefe.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "1 porção",
+    "dica": "Crepioca que é mais rápida que sua desculpa para não ir à academia."
+  },
+  {
+    "id": 760,
+    "titulo": "Filé de Tilápia Grelhado com Purê Rápido de Mandioquinha",
+    "slug": "file-de-tilapia-grelhado-com-pure-rapido-de-mandioquinha",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "filés de tilápia",
+      "g mandioquinha descascada e picada",
+      "colher de sopa de manteiga",
+      "Sal, pimenta e limão a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a mandioquinha em água fervente até amaciar (10 min).",
+      "Enquanto isso, tempere e grelhe os filés de tilápia por 3-4 minutos de cada lado.",
+      "Escorra a mandioquinha, amasse com manteiga, sal e pimenta e sirva junto com o peixe."
+    ],
+    "descricao": "Jantar romântico que não precisa de vinho caro, só de vontade.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "2 porções",
+    "dica": "Esse prato é tão rápido que até seu date vai achar que você domina a cozinha (spoiler: só domina o tempo)."
+  },
+  {
+    "id": 761,
+    "titulo": "Bolinho Rápido de Batata Doce com Queijo Coalho",
+    "slug": "bolinho-rapido-de-batata-doce-com-queijo-coalho",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "g batata doce cozida e amassada",
+      "g queijo coalho ralado",
+      "ovo",
+      "Sal, pimenta e cheiro-verde a gosto",
+      "Azeite para fritar"
+    ],
+    "modoPreparo": [
+      "Misture a batata doce, queijo, ovo e temperos até formar uma massa.",
+      "Modele bolinhos com a colher e frite no azeite até dourar.",
+      "Escorra em papel absorvente e sirva quente."
+    ],
+    "descricao": "Snack praqueles momentos que o estômago ronca mais que seu chefe.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "4 porções",
+    "dica": "Bolinho tão fácil que só falta ele pagar o seu boleto."
+  },
+  {
+    "id": 762,
+    "titulo": "Sanduíche Caprese com Pão Ciabatta",
+    "slug": "sanduiche-caprese-com-pao-ciabatta",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "pão ciabatta pequeno",
+      "g mussarela de búfala fatiada",
+      "tomates fatiados",
+      "Folhas de manjericão",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Corte o pão ao meio e regue com azeite.",
+      "Monte camadas de mussarela, tomate e manjericão.",
+      "Tempere com sal, pimenta e feche o sanduíche."
+    ],
+    "descricao": "O clássico italiano que dá um tempo no seu rango de delivery.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "1 porção",
+    "dica": "Sanduíche que é rápido e chique, igual você fingindo que sabe o que tá fazendo."
+  },
+  {
+    "id": 763,
+    "titulo": "Sauté de Cogumelos com Alho e Tomilho",
+    "slug": "saute-de-cogumelos-com-alho-e-tomilho",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "g cogumelos frescos fatiados",
+      "dentes de alho picados",
+      "colher de sopa de azeite",
+      "Ramos de tomilho fresco",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça o azeite e refogue o alho até dourar.",
+      "Adicione os cogumelos e tomilho, cozinhe até amaciar.",
+      "Tempere com sal e pimenta e sirva."
+    ],
+    "descricao": "Acompanhamento que faz até seu arroz branco parecer chef.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida te der cogumelos, faça esse sauté e finja que é chef de restaurante."
+  },
+  {
+    "id": 764,
+    "titulo": "Salada de Frutas com Iogurte Grego e Granola",
+    "slug": "salada-de-frutas-com-iogurte-grego-e-granola",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "maçã picada",
+      "banana fatiada",
+      "xícara de morangos picados",
+      "pote de iogurte grego natural (150g)",
+      "colheres de sopa de granola"
+    ],
+    "modoPreparo": [
+      "Misture as frutas na tigela.",
+      "Sirva com iogurte por cima e finalize com granola.",
+      "Coma antes que alguém peça pra dividir."
+    ],
+    "descricao": "Sobremesa ou café? Pra quem não tem tempo pra escolher.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Salada de frutas que é mais rápida que você tentando decidir o que quer na vida."
+  },
+  {
+    "id": 765,
+    "titulo": "Curry Rápido de Grão-de-Bico com Leite de Coco",
+    "slug": "curry-rapido-de-grao-de-bico-com-leite-de-coco",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "lata de grão-de-bico escorrido (240g)",
+      "ml leite de coco",
+      "/2 cebola picada",
+      "colher de sopa de curry em pó",
+      "colher de sopa de azeite",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola no azeite até ficar transparente.",
+      "Adicione o curry, grão-de-bico e leite de coco, cozinhe por 10 minutos.",
+      "Tempere e sirva com arroz ou pão."
+    ],
+    "descricao": "O prato que vai te transportar para a Índia, sem sair do sofá.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 23,00",
+    "porcoes": "3 porções",
+    "dica": "Curry tão rápido que sua única preocupação será saber se vai sobrar para amanhã."
+  },
+  {
+    "id": 766,
+    "titulo": "Bruschetta de Tomate com Manjericão e Alho",
+    "slug": "bruschetta-de-tomate-com-manjericao-e-alho",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "baguete fatiada",
+      "tomates maduros picados",
+      "dentes de alho picados",
+      "Folhas de manjericão",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Torre as fatias de baguete rapidamente na frigideira ou forno.",
+      "Misture tomate, alho, manjericão, azeite, sal e pimenta.",
+      "Coloque a mistura sobre as torradas e sirva."
+    ],
+    "descricao": "O aperitivo que vai salvar seu encontro, mesmo se você não souber cozinhar.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "4 porções",
+    "dica": "Bruschetta que é tão fácil que se fosse trabalho, seria freelancer sem chefe."
+  },
+  {
+    "id": 767,
+    "titulo": "Salada Asiática de Repolho com Amendoim",
+    "slug": "salada-asiatica-de-repolho-com-amendoim",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "xícaras de repolho roxo fatiado",
+      "cenoura ralada",
+      "colheres de sopa de amendoim torrado",
+      "colheres de sopa de molho shoyu",
+      "colher de sopa de vinagre de arroz",
+      "colher de chá de mel"
+    ],
+    "modoPreparo": [
+      "Misture o repolho, cenoura e amendoim na tigela.",
+      "Em outro recipiente, combine shoyu, vinagre e mel.",
+      "Regue a salada com o molho, misture e sirva."
+    ],
+    "descricao": "O crunch que sua vida precisava, junto com um toque de exotismo.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "2 porções",
+    "dica": "Salada tão crocante que vai te distrair até do boleto entrando na conta."
+  },
+  {
+    "id": 768,
+    "titulo": "Tapioca de Banana com Canela e Pasta de Amendoim",
+    "slug": "tapioca-de-banana-com-canela-e-pasta-de-amendoim",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "banana fatiada",
+      "colher de sopa de pasta de amendoim",
+      "Canela em pó a gosto"
+    ],
+    "modoPreparo": [
+      "Espalhe a goma na frigideira quente formando uma panqueca.",
+      "Quando firmar, adicione banana e pasta de amendoim, dobre a tapioca.",
+      "Finalize com canela e sirva."
+    ],
+    "descricao": "A sobremesa saudável que engana até sua vontade de besteira.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "1 porção",
+    "dica": "Essa tapioca é tão doce que vai até te fazer esquecer o preço do mercado."
+  },
+  {
+    "id": 769,
+    "titulo": "Frango Oriental Rápido com Legumes Salteados",
+    "slug": "frango-oriental-rapido-com-legumes-salteados",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "g peito de frango em tiras",
+      "cenoura fatiada",
+      "/2 pimentão em tiras",
+      "cebola pequena em tiras",
+      "colheres de sopa de molho shoyu",
+      "colher de sopa de óleo de gergelim",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça o óleo e refogue o frango até dourar.",
+      "Adicione os legumes e refogue por mais 5 minutos.",
+      "Regue com shoyu, tempere e sirva quente."
+    ],
+    "descricao": "Aquele almoço que parece complicado, mas é só mágica e pressa.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "2 porções",
+    "dica": "Esse prato é tão rápido que até sua sogra vai pedir a receita (ou pelo menos fingir)."
+  },
+  {
+    "id": 770,
+    "titulo": "Mousse de Chocolate Fit com Abacate",
+    "slug": "mousse-de-chocolate-fit-com-abacate",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "abacate maduro",
+      "colheres de sopa de cacau em pó",
+      "colheres de sopa de mel ou adoçante natural",
+      "colher de chá de essência de baunilha"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar cremoso.",
+      "Distribua em taças e leve à geladeira por pelo menos 10 minutos.",
+      "Sirva gelado e finja que é chef pâtissier."
+    ],
+    "descricao": "A sobremesa que engana a dieta, mas não seu paladar.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "2 porções",
+    "dica": "Mousse tão rápida que é quase um golpe de mestre na sua gula."
+  },
+  {
+    "id": 771,
+    "titulo": "Pizza Rápida de Pão Sírio com Queijo e Orégano",
+    "slug": "pizza-rapida-de-pao-sirio-com-queijo-e-oregano",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "pão sírio",
+      "g queijo muçarela ralado",
+      "colheres de sopa de molho de tomate",
+      "Orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Espalhe o molho no pão sírio.",
+      "Cubra com queijo e polvilhe orégano.",
+      "Aqueça na frigideira tampada até o queijo derreter."
+    ],
+    "descricao": "Praquele momento que você quer pizza, mas sem drama e sem espera.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "1 porção",
+    "dica": "Pizza tão rápida que até sua ansiedade vai dar um tempo."
+  },
+  {
+    "id": 772,
+    "titulo": "Espetinho Rápido de Frango com Legumes",
+    "slug": "espetinho-rapido-de-frango-com-legumes",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "g peito de frango em cubos",
+      "abobrinha fatiada em rodelas",
+      "pimentão em cubos",
+      "Sal, pimenta e limão a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o frango e os legumes com sal, pimenta e limão.",
+      "Monte os espetinhos intercalando frango e legumes.",
+      "Grelhe por cerca de 10 minutos, virando para dourar todos os lados."
+    ],
+    "descricao": "Porque espetinho é vida, principalmente quando o tempo é curto.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Espetinho tão rápido que até sua fila de WhatsApp vai esperar um pouco."
+  },
+  {
+    "id": 773,
+    "titulo": "Mingau Rápido de Aveia com Maçã e Canela",
+    "slug": "mingau-rapido-de-aveia-com-maca-e-canela",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "/2 xícara de aveia em flocos",
+      "xícara de leite ou bebida vegetal",
+      "maçã picada",
+      "colher de chá de canela em pó",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a aveia com o leite em fogo médio até engrossar.",
+      "Adicione a maçã e a canela, mexa e cozinhe por mais 2 minutos.",
+      "Sirva com mel por cima."
+    ],
+    "descricao": "O aconchego da infância, sem precisar pedir dinheiro pro papai.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "1 porção",
+    "dica": "Mingau que é mais reconfortante que encontrar dinheiro esquecido no bolso da calça."
+  },
+  {
+    "id": 774,
+    "titulo": "Burrito de Ovo Mexido com Queijo e Salsa",
+    "slug": "burrito-de-ovo-mexido-com-queijo-e-salsa",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "ovos",
+      "tortilha de trigo integral",
+      "g queijo ralado",
+      "colheres de sopa de salsa picada",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com sal e pimenta e faça ovos mexidos na frigideira.",
+      "Aqueça a tortilha, coloque os ovos, queijo e salsa.",
+      "Enrole formando o burrito e sirva."
+    ],
+    "descricao": "O café da manhã que te faz sentir um chef, mesmo antes do primeiro café.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "1 porção",
+    "dica": "Burrito tão rápido que dá tempo até de sonhar com férias enquanto come."
+  },
+  {
+    "id": 775,
+    "titulo": "Espetinhos Caprese com Redução de Balsâmico",
+    "slug": "espetinhos-caprese-com-reducao-de-balsamico",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "tomates-cereja",
+      "bolinhas de mussarela de búfala",
+      "Folhas de manjericão",
+      "colheres de sopa de vinagre balsâmico",
+      "colher de chá de açúcar"
+    ],
+    "modoPreparo": [
+      "Em panela, reduza o vinagre com açúcar até formar calda.",
+      "Monte os espetinhos intercalando tomate, mussarela e manjericão.",
+      "Regue com a redução e sirva."
+    ],
+    "descricao": "Petisco elegante para impressionar sem perder a dignidade.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Petisco tão fácil que até seu crush vai achar que você faz mágica na cozinha."
+  },
+  {
+    "id": 776,
+    "titulo": "Salada de Lentilha com Cenoura e Hortelã",
+    "slug": "salada-de-lentilha-com-cenoura-e-hortela",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "xícara de lentilha cozida",
+      "cenoura ralada",
+      "Folhas de hortelã picadas",
+      "colheres de sopa de azeite",
+      "Suco de 1 limão",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a lentilha até ficar macia (10 min).",
+      "Em tigela, misture lentilha, cenoura, hortelã, azeite, limão, sal e pimenta.",
+      "Sirva fria ou em temperatura ambiente."
+    ],
+    "descricao": "Simples, rápida e com proteína pra não deixar você de molho.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "2 porções",
+    "dica": "Salada tão rápida que até sua vontade de enrolar vai embora."
+  },
+  {
+    "id": 777,
+    "titulo": "Panqueca Americana Rápida com Mel e Frutas Vermelhas",
+    "slug": "panqueca-americana-rapida-com-mel-e-frutas-vermelhas",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "ovo",
+      "xícara de leite",
+      "colher de sopa de açúcar",
+      "colher de chá de fermento em pó",
+      "Frutas vermelhas a gosto",
+      "Mel para servir"
+    ],
+    "modoPreparo": [
+      "Misture farinha, ovo, leite, açúcar e fermento até formar massa lisa.",
+      "Aqueça a frigideira e faça panquecas pequenas, dourando dos dois lados.",
+      "Sirva com mel e frutas por cima."
+    ],
+    "descricao": "Café da manhã que te faz esquecer que segunda-feira existe.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "2 porções",
+    "dica": "Panqueca tão fácil que até sua preguiça vai levantar da cama."
+  },
+  {
+    "id": 778,
+    "titulo": "Salada Rápida de Abacate com Camarão e Coentro",
+    "slug": "salada-rapida-de-abacate-com-camarao-e-coentro",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "g camarão limpo",
+      "abacate maduro em cubos",
+      "Suco de 1 limão",
+      "Coentro picado a gosto",
+      "Sal e pimenta a gosto",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue os camarões em azeite até ficarem rosados.",
+      "Misture o abacate com limão, coentro, sal e pimenta na tigela.",
+      "Adicione os camarões e sirva imediatamente."
+    ],
+    "descricao": "Aquele toque tropical pra fugir da mesmice do almoço.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "2 porções",
+    "dica": "Salada que é tão rápida que seu crush vai achar que você é um mestre Jedi da cozinha."
+  },
+  {
+    "id": 779,
+    "titulo": "Mix de Frutas Secas e Castanhas para Energia Instantânea",
+    "slug": "mix-de-frutas-secas-e-castanhas-para-energia-instantanea",
+    "categoria": "Em 15 Minutos ",
+    "ingredientes": [
+      "g castanhas de caju",
+      "g nozes",
+      "g damascos secos picados",
+      "g uva passa"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes na tigela.",
+      "Sirva como snack rápido para qualquer hora."
+    ],
+    "descricao": "Porque a vida adulta é um eterno “me dá energia que eu aguento mais um boleto”.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "1 porção",
+    "dica": "Mix tão prático que até seu chefe vai querer um para o plantão."
+  }
+]

@@ -1,0 +1,1065 @@
+[
+  {
+    "id": 39,
+    "titulo": "Frango Cremoso com Cogumelos à Moda “Sofá e Boleto”",
+    "slug": "frango-cremoso-com-cogumelos-a-moda-sofa-e-boleto",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "g de peito de frango em cubos",
+      "g de cogumelos frescos fatiados",
+      "cebola média picada",
+      "dentes de alho picados",
+      "ml de creme de leite",
+      "colheres de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça o azeite e refogue a cebola e o alho até dourar.",
+      "Adicione o frango e cozinhe até ficar branco por fora.",
+      "Junte os cogumelos e refogue por 5 minutos.",
+      "Acrescente o creme de leite, tempere com sal e pimenta e cozinhe até engrossar."
+    ],
+    "descricao": "Para quem quer almoço gostoso, mas o boleto não deixa gastar no delivery.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "3 porções",
+    "dica": "Se o frango ficar duro, não é você que está velho demais, é ele que não quer colaborar – deixe marinar com limão antes, pelo menos o frango vai tentar cooperar."
+  },
+  {
+    "id": 40,
+    "titulo": "Arroz de Forno com Legumes e Queijo – Porque Segunda é Segunda",
+    "slug": "arroz-de-forno-com-legumes-e-queijo-porque-segunda-e-segunda",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "xícaras de arroz cozido",
+      "cenoura ralada",
+      "abobrinha ralada",
+      "tomate picado",
+      "g de queijo mussarela ralado",
+      "/2 xícara de creme de leite",
+      "Sal, pimenta e orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o arroz com os legumes, creme de leite e temperos.",
+      "Coloque em assadeira, cubra com queijo e orégano.",
+      "Leve ao forno a 180ºC por 20 minutos ou até gratinar."
+    ],
+    "descricao": "A receita que transforma sobras em obra-prima e sua vontade de cozinhar em lenda urbana.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida te der sobras, faça arroz de forno; se te der boletos, faça cara de quem não tá entendendo nada – a receita pelo menos vale a pena."
+  },
+  {
+    "id": 41,
+    "titulo": "Escondidinho de Carne Moída com Purê de Mandioca",
+    "slug": "escondidinho-de-carne-moida-com-pure-de-mandioca",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "g de carne moída",
+      "kg de mandioca cozida",
+      "cebola picada",
+      "dentes de alho picados",
+      "/2 xícara de leite",
+      "colheres de manteiga",
+      "Sal, pimenta e cheiro-verde a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho, acrescente a carne moída e tempere.",
+      "Amasse a mandioca com manteiga e leite até virar purê.",
+      "Em assadeira, faça uma camada de carne, cubra com purê.",
+      "Leve ao forno a 200ºC por 20 minutos até dourar."
+    ],
+    "descricao": "Porque às vezes a vida esconde os problemas, e o purê esconde a carne moída.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida tá difícil, pelo menos o purê é macio; e se alguém reclamar do calor do forno, diga que é só um aquecimento pro seu coração endurecido."
+  },
+  {
+    "id": 42,
+    "titulo": "Macarrão ao Molho de Tomate com Manjericão e Bacon Crocante",
+    "slug": "macarrao-ao-molho-de-tomate-com-manjericao-e-bacon-crocante",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "g de macarrão penne",
+      "g de bacon em cubinhos",
+      "tomates maduros picados",
+      "/2 cebola picada",
+      "dentes de alho picados",
+      "Folhas de manjericão a gosto",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão até ficar al dente.",
+      "Frite o bacon até ficar crocante e reserve.",
+      "Refogue cebola e alho, junte os tomates e cozinhe até virar molho.",
+      "Misture o macarrão ao molho, acrescente o bacon e manjericão."
+    ],
+    "descricao": "Porque às vezes o almoço tem que ser rápido pra sobrar tempo de reclamar da vida depois.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "3 porções",
+    "dica": "Se o bacon queimar, não chore; pelo menos a fumaça subiu rápido, igual sua paciência no trânsito."
+  },
+  {
+    "id": 43,
+    "titulo": "Salada de Grão-de-Bico com Atum – O Almoço dos Adultos que Não Querem Sofrer",
+    "slug": "salada-de-grao-de-bico-com-atum-o-almoco-dos-adultos-que-nao-querem-sofrer",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "lata de grão-de-bico cozido",
+      "lata de atum em água",
+      "tomate picado",
+      "/2 cebola roxa picada",
+      "Suco de 1 limão",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Escorra o grão-de-bico e o atum.",
+      "Misture todos os ingredientes em uma tigela.",
+      "Tempere com limão, azeite, sal e pimenta."
+    ],
+    "descricao": "Porque adulto também merece almoço rápido, saudável e que não peça conversa.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "2 porções",
+    "dica": "Se você acha que salada não sustenta, tente carregar uma caixa de boleto no dia seguinte – isso sim é peso de verdade."
+  },
+  {
+    "id": 44,
+    "titulo": "Strogonoff de Frango com Arroz Branco – O Clássico que Nunca Morre (E as Dívidas Também Não)",
+    "slug": "strogonoff-de-frango-com-arroz-branco-o-classico-que-nunca-morre-e-as-dividas-tambem-nao",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "g de peito de frango em tiras",
+      "cebola picada",
+      "lata de creme de leite",
+      "g de champignon fatiado",
+      "colheres de ketchup",
+      "colher de mostarda",
+      "Sal e pimenta a gosto",
+      "Arroz branco para acompanhar"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola, acrescente o frango e cozinhe até dourar.",
+      "Adicione champignon, ketchup, mostarda, sal e pimenta.",
+      "Abaixe o fogo, junte creme de leite e misture sem deixar ferver.",
+      "Sirva com arroz branco."
+    ],
+    "descricao": "O almoço que abraça e diz que amanhã a gente finge que paga o boleto.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Se o frango grudar na panela, não é falta de amor, é só falta de óleo – mas na vida, às vezes é falta de tudo."
+  },
+  {
+    "id": 45,
+    "titulo": "Omelete Recheado com Espinafre e Queijo Coalho – Porque Almoço Também Pode Ser Ovo",
+    "slug": "omelete-recheado-com-espinafre-e-queijo-coalho-porque-almoco-tambem-pode-ser-ovo",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "ovos",
+      "/2 xícara de espinafre cozido e picado",
+      "g de queijo coalho em cubos",
+      "Sal e pimenta a gosto",
+      "Azeite para untar"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com sal e pimenta.",
+      "Aqueça a frigideira untada e despeje os ovos batidos.",
+      "Quando começar a firmar, espalhe o espinafre e queijo.",
+      "Dobre a omelete ao meio e cozinhe até o queijo derreter."
+    ],
+    "descricao": "Pra quem quer almoço rápido e quer se sentir um chef mesmo sem saber nem fritar ovo direito.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Se a omelete grudar, não desanime – na vida, às vezes só precisa virar do avesso pra dar certo (ou chamar delivery mesmo)."
+  },
+  {
+    "id": 46,
+    "titulo": "Moqueca Baiana Simples – Pra Sentir o Sol Mesmo na Quarentena",
+    "slug": "moqueca-baiana-simples-pra-sentir-o-sol-mesmo-na-quarentena",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "g de filé de peixe em postas",
+      "tomates picados",
+      "pimentão verde fatiado",
+      "cebola em rodelas",
+      "ml de leite de coco",
+      "colheres de azeite de dendê",
+      "Coentro picado a gosto",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o peixe com sal e pimenta.",
+      "Em panela, faça camadas com cebola, tomate, pimentão e peixe.",
+      "Regue com leite de coco e azeite de dendê.",
+      "Cozinhe em fogo baixo com panela semi tampada por 30 minutos.",
+      "Finalize com coentro."
+    ],
+    "descricao": "Porque a gente não sabe se vai pra praia, mas o prato vai te levar lá no sabor.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Se o dendê ficar forte demais, não é sua vida que tá pegando fogo, é só a panela – mas cuidado pra não queimar o coração também."
+  },
+  {
+    "id": 47,
+    "titulo": "Panqueca de Carne com Molho de Tomate Caseiro – Porque Almoço é pra Ser Prático e Gostoso",
+    "slug": "panqueca-de-carne-com-molho-de-tomate-caseiro-porque-almoco-e-pra-ser-pratico-e-gostoso",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "ovo",
+      "e 1/4 xícara de leite",
+      "g de carne moída",
+      "tomates picados",
+      "cebola picada",
+      "dentes de alho picados",
+      "Sal, pimenta e orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Misture farinha, ovo e leite até formar massa líquida.",
+      "Faça panquecas finas na frigideira e reserve.",
+      "Refogue cebola, alho, acrescente carne, tempere e cozinhe.",
+      "Adicione tomates para fazer molho e cozinhe até apurar.",
+      "Recheie as panquecas, coloque em assadeira, cubra com molho e leve ao forno por 15 minutos."
+    ],
+    "descricao": "Para quem acha que panqueca é só sobremesa, mas quer fugir do arroz e feijão do dia a dia.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 24,00",
+    "porcoes": "4 porções",
+    "dica": "Se a massa grudar, não culpe a frigideira, culpe a vida que insiste em ser grudenta também."
+  },
+  {
+    "id": 48,
+    "titulo": "Esfiha Aberta de Frango com Catupiry – O Sabor do Oriente no Seu Almoço",
+    "slug": "esfiha-aberta-de-frango-com-catupiry-o-sabor-do-oriente-no-seu-almoco",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "g de farinha de trigo",
+      "g de fermento biológico seco",
+      "colher de açúcar",
+      "ml de água morna",
+      "g de peito de frango cozido e desfiado",
+      "cebola pequena picada",
+      "g de catupiry",
+      "Sal, pimenta e temperos a gosto"
+    ],
+    "modoPreparo": [
+      "Misture farinha, fermento, açúcar e água para formar massa; deixe crescer 1 hora.",
+      "Refogue cebola e frango, tempere a gosto.",
+      "Abra a massa, corte círculos, recheie com frango e catupiry.",
+      "Asse a 200ºC por 20 minutos ou até dourar."
+    ],
+    "descricao": "Pra quem quer viajar no sabor, mas não tem dinheiro nem pra passagem de ônibus.",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "6 porções",
+    "dica": "Se a massa ficar dura, não é o seu coração, é só a fermentação que resolveu tirar férias."
+  },
+  {
+    "id": 49,
+    "titulo": "Bobó de Camarão Simples",
+    "slug": "bobo-de-camarao-simples",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "g de camarão limpo",
+      "g de mandioca cozida",
+      "ml de leite de coco",
+      "dentes de alho",
+      "cebola média",
+      "tomates picados",
+      "colheres de azeite de dendê",
+      "Sal, pimenta e coentro a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue alho, cebola e tomate com azeite de dendê.",
+      "Bata a mandioca com leite de coco até virar um creme.",
+      "Junte o creme na panela, acrescente camarão e cozinhe até ficar rosa.",
+      "Finalize com coentro."
+    ],
+    "descricao": "Porque às vezes o almoço precisa ser tão bom que até o boleto vale a pena.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 50,00",
+    "porcoes": "4 porções",
+    "dica": "Se o camarão ficar borrachudo, não é o almoço que errou, é o seu amor próprio que precisa de descanso."
+  },
+  {
+    "id": 50,
+    "titulo": "Feijão Tropeiro – O Almoço que é um Abraço no Estômago e um Soco no Cansaço",
+    "slug": "feijao-tropeiro-o-almoco-que-e-um-abraco-no-estomago-e-um-soco-no-cansaco",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "xícaras de feijão cozido e escorrido",
+      "g de bacon em cubos",
+      "linguiça calabresa fatiada",
+      "ovos",
+      "cebola picada",
+      "Farinha de mandioca a gosto",
+      "Cheiro-verde picado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Frite bacon e linguiça até dourar.",
+      "Refogue cebola, acrescente feijão e misture.",
+      "Adicione ovos mexidos, farinha e cheiro-verde.",
+      "Misture até dar ponto, ajuste sal e pimenta."
+    ],
+    "descricao": "Porque um almoço que não dá trabalho é o único relacionamento que a gente quer.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Se a farinha grudar demais, não se preocupe, é só o amor grudando no seu coração cansado."
+  },
+  {
+    "id": 51,
+    "titulo": "Quiche de Alho-Poró com Queijo – Porque Almoço Também Pode Ser Chique (E Sem Sofrimento)",
+    "slug": "quiche-de-alho-poro-com-queijo-porque-almoco-tambem-pode-ser-chique-e-sem-sofrimento",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "massa pronta para torta",
+      "ovos",
+      "ml de creme de leite",
+      "alho-poró picado",
+      "g de queijo prato ralado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Pré-asse a massa por 10 minutos a 180ºC.",
+      "Refogue alho-poró, deixe amaciar.",
+      "Misture ovos, creme de leite, queijo, alho-poró, sal e pimenta.",
+      "Despeje sobre a massa e asse por 30 minutos até firmar."
+    ],
+    "descricao": "Pra quem quer impressionar no almoço, mas só tem 30 minutos e zero dignidade.",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "6 porções",
+    "dica": "Se a quiche afundar, não é sua autoestima, é só o peso da vida adulta que não perdoa."
+  },
+  {
+    "id": 52,
+    "titulo": "Bife à Milanesa com Purê de Batata – O Almoço que Te Abraça e Te Julga ao Mesmo Tempo",
+    "slug": "bife-a-milanesa-com-pure-de-batata-o-almoco-que-te-abraca-e-te-julga-ao-mesmo-tempo",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "bifes de alcatra",
+      "ovos batidos",
+      "Farinha de rosca para empanar",
+      "batatas grandes",
+      "colheres de manteiga",
+      "/2 xícara de leite",
+      "Sal e pimenta a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Cozinhe as batatas, amasse com manteiga e leite, tempere.",
+      "Tempere os bifes, passe no ovo e na farinha.",
+      "Frite os bifes até dourar.",
+      "Sirva com purê."
+    ],
+    "descricao": "Para quem quer um almoço que lembra infância, mas a conta bancária já tá no modo adulto responsável.",
+    "tempo": "45 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "3 porções",
+    "dica": "Se a milanesa não ficar crocante, não culpe a receita; às vezes, é só a sua vontade que tá mole demais."
+  },
+  {
+    "id": 53,
+    "titulo": "Salada Caesar com Frango Grelhado – Pra Quem Quer Almoço Light, Mas Não Tão Light Assim",
+    "slug": "salada-caesar-com-frango-grelhado-pra-quem-quer-almoco-light-mas-nao-tao-light-assim",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "peitos de frango",
+      "Alface romana a gosto",
+      "g de queijo parmesão ralado",
+      "Croutons prontos",
+      "colheres de sopa de molho Caesar",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere e grelhe os peitos de frango até dourar.",
+      "Rasgue a alface, misture com molho e croutons.",
+      "Fatie o frango e coloque por cima da salada.",
+      "Polvilhe parmesão e sirva."
+    ],
+    "descricao": "Porque dieta é como boleto, a gente finge que tá pagando, mas só vai juntando.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "2 porções",
+    "dica": "Se o molho acabar antes da salada, a culpa não é do frango, é do seu amor pelo molho que não tem limite."
+  },
+  {
+    "id": 54,
+    "titulo": "Peixe Assado com Legumes ao Forno – Pra Quem Quer Comer Bem e Fingir que Tá na Praia",
+    "slug": "peixe-assado-com-legumes-ao-forno-pra-quem-quer-comer-bem-e-fingir-que-ta-na-praia",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "filés de peixe branco",
+      "abobrinha fatiada",
+      "cenoura em rodelas",
+      "cebola em rodelas",
+      "dentes de alho picados",
+      "Suco de 1 limão",
+      "Azeite, sal, pimenta e ervas finas a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o peixe com limão, sal, pimenta e alho.",
+      "Em assadeira, coloque os legumes, regue com azeite e tempere.",
+      "Coloque os filés sobre os legumes, cubra com papel alumínio.",
+      "Asse a 180ºC por 30 minutos."
+    ],
+    "descricao": "Porque o verão no boleto só existe na imaginação, mas o peixe assado é real.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "3 porções",
+    "dica": "Se o peixe grudar, não é você que tá grudando na vida, é só a assadeira que não colaborou hoje."
+  },
+  {
+    "id": 55,
+    "titulo": "Panqueca de Espinafre com Ricota – O Almoço que Engana, Mas Nutre",
+    "slug": "panqueca-de-espinafre-com-ricota-o-almoco-que-engana-mas-nutre",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "ovo",
+      "xícara de leite",
+      "xícara de espinafre cozido e picado",
+      "g de ricota amassada",
+      "Sal e pimenta a gosto",
+      "Azeite para untar"
+    ],
+    "modoPreparo": [
+      "Misture farinha, ovo e leite até formar massa.",
+      "Acrescente o espinafre e tempere.",
+      "Faça panquecas finas na frigideira untada.",
+      "Recheie cada panqueca com ricota e enrole."
+    ],
+    "descricao": "Pra quem quer comer verdura sem sentir que tá pagando por isso.",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "3 porções",
+    "dica": "Se a panqueca rasgar, não chore; é só a vida te lembrando que nem tudo sai perfeito, nem o almoço e nem o boleto."
+  },
+  {
+    "id": 56,
+    "titulo": "Picadinho de Carne com Legumes – O Almoço que Te Faz Sentir um Chef (Sem Ter Que Ser um)",
+    "slug": "picadinho-de-carne-com-legumes-o-almoco-que-te-faz-sentir-um-chef-sem-ter-que-ser-um",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "g de carne bovina em cubos pequenos",
+      "cenoura picada",
+      "batata picada",
+      "cebola picada",
+      "dentes de alho picados",
+      "tomates picados",
+      "Sal, pimenta e cheiro-verde a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho, acrescente carne e doure.",
+      "Junte os tomates e cozinhe até formar molho.",
+      "Adicione legumes, cubra com água e cozinhe até amaciar.",
+      "Tempere e finalize com cheiro-verde."
+    ],
+    "descricao": "Porque comida feita em pedaços é mais fácil de mastigar e de engolir as frustrações.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "4 porções",
+    "dica": "Se a carne demorar a amolecer, relaxa, às vezes a gente também precisa de um tempo pra digerir a vida."
+  },
+  {
+    "id": 57,
+    "titulo": "Salpicão de Frango Clássico – O Almoço que Disfarça Saudabilidade com Maionese",
+    "slug": "salpicao-de-frango-classico-o-almoco-que-disfarca-saudabilidade-com-maionese",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "xícaras de frango cozido e desfiado",
+      "cenoura ralada",
+      "maçã picada",
+      "/2 xícara de milho verde",
+      "/2 xícara de ervilha",
+      "/2 xícara de maionese",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes em uma tigela.",
+      "Tempere com sal, pimenta e maionese.",
+      "Leve à geladeira por 30 minutos antes de servir."
+    ],
+    "descricao": "Porque salada com maionese é tipo boleto: ninguém gosta, mas não tem como evitar.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Se sobrar maionese, coma de colher – afinal, ninguém é de ferro, mas o coração é de manteiga."
+  },
+  {
+    "id": 58,
+    "titulo": "Frango Xadrez Rápido – O Almoço que Vira Festa em 30 Minutos",
+    "slug": "frango-xadrez-rapido-o-almoco-que-vira-festa-em-30-minutos",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "g de peito de frango em cubos",
+      "pimentão vermelho em cubos",
+      "cebola em cubos",
+      "/2 xícara de molho shoyu",
+      "colheres de óleo",
+      "dente de alho picado",
+      "Amendoim torrado a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça o óleo e refogue alho e frango até dourar.",
+      "Junte cebola e pimentão, mexa por 5 minutos.",
+      "Acrescente o molho shoyu e cozinhe até reduzir.",
+      "Finalize com amendoim e sirva."
+    ],
+    "descricao": "Pra quando a preguiça e a fome brigam, e só o frango ganha.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 24,00",
+    "porcoes": "3 porções",
+    "dica": "Se o frango ficar seco, não é você que tá seco, é só ele que não quer colaborar – tenta marinar antes, amor também precisa de tempero."
+  },
+  {
+    "id": 59,
+    "titulo": "Lasanha de Berinjela Light – Porque Almoço também pode ser saudável sem culpa (mas com muita delícia)",
+    "slug": "lasanha-de-berinjela-light-porque-almoco-tambem-pode-ser-saudavel-sem-culpa-mas-com-muita-delicia",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "berinjelas médias cortadas em fatias finas",
+      "g de molho de tomate",
+      "g de queijo cottage",
+      "cebola picada",
+      "dentes de alho picados",
+      "Sal, pimenta e orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Grelhe as fatias de berinjela até dourar.",
+      "Refogue cebola e alho, junte molho de tomate e tempere.",
+      "Em assadeira, faça camadas de berinjela, molho e queijo.",
+      "Leve ao forno a 180ºC por 30 minutos."
+    ],
+    "descricao": "Pra quem quer comer lasanha sem parecer que comeu um tijolo de carboidrato.",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "4 porções",
+    "dica": "Se a berinjela soltar muita água, não é choro, é só ela mostrando que tá mais molhada que seu coração depois do terceiro boleto do mês."
+  },
+  {
+    "id": 60,
+    "titulo": "Fricassê de Frango com Milho – O Almoço que Acolhe e Engorda (Mas a Gente Nem Liga)",
+    "slug": "fricasse-de-frango-com-milho-o-almoco-que-acolhe-e-engorda-mas-a-gente-nem-liga",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "g de frango cozido e desfiado",
+      "lata de milho verde",
+      "copo de requeijão cremoso",
+      "caixa de creme de leite",
+      "g de batata palha",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture frango, milho, requeijão e creme de leite.",
+      "Coloque em assadeira, cubra com batata palha.",
+      "Leve ao forno pré-aquecido a 180ºC por 15 minutos."
+    ],
+    "descricao": "Pra quem quer um abraço em forma de comida, apesar do saldo bancário triste.",
+    "tempo": "45 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 26,00",
+    "porcoes": "4 porções",
+    "dica": "Se sobrar batata palha, coma direto da embalagem – às vezes a vida precisa de crocância, nem que seja na alma."
+  },
+  {
+    "id": 61,
+    "titulo": "Risoto de Abóbora com Gorgonzola – Pra Quem Quer Sofisticação Sem Sofrimento",
+    "slug": "risoto-de-abobora-com-gorgonzola-pra-quem-quer-sofisticacao-sem-sofrimento",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "xícara de arroz arbóreo",
+      "g de abóbora picada",
+      "cebola picada",
+      "g de queijo gorgonzola",
+      "litro de caldo de legumes quente",
+      "colheres de manteiga",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola na manteiga, junte abóbora e cozinhe até amolecer.",
+      "Acrescente arroz e mexa até ficar translúcido.",
+      "Vá adicionando caldo aos poucos, mexendo até o arroz ficar cremoso.",
+      "Misture o gorgonzola, tempere e sirva."
+    ],
+    "descricao": "Porque almoço chique não precisa ser complicado, só precisa ter queijo que o boleto que lute.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "3 porções",
+    "dica": "Se o risoto empapar, não é a receita que falhou, é só seu coração que tá empapado de saudade do fim do mês."
+  },
+  {
+    "id": 62,
+    "titulo": "Bolinho de Arroz com Queijo e Ervas – O Almoço que Aproveita Restos e Alegria",
+    "slug": "bolinho-de-arroz-com-queijo-e-ervas-o-almoco-que-aproveita-restos-e-alegria",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "xícaras de arroz cozido",
+      "ovos",
+      "g de queijo parmesão ralado",
+      "Salsinha e cebolinha picadas",
+      "Farinha de trigo para dar liga",
+      "Sal e pimenta a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Misture arroz, ovos, queijo e ervas.",
+      "Adicione farinha até dar liga.",
+      "Modele bolinhos e frite até dourar."
+    ],
+    "descricao": "Porque a vida é curta demais pra jogar comida fora, mas longa demais pra cozinhar todo dia.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Se o bolinho desmanchar, não é falta de amor, é só falta de farinha – mas na vida, amor demais também desmancha."
+  },
+  {
+    "id": 63,
+    "titulo": "Sopa de Legumes com Carne – O Almoço que Aquece o Corpo e Congela as Emoções",
+    "slug": "sopa-de-legumes-com-carne-o-almoco-que-aquece-o-corpo-e-congela-as-emocoes",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "g de carne em cubos pequenos",
+      "cenouras picadas",
+      "batatas picadas",
+      "cebola picada",
+      "dentes de alho picados",
+      "litro de água",
+      "Sal, pimenta e cheiro-verde a gosto"
+    ],
+    "modoPreparo": [
+      "Doure a carne com cebola e alho.",
+      "Adicione legumes e água, cozinhe até amaciar.",
+      "Tempere e finalize com cheiro-verde."
+    ],
+    "descricao": "Pra quem quer um almoço reconfortante, mas a vida insiste em ser um gelo.",
+    "tempo": "60 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Se a sopa ficar sem graça, não é a receita, é só seu coração precisando de sal e pimenta pra viver."
+  },
+  {
+    "id": 64,
+    "titulo": "Espaguete ao Alho e Óleo com Camarão – O Almoço que Diz “Eu Consigo” Mesmo Sem Saber Cozinhar",
+    "slug": "espaguete-ao-alho-e-oleo-com-camarao-o-almoco-que-diz-eu-consigo-mesmo-sem-saber-cozinhar",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "g de espaguete",
+      "g de camarão limpo",
+      "dentes de alho fatiados",
+      "colheres de azeite",
+      "Sal, pimenta e salsinha a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o espaguete até al dente.",
+      "Refogue o alho no azeite até dourar, acrescente camarão e cozinhe.",
+      "Misture o espaguete ao camarão, tempere e salpique salsinha."
+    ],
+    "descricao": "Pra quem quer se sentir chef e bancar o mestre cuca, mas só sabe fritar alho.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 38,00",
+    "porcoes": "3 porções",
+    "dica": "Se o alho queimar, não fique bravo; é só sua paciência que tá fritando junto."
+  },
+  {
+    "id": 65,
+    "titulo": "Escondidinho de Abóbora com Carne Seca – Porque Esconder Problemas na Comida é Terapia",
+    "slug": "escondidinho-de-abobora-com-carne-seca-porque-esconder-problemas-na-comida-e-terapia",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "g de carne seca dessalgada e desfiada",
+      "kg de abóbora cozida",
+      "cebola picada",
+      "dentes de alho picados",
+      "/2 xícara de creme de leite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho, acrescente carne seca e refogue.",
+      "Amasse a abóbora com creme de leite e tempere.",
+      "Em assadeira, faça camada de carne e cubra com abóbora.",
+      "Leve ao forno por 20 minutos."
+    ],
+    "descricao": "Pra quem quer um almoço que abrace a alma e esconda as dívidas.",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Se a abóbora ficar muito mole, não é você que tá mole, é só ela mesmo – aproveita pra dar aquela relaxada também."
+  },
+  {
+    "id": 66,
+    "titulo": "Filé de Peixe Empanado com Salada de Batata – Pra Quem Quer Simplicidade e Sabor",
+    "slug": "file-de-peixe-empanado-com-salada-de-batata-pra-quem-quer-simplicidade-e-sabor",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "filés de peixe branco",
+      "Farinha de trigo para empanar",
+      "ovos batidos",
+      "Farinha de rosca para empanar",
+      "batatas cozidas e picadas",
+      "cebola pequena picada",
+      "colheres de maionese",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o peixe, passe na farinha, ovo e farinha de rosca.",
+      "Frite até dourar e reserve.",
+      "Misture batata, cebola, maionese, sal e pimenta para a salada.",
+      "Sirva juntos."
+    ],
+    "descricao": "Porque almoço não precisa ser complicado pra ser gostoso, só precisa de paciência pra fritar.",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 30,00",
+    "porcoes": "3 porções",
+    "dica": "Se o peixe desmanchar, não é você que tá fraco, é só ele que não quis entrar na linha."
+  },
+  {
+    "id": 67,
+    "titulo": "Frango ao Curry com Arroz de Coco – O Almoço que Transporta Pra Índia (Sem Passar pela Receita do Boleto)",
+    "slug": "frango-ao-curry-com-arroz-de-coco-o-almoco-que-transporta-pra-india-sem-passar-pela-receita-do-boleto",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "g de peito de frango em cubos",
+      "colheres de sopa de curry em pó",
+      "cebola picada",
+      "ml de leite de coco",
+      "xícaras de arroz branco",
+      "colher de manteiga",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, junte frango e curry, cozinhe até dourar.",
+      "Acrescente leite de coco, tampe e cozinhe por 15 minutos.",
+      "Cozinhe o arroz com manteiga para acompanhar."
+    ],
+    "descricao": "Pra quem quer tempero diferente, mas não quer que a conta vire drama.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "3 porções",
+    "dica": "Se o curry ficar forte demais, não é a receita que exagerou, é só sua vida que anda muito temperada."
+  },
+  {
+    "id": 68,
+    "titulo": "Torta de Frango com Massa de Liquidificador – Pra Quem Quer Economizar Tempo e Dinheiro",
+    "slug": "torta-de-frango-com-massa-de-liquidificador-pra-quem-quer-economizar-tempo-e-dinheiro",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "xícaras de farinha de trigo",
+      "copo de leite",
+      "/2 copo de óleo",
+      "ovos",
+      "xícaras de frango cozido e desfiado",
+      "cebola picada",
+      "/2 xícara de milho verde",
+      "Sal, pimenta e cheiro-verde a gosto"
+    ],
+    "modoPreparo": [
+      "No liquidificador, bata farinha, leite, óleo e ovos.",
+      "Refogue cebola, junte frango, milho e temperos.",
+      "Em assadeira untada, coloque metade da massa, recheio e cubra com o restante da massa.",
+      "Asse a 180ºC por 35 minutos."
+    ],
+    "descricao": "Porque às vezes o jeito é improvisar, mas sem perder o sabor (e a sanidade).",
+    "tempo": "50 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "6 porções",
+    "dica": "Se a massa ficar pesada, não é você que tá carregado, é só a torta mostrando que a vida adulta pesa mesmo."
+  },
+  {
+    "id": 69,
+    "titulo": "Bife Acebolado com Farofa – O Almoço que é Simples, Mas Nunca Sai de Moda",
+    "slug": "bife-acebolado-com-farofa-o-almoco-que-e-simples-mas-nunca-sai-de-moda",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "bifes de carne bovina",
+      "cebolas em rodelas",
+      "xícara de farinha de mandioca",
+      "colheres de manteiga",
+      "Sal e pimenta a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Tempere e frite os bifes, reserve.",
+      "Na mesma frigideira, refogue as cebolas até dourar.",
+      "Derreta manteiga, junte farinha e torre até dourar a farofa.",
+      "Sirva bifes com cebola por cima e farofa ao lado."
+    ],
+    "descricao": "Porque às vezes o básico é o que salva o dia (e o estômago).",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "3 porções",
+    "dica": "Se a cebola queimar, não chore – é só a vida dizendo que às vezes o que importa é o sabor amargo."
+  },
+  {
+    "id": 70,
+    "titulo": "Panqueca de Carne com Molho Branco – Porque Almoço Também Pode Ser Nostalgia",
+    "slug": "panqueca-de-carne-com-molho-branco-porque-almoco-tambem-pode-ser-nostalgia",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "ovo",
+      "xícara de leite",
+      "g de carne moída",
+      "cebola picada",
+      "dentes de alho picados",
+      "copo de leite para molho branco",
+      "colher de sopa de manteiga",
+      "colher de sopa de farinha para molho branco",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture farinha, ovo e leite para massa; faça panquecas finas.",
+      "Refogue cebola, alho e carne; tempere.",
+      "Faça molho branco com manteiga, farinha e leite.",
+      "Recheie panquecas com carne, cubra com molho e asse por 15 minutos."
+    ],
+    "descricao": "Pra quem quer um almoço que lembra infância, mas com a conta do adulto.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 26,00",
+    "porcoes": "4 porções",
+    "dica": "Se o molho talhar, não é a receita que falhou; é só seu amor próprio precisando de um pouco mais de calor."
+  },
+  {
+    "id": 71,
+    "titulo": "Salada de Quinoa com Legumes e Frango – O Almoço que Engana e Alimenta",
+    "slug": "salada-de-quinoa-com-legumes-e-frango-o-almoco-que-engana-e-alimenta",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "xícara de quinoa",
+      "g de peito de frango grelhado em cubos",
+      "tomate picado",
+      "pepino picado",
+      "Suco de 1 limão",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a quinoa conforme instruções da embalagem.",
+      "Misture quinoa, frango e legumes em tigela.",
+      "Tempere com limão, azeite, sal e pimenta."
+    ],
+    "descricao": "Pra quem quer parecer saudável sem abrir mão do sabor (ou do rango mesmo).",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 28,00",
+    "porcoes": "3 porções",
+    "dica": "Se a quinoa ficar amarga, não é a receita, é só o seu humor – tenta sorrir, melhora o sabor."
+  },
+  {
+    "id": 72,
+    "titulo": "Macarrão com Molho de Queijo e Brócolis – O Almoço que Abraça o Estômago e o Coração",
+    "slug": "macarrao-com-molho-de-queijo-e-brocolis-o-almoco-que-abraca-o-estomago-e-o-coracao",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "g de macarrão penne",
+      "maço de brócolis em floretes",
+      "ml de creme de leite",
+      "g de queijo muçarela ralado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão e o brócolis juntos por 8 minutos.",
+      "Em outra panela, aqueça creme de leite e queijo até derreter.",
+      "Misture macarrão, brócolis e molho de queijo."
+    ],
+    "descricao": "Pra quem quer conforto e sabor, mas o boleto só deixa comprar macarrão.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "3 porções",
+    "dica": "Se o queijo não derreter direito, não se preocupe – às vezes o amor também demora pra derreter."
+  },
+  {
+    "id": 73,
+    "titulo": "Carne de Panela com Batatas e Cenoura – O Almoço que Abraça a Alma Cansada",
+    "slug": "carne-de-panela-com-batatas-e-cenoura-o-almoco-que-abraca-a-alma-cansada",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "g de carne bovina em cubos",
+      "batatas grandes picadas",
+      "cenouras picadas",
+      "cebola picada",
+      "dentes de alho picados",
+      "Sal, pimenta e louro a gosto"
+    ],
+    "modoPreparo": [
+      "Doure a carne com cebola e alho na panela de pressão.",
+      "Adicione água, temperos e cozinhe por 40 minutos.",
+      "Acrescente batatas e cenoura, cozinhe por mais 20 minutos."
+    ],
+    "descricao": "Porque a vida adulta é dura, mas um bom cozido deixa tudo mais suportável.",
+    "tempo": "90 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 32,00",
+    "porcoes": "4 porções",
+    "dica": "Se a carne não amolecer, não é você que tá duro, é só ela que não quer colaborar – paciência é tempero secreto."
+  },
+  {
+    "id": 74,
+    "titulo": "Batata Recheada com Frango e Cheddar – O Almoço que é Conforto em Forma de Batata",
+    "slug": "batata-recheada-com-frango-e-cheddar-o-almoco-que-e-conforto-em-forma-de-batata",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "batatas grandes",
+      "g de frango cozido e desfiado",
+      "g de queijo cheddar ralado",
+      "/2 xícara de creme de leite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Asse as batatas até ficarem macias.",
+      "Corte uma tampa, retire parte da polpa e misture com frango, cheddar e creme de leite.",
+      "Recheie as batatas e leve ao forno para gratinar."
+    ],
+    "descricao": "Pra quem quer um almoço que é quase um abraço, mas sem precisar se levantar do sofá.",
+    "tempo": "50 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "3 porções",
+    "dica": "Se a batata quebrar, não chore – às vezes, até a batata tem crise existencial."
+  },
+  {
+    "id": 75,
+    "titulo": "Yakisoba Caseiro com Legumes – O Almoço que é Rápido, Barato e Engana o Estômago",
+    "slug": "yakisoba-caseiro-com-legumes-o-almoco-que-e-rapido-barato-e-engana-o-estomago",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "g de macarrão para yakisoba",
+      "cenoura em tiras",
+      "/2 repolho picado",
+      "cebola fatiada",
+      "peito de frango em tiras",
+      "colheres de molho shoyu",
+      "Sal e óleo para refogar"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão e reserve.",
+      "Refogue frango até dourar, junte legumes e cozinhe rápido.",
+      "Acrescente macarrão, molho shoyu, misture e aqueça."
+    ],
+    "descricao": "Porque às vezes a gente quer comida japonesa, mas só tem arroz e legumes na geladeira.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "3 porções",
+    "dica": "Se o macarrão grudar, não é você que tá grudando na vida, é só o macarrão que não quer colaborar – respira fundo e tenta de novo."
+  },
+  {
+    "id": 76,
+    "titulo": "Tutu de Feijão com Couve Refogada – O Almoço que Abraça a Tradição (e o Estômago)",
+    "slug": "tutu-de-feijao-com-couve-refogada-o-almoco-que-abraca-a-tradicao-e-o-estomago",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "xícaras de feijão cozido e amassado",
+      "colheres de farinha de mandioca",
+      "dentes de alho",
+      "maço de couve fatiada",
+      "Sal e pimenta a gosto",
+      "Óleo para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue alho, junte feijão e farinha até formar um creme.",
+      "Tempere e cozinhe mexendo até engrossar.",
+      "Refogue couve com alho e sal.",
+      "Sirva tutu com couve."
+    ],
+    "descricao": "Porque comida mineira é amor, boleto e saudade num só prato.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Se a farinha embolar, não é a receita que falhou, é só seu coração que precisa se soltar mais."
+  },
+  {
+    "id": 77,
+    "titulo": "Quibe Assado com Salada de Tabule – O Almoço que Traz Sabor e Refrescância",
+    "slug": "quibe-assado-com-salada-de-tabule-o-almoco-que-traz-sabor-e-refrescancia",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "g de trigo para quibe",
+      "g de carne moída",
+      "cebola picada",
+      "Hortelã e salsinha picadas a gosto",
+      "Sal e pimenta a gosto",
+      "tomates picados",
+      "pepino picado",
+      "Suco de limão e azeite para tabule"
+    ],
+    "modoPreparo": [
+      "Hidrate o trigo, misture com carne, cebola, sal, pimenta e ervas.",
+      "Coloque em assadeira e asse a 180ºC por 35 minutos.",
+      "Misture tomate, pepino, ervas, limão e azeite para tabule.",
+      "Sirva quibe com tabule."
+    ],
+    "descricao": "Pra quem quer comer bem e se sentir o dono da picanha no churrasco da firma.",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Se o quibe não firmar, não é você que tá inseguro, é só ele que precisa de mais tempo no forno."
+  },
+  {
+    "id": 78,
+    "titulo": "Espaguete à Bolonhesa – O Almoço que Nunca Sai de Moda (Assim Como a Conta de Luz)",
+    "slug": "espaguete-a-bolonhesa-o-almoco-que-nunca-sai-de-moda-assim-como-a-conta-de-luz",
+    "categoria": "Almoco ",
+    "ingredientes": [
+      "g de carne moída",
+      "cebola picada",
+      "dentes de alho picados",
+      "ml de molho de tomate",
+      "g de espaguete",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho, junte carne e cozinhe até dourar.",
+      "Acrescente molho de tomate, tempere e deixe apurar.",
+      "Cozinhe o espaguete e escorra.",
+      "Misture o molho ao macarrão e sirva."
+    ],
+    "descricao": "Porque molho vermelho é vida, e boleto vermelho é só mais um capítulo.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Se o molho secar demais, não é a receita que falhou, é só seu estoque de paciência que tá baixo."
+  }
+]

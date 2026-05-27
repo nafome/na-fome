@@ -1,0 +1,959 @@
+[
+  {
+    "id": 666,
+    "titulo": "Suco Verde Desencanado",
+    "slug": "suco-verde-desencanado",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "folhas grandes de couve",
+      "maçã verde",
+      "pepino pequeno",
+      "Suco de 1 limão",
+      "ml de água de coco"
+    ],
+    "modoPreparo": [
+      "Lave todos os ingredientes.",
+      "Corte a maçã e o pepino em pedaços.",
+      "Bata tudo no liquidificador até ficar homogêneo."
+    ],
+    "descricao": "Porque a vida já é amarga, o suco não precisa ser também.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "2 porções",
+    "dica": "Se sua vida tá um caos, pelo menos o suco não precisa ser — pelo menos aqui ele é fácil, diferente de lidar com boletos atrasados."
+  },
+  {
+    "id": 667,
+    "titulo": "Salada Detox do Sofrimento",
+    "slug": "salada-detox-do-sofrimento",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "g de rúcula",
+      "g de alface americana",
+      "cenoura ralada",
+      "tomate picado",
+      "Suco de 1 limão",
+      "colher de sopa de azeite"
+    ],
+    "modoPreparo": [
+      "Lave e seque as folhas.",
+      "Misture todos os ingredientes numa tigela.",
+      "Tempere com limão e azeite."
+    ],
+    "descricao": "Porque cortar carboidrato dói menos que terminar com crush no zap.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "3 porções",
+    "dica": "Salada fácil e rápida, igual promessas de final de ano que nunca se cumprem."
+  },
+  {
+    "id": 668,
+    "titulo": "Chá de Gengibre Queimar Calorias e Amores",
+    "slug": "cha-de-gengibre-queimar-calorias-e-amores",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "ml de água",
+      "fatias de gengibre fresco",
+      "Mel a gosto",
+      "Suco de 1/2 limão"
+    ],
+    "modoPreparo": [
+      "Ferva a água com o gengibre por 5 minutos.",
+      "Coe o chá em canecas.",
+      "Adicione mel e limão a gosto."
+    ],
+    "descricao": "Porque o calor do chá precisa ser maior que o do seu último término.",
+    "tempo": "12 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,50",
+    "porcoes": "2 porções",
+    "dica": "Se queimar calorias igual queima seu amor, tá no caminho certo."
+  },
+  {
+    "id": 669,
+    "titulo": "Smoothie de Abacaxi com Hortelã do \"Vai Passar\"",
+    "slug": "smoothie-de-abacaxi-com-hortela-do-vai-passar",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "xícara de abacaxi picado",
+      "punhado de folhas de hortelã",
+      "ml de água de coco",
+      "colher de sopa de chia"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador.",
+      "Sirva gelado."
+    ],
+    "descricao": "Porque até a ressaca merece um calmante natural.",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida apertar, pelo menos o smoothie não vai te deixar na mão."
+  },
+  {
+    "id": 670,
+    "titulo": "Wrap Detox de Frango com Abacate",
+    "slug": "wrap-detox-de-frango-com-abacate",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "tortilhas integrais",
+      "g de peito de frango grelhado e desfiado",
+      "/2 abacate amassado",
+      "Folhas de alface",
+      "Tomate em rodelas",
+      "g de abóbora descascada e picada",
+      "pedaço pequeno de gengibre ralado",
+      "cebola média picada",
+      "dente de alho picado",
+      "ml de água",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Grelhe o frango e desfie.",
+      "Espalhe o abacate nas tortilhas.",
+      "Monte com frango, alface e tomate, e enrole.",
+      "Refogue cebola e alho até dourar.",
+      "Acrescente abóbora, gengibre e água, cozinhe até abóbora amolecer.",
+      "Bata tudo no liquidificador, volte para a panela, tempere e aqueça."
+    ],
+    "descricao": "Pra esquentar o corpo e o coração que anda congelado.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "4 porções",
+    "dica": "Sopa quentinha que cura mais que mensagem de ex no meio da madrugada."
+  },
+  {
+    "id": 671,
+    "titulo": "Salada de Quinoa com Legumes Coloridos",
+    "slug": "salada-de-quinoa-com-legumes-coloridos",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "xícara de quinoa",
+      "/2 pimentão vermelho picado",
+      "/2 pepino picado",
+      "tomate picado",
+      "Suco de 1 limão",
+      "colheres de sopa de azeite"
+    ],
+    "modoPreparo": [
+      "Cozinhe a quinoa conforme a embalagem.",
+      "Misture os legumes com a quinoa cozida.",
+      "Tempere com limão e azeite."
+    ],
+    "descricao": "Porque colorido na vida é melhor que boleto em atraso.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "3 porções",
+    "dica": "Quinoa é vida, e essa salada é a prova que dá pra comer saudável sem perder a cor do humor."
+  },
+  {
+    "id": 672,
+    "titulo": "Água Aromatizada do Desespero",
+    "slug": "agua-aromatizada-do-desespero",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "litro de água filtrada",
+      "limão fatiado",
+      "pepino fatiado",
+      "Folhas de hortelã"
+    ],
+    "modoPreparo": [
+      "Coloque todos os ingredientes na jarra.",
+      "Deixe na geladeira por pelo menos 1 hora.",
+      "Sirva gelado."
+    ],
+    "descricao": "Porque beber água simples é só pra quem não sofre de boleto.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,00",
+    "porcoes": "1 litro",
+    "dica": "Água com sabor pra enganar o cérebro, porque a vontade mesmo é de um cafezinho e um boleto pago."
+  },
+  {
+    "id": 673,
+    "titulo": "Bowl Detox Tropical com Chia",
+    "slug": "bowl-detox-tropical-com-chia",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "banana amassada",
+      "/2 xícara de manga picada",
+      "colheres de sopa de chia",
+      "iogurte natural",
+      "colher de mel"
+    ],
+    "modoPreparo": [
+      "Misture banana, manga e iogurte.",
+      "Adicione chia e mel.",
+      "Sirva imediatamente."
+    ],
+    "descricao": "Porque até sua barriga merece férias na praia.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "2 porções",
+    "dica": "Bowl que te faz parecer fitness até no domingo preguiçoso."
+  },
+  {
+    "id": 674,
+    "titulo": "Suco de Beterraba que Te Deixa Forte (ou só com cara de)",
+    "slug": "suco-de-beterraba-que-te-deixa-forte-ou-so-com-cara-de",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "beterraba média crua picada",
+      "cenouras pequenas",
+      "Suco de 1 laranja",
+      "ml de água"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes até ficar homogêneo.",
+      "Coe se preferir menos fibra.",
+      "Sirva gelado."
+    ],
+    "descricao": "Porque beterraba é o novo café, só que mais saudável e sem culpa.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,50",
+    "porcoes": "2 porções",
+    "dica": "Suco que te dá energia, porque o boleto não vai pagar sozinho."
+  },
+  {
+    "id": 675,
+    "titulo": "Chips de Couve Crocantes do Desespero Saudável",
+    "slug": "chips-de-couve-crocantes-do-desespero-saudavel",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "maço de couve",
+      "colher de azeite",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Lave e seque as folhas de couve.",
+      "Misture com azeite e sal.",
+      "Asse a 180°C por 15 minutos até ficar crocante."
+    ],
+    "descricao": "Porque se não for crocante, não vale a pena.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "3 porções",
+    "dica": "Crocante como as promessas de dieta na segunda-feira."
+  },
+  {
+    "id": 676,
+    "titulo": "Água de Coco com Limão e Gengibre do Sobrevivente",
+    "slug": "agua-de-coco-com-limao-e-gengibre-do-sobrevivente",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "ml de água de coco",
+      "Suco de 1/2 limão",
+      "fatia fina de gengibre"
+    ],
+    "modoPreparo": [
+      "Misture tudo no copo.",
+      "Mexa bem e sirva gelado."
+    ],
+    "descricao": "Porque hidratação é o que sobra quando o resto desanda.",
+    "tempo": "3 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Hidratação que nem boleto atrasado: só aumenta."
+  },
+  {
+    "id": 677,
+    "titulo": "Guacamole Detox da Sobrevivência Amorosa",
+    "slug": "guacamole-detox-da-sobrevivencia-amorosa",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "abacates maduros",
+      "Suco de 1 limão",
+      "tomate picado",
+      "/4 de cebola picada",
+      "Sal e pimenta a gosto",
+      "pepino fatiado",
+      "pote de iogurte natural",
+      "Folhas de hortelã picadas",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Amasse os abacates.",
+      "Misture com os outros ingredientes.",
+      "Sirva com palitos de legumes.",
+      "Misture o pepino com o iogurte.",
+      "Adicione hortelã e sal.",
+      "Sirva gelado."
+    ],
+    "descricao": "Porque refrescar a alma é mais barato que terapia.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "2 porções",
+    "dica": "Salada tão refrescante que vai fazer você esquecer o boleto do mês."
+  },
+  {
+    "id": 678,
+    "titulo": "Sopa Fria de Pepino e Iogurte",
+    "slug": "sopa-fria-de-pepino-e-iogurte",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "pepinos médios",
+      "ml de iogurte natural",
+      "Suco de 1 limão",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Bata os pepinos com iogurte e limão.",
+      "Tempere com sal e pimenta.",
+      "Leve à geladeira por 1 hora e sirva."
+    ],
+    "descricao": "Pra quem quer frescor sem perder a pose.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "3 porções",
+    "dica": "Sopa fria que é mais fácil de fazer que entender boleto detalhado."
+  },
+  {
+    "id": 679,
+    "titulo": "Pancake Detox de Aveia e Banana",
+    "slug": "pancake-detox-de-aveia-e-banana",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "banana madura amassada",
+      "xícara de aveia em flocos finos",
+      "ovos",
+      "colher de chá de fermento em pó"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes até formar massa homogênea.",
+      "Aqueça a frigideira e faça os pancakes pequenos.",
+      "Cozinhe por 2-3 minutos de cada lado até dourar."
+    ],
+    "descricao": "Porque domingo sem pancake é igual a boleto sem desconto.",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 10,00",
+    "porcoes": "4 porções",
+    "dica": "Pancake que sustenta igual boleto que não sai do débito automático."
+  },
+  {
+    "id": 680,
+    "titulo": "Chá de Hibisco com Canela do \"Esquenta Boleto\"",
+    "slug": "cha-de-hibisco-com-canela-do-esquenta-boleto",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "litro de água",
+      "colheres de sopa de flores de hibisco secas",
+      "pau de canela",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Ferva a água com hibisco e canela por 5 minutos.",
+      "Coe e adoce com mel.",
+      "Sirva quente."
+    ],
+    "descricao": "Porque o calor desse chá é o único que vai aquecer seu coração.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "2 porções",
+    "dica": "Melhor que calor de boleto vencido."
+  },
+  {
+    "id": 681,
+    "titulo": "Mix de Castanhas e Sementes Detox",
+    "slug": "mix-de-castanhas-e-sementes-detox",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "g de amêndoas",
+      "g de castanha de caju",
+      "g de sementes de abóbora",
+      "g de sementes de girassol"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes em uma tigela.",
+      "Guarde em pote hermético.",
+      "Consuma como snack."
+    ],
+    "descricao": "Porque a vida adulta é cheia de escolhas, e essa é saudável e gostosa.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Snack que é mais confiável que promessa de político em época de eleição."
+  },
+  {
+    "id": 682,
+    "titulo": "Suco Detox de Laranja com Cenoura e Gengibre",
+    "slug": "suco-detox-de-laranja-com-cenoura-e-gengibre",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "laranjas descascadas",
+      "cenouras médias picadas",
+      "pedaço pequeno de gengibre",
+      "ml de água"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador.",
+      "Coe para remover fibras, se preferir.",
+      "Sirva gelado."
+    ],
+    "descricao": "Porque se a vida te der limões, peça laranja e faça suco melhor.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "2 porções",
+    "dica": "Suco que te dá energia pra enfrentar a pilha de boletos com mais disposição."
+  },
+  {
+    "id": 683,
+    "titulo": "Salada de Grão-de-Bico com Tomate e Cebola Roxa",
+    "slug": "salada-de-grao-de-bico-com-tomate-e-cebola-roxa",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "xícara de grão-de-bico cozido",
+      "tomate picado",
+      "/2 cebola roxa picada",
+      "Suco de 1 limão",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes em uma tigela.",
+      "Tempere com limão, azeite, sal e pimenta.",
+      "Sirva fresca."
+    ],
+    "descricao": "Porque o grão-de-bico é o amigo que nunca deixa você na mão.",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 13,00",
+    "porcoes": "3 porções",
+    "dica": "Salada que é mais fiel que amigo que some quando você precisa."
+  },
+  {
+    "id": 684,
+    "titulo": "Smoothie Verde Pós-Treino com Proteína Natural",
+    "slug": "smoothie-verde-pos-treino-com-proteina-natural",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "banana",
+      "xícara de espinafre fresco",
+      "/2 xícara de feijão branco cozido",
+      "ml de água de coco"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes até ficar cremoso.",
+      "Sirva imediatamente.",
+      "Aproveite a energia."
+    ],
+    "descricao": "Porque a proteína do feijão não é só pra feijoada, minha gente.",
+    "tempo": "10 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "2 porções",
+    "dica": "Smoothie que sustenta mais que conversa fiada de boleto."
+  },
+  {
+    "id": 685,
+    "titulo": "Salada de Aspargos com Tomate Cereja e Limão Siciliano",
+    "slug": "salada-de-aspargos-com-tomate-cereja-e-limao-siciliano",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "g de aspargos frescos",
+      "tomates cereja cortados ao meio",
+      "Suco de 1 limão siciliano",
+      "colheres de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe os aspargos em água fervente por 3 minutos e escorra.",
+      "Misture aspargos, tomates, limão, azeite, sal e pimenta.",
+      "Sirva frio ou em temperatura ambiente."
+    ],
+    "descricao": "Porque jantar romântico detox não precisa ser triste.",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "2 porções",
+    "dica": "Jantar detox que impressiona mais que desculpa esfarrapada pra faltar no trabalho."
+  },
+  {
+    "id": 686,
+    "titulo": "Água Detox de Maçã Verde com Canela",
+    "slug": "agua-detox-de-maca-verde-com-canela",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "litro de água filtrada",
+      "maçã verde fatiada",
+      "pau de canela"
+    ],
+    "modoPreparo": [
+      "Coloque a maçã e a canela na jarra com água.",
+      "Deixe descansar na geladeira por no mínimo 1 hora.",
+      "Sirva gelado."
+    ],
+    "descricao": "Porque até a água merece um upgrade na vida.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,50",
+    "porcoes": "1 litro",
+    "dica": "Água que fica mais interessante que boletos com desconto."
+  },
+  {
+    "id": 687,
+    "titulo": "Mix de Frutas Vermelhas com Iogurte e Mel",
+    "slug": "mix-de-frutas-vermelhas-com-iogurte-e-mel",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "xícara de morangos picados",
+      "/2 xícara de mirtilos",
+      "pote de iogurte natural",
+      "colher de sopa de mel"
+    ],
+    "modoPreparo": [
+      "Misture as frutas com o iogurte.",
+      "Regue com mel.",
+      "Sirva gelado."
+    ],
+    "descricao": "Porque até o boleto mais chato pode ser adoçado.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Sobremesa saudável que vai fazer você esquecer que boleto existe."
+  },
+  {
+    "id": 688,
+    "titulo": "Smoothie de Manga, Cenoura e Laranja",
+    "slug": "smoothie-de-manga-cenoura-e-laranja",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "manga média picada",
+      "cenouras picadas",
+      "Suco de 2 laranjas",
+      "ml de água"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes até ficar cremoso.",
+      "Sirva gelado.",
+      "Aproveite."
+    ],
+    "descricao": "Porque a cor vibrante é o único brilho que você precisa.",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Smoothie que dá mais brilho que sua conta no vermelho."
+  },
+  {
+    "id": 689,
+    "titulo": "Salada de Abacate com Tomate e Salsinha",
+    "slug": "salada-de-abacate-com-tomate-e-salsinha",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "abacate maduro picado",
+      "tomates picados",
+      "Salsinha picada a gosto",
+      "Suco de 1 limão",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o abacate, tomate e salsinha.",
+      "Tempere com limão, sal e pimenta.",
+      "Sirva na hora."
+    ],
+    "descricao": "Porque abacate é o crush que nunca te deixa na mão.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "2 porções",
+    "dica": "Salada que é mais confiável que promessa de político."
+  },
+  {
+    "id": 690,
+    "titulo": "Chá Gelado de Erva-Doce e Hortelã",
+    "slug": "cha-gelado-de-erva-doce-e-hortela",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "litro de água",
+      "colheres de sopa de erva-doce",
+      "punhado de folhas de hortelã",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Ferva a água com erva-doce por 5 minutos.",
+      "Coe e adicione hortelã.",
+      "Deixe gelar e sirva com mel."
+    ],
+    "descricao": "Porque refrescar a alma é grátis e essencial.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,00",
+    "porcoes": "3 porções",
+    "dica": "Chá que refresca mais que promessa de feriado prolongado."
+  },
+  {
+    "id": 691,
+    "titulo": "Salada de Lentilha com Cenoura e Cebolinha",
+    "slug": "salada-de-lentilha-com-cenoura-e-cebolinha",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "xícara de lentilha cozida",
+      "cenoura ralada",
+      "Cebolinha picada a gosto",
+      "Suco de 1 limão",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a lentilha até ficar macia.",
+      "Misture com cenoura e cebolinha.",
+      "Tempere com limão, azeite, sal e pimenta."
+    ],
+    "descricao": "Porque proteína vegetal é o que falta na sua vida e na sua geladeira.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "3 porções",
+    "dica": "Salada que sustenta mais que conversa fiada de chefe."
+  },
+  {
+    "id": 692,
+    "titulo": "Smoothie de Morango com Banana e Linhaça",
+    "slug": "smoothie-de-morango-com-banana-e-linhaca",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "banana madura",
+      "xícara de morangos",
+      "colher de sopa de linhaça",
+      "ml de água ou leite vegetal"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes até ficar cremoso.",
+      "Sirva gelado."
+    ],
+    "descricao": "Porque energia boa não vem só do cafezinho.",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 13,00",
+    "porcoes": "2 porções",
+    "dica": "Smoothie que é o combustível para aguentar mais uma reunião que podia ser um e-mail."
+  },
+  {
+    "id": 693,
+    "titulo": "Água de Melancia com Hortelã Refrescante",
+    "slug": "agua-de-melancia-com-hortela-refrescante",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "xícaras de melancia picada sem sementes",
+      "litro de água",
+      "Folhas de hortelã a gosto"
+    ],
+    "modoPreparo": [
+      "Bata a melancia com metade da água.",
+      "Coe e misture com o restante da água.",
+      "Adicione hortelã e sirva gelado."
+    ],
+    "descricao": "Porque se a vida te der melancia, faça festa.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 litro",
+    "dica": "Água que refresca mais que desculpa esfarrapada pra faltar na academia."
+  },
+  {
+    "id": 694,
+    "titulo": "Salada de Repolho Roxo com Maçã Verde e Nozes",
+    "slug": "salada-de-repolho-roxo-com-maca-verde-e-nozes",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "/2 repolho roxo fatiado fino",
+      "maçã verde picada",
+      "/4 xícara de nozes picadas",
+      "Suco de 1 limão",
+      "Azeite, sal e pimenta a gosto",
+      "abacate maduro",
+      "colheres de sopa de cacau em pó",
+      "colher de mel",
+      "ml de leite vegetal"
+    ],
+    "modoPreparo": [
+      "Misture repolho, maçã e nozes.",
+      "Tempere com limão, azeite, sal e pimenta.",
+      "Sirva fresca.",
+      "Bata todos os ingredientes até obter creme liso.",
+      "Sirva gelado.",
+      "Decore com cacau em pó."
+    ],
+    "descricao": "Porque doce detox não é lenda urbana.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Sobremesa que engana o cérebro e não o boleto."
+  },
+  {
+    "id": 695,
+    "titulo": "Suco de Aloe Vera com Limão para Desintoxicar",
+    "slug": "suco-de-aloe-vera-com-limao-para-desintoxicar",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "colheres de sopa de gel de aloe vera (babosa)",
+      "Suco de 1 limão",
+      "ml de água",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Extraia o gel da babosa cuidadosamente.",
+      "Bata o gel com água, limão e mel.",
+      "Sirva gelado."
+    ],
+    "descricao": "Porque até a planta sabe que você precisa se cuidar.",
+    "tempo": "12 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "1 porção",
+    "dica": "Suco que desintoxica mais que conversa com sogra no almoço de domingo."
+  },
+  {
+    "id": 696,
+    "titulo": "Bowl de Açaí Detox com Granola e Frutas",
+    "slug": "bowl-de-acai-detox-com-granola-e-frutas",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "g de polpa de açaí sem açúcar",
+      "banana",
+      "/2 xícara de granola sem açúcar",
+      "Frutas picadas a gosto"
+    ],
+    "modoPreparo": [
+      "Bata a polpa de açaí com banana até ficar cremoso.",
+      "Sirva em tigelas e decore com granola e frutas."
+    ],
+    "descricao": "Porque até o açaí pode ser amigo da sua dieta.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Bowl que é mais gostoso que desconto em loja de roupa."
+  },
+  {
+    "id": 697,
+    "titulo": "Suco de Citrus com Pepino e Gengibre",
+    "slug": "suco-de-citrus-com-pepino-e-gengibre",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "Suco de 1 laranja",
+      "Suco de 1 limão",
+      "/2 pepino picado",
+      "pedaço pequeno de gengibre",
+      "ml de água"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes até ficar homogêneo.",
+      "Sirva gelado."
+    ],
+    "descricao": "Porque suco bom é aquele que te acorda mais que o despertador.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "2 porções",
+    "dica": "Suco que espanta mais sono que café forte."
+  },
+  {
+    "id": 698,
+    "titulo": "Salada de Alcachofra com Tomate Seco e Rúcula",
+    "slug": "salada-de-alcachofra-com-tomate-seco-e-rucula",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "g de corações de alcachofra cozidos",
+      "g de tomate seco picado",
+      "g de rúcula",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture alcachofra, tomate seco e rúcula.",
+      "Tempere com azeite, sal e pimenta.",
+      "Sirva fresca."
+    ],
+    "descricao": "Porque jantar detox pode ser chique sem ser chato.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "2 porções",
+    "dica": "Salada que impressiona mais que desculpa esfarrapada para faltar na academia."
+  },
+  {
+    "id": 699,
+    "titulo": "Chá de Camomila com Limão e Mel do Relaxamento",
+    "slug": "cha-de-camomila-com-limao-e-mel-do-relaxamento",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "ml de água",
+      "sachês de camomila",
+      "Suco de 1/2 limão",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Ferva a água e prepare a camomila.",
+      "Adicione limão e mel.",
+      "Sirva quente."
+    ],
+    "descricao": "Porque relaxar é preciso, mesmo com boleto na porta.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "2 porções",
+    "dica": "Chá que relaxa mais que final de semana sem internet."
+  },
+  {
+    "id": 700,
+    "titulo": "Suco Detox de Melancia, Hortelã e Limão",
+    "slug": "suco-detox-de-melancia-hortela-e-limao",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "xícaras de melancia picada",
+      "Folhas de hortelã a gosto",
+      "Suco de 1 limão",
+      "ml de água"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes até homogeneizar.",
+      "Sirva gelado."
+    ],
+    "descricao": "Porque o verão pode estar longe, mas a vontade de refrescar não.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "2 porções",
+    "dica": "Suco que refresca mais que desculpa esfarrapada pra faltar no trabalho."
+  },
+  {
+    "id": 701,
+    "titulo": "Salada de Pepino, Tomate e Queijo Branco Light",
+    "slug": "salada-de-pepino-tomate-e-queijo-branco-light",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "pepino fatiado",
+      "tomates picados",
+      "g de queijo branco light em cubos",
+      "Azeite, sal e orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes.",
+      "Tempere com azeite, sal e orégano.",
+      "Sirva fresca."
+    ],
+    "descricao": "Porque até dieta merece um toque de sabor.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "2 porções",
+    "dica": "Salada que é mais leve que desculpa pra faltar na academia."
+  },
+  {
+    "id": 702,
+    "titulo": "Smoothie de Kiwi com Espinafre e Maçã Verde",
+    "slug": "smoothie-de-kiwi-com-espinafre-e-maca-verde",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "kiwis descascados",
+      "maçã verde picada",
+      "punhado de espinafre",
+      "ml de água"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes até ficar homogêneo.",
+      "Sirva gelado."
+    ],
+    "descricao": "Porque verde é a cor da esperança (e da conta bancária que não fecha).",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Smoothie que te dá esperança enquanto o boleto só dá dor de cabeça."
+  },
+  {
+    "id": 703,
+    "titulo": "Smoothie Detox “Desintoxicação com Humor”",
+    "slug": "smoothie-detox-desintoxicacao-com-humor",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "xícara de água de coco gelada",
+      "maçã verde média picada (com fome e sem culpa)",
+      "/2 pepino japonês com casca (pra deixar o suco com mais personalidade)",
+      "punhado generoso de espinafre fresco (aquele verdinho que parece que te julga)",
+      "Suco de 1 limão siciliano (pra dar aquela acordada no corpo e na alma)",
+      "colher de chá de spirulina em pó (o toque “grilo falante” do detox)",
+      "pedaço pequeno de gengibre (do tamanho do seu bom humor)",
+      "Cubos de gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque a água de coco no liquidificador junto com a maçã, o pepino, o espinafre, o suco de limão, a spirulina e o gengibre.",
+      "Bata tudo até ficar homogêneo, tipo aquele papo que você tenta ter com o chefe: rápido e eficiente.",
+      "Adicione os cubos de gelo e bata mais uma vez para refrescar essa desintoxicação cheia de estilo."
+    ],
+    "descricao": "Porque limpar o corpo não precisa ser uma tortura – só quase!",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2",
+    "dica": "Se a spirulina te assustar, pense nela como aquele amigo esquisito que no fim só quer te ajudar... ou pelo menos queima umas calorias só de olhar pra ele! E se não gostar muito do sabor, respira fundo e lembra: detox é quase uma sessão de terapia em copo."
+  },
+  {
+    "id": 704,
+    "titulo": "Suco Detox “Quem Me Viu, Quem Me Vê”",
+    "slug": "suco-detox-quem-me-viu-quem-me-ve",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "xícara de chá de água de coco gelada",
+      "/2 pepino japonês com casca",
+      "maçã verde pequena (sem caroço)",
+      "folha grande de couve manteiga",
+      "Suco de 1 limão siciliano",
+      "pedaço pequeno (2 cm) de gengibre fresco",
+      "ramo pequeno de salsa (não é só pra temperar a vida, não!)",
+      "Cubos de gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Bata tudo no liquidificador até ficar homogêneo e verde como a esperança da dieta.",
+      "Se quiser menos fibra e mais drama, passe pela peneira para um suco liso, tipo novela das seis.",
+      "Sirva gelado, de preferência em copo bonito pra impressionar o crush detox."
+    ],
+    "descricao": "Porque ninguém merece começar o dia igual a zumbi, mas também não precisa virar coelhinho da Páscoa.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2",
+    "dica": ""
+  },
+  {
+    "id": 705,
+    "titulo": "Suco Desintoxicação do Ex que Não Sai da Cabeça",
+    "slug": "suco-desintoxicacao-do-ex-que-nao-sai-da-cabeca",
+    "categoria": "Detox ",
+    "ingredientes": [
+      "pepino médio descascado",
+      "maçã verde picada",
+      "Suco de 1 limão siciliano",
+      "folhas de hortelã fresca",
+      "pedaço pequeno de gengibre (aprox. 2 cm)",
+      "ml de água de coco",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque no liquidificador o pepino, a maçã verde, o suco de limão, as folhas de hortelã e o gengibre.",
+      "Adicione a água de coco e bata tudo até ficar homogêneo.",
+      "Sirva com bastante gelo para refrescar o corpo e a alma."
+    ],
+    "descricao": "Porque limpar o corpo é fácil, o difícil é limpar a mente... mas a gente tenta!",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2",
+    "dica": "Se o ex ficar te ligando, ofereça um copo. Se ele não sumir, pelo menos você tá bem hidratado e detoxificado!"
+  }
+]

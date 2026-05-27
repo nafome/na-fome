@@ -1,0 +1,950 @@
+[
+  {
+    "id": 1107,
+    "titulo": "Coxinha Fit de Frango na Air Fryer",
+    "slug": "coxinha-fit-de-frango-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "g peito de frango desfiado",
+      "xícara de farinha de aveia",
+      "/2 xícara de caldo de frango natural",
+      "cebola pequena picada",
+      "dente de alho picado",
+      "Sal e pimenta a gosto",
+      "colher de sopa de azeite"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e o alho no azeite na panela, junte o frango desfiado, tempere e misture.",
+      "Acrescente o caldo de frango e aos poucos a farinha de aveia até formar uma massa moldável.",
+      "Modele as coxinhas, coloque na cesta da Air Fryer e asse a 200°C por 15 minutos, virando na metade do tempo."
+    ],
+    "descricao": "Porque até quem tá na dieta merece fingir que tá em festa de aniversário.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "4 porções",
+    "dica": "Se a sua vida tá mais seca que essa massa, pelo menos a coxinha fica molhadinha — equilíbrio é tudo, até na dieta!"
+  },
+  {
+    "id": 1108,
+    "titulo": "Batata Rústica Crocante na Air Fryer",
+    "slug": "batata-rustica-crocante-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "batatas médias com casca",
+      "colheres de sopa de azeite",
+      "Sal grosso a gosto",
+      "Alecrim fresco a gosto"
+    ],
+    "modoPreparo": [
+      "Lave e corte as batatas em palitos grossos, mantendo a casca.",
+      "Misture as batatas com azeite, sal e alecrim.",
+      "Coloque na Air Fryer a 200°C por 20 minutos, mexendo na metade do tempo."
+    ],
+    "descricao": "A batata que faz você esquecer que boletos não têm desconto.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,50",
+    "porcoes": "3 porções",
+    "dica": "Essas batatas são tão crocantes que até sua sogra vai pedir a receita, e olha que ela nem gosta de você!"
+  },
+  {
+    "id": 1109,
+    "titulo": "Nuggets de Frango Caseiros na Air Fryer",
+    "slug": "nuggets-de-frango-caseiros-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "g de peito de frango moído",
+      "ovo",
+      "/2 xícara de farinha de rosca integral",
+      "Sal, pimenta e páprica a gosto",
+      "colher de chá de alho em pó"
+    ],
+    "modoPreparo": [
+      "Misture o frango moído com os temperos e o ovo até formar uma massa homogênea.",
+      "Modele os nuggets, passe na farinha de rosca e disponha na Air Fryer.",
+      "Asse a 200°C por 15 minutos, virando para dourar ambos os lados."
+    ],
+    "descricao": "Para adultos que se recusam a crescer, mas querem fingir que comem saudável.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Feito na Air Fryer, esses nuggets são mais light que sua desculpa para não ir à academia."
+  },
+  {
+    "id": 1110,
+    "titulo": "Chips de Batata-Doce na Air Fryer",
+    "slug": "chips-de-batata-doce-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "batatas-doces médias",
+      "colher de sopa de azeite",
+      "Sal a gosto",
+      "Canela em pó opcional"
+    ],
+    "modoPreparo": [
+      "Fatie a batata-doce em lâminas finas com o mandoline ou faca.",
+      "Pincele com azeite, tempere com sal e canela se quiser arriscar.",
+      "Leve à Air Fryer a 180°C por 15 minutos, mexendo na metade do tempo."
+    ],
+    "descricao": "O petisco que te faz pensar que doce pode ser saudável (mentira, mas deixa quieto).",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "2 porções",
+    "dica": "Chips que até a balança vai achar bonitinho, mas não se iluda, a conta de luz não perdoa!"
+  },
+  {
+    "id": 1111,
+    "titulo": "Salmão Grelhado com Ervas na Air Fryer",
+    "slug": "salmao-grelhado-com-ervas-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "filés de salmão (150g cada)",
+      "Suco de 1 limão",
+      "colher de chá de ervas finas",
+      "Sal e pimenta a gosto",
+      "colher de sopa de azeite"
+    ],
+    "modoPreparo": [
+      "Tempere os filés com sal, pimenta, limão e ervas.",
+      "Pincele com azeite e coloque na cesta da Air Fryer forrada com papel alumínio.",
+      "Asse a 200°C por 12 minutos, até ficar dourado e suculento."
+    ],
+    "descricao": "Jantar romântico que não te faz lavar dezenas de panelas depois.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 38,00",
+    "porcoes": "2 porções",
+    "dica": "Se o crush não gostar, pelo menos você vai ter um jantar digno de postar no Instagram — #SóPraProvocar."
+  },
+  {
+    "id": 1112,
+    "titulo": "Omelete de Forno na Air Fryer",
+    "slug": "omelete-de-forno-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "ovos",
+      "colheres de sopa de leite",
+      "/4 xícara de queijo ralado",
+      "Sal e pimenta a gosto",
+      "/4 xícara de tomate picado"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com leite, sal e pimenta na tigela.",
+      "Adicione o queijo e o tomate, misture e coloque na forma.",
+      "Leve à Air Fryer a 180°C por 12 minutos ou até firmar."
+    ],
+    "descricao": "Café da manhã para quem acorda 5 minutos antes do trabalho e chama isso de “planejamento”.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,50",
+    "porcoes": "1 porção",
+    "dica": "Omelete que você faz enquanto pensa que ainda dá tempo de dormir mais 5 minutos… Spoiler: não dá."
+  },
+  {
+    "id": 1113,
+    "titulo": "Bolinho de Arroz na Air Fryer",
+    "slug": "bolinho-de-arroz-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "xícaras de arroz cozido",
+      "ovo",
+      "/2 xícara de queijo ralado",
+      "colheres de sopa de farinha de trigo",
+      "Sal, pimenta e cheiro-verde a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes até formar uma massa consistente.",
+      "Modele bolinhos com a colher e coloque na cesta da Air Fryer.",
+      "Asse a 200°C por 15 minutos, virando na metade."
+    ],
+    "descricao": "Aproveitando sobras porque adulto sabe que desperdício não cabe no orçamento nem no coração.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 6,00",
+    "porcoes": "3 porções",
+    "dica": "Bolinho de arroz: a prova de que a vida adulta é reciclar até a comida!"
+  },
+  {
+    "id": 1114,
+    "titulo": "Frango Empanado Crocante na Air Fryer",
+    "slug": "frango-empanado-crocante-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "g de filé de frango em tiras",
+      "xícara de farinha de rosca",
+      "ovos batidos",
+      "Sal, pimenta e páprica a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o frango e passe nos ovos batidos.",
+      "Empane na farinha de rosca temperada.",
+      "Coloque na Air Fryer a 200°C por 15 minutos, virando na metade."
+    ],
+    "descricao": "Pra fingir que tá comendo aquela fritura da lanchonete, mas sem a culpa e o trânsito.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Frango empanado que é mais crocante que a paciência do seu chefe na segunda-feira."
+  },
+  {
+    "id": 1115,
+    "titulo": "Maçã Assada com Canela na Air Fryer",
+    "slug": "maca-assada-com-canela-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "maçãs médias",
+      "colher de chá de canela em pó",
+      "colher de sopa de mel"
+    ],
+    "modoPreparo": [
+      "Tire o miolo das maçãs com a colher.",
+      "Recheie com mel e polvilhe canela.",
+      "Asse na Air Fryer a 180°C por 15 minutos."
+    ],
+    "descricao": "A sobremesa que te faz esquecer que sua dieta acabou no primeiro brigadeiro.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "2 porções",
+    "dica": "Essa maçã assada é tão doce que até a fatura do cartão quer dar um desconto."
+  },
+  {
+    "id": 1116,
+    "titulo": "Pão de Queijo Fit na Air Fryer",
+    "slug": "pao-de-queijo-fit-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "g polvilho doce",
+      "ml leite desnatado",
+      "ml óleo de coco",
+      "ovo",
+      "g queijo minas ralado",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Ferva o leite com o óleo e despeje sobre o polvilho, mexendo bem.",
+      "Adicione o ovo, queijo e sal, misture até formar massa.",
+      "Modele bolinhas e asse na Air Fryer a 200°C por 20 minutos."
+    ],
+    "descricao": "Porque brasileiro não vive sem pão de queijo, nem que seja light pra enganar o coração.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "6 porções",
+    "dica": "Se não der certo, pelo menos você tentou manter a tradição sem aumentar o colesterol."
+  },
+  {
+    "id": 1117,
+    "titulo": "Berinjela à Milanesa na Air Fryer",
+    "slug": "berinjela-a-milanesa-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "berinjelas médias fatiadas",
+      "ovo batido",
+      "xícara de farinha de rosca",
+      "Sal e ervas finas a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere as fatias com sal e ervas.",
+      "Passe no ovo e depois na farinha de rosca.",
+      "Asse na Air Fryer a 200°C por 15 minutos, virando na metade."
+    ],
+    "descricao": "A berinjela que vai te conquistar mais rápido que mensagem no WhatsApp.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "3 porções",
+    "dica": "Berinjela empanada: a prova que até o legume pode ser irresistível sem precisar de likes."
+  },
+  {
+    "id": 1118,
+    "titulo": "Abobrinha Recheada na Air Fryer",
+    "slug": "abobrinha-recheada-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "abobrinhas médias",
+      "g carne moída magra",
+      "/2 cebola picada",
+      "tomate picado",
+      "Sal, pimenta e cheiro-verde a gosto",
+      "Queijo ralado para gratinar"
+    ],
+    "modoPreparo": [
+      "Corte as abobrinhas ao meio e retire o miolo.",
+      "Refogue a carne com cebola, tomate e temperos.",
+      "Recheie as abobrinhas, cubra com queijo e asse na Air Fryer a 200°C por 20 minutos."
+    ],
+    "descricao": "Porque nem só de pizza vive a sexta-feira à noite, né?",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "2 porções",
+    "dica": "Recheio tão bom que até a sua vontade de cozinhar aparece para dar um oi."
+  },
+  {
+    "id": 1119,
+    "titulo": "Coxinha de Jaca Vegana na Air Fryer",
+    "slug": "coxinha-de-jaca-vegana-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "g jaca verde desfiada",
+      "cebola picada",
+      "dentes de alho picados",
+      "/2 xícara de farinha de trigo",
+      "Sal, pimenta e cheiro-verde a gosto",
+      "colher de sopa de azeite"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no azeite, junte a jaca, tempere e cozinhe até secar.",
+      "Misture a farinha até formar uma massa moldável e modele as coxinhas.",
+      "Asse na Air Fryer a 200°C por 15 minutos, virando na metade."
+    ],
+    "descricao": "Porque não é só de frango que vive o coração partido (e a dieta).",
+    "tempo": "40 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida te der jaca, faça coxinha… e finja que tá comendo um frango chique."
+  },
+  {
+    "id": 1120,
+    "titulo": "Espetinho de Legumes na Air Fryer",
+    "slug": "espetinho-de-legumes-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "abobrinha em rodelas",
+      "pimentão vermelho em cubos",
+      "cebola pequena em pedaços",
+      "g de cogumelos fatiados",
+      "colheres de sopa de azeite",
+      "Sal e ervas finas a gosto"
+    ],
+    "modoPreparo": [
+      "Monte os espetinhos alternando os legumes.",
+      "Pincele com azeite e tempere.",
+      "Asse na Air Fryer a 200°C por 15 minutos, virando na metade."
+    ],
+    "descricao": "Petisco saudável pra quem quer impressionar no papo e não no rango.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "3 porções",
+    "dica": "Espetinho tão saboroso que até o crush vai querer repetir o convite."
+  },
+  {
+    "id": 1121,
+    "titulo": "Coxinha de Frango com Requeijão na Air Fryer",
+    "slug": "coxinha-de-frango-com-requeijao-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "g frango desfiado",
+      "xícara de farinha de trigo",
+      "/2 xícara de caldo de galinha caseiro",
+      "g requeijão cremoso",
+      "Sal e pimenta a gosto",
+      "colher de sopa de azeite"
+    ],
+    "modoPreparo": [
+      "Refogue o frango no azeite, tempere e reserve.",
+      "Misture caldo e farinha até formar massa, modele as coxinhas recheando com requeijão e frango.",
+      "Asse na Air Fryer a 200°C por 15 minutos, virando na metade."
+    ],
+    "descricao": "O clássico que prova que recheio é questão de amor (ou vício).",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Requeijão faz tudo mais gostoso, inclusive fazer sua dieta parecer menos triste."
+  },
+  {
+    "id": 1122,
+    "titulo": "Pão de Alho Crocante na Air Fryer",
+    "slug": "pao-de-alho-crocante-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "pão francês cortado em fatias",
+      "colheres de sopa de manteiga",
+      "dentes de alho amassados",
+      "Salsa picada a gosto"
+    ],
+    "modoPreparo": [
+      "Misture manteiga, alho e salsa.",
+      "Pincele as fatias com essa mistura.",
+      "Coloque na Air Fryer a 180°C por 10 minutos até dourar."
+    ],
+    "descricao": "O melhor amigo do churrasco e da desculpa pra comer pão antes da janta.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "4 porções",
+    "dica": "Pão de alho: o motivo oficial para você ignorar que está tentando reduzir carboidrato."
+  },
+  {
+    "id": 1123,
+    "titulo": "Almôndegas de Carne na Air Fryer",
+    "slug": "almondegas-de-carne-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "g carne moída",
+      "/2 cebola picada",
+      "ovo",
+      "colheres de sopa de farinha de rosca",
+      "Sal, pimenta e cheiro-verde a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes até formar massa homogênea.",
+      "Modele as almôndegas e coloque na cesta da Air Fryer.",
+      "Asse a 200°C por 15 minutos, virando na metade."
+    ],
+    "descricao": "Porque até na correria dá pra impressionar o estômago (e o crush).",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Almôndegas tão boas que até seu chefe vai querer levar pro almoço de sexta."
+  },
+  {
+    "id": 1124,
+    "titulo": "Abacaxi Grelhado com Mel na Air Fryer",
+    "slug": "abacaxi-grelhado-com-mel-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "/2 abacaxi em rodelas",
+      "colheres de sopa de mel",
+      "Canela a gosto"
+    ],
+    "modoPreparo": [
+      "Pincele o mel sobre as rodelas de abacaxi e polvilhe canela.",
+      "Coloque na Air Fryer a 180°C por 12 minutos."
+    ],
+    "descricao": "Sobremesa pra quem acha que dieta é só questão de timing (e mel).",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "2 porções",
+    "dica": "Abacaxi grelhado: o jeitinho tropical de dizer “tô de dieta, mas não sou de ferro”."
+  },
+  {
+    "id": 1125,
+    "titulo": "Pizza de Pão Sírio na Air Fryer",
+    "slug": "pizza-de-pao-sirio-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "pães sírios",
+      "colheres de sopa de molho de tomate",
+      "g queijo mussarela ralado",
+      "Orégano a gosto",
+      "Fatias de tomate e manjericão para decorar"
+    ],
+    "modoPreparo": [
+      "Espalhe o molho sobre o pão sírio.",
+      "Cubra com queijo, tomate e orégano.",
+      "Leve à Air Fryer a 200°C por 8 minutos."
+    ],
+    "descricao": "Para quem quer pizza rapidinha sem a desculpa de “não tenho tempo”.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Pizza de pão sírio: porque às vezes a vida só pede um “fast food” que não derruba a dieta."
+  },
+  {
+    "id": 1126,
+    "titulo": "Camarão Empanado na Air Fryer",
+    "slug": "camarao-empanado-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "g camarão limpo",
+      "ovo batido",
+      "xícara de farinha de rosca",
+      "Sal, pimenta e limão a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o camarão com sal, pimenta e limão.",
+      "Passe no ovo e depois na farinha de rosca.",
+      "Asse na Air Fryer a 200°C por 12 minutos, virando na metade."
+    ],
+    "descricao": "Pra quem quer ostentar na receita e não na conta do restaurante.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "3 porções",
+    "dica": "Camarão empanado que vai fazer você esquecer o preço do último happy hour."
+  },
+  {
+    "id": 1127,
+    "titulo": "Pãozinho de Batata na Air Fryer",
+    "slug": "paozinho-de-batata-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "g batata cozida e amassada",
+      "xícaras de farinha de trigo",
+      "ovo",
+      "colher de sopa de fermento biológico seco",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a batata com ovo, sal e fermento.",
+      "Acrescente farinha até formar massa, deixe descansar 30 minutos.",
+      "Modele pãezinhos e asse na Air Fryer a 180°C por 15 minutos."
+    ],
+    "descricao": "Aquela nostalgia que cabe no bolso e na cesta da Air Fryer.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "6 porções",
+    "dica": "Pãozinho de batata: o abraço quentinho que sua alma adulta precisa depois do boletão."
+  },
+  {
+    "id": 1128,
+    "titulo": "Bolinho de Chocolate Fit na Air Fryer",
+    "slug": "bolinho-de-chocolate-fit-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "banana madura amassada",
+      "colheres de sopa de cacau em pó",
+      "/2 xícara de farinha de aveia",
+      "colher de chá de fermento em pó",
+      "colher de sopa de mel"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes até formar massa homogênea.",
+      "Modele bolinhos e coloque na cesta da Air Fryer.",
+      "Asse a 180°C por 12 minutos."
+    ],
+    "descricao": "Pra adoçar a vida sem sabotagem (ou pelo menos tentar).",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Bolinho fit que é mais doce que as mensagens da sua crush no WhatsApp."
+  },
+  {
+    "id": 1129,
+    "titulo": "Frango à Passarinho na Air Fryer",
+    "slug": "frango-a-passarinho-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "g frango cortado em pedaços pequenos",
+      "dentes de alho picados",
+      "Suco de 1 limão",
+      "Sal, pimenta e cheiro-verde a gosto",
+      "colher de sopa de azeite"
+    ],
+    "modoPreparo": [
+      "Tempere o frango com alho, limão, sal e pimenta.",
+      "Deixe marinar por 15 minutos.",
+      "Coloque na Air Fryer a 200°C por 20 minutos, mexendo na metade do tempo."
+    ],
+    "descricao": "Aquele petisco que faz você esquecer a conta do bar.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "4 porções",
+    "dica": "Frango à passarinho: pra fazer sucesso no bar e no sofá de casa."
+  },
+  {
+    "id": 1130,
+    "titulo": "Muffin de Banana com Aveia na Air Fryer",
+    "slug": "muffin-de-banana-com-aveia-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "bananas maduras amassadas",
+      "xícara de farinha de aveia",
+      "ovo",
+      "colher de chá de fermento em pó",
+      "colher de sopa de mel"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes até a massa ficar homogênea.",
+      "Coloque nas forminhas e leve para assar na Air Fryer a 180°C por 15 minutos.",
+      "Deixe esfriar antes de desenformar."
+    ],
+    "descricao": "Café da manhã que não te deixa querendo voltar pra cama (ou pelo menos tenta).",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "4 porções",
+    "dica": "Muffin tão gostoso que vai te fazer até esquecer que o chefe marcou reunião cedo."
+  },
+  {
+    "id": 1131,
+    "titulo": "Batata Recheada com Queijo na Air Fryer",
+    "slug": "batata-recheada-com-queijo-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "batatas grandes",
+      "g queijo muçarela ralado",
+      "colheres de sopa de creme de leite",
+      "Sal e pimenta a gosto",
+      "Cebolinha para decorar"
+    ],
+    "modoPreparo": [
+      "Fure as batatas e asse na Air Fryer a 200°C por 30 minutos.",
+      "Corte ao meio, retire parte do miolo, misture com queijo e creme de leite.",
+      "Recheie as batatas e asse mais 5 minutos."
+    ],
+    "descricao": "Aquele comfort food que abraça o estômago e aperta a carteira.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "2 porções",
+    "dica": "Batata recheada: a desculpa oficial para comer queijo em todas as refeições."
+  },
+  {
+    "id": 1132,
+    "titulo": "Tofu Crocante na Air Fryer",
+    "slug": "tofu-crocante-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "g tofu firme cortado em cubos",
+      "colheres de sopa de molho shoyu",
+      "colher de sopa de amido de milho",
+      "colher de chá de óleo de gergelim"
+    ],
+    "modoPreparo": [
+      "Marine o tofu no shoyu e óleo por 10 minutos.",
+      "Passe os cubos no amido de milho.",
+      "Asse na Air Fryer a 200°C por 15 minutos, mexendo na metade."
+    ],
+    "descricao": "Vegano, gostoso e mais crocante que seu chefe na sexta-feira.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "3 porções",
+    "dica": "Se tofu crocante não conquista seu coração, pelo menos conquista seu estômago."
+  },
+  {
+    "id": 1133,
+    "titulo": "Quibe de Abóbora na Air Fryer",
+    "slug": "quibe-de-abobora-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "g abóbora cozida e amassada",
+      "xícara de trigo para quibe hidratado",
+      "cebola picada",
+      "Hortelã e sal a gosto",
+      "colher de sopa de azeite"
+    ],
+    "modoPreparo": [
+      "Misture a abóbora, o trigo, a cebola, hortelã e sal.",
+      "Modele os quibes e pincele azeite.",
+      "Asse na Air Fryer a 200°C por 20 minutos, virando na metade."
+    ],
+    "descricao": "O quibe que vai fazer você esquecer que a vida adulta é só boleto e reunião.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "4 porções",
+    "dica": "Quibe de abóbora: pra quem quer fugir da pizza sem fugir do sabor."
+  },
+  {
+    "id": 1134,
+    "titulo": "Pão de Batata Doce com Gergelim na Air Fryer",
+    "slug": "pao-de-batata-doce-com-gergelim-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "g purê de batata doce",
+      "xícaras de farinha de trigo",
+      "ovo",
+      "colher de sopa de fermento biológico seco",
+      "Gergelim para polvilhar",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o purê, ovo, sal e fermento.",
+      "Acrescente farinha até formar massa e deixe descansar 30 min.",
+      "Modele pãezinhos, pincele ovo e polvilhe gergelim.",
+      "Asse na Air Fryer a 180°C por 15 minutos."
+    ],
+    "descricao": "Porque pãozinho sem gergelim é igual boleto sem juros: sem graça.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 16,00",
+    "porcoes": "6 porções",
+    "dica": "Pão com gergelim: o toque especial que faz até fila de banco parecer festa."
+  },
+  {
+    "id": 1135,
+    "titulo": "Mini Lasanha de Berinjela na Air Fryer",
+    "slug": "mini-lasanha-de-berinjela-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "berinjela média em fatias finas",
+      "g molho de tomate",
+      "g queijo muçarela ralado",
+      "Manjericão a gosto",
+      "Sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Tempere as fatias de berinjela com sal e pimenta.",
+      "Em uma forma, faça camadas de berinjela, molho, queijo e manjericão.",
+      "Leve à Air Fryer a 180°C por 25 minutos até gratinar."
+    ],
+    "descricao": "Pra quem quer lasanha sem a desculpa de “demora demais”.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Mini lasanha pra provar que tamanho não é documento (mas gosto é)."
+  },
+  {
+    "id": 1136,
+    "titulo": "Espetinho de Frango com Legumes na Air Fryer",
+    "slug": "espetinho-de-frango-com-legumes-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "g peito de frango em cubos",
+      "abobrinha em rodelas",
+      "pimentão em cubos",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o frango e os legumes com sal, pimenta e azeite.",
+      "Monte os espetinhos alternando frango e legumes.",
+      "Asse na Air Fryer a 200°C por 15 minutos, virando na metade."
+    ],
+    "descricao": "Pra quem quer praticidade e paladar sem drama na cozinha.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "3 porções",
+    "dica": "Espetinho que vai fazer você querer virar mestre churrasqueiro da Air Fryer."
+  },
+  {
+    "id": 1137,
+    "titulo": "Churros Fit na Air Fryer",
+    "slug": "churros-fit-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "xícara de água",
+      "/2 xícara de farinha de trigo integral",
+      "colher de sopa de óleo de coco",
+      "Canela e adoçante para polvilhar"
+    ],
+    "modoPreparo": [
+      "Ferva a água com óleo, adicione a farinha e mexa até formar massa.",
+      "Modele os churros com saco de confeitar.",
+      "Asse na Air Fryer a 200°C por 15 minutos.",
+      "Polvilhe canela e adoçante."
+    ],
+    "descricao": "Doce para enganar a mente e o paladar sem explodir a dieta.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "4 porções",
+    "dica": "Churros fit que enganam até sua vontade de desistir da vida saudável."
+  },
+  {
+    "id": 1138,
+    "titulo": "Couve-Flor Empanada na Air Fryer",
+    "slug": "couve-flor-empanada-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "cabeça de couve-flor em floretes",
+      "ovo batido",
+      "xícara de farinha de rosca",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere a couve-flor e passe no ovo.",
+      "Empane na farinha de rosca.",
+      "Asse na Air Fryer a 200°C por 15 minutos, mexendo na metade."
+    ],
+    "descricao": "Pra quem quer ser saudável, mas não abre mão da crocância do pecado.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "3 porções",
+    "dica": "Couve-flor crocante: a prova que até legume pode ser a estrela da festa."
+  },
+  {
+    "id": 1139,
+    "titulo": "Bolo de Caneca de Chocolate na Air Fryer",
+    "slug": "bolo-de-caneca-de-chocolate-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "colheres de sopa de farinha de trigo",
+      "colheres de sopa de cacau em pó",
+      "colheres de sopa de açúcar",
+      "colheres de sopa de leite",
+      "ovo pequeno",
+      "colher de sopa de óleo",
+      "/2 colher de chá de fermento"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes na caneca até ficar homogêneo.",
+      "Leve à Air Fryer a 180°C por 8 minutos."
+    ],
+    "descricao": "Sobremesa instantânea pra quem tá sem tempo e com muita vontade.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Bolo de caneca: pra quando a vida tá corrida, mas a vontade de doce não."
+  },
+  {
+    "id": 1140,
+    "titulo": "Espetinho de Abacaxi com Presunto na Air Fryer",
+    "slug": "espetinho-de-abacaxi-com-presunto-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "/2 abacaxi em cubos",
+      "g presunto fatiado em pedaços",
+      "Mel para pincelar"
+    ],
+    "modoPreparo": [
+      "Monte espetinhos alternando abacaxi e presunto.",
+      "Pincele com mel e asse a 180°C por 10 minutos."
+    ],
+    "descricao": "O docinho salgado que vai fazer você parecer chef sem esforço.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Espetinho tão gostoso que até a balança vai querer dar um tempo."
+  },
+  {
+    "id": 1141,
+    "titulo": "Churrasquinho de Queijo Coalho na Air Fryer",
+    "slug": "churrasquinho-de-queijo-coalho-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "g queijo coalho em cubos",
+      "Orégano a gosto",
+      "Azeite para pincelar"
+    ],
+    "modoPreparo": [
+      "Espete os cubos de queijo nos palitos.",
+      "Pincele azeite e polvilhe orégano.",
+      "Asse a 200°C por 12 minutos."
+    ],
+    "descricao": "O petisco que não reclama do preço do carvão e nem da chuva.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "3 porções",
+    "dica": "Queijo coalho na Air Fryer: churrasco sem desculpa, só alegria."
+  },
+  {
+    "id": 1142,
+    "titulo": "Pastel de Queijo na Air Fryer",
+    "slug": "pastel-de-queijo-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "Massa para pastel pronta",
+      "g queijo muçarela ralado",
+      "Orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Corte a massa em círculos, recheie com queijo e dobre.",
+      "Feche as bordas com garfo.",
+      "Asse na Air Fryer a 200°C por 12 minutos."
+    ],
+    "descricao": "Porque ninguém merece fritura, mas todo mundo merece pastel.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Pastel na Air Fryer: pra fingir que tá comendo gordice sem culpa."
+  },
+  {
+    "id": 1143,
+    "titulo": "Frango Xadrez Light na Air Fryer",
+    "slug": "frango-xadrez-light-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "g peito de frango em cubos",
+      "pimentão verde em cubos",
+      "cebola em cubos",
+      "colheres de sopa de molho shoyu light",
+      "Amido de milho para engrossar",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue o frango com pimentão e cebola rapidamente.",
+      "Misture o molho shoyu e amido dissolvido, cozinhe até engrossar.",
+      "Transfira para a cesta da Air Fryer e asse a 180°C por 10 minutos."
+    ],
+    "descricao": "Sabor oriental sem a desculpa de fazer um milhão de panelas sujas.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 24,00",
+    "porcoes": "3 porções",
+    "dica": "Frango xadrez pra quem quer sabor sem drama e tempo pra maratonar série."
+  },
+  {
+    "id": 1144,
+    "titulo": "Cookies de Aveia e Banana na Air Fryer",
+    "slug": "cookies-de-aveia-e-banana-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "bananas maduras amassadas",
+      "xícara de aveia em flocos",
+      "colher de chá de essência de baunilha",
+      "colher de sopa de mel"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes até formar massa.",
+      "Modele cookies e coloque na Air Fryer.",
+      "Asse a 180°C por 12 minutos."
+    ],
+    "descricao": "O biscoito que faz sua dieta sorrir, mas seu coração suspirar.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "6 porções",
+    "dica": "Cookies tão bons que até seu chefe vai pedir pra dividir o segredo."
+  },
+  {
+    "id": 1145,
+    "titulo": "Berinjela à Parmegiana na Air Fryer",
+    "slug": "berinjela-a-parmegiana-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "berinjelas fatiadas",
+      "g molho de tomate",
+      "g queijo muçarela ralado",
+      "Sal, pimenta e orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere as fatias de berinjela.",
+      "Monte camadas de berinjela, molho e queijo.",
+      "Asse na Air Fryer a 180°C por 25 minutos."
+    ],
+    "descricao": "Porque quem disse que comida italiana precisa de óleo até pra respirar?",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "3 porções",
+    "dica": "Berinjela à parmegiana pra você fingir que tá na Itália, mas sem o boleto do euro."
+  },
+  {
+    "id": 1146,
+    "titulo": "Croquete de Carne na Air Fryer",
+    "slug": "croquete-de-carne-na-air-fryer",
+    "categoria": "Na Air Fryer ",
+    "ingredientes": [
+      "g carne moída cozida",
+      "/2 cebola picada",
+      "ovo",
+      "xícara de farinha de rosca",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a carne, cebola, ovo e tempere bem.",
+      "Modele os croquetes, passe na farinha de rosca.",
+      "Asse na Air Fryer a 200°C por 15 minutos, virando na metade."
+    ],
+    "descricao": "Aquele petisco que a gente come rápido antes de pensar na vida.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Croquete que vai sumir tão rápido quanto sua energia na segunda-feira."
+  }
+]

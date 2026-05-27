@@ -1,0 +1,969 @@
+[
+  {
+    "id": 819,
+    "titulo": "Macarrão do Desespero Econômico",
+    "slug": "macarrao-do-desespero-economico",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "g macarrão espaguete",
+      "dentes de alho picados",
+      "colheres de sopa de óleo",
+      "cubo de caldo de legumes",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão em água fervente com sal até ficar al dente.",
+      "Em uma panela, aqueça o óleo e doure o alho.",
+      "Escorra o macarrão, misture com o alho dourado e esfarele o cubo de caldo por cima."
+    ],
+    "descricao": "Quando o boleto vence e o macarrão é o seu melhor amigo fiel.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "3 porções",
+    "dica": "Se seu bolso está mais vazio que a panela, um pouco de água do cozimento no molho salva a vida e o sabor – tipo aquele amigo que aparece só no final do mês."
+  },
+  {
+    "id": 820,
+    "titulo": "Omelete do Fim do Dinheiro",
+    "slug": "omelete-do-fim-do-dinheiro",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "ovos",
+      "pitada de sal",
+      "colher de sopa de óleo ou manteiga",
+      "tomate pequeno picado (opcional, se sobrar no mercado)"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com sal na tigela.",
+      "Aqueça a frigideira com óleo e despeje os ovos batidos.",
+      "Espalhe o tomate picado, cozinhe até firmar e dobre ao meio."
+    ],
+    "descricao": "Proteína barata e rápida, igual promessa de salário que nunca cai no prazo.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,50",
+    "porcoes": "1 porção",
+    "dica": "Se a conta aperta, o ovo é seu melhor amigo; barato, versátil e nunca reclama do condomínio."
+  },
+  {
+    "id": 821,
+    "titulo": "Arroz Sujo do Fim do Mês",
+    "slug": "arroz-sujo-do-fim-do-mes",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "xícara de arroz",
+      "xícaras de água",
+      "cebola pequena picada",
+      "dente de alho amassado",
+      "Restos de legumes ou carnes que tiver na geladeira (aprox. 150g)",
+      "Sal e pimenta a gosto",
+      "colher de óleo"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e o alho no óleo até dourar.",
+      "Acrescente os legumes/carnes e refogue por 5 minutos.",
+      "Adicione o arroz, água, sal e cozinhe até secar."
+    ],
+    "descricao": "Arroz com o que sobrou da geladeira, porque na vida adulta a criatividade é sobrevivência.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 7,00",
+    "porcoes": "2 porções",
+    "dica": "O arroz sujo é a prova que no fim do mês, até a geladeira vira buffet gourmet – ou pelo menos tenta."
+  },
+  {
+    "id": 822,
+    "titulo": "Sopa da Sobrevivência Financeira",
+    "slug": "sopa-da-sobrevivencia-financeira",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "batatas médias descascadas e picadas",
+      "cenouras picadas",
+      "cebola picada",
+      "dentes de alho picados",
+      "litro de água",
+      "cubo de caldo de galinha",
+      "Sal e pimenta a gosto",
+      "colher de óleo"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no óleo até dourar.",
+      "Acrescente batata, cenoura, caldo e água, deixe cozinhar por 20 minutos.",
+      "Tempere com sal e pimenta, bata no liquidificador se quiser cremosa."
+    ],
+    "descricao": "Para esquentar o corpo e a alma enquanto o saldo do banco chora.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 8,00",
+    "porcoes": "4 porções",
+    "dica": "Sopa é como o salário no fim do mês: simples, quentinha e dá aquela sensação de que vai dar tudo certo (pelo menos até amanhã)."
+  },
+  {
+    "id": 823,
+    "titulo": "Panqueca do Último Centavo",
+    "slug": "panqueca-do-ultimo-centavo",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "ovo",
+      "xícara de leite ou água",
+      "pitada de sal",
+      "Óleo para untar"
+    ],
+    "modoPreparo": [
+      "Misture a farinha, ovo, leite e sal até formar uma massa homogênea.",
+      "Aqueça a frigideira untada, despeje uma concha da massa e espalhe.",
+      "Cozinhe até dourar dos dois lados e sirva com o que tiver (açúcar, geleia, ou até ketchup)."
+    ],
+    "descricao": "Quando o mercado está vazio, mas a fome grita alto e não aceita desculpas.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,50",
+    "porcoes": "3 panquecas",
+    "dica": "Panqueca é tipo relacionamento no fim do mês: simples, versátil e você faz com o que tem, mesmo que não seja ideal."
+  },
+  {
+    "id": 824,
+    "titulo": "Ovo Mexido do Aperto",
+    "slug": "ovo-mexido-do-aperto",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "ovos",
+      "Sal e pimenta a gosto",
+      "colher de sopa de óleo ou manteiga"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com sal e pimenta.",
+      "Aqueça o óleo na frigideira e despeje os ovos.",
+      "Mexa delicadamente até firmar, retire e sirva."
+    ],
+    "descricao": "O clássico do \"não tem nada na geladeira, mas tem ovo, então tá valendo\".",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,00",
+    "porcoes": "1 porção",
+    "dica": "Ovo mexido é o \"quebra-galho\" oficial da gastronomia do fim do mês: rápido, barato e nunca te deixa na mão."
+  },
+  {
+    "id": 825,
+    "titulo": "Salada de Feijão Frio",
+    "slug": "salada-de-feijao-frio",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "xícara de feijão cozido e frio",
+      "tomate picado",
+      "/2 cebola picada",
+      "colher de sopa de azeite",
+      "Sal, pimenta e vinagre a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o feijão, tomate e cebola na tigela.",
+      "Tempere com azeite, sal, pimenta e vinagre.",
+      "Mexa bem e deixe na geladeira por 10 minutos antes de servir."
+    ],
+    "descricao": "Porque às vezes o feijão vira salada e o salário vira piada.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "2 porções",
+    "dica": "Salada de feijão é o jeitinho brasileiro de dizer “vou virar chef de cozinha com o que sobrou”."
+  },
+  {
+    "id": 826,
+    "titulo": "Arroz de Micro-ondas da Preguiça Econômica",
+    "slug": "arroz-de-micro-ondas-da-preguica-economica",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "xícara de arroz",
+      "xícaras de água",
+      "/2 colher de chá de sal"
+    ],
+    "modoPreparo": [
+      "Coloque o arroz, água e sal no recipiente, mexa e cubra com a tampa.",
+      "Cozinhe no micro-ondas por 10 minutos em potência alta.",
+      "Mexa com o garfo e deixe descansar por 5 minutos antes de servir."
+    ],
+    "descricao": "Para quem quer arroz rápido sem gastar energia (nem dinheiro nem física).",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "2 porções",
+    "dica": "Se cozinhar arroz no micro-ondas é preguiça, eu sou o rei do sofá – mas pelo menos o arroz não reclama."
+  },
+  {
+    "id": 827,
+    "titulo": "Caldo de Mandioca do Contracheque Zerado",
+    "slug": "caldo-de-mandioca-do-contracheque-zerado",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "g mandioca descascada e picada",
+      "cebola picada",
+      "dentes de alho picados",
+      "litro de água",
+      "Sal e pimenta a gosto",
+      "colher de óleo"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no óleo até dourar.",
+      "Adicione mandioca e água, cozinhe até a mandioca amolecer (30 minutos).",
+      "Bata no liquidificador, tempere e sirva quente."
+    ],
+    "descricao": "Porque até a mandioca entende que o bolso está raso e aquece o coração.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 9,00",
+    "porcoes": "4 porções",
+    "dica": "Caldo de mandioca é aquele abraço quentinho do fim do mês, porque dinheiro não abraça ninguém, né?"
+  },
+  {
+    "id": 828,
+    "titulo": "Farofa do Restinho",
+    "slug": "farofa-do-restinho",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "xícara de farinha de mandioca",
+      "colher de óleo",
+      "Restos de cebola, alho ou bacon (opcional)",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça o óleo na frigideira e refogue a cebola e alho.",
+      "Adicione a farinha e mexa até dourar levemente.",
+      "Tempere com sal e sirva com o que tiver disponível."
+    ],
+    "descricao": "Quando a geladeira grita “sobra”, a farofa escuta e transforma.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,00",
+    "porcoes": "3 porções",
+    "dica": "Farofa é o curinga do fim do mês: transforma qualquer resto em banquete (ou quase isso)."
+  },
+  {
+    "id": 829,
+    "titulo": "Pão de Queijo Econômico de Micro-ondas",
+    "slug": "pao-de-queijo-economico-de-micro-ondas",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "colheres de sopa de polvilho azedo",
+      "colheres de sopa de queijo ralado barato",
+      "colheres de sopa de iogurte natural ou leite",
+      "colher de óleo"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes até formar uma massa homogênea.",
+      "Modele bolinhas e coloque em um prato.",
+      "Leve ao micro-ondas por 2 minutos e sirva quente."
+    ],
+    "descricao": "O luxo que você pode pagar com o último centavo do bolso e a luz do micro-ondas.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "4 porções pequenas",
+    "dica": "Quando a conta aperta, o micro-ondas vira seu chef particular – só não peça para ele fazer jantar 5 estrelas."
+  },
+  {
+    "id": 830,
+    "titulo": "Bolo de Caneca do Fim do Mês",
+    "slug": "bolo-de-caneca-do-fim-do-mes",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "colheres de sopa de farinha de trigo",
+      "colheres de sopa de açúcar",
+      "colher de sopa de óleo",
+      "colheres de sopa de leite",
+      "/2 colher de chá de fermento em pó",
+      "colher de sopa de achocolatado (opcional)"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes na caneca até formar uma massa lisa.",
+      "Leve ao micro-ondas por 3 minutos em potência alta.",
+      "Deixe esfriar um pouco e aproveite."
+    ],
+    "descricao": "Porque às vezes o que a gente quer mesmo é um doce barato para adoçar a alma (e o bolso).",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,50",
+    "porcoes": "1 porção",
+    "dica": "Bolo de caneca é o consolo rápido que seu bolso não pode comprar – mas sua vontade de comer não vai esperar."
+  },
+  {
+    "id": 831,
+    "titulo": "Cuscuz Nordestino de Bolso Apertado",
+    "slug": "cuscuz-nordestino-de-bolso-apertado",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "xícara de farinha de milho para cuscuz",
+      "xícara de água quente",
+      "Sal a gosto",
+      "Manteiga ou margarina para servir"
+    ],
+    "modoPreparo": [
+      "Coloque a farinha de milho em uma tigela, adicione a água quente e sal, mexa e deixe hidratar por 5 minutos.",
+      "Coloque a mistura na cuscuzeira e cozinhe por 15 minutos.",
+      "Sirva com manteiga ou margarina."
+    ],
+    "descricao": "O prato que diz “meu salário é nordestino: curto, simples e cheio de sabor”.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 7,50",
+    "porcoes": "3 porções",
+    "dica": "Cuscuz é o abraço nordestino para o bolso no fim do mês: simples, quente e cheio de amor (e farinha)."
+  },
+  {
+    "id": 832,
+    "titulo": "Salsicha Enrolada Econômica",
+    "slug": "salsicha-enrolada-economica",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "salsichas pequenas",
+      "fatias de pão de forma",
+      "colher de sopa de óleo"
+    ],
+    "modoPreparo": [
+      "Aplane as fatias de pão com o rolo.",
+      "Enrole cada salsicha em uma fatia de pão, prenda com palito se quiser.",
+      "Frite na frigideira com óleo até dourar."
+    ],
+    "descricao": "Porque enrolar salsicha é mais barato que enrolar no trabalho.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "2 porções",
+    "dica": "Enrolar salsicha é a prova de que, no fim do mês, o que importa é a criatividade – e a fome, claro."
+  },
+  {
+    "id": 833,
+    "titulo": "Calabresa na Cebola do Bolso Furado",
+    "slug": "calabresa-na-cebola-do-bolso-furado",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "linguiça calabresa cortada em rodelas",
+      "cebola grande cortada em rodelas",
+      "colher de óleo",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça o óleo na frigideira e frite a calabresa até dourar.",
+      "Acrescente a cebola e refogue até murchar.",
+      "Tempere e sirva com arroz ou pão."
+    ],
+    "descricao": "Um prato simples que faz seu bolso chorar, mas seu estômago agradecer.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,50",
+    "porcoes": "2 porções",
+    "dica": "Calabresa na cebola é tipo boleto atrasado: dói no bolso, mas a gente encara de cabeça erguida."
+  },
+  {
+    "id": 834,
+    "titulo": "Macarrão com Molho de Tomate Barato",
+    "slug": "macarrao-com-molho-de-tomate-barato",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "g macarrão tipo penne ou espaguete",
+      "lata de molho de tomate simples",
+      "dente de alho picado",
+      "colher de óleo",
+      "Sal e orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão em água com sal até ficar al dente.",
+      "Refogue o alho no óleo, adicione o molho de tomate, sal e orégano.",
+      "Misture o macarrão escorrido ao molho e sirva."
+    ],
+    "descricao": "A vida pode estar dura, mas o macarrão com molho sempre salva a janta.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "3 porções",
+    "dica": "Molho de tomate barato é o “empurrãozinho” que seu bolso precisa para fazer o macarrão parecer festa."
+  },
+  {
+    "id": 835,
+    "titulo": "Sanduíche de Ovo Frito na Pressa",
+    "slug": "sanduiche-de-ovo-frito-na-pressa",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "fatias de pão",
+      "ovo",
+      "colher de óleo",
+      "Sal e pimenta a gosto",
+      "Maionese ou ketchup (opcional)"
+    ],
+    "modoPreparo": [
+      "Frite o ovo no óleo até a gema ficar do jeito que preferir.",
+      "Torre levemente as fatias de pão.",
+      "Monte o sanduíche com ovo e condimentos."
+    ],
+    "descricao": "Quando o rango é rápido, barato e o relógio não perdoa.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,00",
+    "porcoes": "1 porção",
+    "dica": "Sanduíche rápido é o “fast food” do bolso apertado: entrega sabor instantâneo sem dívida no cartão."
+  },
+  {
+    "id": 836,
+    "titulo": "Batata Assada do Bolso Vazio",
+    "slug": "batata-assada-do-bolso-vazio",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "batatas médias",
+      "Sal, azeite e ervas a gosto"
+    ],
+    "modoPreparo": [
+      "Lave e fure as batatas com um garfo.",
+      "Passe azeite, sal e ervas nas batatas.",
+      "Asse em forno pré-aquecido a 200°C por 40 minutos ou até ficarem macias."
+    ],
+    "descricao": "Porque batata no forno é o luxo que seu orçamento permite.",
+    "tempo": "50 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,50",
+    "porcoes": "2 porções",
+    "dica": "Batata assada é o “banho de loja” do fim do mês: simples, mas faz você se sentir chique por 40 minutos."
+  },
+  {
+    "id": 837,
+    "titulo": "Macarrão com Ovo Ralado do Jeitinho",
+    "slug": "macarrao-com-ovo-ralado-do-jeitinho",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "g macarrão tipo parafuso",
+      "ovos cozidos",
+      "colher de óleo",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão em água com sal até al dente.",
+      "Escorra e misture com óleo.",
+      "Rale os ovos cozidos por cima e misture suavemente."
+    ],
+    "descricao": "Quando o queijo é caro, o ovo ralado entra em campo para salvar.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,50",
+    "porcoes": "3 porções",
+    "dica": "Ovo ralado é a prova de que no fim do mês, a criatividade é o melhor ingrediente – e o queijo, luxo mesmo."
+  },
+  {
+    "id": 838,
+    "titulo": "Mingau de Aveia do Bolso Amigo",
+    "slug": "mingau-de-aveia-do-bolso-amigo",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "colheres de sopa de aveia em flocos",
+      "xícara de leite ou água",
+      "colher de açúcar ou mel (opcional)"
+    ],
+    "modoPreparo": [
+      "Misture a aveia e o leite na panela.",
+      "Cozinhe em fogo médio, mexendo até engrossar.",
+      "Adoce a gosto e sirva quente."
+    ],
+    "descricao": "Aquele café da manhã que abraça o estômago e não aperta o bolso.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,50",
+    "porcoes": "1 porção",
+    "dica": "Mingau de aveia é o abraço quentinho do fim do mês, porque abraço de boleto ninguém quer."
+  },
+  {
+    "id": 839,
+    "titulo": "Salada de Macarrão Econômica",
+    "slug": "salada-de-macarrao-economica",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "g macarrão tipo parafuso",
+      "tomate picado",
+      "/2 cebola picada",
+      "colheres de sopa de óleo ou maionese",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão até ficar al dente, escorra e deixe esfriar.",
+      "Misture com tomate, cebola, óleo, sal e pimenta.",
+      "Sirva gelado ou à temperatura ambiente."
+    ],
+    "descricao": "Praquela salada que não tem frescura, só o que o bolso permite.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "3 porções",
+    "dica": "Salada de macarrão é o “gourmet” do fim do mês: simples, prática e faz você se sentir chef, mesmo sem dinheiro."
+  },
+  {
+    "id": 840,
+    "titulo": "Pizza de Pão Sírio Econômica",
+    "slug": "pizza-de-pao-sirio-economica",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "pães sírios",
+      "colheres de sopa de molho de tomate",
+      "g queijo ralado simples",
+      "Orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Espalhe o molho sobre os pães sírios.",
+      "Cubra com queijo e orégano.",
+      "Leve ao forno ou frigideira até o queijo derreter."
+    ],
+    "descricao": "Quando o desejo é pizza, mas o bolso só aceita improviso.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "2 porções",
+    "dica": "Pizza de pão sírio é o “jeitinho brasileiro” na cozinha: barato, rápido e engana bem a vontade."
+  },
+  {
+    "id": 841,
+    "titulo": "Tapioca do Último Troco",
+    "slug": "tapioca-do-ultimo-troco",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "Sal a gosto",
+      "Recheio simples: queijo ou manteiga (opcional)"
+    ],
+    "modoPreparo": [
+      "Aqueça a frigideira, espalhe a goma formando uma panqueca fina.",
+      "Cozinhe por 2 minutos, vire e recheie.",
+      "Dobre e sirva quente."
+    ],
+    "descricao": "Aquele lanche simples que vira milagre quando o dinheiro some.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,00",
+    "porcoes": "2 porções",
+    "dica": "Tapioca é a prova que com pouco você faz muito – e com muita fome, até goma vira banquete."
+  },
+  {
+    "id": 842,
+    "titulo": "Polenta Rápida do Bolso Curto",
+    "slug": "polenta-rapida-do-bolso-curto",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "xícara de fubá",
+      "xícaras de água",
+      "Sal a gosto",
+      "colher de óleo"
+    ],
+    "modoPreparo": [
+      "Ferva a água com sal e óleo.",
+      "Acrescente o fubá aos poucos, mexendo sempre para não empelotar.",
+      "Cozinhe em fogo baixo até engrossar, mexendo por 20 minutos."
+    ],
+    "descricao": "Porque até a polenta sabe que fim do mês é sinônimo de aperto.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 7,00",
+    "porcoes": "3 porções",
+    "dica": "Polenta é a comida que te ensina paciência – igual esperar o salário cair e a conta não estourar."
+  },
+  {
+    "id": 843,
+    "titulo": "Caldo Verde Simples do Bolso",
+    "slug": "caldo-verde-simples-do-bolso",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "batatas médias",
+      "cebola picada",
+      "dentes de alho picados",
+      "g couve fatiada fininha",
+      "linguiça calabresa pequena em rodelas",
+      "Sal e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe batatas, cebola e alho até amolecer.",
+      "Bata as batatas com a água do cozimento até formar caldo.",
+      "Volte ao fogo, adicione a linguiça e couve, cozinhe por mais 10 minutos."
+    ],
+    "descricao": "Um clássico que aquece o corpo sem congelar o saldo bancário.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 9,00",
+    "porcoes": "4 porções",
+    "dica": "Caldo verde é o abraço da comida que diz “vai ficar tudo bem”, mesmo quando o boleto insiste em não esperar."
+  },
+  {
+    "id": 844,
+    "titulo": "Cuscuz de Micro-ondas do Jeitinho Brasileiro",
+    "slug": "cuscuz-de-micro-ondas-do-jeitinho-brasileiro",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "xícara de farinha de milho para cuscuz",
+      "xícara de água quente",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a farinha com a água e sal em uma tigela.",
+      "Cubra e leve ao micro-ondas por 5 minutos.",
+      "Mexa com garfo e sirva com manteiga."
+    ],
+    "descricao": "Pra quem quer cuscuz sem esperar o salário cair.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "2 porções",
+    "dica": "Cuscuz de micro-ondas é a prova de que, no fim do mês, até o micro-ondas vira seu melhor amigo – e chefe de cozinha."
+  },
+  {
+    "id": 845,
+    "titulo": "Pão com Manteiga e Café do Fim do Mês",
+    "slug": "pao-com-manteiga-e-cafe-do-fim-do-mes",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "fatias de pão simples",
+      "colher de manteiga",
+      "Café coado ou solúvel",
+      "Açúcar a gosto"
+    ],
+    "modoPreparo": [
+      "Torre o pão e passe manteiga.",
+      "Prepare o café da sua forma preferida.",
+      "Sirva juntos e aproveite o combo básico da vida adulta."
+    ],
+    "descricao": "O clássico que não falha, mesmo quando tudo mais falha.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,00",
+    "porcoes": "1 porção",
+    "dica": "Pão com manteiga e café é o kit sobrevivência oficial do fim do mês – barato, rápido e que não te abandona."
+  },
+  {
+    "id": 846,
+    "titulo": "Arroz com Ovo Frito do Jeitinho",
+    "slug": "arroz-com-ovo-frito-do-jeitinho",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "xícara de arroz",
+      "xícaras de água",
+      "ovos",
+      "Sal e óleo a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o arroz em água com sal até secar.",
+      "Frite os ovos no óleo até a gema ficar do jeito que preferir.",
+      "Sirva o arroz com os ovos por cima."
+    ],
+    "descricao": "Quando o prato principal é o ovo, mas o arroz faz o coração bater forte.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "2 porções",
+    "dica": "Arroz com ovo é o combo que diz “não tenho dinheiro, mas tenho talento pra cozinha”."
+  },
+  {
+    "id": 847,
+    "titulo": "Feijão Tropeiro Simples",
+    "slug": "feijao-tropeiro-simples",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "xícaras de feijão cozido",
+      "/2 cebola picada",
+      "dentes de alho picados",
+      "ovos",
+      "colheres de farinha de mandioca",
+      "Sal e óleo a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho em óleo até dourar.",
+      "Acrescente feijão, ovos batidos e farinha, mexa até os ovos cozinharem.",
+      "Tempere e sirva quente."
+    ],
+    "descricao": "A comida que é tão brasileira quanto boleto atrasado.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 9,00",
+    "porcoes": "3 porções",
+    "dica": "Feijão tropeiro é o jeitinho mineiro de dizer “sem dinheiro? sem problema, tem comida boa sim!”."
+  },
+  {
+    "id": 848,
+    "titulo": "Bolinho de Chuva Econômico",
+    "slug": "bolinho-de-chuva-economico",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "/2 xícara de açúcar",
+      "ovo",
+      "/2 xícara de leite",
+      "colher de fermento em pó",
+      "Açúcar e canela para polvilhar",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Misture farinha, açúcar, ovo, leite e fermento até formar massa homogênea.",
+      "Aqueça óleo e frite colheradas de massa até dourar.",
+      "Escorra e polvilhe açúcar com canela."
+    ],
+    "descricao": "O docinho que faz o fim do mês parecer um pouco mais doce.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 7,00",
+    "porcoes": "15 bolinhos",
+    "dica": "Bolinho de chuva é o remédio para o bolso triste e o coração carente – doce, simples e baratinho."
+  },
+  {
+    "id": 849,
+    "titulo": "Creme de Milho Econômico",
+    "slug": "creme-de-milho-economico",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "lata de milho verde",
+      "xícara de leite",
+      "colher de farinha de trigo",
+      "Sal e manteiga a gosto"
+    ],
+    "modoPreparo": [
+      "Bata o milho com leite no liquidificador.",
+      "Despeje na panela, acrescente farinha e mexa até engrossar.",
+      "Tempere com sal e acrescente manteiga antes de servir."
+    ],
+    "descricao": "O creme que não custa caro e ainda dá aquele sabor de infância.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "3 porções",
+    "dica": "Creme de milho é a comida que lembra que nem sempre o caro é melhor – às vezes, é só mais caro."
+  },
+  {
+    "id": 850,
+    "titulo": "Macarrão com Sardinha do Fim do Mês",
+    "slug": "macarrao-com-sardinha-do-fim-do-mes",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "g macarrão",
+      "lata de sardinha",
+      "dente de alho picado",
+      "colher de óleo",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão até al dente.",
+      "Refogue alho no óleo, adicione sardinha e misture.",
+      "Misture o macarrão escorrido ao molho e sirva."
+    ],
+    "descricao": "Proteína barata que termina o mês com dignidade (e um pouquinho de cheiro).",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "3 porções",
+    "dica": "Sardinha é o “QR code” do fim do mês: simples, acessível e pode causar reação inesperada."
+  },
+  {
+    "id": 851,
+    "titulo": "Purê de Batata do Desespero",
+    "slug": "pure-de-batata-do-desespero",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "batatas médias",
+      "colheres de sopa de manteiga ou margarina",
+      "Sal a gosto",
+      "Leite (opcional) para dar cremosidade"
+    ],
+    "modoPreparo": [
+      "Cozinhe as batatas descascadas até ficarem macias.",
+      "Amasse as batatas, misture manteiga, sal e leite até virar purê.",
+      "Sirva quente com o que tiver disponível."
+    ],
+    "descricao": "Quando o estômago grita e o bolso só tem batata para responder.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,50",
+    "porcoes": "3 porções",
+    "dica": "Purê de batata é o carinho do fim do mês – simples, barato e que conforta mais que mensagem do banco."
+  },
+  {
+    "id": 852,
+    "titulo": "Frango Desfiado Econômico",
+    "slug": "frango-desfiado-economico",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "g de peito de frango com osso",
+      "cebola picada",
+      "dentes de alho picados",
+      "Sal e pimenta a gosto",
+      "colher de óleo"
+    ],
+    "modoPreparo": [
+      "Cozinhe o frango com cebola, alho e sal até ficar macio.",
+      "Desfie o frango com garfo e reserve o caldo.",
+      "Refogue o frango desfiado no óleo, tempere e sirva."
+    ],
+    "descricao": "Proteína que rende e não faz seu bolso chorar litros.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Frango desfiado é a prova que com paciência e uma panela você vira chef – ou pelo menos come bem sem gastar tudo."
+  },
+  {
+    "id": 853,
+    "titulo": "Cuscuz Paulista Versão Econômica",
+    "slug": "cuscuz-paulista-versao-economica",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "xícara de farinha de milho fina",
+      "xícaras de água quente",
+      "lata de sardinha ou atum",
+      "tomate picado",
+      "cebola picada",
+      "dente de alho picado",
+      "Sal, pimenta e cheiro verde a gosto",
+      "colher de óleo"
+    ],
+    "modoPreparo": [
+      "Hidrate a farinha na água quente e deixe descansar.",
+      "Refogue cebola, alho e tomate no óleo, adicione sardinha, tempere.",
+      "Misture o refogado com a farinha hidratada e deixe cozinhar em fogo baixo até firmar."
+    ],
+    "descricao": "Clássico que prova que até no aperto dá pra ser chique (ou fingir).",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 13,00",
+    "porcoes": "4 porções",
+    "dica": "Cuscuz paulista econômico é a resposta pra quem quer luxo gastando pouco – e muita esperança no estômago."
+  },
+  {
+    "id": 854,
+    "titulo": "Sanduíche de Atum Simples",
+    "slug": "sanduiche-de-atum-simples",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "lata de atum",
+      "fatias de pão simples",
+      "colher de sopa de maionese",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o atum com maionese, sal e pimenta.",
+      "Espalhe a mistura sobre uma fatia de pão.",
+      "Cubra com a outra fatia e sirva."
+    ],
+    "descricao": "Porque atum enlatado é o herói silencioso do fim do mês.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "1 porção",
+    "dica": "Sanduíche de atum é o “fast food” que seu bolso aceita – rápido, barato e que não precisa de cartão de crédito."
+  },
+  {
+    "id": 855,
+    "titulo": "Mingau de Milho Verde Econômico",
+    "slug": "mingau-de-milho-verde-economico",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "lata de milho verde",
+      "colheres de sopa de açúcar",
+      "xícara de água",
+      "colher de amido de milho"
+    ],
+    "modoPreparo": [
+      "Bata o milho com água no liquidificador.",
+      "Coe e leve ao fogo com açúcar e amido dissolvido em água.",
+      "Mexa até engrossar e sirva quente."
+    ],
+    "descricao": "Aquele doce quentinho que abraça o estômago e não o orçamento.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "2 porções",
+    "dica": "Mingau de milho é o doce que diz: “Vai dar certo, só não sei quando”."
+  },
+  {
+    "id": 856,
+    "titulo": "Bife de Soja na Pressa",
+    "slug": "bife-de-soja-na-pressa",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "g de proteína de soja texturizada",
+      "cebola picada",
+      "dentes de alho picados",
+      "colher de óleo",
+      "Sal e temperos a gosto"
+    ],
+    "modoPreparo": [
+      "Hidrate a soja em água quente por 10 minutos e escorra.",
+      "Refogue alho e cebola no óleo, acrescente a soja e tempere.",
+      "Frite até dourar e sirva com arroz."
+    ],
+    "descricao": "Proteína barata que não tem frescura, igual seu extrato bancário.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 10,00",
+    "porcoes": "3 porções",
+    "dica": "Bife de soja é o “jeitinho saudável” do bolso apertado – barato, nutritivo e sem mimimi."
+  },
+  {
+    "id": 857,
+    "titulo": "Salada de Repolho Econômica",
+    "slug": "salada-de-repolho-economica",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "/4 de repolho picado fininho",
+      "cenoura ralada",
+      "colher de sopa de óleo",
+      "Sal e vinagre a gosto"
+    ],
+    "modoPreparo": [
+      "Misture repolho e cenoura na tigela.",
+      "Tempere com óleo, sal e vinagre.",
+      "Mexa bem e sirva gelado."
+    ],
+    "descricao": "Fresquinha, barata e pra dar aquele toque de saúde no fim do mês.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,00",
+    "porcoes": "2 porções",
+    "dica": "Salada de repolho é o “upgrade saudável” do fim do mês – barato e que faz você se sentir vivo (pelo menos um pouco)."
+  },
+  {
+    "id": 858,
+    "titulo": "Arroz com Sardinha e Milho",
+    "slug": "arroz-com-sardinha-e-milho",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "xícara de arroz",
+      "lata de sardinha",
+      "/2 lata de milho verde",
+      "xícaras de água",
+      "Sal e óleo a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue o arroz no óleo, adicione água e sal, cozinhe até secar.",
+      "Misture a sardinha e o milho no arroz pronto.",
+      "Sirva quente."
+    ],
+    "descricao": "O trio que não pesa no bolso, mas pesa na fome.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,50",
+    "porcoes": "3 porções",
+    "dica": "Arroz com sardinha e milho é o “combo família” do fim do mês: simples, barato e que alimenta até a alma."
+  },
+  {
+    "id": 859,
+    "titulo": "Biscoito de Polvilho Caseiro",
+    "slug": "biscoito-de-polvilho-caseiro",
+    "categoria": "Final Do Mes ",
+    "ingredientes": [
+      "xícaras de polvilho azedo",
+      "/2 xícara de óleo",
+      "/2 xícara de água",
+      "colher de sal"
+    ],
+    "modoPreparo": [
+      "Misture polvilho, óleo, água e sal até formar massa.",
+      "Modele os biscoitos e coloque na assadeira.",
+      "Asse em forno médio por 25 minutos ou até dourar."
+    ],
+    "descricao": "Crocante, barato e perfeito pra roer enquanto conta as moedas.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 6,00",
+    "porcoes": "15 biscoitos",
+    "dica": "Biscoito de polvilho é o lanche do bolso apertado – barato, crocante e mais fiel que amigo de bar."
+  }
+]

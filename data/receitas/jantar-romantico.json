@@ -1,0 +1,1101 @@
+[
+  {
+    "id": 941,
+    "titulo": "Risoto Cremoso de Camarão com Toque de Limão Siciliano",
+    "slug": "risoto-cremoso-de-camarao-com-toque-de-limao-siciliano",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "g de camarão limpo",
+      "xícara de arroz arbóreo",
+      "/2 cebola picada",
+      "dente de alho picado",
+      "/2 limão siciliano (raspas e suco)",
+      "/2 xícara de vinho branco seco",
+      "ml de caldo de legumes quente",
+      "colheres de sopa de manteiga",
+      "g de queijo parmesão ralado",
+      "Sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho na manteiga até ficarem transparentes.",
+      "Adicione o arroz e mexa por 2 minutos, junte o vinho e deixe evaporar.",
+      "Vá adicionando o caldo aos poucos, mexendo até o arroz ficar al dente.",
+      "Em frigideira, grelhe o camarão com sal, pimenta e raspas de limão.",
+      "Misture o camarão e o suco de limão ao risoto, finalize com parmesão."
+    ],
+    "descricao": "Porque nada diz “eu te amo” como um arroz que não empapa seu coração (e sua alma)",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 65,00",
+    "porcoes": "2 porções",
+    "dica": "Se o risoto ficar grudento demais, não é ciúmes, é só a manteiga querendo roubar a cena – mais caldo e paciência que ele se acalma!"
+  },
+  {
+    "id": 942,
+    "titulo": "Filé Mignon ao Molho de Vinho Tinto com Batatas Rústicas",
+    "slug": "file-mignon-ao-molho-de-vinho-tinto-com-batatas-rusticas",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "medalhões de filé mignon (150 g cada)",
+      "batatas médias cortadas em gomos",
+      "xícara de vinho tinto seco",
+      "dentes de alho",
+      "Alecrim fresco a gosto",
+      "Sal e pimenta-do-reino a gosto",
+      "Azeite de oliva",
+      "colher de sopa de manteiga"
+    ],
+    "modoPreparo": [
+      "Tempere as batatas com sal, azeite, alho e alecrim, asse a 200ºC por 30 min.",
+      "Tempere os filés com sal e pimenta, sele na frigideira com manteiga até ponto desejado.",
+      "Retire os filés, junte o vinho na frigideira, reduza até formar molho espesso.",
+      "Sirva os filés com o molho por cima e as batatas ao lado."
+    ],
+    "descricao": "Para impressionar sem virar chef, porque romantismo não é competição de MasterChef",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 80,00",
+    "porcoes": "2 porções",
+    "dica": "Se o molho não reduzir, não se desespere – assim como no amor, às vezes é melhor deixar ferver um pouco mais."
+  },
+  {
+    "id": 943,
+    "titulo": "Salada Caprese com Pesto de Manjericão e Nozes",
+    "slug": "salada-caprese-com-pesto-de-manjericao-e-nozes",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "tomates maduros fatiados",
+      "g de mussarela de búfala fatiada",
+      "Folhas de manjericão fresco",
+      "g de nozes",
+      "ml de azeite de oliva",
+      "Sal e pimenta-do-reino a gosto",
+      "dente de alho pequeno"
+    ],
+    "modoPreparo": [
+      "No liquidificador, bata manjericão, nozes, alho, azeite, sal e pimenta até formar pesto.",
+      "Em prato, intercale fatias de tomate e mussarela, distribua folhas de manjericão.",
+      "Regue com o pesto e sirva imediatamente."
+    ],
+    "descricao": "Porque às vezes o romance é só uma fatia de tomate com queijo e muita conversa fiada",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "2 porções",
+    "dica": "Se o pesto ficar muito forte, não é sua culpa, é o manjericão querendo ser protagonista do jantar – balance com mais azeite e calma."
+  },
+  {
+    "id": 944,
+    "titulo": "Massa Fresca ao Molho de Gorgonzola e Nozes",
+    "slug": "massa-fresca-ao-molho-de-gorgonzola-e-nozes",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "g de massa fresca tipo fettuccine",
+      "g de queijo gorgonzola",
+      "ml de creme de leite fresco",
+      "g de nozes picadas",
+      "colher de sopa de manteiga",
+      "Sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a massa em água salgada até ficar al dente e reserve.",
+      "Em frigideira, derreta manteiga, junte creme de leite e gorgonzola até formar molho cremoso.",
+      "Misture a massa ao molho, salpique as nozes, ajuste sal e pimenta e sirva."
+    ],
+    "descricao": "Porque às vezes o queijo é tão intenso quanto aquela conversa sobre relacionamento sério",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "2 porções",
+    "dica": "Molho de gorgonzola é igual ex: aquele ex que você ama odiar – forte, marcante e impossível de esquecer."
+  },
+  {
+    "id": 945,
+    "titulo": "Espaguete ao Molho de Tomate Fresco com Manjericão e Pimenta Calabresa",
+    "slug": "espaguete-ao-molho-de-tomate-fresco-com-manjericao-e-pimenta-calabresa",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "g de espaguete",
+      "tomates maduros picados",
+      "dentes de alho picados",
+      "Folhas de manjericão fresco",
+      "pitada de pimenta calabresa",
+      "Azeite de oliva",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o espaguete em água salgada até ficar al dente.",
+      "Refogue alho no azeite, adicione tomates e cozinhe até formar molho.",
+      "Tempere com sal, pimenta calabresa, junte manjericão e misture ao espaguete."
+    ],
+    "descricao": "Porque até o amor mais tranquilo precisa de um pouco de pimenta pra esquentar",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Se a pimenta ficar forte demais, não culpe a receita – às vezes a vida só quer dar um tempero extra no seu romance."
+  },
+  {
+    "id": 946,
+    "titulo": "Polvo na Brasa com Purê de Mandioquinha e Azeite de Ervas",
+    "slug": "polvo-na-brasa-com-pure-de-mandioquinha-e-azeite-de-ervas",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "g de polvo limpo",
+      "g de mandioquinha",
+      "colheres de sopa de azeite de ervas (alecrim, tomilho)",
+      "Sal grosso e pimenta-do-reino a gosto",
+      "dente de alho"
+    ],
+    "modoPreparo": [
+      "Cozinhe o polvo em água fervente com alho até ficar macio (aprox. 40 min).",
+      "Cozinhe a mandioquinha, amasse e misture com azeite, sal e pimenta.",
+      "Grelhe o polvo até dourar, sirva com purê e regue com azeite de ervas."
+    ],
+    "descricao": "Porque até o polvo sabe que conquistar requer esforço e um toque especial",
+    "tempo": "60 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 120,00",
+    "porcoes": "2 porções",
+    "dica": "Polvo na brasa é igual promessa de final de novela: demora, mas vale a espera e deixa todo mundo babando."
+  },
+  {
+    "id": 947,
+    "titulo": "Salmão ao Molho de Maracujá e Gengibre com Aspargos Salteados",
+    "slug": "salmao-ao-molho-de-maracuja-e-gengibre-com-aspargos-salteados",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "filés de salmão (150 g cada)",
+      "Polpa de 1 maracujá",
+      "pedaço pequeno de gengibre ralado",
+      "g de aspargos frescos",
+      "colher de sopa de manteiga",
+      "Sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o salmão com sal e pimenta, grelhe na manteiga até dourar.",
+      "Em outra panela, cozinhe rapidamente os aspargos no vapor e salteie com manteiga.",
+      "Misture maracujá e gengibre em panela pequena, aqueça até formar molho.",
+      "Sirva o salmão com molho por cima e os aspargos ao lado."
+    ],
+    "descricao": "Porque romantismo é misturar sabores exóticos sem perder a pose de chef",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 75,00",
+    "porcoes": "2 porções",
+    "dica": "Molho de maracujá com gengibre é como aquela paixão inesperada – azedinho com um toque picante que você não sabia que precisava."
+  },
+  {
+    "id": 948,
+    "titulo": "Bruschetta de Figo com Queijo Brie e Mel",
+    "slug": "bruschetta-de-figo-com-queijo-brie-e-mel",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "fatias de pão italiano",
+      "g de queijo brie",
+      "figos frescos fatiados",
+      "colheres de sopa de mel",
+      "Folhas de hortelã para decorar"
+    ],
+    "modoPreparo": [
+      "Toste as fatias de pão até ficarem crocantes.",
+      "Distribua fatias de queijo brie sobre o pão ainda quente para derreter levemente.",
+      "Coloque fatias de figo por cima, regue com mel e decore com hortelã."
+    ],
+    "descricao": "Porque romanticamente falando, às vezes só precisamos de uma mordida pra derreter corações (e queijos)",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 30,00",
+    "porcoes": "2 porções",
+    "dica": "Se o mel escorrer tudo, não se preocupe – assim como no amor, às vezes o excesso é parte do charme (e da bagunça)."
+  },
+  {
+    "id": 949,
+    "titulo": "Creme de Aspargos com Crocante de Parma",
+    "slug": "creme-de-aspargos-com-crocante-de-parma",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "g de aspargos limpos",
+      "batata média",
+      "/2 cebola picada",
+      "ml de caldo de legumes",
+      "g de presunto de parma",
+      "colher de sopa de creme de leite",
+      "Sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, junte batata e aspargos, cubra com caldo e cozinhe até amaciar.",
+      "Bata tudo no mixer até virar creme, volte à panela, adicione creme de leite, ajuste tempero.",
+      "Frite o presunto de parma até ficar crocante e sirva por cima do creme."
+    ],
+    "descricao": "Porque um creme bem feito é como um abraço quentinho no meio do frio do coração",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 45,00",
+    "porcoes": "2 porções",
+    "dica": "Presunto crocante é tipo aquele crush que te surpreende – crocante por fora e suave por dentro."
+  },
+  {
+    "id": 950,
+    "titulo": "Medalhão de Frango Recheado com Espinafre e Ricota ao Molho de Mostarda",
+    "slug": "medalhao-de-frango-recheado-com-espinafre-e-ricota-ao-molho-de-mostarda",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "filés grossos de peito de frango",
+      "g de ricota",
+      "maço pequeno de espinafre cozido e picado",
+      "colheres de sopa de mostarda Dijon",
+      "colher de sopa de mel",
+      "Sal e pimenta-do-reino a gosto",
+      "Azeite para fritar"
+    ],
+    "modoPreparo": [
+      "Abra os filés em formato de “bolsa”, recheie com espinafre e ricota, feche com palitos.",
+      "Sele os medalhões na frigideira com azeite até dourar.",
+      "Misture mostarda e mel, pincele sobre os medalhões e leve ao forno a 180ºC por 15 min."
+    ],
+    "descricao": "Porque até o frango merece um date fancy antes de virar meme de jantar simples",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "2 porções",
+    "dica": "Se o frango fugir do recheio, não se culpe – até nos relacionamentos mais arrumadinhos tem fuga de informação."
+  },
+  {
+    "id": 951,
+    "titulo": "Camembert Assado com Nozes e Geleia de Frutas Vermelhas",
+    "slug": "camembert-assado-com-nozes-e-geleia-de-frutas-vermelhas",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "queijo camembert inteiro (150 g)",
+      "colheres de sopa de geleia de frutas vermelhas",
+      "g de nozes picadas",
+      "Pão italiano para acompanhar"
+    ],
+    "modoPreparo": [
+      "Faça pequenos cortes no camembert, coloque geleia e nozes por cima.",
+      "Leve ao forno a 180ºC por 15 minutos até derreter.",
+      "Sirva quente com fatias de pão."
+    ],
+    "descricao": "Porque queijos derretidos são o equivalente culinário de “vamos conversar sobre nós”",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 50,00",
+    "porcoes": "2 porções",
+    "dica": "Camembert derretido é igual conversa sincera: pode grudar, mas deixa tudo mais gostoso e verdadeiro."
+  },
+  {
+    "id": 952,
+    "titulo": "Ceviche de Salmão com Manga e Coentro",
+    "slug": "ceviche-de-salmao-com-manga-e-coentro",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "g de salmão fresco em cubos",
+      "manga pequena cortada em cubos",
+      "Suco de 2 limões",
+      "/2 cebola roxa picada",
+      "Coentro fresco a gosto",
+      "Sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o salmão com suco de limão, cebola, sal e pimenta e deixe marinar por 10 min.",
+      "Acrescente a manga e o coentro, misture delicadamente.",
+      "Sirva gelado."
+    ],
+    "descricao": "Porque até o peixe cru sabe que romantismo também é frescor e ousadia",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 55,00",
+    "porcoes": "2 porções",
+    "dica": "Se o limão te deixar com cara de quem acabou de levar fora, relaxa – é só o ácido do amor fazendo efeito."
+  },
+  {
+    "id": 953,
+    "titulo": "Polenta Cremosa com Ragu de Cogumelos",
+    "slug": "polenta-cremosa-com-ragu-de-cogumelos",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "xícara de fubá",
+      "ml de água",
+      "g de cogumelos variados picados",
+      "dente de alho picado",
+      "/2 cebola picada",
+      "Azeite de oliva",
+      "Sal e pimenta-do-reino a gosto",
+      "Queijo parmesão ralado (opcional)"
+    ],
+    "modoPreparo": [
+      "Cozinhe o fubá na água fervente mexendo sempre até engrossar (aprox. 30 min).",
+      "Refogue alho, cebola e cogumelos no azeite até dourar, tempere.",
+      "Sirva a polenta cremosa com o ragu por cima e parmesão a gosto."
+    ],
+    "descricao": "Porque às vezes a melhor forma de dizer “eu te amo” é com um prato que abraça por dentro",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "2 porções",
+    "dica": "Polenta é tipo aquele amor antigo: simples, quentinho e que faz esquecer os boletos por um momento."
+  },
+  {
+    "id": 954,
+    "titulo": "Tartar de Atum com Abacate e Limão",
+    "slug": "tartar-de-atum-com-abacate-e-limao",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "g de atum fresco em cubos pequenos",
+      "abacate maduro cortado em cubos",
+      "Suco de 1 limão",
+      "colher de sopa de azeite",
+      "Sal e pimenta-do-reino a gosto",
+      "Cebolinha picada a gosto"
+    ],
+    "modoPreparo": [
+      "Misture atum com suco de limão, azeite, sal, pimenta e cebolinha.",
+      "Acrescente o abacate e misture delicadamente.",
+      "Monte no prato com molde ou sirva solto."
+    ],
+    "descricao": "Porque às vezes o amor é cru, fresco e tem que ser bem temperado",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 70,00",
+    "porcoes": "2 porções",
+    "dica": "Se o abacate derreter antes do date, não se desespere – às vezes é preciso aceitar que nem tudo dura para sempre, nem mesmo o guacamole."
+  },
+  {
+    "id": 955,
+    "titulo": "Creme Brulée de Parmesão com Tomilho",
+    "slug": "creme-brulee-de-parmesao-com-tomilho",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "ml de creme de leite fresco",
+      "gemas",
+      "g de queijo parmesão ralado",
+      "Tomilho fresco a gosto",
+      "Açúcar para caramelizar",
+      "Sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Misture creme de leite, gemas, parmesão, tomilho, sal e pimenta.",
+      "Coloque em forminhas e asse em banho-maria a 160ºC por 40 min.",
+      "Refrigere, polvilhe açúcar e queime com maçarico até formar crosta."
+    ],
+    "descricao": "Porque sobremesa também pode ser salgado e te deixar com vontade de mais (de amor e comida)",
+    "tempo": "50 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 40,00",
+    "porcoes": "2 porções",
+    "dica": "Se a crosta queimar, pense que é só o amor pegando fogo – mas cuidado pra não virar carvão."
+  },
+  {
+    "id": 956,
+    "titulo": "Espetinho de Camarão com Molho de Manga Picante",
+    "slug": "espetinho-de-camarao-com-molho-de-manga-picante",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "g de camarão limpo",
+      "manga pequena picada",
+      "pimenta dedo-de-moça sem sementes picada",
+      "Suco de 1 limão",
+      "Sal e pimenta-do-reino a gosto",
+      "Azeite para grelhar"
+    ],
+    "modoPreparo": [
+      "Monte os camarões nos espetos, tempere com sal e pimenta.",
+      "Grelhe os espetinhos até dourar, reserve.",
+      "Bata manga, pimenta e limão no liquidificador, tempere e sirva como molho."
+    ],
+    "descricao": "Porque às vezes o romance é uma explosão de sabor e um pouco de fogo no olhar",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 55,00",
+    "porcoes": "2 porções",
+    "dica": "Se o molho ficar muito apimentado, lembre-se: no amor, como na pimenta, um pouco de ardência só esquenta a relação."
+  },
+  {
+    "id": 957,
+    "titulo": "Lasanha de Berinjela com Ricota e Molho de Tomate Caseiro",
+    "slug": "lasanha-de-berinjela-com-ricota-e-molho-de-tomate-caseiro",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "berinjela média fatiada no sentido do comprimento",
+      "g de ricota",
+      "ml de molho de tomate caseiro",
+      "dente de alho picado",
+      "Manjericão fresco a gosto",
+      "Sal e pimenta-do-reino a gosto",
+      "Azeite para grelhar"
+    ],
+    "modoPreparo": [
+      "Grelhe as fatias de berinjela até dourar, reserve.",
+      "Refogue alho no azeite, adicione molho de tomate e manjericão, tempere.",
+      "Em assadeira, monte camadas de berinjela, ricota e molho, leve ao forno a 180ºC por 30 min."
+    ],
+    "descricao": "Porque às vezes o amor é vegetariano, mas não menos apaixonante",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "2 porções",
+    "dica": "Se a berinjela ficar amarga, não culpe o romance – às vezes a vida só quer te lembrar que nada é perfeito, nem o jantar nem o crush."
+  },
+  {
+    "id": 958,
+    "titulo": "Conchiglione Recheado com Ricota e Espinafre ao Molho Branco",
+    "slug": "conchiglione-recheado-com-ricota-e-espinafre-ao-molho-branco",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "conchigliones (massa grande para rechear)",
+      "g de ricota",
+      "maço pequeno de espinafre cozido e picado",
+      "ml de molho branco (béchamel)",
+      "g de queijo parmesão ralado",
+      "Sal, noz-moscada e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a massa até ficar al dente, escorra e reserve.",
+      "Misture ricota com espinafre, tempere e recheie os conchigliones.",
+      "Disponha na assadeira, cubra com molho branco, parmesão e asse a 180ºC por 20 min."
+    ],
+    "descricao": "Porque rechear coisas é a metáfora perfeita para um relacionamento bem alimentado",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "2 porções",
+    "dica": "Se a massa rasgar, pense que até no amor tem lugar pra falhas e remendos – e ainda assim fica delicioso."
+  },
+  {
+    "id": 959,
+    "titulo": "Peito de Pato ao Molho de Laranja com Purê de Batata Doce",
+    "slug": "peito-de-pato-ao-molho-de-laranja-com-pure-de-batata-doce",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "peitos de pato",
+      "Suco e raspas de 1 laranja",
+      "g de batata doce",
+      "colher de sopa de manteiga",
+      "Sal e pimenta-do-reino a gosto",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Faça cortes na pele do pato, tempere e grelhe com a pele para baixo até dourar.",
+      "Cozinhe a batata doce, amasse com manteiga e sal.",
+      "Na frigideira, adicione suco, raspas de laranja e mel, reduza até virar molho.",
+      "Sirva o pato com molho por cima e purê ao lado."
+    ],
+    "descricao": "Porque às vezes a vida adulta pede um prato que vale mais que o boleto do mês",
+    "tempo": "50 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 95,00",
+    "porcoes": "2 porções",
+    "dica": "Se o pato insistir em soltar gordura, lembre-se: às vezes o amor também é uma questão de deixar escorrer o que não vale a pena."
+  },
+  {
+    "id": 960,
+    "titulo": "Salada de Figos, Presunto Cru e Rúcula com Vinagrete de Mel",
+    "slug": "salada-de-figos-presunto-cru-e-rucula-com-vinagrete-de-mel",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "figos frescos cortados em quartos",
+      "g de presunto cru fatiado",
+      "xícaras de rúcula",
+      "colheres de sopa de azeite",
+      "colher de sopa de mel",
+      "colher de sopa de vinagre balsâmico",
+      "Sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Misture azeite, mel, vinagre, sal e pimenta para fazer o vinagrete.",
+      "Em tigela, junte rúcula, figos e presunto, regue com vinagrete e misture.",
+      "Sirva imediatamente."
+    ],
+    "descricao": "Porque combinar doce, salgado e amargo é o resumo do namoro perfeito",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 38,00",
+    "porcoes": "2 porções",
+    "dica": "Se o presunto ficar rebelde na salada, lembre que até na vida a gente tem que saber dosar o tempero pra não azedar tudo."
+  },
+  {
+    "id": 961,
+    "titulo": "Penne ao Molho de Gorgonzola com Pera e Nozes",
+    "slug": "penne-ao-molho-de-gorgonzola-com-pera-e-nozes",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "g de penne",
+      "g de queijo gorgonzola esmigalhado",
+      "pera madura cortada em cubos",
+      "g de nozes picadas",
+      "ml de creme de leite fresco",
+      "Sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o penne em água salgada até al dente.",
+      "Em frigideira, aqueça creme de leite, adicione gorgonzola para derreter.",
+      "Misture massa, pera e nozes ao molho, ajuste temperos e sirva."
+    ],
+    "descricao": "Porque combinar doce e salgado é a fórmula mágica pra não errar no coração nem no prato",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 45,00",
+    "porcoes": "2 porções",
+    "dica": "Se a pera amassar, não se preocupe – às vezes no amor, o excesso de doçura só faz a gente querer ainda mais."
+  },
+  {
+    "id": 962,
+    "titulo": "Camarão Empanado com Molho de Iogurte e Hortelã",
+    "slug": "camarao-empanado-com-molho-de-iogurte-e-hortela",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "g de camarão limpo",
+      "/2 xícara de farinha de rosca",
+      "ovo batido",
+      "g de iogurte natural",
+      "Folhas de hortelã picadas",
+      "Suco de 1/2 limão",
+      "Sal e pimenta-do-reino a gosto",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Tempere camarão com sal e pimenta, passe no ovo e na farinha de rosca.",
+      "Frite em óleo quente até dourar, reserve em papel absorvente.",
+      "Misture iogurte, hortelã e limão para molho, sirva com camarão."
+    ],
+    "descricao": "Porque crocância é o segredo para conquistar corações e paladares",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 50,00",
+    "porcoes": "2 porções",
+    "dica": "Se o camarão empanado não ficar crocante, não se culpe – até no amor a gente nem sempre acerta o ponto."
+  },
+  {
+    "id": 963,
+    "titulo": "Canelone de Abóbora com Queijo de Cabra e Nozes",
+    "slug": "canelone-de-abobora-com-queijo-de-cabra-e-nozes",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "folhas de massa para canelone",
+      "g de abóbora cozida e amassada",
+      "g de queijo de cabra",
+      "g de nozes picadas",
+      "ml de molho branco",
+      "Sal, pimenta e noz-moscada a gosto"
+    ],
+    "modoPreparo": [
+      "Misture abóbora, queijo de cabra, nozes e temperos.",
+      "Recheie as folhas de massa, enrole e coloque na assadeira.",
+      "Cubra com molho branco e asse a 180ºC por 25 min."
+    ],
+    "descricao": "Porque reinventar a abóbora é tão necessário quanto fugir do grupo da família no WhatsApp",
+    "tempo": "55 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "2 porções",
+    "dica": "Se a massa abrir, não se desespere – até nas histórias mais enroladas tem espaço pra recomeço."
+  },
+  {
+    "id": 964,
+    "titulo": "Sopa Fria de Pepino com Iogurte e Hortelã",
+    "slug": "sopa-fria-de-pepino-com-iogurte-e-hortela",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "pepinos grandes descascados e picados",
+      "g de iogurte natural",
+      "Folhas de hortelã a gosto",
+      "Suco de 1 limão",
+      "Sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Bata pepino, iogurte, hortelã, limão, sal e pimenta no liquidificador até ficar cremoso.",
+      "Refrigere por 1 hora antes de servir gelado.",
+      "Decore com folhas de hortelã."
+    ],
+    "descricao": "Porque refrescar o romance é tão importante quanto pagar as contas em dia",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Se a sopa ficar verde demais, não se preocupe – é só o sinal que seu jantar tá mais fresco que seu ex."
+  },
+  {
+    "id": 965,
+    "titulo": "Fettuccine ao Molho de Trufas e Cogumelos Selvagens",
+    "slug": "fettuccine-ao-molho-de-trufas-e-cogumelos-selvagens",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "g de fettuccine fresco",
+      "g de cogumelos selvagens",
+      "ml de óleo ou manteiga de trufas",
+      "dente de alho picado",
+      "Sal e pimenta-do-reino a gosto",
+      "Queijo parmesão ralado para finalizar"
+    ],
+    "modoPreparo": [
+      "Cozinhe o fettuccine até al dente.",
+      "Refogue alho e cogumelos na manteiga de trufas até dourar.",
+      "Misture a massa ao molho, ajuste temperos e sirva com parmesão."
+    ],
+    "descricao": "Porque um pouco de luxo no prato faz o amor parecer menos boleto e mais champagne",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 85,00",
+    "porcoes": "2 porções",
+    "dica": "Se o cheiro de trufas dominar a cozinha, não culpe o jantar – é só o perfume do amor sofisticado tentando invadir seu espaço."
+  },
+  {
+    "id": 966,
+    "titulo": "Cordeiro Assado com Alecrim e Purê de Mandioquinha",
+    "slug": "cordeiro-assado-com-alecrim-e-pure-de-mandioquinha",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "g de pernil de cordeiro",
+      "ramos de alecrim fresco",
+      "g de mandioquinha",
+      "colheres de sopa de manteiga",
+      "Sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o cordeiro com sal, pimenta e alecrim, asse a 180ºC por 1 hora.",
+      "Cozinhe a mandioquinha, amasse com manteiga, sal e pimenta.",
+      "Sirva o cordeiro fatiado com purê."
+    ],
+    "descricao": "Porque romantismo às vezes vem em forma de carne que derrete na boca e boleto que não acaba nunca",
+    "tempo": "70 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 110,00",
+    "porcoes": "2 porções",
+    "dica": "Se o cordeiro ficar duro, não é o amor que falhou – talvez só o forno que não colaborou, igual ex que some sem avisar."
+  },
+  {
+    "id": 967,
+    "titulo": "Gnocchi de Batata com Molho de Manteiga e Sálvia",
+    "slug": "gnocchi-de-batata-com-molho-de-manteiga-e-salvia",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "g de batatas",
+      "g de farinha de trigo",
+      "gema",
+      "g de manteiga",
+      "Folhas de sálvia fresca",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe as batatas, amasse e misture com farinha e gema até formar massa.",
+      "Modele os gnocchis e cozinhe em água fervente até subirem.",
+      "Derreta manteiga com sálvia, misture gnocchis e sirva quente."
+    ],
+    "descricao": "Porque às vezes o segredo da felicidade é simples, macio e com cheiro de manteiga",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "2 porções",
+    "dica": "Se a massa grudar, não se culpe – até o amor às vezes precisa de mais farinha pra dar certo."
+  },
+  {
+    "id": 968,
+    "titulo": "Tarte Tatin de Cebola Roxa e Queijo de Cabra",
+    "slug": "tarte-tatin-de-cebola-roxa-e-queijo-de-cabra",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "cebolas roxas fatiadas",
+      "g de queijo de cabra",
+      "disco de massa folhada",
+      "colheres de sopa de açúcar mascavo",
+      "colheres de sopa de manteiga",
+      "Sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Caramelize as cebolas com manteiga e açúcar até ficarem macias.",
+      "Cubra as cebolas com o queijo e a massa folhada, leve ao forno a 200ºC por 25 min.",
+      "Desenforme quente e sirva."
+    ],
+    "descricao": "Porque até as cebolas choram quando o amor é de verdade (e saboroso)",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "2 porções",
+    "dica": "Se a massa grudou, pense que até no amor às vezes a gente precisa de um empurrãozinho pra se soltar."
+  },
+  {
+    "id": 969,
+    "titulo": "Risoto de Aspargos com Limão e Queijo Pecorino",
+    "slug": "risoto-de-aspargos-com-limao-e-queijo-pecorino",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "xícara de arroz arbóreo",
+      "g de aspargos picados",
+      "/2 cebola picada",
+      "/2 limão (raspas e suco)",
+      "g de queijo pecorino ralado",
+      "ml de caldo de legumes quente",
+      "colheres de sopa de manteiga",
+      "Sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola na manteiga, junte arroz e toste por 2 min.",
+      "Vá adicionando caldo aos poucos, mexendo até o arroz ficar cremoso.",
+      "No meio do cozimento, acrescente os aspargos, raspas e suco de limão.",
+      "Finalize com queijo e ajuste temperos."
+    ],
+    "descricao": "Porque em jantares românticos, arroz não é básico, é obra de arte com limão na ponta do lápis",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 45,00",
+    "porcoes": "2 porções",
+    "dica": "Se o risoto grudar, não é seu amor grudento, é só o arroz querendo atenção – mais caldo e mexa com jeitinho."
+  },
+  {
+    "id": 970,
+    "titulo": "Polenta Grelhada com Ragu de Cordeiro e Hortelã",
+    "slug": "polenta-grelhada-com-ragu-de-cordeiro-e-hortela",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "xícara de fubá",
+      "ml de água",
+      "g de carne de cordeiro moída",
+      "/2 cebola picada",
+      "Hortelã fresca picada a gosto",
+      "Sal e pimenta-do-reino a gosto",
+      "Azeite para cozinhar"
+    ],
+    "modoPreparo": [
+      "Cozinhe o fubá até virar polenta cremosa, espalhe em forma e deixe firmar.",
+      "Em frigideira, refogue cebola e cordeiro, tempere e acrescente hortelã.",
+      "Corte a polenta em fatias, grelhe até dourar e sirva com ragu por cima."
+    ],
+    "descricao": "Porque o amor queima, mas deixa um gostinho inesquecível na boca",
+    "tempo": "60 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 90,00",
+    "porcoes": "2 porções",
+    "dica": "Se a polenta grudar na grelha, pense que até no amor a gente às vezes precisa de um empurrãozinho pra soltar."
+  },
+  {
+    "id": 971,
+    "titulo": "Cordeiro ao Molho de Romero com Ratatouille Provençal",
+    "slug": "cordeiro-ao-molho-de-romero-com-ratatouille-provencal",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "g de pernil de cordeiro",
+      "berinjela pequena",
+      "abobrinha pequena",
+      "pimentão vermelho",
+      "tomates maduros",
+      "ramos de alecrim fresco",
+      "Azeite, sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o cordeiro com alecrim, sal e pimenta, asse a 180ºC por 1 hora.",
+      "Corte os legumes em cubos, refogue em azeite até dourar, tempere.",
+      "Sirva o cordeiro fatiado com o ratatouille ao lado."
+    ],
+    "descricao": "Porque romantismo é sinônimo de cheiro de alecrim e hortaliças na brasa",
+    "tempo": "65 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 115,00",
+    "porcoes": "2 porções",
+    "dica": "Se o cordeiro demorar a assar, tenha paciência – assim como no amor, as coisas boas levam tempo e às vezes dá vontade de pedir pizza."
+  },
+  {
+    "id": 972,
+    "titulo": "Mousse de Chocolate Amargo com Frutas Vermelhas",
+    "slug": "mousse-de-chocolate-amargo-com-frutas-vermelhas",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "g de chocolate amargo",
+      "ovos (claras e gemas separadas)",
+      "colheres de sopa de açúcar",
+      "ml de creme de leite fresco",
+      "Frutas vermelhas para decorar"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate em banho-maria e misture as gemas.",
+      "Bata as claras em neve com açúcar até firmar.",
+      "Bata o creme de leite até formar picos suaves.",
+      "Misture delicadamente chocolate, claras e creme de leite.",
+      "Leve à geladeira por 2 horas e sirva com frutas."
+    ],
+    "descricao": "Porque o final feliz sempre tem chocolate e um pouco de drama na medida certa",
+    "tempo": "30 min (+ refrigeração)",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "2 porções",
+    "dica": "Se a mousse não firmar, não se culpe – até no amor às vezes a gente fica meio mole demais."
+  },
+  {
+    "id": 973,
+    "titulo": "Camarão ao Alho e Óleo com Espaguete de Abobrinha",
+    "slug": "camarao-ao-alho-e-oleo-com-espaguete-de-abobrinha",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "g de camarão limpo",
+      "abobrinhas médias em espaguete",
+      "dentes de alho fatiados",
+      "Azeite de oliva",
+      "Sal e pimenta-do-reino a gosto",
+      "Salsinha picada para decorar"
+    ],
+    "modoPreparo": [
+      "Refogue alho no azeite até dourar, junte camarões e tempere.",
+      "Acrescente o espaguete de abobrinha e cozinhe por 3 minutos.",
+      "Ajuste sal e pimenta, decore com salsinha e sirva."
+    ],
+    "descricao": "Porque romantismo é praticar dieta low-carb sem perder o sabor (nem a conversa)",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 50,00",
+    "porcoes": "2 porções",
+    "dica": "Se a abobrinha soltar muita água, não reclame – é só a natureza lembrando que nem tudo no amor é seco e certinho."
+  },
+  {
+    "id": 974,
+    "titulo": "Tartelette de Cogumelos com Queijo Brie e Tomilho",
+    "slug": "tartelette-de-cogumelos-com-queijo-brie-e-tomilho",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "Massa folhada para tartelette",
+      "g de cogumelos variados fatiados",
+      "g de queijo brie",
+      "Tomilho fresco a gosto",
+      "dente de alho picado",
+      "Azeite, sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue alho e cogumelos no azeite até dourar, tempere.",
+      "Forre as forminhas com massa, recheie com cogumelos e pedaços de brie.",
+      "Salpique tomilho e asse a 180ºC por 25 min."
+    ],
+    "descricao": "Porque as pequenas coisas são as que fazem o coração bater mais forte (e a barriga feliz)",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "2 porções",
+    "dica": "Se o queijo escapar da massa, pense que até no amor a gente precisa saber soltar (mas não muito)."
+  },
+  {
+    "id": 975,
+    "titulo": "Peixe ao Molho de Alcaparras com Purê de Ervilha",
+    "slug": "peixe-ao-molho-de-alcaparras-com-pure-de-ervilha",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "filés de peixe branco (150 g cada)",
+      "colheres de sopa de alcaparras",
+      "g de ervilhas congeladas",
+      "colher de sopa de manteiga",
+      "Suco de 1/2 limão",
+      "Sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe ervilhas, bata no liquidificador com manteiga, sal e pimenta até purê.",
+      "Grelhe os filés temperados com sal e pimenta.",
+      "Em frigideira, aqueça alcaparras com suco de limão, despeje sobre o peixe.",
+      "Sirva com purê."
+    ],
+    "descricao": "Porque a vida é curta demais para peixe sem graça e conversa sem tempero",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 60,00",
+    "porcoes": "2 porções",
+    "dica": "Se as alcaparras ficarem salgadas demais, não reclame – até o amor tem seus dias salgados, mas é isso que dá sabor."
+  },
+  {
+    "id": 976,
+    "titulo": "Espetinho Caprese com Redução de Balsâmico",
+    "slug": "espetinho-caprese-com-reducao-de-balsamico",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "Tomates cereja",
+      "Bolinhas de mussarela de búfala",
+      "Folhas de manjericão",
+      "ml de vinagre balsâmico",
+      "Sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Monte espetinhos alternando tomate, mussarela e manjericão.",
+      "Reduza vinagre balsâmico em panela até ficar xarope.",
+      "Tempere espetinhos com sal, pimenta e regue com redução."
+    ],
+    "descricao": "Porque até em espetinho dá pra ser chique e declarar amor com estilo",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 30,00",
+    "porcoes": "2 porções",
+    "dica": "Se a redução ficar muito doce, lembre que até no amor o excesso de açúcar cansa a gente."
+  },
+  {
+    "id": 977,
+    "titulo": "Frango ao Curry com Leite de Coco e Arroz Jasmine",
+    "slug": "frango-ao-curry-com-leite-de-coco-e-arroz-jasmine",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "peitos de frango em cubos",
+      "cebola picada",
+      "colher de sopa de curry em pó",
+      "ml de leite de coco",
+      "xícara de arroz jasmine",
+      "Sal e pimenta-do-reino a gosto",
+      "Azeite para cozinhar"
+    ],
+    "modoPreparo": [
+      "Cozinhe o arroz conforme instruções da embalagem.",
+      "Refogue cebola no azeite, adicione frango e curry, cozinhe até dourar.",
+      "Junte leite de coco, tempere, deixe reduzir até molho encorpar.",
+      "Sirva o curry com arroz."
+    ],
+    "descricao": "Porque romantismo também pode ser uma viagem de sabores que não cabe no Google Maps",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "2 porções",
+    "dica": "Se o curry ficar forte demais, não se desespere – às vezes o amor também arde, só que a gente gosta."
+  },
+  {
+    "id": 978,
+    "titulo": "Espetinho de Cordeiro com Molho de Iogurte e Hortelã",
+    "slug": "espetinho-de-cordeiro-com-molho-de-iogurte-e-hortela",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "g de carne de cordeiro em cubos",
+      "g de iogurte natural",
+      "Folhas de hortelã picadas",
+      "Suco de 1/2 limão",
+      "Sal e pimenta-do-reino a gosto",
+      "Azeite para grelhar"
+    ],
+    "modoPreparo": [
+      "Tempere cordeiro com sal e pimenta, monte espetinhos.",
+      "Grelhe até dourar por todos os lados.",
+      "Misture iogurte, hortelã e limão para molho e sirva junto."
+    ],
+    "descricao": "Porque até o cordeiro sabe que conquistar é questão de charme e um bom molho",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 85,00",
+    "porcoes": "2 porções",
+    "dica": "Se o cordeiro ficar duro, não se culpe – às vezes o amor precisa de mais tempo de fogo (ou conversa)."
+  },
+  {
+    "id": 979,
+    "titulo": "Fondue de Queijo com Pães Artesanais e Frutas Secas",
+    "slug": "fondue-de-queijo-com-paes-artesanais-e-frutas-secas",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "g de queijo gruyère ralado",
+      "g de queijo emmental ralado",
+      "ml de vinho branco seco",
+      "dente de alho",
+      "Pães artesanais variados cortados em cubos",
+      "Frutas secas para acompanhar",
+      "Sal, noz-moscada e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Esfregue alho na panela, aqueça vinho e adicione queijos aos poucos, mexendo até derreter.",
+      "Tempere com sal, noz-moscada e pimenta.",
+      "Sirva com pães e frutas para mergulhar no queijo."
+    ],
+    "descricao": "Porque ninguém resiste a um mergulho no queijo para esquecer os boletos por um tempo",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 60,00",
+    "porcoes": "2 porções",
+    "dica": "Se o queijo empelotar, não se desespere – até o amor às vezes precisa de um pouco mais de mexida pra ficar lisinho."
+  },
+  {
+    "id": 980,
+    "titulo": "Salada de Rúcula com Pêra, Parmesão e Nozes Caramelizadas",
+    "slug": "salada-de-rucula-com-pera-parmesao-e-nozes-caramelizadas",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "xícaras de rúcula",
+      "pêra fatiada",
+      "g de queijo parmesão em lascas",
+      "g de nozes",
+      "colher de sopa de açúcar",
+      "Azeite, vinagre balsâmico, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Caramelize as nozes com açúcar em frigideira, reserve.",
+      "Misture rúcula, pêra e parmesão, tempere com azeite, vinagre, sal e pimenta.",
+      "Salpique nozes caramelizadas e sirva."
+    ],
+    "descricao": "Porque equilibrar sabores é a arte de não deixar o crush mentir sobre “sou simples”",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 30,00",
+    "porcoes": "2 porções",
+    "dica": "Se as nozes grudarem, relaxa – às vezes no amor a gente também fica grudado mesmo sem querer."
+  },
+  {
+    "id": 981,
+    "titulo": "Salada de Beterraba, Queijo de Cabra e Nozes com Vinagrete de Mel",
+    "slug": "salada-de-beterraba-queijo-de-cabra-e-nozes-com-vinagrete-de-mel",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "beterrabas médias cozidas e fatiadas",
+      "g de queijo de cabra esfarelado",
+      "g de nozes picadas",
+      "colheres de sopa de azeite",
+      "colher de sopa de vinagre de maçã",
+      "colher de chá de mel",
+      "Sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Misture azeite, vinagre, mel, sal e pimenta para vinagrete.",
+      "Combine beterraba, queijo e nozes, regue com vinagrete e misture.",
+      "Sirva fresca."
+    ],
+    "descricao": "Porque cor de beterraba é igual coração apaixonado: chama atenção e não passa despercebido",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 28,00",
+    "porcoes": "2 porções",
+    "dica": "Se a beterraba manchar tudo, pense que é só a cor do amor deixando sua marca – e o pano de prato está aí pra isso."
+  },
+  {
+    "id": 982,
+    "titulo": "Camarão na Moranga com Requeijão Cremoso",
+    "slug": "camarao-na-moranga-com-requeijao-cremoso",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "moranga média",
+      "g de camarão limpo",
+      "g de requeijão cremoso",
+      "cebola pequena picada",
+      "dentes de alho picados",
+      "Sal, pimenta e cheiro-verde a gosto",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Asse a moranga inteira até ficar macia (aprox. 40 min).",
+      "Refogue cebola e alho, junte camarão, tempere e cozinhe rápido.",
+      "Misture requeijão ao camarão, recheie a moranga e sirva."
+    ],
+    "descricao": "Porque romantismo é servir um abóbora recheada que vale mais que muitas palavras",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 90,00",
+    "porcoes": "2 porções",
+    "dica": "Se a moranga abrir antes da hora, não se culpe – às vezes o amor não espera e a gente tem que se adaptar."
+  },
+  {
+    "id": 983,
+    "titulo": "Mousse de Maracujá com Chocolate Branco",
+    "slug": "mousse-de-maracuja-com-chocolate-branco",
+    "categoria": "Jantar Romântico ",
+    "ingredientes": [
+      "ml de suco de maracujá concentrado",
+      "g de chocolate branco derretido",
+      "claras em neve",
+      "colheres de sopa de açúcar"
+    ],
+    "modoPreparo": [
+      "Bata as claras com açúcar até ponto de neve.",
+      "Misture suco de maracujá e chocolate branco derretido delicadamente às claras.",
+      "Leve à geladeira por 2 horas e sirva."
+    ],
+    "descricao": "Porque azedinho e doce é a combinação perfeita para aquele amor com gostinho de quero mais",
+    "tempo": "30 min (+ refrigeração)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "2 porções",
+    "dica": "Se a mousse não firmar, não se culpe – às vezes o amor também é meio mole e a gente gosta assim mesmo."
+  }
+]

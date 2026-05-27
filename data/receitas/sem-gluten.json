@@ -1,0 +1,1026 @@
+[
+  {
+    "id": 1580,
+    "titulo": "Panquecas de Banana e Aveia Sem Glúten",
+    "slug": "panquecas-de-banana-e-aveia-sem-gluten",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "bananas maduras",
+      "xícara de farinha de aveia sem glúten",
+      "ovos",
+      "/2 xícara de leite de amêndoas",
+      "colher de chá de fermento em pó",
+      "pitada de sal"
+    ],
+    "modoPreparo": [
+      "Amasse as bananas com o garfo até virar um purê.",
+      "Misture a farinha, ovos, leite, fermento e sal até obter uma massa homogênea.",
+      "Aqueça a frigideira e faça pequenas panquecas, dourando dos dois lados."
+    ],
+    "descricao": "Porque acordar cedo já é um desafio, mas sem glúten pelo menos a panqueca ajuda",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida te der bananas, faça panquecas, porque pagar boleto não dá energia nem pra isso."
+  },
+  {
+    "id": 1581,
+    "titulo": "Salada de Quinoa Colorida com Frango Grelhado",
+    "slug": "salada-de-quinoa-colorida-com-frango-grelhado",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "xícara de quinoa",
+      "g de peito de frango",
+      "tomate picado",
+      "/2 pepino picado",
+      "/4 de cebola roxa fatiada",
+      "Salsinha a gosto",
+      "Suco de 1 limão",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a quinoa em água fervente até ficar macia e reserve.",
+      "Tempere e grelhe o frango até dourar, depois fatie.",
+      "Misture todos os ingredientes na tigela, tempere com limão, sal e pimenta."
+    ],
+    "descricao": "Pra provar que sem glúten dá pra ser saudável e ainda fingir que malha todo dia",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "3 porções",
+    "dica": "Se a vida tá sem graça, pelo menos a salada pode ser colorida – igual as contas que chegam todo mês."
+  },
+  {
+    "id": 1582,
+    "titulo": "Muffins de Chocolate Amargo Sem Glúten",
+    "slug": "muffins-de-chocolate-amargo-sem-gluten",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "xícara de farinha de arroz",
+      "/2 xícara de cacau em pó 100%",
+      "/2 xícara de açúcar mascavo",
+      "ovos",
+      "/3 xícara de óleo de coco",
+      "colher de chá de fermento em pó",
+      "pitada de sal"
+    ],
+    "modoPreparo": [
+      "Preaqueça o forno a 180°C e unte a forma.",
+      "Misture os ingredientes secos em uma tigela.",
+      "Adicione os ovos e o óleo, mexa até ficar homogêneo e distribua na forma.",
+      "Asse por 25 minutos ou até o teste do palito sair limpo."
+    ],
+    "descricao": "Porque quem disse que sem glúten não pode ter chocolate e alegria?",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "6 porções",
+    "dica": "Se a vida te der limões, faça limonada. Se der chocolate amargo, faça muffin e esqueça os boletos por 30 minutos."
+  },
+  {
+    "id": 1583,
+    "titulo": "Omelete de Espinafre e Queijo de Cabra",
+    "slug": "omelete-de-espinafre-e-queijo-de-cabra",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "ovos",
+      "xícara de espinafre fresco picado",
+      "g de queijo de cabra",
+      "Sal e pimenta a gosto",
+      "colher de sopa de azeite"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com sal e pimenta na tigela.",
+      "Aqueça o azeite na frigideira, refogue o espinafre por 1 minuto.",
+      "Despeje os ovos, adicione o queijo esfarelado e cozinhe até firmar."
+    ],
+    "descricao": "Para os dias que cansa até pensar em fazer almoço, mas o estômago não perdoa",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "1 porção",
+    "dica": "Fazer omelete é fácil, difícil é não pensar no boleto enquanto bate o ovo."
+  },
+  {
+    "id": 1584,
+    "titulo": "Brownie de Batata Doce e Nozes Sem Glúten",
+    "slug": "brownie-de-batata-doce-e-nozes-sem-gluten",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "xícaras de purê de batata doce",
+      "/2 xícara de cacau em pó",
+      "/2 xícara de açúcar de coco",
+      "ovos",
+      "/2 xícara de nozes picadas",
+      "colher de chá de fermento em pó"
+    ],
+    "modoPreparo": [
+      "Preaqueça o forno a 180°C e unte a forma.",
+      "Misture o purê, ovos, açúcar, cacau e fermento até homogêneo.",
+      "Adicione as nozes e despeje na assadeira.",
+      "Asse por 30 minutos, deixe esfriar antes de cortar."
+    ],
+    "descricao": "Chocolate saudável que engana o cérebro, mas não seu paladar",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "8 porções",
+    "dica": "Brownie sem glúten é igual boleto sem juros: quase impossível, mas a gente tenta pra não surtar."
+  },
+  {
+    "id": 1585,
+    "titulo": "Risoto de Abóbora com Queijo Parmesão",
+    "slug": "risoto-de-abobora-com-queijo-parmesao",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "xícara de arroz arbóreo",
+      "xícaras de abóbora cozida e amassada",
+      "/2 cebola picada",
+      "/2 xícara de queijo parmesão ralado",
+      "litro de caldo de legumes quente",
+      "colheres de sopa de manteiga",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola na manteiga até ficar translúcida.",
+      "Adicione o arroz e mexa por 2 minutos.",
+      "Vá adicionando o caldo aos poucos, mexendo sempre até o arroz ficar al dente.",
+      "Misture a abóbora e o parmesão, ajuste o sal e pimenta."
+    ],
+    "descricao": "Sofisticação sem glúten para impressionar sem fazer drama",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Risoto é igual relacionamento: tem que mexer com carinho e paciência, senão vira uma meleca."
+  },
+  {
+    "id": 1586,
+    "titulo": "Barrinhas Energéticas de Castanha e Mel",
+    "slug": "barrinhas-energeticas-de-castanha-e-mel",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "xícara de castanhas variadas picadas",
+      "/2 xícara de mel",
+      "/2 xícara de farinha de amêndoas",
+      "/4 xícara de sementes de chia"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes em uma tigela.",
+      "Forre a assadeira com papel manteiga e espalhe a mistura pressionando bem.",
+      "Leve à geladeira por pelo menos 2 horas e corte em barrinhas."
+    ],
+    "descricao": "Energia rápida pra quem quer malhar, mas só quer mesmo é abrir a geladeira",
+    "tempo": "25 min (+tempo de geladeira)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "8 porções",
+    "dica": "Barrinha energética é tipo boleto: você sabe que vai chegar, melhor estar preparado."
+  },
+  {
+    "id": 1587,
+    "titulo": "Suflê de Mandioquinha com Queijo Minas",
+    "slug": "sufle-de-mandioquinha-com-queijo-minas",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "mandioquinhas médias cozidas e amassadas",
+      "ovos (claras separadas)",
+      "g de queijo minas ralado",
+      "colher de sopa de manteiga",
+      "Sal e noz-moscada a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a mandioquinha com as gemas, queijo, manteiga, sal e noz-moscada.",
+      "Bata as claras em neve e incorpore delicadamente à mistura.",
+      "Coloque na forma untada e asse a 180°C por 30 minutos."
+    ],
+    "descricao": "Aquele prato que parece difícil, mas é só fingir que sabe pra impressionar",
+    "tempo": "50 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Suflê é igual reunião de trabalho: se desanimar, cai tudo – então mantenha firme!"
+  },
+  {
+    "id": 1588,
+    "titulo": "Smoothie Verde Detox Sem Glúten",
+    "slug": "smoothie-verde-detox-sem-gluten",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "maçã verde",
+      "pepino pequeno",
+      "punhado de couve",
+      "Suco de 1 limão",
+      "ml de água de coco"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar homogêneo.",
+      "Sirva gelado."
+    ],
+    "descricao": "Pra fingir que tá cuidando da saúde enquanto come bolo escondido",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "2 porções",
+    "dica": "Smoothie detox é igual promessa de academia: todo mundo faz, mas poucos levam a sério."
+  },
+  {
+    "id": 1589,
+    "titulo": "Espaguete de Abobrinha ao Molho Pesto",
+    "slug": "espaguete-de-abobrinha-ao-molho-pesto",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "abobrinhas médias",
+      "/2 xícara de manjericão fresco",
+      "/4 xícara de nozes",
+      "/4 xícara de queijo parmesão ralado",
+      "/3 xícara de azeite",
+      "dente de alho",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Faça tiras finas das abobrinhas com espiralizador.",
+      "Bata manjericão, nozes, parmesão, alho, sal e azeite no processador.",
+      "Misture o molho ao espaguete de abobrinha e sirva."
+    ],
+    "descricao": "Pra não sentir falta do macarrão e ainda ser chique na foto do Instagram",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "2 porções",
+    "dica": "Essa receita é tão leve que até o boleto do mês parece menos pesado."
+  },
+  {
+    "id": 1590,
+    "titulo": "Panetone Sem Glúten com Frutas Cristalizadas",
+    "slug": "panetone-sem-gluten-com-frutas-cristalizadas",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "xícaras de farinha sem glúten",
+      "/2 xícara de açúcar",
+      "ovos",
+      "ml de leite de coco",
+      "/2 xícara de frutas cristalizadas",
+      "g de fermento biológico seco",
+      "colher de chá de essência de baunilha",
+      "pitada de sal"
+    ],
+    "modoPreparo": [
+      "Ative o fermento no leite morno com açúcar por 10 minutos.",
+      "Misture farinha, ovos, essência, sal e fermento até formar massa homogênea.",
+      "Incorpore as frutas, coloque na forma e deixe crescer por 40 minutos.",
+      "Asse a 180°C por 35 minutos."
+    ],
+    "descricao": "Natal saudável? Só se for pra enganar a sogra e não passar vontade",
+    "tempo": "90 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 45,00",
+    "porcoes": "8 porções",
+    "dica": "Fazer panetone sem glúten é igual tentar pagar boletos em dia: dá trabalho, mas a recompensa é doce."
+  },
+  {
+    "id": 1591,
+    "titulo": "Tacos de Alface com Carne Moída Temperada",
+    "slug": "tacos-de-alface-com-carne-moida-temperada",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "g de carne moída",
+      "cebola picada",
+      "dentes de alho picados",
+      "Folhas grandes de alface americana",
+      "tomate picado",
+      "Sal, pimenta e cominho a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e o alho até dourar.",
+      "Adicione a carne, tempere e cozinhe até secar o líquido.",
+      "Monte os tacos nas folhas de alface com carne e tomate."
+    ],
+    "descricao": "Porque quem disse que sem glúten não pode ter festa mexicana em casa",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Tacos de alface são a desculpa perfeita pra comer carne sem culpa – e sem glúten, claro, porque boleto já pesa demais."
+  },
+  {
+    "id": 1592,
+    "titulo": "Pão de Queijo Vegano Sem Glúten",
+    "slug": "pao-de-queijo-vegano-sem-gluten",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "xícara de polvilho azedo",
+      "xícara de polvilho doce",
+      "/2 xícara de batata cozida e amassada",
+      "/4 xícara de azeite",
+      "/2 xícara de leite vegetal",
+      "colher de chá de sal"
+    ],
+    "modoPreparo": [
+      "Ferva o leite vegetal com azeite e sal.",
+      "Misture os polvilhos em uma tigela, despeje o líquido quente e mexa até formar massa.",
+      "Acrescente a batata, misture e forme bolinhas.",
+      "Asse a 200°C por 25 minutos."
+    ],
+    "descricao": "O clássico mineiro que aprendeu a viver sem glúten e sem lactose, igual a gente na vida adulta",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "10 unidades",
+    "dica": "Pão de queijo vegano sem glúten é igual promessa de dieta na segunda-feira: difícil, mas a gente tenta."
+  },
+  {
+    "id": 1593,
+    "titulo": "Salmão Grelhado com Purê de Couve-flor",
+    "slug": "salmao-grelhado-com-pure-de-couve-flor",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "filés de salmão",
+      "couve-flor média",
+      "colheres de sopa de manteiga",
+      "Sal, pimenta e ervas finas a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a couve-flor até ficar macia e bata com manteiga até purê.",
+      "Tempere o salmão e grelhe por 4 minutos de cada lado.",
+      "Sirva o salmão sobre o purê."
+    ],
+    "descricao": "Jantar romântico que não te deixa pedindo delivery no meio da noite",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 45,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida te der salmão, não reclama – pelo menos o jantar é mais chique que a conta do cartão."
+  },
+  {
+    "id": 1594,
+    "titulo": "Crepioca Proteica de Frango com Requeijão",
+    "slug": "crepioca-proteica-de-frango-com-requeijao",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "ovos",
+      "colheres de sopa de goma de tapioca",
+      "g de frango desfiado",
+      "colheres de sopa de requeijão cremoso",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture ovos e tapioca até ficar homogêneo.",
+      "Despeje metade na frigideira e cozinhe até firmar.",
+      "Recheie com frango e requeijão, dobre e sirva."
+    ],
+    "descricao": "O café da manhã que diz “eu malho” mas só quer comer gostoso",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Crepioca é o jeitinho fitness de dizer “não vou abrir mão do queijo” sem culpa."
+  },
+  {
+    "id": 1595,
+    "titulo": "Bolo de Cenoura com Cobertura de Chocolate Sem Glúten",
+    "slug": "bolo-de-cenoura-com-cobertura-de-chocolate-sem-gluten",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "cenouras médias raladas",
+      "ovos",
+      "xícara de açúcar",
+      "/2 xícara de óleo",
+      "xícaras de farinha de arroz",
+      "colher de sopa de fermento",
+      "g de chocolate meio amargo",
+      "/2 caixa de creme de leite"
+    ],
+    "modoPreparo": [
+      "Bata no liquidificador cenoura, ovos, açúcar e óleo.",
+      "Misture a farinha e fermento, coloque na forma untada.",
+      "Asse a 180°C por 35 minutos.",
+      "Derreta o chocolate com o creme de leite e cubra o bolo."
+    ],
+    "descricao": "Porque bolo de cenoura não precisa ser triste, nem feito com farinha de tristeza",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "8 porções",
+    "dica": "Se a vida te der cenouras, faça bolo com cobertura de chocolate – ninguém precisa saber da dieta."
+  },
+  {
+    "id": 1596,
+    "titulo": "Sopa Cremosa de Abóbora com Gengibre",
+    "slug": "sopa-cremosa-de-abobora-com-gengibre",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "g de abóbora descascada e picada",
+      "cebola picada",
+      "pedaço pequeno de gengibre ralado",
+      "litro de caldo de legumes",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e gengibre até perfumar.",
+      "Adicione abóbora e caldo, cozinhe até amolecer.",
+      "Bata no liquidificador até ficar cremoso, ajuste o tempero."
+    ],
+    "descricao": "Aquecimento para o corpo e para as desculpas de não sair de casa",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Sopa é igual desculpa pra não ir na festa: quente, reconfortante e aceita qualquer desculpa."
+  },
+  {
+    "id": 1597,
+    "titulo": "Pizza de Massa de Couve-flor Sem Glúten",
+    "slug": "pizza-de-massa-de-couve-flor-sem-gluten",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "couve-flor média triturada",
+      "ovo",
+      "/2 xícara de queijo parmesão ralado",
+      "Sal, orégano e pimenta a gosto",
+      "Molho de tomate e recheios a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a couve-flor e esprema para tirar excesso de água.",
+      "Misture com ovo, parmesão e temperos formando a massa.",
+      "Modele na assadeira e asse a 200°C por 20 minutos.",
+      "Retire, coloque molho e recheios, asse mais 15 minutos."
+    ],
+    "descricao": "Pra sentir que tá comendo pizza sem a culpa de quem já atrasou o boleto do mês",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "4 porções",
+    "dica": "Pizza de couve-flor é a prova de que dá pra ser saudável e feliz – pelo menos até a primeira mordida."
+  },
+  {
+    "id": 1598,
+    "titulo": "Bolo de Fubá Cremoso Sem Glúten",
+    "slug": "bolo-de-fuba-cremoso-sem-gluten",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "xícara de fubá",
+      "/2 xícara de farinha de arroz",
+      "ovos",
+      "xícara de leite",
+      "/2 xícara de óleo",
+      "xícara de açúcar",
+      "colher de sopa de fermento"
+    ],
+    "modoPreparo": [
+      "Bata ovos, leite, óleo e açúcar até misturar.",
+      "Adicione as farinhas e fermento, mexa delicadamente.",
+      "Asse em forma untada a 180°C por 40 minutos."
+    ],
+    "descricao": "Tradicional, saboroso e sem glúten – igual a promessa de pagar tudo no cartão dia 5",
+    "tempo": "55 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "8 porções",
+    "dica": "Bolo de fubá é igual boleto da luz: clássico, inevitável e melhor aceitar logo."
+  },
+  {
+    "id": 1599,
+    "titulo": "Panqueca de Grão-de-Bico com Espinafre",
+    "slug": "panqueca-de-grao-de-bico-com-espinafre",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "xícara de farinha de grão-de-bico",
+      "xícara de água",
+      "/2 xícara de espinafre picado",
+      "Sal e pimenta a gosto",
+      "Azeite para fritar"
+    ],
+    "modoPreparo": [
+      "Bata farinha com água até formar massa líquida.",
+      "Misture o espinafre e tempere.",
+      "Frite pequenas porções em frigideira untada até dourar dos dois lados."
+    ],
+    "descricao": "A versão fitness que faz você parecer saudável sem desistir do sabor",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "3 porções",
+    "dica": "Panqueca de grão-de-bico é igual reunião que podia ser e-mail: você sabe que precisa, mas queria evitar."
+  },
+  {
+    "id": 1600,
+    "titulo": "Pudim de Chia com Leite de Coco e Frutas Vermelhas",
+    "slug": "pudim-de-chia-com-leite-de-coco-e-frutas-vermelhas",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "colheres de sopa de chia",
+      "ml de leite de coco",
+      "colher de sopa de mel",
+      "/2 xícara de frutas vermelhas"
+    ],
+    "modoPreparo": [
+      "Misture chia, leite de coco e mel em tigela.",
+      "Leve à geladeira por 4 horas ou durante a noite.",
+      "Sirva com frutas vermelhas por cima."
+    ],
+    "descricao": "A sobremesa que parece saudável, mas seu paladar sabe que é amor puro",
+    "tempo": "10 min (+tempo de geladeira)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Pudim de chia é igual promessa de domingo: todo mundo faz, mas nem todo mundo cumpre."
+  },
+  {
+    "id": 1601,
+    "titulo": "Frango ao Curry com Leite de Coco e Legumes",
+    "slug": "frango-ao-curry-com-leite-de-coco-e-legumes",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "g de peito de frango em cubos",
+      "cebola picada",
+      "dentes de alho",
+      "colher de sopa de curry em pó",
+      "ml de leite de coco",
+      "cenoura em rodelas",
+      "pimentão vermelho picado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho, adicione o frango e doure.",
+      "Acrescente curry, legumes e leite de coco, cozinhe até os legumes ficarem macios.",
+      "Ajuste temperos e sirva."
+    ],
+    "descricao": "Prato exótico pra quem quer impressionar o crush sem precisar de legendas no Instagram",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 38,00",
+    "porcoes": "4 porções",
+    "dica": "Curry é igual vida adulta: mistura de coisas que não combinam, mas dá certo no final."
+  },
+  {
+    "id": 1602,
+    "titulo": "Biscoitos Crocantes de Amêndoas Sem Glúten",
+    "slug": "biscoitos-crocantes-de-amendoas-sem-gluten",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "xícara de farinha de amêndoas",
+      "/4 xícara de açúcar demerara",
+      "ovo",
+      "colher de chá de essência de baunilha",
+      "pitada de sal"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes até formar massa.",
+      "Modele bolinhas e achate com garfo ou rolo.",
+      "Asse a 180°C por 15 minutos ou até dourar."
+    ],
+    "descricao": "Porque até o lanche da tarde merece um pouco de glamour e crocância",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "12 unidades",
+    "dica": "Biscoito crocante é igual boleto sem atraso: difícil, mas a gente sonha."
+  },
+  {
+    "id": 1603,
+    "titulo": "Tabule de Quinoa com Hortelã e Limão",
+    "slug": "tabule-de-quinoa-com-hortela-e-limao",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "xícara de quinoa",
+      "tomates picados",
+      "pepino picado",
+      "/2 cebola picada",
+      "Suco de 2 limões",
+      "Hortelã picada a gosto",
+      "Sal e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a quinoa e deixe esfriar.",
+      "Misture com os vegetais, hortelã, limão, sal e azeite.",
+      "Sirva gelado."
+    ],
+    "descricao": "Pra sentir que tá na praia sem sair da cozinha e sem glúten no prato",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Tabule é igual férias: refrescante, mas dura pouco."
+  },
+  {
+    "id": 1604,
+    "titulo": "Escondidinho de Carne Seca com Purê de Mandioca",
+    "slug": "escondidinho-de-carne-seca-com-pure-de-mandioca",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "g de carne seca dessalgada e desfiada",
+      "g de mandioca cozida e amassada",
+      "/2 xícara de leite de coco",
+      "cebola picada",
+      "colheres de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e a carne seca no azeite.",
+      "Prepare o purê misturando mandioca e leite de coco, ajustando o sal.",
+      "Em assadeira, faça camadas de purê e carne, termine com purê.",
+      "Asse a 180°C por 25 minutos."
+    ],
+    "descricao": "O conforto que você merece depois daquele dia que pareceu uma novela mexicana",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "4 porções",
+    "dica": "Escondidinho é igual boleto atrasado: você tenta esconder, mas no fim aparece."
+  },
+  {
+    "id": 1605,
+    "titulo": "Tapioca Recheada com Abacate e Ovo Mexido",
+    "slug": "tapioca-recheada-com-abacate-e-ovo-mexido",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "abacate pequeno maduro",
+      "ovos",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com sal e pimenta e faça ovos mexidos na frigideira.",
+      "Hidrate a goma e espalhe na frigideira para formar a tapioca.",
+      "Recheie com abacate amassado e ovos mexidos, dobre e sirva."
+    ],
+    "descricao": "Café da manhã que diz “eu sou saudável” mas não dispensa um recheio cremoso",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "2 porções",
+    "dica": "Tapioca recheada é igual feriado prolongado: simples, mas faz o dia valer a pena."
+  },
+  {
+    "id": 1606,
+    "titulo": "Espetinho de Legumes Grelhados com Molho Tahine",
+    "slug": "espetinho-de-legumes-grelhados-com-molho-tahine",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "abobrinha cortada em rodelas",
+      "pimentão vermelho em pedaços",
+      "cebola roxa em pedaços",
+      "g de cogumelos",
+      "colheres de sopa de tahine",
+      "Suco de 1 limão",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Monte os espetinhos com os legumes.",
+      "Grelhe até dourar, virando para cozinhar por igual.",
+      "Misture tahine, limão, sal e pimenta para molho.",
+      "Sirva os espetinhos com o molho."
+    ],
+    "descricao": "Pra fingir que tá fazendo dieta enquanto come algo que parece festa junina saudável",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "4 porções",
+    "dica": "Espetinho é igual boletos: vários pedaços juntos que no fim pesam no bolso."
+  },
+  {
+    "id": 1607,
+    "titulo": "Cookies de Banana com Aveia e Gotas de Chocolate",
+    "slug": "cookies-de-banana-com-aveia-e-gotas-de-chocolate",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "bananas maduras amassadas",
+      "xícara de aveia sem glúten",
+      "/2 xícara de gotas de chocolate amargo",
+      "colher de chá de essência de baunilha"
+    ],
+    "modoPreparo": [
+      "Misture bananas, aveia e baunilha até formar massa.",
+      "Acrescente as gotas de chocolate.",
+      "Modele os cookies e asse a 180°C por 15 minutos."
+    ],
+    "descricao": "O lanche que prova que sem glúten pode ser doce e divertido, sem culpa no boletinho",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "10 unidades",
+    "dica": "Cookies de banana são a desculpa perfeita pra comer doce sem drama – igual desculpa pra faltar na academia."
+  },
+  {
+    "id": 1608,
+    "titulo": "Cuscuz Marroquino de Couve-flor com Frutas Secas",
+    "slug": "cuscuz-marroquino-de-couve-flor-com-frutas-secas",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "couve-flor média triturada",
+      "/4 xícara de damascos picados",
+      "/4 xícara de uvas-passas",
+      "colheres de sopa de azeite",
+      "Sal e hortelã picada a gosto"
+    ],
+    "modoPreparo": [
+      "Triture a couve-flor até ficar com textura de cuscuz.",
+      "Aqueça no vapor por 5 minutos.",
+      "Misture frutas secas, azeite, sal e hortelã."
+    ],
+    "descricao": "Um prato que parece exótico, mas é só a desculpa pra fugir do arroz de todo dia",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Cuscuz de couve-flor é igual desculpa pra não ir na festa: saudável e fácil de inventar."
+  },
+  {
+    "id": 1609,
+    "titulo": "Salada de Grãos com Ervilha, Milho e Tomate Cereja",
+    "slug": "salada-de-graos-com-ervilha-milho-e-tomate-cereja",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "xícara de ervilhas cozidas",
+      "xícara de milho verde cozido",
+      "xícara de tomate cereja cortado ao meio",
+      "/4 xícara de cebola roxa picada",
+      "Suco de 1 limão",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes em uma tigela.",
+      "Tempere com limão, azeite, sal e pimenta.",
+      "Sirva gelado."
+    ],
+    "descricao": "O jeito sem glúten de fazer o prato que todo mundo finge que gosta na reunião de família",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Salada de grãos é igual conversa com chefe: todo mundo finge que gosta, mas no fundo quer outra coisa."
+  },
+  {
+    "id": 1610,
+    "titulo": "Lasanha de Berinjela com Molho de Tomate e Ricota",
+    "slug": "lasanha-de-berinjela-com-molho-de-tomate-e-ricota",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "berinjelas médias fatiadas",
+      "g de ricota amassada",
+      "xícaras de molho de tomate",
+      "cebola picada",
+      "dentes de alho",
+      "Azeite, sal e manjericão a gosto"
+    ],
+    "modoPreparo": [
+      "Grelhe as fatias de berinjela até dourar.",
+      "Refogue cebola e alho, misture com molho de tomate e manjericão.",
+      "Monte camadas: berinjela, molho e ricota.",
+      "Asse a 180°C por 25 minutos."
+    ],
+    "descricao": "A versão sem glúten que faz você parecer chef e não quem congelou a janta",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 38,00",
+    "porcoes": "4 porções",
+    "dica": "Lasanha de berinjela é igual plano de dieta: parece difícil, mas no fim a gente sobrevive."
+  },
+  {
+    "id": 1611,
+    "titulo": "Tapioca Doce de Coco com Chocolate Branco",
+    "slug": "tapioca-doce-de-coco-com-chocolate-branco",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "colheres de sopa de coco ralado",
+      "g de chocolate branco picado",
+      "colher de chá de açúcar de coco"
+    ],
+    "modoPreparo": [
+      "Hidrate a goma com açúcar e espalhe na frigideira quente.",
+      "Polvilhe o coco sobre a tapioca ainda crua.",
+      "Quando firmar, adicione o chocolate, dobre e sirva quente."
+    ],
+    "descricao": "Porque felicidade também pode ser sem glúten e com muito açúcar (mas a gente não conta)",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "2 porções",
+    "dica": "Tapioca doce é igual promoção de boleto: melhor aproveitar antes que acabe."
+  },
+  {
+    "id": 1612,
+    "titulo": "Moqueca de Peixe com Leite de Coco e Coentro",
+    "slug": "moqueca-de-peixe-com-leite-de-coco-e-coentro",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "g de filé de peixe branco",
+      "cebola fatiada",
+      "pimentão verde fatiado",
+      "tomates picados",
+      "ml de leite de coco",
+      "Coentro a gosto",
+      "Sal, pimenta e azeite de dendê a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, pimentão e tomate em azeite de dendê.",
+      "Adicione o peixe, temperos e leite de coco, cozinhe até o peixe ficar macio.",
+      "Finalize com coentro e sirva."
+    ],
+    "descricao": "Jantar que vale a pena para quem cansou de repetir o arroz com feijão sem glúten",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 50,00",
+    "porcoes": "4 porções",
+    "dica": "Moqueca é igual feriado prolongado: demora, mas compensa cada minuto de espera."
+  },
+  {
+    "id": 1613,
+    "titulo": "Panqueca de Batata Doce com Recheio de Ricota e Espinafre",
+    "slug": "panqueca-de-batata-doce-com-recheio-de-ricota-e-espinafre",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "batata doce média cozida e amassada",
+      "ovos",
+      "colheres de sopa de farinha de arroz",
+      "g de ricota",
+      "xícara de espinafre refogado e picado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Bata batata doce, ovos e farinha até virar massa.",
+      "Faça panquecas na frigideira.",
+      "Recheie com ricota e espinafre, dobre e sirva."
+    ],
+    "descricao": "O café da manhã que faz você sentir que malhou, mesmo se só levantou do sofá",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "3 porções",
+    "dica": "Panqueca de batata doce é igual promessa de dieta: a gente começa bem, mas sempre sobra um pedaço."
+  },
+  {
+    "id": 1614,
+    "titulo": "Sorvete de Banana com Morango Sem Açúcar e Sem Glúten",
+    "slug": "sorvete-de-banana-com-morango-sem-acucar-e-sem-gluten",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "bananas maduras congeladas",
+      "xícara de morangos congelados",
+      "Suco de 1 limão"
+    ],
+    "modoPreparo": [
+      "Bata as frutas congeladas com limão até virar creme.",
+      "Transfira para pote e leve ao congelador por 2 horas.",
+      "Sirva gelado."
+    ],
+    "descricao": "A sobremesa perfeita para enganar o cérebro e não a consciência",
+    "tempo": "10 min (+tempo de congelador)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Sorvete de banana é igual férias no boleto: só alegria enquanto dura."
+  },
+  {
+    "id": 1615,
+    "titulo": "Quiche Sem Glúten de Alho-Poró e Queijo",
+    "slug": "quiche-sem-gluten-de-alho-poro-e-queijo",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "xícara de farinha de arroz",
+      "/2 xícara de polvilho doce",
+      "g de manteiga gelada",
+      "ovos",
+      "ml de creme de leite",
+      "alho-poró picado e refogado",
+      "g de queijo ralado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture as farinhas com manteiga até formar uma massa, pressione na forma e asse 15 min a 180°C.",
+      "Bata ovos e creme, misture alho-poró e queijo, tempere.",
+      "Despeje sobre a massa e asse mais 30 minutos."
+    ],
+    "descricao": "Porque quiche sem glúten é o jeito chique de dizer que você cozinhou mesmo",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "6 porções",
+    "dica": "Quiche sem glúten é igual reunião que podia ser e-mail: você sabe que precisava, mas queria evitar."
+  },
+  {
+    "id": 1616,
+    "titulo": "Panqueca de Amêndoas com Mel e Frutas",
+    "slug": "panqueca-de-amendoas-com-mel-e-frutas",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "xícara de farinha de amêndoas",
+      "ovos",
+      "/2 xícara de leite de amêndoas",
+      "colher de chá de fermento em pó",
+      "Mel e frutas frescas para servir"
+    ],
+    "modoPreparo": [
+      "Misture farinha, ovos, leite e fermento até obter massa homogênea.",
+      "Faça panquecas em frigideira quente até dourar.",
+      "Sirva com mel e frutas."
+    ],
+    "descricao": "Pra começar o dia com estilo e fingir que a dieta tá indo bem",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Panqueca de amêndoas é igual feriado prolongado: passa rápido, mas deixa saudade."
+  },
+  {
+    "id": 1617,
+    "titulo": "Caldo Verde Sem Glúten com Couve e Linguiça Artesanal",
+    "slug": "caldo-verde-sem-gluten-com-couve-e-linguica-artesanal",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "g de batatas",
+      "maço de couve fatiada fina",
+      "g de linguiça artesanal fatiada",
+      "cebola picada",
+      "dentes de alho",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe batatas com cebola e alho e bata até virar creme.",
+      "Adicione couve e linguiça, cozinhe até a couve amolecer.",
+      "Ajuste temperos e sirva quente."
+    ],
+    "descricao": "O aconchego sem glúten que o boleto nunca vai te dar",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Caldo verde é igual abraço de mãe: quentinho e faz tudo parecer melhor."
+  },
+  {
+    "id": 1618,
+    "titulo": "Salada Caprese com Pesto de Manjericão e Nozes",
+    "slug": "salada-caprese-com-pesto-de-manjericao-e-nozes",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "tomates maduros fatiados",
+      "g de mussarela de búfala fatiada",
+      "/2 xícara de manjericão fresco",
+      "/4 xícara de nozes",
+      "/4 xícara de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Bata manjericão, nozes, azeite, sal e pimenta no processador.",
+      "Monte camadas de tomate e mussarela no prato.",
+      "Regue com o pesto e sirva."
+    ],
+    "descricao": "Pra provar que sem glúten também pode ser chique e fácil de montar",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "2 porções",
+    "dica": "Salada caprese é igual dia de pagamento: simples, rápida e deixa todo mundo feliz."
+  },
+  {
+    "id": 1619,
+    "titulo": "Wrap de Alface com Pasta de Grão-de-Bico e Cenoura",
+    "slug": "wrap-de-alface-com-pasta-de-grao-de-bico-e-cenoura",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "Folhas grandes de alface americana",
+      "xícara de grão-de-bico cozido",
+      "cenoura ralada",
+      "Suco de 1 limão",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Amasse o grão-de-bico com limão, sal, pimenta e azeite até virar pasta.",
+      "Recheie as folhas de alface com a pasta e cenoura ralada.",
+      "Enrole como wrap e sirva."
+    ],
+    "descricao": "O lanche prático que faz você parecer saudável até na correria do boleto mensal",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "2 porções",
+    "dica": "Wrap de alface é igual desculpa pra faltar na academia: prático e irresistível."
+  },
+  {
+    "id": 1620,
+    "titulo": "Panqueca Americana Sem Glúten com Mel e Frutas Vermelhas",
+    "slug": "panqueca-americana-sem-gluten-com-mel-e-frutas-vermelhas",
+    "categoria": "Sem Gluten ",
+    "ingredientes": [
+      "xícara de farinha sem glúten",
+      "ovo",
+      "/2 xícara de leite vegetal",
+      "colher de chá de fermento em pó",
+      "Mel e frutas vermelhas para acompanhar"
+    ],
+    "modoPreparo": [
+      "Misture farinha, ovo, leite e fermento até massa lisa.",
+      "Faça panquecas em frigideira até dourar dos dois lados.",
+      "Sirva com mel e frutas."
+    ],
+    "descricao": "O café da manhã que faz você esquecer que tem reunião às 9h",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "3 porções",
+    "dica": "Panqueca americana é igual final de domingo: gostoso demais pra acabar rápido."
+  }
+]

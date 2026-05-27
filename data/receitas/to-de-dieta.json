@@ -1,0 +1,982 @@
+[
+  {
+    "id": 1782,
+    "titulo": "Omelete Power da Segunda-feira",
+    "slug": "omelete-power-da-segunda-feira",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "ovos inteiros",
+      "colher de sopa de queijo cottage",
+      "/2 tomate picado",
+      "punhado de espinafre fresco",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com sal e pimenta até ficarem homogêneos.",
+      "Aqueça a frigideira, despeje os ovos e adicione o queijo, tomate e espinafre por cima.",
+      "Cozinhe em fogo baixo até firmar e dobre ao meio com a espátula."
+    ],
+    "descricao": "Porque segunda já é um desafio, pelo menos o omelete ajuda a segurar a onda.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Omelete é tipo boletos: fácil de fazer, difícil de ignorar. Se grudar na frigideira, culpa do seu desânimo, não da receita."
+  },
+  {
+    "id": 1783,
+    "titulo": "Smoothie Verde do Desespero",
+    "slug": "smoothie-verde-do-desespero",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "xícaras de couve picada",
+      "banana madura",
+      "maçã verde picada",
+      "ml de água de coco",
+      "Suco de 1 limão"
+    ],
+    "modoPreparo": [
+      "Coloque todos os ingredientes no liquidificador.",
+      "Bata até ficar homogêneo e sirva gelado.",
+      "Se quiser, adoce com stevia, mas não espalha, que a vida já é amarga."
+    ],
+    "descricao": "Quando a vontade é de chocolate, mas a consciência manda couve.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,50",
+    "porcoes": "2 porções",
+    "dica": "Smoothie verde é igual a promessa de academia: todo mundo faz no começo, mas depois some. Aproveita enquanto dá."
+  },
+  {
+    "id": 1784,
+    "titulo": "Salada de Grão-de-Bico Maromba",
+    "slug": "salada-de-grao-de-bico-maromba",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "xícaras de grão-de-bico cozido",
+      "pepino picado",
+      "cebola roxa pequena picada",
+      "tomates-cereja cortados ao meio",
+      "Suco de 1 limão",
+      "colheres de sopa de azeite",
+      "Sal, pimenta e salsinha a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o grão-de-bico com os legumes na tigela.",
+      "Tempere com limão, azeite, sal, pimenta e salsinha.",
+      "Deixe na geladeira por 15 minutos antes de servir."
+    ],
+    "descricao": "Proteína vegetal para quem quer músculos e não só desculpas.",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "3 porções",
+    "dica": "Grão-de-bico é como boleto atrasado: só resolve se você encarar logo de frente. E rende um rango que vale a pena."
+  },
+  {
+    "id": 1785,
+    "titulo": "Panqueca de Aveia Pós-Treino",
+    "slug": "panqueca-de-aveia-pos-treino",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "xícara de aveia em flocos finos",
+      "ovos",
+      "banana madura amassada",
+      "colher de chá de fermento em pó",
+      "Canela a gosto"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até formar uma massa homogênea.",
+      "Aqueça a frigideira e faça panquecas pequenas com a massa.",
+      "Cozinhe até dourar dos dois lados e sirva com mel ou pasta de amendoim."
+    ],
+    "descricao": "Para quem quer barriga tanquinho, mas não quer virar rato de academia.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 10,00",
+    "porcoes": "2 porções",
+    "dica": "Panqueca de aveia é igual promessa de dieta: parece difícil, mas com o tempo dá gosto. Só não vale comer direto do pote, hein!"
+  },
+  {
+    "id": 1786,
+    "titulo": "Bowl Colorido do Dia Que Não Quer Acabar",
+    "slug": "bowl-colorido-do-dia-que-nao-quer-acabar",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "/2 xícara de quinoa cozida",
+      "/2 abacate em cubos",
+      "/2 cenoura ralada",
+      "/4 de beterraba ralada",
+      "punhado de folhas verdes",
+      "g de frango desfiado",
+      "Molho de iogurte com limão"
+    ],
+    "modoPreparo": [
+      "Em uma tigela, arrume a quinoa e os legumes em seções.",
+      "Coloque o frango desfiado por cima.",
+      "Regue com o molho de iogurte e misture antes de comer."
+    ],
+    "descricao": "Porque misturar tudo no bowl é a vida adulta dizendo \"se vira\".",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "1 porção",
+    "dica": "Bowl colorido é tipo vida: quanto mais bagunçado, mais interessante. Pelo menos aqui, a bagunça é saudável."
+  },
+  {
+    "id": 1787,
+    "titulo": "Tapioca Fit com Recheio de Frango e Espinafre",
+    "slug": "tapioca-fit-com-recheio-de-frango-e-espinafre",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "g de frango cozido e desfiado",
+      "punhado de espinafre refogado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Espalhe a goma na frigideira quente formando um disco.",
+      "Deixe firmar, adicione o recheio e dobre a tapioca ao meio.",
+      "Cozinhe por mais 1 minuto e sirva quente."
+    ],
+    "descricao": "Porque tapioca é a desculpa perfeita para fingir que não está de dieta.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "1 porção",
+    "dica": "Tapioca é igual promessa de reunião: parece simples, mas se não fizer direito, vira uma bagunça. Capricha no recheio!"
+  },
+  {
+    "id": 1788,
+    "titulo": "Sopa Detox de Abóbora com Gengibre",
+    "slug": "sopa-detox-de-abobora-com-gengibre",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "g de abóbora picada",
+      "cebola picada",
+      "dente de alho",
+      "pedaço pequeno de gengibre ralado",
+      "litro de água",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, alho e gengibre na panela até dourar.",
+      "Adicione a abóbora e a água, cozinhe até a abóbora amolecer.",
+      "Bata tudo no liquidificador até virar creme, tempere e sirva quente."
+    ],
+    "descricao": "Para limpar o fígado e a alma, porque boletos não saem da cabeça.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 11,00",
+    "porcoes": "4 porções",
+    "dica": "Sopa detox é tipo cobrar boleto atrasado: ninguém gosta, mas faz bem no final. E ainda esquenta o coração!"
+  },
+  {
+    "id": 1789,
+    "titulo": "Salmão Grelhado com Aspargos e Limão Siciliano",
+    "slug": "salmao-grelhado-com-aspargos-e-limao-siciliano",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "filés de salmão (150 g cada)",
+      "g de aspargos frescos",
+      "Suco e raspas de 1 limão siciliano",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o salmão com sal, pimenta, suco e raspas de limão.",
+      "Grelhe os filés em fogo médio por 4 minutos de cada lado.",
+      "Refogue os aspargos no azeite até ficarem macios e sirva junto."
+    ],
+    "descricao": "Jantar romântico pra impressionar, sem precisar vender um rim.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "2 porções",
+    "dica": "Salmão é igual crush no Tinder: bonito, saudável e às vezes difícil de conquistar. Mas aqui a conquista é garantida."
+  },
+  {
+    "id": 1790,
+    "titulo": "Wrap de Alface com Frango e Abacate",
+    "slug": "wrap-de-alface-com-frango-e-abacate",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "folhas grandes de alface americana",
+      "g de frango cozido e desfiado",
+      "/2 abacate em fatias",
+      "colher de sopa de iogurte natural",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o frango com iogurte, sal e pimenta.",
+      "Recheie as folhas de alface com a mistura e as fatias de abacate.",
+      "Enrole como um wrap e sirva imediatamente."
+    ],
+    "descricao": "Pra quando o pão engorda, mas a fome não perdoa.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "2 porções",
+    "dica": "Wrap de alface é tipo promessa de dieta: fácil de começar, mas difícil de manter se tiver pizza no caminho."
+  },
+  {
+    "id": 1791,
+    "titulo": "Panqueca Integral de Banana com Canela",
+    "slug": "panqueca-integral-de-banana-com-canela",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "banana madura amassada",
+      "ovos",
+      "colheres de sopa de farinha integral",
+      "colher de chá de canela em pó",
+      "Mel para acompanhar (opcional)"
+    ],
+    "modoPreparo": [
+      "Misture a banana, ovos, farinha e canela até formar uma massa.",
+      "Aqueça a frigideira e faça pequenas panquecas.",
+      "Cozinhe até dourar dos dois lados e sirva com mel."
+    ],
+    "descricao": "Café da manhã pra quem quer doce, mas não quer culpa (ou quase).",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "2 porções",
+    "dica": "Panqueca integral é igual boleto pago: dá uma satisfação que só quem faz dieta entende. Aproveita e comemora!"
+  },
+  {
+    "id": 1792,
+    "titulo": "Mix de Castanhas e Sementes Energético",
+    "slug": "mix-de-castanhas-e-sementes-energetico",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "g de castanha-do-pará",
+      "g de amêndoas",
+      "g de sementes de abóbora",
+      "g de sementes de girassol"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes em uma tigela.",
+      "Sirva como lanche rápido entre as refeições.",
+      "Se quiser, leve na bolsa pra não cair na tentação do salgadinho."
+    ],
+    "descricao": "Petisco pra enganar a fome que não é fome, é vontade de Netflix.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Mix de castanhas é tipo amigo que não te deixa desistir: sempre ali pra dar energia quando o sofá tenta te derrubar."
+  },
+  {
+    "id": 1793,
+    "titulo": "Salada Caprese Fit com Molho de Balsâmico",
+    "slug": "salada-caprese-fit-com-molho-de-balsamico",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "tomates maduros fatiados",
+      "g de muçarela de búfala em fatias",
+      "Folhas de manjericão fresco",
+      "colheres de sopa de vinagre balsâmico",
+      "colher de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Monte camadas alternadas de tomate, muçarela e manjericão no prato.",
+      "Tempere com sal, pimenta, azeite e vinagre balsâmico.",
+      "Sirva fresco, porque dieta também pode ser chique."
+    ],
+    "descricao": "Pra fingir que tá na Itália, mas sem sair da dieta e do sofá.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "2 porções",
+    "dica": "Salada Caprese é igual crush que some: bonita, desejada, mas às vezes difícil de encontrar no cardápio da vida."
+  },
+  {
+    "id": 1794,
+    "titulo": "Quinoa com Legumes Assados e Frango",
+    "slug": "quinoa-com-legumes-assados-e-frango",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "xícara de quinoa",
+      "g de peito de frango em cubos",
+      "abobrinha em cubos",
+      "cenoura em cubos",
+      "pimentão vermelho em cubos",
+      "colheres de sopa de azeite",
+      "Sal, pimenta e ervas a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a quinoa conforme instruções da embalagem.",
+      "Tempere o frango e os legumes com azeite, sal, pimenta e ervas.",
+      "Asse os legumes e o frango em forno a 200ºC por 25 minutos.",
+      "Misture tudo e sirva."
+    ],
+    "descricao": "Porque comida saudável também pode ser festa na panela.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "3 porções",
+    "dica": "Quinoa com legumes é tipo boleto em dia: dá um alívio no coração e ainda deixa a gente feliz. Aproveita!"
+  },
+  {
+    "id": 1795,
+    "titulo": "Iogurte Grego com Frutas Vermelhas e Chia",
+    "slug": "iogurte-grego-com-frutas-vermelhas-e-chia",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "pote de iogurte grego natural (150 g)",
+      "/2 xícara de frutas vermelhas (morango, amora, framboesa)",
+      "colher de sopa de sementes de chia",
+      "Mel a gosto (opcional)"
+    ],
+    "modoPreparo": [
+      "Coloque o iogurte na tigela.",
+      "Adicione as frutas vermelhas e a chia por cima.",
+      "Se quiser, regue com mel e misture antes de comer."
+    ],
+    "descricao": "Café da manhã pra enganar o estômago e a vontade de chocolate.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "1 porção",
+    "dica": "Iogurte grego é igual promessa de dieta: forte, saudável e dá orgulho. Se alguém reclamar, manda um “tô de dieta” e segue o baile."
+  },
+  {
+    "id": 1796,
+    "titulo": "Berinjela Recheada com Ricota e Tomate",
+    "slug": "berinjela-recheada-com-ricota-e-tomate",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "berinjela grande",
+      "g de ricota fresca",
+      "tomates médios picados",
+      "dente de alho picado",
+      "Sal, pimenta e orégano a gosto",
+      "Azeite para regar"
+    ],
+    "modoPreparo": [
+      "Corte a berinjela ao meio e retire o miolo, formando “barquinhos”.",
+      "Misture o miolo com ricota, tomate, alho e temperos.",
+      "Recheie as berinjelas, regue com azeite e asse a 180ºC por 25 minutos."
+    ],
+    "descricao": "Jantar sofisticado pra impressionar o crush que entende de dieta.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Berinjela recheada é tipo relacionamento à distância: requer paciência, mas o resultado vale a pena. Não desista na primeira mordida!"
+  },
+  {
+    "id": 1797,
+    "titulo": "Crepioca Proteica para Café da Manhã",
+    "slug": "crepioca-proteica-para-cafe-da-manha",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "ovos",
+      "colher de sopa de queijo branco ralado",
+      "Sal e orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com sal e orégano.",
+      "Misture a goma de tapioca e o queijo aos ovos.",
+      "Cozinhe na frigideira em fogo médio até firmar dos dois lados."
+    ],
+    "descricao": "Pra começar o dia sem culpa e com proteína pra segurar o tranco.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,50",
+    "porcoes": "1 porção",
+    "dica": "Crepioca é igual boleto: mais rápido de fazer do que de esquecer. Aproveita que é gostoso e saudável!"
+  },
+  {
+    "id": 1798,
+    "titulo": "Espaguete de Abobrinha ao Molho Pesto",
+    "slug": "espaguete-de-abobrinha-ao-molho-pesto",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "abobrinhas médias",
+      "/2 xícara de manjericão fresco",
+      "colheres de sopa de pinoli ou castanha de caju",
+      "dente de alho",
+      "colheres de sopa de azeite",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Faça o espaguete com a abobrinha usando spiralizer ou descascador.",
+      "Bata no liquidificador manjericão, pinoli, alho, azeite e sal para fazer o pesto.",
+      "Refogue o espaguete de abobrinha por 2 minutos e misture o molho pesto antes de servir."
+    ],
+    "descricao": "Macarrão que não engorda, mas não dispensa o drama.",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 16,00",
+    "porcoes": "2 porções",
+    "dica": "Espaguete de abobrinha é tipo desculpa pra não ir à academia: funciona, mas todo mundo sabe que você poderia fazer mais."
+  },
+  {
+    "id": 1799,
+    "titulo": "Muffin Integral de Maçã e Canela",
+    "slug": "muffin-integral-de-maca-e-canela",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "maçãs picadas",
+      "ovos",
+      "xícara de farinha integral",
+      "/2 xícara de açúcar mascavo",
+      "colher de chá de canela em pó",
+      "colher de chá de fermento em pó"
+    ],
+    "modoPreparo": [
+      "Misture ovos, açúcar e canela até ficar homogêneo.",
+      "Acrescente a farinha e o fermento, misturando bem.",
+      "Adicione as maçãs e distribua a massa nas forminhas.",
+      "Asse a 180ºC por 20 minutos ou até dourar."
+    ],
+    "descricao": "Pra enganar a vontade de doce sem virar um monstro da farinha branca.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "6 porções",
+    "dica": "Muffin integral é igual promessa de dieta na sexta: começa firme, mas sempre tem uma escapadinha no fim do dia."
+  },
+  {
+    "id": 1800,
+    "titulo": "Patê de Grão-de-Bico com Tahine",
+    "slug": "pate-de-grao-de-bico-com-tahine",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "xícaras de grão-de-bico cozido",
+      "colheres de sopa de tahine",
+      "Suco de 1 limão",
+      "dente de alho",
+      "Sal e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "No processador, bata o grão-de-bico, tahine, alho e limão até formar uma pasta.",
+      "Tempere com sal e azeite, batendo até ficar cremoso.",
+      "Sirva com palitos de legumes ou torradas integrais."
+    ],
+    "descricao": "Porque homus é mais que modinha, é salvação de lanche rápido.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "4 porções",
+    "dica": "Patê de grão-de-bico é como vizinho fofoqueiro: sempre aparece pra salvar seu lanche (e a dieta também)."
+  },
+  {
+    "id": 1801,
+    "titulo": "Salada de Lentilha com Cenoura e Hortelã",
+    "slug": "salada-de-lentilha-com-cenoura-e-hortela",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "xícara de lentilha cozida",
+      "cenoura ralada",
+      "Folhas de hortelã picadas",
+      "Suco de 1 limão",
+      "colheres de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a lentilha até ficar macia e escorra.",
+      "Misture a lentilha com cenoura, hortelã, limão, azeite, sal e pimenta.",
+      "Sirva gelada ou em temperatura ambiente."
+    ],
+    "descricao": "Proteína barata que não faz drama e ainda refresca a alma.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "3 porções",
+    "dica": "Lentilha na salada é tipo boleto quitado: um alívio no bolso e no corpo. Aproveita a vibe leve!"
+  },
+  {
+    "id": 1802,
+    "titulo": "Espetinho de Frango com Legumes Grelhados",
+    "slug": "espetinho-de-frango-com-legumes-grelhados",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "g de peito de frango em cubos",
+      "pimentão verde cortado em pedaços",
+      "abobrinha em rodelas grossas",
+      "cebola roxa em pedaços",
+      "Suco de 1 limão",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o frango com limão, sal, pimenta e azeite.",
+      "Monte os espetinhos alternando frango e legumes.",
+      "Grelhe os espetinhos até o frango estar cozido e legumes macios."
+    ],
+    "descricao": "Pra quem quer churrasco, mas só tem varanda e disciplina.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "4 porções",
+    "dica": "Espetinho é igual reunião de família: mistura de tudo, mas no fim dá bom. Só não esquece de limpar a grelha!"
+  },
+  {
+    "id": 1803,
+    "titulo": "Tapioca Doce com Pasta de Amendoim e Morangos",
+    "slug": "tapioca-doce-com-pasta-de-amendoim-e-morangos",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "colheres de sopa de pasta de amendoim integral",
+      "morangos fatiados"
+    ],
+    "modoPreparo": [
+      "Espalhe a goma na frigideira quente formando um disco.",
+      "Deixe firmar, espalhe a pasta de amendoim e coloque os morangos por cima.",
+      "Dobre ao meio e sirva quente."
+    ],
+    "descricao": "Pra adoçar a vida sem jogar a dieta pela janela (ainda).",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,50",
+    "porcoes": "1 porção",
+    "dica": "Tapioca doce é como mensagem da ex: tenta te conquistar, mas você sabe que tem que resistir pra seguir em frente."
+  },
+  {
+    "id": 1804,
+    "titulo": "Salada de Frango com Abacaxi e Hortelã",
+    "slug": "salada-de-frango-com-abacaxi-e-hortela",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "g de peito de frango cozido e desfiado",
+      "/2 xícara de abacaxi picado",
+      "Folhas de hortelã picadas",
+      "colher de sopa de iogurte natural",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o frango com abacaxi e hortelã.",
+      "Adicione o iogurte, sal e pimenta, misturando bem.",
+      "Sirva gelada, perfeita pra dias quentes e desculpas esfarrapadas."
+    ],
+    "descricao": "Mistura exótica que parece receita de férias, mas é só dieta mesmo.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "2 porções",
+    "dica": "Salada exótica é igual promessa de dieta nas férias: encanta, mas exige força de vontade pra não se perder no caminho."
+  },
+  {
+    "id": 1805,
+    "titulo": "Creme de Abacate com Cacau e Mel",
+    "slug": "creme-de-abacate-com-cacau-e-mel",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "abacate maduro",
+      "colheres de sopa de cacau em pó sem açúcar",
+      "colher de sopa de mel",
+      "ml de leite de amêndoas"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar cremoso.",
+      "Distribua em taças e leve à geladeira por 15 minutos.",
+      "Sirva gelado como sobremesa."
+    ],
+    "descricao": "Sobremesa saudável porque até dieta merece um mimo.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "2 porções",
+    "dica": "Creme de abacate é igual desculpa pra faltar trabalho: funciona melhor quando ninguém está olhando."
+  },
+  {
+    "id": 1806,
+    "titulo": "Pão de Queijo Fit com Tapioca e Queijo Branco",
+    "slug": "pao-de-queijo-fit-com-tapioca-e-queijo-branco",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "g de tapioca granulada",
+      "g de queijo branco ralado",
+      "ovos",
+      "ml de leite desnatado",
+      "colher de sopa de óleo de coco",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a tapioca com o queijo e o sal.",
+      "Acrescente os ovos, o leite e o óleo, mexendo até formar uma massa.",
+      "Modele bolinhas, coloque na assadeira e asse a 180ºC por 25 minutos."
+    ],
+    "descricao": "Clássico mineiro com toque fitness pra não perder a piada.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "12 unidades",
+    "dica": "Pão de queijo fit é como boleto pago em dia: traz aquela sensação boa que dá vontade de repetir."
+  },
+  {
+    "id": 1807,
+    "titulo": "Tabule de Quinoa com Pepino e Hortelã",
+    "slug": "tabule-de-quinoa-com-pepino-e-hortela",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "xícara de quinoa cozida",
+      "pepino picado",
+      "tomates picados",
+      "/2 cebola roxa picada",
+      "Folhas de hortelã picadas",
+      "Suco de 1 limão",
+      "colheres de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a quinoa com os legumes e a hortelã.",
+      "Tempere com limão, azeite, sal e pimenta.",
+      "Sirva gelado, perfeito pra refrescar corpo e alma."
+    ],
+    "descricao": "Salada refrescante que é quase um spa no prato.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 13,00",
+    "porcoes": "3 porções",
+    "dica": "Tabule de quinoa é tipo olhar o extrato bancário: às vezes dá uma dorzinha, mas a saúde agradece."
+  },
+  {
+    "id": 1808,
+    "titulo": "Espetinho Caprese com Tomate, Muçarela e Manjericão",
+    "slug": "espetinho-caprese-com-tomate-mucarela-e-manjericao",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "tomates-cereja",
+      "bolinhas de muçarela de búfala",
+      "Folhas de manjericão fresco",
+      "Azeite e sal a gosto"
+    ],
+    "modoPreparo": [
+      "Monte os espetinhos alternando tomate, muçarela e manjericão.",
+      "Regue com azeite e polvilhe sal.",
+      "Sirva imediatamente como aperitivo."
+    ],
+    "descricao": "Petisco que faz a dieta parecer festa, só falta o DJ.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Espetinho caprese é igual final de semana: rápido, gostoso e deixa saudade."
+  },
+  {
+    "id": 1809,
+    "titulo": "Cuscuz Nordestino Fit com Legumes",
+    "slug": "cuscuz-nordestino-fit-com-legumes",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "xícara de flocos de milho para cuscuz",
+      "cenoura ralada",
+      "/2 abobrinha ralada",
+      "tomate picado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Hidrate os flocos de milho com água e sal até formar uma massa úmida.",
+      "Misture os legumes e coloque na cuscuzeira.",
+      "Cozinhe no vapor por 15 minutos e sirva quente."
+    ],
+    "descricao": "Tradicional que não sente culpa e ainda ajuda a segurar a fome.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 11,00",
+    "porcoes": "3 porções",
+    "dica": "Cuscuz fit é como boleto quitado: simples, prático e traz aquela sensação gostosa de missão cumprida."
+  },
+  {
+    "id": 1810,
+    "titulo": "Salada de Rúcula com Laranja e Nozes",
+    "slug": "salada-de-rucula-com-laranja-e-nozes",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "xícaras de rúcula fresca",
+      "laranja em gomos",
+      "g de nozes picadas",
+      "colher de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a rúcula com os gomos de laranja e as nozes.",
+      "Tempere com azeite, sal e pimenta.",
+      "Sirva imediatamente para manter a crocância."
+    ],
+    "descricao": "Mistura que parece contradição, mas é só dieta inteligente.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 13,00",
+    "porcoes": "2 porções",
+    "dica": "Salada de rúcula com laranja é tipo boleto com desconto: inesperada, mas deixa tudo mais leve."
+  },
+  {
+    "id": 1811,
+    "titulo": "Chili Vegetariano Proteico",
+    "slug": "chili-vegetariano-proteico",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "xícara de feijão preto cozido",
+      "xícara de lentilha cozida",
+      "cebola picada",
+      "dentes de alho picados",
+      "pimentão vermelho picado",
+      "tomates picados",
+      "colher de chá de cominho",
+      "colher de chá de páprica",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho até dourar.",
+      "Adicione pimentão, tomates, cominho e páprica, cozinhando por 10 minutos.",
+      "Acrescente feijão e lentilha, cozinhe por mais 15 minutos, ajuste temperos e sirva."
+    ],
+    "descricao": "Pra esquentar a alma e a dieta sem drama de carne.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Chili vegetariano é igual boleto parcelado: parece complicado, mas no final você sobrevive e ainda sai satisfeito."
+  },
+  {
+    "id": 1812,
+    "titulo": "Creme de Mandioquinha com Alho-Poró",
+    "slug": "creme-de-mandioquinha-com-alho-poro",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "g de mandioquinha descascada e picada",
+      "alho-poró fatiado",
+      "dente de alho",
+      "litro de água ou caldo de legumes",
+      "Sal, pimenta e noz-moscada a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue alho e alho-poró até ficarem macios.",
+      "Adicione mandioquinha e água, cozinhe até a mandioquinha amolecer.",
+      "Bata tudo no liquidificador, tempere e sirva quente."
+    ],
+    "descricao": "Sopa que abraça a alma e não pesa na consciência.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Creme de mandioquinha é igual tédio em reunião: pode até ser chato, mas é necessário para a vida."
+  },
+  {
+    "id": 1813,
+    "titulo": "Tabule de Couve-flor Low Carb",
+    "slug": "tabule-de-couve-flor-low-carb",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "couve-flor média ralada no processador",
+      "tomate picado",
+      "pepino picado",
+      "/2 cebola picada",
+      "Folhas de hortelã picadas",
+      "Suco de 1 limão",
+      "colheres de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a couve-flor ralada com os legumes e a hortelã.",
+      "Tempere com limão, azeite, sal e pimenta.",
+      "Sirva gelado para um efeito refrescante."
+    ],
+    "descricao": "Salada para enganar seu cérebro que macarrão é só uma lembrança.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "3 porções",
+    "dica": "Tabule de couve-flor é tipo promessa de academia: todo mundo sabe que funciona, mas tem que ter coragem pra começar."
+  },
+  {
+    "id": 1814,
+    "titulo": "Bowl de Açaí Fit com Granola e Banana",
+    "slug": "bowl-de-acai-fit-com-granola-e-banana",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "g de polpa de açaí congelada sem açúcar",
+      "banana congelada",
+      "colheres de sopa de granola sem açúcar",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Bata o açaí com a banana até formar um creme.",
+      "Sirva em tigela e cubra com granola e mel.",
+      "Aproveite antes que o trânsito acabe com sua energia."
+    ],
+    "descricao": "Energia pra encarar a vida, ou pelo menos o trânsito.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "1 porção",
+    "dica": "Açaí fit é como boleto pago antecipado: um luxo que poucos entendem, mas todo mundo deveria experimentar."
+  },
+  {
+    "id": 1815,
+    "titulo": "Espetinho de Camarão com Legumes ao Alho e Limão",
+    "slug": "espetinho-de-camarao-com-legumes-ao-alho-e-limao",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "g de camarão limpo",
+      "abobrinha em rodelas",
+      "pimentão amarelo em cubos",
+      "dentes de alho picados",
+      "Suco de 1 limão",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o camarão com alho, limão, sal e pimenta.",
+      "Monte os espetinhos alternando camarão e legumes.",
+      "Grelhe até o camarão ficar rosa e legumes macios."
+    ],
+    "descricao": "Pra parecer chef sem precisar passar fome ou vender a alma.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 38,00",
+    "porcoes": "2 porções",
+    "dica": "Espetinho de camarão é igual boleto da Netflix: caro, mas você não cancela porque sabe que vale a pena."
+  },
+  {
+    "id": 1816,
+    "titulo": "Panqueca de Batata Doce com Recheio de Ricota e Espinafre",
+    "slug": "panqueca-de-batata-doce-com-recheio-de-ricota-e-espinafre",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "xícara de purê de batata doce",
+      "ovos",
+      "g de ricota amassada",
+      "punhado de espinafre refogado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o purê de batata doce com os ovos, sal e pimenta.",
+      "Aqueça a frigideira e faça panquecas médias.",
+      "Recheie com ricota e espinafre, dobre ao meio e sirva."
+    ],
+    "descricao": "Pra quem quer um café da manhã que sustenta e não abandona.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "2 porções",
+    "dica": "Panqueca de batata doce é igual boletos em dia: dá aquela sensação boa e te faz querer repetir."
+  },
+  {
+    "id": 1817,
+    "titulo": "Salada de Pepino com Iogurte e Hortelã",
+    "slug": "salada-de-pepino-com-iogurte-e-hortela",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "pepino médio fatiado",
+      "pote de iogurte natural (150 g)",
+      "Folhas de hortelã picadas",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o pepino com o iogurte e a hortelã.",
+      "Tempere com sal e pimenta.",
+      "Sirva gelado como acompanhamento ou lanche."
+    ],
+    "descricao": "Fresca, leve e perfeita pra enganar a fome e o chefe.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "2 porções",
+    "dica": "Salada de pepino com iogurte é tipo reunião de condomínio: todo mundo reclama, mas no fim é necessária para a paz."
+  },
+  {
+    "id": 1818,
+    "titulo": "Suflê de Espinafre Light",
+    "slug": "sufle-de-espinafre-light",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "g de espinafre cozido e picado",
+      "ovos (claras e gemas separadas)",
+      "g de queijo branco ralado",
+      "Sal, noz-moscada e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Bata as claras em neve firme.",
+      "Misture as gemas com espinafre, queijo e temperos.",
+      "Incorpore delicadamente as claras na mistura.",
+      "Despeje na forma untada e asse a 180ºC por 30 minutos."
+    ],
+    "descricao": "Pra quem quer luxo na dieta sem precisar chamar a sogra.",
+    "tempo": "40 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Suflê é como promessa de dieta: precisa de paciência e cuidado, mas no fim é uma delícia que vale a pena."
+  },
+  {
+    "id": 1819,
+    "titulo": "Salada Tropical de Frutas com Hortelã e Limão",
+    "slug": "salada-tropical-de-frutas-com-hortela-e-limao",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "manga picada",
+      "abacaxi picado",
+      "kiwi fatiado",
+      "Folhas de hortelã picadas",
+      "Suco de 1 limão"
+    ],
+    "modoPreparo": [
+      "Misture todas as frutas em uma tigela.",
+      "Adicione hortelã e suco de limão, misture delicadamente.",
+      "Sirva gelado para refrescar o dia."
+    ],
+    "descricao": "Pra adoçar a vida e a dieta sem pecado (ou quase).",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "3 porções",
+    "dica": "Salada de frutas é igual final de mês: às vezes sobra pouco, mas o que tem, é gostoso e refrescante."
+  },
+  {
+    "id": 1820,
+    "titulo": "Bolo Integral de Cenoura com Cobertura de Iogurte",
+    "slug": "bolo-integral-de-cenoura-com-cobertura-de-iogurte",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "cenouras médias raladas",
+      "ovos",
+      "/2 xícara de óleo de coco",
+      "xícara de açúcar mascavo",
+      "xícaras de farinha integral",
+      "colher de sopa de fermento em pó",
+      "pote de iogurte natural para cobertura"
+    ],
+    "modoPreparo": [
+      "Bata ovos, óleo e açúcar até ficar cremoso.",
+      "Misture a farinha e o fermento, acrescente a cenoura ralada.",
+      "Despeje na forma untada e asse a 180ºC por 35 minutos.",
+      "Cubra com iogurte antes de servir."
+    ],
+    "descricao": "Pra matar a vontade de doce sem virar vilão da dieta.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "8 porções",
+    "dica": "Bolo integral é tipo boleto pago antecipado: dá aquela sensação boa de dever cumprido com gostinho de quero mais."
+  },
+  {
+    "id": 1821,
+    "titulo": "Panqueca de Espinafre com Ricota e Nozes",
+    "slug": "panqueca-de-espinafre-com-ricota-e-nozes",
+    "categoria": "To De Dieta ",
+    "ingredientes": [
+      "xícara de espinafre cozido e picado",
+      "ovos",
+      "colheres de sopa de farinha integral",
+      "g de ricota esfarelada",
+      "Nozes picadas a gosto",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com farinha, sal e pimenta.",
+      "Misture o espinafre e faça panquecas na frigideira.",
+      "Recheie com ricota e nozes, dobre ao meio e sirva."
+    ],
+    "descricao": "Café da manhã que é quase um abraço verde no seu dia.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "2 porções",
+    "dica": "Panqueca verde é igual boleto no fim do mês: ninguém quer, mas quando aparece, dá aquela força inesperada."
+  }
+]

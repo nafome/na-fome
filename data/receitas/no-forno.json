@@ -1,0 +1,973 @@
+[
+  {
+    "id": 1187,
+    "titulo": "Frango Cremoso com Batata Rústica ao Forno",
+    "slug": "frango-cremoso-com-batata-rustica-ao-forno",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "kg de coxa e sobrecoxa de frango",
+      "batatas médias cortadas em palitos rústicos",
+      "copo de creme de leite",
+      "g de queijo mussarela ralado",
+      "dentes de alho picados",
+      "Sal e pimenta a gosto",
+      "Azeite para regar"
+    ],
+    "modoPreparo": [
+      "Tempere o frango com alho, sal, pimenta e deixe marinando por 15 minutos.",
+      "Em uma assadeira, distribua as batatas, regue com azeite e tempere com sal.",
+      "Coloque o frango sobre as batatas, cubra com o creme de leite e polvilhe o queijo.",
+      "Cubra com papel alumínio e leve ao forno pré-aquecido a 200°C por 30 minutos.",
+      "Retire o papel alumínio e deixe dourar por mais 10 minutos."
+    ],
+    "descricao": "Porque nada une mais que frango e batata, igual boleto e conta atrasada.",
+    "tempo": "45 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Se o frango demorar a dourar, finja que está esperando o boleto chegar: paciência é o segredo."
+  },
+  {
+    "id": 1188,
+    "titulo": "Lasanha de Berinjela Low Carb",
+    "slug": "lasanha-de-berinjela-low-carb",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "berinjelas médias cortadas em fatias finas",
+      "g de carne moída magra",
+      "xícara de molho de tomate caseiro",
+      "g de queijo ricota",
+      "g de queijo parmesão ralado",
+      "dente de alho picado",
+      "Sal, pimenta e orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Grelhe as fatias de berinjela em frigideira com um pouco de azeite até amolecer.",
+      "Refogue a carne com alho, sal, pimenta e adicione o molho de tomate.",
+      "Em uma forma, monte camadas alternadas: berinjela, carne, ricota e repita.",
+      "Finalize com parmesão ralado e leve ao forno a 180°C por 30 minutos."
+    ],
+    "descricao": "Pra quem quer jantar leve, mas não quer jantar tristeza.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "3 porções",
+    "dica": "Essa lasanha é tão leve que até sua consciência vai pedir bis, diferente da conta do cartão."
+  },
+  {
+    "id": 1189,
+    "titulo": "Torta de Frango com Catupiry",
+    "slug": "torta-de-frango-com-catupiry",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "xícaras de farinha de trigo",
+      "g de manteiga gelada",
+      "ovo",
+      "g de peito de frango desfiado",
+      "g de catupiry",
+      "cebola picada",
+      "dentes de alho",
+      "Sal e pimenta a gosto",
+      "colher de sopa de óleo"
+    ],
+    "modoPreparo": [
+      "Misture a farinha, manteiga e ovo até formar uma massa homogênea; reserve na geladeira.",
+      "Refogue cebola e alho no óleo, adicione o frango desfiado, tempere e desligue o fogo.",
+      "Abra metade da massa na forma, espalhe o frango e o catupiry por cima.",
+      "Cubra com o restante da massa, pincele com ovo batido e leve ao forno a 180°C por 40 minutos."
+    ],
+    "descricao": "Porque na vida adulta, catupiry é o equivalente ao abraço apertado.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "6 porções",
+    "dica": "Se a massa quebrar, não chore; lembre-se que na vida adulta, às vezes até a massa é difícil de segurar."
+  },
+  {
+    "id": 1190,
+    "titulo": "Batata Recheada com Bacon e Queijo",
+    "slug": "batata-recheada-com-bacon-e-queijo",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "batatas grandes",
+      "g de bacon picado",
+      "g de queijo cheddar ralado",
+      "colheres de creme de leite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Lave as batatas e asse inteiras a 200°C por 50 minutos.",
+      "Corte uma tampa nas batatas e retire o miolo com cuidado.",
+      "Misture o miolo com bacon, queijo, creme de leite, sal e pimenta.",
+      "Recheie as batatas, polvilhe mais queijo e leve ao forno por mais 15 minutos para gratinar."
+    ],
+    "descricao": "A batata que é mais recheada que sua agenda de reuniões.",
+    "tempo": "1h10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "4 porções",
+    "dica": "Se a batata não ficar macia, não se preocupe, pelo menos o boleto venceu no prazo, né?"
+  },
+  {
+    "id": 1191,
+    "titulo": "Peixe ao Forno com Crosta de Ervas",
+    "slug": "peixe-ao-forno-com-crosta-de-ervas",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "filés de tilápia",
+      "colheres de sopa de farinha de amêndoas",
+      "colher de sopa de salsa picada",
+      "colher de sopa de cebolinha picada",
+      "Suco de 1 limão",
+      "Sal e pimenta a gosto",
+      "Azeite para pincelar"
+    ],
+    "modoPreparo": [
+      "Tempere os filés com sal, pimenta e limão, deixe descansar por 10 minutos.",
+      "Misture a farinha de amêndoas com as ervas.",
+      "Pincele azeite sobre os filés e pressione a mistura de ervas para formar a crosta.",
+      "Leve ao forno a 180°C por 20 minutos."
+    ],
+    "descricao": "Pra quem quer jantar saudável, mas com sabor que não parece dieta.",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 35,00",
+    "porcoes": "2 porções",
+    "dica": "Se o peixe grudar na forma, pense que é igual relacionamento complicado: só solta quando quer."
+  },
+  {
+    "id": 1192,
+    "titulo": "Escondidinho de Carne Seca com Purê de Mandioquinha",
+    "slug": "escondidinho-de-carne-seca-com-pure-de-mandioquinha",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "g de carne seca dessalgada e desfiada",
+      "g de mandioquinha",
+      "cebola picada",
+      "dentes de alho",
+      "ml de leite",
+      "colheres de sopa de manteiga",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a mandioquinha até ficar macia; amasse com leite, manteiga, sal e pimenta até virar purê.",
+      "Refogue a cebola e o alho, junte a carne seca e deixe apurar.",
+      "Em uma assadeira, coloque metade do purê, a carne refogada e cubra com o restante do purê.",
+      "Leve ao forno a 180°C por 25 minutos até dourar."
+    ],
+    "descricao": "A única coisa escondida aqui é a vontade de dividir.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "5 porções",
+    "dica": "Se sobrar escondidinho, guarde; igual dívida, só cresce se ignorar."
+  },
+  {
+    "id": 1193,
+    "titulo": "Quiche de Espinafre com Queijo Feta",
+    "slug": "quiche-de-espinafre-com-queijo-feta",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "massa podre pronta",
+      "g de espinafre cozido e escorrido",
+      "g de queijo feta esfarelado",
+      "ovos",
+      "ml de creme de leite",
+      "Sal, pimenta e noz-moscada a gosto"
+    ],
+    "modoPreparo": [
+      "Forre a forma com a massa e pré-asse por 10 minutos a 180°C.",
+      "Misture ovos, creme de leite, espinafre, queijo e temperos.",
+      "Despeje o recheio na massa e asse por mais 35 minutos até firmar."
+    ],
+    "descricao": "Pra impressionar sem precisar fazer stand-up no jantar.",
+    "tempo": "1h10 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 33,00",
+    "porcoes": "6 porções",
+    "dica": "Se o recheio ficar líquido, não entre em pânico; na vida, também tem dias que a gente vaza."
+  },
+  {
+    "id": 1194,
+    "titulo": "Pizza Caseira de Massa Integral",
+    "slug": "pizza-caseira-de-massa-integral",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "xícaras de farinha de trigo integral",
+      "colher de chá de fermento biológico seco",
+      "colher de chá de açúcar",
+      "colher de sopa de azeite",
+      "/2 xícara de água morna",
+      "g de molho de tomate",
+      "g de queijo mussarela",
+      "Orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Misture fermento, açúcar e água; deixe ativar por 10 minutos.",
+      "Acrescente farinha e azeite, sovando até formar uma massa lisa; deixe crescer por 40 minutos.",
+      "Abra a massa, espalhe molho, queijo e orégano.",
+      "Leve ao forno a 220°C por 20 minutos."
+    ],
+    "descricao": "Pra provar que integral pode ser tão gostoso quanto boleto integral.",
+    "tempo": "1h20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 27,00",
+    "porcoes": "4 porções",
+    "dica": "Massa integral é igual boleto pago: dá trabalho, mas a sensação no final é maravilhosa."
+  },
+  {
+    "id": 1195,
+    "titulo": "Mousse de Chocolate Assado no Forno",
+    "slug": "mousse-de-chocolate-assado-no-forno",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "g de chocolate meio amargo",
+      "ovos separados (gemas e claras)",
+      "colheres de sopa de açúcar",
+      "pitada de sal"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate em banho-maria.",
+      "Bata as gemas com metade do açúcar até formar um creme claro.",
+      "Bata as claras em neve com sal e o restante do açúcar.",
+      "Misture o chocolate com as gemas e incorpore delicadamente as claras.",
+      "Despeje em tigelas e asse em banho-maria a 160°C por 20 minutos."
+    ],
+    "descricao": "Pra quem quer docinho, mas sem sujar o fogão inteiro.",
+    "tempo": "50 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Mousse de forno é igual amor adulto: parece leve, mas precisa de paciência para não desandar."
+  },
+  {
+    "id": 1196,
+    "titulo": "Pimentão Recheado com Arroz e Carne Moída",
+    "slug": "pimentao-recheado-com-arroz-e-carne-moida",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "pimentões grandes",
+      "g de carne moída",
+      "xícara de arroz cozido",
+      "cebola picada",
+      "dentes de alho picados",
+      "Sal, pimenta e cheiro-verde a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho, acrescente a carne, tempere e cozinhe até dourar.",
+      "Misture a carne com o arroz e cheiro-verde.",
+      "Corte a tampa dos pimentões, retire as sementes e recheie com a mistura.",
+      "Coloque na assadeira, cubra com papel alumínio e asse a 180°C por 30 minutos."
+    ],
+    "descricao": "Porque até pimentão merece um recheio digno, diferente do WhatsApp da família.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 24,00",
+    "porcoes": "4 porções",
+    "dica": "Se o pimentão ficar mole demais, pense que nem só boleto estraga seu dia."
+  },
+  {
+    "id": 1197,
+    "titulo": "Batata Doce Gratinada com Queijo e Alecrim",
+    "slug": "batata-doce-gratinada-com-queijo-e-alecrim",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "g de batata doce em rodelas finas",
+      "g de queijo prato ralado",
+      "ml de creme de leite",
+      "ramo de alecrim fresco picado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Em tigela, misture creme de leite, alecrim, sal e pimenta.",
+      "Em uma assadeira, coloque camadas de batata doce e creme.",
+      "Finalize com queijo ralado e leve ao forno a 180°C por 40 minutos."
+    ],
+    "descricao": "Pra quem quer carboidrato, mas com classe de jantar chique.",
+    "tempo": "50 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "3 porções",
+    "dica": "Se a batata não gratinar, culpe o forno, não o boleto atrasado."
+  },
+  {
+    "id": 1198,
+    "titulo": "Peito de Peru Assado com Molho de Laranja",
+    "slug": "peito-de-peru-assado-com-molho-de-laranja",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "kg de peito de peru",
+      "Suco de 3 laranjas",
+      "colheres de mel",
+      "Sal, pimenta e tomilho a gosto",
+      "dentes de alho picados"
+    ],
+    "modoPreparo": [
+      "Tempere o peito de peru com sal, pimenta, alho e tomilho.",
+      "Misture o suco de laranja com mel e reserve.",
+      "Coloque o peito na assadeira, pincele com o molho e asse a 180°C por 1h.",
+      "A cada 20 minutos, pincele o molho para criar uma camada brilhante."
+    ],
+    "descricao": "Para quem quer impressionar no jantar sem precisar virar cozinheiro de novela.",
+    "tempo": "1h30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 45,00",
+    "porcoes": "5 porções",
+    "dica": "Se o peito ficar seco, pelo menos o boleto não vai embora, né?"
+  },
+  {
+    "id": 1199,
+    "titulo": "Abobrinha Recheada com Ricota e Tomate Seco",
+    "slug": "abobrinha-recheada-com-ricota-e-tomate-seco",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "abobrinhas médias cortadas ao meio e sem miolo",
+      "g de ricota esfarelada",
+      "g de tomate seco picado",
+      "dente de alho picado",
+      "Sal, pimenta e manjericão a gosto"
+    ],
+    "modoPreparo": [
+      "Misture ricota, tomate seco, alho e temperos.",
+      "Recheie as abobrinhas e coloque na assadeira.",
+      "Leve ao forno a 180°C por 30 minutos."
+    ],
+    "descricao": "A abobrinha que é mais recheada que sua caixa de entrada de e-mails.",
+    "tempo": "55 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 26,00",
+    "porcoes": "4 porções",
+    "dica": "Se o recheio escapar, não se preocupe, até boleto some às vezes."
+  },
+  {
+    "id": 1200,
+    "titulo": "Canelone de Ricota com Espinafre ao Forno",
+    "slug": "canelone-de-ricota-com-espinafre-ao-forno",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "unidades de massa para canelone",
+      "g de ricota",
+      "g de espinafre cozido e picado",
+      "ml de molho branco",
+      "g de queijo parmesão ralado",
+      "Sal e noz-moscada a gosto"
+    ],
+    "modoPreparo": [
+      "Misture ricota, espinafre, sal e noz-moscada.",
+      "Recheie as massas e enrole os canelones.",
+      "Coloque-os na assadeira, cubra com molho branco e parmesão.",
+      "Asse a 180°C por 40 minutos."
+    ],
+    "descricao": "Pra quem quer jantar saudável, mas não quer parecer coelhinho triste.",
+    "tempo": "1h10 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 34,00",
+    "porcoes": "4 porções",
+    "dica": "Se o molho talhar, lembre-se: na vida, nem tudo sai perfeito, mas o boleto não perdoa."
+  },
+  {
+    "id": 1201,
+    "titulo": "Pão de Alho Recheado com Queijo no Forno",
+    "slug": "pao-de-alho-recheado-com-queijo-no-forno",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "pão francês grande ou pão baguete",
+      "g de manteiga",
+      "dentes de alho picados",
+      "g de queijo mussarela ralado",
+      "Salsa picada a gosto"
+    ],
+    "modoPreparo": [
+      "Misture manteiga, alho e salsa.",
+      "Corte o pão em fatias sem separar totalmente.",
+      "Passe a manteiga entre as fatias e recheie com queijo.",
+      "Leve ao forno a 180°C por 20 minutos até derreter o queijo."
+    ],
+    "descricao": "O pão que é mais recheado que sua cabeça de preocupações.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Se o pão queimar, pense que nem todo boleto vence na data."
+  },
+  {
+    "id": 1202,
+    "titulo": "Filé de Salmão com Crosta de Mostarda e Mel",
+    "slug": "file-de-salmao-com-crosta-de-mostarda-e-mel",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "filés de salmão",
+      "colheres de sopa de mostarda Dijon",
+      "colher de sopa de mel",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture mostarda, mel, sal e pimenta.",
+      "Espalhe a mistura sobre os filés.",
+      "Asse a 180°C por 20 minutos."
+    ],
+    "descricao": "Pra quem quer um jantar digno, mas não quer virar MasterChef (ainda).",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 50,00",
+    "porcoes": "2 porções",
+    "dica": "Se o salmão grudar na forma, a culpa não é sua, é da vida grudenta igual boleto atrasado."
+  },
+  {
+    "id": 1203,
+    "titulo": "Gratinado de Couve-Flor com Queijo e Bacon",
+    "slug": "gratinado-de-couve-flor-com-queijo-e-bacon",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "couve-flor média em buquês",
+      "g de bacon picado",
+      "g de queijo mussarela ralado",
+      "ml de creme de leite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a couve-flor até ficar al dente.",
+      "Frite o bacon até ficar crocante.",
+      "Em uma assadeira, misture couve-flor, bacon, creme e metade do queijo.",
+      "Cubra com o restante do queijo e asse a 180°C por 25 minutos."
+    ],
+    "descricao": "Porque até a couve-flor merece um tratamento VIP.",
+    "tempo": "50 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 27,00",
+    "porcoes": "4 porções",
+    "dica": "Se o queijo não gratinar, culpa o forno, não a sua vida que já é cheia de perrengue."
+  },
+  {
+    "id": 1204,
+    "titulo": "Empadão de Palmito com Massa Crocante",
+    "slug": "empadao-de-palmito-com-massa-crocante",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "xícaras de farinha de trigo",
+      "g de manteiga gelada",
+      "ovo",
+      "g de palmito picado",
+      "cebola picada",
+      "dentes de alho",
+      "ml de creme de leite",
+      "Sal, pimenta e cheiro-verde a gosto"
+    ],
+    "modoPreparo": [
+      "Misture farinha, manteiga e ovo até formar massa; deixe gelar por 30 minutos.",
+      "Refogue cebola e alho, junte o palmito, tempere e adicione creme de leite.",
+      "Forre a forma com metade da massa, coloque o recheio e cubra com o restante.",
+      "Pincele com ovo batido e asse a 180°C por 45 minutos."
+    ],
+    "descricao": "Porque nem só de boletos e problemas vive o adulto.",
+    "tempo": "1h20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 38,00",
+    "porcoes": "6 porções",
+    "dica": "Se a massa quebrar, oferece um cafezinho, que amizade também se conserta assim."
+  },
+  {
+    "id": 1205,
+    "titulo": "Cuscuz Paulista Assado no Forno",
+    "slug": "cuscuz-paulista-assado-no-forno",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "xícaras de farinha de milho flocada",
+      "g de peixe desfiado cozido",
+      "cebola picada",
+      "tomate picado",
+      "/2 pimentão picado",
+      "/2 xícara de ervilhas",
+      "ovos cozidos picados",
+      "Sal, pimenta e cheiro-verde a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, tomate e pimentão; acrescente o peixe e ervilhas.",
+      "Misture a farinha com o refogado, ajustando com água para umedecer.",
+      "Coloque em assadeira, decore com ovos e leve ao forno a 180°C por 35 minutos."
+    ],
+    "descricao": "Aquele cuscuz que não desmancha, igual promessa de político.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 29,00",
+    "porcoes": "5 porções",
+    "dica": "Se o cuscuz grudar, pense que na vida adulta, às vezes só sobra grudado boleto e saudade."
+  },
+  {
+    "id": 1206,
+    "titulo": "Escondidinho de Lentilha com Purê de Abóbora",
+    "slug": "escondidinho-de-lentilha-com-pure-de-abobora",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "xícaras de lentilha cozida",
+      "g de abóbora cozida e amassada",
+      "cebola picada",
+      "dentes de alho",
+      "ml de creme de leite",
+      "Sal, pimenta e noz-moscada a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho, misture a lentilha e tempere.",
+      "Misture abóbora com creme de leite, sal, pimenta e noz-moscada.",
+      "Em assadeira, coloque lentilha e cubra com purê.",
+      "Asse a 180°C por 30 minutos até dourar."
+    ],
+    "descricao": "Vegetariano, gostoso e tão útil quanto pagar as contas em dia.",
+    "tempo": "1h10 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Se o purê ficar muito firme, relaxa; até boleto às vezes dá uma desandada."
+  },
+  {
+    "id": 1207,
+    "titulo": "Frango à Parmegiana no Forno",
+    "slug": "frango-a-parmegiana-no-forno",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "filés de peito de frango",
+      "xícara de farinha de rosca",
+      "ovos batidos",
+      "g de molho de tomate",
+      "g de queijo mussarela ralado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o frango, passe nos ovos e depois na farinha de rosca.",
+      "Coloque em assadeira e asse a 200°C por 25 minutos.",
+      "Cubra com molho de tomate e queijo, leve ao forno por mais 10 minutos para gratinar."
+    ],
+    "descricao": "Porque frango frito é para os fortes, e assado para os espertos.",
+    "tempo": "1h",
+    "dificuldade": "Fácil",
+    "preco": "R$ 30,00",
+    "porcoes": "4 porções",
+    "dica": "Frango à parmegiana é igual boleto: melhor pagar antes que acumule."
+  },
+  {
+    "id": 1208,
+    "titulo": "Pão de Queijo Assado com Recheio de Goiabada",
+    "slug": "pao-de-queijo-assado-com-recheio-de-goiabada",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "g de polvilho azedo",
+      "ml de leite",
+      "ml de óleo",
+      "ovos",
+      "g de queijo meia cura ralado",
+      "Goiabada em cubos para rechear",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Ferva leite, óleo e sal; despeje sobre o polvilho, mexa e deixe esfriar.",
+      "Acrescente ovos e queijo, misture até formar massa.",
+      "Faça bolinhas, abra e recheie com goiabada.",
+      "Feche e asse a 180°C por 25 minutos."
+    ],
+    "descricao": "A mistura que é mais inesperada que boleto no meio do mês.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "12 porções",
+    "dica": "Se o recheio vazar, não chora; nem todo boleto cabe no orçamento."
+  },
+  {
+    "id": 1209,
+    "titulo": "Legumes Assados com Ervas Finas",
+    "slug": "legumes-assados-com-ervas-finas",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "abobrinha cortada em rodelas",
+      "berinjela em cubos",
+      "cenouras em rodelas",
+      "cebola roxa em pétalas",
+      "Azeite, sal, pimenta e ervas finas a gosto"
+    ],
+    "modoPreparo": [
+      "Misture os legumes com azeite e temperos.",
+      "Espalhe na assadeira e asse a 200°C por 30 minutos, mexendo na metade do tempo."
+    ],
+    "descricao": "Porque às vezes a vida pede só um descanso e um forno ligado.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "3 porções",
+    "dica": "Se os legumes queimarem, lembre-se: até o boleto queima a paciência."
+  },
+  {
+    "id": 1210,
+    "titulo": "Coração de Frango ao Forno com Batatas",
+    "slug": "coracao-de-frango-ao-forno-com-batatas",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "g de coração de frango limpo",
+      "batatas médias em cubos",
+      "dentes de alho picados",
+      "Sal, pimenta e páprica a gosto",
+      "Azeite para regar"
+    ],
+    "modoPreparo": [
+      "Tempere coração com alho, sal, pimenta e páprica.",
+      "Misture batatas com azeite e sal.",
+      "Em assadeira, disponha coração e batatas.",
+      "Asse a 200°C por 50 minutos, mexendo na metade do tempo."
+    ],
+    "descricao": "Porque coração não é só para sentimental, também é para quem gosta de petiscar.",
+    "tempo": "1h10 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Se o coração resistir, lembre-se que boletos também não querem ser pagos."
+  },
+  {
+    "id": 1211,
+    "titulo": "Torta de Maçã com Massa Folhada",
+    "slug": "torta-de-maca-com-massa-folhada",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "pacote de massa folhada pronta",
+      "maçãs descascadas e fatiadas",
+      "/2 xícara de açúcar mascavo",
+      "colher de chá de canela",
+      "Suco de 1 limão"
+    ],
+    "modoPreparo": [
+      "Misture maçãs com açúcar, canela e limão.",
+      "Forre a forma com a massa, coloque as maçãs e cubra com outra camada de massa.",
+      "Faça furos na massa superior e asse a 180°C por 40 minutos."
+    ],
+    "descricao": "Pra adoçar a vida sem precisar de piada pronta.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "6 fatias",
+    "dica": "Se a torta desmanchar, relaxa; até boleto já desmanchou sua paciência."
+  },
+  {
+    "id": 1212,
+    "titulo": "Berinjela Parmegiana ao Forno",
+    "slug": "berinjela-parmegiana-ao-forno",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "berinjelas cortadas em fatias",
+      "ml de molho de tomate",
+      "g de queijo mussarela ralado",
+      "xícara de farinha de rosca",
+      "ovos batidos",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere as berinjelas com sal e deixe escorrer por 20 minutos.",
+      "Passe as fatias nos ovos e depois na farinha de rosca.",
+      "Frite rapidamente para dourar e escorra o excesso de óleo.",
+      "Monte em assadeira: berinjela, molho e queijo.",
+      "Asse a 180°C por 30 minutos até gratinar."
+    ],
+    "descricao": "Pra provar que vegetariano também sabe ser gourmet e sarcástico.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 29,00",
+    "porcoes": "4 porções",
+    "dica": "Se a berinjela soltar água, lembra que até boleto às vezes vaza."
+  },
+  {
+    "id": 1213,
+    "titulo": "Mandioquinha Assada com Alecrim e Alho",
+    "slug": "mandioquinha-assada-com-alecrim-e-alho",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "g de mandioquinha cortada em palitos",
+      "dentes de alho picados",
+      "ramos de alecrim",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture mandioquinha, alho, alecrim, azeite, sal e pimenta.",
+      "Espalhe na assadeira e asse a 200°C por 35 minutos, mexendo na metade do tempo."
+    ],
+    "descricao": "Pra quem quer acompanhamento, mas não quer conversa fiada.",
+    "tempo": "45 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "3 porções",
+    "dica": "Se a mandioquinha não dourar, não se preocupe, boleto não tem dó."
+  },
+  {
+    "id": 1214,
+    "titulo": "Panqueca de Forno com Recheio de Carne e Queijo",
+    "slug": "panqueca-de-forno-com-recheio-de-carne-e-queijo",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "ovo",
+      "xícara de leite",
+      "g de carne moída",
+      "g de queijo mussarela ralado",
+      "Sal, pimenta e temperos a gosto"
+    ],
+    "modoPreparo": [
+      "Prepare a massa da panqueca batendo farinha, ovo e leite.",
+      "Cozinhe a carne moída com temperos.",
+      "Em forma, faça camadas de massa, carne e queijo.",
+      "Leve ao forno a 180°C por 40 minutos."
+    ],
+    "descricao": "Pra quem quer panqueca sem precisar de chapa – e sem desculpas.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "4 porções",
+    "dica": "Se a panqueca grudar, pense que até boleto quer te prender."
+  },
+  {
+    "id": 1215,
+    "titulo": "Espetinho de Legumes e Queijo Assado",
+    "slug": "espetinho-de-legumes-e-queijo-assado",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "abobrinha cortada em cubos",
+      "pimentão vermelho em cubos",
+      "g de queijo coalho em cubos",
+      "Azeite, sal, pimenta e orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Monte espetinhos alternando legumes e queijo.",
+      "Regue com azeite e tempere.",
+      "Asse a 200°C por 25 minutos, virando na metade do tempo."
+    ],
+    "descricao": "Pra quem gosta de petisco saudável e tem pouco tempo pra drama.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Se o queijo não derreter, pense que pelo menos boleto não derrete seu coração."
+  },
+  {
+    "id": 1216,
+    "titulo": "Pão Doce de Forno com Canela e Açúcar",
+    "slug": "pao-doce-de-forno-com-canela-e-acucar",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "xícaras de farinha de trigo",
+      "/2 xícara de açúcar",
+      "ovo",
+      "/2 xícara de leite morno",
+      "colher de sopa de fermento biológico seco",
+      "colheres de sopa de manteiga derretida",
+      "Canela e açúcar para polvilhar"
+    ],
+    "modoPreparo": [
+      "Ative o fermento no leite com açúcar por 10 minutos.",
+      "Misture farinha, ovo, manteiga e fermento até formar massa; deixe crescer 40 minutos.",
+      "Abra a massa, polvilhe açúcar e canela, enrole e coloque na forma.",
+      "Deixe crescer mais 20 minutos e asse a 180°C por 25 minutos."
+    ],
+    "descricao": "Pra adoçar a vida e esquecer o extrato bancário.",
+    "tempo": "1h30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "10 porções",
+    "dica": "Se o pão não crescer, não se desespere; na vida, só boleto cresce rápido demais."
+  },
+  {
+    "id": 1217,
+    "titulo": "Batata Gratinada com Creme de Alho e Parmesão",
+    "slug": "batata-gratinada-com-creme-de-alho-e-parmesao",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "g de batatas em rodelas finas",
+      "ml de creme de leite",
+      "dentes de alho picados",
+      "g de queijo parmesão ralado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture creme de leite, alho, sal e pimenta.",
+      "Em assadeira, faça camadas de batata e creme.",
+      "Finalize com parmesão e asse a 180°C por 40 minutos."
+    ],
+    "descricao": "Pra quem quer carboidrato com direito a glamour.",
+    "tempo": "50 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Se a batata não gratinar, finge que é boleto atrasado: só aparece quando quer."
+  },
+  {
+    "id": 1218,
+    "titulo": "Fricassê de Frango no Forno",
+    "slug": "fricasse-de-frango-no-forno",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "g de peito de frango desfiado",
+      "lata de milho verde",
+      "copo de requeijão cremoso",
+      "ml de creme de leite",
+      "Batata palha para finalizar",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture frango, milho, requeijão e creme de leite; tempere.",
+      "Coloque em assadeira e leve ao forno a 180°C por 30 minutos.",
+      "Retire do forno e cubra com batata palha antes de servir."
+    ],
+    "descricao": "Porque não dá pra ser adulto sem um fricassê na vida.",
+    "tempo": "1h",
+    "dificuldade": "Fácil",
+    "preco": "R$ 28,00",
+    "porcoes": "5 porções",
+    "dica": "Se sobrar batata, come assim mesmo; na vida adulta, sobra sempre boleto."
+  },
+  {
+    "id": 1219,
+    "titulo": "Torta de Legumes com Massa Integral",
+    "slug": "torta-de-legumes-com-massa-integral",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "xícaras de farinha de trigo integral",
+      "g de manteiga gelada",
+      "ovo",
+      "cenoura ralada",
+      "abobrinha ralada",
+      "cebola picada",
+      "ovos",
+      "ml de creme de leite",
+      "Sal e temperos a gosto"
+    ],
+    "modoPreparo": [
+      "Misture farinha, manteiga e ovo até formar massa; leve à geladeira por 30 min.",
+      "Refogue cenoura, abobrinha e cebola; tempere.",
+      "Bata ovos com creme e sal.",
+      "Forre a forma com a massa, coloque legumes e cubra com a mistura de ovos.",
+      "Asse a 180°C por 40 minutos."
+    ],
+    "descricao": "Pra quem quer saúde, mas não quer abrir mão do sabor.",
+    "tempo": "1h20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "6 porções",
+    "dica": "Se a massa quebrar, oferece um cafezinho; relacionamento com massa é igual boleto: tem altos e baixos."
+  },
+  {
+    "id": 1220,
+    "titulo": "Peito de Frango Recheado com Espinafre e Queijo",
+    "slug": "peito-de-frango-recheado-com-espinafre-e-queijo",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "filés de peito de frango",
+      "g de espinafre cozido e picado",
+      "g de queijo mussarela",
+      "Sal, pimenta e alho a gosto"
+    ],
+    "modoPreparo": [
+      "Abra um bolso nos filés, tempere com sal e pimenta.",
+      "Recheie com espinafre e queijo, feche com palitos.",
+      "Coloque na assadeira, regue com azeite e asse a 180°C por 40 minutos."
+    ],
+    "descricao": "Porque frango sem graça não tem vez na vida adulta.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 33,00",
+    "porcoes": "4 porções",
+    "dica": "Se o recheio escapar, lembra que até boleto às vezes foge da conta."
+  },
+  {
+    "id": 1221,
+    "titulo": "Escondidinho de Batata com Carne Moída e Queijo",
+    "slug": "escondidinho-de-batata-com-carne-moida-e-queijo",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "kg de batatas",
+      "g de carne moída",
+      "g de queijo mussarela ralado",
+      "cebola picada",
+      "dentes de alho",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe batatas e faça purê com manteiga, sal e leite.",
+      "Refogue cebola, alho e carne até dourar; tempere.",
+      "Em assadeira, coloque metade do purê, a carne e o restante do purê.",
+      "Cubra com queijo e asse a 180°C por 30 minutos."
+    ],
+    "descricao": "A desculpa perfeita para comer purê e carne juntos sem culpa.",
+    "tempo": "1h10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 28,00",
+    "porcoes": "5 porções",
+    "dica": "Se sobrar escondidinho, guarda; igual boleto, a gente tenta esconder mas sempre aparece."
+  },
+  {
+    "id": 1222,
+    "titulo": "Pão de Batata Assado com Recheio de Presunto e Queijo",
+    "slug": "pao-de-batata-assado-com-recheio-de-presunto-e-queijo",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "g de batata cozida e amassada",
+      "xícaras de farinha de trigo",
+      "ovo",
+      "fatias de presunto",
+      "fatias de queijo mussarela",
+      "Sal e fermento a gosto"
+    ],
+    "modoPreparo": [
+      "Misture batata, farinha, ovo, fermento e sal até formar massa; deixe crescer 40 minutos.",
+      "Abra a massa, corte em pedaços, recheie com presunto e queijo, feche.",
+      "Coloque na assadeira e asse a 180°C por 30 minutos."
+    ],
+    "descricao": "O lanche que é mais aconchego que abraço de mãe.",
+    "tempo": "1h20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "6 porções",
+    "dica": "Se o pão ficar duro, pense que nem todo boleto é fácil de engolir."
+  },
+  {
+    "id": 1223,
+    "titulo": "Couve-Flor à Milanesa Assada no Forno",
+    "slug": "couve-flor-a-milanesa-assada-no-forno",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "couve-flor média em floretes",
+      "ovos batidos",
+      "xícara de farinha de rosca",
+      "Sal, pimenta e páprica a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere a couve-flor com sal, pimenta e páprica.",
+      "Passe nos ovos e depois na farinha de rosca.",
+      "Disponha na assadeira e asse a 200°C por 35 minutos, virando na metade do tempo."
+    ],
+    "descricao": "Pra quem quer crocância sem fritura e sem culpa.",
+    "tempo": "50 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "4 porções",
+    "dica": "Se não ficar crocante, finge que é boleto: só aparece quando quer dar trabalho."
+  },
+  {
+    "id": 1224,
+    "titulo": "Pavê de Chocolate no Forno",
+    "slug": "pave-de-chocolate-no-forno",
+    "categoria": "No Forno ",
+    "ingredientes": [
+      "g de biscoito maisena",
+      "ml de creme de leite",
+      "g de chocolate meio amargo",
+      "ovos separados",
+      "/2 xícara de açúcar"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate em banho-maria.",
+      "Bata as gemas com açúcar até clarear, misture ao chocolate.",
+      "Bata as claras em neve e incorpore delicadamente.",
+      "Monte camadas de biscoito e creme em refratário.",
+      "Asse em banho-maria a 160°C por 30 minutos."
+    ],
+    "descricao": "Sobremesa que é quase um milagre para quem não sabe fazer pudim.",
+    "tempo": "1h",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "6 porções",
+    "dica": "Se o pavê não firmar, lembra que boleto também não tem compromisso."
+  }
+]

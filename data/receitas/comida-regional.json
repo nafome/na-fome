@@ -1,0 +1,1047 @@
+[
+  {
+    "id": 276,
+    "titulo": "Baião de Dois Nordestino",
+    "slug": "baiao-de-dois-nordestino",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "xícaras de arroz",
+      "xícara de feijão verde ou feijão de corda cozido",
+      "g de queijo coalho em cubos",
+      "g de carne seca dessalgada e desfiada",
+      "cebola média picada",
+      "dentes de alho picados",
+      "colheres de sopa de manteiga de garrafa",
+      "Sal e pimenta-do-reino a gosto",
+      "Coentro picado a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e o alho na manteiga de garrafa até dourar.",
+      "Junte a carne seca e refogue por 5 minutos.",
+      "Adicione o arroz, o feijão, sal, pimenta e 4 xícaras de água; cozinhe até secar.",
+      "Misture o queijo coalho e o coentro, tampe e deixe mais 5 minutos no fogo baixo."
+    ],
+    "descricao": "A combinação que junta arroz e feijão como casal que só briga na família, mas não vive separado",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida te der limões, faça uma limonada; se te der carne seca, faça baião de dois – porque só o boleto não desmancha no fogo, mas essa receita sim!"
+  },
+  {
+    "id": 277,
+    "titulo": "Moqueca Capixaba",
+    "slug": "moqueca-capixaba",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "kg de filé de peixe branco (robalo ou badejo)",
+      "tomates médios em rodelas",
+      "cebola grande em rodelas",
+      "pimentão verde em rodelas",
+      "maço de coentro picado",
+      "dentes de alho amassados",
+      "Suco de 1 limão",
+      "Sal e pimenta-do-reino a gosto",
+      "Azeite de oliva a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o peixe com limão, sal e alho; deixe marinar por 20 minutos.",
+      "Em uma panela, faça camadas: cebola, tomate, pimentão, peixe, e termine com coentro.",
+      "Regue com azeite, tampe e cozinhe em fogo baixo por 25 minutos sem mexer."
+    ],
+    "descricao": "Peixe que não sabe nadar, mas sabe nadar no azeite e dendê da vida",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Moqueca é tipo relacionamento sério: precisa de paciência, tempero e nada de mexer no fogo pra não virar confusão."
+  },
+  {
+    "id": 278,
+    "titulo": "Pão de Queijo Mineiro Tradicional",
+    "slug": "pao-de-queijo-mineiro-tradicional",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "g de polvilho doce",
+      "ml de leite",
+      "ml de óleo",
+      "ovos",
+      "g de queijo minas meia cura ralado",
+      "colher de chá de sal"
+    ],
+    "modoPreparo": [
+      "Ferva o leite com o óleo e despeje sobre o polvilho, mexendo até formar uma massa.",
+      "Espere amornar, junte os ovos, o sal e o queijo; misture bem até ficar homogêneo.",
+      "Faça bolinhas, coloque em assadeira untada e asse em forno preaquecido a 180°C por 25 minutos."
+    ],
+    "descricao": "O único pão que não te engana, só te faz engordar feliz e sem culpa",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "20 unidades",
+    "dica": "Se o boleto apertar, faça pão de queijo; pelo menos a barriga vai ficar feliz enquanto a conta chora."
+  },
+  {
+    "id": 279,
+    "titulo": "Tacacá Amazônico",
+    "slug": "tacaca-amazonico",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "litro de tucupi",
+      "g de goma de tapioca",
+      "g de camarão seco dessalgado",
+      "dentes de alho picados",
+      "maço de jambu fresco",
+      "Pimenta-de-cheiro a gosto",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Ferva o tucupi com o alho e o camarão seco por 15 minutos.",
+      "Cozinhe o jambu em água fervente até murchar, escorra.",
+      "Em uma cuia, coloque a goma dissolvida em água, jambu, pimenta e despeje o tucupi quente."
+    ],
+    "descricao": "Sopa que parece remédio, mas é só amor em caldo quente da floresta",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Tacacá é igual aquele amigo que te arrepia e te faz cócegas na alma – só que com jambu, não com piada ruim."
+  },
+  {
+    "id": 280,
+    "titulo": "Feijão Tropeiro Mineiro",
+    "slug": "feijao-tropeiro-mineiro",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "xícaras de feijão carioca cozido e escorrido",
+      "g de bacon em cubos",
+      "cebola média picada",
+      "dentes de alho picados",
+      "xícara de farinha de mandioca torrada",
+      "ovos",
+      "Salsinha picada a gosto",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Frite o bacon até dourar, junte cebola e alho e refogue.",
+      "Acrescente os ovos batidos e mexa até cozinhar.",
+      "Misture o feijão, farinha de mandioca, salsinha, sal e pimenta; mexa bem e sirva."
+    ],
+    "descricao": "Prato que junta feijão com farinha e bacon, porque a vida pede gordura e fé",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Feijão tropeiro é a prova que a vida só melhora com bacon e farinha – o resto é boleto e Wi-Fi fraco."
+  },
+  {
+    "id": 281,
+    "titulo": "Bobó de Camarão Baiano",
+    "slug": "bobo-de-camarao-baiano",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "g de camarão limpo",
+      "g de mandioca cozida e amassada",
+      "cebola picada",
+      "dentes de alho picados",
+      "ml de leite de coco",
+      "colheres de sopa de azeite de dendê",
+      "Coentro picado a gosto",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no azeite de dendê até dourar.",
+      "Junte o camarão, tempere e cozinhe por 5 minutos.",
+      "Acrescente a mandioca amassada, leite de coco e mexa até formar um creme homogêneo.",
+      "Finalize com coentro picado e sirva quente."
+    ],
+    "descricao": "Prato que te abraça com dendê e manda o estresse embora com mandioca",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 45,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida te der mandioca e dendê, faça bobó; se te der boleto, chora no cantinho e come depois."
+  },
+  {
+    "id": 282,
+    "titulo": "Arroz Carreteiro Gaúcho",
+    "slug": "arroz-carreteiro-gaucho",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "xícaras de arroz",
+      "g de charque dessalgada e desfiada",
+      "cebola grande picada",
+      "dentes de alho picados",
+      "tomate picado",
+      "Cheiro-verde picado a gosto",
+      "Sal e pimenta a gosto",
+      "Azeite ou óleo para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no azeite, junte o charque e cozinhe por 10 minutos.",
+      "Acrescente o tomate e refogue mais 5 minutos.",
+      "Adicione o arroz, sal, pimenta e 5 xícaras de água; cozinhe até secar.",
+      "Finalize com cheiro-verde e sirva."
+    ],
+    "descricao": "O arroz que carrega mais histórias que seu tio bêbado no churrasco",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "5 porções",
+    "dica": "Arroz carreteiro é igual aquele amigo que aparece só pra comer e contar vantagem – mas a gente ama mesmo assim."
+  },
+  {
+    "id": 283,
+    "titulo": "Galinhada Goiana",
+    "slug": "galinhada-goiana",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "kg de frango em pedaços",
+      "xícaras de arroz",
+      "cebola picada",
+      "dentes de alho picados",
+      "tomate picado",
+      "pimentão picado",
+      "colher de chá de açafrão da terra",
+      "Cheiro-verde a gosto",
+      "Sal e pimenta a gosto",
+      "Óleo para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no óleo, doure o frango e tempere.",
+      "Junte tomate, pimentão e açafrão; cozinhe por 10 minutos.",
+      "Acrescente o arroz e 4 xícaras de água, ajuste sal e pimenta.",
+      "Cozinhe até secar e finalize com cheiro-verde."
+    ],
+    "descricao": "O frango que resolveu virar estrela do sertão e brilhar na panela",
+    "tempo": "70 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "6 porções",
+    "dica": "Galinhada é o Tinder da cozinha: mistura tudo, espera o tempo certo e torce pra dar match no sabor."
+  },
+  {
+    "id": 284,
+    "titulo": "Acarajé Baiano",
+    "slug": "acaraje-baiano",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "g de feijão-fradinho demolhado e sem pele",
+      "cebola média",
+      "Sal a gosto",
+      "Azeite de dendê para fritar",
+      "Vatapá e caruru para acompanhar (opcional)"
+    ],
+    "modoPreparo": [
+      "Bata o feijão e a cebola no processador até virar uma massa lisa.",
+      "Tempere com sal, misture bem e deixe descansar 30 minutos.",
+      "Aqueça o azeite de dendê e frite colheradas da massa até dourar.",
+      "Sirva com vatapá, caruru e pimenta."
+    ],
+    "descricao": "Bolinho que é um bloco de carnaval na boca, só que sem dor na cabeça depois",
+    "tempo": "90 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 40,00",
+    "porcoes": "10 unidades",
+    "dica": "Acarajé é igual festa de família: demora pra preparar, tem muita história e no final todo mundo elogia."
+  },
+  {
+    "id": 285,
+    "titulo": "Pastel de Feira Paulista",
+    "slug": "pastel-de-feira-paulista",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "g de farinha de trigo",
+      "colher de sopa de óleo",
+      "ml de água morna",
+      "Sal a gosto",
+      "g de carne moída temperada",
+      "g de queijo mussarela ralado",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Misture farinha, óleo, sal e água até formar uma massa lisa; deixe descansar 30 minutos.",
+      "Abra a massa e corte em círculos; coloque recheio de carne e queijo.",
+      "Dobre, feche as bordas e frite em óleo quente até dourar."
+    ],
+    "descricao": "Queijo e carne escondidos na massa, igual boleto escondido no fim do mês",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "8 pastéis",
+    "dica": "Pastel é igual promessa de segunda-feira: todo mundo quer, mas pouca gente consegue entregar sem abrir."
+  },
+  {
+    "id": 286,
+    "titulo": "Maria Isabel do Sertão",
+    "slug": "maria-isabel-do-sertao",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "xícaras de arroz",
+      "g de carne seca dessalgada e desfiada",
+      "cebola picada",
+      "dentes de alho picados",
+      "xícaras de caldo de carne",
+      "Óleo ou manteiga para refogar",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho na manteiga, adicione a carne seca e cozinhe por 10 minutos.",
+      "Junte o arroz, mexa, acrescente o caldo e tempere.",
+      "Cozinhe em fogo baixo até o arroz ficar macio e o caldo secar."
+    ],
+    "descricao": "Arroz com carne seca que bate mais forte que sol do meio-dia no sertão",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Maria Isabel é tipo aquele amor antigo: simples, tradicional e que te faz querer repetir sempre que bate a saudade."
+  },
+  {
+    "id": 287,
+    "titulo": "Vaca Atolada Mineira",
+    "slug": "vaca-atolada-mineira",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      ",5 kg de costela bovina",
+      "kg de mandioca descascada e cortada",
+      "cebolas picadas",
+      "dentes de alho picados",
+      "tomates picados",
+      "Sal e pimenta a gosto",
+      "Cheiro-verde para finalizar"
+    ],
+    "modoPreparo": [
+      "Na panela de pressão, refogue cebola e alho, adicione a costela e doure.",
+      "Junte os tomates, tempere, cubra com água e cozinhe por 1h30.",
+      "Acrescente a mandioca, ajuste o sal e cozinhe até amolecer.",
+      "Finalize com cheiro-verde e sirva."
+    ],
+    "descricao": "Costela que se afunda no aipim e na vontade de comer até passar o boleto",
+    "tempo": "3 horas",
+    "dificuldade": "Difícil",
+    "preco": "R$ 50,00",
+    "porcoes": "6 porções",
+    "dica": "Vaca atolada é igual a segunda-feira: demora pra passar, mas no final deixa a gente satisfeito e pronto pra próxima."
+  },
+  {
+    "id": 288,
+    "titulo": "Cuscuz Paulista",
+    "slug": "cuscuz-paulista",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "xícaras de farinha de milho flocada",
+      "g de sardinha em óleo",
+      "cebola picada",
+      "tomate picado",
+      "pimentão picado",
+      "/2 xícara de ervilha",
+      "ovos cozidos picados",
+      "Sal e cheiro-verde a gosto",
+      "Água para hidratar a farinha"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, tomate e pimentão; junte a sardinha, ervilha e tempere.",
+      "Hidrate a farinha com água e sal até soltar das mãos.",
+      "Misture o refogado à farinha, coloque na forma e pressione.",
+      "Deixe descansar 15 minutos, desenforme, decore com ovos e cheiro-verde."
+    ],
+    "descricao": "Prato que junta mar e terra, igual seus boletos e sonhos misturados",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "6 porções",
+    "dica": "Cuscuz paulista é igual domingo: só fica bom se todo mundo colaborar e ninguém reclamar do calor."
+  },
+  {
+    "id": 289,
+    "titulo": "Canjica Nordestina",
+    "slug": "canjica-nordestina",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "g de milho para canjica",
+      "litro de leite",
+      "ml de leite de coco",
+      "xícara de açúcar",
+      "g de coco ralado fresco",
+      "Canela em pau a gosto",
+      "Cravos-da-índia a gosto"
+    ],
+    "modoPreparo": [
+      "Deixe o milho de molho por 12 horas, escorra e cozinhe até amolecer.",
+      "Adicione o leite, leite de coco, açúcar, canela e cravo; cozinhe por mais 30 minutos.",
+      "Acrescente o coco ralado, mexa e desligue."
+    ],
+    "descricao": "Doce que é a desculpa oficial do brasileiro pra esquecer a dieta e a vida adulta",
+    "tempo": "90 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "6 porções",
+    "dica": "Canjica é tipo aquele amigo que aparece só pra te lembrar que a vida é doce, mas a conta bancária nem tanto."
+  },
+  {
+    "id": 290,
+    "titulo": "Empadão Gaúcho de Frango",
+    "slug": "empadao-gaucho-de-frango",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "g de farinha de trigo",
+      "g de manteiga gelada",
+      "ovo",
+      "Sal a gosto",
+      "g de frango desfiado",
+      "cebola picada",
+      "dentes de alho picados",
+      "tomate picado",
+      "/2 xícara de azeitonas picadas",
+      "copo de requeijão cremoso",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture farinha, manteiga, ovo e sal até formar massa; reserve na geladeira.",
+      "Refogue cebola, alho, tomate, junte o frango, azeitonas, sal e pimenta; desligue e misture requeijão.",
+      "Abra metade da massa, forre a forma, coloque o recheio e cubra com o restante da massa.",
+      "Asse em forno preaquecido a 180°C por 40 minutos."
+    ],
+    "descricao": "Torta que nem o gaúcho resiste, mesmo depois de cinco churrascos no dia",
+    "tempo": "90 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "8 porções",
+    "dica": "Empadão é igual reunião de família: muita massa, recheio de história e sempre sobra pra repetir."
+  },
+  {
+    "id": 291,
+    "titulo": "Pamonha Doce de Milho Verde",
+    "slug": "pamonha-doce-de-milho-verde",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "espigas de milho verde",
+      "xícara de açúcar",
+      "pitada de sal",
+      "Folhas de milho para embrulhar"
+    ],
+    "modoPreparo": [
+      "Rale o milho e misture com açúcar e sal até formar uma massa.",
+      "Lave as folhas, molde pacotinhos com a massa e amarre com tiras das próprias folhas.",
+      "Cozinhe em água fervente por 40 minutos."
+    ],
+    "descricao": "O doce que prova que o milho é o verdadeiro rei do Brasil, não o futebol",
+    "tempo": "90 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "8 unidades",
+    "dica": "Pamonha é a prova que a vida pode ser enrolada, mas doce e quentinha no final."
+  },
+  {
+    "id": 292,
+    "titulo": "Caldo de Cana com Mandioca Frita",
+    "slug": "caldo-de-cana-com-mandioca-frita",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "g de mandioca cortada em palitos",
+      "Óleo para fritar",
+      "Sal a gosto",
+      "ml de caldo de cana fresco ou pronto"
+    ],
+    "modoPreparo": [
+      "Frite a mandioca em óleo quente até dourar e crocante; escorra e salpique sal.",
+      "Sirva acompanhando o caldo de cana gelado."
+    ],
+    "descricao": "Energia instantânea que só o Brasil oferece antes do boleto chegar",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "2 porções",
+    "dica": "Caldo de cana com mandioca é o combo oficial do “aguentar mais um mês” e do “meu fígado não sabe o que o espera”."
+  },
+  {
+    "id": 293,
+    "titulo": "Peixada Cearense",
+    "slug": "peixada-cearense",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "kg de postas de peixe branco (ex: badejo)",
+      "tomates picados",
+      "cebola grande picada",
+      "dentes de alho picados",
+      "batatas em rodelas",
+      "Suco de 1 limão",
+      "Coentro e cebolinha a gosto",
+      "Sal e pimenta a gosto",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Tempere o peixe com limão, sal e pimenta; reserve.",
+      "Refogue cebola, alho e tomate no azeite até amolecer.",
+      "Coloque as batatas, o peixe e cubra com água; cozinhe na pressão por 15 minutos.",
+      "Finalize com coentro e cebolinha."
+    ],
+    "descricao": "Peixe que nada na panela e encara o calor do sertão com estilo",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 38,00",
+    "porcoes": "4 porções",
+    "dica": "Peixada é igual reunião de condomínio: mistura tudo, tem gente que reclama, mas no final todo mundo sai satisfeito."
+  },
+  {
+    "id": 294,
+    "titulo": "Bolo de Rolo Pernambucano",
+    "slug": "bolo-de-rolo-pernambucano",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "ovos",
+      "g de açúcar",
+      "g de farinha de trigo peneirada",
+      "g de goiabada derretida",
+      "Manteiga para untar"
+    ],
+    "modoPreparo": [
+      "Bata ovos e açúcar até dobrar de volume.",
+      "Incorpore a farinha delicadamente.",
+      "Asse em assadeira untada em camadas finas por 5 minutos cada, repetindo até acabar a massa.",
+      "Espalhe goiabada em cada camada e enrole cuidadosamente após assar."
+    ],
+    "descricao": "Rolinho que enrola mais que desculpa de amigo atrasado",
+    "tempo": "90 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 30,00",
+    "porcoes": "10 fatias",
+    "dica": "Bolo de rolo é o verdadeiro teste de paciência brasileiro: se der errado, finge que é arte moderna."
+  },
+  {
+    "id": 295,
+    "titulo": "Arroz de Hauçá Bahiano",
+    "slug": "arroz-de-hauca-bahiano",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "xícaras de arroz",
+      "g de carne bovina em cubos",
+      "cebola picada",
+      "dentes de alho picados",
+      "pimentão vermelho picado",
+      "tomate picado",
+      "colher de chá de colorau",
+      "Sal, pimenta e cheiro-verde a gosto",
+      "Óleo para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, alho e carne até dourar.",
+      "Junte tomate, pimentão e colorau; cozinhe por 10 minutos.",
+      "Acrescente o arroz, água e tempere; cozinhe até secar.",
+      "Finalize com cheiro-verde."
+    ],
+    "descricao": "Arroz que é mais colorido que festa de São João, e menos perigoso que quadrilha",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Arroz de Hauçá: a prova que a Bahia não é só acarajé e axé, mas também festa no prato."
+  },
+  {
+    "id": 296,
+    "titulo": "Ensopado de Capivara Pantaneiro",
+    "slug": "ensopado-de-capivara-pantaneiro",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "kg de carne de capivara limpa e cortada",
+      "cebolas picadas",
+      "dentes de alho picados",
+      "tomates picados",
+      "pimentas dedo-de-moça picadas",
+      "Sal, pimenta e cheiro-verde a gosto",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no azeite, junte a carne e doure.",
+      "Acrescente tomates, pimenta, sal e pimenta; cubra com água.",
+      "Cozinhe em fogo baixo por 2 horas até a carne ficar macia.",
+      "Finalize com cheiro-verde."
+    ],
+    "descricao": "Para quem quer se aventurar na cozinha e na vida selvagem sem sair de casa",
+    "tempo": "120 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 60,00",
+    "porcoes": "6 porções",
+    "dica": "Ensopado de capivara: para quem quer se sentir Pantaneiro sem precisar caçar boleto atrasado."
+  },
+  {
+    "id": 297,
+    "titulo": "Pamonha Salgada com Queijo e Linguiça",
+    "slug": "pamonha-salgada-com-queijo-e-linguica",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "espigas de milho verde",
+      "g de linguiça calabresa picada",
+      "g de queijo coalho em cubos",
+      "Sal e pimenta a gosto",
+      "Folhas de milho para embrulhar"
+    ],
+    "modoPreparo": [
+      "Rale o milho e misture com sal, linguiça e queijo.",
+      "Embrulhe em folhas de milho, amarre e cozinhe em água fervente por 40 minutos."
+    ],
+    "descricao": "Porque nem só de doce vive o milho, a vida também tem suas surpresas salgadas",
+    "tempo": "90 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "8 unidades",
+    "dica": "Pamonha salgada é o lembrete que até o milho tem crise existencial, e às vezes quer ser salgado pra variar."
+  },
+  {
+    "id": 298,
+    "titulo": "Sarapatel Nordestino",
+    "slug": "sarapatel-nordestino",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "g de miúdos de porco (fígado, coração, rins) limpos e picados",
+      "cebola grande picada",
+      "dentes de alho picados",
+      "tomates picados",
+      "pimentão picado",
+      "Sal, pimenta e cheiro-verde a gosto",
+      "Vinagre a gosto",
+      "Óleo para refogar"
+    ],
+    "modoPreparo": [
+      "Tempere os miúdos com vinagre, sal e pimenta; reserve.",
+      "Refogue cebola, alho, tomate e pimentão no óleo.",
+      "Junte os miúdos e refogue por 10 minutos.",
+      "Cozinhe na pressão por 30 minutos, finalize com cheiro-verde."
+    ],
+    "descricao": "Prato que te lembra que a vida é feita de altos e baixos... e miúdos",
+    "tempo": "90 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 35,00",
+    "porcoes": "6 porções",
+    "dica": "Sarapatel é tipo aquele parente estranho na festa: ninguém espera, mas todo mundo acaba gostando."
+  },
+  {
+    "id": 299,
+    "titulo": "Peixe Frito com Farofa de Dendê",
+    "slug": "peixe-frito-com-farofa-de-dende",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "kg de filés de peixe branco",
+      "Sal e limão para temperar",
+      "Óleo para fritar",
+      "xícaras de farinha de mandioca",
+      "colheres de sopa de azeite de dendê",
+      "cebola pequena picada",
+      "Coentro picado a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o peixe com sal e limão; frite em óleo quente até dourar.",
+      "Refogue cebola no azeite de dendê, junte farinha e coentro, mexa até dourar.",
+      "Sirva o peixe com a farofa quente."
+    ],
+    "descricao": "Combo que prova que o dendê é o verdadeiro tempero da felicidade baiana",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Peixe frito com farofa é o prato oficial dos fins de tarde em que a preguiça vence o boleto."
+  },
+  {
+    "id": 300,
+    "titulo": "Quibebe Paraense",
+    "slug": "quibebe-paraense",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "kg de abóbora descascada e picada",
+      "cebola picada",
+      "dentes de alho picados",
+      "Sal e pimenta a gosto",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no azeite até dourar.",
+      "Junte a abóbora, cubra com água e cozinhe até desmanchar.",
+      "Amasse até virar purê, tempere e sirva quente."
+    ],
+    "descricao": "Purê de abóbora que faz até boleto atrasado parecer doce",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Quibebe é o abraço quentinho que a abóbora dá quando a vida aperta e o boleto grita."
+  },
+  {
+    "id": 301,
+    "titulo": "Dobradinha Paulista",
+    "slug": "dobradinha-paulista",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "kg de dobradinha (barriga de boi) limpa e cortada",
+      "g de feijão branco",
+      "cebola picada",
+      "dentes de alho picados",
+      "tomates picados",
+      "Sal, pimenta e cheiro-verde a gosto",
+      "Óleo para refogar"
+    ],
+    "modoPreparo": [
+      "Cozinhe o feijão branco até amolecer; reserve.",
+      "Refogue cebola, alho, tomates e a dobradinha até dourar.",
+      "Junte o feijão, cubra com água e cozinhe na pressão por 1 hora.",
+      "Tempere e finalize com cheiro-verde."
+    ],
+    "descricao": "Tripas que ninguém queria, mas que conquistam estômago e coração",
+    "tempo": "120 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 40,00",
+    "porcoes": "6 porções",
+    "dica": "Dobradinha é igual boleto atrasado: ninguém quer, mas se não pagar, o estrago é maior."
+  },
+  {
+    "id": 302,
+    "titulo": "Bolo de Macaxeira com Coco",
+    "slug": "bolo-de-macaxeira-com-coco",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "g de macaxeira (aipim) ralada",
+      "xícara de açúcar",
+      "ovos",
+      "vidro de leite de coco (200 ml)",
+      "g de coco ralado fresco",
+      "colher de sopa de manteiga"
+    ],
+    "modoPreparo": [
+      "Misture macaxeira, açúcar, ovos, leite de coco e manteiga até ficar homogêneo.",
+      "Coloque em forma untada e asse a 180°C por 40 minutos.",
+      "Polvilhe coco ralado por cima e sirva."
+    ],
+    "descricao": "Brigadeiro que saiu do grupo e virou rei do Nordeste",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "10 fatias",
+    "dica": "Bolo de macaxeira é a desculpa perfeita pra dizer que está comendo saudável porque tem aipim."
+  },
+  {
+    "id": 303,
+    "titulo": "Sarapatel Capixaba",
+    "slug": "sarapatel-capixaba",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "g de miúdos de porco limpos e picados",
+      "cebolas picadas",
+      "dentes de alho picados",
+      "tomates picados",
+      "pimenta dedo-de-moça picada",
+      "Sal, pimenta e cheiro-verde a gosto",
+      "Vinagre a gosto",
+      "Óleo para refogar"
+    ],
+    "modoPreparo": [
+      "Tempere os miúdos com vinagre, sal e pimenta; reserve.",
+      "Refogue cebola, alho, tomate e pimenta até amolecer.",
+      "Junte os miúdos, refogue por 10 minutos e cozinhe na pressão por 30 minutos.",
+      "Finalize com cheiro-verde."
+    ],
+    "descricao": "Miúdos que se misturam melhor que WhatsApp de família em grupo da firma",
+    "tempo": "90 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 35,00",
+    "porcoes": "6 porções",
+    "dica": "Sarapatel é a prova que até os ingredientes mais improváveis podem virar sucesso – igual reunião de família."
+  },
+  {
+    "id": 304,
+    "titulo": "Mingau de Milho Verde com Coco",
+    "slug": "mingau-de-milho-verde-com-coco",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "espigas de milho verde ralado",
+      "ml de leite",
+      "ml de leite de coco",
+      "colheres de sopa de açúcar",
+      "Coco ralado para decorar"
+    ],
+    "modoPreparo": [
+      "Misture milho, leite e leite de coco na panela.",
+      "Cozinhe mexendo sempre até engrossar.",
+      "Adoce a gosto, sirva quente e decore com coco ralado."
+    ],
+    "descricao": "O café da manhã que te abraça mais que mensagem de ex arrependido",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Mingau de milho é o empurrãozinho doce que seu dia precisa antes da realidade bater."
+  },
+  {
+    "id": 305,
+    "titulo": "Peixe na Telha Paraense",
+    "slug": "peixe-na-telha-paraense",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "kg de filés de peixe",
+      "tomates picados",
+      "cebola picada",
+      "dentes de alho picados",
+      "Pimentão verde picado",
+      "Sal, pimenta e cheiro-verde a gosto",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, alho, tomates e pimentão no azeite.",
+      "Tempere o peixe com sal e pimenta, coloque na telha.",
+      "Cubra com o refogado e leve ao forno a 180°C por 20 minutos.",
+      "Finalize com cheiro-verde."
+    ],
+    "descricao": "Peixe que descansa na telha como quem já cansou do trampo e quer só relaxar",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "4 porções",
+    "dica": "Peixe na telha é igual final de expediente: todo mundo quer e ninguém quer que acabe cedo demais."
+  },
+  {
+    "id": 306,
+    "titulo": "Arroz de Hauçá com Camarão",
+    "slug": "arroz-de-hauca-com-camarao",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "xícaras de arroz",
+      "g de camarão limpo",
+      "cebola picada",
+      "dentes de alho picados",
+      "tomate picado",
+      "pimentão picado",
+      "colher de chá de colorau",
+      "Sal, pimenta e cheiro-verde a gosto",
+      "Óleo para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, alho e camarão até o camarão ficar rosado.",
+      "Junte tomate, pimentão e colorau; cozinhe por 10 minutos.",
+      "Acrescente arroz, sal, pimenta e água; cozinhe até secar.",
+      "Finalize com cheiro-verde."
+    ],
+    "descricao": "Pra quem gosta de arroz, camarão e uma pitada de história no prato",
+    "tempo": "55 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 45,00",
+    "porcoes": "4 porções",
+    "dica": "Arroz de Hauçá com camarão é a prova que a Bahia sabe misturar história, sabor e boleto atrasado num só prato."
+  },
+  {
+    "id": 307,
+    "titulo": "Caldo Verde Nordestino",
+    "slug": "caldo-verde-nordestino",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "g de macaxeira cozida e picada",
+      "linguiça calabresa em rodelas",
+      "cebola picada",
+      "dentes de alho picados",
+      "litro de água",
+      "Sal e pimenta a gosto",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, alho e linguiça no azeite.",
+      "Bata a macaxeira com água no liquidificador até virar creme.",
+      "Misture o creme na panela com o refogado, tempere e aqueça."
+    ],
+    "descricao": "A sopa que é mais quente que a conta de luz no verão",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Caldo verde nordestino: a desculpa perfeita pra ligar o fogão e esquecer os boletos por um tempo."
+  },
+  {
+    "id": 308,
+    "titulo": "Beiju de Tapioca Cearense",
+    "slug": "beiju-de-tapioca-cearense",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "xícaras de goma de tapioca hidratada",
+      "Recheio a gosto: coco ralado, queijo coalho, leite condensado"
+    ],
+    "modoPreparo": [
+      "Peneire a goma na frigideira quente formando uma camada fina.",
+      "Deixe aquecer até grudar e vire para aquecer o outro lado (se quiser).",
+      "Recheie e dobre ao meio."
+    ],
+    "descricao": "A panqueca que é tão versátil quanto as desculpas pra não ir na academia",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "4 porções",
+    "dica": "Beiju é o fast food do Nordeste: rápido, simples e cheio de opções pra fugir da dieta."
+  },
+  {
+    "id": 309,
+    "titulo": "Cocada Queimada do Sertão",
+    "slug": "cocada-queimada-do-sertao",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "latas de leite condensado",
+      "g de coco ralado fresco",
+      "colher de sopa de manteiga"
+    ],
+    "modoPreparo": [
+      "Em panela, misture leite condensado, coco e manteiga.",
+      "Cozinhe em fogo baixo, mexendo sempre, até desgrudar do fundo.",
+      "Despeje em forma untada, deixe esfriar e corte em pedaços."
+    ],
+    "descricao": "Doce que queima mais que seu cartão de crédito no fim do mês",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "8 porções",
+    "dica": "Cocada queimada é o doce que te lembra que até o açúcar sabe queimar, igual a conta que chega no fim do mês."
+  },
+  {
+    "id": 310,
+    "titulo": "Galeto com Quiabo Mineiro",
+    "slug": "galeto-com-quiabo-mineiro",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "galeto inteiro cortado em pedaços",
+      "g de quiabo cortado",
+      "dentes de alho picados",
+      "cebola picada",
+      "Sal e pimenta a gosto",
+      "Óleo para refogar"
+    ],
+    "modoPreparo": [
+      "Tempere o galeto, doure em frigideira e reserve.",
+      "Refogue alho e cebola, junte o galeto e cubra com água.",
+      "Cozinhe até o galeto ficar macio; acrescente o quiabo e cozinhe mais 15 minutos."
+    ],
+    "descricao": "Frango que é tão mineiro quanto aquele \"uai\" que não sai da boca",
+    "tempo": "70 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "4 porções",
+    "dica": "Galeto com quiabo é o combo perfeito pra quem quer provar que mineiro sabe sim cozinhar e enrolar na conversa."
+  },
+  {
+    "id": 311,
+    "titulo": "Bife à Cavalo com Arroz e Feijão Carioca",
+    "slug": "bife-a-cavalo-com-arroz-e-feijao-carioca",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "bifes de carne bovina",
+      "ovos",
+      "xícara de arroz",
+      "xícara de feijão carioca cozido",
+      "Sal, pimenta e óleo a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe arroz e feijão separadamente.",
+      "Tempere e frite os bifes e os ovos (fritos em formato de “cavalo”).",
+      "Sirva os bifes com os ovos por cima, acompanhados de arroz e feijão."
+    ],
+    "descricao": "O trio que sustenta mais que seu salário no fim do mês",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "2 porções",
+    "dica": "Bife à cavalo é igual a segunda-feira: você sabe que vai chegar, mas ainda finge que não acredita."
+  },
+  {
+    "id": 312,
+    "titulo": "Caldinho de Feijão Preto Carioca",
+    "slug": "caldinho-de-feijao-preto-carioca",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "xícaras de feijão preto cozido",
+      "cebola média picada",
+      "dentes de alho picados",
+      "litro de água",
+      "Sal, pimenta e cheiro-verde a gosto",
+      "Azeite para finalizar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho em azeite.",
+      "Bata o feijão com água no liquidificador até ficar cremoso.",
+      "Misture o refogado ao caldo, tempere e aqueça.",
+      "Sirva com cheiro-verde por cima."
+    ],
+    "descricao": "A solução líquida pra sobreviver ao calor e ao boleto atrasado",
+    "tempo": "50 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Caldinho de feijão é o abraço quentinho que seu estômago manda quando a vida aperta e o boleto grita."
+  },
+  {
+    "id": 313,
+    "titulo": "Cocada Branca Cremosa do Nordeste",
+    "slug": "cocada-branca-cremosa-do-nordeste",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "latas de leite condensado",
+      "g de coco ralado fresco",
+      "colher de sopa de manteiga",
+      "ml de leite de coco"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes na panela.",
+      "Cozinhe em fogo médio, mexendo sempre, até engrossar e soltar do fundo.",
+      "Despeje em forma untada, deixe esfriar e corte."
+    ],
+    "descricao": "O doce que é mais pegajoso que mensagem de ex no WhatsApp",
+    "tempo": "45 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "8 porções",
+    "dica": "Cocada branca é o lembrete doce que a vida pode ser grudenta, mas sempre com sabor."
+  },
+  {
+    "id": 314,
+    "titulo": "Arroz de Hauçá com Galinha",
+    "slug": "arroz-de-hauca-com-galinha",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "xícaras de arroz",
+      "g de galinha caipira cortada",
+      "cebola picada",
+      "dentes de alho picados",
+      "tomate picado",
+      "pimentão picado",
+      "colher de chá de colorau",
+      "Sal, pimenta e cheiro-verde a gosto",
+      "Óleo para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, alho e galinha até dourar.",
+      "Junte tomate, pimentão e colorau; cozinhe 10 minutos.",
+      "Acrescente arroz, sal, pimenta e água; cozinhe até secar.",
+      "Finalize com cheiro-verde."
+    ],
+    "descricao": "A mistura que prova que galinha e arroz são melhores juntos que boleto e preocupação",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Arroz de Hauçá com galinha é o prato que prova que juntar ingredientes certos é o segredo, igual na vida e nas contas."
+  },
+  {
+    "id": 315,
+    "titulo": "Tapioca com Carne de Sol e Queijo Coalho",
+    "slug": "tapioca-com-carne-de-sol-e-queijo-coalho",
+    "categoria": "Comida Regional ",
+    "ingredientes": [
+      "xícaras de goma de tapioca hidratada",
+      "g de carne de sol dessalgada e desfiada",
+      "g de queijo coalho em fatias",
+      "Manteiga para untar"
+    ],
+    "modoPreparo": [
+      "Aqueça a frigideira e espalhe a goma formando discos.",
+      "Cozinhe até firmar, vire, coloque carne e queijo, dobre e sirva."
+    ],
+    "descricao": "O lanche que é tão nordestino quanto a desculpa pra não trabalhar cedo",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Tapioca com carne de sol é o combo que faz até quem odeia levantar cedo querer acordar."
+  }
+]

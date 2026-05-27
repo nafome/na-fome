@@ -1,0 +1,1029 @@
+[
+  {
+    "id": 1621,
+    "titulo": "Panquecas Proteicas de Banana e Aveia",
+    "slug": "panquecas-proteicas-de-banana-e-aveia",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "bananas maduras",
+      "xícara de aveia em flocos",
+      "ovos",
+      "colher de chá de fermento em pó",
+      "colher de chá de canela em pó",
+      "Óleo de coco para untar"
+    ],
+    "modoPreparo": [
+      "Amasse as bananas no bowl até virar um purê.",
+      "Misture a aveia, ovos, fermento e canela até formar uma massa homogênea.",
+      "Aqueça a frigideira untada e faça as panquecas, virando quando formar bolhas."
+    ],
+    "descricao": "Pra quem quer acordar sem lactose e sem desculpa pra não malhar",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Se sua vida fosse tão fácil quanto virar uma panqueca, você já estaria rico – ou pelo menos sem lactose!"
+  },
+  {
+    "id": 1622,
+    "titulo": "Smoothie Verde Detox Sem Lactose",
+    "slug": "smoothie-verde-detox-sem-lactose",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "xícara de leite de amêndoas sem açúcar",
+      "punhado de espinafre fresco",
+      "maçã verde picada",
+      "colher de sopa de chia",
+      "Suco de ½ limão",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque todos os ingredientes no liquidificador.",
+      "Bata até ficar homogêneo e cremoso.",
+      "Sirva gelado, antes que a vontade de comer pizza volte."
+    ],
+    "descricao": "Porque tomar verdura nunca foi tão gostoso – e a conta do nutricionista agradece",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "1 porção",
+    "dica": "Esse smoothie é tão detox que até seu boleto vai parecer mais leve depois de tomar."
+  },
+  {
+    "id": 1623,
+    "titulo": "Escondidinho de Carne Seca com Purê de Mandioquinha",
+    "slug": "escondidinho-de-carne-seca-com-pure-de-mandioquinha",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "g de carne seca dessalgada e desfiada",
+      "g de mandioquinha",
+      "cebola média picada",
+      "dentes de alho picados",
+      "colher de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a mandioquinha em água até ficar macia e amasse até virar purê.",
+      "Refogue a cebola e alho no azeite, junte a carne seca e tempere.",
+      "Em uma assadeira, coloque metade do purê, a carne seca por cima e cubra com o restante do purê. Leve ao forno por 20 minutos."
+    ],
+    "descricao": "O conforto da vida adulta em camadas sem lactose e sem culpa (ou quase)",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida te der carne seca, faça escondidinho. Se te der boleto, faça um escondidinho na gaveta."
+  },
+  {
+    "id": 1624,
+    "titulo": "Salada Mediterrânea com Grão-de-Bico",
+    "slug": "salada-mediterranea-com-grao-de-bico",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "lata de grão-de-bico cozido",
+      "tomate grande picado",
+      "pepino picado",
+      "½ cebola roxa fatiada",
+      "azeitonas pretas sem caroço",
+      "Suco de 1 limão",
+      "Azeite extra virgem, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Em uma tigela, misture o grão-de-bico, tomate, pepino, cebola e azeitonas.",
+      "Tempere com limão, azeite, sal e pimenta.",
+      "Misture bem e sirva fria."
+    ],
+    "descricao": "Porque às vezes a gente quer ser saudável, mas sem abrir mão do sabor e da preguiça",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "3 porções",
+    "dica": "Essa salada é tão leve que até o seu chefe vai achar que você está de férias."
+  },
+  {
+    "id": 1625,
+    "titulo": "Moqueca de Palmito com Leite de Coco",
+    "slug": "moqueca-de-palmito-com-leite-de-coco",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "vidros de palmito picado",
+      "cebola grande em rodelas",
+      "tomates maduros em rodelas",
+      "pimentão vermelho em tiras",
+      "ml de leite de coco",
+      "Coentro a gosto",
+      "colheres de sopa de azeite de dendê",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Em uma panela, refogue a cebola, tomates e pimentão no azeite de dendê.",
+      "Junte o palmito, o leite de coco, tempere e deixe cozinhar por 20 minutos.",
+      "Finalize com coentro picado e sirva com arroz branco."
+    ],
+    "descricao": "Pra sentir o gostinho do litoral sem lactose nem ressaca moral",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida fosse uma moqueca, pelo menos a gente saberia que tudo vai ficar saboroso no final."
+  },
+  {
+    "id": 1626,
+    "titulo": "Brownie de Chocolate Sem Lactose",
+    "slug": "brownie-de-chocolate-sem-lactose",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "½ xícara de cacau em pó",
+      "xícara de açúcar mascavo",
+      "colher de chá de fermento em pó",
+      "ovos",
+      "½ xícara de óleo de coco",
+      "½ xícara de leite de amêndoas"
+    ],
+    "modoPreparo": [
+      "Misture farinha, cacau, açúcar e fermento.",
+      "Em outro recipiente, bata ovos, óleo e leite vegetal.",
+      "Junte as duas misturas, despeje na forma untada e asse a 180°C por 25 minutos."
+    ],
+    "descricao": "Pra provar que alegria não precisa de leite, só de chocolate e vontade de comer escondido",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "8 porções",
+    "dica": "Se alguém te perguntar se tem lactose, responda que só tem amor e chocolate – e já é suficiente pra vida adulta."
+  },
+  {
+    "id": 1627,
+    "titulo": "Omelete de Espinafre com Tomate Seco",
+    "slug": "omelete-de-espinafre-com-tomate-seco",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "ovos",
+      "punhado de espinafre fresco picado",
+      "tomates secos picados",
+      "Sal e pimenta a gosto",
+      "colher de sopa de azeite"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com sal e pimenta.",
+      "Aqueça o azeite na frigideira, refogue o espinafre rapidamente.",
+      "Despeje os ovos, adicione tomate seco e cozinhe até firmar."
+    ],
+    "descricao": "O café da manhã dos campeões que não querem chorar com intolerância",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "1 porção",
+    "dica": "Omelete é tipo boleto: rápido de fazer, difícil de ignorar e melhor que chorar."
+  },
+  {
+    "id": 1628,
+    "titulo": "Pão Low-Carb Sem Lactose com Linhaça",
+    "slug": "pao-low-carb-sem-lactose-com-linhaca",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "xícaras de farinha de amêndoas",
+      "ovos",
+      "colheres de sopa de linhaça triturada",
+      "colher de chá de fermento químico",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes até ficar homogêneo.",
+      "Despeje na forma untada.",
+      "Asse em forno pré-aquecido a 180°C por 45 minutos."
+    ],
+    "descricao": "Pra quem quer pão mas não quer se sentir um queijo gritando no supermercado",
+    "tempo": "1h20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "10 fatias",
+    "dica": "Esse pão é tão low-carb que o único carboidrato que você vai sentir é o da vontade de comer uma pizza no fim de semana."
+  },
+  {
+    "id": 1629,
+    "titulo": "Risoto Cremoso de Abóbora com Cogumelos",
+    "slug": "risoto-cremoso-de-abobora-com-cogumelos",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "xícaras de arroz arbóreo",
+      "g de abóbora em cubos",
+      "g de cogumelos frescos fatiados",
+      "cebola picada",
+      "litro de caldo de legumes quente",
+      "colheres de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola no azeite até ficar transparente.",
+      "Junte a abóbora e cogumelos, refogue por 5 minutos.",
+      "Acrescente o arroz e vá adicionando caldo aos poucos, mexendo até cozinhar e ficar cremoso."
+    ],
+    "descricao": "Sofisticação sem lactose para enganar o crush e o estômago",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "4 porções",
+    "dica": "Se o amor não te der um risoto desses, pelo menos a vida te dá abóbora e coragem pra tentar de novo."
+  },
+  {
+    "id": 1630,
+    "titulo": "Tapioca Recheada com Frango e Abacate",
+    "slug": "tapioca-recheada-com-frango-e-abacate",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "g de frango desfiado temperado",
+      "½ abacate maduro fatiado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça a frigideira e espalhe a goma de tapioca até formar uma camada fina.",
+      "Cozinhe por 1 minuto, vire, recheie com frango e abacate.",
+      "Dobre ao meio e sirva imediatamente."
+    ],
+    "descricao": "O café da manhã que fala “sou saudável, mas também sou gostoso”",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "2 porções",
+    "dica": "Tapioca é igual boleto: só dá dor de cabeça se você deixar pra última hora."
+  },
+  {
+    "id": 1631,
+    "titulo": "Sorvete de Manga com Leite de Coco",
+    "slug": "sorvete-de-manga-com-leite-de-coco",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "mangas maduras picadas",
+      "ml de leite de coco",
+      "colheres de sopa de mel ou agave"
+    ],
+    "modoPreparo": [
+      "Bata as mangas, leite de coco e mel no liquidificador até virar um creme.",
+      "Coloque em forma e leve ao congelador por 3 horas.",
+      "Mexa a cada 30 minutos para evitar cristais de gelo."
+    ],
+    "descricao": "Pra refrescar a alma e a intolerância em dias quentes (e boletos atrasados)",
+    "tempo": "4h (congelamento)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Esse sorvete é tão gostoso que até seu boleto congelado vai parecer mais doce."
+  },
+  {
+    "id": 1632,
+    "titulo": "Panqueca Salgada de Grão-de-Bico e Ervas",
+    "slug": "panqueca-salgada-de-grao-de-bico-e-ervas",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "xícara de farinha de grão-de-bico",
+      "xícara de água",
+      "colher de sopa de azeite",
+      "Salsinha e cebolinha picadas a gosto",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a farinha com água, azeite, ervas e temperos até formar uma massa líquida.",
+      "Aqueça a frigideira e despeje porções da massa formando panquecas finas.",
+      "Cozinhe dos dois lados até dourar."
+    ],
+    "descricao": "Pra quem quer proteína e não quer drama (ou leite derramado)",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 16,00",
+    "porcoes": "3 porções",
+    "dica": "Se fosse fácil como fazer essa panqueca, todo mundo teria vida adulta organizada e boletos pagos."
+  },
+  {
+    "id": 1633,
+    "titulo": "Quiche Sem Lactose de Legumes com Massa de Grão-de-Bico",
+    "slug": "quiche-sem-lactose-de-legumes-com-massa-de-grao-de-bico",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "xícara de farinha de grão-de-bico",
+      "ovos",
+      "ml de leite de amêndoas",
+      "cenoura ralada",
+      "abobrinha ralada",
+      "cebola pequena picada",
+      "Sal, pimenta e noz-moscada a gosto"
+    ],
+    "modoPreparo": [
+      "Misture farinha com 1 ovo e 2 colheres de sopa de azeite até formar massa e forre a forma.",
+      "Refogue os legumes e reserve.",
+      "Bata os ovos com o leite vegetal e temperos, junte os legumes e despeje na massa.",
+      "Asse a 180°C por 40 minutos."
+    ],
+    "descricao": "Porque quiche também pode ser sem lactose – e sem transformar sua cozinha em zona de desastre",
+    "tempo": "1h10 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 38,00",
+    "porcoes": "6 porções",
+    "dica": "Se quiche fosse tão fácil quanto pagar boletos, todo mundo seria chef e milionário."
+  },
+  {
+    "id": 1634,
+    "titulo": "Bolo de Cenoura com Cobertura de Chocolate Sem Lactose",
+    "slug": "bolo-de-cenoura-com-cobertura-de-chocolate-sem-lactose",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "cenouras médias",
+      "ovos",
+      "xícara de óleo vegetal",
+      "xícaras de farinha de trigo",
+      "e ½ xícara de açúcar",
+      "colher de sopa de fermento em pó",
+      "g de chocolate meio amargo sem lactose",
+      "ml de leite de coco (para cobertura)"
+    ],
+    "modoPreparo": [
+      "Bata no liquidificador cenoura, ovos e óleo.",
+      "Misture a farinha, açúcar e fermento, depois incorpore a mistura líquida.",
+      "Asse em forma untada a 180°C por 40 minutos.",
+      "Derreta o chocolate com leite de coco e cubra o bolo depois de frio."
+    ],
+    "descricao": "A prova de que dá pra ser feliz sem leite e sem drama na cozinha",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "10 porções",
+    "dica": "Se a vida fosse um bolo, que pelo menos fosse assim: doce, sem lactose e fácil de engolir."
+  },
+  {
+    "id": 1635,
+    "titulo": "Espaguete de Abobrinha ao Molho de Tomate e Manjericão",
+    "slug": "espaguete-de-abobrinha-ao-molho-de-tomate-e-manjericao",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "abobrinhas médias cortadas em espaguete",
+      "tomates maduros picados",
+      "dentes de alho picados",
+      "Folhas de manjericão fresco",
+      "colheres de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue o alho no azeite, junte os tomates e cozinhe até formar molho.",
+      "Acrescente o manjericão, tempere e reserve.",
+      "Salteie a abobrinha rapidamente na frigideira para ficar al dente.",
+      "Misture a abobrinha com o molho e sirva."
+    ],
+    "descricao": "Pra quem quer carboidrato sem culpa e sem leite, igual ex que some sem explicação",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 17,00",
+    "porcoes": "2 porções",
+    "dica": "Se abobrinha fosse um ex, seria aquele que você esquece rápido porque nem vale a pena guardar."
+  },
+  {
+    "id": 1636,
+    "titulo": "Suflê Salgado de Batata Doce",
+    "slug": "sufle-salgado-de-batata-doce",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "g de batata doce cozida e amassada",
+      "ovos (claras separadas)",
+      "cebola pequena picada",
+      "colheres de sopa de azeite",
+      "Sal e noz-moscada a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola no azeite e misture com a batata amassada.",
+      "Bata as claras em neve e incorpore delicadamente na mistura.",
+      "Tempere, coloque na forma untada e asse a 180°C por 35 minutos."
+    ],
+    "descricao": "Pra quem quer impressionar no jantar sem lactose e sem virar escravo da cozinha",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Se seu suflê não crescer, lembre-se: nem todo mundo cresce na vida adulta."
+  },
+  {
+    "id": 1637,
+    "titulo": "Curry de Grão-de-Bico com Leite de Coco",
+    "slug": "curry-de-grao-de-bico-com-leite-de-coco",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "xícaras de grão-de-bico cozido",
+      "cebola picada",
+      "dentes de alho picados",
+      "colher de sopa de curry em pó",
+      "ml de leite de coco",
+      "tomates picados",
+      "colheres de sopa de azeite",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no azeite, adicione o curry e mexa até soltar aroma.",
+      "Junte tomates, grão-de-bico e leite de coco, cozinhe por 20 minutos.",
+      "Ajuste o sal e sirva com arroz."
+    ],
+    "descricao": "Sabor exótico que não precisa de leite pra te fazer viajar (sem sair do sofá)",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "4 porções",
+    "dica": "Esse curry é tão bom que até boleto atrasado vira motivo pra festa."
+  },
+  {
+    "id": 1638,
+    "titulo": "Muffins de Maçã e Canela Sem Lactose",
+    "slug": "muffins-de-maca-e-canela-sem-lactose",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "maçãs médias raladas",
+      "ovos",
+      "xícara de farinha de trigo integral",
+      "½ xícara de açúcar mascavo",
+      "colher de chá de fermento em pó",
+      "colher de chá de canela em pó",
+      "½ xícara de óleo vegetal"
+    ],
+    "modoPreparo": [
+      "Misture ovos, açúcar e óleo.",
+      "Junte a farinha, fermento, canela e maçãs raladas.",
+      "Coloque nas forminhas e asse a 180°C por 25 minutos."
+    ],
+    "descricao": "Porque até as manhãs de segunda merecem um mimo doce e sem drama",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "8 unidades",
+    "dica": "Se não der pra fugir do boleto, pelo menos fuja da TPM com esses muffins."
+  },
+  {
+    "id": 1639,
+    "titulo": "Purê de Batata-Doce com Alho Assado",
+    "slug": "pure-de-batata-doce-com-alho-assado",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "g de batata-doce",
+      "cabeça de alho",
+      "colheres de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Asse o alho inteiro embrulhado em papel alumínio por 25 minutos a 200°C.",
+      "Cozinhe a batata-doce até ficar macia e amasse.",
+      "Misture o alho amassado com azeite, tempere e incorpore ao purê."
+    ],
+    "descricao": "Pra transformar a simplicidade em luxo – que nem boleto que vira investimento",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "3 porções",
+    "dica": "Purê de batata-doce é igual boleto: quando você acha que acabou, vem mais uma surpresa."
+  },
+  {
+    "id": 1640,
+    "titulo": "Salada de Quinoa com Legumes e Limão Siciliano",
+    "slug": "salada-de-quinoa-com-legumes-e-limao-siciliano",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "xícara de quinoa",
+      "pepino picado",
+      "tomate picado",
+      "½ cebola roxa picada",
+      "Suco de 1 limão siciliano",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a quinoa conforme instruções da embalagem e deixe esfriar.",
+      "Misture todos os legumes na tigela.",
+      "Adicione a quinoa, tempere com limão, azeite, sal e pimenta."
+    ],
+    "descricao": "Pra quem quer saúde no prato e não no boletim do banco",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "3 porções",
+    "dica": "Se a vida fosse uma salada, que pelo menos fosse tão bem temperada quanto essa."
+  },
+  {
+    "id": 1641,
+    "titulo": "Bife de Tofu Grelhado com Molho de Mostarda",
+    "slug": "bife-de-tofu-grelhado-com-molho-de-mostarda",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "g de tofu firme",
+      "colheres de sopa de mostarda Dijon",
+      "colher de sopa de azeite",
+      "Sal, pimenta e ervas finas a gosto"
+    ],
+    "modoPreparo": [
+      "Corte o tofu em fatias e tempere com sal, pimenta e azeite.",
+      "Grelhe o tofu em frigideira quente até dourar dos dois lados.",
+      "Misture mostarda com azeite e ervas para molho e sirva por cima."
+    ],
+    "descricao": "Proteína vegetal que até seu cachorro vai querer roubar (se ele pudesse falar)",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "2 porções",
+    "dica": "Se tofu tivesse voz, diria “me respeita, que eu não tenho lactose”."
+  },
+  {
+    "id": 1642,
+    "titulo": "Creme de Abacate com Cacau e Melado",
+    "slug": "creme-de-abacate-com-cacau-e-melado",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "abacate maduro",
+      "colheres de sopa de cacau em pó",
+      "colher de sopa de melado de cana",
+      "colher de chá de essência de baunilha"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes até formar um creme liso.",
+      "Leve à geladeira por 30 minutos.",
+      "Sirva gelado."
+    ],
+    "descricao": "Sobremesa que é tão gostosa que você vai esquecer que está sem leite",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida fosse um creme, que fosse assim: doce, sem lactose e sem dar dor de cabeça."
+  },
+  {
+    "id": 1643,
+    "titulo": "Frango ao Curry com Leite de Coco e Legumes",
+    "slug": "frango-ao-curry-com-leite-de-coco-e-legumes",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "g de peito de frango em cubos",
+      "cebola picada",
+      "dentes de alho picados",
+      "colher de sopa de curry em pó",
+      "ml de leite de coco",
+      "cenoura em rodelas",
+      "pimentão em tiras",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no azeite, acrescente o curry e frite até soltar aroma.",
+      "Junte o frango, legumes e refogue por 5 minutos.",
+      "Adicione o leite de coco, tampe e cozinhe até o frango estar macio."
+    ],
+    "descricao": "Jantar pra quem quer sabor, proteína e não quer lavar 500 panelas depois",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 32,00",
+    "porcoes": "4 porções",
+    "dica": "Esse prato é tão completo que até seu extrato bancário vai ficar com inveja."
+  },
+  {
+    "id": 1644,
+    "titulo": "Wrap Integral com Homus e Legumes Grelhados",
+    "slug": "wrap-integral-com-homus-e-legumes-grelhados",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "tortilhas integrais",
+      "g de homus",
+      "abobrinha fatiada",
+      "berinjela fatiada",
+      "pimentão vermelho fatiado",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Grelhe os legumes temperados com azeite, sal e pimenta.",
+      "Espalhe homus sobre as tortilhas.",
+      "Recheie com os legumes e enrole firmemente."
+    ],
+    "descricao": "Lanche rápido que não tem lactose e nem enrolação (diferente da sua vida)",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Se enrolar fosse esporte, esse wrap seria campeão mundial e sua vida bem menos enrolada."
+  },
+  {
+    "id": 1645,
+    "titulo": "Panetone Vegano Sem Lactose",
+    "slug": "panetone-vegano-sem-lactose",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "g de farinha de trigo",
+      "g de açúcar mascavo",
+      "g de fermento biológico seco",
+      "ml de leite de amêndoas morno",
+      "g de frutas cristalizadas",
+      "g de uvas-passas",
+      "ml de óleo vegetal",
+      "colher de chá de essência de panetone",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Misture fermento no leite morno e deixe ativar por 10 minutos.",
+      "Em bowl, misture farinha, açúcar e sal, adicione fermento ativado, óleo e essência.",
+      "Sove até ficar elástica, incorpore as frutas e deixe crescer por 1h.",
+      "Modele o panetone, coloque na forma e asse a 180°C por 40 minutos."
+    ],
+    "descricao": "Natal o ano inteiro, sem lactose e sem desculpas pra não dividir",
+    "tempo": "2h30 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 45,00",
+    "porcoes": "10 porções",
+    "dica": "Se você acha que fazer panetone é difícil, tenta pagar boleto atrasado em dia."
+  },
+  {
+    "id": 1646,
+    "titulo": "Poke Bowl de Salmão com Molho Sem Lactose",
+    "slug": "poke-bowl-de-salmao-com-molho-sem-lactose",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "g de salmão fresco em cubos",
+      "xícara de arroz japonês cozido",
+      "½ pepino fatiado",
+      "abacate fatiado",
+      "colher de sopa de shoyu sem lactose",
+      "colher de sopa de óleo de gergelim",
+      "Sementes de gergelim para decorar"
+    ],
+    "modoPreparo": [
+      "Misture o salmão com shoyu e óleo de gergelim.",
+      "Monte a tigela com arroz, salmão temperado e os legumes.",
+      "Decore com sementes de gergelim e sirva."
+    ],
+    "descricao": "Pra quem quer comer bem e fingir que está numa ilha, não numa sexta-feira de caos",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 50,00",
+    "porcoes": "2 porções",
+    "dica": "Se o seu chefe fosse um poke, pelo menos seria bonito, saboroso e sem lactose."
+  },
+  {
+    "id": 1647,
+    "titulo": "Pizza de Massa Integral Sem Lactose",
+    "slug": "pizza-de-massa-integral-sem-lactose",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "xícaras de farinha de trigo integral",
+      "colher de chá de fermento biológico seco",
+      "colher de chá de açúcar",
+      "ml de água morna",
+      "colheres de sopa de azeite",
+      "Molho de tomate caseiro",
+      "Legumes fatiados (tomate, cebola, pimentão)",
+      "Queijo vegano ralado"
+    ],
+    "modoPreparo": [
+      "Ative o fermento na água morna com açúcar por 10 minutos.",
+      "Misture a farinha, fermento, azeite e água até formar massa, sove e deixe crescer por 40 minutos.",
+      "Abra a massa, espalhe molho, legumes e queijo vegano.",
+      "Asse a 200°C por 20 minutos."
+    ],
+    "descricao": "Porque pizza sem lactose existe e não é castigo, é revolução no seu domingo",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Se pizza fosse boleto, que pelo menos fosse essa que a gente quer pagar todo dia."
+  },
+  {
+    "id": 1648,
+    "titulo": "Panetone Salgado de Azeitonas com Ervas",
+    "slug": "panetone-salgado-de-azeitonas-com-ervas",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "g de farinha de trigo",
+      "g de fermento biológico seco",
+      "ml de água morna",
+      "colheres de sopa de azeite",
+      "colher de chá de sal",
+      "g de azeitonas pretas picadas",
+      "Ervas finas a gosto"
+    ],
+    "modoPreparo": [
+      "Ative o fermento na água morna por 10 minutos.",
+      "Misture farinha, sal, azeite e fermento ativado, sove até a massa ficar elástica.",
+      "Incorpore as azeitonas e ervas, deixe crescer por 1h.",
+      "Modele e coloque na forma, asse a 180°C por 40 minutos."
+    ],
+    "descricao": "Um panetone que só falta o Papai Noel pra ser perfeito – e sem lactose, claro",
+    "tempo": "2h30 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 40,00",
+    "porcoes": "10 porções",
+    "dica": "Se esse panetone não alegrar seu dia, pelo menos ele não vai te cobrar boleto atrasado."
+  },
+  {
+    "id": 1649,
+    "titulo": "Creme de Abóbora com Gengibre e Leite de Coco",
+    "slug": "creme-de-abobora-com-gengibre-e-leite-de-coco",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "g de abóbora em cubos",
+      "pedaço pequeno de gengibre ralado",
+      "cebola picada",
+      "ml de leite de coco",
+      "Sal e pimenta a gosto",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e gengibre no azeite até dourar.",
+      "Acrescente abóbora e água suficiente para cobrir, cozinhe até amaciar.",
+      "Bata tudo no liquidificador, volte para a panela, junte leite de coco, tempere e aqueça."
+    ],
+    "descricao": "Pra esquentar o coração e a alma sem lactose nem drama",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Se o boletim da sua vida fosse tão leve quanto esse creme, você estaria de férias agora."
+  },
+  {
+    "id": 1650,
+    "titulo": "Panqueca de Batata Doce com Recheio de Frango",
+    "slug": "panqueca-de-batata-doce-com-recheio-de-frango",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "batatas doces médias cozidas e amassadas",
+      "ovos",
+      "xícara de farinha de trigo",
+      "g de frango desfiado temperado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture batata doce, ovos, farinha, sal e pimenta até formar massa de panqueca.",
+      "Faça panquecas na frigideira untada.",
+      "Recheie com frango desfiado e dobre ou enrole."
+    ],
+    "descricao": "Jantar pra quem quer conforto sem lactose e sem culpa (e sem pizza de novo)",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "3 porções",
+    "dica": "Se só isso não te convencer a cozinhar, pelo menos pensa que é menos uma pizza pra pagar."
+  },
+  {
+    "id": 1651,
+    "titulo": "Salada Quente de Lentilha com Legumes",
+    "slug": "salada-quente-de-lentilha-com-legumes",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "xícara de lentilhas",
+      "cenoura picada",
+      "abobrinha picada",
+      "cebola picada",
+      "dentes de alho picados",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a lentilha até ficar macia.",
+      "Refogue cebola e alho no azeite, adicione cenoura e abobrinha e cozinhe até amaciar.",
+      "Misture tudo, tempere e sirva quente."
+    ],
+    "descricao": "Pra quem quer jantar leve, quente e sem lactose – tipo abraço de mãe em prato",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "3 porções",
+    "dica": "Se a vida fosse uma lentilha, que fosse tão cheia de energia e sem lactose quanto essa salada."
+  },
+  {
+    "id": 1652,
+    "titulo": "Tapioca Doce com Pasta de Amendoim e Mel",
+    "slug": "tapioca-doce-com-pasta-de-amendoim-e-mel",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "colheres de sopa de pasta de amendoim natural",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça a frigideira e espalhe a goma formando discos de tapioca.",
+      "Cozinhe até firmar, vire e aqueça rapidamente.",
+      "Recheie com pasta de amendoim e regue mel por cima."
+    ],
+    "descricao": "Pra quem quer começar o dia feliz e sem lactose (e com um pouco de açúcar no sangue)",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Se esse café não te animar, nem o boleto mais generoso do mundo vai."
+  },
+  {
+    "id": 1653,
+    "titulo": "Espetinho de Legumes com Molho de Tahine",
+    "slug": "espetinho-de-legumes-com-molho-de-tahine",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "abobrinha em rodelas grossas",
+      "pimentão vermelho em pedaços",
+      "g de cogumelos frescos",
+      "g de tomate cereja",
+      "colheres de sopa de tahine",
+      "Suco de ½ limão",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Monte os espetinhos com os legumes.",
+      "Grelhe os espetinhos até dourar.",
+      "Misture tahine, limão, sal e pimenta para molho e sirva junto."
+    ],
+    "descricao": "Finger food saudável e sem lactose que até seu crush vai querer provar",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Se espetinho fosse boleto, que pelo menos fosse fácil de pagar e gostoso de encarar."
+  },
+  {
+    "id": 1654,
+    "titulo": "Panqueca de Espinafre com Recheio de Ricota Vegana",
+    "slug": "panqueca-de-espinafre-com-recheio-de-ricota-vegana",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "xícara de leite de aveia",
+      "punhado de espinafre cozido e picado",
+      "g de ricota vegana amassada",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Prepare a massa misturando farinha, leite e espinafre até ficar homogênea.",
+      "Faça panquecas na frigideira.",
+      "Recheie com ricota vegana temperada, enrole e sirva."
+    ],
+    "descricao": "Pra quem quer verde no prato e zero lactose na vida (e no boletim)",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida fosse panqueca, que fosse recheada de alegria e sem lactose, pelo menos."
+  },
+  {
+    "id": 1655,
+    "titulo": "Bolinho de Grão-de-Bico Assado com Ervas",
+    "slug": "bolinho-de-grao-de-bico-assado-com-ervas",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "xícaras de grão-de-bico cozido",
+      "cebola pequena picada",
+      "dentes de alho",
+      "punhado de salsinha",
+      "colheres de sopa de farinha de trigo",
+      "Sal, pimenta e cominho a gosto"
+    ],
+    "modoPreparo": [
+      "Processe o grão-de-bico, cebola, alho e salsinha até formar uma massa.",
+      "Misture a farinha e tempere.",
+      "Modele bolinhos, coloque na assadeira e asse a 200°C por 25 minutos."
+    ],
+    "descricao": "Petisco saudável, sem lactose e que não vai te deixar devendo no banco",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "12 bolinhos",
+    "dica": "Bolinho saudável é tipo boleto pago: dá satisfação e você quer repetir."
+  },
+  {
+    "id": 1656,
+    "titulo": "Creme de Castanha de Caju para Molhos e Patês",
+    "slug": "creme-de-castanha-de-caju-para-molhos-e-pates",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "xícara de castanha de caju crua",
+      "½ xícara de água",
+      "Suco de 1 limão",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Deixe as castanhas de molho por 4 horas ou de um dia para o outro.",
+      "Bata as castanhas com água, limão e sal até formar um creme liso.",
+      "Use em molhos, patês ou para substituir creme de leite."
+    ],
+    "descricao": "Porque molho sem lactose não precisa ser triste – só precisa de castanha e atitude",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "Rende cerca de 250ml",
+    "dica": "Se a vida fosse um molho, que fosse assim: cremosa, versátil e sem lactose."
+  },
+  {
+    "id": 1657,
+    "titulo": "Panqueca Integral de Maçã com Maple Syrup",
+    "slug": "panqueca-integral-de-maca-com-maple-syrup",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "xícara de farinha integral",
+      "ovo",
+      "maçã ralada",
+      "colher de chá de fermento",
+      "½ xícara de leite de aveia",
+      "Maple syrup para servir"
+    ],
+    "modoPreparo": [
+      "Misture farinha, ovo, fermento, leite e maçã até formar massa.",
+      "Faça panquecas na frigideira untada.",
+      "Sirva com maple syrup."
+    ],
+    "descricao": "Café da manhã que é gostoso, saudável e sem lactose – igual final de novela boa",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "2 porções",
+    "dica": "Se maple syrup fosse boleto, que pelo menos fosse doce e fizesse a gente sorrir."
+  },
+  {
+    "id": 1658,
+    "titulo": "Sopa Fria de Pepino com Hortelã",
+    "slug": "sopa-fria-de-pepino-com-hortela",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "pepinos grandes descascados e picados",
+      "iogurte vegetal natural",
+      "punhado de hortelã fresca",
+      "Sal e pimenta a gosto",
+      "Suco de ½ limão"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar cremoso.",
+      "Leve à geladeira por 1 hora.",
+      "Sirva gelado."
+    ],
+    "descricao": "Pra refrescar a alma e o bolso, sem lactose e sem frescura",
+    "tempo": "15 min + geladeira",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "3 porções",
+    "dica": "Sopa fria é igual segunda-feira: difícil de engolir, mas necessária pra vida seguir."
+  },
+  {
+    "id": 1659,
+    "titulo": "Torta de Maçã Sem Lactose com Massa Integral",
+    "slug": "torta-de-maca-sem-lactose-com-massa-integral",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "xícaras de farinha integral",
+      "ml de óleo vegetal",
+      "colheres de sopa de açúcar mascavo",
+      "maçãs fatiadas",
+      "Canela a gosto",
+      "Suco de 1 limão"
+    ],
+    "modoPreparo": [
+      "Misture farinha, óleo e açúcar até formar massa e forre a forma.",
+      "Misture maçãs com limão e canela e coloque sobre a massa.",
+      "Asse a 180°C por 50 minutos."
+    ],
+    "descricao": "Sobremesa que é só amor – e zero lactose, pra não chorar depois",
+    "tempo": "1h20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "8 porções",
+    "dica": "Se essa torta não te der felicidade, pelo menos não vai te dar lactose e nem boletos atrasados."
+  },
+  {
+    "id": 1660,
+    "titulo": "Espetinho de Frutas com Calda de Maracujá",
+    "slug": "espetinho-de-frutas-com-calda-de-maracuja",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "manga em cubos",
+      "abacaxi em cubos",
+      "kiwi fatiado",
+      "Polpa de 1 maracujá",
+      "colheres de sopa de mel"
+    ],
+    "modoPreparo": [
+      "Monte os espetinhos alternando as frutas.",
+      "Em panela, aqueça maracujá com mel até formar calda.",
+      "Regue os espetinhos com a calda antes de servir."
+    ],
+    "descricao": "Sobremesa que é refrescante, sem lactose e mais fácil que pagar boleto online",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Se espetinho de fruta fosse boleto, pelo menos seria doce e refrescante de pagar."
+  },
+  {
+    "id": 1661,
+    "titulo": "Panqueca de Aveia com Recheio de Morango e Creme de Coco",
+    "slug": "panqueca-de-aveia-com-recheio-de-morango-e-creme-de-coco",
+    "categoria": "Sem Lactose ",
+    "ingredientes": [
+      "xícara de farinha de aveia",
+      "ovo",
+      "xícara de leite de coco",
+      "Morangos picados a gosto",
+      "ml de creme de coco para recheio"
+    ],
+    "modoPreparo": [
+      "Misture farinha, ovo e leite de coco até formar massa.",
+      "Faça panquecas na frigideira.",
+      "Recheie cada panqueca com morango e creme de coco."
+    ],
+    "descricao": "Café da manhã que é puro amor e zero lactose – igual final de novela das 8",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida fosse panqueca, que fosse recheada de alegria e sem lactose."
+  }
+]

@@ -1,0 +1,973 @@
+[
+  {
+    "id": 197,
+    "titulo": "Picanha na Brasa Suprema",
+    "slug": "picanha-na-brasa-suprema",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      ",2 kg de picanha com capa de gordura",
+      "Sal grosso a gosto",
+      "Pimenta-do-reino moída na hora a gosto"
+    ],
+    "modoPreparo": [
+      "Acenda a churrasqueira e deixe o carvão em brasa média.",
+      "Tempere a picanha generosamente com sal grosso e pimenta.",
+      "Coloque a picanha com a gordura virada para baixo e grelhe por 15 minutos.",
+      "Vire a peça e asse por mais 20 minutos para ponto médio.",
+      "Retire do fogo, deixe descansar 5 minutos e fatie contra as fibras."
+    ],
+    "descricao": "Porque só a picanha entende o drama do boleto chegando no fim do mês",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 65,00",
+    "porcoes": "4 porções",
+    "dica": "Se o churrasco fosse boleto, essa picanha seria o ‘pagamento à vista’ — só se aproveita se for com gosto e sem medo de ser feliz."
+  },
+  {
+    "id": 198,
+    "titulo": "Espetinho de Fraldinha Maravilha",
+    "slug": "espetinho-de-fraldinha-maravilha",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "g de fraldinha em cubos",
+      "dentes de alho picados",
+      "colher de sopa de azeite",
+      "Sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Misture alho, azeite, sal e pimenta; tempere a fraldinha e deixe marinar 20 minutos.",
+      "Espete os cubos de carne nos espetinhos, sem apertar demais.",
+      "Grelhe na churrasqueira por aproximadamente 10 minutos, virando para dourar todos os lados."
+    ],
+    "descricao": "Porque até a fraldinha merece seu momento de brilhar antes do próximo boleto",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 28,00",
+    "porcoes": "5 porções",
+    "dica": "Se a fraldinha tivesse perfil no Tinder, seria aquela que demora pra responder, mas quando aparece, vale a pena esperar."
+  },
+  {
+    "id": 199,
+    "titulo": "Linguiça Artesanal com Cebola Caramelizada",
+    "slug": "linguica-artesanal-com-cebola-caramelizada",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "g de linguiça fresca",
+      "cebolas grandes cortadas em rodelas finas",
+      "colher de sopa de manteiga",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Grelhe a linguiça na churrasqueira até dourar e cozinhar por completo, cerca de 20 minutos.",
+      "Em uma frigideira, derreta a manteiga e caramelize as cebolas em fogo baixo até ficarem douradas e doces.",
+      "Sirva a linguiça com a cebola caramelizada por cima."
+    ],
+    "descricao": "Porque até a linguiça sabe que a cebola é o segredo da vida adulta",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "4 porções",
+    "dica": "Se a linguiça fosse um político, seria aquela que promete muito mas só entrega quando a cebola chora."
+  },
+  {
+    "id": 200,
+    "titulo": "Frango ao Alho e Limão na Brasa",
+    "slug": "frango-ao-alho-e-limao-na-brasa",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "kg de coxa e sobrecoxa de frango",
+      "Suco de 2 limões",
+      "dentes de alho picados",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Misture limão, alho, sal, pimenta e azeite; marine o frango por 30 minutos.",
+      "Grelhe o frango na churrasqueira, virando para dourar dos dois lados, cerca de 25 minutos.",
+      "Sirva quente, aproveitando o cheiro que vai deixar o vizinho com inveja."
+    ],
+    "descricao": "Para quem quer impressionar sem precisar vender um rim no açougue",
+    "tempo": "45 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 30,00",
+    "porcoes": "4 porções",
+    "dica": "Esse frango é tipo amigo que aparece só quando tem churrasco: simples, mas faz toda a diferença."
+  },
+  {
+    "id": 201,
+    "titulo": "Costela Bovina Cozida na Brasa",
+    "slug": "costela-bovina-cozida-na-brasa",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "kg de costela bovina",
+      "Sal grosso a gosto",
+      "Pimenta-do-reino a gosto",
+      "ml de água"
+    ],
+    "modoPreparo": [
+      "Tempere a costela com sal e pimenta.",
+      "Embrulhe a costela em papel alumínio com um pouco de água para manter a umidade.",
+      "Coloque na churrasqueira com brasa baixa e cozinhe por cerca de 4 horas, virando e regando a cada 1 hora.",
+      "Retire o papel, aumente o fogo e grelhe por mais 30 minutos para formar a crosta."
+    ],
+    "descricao": "Para quem sabe que a paciência é o segredo, e a fome é só um detalhe",
+    "tempo": "5h",
+    "dificuldade": "Difícil",
+    "preco": "R$ 75,00",
+    "porcoes": "6 porções",
+    "dica": "Costela é como boleto atrasado: só resolve se você tiver tempo e paciência, e um pouco de fogo no coração."
+  },
+  {
+    "id": 202,
+    "titulo": "Maminha ao Chimichurri Caseiro",
+    "slug": "maminha-ao-chimichurri-caseiro",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      ",2 kg de maminha",
+      "Sal grosso a gosto",
+      "Para o chimichurri:",
+      "maço de salsinha picada",
+      "dentes de alho picados",
+      "/2 xícara de azeite",
+      "colheres de sopa de vinagre de vinho",
+      "colher de chá de pimenta calabresa"
+    ],
+    "modoPreparo": [
+      "Tempere a maminha com sal grosso e deixe descansar 15 minutos.",
+      "Misture os ingredientes do chimichurri em uma tigela e reserve.",
+      "Grelhe a maminha na churrasqueira por 40 minutos, virando para dourar por igual.",
+      "Fatie a carne e sirva acompanhada do chimichurri."
+    ],
+    "descricao": "Porque até carne precisa de um tempero social pra se destacar na roda",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 45,00",
+    "porcoes": "5 porções",
+    "dica": "Chimichurri é tipo aquele amigo que anima a festa: sem ele, o churrasco fica sem graça e a vida sem tempero."
+  },
+  {
+    "id": 203,
+    "titulo": "Asinhas de Frango Apimentadas na Brasa",
+    "slug": "asinhas-de-frango-apimentadas-na-brasa",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "kg de asinhas de frango",
+      "colheres de sopa de molho de pimenta",
+      "colheres de sopa de mel",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o molho de pimenta, mel, sal e pimenta; marine as asinhas por 20 minutos.",
+      "Grelhe as asinhas na churrasqueira, virando para não queimar, por cerca de 15 minutos.",
+      "Sirva quente, com guardanapos à mão para não chorar."
+    ],
+    "descricao": "Para quem gosta de emoção, mas não quer drama no relacionamento",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Asinha apimentada é igual briga de casal: faz você suar, mas no fim você quer mais."
+  },
+  {
+    "id": 204,
+    "titulo": "Queijo Coalho com Mel e Pimenta",
+    "slug": "queijo-coalho-com-mel-e-pimenta",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "g de queijo coalho em cubos grandes",
+      "colheres de sopa de mel",
+      "Pimenta-do-reino moída na hora a gosto"
+    ],
+    "modoPreparo": [
+      "Espete os cubos de queijo e grelhe na churrasqueira até dourar, cerca de 10 minutos.",
+      "Pincele o mel sobre o queijo e polvilhe a pimenta.",
+      "Sirva imediatamente, antes que derreta demais e vire drama."
+    ],
+    "descricao": "Porque o queijo também merece uma vida emocionante, diferente da sua segunda-feira",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "3 porções",
+    "dica": "Queijo coalho com mel é como final de semana: doce, inesperado e deixa todo mundo feliz."
+  },
+  {
+    "id": 205,
+    "titulo": "Abacaxi Grelhado com Canela e Açúcar Mascavo",
+    "slug": "abacaxi-grelhado-com-canela-e-acucar-mascavo",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "abacaxi fatiado em rodelas grossas",
+      "colheres de sopa de açúcar mascavo",
+      "colher de chá de canela em pó"
+    ],
+    "modoPreparo": [
+      "Misture açúcar mascavo e canela.",
+      "Grelhe as fatias de abacaxi na churrasqueira por 5 minutos de cada lado.",
+      "Polvilhe a mistura de açúcar e canela sobre o abacaxi quente e sirva."
+    ],
+    "descricao": "A sobremesa que prova que churrasco é dieta… de felicidade!",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Abacaxi grelhado é o único 'azedo' que você vai querer na vida, porque o resto só faz boleto chegar."
+  },
+  {
+    "id": 206,
+    "titulo": "Pão de Alho Cremoso da Vovó Churrasqueira",
+    "slug": "pao-de-alho-cremoso-da-vovo-churrasqueira",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "pão francês grande ou pão baguete",
+      "g de manteiga",
+      "dentes de alho amassados",
+      "Salsinha picada a gosto",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a manteiga, alho, salsinha e sal até virar uma pasta.",
+      "Corte o pão em fatias sem separar completamente.",
+      "Espalhe a pasta entre as fatias e enrole em papel alumínio.",
+      "Leve à churrasqueira por 15 minutos até derreter e dourar."
+    ],
+    "descricao": "Aquele pão que une família e faz até o sogro sorrir (momentaneamente)",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "6 porções",
+    "dica": "Pão de alho é tipo aquele tio que não sabe cantar, mas todo mundo finge que gosta para não causar climão."
+  },
+  {
+    "id": 207,
+    "titulo": "Legumes Grelhados com Toque Defumado",
+    "slug": "legumes-grelhados-com-toque-defumado",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "abobrinha cortada em rodelas grossas",
+      "berinjela cortada em fatias",
+      "pimentão vermelho em tiras",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere os legumes com azeite, sal e pimenta.",
+      "Grelhe os legumes na churrasqueira por 10-15 minutos, virando para dourar uniformemente.",
+      "Sirva quente, fingindo que é saúde mesmo."
+    ],
+    "descricao": "Para quem quer dizer que come saudável, mas o coração é de churrasqueiro",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Legumes no churrasco são tipo academia pós-feriado: a gente sabe que precisa, mas a vontade é outra."
+  },
+  {
+    "id": 208,
+    "titulo": "Bife de Chorizo Argentino na Brasa",
+    "slug": "bife-de-chorizo-argentino-na-brasa",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "kg de bife de chorizo",
+      "Sal grosso a gosto",
+      "Pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o bife com sal grosso e pimenta.",
+      "Grelhe por 20 minutos em fogo médio, virando para criar a crosta.",
+      "Deixe descansar 5 minutos antes de fatiar."
+    ],
+    "descricao": "Porque se é para gastar, que seja com estilo e um pouco de drama porteño",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 70,00",
+    "porcoes": "4 porções",
+    "dica": "Bife de chorizo é igual fim de semana prolongado: se não aproveitar bem, passa rápido e deixa saudade."
+  },
+  {
+    "id": 209,
+    "titulo": "Kafta de Carne com Hortelã na Brasa",
+    "slug": "kafta-de-carne-com-hortela-na-brasa",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "g de carne moída (patinho ou acém)",
+      "cebola média ralada",
+      "punhado de hortelã picada",
+      "Sal, pimenta-do-reino e cominho a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes até formar uma massa homogênea.",
+      "Modele nos espetos, apertando bem para não desmanchar.",
+      "Grelhe na churrasqueira por 15 minutos, virando para dourar por igual."
+    ],
+    "descricao": "Para quem quer fugir do básico, mas sem perder a essência do churrasco",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "5 porções",
+    "dica": "Kafta é tipo relacionamento à distância: precisa de cuidado e atenção para não desmanchar no meio do caminho."
+  },
+  {
+    "id": 210,
+    "titulo": "Costelinha de Porco Barbecue Caseira",
+    "slug": "costelinha-de-porco-barbecue-caseira",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      ",5 kg de costelinha de porco",
+      "ml de molho barbecue caseiro",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere a costelinha com sal e pimenta.",
+      "Grelhe na churrasqueira com fogo médio por 1 hora, virando frequentemente.",
+      "Nos últimos 15 minutos, pincele o molho barbecue até caramelizar."
+    ],
+    "descricao": "Se a vida te dá costela, faça um churrasco e esqueça os boletos por um tempo",
+    "tempo": "1h 30min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "4 porções",
+    "dica": "Costelinha é como boleto atrasado: difícil de encarar, mas quando resolve, deixa todo mundo satisfeito."
+  },
+  {
+    "id": 211,
+    "titulo": "Mandioca Cozida com Manteiga de Alho",
+    "slug": "mandioca-cozida-com-manteiga-de-alho",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "kg de mandioca descascada",
+      "g de manteiga",
+      "dentes de alho picados",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a mandioca em água com sal até ficar macia, cerca de 25 minutos.",
+      "Em uma panela, derreta a manteiga e refogue o alho até dourar.",
+      "Escorra a mandioca, misture com a manteiga de alho e sirva."
+    ],
+    "descricao": "O carboidrato que não te julga, só te ama e sustenta",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Mandioca é tipo amigo fiel: não importa o que aconteça, tá sempre lá pra te sustentar."
+  },
+  {
+    "id": 212,
+    "titulo": "Coração de Frango Grelhado com Limão",
+    "slug": "coracao-de-frango-grelhado-com-limao",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "kg de coração de frango limpo",
+      "Suco de 2 limões",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere os corações com limão, sal e pimenta.",
+      "Espete os corações e grelhe na churrasqueira por 15 minutos, virando para dourar.",
+      "Sirva quente, com limão extra para quem gosta de emoção."
+    ],
+    "descricao": "Para quem gosta de emoção e quer sentir o verdadeiro sabor da vida (e do churrasco)",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Coração de frango é igual crush: pequeno, mas capaz de causar um baita impacto."
+  },
+  {
+    "id": 213,
+    "titulo": "Pão Sírio Recheado com Carne Moída e Queijo",
+    "slug": "pao-sirio-recheado-com-carne-moida-e-queijo",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "pães sírios",
+      "g de carne moída temperada",
+      "g de queijo muçarela ralado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a carne moída com temperos até secar o líquido.",
+      "Corte o pão ao meio e recheie com carne e queijo.",
+      "Feche e grelhe na churrasqueira por 10 minutos, até o queijo derreter."
+    ],
+    "descricao": "Porque churrasco também é desculpa pra esquecer a dieta (mais um pouquinho)",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Pão recheado é tipo aquele parente que chega de surpresa: bagunça tudo, mas todo mundo ama."
+  },
+  {
+    "id": 214,
+    "titulo": "Abobrinha Recheada com Queijo e Ervas",
+    "slug": "abobrinha-recheada-com-queijo-e-ervas",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "abobrinhas médias",
+      "g de queijo ricota ou muçarela",
+      "Salsinha e cebolinha picadas",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Corte as abobrinhas ao meio e retire o miolo com a colher.",
+      "Misture o queijo com as ervas, sal e pimenta e recheie as abobrinhas.",
+      "Grelhe na churrasqueira por 15 minutos até dourar."
+    ],
+    "descricao": "Para fingir que você come saudável, mesmo com a carne chamando",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Abobrinha recheada é igual promessa de político: parece bom, mas todo mundo fica desconfiado."
+  },
+  {
+    "id": 215,
+    "titulo": "Espetinho de Camarão com Alho e Limão",
+    "slug": "espetinho-de-camarao-com-alho-e-limao",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "g de camarão limpo e sem casca",
+      "Suco de 1 limão",
+      "dentes de alho picados",
+      "Sal, pimenta e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Marine os camarões por 20 minutos no limão, alho, sal, pimenta e azeite.",
+      "Espete e grelhe na churrasqueira por 5 minutos de cada lado.",
+      "Sirva imediatamente para evitar que o camarão vire borracha."
+    ],
+    "descricao": "Para quem acha que churrasco é só carne e quer dar um upgrade maroto",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "4 porções",
+    "dica": "Camarão no churrasco é igual visita inesperada: chega rápido e já quer sair logo."
+  },
+  {
+    "id": 216,
+    "titulo": "Farofa Crocante com Bacon e Cebola",
+    "slug": "farofa-crocante-com-bacon-e-cebola",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "xícaras de farinha de mandioca",
+      "g de bacon picado",
+      "cebola média picada",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Frite o bacon até ficar crocante, retire o excesso de gordura.",
+      "Na mesma frigideira, refogue a cebola até dourar.",
+      "Junte a farinha, mexa até ficar crocante e tempere com sal."
+    ],
+    "descricao": "O carboidrato que entende que a vida é dura, mas a farofa não precisa ser",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "6 porções",
+    "dica": "Farofa é igual aquela fofoca boa: deixa todo mundo satisfeito e falando até segunda."
+  },
+  {
+    "id": 217,
+    "titulo": "Bife Ancho com Manteiga de Ervas",
+    "slug": "bife-ancho-com-manteiga-de-ervas",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "kg de bife ancho",
+      "g de manteiga em temperatura ambiente",
+      "Salsinha, cebolinha e tomilho picados",
+      "Sal grosso e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a manteiga com as ervas e reserve.",
+      "Tempere o bife com sal grosso e pimenta.",
+      "Grelhe o bife por 40 minutos em fogo médio, virando para dourar.",
+      "Sirva com colheradas da manteiga de ervas por cima."
+    ],
+    "descricao": "Para quem quer se sentir chef cinco estrelas sem sair da churrasqueira do bairro",
+    "tempo": "55 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 68,00",
+    "porcoes": "4 porções",
+    "dica": "Bife ancho com manteiga é tipo final de novela: todo mundo quer, mas só alguns têm o privilégio."
+  },
+  {
+    "id": 218,
+    "titulo": "Tomate Recheado com Queijo Coalho e Orégano",
+    "slug": "tomate-recheado-com-queijo-coalho-e-oregano",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "tomates grandes e firmes",
+      "g de queijo coalho ralado",
+      "Orégano a gosto",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Corte a tampa dos tomates e retire o miolo com cuidado.",
+      "Recheie com o queijo coalho, tempere com sal, pimenta e orégano.",
+      "Grelhe na churrasqueira por 15 minutos ou até o queijo derreter."
+    ],
+    "descricao": "Pra quem acha que tomate só serve pra deixar a salada triste",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Tomate recheado é igual reunião de condomínio: ninguém quer, mas às vezes é necessário para não ficar sem nada."
+  },
+  {
+    "id": 219,
+    "titulo": "Espetinho de Coração com Bacon Enrolado",
+    "slug": "espetinho-de-coracao-com-bacon-enrolado",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "g de coração de frango limpo",
+      "g de bacon em fatias",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Enrole cada coração com uma fatia de bacon e espete firmemente.",
+      "Tempere com sal e pimenta.",
+      "Grelhe na churrasqueira por 20 minutos, virando para dourar o bacon."
+    ],
+    "descricao": "Mistura que só o churrasco entende: coração que bate forte e bacon que abraça",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "5 porções",
+    "dica": "Esse espetinho é tipo amizade verdadeira: enrolado, cheio de sabor e impossível de largar."
+  },
+  {
+    "id": 220,
+    "titulo": "Pimentão Recheado com Carne e Queijo",
+    "slug": "pimentao-recheado-com-carne-e-queijo",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "pimentões grandes (cores variadas)",
+      "g de carne moída temperada",
+      "g de queijo muçarela ralado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Corte a tampa dos pimentões e retire as sementes.",
+      "Recheie com carne moída e cubra com queijo.",
+      "Grelhe na churrasqueira por 30 minutos até o queijo derreter e o pimentão amolecer."
+    ],
+    "descricao": "Para quem quer impressionar a patroa sem precisar lavar a louça depois",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "4 porções",
+    "dica": "Pimentão recheado é igual vida de solteiro: cheio de surpresas e só funciona se você se dedicar."
+  },
+  {
+    "id": 221,
+    "titulo": "Mandioca Frita Crocante",
+    "slug": "mandioca-frita-crocante",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "kg de mandioca cozida",
+      "Óleo para fritar",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Corte a mandioca cozida em palitos.",
+      "Aqueça o óleo e frite até dourar e ficar crocante.",
+      "Escorra em papel toalha e salpique sal."
+    ],
+    "descricao": "A batata-doce do churrasqueiro preguiçoso que não quer complicação",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Mandioca frita é igual descanso no domingo: simples, gostoso e necessário para a alma."
+  },
+  {
+    "id": 222,
+    "titulo": "Alcatra na Manteiga de Alho",
+    "slug": "alcatra-na-manteiga-de-alho",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "kg de alcatra em peça",
+      "g de manteiga",
+      "dentes de alho amassados",
+      "Sal grosso a gosto"
+    ],
+    "modoPreparo": [
+      "Misture manteiga e alho e reserve.",
+      "Tempere a alcatra com sal grosso.",
+      "Grelhe a carne por 35 minutos, virando para dourar.",
+      "Nos últimos minutos, espalhe a manteiga de alho sobre a carne."
+    ],
+    "descricao": "Para provar que manteiga e alho são o casal que não pode faltar no churrasco",
+    "tempo": "45 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 50,00",
+    "porcoes": "4 porções",
+    "dica": "Manteiga de alho é igual fofoca boa: espalha sabor e deixa tudo mais gostoso."
+  },
+  {
+    "id": 223,
+    "titulo": "Espetinho Vegetariano de Cogumelos",
+    "slug": "espetinho-vegetariano-de-cogumelos",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "g de cogumelos paris inteiros",
+      "abobrinha cortada em rodelas",
+      "pimentão cortado em cubos",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture os legumes com azeite, sal e pimenta.",
+      "Espete alternando os ingredientes.",
+      "Grelhe na churrasqueira por 15 minutos, virando para dourar."
+    ],
+    "descricao": "Para o churrasqueiro que quer agradar até o amigo do tofu",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Vegetariano no churrasco é igual Wi-Fi bom: todo mundo reclama, mas quando tem, salva o dia."
+  },
+  {
+    "id": 224,
+    "titulo": "Filé Mignon ao Molho de Mostarda e Mel",
+    "slug": "file-mignon-ao-molho-de-mostarda-e-mel",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "g de filé mignon",
+      "colheres de sopa de mostarda",
+      "colheres de sopa de mel",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o filé com sal e pimenta.",
+      "Grelhe o filé por 30 minutos, virando para dourar.",
+      "Misture mostarda e mel; pincele sobre a carne nos últimos 10 minutos.",
+      "Deixe descansar 5 minutos antes de fatiar."
+    ],
+    "descricao": "Para quem quer impressionar a sogra e quer ser chamado de “gourmet”",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 75,00",
+    "porcoes": "4 porções",
+    "dica": "Esse filé é tipo promoção relâmpago: raro, surpreendente e deixa todo mundo querendo mais."
+  },
+  {
+    "id": 225,
+    "titulo": "Espetinho de Legumes com Molho de Iogurte",
+    "slug": "espetinho-de-legumes-com-molho-de-iogurte",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "abobrinha cortada em rodelas",
+      "tomate-cereja",
+      "cebola roxa em pedaços",
+      "pote de iogurte natural",
+      "Hortelã picada, sal e limão a gosto"
+    ],
+    "modoPreparo": [
+      "Espete os legumes e grelhe por 15 minutos.",
+      "Misture o iogurte com hortelã, limão e sal para o molho.",
+      "Sirva os espetinhos com o molho de iogurte."
+    ],
+    "descricao": "Para quem quer disfarçar a saladinha e não morrer de fome no churrasco",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Esse espetinho é igual promessa de dieta: a gente sabe que deveria, mas a vontade de carne é maior."
+  },
+  {
+    "id": 226,
+    "titulo": "Costela Suína Defumada na Brasa",
+    "slug": "costela-suina-defumada-na-brasa",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "kg de costela suína",
+      "Sal grosso e pimenta a gosto",
+      "ml de água"
+    ],
+    "modoPreparo": [
+      "Tempere a costela com sal e pimenta.",
+      "Embrulhe em papel alumínio com água para umidade.",
+      "Cozinhe na churrasqueira em fogo baixo por 3h30, virando ocasionalmente.",
+      "Abra o papel e deixe dourar por 20 minutos."
+    ],
+    "descricao": "Para quem tem tempo, amor e paciência – e um churrasqueiro mais teimoso que boleto em atraso",
+    "tempo": "4h",
+    "dificuldade": "Difícil",
+    "preco": "R$ 60,00",
+    "porcoes": "6 porções",
+    "dica": "Costela defumada é igual fatura do cartão: demora, mas quando chega, ninguém esquece."
+  },
+  {
+    "id": 227,
+    "titulo": "Linguiça Toscana com Vinagrete Rápido",
+    "slug": "linguica-toscana-com-vinagrete-rapido",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "g de linguiça toscana",
+      "tomates picados",
+      "cebola picada",
+      "/2 pimentão picado",
+      "Vinagre, azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Grelhe a linguiça até dourar e cozinhar por completo, cerca de 20 minutos.",
+      "Misture os ingredientes do vinagrete e tempere a gosto.",
+      "Sirva a linguiça acompanhada do vinagrete fresco."
+    ],
+    "descricao": "Porque até a linguiça merece um par perfeito, diferente daquela sua última paquera",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Vinagrete é igual amigo sincero: corta o barato, mas deixa tudo mais verdadeiro."
+  },
+  {
+    "id": 228,
+    "titulo": "Espetinho de Kafta com Molho Tahine",
+    "slug": "espetinho-de-kafta-com-molho-tahine",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "g de carne moída temperada com cebola, alho, cominho e salsinha",
+      "g de tahine (pasta de gergelim)",
+      "Suco de 1 limão",
+      "Água para ajustar consistência"
+    ],
+    "modoPreparo": [
+      "Modele a kafta nos espetos e grelhe por 15 minutos, virando para dourar.",
+      "Misture tahine, limão e água até formar molho cremoso.",
+      "Sirva a kafta com o molho tahine por cima."
+    ],
+    "descricao": "Para quem quer dar aquela viajada no churrasco sem sair do quintal",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 38,00",
+    "porcoes": "5 porções",
+    "dica": "Kafta com tahine é tipo novela internacional: diferente, exótico e deixa todo mundo curioso."
+  },
+  {
+    "id": 229,
+    "titulo": "Coração de Boi Grelhado com Chimichurri",
+    "slug": "coracao-de-boi-grelhado-com-chimichurri",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "kg de coração de boi limpo",
+      "Sal grosso a gosto",
+      "Para o chimichurri:",
+      "Salsinha, orégano, alho, vinagre, azeite, pimenta calabresa a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o coração com sal grosso.",
+      "Misture os ingredientes do chimichurri e reserve.",
+      "Grelhe o coração na churrasqueira por 40 minutos, virando.",
+      "Sirva com chimichurri por cima."
+    ],
+    "descricao": "Para quem quer sentir o verdadeiro sabor do churrasco raiz (e do drama da vida)",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "4 porções",
+    "dica": "Coração de boi é tipo boleto atrasado: só enfrenta quem tem coragem e estômago forte."
+  },
+  {
+    "id": 230,
+    "titulo": "Batata Assada na Brasa com Bacon e Queijo",
+    "slug": "batata-assada-na-brasa-com-bacon-e-queijo",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "batatas médias",
+      "g de bacon picado",
+      "g de queijo muçarela ralado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Enrole as batatas em papel alumínio e asse na churrasqueira por 40 minutos.",
+      "Retire, corte ao meio, recheie com bacon frito e queijo.",
+      "Volte à churrasqueira por 10 minutos para derreter o queijo."
+    ],
+    "descricao": "Para provar que até batata pode ser protagonista no churrasco (e na vida)",
+    "tempo": "1h",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Batata assada é tipo feriado prolongado: demora pra chegar, mas quando vem, é só alegria."
+  },
+  {
+    "id": 231,
+    "titulo": "Salada de Maionese Tradicional de Churrasco",
+    "slug": "salada-de-maionese-tradicional-de-churrasco",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "g de batata cozida em cubos",
+      "g de cenoura cozida em cubos",
+      "lata de ervilha escorrida",
+      "xícara de maionese",
+      "Sal e cheiro-verde a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes em uma tigela grande.",
+      "Ajuste o sal e leve à geladeira por 20 minutos antes de servir.",
+      "Sirva gelada para refrescar o calor da brasa."
+    ],
+    "descricao": "Porque churrasco sem maionese é tipo domingo sem preguiça: não faz sentido",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "6 porções",
+    "dica": "Maionese é tipo amigo que organiza a festa: faz a bagunça ficar boa e todo mundo quer perto."
+  },
+  {
+    "id": 232,
+    "titulo": "Filé de Tilápia Grelhado com Ervas",
+    "slug": "file-de-tilapia-grelhado-com-ervas",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "g de filé de tilápia",
+      "Suco de 1 limão",
+      "Alecrim, salsinha e sal a gosto",
+      "Azeite para pincelar"
+    ],
+    "modoPreparo": [
+      "Tempere o filé com limão, ervas e sal.",
+      "Pincele azeite e grelhe na churrasqueira por 10 minutos de cada lado.",
+      "Sirva quente, garantindo elogios e inveja dos carnívoros."
+    ],
+    "descricao": "Para quem quer variar e ainda parecer saudável (sem perder o charme)",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Tilápia na brasa é tipo final de novela: inesperada, leve e conquista geral."
+  },
+  {
+    "id": 233,
+    "titulo": "Coração de Frango ao Molho Barbecue Picante",
+    "slug": "coracao-de-frango-ao-molho-barbecue-picante",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "kg de coração de frango",
+      "ml de molho barbecue picante",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere os corações com sal e molho barbecue.",
+      "Espete e grelhe por 20 minutos, virando e pincelando mais molho.",
+      "Sirva quente e prepare os guardanapos."
+    ],
+    "descricao": "Porque até coração merece um tempero que faz o fogo pegar (no churrasco e na vida)",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Esse coração é igual aquele crush que você sabe que vai dar trabalho, mas não resiste."
+  },
+  {
+    "id": 234,
+    "titulo": "Linguiça de Frango com Ervas Finas",
+    "slug": "linguica-de-frango-com-ervas-finas",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "g de linguiça de frango",
+      "Alecrim, tomilho e orégano a gosto",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere a linguiça com as ervas, sal e pimenta.",
+      "Grelhe na churrasqueira por 25 minutos, virando para dourar.",
+      "Sirva quente para surpreender os convidados."
+    ],
+    "descricao": "Para variar o churrasco sem perder a dignidade (ou o sabor)",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Linguiça de frango é tipo segunda-feira: menos pesada, mas ainda assim necessária."
+  },
+  {
+    "id": 235,
+    "titulo": "Espetinho de Cordeiro com Alecrim",
+    "slug": "espetinho-de-cordeiro-com-alecrim",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "kg de carne de cordeiro em cubos",
+      "Alecrim fresco a gosto",
+      "Alho picado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere a carne com alho, alecrim, sal e pimenta.",
+      "Espete e grelhe por 20 minutos, virando para dourar.",
+      "Sirva quente, com cheiro que vai deixar todo mundo curioso."
+    ],
+    "descricao": "Porque churrasco bom é aquele que tem sabor e um pouco de pretensão",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 60,00",
+    "porcoes": "4 porções",
+    "dica": "Cordeiro no churrasco é igual festa VIP: só pra quem sabe aproveitar com classe."
+  },
+  {
+    "id": 236,
+    "titulo": "Espetinho de Queijo Minas com Orégano",
+    "slug": "espetinho-de-queijo-minas-com-oregano",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "g de queijo minas em cubos",
+      "Orégano a gosto",
+      "Azeite para pincelar"
+    ],
+    "modoPreparo": [
+      "Espete os cubos de queijo e pincele azeite.",
+      "Grelhe na churrasqueira por 10 minutos até dourar levemente.",
+      "Polvilhe orégano e sirva quente."
+    ],
+    "descricao": "Para quem quer um petisco simples que não deixa ninguém na mão (ou com fome)",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Queijo minas no churrasco é tipo aquele amigo quieto: simples, mas deixa todo mundo feliz."
+  },
+  {
+    "id": 237,
+    "titulo": "Paleta Suína Assada na Brasa com Temperos Rústicos",
+    "slug": "paleta-suina-assada-na-brasa-com-temperos-rusticos",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "kg de paleta suína",
+      "Alecrim, tomilho, alho e sal grosso a gosto",
+      "Azeite para pincelar"
+    ],
+    "modoPreparo": [
+      "Tempere a paleta com ervas, alho, sal e azeite.",
+      "Embrulhe em papel alumínio e asse na churrasqueira em fogo baixo por 2h30.",
+      "Abra o papel e deixe dourar por mais 30 minutos."
+    ],
+    "descricao": "Para quem quer se aventurar e provar que tamanho é documento (de sabor)",
+    "tempo": "3h",
+    "dificuldade": "Difícil",
+    "preco": "R$ 55,00",
+    "porcoes": "6 porções",
+    "dica": "Paleta suína é tipo reunião de família: demora, tem tempero e no final todo mundo quer mais."
+  },
+  {
+    "id": 238,
+    "titulo": "Espetinho de Carne com Bacon e Cebola",
+    "slug": "espetinho-de-carne-com-bacon-e-cebola",
+    "categoria": "Churrasco ",
+    "ingredientes": [
+      "g de carne em cubos (acém ou patinho)",
+      "g de bacon em cubos",
+      "cebola grande em pedaços",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Monte os espetinhos alternando carne, bacon e cebola.",
+      "Tempere com sal e pimenta.",
+      "Grelhe por 20 minutos, virando para dourar."
+    ],
+    "descricao": "Porque a vida é curta demais para não juntar tudo que é bom no mesmo espeto",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 35,00",
+    "porcoes": "5 porções",
+    "dica": "Esse espetinho é igual final de mês: cheio de coisas boas, mas que acaba rápido demais."
+  }
+]

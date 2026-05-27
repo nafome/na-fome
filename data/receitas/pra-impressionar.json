@@ -1,0 +1,1051 @@
+[
+  {
+    "id": 1392,
+    "titulo": "Risoto de Camarão com Limão Siciliano e Raspas de Alecrim",
+    "slug": "risoto-de-camarao-com-limao-siciliano-e-raspas-de-alecrim",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "g de arroz arbóreo",
+      "g de camarão limpo",
+      "limão siciliano (raspas e suco)",
+      "ramo de alecrim fresco",
+      "cebola pequena picada",
+      "dente de alho picado",
+      "ml de caldo de legumes quente",
+      "ml de vinho branco seco",
+      "g de manteiga",
+      "g de queijo parmesão ralado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho na manteiga até ficarem translúcidos.",
+      "Adicione o arroz e mexa por 2 minutos para tostar levemente.",
+      "Regue com vinho branco e deixe evaporar.",
+      "Vá adicionando o caldo quente aos poucos, mexendo até o arroz ficar al dente.",
+      "Em frigideira, salteie o camarão com sal, pimenta, raspas e suco do limão e alecrim.",
+      "Misture o camarão ao risoto, finalize com parmesão e ajuste o sal."
+    ],
+    "descricao": "Porque nada diz “sou chique” como risoto que exige paciência e talento – igual pagar boleto no fim do mês.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 55,00",
+    "porcoes": "3 porções",
+    "dica": "Se errar o ponto do risoto, finge que é “al dente” igual aquele boleto que você esqueceu de pagar e agora só falta o nome no SPC."
+  },
+  {
+    "id": 1393,
+    "titulo": "Medalhão de Filé Mignon ao Molho de Vinho Tinto com Purê de Batata Trufado",
+    "slug": "medalhao-de-file-mignon-ao-molho-de-vinho-tinto-com-pure-de-batata-trufado",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "g de filé mignon em medalhões",
+      "g de batata inglesa",
+      "ml de vinho tinto seco",
+      "g de manteiga",
+      "colher de sopa de azeite trufado",
+      "dente de alho",
+      "Sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe as batatas em água salgada até ficarem macias, escorra e amasse.",
+      "Misture manteiga e azeite trufado ao purê, reserve aquecido.",
+      "Tempere os medalhões com sal e pimenta, sele na frigideira com alho e manteiga até dourar bem, 3 minutos cada lado.",
+      "Retire a carne, na mesma frigideira reduza o vinho até formar molho encorpado.",
+      "Sirva medalhão com o molho por cima e purê ao lado."
+    ],
+    "descricao": "A receita que vai fazer seu date achar que você é chef, não só mestre em enrolar na vida.",
+    "tempo": "50 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 70,00",
+    "porcoes": "2 porções",
+    "dica": "Se o molho não engrossar, finge que é “molho secreto” igual desculpa de quem chega atrasado no trabalho."
+  },
+  {
+    "id": 1394,
+    "titulo": "Salada Caprese com Redução de Balsâmico e Pesto de Manjericão",
+    "slug": "salada-caprese-com-reducao-de-balsamico-e-pesto-de-manjericao",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "tomates maduros fatiados",
+      "g de muçarela de búfala fatiada",
+      "maço de manjericão fresco",
+      "ml de azeite de oliva",
+      "g de queijo parmesão ralado",
+      "ml de vinagre balsâmico",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Em frigideira, reduza o vinagre balsâmico até virar calda grossa, reserve.",
+      "No processador, bata manjericão, parmesão e azeite até virar pesto.",
+      "Em prato, monte camadas alternadas de tomate e muçarela.",
+      "Regue com pesto e finalize com redução balsâmica, sal e pimenta."
+    ],
+    "descricao": "Porque às vezes impressionar é só mostrar que sabe escolher tomate e queijo melhores que os boletos que chegam.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "2 porções",
+    "dica": "Se o pesto ficar verde escuro, não se assuste – é só sinal que o manjericão estava mais cansado que você numa segunda-feira."
+  },
+  {
+    "id": 1395,
+    "titulo": "Tartar de Salmão com Abacate e Toque de Gengibre",
+    "slug": "tartar-de-salmao-com-abacate-e-toque-de-gengibre",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "g de salmão fresco em cubos pequenos",
+      "abacate maduro em cubos",
+      "colher de chá de gengibre ralado",
+      "Suco de 1 limão",
+      "colher de sopa de molho shoyu",
+      "Sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o salmão com gengibre, suco de limão, shoyu, sal e pimenta.",
+      "Adicione o abacate delicadamente para não amassar.",
+      "Sirva em porções individuais, decorando com folhas de coentro ou cebolinha."
+    ],
+    "descricao": "A receita que prova que você consegue ser sofisticado e ainda assim não se queimar na cozinha.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 48,00",
+    "porcoes": "2 porções",
+    "dica": "Se o salmão parecer mais cru que sua vida amorosa, é porque é assim mesmo – fresquinho e cheio de possibilidades."
+  },
+  {
+    "id": 1396,
+    "titulo": "Fondue de Queijos com Pão Artesanal e Frutas Secas",
+    "slug": "fondue-de-queijos-com-pao-artesanal-e-frutas-secas",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "g de queijo gruyère ralado",
+      "g de queijo emmental ralado",
+      "dente de alho cortado ao meio",
+      "ml de vinho branco seco",
+      "colher de chá de amido de milho",
+      "Pão artesanal cortado em cubos",
+      "Mix de frutas secas (damasco, uva passa)"
+    ],
+    "modoPreparo": [
+      "Esfregue o alho na caçarola, adicione vinho e aqueça até quase ferver.",
+      "Misture amido no queijo, adicione ao vinho aos poucos mexendo até derreter.",
+      "Sirva com pão e frutas secas para mergulhar."
+    ],
+    "descricao": "Porque não há nada mais romântico do que queimar a língua e a dignidade juntos.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 60,00",
+    "porcoes": "4 porções",
+    "dica": "Se o queijo ficar empelotado, culpa a pressa – na cozinha e na vida, tudo tem seu tempo, inclusive o boleto que você esqueceu."
+  },
+  {
+    "id": 1397,
+    "titulo": "Camarões ao Alho e Óleo com Toque de Pimenta e Limão",
+    "slug": "camaroes-ao-alho-e-oleo-com-toque-de-pimenta-e-limao",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "g de camarão limpo",
+      "dentes de alho fatiados",
+      "pimenta dedo-de-moça picada (sem sementes)",
+      "Suco de 1 limão",
+      "colheres de sopa de azeite",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça o azeite e doure o alho com a pimenta.",
+      "Adicione os camarões e tempere com sal.",
+      "Cozinhe até os camarões ficarem rosas, finalize com suco de limão."
+    ],
+    "descricao": "Porque impressionar é saber que alho e pimenta são os melhores amigos do coração e do hálito.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 42,00",
+    "porcoes": "2 porções",
+    "dica": "Se o alho ficar queimado, não se preocupe, é só mais um motivo para usar aquele perfume caro que você comprou pra impressionar."
+  },
+  {
+    "id": 1398,
+    "titulo": "Magret de Pato com Molho de Laranja e Gengibre",
+    "slug": "magret-de-pato-com-molho-de-laranja-e-gengibre",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "peitos de pato (magret)",
+      "laranja (suco e raspas)",
+      "colher de sopa de gengibre ralado",
+      "colher de sopa de mel",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Faça cortes na pele do pato e tempere com sal e pimenta.",
+      "Em frigideira quente, cozinhe o pato com a pele para baixo até dourar e soltar gordura, vire e cozinhe do outro lado.",
+      "Retire o pato, reserve.",
+      "Na gordura do pato, adicione gengibre, suco e raspas de laranja e mel, deixe reduzir.",
+      "Sirva o magret fatiado com o molho por cima."
+    ],
+    "descricao": "Para quem quer impressionar e fazer o date achar que você é um masterchef, e não só mestre em enrolar.",
+    "tempo": "45 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 75,00",
+    "porcoes": "2 porções",
+    "dica": "Se o pato não ficar dourado, finge que é “feito sob medida” igual suas desculpas para não ir à academia."
+  },
+  {
+    "id": 1399,
+    "titulo": "Espaguete ao Molho de Lagosta com Tomate Cereja e Manjericão",
+    "slug": "espaguete-ao-molho-de-lagosta-com-tomate-cereja-e-manjericao",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "g de espaguete",
+      "g de carne de lagosta",
+      "g de tomate cereja cortado ao meio",
+      "dente de alho picado",
+      "folhas de manjericão",
+      "ml de azeite de oliva",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o espaguete em água salgada até ficar al dente, escorra.",
+      "Em frigideira, aqueça azeite e refogue alho e tomate.",
+      "Adicione a lagosta, tempere, cozinhe por 5 minutos.",
+      "Misture o macarrão, folhas de manjericão e ajuste temperos."
+    ],
+    "descricao": "Porque impressionar é se arriscar no mar e na cozinha, mesmo que o boleto do pescador esteja atrasado.",
+    "tempo": "35 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 85,00",
+    "porcoes": "2 porções",
+    "dica": "Se o macarrão grudar, finge que é estilo “colado para sempre”, igual aquela dívida que não sai do seu nome."
+  },
+  {
+    "id": 1400,
+    "titulo": "Creme Brulée de Baunilha com Crosta Perfeita",
+    "slug": "creme-brulee-de-baunilha-com-crosta-perfeita",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "ml de creme de leite fresco",
+      "fava de baunilha ou 1 colher de chá de extrato",
+      "gemas de ovo",
+      "g de açúcar",
+      "Açúcar cristal para caramelizar"
+    ],
+    "modoPreparo": [
+      "Aqueça o creme com a baunilha até quase ferver, retire e deixe infusionar.",
+      "Bata as gemas com açúcar até clarear.",
+      "Misture o creme quente às gemas lentamente.",
+      "Coloque nas forminhas, asse em banho-maria a 150ºC por 40 minutos.",
+      "Deixe esfriar, leve à geladeira por 3 horas.",
+      "Na hora de servir, polvilhe açúcar cristal e queime com maçarico."
+    ],
+    "descricao": "A sobremesa que mostra que você sabe queimar coisa na vida sem perder a classe.",
+    "tempo": "1h 10min (incluindo resfriamento)",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "4 porções",
+    "dica": "Se a crosta queimar, finge que é “toque rústico” igual seu penteado depois da academia."
+  },
+  {
+    "id": 1401,
+    "titulo": "Confit de Pato com Batatas Rústicas e Alecrim",
+    "slug": "confit-de-pato-com-batatas-rusticas-e-alecrim",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "coxas de pato com pele",
+      "g de batatas cortadas em cubos",
+      "ramos de alecrim",
+      "Sal grosso e pimenta a gosto",
+      "ml de gordura de pato ou óleo"
+    ],
+    "modoPreparo": [
+      "Tempere as coxas com sal e pimenta.",
+      "Confit: cubra as coxas com gordura e cozinhe em fogo baixo por 2h.",
+      "Asse as batatas com alecrim e sal grosso a 200ºC por 40 minutos.",
+      "Doure as coxas em frigideira antes de servir para pele crocante."
+    ],
+    "descricao": "Para provar que você sabe cozinhar melhor do que sabe fugir dos boletos atrasados.",
+    "tempo": "2h 30min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 80,00",
+    "porcoes": "3 porções",
+    "dica": "Se a gordura respingar, lembra que é só um sinal de que suas contas também estão fervendo."
+  },
+  {
+    "id": 1402,
+    "titulo": "Ceviche Peruano de Robalo com Cebola Roxa e Coentro",
+    "slug": "ceviche-peruano-de-robalo-com-cebola-roxa-e-coentro",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "g de filé de robalo fresco em cubos",
+      "Suco de 3 limões",
+      "cebola roxa fatiada fina",
+      "pimenta dedo-de-moça picada",
+      "Coentro picado a gosto",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o peixe com sal e limão, deixe marinar por 15 minutos.",
+      "Escorra o excesso de líquido, adicione cebola, pimenta e coentro.",
+      "Sirva gelado."
+    ],
+    "descricao": "O prato que diz “sou fresco” sem precisar usar filtro no Instagram.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 38,00",
+    "porcoes": "2 porções",
+    "dica": "Se alguém reclamar do limão, avisa que é pra “descascar a vida” igual boletos que você ignora."
+  },
+  {
+    "id": 1403,
+    "titulo": "Tournedos de Filé com Molho de Mostarda Dijon e Champignon",
+    "slug": "tournedos-de-file-com-molho-de-mostarda-dijon-e-champignon",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "tournedos de filé mignon (150g cada)",
+      "g de champignon fatiado",
+      "ml de creme de leite",
+      "colheres de sopa de mostarda Dijon",
+      "colher de sopa de manteiga",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere os tournedos, sele na manteiga até ponto desejado, reserve.",
+      "Na mesma frigideira, refogue champignon.",
+      "Adicione creme de leite e mostarda, mexa até engrossar.",
+      "Regue o molho sobre os tournedos e sirva."
+    ],
+    "descricao": "O clássico que mostra que você domina o básico sofisticado, sem precisar de diploma.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 60,00",
+    "porcoes": "2 porções",
+    "dica": "Se o molho talhar, finge que é “mousse de mostarda” – ninguém vai desconfiar no escuro."
+  },
+  {
+    "id": 1404,
+    "titulo": "Lagosta Grelhada com Manteiga de Ervas e Limão",
+    "slug": "lagosta-grelhada-com-manteiga-de-ervas-e-limao",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "lagostas médias limpas",
+      "g de manteiga",
+      "Mix de ervas finas (salsa, tomilho, cebolinha)",
+      "Suco de 1 limão",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture manteiga com ervas e limão, reserve.",
+      "Grelhe as lagostas com sal e pimenta até ficarem rosadas.",
+      "Sirva com a manteiga derretida por cima."
+    ],
+    "descricao": "Para mostrar que você é do tipo que sabe gastar dinheiro e impressionar, tipo boleto de IPTU.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 90,00",
+    "porcoes": "2 porções",
+    "dica": "Se a lagosta grudar na grelha, lembre que a vida adulta é isso: você tenta, gruda e tem que limpar a sujeira."
+  },
+  {
+    "id": 1405,
+    "titulo": "Sobremesa de Panna Cotta de Coco com Calda de Maracujá",
+    "slug": "sobremesa-de-panna-cotta-de-coco-com-calda-de-maracuja",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "ml de leite de coco",
+      "ml de creme de leite",
+      "g de açúcar",
+      "folhas de gelatina hidratada",
+      "Polpa de 2 maracujás para calda"
+    ],
+    "modoPreparo": [
+      "Aqueça leite de coco, creme e açúcar até dissolver.",
+      "Dissolva gelatina no líquido quente, misture bem.",
+      "Coloque em forminhas e leve à geladeira por 4 horas.",
+      "Faça calda com polpa de maracujá e sirva por cima."
+    ],
+    "descricao": "A prova que você pode ser doce e ainda assim manter a pose, diferente dos boletos que só chegam brabos.",
+    "tempo": "4h (incluindo geladeira)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Se a panna cotta não firmar, finge que é “molhadinha” igual sua conta bancária depois do fim do mês."
+  },
+  {
+    "id": 1406,
+    "titulo": "Bife Ancho com Chimichurri Caseiro e Batatas Rústicas",
+    "slug": "bife-ancho-com-chimichurri-caseiro-e-batatas-rusticas",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "g de bife ancho",
+      "batatas médias cortadas em cubos",
+      "maço de salsa",
+      "dentes de alho",
+      "colher de chá de orégano seco",
+      "ml de azeite de oliva",
+      "colheres de sopa de vinagre de vinho",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere as batatas com sal, pimenta e azeite, asse a 200ºC por 40 minutos.",
+      "Pique salsa, alho, orégano, misture com azeite e vinagre para fazer chimichurri.",
+      "Grelhe o bife ao ponto desejado.",
+      "Sirva o bife com chimichurri e batatas."
+    ],
+    "descricao": "Para quem quer impressionar sem inventar moda, porque carne é sempre resposta.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 55,00",
+    "porcoes": "3 porções",
+    "dica": "Se errar o ponto da carne, finge que é “malpassado” igual sua disposição na segunda-feira."
+  },
+  {
+    "id": 1407,
+    "titulo": "Terrine de Legumes Coloridos com Molho de Iogurte e Hortelã",
+    "slug": "terrine-de-legumes-coloridos-com-molho-de-iogurte-e-hortela",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "abobrinha em fatias finas",
+      "berinjela em fatias finas",
+      "cenoura ralada",
+      "g de ricota amassada",
+      "g de iogurte natural",
+      "Hortelã picada",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Forre a forma com papel alumínio, disponha camadas alternadas dos legumes.",
+      "Misture ricota com cenoura, tempere e coloque entre as camadas.",
+      "Cubra e leve ao forno a 180ºC por 1 hora.",
+      "Misture iogurte com hortelã e sirva ao lado."
+    ],
+    "descricao": "Para impressionar quem acha que só carne faz sucesso, mostra que vegetal também tem vez.",
+    "tempo": "1h 10min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Se a terrine desmontar, finge que é “desconstruída” igual a sua vida social."
+  },
+  {
+    "id": 1408,
+    "titulo": "Polvo Grelhado com Batatas ao Murro e Azeite de Páprica",
+    "slug": "polvo-grelhado-com-batatas-ao-murro-e-azeite-de-paprica",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "polvo limpo (aprox. 1 kg)",
+      "g de batatas pequenas",
+      "colheres de sopa de azeite",
+      "colher de chá de páprica doce",
+      "Sal grosso a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o polvo em água fervente com sal por 45 minutos até ficar macio.",
+      "Cozinhe as batatas até ficarem macias, dê um murro para abrir.",
+      "Grelhe o polvo até dourar, tempere azeite com páprica.",
+      "Asse as batatas com azeite e sal grosso por 30 minutos.",
+      "Sirva o polvo com as batatas regadas no azeite."
+    ],
+    "descricao": "Porque impressionar é saber que polvo não é só coisa de polvo, mas de gente que sabe o que faz.",
+    "tempo": "1h 30min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 85,00",
+    "porcoes": "3 porções",
+    "dica": "Se o polvo ficar borrachudo, finge que é “fitness” igual suas desculpas para faltar na academia."
+  },
+  {
+    "id": 1409,
+    "titulo": "Soufflé de Queijo Gruyère com Salada Verde Refrescante",
+    "slug": "souffle-de-queijo-gruyere-com-salada-verde-refrescante",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "ovos (claras e gemas separadas)",
+      "ml de leite",
+      "g de manteiga",
+      "g de farinha de trigo",
+      "g de queijo gruyère ralado",
+      "Sal, pimenta e noz-moscada a gosto"
+    ],
+    "modoPreparo": [
+      "Faça um roux com manteiga e farinha, adicione leite até engrossar.",
+      "Misture as gemas e o queijo ao molho branco temperado.",
+      "Bata as claras em neve e incorpore delicadamente.",
+      "Coloque na forma untada e asse a 180ºC por 25 minutos.",
+      "Sirva imediatamente com salada verde."
+    ],
+    "descricao": "Pra mostrar que você não só tem talento, mas também paciência – diferente do boleto que você esquece.",
+    "tempo": "50 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 40,00",
+    "porcoes": "4 porções",
+    "dica": "Se o soufflé murchar, finge que é “design moderno” igual sua conta bancária depois do fim do mês."
+  },
+  {
+    "id": 1410,
+    "titulo": "Pato ao Molho de Cereja com Arroz de Amêndoas",
+    "slug": "pato-ao-molho-de-cereja-com-arroz-de-amendoas",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "coxas de pato",
+      "g de cerejas frescas ou congeladas",
+      "colher de sopa de mel",
+      "xícara de arroz branco",
+      "g de amêndoas laminadas",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere e doure as coxas de pato em frigideira, reserve.",
+      "Na mesma frigideira, adicione cerejas e mel, cozinhe até formar molho.",
+      "Cozinhe o arroz normalmente, misture amêndoas tostadas.",
+      "Sirva o pato com molho de cereja e arroz."
+    ],
+    "descricao": "A receita que te faz parecer rico, mesmo que a única coisa no banco seja boleto.",
+    "tempo": "1h 20min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 78,00",
+    "porcoes": "3 porções",
+    "dica": "Se o molho ficar doce demais, finge que é “doce de felicidade” igual quando o boleto finalmente é pago."
+  },
+  {
+    "id": 1411,
+    "titulo": "Canelone de Ricota e Espinafre com Molho Bechamel",
+    "slug": "canelone-de-ricota-e-espinafre-com-molho-bechamel",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "folhas de massa para canelone",
+      "g de ricota",
+      "g de espinafre cozido e picado",
+      "ml de molho bechamel (feito com manteiga, farinha e leite)",
+      "g de queijo parmesão ralado",
+      "Sal, noz-moscada e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Misture ricota com espinafre, tempere.",
+      "Cozinhe as folhas de massa até ficarem flexíveis.",
+      "Recheie as folhas e enrole, disponha na forma.",
+      "Cubra com molho bechamel e parmesão.",
+      "Asse a 180ºC por 30 minutos."
+    ],
+    "descricao": "Porque impressionar é apresentar massa recheada que não parece coisa de delivery.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 38,00",
+    "porcoes": "4 porções",
+    "dica": "Se a massa quebrar, finge que é “estilo artesanal”, igual sua desculpa para não lavar a louça."
+  },
+  {
+    "id": 1412,
+    "titulo": "Coquilles Saint-Jacques com Creme de Alho-Poró e Crocante de Parmesão",
+    "slug": "coquilles-saint-jacques-com-creme-de-alho-poro-e-crocante-de-parmesao",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "vieiras limpas",
+      "alho-poró picado",
+      "ml de creme de leite fresco",
+      "g de queijo parmesão ralado",
+      "g de manteiga",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue alho-poró na manteiga até amolecer.",
+      "Adicione creme de leite e cozinhe até engrossar.",
+      "Grelhe as vieiras rapidamente, tempere.",
+      "Em conchas ou ramequins, coloque creme, vieiras e parmesão.",
+      "Leve ao forno para gratinar por 10 minutos."
+    ],
+    "descricao": "A receita que vai fazer seu date achar que você é sofisticado, não só enrolado.",
+    "tempo": "45 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 82,00",
+    "porcoes": "2 porções",
+    "dica": "Se o parmesão queimar, finge que é “toque defumado” diferente daquele boleto que nunca chega com desconto."
+  },
+  {
+    "id": 1413,
+    "titulo": "Salmão ao Molho Teriyaki com Legumes Salteados",
+    "slug": "salmao-ao-molho-teriyaki-com-legumes-salteados",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "filés de salmão (150g cada)",
+      "ml de molho teriyaki",
+      "cenoura em tiras",
+      "abobrinha em tiras",
+      "pimentão vermelho em tiras",
+      "colheres de sopa de óleo de gergelim",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Marine o salmão no teriyaki por 15 minutos.",
+      "Grelhe o salmão em frigideira antiaderente, reserve.",
+      "Salteie os legumes no óleo de gergelim até ficarem al dente.",
+      "Sirva o salmão com os legumes."
+    ],
+    "descricao": "Porque impressionar pode ser saudável – e ainda assim dar aquela escapada do estresse.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 45,00",
+    "porcoes": "2 porções",
+    "dica": "Se o salmão grudar, finge que é “pegada gourmet” igual aquele boleto que insiste em grudar na sua conta."
+  },
+  {
+    "id": 1414,
+    "titulo": "Trufas de Chocolate Amargo com Flor de Sal",
+    "slug": "trufas-de-chocolate-amargo-com-flor-de-sal",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "g de chocolate amargo 70%",
+      "ml de creme de leite fresco",
+      "g de manteiga",
+      "Flor de sal para polvilhar"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate em banho-maria.",
+      "Aqueça o creme de leite e misture ao chocolate derretido com manteiga.",
+      "Leve à geladeira por 40 minutos até firmar.",
+      "Faça bolinhas e polvilhe flor de sal."
+    ],
+    "descricao": "A sobremesa que faz você parecer o namorado(a) que gasta dinheiro em coisa boa, não só em boletos.",
+    "tempo": "1h (incluindo resfriamento)",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "20 unidades",
+    "dica": "Se as trufas ficarem esquisitas, finge que é “arte abstrata” igual suas desculpas para não sair de casa."
+  },
+  {
+    "id": 1415,
+    "titulo": "Frango Recheado com Queijo Brie e Damasco ao Molho de Vinho Branco",
+    "slug": "frango-recheado-com-queijo-brie-e-damasco-ao-molho-de-vinho-branco",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "peitos de frango",
+      "g de queijo brie",
+      "g de damasco seco picado",
+      "ml de vinho branco seco",
+      "colher de sopa de manteiga",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Faça um corte no peito do frango, recheie com brie e damasco, feche com palitos.",
+      "Sele o frango na manteiga até dourar.",
+      "Transfira para assadeira, regue com vinho branco e asse a 180ºC por 35 minutos."
+    ],
+    "descricao": "Pra mostrar que você sabe transformar o básico em algo digno de aplausos (ou pelo menos likes).",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 48,00",
+    "porcoes": "3 porções",
+    "dica": "Se o queijo escapar, finge que é “explosão de sabor” igual seu extrato bancário depois do fim do mês."
+  },
+  {
+    "id": 1416,
+    "titulo": "Camembert Assado com Mel, Nozes e Pão Crocante",
+    "slug": "camembert-assado-com-mel-nozes-e-pao-crocante",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "queijo camembert inteiro",
+      "colheres de sopa de mel",
+      "g de nozes picadas",
+      "Pão baguete fatiado e torrado"
+    ],
+    "modoPreparo": [
+      "Faça cortes superficiais no queijo.",
+      "Regue com mel e espalhe nozes por cima.",
+      "Asse a 180ºC por 15 minutos até derreter.",
+      "Sirva com pão torrado."
+    ],
+    "descricao": "Um queijo que derrete igual suas forças quando o boleto chega na porta.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 45,00",
+    "porcoes": "4 porções",
+    "dica": "Se o queijo não derreter direito, finge que é “resistência” igual a você quando o boleto chega."
+  },
+  {
+    "id": 1417,
+    "titulo": "Salada de Figos, Presunto de Parma e Queijo de Cabra com Vinagrete de Mel",
+    "slug": "salada-de-figos-presunto-de-parma-e-queijo-de-cabra-com-vinagrete-de-mel",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "figos frescos fatiados",
+      "g de presunto de parma",
+      "g de queijo de cabra esfarelado",
+      "Mix de folhas verdes",
+      "colheres de sopa de azeite",
+      "colher de sopa de mel",
+      "colher de sopa de vinagre balsâmico",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture azeite, mel, vinagre, sal e pimenta para o vinagrete.",
+      "Em prato, disponha folhas, figos, presunto e queijo.",
+      "Regue com o vinagrete e sirva."
+    ],
+    "descricao": "Porque impressionar é saber que figo não é só fruta, é status de adulto que paga boleto.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 37,00",
+    "porcoes": "2 porções",
+    "dica": "Se o figo estiver maduro demais, finge que é “doçura natural”, igual sua paciência com boleto atrasado."
+  },
+  {
+    "id": 1418,
+    "titulo": "Polenta Cremosa com Ragu de Cordeiro e Hortelã",
+    "slug": "polenta-cremosa-com-ragu-de-cordeiro-e-hortela",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "g de polenta em flocos",
+      "ml de caldo de carne",
+      "g de carne de cordeiro moída",
+      "cebola picada",
+      "dentes de alho picados",
+      "Hortelã picada a gosto",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho, acrescente cordeiro e cozinhe até dourar.",
+      "Adicione caldo e cozinhe até reduzir e formar ragu.",
+      "Cozinhe a polenta no caldo mexendo até ficar cremosa.",
+      "Misture hortelã no ragu e sirva sobre a polenta."
+    ],
+    "descricao": "Pra impressionar quem sabe que polenta não é só comida de vó, é comida de quem sabe viver.",
+    "tempo": "1h 15min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 65,00",
+    "porcoes": "4 porções",
+    "dica": "Se a polenta empelotar, finge que é “textura gourmet”, igual as contas que você finge que vai pagar."
+  },
+  {
+    "id": 1419,
+    "titulo": "Salmão Gravlax com Mostarda e Dill",
+    "slug": "salmao-gravlax-com-mostarda-e-dill",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "g de filé de salmão fresco sem pele",
+      "colheres de sopa de sal grosso",
+      "colheres de sopa de açúcar",
+      "colher de sopa de pimenta-do-reino moída",
+      "maço de dill fresco picado",
+      "colheres de sopa de mostarda em grãos"
+    ],
+    "modoPreparo": [
+      "Misture sal, açúcar, pimenta e dill.",
+      "Cubra o salmão com a mistura e embrulhe em filme plástico.",
+      "Leve à geladeira por 24 horas, virando na metade do tempo.",
+      "Fatie fino, sirva com mostarda em grãos."
+    ],
+    "descricao": "Porque impressionar não é só cozinhar, é saber curar peixe e assustar os vizinhos.",
+    "tempo": "24h (cura) + 20 min preparo",
+    "dificuldade": "Médio",
+    "preco": "R$ 58,00",
+    "porcoes": "4 porções",
+    "dica": "Se esquecer o salmão na geladeira, finge que é “curado demais” igual sua paciência com boletos."
+  },
+  {
+    "id": 1420,
+    "titulo": "Camarão na Moranga com Requeijão Cremoso",
+    "slug": "camarao-na-moranga-com-requeijao-cremoso",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "moranga média",
+      "g de camarão limpo",
+      "g de requeijão cremoso",
+      "cebola picada",
+      "dentes de alho picados",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a moranga inteira até ficar macia, retire o topo e retire as sementes.",
+      "Refogue cebola e alho, adicione camarão e cozinhe até rosa.",
+      "Misture requeijão ao camarão, tempere.",
+      "Recheie a moranga com a mistura, leve ao forno por 20 minutos."
+    ],
+    "descricao": "Porque impressionar é saber que moranga é mais que abóbora, é palco do show da sua cozinha.",
+    "tempo": "1h 20min",
+    "dificuldade": "Médio",
+    "preco": "R$ 68,00",
+    "porcoes": "4 porções",
+    "dica": "Se a moranga desmanchar, finge que é “molhadinha” igual sua conta bancária no fim do mês."
+  },
+  {
+    "id": 1421,
+    "titulo": "Creme de Aspargos com Crocante de Presunto Parma",
+    "slug": "creme-de-aspargos-com-crocante-de-presunto-parma",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "g de aspargos frescos",
+      "batata média",
+      "cebola picada",
+      "litro de caldo de legumes",
+      "ml de creme de leite",
+      "g de presunto de parma fatiado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola, adicione aspargos e batata picados.",
+      "Cubra com caldo e cozinhe até os legumes ficarem macios.",
+      "Bata no liquidificador até virar creme.",
+      "Volte ao fogo, adicione creme de leite, ajuste sal e pimenta.",
+      "Frite o presunto até ficar crocante e sirva por cima."
+    ],
+    "descricao": "A receita que prova que você consegue ser chique e ainda fazer barulho na cozinha.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "4 porções",
+    "dica": "Se o creme ficar grosso demais, finge que é “textura premium”, igual o boleto que chegou com multa."
+  },
+  {
+    "id": 1422,
+    "titulo": "Panna Cotta de Café com Chantilly e Chocolate Ralado",
+    "slug": "panna-cotta-de-cafe-com-chantilly-e-chocolate-ralado",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "ml de creme de leite fresco",
+      "ml de café forte coado",
+      "g de açúcar",
+      "folhas de gelatina hidratada",
+      "Chantilly para decorar",
+      "Chocolate meio amargo ralado"
+    ],
+    "modoPreparo": [
+      "Aqueça creme, café e açúcar até dissolver.",
+      "Misture gelatina dissolvida, mexa bem.",
+      "Coloque em forminhas e leve à geladeira por 4 horas.",
+      "Decore com chantilly e chocolate ralado."
+    ],
+    "descricao": "Pra impressionar e mostrar que café é vida, até na sobremesa – diferente do boleto que só traz dor.",
+    "tempo": "4h (incluindo geladeira)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 30,00",
+    "porcoes": "4 porções",
+    "dica": "Se a panna cotta não firmar, finge que é “molhada de emoção”, igual sua conta no fim do mês."
+  },
+  {
+    "id": 1423,
+    "titulo": "Cordeiro ao Molho de Hortelã com Couscous Marroquino",
+    "slug": "cordeiro-ao-molho-de-hortela-com-couscous-marroquino",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "g de pernil de cordeiro em cubos",
+      "xícara de couscous marroquino",
+      "maço de hortelã picado",
+      "cebola picada",
+      "dentes de alho picados",
+      "ml de caldo de carne",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho, doure cordeiro.",
+      "Adicione caldo e cozinhe até carne ficar macia.",
+      "Hidrate o couscous com água quente e sal, solte com garfo.",
+      "Misture hortelã no molho e sirva com couscous."
+    ],
+    "descricao": "Pra impressionar quem gosta de sabores exóticos e não só boletos repetidos.",
+    "tempo": "1h 30min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 75,00",
+    "porcoes": "4 porções",
+    "dica": "Se o cordeiro ficar duro, finge que é “estilo rústico”, igual seu humor na segunda-feira."
+  },
+  {
+    "id": 1424,
+    "titulo": "Terrine de Foie Gras com Geleia de Figo e Torradas",
+    "slug": "terrine-de-foie-gras-com-geleia-de-figo-e-torradas",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "g de foie gras",
+      "Geleia de figo",
+      "Torradas para acompanhar",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o foie gras com sal e pimenta.",
+      "Coloque em forma forrada e asse em banho-maria a 150ºC por 45 minutos.",
+      "Deixe esfriar, leve à geladeira por 2 horas.",
+      "Sirva com geleia e torradas."
+    ],
+    "descricao": "Pra impressionar com aquele toque “VIP” que só quem sabe pagar boleto atrasado tem.",
+    "tempo": "1h 30min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 120,00",
+    "porcoes": "6 porções",
+    "dica": "Se o foie gras não firmar, finge que é “mousse sofisticada”, igual suas desculpas para não pagar boleto cedo."
+  },
+  {
+    "id": 1425,
+    "titulo": "Sushi Gourmet de Salmão com Cream Cheese e Cebolinha",
+    "slug": "sushi-gourmet-de-salmao-com-cream-cheese-e-cebolinha",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "g de arroz para sushi",
+      "g de salmão fresco em tiras",
+      "g de cream cheese",
+      "maço de cebolinha picada",
+      "Vinagre de arroz, açúcar e sal para temperar arroz"
+    ],
+    "modoPreparo": [
+      "Cozinhe o arroz, tempere com vinagre, açúcar e sal.",
+      "Sobre a esteira, espalhe arroz, coloque salmão, cream cheese e cebolinha.",
+      "Enrole firmemente e corte em fatias.",
+      "Sirva com shoyu."
+    ],
+    "descricao": "Porque impressionar é enrolar mais do que boleto que você esquece no bolso.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 60,00",
+    "porcoes": "4 porções",
+    "dica": "Se o rolo abrir, finge que é “sushi desestruturado”, igual seu planejamento financeiro."
+  },
+  {
+    "id": 1426,
+    "titulo": "Creme de Abóbora com Gengibre e Gorgonzola Crocante",
+    "slug": "creme-de-abobora-com-gengibre-e-gorgonzola-crocante",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "g de abóbora descascada e picada",
+      "pedaço de gengibre fresco ralado (1 colher de sopa)",
+      "cebola picada",
+      "litro de caldo de legumes",
+      "g de gorgonzola",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e gengibre, acrescente abóbora e caldo, cozinhe até abóbora ficar macia.",
+      "Bata tudo no liquidificador até virar creme.",
+      "Frite gorgonzola em pedaços pequenos até crocante.",
+      "Sirva creme com gorgonzola por cima."
+    ],
+    "descricao": "Pra impressionar mostrando que abóbora pode ser mais que um susto na vida.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 32,00",
+    "porcoes": "4 porções",
+    "dica": "Se o creme ficar muito forte, finge que é “personalidade marcante”, igual seu boleto atrasado."
+  },
+  {
+    "id": 1427,
+    "titulo": "Pavê de Chocolate com Nozes e Café",
+    "slug": "pave-de-chocolate-com-nozes-e-cafe",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "g de chocolate meio amargo",
+      "ml de creme de leite fresco",
+      "xícara de café forte frio",
+      "g de biscoitos champagne",
+      "g de nozes picadas",
+      "colheres de sopa de açúcar"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate, misture com creme de leite batido e açúcar.",
+      "Molhe os biscoitos no café e faça camadas com creme e nozes.",
+      "Leve à geladeira por 2 horas antes de servir."
+    ],
+    "descricao": "A sobremesa que prova que você sabe misturar ingredientes e não só desculpas.",
+    "tempo": "2h (incluindo geladeira)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 35,00",
+    "porcoes": "6 porções",
+    "dica": "Se o pavê ficar mole, finge que é “pavê de verão”, igual seu ânimo na segunda-feira."
+  },
+  {
+    "id": 1428,
+    "titulo": "Camarão Empanado com Molho Tártaro Caseiro e Salada Crocante",
+    "slug": "camarao-empanado-com-molho-tartaro-caseiro-e-salada-crocante",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "g de camarão limpo",
+      "xícara de farinha de trigo",
+      "ovos batidos",
+      "xícara de farinha de rosca",
+      "g de maionese",
+      "colher de sopa de pepino em conserva picado",
+      "colher de sopa de alcaparras picadas",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Empane os camarões na farinha, ovo e farinha de rosca.",
+      "Frite em óleo quente até dourar, escorra.",
+      "Misture maionese, pepino e alcaparras para o molho tártaro.",
+      "Sirva camarões com molho e salada verde crocante."
+    ],
+    "descricao": "Pra impressionar quem acha que camarão só é bom frito, mas com estilo.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 45,00",
+    "porcoes": "3 porções",
+    "dica": "Se o empanado soltar, finge que é “estilo descontraído”, igual sua organização financeira."
+  },
+  {
+    "id": 1429,
+    "titulo": "Torta Tatin de Maçã com Sorvete de Baunilha",
+    "slug": "torta-tatin-de-maca-com-sorvete-de-baunilha",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "maçãs descascadas e fatiadas",
+      "g de açúcar",
+      "g de manteiga",
+      "disco de massa folhada",
+      "Sorvete de baunilha para acompanhar"
+    ],
+    "modoPreparo": [
+      "Caramelize açúcar com manteiga em forma.",
+      "Arrume as maçãs sobre o caramelo.",
+      "Cubra com massa folhada, asse a 180ºC por 40 minutos.",
+      "Desenforme quente e sirva com sorvete."
+    ],
+    "descricao": "Porque impressionar é fazer doce que não só adoça, mas também surpreende.",
+    "tempo": "1h 20min",
+    "dificuldade": "Médio",
+    "preco": "R$ 38,00",
+    "porcoes": "6 porções",
+    "dica": "Se a torta grudar, finge que é “torta de amor grudenta”, igual boleto que não desgruda da sua vida."
+  },
+  {
+    "id": 1430,
+    "titulo": "Creme de Maracujá com Merengue Crocante",
+    "slug": "creme-de-maracuja-com-merengue-crocante",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "ml de suco de maracujá concentrado",
+      "lata de leite condensado",
+      "claras de ovo",
+      "colheres de sopa de açúcar"
+    ],
+    "modoPreparo": [
+      "Misture suco e leite condensado, leve à geladeira por 2 horas.",
+      "Bata as claras em neve com açúcar até formar merengue firme.",
+      "Sirva creme com merengue por cima e queime levemente com maçarico."
+    ],
+    "descricao": "Pra mostrar que dá pra ser doce e crocante ao mesmo tempo – diferente do boleto que só amarga.",
+    "tempo": "45 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Se o merengue não firmar, finge que é “merengue descolado”, igual sua vontade de pagar boleto."
+  },
+  {
+    "id": 1431,
+    "titulo": "Risoto de Funghi com Azeite de Trufas e Parmesão",
+    "slug": "risoto-de-funghi-com-azeite-de-trufas-e-parmesao",
+    "categoria": "Pra Impressionar ",
+    "ingredientes": [
+      "g de arroz arbóreo",
+      "g de funghi secchi hidratado",
+      "cebola picada",
+      "ml de caldo de legumes quente",
+      "ml de vinho branco",
+      "g de manteiga",
+      "g de parmesão ralado",
+      "colher de chá de azeite de trufas",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola na manteiga, junte arroz e funghi, mexa por 2 minutos.",
+      "Adicione vinho e deixe evaporar.",
+      "Vá adicionando caldo aos poucos, mexendo até o arroz ficar cremoso e al dente.",
+      "Finalize com parmesão, azeite de trufas, ajuste sal e pimenta."
+    ],
+    "descricao": "Pra impressionar quem sabe que trufa é vida – e boleto é só detalhe.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 62,00",
+    "porcoes": "3 porções",
+    "dica": "Se o risoto não ficar cremoso, finge que é “risoto à moda boleto” – duro e complicado de lidar."
+  }
+]

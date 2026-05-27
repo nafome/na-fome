@@ -1,0 +1,989 @@
+[
+  {
+    "id": 117,
+    "titulo": "Omelete dos Deuses Apressados",
+    "slug": "omelete-dos-deuses-apressados",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "ovos",
+      "colheres de sopa de leite",
+      "Sal a gosto",
+      "Pimenta-do-reino a gosto",
+      "colher de sopa de queijo ralado",
+      "colher de sopa de cebola picada"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com leite, sal e pimenta na tigela até ficar homogêneo.",
+      "Aqueça a frigideira e despeje a mistura.",
+      "Quando começar a firmar, adicione queijo e cebola, dobre ao meio e sirva."
+    ],
+    "descricao": "Porque até Zeus precisava de um café rápido antes de julgar os mortais.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Omelete é igual boleto: se você deixar pra depois, vira um problema gigante. Faça logo antes que o sono vença!"
+  },
+  {
+    "id": 118,
+    "titulo": "Tapioca de Queijo com Tomate – O Sol na Panela",
+    "slug": "tapioca-de-queijo-com-tomate-o-sol-na-panela",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "g de queijo muçarela ralado",
+      "fatias de tomate",
+      "Orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Peneire a goma na frigideira aquecida, espalhando em círculo.",
+      "Quando começar a firmar, coloque o queijo e as fatias de tomate.",
+      "Dobre ao meio, polvilhe orégano e sirva quente."
+    ],
+    "descricao": "Pra quem quer o Nordeste no café, mas sem sair do sofá (e da preguiça).",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "1 porção",
+    "dica": "Tapioca é tipo boleto sem juros: fácil de fazer, difícil de resistir. E com queijo, melhor ainda!"
+  },
+  {
+    "id": 119,
+    "titulo": "Smoothie Verde do Acorda, Mulher!",
+    "slug": "smoothie-verde-do-acorda-mulher",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "banana madura",
+      "maçã verde picada",
+      "punhado de espinafre",
+      "ml de água de coco",
+      "colher de sopa de mel"
+    ],
+    "modoPreparo": [
+      "Coloque todos os ingredientes no liquidificador.",
+      "Bata até ficar homogêneo.",
+      "Sirva gelado."
+    ],
+    "descricao": "Porque levantar da cama já é um desafio, mas a saúde não pode esperar.",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "2 porções",
+    "dica": "Smoothie verde é igual reunião de segunda-feira: você sabe que é bom, mas só de pensar já dá sono."
+  },
+  {
+    "id": 120,
+    "titulo": "Pão na Chapa com Manteiga e Café – Clássico da Vida Adulta",
+    "slug": "pao-na-chapa-com-manteiga-e-cafe-classico-da-vida-adulta",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "fatias de pão francês",
+      "colher de sopa de manteiga",
+      "xícara de café preto"
+    ],
+    "modoPreparo": [
+      "Passe manteiga nas fatias de pão.",
+      "Torre na sanduicheira ou frigideira até dourar.",
+      "Prepare o café e sirva junto."
+    ],
+    "descricao": "Porque nada é mais sofisticado que pão com manteiga e o drama do boleto.",
+    "tempo": "12 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "1 porção",
+    "dica": "Pão na chapa é o abraço quente que o boleto não dá. Se der sorte, ainda sobra pra pagar ele."
+  },
+  {
+    "id": 121,
+    "titulo": "Panquecas Americanas Que Nem o Tinder – Rápidas e Prometem Muito",
+    "slug": "panquecas-americanas-que-nem-o-tinder-rapidas-e-prometem-muito",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "colher de sopa de açúcar",
+      "colher de chá de fermento em pó",
+      "ovo",
+      "xícara de leite",
+      "colheres de sopa de manteiga derretida"
+    ],
+    "modoPreparo": [
+      "Misture farinha, açúcar e fermento.",
+      "Adicione ovo, leite e manteiga, misture até ficar homogêneo.",
+      "Cozinhe pequenas porções na frigideira untada até dourar dos dois lados."
+    ],
+    "descricao": "Pra quem acorda com fome e com esperança de que a vida vai melhorar.",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "3 porções",
+    "dica": "Panqueca é igual promessa de político: parece ótimo, mas nem sempre entrega tudo que você quer."
+  },
+  {
+    "id": 122,
+    "titulo": "Iogurte Natural com Granola e Mel – O Refúgio da Preguiça",
+    "slug": "iogurte-natural-com-granola-e-mel-o-refugio-da-preguica",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "pote de iogurte natural (170g)",
+      "colheres de sopa de granola",
+      "colher de sopa de mel"
+    ],
+    "modoPreparo": [
+      "Coloque o iogurte na tigela.",
+      "Adicione a granola por cima.",
+      "Regue com mel e sirva."
+    ],
+    "descricao": "Se levantar da cama é difícil, pelo menos o café pode ser preguiçoso também.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Essa receita é tão fácil que até o boleto atrasado consegue fazer antes do café."
+  },
+  {
+    "id": 123,
+    "titulo": "Cuscuz Nordestino com Manteiga e Queijo Coalho",
+    "slug": "cuscuz-nordestino-com-manteiga-e-queijo-coalho",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "xícara de flocos de milho para cuscuz",
+      "xícara de água",
+      "Sal a gosto",
+      "colheres de sopa de manteiga",
+      "g de queijo coalho fatiado"
+    ],
+    "modoPreparo": [
+      "Coloque os flocos na cuscuzeira e hidrate com a água e sal.",
+      "Cozinhe no vapor por 15 minutos até firmar.",
+      "Sirva com manteiga e queijo coalho frito."
+    ],
+    "descricao": "Pra sentir o Nordeste no coração e o boleto no bolso.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 10,00",
+    "porcoes": "2 porções",
+    "dica": "Cuscuz é igual boleto, demora pra chegar, mas quando vem, marca presença!"
+  },
+  {
+    "id": 124,
+    "titulo": "Vitamina de Mamão com Aveia – Energia que Nem o Boleto",
+    "slug": "vitamina-de-mamao-com-aveia-energia-que-nem-o-boleto",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "/2 mamão papaia",
+      "colheres de sopa de aveia em flocos",
+      "ml de leite",
+      "colher de mel"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar homogêneo.",
+      "Sirva gelado.",
+      "Se preferir, adoce mais com mel."
+    ],
+    "descricao": "Pra te dar aquele gás antes do primeiro café xingando o banco.",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,50",
+    "porcoes": "1 porção",
+    "dica": "Vitamina é tipo boleto: bate rápido, mas se demorar, dá aquela preguiça danada."
+  },
+  {
+    "id": 125,
+    "titulo": "Pão de Queijo Mineiro – O Carinho que o Boleto Não Dá",
+    "slug": "pao-de-queijo-mineiro-o-carinho-que-o-boleto-nao-da",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "g de polvilho doce",
+      "ml de leite",
+      "ml de óleo",
+      "ovo",
+      "g de queijo minas padrão ralado",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Ferva o leite com o óleo e despeje sobre o polvilho, mexendo até formar uma massa.",
+      "Espere esfriar, acrescente o ovo, queijo e sal, misture bem.",
+      "Forme bolinhas, coloque na assadeira e asse a 180ºC por 25 minutos."
+    ],
+    "descricao": "Porque nada cura a crise igual um pãozinho quentinho saindo do forno.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "10 unidades",
+    "dica": "Fazer pão de queijo é igual boleto: no começo parece complicado, mas o resultado vale cada segundo."
+  },
+  {
+    "id": 126,
+    "titulo": "Misto Quente do Sofá – Clássico dos Adultos que Não Querem Sair da Cama",
+    "slug": "misto-quente-do-sofa-classico-dos-adultos-que-nao-querem-sair-da-cama",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "fatias de pão de forma",
+      "fatias de presunto",
+      "fatias de queijo",
+      "Manteiga para passar no pão"
+    ],
+    "modoPreparo": [
+      "Passe manteiga nas fatias de pão.",
+      "Monte o sanduíche com presunto e queijo.",
+      "Leve à sanduicheira ou frigideira até o pão dourar e o queijo derreter."
+    ],
+    "descricao": "Porque às vezes o esforço máximo é ir até a cozinha.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "1 porção",
+    "dica": "O misto quente é igual boleto: simples, rápido e todo mundo precisa encarar."
+  },
+  {
+    "id": 127,
+    "titulo": "Crepioca Proteica do Guerreiro do Café da Manhã",
+    "slug": "crepioca-proteica-do-guerreiro-do-cafe-da-manha",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "ovos",
+      "colheres de sopa de goma de tapioca",
+      "colher de sopa de queijo ralado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com a goma, queijo, sal e pimenta.",
+      "Aqueça a frigideira e despeje a mistura.",
+      "Cozinhe até firmar dos dois lados e sirva."
+    ],
+    "descricao": "Pra quem acorda querendo algo saudável, mas não quer guerra com a panela.",
+    "tempo": "12 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "1 porção",
+    "dica": "Crepioca é igual boleto: se você enrolar, a dor só aumenta."
+  },
+  {
+    "id": 128,
+    "titulo": "Café com Leite Cremoso do Sofrido",
+    "slug": "cafe-com-leite-cremoso-do-sofrido",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "xícara de café coado",
+      "/2 xícara de leite integral",
+      "Açúcar a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite até quase ferver.",
+      "Misture o café coado com o leite quente.",
+      "Adoce a gosto e sirva."
+    ],
+    "descricao": "Porque o café preto não é pra qualquer um – tem que ter coração forte.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,00",
+    "porcoes": "1 porção",
+    "dica": "Café com leite é igual boleto: mistura amarga com doce, mas a gente encara mesmo assim."
+  },
+  {
+    "id": 129,
+    "titulo": "Bolo de Caneca de Banana com Aveia – Para Quem Não Quer Sair da Cama",
+    "slug": "bolo-de-caneca-de-banana-com-aveia-para-quem-nao-quer-sair-da-cama",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "banana madura amassada",
+      "colheres de sopa de aveia em flocos",
+      "ovo",
+      "colher de chá de fermento em pó",
+      "colher de sopa de mel"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes na caneca até ficar homogêneo.",
+      "Leve ao micro-ondas por 3 minutos.",
+      "Deixe esfriar um pouco e coma direto da caneca."
+    ],
+    "descricao": "Porque no café da manhã, às vezes o micro-ondas é o melhor amigo da preguiça.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,50",
+    "porcoes": "1 porção",
+    "dica": "Esse bolo é tipo boleto digital: rápido, prático e você nem sente que aconteceu."
+  },
+  {
+    "id": 130,
+    "titulo": "Pão Integral com Abacate e Ovo Cozido – O Café da Consciência",
+    "slug": "pao-integral-com-abacate-e-ovo-cozido-o-cafe-da-consciencia",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "fatias de pão integral",
+      "/2 abacate maduro",
+      "ovo cozido",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o ovo por 8 minutos, descasque e fatie.",
+      "Amasse o abacate, tempere com sal e pimenta.",
+      "Passe o abacate no pão, coloque o ovo fatiado por cima e sirva."
+    ],
+    "descricao": "Pra fingir que é fitness enquanto pensa no boleto do mês.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "1 porção",
+    "dica": "Essa combinação é igual boleto: saudável, mas sempre dá aquele aperto no coração."
+  },
+  {
+    "id": 131,
+    "titulo": "Mingau de Aveia com Canela e Maçã – O Conforto em Forma de Café",
+    "slug": "mingau-de-aveia-com-canela-e-maca-o-conforto-em-forma-de-cafe",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "/2 xícara de aveia em flocos",
+      "xícara de leite",
+      "maçã picada",
+      "colher de chá de canela em pó",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a aveia no leite até engrossar.",
+      "Adicione a maçã e canela, misture bem.",
+      "Adoce com mel e sirva quente."
+    ],
+    "descricao": "Pra quando o corpo tá cansado, mas o boleto não deixa a mente descansar.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Mingau é tipo boleto atrasado: não é o ideal, mas às vezes é o que salva o dia."
+  },
+  {
+    "id": 132,
+    "titulo": "Sanduíche Natural de Frango com Maionese Caseira",
+    "slug": "sanduiche-natural-de-frango-com-maionese-caseira",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "filés de frango cozidos e desfiados",
+      "fatias de pão integral",
+      "colheres de sopa de maionese caseira",
+      "Alface e tomate a gosto",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o frango com a maionese, sal e pimenta.",
+      "Monte o sanduíche com pão, frango, alface e tomate.",
+      "Sirva fresco."
+    ],
+    "descricao": "Pra fingir que tá saudável enquanto o boleto queima sua alma.",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Sanduíche natural é igual boleto: parece leve, mas pesa no final do mês."
+  },
+  {
+    "id": 133,
+    "titulo": "Crepe Doce de Nutella com Morango – O Pecado Permitido",
+    "slug": "crepe-doce-de-nutella-com-morango-o-pecado-permitido",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "xícara de leite",
+      "ovo",
+      "colher de sopa de açúcar",
+      "Nutella a gosto",
+      "Morangos fatiados a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a farinha, leite, ovo e açúcar até formar massa líquida.",
+      "Cozinhe a massa na frigideira formando crepes finos.",
+      "Recheie com Nutella e morangos, dobre e sirva."
+    ],
+    "descricao": "Porque às vezes o boleto pode esperar, mas o doce não.",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "2 porções",
+    "dica": "Crepe é igual boleto: você sabe que vai pesar, mas não resiste ao charme."
+  },
+  {
+    "id": 134,
+    "titulo": "Café Gelado com Leite Condensado – O Acorda, Negão",
+    "slug": "cafe-gelado-com-leite-condensado-o-acorda-negao",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "xícara de café forte coado e gelado",
+      "ml de leite",
+      "colheres de sopa de leite condensado",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o café, leite e leite condensado em um copo.",
+      "Adicione gelo a gosto.",
+      "Mexa bem e sirva gelado."
+    ],
+    "descricao": "Pra quem precisa de um café que bata mais forte que boleto atrasado.",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "1 porção",
+    "dica": "Café gelado com leite condensado é igual boleto: doce na boca, mas pesado na consciência."
+  },
+  {
+    "id": 135,
+    "titulo": "Muffin Integral de Banana e Nozes – O Café da Manhã que Abraça",
+    "slug": "muffin-integral-de-banana-e-nozes-o-cafe-da-manha-que-abraca",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "bananas maduras amassadas",
+      "xícara de farinha integral",
+      "/2 xícara de açúcar mascavo",
+      "/2 xícara de nozes picadas",
+      "ovo",
+      "/3 xícara de óleo vegetal",
+      "colher de chá de fermento em pó"
+    ],
+    "modoPreparo": [
+      "Misture bananas, ovo e óleo.",
+      "Adicione farinha, açúcar, fermento e nozes, mexa até homogeneizar.",
+      "Coloque nas forminhas e asse a 180ºC por 25 minutos."
+    ],
+    "descricao": "Pra quem quer um café gostoso, mas sem que a vida vire uma novela.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 13,00",
+    "porcoes": "6 unidades",
+    "dica": "Muffin integral é igual boleto: parece saudável, mas sempre tem um peso no final."
+  },
+  {
+    "id": 136,
+    "titulo": "Salada de Frutas com Iogurte e Granola – O Café da Manhã dos Justos",
+    "slug": "salada-de-frutas-com-iogurte-e-granola-o-cafe-da-manha-dos-justos",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "maçã picada",
+      "banana fatiada",
+      "/2 mamão picado",
+      "pote de iogurte natural",
+      "colheres de sopa de granola"
+    ],
+    "modoPreparo": [
+      "Misture as frutas na tigela.",
+      "Adicione o iogurte e misture delicadamente.",
+      "Polvilhe granola por cima e sirva."
+    ],
+    "descricao": "Pra quem quer algo leve, mas o boleto não deixa ser leve na vida.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "2 porções",
+    "dica": "Salada de frutas é igual boleto: colorida e cheia de problemas escondidos."
+  },
+  {
+    "id": 137,
+    "titulo": "Café com Pão de Mel – A Doçura que o Boleto Esconde",
+    "slug": "cafe-com-pao-de-mel-a-docura-que-o-boleto-esconde",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "xícara de mel",
+      "ovos",
+      "/2 xícara de açúcar mascavo",
+      "/2 xícara de leite",
+      "xícaras de farinha de trigo",
+      "colher de chá de bicarbonato",
+      "colher de chá de canela em pó",
+      "colher de chá de cravo em pó"
+    ],
+    "modoPreparo": [
+      "Misture mel, ovos, açúcar e leite.",
+      "Acrescente farinha, bicarbonato e especiarias, mexa até homogeneizar.",
+      "Asse em forma untada a 180ºC por 30 minutos."
+    ],
+    "descricao": "Porque às vezes a vida precisa de um doce pra enganar o cartão.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Pão de mel é igual boleto: doce de início, amargo no fim do mês."
+  },
+  {
+    "id": 138,
+    "titulo": "Waffle Salgado com Queijo e Presunto – O Café da Preguiça Gourmet",
+    "slug": "waffle-salgado-com-queijo-e-presunto-o-cafe-da-preguica-gourmet",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "xícara de farinha de trigo",
+      "ovo",
+      "/2 xícara de leite",
+      "colher de chá de fermento em pó",
+      "g de queijo ralado",
+      "g de presunto picado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture farinha, fermento, ovo, leite e temperos até formar massa.",
+      "Acrescente queijo e presunto, mexa delicadamente.",
+      "Cozinhe na máquina de waffle até dourar e sirva."
+    ],
+    "descricao": "Pra quando você quer acordar bem, mas sem levantar correndo.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Waffle salgado é igual boleto: cheio de pedaços que você nem sempre quer encarar."
+  },
+  {
+    "id": 139,
+    "titulo": "Pão Sírio com Homus e Pepino – O Café da Paz Interior",
+    "slug": "pao-sirio-com-homus-e-pepino-o-cafe-da-paz-interior",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "pães sírios",
+      "g de homus",
+      "/2 pepino fatiado",
+      "Azeite a gosto",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Corte o pão sírio ao meio.",
+      "Espalhe homus, coloque fatias de pepino.",
+      "Tempere com azeite, sal e pimenta e sirva."
+    ],
+    "descricao": "Pra quem quer um café leve, mas o boleto grita no fundo.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 11,00",
+    "porcoes": "2 porções",
+    "dica": "Homus no café é igual boleto: parece tranquilo, mas deixa você com um gostinho amargo."
+  },
+  {
+    "id": 140,
+    "titulo": "Ovos Mexidos com Espinafre e Tomate – O Café da Rotina Saudável",
+    "slug": "ovos-mexidos-com-espinafre-e-tomate-o-cafe-da-rotina-saudavel",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "ovos",
+      "punhado de espinafre",
+      "tomate picado",
+      "Sal e pimenta a gosto",
+      "colher de sopa de azeite"
+    ],
+    "modoPreparo": [
+      "Bata os ovos e tempere com sal e pimenta.",
+      "Aqueça o azeite, refogue espinafre e tomate rapidamente.",
+      "Adicione os ovos e mexa até firmar."
+    ],
+    "descricao": "Pra quem tenta ser fitness, mas tá só no começo da saga.",
+    "tempo": "12 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "1 porção",
+    "dica": "Ovos mexidos são igual boleto: simples, mas nunca passam despercebidos."
+  },
+  {
+    "id": 141,
+    "titulo": "Cacau Quente com Marshmallow – O Abraço do Boleto no Inverno",
+    "slug": "cacau-quente-com-marshmallow-o-abraco-do-boleto-no-inverno",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "xícaras de leite",
+      "colheres de sopa de cacau em pó",
+      "colheres de sopa de açúcar",
+      "Marshmallows para decorar"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite com cacau e açúcar até quase ferver, mexendo.",
+      "Sirva nas canecas e coloque marshmallows por cima.",
+      "Espere derreter um pouco antes de beber."
+    ],
+    "descricao": "Porque nada esquenta mais que a conta atrasada (mas esse cacau ajuda).",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "2 porções",
+    "dica": "Cacau quente é igual boleto: doce e quente, mas que deixa a alma em chamas."
+  },
+  {
+    "id": 142,
+    "titulo": "Bruschetta de Abacate com Tomate e Manjericão – Café da Manhã Estiloso",
+    "slug": "bruschetta-de-abacate-com-tomate-e-manjericao-cafe-da-manha-estiloso",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "pão baguete fatiado",
+      "abacate maduro amassado",
+      "tomate picado",
+      "Folhas de manjericão fresco",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Torre as fatias de pão.",
+      "Espalhe o abacate, coloque tomate e manjericão.",
+      "Tempere com sal e pimenta e sirva."
+    ],
+    "descricao": "Pra impressionar no café, mesmo que o boleto não permita.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "2 porções",
+    "dica": "Bruschetta é igual boleto: parece chique, mas no fundo é só pão com problemas."
+  },
+  {
+    "id": 143,
+    "titulo": "Suco Detox de Laranja, Cenoura e Gengibre – O Café da Vida Real",
+    "slug": "suco-detox-de-laranja-cenoura-e-gengibre-o-cafe-da-vida-real",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "laranjas espremidas",
+      "cenoura média picada",
+      "pedaço pequeno de gengibre",
+      "Água a gosto"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador com água.",
+      "Coe se preferir mais suave.",
+      "Sirva gelado."
+    ],
+    "descricao": "Pra tentar enganar o corpo que o boleto não tá destruindo tudo.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "2 porções",
+    "dica": "Suco detox é igual boleto: promete limpar, mas só acumula mais."
+  },
+  {
+    "id": 144,
+    "titulo": "Croissant Recheado com Presunto e Queijo – O Café da Preguiça Chique",
+    "slug": "croissant-recheado-com-presunto-e-queijo-o-cafe-da-preguica-chique",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "croissants prontos",
+      "fatias de presunto",
+      "fatias de queijo",
+      "Manteiga para pincelar"
+    ],
+    "modoPreparo": [
+      "Corte os croissants ao meio.",
+      "Recheie com presunto e queijo.",
+      "Pincele manteiga e leve ao forno a 180ºC por 10 minutos."
+    ],
+    "descricao": "Pra quem quer luxo no café, mas sem esforço de novela.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 16,00",
+    "porcoes": "2 porções",
+    "dica": "Croissant recheado é igual boleto: parece caro, mas no fim todo mundo paga."
+  },
+  {
+    "id": 145,
+    "titulo": "Tapioca Doce com Coco e Leite Condensado – O Café da Felicidade Instantânea",
+    "slug": "tapioca-doce-com-coco-e-leite-condensado-o-cafe-da-felicidade-instantanea",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "colheres de sopa de coco ralado",
+      "Leite condensado a gosto"
+    ],
+    "modoPreparo": [
+      "Peneire a goma na frigideira aquecida formando um disco.",
+      "Quando firmar, vire e aqueça o outro lado.",
+      "Recheie com coco ralado e regue leite condensado, dobre e sirva."
+    ],
+    "descricao": "Porque às vezes o boleto pode esperar, mas a gula não.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Tapioca doce é igual boleto: chega doce, mas deixa um peso no final."
+  },
+  {
+    "id": 146,
+    "titulo": "Pão Francês com Requeijão e Mel – O Café da Simplicidade",
+    "slug": "pao-frances-com-requeijao-e-mel-o-cafe-da-simplicidade",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "pão francês",
+      "colheres de sopa de requeijão",
+      "colher de chá de mel"
+    ],
+    "modoPreparo": [
+      "Corte o pão ao meio.",
+      "Passe requeijão em ambas as partes.",
+      "Regue com mel e sirva."
+    ],
+    "descricao": "Pra quem quer acordar bem, mas o boleto não ajuda no estilo.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "1 porção",
+    "dica": "Pão francês com mel é igual boleto: simples, mas te dá aquela energia (ou susto) na hora."
+  },
+  {
+    "id": 147,
+    "titulo": "Iogurte Grego com Frutas Vermelhas e Semente de Chia – O Café da Alma Fitness",
+    "slug": "iogurte-grego-com-frutas-vermelhas-e-semente-de-chia-o-cafe-da-alma-fitness",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "pote de iogurte grego",
+      "/2 xícara de frutas vermelhas",
+      "colher de sopa de semente de chia"
+    ],
+    "modoPreparo": [
+      "Coloque o iogurte na tigela.",
+      "Adicione as frutas e as sementes por cima.",
+      "Misture ou coma assim, pra foto."
+    ],
+    "descricao": "Pra quem quer parecer saudável no Instagram, mas só quer café mesmo.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "1 porção",
+    "dica": "Iogurte grego é igual boleto: parece sofisticado, mas no fim é só mais uma conta."
+  },
+  {
+    "id": 148,
+    "titulo": "Torrada Francesa com Canela e Açúcar – O Café da Nostalgia",
+    "slug": "torrada-francesa-com-canela-e-acucar-o-cafe-da-nostalgia",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "fatias de pão de forma",
+      "ovos",
+      "/2 xícara de leite",
+      "colher de chá de canela",
+      "Açúcar a gosto",
+      "Manteiga para fritar"
+    ],
+    "modoPreparo": [
+      "Bata ovos, leite, canela e açúcar na tigela.",
+      "Molhe as fatias de pão na mistura.",
+      "Frite na manteiga até dourar dos dois lados."
+    ],
+    "descricao": "Pra quem quer sentir o gostinho da infância, mesmo com boleto adulto.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "2 porções",
+    "dica": "Torrada francesa é igual boleto: doce e irresistível, mas te lembra que a vida não é só festa."
+  },
+  {
+    "id": 149,
+    "titulo": "Chá Mate com Limão e Hortelã – O Café da Manhã Refrescante",
+    "slug": "cha-mate-com-limao-e-hortela-o-cafe-da-manha-refrescante",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "sachês de chá mate",
+      "limão fatiado",
+      "Folhas de hortelã a gosto",
+      "Açúcar a gosto",
+      "ml de água"
+    ],
+    "modoPreparo": [
+      "Ferva a água e coloque os sachês para infusão por 5 minutos.",
+      "Retire os sachês, adoce a gosto, adicione limão e hortelã.",
+      "Sirva gelado ou quente."
+    ],
+    "descricao": "Pra tentar refrescar a mente antes do boleto queimar o bolso.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,00",
+    "porcoes": "2 porções",
+    "dica": "Chá mate é igual boleto: refresca na hora, mas não resolve o problema."
+  },
+  {
+    "id": 150,
+    "titulo": "Crepioca de Banana com Canela – O Café da Doce Tentação",
+    "slug": "crepioca-de-banana-com-canela-o-cafe-da-doce-tentacao",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "ovos",
+      "colheres de sopa de goma de tapioca",
+      "banana amassada",
+      "Canela a gosto"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com a goma e a banana, adicione canela.",
+      "Aqueça a frigideira e despeje a mistura.",
+      "Cozinhe até firmar dos dois lados e sirva."
+    ],
+    "descricao": "Pra quem quer acordar saudável, mas o boleto insiste em adoçar a vida.",
+    "tempo": "12 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "1 porção",
+    "dica": "Crepioca doce é igual boleto: tenta ser saudável, mas acaba sendo um drama."
+  },
+  {
+    "id": 151,
+    "titulo": "Sanduíche de Ricota com Mel e Nozes – O Café de Quem Tá na Correria",
+    "slug": "sanduiche-de-ricota-com-mel-e-nozes-o-cafe-de-quem-ta-na-correria",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "fatias de pão integral",
+      "colheres de sopa de ricota amassada",
+      "colher de sopa de mel",
+      "Nozes picadas a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a ricota com mel.",
+      "Passe a mistura no pão, salpique nozes por cima.",
+      "Feche o sanduíche e sirva."
+    ],
+    "descricao": "Pra quem mal tem tempo, mas quer fingir que se importa.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "1 porção",
+    "dica": "Esse sanduíche é igual boleto: rápido, mas com aquele gostinho amargo no final."
+  },
+  {
+    "id": 152,
+    "titulo": "Mingau de Milho Verde com Coco – O Café que Abraça o Boleto",
+    "slug": "mingau-de-milho-verde-com-coco-o-cafe-que-abraca-o-boleto",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "espigas de milho verde debulhadas",
+      "ml de leite de coco",
+      "colheres de sopa de açúcar",
+      "Coco ralado para decorar"
+    ],
+    "modoPreparo": [
+      "Bata o milho com um pouco de leite de coco no liquidificador.",
+      "Coe e leve à panela com o restante do leite de coco e açúcar.",
+      "Cozinhe mexendo até engrossar, decore com coco ralado e sirva."
+    ],
+    "descricao": "Pra aquecer o coração enquanto a conta aperta o bolso.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 8,50",
+    "porcoes": "2 porções",
+    "dica": "Mingau de milho é igual boleto: doce, mas que pesa na alma e no bolso."
+  },
+  {
+    "id": 153,
+    "titulo": "Pão Sírio com Pasta de Atum – O Café da Sobrevivência",
+    "slug": "pao-sirio-com-pasta-de-atum-o-cafe-da-sobrevivencia",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "pão sírio",
+      "lata de atum em água",
+      "colheres de sopa de maionese",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o atum com a maionese, sal e pimenta.",
+      "Corte o pão sírio e recheie com a pasta de atum.",
+      "Sirva fresco."
+    ],
+    "descricao": "Pra quem quer algo rápido antes de encarar o dia e o boleto.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "1 porção",
+    "dica": "Pão sírio com atum é igual boleto: simples, mas garante que você não desmorone antes do almoço."
+  },
+  {
+    "id": 154,
+    "titulo": "Panqueca de Aveia com Mel e Frutas – O Café da Esperança",
+    "slug": "panqueca-de-aveia-com-mel-e-frutas-o-cafe-da-esperanca",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "xícara de aveia em flocos",
+      "ovo",
+      "/2 xícara de leite",
+      "Mel a gosto",
+      "Frutas picadas a gosto"
+    ],
+    "modoPreparo": [
+      "Misture aveia, ovo e leite até formar massa.",
+      "Cozinhe na frigideira até dourar dos dois lados.",
+      "Sirva com mel e frutas por cima."
+    ],
+    "descricao": "Pra quem acredita que o café da manhã pode mudar o dia (e o boleto).",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 11,00",
+    "porcoes": "2 porções",
+    "dica": "Panqueca de aveia é igual boleto: você sabe que é bom, mas bate aquela vontade de desistir."
+  },
+  {
+    "id": 155,
+    "titulo": "Pão Francês com Geleia Caseira – O Café da Simplicidade que Salva",
+    "slug": "pao-frances-com-geleia-caseira-o-cafe-da-simplicidade-que-salva",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "pão francês",
+      "colheres de sopa de geleia de frutas"
+    ],
+    "modoPreparo": [
+      "Corte o pão ao meio.",
+      "Passe a geleia nas duas partes.",
+      "Sirva."
+    ],
+    "descricao": "Pra quem quer doçura na vida, mesmo com boleto na carteira vazia.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Pão com geleia é igual boleto: simples, mas dá aquele gostinho que conforta o coração."
+  },
+  {
+    "id": 156,
+    "titulo": "Omelete de Claras com Espinafre – O Café dos Fitness que Sofrem",
+    "slug": "omelete-de-claras-com-espinafre-o-cafe-dos-fitness-que-sofrem",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "claras de ovo",
+      "punhado de espinafre picado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Bata as claras com sal e pimenta.",
+      "Refogue o espinafre rapidamente na frigideira.",
+      "Despeje as claras, cozinhe até firmar e sirva."
+    ],
+    "descricao": "Pra quem quer proteína, mas o boleto só deixa comer vontade.",
+    "tempo": "12 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "1 porção",
+    "dica": "Omelete de claras é igual boleto: leve no começo, mas pesa no final do mês."
+  },
+  {
+    "id": 157,
+    "titulo": "Café com Leite de Amêndoas e Canela – O Café que Engana o Boleto",
+    "slug": "cafe-com-leite-de-amendoas-e-canela-o-cafe-que-engana-o-boleto",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "xícara de café coado",
+      "/2 xícara de leite de amêndoas",
+      "pitada de canela em pó",
+      "Açúcar a gosto"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite de amêndoas com canela.",
+      "Misture com o café coado.",
+      "Adoce a gosto e sirva."
+    ],
+    "descricao": "Pra dar aquela sensação de luxo enquanto conta os centavos.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Café com leite de amêndoas é igual boleto: parece caro, mas no fim só pesa no bolso."
+  },
+  {
+    "id": 158,
+    "titulo": "Tapioca de Frango com Catupiry – O Café da Preguiça com Sabor",
+    "slug": "tapioca-de-frango-com-catupiry-o-cafe-da-preguica-com-sabor",
+    "categoria": "Cafe Da Manha ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "g de frango desfiado temperado",
+      "colheres de sopa de catupiry"
+    ],
+    "modoPreparo": [
+      "Peneire a goma na frigideira aquecida formando discos.",
+      "Quando firmar, adicione frango e catupiry, dobre a tapioca.",
+      "Cozinhe mais um pouco e sirva quente."
+    ],
+    "descricao": "Pra quem quer praticidade, mas não abre mão do sabor (e do boleto).",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "2 porções",
+    "dica": "Tapioca recheada é igual boleto: cheia de surpresas que nem sempre são boas."
+  }
+]

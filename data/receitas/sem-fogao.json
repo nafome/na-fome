@@ -1,0 +1,929 @@
+[
+  {
+    "id": 1542,
+    "titulo": "Salada Power Pós-Treino do Sofá",
+    "slug": "salada-power-pos-treino-do-sofa",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "g peito de frango defumado fatiado",
+      "xícara de quinoa cozida (comprada pronta)",
+      "/2 pepino picado",
+      "tomates-cereja cortados ao meio",
+      "/4 xícara de grão-de-bico enlatado, escorrido",
+      "colheres de sopa de azeite extra virgem",
+      "Suco de 1 limão",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Em uma tigela grande, misture a quinoa, o pepino, tomates e grão-de-bico.",
+      "Acrescente o peito de frango defumado e tempere com azeite, limão, sal e pimenta.",
+      "Mexa delicadamente e sirva imediatamente, antes que a preguiça vença."
+    ],
+    "descricao": "Porque malhar na academia já cansa, imagina cozinhar depois!",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "2 porções",
+    "dica": "Se a preguiça bater forte, lembra que até boletos a gente paga sem sair do sofá. Essa salada é igual: saudável, fácil e sem esforço!"
+  },
+  {
+    "id": 1543,
+    "titulo": "Sanduíche Sofisticado de Atum com Abacate",
+    "slug": "sanduiche-sofisticado-de-atum-com-abacate",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "lata de atum em água, escorrido",
+      "/2 abacate maduro",
+      "fatias de pão integral",
+      "colher de sopa de maionese light",
+      "Sal e pimenta-do-reino a gosto",
+      "Folhas de alface para decorar"
+    ],
+    "modoPreparo": [
+      "Amasse o abacate com um garfo até virar um creme.",
+      "Misture o atum, a maionese, sal e pimenta ao creme de abacate.",
+      "Espalhe a mistura nas fatias de pão, decore com alface e feche o sanduíche."
+    ],
+    "descricao": "Porque amar a si mesmo inclui não queimar a cozinha",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vida te der abacate, faz sanduíche. Pelo menos ele não vai te perguntar “quando vai lavar a louça”."
+  },
+  {
+    "id": 1544,
+    "titulo": "Taça Romântica de Camarão com Manga",
+    "slug": "taca-romantica-de-camarao-com-manga",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "g camarão cozido e descascado (pronto para consumo)",
+      "manga pequena cortada em cubos",
+      "/2 cebola roxa picada finamente",
+      "Suco de 1 limão",
+      "colheres de sopa de coentro picado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Em uma tigela, misture o camarão, a manga, cebola, coentro e suco de limão.",
+      "Tempere com sal e pimenta, mexa delicadamente.",
+      "Distribua em taças e leve à geladeira por 10 minutos antes de servir."
+    ],
+    "descricao": "Porque conquistar o crush é mais fácil que acender um fogão",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 42,00",
+    "porcoes": "2 porções",
+    "dica": "Se o crush não se impressionar com isso, pelo menos você não precisou apagar incêndio na cozinha. Já é um upgrade!"
+  },
+  {
+    "id": 1545,
+    "titulo": "Overnight Oats Energético com Frutas Vermelhas",
+    "slug": "overnight-oats-energetico-com-frutas-vermelhas",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "/2 xícara de aveia em flocos",
+      "/2 xícara de leite vegetal ou leite de sua preferência",
+      "colher de sopa de chia",
+      "colher de chá de mel",
+      "/4 xícara de frutas vermelhas congeladas ou frescas"
+    ],
+    "modoPreparo": [
+      "Em um pote, misture a aveia, leite, chia e mel.",
+      "Cubra com as frutas vermelhas e tampe o pote.",
+      "Leve à geladeira durante a noite e coma no dia seguinte, sem culpa e sem fogueira."
+    ],
+    "descricao": "O café da manhã que trabalha mais que você (e sem fogão)",
+    "tempo": "8 horas (de descanso)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,50",
+    "porcoes": "1 porção",
+    "dica": "Se a vida te deixar na seca, essa aveia vai te hidratar. Sem fogão, sem drama, só sabor e energia."
+  },
+  {
+    "id": 1546,
+    "titulo": "Wrap Mediterrâneo de Grão-de-Bico",
+    "slug": "wrap-mediterraneo-de-grao-de-bico",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "pão sírio integral",
+      "/2 xícara de grão-de-bico enlatado, escorrido",
+      "colheres de sopa de homus",
+      "folhas de rúcula",
+      "/4 pepino fatiado fino",
+      "azeitonas pretas fatiadas",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Espalhe o homus sobre o pão sírio.",
+      "Distribua o grão-de-bico, rúcula, pepino e azeitonas.",
+      "Tempere com sal e pimenta, enrole como se enrolasse os problemas e sirva."
+    ],
+    "descricao": "Porque enrolar a vida já basta, enrolar comida também é vida",
+    "tempo": "12 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "1 porção",
+    "dica": "Enrolar comida é menos traumático que enrolar boletos. Pelo menos essa receita não fica atrasada!"
+  },
+  {
+    "id": 1547,
+    "titulo": "Mix de Frutas com Iogurte Grego e Mel",
+    "slug": "mix-de-frutas-com-iogurte-grego-e-mel",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "pote de iogurte grego natural (150g)",
+      "/2 maçã picada",
+      "/4 xícara de uvas sem sementes",
+      "colher de sopa de mel",
+      "colher de sopa de granola (opcional)"
+    ],
+    "modoPreparo": [
+      "Coloque o iogurte em uma tigela.",
+      "Acrescente as frutas picadas, mel e granola por cima.",
+      "Misture levemente e aproveite antes que o sono vença."
+    ],
+    "descricao": "O único mix que você precisa na vida: frutas e preguiça",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vida te der preguiça, faça isso. É tão fácil que até o seu cachorro vai se sentir inútil."
+  },
+  {
+    "id": 1548,
+    "titulo": "Bruschetta de Tomate e Manjericão Sem Forno",
+    "slug": "bruschetta-de-tomate-e-manjericao-sem-forno",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "fatias de pão integral sem tostar",
+      "tomates maduros picados",
+      "folhas de manjericão fresco picadas",
+      "colheres de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o tomate, manjericão, azeite, sal e pimenta.",
+      "Distribua a mistura sobre as fatias de pão.",
+      "Sirva imediatamente antes que o pão fique triste de molhar."
+    ],
+    "descricao": "Porque às vezes só queremos algo chique sem sujar a cozinha inteira",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida não te der forno, faça uma bruschetta sem ele. É quase como um beijo: pode não ser quente, mas é saboroso!"
+  },
+  {
+    "id": 1549,
+    "titulo": "Salpicão Vegano de Cenoura e Maçã",
+    "slug": "salpicao-vegano-de-cenoura-e-maca",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "cenouras médias raladas",
+      "maçã verde picada em cubos pequenos",
+      "/2 cebola roxa picada finamente",
+      "/3 xícara de uvas-passas",
+      "/3 xícara de castanhas picadas",
+      "colheres de sopa de maionese vegana",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Em uma tigela, misture cenoura, maçã, cebola, uvas-passas e castanhas.",
+      "Adicione a maionese vegana, tempere com sal e pimenta.",
+      "Misture bem e sirva gelado, para não perder o ritmo da preguiça."
+    ],
+    "descricao": "Porque até a salada merece festa, sem fogo e sem drama",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "3 porções",
+    "dica": "Se a vida te der cenoura, faça salpicão. Se der preguiça, coloque mais maionese. Ninguém precisa saber!"
+  },
+  {
+    "id": 1550,
+    "titulo": "Poke Bowl de Salmão Defumado",
+    "slug": "poke-bowl-de-salmao-defumado",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "g salmão defumado fatiado",
+      "/2 xícara de arroz integral cozido comprado pronto",
+      "/4 pepino em cubos",
+      "/4 abacate em fatias",
+      "colher de sopa de molho shoyu",
+      "colher de chá de gergelim preto",
+      "Cebolinha picada a gosto"
+    ],
+    "modoPreparo": [
+      "Em uma tigela, coloque o arroz integral como base.",
+      "Arrume o salmão, pepino e abacate por cima.",
+      "Regue com o shoyu, salpique gergelim e finalize com cebolinha."
+    ],
+    "descricao": "Porque até quem não sabe cozinhar merece parecer chef no Instagram",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 36,00",
+    "porcoes": "1 porção",
+    "dica": "Se cozinhar é um bicho de sete cabeças, montar poke é só um bicho-papão. Mas calma, ele é bonzinho!"
+  },
+  {
+    "id": 1551,
+    "titulo": "Bowl Refrescante de Melancia e Queijo Feta",
+    "slug": "bowl-refrescante-de-melancia-e-queijo-feta",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "xícaras de melancia em cubos",
+      "g queijo feta esfarelado",
+      "Folhas de hortelã a gosto",
+      "Suco de 1/2 limão",
+      "colher de sopa de azeite"
+    ],
+    "modoPreparo": [
+      "Misture a melancia com queijo feta e hortelã.",
+      "Regue com suco de limão e azeite.",
+      "Sirva gelado, porque só o boleto pode queimar você."
+    ],
+    "descricao": "Porque só o boleto esquenta, a comida não precisa",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Se o calor te deixa derretendo, essa receita é tipo ar-condicionado no prato. Sem fio, sem barulho!"
+  },
+  {
+    "id": 1552,
+    "titulo": "Salada Caprese no Pote",
+    "slug": "salada-caprese-no-pote",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "g queijo mussarela de búfala em bolinhas",
+      "tomates-cereja cortados ao meio",
+      "Folhas de manjericão fresco",
+      "colheres de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "No pote, coloque camadas de tomate, queijo e manjericão.",
+      "Tempere com azeite, sal e pimenta em cada camada.",
+      "Tampe e leve à geladeira até o momento de servir."
+    ],
+    "descricao": "Porque até a salada gosta de uma vida prática e sem fogo",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida te der potes, faz salada no pote. Pelo menos você não vai precisar lavar a cozinha toda depois."
+  },
+  {
+    "id": 1553,
+    "titulo": "Creme de Abacate com Cacau e Mel",
+    "slug": "creme-de-abacate-com-cacau-e-mel",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "abacate pequeno maduro",
+      "colheres de sopa de cacau em pó sem açúcar",
+      "colher de sopa de mel",
+      "colher de chá de essência de baunilha"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até virar um creme homogêneo.",
+      "Coloque em tigelas e leve à geladeira por 10 minutos.",
+      "Sirva gelado, porque o calor já é problema suficiente."
+    ],
+    "descricao": "Porque às vezes o doce da vida vem sem forno e sem culpa",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida te der abacate e preguiça, faz esse creme. É tipo brigadeiro, só que sem ter que ligar o fogo."
+  },
+  {
+    "id": 1554,
+    "titulo": "Salada de Grãos com Frutas Secas",
+    "slug": "salada-de-graos-com-frutas-secas",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "xícara de lentilhas cozidas (compradas prontas)",
+      "/4 xícara de damascos secos picados",
+      "/4 xícara de nozes picadas",
+      "colheres de sopa de azeite",
+      "Suco de 1 limão",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture as lentilhas, damascos e nozes em uma tigela.",
+      "Tempere com azeite, limão, sal e pimenta.",
+      "Mexa bem e sirva na hora ou gelado."
+    ],
+    "descricao": "Porque até a mistura tem mais equilíbrio que minha vida financeira",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 19,00",
+    "porcoes": "3 porções",
+    "dica": "Se a vida te der grãos, faça salada. Se der dívida, pelo menos você vai estar saudável para pagar."
+  },
+  {
+    "id": 1555,
+    "titulo": "Ceviche de Tilápia Rápido",
+    "slug": "ceviche-de-tilapia-rapido",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "g filé de tilápia fresco cortado em cubos pequenos",
+      "Suco de 3 limões",
+      "/2 cebola roxa fatiada fina",
+      "pimenta dedo-de-moça sem sementes picada",
+      "Coentro picado a gosto",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Em tigela, cubra o peixe com o suco de limão e deixe marinar por 15 minutos.",
+      "Adicione a cebola, pimenta, coentro e sal.",
+      "Misture delicadamente e sirva gelado."
+    ],
+    "descricao": "Porque peixe cru é o fogo que você não precisa acender",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "2 porções",
+    "dica": "Se cozinhar é um pesadelo, marinar é o sonho. Só cuidado pra não marinar o crush junto, que isso é cilada!"
+  },
+  {
+    "id": 1556,
+    "titulo": "Smoothie Verde Detox",
+    "slug": "smoothie-verde-detox",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "folha grande de couve rasgada",
+      "maçã verde picada",
+      "/2 pepino picado",
+      "Suco de 1 limão",
+      "ml de água de coco",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador até ficar homogêneo.",
+      "Sirva gelado em um copo grande.",
+      "Beba antes que o tédio te ataque."
+    ],
+    "descricao": "Porque se a vida é amarga, o suco pelo menos pode ser verde e doce",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 13,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vida te der limão, faz smoothie. Se der preguiça, bota gelo e deixa a preguiça congelar também."
+  },
+  {
+    "id": 1557,
+    "titulo": "Salada de Abacaxi com Hortelã e Gengibre",
+    "slug": "salada-de-abacaxi-com-hortela-e-gengibre",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "xícaras de abacaxi em cubos",
+      "Folhas de hortelã picadas a gosto",
+      "colher de chá de gengibre ralado",
+      "Suco de 1 limão",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o abacaxi com hortelã e gengibre na tigela.",
+      "Regue com suco de limão e mel.",
+      "Mexa e sirva gelado para refrescar a alma."
+    ],
+    "descricao": "Porque até a combinação mais inusitada tem mais química que meu último relacionamento",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida te der abacaxi, faz salada. Se te der ex, ignora e come mesmo assim."
+  },
+  {
+    "id": 1558,
+    "titulo": "Tábua de Queijos e Frutas Sem Mistério",
+    "slug": "tabua-de-queijos-e-frutas-sem-misterio",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "g queijo brie",
+      "g queijo gouda",
+      "maçã fatiada",
+      "punhado de uvas",
+      "Castanhas variadas a gosto",
+      "Mel para acompanhar"
+    ],
+    "modoPreparo": [
+      "Disponha os queijos na tábua.",
+      "Arrume as frutas e castanhas ao redor.",
+      "Sirva com mel para lambuzar sem culpa."
+    ],
+    "descricao": "Porque montar tábua é o máximo que o fogão vai pedir hoje",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 40,00",
+    "porcoes": "3 porções",
+    "dica": "Se a vida é bagunçada, pelo menos a sua tábua pode ser organizada. E sem fogão pra complicar!"
+  },
+  {
+    "id": 1559,
+    "titulo": "Salada de Feijão Fradinho com Tomate e Cebolinha",
+    "slug": "salada-de-feijao-fradinho-com-tomate-e-cebolinha",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "xícara de feijão fradinho cozido (comprado pronto)",
+      "tomate picado",
+      "Cebolinha picada a gosto",
+      "colheres de sopa de azeite",
+      "Suco de 1/2 limão",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o feijão com tomate e cebolinha.",
+      "Tempere com azeite, limão, sal e pimenta.",
+      "Mexa e sirva, porque o tempo é precioso demais pra fogão."
+    ],
+    "descricao": "Porque o feijão também pode ser amigo do seu tempo livre",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida te deixar na seca, pelo menos o feijão fradinho vai estar molhadinho e saboroso."
+  },
+  {
+    "id": 1560,
+    "titulo": "Patê de Ricota com Ervas Finas",
+    "slug": "pate-de-ricota-com-ervas-finas",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "g de ricota amassada",
+      "colher de sopa de azeite",
+      "colher de sopa de salsinha picada",
+      "colher de sopa de cebolinha picada",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a ricota com azeite e ervas.",
+      "Tempere com sal e pimenta.",
+      "Sirva com torradas ou pão integral."
+    ],
+    "descricao": "Porque passar no pão é mais fácil que passar a noite acordado",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "3 porções",
+    "dica": "Se a vida te der ricota, faz patê. Se der estresse, passa no pão e não na cabeça dos outros."
+  },
+  {
+    "id": 1561,
+    "titulo": "Salada de Grãos com Pepino e Iogurte",
+    "slug": "salada-de-graos-com-pepino-e-iogurte",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "xícara de cevada cozida (comprada pronta)",
+      "/2 pepino picado",
+      "/2 xícara de iogurte natural",
+      "Hortelã picada a gosto",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a cevada com pepino e hortelã.",
+      "Adicione o iogurte e tempere com sal e pimenta.",
+      "Sirva gelado para não esquentar o clima."
+    ],
+    "descricao": "Porque a combinação mais refrescante do verão é sem fogo e com estilo",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida te der cevada, faz essa salada. Se te der calor, pelo menos não vai precisar ligar o fogão pra se refrescar."
+  },
+  {
+    "id": 1562,
+    "titulo": "Bowl de Frutas Tropicais com Granola",
+    "slug": "bowl-de-frutas-tropicais-com-granola",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "/2 banana fatiada",
+      "/2 manga picada",
+      "/2 kiwi fatiado",
+      "colheres de sopa de granola",
+      "colher de sopa de mel"
+    ],
+    "modoPreparo": [
+      "Coloque as frutas em uma tigela.",
+      "Adicione a granola e regue com mel.",
+      "Misture levemente e aproveite."
+    ],
+    "descricao": "Porque começar o dia já é um desafio, pelo menos o café da manhã não precisa ser",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vida te deixar zonzo, pelo menos o café da manhã vai te dar energia. E sem fogão, pra não queimar a paciência."
+  },
+  {
+    "id": 1563,
+    "titulo": "Salada de Lentilha com Tomate Seco e Rúcula",
+    "slug": "salada-de-lentilha-com-tomate-seco-e-rucula",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "xícara de lentilha cozida (comprada pronta)",
+      "/4 xícara de tomate seco picado",
+      "xícara de rúcula",
+      "colheres de sopa de azeite",
+      "Suco de 1/2 limão",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a lentilha com tomate seco e rúcula.",
+      "Tempere com azeite, limão, sal e pimenta.",
+      "Sirva em seguida e não deixe a vida esfriar."
+    ],
+    "descricao": "Porque a lentilha também pode ser diva sem precisar de panelas",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida te der lentilha, faz essa salada. Se der preguiça, compra pronta e finge que fez."
+  },
+  {
+    "id": 1564,
+    "titulo": "Mix de Nuts com Frutas Secas e Chocolate Amargo",
+    "slug": "mix-de-nuts-com-frutas-secas-e-chocolate-amargo",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "colheres de sopa de castanhas variadas",
+      "colheres de sopa de frutas secas picadas",
+      "punhado de pedacinhos de chocolate amargo"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes em uma tigela.",
+      "Sirva imediatamente para não perder a crocância.",
+      "Guarde o resto para evitar ataques de fome repentinos."
+    ],
+    "descricao": "Porque snack saudável com sabor de pecado é possível e sem fogão",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vida te der vontade de beliscar, belisca com estilo. E sem fogão, porque ninguém merece deixar a cozinha parecendo zona de guerra."
+  },
+  {
+    "id": 1565,
+    "titulo": "Salada de Milho Verde com Tomate e Coentro",
+    "slug": "salada-de-milho-verde-com-tomate-e-coentro",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "xícara de milho verde cozido (comprado pronto)",
+      "tomate picado",
+      "Coentro picado a gosto",
+      "Suco de 1 limão",
+      "colher de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o milho, tomate e coentro na tigela.",
+      "Tempere com limão, azeite, sal e pimenta.",
+      "Sirva gelado e aproveite o sabor sem fogueira."
+    ],
+    "descricao": "Porque até o milho pode ser requintado sem panela e sem estresse",
+    "tempo": "12 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 13,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida te der milho, faz essa salada. Se der calor, pelo menos não vai precisar suar na cozinha."
+  },
+  {
+    "id": 1566,
+    "titulo": "Guacamole Rápido com Chips de Tortilla",
+    "slug": "guacamole-rapido-com-chips-de-tortilla",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "abacates maduros",
+      "tomate picado",
+      "/2 cebola roxa picada",
+      "Suco de 1 limão",
+      "Sal e pimenta a gosto",
+      "Chips de tortilla para acompanhar"
+    ],
+    "modoPreparo": [
+      "Amasse os abacates com garfo até virar um creme com pedacinhos.",
+      "Misture o tomate, cebola, limão, sal e pimenta.",
+      "Sirva com chips de tortilla para mergulhar e se deliciar."
+    ],
+    "descricao": "Porque até a preguiça merece um petisco com classe",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "3 porções",
+    "dica": "Se a vida te der abacate, faz guacamole. Se der preguiça, compra chips prontos e finge que é chef."
+  },
+  {
+    "id": 1567,
+    "titulo": "Salada de Pepino com Iogurte e Hortelã",
+    "slug": "salada-de-pepino-com-iogurte-e-hortela",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "pepino médio fatiado",
+      "/2 xícara de iogurte natural",
+      "Folhas de hortelã picadas a gosto",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o pepino com iogurte e hortelã na tigela.",
+      "Tempere com sal e pimenta.",
+      "Sirva gelado para enfrentar o calor da vida."
+    ],
+    "descricao": "Porque refrescar a alma e o corpo é um ato de sobrevivência sem fogão",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 11,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida te der pepino, faz essa salada. Se der estresse, pelo menos vai estar fresco e crocante."
+  },
+  {
+    "id": 1568,
+    "titulo": "Bowl de Tapioca com Frutas e Mel",
+    "slug": "bowl-de-tapioca-com-frutas-e-mel",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "colheres de sopa de tapioca hidratada (pronta para consumo)",
+      "/2 banana fatiada",
+      "colher de sopa de mel",
+      "colher de sopa de granola"
+    ],
+    "modoPreparo": [
+      "Coloque a tapioca em uma tigela.",
+      "Acrescente a banana, mel e granola por cima.",
+      "Misture e coma sem culpa, sem fogão e com preguiça."
+    ],
+    "descricao": "Porque tapioca pode ser tão preguiçosa quanto você, sem fogão!",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vida te der tapioca pronta, aproveita. Se der sono, come na cama mesmo, que isso é vida adulta."
+  },
+  {
+    "id": 1569,
+    "titulo": "Mix Tropical de Abacaxi com Coco Ralado",
+    "slug": "mix-tropical-de-abacaxi-com-coco-ralado",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "xícaras de abacaxi picado",
+      "colheres de sopa de coco ralado sem açúcar",
+      "Suco de 1 limão",
+      "Hortelã para decorar"
+    ],
+    "modoPreparo": [
+      "Misture o abacaxi com o coco ralado e o suco de limão.",
+      "Decore com folhas de hortelã.",
+      "Sirva gelado e refrescante."
+    ],
+    "descricao": "Porque o tropical vem sem fogo e com muito sabor",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 13,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida te der abacaxi, faz essa mistura. Se der calor, pelo menos você não vai precisar ligar o fogão."
+  },
+  {
+    "id": 1570,
+    "titulo": "Salada de Rúcula com Pera e Nozes",
+    "slug": "salada-de-rucula-com-pera-e-nozes",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "xícaras de rúcula",
+      "pera fatiada",
+      "/4 xícara de nozes picadas",
+      "colheres de sopa de azeite",
+      "colher de sopa de vinagre balsâmico",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a rúcula com a pera e as nozes.",
+      "Tempere com azeite, vinagre, sal e pimenta.",
+      "Sirva imediatamente e finja que é masterchef."
+    ],
+    "descricao": "Porque combinação chique e sem fogo é o que temos pra hoje",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida te der rúcula, faz essa salada. Se der preguiça, chama o delivery e finge que você fez."
+  },
+  {
+    "id": 1571,
+    "titulo": "Iogurte com Mel, Nozes e Canela",
+    "slug": "iogurte-com-mel-nozes-e-canela",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "pote de iogurte natural",
+      "colher de sopa de mel",
+      "colheres de sopa de nozes picadas",
+      "pitada de canela em pó"
+    ],
+    "modoPreparo": [
+      "Coloque o iogurte em uma tigela.",
+      "Regue com mel, adicione as nozes e polvilhe canela.",
+      "Misture levemente e aproveite o abraço no estômago."
+    ],
+    "descricao": "Porque o café da manhã pode ser um abraço quentinho, sem fogo e sem drama",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vida te der iogurte, faz essa receita. Se der frio, pelo menos esse café da manhã vai te esquentar por dentro."
+  },
+  {
+    "id": 1572,
+    "titulo": "Salada de Repolho com Maçã e Cenoura",
+    "slug": "salada-de-repolho-com-maca-e-cenoura",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "xícaras de repolho ralado",
+      "maçã verde ralada",
+      "cenoura ralada",
+      "colheres de sopa de maionese light",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Rale o repolho, maçã e cenoura e misture na tigela.",
+      "Adicione a maionese, tempere com sal e pimenta.",
+      "Misture bem e sirva gelado."
+    ],
+    "descricao": "Porque crocância sem fogão é o verdadeiro barulho da vida",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "3 porções",
+    "dica": "Se a vida te der repolho, rale tudo. Se der preguiça, coloca mais maionese e segue o baile."
+  },
+  {
+    "id": 1573,
+    "titulo": "Salada de Quinoa com Abacate e Tomate",
+    "slug": "salada-de-quinoa-com-abacate-e-tomate",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "xícara de quinoa cozida (comprada pronta)",
+      "/2 abacate em cubos",
+      "tomate grande picado",
+      "colheres de sopa de azeite",
+      "Suco de 1 limão",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a quinoa com o abacate e o tomate.",
+      "Tempere com azeite, limão, sal e pimenta.",
+      "Sirva imediatamente para aproveitar a cremosidade."
+    ],
+    "descricao": "Porque proteína e gordura boa também podem ser preguiça gourmet",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 24,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida te der quinoa, faz essa salada. Se der preguiça, nem precisa lavar panela, só misturar e ser feliz."
+  },
+  {
+    "id": 1574,
+    "titulo": "Mix de Castanhas Temperadas",
+    "slug": "mix-de-castanhas-temperadas",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "xícara de castanhas de caju",
+      "xícara de amêndoas",
+      "colher de chá de páprica doce",
+      "colher de chá de sal",
+      "colher de chá de azeite"
+    ],
+    "modoPreparo": [
+      "Misture as castanhas com azeite, sal e páprica.",
+      "Sirva imediatamente ou guarde para o ataque de fome.",
+      "Não precisa de fogo, só de vontade."
+    ],
+    "descricao": "Porque petisco sem fogão salva qualquer reunião e qualquer fôlego",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Se a vida te der castanhas, tempera e belisca. Se der vontade de cozinhar, ignora e come assim mesmo."
+  },
+  {
+    "id": 1575,
+    "titulo": "Salada de Tomate com Queijo Cottage e Manjericão",
+    "slug": "salada-de-tomate-com-queijo-cottage-e-manjericao",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "tomates médios picados",
+      "g queijo cottage",
+      "Folhas de manjericão fresco",
+      "colher de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o tomate com o queijo cottage e manjericão.",
+      "Tempere com azeite, sal e pimenta.",
+      "Sirva fresco e sem fogueira."
+    ],
+    "descricao": "Porque o queijo não precisa de fogo para ser estrela do prato",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida te der queijo, não precisa cozinhar, só amar. Queijo cottage é tipo amizade: simples e essencial."
+  },
+  {
+    "id": 1576,
+    "titulo": "Salada de Grãos com Tomate, Pepino e Azeitonas",
+    "slug": "salada-de-graos-com-tomate-pepino-e-azeitonas",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "xícara de mistura de grãos cozidos (comprados prontos)",
+      "tomate picado",
+      "/2 pepino picado",
+      "azeitonas picadas",
+      "colheres de sopa de azeite",
+      "Suco de 1/2 limão",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture os grãos com tomate, pepino e azeitonas.",
+      "Tempere com azeite, limão, sal e pimenta.",
+      "Sirva em temperatura ambiente ou gelado."
+    ],
+    "descricao": "Porque até os grãos merecem festa sem fogo e sem pressa",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 17,00",
+    "porcoes": "3 porções",
+    "dica": "Se a vida te der grãos, faz essa salada. Se der preguiça, finge que é gourmet e só mistura na tigela."
+  },
+  {
+    "id": 1577,
+    "titulo": "Salada Colorida de Beterraba e Laranja",
+    "slug": "salada-colorida-de-beterraba-e-laranja",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "beterraba média ralada",
+      "laranjas descascadas e picadas",
+      "colher de sopa de azeite",
+      "Folhas de hortelã picadas a gosto",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Rale a beterraba e misture com a laranja na tigela.",
+      "Tempere com azeite, hortelã e sal.",
+      "Sirva fresco e vibrante."
+    ],
+    "descricao": "Porque o mundo precisa de cor e sabor, mesmo sem fogo e sem graça",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida te der beterraba, rale e mistura. Se te der problemas, pelo menos a salada vai estar linda para postar."
+  },
+  {
+    "id": 1578,
+    "titulo": "Mix de Frutas Secas e Sementes",
+    "slug": "mix-de-frutas-secas-e-sementes",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "colheres de sopa de sementes de abóbora",
+      "colheres de sopa de sementes de girassol",
+      "colheres de sopa de uva-passa",
+      "colheres de sopa de damasco seco picado"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes em uma tigela.",
+      "Sirva como snack a qualquer hora.",
+      "Guarda o resto para não ficar comendo o dia todo."
+    ],
+    "descricao": "Porque o que salva o dia é um punhado de energia sem fogão e sem culpa",
+    "tempo": "3 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vida te der sementes, mistura tudo e belisca. Se der vontade de cozinhar, esquece e come assim mesmo!"
+  },
+  {
+    "id": 1579,
+    "titulo": "Salada de Abobrinha Crua com Limão e Queijo Parmesão",
+    "slug": "salada-de-abobrinha-crua-com-limao-e-queijo-parmesao",
+    "categoria": "Sem Fogao ",
+    "ingredientes": [
+      "abobrinha média fatiada finamente",
+      "Suco de 1 limão",
+      "colheres de sopa de queijo parmesão ralado",
+      "colher de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a abobrinha com limão e azeite.",
+      "Adicione o parmesão, sal e pimenta.",
+      "Sirva imediatamente para manter a crocância."
+    ],
+    "descricao": "Porque até a abobrinha pode ser diva sem fogo e sem drama",
+    "tempo": "12 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "2 porções",
+    "dica": "Se a vida te der abobrinha, faz essa salada. Se der preguiça, come direto da tigela que ninguém vai julgar."
+  }
+]

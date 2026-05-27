@@ -1,0 +1,908 @@
+[
+  {
+    "id": 1662,
+    "titulo": "Omelete de Caneca à Prova de Louça",
+    "slug": "omelete-de-caneca-a-prova-de-louca",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "ovos",
+      "colheres de sopa de leite",
+      "colheres de sopa de queijo ralado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Quebre os ovos na caneca, adicione leite, sal e pimenta e bata com o garfo.",
+      "Misture o queijo ralado e coloque no micro-ondas por 2 minutos.",
+      "Espere esfriar um pouco e coma direto da caneca, porque louça é luxo."
+    ],
+    "descricao": "Porque sua pia já tá mais cheia que sua conta bancária no fim do mês",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "1 porção",
+    "dica": "Se a omelete crescer demais e quase derramar, é só fingir que é um vulcão culinário – pelo menos a pia vai agradecer."
+  },
+  {
+    "id": 1663,
+    "titulo": "Salada Caprese no Copo",
+    "slug": "salada-caprese-no-copo",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "tomates-cereja cortados ao meio",
+      "bolinhas de mussarela de búfala",
+      "Folhas de manjericão fresco",
+      "colher de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Em um copo, coloque camadas alternadas de tomate, mussarela e manjericão.",
+      "Regue com azeite, sal e pimenta.",
+      "Coma direto do copo, sem sujar prato porque a vida já suja demais."
+    ],
+    "descricao": "Pra quem quer romantismo, mas não quer lavar o prato depois",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "1 porção",
+    "dica": "Se alguém perguntar onde está o prato, diga que é uma instalação artística moderna chamada \"Minimalismo da Louça\"."
+  },
+  {
+    "id": 1664,
+    "titulo": "Wrap de Frango Fitness no Pote",
+    "slug": "wrap-de-frango-fitness-no-pote",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "peito de frango cozido e desfiado",
+      "tortilhas integrais",
+      "colheres de sopa de iogurte natural",
+      "Folhas de alface",
+      "Tomate fatiado",
+      "Sal, pimenta e ervas a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o frango com iogurte, sal, pimenta e ervas.",
+      "Distribua o frango sobre as tortilhas, coloque alface e tomate.",
+      "Enrole as tortilhas, coloque no pote e coma direto, sem usar prato – porque sujar louça é treino extra."
+    ],
+    "descricao": "Pra quem malha e não quer malhar a pia depois",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Se o wrap desmontar, é só fingir que é um burrito gourmet e prestar atenção na pose para não espirrar no sofá."
+  },
+  {
+    "id": 1665,
+    "titulo": "Mingau de Aveia no Microondas",
+    "slug": "mingau-de-aveia-no-microondas",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "colheres de sopa de aveia",
+      "xícara de leite (ou bebida vegetal)",
+      "colher de mel",
+      "Canela a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a aveia com leite na caneca.",
+      "Leve ao micro-ondas por 3 minutos, mexa e aqueça mais 1 minuto se necessário.",
+      "Adicione mel e canela por cima e coma na própria caneca, porque lavar prato? Nem pensar."
+    ],
+    "descricao": "A única coisa que vai esquentar sua manhã sem esquentar sua pia",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "1 porção",
+    "dica": "Se o mingau transbordar, pense que é sua vida financeira: sempre ultrapassa o limite."
+  },
+  {
+    "id": 1666,
+    "titulo": "Pizza de Pão Sírio no Prato Único",
+    "slug": "pizza-de-pao-sirio-no-prato-unico",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "pão sírio",
+      "colheres de molho de tomate",
+      "g de queijo muçarela ralado",
+      "Orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Espalhe o molho sobre o pão sírio.",
+      "Cubra com queijo e orégano.",
+      "Leve ao forno ou frigideira até o queijo derreter e coma direto do prato – lava-louça tá de férias."
+    ],
+    "descricao": "Porque às vezes a gente quer pizza, mas só tem pão e preguiça",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "1 porção",
+    "dica": "Se alguém reclamar que não é pizza de verdade, responda que essa pizza é mais fácil que boleto atrasado."
+  },
+  {
+    "id": 1667,
+    "titulo": "Smoothie Verde Detox no Copo",
+    "slug": "smoothie-verde-detox-no-copo",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "punhado de espinafre",
+      "banana",
+      "maçã picada",
+      "ml de água de coco"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes no liquidificador diretamente no copo.",
+      "Sirva com canudo e beba sem sujar copo extra, porque você já sujou a vida inteira.",
+      "Lave só o copo do liquidificador e pronto."
+    ],
+    "descricao": "Verde que te quero sem lavar a coisinha de sempre",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,50",
+    "porcoes": "1 porção",
+    "dica": "Se o smoothie ficar muito verde, é só dizer que tá mais saudável que seu último relacionamento."
+  },
+  {
+    "id": 1668,
+    "titulo": "Pão com Manteiga na Panela Antiaderente",
+    "slug": "pao-com-manteiga-na-panela-antiaderente",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "fatias de pão de forma",
+      "colher de sopa de manteiga"
+    ],
+    "modoPreparo": [
+      "Aqueça a manteiga na panela antiaderente.",
+      "Coloque as fatias de pão até dourar dos dois lados.",
+      "Coma direto da panela para não acumular louça — porque né, vida adulta é boato."
+    ],
+    "descricao": "Porque às vezes só o pão salva, e lavar prato não dá",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,00",
+    "porcoes": "1 porção",
+    "dica": "Se a manteiga espirrar, finja que é efeito colateral da sua ansiedade."
+  },
+  {
+    "id": 1669,
+    "titulo": "Macarrão Instantâneo de Caneca Gourmet",
+    "slug": "macarrao-instantaneo-de-caneca-gourmet",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "pacote de macarrão instantâneo (sabor de sua preferência)",
+      "Água quente suficiente",
+      "Legumes picados prontos (opcional)"
+    ],
+    "modoPreparo": [
+      "Coloque o macarrão e os legumes na caneca.",
+      "Cubra com água quente, tampe e deixe cozinhar por 5 minutos.",
+      "Misture com garfo e coma direto da caneca para não sujar panela."
+    ],
+    "descricao": "O miojo que não te pede louça, só coragem pra encarar a vida",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Se o macarrão grudar, pense que é igual sua vontade de malhar: grudou e não sai."
+  },
+  {
+    "id": 1670,
+    "titulo": "Salada de Frutas no Pote com Mel",
+    "slug": "salada-de-frutas-no-pote-com-mel",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "maçã picada",
+      "banana fatiada",
+      "/2 mamão picado",
+      "colheres de sopa de mel",
+      "Suco de 1 limão"
+    ],
+    "modoPreparo": [
+      "Misture as frutas e o suco de limão no pote.",
+      "Regue com mel e misture delicadamente.",
+      "Tampe e coma direto do pote, porque ninguém merece lavar tigela."
+    ],
+    "descricao": "Sobremesa que não suja nem a sua esperança de emagrecer",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "2 porções",
+    "dica": "Se alguém perguntar onde está a sobremesa, diga que ela está em modo “não me sujar, por favor”."
+  },
+  {
+    "id": 1671,
+    "titulo": "Crepioca Express na Caneca",
+    "slug": "crepioca-express-na-caneca",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "colheres de sopa de tapioca",
+      "ovo",
+      "Sal a gosto",
+      "Queijo ralado a gosto (opcional)"
+    ],
+    "modoPreparo": [
+      "Misture a tapioca, ovo e sal na caneca com o garfo.",
+      "Leve ao micro-ondas por 3 minutos.",
+      "Se quiser, salpique queijo e coma direto da caneca, sem drama na pia."
+    ],
+    "descricao": "Porque a vida já é corrida, e a pia não pode ser seu destino",
+    "tempo": "12 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "1 porção",
+    "dica": "Se a crepioca ficar meio mole, é só dizer que é estilo \"vida adulta\": nem sempre firme."
+  },
+  {
+    "id": 1672,
+    "titulo": "Sanduíche Natural no Pote",
+    "slug": "sanduiche-natural-no-pote",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "fatias de pão integral picado",
+      "filé de frango desfiado",
+      "colheres de sopa de maionese light",
+      "Folhas de alface",
+      "Tomate picado"
+    ],
+    "modoPreparo": [
+      "Misture o frango com a maionese no pote.",
+      "Adicione o pão, alface e tomate, misturando tudo.",
+      "Coma direto do pote, porque a vida já é difícil demais sem louça extra."
+    ],
+    "descricao": "Pra quem quer comer saudável sem virar lava-louça profissional",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "1 porção",
+    "dica": "Se o sanduíche desmanchar, finja que é efeito do amor: bagunçado, mas gostoso."
+  },
+  {
+    "id": 1673,
+    "titulo": "Tapioca Doce na Caneca",
+    "slug": "tapioca-doce-na-caneca",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "colheres de sopa de goma de tapioca",
+      "colher de sopa de leite condensado",
+      "Coco ralado a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque a goma na caneca e espalhe bem.",
+      "Leve ao micro-ondas por 2 minutos.",
+      "Cubra com leite condensado e coco, e coma na própria caneca porque pia não é spa."
+    ],
+    "descricao": "Pra adoçar a vida sem afogar na louça suja",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,50",
+    "porcoes": "1 porção",
+    "dica": "Se a tapioca ficar grudenta, pense que é igual amigo que só aparece quando precisa."
+  },
+  {
+    "id": 1674,
+    "titulo": "Iogurte com Granola no Pote",
+    "slug": "iogurte-com-granola-no-pote",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "pote pequeno de iogurte natural",
+      "colheres de sopa de granola",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque o iogurte no pote.",
+      "Adicione a granola e regue com mel.",
+      "Misture e coma direto do pote, porque a vida adulta já tem louça demais."
+    ],
+    "descricao": "Café da manhã pra quem quer facilidade e não lavar prato até domingo",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Se a granola estiver mole, é só pensar que a vida também tá meio assim: bagunçada."
+  },
+  {
+    "id": 1675,
+    "titulo": "Batata Doce Assada na Folha de Alumínio",
+    "slug": "batata-doce-assada-na-folha-de-aluminio",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "batatas doces médias",
+      "Sal e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Lave as batatas e enrole cada uma em papel alumínio com sal e azeite.",
+      "Asse no forno a 200°C por 35-40 minutos.",
+      "Desembrulhe e coma direto, papel vai pro lixo e louça fica livre."
+    ],
+    "descricao": "Pra quem quer carboidrato sem lavar nem uma colherzinha",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "2 porções",
+    "dica": "Se a batata tiver dura, pense que é igual boleto atrasado: só melhora quando paga."
+  },
+  {
+    "id": 1676,
+    "titulo": "Sanduíche de Atum na Marmita",
+    "slug": "sanduiche-de-atum-na-marmita",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "lata de atum em água",
+      "fatias de pão integral picado",
+      "colher de sopa de maionese",
+      "Folhas de alface",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o atum com maionese, sal e pimenta no pote.",
+      "Acrescente o pão e alface, misture tudo.",
+      "Coma direto do pote, porque pia cheia é sinal de adulting falho."
+    ],
+    "descricao": "Pra quem quer proteína sem virar escravo da pia",
+    "tempo": "12 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "1 porção",
+    "dica": "Se o sanduíche virar sopa, é só chamar de \"experiência culinária\"."
+  },
+  {
+    "id": 1677,
+    "titulo": "Quiche de Microondas na Caneca",
+    "slug": "quiche-de-microondas-na-caneca",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "ovo",
+      "colheres de sopa de creme de leite",
+      "fatias pequenas de presunto picado",
+      "colheres de queijo ralado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes na caneca.",
+      "Leve ao micro-ondas por 3 minutos.",
+      "Espere esfriar e coma direto da caneca, porque sua pia não é seu chef."
+    ],
+    "descricao": "Pra quem quer sofisticação sem sujar o armário inteiro",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "1 porção",
+    "dica": "Se a quiche não firmar, diga que é \"modo preguiça\" ativado."
+  },
+  {
+    "id": 1678,
+    "titulo": "Panqueca de Banana na Caneca",
+    "slug": "panqueca-de-banana-na-caneca",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "banana amassada",
+      "ovo",
+      "colheres de sopa de farinha de aveia",
+      "Canela a gosto"
+    ],
+    "modoPreparo": [
+      "Misture tudo na caneca até virar uma massa homogênea.",
+      "Leve ao micro-ondas por 3 minutos.",
+      "Coma direto da caneca e não lave mais nada – já fez demais."
+    ],
+    "descricao": "Pra quem quer doce sem sujar mais do que a alma",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "1 porção",
+    "dica": "Se a panqueca ficar grudada, pense que é seu crush: difícil de pegar."
+  },
+  {
+    "id": 1679,
+    "titulo": "Arroz de Microondas no Pote",
+    "slug": "arroz-de-microondas-no-pote",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "xícara de arroz lavado",
+      "xícaras de água",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque o arroz, a água e o sal no pote.",
+      "Cubra e leve ao micro-ondas por 10 minutos, mexa, e cozinhe mais 10 minutos.",
+      "Deixe descansar 5 minutos e sirva direto do pote, porque pia já tem drama demais."
+    ],
+    "descricao": "Pra quem quer carboidrato sem virar lavador de pratos nas horas vagas",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 6,00",
+    "porcoes": "2 porções",
+    "dica": "Se o arroz ficar empapado, pense que é sua vida amorosa: tudo junto e misturado."
+  },
+  {
+    "id": 1680,
+    "titulo": "Creme de Abacate com Cacau na Caneca",
+    "slug": "creme-de-abacate-com-cacau-na-caneca",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "/2 abacate maduro",
+      "colher de sopa de cacau em pó",
+      "colher de mel"
+    ],
+    "modoPreparo": [
+      "Amasse o abacate na caneca.",
+      "Misture cacau e mel até ficar homogêneo.",
+      "Coma direto da caneca, porque louça extra é cilada."
+    ],
+    "descricao": "Sobremesa saudável que não exige lavar nem a alma",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,50",
+    "porcoes": "1 porção",
+    "dica": "Se o creme ficar meio verde, é só dizer que é “edgy” como seu humor."
+  },
+  {
+    "id": 1681,
+    "titulo": "Espetinho de Queijo e Tomate no Palito",
+    "slug": "espetinho-de-queijo-e-tomate-no-palito",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "cubos de queijo mussarela",
+      "tomates-cereja",
+      "Orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Espete alternadamente queijo e tomate nos palitos.",
+      "Salpique orégano por cima.",
+      "Coma direto do palito, porque a pia é seu maior inimigo."
+    ],
+    "descricao": "Petisco que não suja prato e nem sua dignidade",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "2 porções",
+    "dica": "Se alguém reclamar que é pouco, diga que é \"tamanho adulto: só o necessário\"."
+  },
+  {
+    "id": 1682,
+    "titulo": "Iogurte Grego com Mel e Nozes no Pote",
+    "slug": "iogurte-grego-com-mel-e-nozes-no-pote",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "pote de iogurte grego",
+      "colher de mel",
+      "colheres de nozes picadas"
+    ],
+    "modoPreparo": [
+      "Coloque o iogurte no pote.",
+      "Regue com mel e jogue as nozes por cima.",
+      "Misture e coma direto do pote, porque a vida já é um prato cheio."
+    ],
+    "descricao": "Pra quem quer luxo sem lavar a louça do restaurante",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "1 porção",
+    "dica": "Se a noz cair, finja que é decoração moderninha."
+  },
+  {
+    "id": 1683,
+    "titulo": "Ovo Pochê no Microondas em Caneca",
+    "slug": "ovo-poche-no-microondas-em-caneca",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "ovo",
+      "/2 xícara de água",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Quebre o ovo dentro da caneca com água.",
+      "Cubra com um prato e cozinhe no micro-ondas por 1 minuto.",
+      "Retire com cuidado e coma direto da caneca; louça? Só essa mesmo."
+    ],
+    "descricao": "Ovo chique que não pede louça e nem chef particular",
+    "tempo": "7 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 3,50",
+    "porcoes": "1 porção",
+    "dica": "Se o ovo explodir, pense que foi seu humor ao ver a conta de luz."
+  },
+  {
+    "id": 1684,
+    "titulo": "Salada de Grão-de-Bico no Pote",
+    "slug": "salada-de-grao-de-bico-no-pote",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "xícara de grão-de-bico cozido",
+      "tomate picado",
+      "/2 cebola picada",
+      "Suco de 1 limão",
+      "Sal e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Misture tudo no pote.",
+      "Tampe e deixe na geladeira por 30 minutos (opcional).",
+      "Coma direto do pote, porque louça é coisa do passado."
+    ],
+    "descricao": "Proteína que não te pede atenção nem lava-louça",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "2 porções",
+    "dica": "Se alguém chamar de comida de pobre, responda que pobre não lava louça."
+  },
+  {
+    "id": 1685,
+    "titulo": "Crepe de Microondas na Caneca",
+    "slug": "crepe-de-microondas-na-caneca",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "colheres de sopa de farinha de trigo",
+      "ovo",
+      "colheres de sopa de leite",
+      "Recheio doce ou salgado a gosto"
+    ],
+    "modoPreparo": [
+      "Misture farinha, ovo e leite na caneca.",
+      "Leve ao micro-ondas por 2 minutos.",
+      "Adicione recheio e dobre na própria caneca para comer sem louça."
+    ],
+    "descricao": "Massa fina, preguiça grossa e louça zero",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Se o crepe grudar, pense que é igual sua vontade de trabalhar no fim do expediente."
+  },
+  {
+    "id": 1686,
+    "titulo": "Café Gelado no Copo com Canudo",
+    "slug": "cafe-gelado-no-copo-com-canudo",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "ml de café forte gelado",
+      "ml de leite",
+      "Açúcar a gosto",
+      "Gelo"
+    ],
+    "modoPreparo": [
+      "Misture café, leite e açúcar no copo.",
+      "Adicione gelo e mexa até gelar.",
+      "Beba direto do copo com canudo, porque lavar xícara é para os fracos."
+    ],
+    "descricao": "Porque café precisa ser forte, não a sua lista de louça suja",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,00",
+    "porcoes": "1 porção",
+    "dica": "Se o café acabar rápido, pense que é igual seu salário: evapora fácil."
+  },
+  {
+    "id": 1687,
+    "titulo": "Cuscuz de Microondas no Prato Fundo",
+    "slug": "cuscuz-de-microondas-no-prato-fundo",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "colheres de sopa de flocos de milho para cuscuz",
+      "/2 xícara de água fervente",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque os flocos no prato, adicione a água e sal.",
+      "Cubra com um prato e deixe descansar por 5 minutos.",
+      "Misture com garfo e coma direto do prato, porque lavar louça é terapia que você não pediu."
+    ],
+    "descricao": "Cuscuz que não exige panela nem drama na pia",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "1 porção",
+    "dica": "Se o cuscuz ficar duro, diga que é “textura adulta”."
+  },
+  {
+    "id": 1688,
+    "titulo": "Shake de Proteína no Copo",
+    "slug": "shake-de-proteina-no-copo",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "scoop de whey protein",
+      "ml de leite ou bebida vegetal",
+      "banana"
+    ],
+    "modoPreparo": [
+      "Bata tudo no liquidificador.",
+      "Sirva no copo e beba com canudo para evitar lavar copo extra.",
+      "Lave só o copo do liquidificador e pronto."
+    ],
+    "descricao": "Proteína rápida pra você não virar escravo da louça",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "1 porção",
+    "dica": "Se o shake ficar grosso, finja que é \"pasta de boleto\"."
+  },
+  {
+    "id": 1689,
+    "titulo": "Sopa Cremosa de Abóbora na Caneca",
+    "slug": "sopa-cremosa-de-abobora-na-caneca",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "g de abóbora cozida",
+      "/2 xícara de caldo de legumes",
+      "Sal, pimenta e noz-moscada a gosto"
+    ],
+    "modoPreparo": [
+      "Amasse a abóbora e misture com caldo e temperos na caneca.",
+      "Leve ao micro-ondas por 5 minutos, mexendo na metade do tempo.",
+      "Coma direto da caneca e não lave nada além dela."
+    ],
+    "descricao": "Conforto líquido que não pede panela nem drama",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 9,00",
+    "porcoes": "1 porção",
+    "dica": "Se a sopa derramar, pense que é igual boleto: sempre aparece quando não quer."
+  },
+  {
+    "id": 1690,
+    "titulo": "Mix de Nuts e Frutas Secas no Pote",
+    "slug": "mix-de-nuts-e-frutas-secas-no-pote",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "g de castanhas variadas",
+      "g de frutas secas"
+    ],
+    "modoPreparo": [
+      "Misture as castanhas e frutas secas no pote.",
+      "Tampe e leve para onde quiser.",
+      "Coma direto do pote, porque lavar prato nesse nível é para heróis."
+    ],
+    "descricao": "Snack que não suja prato e nem sua consciência",
+    "tempo": "2 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Se alguém chamar de \"comida de rato\", diga que é comida de adulto esperto."
+  },
+  {
+    "id": 1691,
+    "titulo": "Panini de Microondas na Caneca",
+    "slug": "panini-de-microondas-na-caneca",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "fatias de pão de forma",
+      "fatias de presunto",
+      "fatias de queijo",
+      "Manteiga para passar no pão"
+    ],
+    "modoPreparo": [
+      "Passe manteiga nas fatias de pão.",
+      "Na caneca, monte o sanduíche com presunto e queijo.",
+      "Leve ao micro-ondas por 3 minutos e coma direto da caneca, porque chapa é para quem tem tempo."
+    ],
+    "descricao": "Sanduíche prensado que não te obriga a lavar chapa",
+    "tempo": "10 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "1 porção",
+    "dica": "Se o queijo não derreter todo, é sinal que sua vida não é perfeita – e tudo bem."
+  },
+  {
+    "id": 1692,
+    "titulo": "Iogurte com Frutas Vermelhas no Pote",
+    "slug": "iogurte-com-frutas-vermelhas-no-pote",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "pote de iogurte natural",
+      "/2 xícara de frutas vermelhas congeladas",
+      "colher de mel"
+    ],
+    "modoPreparo": [
+      "Misture o iogurte com as frutas no pote.",
+      "Regue com mel por cima.",
+      "Coma direto do pote, porque louça é problema para outro dia."
+    ],
+    "descricao": "Sobremesa que não te pede paciência pra lavar louça",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 11,00",
+    "porcoes": "1 porção",
+    "dica": "Se a fruta estiver congelada demais, finja que é sorvete fitness."
+  },
+  {
+    "id": 1693,
+    "titulo": "Cuscuz Marroquino com Legumes no Pote",
+    "slug": "cuscuz-marroquino-com-legumes-no-pote",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "xícara de cuscuz marroquino",
+      "xícara de legumes picados",
+      "xícara de água quente",
+      "Sal e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque o cuscuz e os legumes no pote.",
+      "Adicione água quente, sal e azeite.",
+      "Tampe e deixe descansar por 5 minutos, misture e coma direto do pote."
+    ],
+    "descricao": "Prato único que não vira faxina depois",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 14,00",
+    "porcoes": "2 porções",
+    "dica": "Se o cuscuz empapado, diga que é \"culinária afetiva\"."
+  },
+  {
+    "id": 1694,
+    "titulo": "Panqueca de Aveia e Mel na Caneca",
+    "slug": "panqueca-de-aveia-e-mel-na-caneca",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "colheres de sopa de farinha de aveia",
+      "ovo",
+      "colheres de sopa de leite",
+      "Mel para cobertura"
+    ],
+    "modoPreparo": [
+      "Misture farinha, ovo e leite na caneca.",
+      "Leve ao micro-ondas por 3 minutos.",
+      "Cubra com mel e coma direto da caneca porque lavar frigideira? Nem pensar."
+    ],
+    "descricao": "Café da manhã que não te obriga a lavar frigideira e nem alma",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "1 porção",
+    "dica": "Se a panqueca ficar meio mole, pense que é sua produtividade depois das 18h."
+  },
+  {
+    "id": 1695,
+    "titulo": "Bruschetta no Pão Sírio",
+    "slug": "bruschetta-no-pao-sirio",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "pão sírio cortado em pedaços",
+      "tomates picados",
+      "Manjericão fresco",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture tomate, manjericão, azeite, sal e pimenta.",
+      "Coloque a mistura sobre os pedaços de pão.",
+      "Coma direto, sem sujar mais nada – porque louça é inimiga."
+    ],
+    "descricao": "Aperitivo que não pede louça, só vontade de impressionar",
+    "tempo": "12 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "2 porções",
+    "dica": "Se o tomate escorrer, finja que é suco natural gourmet."
+  },
+  {
+    "id": 1696,
+    "titulo": "Canapé de Pepino com Pasta de Ricota",
+    "slug": "canape-de-pepino-com-pasta-de-ricota",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "pepino fatiado em rodelas",
+      "g de ricota amassada",
+      "Ervas finas a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a ricota com as ervas.",
+      "Passe a pasta nas rodelas de pepino.",
+      "Sirva direto no pote ou prato descartável para não sujar nada."
+    ],
+    "descricao": "Petisco chique que não pede prato nem desculpa",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Se alguém perguntar qual é o segredo, diga que é preguiça mesmo."
+  },
+  {
+    "id": 1697,
+    "titulo": "Chá Gelado de Limão no Copo",
+    "slug": "cha-gelado-de-limao-no-copo",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "Suco de 1 limão",
+      "ml de água gelada",
+      "Açúcar ou adoçante a gosto",
+      "Gelo"
+    ],
+    "modoPreparo": [
+      "Misture o suco de limão, água e açúcar no copo.",
+      "Adicione gelo e mexa com a colher.",
+      "Beba direto do copo e lave só ele, porque seu tempo vale ouro."
+    ],
+    "descricao": "Bebida refrescante que não vai te pedir louça extra",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,00",
+    "porcoes": "1 porção",
+    "dica": "Se o limão estiver ácido demais, pense que é sua conta de luz no fim do mês."
+  },
+  {
+    "id": 1698,
+    "titulo": "Mousse de Maracujá na Caneca",
+    "slug": "mousse-de-maracuja-na-caneca",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "lata de leite condensado",
+      "lata de creme de leite",
+      "lata de suco de maracujá concentrado"
+    ],
+    "modoPreparo": [
+      "Misture tudo na caneca até ficar homogêneo.",
+      "Leve à geladeira por pelo menos 2 horas.",
+      "Coma direto da caneca para evitar lavar prato."
+    ],
+    "descricao": "Sobremesa que nem você acredita que não suja prato",
+    "tempo": "15 min + geladeira",
+    "dificuldade": "Médio",
+    "preco": "R$ 9,00",
+    "porcoes": "2 porções",
+    "dica": "Se o mousse não firmar, diga que é \"mousse livre, sem amarras\"."
+  },
+  {
+    "id": 1699,
+    "titulo": "Tapas de Queijo Brie e Mel no Pote",
+    "slug": "tapas-de-queijo-brie-e-mel-no-pote",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "g de queijo brie fatiado",
+      "colher de sopa de mel",
+      "Nozes picadas a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque o queijo no pote.",
+      "Regue com mel e salpique nozes.",
+      "Coma direto do pote, porque pia não é spa."
+    ],
+    "descricao": "Petisco gourmet para quem gosta de luxo sem lavar",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "1 porção",
+    "dica": "Se o queijo estiver mole demais, pense que é seu humor na segunda-feira."
+  },
+  {
+    "id": 1700,
+    "titulo": "Gelatina de Frutas no Copo",
+    "slug": "gelatina-de-frutas-no-copo",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "pacote de gelatina sabor frutas vermelhas",
+      "Frutas picadas a gosto",
+      "Água para preparo da gelatina"
+    ],
+    "modoPreparo": [
+      "Prepare a gelatina conforme instruções.",
+      "Coloque as frutas nos copos e despeje a gelatina.",
+      "Leve à geladeira até firmar e coma direto do copo."
+    ],
+    "descricao": "Sobremesa que não pede forno, nem louça, nem desculpas",
+    "tempo": "5 min + geladeira",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,00",
+    "porcoes": "2 porções",
+    "dica": "Se a gelatina não firmar, pense que é sua vontade de acordar cedo."
+  },
+  {
+    "id": 1701,
+    "titulo": "Misto Quente na Caneca",
+    "slug": "misto-quente-na-caneca",
+    "categoria": "Sem Sujar Louca ",
+    "ingredientes": [
+      "fatias de pão de forma",
+      "fatia de presunto",
+      "fatia de queijo",
+      "Manteiga para passar"
+    ],
+    "modoPreparo": [
+      "Passe manteiga nas fatias de pão.",
+      "Monte presunto e queijo entre as fatias dentro da caneca.",
+      "Leve ao micro-ondas por 2 minutos e coma direto da caneca, porque lavar chapa? Só em sonho."
+    ],
+    "descricao": "Sanduíche quente que não pede chapa nem pia lotada",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Se o queijo não derreter todo, é sinal que sua vida não é perfeita – e tudo bem."
+  }
+]
