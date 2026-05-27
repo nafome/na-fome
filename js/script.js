@@ -134,6 +134,10 @@ function spin() {
     return;
   }
   document.getElementById('slotInner').scrollIntoView({ behavior: 'smooth', block: 'center' });
+  setTimeout(() => _executarSpin(), 600);
+}
+
+function _executarSpin() {
 
   if (currentRecipes.length === 0) {
     alert('Nenhuma receita encontrada para este nicho no momento.');
