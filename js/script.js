@@ -133,6 +133,7 @@ function spin() {
     if (!currentNicho) alert('Escolha uma situação primeiro!');
     return;
   }
+  document.getElementById('slotInner').scrollIntoView({ behavior: 'smooth', block: 'center' });
 
   if (currentRecipes.length === 0) {
     alert('Nenhuma receita encontrada para este nicho no momento.');
