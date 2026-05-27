@@ -302,6 +302,5 @@ function trocarAba(tipo) {
 }
 
 function voltarInicio() {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-  setTimeout(() => location.reload(), 500);
+  window.location.href = 'https://nafome.netlify.app/';
 }
