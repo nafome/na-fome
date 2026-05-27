@@ -3,49 +3,79 @@ let currentRecipes = [];
 let isSpinning = false;
 
 const NICHOS = [
+
+  // 🕐 Horário / Refeição
+  { id: "cafe-da-manha", name: "Café da manhã ☀️", file: "cafe-da-manha" },
+  { id: "almoco", name: "Almoço 🍽️", file: "almoco" },
+  { id: "lanche-da-tarde", name: "Lanche da tarde 🥪", file: "lanche-da-tarde" },
+  { id: "jantar", name: "Jantar 🌙", file: "jantar" },
+  { id: "madrugada", name: "Madrugada 🦉", file: "madrugada" },
+
+  // 💸 Situação financeira
   { id: "to-duro", name: "Tô duro 🪙", file: "to-duro" },
   { id: "final-do-mes", name: "Final do mês 💸", file: "final-do-mes" },
   { id: "recebi-hoje", name: "Recebi hoje 💰", file: "recebi-hoje" },
-  { id: "almoco", name: "Almoço 🍽️", file: "almoco" },
-  { id: "jantar", name: "Jantar 🌙", file: "jantar" },
-  { id: "cafe-da-manha", name: "Café da manhã ☀️", file: "cafe-da-manha" },
-  { id: "sobremesa", name: "Sobremesa 🍫", file: "sobremesa" },
-  { id: "vegano", name: "Vegano 🌱", file: "vegano" },
-  { id: "vegetariano", name: "Vegetariano 🥗", file: "vegetariano" },
-  { id: "em-15-minutos", name: "Em 15 minutos ⏱️", file: "em-15-minutos" },
-  { id: "na-air-fryer", name: "Na Air Fryer 💨", file: "na-air-fryer" },
-  { id: "uma-panela-so", name: "Uma panela só 🫕", file: "uma-panela-so" },
-  { id: "boteco-em-casa", name: "Boteco em casa 🍺", file: "boteco-em-casa" },
-  { id: "vendo-o-fut", name: "Vendo o fut ⚽", file: "vendo-o-fut" },
-  { id: "lanche-da-tarde", name: "Lanche da tarde 🥪", file: "lanche-da-tarde" },
-  { id: "madrugada", name: "Madrugada 🦉", file: "madrugada" },
-  { id: "pra-impressionar", name: "Pra impressionar 🎩", file: "pra-impressionar" },
-  { id: "jantar-romantico", name: "Jantar romântico 🕯️", file: "jantar-romantico" },
-  { id: "churrasco", name: "Churrasco 🔥", file: "churrasco" },
-  { id: "comida-de-rua", name: "Comida de rua 🥙", file: "comida-de-rua" },
-  { id: "comida-regional", name: "Comida regional 🍛", file: "comida-regional" },
+  { id: "gourmet", name: "Gourmet ⭐⭐⭐⭐⭐", file: "gourmet" },
+
+  // 🥗 Saúde / Dieta / Treino
   { id: "detox", name: "Detox 🥒", file: "detox" },
   { id: "to-de-dieta", name: "Tô de dieta 🥑", file: "to-de-dieta" },
-  { id: "ganhar-massa", name: "Ganhar massa 🏋️", file: "ganhar-massa" },
-  { id: "pos-treino", name: "Pós-treino 💪", file: "pos-treino" },
+  { id: "vegano", name: "Vegano 🌱", file: "vegano" },
+  { id: "vegetariano", name: "Vegetariano 🥗", file: "vegetariano" },
   { id: "sem-gluten", name: "Sem glúten 🌾", file: "sem-gluten" },
   { id: "sem-lactose", name: "Sem lactose 🥛", file: "sem-lactose" },
+  { id: "pre-treino", name: "Pré-treino 🔋", file: "pre-treino" },
+  { id: "pos-treino", name: "Pós-treino 💪", file: "pos-treino" },
+  { id: "ganhar-massa", name: "Ganhar massa 🏋️", file: "ganhar-massa" },
+
+  // 🍳 Jeito de cozinhar / Equipamento
+  { id: "em-15-minutos", name: "Em 15 minutos ⏱️", file: "em-15-minutos" },
+  { id: "uma-panela-so", name: "Uma panela só 🫕", file: "uma-panela-so" },
+  { id: "na-air-fryer", name: "Na Air Fryer 💨", file: "na-air-fryer" },
+  { id: "no-micro-ondas", name: "No micro-ondas 📡", file: "no-micro-ondas" },
+  { id: "no-forno", name: "No forno 🔆", file: "no-forno" },
+  { id: "sem-fogao", name: "Sem fogão 🚫🔥", file: "sem-fogao" },
+  { id: "sem-sujar-louca", name: "Sem sujar louça 🙏", file: "sem-sujar-louca" },
+  { id: "nao-sei-cozinhar", name: "Não sei cozinhar 😬", file: "nao-sei-cozinhar" },
+
+  // 🎉 Ocasião / Momento
+  { id: "final-de-semana", name: "Final de semana 😎", file: "final-de-semana" },
+  { id: "churrasco", name: "Churrasco 🔥", file: "churrasco" },
+  { id: "boteco-em-casa", name: "Boteco em casa 🍺", file: "boteco-em-casa" },
+  { id: "vendo-o-fut", name: "Vendo o fut ⚽", file: "vendo-o-fut" },
+  { id: "cinema", name: "Cinema 🎬", file: "cinema" },
+  { id: "jantar-romantico", name: "Jantar romântico 🕯️", file: "jantar-romantico" },
+  { id: "pra-impressionar", name: "Pra impressionar 🎩", file: "pra-impressionar" },
+  { id: "piquenique", name: "Piquenique 🧺", file: "piquenique" },
+  { id: "natal", name: "Natal 🎄", file: "natal" },
+  { id: "ano-novo", name: "Ano Novo 🥂", file: "ano-novo" },
+  { id: "pascoa", name: "Páscoa 🐣", file: "pascoa" },
+
+  // 🤒 Estado físico
   { id: "to-doente", name: "Tô doente 🤒", file: "to-doente" },
   { id: "de-ressaca", name: "De ressaca 🤢", file: "de-ressaca" },
   { id: "to-com-frio", name: "Tô com frio 🥶", file: "to-com-frio" },
-  { id: "nao-sei-cozinhar", name: "Não sei cozinhar 😬", file: "nao-sei-cozinhar" },
-  { id: "sem-sujar-louca", name: "Sem sujar louça 🙏", file: "sem-sujar-louca" },
-  { id: "no-micro-ondas", name: "No micro-ondas 📡", file: "no-micro-ondas" },
-  { id: "sem-fogao", name: "Sem fogão 🚫🔥", file: "sem-fogao" },
-  { id: "no-forno", name: "No forno 🔆", file: "no-forno" },
+
+  // 🍔 Tipo de comida
   { id: "fast-food-caseiro", name: "Fast food caseiro 🍔", file: "fast-food-caseiro" },
-  { id: "receita-de-famosos", name: "Receita de famosos ⭐", file: "receita-de-famosos" },
+  { id: "comida-de-rua", name: "Comida de rua 🥙", file: "comida-de-rua" },
+  { id: "comida-regional", name: "Comida regional 🍛", file: "comida-regional" },
+  { id: "frutos-do-mar", name: "Frutos do mar 🦐", file: "frutos-do-mar" },
+  { id: "sobremesa", name: "Sobremesa 🍫", file: "sobremesa" },
+
+  // 🍹 Bebidas
+  { id: "cafe", name: "Café ☕", file: "cafe" },
+  { id: "drinks", name: "Drinks 🍹", file: "drinks" },
+  { id: "drinks-sem-alcool", name: "Drinks sem álcool 🧃", file: "drinks-sem-alcool" },
+
+  // 👨‍👩‍👧 Público
   { id: "pra-criancada", name: "Pra criançada 👶", file: "pra-criancada" },
   { id: "pra-vovo-e-vovo", name: "Pra vovô e vovó 👴", file: "pra-vovo-e-vovo" },
   { id: "a-galera-toda", name: "A galera toda 🎉", file: "a-galera-toda" },
-  { id: "piquenique", name: "Piquenique 🧺", file: "piquenique" },
-  { id: "drinks", name: "Drinks 🍹", file: "drinks" },
-  { id: "cafe", name: "Café ☕", file: "cafe" }
+
+  // 💀 Especiais
+  { id: "receita-de-famosos", name: "Receita de famosos ⭐", file: "receita-de-famosos" },
+  { id: "ultima-refeicao", name: "Última refeição ☠️🔒", file: "ultima-refeicao" },
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
