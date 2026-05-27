@@ -237,9 +237,14 @@ function showResult(recipe) {
           </div>
         ` : ''}
 
-        <button class="share-btn" onclick="compartilhar('${recipe.slug}', '${recipe.titulo.replace(/'/g, "\\'")}')">
-          📤 Compartilhar essa receita
-        </button>
+        <div class="result-actions">
+          <button class="share-btn" onclick="compartilhar('${recipe.slug}', '${recipe.titulo.replace(/'/g, "\\'")}')">
+            📤 Compartilhar
+          </button>
+          <button class="share-btn spin-again-btn" onclick="spin()">
+            🎲 Sortear novamente
+          </button>
+        </div>
       </div>
     </div>
   `;
