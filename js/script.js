@@ -312,11 +312,11 @@ function trocarAba(tipo) {
 }
 
 function voltarInicio() {
-  window.location.href = 'https://nafome.netlify.app/';
+  window.location.href = 'https://nafome.github.io/na-fome/';
 }
 
 function compartilhar(slug, titulo) {
-  const url = `https://nafome.netlify.app/?receita=${slug}`;
+  const url = `https://nafome.github.io/na-fome/?receita=${slug}`;
   const texto = `Olha essa receita que eu achei no Na Fome: ${titulo}`;
 
   if (navigator.share) {
