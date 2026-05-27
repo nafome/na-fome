@@ -120,7 +120,7 @@ function scrollNichos(dir) {
       scroll.scrollBy({ left: scrollAmount, behavior: 'smooth' });
     }
   } else {
-    if (scroll.scrollLeft <= 0) {
+    if (scroll.scrollLeft <= scrollAmount) {
       scroll.scrollTo({ left: maxScroll, behavior: 'smooth' });
     } else {
       scroll.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
