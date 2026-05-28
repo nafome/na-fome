@@ -85,15 +85,231 @@ function slugParaNome(nicho) {
   return meta ? meta.nome : nicho;
 }
 
-function gerarDescricaoNicho(nicho, totalReceitas) {
+// Mapa de SEO por nicho: título H1 e meta description otimizados
+const NICHOS_SEO = {
+  'cafe-da-manha': {
+    h1: '☀️ Receitas de Café da Manhã Fáceis e Rápidas',
+    desc: (n) => `${n} receitas de café da manhã fáceis, rápidas e gostosas. O que fazer pro café da manhã hoje? Sorteia uma ideia agora no NaFome.`,
+  },
+  'almoco': {
+    h1: '🍽️ Receitas de Almoço Fáceis e Baratas',
+    desc: (n) => `${n} receitas de almoço fáceis e baratas para fazer hoje. O que cozinhar no almoço? Sorteia uma receita rápida agora no NaFome.`,
+  },
+  'lanche-da-tarde': {
+    h1: '🥪 Receitas de Lanche da Tarde Rápidas',
+    desc: (n) => `${n} ideias de lanche da tarde gostosas e fáceis de fazer. O que comer no lanche? Sorteia uma receita agora no NaFome.`,
+  },
+  'jantar': {
+    h1: '🌙 Receitas de Jantar Fáceis e Rápidas',
+    desc: (n) => `${n} receitas de jantar fáceis, rápidas e saborosas. O que fazer pro jantar hoje? Sorteia uma ideia agora no NaFome.`,
+  },
+  'madrugada': {
+    h1: '🦉 O Que Comer de Madrugada — Receitas Rápidas',
+    desc: (n) => `${n} receitas para comer de madrugada. Tá com fome e não tem nada? Sorteia uma receita rápida de madrugada agora no NaFome.`,
+  },
+  'to-duro': {
+    h1: '🪙 Receitas Baratas para Quando Tá Duro',
+    desc: (n) => `${n} receitas baratas e fáceis para quando o dinheiro tá curto. Comida boa com pouco dinheiro. Sorteia uma receita agora no NaFome.`,
+  },
+  'final-do-mes': {
+    h1: '💸 Receitas Baratas para o Final do Mês',
+    desc: (n) => `${n} receitas baratas para o fim do mês. O que fazer pra comer com pouco dinheiro? Comida fácil e barata — sorteia agora no NaFome.`,
+  },
+  'recebi-hoje': {
+    h1: '💰 Receitas Gostosas para Quando Recebeu o Salário',
+    desc: (n) => `${n} receitas para caprichar quando o dinheiro chegou. Recebeu hoje? Sorteia uma receita especial agora no NaFome.`,
+  },
+  'gourmet': {
+    h1: '💎 Receitas Gourmet para Fazer em Casa',
+    desc: (n) => `${n} receitas gourmet para impressionar em casa. Culinária sofisticada e fácil de fazer. Sorteia uma receita especial agora no NaFome.`,
+  },
+  'detox': {
+    h1: '🥒 Receitas Detox Saudáveis e Fáceis',
+    desc: (n) => `${n} receitas detox saudáveis e gostosas. Quer comer saudável hoje? Sorteia uma receita detox fácil agora no NaFome.`,
+  },
+  'to-de-dieta': {
+    h1: '🥑 Receitas para Dieta — Saudáveis e Fáceis',
+    desc: (n) => `${n} receitas saudáveis para quem tá de dieta. Comida leve, gostosa e fácil de fazer. Sorteia uma receita fit agora no NaFome.`,
+  },
+  'vegano': {
+    h1: '🌱 Receitas Veganas Fáceis e Gostosas',
+    desc: (n) => `${n} receitas veganas fáceis e saborosas para fazer em casa. O que comer sendo vegano? Sorteia uma receita vegana agora no NaFome.`,
+  },
+  'vegetariano': {
+    h1: '🥗 Receitas Vegetarianas Fáceis e Rápidas',
+    desc: (n) => `${n} receitas vegetarianas fáceis, rápidas e gostosas. O que comer sendo vegetariano? Sorteia uma ideia agora no NaFome.`,
+  },
+  'sem-gluten': {
+    h1: '🌾 Receitas Sem Glúten Fáceis e Saborosas',
+    desc: (n) => `${n} receitas sem glúten fáceis de fazer em casa. Comida boa sem glúten para o dia a dia. Sorteia uma receita agora no NaFome.`,
+  },
+  'sem-lactose': {
+    h1: '🥛 Receitas Sem Lactose Fáceis e Gostosas',
+    desc: (n) => `${n} receitas sem lactose saborosas e fáceis. Intolerante à lactose? Sorteia uma receita sem lactose agora no NaFome.`,
+  },
+  'pre-treino': {
+    h1: '🔋 Receitas Pré-Treino — O Que Comer Antes de Treinar',
+    desc: (n) => `${n} receitas pré-treino para ter energia na academia. O que comer antes de treinar? Sorteia uma receita agora no NaFome.`,
+  },
+  'pos-treino': {
+    h1: '💪 Receitas Pós-Treino — O Que Comer Depois de Treinar',
+    desc: (n) => `${n} receitas pós-treino para recuperar depois da academia. O que comer depois de treinar? Sorteia uma receita agora no NaFome.`,
+  },
+  'ganhar-massa': {
+    h1: '🏋️ Receitas para Ganhar Massa Muscular',
+    desc: (n) => `${n} receitas para ganhar massa muscular com comida de verdade. Dieta para hipertrofia fácil e saborosa. Sorteia agora no NaFome.`,
+  },
+  'em-15-minutos': {
+    h1: '⏱️ Receitas Rápidas em até 15 Minutos',
+    desc: (n) => `${n} receitas prontas em 15 minutos ou menos. Sem tempo pra cozinhar? Sorteia uma receita ultra rápida agora no NaFome.`,
+  },
+  'uma-panela-so': {
+    h1: '🫕 Receitas de Uma Panela Só — Fáceis e Práticas',
+    desc: (n) => `${n} receitas feitas em uma panela só. Sem bagunça, sem louça. Sorteia uma receita prática agora no NaFome.`,
+  },
+  'na-air-fryer': {
+    h1: '💨 Receitas na Air Fryer — Fáceis e Rápidas',
+    desc: (n) => `${n} receitas fáceis na air fryer. Frango, batata, bolo e mais — tudo na air fryer. Sorteia uma receita agora no NaFome.`,
+  },
+  'no-micro-ondas': {
+    h1: '📡 Receitas no Micro-ondas — Rápidas e Fáceis',
+    desc: (n) => `${n} receitas práticas no micro-ondas. Comida boa sem fogão em minutos. Sorteia uma receita no micro-ondas agora no NaFome.`,
+  },
+  'no-forno': {
+    h1: '🔆 Receitas de Forno Fáceis e Gostosas',
+    desc: (n) => `${n} receitas de forno fáceis para fazer em casa. Assados, gratinados e bolos — sorteia uma receita de forno agora no NaFome.`,
+  },
+  'sem-fogao': {
+    h1: '🚫 Receitas Sem Fogão — Fáceis e Práticas',
+    desc: (n) => `${n} receitas sem fogão para fazer em casa. Sem fogo, sem complicação. Sorteia uma receita sem fogão agora no NaFome.`,
+  },
+  'sem-sujar-louca': {
+    h1: '🙏 Receitas Sem Sujar Louça — Práticas e Rápidas',
+    desc: (n) => `${n} receitas que não sujam louça. Comer bem sem lavar nada depois. Sorteia uma receita prática agora no NaFome.`,
+  },
+  'nao-sei-cozinhar': {
+    h1: '😬 Receitas para Quem Não Sabe Cozinhar',
+    desc: (n) => `${n} receitas para iniciantes na cozinha. Passo a passo fácil para quem nunca cozinhou. Sorteia uma receita simples agora no NaFome.`,
+  },
+  'final-de-semana': {
+    h1: '😎 Receitas para o Final de Semana',
+    desc: (n) => `${n} receitas gostosas para fazer no final de semana. Capricha no sábado e domingo com essas ideias. Sorteia agora no NaFome.`,
+  },
+  'churrasco': {
+    h1: '🔥 Receitas de Churrasco para Fazer em Casa',
+    desc: (n) => `${n} receitas de churrasco em casa. Carnes, acompanhamentos e petiscos para o churrasco perfeito. Sorteia agora no NaFome.`,
+  },
+  'boteco-em-casa': {
+    h1: '🍺 Receitas de Boteco para Fazer em Casa',
+    desc: (n) => `${n} receitas de petisco e boteco para fazer em casa. Tira-gostos fáceis e gostosos. Sorteia uma receita de boteco agora no NaFome.`,
+  },
+  'vendo-o-fut': {
+    h1: '⚽ Receitas para Comer Vendo Futebol',
+    desc: (n) => `${n} receitas e petiscos para comer vendo futebol. Lanches e tira-gostos perfeitos pro jogo. Sorteia agora no NaFome.`,
+  },
+  'jantar-romantico': {
+    h1: '🕯️ Receitas de Jantar Romântico para Fazer em Casa',
+    desc: (n) => `${n} receitas de jantar romântico para impressionar em casa. Jantar especial a dois fácil de preparar. Sorteia agora no NaFome.`,
+  },
+  'pra-impressionar': {
+    h1: '🎩 Receitas para Impressionar — Sofisticadas e Fáceis',
+    desc: (n) => `${n} receitas para impressionar visitas e convidados. Comida especial e sofisticada fácil de fazer. Sorteia agora no NaFome.`,
+  },
+  'piquenique': {
+    h1: '🧺 Receitas para Piquenique — Fáceis e Práticas',
+    desc: (n) => `${n} receitas fáceis para piquenique. Comida prática para levar ao parque ou praia. Sorteia uma ideia agora no NaFome.`,
+  },
+  'natal': {
+    h1: '🎄 Receitas de Natal Fáceis para Fazer em Casa',
+    desc: (n) => `${n} receitas de natal fáceis e tradicionais. Ceia de natal simples e gostosa para a família. Sorteia uma receita natalina agora no NaFome.`,
+  },
+  'ano-novo': {
+    h1: '🥂 Receitas para o Ano Novo — Ceia Fácil e Gostosa',
+    desc: (n) => `${n} receitas para a ceia de ano novo. Pratos e petiscos para a virada. Sorteia uma receita de réveillon agora no NaFome.`,
+  },
+  'pascoa': {
+    h1: '🐣 Receitas de Páscoa Fáceis para Fazer em Casa',
+    desc: (n) => `${n} receitas de páscoa fáceis. Ovo de páscoa caseiro, bacalhau e mais. Sorteia uma receita de páscoa agora no NaFome.`,
+  },
+  'to-doente': {
+    h1: '🤒 Receitas para Quando Tá Doente — Leves e Fáceis',
+    desc: (n) => `${n} receitas leves para quando tá doente. Caldos, sopas e comidas que ajudam a recuperar. Sorteia uma receita agora no NaFome.`,
+  },
+  'de-ressaca': {
+    h1: '🤢 Receitas de Ressaca — O Que Comer na Ressaca',
+    desc: (n) => `${n} receitas para ressaca. O que comer na ressaca para se sentir melhor? Caldos, sopas e comidas que salvam. Sorteia agora no NaFome.`,
+  },
+  'to-com-frio': {
+    h1: '🥶 Receitas para o Frio — Sopas, Caldos e Comidas Quentes',
+    desc: (n) => `${n} receitas quentinhas para o frio. Sopas, caldos e pratos que aquecem. O que comer no frio? Sorteia agora no NaFome.`,
+  },
+  'fast-food-caseiro': {
+    h1: '🍔 Receitas de Fast Food Caseiro — Hambúrguer, Pizza e Mais',
+    desc: (n) => `${n} receitas de fast food caseiro. Hambúrguer, batata frita, pizza e mais — feitos em casa. Sorteia uma receita agora no NaFome.`,
+  },
+  'comida-de-rua': {
+    h1: '🥙 Receitas de Comida de Rua para Fazer em Casa',
+    desc: (n) => `${n} receitas de comida de rua para fazer em casa. Tapioca, churros, pastel e mais. Sorteia uma receita agora no NaFome.`,
+  },
+  'comida-regional': {
+    h1: '🍛 Receitas de Comida Regional Brasileira',
+    desc: (n) => `${n} receitas de comida regional brasileira. Pratos típicos do Norte, Nordeste, Sul e Sudeste. Sorteia uma receita regional agora no NaFome.`,
+  },
+  'frutos-do-mar': {
+    h1: '🦐 Receitas de Frutos do Mar Fáceis e Gostosas',
+    desc: (n) => `${n} receitas de frutos do mar fáceis de fazer em casa. Camarão, peixe, lula e mais. Sorteia uma receita agora no NaFome.`,
+  },
+  'sobremesa': {
+    h1: '🍫 Receitas de Sobremesa Fáceis e Rápidas',
+    desc: (n) => `${n} receitas de sobremesa fáceis e rápidas. Bolo, pudim, mousse e mais. Sorteia uma receita de sobremesa agora no NaFome.`,
+  },
+  'cafe': {
+    h1: '☕ Receitas com Café — Bebidas e Doces',
+    desc: (n) => `${n} receitas com café. Bebidas geladas, bolos, doces e mais. Sorteia uma receita com café agora no NaFome.`,
+  },
+  'drinks': {
+    h1: '🍹 Receitas de Drinks — Coquetéis Fáceis para Fazer em Casa',
+    desc: (n) => `${n} receitas de drinks e coquetéis para fazer em casa. Caipirinha, mojito e mais. Sorteia uma receita de drink agora no NaFome.`,
+  },
+  'drinks-sem-alcool': {
+    h1: '🧃 Receitas de Drinks Sem Álcool — Refrescantes e Fáceis',
+    desc: (n) => `${n} receitas de drinks sem álcool para fazer em casa. Sucos, vitaminas e mocktails gostosos. Sorteia agora no NaFome.`,
+  },
+  'pra-criancada': {
+    h1: '👶 Receitas para Crianças — Fáceis e Saudáveis',
+    desc: (n) => `${n} receitas fáceis e gostosas para crianças. Comida saudável que a criançada adora. Sorteia uma receita infantil agora no NaFome.`,
+  },
+  'pra-vovo-e-vovo': {
+    h1: '👴 Receitas para Idosos — Fáceis, Leves e Saborosas',
+    desc: (n) => `${n} receitas leves e fáceis para idosos. Comida saborosa e saudável para vovô e vovó. Sorteia uma receita agora no NaFome.`,
+  },
+  'a-galera-toda': {
+    h1: '🎉 Receitas para Muita Gente — Fáceis e Econômicas',
+    desc: (n) => `${n} receitas para fazer para muita gente. Comida fácil, gostosa e econômica para reunião e festa. Sorteia agora no NaFome.`,
+  },
+};
+
+function gerarSEO(nicho, totalReceitas) {
+  const seo = NICHOS_SEO[nicho];
+  if (seo) {
+    return {
+      h1: seo.h1,
+      desc: seo.desc(totalReceitas),
+    };
+  }
+  // fallback genérico
   const nome = slugParaNome(nicho);
-  return `${totalReceitas} receitas para quem está na situação "${nome}". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.`;
+  return {
+    h1: slugParaTitulo(nicho),
+    desc: `${totalReceitas} receitas para ${nome}. Rápidas, baratas e fáceis de fazer. Sorteia uma agora no NaFome.`,
+  };
 }
 
 function gerarHTML(nicho, receitas) {
-  const titulo    = slugParaTitulo(nicho);
-  const nome      = slugParaNome(nicho);
-  const descricao = gerarDescricaoNicho(nicho, receitas.length);
+  const seo      = gerarSEO(nicho, receitas.length);
+  const titulo   = seo.h1;
+  const nome     = slugParaNome(nicho);
+  const descricao = seo.desc;
   const canonical = `${BASE_URL}/${nicho}/`;
   const sorteioURL = `${BASE_URL}/?nicho=${nicho}`;
 
@@ -143,14 +359,14 @@ function gerarHTML(nicho, receitas) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${titulo} — Receitas NaFome</title>
+  <title>${titulo} | NaFome</title>
   <meta name="description" content="${descricao}">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="${canonical}">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="${titulo} — Receitas NaFome">
+  <meta property="og:title" content="${titulo} | NaFome">
   <meta property="og:description" content="${descricao}">
   <meta property="og:url" content="${canonical}">
   <meta property="og:image" content="${BASE_URL}/og-image.jpg">
@@ -160,7 +376,7 @@ function gerarHTML(nicho, receitas) {
   {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    "name": "${titulo} — NaFome",
+    "name": "${titulo} | NaFome",
     "description": "${descricao}",
     "url": "${canonical}",
     "isPartOf": {
