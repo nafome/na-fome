@@ -39,16 +39,42 @@
 
     body {
       font-family: 'Plus Jakarta Sans', sans-serif;
-      background: #0f0f0f;
-      color: #e8e8e8;
+      background: #f7f7f7;
+      color: #1a1a1a;
       line-height: 1.6;
     }
 
     a { color: #ff6b35; text-decoration: none; }
     a:hover { text-decoration: underline; }
 
+    /* ── Anúncio ── */
+    .ad-banner {
+      width: 100%;
+      min-height: 90px;
+      background: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 1px solid #e0e0e0;
+      padding: 8px 0;
+    }
+    .ad-banner.ad-bottom {
+      border-bottom: none;
+      border-top: 1px solid #e0e0e0;
+      margin-top: 32px;
+    }
+    .ad-label {
+      font-size: 10px;
+      color: #aaa;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 4px;
+    }
+
+    /* ── Topbar ── */
     .topbar {
-      background: #1a1a1a;
+      background: #fff;
       border-bottom: 2px solid #ff6b35;
       padding: 12px 20px;
       display: flex;
@@ -56,12 +82,14 @@
       justify-content: space-between;
       gap: 12px;
       flex-wrap: wrap;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
     }
 
     .logo {
       font-size: 22px;
       font-weight: 800;
-      color: #fff;
+      color: #1a1a1a;
+      text-decoration: none;
     }
 
     .logo span { color: #ff6b35; }
@@ -84,6 +112,7 @@
       text-decoration: none;
     }
 
+    /* ── Hero ── */
     .hero {
       text-align: center;
       padding: 40px 20px 24px;
@@ -94,20 +123,20 @@
     .hero h1 {
       font-size: clamp(24px, 5vw, 38px);
       font-weight: 800;
-      color: #fff;
+      color: #1a1a1a;
       margin-bottom: 10px;
     }
 
     .hero p {
-      color: #aaa;
+      color: #666;
       font-size: 15px;
     }
 
     .hero .count {
       display: inline-block;
       margin-top: 12px;
-      background: #1e1e1e;
-      border: 1px solid #333;
+      background: #fff;
+      border: 1.5px solid #ff6b35;
       border-radius: 20px;
       padding: 4px 14px;
       font-size: 13px;
@@ -115,35 +144,39 @@
       font-weight: 600;
     }
 
+    /* ── Container ── */
     .container {
       max-width: 900px;
       margin: 0 auto;
       padding: 0 20px 60px;
     }
 
+    /* ── Cards de receita ── */
     .receita-card {
-      background: #1a1a1a;
-      border: 1px solid #2a2a2a;
+      background: #fff;
+      border: 1px solid #e8e8e8;
       border-radius: 16px;
       padding: 28px;
       margin-bottom: 24px;
-      transition: border-color 0.2s;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
     }
 
     .receita-card:hover {
       border-color: #ff6b35;
+      box-shadow: 0 4px 16px rgba(255,107,53,0.12);
     }
 
     .receita-titulo {
       font-size: 20px;
       font-weight: 800;
-      color: #fff;
+      color: #1a1a1a;
       margin-bottom: 8px;
       line-height: 1.3;
     }
 
     .receita-desc {
-      color: #aaa;
+      color: #666;
       font-size: 14px;
       margin-bottom: 14px;
     }
@@ -156,12 +189,12 @@
     }
 
     .badge {
-      background: #252525;
-      border: 1px solid #333;
+      background: #f5f5f5;
+      border: 1px solid #e0e0e0;
       border-radius: 20px;
       padding: 4px 12px;
       font-size: 12px;
-      color: #ccc;
+      color: #555;
     }
 
     .receita-cols {
@@ -186,7 +219,7 @@
 
     .ingredientes, .preparo {
       font-size: 14px;
-      color: #ccc;
+      color: #444;
       padding-left: 18px;
     }
 
@@ -195,15 +228,30 @@
     }
 
     .receita-dica {
-      background: #252525;
+      background: #fff8f5;
       border-left: 3px solid #ff6b35;
       border-radius: 0 8px 8px 0;
       padding: 12px 16px;
       font-size: 13px;
-      color: #bbb;
+      color: #555;
       margin-top: 4px;
     }
 
+    /* ── Anúncio inline entre receitas ── */
+    .ad-inline {
+      background: #f0f0f0;
+      border: 1px dashed #ddd;
+      border-radius: 12px;
+      min-height: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 24px;
+      padding: 12px;
+    }
+
+    /* ── CTA box ── */
     .cta-box {
       background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
       border-radius: 16px;
@@ -242,18 +290,25 @@
       color: #e55a25;
     }
 
+    /* ── Footer ── */
     footer {
       text-align: center;
       padding: 24px 20px;
-      color: #555;
+      color: #888;
       font-size: 13px;
-      border-top: 1px solid #222;
+      border-top: 1px solid #e8e8e8;
     }
 
     footer a { color: #ff6b35; }
   </style>
 </head>
 <body>
+
+  <!-- Anúncio topo -->
+  <div class="ad-banner ad-top">
+    <span class="ad-label">publicidade</span>
+    <!-- Cole aqui o código do Google AdSense quando aprovado -->
+  </div>
 
   <nav class="topbar">
     <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
@@ -272,6 +327,12 @@
       <h2>Quer ser surpreendido?</h2>
       <p>Clica no botão e a máquina sorteia uma receita de Final de Semana pra você agora.</p>
       <a href="https://nafome.com.br/?nicho=final-de-semana" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    <!-- Anúncio inline -->
+    <div class="ad-inline">
+      <span class="ad-label">publicidade</span>
+      <!-- Cole aqui o código do Google AdSense quando aprovado -->
     </div>
 
     
@@ -1708,14 +1769,21 @@
 
     <div class="cta-box">
       <h2>Gostou? Sorteia outra!</h2>
-      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <p>Mais de 2.000 receitas te esperando. Cada giro é uma surpresa.</p>
       <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
     </div>
 
   </div>
 
+  <!-- Anúncio rodapé -->
+  <div class="ad-banner ad-bottom">
+    <span class="ad-label">publicidade</span>
+    <!-- Cole aqui o código do Google AdSense quando aprovado -->
+  </div>
+
   <footer>
-    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️ &middot;
+    <a href="https://nafome.com.br">Ver todos os nichos</a>
   </footer>
 
 </body>
