@@ -1,0 +1,1598 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🔥 Churrasco — Receitas NaFome</title>
+  <meta name="description" content="42 receitas para quem está na situação "Churrasco". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/churrasco/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🔥 Churrasco — Receitas NaFome">
+  <meta property="og:description" content="42 receitas para quem está na situação "Churrasco". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/churrasco/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🔥 Churrasco — NaFome",
+    "description": "42 receitas para quem está na situação "Churrasco". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/churrasco/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=churrasco" class="btn-sortear">🎲 Sortear receita de Churrasco</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🔥 Churrasco</h1>
+    <p>42 receitas para quem está na situação "Churrasco". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">42 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Churrasco pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=churrasco" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="picanha-na-brasa-suprema">
+      <h2 class="receita-titulo">Picanha na Brasa Suprema</h2>
+      <p class="receita-desc">Porque só a picanha entende o drama do boleto chegando no fim do mês</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 65,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>,2 kg de picanha com capa de gordura</li>
+              <li>Sal grosso a gosto</li>
+              <li>Pimenta-do-reino moída na hora a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Acenda a churrasqueira e deixe o carvão em brasa média.</li>
+              <li>Tempere a picanha generosamente com sal grosso e pimenta.</li>
+              <li>Coloque a picanha com a gordura virada para baixo e grelhe por 15 minutos.</li>
+              <li>Vire a peça e asse por mais 20 minutos para ponto médio.</li>
+              <li>Retire do fogo, deixe descansar 5 minutos e fatie contra as fibras.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o churrasco fosse boleto, essa picanha seria o ‘pagamento à vista’ — só se aproveita se for com gosto e sem medo de ser feliz.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-fraldinha-maravilha">
+      <h2 class="receita-titulo">Espetinho de Fraldinha Maravilha</h2>
+      <p class="receita-desc">Porque até a fraldinha merece seu momento de brilhar antes do próximo boleto</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de fraldinha em cubos</li>
+              <li>dentes de alho picados</li>
+              <li>colher de sopa de azeite</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture alho, azeite, sal e pimenta; tempere a fraldinha e deixe marinar 20 minutos.</li>
+              <li>Espete os cubos de carne nos espetinhos, sem apertar demais.</li>
+              <li>Grelhe na churrasqueira por aproximadamente 10 minutos, virando para dourar todos os lados.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a fraldinha tivesse perfil no Tinder, seria aquela que demora pra responder, mas quando aparece, vale a pena esperar.</div>
+    </article>
+
+    <article class="receita-card" id="linguica-artesanal-com-cebola-caramelizada">
+      <h2 class="receita-titulo">Linguiça Artesanal com Cebola Caramelizada</h2>
+      <p class="receita-desc">Porque até a linguiça sabe que a cebola é o segredo da vida adulta</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de linguiça fresca</li>
+              <li>cebolas grandes cortadas em rodelas finas</li>
+              <li>colher de sopa de manteiga</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Grelhe a linguiça na churrasqueira até dourar e cozinhar por completo, cerca de 20 minutos.</li>
+              <li>Em uma frigideira, derreta a manteiga e caramelize as cebolas em fogo baixo até ficarem douradas e doces.</li>
+              <li>Sirva a linguiça com a cebola caramelizada por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a linguiça fosse um político, seria aquela que promete muito mas só entrega quando a cebola chora.</div>
+    </article>
+
+    <article class="receita-card" id="frango-ao-alho-e-limao-na-brasa">
+      <h2 class="receita-titulo">Frango ao Alho e Limão na Brasa</h2>
+      <p class="receita-desc">Para quem quer impressionar sem precisar vender um rim no açougue</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de coxa e sobrecoxa de frango</li>
+              <li>Suco de 2 limões</li>
+              <li>dentes de alho picados</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture limão, alho, sal, pimenta e azeite; marine o frango por 30 minutos.</li>
+              <li>Grelhe o frango na churrasqueira, virando para dourar dos dois lados, cerca de 25 minutos.</li>
+              <li>Sirva quente, aproveitando o cheiro que vai deixar o vizinho com inveja.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse frango é tipo amigo que aparece só quando tem churrasco: simples, mas faz toda a diferença.</div>
+    </article>
+
+    <article class="receita-card" id="costela-bovina-cozida-na-brasa">
+      <h2 class="receita-titulo">Costela Bovina Cozida na Brasa</h2>
+      <p class="receita-desc">Para quem sabe que a paciência é o segredo, e a fome é só um detalhe</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5h</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 75,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de costela bovina</li>
+              <li>Sal grosso a gosto</li>
+              <li>Pimenta-do-reino a gosto</li>
+              <li>ml de água</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere a costela com sal e pimenta.</li>
+              <li>Embrulhe a costela em papel alumínio com um pouco de água para manter a umidade.</li>
+              <li>Coloque na churrasqueira com brasa baixa e cozinhe por cerca de 4 horas, virando e regando a cada 1 hora.</li>
+              <li>Retire o papel, aumente o fogo e grelhe por mais 30 minutos para formar a crosta.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Costela é como boleto atrasado: só resolve se você tiver tempo e paciência, e um pouco de fogo no coração.</div>
+    </article>
+
+    <article class="receita-card" id="maminha-ao-chimichurri-caseiro">
+      <h2 class="receita-titulo">Maminha ao Chimichurri Caseiro</h2>
+      <p class="receita-desc">Porque até carne precisa de um tempero social pra se destacar na roda</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 45,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>,2 kg de maminha</li>
+              <li>Sal grosso a gosto</li>
+              <li>Para o chimichurri:</li>
+              <li>maço de salsinha picada</li>
+              <li>dentes de alho picados</li>
+              <li>/2 xícara de azeite</li>
+              <li>colheres de sopa de vinagre de vinho</li>
+              <li>colher de chá de pimenta calabresa</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere a maminha com sal grosso e deixe descansar 15 minutos.</li>
+              <li>Misture os ingredientes do chimichurri em uma tigela e reserve.</li>
+              <li>Grelhe a maminha na churrasqueira por 40 minutos, virando para dourar por igual.</li>
+              <li>Fatie a carne e sirva acompanhada do chimichurri.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Chimichurri é tipo aquele amigo que anima a festa: sem ele, o churrasco fica sem graça e a vida sem tempero.</div>
+    </article>
+
+    <article class="receita-card" id="asinhas-de-frango-apimentadas-na-brasa">
+      <h2 class="receita-titulo">Asinhas de Frango Apimentadas na Brasa</h2>
+      <p class="receita-desc">Para quem gosta de emoção, mas não quer drama no relacionamento</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de asinhas de frango</li>
+              <li>colheres de sopa de molho de pimenta</li>
+              <li>colheres de sopa de mel</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o molho de pimenta, mel, sal e pimenta; marine as asinhas por 20 minutos.</li>
+              <li>Grelhe as asinhas na churrasqueira, virando para não queimar, por cerca de 15 minutos.</li>
+              <li>Sirva quente, com guardanapos à mão para não chorar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Asinha apimentada é igual briga de casal: faz você suar, mas no fim você quer mais.</div>
+    </article>
+
+    <article class="receita-card" id="queijo-coalho-com-mel-e-pimenta">
+      <h2 class="receita-titulo">Queijo Coalho com Mel e Pimenta</h2>
+      <p class="receita-desc">Porque o queijo também merece uma vida emocionante, diferente da sua segunda-feira</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de queijo coalho em cubos grandes</li>
+              <li>colheres de sopa de mel</li>
+              <li>Pimenta-do-reino moída na hora a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espete os cubos de queijo e grelhe na churrasqueira até dourar, cerca de 10 minutos.</li>
+              <li>Pincele o mel sobre o queijo e polvilhe a pimenta.</li>
+              <li>Sirva imediatamente, antes que derreta demais e vire drama.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Queijo coalho com mel é como final de semana: doce, inesperado e deixa todo mundo feliz.</div>
+    </article>
+
+    <article class="receita-card" id="abacaxi-grelhado-com-canela-e-acucar-mascavo">
+      <h2 class="receita-titulo">Abacaxi Grelhado com Canela e Açúcar Mascavo</h2>
+      <p class="receita-desc">A sobremesa que prova que churrasco é dieta… de felicidade!</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abacaxi fatiado em rodelas grossas</li>
+              <li>colheres de sopa de açúcar mascavo</li>
+              <li>colher de chá de canela em pó</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture açúcar mascavo e canela.</li>
+              <li>Grelhe as fatias de abacaxi na churrasqueira por 5 minutos de cada lado.</li>
+              <li>Polvilhe a mistura de açúcar e canela sobre o abacaxi quente e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Abacaxi grelhado é o único 'azedo' que você vai querer na vida, porque o resto só faz boleto chegar.</div>
+    </article>
+
+    <article class="receita-card" id="pao-de-alho-cremoso-da-vovo-churrasqueira">
+      <h2 class="receita-titulo">Pão de Alho Cremoso da Vovó Churrasqueira</h2>
+      <p class="receita-desc">Aquele pão que une família e faz até o sogro sorrir (momentaneamente)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pão francês grande ou pão baguete</li>
+              <li>g de manteiga</li>
+              <li>dentes de alho amassados</li>
+              <li>Salsinha picada a gosto</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a manteiga, alho, salsinha e sal até virar uma pasta.</li>
+              <li>Corte o pão em fatias sem separar completamente.</li>
+              <li>Espalhe a pasta entre as fatias e enrole em papel alumínio.</li>
+              <li>Leve à churrasqueira por 15 minutos até derreter e dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pão de alho é tipo aquele tio que não sabe cantar, mas todo mundo finge que gosta para não causar climão.</div>
+    </article>
+
+    <article class="receita-card" id="legumes-grelhados-com-toque-defumado">
+      <h2 class="receita-titulo">Legumes Grelhados com Toque Defumado</h2>
+      <p class="receita-desc">Para quem quer dizer que come saudável, mas o coração é de churrasqueiro</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abobrinha cortada em rodelas grossas</li>
+              <li>berinjela cortada em fatias</li>
+              <li>pimentão vermelho em tiras</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere os legumes com azeite, sal e pimenta.</li>
+              <li>Grelhe os legumes na churrasqueira por 10-15 minutos, virando para dourar uniformemente.</li>
+              <li>Sirva quente, fingindo que é saúde mesmo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Legumes no churrasco são tipo academia pós-feriado: a gente sabe que precisa, mas a vontade é outra.</div>
+    </article>
+
+    <article class="receita-card" id="bife-de-chorizo-argentino-na-brasa">
+      <h2 class="receita-titulo">Bife de Chorizo Argentino na Brasa</h2>
+      <p class="receita-desc">Porque se é para gastar, que seja com estilo e um pouco de drama porteño</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 70,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de bife de chorizo</li>
+              <li>Sal grosso a gosto</li>
+              <li>Pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o bife com sal grosso e pimenta.</li>
+              <li>Grelhe por 20 minutos em fogo médio, virando para criar a crosta.</li>
+              <li>Deixe descansar 5 minutos antes de fatiar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bife de chorizo é igual fim de semana prolongado: se não aproveitar bem, passa rápido e deixa saudade.</div>
+    </article>
+
+    <article class="receita-card" id="kafta-de-carne-com-hortela-na-brasa">
+      <h2 class="receita-titulo">Kafta de Carne com Hortelã na Brasa</h2>
+      <p class="receita-desc">Para quem quer fugir do básico, mas sem perder a essência do churrasco</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de carne moída (patinho ou acém)</li>
+              <li>cebola média ralada</li>
+              <li>punhado de hortelã picada</li>
+              <li>Sal, pimenta-do-reino e cominho a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes até formar uma massa homogênea.</li>
+              <li>Modele nos espetos, apertando bem para não desmanchar.</li>
+              <li>Grelhe na churrasqueira por 15 minutos, virando para dourar por igual.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Kafta é tipo relacionamento à distância: precisa de cuidado e atenção para não desmanchar no meio do caminho.</div>
+    </article>
+
+    <article class="receita-card" id="costelinha-de-porco-barbecue-caseira">
+      <h2 class="receita-titulo">Costelinha de Porco Barbecue Caseira</h2>
+      <p class="receita-desc">Se a vida te dá costela, faça um churrasco e esqueça os boletos por um tempo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h 30min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>,5 kg de costelinha de porco</li>
+              <li>ml de molho barbecue caseiro</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere a costelinha com sal e pimenta.</li>
+              <li>Grelhe na churrasqueira com fogo médio por 1 hora, virando frequentemente.</li>
+              <li>Nos últimos 15 minutos, pincele o molho barbecue até caramelizar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Costelinha é como boleto atrasado: difícil de encarar, mas quando resolve, deixa todo mundo satisfeito.</div>
+    </article>
+
+    <article class="receita-card" id="mandioca-cozida-com-manteiga-de-alho">
+      <h2 class="receita-titulo">Mandioca Cozida com Manteiga de Alho</h2>
+      <p class="receita-desc">O carboidrato que não te julga, só te ama e sustenta</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de mandioca descascada</li>
+              <li>g de manteiga</li>
+              <li>dentes de alho picados</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a mandioca em água com sal até ficar macia, cerca de 25 minutos.</li>
+              <li>Em uma panela, derreta a manteiga e refogue o alho até dourar.</li>
+              <li>Escorra a mandioca, misture com a manteiga de alho e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mandioca é tipo amigo fiel: não importa o que aconteça, tá sempre lá pra te sustentar.</div>
+    </article>
+
+    <article class="receita-card" id="coracao-de-frango-grelhado-com-limao">
+      <h2 class="receita-titulo">Coração de Frango Grelhado com Limão</h2>
+      <p class="receita-desc">Para quem gosta de emoção e quer sentir o verdadeiro sabor da vida (e do churrasco)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de coração de frango limpo</li>
+              <li>Suco de 2 limões</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere os corações com limão, sal e pimenta.</li>
+              <li>Espete os corações e grelhe na churrasqueira por 15 minutos, virando para dourar.</li>
+              <li>Sirva quente, com limão extra para quem gosta de emoção.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Coração de frango é igual crush: pequeno, mas capaz de causar um baita impacto.</div>
+    </article>
+
+    <article class="receita-card" id="pao-sirio-recheado-com-carne-moida-e-queijo">
+      <h2 class="receita-titulo">Pão Sírio Recheado com Carne Moída e Queijo</h2>
+      <p class="receita-desc">Porque churrasco também é desculpa pra esquecer a dieta (mais um pouquinho)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pães sírios</li>
+              <li>g de carne moída temperada</li>
+              <li>g de queijo muçarela ralado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a carne moída com temperos até secar o líquido.</li>
+              <li>Corte o pão ao meio e recheie com carne e queijo.</li>
+              <li>Feche e grelhe na churrasqueira por 10 minutos, até o queijo derreter.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pão recheado é tipo aquele parente que chega de surpresa: bagunça tudo, mas todo mundo ama.</div>
+    </article>
+
+    <article class="receita-card" id="abobrinha-recheada-com-queijo-e-ervas">
+      <h2 class="receita-titulo">Abobrinha Recheada com Queijo e Ervas</h2>
+      <p class="receita-desc">Para fingir que você come saudável, mesmo com a carne chamando</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abobrinhas médias</li>
+              <li>g de queijo ricota ou muçarela</li>
+              <li>Salsinha e cebolinha picadas</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte as abobrinhas ao meio e retire o miolo com a colher.</li>
+              <li>Misture o queijo com as ervas, sal e pimenta e recheie as abobrinhas.</li>
+              <li>Grelhe na churrasqueira por 15 minutos até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Abobrinha recheada é igual promessa de político: parece bom, mas todo mundo fica desconfiado.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-camarao-com-alho-e-limao">
+      <h2 class="receita-titulo">Espetinho de Camarão com Alho e Limão</h2>
+      <p class="receita-desc">Para quem acha que churrasco é só carne e quer dar um upgrade maroto</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de camarão limpo e sem casca</li>
+              <li>Suco de 1 limão</li>
+              <li>dentes de alho picados</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Marine os camarões por 20 minutos no limão, alho, sal, pimenta e azeite.</li>
+              <li>Espete e grelhe na churrasqueira por 5 minutos de cada lado.</li>
+              <li>Sirva imediatamente para evitar que o camarão vire borracha.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Camarão no churrasco é igual visita inesperada: chega rápido e já quer sair logo.</div>
+    </article>
+
+    <article class="receita-card" id="farofa-crocante-com-bacon-e-cebola">
+      <h2 class="receita-titulo">Farofa Crocante com Bacon e Cebola</h2>
+      <p class="receita-desc">O carboidrato que entende que a vida é dura, mas a farofa não precisa ser</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de farinha de mandioca</li>
+              <li>g de bacon picado</li>
+              <li>cebola média picada</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Frite o bacon até ficar crocante, retire o excesso de gordura.</li>
+              <li>Na mesma frigideira, refogue a cebola até dourar.</li>
+              <li>Junte a farinha, mexa até ficar crocante e tempere com sal.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Farofa é igual aquela fofoca boa: deixa todo mundo satisfeito e falando até segunda.</div>
+    </article>
+
+    <article class="receita-card" id="bife-ancho-com-manteiga-de-ervas">
+      <h2 class="receita-titulo">Bife Ancho com Manteiga de Ervas</h2>
+      <p class="receita-desc">Para quem quer se sentir chef cinco estrelas sem sair da churrasqueira do bairro</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 55 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 68,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de bife ancho</li>
+              <li>g de manteiga em temperatura ambiente</li>
+              <li>Salsinha, cebolinha e tomilho picados</li>
+              <li>Sal grosso e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a manteiga com as ervas e reserve.</li>
+              <li>Tempere o bife com sal grosso e pimenta.</li>
+              <li>Grelhe o bife por 40 minutos em fogo médio, virando para dourar.</li>
+              <li>Sirva com colheradas da manteiga de ervas por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bife ancho com manteiga é tipo final de novela: todo mundo quer, mas só alguns têm o privilégio.</div>
+    </article>
+
+    <article class="receita-card" id="tomate-recheado-com-queijo-coalho-e-oregano">
+      <h2 class="receita-titulo">Tomate Recheado com Queijo Coalho e Orégano</h2>
+      <p class="receita-desc">Pra quem acha que tomate só serve pra deixar a salada triste</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tomates grandes e firmes</li>
+              <li>g de queijo coalho ralado</li>
+              <li>Orégano a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte a tampa dos tomates e retire o miolo com cuidado.</li>
+              <li>Recheie com o queijo coalho, tempere com sal, pimenta e orégano.</li>
+              <li>Grelhe na churrasqueira por 15 minutos ou até o queijo derreter.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Tomate recheado é igual reunião de condomínio: ninguém quer, mas às vezes é necessário para não ficar sem nada.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-coracao-com-bacon-enrolado">
+      <h2 class="receita-titulo">Espetinho de Coração com Bacon Enrolado</h2>
+      <p class="receita-desc">Mistura que só o churrasco entende: coração que bate forte e bacon que abraça</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de coração de frango limpo</li>
+              <li>g de bacon em fatias</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Enrole cada coração com uma fatia de bacon e espete firmemente.</li>
+              <li>Tempere com sal e pimenta.</li>
+              <li>Grelhe na churrasqueira por 20 minutos, virando para dourar o bacon.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse espetinho é tipo amizade verdadeira: enrolado, cheio de sabor e impossível de largar.</div>
+    </article>
+
+    <article class="receita-card" id="pimentao-recheado-com-carne-e-queijo">
+      <h2 class="receita-titulo">Pimentão Recheado com Carne e Queijo</h2>
+      <p class="receita-desc">Para quem quer impressionar a patroa sem precisar lavar a louça depois</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pimentões grandes (cores variadas)</li>
+              <li>g de carne moída temperada</li>
+              <li>g de queijo muçarela ralado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte a tampa dos pimentões e retire as sementes.</li>
+              <li>Recheie com carne moída e cubra com queijo.</li>
+              <li>Grelhe na churrasqueira por 30 minutos até o queijo derreter e o pimentão amolecer.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pimentão recheado é igual vida de solteiro: cheio de surpresas e só funciona se você se dedicar.</div>
+    </article>
+
+    <article class="receita-card" id="mandioca-frita-crocante">
+      <h2 class="receita-titulo">Mandioca Frita Crocante</h2>
+      <p class="receita-desc">A batata-doce do churrasqueiro preguiçoso que não quer complicação</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de mandioca cozida</li>
+              <li>Óleo para fritar</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte a mandioca cozida em palitos.</li>
+              <li>Aqueça o óleo e frite até dourar e ficar crocante.</li>
+              <li>Escorra em papel toalha e salpique sal.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mandioca frita é igual descanso no domingo: simples, gostoso e necessário para a alma.</div>
+    </article>
+
+    <article class="receita-card" id="alcatra-na-manteiga-de-alho">
+      <h2 class="receita-titulo">Alcatra na Manteiga de Alho</h2>
+      <p class="receita-desc">Para provar que manteiga e alho são o casal que não pode faltar no churrasco</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 50,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de alcatra em peça</li>
+              <li>g de manteiga</li>
+              <li>dentes de alho amassados</li>
+              <li>Sal grosso a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture manteiga e alho e reserve.</li>
+              <li>Tempere a alcatra com sal grosso.</li>
+              <li>Grelhe a carne por 35 minutos, virando para dourar.</li>
+              <li>Nos últimos minutos, espalhe a manteiga de alho sobre a carne.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Manteiga de alho é igual fofoca boa: espalha sabor e deixa tudo mais gostoso.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-vegetariano-de-cogumelos">
+      <h2 class="receita-titulo">Espetinho Vegetariano de Cogumelos</h2>
+      <p class="receita-desc">Para o churrasqueiro que quer agradar até o amigo do tofu</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de cogumelos paris inteiros</li>
+              <li>abobrinha cortada em rodelas</li>
+              <li>pimentão cortado em cubos</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture os legumes com azeite, sal e pimenta.</li>
+              <li>Espete alternando os ingredientes.</li>
+              <li>Grelhe na churrasqueira por 15 minutos, virando para dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Vegetariano no churrasco é igual Wi-Fi bom: todo mundo reclama, mas quando tem, salva o dia.</div>
+    </article>
+
+    <article class="receita-card" id="file-mignon-ao-molho-de-mostarda-e-mel">
+      <h2 class="receita-titulo">Filé Mignon ao Molho de Mostarda e Mel</h2>
+      <p class="receita-desc">Para quem quer impressionar a sogra e quer ser chamado de “gourmet”</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 75,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de filé mignon</li>
+              <li>colheres de sopa de mostarda</li>
+              <li>colheres de sopa de mel</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o filé com sal e pimenta.</li>
+              <li>Grelhe o filé por 30 minutos, virando para dourar.</li>
+              <li>Misture mostarda e mel; pincele sobre a carne nos últimos 10 minutos.</li>
+              <li>Deixe descansar 5 minutos antes de fatiar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse filé é tipo promoção relâmpago: raro, surpreendente e deixa todo mundo querendo mais.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-legumes-com-molho-de-iogurte">
+      <h2 class="receita-titulo">Espetinho de Legumes com Molho de Iogurte</h2>
+      <p class="receita-desc">Para quem quer disfarçar a saladinha e não morrer de fome no churrasco</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abobrinha cortada em rodelas</li>
+              <li>tomate-cereja</li>
+              <li>cebola roxa em pedaços</li>
+              <li>pote de iogurte natural</li>
+              <li>Hortelã picada, sal e limão a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espete os legumes e grelhe por 15 minutos.</li>
+              <li>Misture o iogurte com hortelã, limão e sal para o molho.</li>
+              <li>Sirva os espetinhos com o molho de iogurte.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse espetinho é igual promessa de dieta: a gente sabe que deveria, mas a vontade de carne é maior.</div>
+    </article>
+
+    <article class="receita-card" id="costela-suina-defumada-na-brasa">
+      <h2 class="receita-titulo">Costela Suína Defumada na Brasa</h2>
+      <p class="receita-desc">Para quem tem tempo, amor e paciência – e um churrasqueiro mais teimoso que boleto em atraso</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 4h</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 60,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de costela suína</li>
+              <li>Sal grosso e pimenta a gosto</li>
+              <li>ml de água</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere a costela com sal e pimenta.</li>
+              <li>Embrulhe em papel alumínio com água para umidade.</li>
+              <li>Cozinhe na churrasqueira em fogo baixo por 3h30, virando ocasionalmente.</li>
+              <li>Abra o papel e deixe dourar por 20 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Costela defumada é igual fatura do cartão: demora, mas quando chega, ninguém esquece.</div>
+    </article>
+
+    <article class="receita-card" id="linguica-toscana-com-vinagrete-rapido">
+      <h2 class="receita-titulo">Linguiça Toscana com Vinagrete Rápido</h2>
+      <p class="receita-desc">Porque até a linguiça merece um par perfeito, diferente daquela sua última paquera</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de linguiça toscana</li>
+              <li>tomates picados</li>
+              <li>cebola picada</li>
+              <li>/2 pimentão picado</li>
+              <li>Vinagre, azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Grelhe a linguiça até dourar e cozinhar por completo, cerca de 20 minutos.</li>
+              <li>Misture os ingredientes do vinagrete e tempere a gosto.</li>
+              <li>Sirva a linguiça acompanhada do vinagrete fresco.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Vinagrete é igual amigo sincero: corta o barato, mas deixa tudo mais verdadeiro.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-kafta-com-molho-tahine">
+      <h2 class="receita-titulo">Espetinho de Kafta com Molho Tahine</h2>
+      <p class="receita-desc">Para quem quer dar aquela viajada no churrasco sem sair do quintal</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 38,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de carne moída temperada com cebola, alho, cominho e salsinha</li>
+              <li>g de tahine (pasta de gergelim)</li>
+              <li>Suco de 1 limão</li>
+              <li>Água para ajustar consistência</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Modele a kafta nos espetos e grelhe por 15 minutos, virando para dourar.</li>
+              <li>Misture tahine, limão e água até formar molho cremoso.</li>
+              <li>Sirva a kafta com o molho tahine por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Kafta com tahine é tipo novela internacional: diferente, exótico e deixa todo mundo curioso.</div>
+    </article>
+
+    <article class="receita-card" id="coracao-de-boi-grelhado-com-chimichurri">
+      <h2 class="receita-titulo">Coração de Boi Grelhado com Chimichurri</h2>
+      <p class="receita-desc">Para quem quer sentir o verdadeiro sabor do churrasco raiz (e do drama da vida)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de coração de boi limpo</li>
+              <li>Sal grosso a gosto</li>
+              <li>Para o chimichurri:</li>
+              <li>Salsinha, orégano, alho, vinagre, azeite, pimenta calabresa a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o coração com sal grosso.</li>
+              <li>Misture os ingredientes do chimichurri e reserve.</li>
+              <li>Grelhe o coração na churrasqueira por 40 minutos, virando.</li>
+              <li>Sirva com chimichurri por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Coração de boi é tipo boleto atrasado: só enfrenta quem tem coragem e estômago forte.</div>
+    </article>
+
+    <article class="receita-card" id="batata-assada-na-brasa-com-bacon-e-queijo">
+      <h2 class="receita-titulo">Batata Assada na Brasa com Bacon e Queijo</h2>
+      <p class="receita-desc">Para provar que até batata pode ser protagonista no churrasco (e na vida)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas médias</li>
+              <li>g de bacon picado</li>
+              <li>g de queijo muçarela ralado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Enrole as batatas em papel alumínio e asse na churrasqueira por 40 minutos.</li>
+              <li>Retire, corte ao meio, recheie com bacon frito e queijo.</li>
+              <li>Volte à churrasqueira por 10 minutos para derreter o queijo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Batata assada é tipo feriado prolongado: demora pra chegar, mas quando vem, é só alegria.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-maionese-tradicional-de-churrasco">
+      <h2 class="receita-titulo">Salada de Maionese Tradicional de Churrasco</h2>
+      <p class="receita-desc">Porque churrasco sem maionese é tipo domingo sem preguiça: não faz sentido</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de batata cozida em cubos</li>
+              <li>g de cenoura cozida em cubos</li>
+              <li>lata de ervilha escorrida</li>
+              <li>xícara de maionese</li>
+              <li>Sal e cheiro-verde a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes em uma tigela grande.</li>
+              <li>Ajuste o sal e leve à geladeira por 20 minutos antes de servir.</li>
+              <li>Sirva gelada para refrescar o calor da brasa.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Maionese é tipo amigo que organiza a festa: faz a bagunça ficar boa e todo mundo quer perto.</div>
+    </article>
+
+    <article class="receita-card" id="file-de-tilapia-grelhado-com-ervas">
+      <h2 class="receita-titulo">Filé de Tilápia Grelhado com Ervas</h2>
+      <p class="receita-desc">Para quem quer variar e ainda parecer saudável (sem perder o charme)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de filé de tilápia</li>
+              <li>Suco de 1 limão</li>
+              <li>Alecrim, salsinha e sal a gosto</li>
+              <li>Azeite para pincelar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o filé com limão, ervas e sal.</li>
+              <li>Pincele azeite e grelhe na churrasqueira por 10 minutos de cada lado.</li>
+              <li>Sirva quente, garantindo elogios e inveja dos carnívoros.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Tilápia na brasa é tipo final de novela: inesperada, leve e conquista geral.</div>
+    </article>
+
+    <article class="receita-card" id="coracao-de-frango-ao-molho-barbecue-picante">
+      <h2 class="receita-titulo">Coração de Frango ao Molho Barbecue Picante</h2>
+      <p class="receita-desc">Porque até coração merece um tempero que faz o fogo pegar (no churrasco e na vida)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de coração de frango</li>
+              <li>ml de molho barbecue picante</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere os corações com sal e molho barbecue.</li>
+              <li>Espete e grelhe por 20 minutos, virando e pincelando mais molho.</li>
+              <li>Sirva quente e prepare os guardanapos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse coração é igual aquele crush que você sabe que vai dar trabalho, mas não resiste.</div>
+    </article>
+
+    <article class="receita-card" id="linguica-de-frango-com-ervas-finas">
+      <h2 class="receita-titulo">Linguiça de Frango com Ervas Finas</h2>
+      <p class="receita-desc">Para variar o churrasco sem perder a dignidade (ou o sabor)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de linguiça de frango</li>
+              <li>Alecrim, tomilho e orégano a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere a linguiça com as ervas, sal e pimenta.</li>
+              <li>Grelhe na churrasqueira por 25 minutos, virando para dourar.</li>
+              <li>Sirva quente para surpreender os convidados.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Linguiça de frango é tipo segunda-feira: menos pesada, mas ainda assim necessária.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-cordeiro-com-alecrim">
+      <h2 class="receita-titulo">Espetinho de Cordeiro com Alecrim</h2>
+      <p class="receita-desc">Porque churrasco bom é aquele que tem sabor e um pouco de pretensão</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 60,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de carne de cordeiro em cubos</li>
+              <li>Alecrim fresco a gosto</li>
+              <li>Alho picado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere a carne com alho, alecrim, sal e pimenta.</li>
+              <li>Espete e grelhe por 20 minutos, virando para dourar.</li>
+              <li>Sirva quente, com cheiro que vai deixar todo mundo curioso.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Cordeiro no churrasco é igual festa VIP: só pra quem sabe aproveitar com classe.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-queijo-minas-com-oregano">
+      <h2 class="receita-titulo">Espetinho de Queijo Minas com Orégano</h2>
+      <p class="receita-desc">Para quem quer um petisco simples que não deixa ninguém na mão (ou com fome)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de queijo minas em cubos</li>
+              <li>Orégano a gosto</li>
+              <li>Azeite para pincelar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espete os cubos de queijo e pincele azeite.</li>
+              <li>Grelhe na churrasqueira por 10 minutos até dourar levemente.</li>
+              <li>Polvilhe orégano e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Queijo minas no churrasco é tipo aquele amigo quieto: simples, mas deixa todo mundo feliz.</div>
+    </article>
+
+    <article class="receita-card" id="paleta-suina-assada-na-brasa-com-temperos-rusticos">
+      <h2 class="receita-titulo">Paleta Suína Assada na Brasa com Temperos Rústicos</h2>
+      <p class="receita-desc">Para quem quer se aventurar e provar que tamanho é documento (de sabor)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 3h</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 55,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de paleta suína</li>
+              <li>Alecrim, tomilho, alho e sal grosso a gosto</li>
+              <li>Azeite para pincelar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere a paleta com ervas, alho, sal e azeite.</li>
+              <li>Embrulhe em papel alumínio e asse na churrasqueira em fogo baixo por 2h30.</li>
+              <li>Abra o papel e deixe dourar por mais 30 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Paleta suína é tipo reunião de família: demora, tem tempero e no final todo mundo quer mais.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-carne-com-bacon-e-cebola">
+      <h2 class="receita-titulo">Espetinho de Carne com Bacon e Cebola</h2>
+      <p class="receita-desc">Porque a vida é curta demais para não juntar tudo que é bom no mesmo espeto</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de carne em cubos (acém ou patinho)</li>
+              <li>g de bacon em cubos</li>
+              <li>cebola grande em pedaços</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte os espetinhos alternando carne, bacon e cebola.</li>
+              <li>Tempere com sal e pimenta.</li>
+              <li>Grelhe por 20 minutos, virando para dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse espetinho é igual final de mês: cheio de coisas boas, mas que acaba rápido demais.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

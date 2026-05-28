@@ -1,0 +1,1738 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🎄 Natal — Receitas NaFome</title>
+  <meta name="description" content="40 receitas para quem está na situação "Natal". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/natal/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🎄 Natal — Receitas NaFome">
+  <meta property="og:description" content="40 receitas para quem está na situação "Natal". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/natal/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🎄 Natal — NaFome",
+    "description": "40 receitas para quem está na situação "Natal". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/natal/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=natal" class="btn-sortear">🎲 Sortear receita de Natal</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🎄 Natal</h1>
+    <p>40 receitas para quem está na situação "Natal". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">40 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Natal pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=natal" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="peru-turbinado-farofa-tia-chata-repeteco">
+      <h2 class="receita-titulo">Peru Turbinado com Farofa que Faz Até a Tia Chata Querer Repeteco</h2>
+      <p class="receita-desc">O peru que vai deixar sua família falando de comida e não de política na ceia de Natal. Recheado com farofa de castanhas e bacon, para conquistar paladares e desafiar dietas.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 4h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 90,00</span>
+          <span class="badge">👤 10 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 peru inteiro (3 a 4 kg)</li>
+              <li>200g de bacon picado</li>
+              <li>150g de castanhas-do-pará picadas</li>
+              <li>2 xícaras de farinha de mandioca</li>
+              <li>1 cebola média picada</li>
+              <li>3 dentes de alho picados</li>
+              <li>2 colheres de sopa de manteiga</li>
+              <li>Salsinha picada a gosto</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Suco de 1 limão</li>
+              <li>2 folhas de louro</li>
+              <li>1/2 xícara de vinho branco seco</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o peru com sal, pimenta, suco de limão e folhas de louro. Deixe marinando por pelo menos 4 horas, ou até o peru ficar com inveja do pavê da sua tia.</li>
+              <li>Em uma panela, derreta a manteiga e refogue o bacon até ficar douradinho (cheiro que conquista até o Papai Noel).</li>
+              <li>Acrescente a cebola e o alho, refogue até ficarem transparentes (tipo as desculpas do seu amigo para não ir na ceia).</li>
+              <li>Junte as castanhas, mexa bem e depois adicione a farinha de mandioca, mexendo até ficar tudo bem incorporado e sequinho como a conversa do tio no churrasco.</li>
+              <li>Finalize com salsinha e ajuste o sal e a pimenta.</li>
+              <li>Recheie o peru com essa farofa poderosa, feche com palitos ou linha para não escapar a farofa — porque fugir nessa hora só se for da dieta.</li>
+              <li>Coloque o peru em uma assadeira, regue com o vinho branco e cubra com papel alumínio.</li>
+              <li>Asse em forno preaquecido a 180°C por cerca de 3 horas, retirando o papel alumínio nos últimos 40 minutos para dourar e fazer inveja no vizinho.</li>
+              <li>Deixe o peru descansar por 15 minutos antes de cortar, senão até a farofa vai ficar traumatizada.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar farofa, aproveite para fazer aquele lanchinho meia-noite, porque ninguém merece acordar só para peruar de novo.</div>
+    </article>
+
+    <article class="receita-card" id="tender-glaceado-quando-o-natal-resolve-enganar-sua-dieta">
+      <h2 class="receita-titulo">Tender Glaceado: Quando o Natal Resolve Enganar Sua Dieta</h2>
+      <p class="receita-desc">O tender glaceado que é tão doce quanto as promessas de dieta no Réveillon, mas infinitamente mais gostoso.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 70,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 tender defumado (aprox. 1,5 kg)</li>
+              <li>5 colheres de sopa de mel</li>
+              <li>3 colheres de sopa de mostarda amarela</li>
+              <li>Cravos-da-índia a gosto</li>
+              <li>Suco de 1 laranja</li>
+              <li>1/2 xícara de água</li>
+              <li>Pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Faça cortes superficiais no tender formando um losango e espete os cravos-da-índia em alguns dos cortes (pra dar aquele charme que o peru não tem).</li>
+              <li>Misture o mel, a mostarda, o suco de laranja, a água e a pimenta-do-reino em uma tigela até virar uma cobertura que vai enganar seu cérebro dizendo que você está fazendo algo saudável.</li>
+              <li>Pincele o tender com essa mistura generosamente (ou seja, se joga no mel que o Natal é só uma vez por ano).</li>
+              <li>Leve ao forno pré-aquecido a 180°C por aproximadamente 40 minutos, regando de vez em quando com o molho para não deixar o bicho morrer de sede.</li>
+              <li>Quando estiver dourado e caramelizado, retire do forno, deixe descansar uns 5 minutos (pra fingir que você tem paciência)… e sirva para a família perguntando: ‘Quem precisa da dieta quando tem tender assim?’</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se alguém reclamar do preço, fale que o verdadeiro ingrediente especial é o estresse de explicar todo ano que você não vai fazer arroz com passas.</div>
+    </article>
+
+    <article class="receita-card" id="pernil-de-porco-natalino-mais-alho-que-vizinho-detetive">
+      <h2 class="receita-titulo">Pernil de Porco Natalino: Mais Alho Que Vizinho Detetive</h2>
+      <p class="receita-desc">O pernil de porco que vai fazer seu Natal brilhar mais que pisca-pisca! Com bastante alho pra evitar visita indesejada e laranja pra aquele toque azedinho que todo tio gosta de fingir que entende.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 4h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 70,00</span>
+          <span class="badge">👤 10 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 pernil de porco de aproximadamente 3kg</li>
+              <li>10 dentes de alho amassados (pra espantar até o Grinch)</li>
+              <li>2 laranjas (suco e raspas)</li>
+              <li>Sal a gosto (não seja mão de vaca)</li>
+              <li>Pimenta-do-reino moída na hora</li>
+              <li>3 colheres de sopa de azeite</li>
+              <li>Alecrim fresco a gosto</li>
+              <li>1 cebola grande picada</li>
+              <li>1 xícara de vinho branco seco (ou aquele que sobrou da ceia)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Faça pequenos cortes no pernil para o tempero invadir como fofoca de família.</li>
+              <li>Misture o alho, suco e raspas de laranja, azeite, sal, pimenta, alecrim e cebola para a marinada que vai fazer o pernil cantar.</li>
+              <li>Espalhe essa marinada no pernil, esfregando como se fosse o creme milagroso da beleza, e deixe na geladeira por pelo menos 12 horas (ou até o vizinho pedir o segredo).</li>
+              <li>Pré-aqueça o forno a 180ºC. Coloque o pernil numa assadeira e regue com o vinho branco, para não deixar o assunto secar.</li>
+              <li>Cubra com papel alumínio e asse por cerca de 3 horas, regando de vez em quando com o próprio suco, pra manter a fama de suculento.</li>
+              <li>Nos últimos 30 minutos, retire o papel para dourar e conquistar aquela casquinha crocante que faz todo mundo esconder a dieta.</li>
+              <li>Deixe descansar por uns 15 minutos antes de fatiar, assim o pernil se ajeita, igual a gente quando tenta parecer adulto.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se alguém reclamar do cheiro de alho, diga que é o espírito natalino te possuindo... ou o vampiro mais próximo saindo de perto.</div>
+    </article>
+
+    <article class="receita-card" id="rabanada-tradicional-a-desculpa-perfeita-para-repetir-a-ceia">
+      <h2 class="receita-titulo">Rabanada Tradicional: A Desculpa Perfeita Para Repetir a Ceia</h2>
+      <p class="receita-desc">Aquela rabanada que a vovó faz para a gente repetir a ceia umas três vezes, porque só o Panetone não engorda tanto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>6 fatias de pão francês dorminhoco (de pelo menos 2 dias)</li>
+              <li>2 ovos (porque só pão não dá sustância)</li>
+              <li>1 xícara de leite (para molhar a alma... e o pão)</li>
+              <li>1 colher de sopa de açúcar (a medida oficial do Natal)</li>
+              <li>1 colher de chá de canela em pó (o tempero do amor e da barriga cheia)</li>
+              <li>Óleo ou manteiga para fritar (acredite, isso é necessário para a magia acontecer)</li>
+              <li>Açúcar e canela em pó para polvilhar (invista nessa combinação que é sucesso garantido)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em uma tigela, bata os ovos com o leite, o açúcar e a canela até formar um creme que vai fazer seu coração aquecer.</li>
+              <li>Molhe cada fatia de pão nesse creme, mas sem deixar virar uma panqueca. Você quer rabanada, não sopa.</li>
+              <li>Aqueça o óleo ou manteiga em uma frigideira. Se for usar manteiga, aproveite pra não sentir tão culpado.</li>
+              <li>Frite as fatias até ficarem douradinhas dos dois lados. Se não dourar, não conte pra ninguém que tentou.</li>
+              <li>Escorra em papel absorvente para tirar o excesso de gordura – porque hoje é Natal, não carnaval no quentinho.</li>
+              <li>Polvilhe generosamente com a mistura de açúcar e canela. Lembre-se: se não tiver açúcar pra jogar, nem vale a pena.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a rabanada não ficar perfeita, culpe o pão. Se ficar, guarde o segredo para o Natal do ano que vem.</div>
+    </article>
+
+    <article class="receita-card" id="panetone-caseiro-porque-natal-sem-fruta-cristalizada-e-tipo-festa-sem-tio-do-pave">
+      <h2 class="receita-titulo">Panetone Caseiro: Porque Natal sem fruta cristalizada é tipo festa sem tio do pavê</h2>
+      <p class="receita-desc">Aprenda a fazer um panetone caseiro tão gostoso que sua tia vai pedir receita e seu tio do pavê vai perder o posto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 2h40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 10 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de farinha de trigo</li>
+              <li>100g de açúcar</li>
+              <li>10g de sal</li>
+              <li>20g de fermento biológico fresco</li>
+              <li>200ml de leite morno</li>
+              <li>4 ovos</li>
+              <li>150g de manteiga em temperatura ambiente</li>
+              <li>200g de frutas cristalizadas</li>
+              <li>100g de uvas-passas</li>
+              <li>1 colher de sopa de essência de baunilha</li>
+              <li>Raspas de 1 laranja</li>
+              <li>Raspas de 1 limão</li>
+              <li>1 gema para pincelar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Dissolva o fermento no leite morno com uma colher de açúcar e deixe ativar por 10 minutos. Se não espumar, melhor trocar o fermento e repensar a vida.</li>
+              <li>Em uma tigela grande, misture a farinha, o açúcar, o sal, as raspas de laranja e limão.</li>
+              <li>Faça uma cova no meio e adicione os ovos, manteiga, essência de baunilha e o fermento ativado. Misture até formar uma massa pegajosa. Se grudou na mão, parabéns, você está no caminho certo.</li>
+              <li>Sove a massa por uns 15 minutos até ficar elástica e brilhante. Se sua cozinha ficar parecendo academia, é normal.</li>
+              <li>Cubra a massa com um pano úmido e deixe descansar por 1h30 até dobrar de volume. Aproveite para maratonar algo, porque paciência é ingrediente surpresa.</li>
+              <li>Incorpore as frutas cristalizadas e as uvas-passas, distribuindo bem. Se sobrar fruta, coma sem culpa, é Natal!</li>
+              <li>Coloque a massa em uma forma de panetone de 1kg, pincele com gema e deixe crescer por mais 40 minutos.</li>
+              <li>Pré-aqueça o forno a 180ºC e asse o panetone por 40 a 50 minutos ou até dourar e passar no teste do palito (que é menos traumático que o de matemática).</li>
+              <li>Deixe esfriar, corte uma fatia e finja que é saudável pelo esforço envolvido.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se errar a receita, diga que é uma nova versão gourmet. Natal perdoa tudo, menos panetone sem coração.</div>
+    </article>
+
+    <article class="receita-card" id="chester-assado-laranja-ervas-tia-silenciosa">
+      <h2 class="receita-titulo">Chester Assado com Laranja e Ervas: o Natal que vai fazer até a tia comer sem reclamar</h2>
+      <p class="receita-desc">A receita que vai salvar seu Natal e, de quebra, fazer aquele parente chato elogiar a comida pela primeira vez na história.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 2h 45min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 70,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 Chester inteiro (aproximadamente 3kg)</li>
+              <li>3 laranjas (suco e raspas)</li>
+              <li>4 dentes de alho amassados</li>
+              <li>2 ramos de alecrim fresco</li>
+              <li>2 ramos de tomilho fresco</li>
+              <li>1 colher de sopa de manteiga</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Azeite de oliva</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Preaqueça o forno a 200°C – assim você já começa o preparo com o mesmo calor que o Natal na casa da sogra.</li>
+              <li>Esprema o suco das laranjas e reserve as raspas – porque laranja no Natal é tipo aquele tio no churrasco: indispensável.</li>
+              <li>Misture o suco das laranjas, alho, manteiga derretida, azeite, sal, pimenta, alecrim, tomilho e raspas de laranja para fazer a 'marinada da paz'.</li>
+              <li>Massageie o Chester com essa mistura como se estivesse tentando convencer o peru a não fugir da ceia.</li>
+              <li>Leve o Chester ao forno, coberto com papel alumínio, por cerca de 2 horas. Retire o papel e deixe dourar por mais 30 minutos – para garantir aquele bronzeado natalino digno de Instagram.</li>
+              <li>Deixe descansar por 10 minutos antes de fatiar, porque até a ave merece um descanso depois de tanta maratona.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o Chester ficar seco, finja que foi o calor da discussão familiar que causou isso; na próxima vez, aumente a manteiga e a paciência.</div>
+    </article>
+
+    <article class="receita-card" id="arroz-natalino-casamento-ufp-castanhas-sem-discussao-familiar">
+      <h2 class="receita-titulo">Arroz Natalino: O Casamento Feliz entre Uvas Passas e Castanhas (Sem Discussão Familiar)</h2>
+      <p class="receita-desc">O arroz que vai salvar você das conversas chatas no Natal — com passas e castanhas que garantem crocância e doçura sem frescura.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 xícaras de arroz branco</li>
+              <li>4 xícaras de água</li>
+              <li>1/2 xícara de uvas passas</li>
+              <li>1/2 xícara de castanhas picadas (castanha-do-pará ou caju)</li>
+              <li>1 colher de sopa de manteiga</li>
+              <li>1 cebola pequena picada</li>
+              <li>2 dentes de alho picados</li>
+              <li>Sal a gosto</li>
+              <li>Pimenta-do-reino a gosto</li>
+              <li>Salsinha picada para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave bem o arroz para tirar aquela farinha que ninguém quer na boca no Natal.</li>
+              <li>Em uma panela, refogue a cebola e o alho na manteiga até ficarem douradinhos, porque até o arroz gosta de dar uma bronzeada.</li>
+              <li>Adicione o arroz e mexa por 2 minutos para ele entrar no clima natalino.</li>
+              <li>Coloque a água, o sal e a pimenta, tampe e cozinhe em fogo baixo por cerca de 15 minutos ou até a água secar.</li>
+              <li>Enquanto isso, hidrate as uvas passas em água morna por 5 minutos, para ficarem mais fofinhas que sua tia no almoço de Natal.</li>
+              <li>Quando o arroz estiver pronto, misture as uvas passas e as castanhas picadas — a combinação que nem a sua sogra consegue criticar.</li>
+              <li>Desligue o fogo e tampe a panela por 5 minutos para dar aquele descanso merecido.</li>
+              <li>Salpique salsinha para parecer que você sabe cozinhar além do arroz com ovo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a família reclamar que tem passas demais, diga que elas são as estrelinhas cadentes do seu prato. Sempre funciona.</div>
+    </article>
+
+    <article class="receita-card" id="farofa-natal-vovo-aprova">
+      <h2 class="receita-titulo">Farofa de Natal que Até a Vovó Aprova (ou Finge Que Aprova)</h2>
+      <p class="receita-desc">Uma farofa de Natal que reúne sabor, tradição e aquela pitada de 'quero mais' que até a tia que só come alface vai querer repetir.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 xícaras de farinha de mandioca</li>
+              <li>200g de linguiça calabresa cortada em cubos</li>
+              <li>1 cebola média picada</li>
+              <li>2 dentes de alho picados</li>
+              <li>1/2 xícara de frutas secas picadas (uva-passas, damasco e ameixa)</li>
+              <li>1/4 xícara de castanha de caju picada</li>
+              <li>3 colheres de sopa de manteiga</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Salsa picada para finalizar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em uma frigideira grande, derreta a manteiga e refogue a cebola até ficar transparente. Se a cebola começar a gritar, é só sinal que você está no caminho certo.</li>
+              <li>Acrescente o alho e a linguiça calabresa. Frite até a linguiça estar dourada e soltando aquele cheiro que faz qualquer dieta correr.</li>
+              <li>Junte as frutas secas e as castanhas, mexendo com amor e paciência, como quem evita discutir política na ceia.</li>
+              <li>Adicione a farinha de mandioca aos poucos, misturando tudo até a farofa ficar dourada e com aquela textura que faz o peru parecer coadjuvante.</li>
+              <li>Tempere com sal, pimenta e finalize com salsa picada para fingir que foi saudável desde o início.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar farofa, não guarde para amanhã: use como arma secreta para conquistar os amigos no churrasco do ano novo.</div>
+    </article>
+
+    <article class="receita-card" id="bacalhau-ao-forno-porque-natal-sem-bagunca-e-so-segunda-feira">
+      <h2 class="receita-titulo">Bacalhau ao Forno: Porque Natal Sem Bagunça é Só Segunda-feira</h2>
+      <p class="receita-desc">Aquela receita de Natal que junta tradição, preguiça e muito sabor, para você impressionar sem precisar de manual do sogro.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 70,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de bacalhau dessalgado e desfiado (ou aquele que sobre do amigo gourmet)</li>
+              <li>4 batatas médias cortadas em rodelas (para fingir que é saudável)</li>
+              <li>1 cebola grande fatiada (chore, você merece)</li>
+              <li>2 dentes de alho picados (porque vampiros não são convidados)</li>
+              <li>100g de azeitonas pretas sem caroço (a vida tem que ter algum preto aqui e ali)</li>
+              <li>Azeite de oliva extra virgem (porque a gente finge que é fitness no Natal)</li>
+              <li>Salsinha picada a gosto (para parecer que sabe cozinhar)</li>
+              <li>Pimenta-do-reino e sal a gosto (leva calma, é Natal, não competição)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Pré-aqueça o forno a 200°C. Se você já está quente por dentro, é só ligar o forno mesmo.</li>
+              <li>Cozinhe as batatas em água fervente até ficarem macias. Nada de virar purê, hein!</li>
+              <li>Enquanto isso, refogue a cebola e o alho no azeite até ficarem douradinhos – aproveite pra sentir aquele cheirinho de vitória.</li>
+              <li>Misture o bacalhau com a cebola, alho, batatas e as azeitonas.</li>
+              <li>Tempere com sal, pimenta e salsinha. Lembre-se que o tempero é igual piada: menos é mais.</li>
+              <li>Coloque tudo em um refratário, regue com mais azeite e leve ao forno por cerca de 20 minutos até dourar e fazer os vizinhos invejarem sua ceia.</li>
+              <li>Sirva quente, com a certeza que vai ser a única coisa que todo mundo vai perguntar onde você comprou.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se alguém reclamar que é pouco salgado, ofereça mais vinho. Funciona no Natal e na vida.</div>
+    </article>
+
+    <article class="receita-card" id="salpicao-de-frango-natal-vovo-aprovou">
+      <h2 class="receita-titulo">Salpicão de Frango: O Natal que a Vovó Aprovou (Depois de Reclamar Da Cozinha Toda Hora)</h2>
+      <p class="receita-desc">O salpicão de frango que vai salvar seu Natal: fácil, saboroso e com batata palha suficiente para cobrir suas frustrações familiares.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de peito de frango desfiado</li>
+              <li>1 cenoura grande ralada</li>
+              <li>1 maçã verde picada em cubos</li>
+              <li>1 lata de milho verde escorrido</li>
+              <li>1/2 xícara de uvas-passas (opcional para os corajosos)</li>
+              <li>1 vidro pequeno de maionese</li>
+              <li>1 vidro pequeno de creme de leite</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Salsinha picada a gosto</li>
+              <li>Batata palha para finalizar (muita batata palha)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o peito de frango em água com um pouco de sal até ficar macio. Depois, desfie com as mãos para aproveitar a força do espírito natalino.</li>
+              <li>Em uma tigela grande, misture o frango desfiado, a cenoura ralada, a maçã picada, o milho verde e as uvas-passas — porque Natal sem uva-passa é como amigo sem piada ruim.</li>
+              <li>Adicione a maionese e o creme de leite aos poucos, misturando até ficar com a textura que sua tia vai elogiar, mas sua mãe vai dizer que tá demais.</li>
+              <li>Tempere com sal, pimenta e salsinha a gosto. Lembre-se: comida sem tempero é igual presente sem papel de presente, triste e sem graça.</li>
+              <li>Leve à geladeira por pelo menos 1 hora para pegar aquele clima de reunião familiar fria e longa.</li>
+              <li>Na hora de servir, jogue a batata palha por cima — porque ninguém merece salpicão sem batata palha crocante, isso é só sopa rica em salada.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar, diga que é 'ceia do dia seguinte' para justificar comer frio no café da manhã — tradição de verdade.</div>
+    </article>
+
+    <article class="receita-card" id="salada-maca-nozes-natal-papai-noel-rouba">
+      <h2 class="receita-titulo">Salada de Maçã com Nozes: Natal que até o Papai Noel tenta roubar</h2>
+      <p class="receita-desc">Uma salada fresca, doce e crocante que vai fazer seus convidados esquecerem da ceia por um minuto (ou dois). Perfeita para quem quer impressionar sem virar o chef da família.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,50</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>3 maçãs verdes picadas</li>
+              <li>1 xícara de nozes picadas</li>
+              <li>1 pote de iogurte natural</li>
+              <li>1 colher de sopa de mel</li>
+              <li>1 colher de chá de canela em pó</li>
+              <li>Suco de meio limão</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture as maçãs com o suco de limão para elas não ficarem tímidas e escurecerem.</li>
+              <li>Adicione as nozes para dar aquela crocância que faz até a tia festeira calar.</li>
+              <li>Misture o iogurte com mel e canela até parecer uma nuvem doce.</li>
+              <li>Junte tudo e mexa como se estivesse animado para abrir os presentes.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se alguém reclamar que é dieta, diga que é 'ceia saudável' e sirva mais uma fatia de peru depois.</div>
+    </article>
+
+    <article class="receita-card" id="biscoito-natalino-gengibre-grinch-quer-bis">
+      <h2 class="receita-titulo">Biscoito Natalino de Gengibre que até o Grinch vai querer bis</h2>
+      <p class="receita-desc">Um clássico que une especiarias e diversão, perfeito para fazer com a família e garantir uns biscoitos extra (ou esconder alguns para você!).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 20 biscoitos</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 xícaras de farinha de trigo</li>
+              <li>1 colher de chá de gengibre em pó</li>
+              <li>1 colher de chá de canela em pó</li>
+              <li>1/2 colher de chá de noz-moscada</li>
+              <li>1/2 xícara de açúcar mascavo</li>
+              <li>125g de manteiga</li>
+              <li>1 ovo</li>
+              <li>1 colher de chá de bicarbonato de sódio</li>
+              <li>Açúcar de confeiteiro para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture tudo até a massa ficar parecida com aquela resistência do tio no almoço de Natal.</li>
+              <li>Abra a massa com um rolo (ou com as mãos mesmo, a gente não julga).</li>
+              <li>Corte em formatos natalinos para impressionar a criançada.</li>
+              <li>Asse até dourar e sinta o cheirinho invadir a casa como se fosse magia.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a criança reclamar que está difícil, diga que é treino para o Papai Noel carregar o saco de presentes.</div>
+    </article>
+
+    <article class="receita-card" id="cuscuz-natalino-frutas-secas-peru-cansa">
+      <h2 class="receita-titulo">Cuscuz Natalino com Frutas Secas: porque peru cansa</h2>
+      <p class="receita-desc">Uma opção diferente para quem quer fugir do peru e ainda manter aquele clima natalino cheio de sabor e crocância.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 xícaras de flocos de milho para cuscuz</li>
+              <li>1 xícara de frutas secas picadas (damasco, uva passa, ameixa)</li>
+              <li>1/2 xícara de castanhas de caju picadas</li>
+              <li>1 colher de sopa de manteiga</li>
+              <li>1 pitada de sal</li>
+              <li>1 colher de sopa de açúcar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Hidrate os flocos com água quente, como quem tenta acordar no dia 25 de dezembro.</li>
+              <li>Misture as frutas e castanhas com a manteiga para dar aquele toque chique que só o Natal tem.</li>
+              <li>Misture tudo, tampe e deixe descansar como se fosse o tio depois do almoço.</li>
+              <li>Sirva e veja a família pedir bis antes do peru chegar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar, use no café da manhã – é como um presente que dura mais que a véspera.</div>
+    </article>
+
+    <article class="receita-card" id="pipoca-doce-natal-cinema-sala-ceia">
+      <h2 class="receita-titulo">Pipoca Doce de Natal: o cinema da sala invadiu a ceia</h2>
+      <p class="receita-desc">Pipoca doce para deixar a ceia mais divertida e abrir espaço para a sobremesa – afinal, Natal é maratona, não sprint.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1/2 xícara de milho para pipoca</li>
+              <li>1/2 xícara de açúcar</li>
+              <li>3 colheres de sopa de manteiga</li>
+              <li>1 colher de sopa de água</li>
+              <li>Canela em pó a gosto</li>
+              <li>Corante vermelho alimentício (opcional)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Faça a pipoca como se fosse a vontade de fugir da conversa da família.</li>
+              <li>Misture açúcar, manteiga e água numa panela até virar uma calda brilhante digna de Natal.</li>
+              <li>Despeje a calda sobre a pipoca quente e mexa rápido para não queimar nem os dedos.</li>
+              <li>Se quiser, adicione corante para um toque natalino e sirva antes que o Papai Noel peça.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se ficar grudando no dente, finja que era a intenção para lembrar do espírito natalino grudando na alma.</div>
+    </article>
+
+    <article class="receita-card" id="mousse-maracuja-natal-azedinho-tia-reclamona">
+      <h2 class="receita-titulo">Mousse de Maracujá Natalino: azedinho que conquista até a tia reclamona</h2>
+      <p class="receita-desc">Um doce azedinho que equilibra o açúcar da ceia e conquista até quem acha que sobremesa é perda de tempo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 3 h (com geladeira)</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 lata de leite condensado</li>
+              <li>1 lata de creme de leite</li>
+              <li>1 medida da lata de suco de maracujá concentrado</li>
+              <li>1 envelope de gelatina sem sabor</li>
+              <li>Polpa de maracujá para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Hidrate a gelatina e derreta com o jeitinho que só você sabe, como convencer o tio a contar piadas novas.</li>
+              <li>Bata leite condensado, creme de leite e suco de maracujá até ficar uma mistura que parece até que vai dar certo.</li>
+              <li>Misture a gelatina derretida com cuidado para não espantar a mousse.</li>
+              <li>Coloque na geladeira e espere o tempo que parece uma eternidade (ou até a sobremesa ficar firme).</li>
+              <li>Decore com polpa de maracujá para aquele toque de chef que ninguém vai acreditar que é tão fácil.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar, avise que é pra 'reforçar a imunidade' – ninguém vai questionar com essa desculpa.</div>
+    </article>
+
+    <article class="receita-card" id="rabanada-recheada-o-natal-que-escondeu-a-dieta">
+      <h2 class="receita-titulo">Rabanada Recheada: O Natal que Escondeu a Dieta</h2>
+      <p class="receita-desc">Rabanada recheada que disfarça a culpa e faz a balança pensar que não foi nada.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,50</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pão de forma brioche</li>
+              <li>doce de leite</li>
+              <li>canela em pó</li>
+              <li>açúcar</li>
+              <li>ovos</li>
+              <li>leite</li>
+              <li>manteiga</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte o pão em fatias grossas, daquele jeitinho que parece que vai rolar um banquete.</li>
+              <li>Recheie cada fatia com uma generosa camada de doce de leite – porque escondidinho de dieta é mais gostoso.</li>
+              <li>Faça uma mistura de ovos, leite, açúcar e canela e mergulhe as fatias como se fossem férias no Caribe.</li>
+              <li>Frite na manteiga até dourar, com aquele cheirinho que faz até o tio perguntar se pode repetir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a dieta reclamar, diga que é só um experimento científico pra ver se o doce de leite derrete rápido.</div>
+    </article>
+
+    <article class="receita-card" id="salada-natalina-de-grao-de-bico-porque-ate-no-natal-tem-que-ter-verdura">
+      <h2 class="receita-titulo">Salada Natalina de Grão-de-Bico: Porque Até no Natal Tem que Ter Verdura</h2>
+      <p class="receita-desc">Salada que convence até quem acha que verdura no Natal é invenção da vovó.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>grão-de-bico cozido</li>
+              <li>tomate cereja</li>
+              <li>cebola roxa</li>
+              <li>salsinha</li>
+              <li>azeite</li>
+              <li>limão</li>
+              <li>sal</li>
+              <li>pimenta-do-reino</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Jogue o grão-de-bico na tigela como se estivesse jogando confete no réveillon.</li>
+              <li>Pique os tomates e a cebola com a precisão de quem quer impressionar a tia, mas não muito para evitar lágrimas.</li>
+              <li>Misture tudo com azeite, limão, sal e pimenta e mexa até parecer que está dando uma aula de gastronomia.</li>
+              <li>Deixe na geladeira para ficar aquela delícia refrescante, igual fofoca de família que só melhora com o tempo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Use a cebola roxa pra dar charme, porque no Natal a gente quer tudo bem paparicado.</div>
+    </article>
+
+    <article class="receita-card" id="pernil-de-frango-duro-que-amolece-no-forno-e-no-coracao">
+      <h2 class="receita-titulo">Pernil de Frango Duro que Amolece no Forno (E no Coração)</h2>
+      <p class="receita-desc">Pernil de frango que começa duro, mas termina suave como as desculpas do tio bêbado.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 2h 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pernil de frango</li>
+              <li>alho</li>
+              <li>alecrim</li>
+              <li>sal grosso</li>
+              <li>pimenta do reino</li>
+              <li>vinagre</li>
+              <li>azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Marinar o pernil com alho, alecrim, vinagre e azeite para dar aquele tempero que faz inveja ao vizinho.</li>
+              <li>Deixe descansar como quem espera o amigo que sempre se atrasa na ceia.</li>
+              <li>Asse no forno devagarinho, enquanto conta piadas para o frango, porque ele vai amolecer de tanto rir.</li>
+              <li>Sirva com aquela farofa que até a dieta vai pedir pra dar um tempo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não esqueça de contar piadas para o pernil, amizades verdadeiras amolecem até o frango.</div>
+    </article>
+
+    <article class="receita-card" id="arroz-doce-natalino-com-toque-de-whisky-para-adultos-com-alma-de-crianca">
+      <h2 class="receita-titulo">Arroz Doce Natalino com Toque de Whisky: Para Adultos com Alma de Criança</h2>
+      <p class="receita-desc">Arroz doce que é quase um drink natalino disfarçado, para quem gosta de misturar tudo na vida.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>arroz branco</li>
+              <li>leite integral</li>
+              <li>açúcar</li>
+              <li>canela em pau</li>
+              <li>casca de limão</li>
+              <li>whisky</li>
+              <li>cravos-da-índia</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o arroz com leite, canela, cravo e casca de limão como se estivesse preparando a poção mágica do Natal.</li>
+              <li>Mexa até o arroz ficar cremoso, igual a conversa da família depois do terceiro vinho.</li>
+              <li>Desligue o fogo e, com cuidado de tio que não quer confusão, adicione um toque de whisky.</li>
+              <li>Deixe esfriar e sirva, provocando aquele olhar de quem sabe aproveitar a ceia.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Dose o whisky com moderação, pra festa não virar roda de karaokê desafinado.</div>
+    </article>
+
+    <article class="receita-card" id="salpicao-vegano-natal-para-quem-quer-comer-e-nao-sofrer-depois">
+      <h2 class="receita-titulo">Salpicão Vegano: Natal para Quem Quer Comer e Não Sofrer Depois</h2>
+      <p class="receita-desc">Salpicão que prova que dá pra ser vegano e ainda conquistar o prato principal da ceia.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>shimeji</li>
+              <li>maçã verde</li>
+              <li>cenoura ralada</li>
+              <li>salsão</li>
+              <li>maionese vegana</li>
+              <li>castanha de caju</li>
+              <li>salsinha</li>
+              <li>limão</li>
+              <li>sal</li>
+              <li>pimenta</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue o shimeji com sal e pimenta, dando aquele tempero esperto para enganar até os carnívoros.</li>
+              <li>Corte a maçã verde em cubos, porque Natal é festa e fruta também é festa, né?</li>
+              <li>Misture tudo com cenoura, salsão, maionese vegana, castanhas e salsinha, como quem monta um quebra-cabeça gostoso.</li>
+              <li>Acerte no limão para dar aquela acidez, como aquela piada que só a família do lado entende.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se alguém perguntar onde está a proteína, responda com um sorriso e mais salpicão.</div>
+    </article>
+
+    <article class="receita-card" id="couve-flor-natalina-o-brocolis-rebelde-que-virou-estrela">
+      <h2 class="receita-titulo">Couve-Flor Natalina: O Brócolis Rebelde que Virou Estrela</h2>
+      <p class="receita-desc">Uma receita simples que vai fazer até quem torce o nariz para legumes na ceia natalina dar uma segunda chance para a couve-flor. Afinal, no Natal tudo pode virar estrela!</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 cabeça média de couve-flor</li>
+              <li>3 dentes de alho picados</li>
+              <li>3 colheres de sopa de azeite</li>
+              <li>Sal a gosto</li>
+              <li>Pimenta-do-reino a gosto</li>
+              <li>Salsinha picada para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Separe a couve-flor como se estivesse arrumando um time de futebol: tire os buquês mais bonitos.</li>
+              <li>Em uma panela, aqueça o azeite e faça uma serenata para o alho até ele dourar e ficar cheirosíssimo.</li>
+              <li>Jogue a couve-flor na panela e mexa como se fosse convencer a galera a dançar na festa de Natal.</li>
+              <li>Tempere com sal e pimenta, tampe e deixe cozinhar até ficar macia, tipo aquele tio que só aparece na festa e some rapidinho.</li>
+              <li>Salpique salsinha como se fosse confete e sirva com orgulho – porque couve-flor também merece seu momento de fama.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a couve-flor começar a fazer cara de brava, dá uma mexida com piada – legumes também amam stand-up.</div>
+    </article>
+
+    <article class="receita-card" id="arroz-natalino-de-pinhao-o-segredo-da-serra-que-caiu-na-ceia">
+      <h2 class="receita-titulo">Arroz Natalino de Pinhão: O Segredo da Serra que Caiu na Ceia</h2>
+      <p class="receita-desc">Para quem quer uma ceia com gostinho de montanha e um toque regional que vai surpreender até o Papai Noel.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,50</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 xícaras de arroz branco</li>
+              <li>1 xícara de pinhão cozido e picado</li>
+              <li>1 cebola média picada</li>
+              <li>2 dentes de alho picados</li>
+              <li>3 colheres de sopa de óleo</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Salsinha picada</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave o arroz como quem lava a alma – com carinho e paciência.</li>
+              <li>Refogue a cebola e o alho no óleo até ficarem douradinhos, tipo aquele tio que sabe contar história boa.</li>
+              <li>Jogue o pinhão na panela e dê uma mexida; ele merece entrar na dança da ceia.</li>
+              <li>Acrescente o arroz, misture tudo e cubra com água fervente. Tempere com sal e pimenta e deixe cozinhar até a água secar e o arroz ficar fofinho, como travesseiro de Natal.</li>
+              <li>Finalize com salsinha e sirva antes que o peru fique com ciúmes.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se não achar pinhão, não vale colocar castanha do Pará e chamar de regional, hein?</div>
+    </article>
+
+    <article class="receita-card" id="brigadeiro-de-panetone-o-natal-que-derrete-na-boca-e-na-dieta">
+      <h2 class="receita-titulo">Brigadeiro de Panetone: O Natal que Derrete na Boca e na Dieta</h2>
+      <p class="receita-desc">O brigadeiro ganhou um upgrade natalino com pedaços de panetone que garantem a festa na sua boca e a quebra da dieta na certa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 10 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 lata de leite condensado</li>
+              <li>1 colher de sopa de manteiga</li>
+              <li>4 colheres de sopa de achocolatado em pó</li>
+              <li>1 xícara de panetone picado</li>
+              <li>Granulado para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em uma panela, misture leite condensado, manteiga e achocolatado como quem está preparando um stand-up: com amor e risadas.</li>
+              <li>Cozinhe em fogo baixo, mexendo sempre até o brigadeiro desgrudar da panela (ou até seu vizinho pedir para parar o barulho).</li>
+              <li>Desligue o fogo e misture o panetone picado, porque Natal sem panetone é tipo piada sem punchline.</li>
+              <li>Deixe esfriar, faça bolinhas e passe no granulado com a mesma empolgação de criança no Natal.</li>
+              <li>Sirva e aguarde os elogios (e pedidos de mais).</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar, esconda dos parentes – esse brigadeiro é tipo presente que só você merece.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-maca-com-hortela-o-refresco-para-a-tia-que-reclama-da-ceia">
+      <h2 class="receita-titulo">Salada de Maçã com Hortelã: O Refresco para a Tia que Reclama da Ceia</h2>
+      <p class="receita-desc">A salada que é praticamente um spa na ceia, perfeita para quem quer parecer saudável e ainda rir da cara da dieta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 maçãs verdes picadas</li>
+              <li>1 maço pequeno de hortelã picado</li>
+              <li>Suco de 1 limão</li>
+              <li>2 colheres de sopa de mel</li>
+              <li>1/2 xícara de nozes picadas</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture as maçãs com o suco de limão para evitar que fiquem com cara de madrugadinha de Natal.</li>
+              <li>Junte o mel e a hortelã, aquele toque fresco que até a tia mais crítica vai achar válido (ou pelo menos fingir).</li>
+              <li>Adicione as nozes para fazer cara de chique e saudável.</li>
+              <li>Misture tudo com carinho e ponha na geladeira para dar aquele refresco antes da próxima rodada de pernil.</li>
+              <li>Sirva com um sorriso sarcástico e espere a reação.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a tia reclamar da hortelã, ofereça um brigadeiro ao lado – equilíbrio é tudo.</div>
+    </article>
+
+    <article class="receita-card" id="batata-doce-assada-com-canela-o-natal-que-parece-sobremesa-e-nao-e">
+      <h2 class="receita-titulo">Batata Doce Assada com Canela: O Natal que Parece Sobremesa e Não é</h2>
+      <p class="receita-desc">Um prato que engana todo mundo: parece doce, mas é um acompanhamento salgado que vai trazer paz (e sabor) à sua ceia.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>4 batatas doces médias</li>
+              <li>2 colheres de sopa de azeite</li>
+              <li>1 colher de sopa de canela em pó</li>
+              <li>Sal a gosto</li>
+              <li>Mel para regar (opcional)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave as batatas como quem se prepara para a maratona de ceia.</li>
+              <li>Corte em rodelas grossas, porque batata doce fina some antes do Natal acabar.</li>
+              <li>Misture o azeite, canela e sal em uma tigela e dê uma dancinha para atrair boas energias.</li>
+              <li>Passe as batatas nessa mistura como se estivesse dando aquele abraço apertado de Natal.</li>
+              <li>Asse em forno médio por 35 minutos ou até ficarem douradas e cheirosas – sinal de que a ceia vai bombar.</li>
+              <li>Se quiser, regue com mel no final para enganar o paladar e chamar de sobremesa.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se alguém reclamar que batata doce não é natalina, responda que nem peru é mais, mas a gente come do mesmo jeito.</div>
+    </article>
+
+    <article class="receita-card" id="pernil-de-natal-a-saga-do-bicho-que-sobreviveu-ao-forno">
+      <h2 class="receita-titulo">Pernil de Natal: A Saga do Bicho que Sobreviveu ao Forno</h2>
+      <p class="receita-desc">Um pernil digno de novela mexicana: cheio de drama, emoção e uma boa dose de suculência que faz até a dieta pedir arrego.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 4h 30min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 65,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 pernil suíno de 2kg</li>
+              <li>5 dentes de alho amassados</li>
+              <li>1 cebola grande picada</li>
+              <li>Suco de 2 laranjas</li>
+              <li>Sal e pimenta do reino a gosto</li>
+              <li>Alecrim fresco</li>
+              <li>Azeite de oliva</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o pernil como se estivesse contando toda a fofoca da família: alho, cebola, sal, pimenta, suco de laranja e alecrim.</li>
+              <li>Deixe o pernil na geladeira por pelo menos 4 horas (ou o dia todo, se você é fã de suspense).</li>
+              <li>Coloque no forno a 180°C, cubra com papel alumínio (para não ressecar, tipo aquela tia que reclama do ar condicionado) e asse por 3 horas.</li>
+              <li>Retire o alumínio, jogue um pouco de azeite e deixe dourar por 30 minutos.</li>
+              <li>Sirva na ceia e prepare-se para os elogios (ou para os pedidos de sobra).</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a família começar a brigar, ofereça uma fatia extra de pernil. Funciona como um pacificador oficial!</div>
+    </article>
+
+    <article class="receita-card" id="gelatina-natalina-o-jogo-do-esconde-esconde-da-fruta">
+      <h2 class="receita-titulo">Gelatina Natalina: O Jogo do Esconde-Esconde da Fruta</h2>
+      <p class="receita-desc">Gelatina natalina que é quase um reality show: cheia de surpresas, frutas e aquela expectativa de quem vai comer mais.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 4h 15min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,50</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 pacote de gelatina sabor morango</li>
+              <li>300 ml de água quente</li>
+              <li>200 ml de água fria</li>
+              <li>1 lata de pêssego em calda picado</li>
+              <li>1 maçã picada</li>
+              <li>Uvas-passas a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Dissolva a gelatina na água quente como se estivesse derretendo um coração de pedra.</li>
+              <li>Acrescente a água fria e misture como quem tenta juntar os pedaços da ceia.</li>
+              <li>Na travessa, jogue as frutas picadas como se estivesse escondendo tesouros.</li>
+              <li>Despeje a gelatina sobre as frutas e leve à geladeira por pelo menos 4 horas (tempo suficiente para planejar as piadas do Natal).</li>
+              <li>Sirva gelada e observe quem vai tentar adivinhar quantas frutas tem dentro.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Use as uvas-passas para distrair as crianças enquanto você fura a gelatina com o garfo.</div>
+    </article>
+
+    <article class="receita-card" id="salada-crocante-natalina-porque-ate-o-papai-noel-quer-verdura">
+      <h2 class="receita-titulo">Salada Crocante Natalina: Porque Até o Papai Noel Quer Verdura</h2>
+      <p class="receita-desc">Salada crocante que prova que Natal não é só gordura e açúcar — tem espaço pra saúde e risadas também.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 maço de alface americana</li>
+              <li>1 cenoura ralada</li>
+              <li>1 maçã verde picada</li>
+              <li>1/2 xícara de nozes picadas</li>
+              <li>Molho de iogurte com hortelã</li>
+              <li>Sal e pimenta do reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave e rasgue a alface como quem tenta não pensar nas calorias do Natal.</li>
+              <li>Misture a cenoura e a maçã para dar aquela crocância que faz até o peru querer virar vegetariano.</li>
+              <li>Adicione as nozes com a mesma empolgação de quem encontra dinheiro no bolso da calça.</li>
+              <li>Tempere com o molho de iogurte, sal e pimenta, e misture tudo com carinho, quase como um presente embrulhado.</li>
+              <li>Sirva e observe as caras de surpresa: 'Salada no Natal? E gostosa ainda!'</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se alguém reclamar, ofereça a última noz como prêmio de consolação.</div>
+    </article>
+
+    <article class="receita-card" id="brigadeiro-brilhante-o-docinho-que-ilumina-a-arvore-e-a-dieta">
+      <h2 class="receita-titulo">Brigadeiro Brilhante: O Docinho que Ilumina a Árvore (e a Dieta)</h2>
+      <p class="receita-desc">Brigadeiro com mais brilho que pisca-pisca, ideal para adoçar a vida e justificar a caloria com sorriso no rosto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 15 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 lata de leite condensado</li>
+              <li>2 colheres de sopa de cacau em pó</li>
+              <li>1 colher de sopa de manteiga</li>
+              <li>Chocolate granulado colorido</li>
+              <li>Confeitos natalinos (estrelas, bolinhas)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture leite condensado, cacau e manteiga numa panela como se fosse montar o roteiro do stand-up: devagar e cheio de graça.</li>
+              <li>Cozinhe em fogo médio, mexendo sempre até desgrudar da panela (nem muito mole, nem pedra no sapato).</li>
+              <li>Deixe esfriar e faça bolinhas com as mãos, que devem estar limpas ou você vai perder audiência.</li>
+              <li>Role os brigadeiros no chocolate granulado e finalize com confeitos natalinos para aquele brilho digno de estrela do Natal.</li>
+              <li>Sirva no prato de festa e prepare para ser a estrela da ceia.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se quiser impressionar, esconda um brigadeiro extra para o Papai Noel. Ele merece!</div>
+    </article>
+
+    <article class="receita-card" id="arroz-natalino-com-castanhas-a-festa-das-texturas-e-confusoes-familiares">
+      <h2 class="receita-titulo">Arroz Natalino com Castanhas: A Festa das Texturas e Confusões Familiares</h2>
+      <p class="receita-desc">Arroz natalino que mistura crocância, doçura e aquela pitada de confusão que só o Natal sabe trazer.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 xícaras de arroz branco</li>
+              <li>1 cebola picada</li>
+              <li>2 dentes de alho picados</li>
+              <li>1/2 xícara de castanha de caju picada</li>
+              <li>1/4 xícara de uvas-passas</li>
+              <li>3 xícaras de água</li>
+              <li>Sal e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola e o alho no azeite como se estivesse preparando o palco para o show natalino.</li>
+              <li>Junte o arroz e refogue até ficar brilhando (não literalmente, mas quase).</li>
+              <li>Adicione a água, o sal e deixe cozinhar até a água sumir como as desculpas para não ajudar na ceia.</li>
+              <li>Misture as castanhas e as uvas-passas como se estivesse organizando a bagunça da família — com cuidado e um pouco de medo.</li>
+              <li>Sirva quentinho e fique atento para os elogios (ou pedidos de receita).</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar, use o arroz para fazer bolinhos no dia seguinte — porque desperdício no Natal é quase pecado.</div>
+    </article>
+
+    <article class="receita-card" id="pave-de-natal-e-pra-comer-ou-pra-jogar-no-tio-do-pave">
+      <h2 class="receita-titulo">Pavê de Natal: 'É pra comer ou pra jogar no tio do pavê?'</h2>
+      <p class="receita-desc">A sobremesa que todo Natal tem, e todo Natal o tio do pavê comenta. Agora ele não vai resistir a esse pavê com dose extra de humor e chocolate.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 pacote de biscoito maisena</li>
+              <li>2 latas de leite condensado</li>
+              <li>2 caixas de creme de leite</li>
+              <li>1 pacote de chocolate em pó</li>
+              <li>1 xícara de leite</li>
+              <li>Frutas cristalizadas para enfeitar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o leite condensado com o creme de leite e o chocolate em pó, até parecer um brigadeiro de festa.</li>
+              <li>Molhe os biscoitos no leite, e faça camadas no refratário, tipo montagem de castelo de cartas.</li>
+              <li>Finalize com o creme e jogue frutas cristalizadas por cima, porque no Natal, quanto mais colorido, melhor.</li>
+              <li>Leve à geladeira e espere o tempo suficiente para o tio do pavê não estragar a sobremesa.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o tio do pavê perguntar, diga que é receita secreta da vovó... mas só sua!</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-lentilha-pros-azarados-do-ano-novo-e-pra-quem-quer-julgar-menos">
+      <h2 class="receita-titulo">Salada de Lentilha: 'Pros azarados do Ano Novo e pra quem quer julgar menos'</h2>
+      <p class="receita-desc">A salada que promete dar sorte no Ano Novo e pelo menos uma desculpa pra você não culpar só o destino.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 xícara de lentilha</li>
+              <li>1 cebola roxa picada</li>
+              <li>1 tomate grande picado</li>
+              <li>Salsinha e cebolinha a gosto</li>
+              <li>Suco de 1 limão</li>
+              <li>Azeite, sal e pimenta do reino</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a lentilha até ela ficar macia, tipo aquela piada que demora mas entrega o punchline.</li>
+              <li>Misture com a cebola, tomate, salsinha e cebolinha, tudo picadinho pra não ter desculpa de não gostar.</li>
+              <li>Tempere com limão, azeite, sal e pimenta do reino, porque a vida é sem graça sem tempero.</li>
+              <li>Deixe na geladeira pelo menos 30 minutos, pra ficar mais saborosa e seu ego menos pesado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar, coma no dia seguinte e finja que é gourmet.</div>
+    </article>
+
+    <article class="receita-card" id="pernil-de-porco-ao-molho-de-coca-cola-natal-que-cola-e-nao-desgruda-da-mesa">
+      <h2 class="receita-titulo">Pernil de Porco ao Molho de Coca-Cola: 'Natal que cola e não desgruda da mesa'</h2>
+      <p class="receita-desc">Pernil suculento com um toque secreto que cola na mente e na mesa, fazendo todo mundo pedir bis e garantir a vaga no Natal do ano que vem.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 3h30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 70,00</span>
+          <span class="badge">👤 10 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 pernil de porco pequeno (2kg)</li>
+              <li>1 lata de Coca-Cola</li>
+              <li>4 dentes de alho amassados</li>
+              <li>Sal, pimenta do reino e alecrim a gosto</li>
+              <li>1 cebola grande fatiada</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o pernil com alho, sal, pimenta e alecrim, como se estivesse preparando um discurso de Natal, com emoção e intensidade.</li>
+              <li>Coloque o pernil numa assadeira com a cebola fatiada ao redor, pra ele não se sentir sozinho.</li>
+              <li>Despeje a Coca-Cola por cima, que vai fazer aquele molho docinho que ninguém espera, tipo presente surpresa.</li>
+              <li>Leve para assar em forno médio por 3 horas, regando de vez em quando, igual àquele parente que só aparece na ceia.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se quiser a garantia de sucesso, prepare a sobremesa antes do pernil acabar.</div>
+    </article>
+
+    <article class="receita-card" id="brigadeiro-de-panettone-o-natal-rebelde-que-mistura-festa-com-vontade-de-comer-tudo">
+      <h2 class="receita-titulo">Brigadeiro de Panettone: 'O Natal rebelde que mistura festa com vontade de comer tudo'</h2>
+      <p class="receita-desc">O brigadeiro que decidiu que panettone não é só pra comer seco, mas sim para invadir sua boca em forma de doce e diversão.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 12 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 lata de leite condensado</li>
+              <li>1 colher de sopa de manteiga</li>
+              <li>2 fatias de panettone picadas</li>
+              <li>Chocolate granulado para enrolar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Numa panela, misture o leite condensado, a manteiga e o panettone picado, que vai dar aquele sabor natalino com atitude.</li>
+              <li>Cozinhe mexendo sempre até desgrudar do fundo da panela, igual as conversas da família na ceia.</li>
+              <li>Deixe esfriar e enrole nos brigadeiros, passando no chocolate granulado, porque o Natal merece brilho e crocância.</li>
+              <li>Sirva e observe o duelo entre quem vai querer repetir e quem vai fingir que está de dieta.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se quiser revolucionar, adicione uma pitada de canela para aquele toque natalino extra.</div>
+    </article>
+
+    <article class="receita-card" id="farofa-crocante-de-natal-porque-ate-a-farofa-merece-seu-momento-de-fama">
+      <h2 class="receita-titulo">Farofa Crocante de Natal: 'Porque até a farofa merece seu momento de fama'</h2>
+      <p class="receita-desc">Farofa que não é coadjuvante, é estrela da ceia que conquista até quem torce o nariz pra farinha.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 xícaras de farinha de mandioca</li>
+              <li>1 cebola picada</li>
+              <li>1/2 xícara de uvas passas</li>
+              <li>1/2 xícara de castanhas de caju picadas</li>
+              <li>2 colheres de sopa de manteiga</li>
+              <li>Sal e pimenta do reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola na manteiga até ficar douradinha, igual a aquela tia que só aparece no Natal para criticar.</li>
+              <li>Adicione as castanhas e as uvas passas, porque Natal tem que ser mistura de doce com salgado, igual conversa na mesa.</li>
+              <li>Jogue a farinha de mandioca e mexa até ficar sequinha e crocante, como as piadas do tio do pavê.</li>
+              <li>Tempere com sal e pimenta, porque até a farofa tem seu temperamento.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Para a farofa ficar ainda mais crocante, use castanhas torradas no fim do preparo.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-natalina-que-ate-o-papai-noel-trocaria-o-treno">
+      <h2 class="receita-titulo">Panqueca Natalina que até o Papai Noel trocaria o trenó</h2>
+      <p class="receita-desc">Essa panqueca é tão natalina que faz até o Papai Noel querer uma pausa no trenó pra experimentar. Fácil, rápida e com uma pitada de canela pra dar aquele abraço no seu estômago.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,50</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 xícara de farinha de trigo</li>
+              <li>1 ovo</li>
+              <li>1 xícara de leite</li>
+              <li>1 colher de sopa de açúcar</li>
+              <li>1 colher de chá de canela em pó</li>
+              <li>1 maçã picada</li>
+              <li>Mel para servir</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture tudo menos a maçã e o mel, afinal, ninguém quer maçã voando num tornado de farinha.</li>
+              <li>Derrame a massa na frigideira quente e jogue as maçãs por cima como se fosse neve.</li>
+              <li>Quando as bordas estiverem douradas e a casa cheirando a Natal, vire com coragem.</li>
+              <li>Sirva com mel, porque Natal é doce, e a dieta fica pra próxima temporada.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Capriche na canela: é o tempero oficial dos abraços natalinos.</div>
+    </article>
+
+    <article class="receita-card" id="chocotone-de-microondas-natal-express-para-os-sem-paciencia">
+      <h2 class="receita-titulo">Chocotone de microondas: Natal express para os sem paciência</h2>
+      <p class="receita-desc">Para quem quer o espírito natalino, mas não a espera do Papai Noel. Um chocotone que fica pronto mais rápido que sua vontade de 'só uma fatia'.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>4 colheres de sopa de farinha de trigo</li>
+              <li>3 colheres de sopa de açúcar</li>
+              <li>1 ovo</li>
+              <li>2 colheres de sopa de leite</li>
+              <li>1 colher de sopa de óleo</li>
+              <li>1 colher de chá de fermento em pó</li>
+              <li>1 punhado de chocolate granulado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture tudo numa caneca, até parecer aquela receita que sua tia tenta explicar no WhatsApp.</li>
+              <li>Jogue o fermento por último, porque ele é o mágico da história.</li>
+              <li>Leve ao microondas por 2 minutos e meio, ou até parecer que não vai explodir.</li>
+              <li>Deixe esfriar (ou não), e se prepare para comer um chocotone que é praticamente um milagre natalino.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não esqueça do tempo no microondas, ou seu chocotone vira um vulcão de chocolate.</div>
+    </article>
+
+    <article class="receita-card" id="arroz-de-natal-com-toque-de-bacon-porque-tudo-fica-melhor-com-bacon">
+      <h2 class="receita-titulo">Arroz de Natal com toque de bacon: porque tudo fica melhor com bacon</h2>
+      <p class="receita-desc">Arroz de Natal que junta tradição com o poder supremo do bacon. Fácil, gostoso e com aquele toque que faz até o tio do pavê pedir mais.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 xícaras de arroz branco</li>
+              <li>4 fatias de bacon picado</li>
+              <li>1 cebola picada</li>
+              <li>1/2 xícara de uvas passas</li>
+              <li>1/2 xícara de castanhas de caju picadas</li>
+              <li>3 xícaras de água</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Frite o bacon até ficar crocante, ouvindo a sinfonia natalina da gordura crepitando.</li>
+              <li>Refogue a cebola na gordura do bacon, porque desperdício não é palavra no Natal.</li>
+              <li>Junte o arroz, a água, sal e pimenta, e deixe cozinhar como quem espera ansioso pela ceia.</li>
+              <li>Quando estiver quase pronto, misture as passas e as castanhas para aquele toque de festa.</li>
+              <li>Sirva quente e observe a felicidade no olhar de quem ama bacon (tipo, todo mundo).</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar bacon, coma cru. No Natal, a gula é regra.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-frutas-natalina-a-desculpa-saudavel-que-ninguem-acredita">
+      <h2 class="receita-titulo">Salada de frutas natalina: a desculpa saudável que ninguém acredita</h2>
+      <p class="receita-desc">A salada de frutas que todo mundo coloca na mesa pra parecer que comeu bem, mas depois esconde o pratinho pra não perder tempo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 maçã picada</li>
+              <li>1 laranja em gomos</li>
+              <li>1 banana fatiada</li>
+              <li>1/2 xícara de uvas</li>
+              <li>1/2 xícara de abacaxi picado</li>
+              <li>Suco de 1 limão</li>
+              <li>Mel a gosto</li>
+              <li>Hortelã para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Junte todas as frutas com a dignidade de quem sabe que vai atacar a rabanada em seguida.</li>
+              <li>Regue com suco de limão para evitar que a banana fique com cara de quem perdeu a esperança.</li>
+              <li>Adicione mel para fingir que é saudável e também pra agradar o paladar rebelde.</li>
+              <li>Decore com hortelã, porque a gente tenta parecer chique até na salada.</li>
+              <li>Sirva gelada e use a desculpa que é pra equilibrar a ceia... ou pelo menos tente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se algum parente reclamar, ofereça outra fatia de panetone e finja que nada aconteceu.</div>
+    </article>
+
+    <article class="receita-card" id="molho-natalino-secreto-o-que-a-vovo-nao-quer-que-voce-saiba">
+      <h2 class="receita-titulo">Molho natalino secreto: o que a vovó não quer que você saiba</h2>
+      <p class="receita-desc">Molho simples, mas que transforma qualquer prato em estrela da ceia. Perfeito para quem gosta de mistério e sabor sem complicação.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 pote de maionese (200g)</li>
+              <li>2 colheres de sopa de mostarda</li>
+              <li>1 colher de sopa de mel</li>
+              <li>1 colher de chá de páprica doce</li>
+              <li>Suco de meio limão</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture tudo numa tigela como se fosse um ritual sagrado para salvar a ceia.</li>
+              <li>Prove com uma colher generosa e finja que é a receita da família há gerações.</li>
+              <li>Sirva com carnes, saladas ou até aquele pãozinho esquecido na mesa.</li>
+              <li>Observe os elogios e guarde a receita, porque segredo de vovó não se conta nem pra Papai Noel.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Deixe na geladeira por umas horas para o molho pegar aquele ar de 'fiz com amor'.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

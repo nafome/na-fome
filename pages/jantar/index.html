@@ -1,0 +1,1733 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌙 Jantar — Receitas NaFome</title>
+  <meta name="description" content="42 receitas para quem está na situação "Jantar". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/jantar/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🌙 Jantar — Receitas NaFome">
+  <meta property="og:description" content="42 receitas para quem está na situação "Jantar". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/jantar/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🌙 Jantar — NaFome",
+    "description": "42 receitas para quem está na situação "Jantar". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/jantar/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=jantar" class="btn-sortear">🎲 Sortear receita de Jantar</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🌙 Jantar</h1>
+    <p>42 receitas para quem está na situação "Jantar". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">42 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Jantar pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=jantar" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="file-de-frango-ao-molho-de-mostarda-e-mel-com-legumes-saute">
+      <h2 class="receita-titulo">Filé de Frango ao Molho de Mostarda e Mel com Legumes Sauté</h2>
+      <p class="receita-desc">Porque jantar saudável é o que a balança prega, mas o coração chora por pizza.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g filé de frango</li>
+              <li>colher de sopa de mostarda Dijon</li>
+              <li>colher de sopa de mel</li>
+              <li>dente de alho picado</li>
+              <li>cenoura média fatiada</li>
+              <li>abobrinha média fatiada</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite de oliva para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o frango com sal, pimenta e alho.</li>
+              <li>Em frigideira quente com azeite, doure o frango até ficar cozido.</li>
+              <li>Misture mostarda e mel, despeje sobre o frango e deixe caramelizar.</li>
+              <li>Em outra frigideira, refogue a cenoura e a abobrinha até ficarem al dente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida tá amarga, pelo menos o molho não precisa ser – misture mostarda com mel, igual a sua relação com boletos: um pouco doce, mas ainda assim amarga.</div>
+    </article>
+
+    <article class="receita-card" id="risoto-de-cogumelos-com-vinho-branco">
+      <h2 class="receita-titulo">Risoto de Cogumelos com Vinho Branco</h2>
+      <p class="receita-desc">Pra quem quer impressionar e fingir que sabe cozinhar de verdade.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de arroz arbóreo</li>
+              <li>g de cogumelos frescos fatiados</li>
+              <li>/2 cebola picada</li>
+              <li>/2 xícara de vinho branco seco</li>
+              <li>ml caldo de legumes quente</li>
+              <li>colheres de sopa de manteiga</li>
+              <li>g queijo parmesão ralado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola na manteiga até ficar translúcida.</li>
+              <li>Adicione os cogumelos e refogue até dourar.</li>
+              <li>Acrescente o arroz, mexa até ficar translúcido.</li>
+              <li>Regue com vinho branco e deixe evaporar.</li>
+              <li>Vá adicionando o caldo aos poucos, mexendo sempre até o arroz cozinhar.</li>
+              <li>Finalize com parmesão, sal e pimenta.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Fazer risoto é igual pagar boleto: exige paciência e mexer muito, mas no final você se sente adulto e responsável por pelo menos uma coisa.</div>
+    </article>
+
+    <article class="receita-card" id="salmao-grelhado-com-pure-de-batata-doce">
+      <h2 class="receita-titulo">Salmão Grelhado com Purê de Batata Doce</h2>
+      <p class="receita-desc">Porque jantar leve é o que seu corpo pede, mas seu estômago implora por mais.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 45,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>filés de salmão (150g cada)</li>
+              <li>g batata doce</li>
+              <li>colher de sopa de manteiga</li>
+              <li>Sal, pimenta e limão a gosto</li>
+              <li>Azeite para grelhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a batata doce até ficar macia e esprema.</li>
+              <li>Misture a manteiga ao purê, tempere com sal.</li>
+              <li>Tempere o salmão com sal, pimenta e limão.</li>
+              <li>Grelhe o salmão em azeite até dourar dos dois lados.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o salmão não ficar perfeito, lembre-se: até boleto atrasado ainda dá um jeito, já o peixe queimado... só se fingir que foi braseado.</div>
+    </article>
+
+    <article class="receita-card" id="espaguete-ao-molho-de-tomate-com-almondegas-caseiras">
+      <h2 class="receita-titulo">Espaguete ao Molho de Tomate com Almôndegas Caseiras</h2>
+      <p class="receita-desc">Jantar de domingo pra fingir que sua vida amorosa tá em dia.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 32,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g espaguete</li>
+              <li>g carne moída</li>
+              <li>ovo</li>
+              <li>/2 xícara de farinha de rosca</li>
+              <li>dentes de alho picados</li>
+              <li>g molho de tomate</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Queijo parmesão ralado para servir</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture carne, ovo, farinha, alho, sal e pimenta; forme almôndegas.</li>
+              <li>Frite as almôndegas até dourar e reserve.</li>
+              <li>Cozinhe o espaguete conforme instruções.</li>
+              <li>Refogue o molho de tomate, adicione as almôndegas e deixe apurar.</li>
+              <li>Sirva com parmesão ralado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se essa receita não salvar seu romance, pelo menos o espaguete vai te segurar firme – igual boleto atrasado que não te larga.</div>
+    </article>
+
+    <article class="receita-card" id="omelete-de-espinafre-com-queijo-e-tomate">
+      <h2 class="receita-titulo">Omelete de Espinafre com Queijo e Tomate</h2>
+      <p class="receita-desc">Porque às vezes a vida adulta é só um ovo mexido disfarçado de janta gourmet.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>/2 xícara de espinafre picado</li>
+              <li>tomates-cereja cortados ao meio</li>
+              <li>g queijo muçarela ralado</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para untar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com sal e pimenta.</li>
+              <li>Aqueça a frigideira com azeite, despeje os ovos.</li>
+              <li>Adicione espinafre, tomates e queijo por cima.</li>
+              <li>Cozinhe em fogo baixo até firmar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Fazer omelete é tipo lidar com boletos: simples, mas se vacilar, tudo desanda rapidinho.</div>
+    </article>
+
+    <article class="receita-card" id="strogonoff-de-carne-com-arroz-integral">
+      <h2 class="receita-titulo">Strogonoff de Carne com Arroz Integral</h2>
+      <p class="receita-desc">Porque nada diz “vida adulta” como creme de leite e boletos em dia.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de carne em tiras</li>
+              <li>cebola picada</li>
+              <li>g de champignon fatiado</li>
+              <li>ml creme de leite</li>
+              <li>colheres de sopa de ketchup</li>
+              <li>colher de sopa de mostarda</li>
+              <li>xícara de arroz integral</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o arroz integral conforme instruções.</li>
+              <li>Refogue a cebola, junte a carne até dourar.</li>
+              <li>Acrescente champignon, ketchup e mostarda, misture.</li>
+              <li>Adicione creme de leite, ajuste sal e pimenta, aqueça sem ferver.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> O strogonoff é a prova que até boletos podem virar algo cremoso e gostoso – só não deixe passar do vencimento.</div>
+    </article>
+
+    <article class="receita-card" id="berinjela-recheada-com-carne-moida-e-queijo">
+      <h2 class="receita-titulo">Berinjela Recheada com Carne Moída e Queijo</h2>
+      <p class="receita-desc">Jantar que engana a fome e o coração solitário.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>berinjelas médias</li>
+              <li>g carne moída</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>g queijo muçarela ralado</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte as berinjelas ao meio, retire a polpa e reserve.</li>
+              <li>Refogue cebola, alho, carne e a polpa da berinjela picada.</li>
+              <li>Tempere, recheie as berinjelas e cubra com queijo.</li>
+              <li>Leve ao forno a 200ºC por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Berinjela recheada é igual promessa de início de dieta: parece ótimo, mas no final tem queijo demais pra resistir.</div>
+    </article>
+
+    <article class="receita-card" id="sopa-cremosa-de-abobora-com-gengibre">
+      <h2 class="receita-titulo">Sopa Cremosa de Abóbora com Gengibre</h2>
+      <p class="receita-desc">Pra esquentar a alma e fingir que cuidar da saúde é fácil.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g abóbora descascada e picada</li>
+              <li>pedaço pequeno de gengibre ralado</li>
+              <li>cebola picada</li>
+              <li>ml caldo de legumes</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Creme de leite para servir (opcional)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e gengibre na panela.</li>
+              <li>Adicione a abóbora e o caldo, cozinhe até amaciar.</li>
+              <li>Bata tudo no liquidificador até ficar cremoso.</li>
+              <li>Tempere e sirva com creme de leite.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sopa cremosa é tipo boleto pago: aquece seu coração e traz alívio imediato, mesmo que temporário.</div>
+    </article>
+
+    <article class="receita-card" id="tacos-de-peixe-com-molho-de-iogurte-e-hortela">
+      <h2 class="receita-titulo">Tacos de Peixe com Molho de Iogurte e Hortelã</h2>
+      <p class="receita-desc">Porque jantar leve pode ser tão divertido quanto fugir dos boletos.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 38,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g filé de peixe branco</li>
+              <li>tortilhas de milho</li>
+              <li>iogurte natural</li>
+              <li>Hortelã picada a gosto</li>
+              <li>limão</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+              <li>Repolho picado para acompanhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o peixe com sal, pimenta e limão.</li>
+              <li>Grelhe o peixe em azeite até dourar.</li>
+              <li>Misture o iogurte com hortelã, sal e limão.</li>
+              <li>Monte os tacos com peixe, molho e repolho.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Tacos são como boletos: fáceis de montar, mas o impacto financeiro só vem depois... na conta.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-espinafre-com-ricota-e-nozes">
+      <h2 class="receita-titulo">Panqueca de Espinafre com Ricota e Nozes</h2>
+      <p class="receita-desc">Jantar pra quem quer parecer saudável sem esforço, igual promessa de academia.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de trigo</li>
+              <li>ovos</li>
+              <li>/2 xícara de leite</li>
+              <li>xícara de espinafre cozido e picado</li>
+              <li>g ricota esfarelada</li>
+              <li>/4 xícara de nozes picadas</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para untar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, ovos e leite até formar massa líquida.</li>
+              <li>Acrescente espinafre, sal e pimenta.</li>
+              <li>Faça as panquecas na frigideira untada.</li>
+              <li>Recheie com ricota e nozes, dobre e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Panqueca recheada é igual promessa de dieta: só dá trabalho se você quiser fazer direito.</div>
+    </article>
+
+    <article class="receita-card" id="lasanha-de-abobrinha-com-molho-branco-e-frango-desfiado">
+      <h2 class="receita-titulo">Lasanha de Abobrinha com Molho Branco e Frango Desfiado</h2>
+      <p class="receita-desc">Porque jantar leve não precisa ser tristeza no prato.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 42,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abobrinhas médias cortadas em fatias finas</li>
+              <li>g frango cozido e desfiado</li>
+              <li>ml leite</li>
+              <li>colheres de sopa de manteiga</li>
+              <li>colheres de sopa de farinha de trigo</li>
+              <li>Sal, noz-moscada e pimenta a gosto</li>
+              <li>Queijo muçarela ralado para gratinar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Prepare molho branco: derreta manteiga, junte farinha, mexa e acrescente leite aos poucos até engrossar. Tempere.</li>
+              <li>Monte camadas: abobrinha, frango, molho branco.</li>
+              <li>Finalize com queijo e leve ao forno a 200ºC por 30 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Lasanha de abobrinha é como boletos: quanto mais camadas, mais difícil de dar conta, mas no fim tem aquele gostinho de vitória.</div>
+    </article>
+
+    <article class="receita-card" id="carne-de-panela-com-batatas-e-cenouras">
+      <h2 class="receita-titulo">Carne de Panela com Batatas e Cenouras</h2>
+      <p class="receita-desc">Jantar de quem sabe que a vida adulta é fogo, mas o estômago não pode reclamar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h30min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 37,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne para panela em cubos</li>
+              <li>batatas médias cortadas</li>
+              <li>cenouras cortadas</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>Sal, pimenta e louro a gosto</li>
+              <li>Azeite para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho no azeite.</li>
+              <li>Adicione a carne e sele todos os lados.</li>
+              <li>Coloque os temperos, cubra com água e cozinhe na pressão por 40 minutos.</li>
+              <li>Abra a panela, adicione batatas e cenouras, cozinhe por mais 20 minutos sem pressão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Cozinhar carne de panela é igual boleto atrasado: demora, mas o resultado final te faz sentir no controle da vida (por enquanto).</div>
+    </article>
+
+    <article class="receita-card" id="quiche-de-alho-poro-com-massa-integral">
+      <h2 class="receita-titulo">Quiche de Alho-Poró com Massa Integral</h2>
+      <p class="receita-desc">Porque às vezes a vida adulta pede um mimo que não é pizza congelada.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h10min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>massa de torta integral pronta ou caseira</li>
+              <li>talos de alho-poró fatiados</li>
+              <li>ovos</li>
+              <li>ml creme de leite</li>
+              <li>g queijo parmesão ralado</li>
+              <li>Sal, pimenta e noz-moscada a gosto</li>
+              <li>Azeite para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Pré-asse a massa na forma por 10 minutos a 180ºC.</li>
+              <li>Refogue o alho-poró no azeite até murchar.</li>
+              <li>Bata ovos, creme de leite, queijo e temperos.</li>
+              <li>Misture o alho-poró e despeje sobre a massa.</li>
+              <li>Asse por 35 minutos até firmar e dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Fazer quiche é igual boleto: tem que ter paciência pra esperar o tempo certo, senão tudo desmonta.</div>
+    </article>
+
+    <article class="receita-card" id="batata-rustica-com-alecrim-e-alho">
+      <h2 class="receita-titulo">Batata Rústica com Alecrim e Alho</h2>
+      <p class="receita-desc">Jantar pra quem quer crocância sem culpa (ou quase).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas médias cortadas em gomos</li>
+              <li>dentes de alho picados</li>
+              <li>ramos de alecrim fresco</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture batatas, alho, alecrim, azeite, sal e pimenta na tigela.</li>
+              <li>Distribua na assadeira em camada única.</li>
+              <li>Asse a 220ºC por 35 minutos, mexendo na metade do tempo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Batata rústica é igual boleto: parece simples, mas quando menos espera, vira um drama crocante.</div>
+    </article>
+
+    <article class="receita-card" id="salada-morna-de-grao-de-bico-tomate-seco-e-rucula">
+      <h2 class="receita-titulo">Salada Morna de Grão-de-Bico, Tomate Seco e Rúcula</h2>
+      <p class="receita-desc">Porque jantar saudável não precisa ser triste e sem graça.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de grão-de-bico cozido</li>
+              <li>/2 xícara de tomate seco picado</li>
+              <li>xícaras de rúcula</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal, pimenta e limão a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o grão-de-bico com tomate seco e rúcula.</li>
+              <li>Tempere com azeite, sal, pimenta e limão.</li>
+              <li>Sirva em temperatura ambiente ou morna.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada morna é igual boleto pago: dá aquela sensação boa de que você tá no controle da vida, mesmo que só por um instante.</div>
+    </article>
+
+    <article class="receita-card" id="file-mignon-ao-molho-de-vinho-tinto-com-batatas-saute">
+      <h2 class="receita-titulo">Filé Mignon ao Molho de Vinho Tinto com Batatas Sauté</h2>
+      <p class="receita-desc">Jantar pra mostrar que você tá rico só no prato, porque no banco... nem tanto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 60,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>filés mignon (150g cada)</li>
+              <li>/2 xícara de vinho tinto seco</li>
+              <li>g batatas cortadas em cubos</li>
+              <li>dentes de alho</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe as batatas em água até ficarem macias.</li>
+              <li>Frite as batatas com alho e azeite até dourar.</li>
+              <li>Tempere os filés com sal e pimenta, grelhe ao ponto desejado.</li>
+              <li>Na mesma frigideira, reduza o vinho para molho.</li>
+              <li>Sirva o filé com o molho e as batatas.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Filé ao vinho é igual boleto com juros: você sabe que vai pesar, mas às vezes vale o preço do luxo.</div>
+    </article>
+
+    <article class="receita-card" id="nhoque-de-mandioquinha-com-molho-de-tomate-e-manjericao">
+      <h2 class="receita-titulo">Nhoque de Mandioquinha com Molho de Tomate e Manjericão</h2>
+      <p class="receita-desc">Jantar pra quem quer conforto sem culpa – ou pelo menos tenta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g mandioquinha cozida e amassada</li>
+              <li>xícara de farinha de trigo (aproximadamente)</li>
+              <li>ovo</li>
+              <li>Sal a gosto</li>
+              <li>g molho de tomate caseiro</li>
+              <li>Folhas de manjericão fresco para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture mandioquinha, ovo, sal e farinha até formar massa macia.</li>
+              <li>Enrole a massa em rolinhos e corte nhoques.</li>
+              <li>Cozinhe os nhoques em água fervente até subirem.</li>
+              <li>Sirva com molho de tomate quente e manjericão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Fazer nhoque é igual boleto: se colocar farinha demais, fica duro e ninguém quer pagar esse preço.</div>
+    </article>
+
+    <article class="receita-card" id="escondidinho-de-carne-seca-com-pure-de-mandioca">
+      <h2 class="receita-titulo">Escondidinho de Carne Seca com Purê de Mandioca</h2>
+      <p class="receita-desc">Jantar pra quem quer esconder os problemas e a fome atrás do purê.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne seca dessalgada e desfiada</li>
+              <li>g mandioca cozida e amassada</li>
+              <li>colheres de sopa de manteiga</li>
+              <li>cebola picada</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Queijo coalho ralado para gratinar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e carne seca até dourar.</li>
+              <li>Misture a manteiga ao purê de mandioca, tempere.</li>
+              <li>Em assadeira, faça uma camada de carne, outra de purê.</li>
+              <li>Cubra com queijo e leve ao forno para gratinar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Escondidinho é igual boleto escondido na gaveta: você sabe que tá lá, mas finge que não existe.</div>
+    </article>
+
+    <article class="receita-card" id="frango-xadrez-com-arroz-jasmine">
+      <h2 class="receita-titulo">Frango Xadrez com Arroz Jasmine</h2>
+      <p class="receita-desc">Jantar pra quem quer dar um upgrade no básico sem enlouquecer.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 32,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g peito de frango em cubos</li>
+              <li>pimentão vermelho em cubos</li>
+              <li>cebola média em cubos</li>
+              <li>colheres de sopa molho shoyu</li>
+              <li>colher de sopa amido de milho</li>
+              <li>xícara de arroz jasmine</li>
+              <li>Sal e óleo para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o arroz conforme instruções.</li>
+              <li>Refogue frango até dourar, reserve.</li>
+              <li>Na mesma panela, refogue pimentão e cebola.</li>
+              <li>Volte o frango, adicione shoyu e amido dissolvido em água.</li>
+              <li>Cozinhe até o molho engrossar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Frango xadrez é tipo boleto parcelado: você acha que tá dando conta, mas no fim sempre sobra uma parcela a pagar.</div>
+    </article>
+
+    <article class="receita-card" id="berinjela-a-parmegiana-light">
+      <h2 class="receita-titulo">Berinjela à Parmegiana Light</h2>
+      <p class="receita-desc">Jantar pra quem quer iludir a balança e o coração ao mesmo tempo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>berinjelas médias cortadas em fatias</li>
+              <li>g molho de tomate caseiro</li>
+              <li>g queijo muçarela light ralado</li>
+              <li>ovos para empanar</li>
+              <li>Farinha de rosca para empanar</li>
+              <li>Sal e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Salgue as fatias de berinjela e deixe escorrer 20 minutos.</li>
+              <li>Passe as fatias em ovo batido e farinha de rosca.</li>
+              <li>Frite em pouco azeite até dourar.</li>
+              <li>Em assadeira, monte camadas de berinjela, molho e queijo.</li>
+              <li>Leve ao forno a 200ºC por 20 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Berinjela à parmegiana light é igual boleto parcelado: parece leve, mas no fim pesa no bolso (e na consciência).</div>
+    </article>
+
+    <article class="receita-card" id="sufle-de-queijo-com-salada-verde">
+      <h2 class="receita-titulo">Suflê de Queijo com Salada Verde</h2>
+      <p class="receita-desc">Jantar pra fingir que você manja do riscado e não só do delivery.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos (claras e gemas separadas)</li>
+              <li>g queijo prato ralado</li>
+              <li>colheres de sopa de manteiga</li>
+              <li>colheres de sopa de farinha de trigo</li>
+              <li>ml leite</li>
+              <li>Sal e noz-moscada a gosto</li>
+              <li>Folhas verdes para acompanhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Faça um molho branco com manteiga, farinha e leite, tempere.</li>
+              <li>Misture as gemas ao molho e o queijo ralado.</li>
+              <li>Bata as claras em neve e incorpore delicadamente.</li>
+              <li>Despeje na forma untada e asse em banho-maria a 180ºC por 35 minutos.</li>
+              <li>Sirva com salada.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Suflê é igual boleto que você esqueceu: se abrir a porta na hora errada, tudo desanda rapidinho.</div>
+    </article>
+
+    <article class="receita-card" id="moqueca-baiana-de-peixe-com-arroz-branco">
+      <h2 class="receita-titulo">Moqueca Baiana de Peixe com Arroz Branco</h2>
+      <p class="receita-desc">Jantar pra quem quer viajar sem sair da cozinha (e sem boleto internacional).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 50,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g filé de peixe branco</li>
+              <li>tomates picados</li>
+              <li>cebola picada</li>
+              <li>pimentão verde picado</li>
+              <li>ml leite de coco</li>
+              <li>Coentro e azeite de dendê a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>xícaras de arroz branco</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola, tomate e pimentão no azeite de dendê.</li>
+              <li>Adicione o peixe, tempere, cubra com leite de coco e cozinhe até o peixe ficar macio.</li>
+              <li>Cozinhe o arroz branco separadamente.</li>
+              <li>Finalize com coentro fresco.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Moqueca é igual boleto atrasado: quanto mais você enrola, mais difícil fica, mas o sabor compensa o sufoco.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-frango-com-espinafre-e-molho-branco">
+      <h2 class="receita-titulo">Panqueca de Frango com Espinafre e Molho Branco</h2>
+      <p class="receita-desc">Jantar pra quem quer disfarçar que a preguiça venceu a dieta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 27,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de trigo</li>
+              <li>ovos</li>
+              <li>/2 xícara de leite</li>
+              <li>g frango cozido e desfiado</li>
+              <li>xícara de espinafre cozido e picado</li>
+              <li>ml molho branco pronto</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para untar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Faça a massa das panquecas misturando farinha, ovos e leite.</li>
+              <li>Cozinhe as panquecas em frigideira untada.</li>
+              <li>Misture frango e espinafre para o recheio.</li>
+              <li>Recheie as panquecas, cubra com molho branco e aqueça no forno.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Panqueca recheada é igual boleto parcelado: você sabe que vai ter trabalho, mas no fim até que vale a pena.</div>
+    </article>
+
+    <article class="receita-card" id="escondidinho-de-lentilha-com-pure-de-batata">
+      <h2 class="receita-titulo">Escondidinho de Lentilha com Purê de Batata</h2>
+      <p class="receita-desc">Jantar que prova que até legumes podem ser heróis no prato.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de lentilha cozida</li>
+              <li>batatas médias cozidas e amassadas</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>colher de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Queijo ralado para gratinar (opcional)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho no azeite, acrescente lentilha, tempere.</li>
+              <li>Misture manteiga ao purê de batata, tempere.</li>
+              <li>Em assadeira, faça camadas de lentilha e purê.</li>
+              <li>Cubra com queijo e leve ao forno para gratinar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Lentilha no jantar é igual boleto pago: dá aquela sensação de que tá tudo sob controle, mesmo que só por um tempo.</div>
+    </article>
+
+    <article class="receita-card" id="pizza-caseira-de-massa-integral-com-vegetais">
+      <h2 class="receita-titulo">Pizza Caseira de Massa Integral com Vegetais</h2>
+      <p class="receita-desc">Porque todo adulto merece a ilusão de que cozinha igual pizzaria.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h10min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de farinha integral</li>
+              <li>colher de chá de fermento biológico seco</li>
+              <li>/2 xícara de água morna</li>
+              <li>colher de sopa de azeite</li>
+              <li>g molho de tomate</li>
+              <li>g queijo muçarela ralado</li>
+              <li>Vegetais diversos (pimentão, cebola, tomate, azeitonas)</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, fermento, água, azeite e sal; amasse e deixe crescer 40 minutos.</li>
+              <li>Abra a massa com rolo e coloque na assadeira.</li>
+              <li>Espalhe molho, queijo e vegetais.</li>
+              <li>Asse a 220ºC por 20 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Fazer pizza em casa é igual boleto: dá trabalho, mas no fim você se sente o rei do pedaço (ou da conta).</div>
+    </article>
+
+    <article class="receita-card" id="quibe-assado-com-tabule">
+      <h2 class="receita-titulo">Quibe Assado com Tabule</h2>
+      <p class="receita-desc">Jantar pra quem quer fingir que tá saudável e sem tempo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 29,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g trigo para quibe</li>
+              <li>g carne moída</li>
+              <li>cebola picada</li>
+              <li>Hortelã e salsinha picadas</li>
+              <li>tomates picados</li>
+              <li>pepino picado</li>
+              <li>Suco de 1 limão</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Hidrate o trigo conforme instruções.</li>
+              <li>Misture trigo, carne, cebola, sal e pimenta.</li>
+              <li>Coloque na assadeira e asse a 200ºC por 30 minutos.</li>
+              <li>Misture tomate, pepino, hortelã, salsinha, limão e azeite para o tabule.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Quibe assado é igual boleto: você tenta fazer saudável, mas no fim sempre tem um tempero que pesa demais.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-quinoa-com-frango-grelhado-e-abacate">
+      <h2 class="receita-titulo">Salada de Quinoa com Frango Grelhado e Abacate</h2>
+      <p class="receita-desc">Porque jantar saudável pode ser chique, até para quem só quer sentar e não pensar em boleto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de quinoa cozida</li>
+              <li>g peito de frango</li>
+              <li>/2 abacate em cubos</li>
+              <li>tomate picado</li>
+              <li>Folhas verdes (alface, rúcula)</li>
+              <li>Azeite, limão, sal e pimenta</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a quinoa conforme instruções.</li>
+              <li>Grelhe o frango temperado com sal e pimenta, corte em tiras.</li>
+              <li>Misture quinoa, frango, abacate, tomate e folhas.</li>
+              <li>Tempere com azeite e limão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada com abacate é tipo boleto pago com desconto: parece que tá tudo certo, mas você sabe que poderia ser melhor.</div>
+    </article>
+
+    <article class="receita-card" id="bife-acebolado-com-pure-de-mandioquinha">
+      <h2 class="receita-titulo">Bife Acebolado com Purê de Mandioquinha</h2>
+      <p class="receita-desc">Jantar que prova que às vezes o clássico ganha do gourmet.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>bifes de sua preferência</li>
+              <li>cebolas médias fatiadas</li>
+              <li>g mandioquinha cozida e amassada</li>
+              <li>colher de sopa de manteiga</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere os bifes com sal e pimenta, grelhe em azeite.</li>
+              <li>Na mesma frigideira, refogue a cebola até caramelizar.</li>
+              <li>Misture a manteiga ao purê de mandioquinha, tempere.</li>
+              <li>Sirva bifes com cebolas por cima e purê ao lado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bife acebolado é igual boleto: simples, direto, e você não quer complicar a vida (mas sempre complica).</div>
+    </article>
+
+    <article class="receita-card" id="macarrao-ao-molho-pesto-com-tomate-seco">
+      <h2 class="receita-titulo">Macarrão ao Molho Pesto com Tomate Seco</h2>
+      <p class="receita-desc">Jantar pra quem quer fingir que sabe o que está fazendo na cozinha.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g macarrão de sua preferência</li>
+              <li>maço de manjericão fresco</li>
+              <li>g queijo parmesão ralado</li>
+              <li>/4 xícara nozes ou pinoli</li>
+              <li>/2 xícara azeite</li>
+              <li>g tomate seco picado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o macarrão conforme instruções.</li>
+              <li>Bata manjericão, queijo, nozes, azeite, sal e pimenta até formar pesto.</li>
+              <li>Misture o molho ao macarrão escorrido.</li>
+              <li>Acrescente tomate seco e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Molho pesto é igual boleto pago no débito automático: prático, eficiente e evita dor de cabeça depois.</div>
+    </article>
+
+    <article class="receita-card" id="frango-ao-curry-com-leite-de-coco-e-arroz-basmati">
+      <h2 class="receita-titulo">Frango ao Curry com Leite de Coco e Arroz Basmati</h2>
+      <p class="receita-desc">Jantar pra quem quer dar uma apimentada na vida sem estourar o orçamento.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 38,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g peito de frango em cubos</li>
+              <li>cebola picada</li>
+              <li>colheres de sopa curry em pó</li>
+              <li>ml leite de coco</li>
+              <li>xícara de arroz basmati</li>
+              <li>Sal, pimenta e óleo para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o arroz conforme instruções.</li>
+              <li>Refogue cebola, acrescente frango e curry, mexa bem.</li>
+              <li>Junte leite de coco, tempere e cozinhe até o molho engrossar.</li>
+              <li>Sirva com arroz.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Curry é igual boleto: se exagerar, queima seu orçamento; se faltar, perde a graça.</div>
+    </article>
+
+    <article class="receita-card" id="torta-de-legumes-com-massa-de-grao-de-bico">
+      <h2 class="receita-titulo">Torta de Legumes com Massa de Grão-de-Bico</h2>
+      <p class="receita-desc">Jantar pra quem quer parecer fitness mas sem abrir mão do sabor.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 33,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de grão-de-bico cozido</li>
+              <li>/2 xícara de farinha de trigo</li>
+              <li>cenoura ralada</li>
+              <li>abobrinha ralada</li>
+              <li>ovos</li>
+              <li>Sal, pimenta e ervas a gosto</li>
+              <li>g queijo ralado opcional</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata grão-de-bico, farinha e ovos no processador até formar massa.</li>
+              <li>Misture os legumes, tempere e despeje na assadeira.</li>
+              <li>Salpique queijo e asse a 180ºC por 40 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Torta de grão-de-bico é igual boleto: você acha que vai dar trabalho, mas no fim só quer que acabe logo.</div>
+    </article>
+
+    <article class="receita-card" id="espaguete-ao-alho-e-oleo-com-camaroes">
+      <h2 class="receita-titulo">Espaguete ao Alho e Óleo com Camarões</h2>
+      <p class="receita-desc">Jantar para quem quer algo rápido, chique e que faça parecer que sabe viver.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 45,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g espaguete</li>
+              <li>g camarão limpo</li>
+              <li>dentes de alho fatiados</li>
+              <li>/4 xícara de azeite</li>
+              <li>Pimenta calabresa, sal e salsinha a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o espaguete conforme instruções.</li>
+              <li>Em frigideira, doure alho no azeite, junte camarões e tempere.</li>
+              <li>Misture o espaguete escorrido ao camarão, finalize com salsa.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Espaguete alho e óleo é igual boleto pago no débito: simples, rápido e evita dor de cabeça.</div>
+    </article>
+
+    <article class="receita-card" id="ratatouille-simples-com-queijo-de-cabra">
+      <h2 class="receita-titulo">Ratatouille Simples com Queijo de Cabra</h2>
+      <p class="receita-desc">Jantar pra quem quer parecer francês e não pagar a conta do bistrô.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>berinjela pequena em rodelas</li>
+              <li>abobrinha pequena em rodelas</li>
+              <li>tomates maduros em rodelas</li>
+              <li>cebola em rodelas</li>
+              <li>g queijo de cabra</li>
+              <li>Azeite, sal, pimenta e ervas finas</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em assadeira untada, alterne camadas dos legumes.</li>
+              <li>Tempere com azeite, sal, pimenta e ervas.</li>
+              <li>Cubra com queijo de cabra e asse a 180ºC por 35 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Ratatouille é igual boleto atrasado: todo mundo sabe que é bom, mas ninguém quer encarar a trabalheira.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-frango-com-legumes-grelhados">
+      <h2 class="receita-titulo">Espetinho de Frango com Legumes Grelhados</h2>
+      <p class="receita-desc">Jantar pra quem quer fingir que tá na praia, mas tá só no quintal (ou na cozinha).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g peito de frango em cubos</li>
+              <li>pimentão em cubos</li>
+              <li>cebola em cubos</li>
+              <li>abobrinha em rodelas</li>
+              <li>Azeite, sal, pimenta e ervas a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere frango e legumes com azeite e temperos.</li>
+              <li>Monte os espetinhos alternando frango e legumes.</li>
+              <li>Grelhe até dourar e cozinhar bem.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Espetinho é igual boleto: se deixar pra última hora, vira um churrasco de desespero.</div>
+    </article>
+
+    <article class="receita-card" id="cuscuz-marroquino-com-legumes-e-frango-ao-curry">
+      <h2 class="receita-titulo">Cuscuz Marroquino com Legumes e Frango ao Curry</h2>
+      <p class="receita-desc">Jantar pra quem quer viajar no paladar e não no boleto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de cuscuz marroquino</li>
+              <li>g frango em cubos</li>
+              <li>cenoura ralada</li>
+              <li>abobrinha em cubos</li>
+              <li>colheres de sopa curry em pó</li>
+              <li>/2 cebola picada</li>
+              <li>Sal, pimenta e azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Hidrate o cuscuz conforme embalagem.</li>
+              <li>Refogue cebola e frango com curry até dourar.</li>
+              <li>Acrescente legumes e cozinhe até ficarem macios.</li>
+              <li>Misture o cuscuz ao refogado e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Cuscuz marroquino é igual boleto internacional: parece exótico, mas no fim é mais um que você precisa pagar.</div>
+    </article>
+
+    <article class="receita-card" id="escondidinho-de-abobora-com-carne-moida-e-queijo">
+      <h2 class="receita-titulo">Escondidinho de Abóbora com Carne Moída e Queijo</h2>
+      <p class="receita-desc">Jantar pra quem quer esconder a fome e a tristeza atrás do queijo derretido.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 33,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g abóbora cozida e amassada</li>
+              <li>g carne moída</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>g queijo muçarela ralado</li>
+              <li>Sal, pimenta e azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola, alho e carne até dourar, tempere.</li>
+              <li>Misture a abóbora com sal e reserve.</li>
+              <li>Em assadeira, coloque camada de carne, depois abóbora e queijo.</li>
+              <li>Leve ao forno para gratinar por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Escondidinho é igual boleto esquecido: quando lembra, já tá tudo derretido (e caro).</div>
+    </article>
+
+    <article class="receita-card" id="panini-de-queijo-tomate-e-manjericao">
+      <h2 class="receita-titulo">Panini de Queijo, Tomate e Manjericão</h2>
+      <p class="receita-desc">Jantar pra quem quer rapidez e sabor, sem parecer que tá comendo pão com queijo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão ciabatta ou outro de sua preferência</li>
+              <li>g queijo muçarela</li>
+              <li>tomates fatiados</li>
+              <li>Folhas de manjericão fresco</li>
+              <li>Azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte os sanduíches com queijo, tomate e manjericão.</li>
+              <li>Passe azeite no pão e grelhe na sanduicheira ou frigideira até dourar.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Panini é igual boleto pago em dia: simples, rápido, e te deixa com aquela sensação boa de vitória.</div>
+    </article>
+
+    <article class="receita-card" id="salmao-ao-forno-com-crosta-de-ervas-e-limao">
+      <h2 class="receita-titulo">Salmão ao Forno com Crosta de Ervas e Limão</h2>
+      <p class="receita-desc">Jantar pra quem quer parecer chef, mas só quer impressionar o crush.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 50,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>filés de salmão (150g cada)</li>
+              <li>limão (raspas e suco)</li>
+              <li>Mix de ervas frescas picadas (salsinha, cebolinha, tomilho)</li>
+              <li>Sal, pimenta e azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o salmão com sal, pimenta e limão.</li>
+              <li>Misture as ervas com raspas de limão e azeite.</li>
+              <li>Cubra os filés com a mistura e asse a 200ºC por 20 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salmão ao forno é igual boleto que você tenta esquecer: bonito, cheiroso, mas no fim sempre aparece pra te cobrar.</div>
+    </article>
+
+    <article class="receita-card" id="macarrao-integral-com-molho-de-abacate-e-limao">
+      <h2 class="receita-titulo">Macarrão Integral com Molho de Abacate e Limão</h2>
+      <p class="receita-desc">Jantar pra quem quer ser saudável e hipster ao mesmo tempo (ou pelo menos tenta).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g macarrão integral</li>
+              <li>abacate maduro</li>
+              <li>Suco de 1 limão</li>
+              <li>dente de alho</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+              <li>Queijo parmesão ralado para servir</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o macarrão conforme instruções.</li>
+              <li>Bata no liquidificador abacate, limão, alho, azeite, sal e pimenta até virar molho.</li>
+              <li>Misture o molho ao macarrão quente.</li>
+              <li>Sirva com queijo ralado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Molho de abacate é igual boleto parcelado: parece saudável, mas no fim pesa no orçamento e na consciência.</div>
+    </article>
+
+    <article class="receita-card" id="calabresa-acebolada-com-polenta-cremosa">
+      <h2 class="receita-titulo">Calabresa Acebolada com Polenta Cremosa</h2>
+      <p class="receita-desc">Jantar pra quem quer abraço de vó em forma de comida (e um pouco de culpa).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g calabresa fatiada</li>
+              <li>cebolas grandes fatiadas</li>
+              <li>xícara de farinha de milho para polenta</li>
+              <li>xícaras de água</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Queijo ralado opcional</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a calabresa e cebola até dourar.</li>
+              <li>Cozinhe a polenta na água com sal, mexendo até engrossar.</li>
+              <li>Sirva a calabresa sobre a polenta, com queijo se desejar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Calabresa acebolada é igual boleto inesperado: chega quente e bagunça seus planos, mas faz você se sentir vivo.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-natural-de-atum-com-salada-verde">
+      <h2 class="receita-titulo">Sanduíche Natural de Atum com Salada Verde</h2>
+      <p class="receita-desc">Jantar pra quem quer algo leve, mas não quer perder a pose fitness.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>latas de atum em água</li>
+              <li>fatias de pão integral</li>
+              <li>/2 cebola roxa picada</li>
+              <li>talo de salsão picado</li>
+              <li>colheres de sopa de maionese light</li>
+              <li>Folhas verdes variadas</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture atum, cebola, salsão, maionese, sal e pimenta.</li>
+              <li>Monte os sanduíches com a mistura e folhas verdes.</li>
+              <li>Sirva imediatamente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sanduíche natural é igual boleto pago antecipado: você sabe que fez o certo, mas ainda sente falta da pizza.</div>
+    </article>
+
+    <article class="receita-card" id="frango-ao-molho-de-laranja-com-quinua">
+      <h2 class="receita-titulo">Frango ao Molho de Laranja com Quinua</h2>
+      <p class="receita-desc">Jantar pra quem quer doce e saudável, mas sem parecer que tá fazendo dieta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 38,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g peito de frango em cubos</li>
+              <li>Suco e raspas de 2 laranjas</li>
+              <li>colher de sopa de mel</li>
+              <li>xícara de quinua</li>
+              <li>Sal, pimenta e azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a quinua conforme instruções.</li>
+              <li>Grelhe o frango temperado com sal e pimenta.</li>
+              <li>Faça o molho com suco, raspas de laranja e mel, reduza na frigideira.</li>
+              <li>Misture o frango ao molho e sirva com quinua.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Molho de laranja é igual boleto pago com desconto: doce na medida certa pra não doer tanto.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

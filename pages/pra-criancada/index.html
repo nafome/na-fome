@@ -1,0 +1,1647 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>👶 Pra Criançada — Receitas NaFome</title>
+  <meta name="description" content="42 receitas para quem está na situação "Pra Criançada". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/pra-criancada/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="👶 Pra Criançada — Receitas NaFome">
+  <meta property="og:description" content="42 receitas para quem está na situação "Pra Criançada". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/pra-criancada/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "👶 Pra Criançada — NaFome",
+    "description": "42 receitas para quem está na situação "Pra Criançada". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/pra-criancada/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=pra-criancada" class="btn-sortear">🎲 Sortear receita de Pra Criançada</a>
+  </nav>
+
+  <div class="hero">
+    <h1>👶 Pra Criançada</h1>
+    <p>42 receitas para quem está na situação "Pra Criançada". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">42 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Pra Criançada pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=pra-criancada" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="mini-pizzas-de-pao-de-forma-divertidas">
+      <h2 class="receita-titulo">Mini Pizzas de Pão de Forma Divertidas</h2>
+      <p class="receita-desc">Porque pizza gigante dá trabalho e criança tem atenção curta, igual a boleto vencido</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão de forma sem casca</li>
+              <li>colheres de sopa de molho de tomate</li>
+              <li>g de queijo muçarela ralado</li>
+              <li>azeitonas fatiadas</li>
+              <li>Orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte as fatias de pão ao meio formando mini pães.</li>
+              <li>Espalhe o molho de tomate sobre cada mini pão.</li>
+              <li>Cubra com queijo, azeitonas e polvilhe orégano.</li>
+              <li>Leve ao forno preaquecido a 180°C por 10 minutos ou até o queijo derreter.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a criançada reclamar que é “muito saudável”, diga que é igual boleto: você não quer, mas tem que encarar mesmo assim.</div>
+    </article>
+
+    <article class="receita-card" id="pure-de-batata-com-sorriso-de-ervilhas">
+      <h2 class="receita-titulo">Purê de Batata com Sorriso de Ervilhas</h2>
+      <p class="receita-desc">O jeito mais fácil de fazer criança comer verdura sem virar guerra civil</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas médias</li>
+              <li>/2 xícara de ervilhas cozidas</li>
+              <li>colheres de sopa de manteiga</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe as batatas até ficarem macias.</li>
+              <li>Amasse as batatas com manteiga e sal até virar purê.</li>
+              <li>Decore o purê com as ervilhas fazendo um sorriso (ou careta, depende do humor do dia).</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se reclamar que é “comida de neném”, diga que adulto que só come miojo também não tá muito diferente, só menos engraçado.</div>
+    </article>
+
+    <article class="receita-card" id="bolinhos-coloridos-de-cenoura-e-abobrinha">
+      <h2 class="receita-titulo">Bolinhos Coloridos de Cenoura e Abobrinha</h2>
+      <p class="receita-desc">A única forma de fazer criança amar legumes sem precisar de mágica ou chantagem</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>cenouras médias raladas</li>
+              <li>abobrinha média ralada</li>
+              <li>ovos</li>
+              <li>/2 xícara de farinha de trigo</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture cenoura, abobrinha, ovos, farinha, sal e pimenta até formar uma massa.</li>
+              <li>Aqueça óleo na frigideira e coloque colheradas da massa.</li>
+              <li>Frite até dourar dos dois lados e escorra em papel absorvente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a criança perguntar “isso é comida de verdade?”, responda que sim, e que boletos também são comida pro seu bolso, só que mais dolorosa.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-de-frango-com-maionese-de-abacate">
+      <h2 class="receita-titulo">Sanduíche de Frango com Maionese de Abacate</h2>
+      <p class="receita-desc">Um lanche que até quem odeia salada vai fingir que gosta (porque não pode reclamar)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>filés de peito de frango grelhados e fatiados</li>
+              <li>fatias de pão integral</li>
+              <li>/2 abacate maduro</li>
+              <li>colher de sopa de maionese</li>
+              <li>Folhas de alface</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Amasse o abacate com a maionese, sal e pimenta até virar um creme.</li>
+              <li>Passe o creme nas fatias de pão.</li>
+              <li>Monte o sanduíche com frango e alface.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a criança reclamar que abacate é “bicho estranho”, diga que boletos também são bicho estranho, mas ninguém escapa deles.</div>
+    </article>
+
+    <article class="receita-card" id="brigadeiro-de-colher-nutritivo">
+      <h2 class="receita-titulo">Brigadeiro de Colher Nutritivo</h2>
+      <p class="receita-desc">Brigadeiro que não deixa só a boca feliz, mas também a consciência (e o bolso, que já tá sofrendo)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de leite condensado light</li>
+              <li>colher de sopa de cacau em pó</li>
+              <li>colher de sopa de pasta de amendoim natural</li>
+              <li>Granulado de chocolate para decorar (opcional)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture leite condensado, cacau e pasta de amendoim na panela.</li>
+              <li>Cozinhe em fogo baixo, mexendo sempre até engrossar.</li>
+              <li>Sirva em tigelas e decore com granulado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança perguntar “isso é saudável?”, diga que é um ‘brigadeiro disfarçado’ igual adulto na reunião de segunda-feira.</div>
+    </article>
+
+    <article class="receita-card" id="omelete-de-queijo-com-tomatinho-cereja">
+      <h2 class="receita-titulo">Omelete de Queijo com Tomatinho Cereja</h2>
+      <p class="receita-desc">O jeito mais rápido de transformar ovo em festa, sem precisar de mágica ou internet lenta</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>g de queijo muçarela ralado</li>
+              <li>tomatinhos cereja cortados ao meio</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para untar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com sal e pimenta.</li>
+              <li>Aqueça a frigideira untada e despeje os ovos.</li>
+              <li>Quando começar a firmar, coloque o queijo e os tomatinhos.</li>
+              <li>Dobre a omelete ao meio e cozinhe até o queijo derreter.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se reclamar que ovo é “sem graça”, diga que boleto também é, mas a gente paga mesmo assim.</div>
+    </article>
+
+    <article class="receita-card" id="smoothie-energetico-de-banana-e-aveia">
+      <h2 class="receita-titulo">Smoothie Energético de Banana e Aveia</h2>
+      <p class="receita-desc">Porque criança cansada só se recupera com vitamina, não com série da Netflix</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>bananas maduras</li>
+              <li>xícara de leite (pode ser vegetal)</li>
+              <li>colheres de sopa de aveia</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque todos os ingredientes no liquidificador.</li>
+              <li>Bata até ficar homogêneo.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que é “só vitamina”, diga que adulto tomando café preto é quase a mesma coisa, só que sem mel.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-frutas-com-iogurte-colorido">
+      <h2 class="receita-titulo">Espetinho de Frutas com Iogurte Colorido</h2>
+      <p class="receita-desc">O jeito mais fácil de fazer criança pensar que está comendo doce, mas é só fruta disfarçada</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>maçã cortada em cubos</li>
+              <li>banana em rodelas</li>
+              <li>/2 mamão em cubos</li>
+              <li>pote de iogurte natural</li>
+              <li>Mel e frutas vermelhas para colorir o iogurte</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte os espetinhos intercalando as frutas.</li>
+              <li>Misture o iogurte com mel e frutas vermelhas para dar cor.</li>
+              <li>Sirva os espetinhos com o iogurte para mergulhar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a criançada reclamar que é “comida de adulto”, diga que adulto também reclama do chefe, mas tá lá, firme e forte.</div>
+    </article>
+
+    <article class="receita-card" id="panquecas-de-banana-com-mel">
+      <h2 class="receita-titulo">Panquecas de Banana com Mel</h2>
+      <p class="receita-desc">Porque a vida já é amarga demais, mas a panqueca não precisa ser</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>bananas maduras amassadas</li>
+              <li>ovo</li>
+              <li>/2 xícara de farinha de trigo</li>
+              <li>/4 xícara de leite</li>
+              <li>Mel para servir</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture banana, ovo, farinha e leite até formar massa homogênea.</li>
+              <li>Aqueça frigideira untada e coloque porções da massa.</li>
+              <li>Cozinhe dos dois lados até dourar.</li>
+              <li>Sirva com mel por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se reclamar que panqueca é “sem graça”, diga que boletos atrasados são muito mais emocionantes, só que ninguém quer.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-macarrao-colorida-para-pequenos-gourmets">
+      <h2 class="receita-titulo">Salada de Macarrão Colorida para Pequenos Gourmets</h2>
+      <p class="receita-desc">Porque criança com fome não quer saber de salada, mas macarrão colorido é outra história</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de macarrão parafuso</li>
+              <li>/2 cenoura ralada</li>
+              <li>/2 pimentão vermelho picado</li>
+              <li>/2 xícara de milho verde</li>
+              <li>/2 xícara de ervilhas</li>
+              <li>Molho de iogurte ou maionese caseira</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o macarrão conforme instruções e escorra.</li>
+              <li>Misture o macarrão com os legumes e o molho.</li>
+              <li>Leve à geladeira por 15 minutos e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que “tem verdura demais”, diga que adulto reclamando do trabalho é igual, mas salário é o que não vem.</div>
+    </article>
+
+    <article class="receita-card" id="cookies-integrais-de-chocolate-e-aveia">
+      <h2 class="receita-titulo">Cookies Integrais de Chocolate e Aveia</h2>
+      <p class="receita-desc">Porque criança merece doce, mas sem virar adulto quebrado no fim do mês</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 12 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha integral</li>
+              <li>/2 xícara de aveia em flocos</li>
+              <li>/2 xícara de açúcar mascavo</li>
+              <li>/4 xícara de óleo de coco</li>
+              <li>ovo</li>
+              <li>/2 xícara de gotas de chocolate meio amargo</li>
+              <li>colher de chá de fermento em pó</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes até formar massa homogênea.</li>
+              <li>Faça bolinhas e achate na assadeira untada.</li>
+              <li>Asse em forno preaquecido a 180°C por 15 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que “cookie integral não é cookie de verdade”, diga que boleto integral é o que dói mesmo, sem desconto.</div>
+    </article>
+
+    <article class="receita-card" id="sopa-cremosa-de-abobora-com-croutons-divertidos">
+      <h2 class="receita-titulo">Sopa Cremosa de Abóbora com Croutons Divertidos</h2>
+      <p class="receita-desc">A única sopa que criança aceita sem fingir que tá engasgando na vida</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de abóbora picada</li>
+              <li>batata média</li>
+              <li>cenoura média</li>
+              <li>/2 cebola picada</li>
+              <li>xícaras de caldo de legumes</li>
+              <li>Pão para croutons</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola, cenoura e abóbora na panela.</li>
+              <li>Adicione batata e caldo, cozinhe até os legumes amaciarem.</li>
+              <li>Bata tudo no mixer até virar creme.</li>
+              <li>Corte o pão em cubos, frite em azeite até dourar e sirva junto.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que sopa é “comida de doente”, diga que adulto também só quer sopa quando a vida aperta, mas chama de “momento detox”.</div>
+    </article>
+
+    <article class="receita-card" id="wrap-de-frango-com-queijo-e-verduras">
+      <h2 class="receita-titulo">Wrap de Frango com Queijo e Verduras</h2>
+      <p class="receita-desc">Porque enrolar comida é igual enrolar reunião chata: todo mundo gosta, mas ninguém quer sair antes</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tortilhas de trigo</li>
+              <li>g de frango desfiado temperado</li>
+              <li>g de queijo prato fatiado</li>
+              <li>Folhas de alface e tomate fatiado</li>
+              <li>Maionese ou molho de sua preferência</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça as tortilhas na frigideira.</li>
+              <li>Monte os wraps com frango, queijo, alface, tomate e maionese.</li>
+              <li>Enrole firme e corte ao meio para servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que “não quer comida enrolada”, diga que adulto também não quer contas enroladas, mas paga do mesmo jeito.</div>
+    </article>
+
+    <article class="receita-card" id="muffins-de-maca-e-canela-para-pequenos-fominhas">
+      <h2 class="receita-titulo">Muffins de Maçã e Canela para Pequenos Fominhas</h2>
+      <p class="receita-desc">O jeito mais gostoso de fazer a criançada pedir mais fruta que doce (quase um milagre)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 8 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>maçãs raladas</li>
+              <li>e 1/2 xícara de farinha de trigo</li>
+              <li>/2 xícara de açúcar</li>
+              <li>/2 xícara de leite</li>
+              <li>ovo</li>
+              <li>colher de chá de canela</li>
+              <li>colher de chá de fermento em pó</li>
+              <li>/4 xícara de óleo</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes secos.</li>
+              <li>Em outra tigela, misture ovo, leite, óleo e maçã.</li>
+              <li>Junte as duas misturas e mexa até homogeneizar.</li>
+              <li>Coloque nas forminhas e asse a 180°C por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que “bolo é coisa de adulto”, diga que adulto que paga boleto também reclama, mas não tem escolha.</div>
+    </article>
+
+    <article class="receita-card" id="arroz-colorido-com-legumes-e-frango">
+      <h2 class="receita-titulo">Arroz Colorido com Legumes e Frango</h2>
+      <p class="receita-desc">A receita que faz criança pensar que tá comendo arco-íris, mas é só comida mesmo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de arroz cozido</li>
+              <li>g de peito de frango em cubos</li>
+              <li>/2 pimentão vermelho picado</li>
+              <li>/2 cenoura ralada</li>
+              <li>/2 xícara de ervilhas</li>
+              <li>Sal, azeite e temperos a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue o frango até dourar e reserve.</li>
+              <li>Na mesma panela, refogue os legumes até ficarem macios.</li>
+              <li>Misture o arroz, o frango e os legumes.</li>
+              <li>Ajuste o sal e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança perguntar “tem grama nesse prato?”, responda que é só tempero, diferente do boleto que é grana que some.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-recheada-com-banana-e-canela">
+      <h2 class="receita-titulo">Tapioca Recheada com Banana e Canela</h2>
+      <p class="receita-desc">Porque tapioca é tipo boleto: parece simples, mas sempre dá um trabalhinho</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca hidratada</li>
+              <li>banana fatiada</li>
+              <li>Canela em pó a gosto</li>
+              <li>Mel para servir</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe a goma na frigideira quente formando uma disco.</li>
+              <li>Quando firmar, coloque as fatias de banana e polvilhe canela.</li>
+              <li>Dobre a tapioca ao meio e sirva com mel.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que tapioca não é sobremesa, diga que adulto que paga boleto também não acha, mas não tem jeito.</div>
+    </article>
+
+    <article class="receita-card" id="salgadinho-de-queijo-assado-em-formato-de-estrela">
+      <h2 class="receita-titulo">Salgadinho de Queijo Assado em Formato de Estrela</h2>
+      <p class="receita-desc">O jeito mais divertido de fazer criança pensar que está comendo festa, não lanche</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de queijo minas ralado</li>
+              <li>xícara de farinha de trigo</li>
+              <li>/2 xícara de manteiga gelada</li>
+              <li>gema para pincelar</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture queijo, farinha, manteiga e sal até formar massa.</li>
+              <li>Abra a massa e corte com cortador em formato de estrela.</li>
+              <li>Pincele gema e asse a 180°C por 15 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que é “coisa de adulto”, diga que adulto também reclama do chefe, mas ainda assim paga boleto.</div>
+    </article>
+
+    <article class="receita-card" id="iogurte-caseiro-com-mel-e-frutinhas">
+      <h2 class="receita-titulo">Iogurte Caseiro com Mel e Frutinhas</h2>
+      <p class="receita-desc">A sobremesa que engana e ainda ajuda na digestão, porque criança também merece conforto pós-batalha</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min + 6h geladeira</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>litro de leite integral</li>
+              <li>colheres de sopa de iogurte natural (para iniciar)</li>
+              <li>Mel a gosto</li>
+              <li>Frutas picadas (morango, kiwi, etc)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite até quase ferver e deixe esfriar até 40°C.</li>
+              <li>Misture o iogurte e coloque nos potes.</li>
+              <li>Deixe na geladeira por 6 horas.</li>
+              <li>Sirva com mel e frutas.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que “tem que esperar muito”, diga que espera por boleto no banco é mais demorado e ninguém reclama.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-de-cenoura-com-cobertura-de-chocolate-saudavel">
+      <h2 class="receita-titulo">Bolo de Cenoura com Cobertura de Chocolate Saudável</h2>
+      <p class="receita-desc">Porque bolo de cenoura é o único jeito de criança comer legume feliz e sujando tudo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 10 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>cenouras médias</li>
+              <li>ovos</li>
+              <li>/2 xícara de óleo</li>
+              <li>xícaras de farinha de trigo</li>
+              <li>e 1/2 xícara de açúcar</li>
+              <li>colher de sopa de fermento em pó</li>
+              <li>g de chocolate meio amargo para cobertura</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata cenoura, ovos e óleo no liquidificador.</li>
+              <li>Misture a farinha, açúcar e fermento em uma tigela.</li>
+              <li>Junte as duas misturas e mexa até homogêneo.</li>
+              <li>Asse a 180°C por 40 minutos.</li>
+              <li>Derreta o chocolate e cubra o bolo depois de frio.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que bolo é com muita cenoura, diga que boleto tem muita taxa e ninguém reclama.</div>
+    </article>
+
+    <article class="receita-card" id="espaguete-a-bolonhesa-infantil">
+      <h2 class="receita-titulo">Espaguete à Bolonhesa Infantil</h2>
+      <p class="receita-desc">A desculpa perfeita pra criança comer carne moída sem reclamar nem um pouco</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de macarrão espaguete</li>
+              <li>g de carne moída magra</li>
+              <li>/2 cebola picada</li>
+              <li>tomates maduros picados</li>
+              <li>colheres de sopa de extrato de tomate</li>
+              <li>Sal, azeite e temperos a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o macarrão conforme instruções e escorra.</li>
+              <li>Refogue a cebola no azeite, adicione a carne e cozinhe até dourar.</li>
+              <li>Acrescente tomates, extrato, sal e cozinhe até apurar.</li>
+              <li>Misture o molho ao macarrão e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que “tem carne estranha”, diga que boleto também é estranho, mas todo mês aparece.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-queijo-coalho-com-mel-e-oregano">
+      <h2 class="receita-titulo">Espetinho de Queijo Coalho com Mel e Orégano</h2>
+      <p class="receita-desc">A combinação que faz criança pensar que está comendo doce e adulto fingir que dieta funciona</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de queijo coalho em cubos</li>
+              <li>Mel a gosto</li>
+              <li>Orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espete os cubos de queijo nos palitos.</li>
+              <li>Grelhe em frigideira até dourar.</li>
+              <li>Regue com mel e polvilhe orégano antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que “queijo com mel é esquisito”, diga que boleto com juros também é, mas a gente paga.</div>
+    </article>
+
+    <article class="receita-card" id="crepioca-colorida-com-recheio-de-frango">
+      <h2 class="receita-titulo">Crepioca Colorida com Recheio de Frango</h2>
+      <p class="receita-desc">A tapioca moderninha que faz criança esquecer que tá comendo ovo (e adulto que tá na dieta)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca</li>
+              <li>ovo</li>
+              <li>Corante natural (beterraba, espinafre) opcional</li>
+              <li>g de frango desfiado temperado</li>
+              <li>Queijo ralado a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a goma, o ovo e o corante escolhido.</li>
+              <li>Aqueça a frigideira e despeje a mistura formando discos.</li>
+              <li>Cozinhe dos dois lados, recheie com frango e queijo, dobre e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança perguntar “por que a comida é colorida?”, diga que é pra animar, diferente das contas que só chegam cinzas.</div>
+    </article>
+
+    <article class="receita-card" id="nuggets-caseiros-de-frango-crocantes">
+      <h2 class="receita-titulo">Nuggets Caseiros de Frango Crocantes</h2>
+      <p class="receita-desc">Porque nuggets prontos são a desculpa perfeita para o delivery, mas a gente pode ser mais raiz</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peito de frango moído</li>
+              <li>ovo</li>
+              <li>/2 xícara de farinha de rosca</li>
+              <li>Sal e temperos a gosto</li>
+              <li>Farinha de trigo para empanar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o frango, ovo, farinha de rosca e temperos.</li>
+              <li>Modele os nuggets, passe na farinha de trigo e na farinha de rosca.</li>
+              <li>Asse a 200°C por 25 minutos, virando na metade do tempo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que “não tem sabor de fast food”, diga que boleto também não tem sabor, só dói no bolso.</div>
+    </article>
+
+    <article class="receita-card" id="mingau-de-aveia-com-frutas-e-mel">
+      <h2 class="receita-titulo">Mingau de Aveia com Frutas e Mel</h2>
+      <p class="receita-desc">O café da manhã que faz criança pensar que tá na casa da vovó, sem precisar de cólica</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>/2 xícara de aveia em flocos</li>
+              <li>xícara de leite</li>
+              <li>Mel a gosto</li>
+              <li>Frutas picadas para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a aveia no leite até engrossar.</li>
+              <li>Sirva em tigelas, decore com frutas e mel.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que mingau é “comida de doente”, diga que boletos também deixam a gente doente, mas não tem escapatória.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-divertido-de-pepino-e-cream-cheese">
+      <h2 class="receita-titulo">Sanduíche Divertido de Pepino e Cream Cheese</h2>
+      <p class="receita-desc">O lanche que faz criança pensar que tá comendo arte, não comida chata</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão de forma integral</li>
+              <li>g de cream cheese</li>
+              <li>pepino fatiado finamente</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe cream cheese nas fatias de pão.</li>
+              <li>Coloque as fatias de pepino formando desenhos ou rostinhos.</li>
+              <li>Feche o sanduíche e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que “não é lanche de verdade”, diga que adulto que paga boleto também acha que não é vida, mas é.</div>
+    </article>
+
+    <article class="receita-card" id="pizza-de-tapioca-com-queijo-e-presunto">
+      <h2 class="receita-titulo">Pizza de Tapioca com Queijo e Presunto</h2>
+      <p class="receita-desc">A pizza que não pesa no estômago nem no orçamento, ideal pra criança e adulto cansado</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca</li>
+              <li>g de queijo muçarela fatiado</li>
+              <li>g de presunto fatiado</li>
+              <li>Orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe a goma na frigideira formando disco.</li>
+              <li>Quando firmar, coloque queijo, presunto e orégano.</li>
+              <li>Dobre a tapioca ao meio e cozinhe até queijo derreter.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que “não é pizza de verdade”, diga que boleto também não é presente, mas ninguém devolve.</div>
+    </article>
+
+    <article class="receita-card" id="sorvete-caseiro-de-iogurte-com-morango">
+      <h2 class="receita-titulo">Sorvete Caseiro de Iogurte com Morango</h2>
+      <p class="receita-desc">A sobremesa gelada que faz criança esquecer que foi embora a mamãe da sorveteria</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min + congelamento</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>potes de iogurte natural</li>
+              <li>xícara de morangos picados</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador.</li>
+              <li>Coloque em potes e leve ao congelador por 4 horas.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que “não é sorvete de verdade”, diga que boleto também não é diversão, mas tá aí pra gente pagar.</div>
+    </article>
+
+    <article class="receita-card" id="crepe-doce-de-chocolate-e-morango">
+      <h2 class="receita-titulo">Crepe Doce de Chocolate e Morango</h2>
+      <p class="receita-desc">O jeito mais rápido de fazer criança esquecer que tem que dormir cedo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de trigo</li>
+              <li>ovo</li>
+              <li>xícara de leite</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>g de chocolate meio amargo derretido</li>
+              <li>Morangos fatiados</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, ovo, leite e açúcar até virar massa líquida.</li>
+              <li>Cozinhe finas camadas na frigideira até dourar.</li>
+              <li>Recheie com chocolate derretido e morangos, dobre e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que é “muito doce”, diga que boleto também é, mas não tem como adoçar.</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-de-chuva-integral-com-canela">
+      <h2 class="receita-titulo">Bolinho de Chuva Integral com Canela</h2>
+      <p class="receita-desc">Porque bolinho de chuva é felicidade que nem boleto atrasado estraga</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 10 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha integral</li>
+              <li>/2 xícara de açúcar mascavo</li>
+              <li>ovo</li>
+              <li>/2 xícara de leite</li>
+              <li>colher de chá de fermento</li>
+              <li>Canela em pó para polvilhar</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes até formar massa.</li>
+              <li>Frite colheradas em óleo quente até dourar.</li>
+              <li>Escorra e polvilhe canela.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que bolinho é “coisa de velho”, diga que adulto que paga boleto também reclama, mas não tem escapatória.</div>
+    </article>
+
+    <article class="receita-card" id="pizza-de-batata-doce-com-queijo-e-tomate">
+      <h2 class="receita-titulo">Pizza de Batata Doce com Queijo e Tomate</h2>
+      <p class="receita-desc">A pizza que faz criança pensar que tá comendo batata frita, mas é saúde na veia</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas doces médias raladas</li>
+              <li>g de queijo muçarela ralado</li>
+              <li>tomate fatiado</li>
+              <li>Orégano e sal a gosto</li>
+              <li>Azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Esprema a batata doce ralada para tirar líquido.</li>
+              <li>Misture com sal e espalhe em forma formando disco.</li>
+              <li>Asse a 200°C por 20 minutos.</li>
+              <li>Cubra com queijo, tomate e orégano e asse mais 10 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que pizza é diferente, diga que boleto também muda todo mês, e ninguém entende.</div>
+    </article>
+
+    <article class="receita-card" id="muffin-salgado-de-espinafre-e-queijo">
+      <h2 class="receita-titulo">Muffin Salgado de Espinafre e Queijo</h2>
+      <p class="receita-desc">O jeito mais fácil de fazer criança comer verdura e ainda pedir bis</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 17,00</span>
+          <span class="badge">👤 8 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de trigo</li>
+              <li>/2 xícara de leite</li>
+              <li>ovo</li>
+              <li>/2 xícara de espinafre cozido picado</li>
+              <li>g de queijo ralado</li>
+              <li>colher de chá de fermento</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, fermento, sal e pimenta.</li>
+              <li>Em outra tigela, bata ovo, leite, espinafre e queijo.</li>
+              <li>Junte as duas misturas e mexa.</li>
+              <li>Coloque nas forminhas e asse a 180°C por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que “verdura não é gostosa”, diga que boleto também não, mas a gente paga sorrindo (ou fingindo).</div>
+    </article>
+
+    <article class="receita-card" id="picole-de-frutas-natural">
+      <h2 class="receita-titulo">Picolé de Frutas Natural</h2>
+      <p class="receita-desc">A sobremesa gelada que não derrete rápido, diferente da paciência dos pais</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min + congelamento</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de frutas variadas picadas (melancia, morango, manga)</li>
+              <li>xícara de água ou suco natural</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata as frutas com água e mel no liquidificador.</li>
+              <li>Coloque nas forminhas e leve ao congelador por 4 horas.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que demora, diga que boleto também demora pra acabar, e ninguém reclama.</div>
+    </article>
+
+    <article class="receita-card" id="cuscuz-nordestino-colorido-para-criancada">
+      <h2 class="receita-titulo">Cuscuz Nordestino Colorido para Criançada</h2>
+      <p class="receita-desc">Porque comida regional também pode ser a estrela do lanche da molecada</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de flocão de milho</li>
+              <li>xícaras de água quente</li>
+              <li>/2 xícara de ervilhas</li>
+              <li>/2 cenoura ralada</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o flocão com sal e legumes.</li>
+              <li>Regue com água quente e misture.</li>
+              <li>Leve para cozinhar na cuscuzeira por 15 minutos.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que “parece areia”, diga que boleto que nem areia é: você pisa e não some nunca.</div>
+    </article>
+
+    <article class="receita-card" id="pastelzinho-assado-de-ricota-e-espinafre">
+      <h2 class="receita-titulo">Pastelzinho Assado de Ricota e Espinafre</h2>
+      <p class="receita-desc">O salgadinho saudável que faz criança esquecer que tá comendo verdura</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de massa para pastel pronta</li>
+              <li>g de ricota amassada</li>
+              <li>/2 xícara de espinafre cozido e picado</li>
+              <li>Sal e noz-moscada a gosto</li>
+              <li>gema para pincelar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture ricota, espinafre, sal e noz-moscada.</li>
+              <li>Corte a massa em círculos, recheie e feche como pastel.</li>
+              <li>Pincele gema e asse a 180°C por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que “pastel assado não é pastel”, diga que boleto assado no bolso também não é nada bom.</div>
+    </article>
+
+    <article class="receita-card" id="mousse-de-maracuja-natural">
+      <h2 class="receita-titulo">Mousse de Maracujá Natural</h2>
+      <p class="receita-desc">A sobremesa que faz criança pensar que tá na praia, sem sair da cozinha</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min + geladeira</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de leite condensado</li>
+              <li>lata de creme de leite</li>
+              <li>lata de suco de maracujá concentrado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador.</li>
+              <li>Coloque em taças e leve à geladeira por 2 horas.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que “é azedo”, diga que boleto também é, mas a gente paga sorrindo (ou quase).</div>
+    </article>
+
+    <article class="receita-card" id="wrap-de-banana-com-pasta-de-amendoim">
+      <h2 class="receita-titulo">Wrap de Banana com Pasta de Amendoim</h2>
+      <p class="receita-desc">O lanche que faz criança esquecer que pasta de amendoim é grude e adulto que paga boleto é grude no banco</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tortilhas de trigo</li>
+              <li>colheres de sopa de pasta de amendoim</li>
+              <li>banana fatiada</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe a pasta de amendoim nas tortilhas.</li>
+              <li>Coloque fatias de banana e enrole.</li>
+              <li>Corte ao meio e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que “é grudenta”, diga que boleto grudado no orçamento é o pior dos grudentos.</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-de-arroz-assado-com-queijo">
+      <h2 class="receita-titulo">Bolinho de Arroz Assado com Queijo</h2>
+      <p class="receita-desc">O jeito mais fácil de reaproveitar sobras e evitar que criança reclame de novo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de arroz cozido</li>
+              <li>/2 xícara de queijo ralado</li>
+              <li>ovo</li>
+              <li>Sal e temperos a gosto</li>
+              <li>Farinha de trigo para dar ponto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture arroz, queijo, ovo, sal e temperos.</li>
+              <li>Acrescente farinha até dar ponto para modelar bolinhos.</li>
+              <li>Coloque na assadeira untada e asse a 180°C por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que “é comida velha”, diga que boleto atrasado também é velho, mas a gente paga.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-legumes-grelhados-com-molho-especial">
+      <h2 class="receita-titulo">Espetinho de Legumes Grelhados com Molho Especial</h2>
+      <p class="receita-desc">A desculpa perfeita pra criança comer verdura sem perceber que tá fazendo bem</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>Abobrinha, cenoura, pimentão em cubos</li>
+              <li>Azeite, sal e ervas finas</li>
+              <li>Molho de iogurte com limão para acompanhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte os espetinhos com os legumes.</li>
+              <li>Tempere com azeite, sal e ervas.</li>
+              <li>Grelhe até dourar e sirva com molho.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que “tem muita verde”, diga que boleto também tem muita coisa verde (dinheiro que some).</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-aveia-com-mel-e-frutas">
+      <h2 class="receita-titulo">Panqueca de Aveia com Mel e Frutas</h2>
+      <p class="receita-desc">Porque panqueca saudável é quase um milagre na vida adulta e na infantil</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de aveia em flocos finos</li>
+              <li>ovo</li>
+              <li>/2 xícara de leite</li>
+              <li>Mel e frutas para servir</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture aveia, ovo e leite até formar massa.</li>
+              <li>Cozinhe na frigideira porções da massa até dourar.</li>
+              <li>Sirva com mel e frutas.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que panqueca é “sem graça”, diga que boleto também não é festa, mas faz parte.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-frutas-com-sorvete-de-iogurte">
+      <h2 class="receita-titulo">Salada de Frutas com Sorvete de Iogurte</h2>
+      <p class="receita-desc">O jeito mais doce e saudável de fazer criança pedir sobremesa sem drama</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>Frutas variadas picadas (banana, maçã, morango, kiwi)</li>
+              <li>Sorvete de iogurte natural</li>
+              <li>Mel para adoçar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture as frutas na tigela.</li>
+              <li>Sirva com uma bola de sorvete e um fio de mel.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que “sorvete de iogurte não é sorvete de verdade”, diga que boleto também não é diversão, mas tá aí firme.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-de-iogurte-com-frutas-vermelhas">
+      <h2 class="receita-titulo">Bolo de Iogurte com Frutas Vermelhas</h2>
+      <p class="receita-desc">O bolo que faz criança pensar que tá comendo festa, e adulto que tá no aperto pensar em férias</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 10 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pote de iogurte natural</li>
+              <li>ovos</li>
+              <li>xícaras de farinha de trigo</li>
+              <li>xícara de açúcar</li>
+              <li>/2 xícara de óleo</li>
+              <li>colher de sopa de fermento</li>
+              <li>xícara de frutas vermelhas</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture iogurte, ovos, açúcar e óleo.</li>
+              <li>Acrescente farinha e fermento, mexa até homogêneo.</li>
+              <li>Adicione frutas e despeje na forma.</li>
+              <li>Asse a 180°C por 40 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que bolo é “com muita fruta”, diga que boleto com muita taxa também não é legal, mas não tem escapatória.</div>
+    </article>
+
+    <article class="receita-card" id="pao-de-queijo-miniatura-para-pequenos-fominhas">
+      <h2 class="receita-titulo">Pão de Queijo Miniatura Para Pequenos Fominhas</h2>
+      <p class="receita-desc">Porque pão de queijo é o super-herói dos lanches infantis, salvando a fome e o humor</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 20 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de polvilho doce</li>
+              <li>ml de leite</li>
+              <li>ml de óleo</li>
+              <li>ovos</li>
+              <li>g de queijo minas ralado</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva leite, óleo e sal.</li>
+              <li>Despeje sobre o polvilho e misture até formar massa.</li>
+              <li>Acrescente ovos e queijo, misture bem.</li>
+              <li>Modele bolinhas e asse a 180°C por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se criança reclamar que “pão de queijo é pequeno”, diga que boleto também é pequeno, mas o susto é grande.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

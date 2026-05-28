@@ -1,0 +1,1734 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🕯️ Jantar Romântico — Receitas NaFome</title>
+  <meta name="description" content="43 receitas para quem está na situação "Jantar Romântico". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/jantar-romantico/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🕯️ Jantar Romântico — Receitas NaFome">
+  <meta property="og:description" content="43 receitas para quem está na situação "Jantar Romântico". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/jantar-romantico/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🕯️ Jantar Romântico — NaFome",
+    "description": "43 receitas para quem está na situação "Jantar Romântico". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/jantar-romantico/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=jantar-romantico" class="btn-sortear">🎲 Sortear receita de Jantar Romântico</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🕯️ Jantar Romântico</h1>
+    <p>43 receitas para quem está na situação "Jantar Romântico". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">43 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Jantar Romântico pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=jantar-romantico" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="risoto-cremoso-de-camarao-com-toque-de-limao-siciliano">
+      <h2 class="receita-titulo">Risoto Cremoso de Camarão com Toque de Limão Siciliano</h2>
+      <p class="receita-desc">Porque nada diz “eu te amo” como um arroz que não empapa seu coração (e sua alma)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 65,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de camarão limpo</li>
+              <li>xícara de arroz arbóreo</li>
+              <li>/2 cebola picada</li>
+              <li>dente de alho picado</li>
+              <li>/2 limão siciliano (raspas e suco)</li>
+              <li>/2 xícara de vinho branco seco</li>
+              <li>ml de caldo de legumes quente</li>
+              <li>colheres de sopa de manteiga</li>
+              <li>g de queijo parmesão ralado</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho na manteiga até ficarem transparentes.</li>
+              <li>Adicione o arroz e mexa por 2 minutos, junte o vinho e deixe evaporar.</li>
+              <li>Vá adicionando o caldo aos poucos, mexendo até o arroz ficar al dente.</li>
+              <li>Em frigideira, grelhe o camarão com sal, pimenta e raspas de limão.</li>
+              <li>Misture o camarão e o suco de limão ao risoto, finalize com parmesão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o risoto ficar grudento demais, não é ciúmes, é só a manteiga querendo roubar a cena – mais caldo e paciência que ele se acalma!</div>
+    </article>
+
+    <article class="receita-card" id="file-mignon-ao-molho-de-vinho-tinto-com-batatas-rusticas">
+      <h2 class="receita-titulo">Filé Mignon ao Molho de Vinho Tinto com Batatas Rústicas</h2>
+      <p class="receita-desc">Para impressionar sem virar chef, porque romantismo não é competição de MasterChef</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 80,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>medalhões de filé mignon (150 g cada)</li>
+              <li>batatas médias cortadas em gomos</li>
+              <li>xícara de vinho tinto seco</li>
+              <li>dentes de alho</li>
+              <li>Alecrim fresco a gosto</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Azeite de oliva</li>
+              <li>colher de sopa de manteiga</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere as batatas com sal, azeite, alho e alecrim, asse a 200ºC por 30 min.</li>
+              <li>Tempere os filés com sal e pimenta, sele na frigideira com manteiga até ponto desejado.</li>
+              <li>Retire os filés, junte o vinho na frigideira, reduza até formar molho espesso.</li>
+              <li>Sirva os filés com o molho por cima e as batatas ao lado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o molho não reduzir, não se desespere – assim como no amor, às vezes é melhor deixar ferver um pouco mais.</div>
+    </article>
+
+    <article class="receita-card" id="salada-caprese-com-pesto-de-manjericao-e-nozes">
+      <h2 class="receita-titulo">Salada Caprese com Pesto de Manjericão e Nozes</h2>
+      <p class="receita-desc">Porque às vezes o romance é só uma fatia de tomate com queijo e muita conversa fiada</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tomates maduros fatiados</li>
+              <li>g de mussarela de búfala fatiada</li>
+              <li>Folhas de manjericão fresco</li>
+              <li>g de nozes</li>
+              <li>ml de azeite de oliva</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>dente de alho pequeno</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>No liquidificador, bata manjericão, nozes, alho, azeite, sal e pimenta até formar pesto.</li>
+              <li>Em prato, intercale fatias de tomate e mussarela, distribua folhas de manjericão.</li>
+              <li>Regue com o pesto e sirva imediatamente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o pesto ficar muito forte, não é sua culpa, é o manjericão querendo ser protagonista do jantar – balance com mais azeite e calma.</div>
+    </article>
+
+    <article class="receita-card" id="massa-fresca-ao-molho-de-gorgonzola-e-nozes">
+      <h2 class="receita-titulo">Massa Fresca ao Molho de Gorgonzola e Nozes</h2>
+      <p class="receita-desc">Porque às vezes o queijo é tão intenso quanto aquela conversa sobre relacionamento sério</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de massa fresca tipo fettuccine</li>
+              <li>g de queijo gorgonzola</li>
+              <li>ml de creme de leite fresco</li>
+              <li>g de nozes picadas</li>
+              <li>colher de sopa de manteiga</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a massa em água salgada até ficar al dente e reserve.</li>
+              <li>Em frigideira, derreta manteiga, junte creme de leite e gorgonzola até formar molho cremoso.</li>
+              <li>Misture a massa ao molho, salpique as nozes, ajuste sal e pimenta e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Molho de gorgonzola é igual ex: aquele ex que você ama odiar – forte, marcante e impossível de esquecer.</div>
+    </article>
+
+    <article class="receita-card" id="espaguete-ao-molho-de-tomate-fresco-com-manjericao-e-pimenta-calabresa">
+      <h2 class="receita-titulo">Espaguete ao Molho de Tomate Fresco com Manjericão e Pimenta Calabresa</h2>
+      <p class="receita-desc">Porque até o amor mais tranquilo precisa de um pouco de pimenta pra esquentar</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de espaguete</li>
+              <li>tomates maduros picados</li>
+              <li>dentes de alho picados</li>
+              <li>Folhas de manjericão fresco</li>
+              <li>pitada de pimenta calabresa</li>
+              <li>Azeite de oliva</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o espaguete em água salgada até ficar al dente.</li>
+              <li>Refogue alho no azeite, adicione tomates e cozinhe até formar molho.</li>
+              <li>Tempere com sal, pimenta calabresa, junte manjericão e misture ao espaguete.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a pimenta ficar forte demais, não culpe a receita – às vezes a vida só quer dar um tempero extra no seu romance.</div>
+    </article>
+
+    <article class="receita-card" id="polvo-na-brasa-com-pure-de-mandioquinha-e-azeite-de-ervas">
+      <h2 class="receita-titulo">Polvo na Brasa com Purê de Mandioquinha e Azeite de Ervas</h2>
+      <p class="receita-desc">Porque até o polvo sabe que conquistar requer esforço e um toque especial</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 120,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de polvo limpo</li>
+              <li>g de mandioquinha</li>
+              <li>colheres de sopa de azeite de ervas (alecrim, tomilho)</li>
+              <li>Sal grosso e pimenta-do-reino a gosto</li>
+              <li>dente de alho</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o polvo em água fervente com alho até ficar macio (aprox. 40 min).</li>
+              <li>Cozinhe a mandioquinha, amasse e misture com azeite, sal e pimenta.</li>
+              <li>Grelhe o polvo até dourar, sirva com purê e regue com azeite de ervas.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Polvo na brasa é igual promessa de final de novela: demora, mas vale a espera e deixa todo mundo babando.</div>
+    </article>
+
+    <article class="receita-card" id="salmao-ao-molho-de-maracuja-e-gengibre-com-aspargos-salteados">
+      <h2 class="receita-titulo">Salmão ao Molho de Maracujá e Gengibre com Aspargos Salteados</h2>
+      <p class="receita-desc">Porque romantismo é misturar sabores exóticos sem perder a pose de chef</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 75,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>filés de salmão (150 g cada)</li>
+              <li>Polpa de 1 maracujá</li>
+              <li>pedaço pequeno de gengibre ralado</li>
+              <li>g de aspargos frescos</li>
+              <li>colher de sopa de manteiga</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o salmão com sal e pimenta, grelhe na manteiga até dourar.</li>
+              <li>Em outra panela, cozinhe rapidamente os aspargos no vapor e salteie com manteiga.</li>
+              <li>Misture maracujá e gengibre em panela pequena, aqueça até formar molho.</li>
+              <li>Sirva o salmão com molho por cima e os aspargos ao lado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Molho de maracujá com gengibre é como aquela paixão inesperada – azedinho com um toque picante que você não sabia que precisava.</div>
+    </article>
+
+    <article class="receita-card" id="bruschetta-de-figo-com-queijo-brie-e-mel">
+      <h2 class="receita-titulo">Bruschetta de Figo com Queijo Brie e Mel</h2>
+      <p class="receita-desc">Porque romanticamente falando, às vezes só precisamos de uma mordida pra derreter corações (e queijos)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão italiano</li>
+              <li>g de queijo brie</li>
+              <li>figos frescos fatiados</li>
+              <li>colheres de sopa de mel</li>
+              <li>Folhas de hortelã para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Toste as fatias de pão até ficarem crocantes.</li>
+              <li>Distribua fatias de queijo brie sobre o pão ainda quente para derreter levemente.</li>
+              <li>Coloque fatias de figo por cima, regue com mel e decore com hortelã.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o mel escorrer tudo, não se preocupe – assim como no amor, às vezes o excesso é parte do charme (e da bagunça).</div>
+    </article>
+
+    <article class="receita-card" id="creme-de-aspargos-com-crocante-de-parma">
+      <h2 class="receita-titulo">Creme de Aspargos com Crocante de Parma</h2>
+      <p class="receita-desc">Porque um creme bem feito é como um abraço quentinho no meio do frio do coração</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 45,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de aspargos limpos</li>
+              <li>batata média</li>
+              <li>/2 cebola picada</li>
+              <li>ml de caldo de legumes</li>
+              <li>g de presunto de parma</li>
+              <li>colher de sopa de creme de leite</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola, junte batata e aspargos, cubra com caldo e cozinhe até amaciar.</li>
+              <li>Bata tudo no mixer até virar creme, volte à panela, adicione creme de leite, ajuste tempero.</li>
+              <li>Frite o presunto de parma até ficar crocante e sirva por cima do creme.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Presunto crocante é tipo aquele crush que te surpreende – crocante por fora e suave por dentro.</div>
+    </article>
+
+    <article class="receita-card" id="medalhao-de-frango-recheado-com-espinafre-e-ricota-ao-molho-de-mostarda">
+      <h2 class="receita-titulo">Medalhão de Frango Recheado com Espinafre e Ricota ao Molho de Mostarda</h2>
+      <p class="receita-desc">Porque até o frango merece um date fancy antes de virar meme de jantar simples</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>filés grossos de peito de frango</li>
+              <li>g de ricota</li>
+              <li>maço pequeno de espinafre cozido e picado</li>
+              <li>colheres de sopa de mostarda Dijon</li>
+              <li>colher de sopa de mel</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Azeite para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Abra os filés em formato de “bolsa”, recheie com espinafre e ricota, feche com palitos.</li>
+              <li>Sele os medalhões na frigideira com azeite até dourar.</li>
+              <li>Misture mostarda e mel, pincele sobre os medalhões e leve ao forno a 180ºC por 15 min.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o frango fugir do recheio, não se culpe – até nos relacionamentos mais arrumadinhos tem fuga de informação.</div>
+    </article>
+
+    <article class="receita-card" id="camembert-assado-com-nozes-e-geleia-de-frutas-vermelhas">
+      <h2 class="receita-titulo">Camembert Assado com Nozes e Geleia de Frutas Vermelhas</h2>
+      <p class="receita-desc">Porque queijos derretidos são o equivalente culinário de “vamos conversar sobre nós”</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 50,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>queijo camembert inteiro (150 g)</li>
+              <li>colheres de sopa de geleia de frutas vermelhas</li>
+              <li>g de nozes picadas</li>
+              <li>Pão italiano para acompanhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Faça pequenos cortes no camembert, coloque geleia e nozes por cima.</li>
+              <li>Leve ao forno a 180ºC por 15 minutos até derreter.</li>
+              <li>Sirva quente com fatias de pão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Camembert derretido é igual conversa sincera: pode grudar, mas deixa tudo mais gostoso e verdadeiro.</div>
+    </article>
+
+    <article class="receita-card" id="ceviche-de-salmao-com-manga-e-coentro">
+      <h2 class="receita-titulo">Ceviche de Salmão com Manga e Coentro</h2>
+      <p class="receita-desc">Porque até o peixe cru sabe que romantismo também é frescor e ousadia</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 55,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de salmão fresco em cubos</li>
+              <li>manga pequena cortada em cubos</li>
+              <li>Suco de 2 limões</li>
+              <li>/2 cebola roxa picada</li>
+              <li>Coentro fresco a gosto</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o salmão com suco de limão, cebola, sal e pimenta e deixe marinar por 10 min.</li>
+              <li>Acrescente a manga e o coentro, misture delicadamente.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o limão te deixar com cara de quem acabou de levar fora, relaxa – é só o ácido do amor fazendo efeito.</div>
+    </article>
+
+    <article class="receita-card" id="polenta-cremosa-com-ragu-de-cogumelos">
+      <h2 class="receita-titulo">Polenta Cremosa com Ragu de Cogumelos</h2>
+      <p class="receita-desc">Porque às vezes a melhor forma de dizer “eu te amo” é com um prato que abraça por dentro</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de fubá</li>
+              <li>ml de água</li>
+              <li>g de cogumelos variados picados</li>
+              <li>dente de alho picado</li>
+              <li>/2 cebola picada</li>
+              <li>Azeite de oliva</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Queijo parmesão ralado (opcional)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o fubá na água fervente mexendo sempre até engrossar (aprox. 30 min).</li>
+              <li>Refogue alho, cebola e cogumelos no azeite até dourar, tempere.</li>
+              <li>Sirva a polenta cremosa com o ragu por cima e parmesão a gosto.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Polenta é tipo aquele amor antigo: simples, quentinho e que faz esquecer os boletos por um momento.</div>
+    </article>
+
+    <article class="receita-card" id="tartar-de-atum-com-abacate-e-limao">
+      <h2 class="receita-titulo">Tartar de Atum com Abacate e Limão</h2>
+      <p class="receita-desc">Porque às vezes o amor é cru, fresco e tem que ser bem temperado</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 70,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de atum fresco em cubos pequenos</li>
+              <li>abacate maduro cortado em cubos</li>
+              <li>Suco de 1 limão</li>
+              <li>colher de sopa de azeite</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Cebolinha picada a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture atum com suco de limão, azeite, sal, pimenta e cebolinha.</li>
+              <li>Acrescente o abacate e misture delicadamente.</li>
+              <li>Monte no prato com molde ou sirva solto.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o abacate derreter antes do date, não se desespere – às vezes é preciso aceitar que nem tudo dura para sempre, nem mesmo o guacamole.</div>
+    </article>
+
+    <article class="receita-card" id="creme-brulee-de-parmesao-com-tomilho">
+      <h2 class="receita-titulo">Creme Brulée de Parmesão com Tomilho</h2>
+      <p class="receita-desc">Porque sobremesa também pode ser salgado e te deixar com vontade de mais (de amor e comida)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de creme de leite fresco</li>
+              <li>gemas</li>
+              <li>g de queijo parmesão ralado</li>
+              <li>Tomilho fresco a gosto</li>
+              <li>Açúcar para caramelizar</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture creme de leite, gemas, parmesão, tomilho, sal e pimenta.</li>
+              <li>Coloque em forminhas e asse em banho-maria a 160ºC por 40 min.</li>
+              <li>Refrigere, polvilhe açúcar e queime com maçarico até formar crosta.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a crosta queimar, pense que é só o amor pegando fogo – mas cuidado pra não virar carvão.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-camarao-com-molho-de-manga-picante">
+      <h2 class="receita-titulo">Espetinho de Camarão com Molho de Manga Picante</h2>
+      <p class="receita-desc">Porque às vezes o romance é uma explosão de sabor e um pouco de fogo no olhar</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 55,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de camarão limpo</li>
+              <li>manga pequena picada</li>
+              <li>pimenta dedo-de-moça sem sementes picada</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Azeite para grelhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte os camarões nos espetos, tempere com sal e pimenta.</li>
+              <li>Grelhe os espetinhos até dourar, reserve.</li>
+              <li>Bata manga, pimenta e limão no liquidificador, tempere e sirva como molho.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o molho ficar muito apimentado, lembre-se: no amor, como na pimenta, um pouco de ardência só esquenta a relação.</div>
+    </article>
+
+    <article class="receita-card" id="lasanha-de-berinjela-com-ricota-e-molho-de-tomate-caseiro">
+      <h2 class="receita-titulo">Lasanha de Berinjela com Ricota e Molho de Tomate Caseiro</h2>
+      <p class="receita-desc">Porque às vezes o amor é vegetariano, mas não menos apaixonante</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>berinjela média fatiada no sentido do comprimento</li>
+              <li>g de ricota</li>
+              <li>ml de molho de tomate caseiro</li>
+              <li>dente de alho picado</li>
+              <li>Manjericão fresco a gosto</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Azeite para grelhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Grelhe as fatias de berinjela até dourar, reserve.</li>
+              <li>Refogue alho no azeite, adicione molho de tomate e manjericão, tempere.</li>
+              <li>Em assadeira, monte camadas de berinjela, ricota e molho, leve ao forno a 180ºC por 30 min.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a berinjela ficar amarga, não culpe o romance – às vezes a vida só quer te lembrar que nada é perfeito, nem o jantar nem o crush.</div>
+    </article>
+
+    <article class="receita-card" id="conchiglione-recheado-com-ricota-e-espinafre-ao-molho-branco">
+      <h2 class="receita-titulo">Conchiglione Recheado com Ricota e Espinafre ao Molho Branco</h2>
+      <p class="receita-desc">Porque rechear coisas é a metáfora perfeita para um relacionamento bem alimentado</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>conchigliones (massa grande para rechear)</li>
+              <li>g de ricota</li>
+              <li>maço pequeno de espinafre cozido e picado</li>
+              <li>ml de molho branco (béchamel)</li>
+              <li>g de queijo parmesão ralado</li>
+              <li>Sal, noz-moscada e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a massa até ficar al dente, escorra e reserve.</li>
+              <li>Misture ricota com espinafre, tempere e recheie os conchigliones.</li>
+              <li>Disponha na assadeira, cubra com molho branco, parmesão e asse a 180ºC por 20 min.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a massa rasgar, pense que até no amor tem lugar pra falhas e remendos – e ainda assim fica delicioso.</div>
+    </article>
+
+    <article class="receita-card" id="peito-de-pato-ao-molho-de-laranja-com-pure-de-batata-doce">
+      <h2 class="receita-titulo">Peito de Pato ao Molho de Laranja com Purê de Batata Doce</h2>
+      <p class="receita-desc">Porque às vezes a vida adulta pede um prato que vale mais que o boleto do mês</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 95,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>peitos de pato</li>
+              <li>Suco e raspas de 1 laranja</li>
+              <li>g de batata doce</li>
+              <li>colher de sopa de manteiga</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Faça cortes na pele do pato, tempere e grelhe com a pele para baixo até dourar.</li>
+              <li>Cozinhe a batata doce, amasse com manteiga e sal.</li>
+              <li>Na frigideira, adicione suco, raspas de laranja e mel, reduza até virar molho.</li>
+              <li>Sirva o pato com molho por cima e purê ao lado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o pato insistir em soltar gordura, lembre-se: às vezes o amor também é uma questão de deixar escorrer o que não vale a pena.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-figos-presunto-cru-e-rucula-com-vinagrete-de-mel">
+      <h2 class="receita-titulo">Salada de Figos, Presunto Cru e Rúcula com Vinagrete de Mel</h2>
+      <p class="receita-desc">Porque combinar doce, salgado e amargo é o resumo do namoro perfeito</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 38,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>figos frescos cortados em quartos</li>
+              <li>g de presunto cru fatiado</li>
+              <li>xícaras de rúcula</li>
+              <li>colheres de sopa de azeite</li>
+              <li>colher de sopa de mel</li>
+              <li>colher de sopa de vinagre balsâmico</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture azeite, mel, vinagre, sal e pimenta para fazer o vinagrete.</li>
+              <li>Em tigela, junte rúcula, figos e presunto, regue com vinagrete e misture.</li>
+              <li>Sirva imediatamente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o presunto ficar rebelde na salada, lembre que até na vida a gente tem que saber dosar o tempero pra não azedar tudo.</div>
+    </article>
+
+    <article class="receita-card" id="penne-ao-molho-de-gorgonzola-com-pera-e-nozes">
+      <h2 class="receita-titulo">Penne ao Molho de Gorgonzola com Pera e Nozes</h2>
+      <p class="receita-desc">Porque combinar doce e salgado é a fórmula mágica pra não errar no coração nem no prato</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 45,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de penne</li>
+              <li>g de queijo gorgonzola esmigalhado</li>
+              <li>pera madura cortada em cubos</li>
+              <li>g de nozes picadas</li>
+              <li>ml de creme de leite fresco</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o penne em água salgada até al dente.</li>
+              <li>Em frigideira, aqueça creme de leite, adicione gorgonzola para derreter.</li>
+              <li>Misture massa, pera e nozes ao molho, ajuste temperos e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a pera amassar, não se preocupe – às vezes no amor, o excesso de doçura só faz a gente querer ainda mais.</div>
+    </article>
+
+    <article class="receita-card" id="camarao-empanado-com-molho-de-iogurte-e-hortela">
+      <h2 class="receita-titulo">Camarão Empanado com Molho de Iogurte e Hortelã</h2>
+      <p class="receita-desc">Porque crocância é o segredo para conquistar corações e paladares</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 50,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de camarão limpo</li>
+              <li>/2 xícara de farinha de rosca</li>
+              <li>ovo batido</li>
+              <li>g de iogurte natural</li>
+              <li>Folhas de hortelã picadas</li>
+              <li>Suco de 1/2 limão</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere camarão com sal e pimenta, passe no ovo e na farinha de rosca.</li>
+              <li>Frite em óleo quente até dourar, reserve em papel absorvente.</li>
+              <li>Misture iogurte, hortelã e limão para molho, sirva com camarão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o camarão empanado não ficar crocante, não se culpe – até no amor a gente nem sempre acerta o ponto.</div>
+    </article>
+
+    <article class="receita-card" id="canelone-de-abobora-com-queijo-de-cabra-e-nozes">
+      <h2 class="receita-titulo">Canelone de Abóbora com Queijo de Cabra e Nozes</h2>
+      <p class="receita-desc">Porque reinventar a abóbora é tão necessário quanto fugir do grupo da família no WhatsApp</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 55 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>folhas de massa para canelone</li>
+              <li>g de abóbora cozida e amassada</li>
+              <li>g de queijo de cabra</li>
+              <li>g de nozes picadas</li>
+              <li>ml de molho branco</li>
+              <li>Sal, pimenta e noz-moscada a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture abóbora, queijo de cabra, nozes e temperos.</li>
+              <li>Recheie as folhas de massa, enrole e coloque na assadeira.</li>
+              <li>Cubra com molho branco e asse a 180ºC por 25 min.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a massa abrir, não se desespere – até nas histórias mais enroladas tem espaço pra recomeço.</div>
+    </article>
+
+    <article class="receita-card" id="sopa-fria-de-pepino-com-iogurte-e-hortela">
+      <h2 class="receita-titulo">Sopa Fria de Pepino com Iogurte e Hortelã</h2>
+      <p class="receita-desc">Porque refrescar o romance é tão importante quanto pagar as contas em dia</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pepinos grandes descascados e picados</li>
+              <li>g de iogurte natural</li>
+              <li>Folhas de hortelã a gosto</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata pepino, iogurte, hortelã, limão, sal e pimenta no liquidificador até ficar cremoso.</li>
+              <li>Refrigere por 1 hora antes de servir gelado.</li>
+              <li>Decore com folhas de hortelã.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a sopa ficar verde demais, não se preocupe – é só o sinal que seu jantar tá mais fresco que seu ex.</div>
+    </article>
+
+    <article class="receita-card" id="fettuccine-ao-molho-de-trufas-e-cogumelos-selvagens">
+      <h2 class="receita-titulo">Fettuccine ao Molho de Trufas e Cogumelos Selvagens</h2>
+      <p class="receita-desc">Porque um pouco de luxo no prato faz o amor parecer menos boleto e mais champagne</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 85,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de fettuccine fresco</li>
+              <li>g de cogumelos selvagens</li>
+              <li>ml de óleo ou manteiga de trufas</li>
+              <li>dente de alho picado</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Queijo parmesão ralado para finalizar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o fettuccine até al dente.</li>
+              <li>Refogue alho e cogumelos na manteiga de trufas até dourar.</li>
+              <li>Misture a massa ao molho, ajuste temperos e sirva com parmesão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o cheiro de trufas dominar a cozinha, não culpe o jantar – é só o perfume do amor sofisticado tentando invadir seu espaço.</div>
+    </article>
+
+    <article class="receita-card" id="cordeiro-assado-com-alecrim-e-pure-de-mandioquinha">
+      <h2 class="receita-titulo">Cordeiro Assado com Alecrim e Purê de Mandioquinha</h2>
+      <p class="receita-desc">Porque romantismo às vezes vem em forma de carne que derrete na boca e boleto que não acaba nunca</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 70 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 110,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de pernil de cordeiro</li>
+              <li>ramos de alecrim fresco</li>
+              <li>g de mandioquinha</li>
+              <li>colheres de sopa de manteiga</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o cordeiro com sal, pimenta e alecrim, asse a 180ºC por 1 hora.</li>
+              <li>Cozinhe a mandioquinha, amasse com manteiga, sal e pimenta.</li>
+              <li>Sirva o cordeiro fatiado com purê.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o cordeiro ficar duro, não é o amor que falhou – talvez só o forno que não colaborou, igual ex que some sem avisar.</div>
+    </article>
+
+    <article class="receita-card" id="gnocchi-de-batata-com-molho-de-manteiga-e-salvia">
+      <h2 class="receita-titulo">Gnocchi de Batata com Molho de Manteiga e Sálvia</h2>
+      <p class="receita-desc">Porque às vezes o segredo da felicidade é simples, macio e com cheiro de manteiga</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de batatas</li>
+              <li>g de farinha de trigo</li>
+              <li>gema</li>
+              <li>g de manteiga</li>
+              <li>Folhas de sálvia fresca</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe as batatas, amasse e misture com farinha e gema até formar massa.</li>
+              <li>Modele os gnocchis e cozinhe em água fervente até subirem.</li>
+              <li>Derreta manteiga com sálvia, misture gnocchis e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a massa grudar, não se culpe – até o amor às vezes precisa de mais farinha pra dar certo.</div>
+    </article>
+
+    <article class="receita-card" id="tarte-tatin-de-cebola-roxa-e-queijo-de-cabra">
+      <h2 class="receita-titulo">Tarte Tatin de Cebola Roxa e Queijo de Cabra</h2>
+      <p class="receita-desc">Porque até as cebolas choram quando o amor é de verdade (e saboroso)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>cebolas roxas fatiadas</li>
+              <li>g de queijo de cabra</li>
+              <li>disco de massa folhada</li>
+              <li>colheres de sopa de açúcar mascavo</li>
+              <li>colheres de sopa de manteiga</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Caramelize as cebolas com manteiga e açúcar até ficarem macias.</li>
+              <li>Cubra as cebolas com o queijo e a massa folhada, leve ao forno a 200ºC por 25 min.</li>
+              <li>Desenforme quente e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a massa grudou, pense que até no amor às vezes a gente precisa de um empurrãozinho pra se soltar.</div>
+    </article>
+
+    <article class="receita-card" id="risoto-de-aspargos-com-limao-e-queijo-pecorino">
+      <h2 class="receita-titulo">Risoto de Aspargos com Limão e Queijo Pecorino</h2>
+      <p class="receita-desc">Porque em jantares românticos, arroz não é básico, é obra de arte com limão na ponta do lápis</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 45,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de arroz arbóreo</li>
+              <li>g de aspargos picados</li>
+              <li>/2 cebola picada</li>
+              <li>/2 limão (raspas e suco)</li>
+              <li>g de queijo pecorino ralado</li>
+              <li>ml de caldo de legumes quente</li>
+              <li>colheres de sopa de manteiga</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola na manteiga, junte arroz e toste por 2 min.</li>
+              <li>Vá adicionando caldo aos poucos, mexendo até o arroz ficar cremoso.</li>
+              <li>No meio do cozimento, acrescente os aspargos, raspas e suco de limão.</li>
+              <li>Finalize com queijo e ajuste temperos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o risoto grudar, não é seu amor grudento, é só o arroz querendo atenção – mais caldo e mexa com jeitinho.</div>
+    </article>
+
+    <article class="receita-card" id="polenta-grelhada-com-ragu-de-cordeiro-e-hortela">
+      <h2 class="receita-titulo">Polenta Grelhada com Ragu de Cordeiro e Hortelã</h2>
+      <p class="receita-desc">Porque o amor queima, mas deixa um gostinho inesquecível na boca</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 90,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de fubá</li>
+              <li>ml de água</li>
+              <li>g de carne de cordeiro moída</li>
+              <li>/2 cebola picada</li>
+              <li>Hortelã fresca picada a gosto</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Azeite para cozinhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o fubá até virar polenta cremosa, espalhe em forma e deixe firmar.</li>
+              <li>Em frigideira, refogue cebola e cordeiro, tempere e acrescente hortelã.</li>
+              <li>Corte a polenta em fatias, grelhe até dourar e sirva com ragu por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a polenta grudar na grelha, pense que até no amor a gente às vezes precisa de um empurrãozinho pra soltar.</div>
+    </article>
+
+    <article class="receita-card" id="cordeiro-ao-molho-de-romero-com-ratatouille-provencal">
+      <h2 class="receita-titulo">Cordeiro ao Molho de Romero com Ratatouille Provençal</h2>
+      <p class="receita-desc">Porque romantismo é sinônimo de cheiro de alecrim e hortaliças na brasa</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 65 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 115,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de pernil de cordeiro</li>
+              <li>berinjela pequena</li>
+              <li>abobrinha pequena</li>
+              <li>pimentão vermelho</li>
+              <li>tomates maduros</li>
+              <li>ramos de alecrim fresco</li>
+              <li>Azeite, sal e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o cordeiro com alecrim, sal e pimenta, asse a 180ºC por 1 hora.</li>
+              <li>Corte os legumes em cubos, refogue em azeite até dourar, tempere.</li>
+              <li>Sirva o cordeiro fatiado com o ratatouille ao lado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o cordeiro demorar a assar, tenha paciência – assim como no amor, as coisas boas levam tempo e às vezes dá vontade de pedir pizza.</div>
+    </article>
+
+    <article class="receita-card" id="mousse-de-chocolate-amargo-com-frutas-vermelhas">
+      <h2 class="receita-titulo">Mousse de Chocolate Amargo com Frutas Vermelhas</h2>
+      <p class="receita-desc">Porque o final feliz sempre tem chocolate e um pouco de drama na medida certa</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min (+ refrigeração)</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de chocolate amargo</li>
+              <li>ovos (claras e gemas separadas)</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>ml de creme de leite fresco</li>
+              <li>Frutas vermelhas para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta o chocolate em banho-maria e misture as gemas.</li>
+              <li>Bata as claras em neve com açúcar até firmar.</li>
+              <li>Bata o creme de leite até formar picos suaves.</li>
+              <li>Misture delicadamente chocolate, claras e creme de leite.</li>
+              <li>Leve à geladeira por 2 horas e sirva com frutas.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a mousse não firmar, não se culpe – até no amor às vezes a gente fica meio mole demais.</div>
+    </article>
+
+    <article class="receita-card" id="camarao-ao-alho-e-oleo-com-espaguete-de-abobrinha">
+      <h2 class="receita-titulo">Camarão ao Alho e Óleo com Espaguete de Abobrinha</h2>
+      <p class="receita-desc">Porque romantismo é praticar dieta low-carb sem perder o sabor (nem a conversa)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 50,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de camarão limpo</li>
+              <li>abobrinhas médias em espaguete</li>
+              <li>dentes de alho fatiados</li>
+              <li>Azeite de oliva</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Salsinha picada para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue alho no azeite até dourar, junte camarões e tempere.</li>
+              <li>Acrescente o espaguete de abobrinha e cozinhe por 3 minutos.</li>
+              <li>Ajuste sal e pimenta, decore com salsinha e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a abobrinha soltar muita água, não reclame – é só a natureza lembrando que nem tudo no amor é seco e certinho.</div>
+    </article>
+
+    <article class="receita-card" id="tartelette-de-cogumelos-com-queijo-brie-e-tomilho">
+      <h2 class="receita-titulo">Tartelette de Cogumelos com Queijo Brie e Tomilho</h2>
+      <p class="receita-desc">Porque as pequenas coisas são as que fazem o coração bater mais forte (e a barriga feliz)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>Massa folhada para tartelette</li>
+              <li>g de cogumelos variados fatiados</li>
+              <li>g de queijo brie</li>
+              <li>Tomilho fresco a gosto</li>
+              <li>dente de alho picado</li>
+              <li>Azeite, sal e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue alho e cogumelos no azeite até dourar, tempere.</li>
+              <li>Forre as forminhas com massa, recheie com cogumelos e pedaços de brie.</li>
+              <li>Salpique tomilho e asse a 180ºC por 25 min.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o queijo escapar da massa, pense que até no amor a gente precisa saber soltar (mas não muito).</div>
+    </article>
+
+    <article class="receita-card" id="peixe-ao-molho-de-alcaparras-com-pure-de-ervilha">
+      <h2 class="receita-titulo">Peixe ao Molho de Alcaparras com Purê de Ervilha</h2>
+      <p class="receita-desc">Porque a vida é curta demais para peixe sem graça e conversa sem tempero</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 60,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>filés de peixe branco (150 g cada)</li>
+              <li>colheres de sopa de alcaparras</li>
+              <li>g de ervilhas congeladas</li>
+              <li>colher de sopa de manteiga</li>
+              <li>Suco de 1/2 limão</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe ervilhas, bata no liquidificador com manteiga, sal e pimenta até purê.</li>
+              <li>Grelhe os filés temperados com sal e pimenta.</li>
+              <li>Em frigideira, aqueça alcaparras com suco de limão, despeje sobre o peixe.</li>
+              <li>Sirva com purê.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se as alcaparras ficarem salgadas demais, não reclame – até o amor tem seus dias salgados, mas é isso que dá sabor.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-caprese-com-reducao-de-balsamico">
+      <h2 class="receita-titulo">Espetinho Caprese com Redução de Balsâmico</h2>
+      <p class="receita-desc">Porque até em espetinho dá pra ser chique e declarar amor com estilo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>Tomates cereja</li>
+              <li>Bolinhas de mussarela de búfala</li>
+              <li>Folhas de manjericão</li>
+              <li>ml de vinagre balsâmico</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte espetinhos alternando tomate, mussarela e manjericão.</li>
+              <li>Reduza vinagre balsâmico em panela até ficar xarope.</li>
+              <li>Tempere espetinhos com sal, pimenta e regue com redução.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a redução ficar muito doce, lembre que até no amor o excesso de açúcar cansa a gente.</div>
+    </article>
+
+    <article class="receita-card" id="frango-ao-curry-com-leite-de-coco-e-arroz-jasmine">
+      <h2 class="receita-titulo">Frango ao Curry com Leite de Coco e Arroz Jasmine</h2>
+      <p class="receita-desc">Porque romantismo também pode ser uma viagem de sabores que não cabe no Google Maps</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>peitos de frango em cubos</li>
+              <li>cebola picada</li>
+              <li>colher de sopa de curry em pó</li>
+              <li>ml de leite de coco</li>
+              <li>xícara de arroz jasmine</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Azeite para cozinhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o arroz conforme instruções da embalagem.</li>
+              <li>Refogue cebola no azeite, adicione frango e curry, cozinhe até dourar.</li>
+              <li>Junte leite de coco, tempere, deixe reduzir até molho encorpar.</li>
+              <li>Sirva o curry com arroz.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o curry ficar forte demais, não se desespere – às vezes o amor também arde, só que a gente gosta.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-cordeiro-com-molho-de-iogurte-e-hortela">
+      <h2 class="receita-titulo">Espetinho de Cordeiro com Molho de Iogurte e Hortelã</h2>
+      <p class="receita-desc">Porque até o cordeiro sabe que conquistar é questão de charme e um bom molho</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 85,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de carne de cordeiro em cubos</li>
+              <li>g de iogurte natural</li>
+              <li>Folhas de hortelã picadas</li>
+              <li>Suco de 1/2 limão</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Azeite para grelhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere cordeiro com sal e pimenta, monte espetinhos.</li>
+              <li>Grelhe até dourar por todos os lados.</li>
+              <li>Misture iogurte, hortelã e limão para molho e sirva junto.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o cordeiro ficar duro, não se culpe – às vezes o amor precisa de mais tempo de fogo (ou conversa).</div>
+    </article>
+
+    <article class="receita-card" id="fondue-de-queijo-com-paes-artesanais-e-frutas-secas">
+      <h2 class="receita-titulo">Fondue de Queijo com Pães Artesanais e Frutas Secas</h2>
+      <p class="receita-desc">Porque ninguém resiste a um mergulho no queijo para esquecer os boletos por um tempo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 60,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de queijo gruyère ralado</li>
+              <li>g de queijo emmental ralado</li>
+              <li>ml de vinho branco seco</li>
+              <li>dente de alho</li>
+              <li>Pães artesanais variados cortados em cubos</li>
+              <li>Frutas secas para acompanhar</li>
+              <li>Sal, noz-moscada e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Esfregue alho na panela, aqueça vinho e adicione queijos aos poucos, mexendo até derreter.</li>
+              <li>Tempere com sal, noz-moscada e pimenta.</li>
+              <li>Sirva com pães e frutas para mergulhar no queijo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o queijo empelotar, não se desespere – até o amor às vezes precisa de um pouco mais de mexida pra ficar lisinho.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-rucula-com-pera-parmesao-e-nozes-caramelizadas">
+      <h2 class="receita-titulo">Salada de Rúcula com Pêra, Parmesão e Nozes Caramelizadas</h2>
+      <p class="receita-desc">Porque equilibrar sabores é a arte de não deixar o crush mentir sobre “sou simples”</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de rúcula</li>
+              <li>pêra fatiada</li>
+              <li>g de queijo parmesão em lascas</li>
+              <li>g de nozes</li>
+              <li>colher de sopa de açúcar</li>
+              <li>Azeite, vinagre balsâmico, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Caramelize as nozes com açúcar em frigideira, reserve.</li>
+              <li>Misture rúcula, pêra e parmesão, tempere com azeite, vinagre, sal e pimenta.</li>
+              <li>Salpique nozes caramelizadas e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se as nozes grudarem, relaxa – às vezes no amor a gente também fica grudado mesmo sem querer.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-beterraba-queijo-de-cabra-e-nozes-com-vinagrete-de-mel">
+      <h2 class="receita-titulo">Salada de Beterraba, Queijo de Cabra e Nozes com Vinagrete de Mel</h2>
+      <p class="receita-desc">Porque cor de beterraba é igual coração apaixonado: chama atenção e não passa despercebido</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>beterrabas médias cozidas e fatiadas</li>
+              <li>g de queijo de cabra esfarelado</li>
+              <li>g de nozes picadas</li>
+              <li>colheres de sopa de azeite</li>
+              <li>colher de sopa de vinagre de maçã</li>
+              <li>colher de chá de mel</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture azeite, vinagre, mel, sal e pimenta para vinagrete.</li>
+              <li>Combine beterraba, queijo e nozes, regue com vinagrete e misture.</li>
+              <li>Sirva fresca.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a beterraba manchar tudo, pense que é só a cor do amor deixando sua marca – e o pano de prato está aí pra isso.</div>
+    </article>
+
+    <article class="receita-card" id="camarao-na-moranga-com-requeijao-cremoso">
+      <h2 class="receita-titulo">Camarão na Moranga com Requeijão Cremoso</h2>
+      <p class="receita-desc">Porque romantismo é servir um abóbora recheada que vale mais que muitas palavras</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 90,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>moranga média</li>
+              <li>g de camarão limpo</li>
+              <li>g de requeijão cremoso</li>
+              <li>cebola pequena picada</li>
+              <li>dentes de alho picados</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+              <li>Azeite para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Asse a moranga inteira até ficar macia (aprox. 40 min).</li>
+              <li>Refogue cebola e alho, junte camarão, tempere e cozinhe rápido.</li>
+              <li>Misture requeijão ao camarão, recheie a moranga e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a moranga abrir antes da hora, não se culpe – às vezes o amor não espera e a gente tem que se adaptar.</div>
+    </article>
+
+    <article class="receita-card" id="mousse-de-maracuja-com-chocolate-branco">
+      <h2 class="receita-titulo">Mousse de Maracujá com Chocolate Branco</h2>
+      <p class="receita-desc">Porque azedinho e doce é a combinação perfeita para aquele amor com gostinho de quero mais</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min (+ refrigeração)</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de suco de maracujá concentrado</li>
+              <li>g de chocolate branco derretido</li>
+              <li>claras em neve</li>
+              <li>colheres de sopa de açúcar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata as claras com açúcar até ponto de neve.</li>
+              <li>Misture suco de maracujá e chocolate branco derretido delicadamente às claras.</li>
+              <li>Leve à geladeira por 2 horas e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a mousse não firmar, não se culpe – às vezes o amor também é meio mole e a gente gosta assim mesmo.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

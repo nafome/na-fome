@@ -1,0 +1,1559 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>💨 Na Air Fryer — Receitas NaFome</title>
+  <meta name="description" content="40 receitas para quem está na situação "Na Air Fryer". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/na-air-fryer/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="💨 Na Air Fryer — Receitas NaFome">
+  <meta property="og:description" content="40 receitas para quem está na situação "Na Air Fryer". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/na-air-fryer/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "💨 Na Air Fryer — NaFome",
+    "description": "40 receitas para quem está na situação "Na Air Fryer". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/na-air-fryer/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=na-air-fryer" class="btn-sortear">🎲 Sortear receita de Na Air Fryer</a>
+  </nav>
+
+  <div class="hero">
+    <h1>💨 Na Air Fryer</h1>
+    <p>40 receitas para quem está na situação "Na Air Fryer". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">40 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Na Air Fryer pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=na-air-fryer" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="coxinha-fit-de-frango-na-air-fryer">
+      <h2 class="receita-titulo">Coxinha Fit de Frango na Air Fryer</h2>
+      <p class="receita-desc">Porque até quem tá na dieta merece fingir que tá em festa de aniversário.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g peito de frango desfiado</li>
+              <li>xícara de farinha de aveia</li>
+              <li>/2 xícara de caldo de frango natural</li>
+              <li>cebola pequena picada</li>
+              <li>dente de alho picado</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>colher de sopa de azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola e o alho no azeite na panela, junte o frango desfiado, tempere e misture.</li>
+              <li>Acrescente o caldo de frango e aos poucos a farinha de aveia até formar uma massa moldável.</li>
+              <li>Modele as coxinhas, coloque na cesta da Air Fryer e asse a 200°C por 15 minutos, virando na metade do tempo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a sua vida tá mais seca que essa massa, pelo menos a coxinha fica molhadinha — equilíbrio é tudo, até na dieta!</div>
+    </article>
+
+    <article class="receita-card" id="batata-rustica-crocante-na-air-fryer">
+      <h2 class="receita-titulo">Batata Rústica Crocante na Air Fryer</h2>
+      <p class="receita-desc">A batata que faz você esquecer que boletos não têm desconto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,50</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas médias com casca</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal grosso a gosto</li>
+              <li>Alecrim fresco a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave e corte as batatas em palitos grossos, mantendo a casca.</li>
+              <li>Misture as batatas com azeite, sal e alecrim.</li>
+              <li>Coloque na Air Fryer a 200°C por 20 minutos, mexendo na metade do tempo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Essas batatas são tão crocantes que até sua sogra vai pedir a receita, e olha que ela nem gosta de você!</div>
+    </article>
+
+    <article class="receita-card" id="nuggets-de-frango-caseiros-na-air-fryer">
+      <h2 class="receita-titulo">Nuggets de Frango Caseiros na Air Fryer</h2>
+      <p class="receita-desc">Para adultos que se recusam a crescer, mas querem fingir que comem saudável.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peito de frango moído</li>
+              <li>ovo</li>
+              <li>/2 xícara de farinha de rosca integral</li>
+              <li>Sal, pimenta e páprica a gosto</li>
+              <li>colher de chá de alho em pó</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o frango moído com os temperos e o ovo até formar uma massa homogênea.</li>
+              <li>Modele os nuggets, passe na farinha de rosca e disponha na Air Fryer.</li>
+              <li>Asse a 200°C por 15 minutos, virando para dourar ambos os lados.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Feito na Air Fryer, esses nuggets são mais light que sua desculpa para não ir à academia.</div>
+    </article>
+
+    <article class="receita-card" id="chips-de-batata-doce-na-air-fryer">
+      <h2 class="receita-titulo">Chips de Batata-Doce na Air Fryer</h2>
+      <p class="receita-desc">O petisco que te faz pensar que doce pode ser saudável (mentira, mas deixa quieto).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas-doces médias</li>
+              <li>colher de sopa de azeite</li>
+              <li>Sal a gosto</li>
+              <li>Canela em pó opcional</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Fatie a batata-doce em lâminas finas com o mandoline ou faca.</li>
+              <li>Pincele com azeite, tempere com sal e canela se quiser arriscar.</li>
+              <li>Leve à Air Fryer a 180°C por 15 minutos, mexendo na metade do tempo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Chips que até a balança vai achar bonitinho, mas não se iluda, a conta de luz não perdoa!</div>
+    </article>
+
+    <article class="receita-card" id="salmao-grelhado-com-ervas-na-air-fryer">
+      <h2 class="receita-titulo">Salmão Grelhado com Ervas na Air Fryer</h2>
+      <p class="receita-desc">Jantar romântico que não te faz lavar dezenas de panelas depois.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 38,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>filés de salmão (150g cada)</li>
+              <li>Suco de 1 limão</li>
+              <li>colher de chá de ervas finas</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>colher de sopa de azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere os filés com sal, pimenta, limão e ervas.</li>
+              <li>Pincele com azeite e coloque na cesta da Air Fryer forrada com papel alumínio.</li>
+              <li>Asse a 200°C por 12 minutos, até ficar dourado e suculento.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o crush não gostar, pelo menos você vai ter um jantar digno de postar no Instagram — #SóPraProvocar.</div>
+    </article>
+
+    <article class="receita-card" id="omelete-de-forno-na-air-fryer">
+      <h2 class="receita-titulo">Omelete de Forno na Air Fryer</h2>
+      <p class="receita-desc">Café da manhã para quem acorda 5 minutos antes do trabalho e chama isso de “planejamento”.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>colheres de sopa de leite</li>
+              <li>/4 xícara de queijo ralado</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>/4 xícara de tomate picado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com leite, sal e pimenta na tigela.</li>
+              <li>Adicione o queijo e o tomate, misture e coloque na forma.</li>
+              <li>Leve à Air Fryer a 180°C por 12 minutos ou até firmar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Omelete que você faz enquanto pensa que ainda dá tempo de dormir mais 5 minutos… Spoiler: não dá.</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-de-arroz-na-air-fryer">
+      <h2 class="receita-titulo">Bolinho de Arroz na Air Fryer</h2>
+      <p class="receita-desc">Aproveitando sobras porque adulto sabe que desperdício não cabe no orçamento nem no coração.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de arroz cozido</li>
+              <li>ovo</li>
+              <li>/2 xícara de queijo ralado</li>
+              <li>colheres de sopa de farinha de trigo</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes até formar uma massa consistente.</li>
+              <li>Modele bolinhos com a colher e coloque na cesta da Air Fryer.</li>
+              <li>Asse a 200°C por 15 minutos, virando na metade.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bolinho de arroz: a prova de que a vida adulta é reciclar até a comida!</div>
+    </article>
+
+    <article class="receita-card" id="frango-empanado-crocante-na-air-fryer">
+      <h2 class="receita-titulo">Frango Empanado Crocante na Air Fryer</h2>
+      <p class="receita-desc">Pra fingir que tá comendo aquela fritura da lanchonete, mas sem a culpa e o trânsito.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de filé de frango em tiras</li>
+              <li>xícara de farinha de rosca</li>
+              <li>ovos batidos</li>
+              <li>Sal, pimenta e páprica a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o frango e passe nos ovos batidos.</li>
+              <li>Empane na farinha de rosca temperada.</li>
+              <li>Coloque na Air Fryer a 200°C por 15 minutos, virando na metade.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Frango empanado que é mais crocante que a paciência do seu chefe na segunda-feira.</div>
+    </article>
+
+    <article class="receita-card" id="maca-assada-com-canela-na-air-fryer">
+      <h2 class="receita-titulo">Maçã Assada com Canela na Air Fryer</h2>
+      <p class="receita-desc">A sobremesa que te faz esquecer que sua dieta acabou no primeiro brigadeiro.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>maçãs médias</li>
+              <li>colher de chá de canela em pó</li>
+              <li>colher de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tire o miolo das maçãs com a colher.</li>
+              <li>Recheie com mel e polvilhe canela.</li>
+              <li>Asse na Air Fryer a 180°C por 15 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Essa maçã assada é tão doce que até a fatura do cartão quer dar um desconto.</div>
+    </article>
+
+    <article class="receita-card" id="pao-de-queijo-fit-na-air-fryer">
+      <h2 class="receita-titulo">Pão de Queijo Fit na Air Fryer</h2>
+      <p class="receita-desc">Porque brasileiro não vive sem pão de queijo, nem que seja light pra enganar o coração.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g polvilho doce</li>
+              <li>ml leite desnatado</li>
+              <li>ml óleo de coco</li>
+              <li>ovo</li>
+              <li>g queijo minas ralado</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva o leite com o óleo e despeje sobre o polvilho, mexendo bem.</li>
+              <li>Adicione o ovo, queijo e sal, misture até formar massa.</li>
+              <li>Modele bolinhas e asse na Air Fryer a 200°C por 20 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se não der certo, pelo menos você tentou manter a tradição sem aumentar o colesterol.</div>
+    </article>
+
+    <article class="receita-card" id="berinjela-a-milanesa-na-air-fryer">
+      <h2 class="receita-titulo">Berinjela à Milanesa na Air Fryer</h2>
+      <p class="receita-desc">A berinjela que vai te conquistar mais rápido que mensagem no WhatsApp.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>berinjelas médias fatiadas</li>
+              <li>ovo batido</li>
+              <li>xícara de farinha de rosca</li>
+              <li>Sal e ervas finas a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere as fatias com sal e ervas.</li>
+              <li>Passe no ovo e depois na farinha de rosca.</li>
+              <li>Asse na Air Fryer a 200°C por 15 minutos, virando na metade.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Berinjela empanada: a prova que até o legume pode ser irresistível sem precisar de likes.</div>
+    </article>
+
+    <article class="receita-card" id="abobrinha-recheada-na-air-fryer">
+      <h2 class="receita-titulo">Abobrinha Recheada na Air Fryer</h2>
+      <p class="receita-desc">Porque nem só de pizza vive a sexta-feira à noite, né?</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abobrinhas médias</li>
+              <li>g carne moída magra</li>
+              <li>/2 cebola picada</li>
+              <li>tomate picado</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+              <li>Queijo ralado para gratinar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte as abobrinhas ao meio e retire o miolo.</li>
+              <li>Refogue a carne com cebola, tomate e temperos.</li>
+              <li>Recheie as abobrinhas, cubra com queijo e asse na Air Fryer a 200°C por 20 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Recheio tão bom que até a sua vontade de cozinhar aparece para dar um oi.</div>
+    </article>
+
+    <article class="receita-card" id="coxinha-de-jaca-vegana-na-air-fryer">
+      <h2 class="receita-titulo">Coxinha de Jaca Vegana na Air Fryer</h2>
+      <p class="receita-desc">Porque não é só de frango que vive o coração partido (e a dieta).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g jaca verde desfiada</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>/2 xícara de farinha de trigo</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+              <li>colher de sopa de azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho no azeite, junte a jaca, tempere e cozinhe até secar.</li>
+              <li>Misture a farinha até formar uma massa moldável e modele as coxinhas.</li>
+              <li>Asse na Air Fryer a 200°C por 15 minutos, virando na metade.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der jaca, faça coxinha… e finja que tá comendo um frango chique.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-legumes-na-air-fryer">
+      <h2 class="receita-titulo">Espetinho de Legumes na Air Fryer</h2>
+      <p class="receita-desc">Petisco saudável pra quem quer impressionar no papo e não no rango.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abobrinha em rodelas</li>
+              <li>pimentão vermelho em cubos</li>
+              <li>cebola pequena em pedaços</li>
+              <li>g de cogumelos fatiados</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal e ervas finas a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte os espetinhos alternando os legumes.</li>
+              <li>Pincele com azeite e tempere.</li>
+              <li>Asse na Air Fryer a 200°C por 15 minutos, virando na metade.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Espetinho tão saboroso que até o crush vai querer repetir o convite.</div>
+    </article>
+
+    <article class="receita-card" id="coxinha-de-frango-com-requeijao-na-air-fryer">
+      <h2 class="receita-titulo">Coxinha de Frango com Requeijão na Air Fryer</h2>
+      <p class="receita-desc">O clássico que prova que recheio é questão de amor (ou vício).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g frango desfiado</li>
+              <li>xícara de farinha de trigo</li>
+              <li>/2 xícara de caldo de galinha caseiro</li>
+              <li>g requeijão cremoso</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>colher de sopa de azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue o frango no azeite, tempere e reserve.</li>
+              <li>Misture caldo e farinha até formar massa, modele as coxinhas recheando com requeijão e frango.</li>
+              <li>Asse na Air Fryer a 200°C por 15 minutos, virando na metade.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Requeijão faz tudo mais gostoso, inclusive fazer sua dieta parecer menos triste.</div>
+    </article>
+
+    <article class="receita-card" id="pao-de-alho-crocante-na-air-fryer">
+      <h2 class="receita-titulo">Pão de Alho Crocante na Air Fryer</h2>
+      <p class="receita-desc">O melhor amigo do churrasco e da desculpa pra comer pão antes da janta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pão francês cortado em fatias</li>
+              <li>colheres de sopa de manteiga</li>
+              <li>dentes de alho amassados</li>
+              <li>Salsa picada a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture manteiga, alho e salsa.</li>
+              <li>Pincele as fatias com essa mistura.</li>
+              <li>Coloque na Air Fryer a 180°C por 10 minutos até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pão de alho: o motivo oficial para você ignorar que está tentando reduzir carboidrato.</div>
+    </article>
+
+    <article class="receita-card" id="almondegas-de-carne-na-air-fryer">
+      <h2 class="receita-titulo">Almôndegas de Carne na Air Fryer</h2>
+      <p class="receita-desc">Porque até na correria dá pra impressionar o estômago (e o crush).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne moída</li>
+              <li>/2 cebola picada</li>
+              <li>ovo</li>
+              <li>colheres de sopa de farinha de rosca</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes até formar massa homogênea.</li>
+              <li>Modele as almôndegas e coloque na cesta da Air Fryer.</li>
+              <li>Asse a 200°C por 15 minutos, virando na metade.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Almôndegas tão boas que até seu chefe vai querer levar pro almoço de sexta.</div>
+    </article>
+
+    <article class="receita-card" id="abacaxi-grelhado-com-mel-na-air-fryer">
+      <h2 class="receita-titulo">Abacaxi Grelhado com Mel na Air Fryer</h2>
+      <p class="receita-desc">Sobremesa pra quem acha que dieta é só questão de timing (e mel).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>/2 abacaxi em rodelas</li>
+              <li>colheres de sopa de mel</li>
+              <li>Canela a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Pincele o mel sobre as rodelas de abacaxi e polvilhe canela.</li>
+              <li>Coloque na Air Fryer a 180°C por 12 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Abacaxi grelhado: o jeitinho tropical de dizer “tô de dieta, mas não sou de ferro”.</div>
+    </article>
+
+    <article class="receita-card" id="pizza-de-pao-sirio-na-air-fryer">
+      <h2 class="receita-titulo">Pizza de Pão Sírio na Air Fryer</h2>
+      <p class="receita-desc">Para quem quer pizza rapidinha sem a desculpa de “não tenho tempo”.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pães sírios</li>
+              <li>colheres de sopa de molho de tomate</li>
+              <li>g queijo mussarela ralado</li>
+              <li>Orégano a gosto</li>
+              <li>Fatias de tomate e manjericão para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe o molho sobre o pão sírio.</li>
+              <li>Cubra com queijo, tomate e orégano.</li>
+              <li>Leve à Air Fryer a 200°C por 8 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pizza de pão sírio: porque às vezes a vida só pede um “fast food” que não derruba a dieta.</div>
+    </article>
+
+    <article class="receita-card" id="camarao-empanado-na-air-fryer">
+      <h2 class="receita-titulo">Camarão Empanado na Air Fryer</h2>
+      <p class="receita-desc">Pra quem quer ostentar na receita e não na conta do restaurante.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g camarão limpo</li>
+              <li>ovo batido</li>
+              <li>xícara de farinha de rosca</li>
+              <li>Sal, pimenta e limão a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o camarão com sal, pimenta e limão.</li>
+              <li>Passe no ovo e depois na farinha de rosca.</li>
+              <li>Asse na Air Fryer a 200°C por 12 minutos, virando na metade.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Camarão empanado que vai fazer você esquecer o preço do último happy hour.</div>
+    </article>
+
+    <article class="receita-card" id="paozinho-de-batata-na-air-fryer">
+      <h2 class="receita-titulo">Pãozinho de Batata na Air Fryer</h2>
+      <p class="receita-desc">Aquela nostalgia que cabe no bolso e na cesta da Air Fryer.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g batata cozida e amassada</li>
+              <li>xícaras de farinha de trigo</li>
+              <li>ovo</li>
+              <li>colher de sopa de fermento biológico seco</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a batata com ovo, sal e fermento.</li>
+              <li>Acrescente farinha até formar massa, deixe descansar 30 minutos.</li>
+              <li>Modele pãezinhos e asse na Air Fryer a 180°C por 15 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pãozinho de batata: o abraço quentinho que sua alma adulta precisa depois do boletão.</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-de-chocolate-fit-na-air-fryer">
+      <h2 class="receita-titulo">Bolinho de Chocolate Fit na Air Fryer</h2>
+      <p class="receita-desc">Pra adoçar a vida sem sabotagem (ou pelo menos tentar).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>banana madura amassada</li>
+              <li>colheres de sopa de cacau em pó</li>
+              <li>/2 xícara de farinha de aveia</li>
+              <li>colher de chá de fermento em pó</li>
+              <li>colher de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes até formar massa homogênea.</li>
+              <li>Modele bolinhos e coloque na cesta da Air Fryer.</li>
+              <li>Asse a 180°C por 12 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bolinho fit que é mais doce que as mensagens da sua crush no WhatsApp.</div>
+    </article>
+
+    <article class="receita-card" id="frango-a-passarinho-na-air-fryer">
+      <h2 class="receita-titulo">Frango à Passarinho na Air Fryer</h2>
+      <p class="receita-desc">Aquele petisco que faz você esquecer a conta do bar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g frango cortado em pedaços pequenos</li>
+              <li>dentes de alho picados</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+              <li>colher de sopa de azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o frango com alho, limão, sal e pimenta.</li>
+              <li>Deixe marinar por 15 minutos.</li>
+              <li>Coloque na Air Fryer a 200°C por 20 minutos, mexendo na metade do tempo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Frango à passarinho: pra fazer sucesso no bar e no sofá de casa.</div>
+    </article>
+
+    <article class="receita-card" id="muffin-de-banana-com-aveia-na-air-fryer">
+      <h2 class="receita-titulo">Muffin de Banana com Aveia na Air Fryer</h2>
+      <p class="receita-desc">Café da manhã que não te deixa querendo voltar pra cama (ou pelo menos tenta).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>bananas maduras amassadas</li>
+              <li>xícara de farinha de aveia</li>
+              <li>ovo</li>
+              <li>colher de chá de fermento em pó</li>
+              <li>colher de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes até a massa ficar homogênea.</li>
+              <li>Coloque nas forminhas e leve para assar na Air Fryer a 180°C por 15 minutos.</li>
+              <li>Deixe esfriar antes de desenformar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Muffin tão gostoso que vai te fazer até esquecer que o chefe marcou reunião cedo.</div>
+    </article>
+
+    <article class="receita-card" id="batata-recheada-com-queijo-na-air-fryer">
+      <h2 class="receita-titulo">Batata Recheada com Queijo na Air Fryer</h2>
+      <p class="receita-desc">Aquele comfort food que abraça o estômago e aperta a carteira.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas grandes</li>
+              <li>g queijo muçarela ralado</li>
+              <li>colheres de sopa de creme de leite</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Cebolinha para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Fure as batatas e asse na Air Fryer a 200°C por 30 minutos.</li>
+              <li>Corte ao meio, retire parte do miolo, misture com queijo e creme de leite.</li>
+              <li>Recheie as batatas e asse mais 5 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Batata recheada: a desculpa oficial para comer queijo em todas as refeições.</div>
+    </article>
+
+    <article class="receita-card" id="tofu-crocante-na-air-fryer">
+      <h2 class="receita-titulo">Tofu Crocante na Air Fryer</h2>
+      <p class="receita-desc">Vegano, gostoso e mais crocante que seu chefe na sexta-feira.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g tofu firme cortado em cubos</li>
+              <li>colheres de sopa de molho shoyu</li>
+              <li>colher de sopa de amido de milho</li>
+              <li>colher de chá de óleo de gergelim</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Marine o tofu no shoyu e óleo por 10 minutos.</li>
+              <li>Passe os cubos no amido de milho.</li>
+              <li>Asse na Air Fryer a 200°C por 15 minutos, mexendo na metade.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se tofu crocante não conquista seu coração, pelo menos conquista seu estômago.</div>
+    </article>
+
+    <article class="receita-card" id="quibe-de-abobora-na-air-fryer">
+      <h2 class="receita-titulo">Quibe de Abóbora na Air Fryer</h2>
+      <p class="receita-desc">O quibe que vai fazer você esquecer que a vida adulta é só boleto e reunião.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g abóbora cozida e amassada</li>
+              <li>xícara de trigo para quibe hidratado</li>
+              <li>cebola picada</li>
+              <li>Hortelã e sal a gosto</li>
+              <li>colher de sopa de azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a abóbora, o trigo, a cebola, hortelã e sal.</li>
+              <li>Modele os quibes e pincele azeite.</li>
+              <li>Asse na Air Fryer a 200°C por 20 minutos, virando na metade.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Quibe de abóbora: pra quem quer fugir da pizza sem fugir do sabor.</div>
+    </article>
+
+    <article class="receita-card" id="pao-de-batata-doce-com-gergelim-na-air-fryer">
+      <h2 class="receita-titulo">Pão de Batata Doce com Gergelim na Air Fryer</h2>
+      <p class="receita-desc">Porque pãozinho sem gergelim é igual boleto sem juros: sem graça.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g purê de batata doce</li>
+              <li>xícaras de farinha de trigo</li>
+              <li>ovo</li>
+              <li>colher de sopa de fermento biológico seco</li>
+              <li>Gergelim para polvilhar</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o purê, ovo, sal e fermento.</li>
+              <li>Acrescente farinha até formar massa e deixe descansar 30 min.</li>
+              <li>Modele pãezinhos, pincele ovo e polvilhe gergelim.</li>
+              <li>Asse na Air Fryer a 180°C por 15 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pão com gergelim: o toque especial que faz até fila de banco parecer festa.</div>
+    </article>
+
+    <article class="receita-card" id="mini-lasanha-de-berinjela-na-air-fryer">
+      <h2 class="receita-titulo">Mini Lasanha de Berinjela na Air Fryer</h2>
+      <p class="receita-desc">Pra quem quer lasanha sem a desculpa de “demora demais”.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>berinjela média em fatias finas</li>
+              <li>g molho de tomate</li>
+              <li>g queijo muçarela ralado</li>
+              <li>Manjericão a gosto</li>
+              <li>Sal e pimenta</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere as fatias de berinjela com sal e pimenta.</li>
+              <li>Em uma forma, faça camadas de berinjela, molho, queijo e manjericão.</li>
+              <li>Leve à Air Fryer a 180°C por 25 minutos até gratinar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mini lasanha pra provar que tamanho não é documento (mas gosto é).</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-frango-com-legumes-na-air-fryer">
+      <h2 class="receita-titulo">Espetinho de Frango com Legumes na Air Fryer</h2>
+      <p class="receita-desc">Pra quem quer praticidade e paladar sem drama na cozinha.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g peito de frango em cubos</li>
+              <li>abobrinha em rodelas</li>
+              <li>pimentão em cubos</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o frango e os legumes com sal, pimenta e azeite.</li>
+              <li>Monte os espetinhos alternando frango e legumes.</li>
+              <li>Asse na Air Fryer a 200°C por 15 minutos, virando na metade.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Espetinho que vai fazer você querer virar mestre churrasqueiro da Air Fryer.</div>
+    </article>
+
+    <article class="receita-card" id="churros-fit-na-air-fryer">
+      <h2 class="receita-titulo">Churros Fit na Air Fryer</h2>
+      <p class="receita-desc">Doce para enganar a mente e o paladar sem explodir a dieta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de água</li>
+              <li>/2 xícara de farinha de trigo integral</li>
+              <li>colher de sopa de óleo de coco</li>
+              <li>Canela e adoçante para polvilhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água com óleo, adicione a farinha e mexa até formar massa.</li>
+              <li>Modele os churros com saco de confeitar.</li>
+              <li>Asse na Air Fryer a 200°C por 15 minutos.</li>
+              <li>Polvilhe canela e adoçante.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Churros fit que enganam até sua vontade de desistir da vida saudável.</div>
+    </article>
+
+    <article class="receita-card" id="couve-flor-empanada-na-air-fryer">
+      <h2 class="receita-titulo">Couve-Flor Empanada na Air Fryer</h2>
+      <p class="receita-desc">Pra quem quer ser saudável, mas não abre mão da crocância do pecado.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>cabeça de couve-flor em floretes</li>
+              <li>ovo batido</li>
+              <li>xícara de farinha de rosca</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere a couve-flor e passe no ovo.</li>
+              <li>Empane na farinha de rosca.</li>
+              <li>Asse na Air Fryer a 200°C por 15 minutos, mexendo na metade.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Couve-flor crocante: a prova que até legume pode ser a estrela da festa.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-de-caneca-de-chocolate-na-air-fryer">
+      <h2 class="receita-titulo">Bolo de Caneca de Chocolate na Air Fryer</h2>
+      <p class="receita-desc">Sobremesa instantânea pra quem tá sem tempo e com muita vontade.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de farinha de trigo</li>
+              <li>colheres de sopa de cacau em pó</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>colheres de sopa de leite</li>
+              <li>ovo pequeno</li>
+              <li>colher de sopa de óleo</li>
+              <li>/2 colher de chá de fermento</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes na caneca até ficar homogêneo.</li>
+              <li>Leve à Air Fryer a 180°C por 8 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bolo de caneca: pra quando a vida tá corrida, mas a vontade de doce não.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-abacaxi-com-presunto-na-air-fryer">
+      <h2 class="receita-titulo">Espetinho de Abacaxi com Presunto na Air Fryer</h2>
+      <p class="receita-desc">O docinho salgado que vai fazer você parecer chef sem esforço.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>/2 abacaxi em cubos</li>
+              <li>g presunto fatiado em pedaços</li>
+              <li>Mel para pincelar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte espetinhos alternando abacaxi e presunto.</li>
+              <li>Pincele com mel e asse a 180°C por 10 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Espetinho tão gostoso que até a balança vai querer dar um tempo.</div>
+    </article>
+
+    <article class="receita-card" id="churrasquinho-de-queijo-coalho-na-air-fryer">
+      <h2 class="receita-titulo">Churrasquinho de Queijo Coalho na Air Fryer</h2>
+      <p class="receita-desc">O petisco que não reclama do preço do carvão e nem da chuva.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g queijo coalho em cubos</li>
+              <li>Orégano a gosto</li>
+              <li>Azeite para pincelar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espete os cubos de queijo nos palitos.</li>
+              <li>Pincele azeite e polvilhe orégano.</li>
+              <li>Asse a 200°C por 12 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Queijo coalho na Air Fryer: churrasco sem desculpa, só alegria.</div>
+    </article>
+
+    <article class="receita-card" id="pastel-de-queijo-na-air-fryer">
+      <h2 class="receita-titulo">Pastel de Queijo na Air Fryer</h2>
+      <p class="receita-desc">Porque ninguém merece fritura, mas todo mundo merece pastel.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>Massa para pastel pronta</li>
+              <li>g queijo muçarela ralado</li>
+              <li>Orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte a massa em círculos, recheie com queijo e dobre.</li>
+              <li>Feche as bordas com garfo.</li>
+              <li>Asse na Air Fryer a 200°C por 12 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pastel na Air Fryer: pra fingir que tá comendo gordice sem culpa.</div>
+    </article>
+
+    <article class="receita-card" id="frango-xadrez-light-na-air-fryer">
+      <h2 class="receita-titulo">Frango Xadrez Light na Air Fryer</h2>
+      <p class="receita-desc">Sabor oriental sem a desculpa de fazer um milhão de panelas sujas.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 24,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g peito de frango em cubos</li>
+              <li>pimentão verde em cubos</li>
+              <li>cebola em cubos</li>
+              <li>colheres de sopa de molho shoyu light</li>
+              <li>Amido de milho para engrossar</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue o frango com pimentão e cebola rapidamente.</li>
+              <li>Misture o molho shoyu e amido dissolvido, cozinhe até engrossar.</li>
+              <li>Transfira para a cesta da Air Fryer e asse a 180°C por 10 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Frango xadrez pra quem quer sabor sem drama e tempo pra maratonar série.</div>
+    </article>
+
+    <article class="receita-card" id="cookies-de-aveia-e-banana-na-air-fryer">
+      <h2 class="receita-titulo">Cookies de Aveia e Banana na Air Fryer</h2>
+      <p class="receita-desc">O biscoito que faz sua dieta sorrir, mas seu coração suspirar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>bananas maduras amassadas</li>
+              <li>xícara de aveia em flocos</li>
+              <li>colher de chá de essência de baunilha</li>
+              <li>colher de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes até formar massa.</li>
+              <li>Modele cookies e coloque na Air Fryer.</li>
+              <li>Asse a 180°C por 12 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Cookies tão bons que até seu chefe vai pedir pra dividir o segredo.</div>
+    </article>
+
+    <article class="receita-card" id="berinjela-a-parmegiana-na-air-fryer">
+      <h2 class="receita-titulo">Berinjela à Parmegiana na Air Fryer</h2>
+      <p class="receita-desc">Porque quem disse que comida italiana precisa de óleo até pra respirar?</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>berinjelas fatiadas</li>
+              <li>g molho de tomate</li>
+              <li>g queijo muçarela ralado</li>
+              <li>Sal, pimenta e orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere as fatias de berinjela.</li>
+              <li>Monte camadas de berinjela, molho e queijo.</li>
+              <li>Asse na Air Fryer a 180°C por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Berinjela à parmegiana pra você fingir que tá na Itália, mas sem o boleto do euro.</div>
+    </article>
+
+    <article class="receita-card" id="croquete-de-carne-na-air-fryer">
+      <h2 class="receita-titulo">Croquete de Carne na Air Fryer</h2>
+      <p class="receita-desc">Aquele petisco que a gente come rápido antes de pensar na vida.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne moída cozida</li>
+              <li>/2 cebola picada</li>
+              <li>ovo</li>
+              <li>xícara de farinha de rosca</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a carne, cebola, ovo e tempere bem.</li>
+              <li>Modele os croquetes, passe na farinha de rosca.</li>
+              <li>Asse na Air Fryer a 200°C por 15 minutos, virando na metade.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Croquete que vai sumir tão rápido quanto sua energia na segunda-feira.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

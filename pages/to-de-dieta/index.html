@@ -1,0 +1,1591 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🥑 Tô de Dieta — Receitas NaFome</title>
+  <meta name="description" content="40 receitas para quem está na situação "Tô de Dieta". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/to-de-dieta/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🥑 Tô de Dieta — Receitas NaFome">
+  <meta property="og:description" content="40 receitas para quem está na situação "Tô de Dieta". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/to-de-dieta/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🥑 Tô de Dieta — NaFome",
+    "description": "40 receitas para quem está na situação "Tô de Dieta". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/to-de-dieta/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=to-de-dieta" class="btn-sortear">🎲 Sortear receita de Tô de Dieta</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🥑 Tô de Dieta</h1>
+    <p>40 receitas para quem está na situação "Tô de Dieta". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">40 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Tô de Dieta pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=to-de-dieta" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="omelete-power-da-segunda-feira">
+      <h2 class="receita-titulo">Omelete Power da Segunda-feira</h2>
+      <p class="receita-desc">Porque segunda já é um desafio, pelo menos o omelete ajuda a segurar a onda.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos inteiros</li>
+              <li>colher de sopa de queijo cottage</li>
+              <li>/2 tomate picado</li>
+              <li>punhado de espinafre fresco</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com sal e pimenta até ficarem homogêneos.</li>
+              <li>Aqueça a frigideira, despeje os ovos e adicione o queijo, tomate e espinafre por cima.</li>
+              <li>Cozinhe em fogo baixo até firmar e dobre ao meio com a espátula.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Omelete é tipo boletos: fácil de fazer, difícil de ignorar. Se grudar na frigideira, culpa do seu desânimo, não da receita.</div>
+    </article>
+
+    <article class="receita-card" id="smoothie-verde-do-desespero">
+      <h2 class="receita-titulo">Smoothie Verde do Desespero</h2>
+      <p class="receita-desc">Quando a vontade é de chocolate, mas a consciência manda couve.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de couve picada</li>
+              <li>banana madura</li>
+              <li>maçã verde picada</li>
+              <li>ml de água de coco</li>
+              <li>Suco de 1 limão</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque todos os ingredientes no liquidificador.</li>
+              <li>Bata até ficar homogêneo e sirva gelado.</li>
+              <li>Se quiser, adoce com stevia, mas não espalha, que a vida já é amarga.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Smoothie verde é igual a promessa de academia: todo mundo faz no começo, mas depois some. Aproveita enquanto dá.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-grao-de-bico-maromba">
+      <h2 class="receita-titulo">Salada de Grão-de-Bico Maromba</h2>
+      <p class="receita-desc">Proteína vegetal para quem quer músculos e não só desculpas.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de grão-de-bico cozido</li>
+              <li>pepino picado</li>
+              <li>cebola roxa pequena picada</li>
+              <li>tomates-cereja cortados ao meio</li>
+              <li>Suco de 1 limão</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal, pimenta e salsinha a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o grão-de-bico com os legumes na tigela.</li>
+              <li>Tempere com limão, azeite, sal, pimenta e salsinha.</li>
+              <li>Deixe na geladeira por 15 minutos antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Grão-de-bico é como boleto atrasado: só resolve se você encarar logo de frente. E rende um rango que vale a pena.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-aveia-pos-treino">
+      <h2 class="receita-titulo">Panqueca de Aveia Pós-Treino</h2>
+      <p class="receita-desc">Para quem quer barriga tanquinho, mas não quer virar rato de academia.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de aveia em flocos finos</li>
+              <li>ovos</li>
+              <li>banana madura amassada</li>
+              <li>colher de chá de fermento em pó</li>
+              <li>Canela a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até formar uma massa homogênea.</li>
+              <li>Aqueça a frigideira e faça panquecas pequenas com a massa.</li>
+              <li>Cozinhe até dourar dos dois lados e sirva com mel ou pasta de amendoim.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Panqueca de aveia é igual promessa de dieta: parece difícil, mas com o tempo dá gosto. Só não vale comer direto do pote, hein!</div>
+    </article>
+
+    <article class="receita-card" id="bowl-colorido-do-dia-que-nao-quer-acabar">
+      <h2 class="receita-titulo">Bowl Colorido do Dia Que Não Quer Acabar</h2>
+      <p class="receita-desc">Porque misturar tudo no bowl é a vida adulta dizendo "se vira".</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>/2 xícara de quinoa cozida</li>
+              <li>/2 abacate em cubos</li>
+              <li>/2 cenoura ralada</li>
+              <li>/4 de beterraba ralada</li>
+              <li>punhado de folhas verdes</li>
+              <li>g de frango desfiado</li>
+              <li>Molho de iogurte com limão</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em uma tigela, arrume a quinoa e os legumes em seções.</li>
+              <li>Coloque o frango desfiado por cima.</li>
+              <li>Regue com o molho de iogurte e misture antes de comer.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bowl colorido é tipo vida: quanto mais bagunçado, mais interessante. Pelo menos aqui, a bagunça é saudável.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-fit-com-recheio-de-frango-e-espinafre">
+      <h2 class="receita-titulo">Tapioca Fit com Recheio de Frango e Espinafre</h2>
+      <p class="receita-desc">Porque tapioca é a desculpa perfeita para fingir que não está de dieta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca</li>
+              <li>g de frango cozido e desfiado</li>
+              <li>punhado de espinafre refogado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe a goma na frigideira quente formando um disco.</li>
+              <li>Deixe firmar, adicione o recheio e dobre a tapioca ao meio.</li>
+              <li>Cozinhe por mais 1 minuto e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Tapioca é igual promessa de reunião: parece simples, mas se não fizer direito, vira uma bagunça. Capricha no recheio!</div>
+    </article>
+
+    <article class="receita-card" id="sopa-detox-de-abobora-com-gengibre">
+      <h2 class="receita-titulo">Sopa Detox de Abóbora com Gengibre</h2>
+      <p class="receita-desc">Para limpar o fígado e a alma, porque boletos não saem da cabeça.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 11,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de abóbora picada</li>
+              <li>cebola picada</li>
+              <li>dente de alho</li>
+              <li>pedaço pequeno de gengibre ralado</li>
+              <li>litro de água</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola, alho e gengibre na panela até dourar.</li>
+              <li>Adicione a abóbora e a água, cozinhe até a abóbora amolecer.</li>
+              <li>Bata tudo no liquidificador até virar creme, tempere e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sopa detox é tipo cobrar boleto atrasado: ninguém gosta, mas faz bem no final. E ainda esquenta o coração!</div>
+    </article>
+
+    <article class="receita-card" id="salmao-grelhado-com-aspargos-e-limao-siciliano">
+      <h2 class="receita-titulo">Salmão Grelhado com Aspargos e Limão Siciliano</h2>
+      <p class="receita-desc">Jantar romântico pra impressionar, sem precisar vender um rim.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>filés de salmão (150 g cada)</li>
+              <li>g de aspargos frescos</li>
+              <li>Suco e raspas de 1 limão siciliano</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o salmão com sal, pimenta, suco e raspas de limão.</li>
+              <li>Grelhe os filés em fogo médio por 4 minutos de cada lado.</li>
+              <li>Refogue os aspargos no azeite até ficarem macios e sirva junto.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salmão é igual crush no Tinder: bonito, saudável e às vezes difícil de conquistar. Mas aqui a conquista é garantida.</div>
+    </article>
+
+    <article class="receita-card" id="wrap-de-alface-com-frango-e-abacate">
+      <h2 class="receita-titulo">Wrap de Alface com Frango e Abacate</h2>
+      <p class="receita-desc">Pra quando o pão engorda, mas a fome não perdoa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>folhas grandes de alface americana</li>
+              <li>g de frango cozido e desfiado</li>
+              <li>/2 abacate em fatias</li>
+              <li>colher de sopa de iogurte natural</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o frango com iogurte, sal e pimenta.</li>
+              <li>Recheie as folhas de alface com a mistura e as fatias de abacate.</li>
+              <li>Enrole como um wrap e sirva imediatamente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Wrap de alface é tipo promessa de dieta: fácil de começar, mas difícil de manter se tiver pizza no caminho.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-integral-de-banana-com-canela">
+      <h2 class="receita-titulo">Panqueca Integral de Banana com Canela</h2>
+      <p class="receita-desc">Café da manhã pra quem quer doce, mas não quer culpa (ou quase).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>banana madura amassada</li>
+              <li>ovos</li>
+              <li>colheres de sopa de farinha integral</li>
+              <li>colher de chá de canela em pó</li>
+              <li>Mel para acompanhar (opcional)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a banana, ovos, farinha e canela até formar uma massa.</li>
+              <li>Aqueça a frigideira e faça pequenas panquecas.</li>
+              <li>Cozinhe até dourar dos dois lados e sirva com mel.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Panqueca integral é igual boleto pago: dá uma satisfação que só quem faz dieta entende. Aproveita e comemora!</div>
+    </article>
+
+    <article class="receita-card" id="mix-de-castanhas-e-sementes-energetico">
+      <h2 class="receita-titulo">Mix de Castanhas e Sementes Energético</h2>
+      <p class="receita-desc">Petisco pra enganar a fome que não é fome, é vontade de Netflix.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de castanha-do-pará</li>
+              <li>g de amêndoas</li>
+              <li>g de sementes de abóbora</li>
+              <li>g de sementes de girassol</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes em uma tigela.</li>
+              <li>Sirva como lanche rápido entre as refeições.</li>
+              <li>Se quiser, leve na bolsa pra não cair na tentação do salgadinho.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mix de castanhas é tipo amigo que não te deixa desistir: sempre ali pra dar energia quando o sofá tenta te derrubar.</div>
+    </article>
+
+    <article class="receita-card" id="salada-caprese-fit-com-molho-de-balsamico">
+      <h2 class="receita-titulo">Salada Caprese Fit com Molho de Balsâmico</h2>
+      <p class="receita-desc">Pra fingir que tá na Itália, mas sem sair da dieta e do sofá.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tomates maduros fatiados</li>
+              <li>g de muçarela de búfala em fatias</li>
+              <li>Folhas de manjericão fresco</li>
+              <li>colheres de sopa de vinagre balsâmico</li>
+              <li>colher de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte camadas alternadas de tomate, muçarela e manjericão no prato.</li>
+              <li>Tempere com sal, pimenta, azeite e vinagre balsâmico.</li>
+              <li>Sirva fresco, porque dieta também pode ser chique.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada Caprese é igual crush que some: bonita, desejada, mas às vezes difícil de encontrar no cardápio da vida.</div>
+    </article>
+
+    <article class="receita-card" id="quinoa-com-legumes-assados-e-frango">
+      <h2 class="receita-titulo">Quinoa com Legumes Assados e Frango</h2>
+      <p class="receita-desc">Porque comida saudável também pode ser festa na panela.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de quinoa</li>
+              <li>g de peito de frango em cubos</li>
+              <li>abobrinha em cubos</li>
+              <li>cenoura em cubos</li>
+              <li>pimentão vermelho em cubos</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal, pimenta e ervas a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a quinoa conforme instruções da embalagem.</li>
+              <li>Tempere o frango e os legumes com azeite, sal, pimenta e ervas.</li>
+              <li>Asse os legumes e o frango em forno a 200ºC por 25 minutos.</li>
+              <li>Misture tudo e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Quinoa com legumes é tipo boleto em dia: dá um alívio no coração e ainda deixa a gente feliz. Aproveita!</div>
+    </article>
+
+    <article class="receita-card" id="iogurte-grego-com-frutas-vermelhas-e-chia">
+      <h2 class="receita-titulo">Iogurte Grego com Frutas Vermelhas e Chia</h2>
+      <p class="receita-desc">Café da manhã pra enganar o estômago e a vontade de chocolate.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pote de iogurte grego natural (150 g)</li>
+              <li>/2 xícara de frutas vermelhas (morango, amora, framboesa)</li>
+              <li>colher de sopa de sementes de chia</li>
+              <li>Mel a gosto (opcional)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque o iogurte na tigela.</li>
+              <li>Adicione as frutas vermelhas e a chia por cima.</li>
+              <li>Se quiser, regue com mel e misture antes de comer.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Iogurte grego é igual promessa de dieta: forte, saudável e dá orgulho. Se alguém reclamar, manda um “tô de dieta” e segue o baile.</div>
+    </article>
+
+    <article class="receita-card" id="berinjela-recheada-com-ricota-e-tomate">
+      <h2 class="receita-titulo">Berinjela Recheada com Ricota e Tomate</h2>
+      <p class="receita-desc">Jantar sofisticado pra impressionar o crush que entende de dieta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>berinjela grande</li>
+              <li>g de ricota fresca</li>
+              <li>tomates médios picados</li>
+              <li>dente de alho picado</li>
+              <li>Sal, pimenta e orégano a gosto</li>
+              <li>Azeite para regar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte a berinjela ao meio e retire o miolo, formando “barquinhos”.</li>
+              <li>Misture o miolo com ricota, tomate, alho e temperos.</li>
+              <li>Recheie as berinjelas, regue com azeite e asse a 180ºC por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Berinjela recheada é tipo relacionamento à distância: requer paciência, mas o resultado vale a pena. Não desista na primeira mordida!</div>
+    </article>
+
+    <article class="receita-card" id="crepioca-proteica-para-cafe-da-manha">
+      <h2 class="receita-titulo">Crepioca Proteica para Café da Manhã</h2>
+      <p class="receita-desc">Pra começar o dia sem culpa e com proteína pra segurar o tranco.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca</li>
+              <li>ovos</li>
+              <li>colher de sopa de queijo branco ralado</li>
+              <li>Sal e orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com sal e orégano.</li>
+              <li>Misture a goma de tapioca e o queijo aos ovos.</li>
+              <li>Cozinhe na frigideira em fogo médio até firmar dos dois lados.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Crepioca é igual boleto: mais rápido de fazer do que de esquecer. Aproveita que é gostoso e saudável!</div>
+    </article>
+
+    <article class="receita-card" id="espaguete-de-abobrinha-ao-molho-pesto">
+      <h2 class="receita-titulo">Espaguete de Abobrinha ao Molho Pesto</h2>
+      <p class="receita-desc">Macarrão que não engorda, mas não dispensa o drama.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abobrinhas médias</li>
+              <li>/2 xícara de manjericão fresco</li>
+              <li>colheres de sopa de pinoli ou castanha de caju</li>
+              <li>dente de alho</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Faça o espaguete com a abobrinha usando spiralizer ou descascador.</li>
+              <li>Bata no liquidificador manjericão, pinoli, alho, azeite e sal para fazer o pesto.</li>
+              <li>Refogue o espaguete de abobrinha por 2 minutos e misture o molho pesto antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Espaguete de abobrinha é tipo desculpa pra não ir à academia: funciona, mas todo mundo sabe que você poderia fazer mais.</div>
+    </article>
+
+    <article class="receita-card" id="muffin-integral-de-maca-e-canela">
+      <h2 class="receita-titulo">Muffin Integral de Maçã e Canela</h2>
+      <p class="receita-desc">Pra enganar a vontade de doce sem virar um monstro da farinha branca.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>maçãs picadas</li>
+              <li>ovos</li>
+              <li>xícara de farinha integral</li>
+              <li>/2 xícara de açúcar mascavo</li>
+              <li>colher de chá de canela em pó</li>
+              <li>colher de chá de fermento em pó</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture ovos, açúcar e canela até ficar homogêneo.</li>
+              <li>Acrescente a farinha e o fermento, misturando bem.</li>
+              <li>Adicione as maçãs e distribua a massa nas forminhas.</li>
+              <li>Asse a 180ºC por 20 minutos ou até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Muffin integral é igual promessa de dieta na sexta: começa firme, mas sempre tem uma escapadinha no fim do dia.</div>
+    </article>
+
+    <article class="receita-card" id="pate-de-grao-de-bico-com-tahine">
+      <h2 class="receita-titulo">Patê de Grão-de-Bico com Tahine</h2>
+      <p class="receita-desc">Porque homus é mais que modinha, é salvação de lanche rápido.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de grão-de-bico cozido</li>
+              <li>colheres de sopa de tahine</li>
+              <li>Suco de 1 limão</li>
+              <li>dente de alho</li>
+              <li>Sal e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>No processador, bata o grão-de-bico, tahine, alho e limão até formar uma pasta.</li>
+              <li>Tempere com sal e azeite, batendo até ficar cremoso.</li>
+              <li>Sirva com palitos de legumes ou torradas integrais.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Patê de grão-de-bico é como vizinho fofoqueiro: sempre aparece pra salvar seu lanche (e a dieta também).</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-lentilha-com-cenoura-e-hortela">
+      <h2 class="receita-titulo">Salada de Lentilha com Cenoura e Hortelã</h2>
+      <p class="receita-desc">Proteína barata que não faz drama e ainda refresca a alma.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de lentilha cozida</li>
+              <li>cenoura ralada</li>
+              <li>Folhas de hortelã picadas</li>
+              <li>Suco de 1 limão</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a lentilha até ficar macia e escorra.</li>
+              <li>Misture a lentilha com cenoura, hortelã, limão, azeite, sal e pimenta.</li>
+              <li>Sirva gelada ou em temperatura ambiente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Lentilha na salada é tipo boleto quitado: um alívio no bolso e no corpo. Aproveita a vibe leve!</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-frango-com-legumes-grelhados">
+      <h2 class="receita-titulo">Espetinho de Frango com Legumes Grelhados</h2>
+      <p class="receita-desc">Pra quem quer churrasco, mas só tem varanda e disciplina.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peito de frango em cubos</li>
+              <li>pimentão verde cortado em pedaços</li>
+              <li>abobrinha em rodelas grossas</li>
+              <li>cebola roxa em pedaços</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o frango com limão, sal, pimenta e azeite.</li>
+              <li>Monte os espetinhos alternando frango e legumes.</li>
+              <li>Grelhe os espetinhos até o frango estar cozido e legumes macios.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Espetinho é igual reunião de família: mistura de tudo, mas no fim dá bom. Só não esquece de limpar a grelha!</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-doce-com-pasta-de-amendoim-e-morangos">
+      <h2 class="receita-titulo">Tapioca Doce com Pasta de Amendoim e Morangos</h2>
+      <p class="receita-desc">Pra adoçar a vida sem jogar a dieta pela janela (ainda).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca</li>
+              <li>colheres de sopa de pasta de amendoim integral</li>
+              <li>morangos fatiados</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe a goma na frigideira quente formando um disco.</li>
+              <li>Deixe firmar, espalhe a pasta de amendoim e coloque os morangos por cima.</li>
+              <li>Dobre ao meio e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Tapioca doce é como mensagem da ex: tenta te conquistar, mas você sabe que tem que resistir pra seguir em frente.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-frango-com-abacaxi-e-hortela">
+      <h2 class="receita-titulo">Salada de Frango com Abacaxi e Hortelã</h2>
+      <p class="receita-desc">Mistura exótica que parece receita de férias, mas é só dieta mesmo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peito de frango cozido e desfiado</li>
+              <li>/2 xícara de abacaxi picado</li>
+              <li>Folhas de hortelã picadas</li>
+              <li>colher de sopa de iogurte natural</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o frango com abacaxi e hortelã.</li>
+              <li>Adicione o iogurte, sal e pimenta, misturando bem.</li>
+              <li>Sirva gelada, perfeita pra dias quentes e desculpas esfarrapadas.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada exótica é igual promessa de dieta nas férias: encanta, mas exige força de vontade pra não se perder no caminho.</div>
+    </article>
+
+    <article class="receita-card" id="creme-de-abacate-com-cacau-e-mel">
+      <h2 class="receita-titulo">Creme de Abacate com Cacau e Mel</h2>
+      <p class="receita-desc">Sobremesa saudável porque até dieta merece um mimo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abacate maduro</li>
+              <li>colheres de sopa de cacau em pó sem açúcar</li>
+              <li>colher de sopa de mel</li>
+              <li>ml de leite de amêndoas</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até ficar cremoso.</li>
+              <li>Distribua em taças e leve à geladeira por 15 minutos.</li>
+              <li>Sirva gelado como sobremesa.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Creme de abacate é igual desculpa pra faltar trabalho: funciona melhor quando ninguém está olhando.</div>
+    </article>
+
+    <article class="receita-card" id="pao-de-queijo-fit-com-tapioca-e-queijo-branco">
+      <h2 class="receita-titulo">Pão de Queijo Fit com Tapioca e Queijo Branco</h2>
+      <p class="receita-desc">Clássico mineiro com toque fitness pra não perder a piada.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 12 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de tapioca granulada</li>
+              <li>g de queijo branco ralado</li>
+              <li>ovos</li>
+              <li>ml de leite desnatado</li>
+              <li>colher de sopa de óleo de coco</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a tapioca com o queijo e o sal.</li>
+              <li>Acrescente os ovos, o leite e o óleo, mexendo até formar uma massa.</li>
+              <li>Modele bolinhas, coloque na assadeira e asse a 180ºC por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pão de queijo fit é como boleto pago em dia: traz aquela sensação boa que dá vontade de repetir.</div>
+    </article>
+
+    <article class="receita-card" id="tabule-de-quinoa-com-pepino-e-hortela">
+      <h2 class="receita-titulo">Tabule de Quinoa com Pepino e Hortelã</h2>
+      <p class="receita-desc">Salada refrescante que é quase um spa no prato.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 13,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de quinoa cozida</li>
+              <li>pepino picado</li>
+              <li>tomates picados</li>
+              <li>/2 cebola roxa picada</li>
+              <li>Folhas de hortelã picadas</li>
+              <li>Suco de 1 limão</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a quinoa com os legumes e a hortelã.</li>
+              <li>Tempere com limão, azeite, sal e pimenta.</li>
+              <li>Sirva gelado, perfeito pra refrescar corpo e alma.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Tabule de quinoa é tipo olhar o extrato bancário: às vezes dá uma dorzinha, mas a saúde agradece.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-caprese-com-tomate-mucarela-e-manjericao">
+      <h2 class="receita-titulo">Espetinho Caprese com Tomate, Muçarela e Manjericão</h2>
+      <p class="receita-desc">Petisco que faz a dieta parecer festa, só falta o DJ.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tomates-cereja</li>
+              <li>bolinhas de muçarela de búfala</li>
+              <li>Folhas de manjericão fresco</li>
+              <li>Azeite e sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte os espetinhos alternando tomate, muçarela e manjericão.</li>
+              <li>Regue com azeite e polvilhe sal.</li>
+              <li>Sirva imediatamente como aperitivo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Espetinho caprese é igual final de semana: rápido, gostoso e deixa saudade.</div>
+    </article>
+
+    <article class="receita-card" id="cuscuz-nordestino-fit-com-legumes">
+      <h2 class="receita-titulo">Cuscuz Nordestino Fit com Legumes</h2>
+      <p class="receita-desc">Tradicional que não sente culpa e ainda ajuda a segurar a fome.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 11,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de flocos de milho para cuscuz</li>
+              <li>cenoura ralada</li>
+              <li>/2 abobrinha ralada</li>
+              <li>tomate picado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Hidrate os flocos de milho com água e sal até formar uma massa úmida.</li>
+              <li>Misture os legumes e coloque na cuscuzeira.</li>
+              <li>Cozinhe no vapor por 15 minutos e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Cuscuz fit é como boleto quitado: simples, prático e traz aquela sensação gostosa de missão cumprida.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-rucula-com-laranja-e-nozes">
+      <h2 class="receita-titulo">Salada de Rúcula com Laranja e Nozes</h2>
+      <p class="receita-desc">Mistura que parece contradição, mas é só dieta inteligente.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 13,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de rúcula fresca</li>
+              <li>laranja em gomos</li>
+              <li>g de nozes picadas</li>
+              <li>colher de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a rúcula com os gomos de laranja e as nozes.</li>
+              <li>Tempere com azeite, sal e pimenta.</li>
+              <li>Sirva imediatamente para manter a crocância.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada de rúcula com laranja é tipo boleto com desconto: inesperada, mas deixa tudo mais leve.</div>
+    </article>
+
+    <article class="receita-card" id="chili-vegetariano-proteico">
+      <h2 class="receita-titulo">Chili Vegetariano Proteico</h2>
+      <p class="receita-desc">Pra esquentar a alma e a dieta sem drama de carne.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de feijão preto cozido</li>
+              <li>xícara de lentilha cozida</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>pimentão vermelho picado</li>
+              <li>tomates picados</li>
+              <li>colher de chá de cominho</li>
+              <li>colher de chá de páprica</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho até dourar.</li>
+              <li>Adicione pimentão, tomates, cominho e páprica, cozinhando por 10 minutos.</li>
+              <li>Acrescente feijão e lentilha, cozinhe por mais 15 minutos, ajuste temperos e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Chili vegetariano é igual boleto parcelado: parece complicado, mas no final você sobrevive e ainda sai satisfeito.</div>
+    </article>
+
+    <article class="receita-card" id="creme-de-mandioquinha-com-alho-poro">
+      <h2 class="receita-titulo">Creme de Mandioquinha com Alho-Poró</h2>
+      <p class="receita-desc">Sopa que abraça a alma e não pesa na consciência.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de mandioquinha descascada e picada</li>
+              <li>alho-poró fatiado</li>
+              <li>dente de alho</li>
+              <li>litro de água ou caldo de legumes</li>
+              <li>Sal, pimenta e noz-moscada a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue alho e alho-poró até ficarem macios.</li>
+              <li>Adicione mandioquinha e água, cozinhe até a mandioquinha amolecer.</li>
+              <li>Bata tudo no liquidificador, tempere e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Creme de mandioquinha é igual tédio em reunião: pode até ser chato, mas é necessário para a vida.</div>
+    </article>
+
+    <article class="receita-card" id="tabule-de-couve-flor-low-carb">
+      <h2 class="receita-titulo">Tabule de Couve-flor Low Carb</h2>
+      <p class="receita-desc">Salada para enganar seu cérebro que macarrão é só uma lembrança.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>couve-flor média ralada no processador</li>
+              <li>tomate picado</li>
+              <li>pepino picado</li>
+              <li>/2 cebola picada</li>
+              <li>Folhas de hortelã picadas</li>
+              <li>Suco de 1 limão</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a couve-flor ralada com os legumes e a hortelã.</li>
+              <li>Tempere com limão, azeite, sal e pimenta.</li>
+              <li>Sirva gelado para um efeito refrescante.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Tabule de couve-flor é tipo promessa de academia: todo mundo sabe que funciona, mas tem que ter coragem pra começar.</div>
+    </article>
+
+    <article class="receita-card" id="bowl-de-acai-fit-com-granola-e-banana">
+      <h2 class="receita-titulo">Bowl de Açaí Fit com Granola e Banana</h2>
+      <p class="receita-desc">Energia pra encarar a vida, ou pelo menos o trânsito.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de polpa de açaí congelada sem açúcar</li>
+              <li>banana congelada</li>
+              <li>colheres de sopa de granola sem açúcar</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata o açaí com a banana até formar um creme.</li>
+              <li>Sirva em tigela e cubra com granola e mel.</li>
+              <li>Aproveite antes que o trânsito acabe com sua energia.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Açaí fit é como boleto pago antecipado: um luxo que poucos entendem, mas todo mundo deveria experimentar.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-camarao-com-legumes-ao-alho-e-limao">
+      <h2 class="receita-titulo">Espetinho de Camarão com Legumes ao Alho e Limão</h2>
+      <p class="receita-desc">Pra parecer chef sem precisar passar fome ou vender a alma.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 38,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de camarão limpo</li>
+              <li>abobrinha em rodelas</li>
+              <li>pimentão amarelo em cubos</li>
+              <li>dentes de alho picados</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o camarão com alho, limão, sal e pimenta.</li>
+              <li>Monte os espetinhos alternando camarão e legumes.</li>
+              <li>Grelhe até o camarão ficar rosa e legumes macios.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Espetinho de camarão é igual boleto da Netflix: caro, mas você não cancela porque sabe que vale a pena.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-batata-doce-com-recheio-de-ricota-e-espinafre">
+      <h2 class="receita-titulo">Panqueca de Batata Doce com Recheio de Ricota e Espinafre</h2>
+      <p class="receita-desc">Pra quem quer um café da manhã que sustenta e não abandona.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de purê de batata doce</li>
+              <li>ovos</li>
+              <li>g de ricota amassada</li>
+              <li>punhado de espinafre refogado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o purê de batata doce com os ovos, sal e pimenta.</li>
+              <li>Aqueça a frigideira e faça panquecas médias.</li>
+              <li>Recheie com ricota e espinafre, dobre ao meio e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Panqueca de batata doce é igual boletos em dia: dá aquela sensação boa e te faz querer repetir.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-pepino-com-iogurte-e-hortela">
+      <h2 class="receita-titulo">Salada de Pepino com Iogurte e Hortelã</h2>
+      <p class="receita-desc">Fresca, leve e perfeita pra enganar a fome e o chefe.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pepino médio fatiado</li>
+              <li>pote de iogurte natural (150 g)</li>
+              <li>Folhas de hortelã picadas</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o pepino com o iogurte e a hortelã.</li>
+              <li>Tempere com sal e pimenta.</li>
+              <li>Sirva gelado como acompanhamento ou lanche.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada de pepino com iogurte é tipo reunião de condomínio: todo mundo reclama, mas no fim é necessária para a paz.</div>
+    </article>
+
+    <article class="receita-card" id="sufle-de-espinafre-light">
+      <h2 class="receita-titulo">Suflê de Espinafre Light</h2>
+      <p class="receita-desc">Pra quem quer luxo na dieta sem precisar chamar a sogra.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de espinafre cozido e picado</li>
+              <li>ovos (claras e gemas separadas)</li>
+              <li>g de queijo branco ralado</li>
+              <li>Sal, noz-moscada e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata as claras em neve firme.</li>
+              <li>Misture as gemas com espinafre, queijo e temperos.</li>
+              <li>Incorpore delicadamente as claras na mistura.</li>
+              <li>Despeje na forma untada e asse a 180ºC por 30 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Suflê é como promessa de dieta: precisa de paciência e cuidado, mas no fim é uma delícia que vale a pena.</div>
+    </article>
+
+    <article class="receita-card" id="salada-tropical-de-frutas-com-hortela-e-limao">
+      <h2 class="receita-titulo">Salada Tropical de Frutas com Hortelã e Limão</h2>
+      <p class="receita-desc">Pra adoçar a vida e a dieta sem pecado (ou quase).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>manga picada</li>
+              <li>abacaxi picado</li>
+              <li>kiwi fatiado</li>
+              <li>Folhas de hortelã picadas</li>
+              <li>Suco de 1 limão</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todas as frutas em uma tigela.</li>
+              <li>Adicione hortelã e suco de limão, misture delicadamente.</li>
+              <li>Sirva gelado para refrescar o dia.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada de frutas é igual final de mês: às vezes sobra pouco, mas o que tem, é gostoso e refrescante.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-integral-de-cenoura-com-cobertura-de-iogurte">
+      <h2 class="receita-titulo">Bolo Integral de Cenoura com Cobertura de Iogurte</h2>
+      <p class="receita-desc">Pra matar a vontade de doce sem virar vilão da dieta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>cenouras médias raladas</li>
+              <li>ovos</li>
+              <li>/2 xícara de óleo de coco</li>
+              <li>xícara de açúcar mascavo</li>
+              <li>xícaras de farinha integral</li>
+              <li>colher de sopa de fermento em pó</li>
+              <li>pote de iogurte natural para cobertura</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata ovos, óleo e açúcar até ficar cremoso.</li>
+              <li>Misture a farinha e o fermento, acrescente a cenoura ralada.</li>
+              <li>Despeje na forma untada e asse a 180ºC por 35 minutos.</li>
+              <li>Cubra com iogurte antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bolo integral é tipo boleto pago antecipado: dá aquela sensação boa de dever cumprido com gostinho de quero mais.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-espinafre-com-ricota-e-nozes">
+      <h2 class="receita-titulo">Panqueca de Espinafre com Ricota e Nozes</h2>
+      <p class="receita-desc">Café da manhã que é quase um abraço verde no seu dia.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de espinafre cozido e picado</li>
+              <li>ovos</li>
+              <li>colheres de sopa de farinha integral</li>
+              <li>g de ricota esfarelada</li>
+              <li>Nozes picadas a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com farinha, sal e pimenta.</li>
+              <li>Misture o espinafre e faça panquecas na frigideira.</li>
+              <li>Recheie com ricota e nozes, dobre ao meio e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Panqueca verde é igual boleto no fim do mês: ninguém quer, mas quando aparece, dá aquela força inesperada.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

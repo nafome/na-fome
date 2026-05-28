@@ -1,0 +1,1627 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📡 No Micro-ondas — Receitas NaFome</title>
+  <meta name="description" content="42 receitas para quem está na situação "No Micro-ondas". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/no-micro-ondas/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="📡 No Micro-ondas — Receitas NaFome">
+  <meta property="og:description" content="42 receitas para quem está na situação "No Micro-ondas". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/no-micro-ondas/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "📡 No Micro-ondas — NaFome",
+    "description": "42 receitas para quem está na situação "No Micro-ondas". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/no-micro-ondas/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=no-micro-ondas" class="btn-sortear">🎲 Sortear receita de No Micro-ondas</a>
+  </nav>
+
+  <div class="hero">
+    <h1>📡 No Micro-ondas</h1>
+    <p>42 receitas para quem está na situação "No Micro-ondas". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">42 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de No Micro-ondas pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=no-micro-ondas" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="omelete-express-de-forca-tarefa">
+      <h2 class="receita-titulo">Omelete Express de Força-Tarefa</h2>
+      <p class="receita-desc">Acordou tarde, quer proteína e não tempo pra drama? Omelete no micro é seu melhor amigo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 7 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>g de queijo mussarela ralado</li>
+              <li>colher de sopa de leite</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>colher de sopa de presunto picado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Quebre os ovos na caneca e bata com garfo até homogeneizar.</li>
+              <li>Adicione o queijo, presunto, leite, sal e pimenta e misture.</li>
+              <li>Leve ao micro-ondas por 1 minuto, mexa e volte por mais 1 minuto ou até firmar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o micro-ondas fosse gente, seria aquele amigo que resolve tudo rápido, mas não te entende direito. Não deixe passar do ponto, senão vira borracha gourmet.</div>
+    </article>
+
+    <article class="receita-card" id="arroz-de-microondas-turbo-facil">
+      <h2 class="receita-titulo">Arroz de Microondas Turbo Fácil</h2>
+      <p class="receita-desc">Aquele arroz que não te abandona, mesmo quando você esquece o fogão ligado.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de arroz branco</li>
+              <li>xícaras de água</li>
+              <li>colher de chá de sal</li>
+              <li>colher de sopa de óleo</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave o arroz e coloque no recipiente com água, sal e óleo.</li>
+              <li>Cubra e leve ao micro-ondas por 10 minutos em potência alta.</li>
+              <li>Mexa, cubra novamente e cozinhe por mais 8 minutos ou até a água secar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o arroz te abandonar, pelo menos o micro-ondas não vai. Mas não esqueça de deixar o arroz de molho, ele não é mágico, só rápido.</div>
+    </article>
+
+    <article class="receita-card" id="batata-recheada-de-microondas-fast-furiosa">
+      <h2 class="receita-titulo">Batata Recheada de Microondas – Fast & Furiosa</h2>
+      <p class="receita-desc">Batata com recheio que nem seu chefe: cheia de surpresas e pressão.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batata média</li>
+              <li>colheres de sopa de requeijão cremoso</li>
+              <li>fatias de queijo prato</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Fure a batata com garfo várias vezes.</li>
+              <li>Coloque no micro-ondas por 8 minutos em potência alta.</li>
+              <li>Corte ao meio, recheie com requeijão e queijo, volte ao micro por 2 minutos para derreter.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> A batata é o carboidrato que todo mundo ama, porque é fácil de lidar, diferente da vida adulta. Não esqueça de furar, não queremos batata-bomba.</div>
+    </article>
+
+    <article class="receita-card" id="lasanha-low-effort-no-microondas">
+      <h2 class="receita-titulo">Lasanha Low Effort no Microondas</h2>
+      <p class="receita-desc">Para quem quer lasanha mas só tem 10 minutos e muita preguiça.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>folhas de massa para lasanha pré-cozida</li>
+              <li>g de molho de tomate</li>
+              <li>g de queijo mussarela fatiado</li>
+              <li>g de presunto fatiado</li>
+              <li>Sal e orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em um recipiente, monte camadas: molho, massa, presunto, queijo, repita.</li>
+              <li>Finalize com molho e queijo por cima, tempere com orégano.</li>
+              <li>Leve ao micro-ondas por 10 minutos, até queijo derreter e massa amolecer.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Fazer lasanha no micro é igual a tentar pagar boleto no último minuto: funciona, mas não é o ideal. Se seu micro não é potente, ajuste o tempo e não desista.</div>
+    </article>
+
+    <article class="receita-card" id="brownie-de-caneca-para-sobreviventes">
+      <h2 class="receita-titulo">Brownie de Caneca para Sobreviventes</h2>
+      <p class="receita-desc">Praquele desespero pós-trabalho que só um doce rápido resolve.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de farinha de trigo</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>colheres de sopa de cacau em pó</li>
+              <li>ovo</li>
+              <li>colheres de sopa de óleo</li>
+              <li>colheres de sopa de leite</li>
+              <li>pitada de fermento em pó</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes na caneca até ficar homogêneo.</li>
+              <li>Leve ao micro-ondas por 2 minutos em potência alta.</li>
+              <li>Deixe esfriar 1 minuto e coma direto da caneca.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Brownie de caneca é igual reunião de Zoom: rápido, prático e você não precisa se arrumar. Mas cuidado pra não virar pedra, não é competição de resistência.</div>
+    </article>
+
+    <article class="receita-card" id="pipoca-gourmet-de-microondas-com-toque-caro">
+      <h2 class="receita-titulo">Pipoca Gourmet de Microondas com Toque Caro</h2>
+      <p class="receita-desc">Porque pipoca normal é muito mainstream e boletos não pagam sozinhos.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 3,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>/2 xícara de milho para pipoca</li>
+              <li>colher de sopa de manteiga derretida</li>
+              <li>Sal a gosto</li>
+              <li>pitada de páprica doce</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque o milho no pote, tampe deixando pequena abertura.</li>
+              <li>Leve ao micro-ondas por 3-4 minutos, até parar de estourar.</li>
+              <li>Misture manteiga derretida, sal e páprica na pipoca.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pipoca no micro é aquele amigo que faz barulho no momento certo e some quando você precisa. Não saia da cozinha, micro-ondas não tem botão “pausa”.</div>
+    </article>
+
+    <article class="receita-card" id="frango-com-legumes-express-no-microondas">
+      <h2 class="receita-titulo">Frango com Legumes Express no Microondas</h2>
+      <p class="receita-desc">Pra quem quer comer saudável mas o sono venceu a batalha.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peito de frango cortado em cubos</li>
+              <li>cenoura média em rodelas finas</li>
+              <li>/2 abobrinha picada</li>
+              <li>colher de sopa de azeite</li>
+              <li>Sal, pimenta e ervas a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes no recipiente, tempere.</li>
+              <li>Cubra e cozinhe no micro-ondas por 10 minutos, mexendo na metade do tempo.</li>
+              <li>Verifique se o frango está cozido, caso contrário, cozinhe mais 2 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Frango no micro é igual promessa de político: precisa de revisão. Não confie na cor, sempre cheque o cheiro — vida adulta é isso, desconfiar até do micro-ondas.</div>
+    </article>
+
+    <article class="receita-card" id="mingau-de-aveia-turbo-para-cansados">
+      <h2 class="receita-titulo">Mingau de Aveia Turbo para Cansados</h2>
+      <p class="receita-desc">Aquele café da manhã que só o microondas e a preguiça conseguem explicar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 3,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de aveia em flocos</li>
+              <li>xícara de leite ou bebida vegetal</li>
+              <li>colher de sopa de mel</li>
+              <li>Canela a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture aveia e leite na tigela.</li>
+              <li>Leve ao micro-ondas por 2 minutos, mexa e volte por mais 1 minuto.</li>
+              <li>Adicione mel e canela e misture antes de consumir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mingau de aveia é o abraço quentinho que você merece, mas a preguiça insiste em ser maior. Se quiser, joga uma fruta picada e finge que tá na pousada dos seus sonhos.</div>
+    </article>
+
+    <article class="receita-card" id="macarrao-alho-e-oleo-na-pressa">
+      <h2 class="receita-titulo">Macarrão Alho e Óleo na Pressa</h2>
+      <p class="receita-desc">Para quem quer impressionar sem nem sujar o fogão — nem a dignidade.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de macarrão tipo espaguete</li>
+              <li>dentes de alho picados</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Salsa picada a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Quebre o macarrão ao meio na tigela e cubra com água e sal.</li>
+              <li>Cozinhe no micro-ondas por 8 minutos, mexendo na metade do tempo.</li>
+              <li>Escorra, misture alho e azeite, tempere e polvilhe salsa.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Macarrão no micro é igual ex: “vou só tomar uma água” na balada: não é bem verdade, mas dá pra salvar o rolê. Se o alho queimar, culpa do micro, não sua.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-caneca-para-sobreviver-segunda-feira">
+      <h2 class="receita-titulo">Panqueca de Caneca para Sobreviver Segunda-Feira</h2>
+      <p class="receita-desc">Quando a vontade é zero, mas a fome é um boletão.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 7 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de farinha de trigo</li>
+              <li>ovo</li>
+              <li>colheres de sopa de leite</li>
+              <li>colher de chá de fermento em pó</li>
+              <li>colher de chá de açúcar</li>
+              <li>Pitada de sal</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes na caneca até formar massa homogênea.</li>
+              <li>Cozinhe no micro-ondas por 2 minutos.</li>
+              <li>Sirva com mel, geleia ou o que tiver na geladeira (inclusive coragem).</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Panqueca de caneca é o abraço rápido da cozinha: não vai te salvar de tudo, mas dá uma força. Não esqueça o fermento, ou vira bolacha – igual promessa de dieta.</div>
+    </article>
+
+    <article class="receita-card" id="salmao-ao-lemon-pepper-no-microondas">
+      <h2 class="receita-titulo">Salmão ao Lemon Pepper no Microondas</h2>
+      <p class="receita-desc">Jantar romântico? Só se for fast e sem drama, igual seu ex.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>filés de salmão (150g cada)</li>
+              <li>Suco de 1 limão</li>
+              <li>colher de chá de pimenta do reino moída</li>
+              <li>Sal a gosto</li>
+              <li>colher de sopa de azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o salmão com sal, pimenta e suco de limão.</li>
+              <li>Coloque no recipiente, regue com azeite e cubra.</li>
+              <li>Cozinhe por 8 minutos no micro-ondas, até o peixe ficar opaco e macio.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salmão no micro é quase um relacionamento sério: pede cuidado, mas é rápido. Não exagere no tempo, senão vira pirralho seco, e ninguém merece.</div>
+    </article>
+
+    <article class="receita-card" id="mousse-de-maracuja-vapt-vupt">
+      <h2 class="receita-titulo">Mousse de Maracujá Vapt-Vupt</h2>
+      <p class="receita-desc">Praquela sobremesa que você quer fazer, mas só tem micro e coragem.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min + geladeira</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de leite condensado</li>
+              <li>lata de creme de leite</li>
+              <li>lata de suco de maracujá concentrado</li>
+              <li>envelope de gelatina sem sabor hidratada</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture leite condensado, creme de leite e suco de maracujá.</li>
+              <li>Adicione a gelatina hidratada e misture bem.</li>
+              <li>Leve ao micro por 30 segundos para dissolver a gelatina, mexa e deixe gelar por 2 horas.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mousse de micro é como romance à distância: precisa de paciência (geladeira). Se tentar apressar, vira sopa fria, e ninguém quer isso.</div>
+    </article>
+
+    <article class="receita-card" id="pizza-na-caneca-para-sobreviventes-do-fim-de-semana">
+      <h2 class="receita-titulo">Pizza na Caneca para Sobreviventes do Fim de Semana</h2>
+      <p class="receita-desc">Porque pizza de verdade às vezes só no delivery... ou no micro mesmo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 7 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de farinha de trigo</li>
+              <li>/8 colher de chá de fermento em pó</li>
+              <li>colheres de sopa de leite</li>
+              <li>colher de sopa de molho de tomate</li>
+              <li>fatias de queijo mussarela picadas</li>
+              <li>Orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, fermento e leite na caneca até formar massa.</li>
+              <li>Espalhe molho de tomate por cima, adicione queijo e orégano.</li>
+              <li>Leve ao micro por 4 minutos ou até a massa crescer e o queijo derreter.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pizza de caneca é o fast-food da autoajuda: conforta, mas não cura boletos. Se encher demais, vira massa de pão e você vira padeiro frustrado.</div>
+    </article>
+
+    <article class="receita-card" id="quiche-rapida-de-espinafre-e-queijo">
+      <h2 class="receita-titulo">Quiche Rápida de Espinafre e Queijo</h2>
+      <p class="receita-desc">Pra impressionar sem gastar o que não tem (ou paciência).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>g de espinafre cozido e picado</li>
+              <li>g de queijo ricota amassado</li>
+              <li>Sal, pimenta e noz moscada a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com sal, pimenta e noz moscada.</li>
+              <li>Misture espinafre e ricota ao ovo.</li>
+              <li>Coloque na forma untada e cozinhe no micro por 8-10 minutos até firmar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Quiche no micro é tipo aquele colega que não aparece muito, mas quando aparece é memorável. Não abra muito o micro enquanto cozinha, não é reality show.</div>
+    </article>
+
+    <article class="receita-card" id="pudim-de-microondas-sem-ovo">
+      <h2 class="receita-titulo">Pudim de Microondas sem Ovo</h2>
+      <p class="receita-desc">Pra quem quer doce sem risco de virar omelete no meio do caminho.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min + geladeira</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de leite condensado</li>
+              <li>latas de leite (medida da lata condensado)</li>
+              <li>colher de sopa de amido de milho</li>
+              <li>/2 xícara de açúcar para calda</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Faça a calda no micro com açúcar até derreter e dourar, espalhe na forma.</li>
+              <li>Misture leite condensado, leite e amido até dissolver.</li>
+              <li>Coloque na forma e cozinhe no micro por 10 minutos, mexendo na metade do tempo.</li>
+              <li>Deixe esfriar e leve à geladeira por 2 horas.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pudim no micro é a prova que até sem ovos dá pra ser doce — igual a vida adulta sem férias. Se a calda endurecer, trate como boletos: tenta resolver depois.</div>
+    </article>
+
+    <article class="receita-card" id="sufle-de-queijo-sem-forno">
+      <h2 class="receita-titulo">Suflê de Queijo sem Forno</h2>
+      <p class="receita-desc">Pra quem quer classe, mas só tem micro e a desculpa de preguiça.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 11,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos (claras e gemas separadas)</li>
+              <li>g de queijo prato ralado</li>
+              <li>Sal e noz moscada a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata as claras em neve na tigela (com garfo ou batedor).</li>
+              <li>Misture as gemas ao queijo, sal e noz moscada.</li>
+              <li>Incorpore delicadamente as claras na mistura.</li>
+              <li>Coloque no recipiente e cozinhe por 8-10 minutos até crescer e firmar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Suflê no micro é o relacionamento que você quer: leve e cheio de ar — só não deixe passar do tempo ou vira um choro seco.</div>
+    </article>
+
+    <article class="receita-card" id="creme-de-milho-cremoso-em-minutos">
+      <h2 class="receita-titulo">Creme de Milho Cremoso em Minutos</h2>
+      <p class="receita-desc">Porque milagre no microondas é mais comum que pagar boleto em dia.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de milho verde escorrido</li>
+              <li>xícara de leite</li>
+              <li>colheres de sopa de amido de milho</li>
+              <li>colher de sopa de manteiga</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata o milho, leite e amido no liquidificador até virar creme.</li>
+              <li>Coloque na tigela, adicione manteiga, sal e pimenta.</li>
+              <li>Cozinhe no micro por 7-8 minutos, mexendo na metade do tempo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Creme de milho é tipo aquele amigo que aparece só pra ajudar: simples, prático e evita desespero. Se endurecer, não culpe o milho, culpa a pressa.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-quente-na-caneca">
+      <h2 class="receita-titulo">Sanduíche Quente na Caneca</h2>
+      <p class="receita-desc">Praqueles dias que você quer um lanche quente, mas sem sair do sofá.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 8 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão de forma picadas</li>
+              <li>fatias de presunto picadas</li>
+              <li>fatias de queijo mussarela picadas</li>
+              <li>colheres de sopa de leite</li>
+              <li>ovo</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes na caneca até formar massa.</li>
+              <li>Cozinhe no microondas por 4 minutos ou até firmar.</li>
+              <li>Sirva quente direto da caneca.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sanduíche na caneca é o Tinder da cozinha: rápido, sem compromisso e às vezes surpreende. Não deixe passar do tempo, senão vira borracha gourmet.</div>
+    </article>
+
+    <article class="receita-card" id="chocotone-de-caneca-para-solteiros">
+      <h2 class="receita-titulo">Chocotone de Caneca para Solteiros</h2>
+      <p class="receita-desc">Natal a gente finge que não tá só, mas esse chocotone salva a autoestima.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 7 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de farinha de trigo</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>colher de sopa de cacau em pó</li>
+              <li>ovo</li>
+              <li>colheres de sopa de leite</li>
+              <li>colher de chá de fermento em pó</li>
+              <li>colheres de sopa de gotas de chocolate</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes, exceto as gotas, até formar massa.</li>
+              <li>Acrescente as gotas e misture.</li>
+              <li>Cozinhe no micro por 4 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Chocotone na caneca é a prova que o amor próprio pode ser doce e rápido. Se ficar seco, culpa o microondas, não o coração partido.</div>
+    </article>
+
+    <article class="receita-card" id="arroz-doce-cremoso-em-minutos">
+      <h2 class="receita-titulo">Arroz Doce Cremoso em Minutos</h2>
+      <p class="receita-desc">A sobremesa que lembra infância, mesmo quando não lembra as contas pagas.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de arroz lavado</li>
+              <li>xícaras de leite</li>
+              <li>lata de leite condensado</li>
+              <li>Canela em pau e em pó a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque arroz, leite e canela em pau na tigela.</li>
+              <li>Cozinhe no micro por 12 minutos, mexendo a cada 4 minutos.</li>
+              <li>Adicione leite condensado, misture e cozinhe mais 3 minutos.</li>
+              <li>Sirva polvilhado com canela em pó.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Arroz doce no micro é nostalgia líquida: rápido e doce como a infância — só não esqueça que adulto também tem boletos.</div>
+    </article>
+
+    <article class="receita-card" id="nuggets-caseiros-no-microondas">
+      <h2 class="receita-titulo">Nuggets Caseiros no Microondas</h2>
+      <p class="receita-desc">Pra quem quer fast-food, mas o coração bate por frango caseiro.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peito de frango moído</li>
+              <li>ovo</li>
+              <li>colheres de sopa de farinha de rosca</li>
+              <li>Sal, pimenta e temperos a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o frango, ovo, farinha e temperos até formar massa.</li>
+              <li>Modele pequenos nuggets e coloque no prato.</li>
+              <li>Cozinhe no micro por 10 minutos, virando na metade do tempo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Nuggets no micro é a versão adulta de “fast-food saudável”: rápido, mas não livre de culpa. Se ficarem secos, chame de “croquete gourmet”.</div>
+    </article>
+
+    <article class="receita-card" id="pudim-de-chia-com-frutas-rapido">
+      <h2 class="receita-titulo">Pudim de Chia com Frutas Rápido</h2>
+      <p class="receita-desc">Pra quem quer saudável e gostoso, mas o tempo só dá pra micro mesmo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min + geladeira</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de chia</li>
+              <li>xícara de leite vegetal</li>
+              <li>colher de sopa de mel</li>
+              <li>Frutas picadas a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture chia, leite e mel na tigela.</li>
+              <li>Leve ao micro por 1 minuto, mexa e deixe na geladeira por 2 horas.</li>
+              <li>Sirva com frutas por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pudim de chia no micro é como promessa de dieta: começa rápido, mas precisa de paciência. Se esquecer, vira gelatina, e ninguém quer isso.</div>
+    </article>
+
+    <article class="receita-card" id="creme-de-abobora-com-gengibre">
+      <h2 class="receita-titulo">Creme de Abóbora com Gengibre</h2>
+      <p class="receita-desc">Sopa de adulto cansado: quentinha, rápida e com tempero pra espantar boleto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de abóbora picada</li>
+              <li>pedaço pequeno de gengibre ralado</li>
+              <li>xícara de água</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque abóbora, gengibre, água e sal na tigela.</li>
+              <li>Cozinhe no micro por 10 minutos até amolecer.</li>
+              <li>Bata com mixer até virar creme, ajuste tempero e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Creme de abóbora no micro é abraço de vó instantâneo. Se ficar muito grosso, coloque mais água e pense na aposentadoria.</div>
+    </article>
+
+    <article class="receita-card" id="panettone-de-caneca-com-frutas-secas">
+      <h2 class="receita-titulo">Panettone de Caneca com Frutas Secas</h2>
+      <p class="receita-desc">Natal na pressa, mas com estilo e aquele toque de “não me julgue”.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 8 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de farinha de trigo</li>
+              <li>/8 colher de chá de fermento em pó</li>
+              <li>colheres de sopa de leite</li>
+              <li>colher de sopa de açúcar</li>
+              <li>ovo</li>
+              <li>colheres de sopa de frutas secas picadas</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes até formar massa.</li>
+              <li>Adicione as frutas secas e misture.</li>
+              <li>Cozinhe no micro por 4 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Panettone de caneca é a solução para natal sem crise: doce, rápido e com calor — igual família na ceia. Se crescer demais, culpa o fermento, não o tio do pavê.</div>
+    </article>
+
+    <article class="receita-card" id="lasanha-de-berinjela-expressa">
+      <h2 class="receita-titulo">Lasanha de Berinjela Expressa</h2>
+      <p class="receita-desc">Pra quem quer jantar saudável, mas só tem 15 minutos e crises existenciais.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>berinjela média cortada em fatias finas</li>
+              <li>g de molho de tomate</li>
+              <li>g de queijo mussarela</li>
+              <li>Orégano e sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte camadas no recipiente: berinjela, molho, queijo, repita.</li>
+              <li>Cubra, tempere com orégano e sal.</li>
+              <li>Cozinhe por 12 minutos até berinjela amolecer e queijo derreter.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Lasanha de berinjela no micro é o equilíbrio entre dieta e preguiça. Se o queijo não derreter, finja que é estilo rústico.</div>
+    </article>
+
+    <article class="receita-card" id="pure-de-batata-rapido-com-alho">
+      <h2 class="receita-titulo">Purê de Batata Rápido com Alho</h2>
+      <p class="receita-desc">Pra acompanhar aquele prato que você nem sabe o nome, mas quer fingir.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 8 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas médias descascadas e picadas</li>
+              <li>dente de alho picado</li>
+              <li>colheres de sopa de manteiga</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>/4 xícara de leite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe as batatas com alho no micro por 7 minutos até ficarem macias.</li>
+              <li>Amasse as batatas com manteiga, leite, sal e pimenta.</li>
+              <li>Misture até virar purê cremoso.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Purê no micro é o conforto em forma de comida. Se ficar empelotado, culpe a pressa, não a batata.</div>
+    </article>
+
+    <article class="receita-card" id="torta-de-maca-na-caneca">
+      <h2 class="receita-titulo">Torta de Maçã na Caneca</h2>
+      <p class="receita-desc">Pra aquele desejo de doce que aparece no meio da noite e o micro é seu aliado.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>maçã picada</li>
+              <li>colheres de sopa de farinha de trigo</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>colher de chá de canela</li>
+              <li>colheres de sopa de leite</li>
+              <li>colher de sopa de óleo</li>
+              <li>/4 colher de chá de fermento</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture maçã, açúcar e canela na caneca.</li>
+              <li>Adicione farinha, fermento, leite e óleo, misture tudo.</li>
+              <li>Cozinhe por 3-4 minutos no micro.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Torta de maçã na caneca é terapia para quem não quer dividir bolo com ninguém. Se passar do ponto, vira maçã assada com sotaque de carvão.</div>
+    </article>
+
+    <article class="receita-card" id="molho-branco-rapido-no-microondas">
+      <h2 class="receita-titulo">Molho Branco Rápido no Microondas</h2>
+      <p class="receita-desc">Praquele molho chique que vai salvar seu macarrão, e sua autoestima.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 7 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colher de sopa de manteiga</li>
+              <li>colher de sopa de farinha de trigo</li>
+              <li>xícara de leite</li>
+              <li>Sal, pimenta e noz moscada a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta manteiga na tigela no micro por 1 minuto.</li>
+              <li>Misture a farinha e leve por 1 minuto, mexendo.</li>
+              <li>Adicione o leite aos poucos, mexa e cozinhe por 4 minutos, mexendo a cada minuto.</li>
+              <li>Tempere e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Molho branco no micro é igual boleto pago: dá trabalho, mas melhora a vida. Não pare de mexer, senão vira mingau revoltado.</div>
+    </article>
+
+    <article class="receita-card" id="cuscuz-paulista-no-microondas">
+      <h2 class="receita-titulo">Cuscuz Paulista no Microondas</h2>
+      <p class="receita-desc">Para provar que nordestino é rápido e esperto até na cozinha.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 13,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de milho flocada</li>
+              <li>xícara de água</li>
+              <li>g de sardinha escorrida</li>
+              <li>tomate picado</li>
+              <li>/2 cebola picada</li>
+              <li>Sal e cheiro verde a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e tomate no micro com um pouco de azeite por 3 minutos.</li>
+              <li>Misture água, farinha, sardinha, sal e cheiro verde.</li>
+              <li>Leve ao micro por 10 minutos, mexendo na metade do tempo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Cuscuz no micro é quase um milagre nordestino na vida adulta. Se não firmar, chame de risoto inovador.</div>
+    </article>
+
+    <article class="receita-card" id="salada-quente-de-grao-de-bico">
+      <h2 class="receita-titulo">Salada Quente de Grão de Bico</h2>
+      <p class="receita-desc">Praquela salada que te engana e faz você se sentir saudável sem esforço.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de grão de bico cozido</li>
+              <li>tomate picado</li>
+              <li>/2 cebola picada</li>
+              <li>colher de sopa de azeite</li>
+              <li>Sal, pimenta e limão a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture grão de bico, tomate, cebola, azeite, sal e pimenta.</li>
+              <li>Cozinhe no micro por 5 minutos para aquecer.</li>
+              <li>Regue com limão e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada quente no micro é o truque pra enganar a fome e a consciência. Se esquecer, vira lanche frio e você vira adulto confuso.</div>
+    </article>
+
+    <article class="receita-card" id="quibe-de-microondas-com-toque-agil">
+      <h2 class="receita-titulo">Quibe de Microondas com Toque Ágil</h2>
+      <p class="receita-desc">Para quem quer quibe, mas não quer drama nem bolhas no fogão.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de trigo para quibe hidratado</li>
+              <li>g de carne moída</li>
+              <li>cebola pequena picada</li>
+              <li>Hortelã picada a gosto</li>
+              <li>Sal, pimenta e cominho a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes até ficar homogêneo.</li>
+              <li>Coloque na tigela untada e pressione para firmar.</li>
+              <li>Cozinhe no micro por 10 minutos, mexendo na metade do tempo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Quibe no micro é o atalho da culinária árabe para preguiçosos com estilo. Se não cozinhar bem, culpa o micro, não sua habilidade.</div>
+    </article>
+
+    <article class="receita-card" id="creme-de-cenoura-com-gengibre">
+      <h2 class="receita-titulo">Creme de Cenoura com Gengibre</h2>
+      <p class="receita-desc">Um abraço quente no estômago pra espantar crise e boleto atrasado.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de cenoura picada</li>
+              <li>pedaço pequeno de gengibre ralado</li>
+              <li>xícara de água</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe cenoura, gengibre e água no micro por 10 minutos.</li>
+              <li>Bata até virar creme, tempere e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Creme de cenoura no micro é o calmante que não precisa de receita médica. Se ficar grosso, jogue mais água e menos drama.</div>
+    </article>
+
+    <article class="receita-card" id="misto-quente-na-caneca">
+      <h2 class="receita-titulo">Misto Quente na Caneca</h2>
+      <p class="receita-desc">Para o lanche que bate de frente com a preguiça e a fome ao mesmo tempo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 7 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão de forma picadas</li>
+              <li>fatias de presunto picadas</li>
+              <li>fatias de queijo picadas</li>
+              <li>ovo</li>
+              <li>colheres de sopa de leite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture tudo na caneca até formar massa.</li>
+              <li>Cozinhe no micro por 4 minutos até firmar.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Misto quente na caneca é o abraço rápido que você merece. Se passar do ponto, vira pizza de pão e aí já era.</div>
+    </article>
+
+    <article class="receita-card" id="creme-de-espinafre-com-queijo-rapido">
+      <h2 class="receita-titulo">Creme de Espinafre com Queijo Rápido</h2>
+      <p class="receita-desc">Pra quem quer verde na vida, mas só tem micro e vontade de maratonar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de espinafre cozido e picado</li>
+              <li>xícara de leite</li>
+              <li>colheres de sopa de queijo cremoso</li>
+              <li>Sal, pimenta e noz moscada a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes na tigela.</li>
+              <li>Cozinhe no micro por 7 minutos, mexendo na metade do tempo.</li>
+              <li>Bata até ficar cremoso e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Creme de espinafre no micro é o verde que seu corpo implora, mesmo que sua mente queria pizza. Se ficar estranho, finja que é receita avant-garde.</div>
+    </article>
+
+    <article class="receita-card" id="mousse-de-chocolate-na-caneca">
+      <h2 class="receita-titulo">Mousse de Chocolate na Caneca</h2>
+      <p class="receita-desc">Praquele doce que salva o dia sem sair do sofá nem do micro.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min + geladeira</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de chocolate em pó</li>
+              <li>colher de sopa de açúcar</li>
+              <li>colher de sopa de farinha de trigo</li>
+              <li>ovo</li>
+              <li>colheres de sopa de leite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes até ficar homogêneo.</li>
+              <li>Cozinhe no micro por 1 minuto.</li>
+              <li>Leve à geladeira por 1 hora antes de consumir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mousse de caneca é o Tinder dos doces: rápido e cheio de expectativas. Não coma quente, senão vira drama ao invés de sobremesa.</div>
+    </article>
+
+    <article class="receita-card" id="frango-com-curry-e-leite-de-coco-no-microondas">
+      <h2 class="receita-titulo">Frango com Curry e Leite de Coco no Microondas</h2>
+      <p class="receita-desc">Uma viagem gastronômica que cabe no seu micro e no seu bolso.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peito de frango em cubos</li>
+              <li>ml de leite de coco</li>
+              <li>colher de chá de curry em pó</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes no recipiente.</li>
+              <li>Cubra e cozinhe por 12 minutos, mexendo na metade do tempo.</li>
+              <li>Verifique o cozimento e ajuste temperos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Frango no micro com curry é a prova que dá pra viajar sem sair de casa — só não esquece o boleto da passagem.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-de-microondas-com-recheio-de-queijo">
+      <h2 class="receita-titulo">Tapioca de Microondas com Recheio de Queijo</h2>
+      <p class="receita-desc">Pra quem quer tapioca, mas só tem micro e pressa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca</li>
+              <li>g de queijo coalho ou mussarela</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe a goma no prato formando círculo fino.</li>
+              <li>Cozinhe por 1 minuto até firmar.</li>
+              <li>Coloque o queijo, dobre e volte ao micro por 1 minuto para derreter.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Tapioca no micro é o jeitinho rápido do nordeste para a vida corrida. Se passar do tempo, vira borracha gourmet — igual seu amor próprio depois da quinta cerveja.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-cremoso-de-microondas">
+      <h2 class="receita-titulo">Café Cremoso de Microondas</h2>
+      <p class="receita-desc">Pra quem precisa daquele café com energia e sem fila no bar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 3 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 2,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de café solúvel</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>colheres de sopa de leite em pó</li>
+              <li>colheres de sopa de água quente</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata café, açúcar e leite em pó até formar espuma.</li>
+              <li>Aqueça a água no micro por 1 minuto e misture ao creme.</li>
+              <li>Sirva imediatamente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Café cremoso no micro é o escudo contra a preguiça matinal. Se não fizer espuma, jogue a culpa no café, não na sua mão tremendo.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-de-cenoura-na-caneca">
+      <h2 class="receita-titulo">Bolo de Cenoura na Caneca</h2>
+      <p class="receita-desc">O bolo que não exige nada além do micro e da sua fome.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 7 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de farinha de trigo</li>
+              <li>colher de sopa de açúcar</li>
+              <li>colher de sopa de óleo</li>
+              <li>colheres de sopa de cenoura ralada</li>
+              <li>/4 colher de chá de fermento em pó</li>
+              <li>ovo</li>
+              <li>colheres de sopa de leite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes até formar massa.</li>
+              <li>Cozinhe no micro por 4 minutos.</li>
+              <li>Espere esfriar um pouco e aproveite.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bolo de cenoura na caneca é o consolo que cabe na sua mão. Se não crescer, pense que é dieta disfarçada.</div>
+    </article>
+
+    <article class="receita-card" id="creme-de-abacate-com-limao">
+      <h2 class="receita-titulo">Creme de Abacate com Limão</h2>
+      <p class="receita-desc">Pra quem quer vitamina e preguiça na mesma colherada.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abacate maduro</li>
+              <li>Suco de 1 limão</li>
+              <li>colheres de sopa de açúcar ou mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Amasse o abacate na tigela.</li>
+              <li>Misture limão e açúcar até ficar cremoso.</li>
+              <li>Refrigere por 10 minutos ou sirva direto.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Creme de abacate é o fast-food da saúde: simples, rápido e cheio de gordurinhas boas — igual sua desculpa pra não ir à academia.</div>
+    </article>
+
+    <article class="receita-card" id="lasanha-de-microondas-com-frango-e-ricota">
+      <h2 class="receita-titulo">Lasanha de Microondas com Frango e Ricota</h2>
+      <p class="receita-desc">Pra quem quer jantar digno sem suar a camisa ou o fogão.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>folhas de massa pré-cozida para lasanha</li>
+              <li>g de frango desfiado</li>
+              <li>g de ricota amassada</li>
+              <li>g de molho de tomate</li>
+              <li>Orégano e sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte camadas de massa, frango com ricota, molho, repita.</li>
+              <li>Cubra com molho e orégano.</li>
+              <li>Cozinhe por 12 minutos até a massa amolecer.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Lasanha no micro é o casamento perfeito entre pressa e gosto. Se o frango estiver seco, finja que é estilo “rusticão”.</div>
+    </article>
+
+    <article class="receita-card" id="pudim-de-leite-condensado-rapido">
+      <h2 class="receita-titulo">Pudim de Leite Condensado Rápido</h2>
+      <p class="receita-desc">A sobremesa oficial de quem perdeu a paciência mas não a esperança.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min + geladeira</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de leite condensado</li>
+              <li>latas de leite (medida da lata condensado)</li>
+              <li>ovos</li>
+              <li>/2 xícara de açúcar para calda</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Faça a calda no micro com açúcar até dourar e espalhe na forma.</li>
+              <li>Misture leite condensado, leite e ovos.</li>
+              <li>Cozinhe no micro por 10 minutos, mexendo na metade do tempo.</li>
+              <li>Deixe esfriar e leve à geladeira.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pudim no micro é o truque para salvar sua dignidade doce. Se endurecer demais, chame de "pudim de pedra" e venda como obra de arte.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

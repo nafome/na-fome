@@ -1,0 +1,1568 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🥒 Detox — Receitas NaFome</title>
+  <meta name="description" content="40 receitas para quem está na situação "Detox". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/detox/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🥒 Detox — Receitas NaFome">
+  <meta property="og:description" content="40 receitas para quem está na situação "Detox". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/detox/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🥒 Detox — NaFome",
+    "description": "40 receitas para quem está na situação "Detox". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/detox/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=detox" class="btn-sortear">🎲 Sortear receita de Detox</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🥒 Detox</h1>
+    <p>40 receitas para quem está na situação "Detox". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">40 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Detox pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=detox" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="suco-verde-desencanado">
+      <h2 class="receita-titulo">Suco Verde Desencanado</h2>
+      <p class="receita-desc">Porque a vida já é amarga, o suco não precisa ser também.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>folhas grandes de couve</li>
+              <li>maçã verde</li>
+              <li>pepino pequeno</li>
+              <li>Suco de 1 limão</li>
+              <li>ml de água de coco</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave todos os ingredientes.</li>
+              <li>Corte a maçã e o pepino em pedaços.</li>
+              <li>Bata tudo no liquidificador até ficar homogêneo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sua vida tá um caos, pelo menos o suco não precisa ser — pelo menos aqui ele é fácil, diferente de lidar com boletos atrasados.</div>
+    </article>
+
+    <article class="receita-card" id="salada-detox-do-sofrimento">
+      <h2 class="receita-titulo">Salada Detox do Sofrimento</h2>
+      <p class="receita-desc">Porque cortar carboidrato dói menos que terminar com crush no zap.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de rúcula</li>
+              <li>g de alface americana</li>
+              <li>cenoura ralada</li>
+              <li>tomate picado</li>
+              <li>Suco de 1 limão</li>
+              <li>colher de sopa de azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave e seque as folhas.</li>
+              <li>Misture todos os ingredientes numa tigela.</li>
+              <li>Tempere com limão e azeite.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada fácil e rápida, igual promessas de final de ano que nunca se cumprem.</div>
+    </article>
+
+    <article class="receita-card" id="cha-de-gengibre-queimar-calorias-e-amores">
+      <h2 class="receita-titulo">Chá de Gengibre Queimar Calorias e Amores</h2>
+      <p class="receita-desc">Porque o calor do chá precisa ser maior que o do seu último término.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de água</li>
+              <li>fatias de gengibre fresco</li>
+              <li>Mel a gosto</li>
+              <li>Suco de 1/2 limão</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água com o gengibre por 5 minutos.</li>
+              <li>Coe o chá em canecas.</li>
+              <li>Adicione mel e limão a gosto.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se queimar calorias igual queima seu amor, tá no caminho certo.</div>
+    </article>
+
+    <article class="receita-card" id="smoothie-de-abacaxi-com-hortela-do-vai-passar">
+      <h2 class="receita-titulo">Smoothie de Abacaxi com Hortelã do "Vai Passar"</h2>
+      <p class="receita-desc">Porque até a ressaca merece um calmante natural.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 8 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de abacaxi picado</li>
+              <li>punhado de folhas de hortelã</li>
+              <li>ml de água de coco</li>
+              <li>colher de sopa de chia</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida apertar, pelo menos o smoothie não vai te deixar na mão.</div>
+    </article>
+
+    <article class="receita-card" id="wrap-detox-de-frango-com-abacate">
+      <h2 class="receita-titulo">Wrap Detox de Frango com Abacate</h2>
+      <p class="receita-desc">Pra esquentar o corpo e o coração que anda congelado.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tortilhas integrais</li>
+              <li>g de peito de frango grelhado e desfiado</li>
+              <li>/2 abacate amassado</li>
+              <li>Folhas de alface</li>
+              <li>Tomate em rodelas</li>
+              <li>g de abóbora descascada e picada</li>
+              <li>pedaço pequeno de gengibre ralado</li>
+              <li>cebola média picada</li>
+              <li>dente de alho picado</li>
+              <li>ml de água</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Grelhe o frango e desfie.</li>
+              <li>Espalhe o abacate nas tortilhas.</li>
+              <li>Monte com frango, alface e tomate, e enrole.</li>
+              <li>Refogue cebola e alho até dourar.</li>
+              <li>Acrescente abóbora, gengibre e água, cozinhe até abóbora amolecer.</li>
+              <li>Bata tudo no liquidificador, volte para a panela, tempere e aqueça.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sopa quentinha que cura mais que mensagem de ex no meio da madrugada.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-quinoa-com-legumes-coloridos">
+      <h2 class="receita-titulo">Salada de Quinoa com Legumes Coloridos</h2>
+      <p class="receita-desc">Porque colorido na vida é melhor que boleto em atraso.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de quinoa</li>
+              <li>/2 pimentão vermelho picado</li>
+              <li>/2 pepino picado</li>
+              <li>tomate picado</li>
+              <li>Suco de 1 limão</li>
+              <li>colheres de sopa de azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a quinoa conforme a embalagem.</li>
+              <li>Misture os legumes com a quinoa cozida.</li>
+              <li>Tempere com limão e azeite.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Quinoa é vida, e essa salada é a prova que dá pra comer saudável sem perder a cor do humor.</div>
+    </article>
+
+    <article class="receita-card" id="agua-aromatizada-do-desespero">
+      <h2 class="receita-titulo">Água Aromatizada do Desespero</h2>
+      <p class="receita-desc">Porque beber água simples é só pra quem não sofre de boleto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 3,00</span>
+          <span class="badge">👤 1 litro</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>litro de água filtrada</li>
+              <li>limão fatiado</li>
+              <li>pepino fatiado</li>
+              <li>Folhas de hortelã</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque todos os ingredientes na jarra.</li>
+              <li>Deixe na geladeira por pelo menos 1 hora.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Água com sabor pra enganar o cérebro, porque a vontade mesmo é de um cafezinho e um boleto pago.</div>
+    </article>
+
+    <article class="receita-card" id="bowl-detox-tropical-com-chia">
+      <h2 class="receita-titulo">Bowl Detox Tropical com Chia</h2>
+      <p class="receita-desc">Porque até sua barriga merece férias na praia.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>banana amassada</li>
+              <li>/2 xícara de manga picada</li>
+              <li>colheres de sopa de chia</li>
+              <li>iogurte natural</li>
+              <li>colher de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture banana, manga e iogurte.</li>
+              <li>Adicione chia e mel.</li>
+              <li>Sirva imediatamente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bowl que te faz parecer fitness até no domingo preguiçoso.</div>
+    </article>
+
+    <article class="receita-card" id="suco-de-beterraba-que-te-deixa-forte-ou-so-com-cara-de">
+      <h2 class="receita-titulo">Suco de Beterraba que Te Deixa Forte (ou só com cara de)</h2>
+      <p class="receita-desc">Porque beterraba é o novo café, só que mais saudável e sem culpa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>beterraba média crua picada</li>
+              <li>cenouras pequenas</li>
+              <li>Suco de 1 laranja</li>
+              <li>ml de água</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes até ficar homogêneo.</li>
+              <li>Coe se preferir menos fibra.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Suco que te dá energia, porque o boleto não vai pagar sozinho.</div>
+    </article>
+
+    <article class="receita-card" id="chips-de-couve-crocantes-do-desespero-saudavel">
+      <h2 class="receita-titulo">Chips de Couve Crocantes do Desespero Saudável</h2>
+      <p class="receita-desc">Porque se não for crocante, não vale a pena.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>maço de couve</li>
+              <li>colher de azeite</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave e seque as folhas de couve.</li>
+              <li>Misture com azeite e sal.</li>
+              <li>Asse a 180°C por 15 minutos até ficar crocante.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Crocante como as promessas de dieta na segunda-feira.</div>
+    </article>
+
+    <article class="receita-card" id="agua-de-coco-com-limao-e-gengibre-do-sobrevivente">
+      <h2 class="receita-titulo">Água de Coco com Limão e Gengibre do Sobrevivente</h2>
+      <p class="receita-desc">Porque hidratação é o que sobra quando o resto desanda.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 3 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de água de coco</li>
+              <li>Suco de 1/2 limão</li>
+              <li>fatia fina de gengibre</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture tudo no copo.</li>
+              <li>Mexa bem e sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Hidratação que nem boleto atrasado: só aumenta.</div>
+    </article>
+
+    <article class="receita-card" id="guacamole-detox-da-sobrevivencia-amorosa">
+      <h2 class="receita-titulo">Guacamole Detox da Sobrevivência Amorosa</h2>
+      <p class="receita-desc">Porque refrescar a alma é mais barato que terapia.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abacates maduros</li>
+              <li>Suco de 1 limão</li>
+              <li>tomate picado</li>
+              <li>/4 de cebola picada</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>pepino fatiado</li>
+              <li>pote de iogurte natural</li>
+              <li>Folhas de hortelã picadas</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Amasse os abacates.</li>
+              <li>Misture com os outros ingredientes.</li>
+              <li>Sirva com palitos de legumes.</li>
+              <li>Misture o pepino com o iogurte.</li>
+              <li>Adicione hortelã e sal.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada tão refrescante que vai fazer você esquecer o boleto do mês.</div>
+    </article>
+
+    <article class="receita-card" id="sopa-fria-de-pepino-e-iogurte">
+      <h2 class="receita-titulo">Sopa Fria de Pepino e Iogurte</h2>
+      <p class="receita-desc">Pra quem quer frescor sem perder a pose.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pepinos médios</li>
+              <li>ml de iogurte natural</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os pepinos com iogurte e limão.</li>
+              <li>Tempere com sal e pimenta.</li>
+              <li>Leve à geladeira por 1 hora e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sopa fria que é mais fácil de fazer que entender boleto detalhado.</div>
+    </article>
+
+    <article class="receita-card" id="pancake-detox-de-aveia-e-banana">
+      <h2 class="receita-titulo">Pancake Detox de Aveia e Banana</h2>
+      <p class="receita-desc">Porque domingo sem pancake é igual a boleto sem desconto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>banana madura amassada</li>
+              <li>xícara de aveia em flocos finos</li>
+              <li>ovos</li>
+              <li>colher de chá de fermento em pó</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes até formar massa homogênea.</li>
+              <li>Aqueça a frigideira e faça os pancakes pequenos.</li>
+              <li>Cozinhe por 2-3 minutos de cada lado até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pancake que sustenta igual boleto que não sai do débito automático.</div>
+    </article>
+
+    <article class="receita-card" id="cha-de-hibisco-com-canela-do-esquenta-boleto">
+      <h2 class="receita-titulo">Chá de Hibisco com Canela do "Esquenta Boleto"</h2>
+      <p class="receita-desc">Porque o calor desse chá é o único que vai aquecer seu coração.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>litro de água</li>
+              <li>colheres de sopa de flores de hibisco secas</li>
+              <li>pau de canela</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água com hibisco e canela por 5 minutos.</li>
+              <li>Coe e adoce com mel.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Melhor que calor de boleto vencido.</div>
+    </article>
+
+    <article class="receita-card" id="mix-de-castanhas-e-sementes-detox">
+      <h2 class="receita-titulo">Mix de Castanhas e Sementes Detox</h2>
+      <p class="receita-desc">Porque a vida adulta é cheia de escolhas, e essa é saudável e gostosa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de amêndoas</li>
+              <li>g de castanha de caju</li>
+              <li>g de sementes de abóbora</li>
+              <li>g de sementes de girassol</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes em uma tigela.</li>
+              <li>Guarde em pote hermético.</li>
+              <li>Consuma como snack.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Snack que é mais confiável que promessa de político em época de eleição.</div>
+    </article>
+
+    <article class="receita-card" id="suco-detox-de-laranja-com-cenoura-e-gengibre">
+      <h2 class="receita-titulo">Suco Detox de Laranja com Cenoura e Gengibre</h2>
+      <p class="receita-desc">Porque se a vida te der limões, peça laranja e faça suco melhor.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>laranjas descascadas</li>
+              <li>cenouras médias picadas</li>
+              <li>pedaço pequeno de gengibre</li>
+              <li>ml de água</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador.</li>
+              <li>Coe para remover fibras, se preferir.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Suco que te dá energia pra enfrentar a pilha de boletos com mais disposição.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-grao-de-bico-com-tomate-e-cebola-roxa">
+      <h2 class="receita-titulo">Salada de Grão-de-Bico com Tomate e Cebola Roxa</h2>
+      <p class="receita-desc">Porque o grão-de-bico é o amigo que nunca deixa você na mão.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 13,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de grão-de-bico cozido</li>
+              <li>tomate picado</li>
+              <li>/2 cebola roxa picada</li>
+              <li>Suco de 1 limão</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes em uma tigela.</li>
+              <li>Tempere com limão, azeite, sal e pimenta.</li>
+              <li>Sirva fresca.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada que é mais fiel que amigo que some quando você precisa.</div>
+    </article>
+
+    <article class="receita-card" id="smoothie-verde-pos-treino-com-proteina-natural">
+      <h2 class="receita-titulo">Smoothie Verde Pós-Treino com Proteína Natural</h2>
+      <p class="receita-desc">Porque a proteína do feijão não é só pra feijoada, minha gente.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>banana</li>
+              <li>xícara de espinafre fresco</li>
+              <li>/2 xícara de feijão branco cozido</li>
+              <li>ml de água de coco</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes até ficar cremoso.</li>
+              <li>Sirva imediatamente.</li>
+              <li>Aproveite a energia.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Smoothie que sustenta mais que conversa fiada de boleto.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-aspargos-com-tomate-cereja-e-limao-siciliano">
+      <h2 class="receita-titulo">Salada de Aspargos com Tomate Cereja e Limão Siciliano</h2>
+      <p class="receita-desc">Porque jantar romântico detox não precisa ser triste.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de aspargos frescos</li>
+              <li>tomates cereja cortados ao meio</li>
+              <li>Suco de 1 limão siciliano</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe os aspargos em água fervente por 3 minutos e escorra.</li>
+              <li>Misture aspargos, tomates, limão, azeite, sal e pimenta.</li>
+              <li>Sirva frio ou em temperatura ambiente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Jantar detox que impressiona mais que desculpa esfarrapada pra faltar no trabalho.</div>
+    </article>
+
+    <article class="receita-card" id="agua-detox-de-maca-verde-com-canela">
+      <h2 class="receita-titulo">Água Detox de Maçã Verde com Canela</h2>
+      <p class="receita-desc">Porque até a água merece um upgrade na vida.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,50</span>
+          <span class="badge">👤 1 litro</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>litro de água filtrada</li>
+              <li>maçã verde fatiada</li>
+              <li>pau de canela</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque a maçã e a canela na jarra com água.</li>
+              <li>Deixe descansar na geladeira por no mínimo 1 hora.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Água que fica mais interessante que boletos com desconto.</div>
+    </article>
+
+    <article class="receita-card" id="mix-de-frutas-vermelhas-com-iogurte-e-mel">
+      <h2 class="receita-titulo">Mix de Frutas Vermelhas com Iogurte e Mel</h2>
+      <p class="receita-desc">Porque até o boleto mais chato pode ser adoçado.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de morangos picados</li>
+              <li>/2 xícara de mirtilos</li>
+              <li>pote de iogurte natural</li>
+              <li>colher de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture as frutas com o iogurte.</li>
+              <li>Regue com mel.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sobremesa saudável que vai fazer você esquecer que boleto existe.</div>
+    </article>
+
+    <article class="receita-card" id="smoothie-de-manga-cenoura-e-laranja">
+      <h2 class="receita-titulo">Smoothie de Manga, Cenoura e Laranja</h2>
+      <p class="receita-desc">Porque a cor vibrante é o único brilho que você precisa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 8 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>manga média picada</li>
+              <li>cenouras picadas</li>
+              <li>Suco de 2 laranjas</li>
+              <li>ml de água</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes até ficar cremoso.</li>
+              <li>Sirva gelado.</li>
+              <li>Aproveite.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Smoothie que dá mais brilho que sua conta no vermelho.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-abacate-com-tomate-e-salsinha">
+      <h2 class="receita-titulo">Salada de Abacate com Tomate e Salsinha</h2>
+      <p class="receita-desc">Porque abacate é o crush que nunca te deixa na mão.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abacate maduro picado</li>
+              <li>tomates picados</li>
+              <li>Salsinha picada a gosto</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o abacate, tomate e salsinha.</li>
+              <li>Tempere com limão, sal e pimenta.</li>
+              <li>Sirva na hora.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada que é mais confiável que promessa de político.</div>
+    </article>
+
+    <article class="receita-card" id="cha-gelado-de-erva-doce-e-hortela">
+      <h2 class="receita-titulo">Chá Gelado de Erva-Doce e Hortelã</h2>
+      <p class="receita-desc">Porque refrescar a alma é grátis e essencial.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>litro de água</li>
+              <li>colheres de sopa de erva-doce</li>
+              <li>punhado de folhas de hortelã</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água com erva-doce por 5 minutos.</li>
+              <li>Coe e adicione hortelã.</li>
+              <li>Deixe gelar e sirva com mel.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Chá que refresca mais que promessa de feriado prolongado.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-lentilha-com-cenoura-e-cebolinha">
+      <h2 class="receita-titulo">Salada de Lentilha com Cenoura e Cebolinha</h2>
+      <p class="receita-desc">Porque proteína vegetal é o que falta na sua vida e na sua geladeira.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de lentilha cozida</li>
+              <li>cenoura ralada</li>
+              <li>Cebolinha picada a gosto</li>
+              <li>Suco de 1 limão</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a lentilha até ficar macia.</li>
+              <li>Misture com cenoura e cebolinha.</li>
+              <li>Tempere com limão, azeite, sal e pimenta.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada que sustenta mais que conversa fiada de chefe.</div>
+    </article>
+
+    <article class="receita-card" id="smoothie-de-morango-com-banana-e-linhaca">
+      <h2 class="receita-titulo">Smoothie de Morango com Banana e Linhaça</h2>
+      <p class="receita-desc">Porque energia boa não vem só do cafezinho.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 8 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 13,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>banana madura</li>
+              <li>xícara de morangos</li>
+              <li>colher de sopa de linhaça</li>
+              <li>ml de água ou leite vegetal</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes até ficar cremoso.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Smoothie que é o combustível para aguentar mais uma reunião que podia ser um e-mail.</div>
+    </article>
+
+    <article class="receita-card" id="agua-de-melancia-com-hortela-refrescante">
+      <h2 class="receita-titulo">Água de Melancia com Hortelã Refrescante</h2>
+      <p class="receita-desc">Porque se a vida te der melancia, faça festa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 1 litro</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de melancia picada sem sementes</li>
+              <li>litro de água</li>
+              <li>Folhas de hortelã a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata a melancia com metade da água.</li>
+              <li>Coe e misture com o restante da água.</li>
+              <li>Adicione hortelã e sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Água que refresca mais que desculpa esfarrapada pra faltar na academia.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-repolho-roxo-com-maca-verde-e-nozes">
+      <h2 class="receita-titulo">Salada de Repolho Roxo com Maçã Verde e Nozes</h2>
+      <p class="receita-desc">Porque doce detox não é lenda urbana.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>/2 repolho roxo fatiado fino</li>
+              <li>maçã verde picada</li>
+              <li>/4 xícara de nozes picadas</li>
+              <li>Suco de 1 limão</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+              <li>abacate maduro</li>
+              <li>colheres de sopa de cacau em pó</li>
+              <li>colher de mel</li>
+              <li>ml de leite vegetal</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture repolho, maçã e nozes.</li>
+              <li>Tempere com limão, azeite, sal e pimenta.</li>
+              <li>Sirva fresca.</li>
+              <li>Bata todos os ingredientes até obter creme liso.</li>
+              <li>Sirva gelado.</li>
+              <li>Decore com cacau em pó.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sobremesa que engana o cérebro e não o boleto.</div>
+    </article>
+
+    <article class="receita-card" id="suco-de-aloe-vera-com-limao-para-desintoxicar">
+      <h2 class="receita-titulo">Suco de Aloe Vera com Limão para Desintoxicar</h2>
+      <p class="receita-desc">Porque até a planta sabe que você precisa se cuidar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de gel de aloe vera (babosa)</li>
+              <li>Suco de 1 limão</li>
+              <li>ml de água</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Extraia o gel da babosa cuidadosamente.</li>
+              <li>Bata o gel com água, limão e mel.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Suco que desintoxica mais que conversa com sogra no almoço de domingo.</div>
+    </article>
+
+    <article class="receita-card" id="bowl-de-acai-detox-com-granola-e-frutas">
+      <h2 class="receita-titulo">Bowl de Açaí Detox com Granola e Frutas</h2>
+      <p class="receita-desc">Porque até o açaí pode ser amigo da sua dieta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de polpa de açaí sem açúcar</li>
+              <li>banana</li>
+              <li>/2 xícara de granola sem açúcar</li>
+              <li>Frutas picadas a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata a polpa de açaí com banana até ficar cremoso.</li>
+              <li>Sirva em tigelas e decore com granola e frutas.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bowl que é mais gostoso que desconto em loja de roupa.</div>
+    </article>
+
+    <article class="receita-card" id="suco-de-citrus-com-pepino-e-gengibre">
+      <h2 class="receita-titulo">Suco de Citrus com Pepino e Gengibre</h2>
+      <p class="receita-desc">Porque suco bom é aquele que te acorda mais que o despertador.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>Suco de 1 laranja</li>
+              <li>Suco de 1 limão</li>
+              <li>/2 pepino picado</li>
+              <li>pedaço pequeno de gengibre</li>
+              <li>ml de água</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes até ficar homogêneo.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Suco que espanta mais sono que café forte.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-alcachofra-com-tomate-seco-e-rucula">
+      <h2 class="receita-titulo">Salada de Alcachofra com Tomate Seco e Rúcula</h2>
+      <p class="receita-desc">Porque jantar detox pode ser chique sem ser chato.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de corações de alcachofra cozidos</li>
+              <li>g de tomate seco picado</li>
+              <li>g de rúcula</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture alcachofra, tomate seco e rúcula.</li>
+              <li>Tempere com azeite, sal e pimenta.</li>
+              <li>Sirva fresca.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada que impressiona mais que desculpa esfarrapada para faltar na academia.</div>
+    </article>
+
+    <article class="receita-card" id="cha-de-camomila-com-limao-e-mel-do-relaxamento">
+      <h2 class="receita-titulo">Chá de Camomila com Limão e Mel do Relaxamento</h2>
+      <p class="receita-desc">Porque relaxar é preciso, mesmo com boleto na porta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de água</li>
+              <li>sachês de camomila</li>
+              <li>Suco de 1/2 limão</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água e prepare a camomila.</li>
+              <li>Adicione limão e mel.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Chá que relaxa mais que final de semana sem internet.</div>
+    </article>
+
+    <article class="receita-card" id="suco-detox-de-melancia-hortela-e-limao">
+      <h2 class="receita-titulo">Suco Detox de Melancia, Hortelã e Limão</h2>
+      <p class="receita-desc">Porque o verão pode estar longe, mas a vontade de refrescar não.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de melancia picada</li>
+              <li>Folhas de hortelã a gosto</li>
+              <li>Suco de 1 limão</li>
+              <li>ml de água</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes até homogeneizar.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Suco que refresca mais que desculpa esfarrapada pra faltar no trabalho.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-pepino-tomate-e-queijo-branco-light">
+      <h2 class="receita-titulo">Salada de Pepino, Tomate e Queijo Branco Light</h2>
+      <p class="receita-desc">Porque até dieta merece um toque de sabor.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pepino fatiado</li>
+              <li>tomates picados</li>
+              <li>g de queijo branco light em cubos</li>
+              <li>Azeite, sal e orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes.</li>
+              <li>Tempere com azeite, sal e orégano.</li>
+              <li>Sirva fresca.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada que é mais leve que desculpa pra faltar na academia.</div>
+    </article>
+
+    <article class="receita-card" id="smoothie-de-kiwi-com-espinafre-e-maca-verde">
+      <h2 class="receita-titulo">Smoothie de Kiwi com Espinafre e Maçã Verde</h2>
+      <p class="receita-desc">Porque verde é a cor da esperança (e da conta bancária que não fecha).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kiwis descascados</li>
+              <li>maçã verde picada</li>
+              <li>punhado de espinafre</li>
+              <li>ml de água</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes até ficar homogêneo.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Smoothie que te dá esperança enquanto o boleto só dá dor de cabeça.</div>
+    </article>
+
+    <article class="receita-card" id="smoothie-detox-desintoxicacao-com-humor">
+      <h2 class="receita-titulo">Smoothie Detox “Desintoxicação com Humor”</h2>
+      <p class="receita-desc">Porque limpar o corpo não precisa ser uma tortura – só quase!</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de água de coco gelada</li>
+              <li>maçã verde média picada (com fome e sem culpa)</li>
+              <li>/2 pepino japonês com casca (pra deixar o suco com mais personalidade)</li>
+              <li>punhado generoso de espinafre fresco (aquele verdinho que parece que te julga)</li>
+              <li>Suco de 1 limão siciliano (pra dar aquela acordada no corpo e na alma)</li>
+              <li>colher de chá de spirulina em pó (o toque “grilo falante” do detox)</li>
+              <li>pedaço pequeno de gengibre (do tamanho do seu bom humor)</li>
+              <li>Cubos de gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque a água de coco no liquidificador junto com a maçã, o pepino, o espinafre, o suco de limão, a spirulina e o gengibre.</li>
+              <li>Bata tudo até ficar homogêneo, tipo aquele papo que você tenta ter com o chefe: rápido e eficiente.</li>
+              <li>Adicione os cubos de gelo e bata mais uma vez para refrescar essa desintoxicação cheia de estilo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a spirulina te assustar, pense nela como aquele amigo esquisito que no fim só quer te ajudar... ou pelo menos queima umas calorias só de olhar pra ele! E se não gostar muito do sabor, respira fundo e lembra: detox é quase uma sessão de terapia em copo.</div>
+    </article>
+
+    <article class="receita-card" id="suco-detox-quem-me-viu-quem-me-ve">
+      <h2 class="receita-titulo">Suco Detox “Quem Me Viu, Quem Me Vê”</h2>
+      <p class="receita-desc">Porque ninguém merece começar o dia igual a zumbi, mas também não precisa virar coelhinho da Páscoa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de chá de água de coco gelada</li>
+              <li>/2 pepino japonês com casca</li>
+              <li>maçã verde pequena (sem caroço)</li>
+              <li>folha grande de couve manteiga</li>
+              <li>Suco de 1 limão siciliano</li>
+              <li>pedaço pequeno (2 cm) de gengibre fresco</li>
+              <li>ramo pequeno de salsa (não é só pra temperar a vida, não!)</li>
+              <li>Cubos de gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata tudo no liquidificador até ficar homogêneo e verde como a esperança da dieta.</li>
+              <li>Se quiser menos fibra e mais drama, passe pela peneira para um suco liso, tipo novela das seis.</li>
+              <li>Sirva gelado, de preferência em copo bonito pra impressionar o crush detox.</li>
+          </ol>
+        </div>
+      </div>
+      
+    </article>
+
+    <article class="receita-card" id="suco-desintoxicacao-do-ex-que-nao-sai-da-cabeca">
+      <h2 class="receita-titulo">Suco Desintoxicação do Ex que Não Sai da Cabeça</h2>
+      <p class="receita-desc">Porque limpar o corpo é fácil, o difícil é limpar a mente... mas a gente tenta!</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pepino médio descascado</li>
+              <li>maçã verde picada</li>
+              <li>Suco de 1 limão siciliano</li>
+              <li>folhas de hortelã fresca</li>
+              <li>pedaço pequeno de gengibre (aprox. 2 cm)</li>
+              <li>ml de água de coco</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque no liquidificador o pepino, a maçã verde, o suco de limão, as folhas de hortelã e o gengibre.</li>
+              <li>Adicione a água de coco e bata tudo até ficar homogêneo.</li>
+              <li>Sirva com bastante gelo para refrescar o corpo e a alma.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o ex ficar te ligando, ofereça um copo. Se ele não sumir, pelo menos você tá bem hidratado e detoxificado!</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

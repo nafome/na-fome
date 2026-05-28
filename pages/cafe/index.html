@@ -1,0 +1,1447 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>☕ Café — Receitas NaFome</title>
+  <meta name="description" content="38 receitas para quem está na situação "Café". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/cafe/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="☕ Café — Receitas NaFome">
+  <meta property="og:description" content="38 receitas para quem está na situação "Café". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/cafe/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "☕ Café — NaFome",
+    "description": "38 receitas para quem está na situação "Café". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/cafe/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=cafe" class="btn-sortear">🎲 Sortear receita de Café</a>
+  </nav>
+
+  <div class="hero">
+    <h1>☕ Café</h1>
+    <p>38 receitas para quem está na situação "Café". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">38 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Café pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=cafe" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="cafe-expresso-classico">
+      <h2 class="receita-titulo">Café Expresso Clássico</h2>
+      <p class="receita-desc">O empurrão que sua vida adulta insiste em pedir, tipo boleto vencido.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 3,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de café moído para expresso</li>
+              <li>ml de água filtrada</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça a máquina de café expresso.</li>
+              <li>Coloque o café moído no porta-filtro e compacte levemente.</li>
+              <li>Acione a máquina para extrair o café diretamente na xícara.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o café sair amargo demais, não é sua vida que está amarga, é só ajustar a moagem. Ou talvez seja mesmo.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-leite-cremoso-da-vovo">
+      <h2 class="receita-titulo">Café com Leite Cremoso da Vovó</h2>
+      <p class="receita-desc">Aquele abraço quentinho que nem seu crush te manda no WhatsApp.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de leite integral</li>
+              <li>ml de café coado forte</li>
+              <li>colher de chá de açúcar (opcional)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite na panela até quase ferver.</li>
+              <li>Bata o leite com o fouet até formar espuma cremosa.</li>
+              <li>Despeje o café nas canecas e adicione o leite por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Fazer espuma é igual a pagar boleto: ninguém quer, mas se não fizer, a vida fica sem graça.</div>
+    </article>
+
+    <article class="receita-card" id="mocha-de-chocolate-e-cafe-para-sobreviver-a-segunda">
+      <h2 class="receita-titulo">Mocha de Chocolate e Café para Sobreviver à Segunda</h2>
+      <p class="receita-desc">Porque café sozinho não salva, chocolate ajuda a disfarçar a tragédia.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café expresso</li>
+              <li>ml de leite integral</li>
+              <li>colheres de sopa de chocolate em pó</li>
+              <li>colher de sopa de açúcar</li>
+              <li>Chantilly para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o chocolate em pó com o açúcar e o leite em uma panela.</li>
+              <li>Aqueça mexendo até o chocolate dissolver completamente.</li>
+              <li>Adicione o café expresso, misture e despeje na caneca.</li>
+              <li>Cubra com chantilly a gosto.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der limões, faça limonada. Se te der boletos, faça mocha e finja que tá tudo bem.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-gelado-com-leite-condensado-adocando-o-caos">
+      <h2 class="receita-titulo">Café Gelado com Leite Condensado – Adoçando o Caos</h2>
+      <p class="receita-desc">O café que refresca e faz você esquecer que tem reunião às 8h.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 8 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado forte e gelado</li>
+              <li>ml de leite integral gelado</li>
+              <li>colheres de sopa de leite condensado</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em uma jarra, misture o café gelado com o leite condensado até dissolver.</li>
+              <li>Adicione o leite gelado e mexa bem.</li>
+              <li>Sirva nos copos com bastante gelo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Café gelado é igual férias: passa rápido, mas pelo menos dá um alívio.</div>
+    </article>
+
+    <article class="receita-card" id="cappuccino-caseiro-com-canela-porque-a-vida-e-um-drama">
+      <h2 class="receita-titulo">Cappuccino Caseiro com Canela – Porque a Vida é um Drama</h2>
+      <p class="receita-desc">A espuma que cobre o estresse, mas não paga suas contas.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café expresso</li>
+              <li>ml de leite integral</li>
+              <li>colher de chá de açúcar</li>
+              <li>Canela em pó para polvilhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Prepare o café expresso.</li>
+              <li>Aqueça e bata o leite até formar espuma densa.</li>
+              <li>Coloque o café na caneca, adicione o leite e cubra com espuma.</li>
+              <li>Polvilhe canela por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> A espuma de leite é tipo sua paciência: quanto mais bate, mais fina fica.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-turbinado-com-whey-para-os-atletas-do-sofa">
+      <h2 class="receita-titulo">Café Turbinado com Whey – Para os Atletas do Sofá</h2>
+      <p class="receita-desc">Proteína para o corpo, cafeína para aguentar a vida real.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 7 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado forte</li>
+              <li>scoop de whey protein sabor baunilha</li>
+              <li>ml de leite desnatado</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até ficar homogêneo.</li>
+              <li>Sirva imediatamente para não perder a motivação.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o sofá não te levanta, pelo menos o café com whey tenta.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-cardamomo-o-exotico-que-seu-boleto-nao-permite">
+      <h2 class="receita-titulo">Café com Cardamomo – O Exótico que Seu Boleto Não Permite</h2>
+      <p class="receita-desc">Sabor diferente pra fingir que sua vida é internacional.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado</li>
+              <li>vagens de cardamomo</li>
+              <li>Açúcar a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Quebre levemente as vagens de cardamomo.</li>
+              <li>Ferva o café junto com as vagens por 5 minutos.</li>
+              <li>Coe e sirva adoçado a gosto.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Cardamomo é como amigo falso: dá um sabor diferente, mas não resolve seus problemas.</div>
+    </article>
+
+    <article class="receita-card" id="latte-de-baunilha-doce-engano-matinal">
+      <h2 class="receita-titulo">Latte de Baunilha – Doce Engano Matinal</h2>
+      <p class="receita-desc">O café que te faz pensar que a vida é doce, até ver o extrato bancário.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 7,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café expresso</li>
+              <li>ml de leite integral</li>
+              <li>colher de chá de essência de baunilha</li>
+              <li>Açúcar a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite com a baunilha e o açúcar, mexendo bem.</li>
+              <li>Faça espuma com o leite usando o batedor.</li>
+              <li>Adicione o café expresso na caneca e despeje o leite por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse latte é igual promessa de político: doce no começo, mas não sustenta.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-leite-de-coco-e-gengibre-energia-e-drama">
+      <h2 class="receita-titulo">Café com Leite de Coco e Gengibre – Energia e Drama</h2>
+      <p class="receita-desc">Para quem quer acordar e ainda sentir que está numa praia... ou quase.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado</li>
+              <li>ml de leite de coco</li>
+              <li>pedaço pequeno de gengibre ralado</li>
+              <li>Açúcar a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite de coco com o gengibre por 5 minutos.</li>
+              <li>Coe para retirar o gengibre.</li>
+              <li>Misture o café coado ao leite de coco e adoçe.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Gengibre no café é tipo cobrar boletos em grupo: esquenta o bicho.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-dalgona-a-moda-que-te-cansa-antes-do-trabalho">
+      <h2 class="receita-titulo">Café Dalgona – A Moda Que Te Cansa Antes do Trabalho</h2>
+      <p class="receita-desc">Porque bater café virou exercício físico, e a vida é mesmo uma academia.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de café solúvel</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>colheres de sopa de água quente</li>
+              <li>ml de leite gelado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata o café, açúcar e água quente até formar um creme firme.</li>
+              <li>Coloque o leite no copo e adicione o creme por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se bater café fosse um esporte, já estaria na olimpíada da preguiça.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-leite-quente-e-torrada-de-queijo-cafe-da-manha-dos-campeoes">
+      <h2 class="receita-titulo">Café com Leite Quente e Torrada de Queijo – Café da Manhã dos Campeões</h2>
+      <p class="receita-desc">O combo que te prepara pra perder no trânsito e no trabalho.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado quente</li>
+              <li>ml de leite quente</li>
+              <li>fatias de pão de forma</li>
+              <li>fatias de queijo prato</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o café e o leite, misture na caneca.</li>
+              <li>Torre o pão e coloque o queijo por cima para derreter.</li>
+              <li>Sirva juntos e aproveite o pouco tempo antes do caos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Torrada com queijo é o abraço que você não recebe do chefe.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-leite-e-cacau-pra-quem-quer-sofrer-doce">
+      <h2 class="receita-titulo">Café com Leite e Cacau – Pra Quem Quer Sofrer Doce</h2>
+      <p class="receita-desc">Porque só café não é drama suficiente, precisa do cacau pra aumentar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado</li>
+              <li>ml de leite integral</li>
+              <li>colheres de sopa de cacau em pó</li>
+              <li>Açúcar a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o cacau com açúcar e um pouco de leite e aqueça até dissolver.</li>
+              <li>Adicione o restante do leite e o café, mexa bem.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o café com cacau fosse um relacionamento, seria aquele que te faz sofrer mas você não larga.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-hortela-refrescante-mentira-que-anima">
+      <h2 class="receita-titulo">Café com Hortelã Refrescante – Mentira que Anima</h2>
+      <p class="receita-desc">O café que tenta te enganar dizendo que você tá renovado.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 8 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado</li>
+              <li>ml de água</li>
+              <li>folhas de hortelã</li>
+              <li>Açúcar a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água com as folhas de hortelã por 3 minutos.</li>
+              <li>Misture o chá de hortelã com o café coado e adoce.</li>
+              <li>Sirva quente ou gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Hortelã no café é igual promessa de dieta: refrescante, mas você sabe que não vai durar.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-leite-e-canela-a-doce-tortura-da-manha">
+      <h2 class="receita-titulo">Café com Leite e Canela – A Doce Tortura da Manhã</h2>
+      <p class="receita-desc">Canela pra dar sabor, café pra disfarçar o cansaço, vida pra complicar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado</li>
+              <li>ml de leite integral</li>
+              <li>colher de chá de canela em pó</li>
+              <li>Açúcar a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite com a canela até quase ferver.</li>
+              <li>Misture o café coado e adoce a gosto.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Canela no café é igual cobrança de boleto: aparece sem avisar e não tem jeito.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-leite-de-amendoas-e-mel-sofisticacao-que-o-boleto-nao-permite">
+      <h2 class="receita-titulo">Café com Leite de Amêndoas e Mel – Sofisticação que o Boleto Não Permite</h2>
+      <p class="receita-desc">Porque às vezes a gente tenta ser saudável, mas o boleto grita “desista”.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado</li>
+              <li>ml de leite de amêndoas</li>
+              <li>colher de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite de amêndoas com o mel, mexendo até dissolver.</li>
+              <li>Adicione o café coado e misture.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Leite de amêndoas no café é tipo amigo que só aparece quando precisa: fino, mas raro.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-chantilly-e-raspas-de-chocolate-a-felicidade-instantanea">
+      <h2 class="receita-titulo">Café com Chantilly e Raspas de Chocolate – A Felicidade Instantânea</h2>
+      <p class="receita-desc">Porque só café não basta, tem que ter açúcar, gordura e culpa junto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café expresso</li>
+              <li>ml de leite integral</li>
+              <li>Chantilly a gosto</li>
+              <li>g de chocolate meio amargo para raspar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça e misture leite com café.</li>
+              <li>Despeje na caneca e cubra com chantilly.</li>
+              <li>Rale o chocolate por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Chantilly no café é como férias: só dura um pouco, mas vale cada segundo.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-leite-de-aveia-e-canela-o-sofrimento-vegano">
+      <h2 class="receita-titulo">Café com Leite de Aveia e Canela – O Sofrimento Vegano</h2>
+      <p class="receita-desc">Quando o boleto não é só da conta, é também da dieta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado</li>
+              <li>ml de leite de aveia</li>
+              <li>colher de chá de canela em pó</li>
+              <li>Açúcar mascavo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite de aveia com a canela e o açúcar.</li>
+              <li>Misture o café coado e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Leite de aveia é como promessa de academia: muita vontade, pouca prática.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-licor-de-amendoas-pra-adultos-com-problemas">
+      <h2 class="receita-titulo">Café com Licor de Amêndoas – Pra Adultos com Problemas</h2>
+      <p class="receita-desc">O café que entende seu drama e ainda ajuda a esquecer.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café expresso</li>
+              <li>ml de licor de amêndoas</li>
+              <li>Chantilly para decorar (opcional)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Prepare o café expresso.</li>
+              <li>Adicione o licor ao café e misture.</li>
+              <li>Decore com chantilly se desejar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Licor no café é o “jeitinho” do adulto que não aguenta mais boletos.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-leite-condensado-e-pacoca-brasilidade-em-cada-gole">
+      <h2 class="receita-titulo">Café com Leite Condensado e Paçoca – Brasilidade em Cada Gole</h2>
+      <p class="receita-desc">Porque brasileiro é assim: mistura tudo e ainda acha que é simples.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 7,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado</li>
+              <li>ml de leite integral</li>
+              <li>colheres de sopa de leite condensado</li>
+              <li>unidades de paçoca esfarelada</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite com o leite condensado até quase ferver.</li>
+              <li>Misture o café coado ao leite.</li>
+              <li>Polvilhe a paçoca por cima antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Paçoca no café é tipo abraço de vó: doce, acolhedor e meio bagunçado.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-canela-e-pimenta-pra-quem-quer-sofrer-em-grande-estilo">
+      <h2 class="receita-titulo">Café com Canela e Pimenta – Pra Quem Quer Sofrer em Grande Estilo</h2>
+      <p class="receita-desc">Aquele café que te aquece e arde igual a fatura do cartão.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado</li>
+              <li>pitada de canela em pó</li>
+              <li>pitada de pimenta-do-reino moída</li>
+              <li>Açúcar a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Prepare o café coado.</li>
+              <li>Misture a canela, a pimenta e o açúcar no café quente.</li>
+              <li>Sirva imediatamente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pimenta no café é igual chefe gritando: dói, mas faz você ficar alerta.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-creme-de-leite-e-melado-doce-ilusao">
+      <h2 class="receita-titulo">Café com Creme de Leite e Melado – Doce Ilusão</h2>
+      <p class="receita-desc">Pra quem quer café com açúcar, gordura e culpa em um só copo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado</li>
+              <li>colheres de sopa de creme de leite</li>
+              <li>colher de sopa de melado de cana</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o café com o creme de leite até ficar homogêneo.</li>
+              <li>Adicione o melado e mexa bem.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Creme de leite no café é tipo férias prolongadas: você sabe que devia evitar, mas não resiste.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-baunilha-e-noz-moscada-o-luxo-da-simplicidade">
+      <h2 class="receita-titulo">Café com Baunilha e Noz-Moscada – O Luxo da Simplicidade</h2>
+      <p class="receita-desc">Porque às vezes a gente quer se sentir rico, mesmo que só no café.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado</li>
+              <li>ml de leite integral</li>
+              <li>colher de chá de essência de baunilha</li>
+              <li>pitada de noz-moscada ralada</li>
+              <li>Açúcar a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite com a baunilha e a noz-moscada.</li>
+              <li>Misture o café coado e adoce a gosto.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Noz-moscada no café é tipo elogio falso: deixa tudo mais interessante, mas não engana ninguém.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-leite-e-mel-a-docura-que-o-boleto-nao-permite">
+      <h2 class="receita-titulo">Café com Leite e Mel – A Doçura que o Boleto Não Permite</h2>
+      <p class="receita-desc">Doce na medida para enganar a fome e a tristeza.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 8 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado</li>
+              <li>ml de leite integral</li>
+              <li>colheres de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite e misture com o café coado.</li>
+              <li>Adicione o mel e mexa até dissolver.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mel no café é como elogio do chefe: doce, raro e faz o dia valer a pena.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-licor-de-cacau-e-chantilly-o-pecado-em-forma-de-bebida">
+      <h2 class="receita-titulo">Café com Licor de Cacau e Chantilly – O Pecado em Forma de Bebida</h2>
+      <p class="receita-desc">Porque café sem culpa é só café, e quem quer isso?</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 13,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café expresso</li>
+              <li>ml de licor de cacau</li>
+              <li>Chantilly para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Prepare o café expresso.</li>
+              <li>Misture com o licor de cacau.</li>
+              <li>Cubra com chantilly e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Licor no café é como feriado prolongado: só faz bem se você souber aproveitar.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-creme-de-coco-e-acucar-mascavo-tropicalizando-a-rotina">
+      <h2 class="receita-titulo">Café com Creme de Coco e Açúcar Mascavo – Tropicalizando a Rotina</h2>
+      <p class="receita-desc">Aquele café que te leva pra praia, mesmo se você só for até a cozinha.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado</li>
+              <li>ml de creme de coco</li>
+              <li>colheres de sopa de açúcar mascavo</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o creme de coco com o açúcar mascavo até dissolver.</li>
+              <li>Misture o café coado e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Creme de coco no café é tipo férias de 3 dias: pouco, mas faz o coração sorrir.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-leite-e-amendoas-torradas-crocancia-que-voce-nao-pediu">
+      <h2 class="receita-titulo">Café com Leite e Amêndoas Torradas – Crocância que Você Não Pediu</h2>
+      <p class="receita-desc">Porque café bom é café que te surpreende, tipo boleto que não vem.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado</li>
+              <li>ml de leite integral</li>
+              <li>g de amêndoas torradas picadas</li>
+              <li>Açúcar a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Torre as amêndoas em frigideira até dourar.</li>
+              <li>Aqueça o leite e misture com o café coado.</li>
+              <li>Sirva o café com leite e polvilhe as amêndoas por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Amêndoas torradas no café são como surpresa boa: raras, mas te deixam feliz.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-leite-e-acucar-mascavo-o-basico-que-salva-vidas">
+      <h2 class="receita-titulo">Café com Leite e Açúcar Mascavo – O Básico que Salva Vidas</h2>
+      <p class="receita-desc">Porque às vezes tudo que você precisa é do básico, tipo férias.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 8 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 3,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado</li>
+              <li>ml de leite integral</li>
+              <li>colheres de sopa de açúcar mascavo</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite e misture com o café coado.</li>
+              <li>Adicione o açúcar mascavo e mexa.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Açúcar mascavo no café é como abraço apertado: simples, mas reconfortante.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-leite-e-melado-de-cana-adocando-o-sofrimento">
+      <h2 class="receita-titulo">Café com Leite e Melado de Cana – Adoçando o Sofrimento</h2>
+      <p class="receita-desc">O café que tenta compensar o boleto que não para de chegar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado</li>
+              <li>ml de leite integral</li>
+              <li>colher de sopa de melado de cana</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite e misture ao café.</li>
+              <li>Adicione o melado e mexa bem.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Melado no café é como sonho de férias: doce, mas rápido.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-leite-de-soja-e-canela-acordando-sem-culpa">
+      <h2 class="receita-titulo">Café com Leite de Soja e Canela – Acordando Sem Culpa</h2>
+      <p class="receita-desc">Pra quem quer café, mas precisa fingir que é saudável.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado</li>
+              <li>ml de leite de soja</li>
+              <li>colher de chá de canela em pó</li>
+              <li>Açúcar a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite de soja com a canela e o açúcar.</li>
+              <li>Misture o café coado e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Leite de soja no café é tipo promessa de segunda-feira: cheia de boas intenções, mas difícil de cumprir.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-leite-e-chocolate-branco-ralado-docinho-que-te-engana">
+      <h2 class="receita-titulo">Café com Leite e Chocolate Branco Ralado – Docinho que Te Engana</h2>
+      <p class="receita-desc">Porque café amargo não paga boleto, mas chocolate branco ajuda a esquecer.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado</li>
+              <li>ml de leite integral</li>
+              <li>g de chocolate branco ralado</li>
+              <li>Açúcar a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite com o chocolate ralado até derreter.</li>
+              <li>Misture o café coado e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Chocolate branco no café é igual aquele amigo que só aparece pra festa: doce e inesperado.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-leite-e-gengibre-em-po-pra-aquecer-a-alma-e-o-bolo">
+      <h2 class="receita-titulo">Café com Leite e Gengibre em Pó – Pra Aquecer a Alma e o Bolo</h2>
+      <p class="receita-desc">O café que te esquenta antes do boleto congelar sua conta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado</li>
+              <li>ml de leite integral</li>
+              <li>colher de chá de gengibre em pó</li>
+              <li>Açúcar a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite com o gengibre e o açúcar.</li>
+              <li>Misture o café coado e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Gengibre no café é como aquele puxão de orelha: ardido, mas necessário.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-leite-e-acucar-mascavo-com-biscoito-amanteigado-a-conforto-total">
+      <h2 class="receita-titulo">Café com Leite e Açúcar Mascavo com Biscoito Amanteigado – A Conforto Total</h2>
+      <p class="receita-desc">Porque café bom é café que vem com biscoito pra aguentar a vida.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado</li>
+              <li>ml de leite integral</li>
+              <li>colheres de sopa de açúcar mascavo</li>
+              <li>biscoitos amanteigados</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite e misture com o café e o açúcar.</li>
+              <li>Sirva nas canecas com os biscoitos ao lado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Biscoito no café é igual abraço de amigo: simples, mas salva o dia.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-leite-e-cacau-em-po-o-classico-que-nunca-falha">
+      <h2 class="receita-titulo">Café com Leite e Cacau em Pó – O Clássico que Nunca Falha</h2>
+      <p class="receita-desc">A mistura que é o “bom dia” pra alma e o “pague seu boleto” pra carteira.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado</li>
+              <li>ml de leite integral</li>
+              <li>colheres de sopa de cacau em pó</li>
+              <li>Açúcar a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite com o cacau e o açúcar, mexendo até dissolver.</li>
+              <li>Misture o café coado e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Cacau no café é como cobrar boleto em grupo: todo mundo participa, mas ninguém quer.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-leite-e-canela-em-pau-aquele-toque-especial">
+      <h2 class="receita-titulo">Café com Leite e Canela em Pau – Aquele Toque Especial</h2>
+      <p class="receita-desc">Porque café também merece um carinho, diferente da fatura.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado</li>
+              <li>ml de leite integral</li>
+              <li>pau de canela</li>
+              <li>Açúcar a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite com o pau de canela por 5 minutos.</li>
+              <li>Misture o café coado, adoce e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Canela em pau no café é tipo conselho de mãe: insistente, mas faz bem.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-leite-e-baunilha-em-fava-o-sabor-do-sofrimento-chique">
+      <h2 class="receita-titulo">Café com Leite e Baunilha em Fava – O Sabor do Sofrimento Chique</h2>
+      <p class="receita-desc">Pra fingir que a crise é só no bolso, e não no paladar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 11,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado</li>
+              <li>ml de leite integral</li>
+              <li>fava de baunilha</li>
+              <li>Açúcar a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte a fava de baunilha e raspe as sementes.</li>
+              <li>Aqueça o leite com as sementes e a fava por 10 minutos.</li>
+              <li>Misture o café coado, adoce e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Fava de baunilha no café é igual boleto atrasado: caro, mas dá um gostinho especial.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-leite-e-avela-o-luxo-que-voce-merece-ou-nao">
+      <h2 class="receita-titulo">Café com Leite e Avelã – O Luxo que Você Merece (ou Não)</h2>
+      <p class="receita-desc">Aquele café que te faz sentir rico, pelo menos por um gole.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado</li>
+              <li>ml de leite integral</li>
+              <li>colheres de sopa de creme de avelã</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite e misture o creme de avelã até dissolver.</li>
+              <li>Adicione o café coado, misture e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Creme de avelã no café é igual final de novela: doce, inesperado e você quer mais.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-leite-e-acucar-de-coco-o-doce-que-nao-engorda-mentira">
+      <h2 class="receita-titulo">Café com Leite e Açúcar de Coco – O Doce que Não Engorda (Mentira)</h2>
+      <p class="receita-desc">Porque a gente finge que é saudável até no café.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado</li>
+              <li>ml de leite integral</li>
+              <li>colheres de sopa de açúcar de coco</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite com o açúcar de coco até dissolver.</li>
+              <li>Misture o café coado e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Açúcar de coco no café é tipo promessa de dieta: você sabe que não vai cumprir, mas tenta.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-leite-condensado-e-canela-em-po-a-felicidade-na-medida-certa">
+      <h2 class="receita-titulo">Café com Leite Condensado e Canela em Pó – A Felicidade na Medida Certa</h2>
+      <p class="receita-desc">O café que é um abraço doce, quente e com pitada de “vai dar tudo certo” (ou não).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de café coado</li>
+              <li>ml de leite integral</li>
+              <li>colheres de sopa de leite condensado</li>
+              <li>Canela em pó para polvilhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite com o leite condensado até quase ferver.</li>
+              <li>Misture o café coado e sirva nas canecas.</li>
+              <li>Polvilhe canela em pó por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Leite condensado no café é o jeitinho brasileiro de adoçar o amargo da vida.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

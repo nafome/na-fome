@@ -1,0 +1,1646 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🥛 Sem Lactose — Receitas NaFome</title>
+  <meta name="description" content="41 receitas para quem está na situação "Sem Lactose". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/sem-lactose/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🥛 Sem Lactose — Receitas NaFome">
+  <meta property="og:description" content="41 receitas para quem está na situação "Sem Lactose". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/sem-lactose/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🥛 Sem Lactose — NaFome",
+    "description": "41 receitas para quem está na situação "Sem Lactose". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/sem-lactose/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=sem-lactose" class="btn-sortear">🎲 Sortear receita de Sem Lactose</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🥛 Sem Lactose</h1>
+    <p>41 receitas para quem está na situação "Sem Lactose". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">41 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Sem Lactose pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=sem-lactose" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="panquecas-proteicas-de-banana-e-aveia">
+      <h2 class="receita-titulo">Panquecas Proteicas de Banana e Aveia</h2>
+      <p class="receita-desc">Pra quem quer acordar sem lactose e sem desculpa pra não malhar</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>bananas maduras</li>
+              <li>xícara de aveia em flocos</li>
+              <li>ovos</li>
+              <li>colher de chá de fermento em pó</li>
+              <li>colher de chá de canela em pó</li>
+              <li>Óleo de coco para untar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Amasse as bananas no bowl até virar um purê.</li>
+              <li>Misture a aveia, ovos, fermento e canela até formar uma massa homogênea.</li>
+              <li>Aqueça a frigideira untada e faça as panquecas, virando quando formar bolhas.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sua vida fosse tão fácil quanto virar uma panqueca, você já estaria rico – ou pelo menos sem lactose!</div>
+    </article>
+
+    <article class="receita-card" id="smoothie-verde-detox-sem-lactose">
+      <h2 class="receita-titulo">Smoothie Verde Detox Sem Lactose</h2>
+      <p class="receita-desc">Porque tomar verdura nunca foi tão gostoso – e a conta do nutricionista agradece</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de leite de amêndoas sem açúcar</li>
+              <li>punhado de espinafre fresco</li>
+              <li>maçã verde picada</li>
+              <li>colher de sopa de chia</li>
+              <li>Suco de ½ limão</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque todos os ingredientes no liquidificador.</li>
+              <li>Bata até ficar homogêneo e cremoso.</li>
+              <li>Sirva gelado, antes que a vontade de comer pizza volte.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse smoothie é tão detox que até seu boleto vai parecer mais leve depois de tomar.</div>
+    </article>
+
+    <article class="receita-card" id="escondidinho-de-carne-seca-com-pure-de-mandioquinha">
+      <h2 class="receita-titulo">Escondidinho de Carne Seca com Purê de Mandioquinha</h2>
+      <p class="receita-desc">O conforto da vida adulta em camadas sem lactose e sem culpa (ou quase)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de carne seca dessalgada e desfiada</li>
+              <li>g de mandioquinha</li>
+              <li>cebola média picada</li>
+              <li>dentes de alho picados</li>
+              <li>colher de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a mandioquinha em água até ficar macia e amasse até virar purê.</li>
+              <li>Refogue a cebola e alho no azeite, junte a carne seca e tempere.</li>
+              <li>Em uma assadeira, coloque metade do purê, a carne seca por cima e cubra com o restante do purê. Leve ao forno por 20 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der carne seca, faça escondidinho. Se te der boleto, faça um escondidinho na gaveta.</div>
+    </article>
+
+    <article class="receita-card" id="salada-mediterranea-com-grao-de-bico">
+      <h2 class="receita-titulo">Salada Mediterrânea com Grão-de-Bico</h2>
+      <p class="receita-desc">Porque às vezes a gente quer ser saudável, mas sem abrir mão do sabor e da preguiça</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de grão-de-bico cozido</li>
+              <li>tomate grande picado</li>
+              <li>pepino picado</li>
+              <li>½ cebola roxa fatiada</li>
+              <li>azeitonas pretas sem caroço</li>
+              <li>Suco de 1 limão</li>
+              <li>Azeite extra virgem, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em uma tigela, misture o grão-de-bico, tomate, pepino, cebola e azeitonas.</li>
+              <li>Tempere com limão, azeite, sal e pimenta.</li>
+              <li>Misture bem e sirva fria.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Essa salada é tão leve que até o seu chefe vai achar que você está de férias.</div>
+    </article>
+
+    <article class="receita-card" id="moqueca-de-palmito-com-leite-de-coco">
+      <h2 class="receita-titulo">Moqueca de Palmito com Leite de Coco</h2>
+      <p class="receita-desc">Pra sentir o gostinho do litoral sem lactose nem ressaca moral</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>vidros de palmito picado</li>
+              <li>cebola grande em rodelas</li>
+              <li>tomates maduros em rodelas</li>
+              <li>pimentão vermelho em tiras</li>
+              <li>ml de leite de coco</li>
+              <li>Coentro a gosto</li>
+              <li>colheres de sopa de azeite de dendê</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em uma panela, refogue a cebola, tomates e pimentão no azeite de dendê.</li>
+              <li>Junte o palmito, o leite de coco, tempere e deixe cozinhar por 20 minutos.</li>
+              <li>Finalize com coentro picado e sirva com arroz branco.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida fosse uma moqueca, pelo menos a gente saberia que tudo vai ficar saboroso no final.</div>
+    </article>
+
+    <article class="receita-card" id="brownie-de-chocolate-sem-lactose">
+      <h2 class="receita-titulo">Brownie de Chocolate Sem Lactose</h2>
+      <p class="receita-desc">Pra provar que alegria não precisa de leite, só de chocolate e vontade de comer escondido</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de trigo</li>
+              <li>½ xícara de cacau em pó</li>
+              <li>xícara de açúcar mascavo</li>
+              <li>colher de chá de fermento em pó</li>
+              <li>ovos</li>
+              <li>½ xícara de óleo de coco</li>
+              <li>½ xícara de leite de amêndoas</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, cacau, açúcar e fermento.</li>
+              <li>Em outro recipiente, bata ovos, óleo e leite vegetal.</li>
+              <li>Junte as duas misturas, despeje na forma untada e asse a 180°C por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se alguém te perguntar se tem lactose, responda que só tem amor e chocolate – e já é suficiente pra vida adulta.</div>
+    </article>
+
+    <article class="receita-card" id="omelete-de-espinafre-com-tomate-seco">
+      <h2 class="receita-titulo">Omelete de Espinafre com Tomate Seco</h2>
+      <p class="receita-desc">O café da manhã dos campeões que não querem chorar com intolerância</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>punhado de espinafre fresco picado</li>
+              <li>tomates secos picados</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>colher de sopa de azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com sal e pimenta.</li>
+              <li>Aqueça o azeite na frigideira, refogue o espinafre rapidamente.</li>
+              <li>Despeje os ovos, adicione tomate seco e cozinhe até firmar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Omelete é tipo boleto: rápido de fazer, difícil de ignorar e melhor que chorar.</div>
+    </article>
+
+    <article class="receita-card" id="pao-low-carb-sem-lactose-com-linhaca">
+      <h2 class="receita-titulo">Pão Low-Carb Sem Lactose com Linhaça</h2>
+      <p class="receita-desc">Pra quem quer pão mas não quer se sentir um queijo gritando no supermercado</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 10 fatias</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de farinha de amêndoas</li>
+              <li>ovos</li>
+              <li>colheres de sopa de linhaça triturada</li>
+              <li>colher de chá de fermento químico</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes até ficar homogêneo.</li>
+              <li>Despeje na forma untada.</li>
+              <li>Asse em forno pré-aquecido a 180°C por 45 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse pão é tão low-carb que o único carboidrato que você vai sentir é o da vontade de comer uma pizza no fim de semana.</div>
+    </article>
+
+    <article class="receita-card" id="risoto-cremoso-de-abobora-com-cogumelos">
+      <h2 class="receita-titulo">Risoto Cremoso de Abóbora com Cogumelos</h2>
+      <p class="receita-desc">Sofisticação sem lactose para enganar o crush e o estômago</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de arroz arbóreo</li>
+              <li>g de abóbora em cubos</li>
+              <li>g de cogumelos frescos fatiados</li>
+              <li>cebola picada</li>
+              <li>litro de caldo de legumes quente</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola no azeite até ficar transparente.</li>
+              <li>Junte a abóbora e cogumelos, refogue por 5 minutos.</li>
+              <li>Acrescente o arroz e vá adicionando caldo aos poucos, mexendo até cozinhar e ficar cremoso.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o amor não te der um risoto desses, pelo menos a vida te dá abóbora e coragem pra tentar de novo.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-recheada-com-frango-e-abacate">
+      <h2 class="receita-titulo">Tapioca Recheada com Frango e Abacate</h2>
+      <p class="receita-desc">O café da manhã que fala “sou saudável, mas também sou gostoso”</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca</li>
+              <li>g de frango desfiado temperado</li>
+              <li>½ abacate maduro fatiado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça a frigideira e espalhe a goma de tapioca até formar uma camada fina.</li>
+              <li>Cozinhe por 1 minuto, vire, recheie com frango e abacate.</li>
+              <li>Dobre ao meio e sirva imediatamente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Tapioca é igual boleto: só dá dor de cabeça se você deixar pra última hora.</div>
+    </article>
+
+    <article class="receita-card" id="sorvete-de-manga-com-leite-de-coco">
+      <h2 class="receita-titulo">Sorvete de Manga com Leite de Coco</h2>
+      <p class="receita-desc">Pra refrescar a alma e a intolerância em dias quentes (e boletos atrasados)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 4h (congelamento)</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>mangas maduras picadas</li>
+              <li>ml de leite de coco</li>
+              <li>colheres de sopa de mel ou agave</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata as mangas, leite de coco e mel no liquidificador até virar um creme.</li>
+              <li>Coloque em forma e leve ao congelador por 3 horas.</li>
+              <li>Mexa a cada 30 minutos para evitar cristais de gelo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse sorvete é tão gostoso que até seu boleto congelado vai parecer mais doce.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-salgada-de-grao-de-bico-e-ervas">
+      <h2 class="receita-titulo">Panqueca Salgada de Grão-de-Bico e Ervas</h2>
+      <p class="receita-desc">Pra quem quer proteína e não quer drama (ou leite derramado)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de grão-de-bico</li>
+              <li>xícara de água</li>
+              <li>colher de sopa de azeite</li>
+              <li>Salsinha e cebolinha picadas a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a farinha com água, azeite, ervas e temperos até formar uma massa líquida.</li>
+              <li>Aqueça a frigideira e despeje porções da massa formando panquecas finas.</li>
+              <li>Cozinhe dos dois lados até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se fosse fácil como fazer essa panqueca, todo mundo teria vida adulta organizada e boletos pagos.</div>
+    </article>
+
+    <article class="receita-card" id="quiche-sem-lactose-de-legumes-com-massa-de-grao-de-bico">
+      <h2 class="receita-titulo">Quiche Sem Lactose de Legumes com Massa de Grão-de-Bico</h2>
+      <p class="receita-desc">Porque quiche também pode ser sem lactose – e sem transformar sua cozinha em zona de desastre</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h10 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 38,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de grão-de-bico</li>
+              <li>ovos</li>
+              <li>ml de leite de amêndoas</li>
+              <li>cenoura ralada</li>
+              <li>abobrinha ralada</li>
+              <li>cebola pequena picada</li>
+              <li>Sal, pimenta e noz-moscada a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha com 1 ovo e 2 colheres de sopa de azeite até formar massa e forre a forma.</li>
+              <li>Refogue os legumes e reserve.</li>
+              <li>Bata os ovos com o leite vegetal e temperos, junte os legumes e despeje na massa.</li>
+              <li>Asse a 180°C por 40 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se quiche fosse tão fácil quanto pagar boletos, todo mundo seria chef e milionário.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-de-cenoura-com-cobertura-de-chocolate-sem-lactose">
+      <h2 class="receita-titulo">Bolo de Cenoura com Cobertura de Chocolate Sem Lactose</h2>
+      <p class="receita-desc">A prova de que dá pra ser feliz sem leite e sem drama na cozinha</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 10 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>cenouras médias</li>
+              <li>ovos</li>
+              <li>xícara de óleo vegetal</li>
+              <li>xícaras de farinha de trigo</li>
+              <li>e ½ xícara de açúcar</li>
+              <li>colher de sopa de fermento em pó</li>
+              <li>g de chocolate meio amargo sem lactose</li>
+              <li>ml de leite de coco (para cobertura)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata no liquidificador cenoura, ovos e óleo.</li>
+              <li>Misture a farinha, açúcar e fermento, depois incorpore a mistura líquida.</li>
+              <li>Asse em forma untada a 180°C por 40 minutos.</li>
+              <li>Derreta o chocolate com leite de coco e cubra o bolo depois de frio.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida fosse um bolo, que pelo menos fosse assim: doce, sem lactose e fácil de engolir.</div>
+    </article>
+
+    <article class="receita-card" id="espaguete-de-abobrinha-ao-molho-de-tomate-e-manjericao">
+      <h2 class="receita-titulo">Espaguete de Abobrinha ao Molho de Tomate e Manjericão</h2>
+      <p class="receita-desc">Pra quem quer carboidrato sem culpa e sem leite, igual ex que some sem explicação</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 17,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abobrinhas médias cortadas em espaguete</li>
+              <li>tomates maduros picados</li>
+              <li>dentes de alho picados</li>
+              <li>Folhas de manjericão fresco</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue o alho no azeite, junte os tomates e cozinhe até formar molho.</li>
+              <li>Acrescente o manjericão, tempere e reserve.</li>
+              <li>Salteie a abobrinha rapidamente na frigideira para ficar al dente.</li>
+              <li>Misture a abobrinha com o molho e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se abobrinha fosse um ex, seria aquele que você esquece rápido porque nem vale a pena guardar.</div>
+    </article>
+
+    <article class="receita-card" id="sufle-salgado-de-batata-doce">
+      <h2 class="receita-titulo">Suflê Salgado de Batata Doce</h2>
+      <p class="receita-desc">Pra quem quer impressionar no jantar sem lactose e sem virar escravo da cozinha</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de batata doce cozida e amassada</li>
+              <li>ovos (claras separadas)</li>
+              <li>cebola pequena picada</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal e noz-moscada a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola no azeite e misture com a batata amassada.</li>
+              <li>Bata as claras em neve e incorpore delicadamente na mistura.</li>
+              <li>Tempere, coloque na forma untada e asse a 180°C por 35 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se seu suflê não crescer, lembre-se: nem todo mundo cresce na vida adulta.</div>
+    </article>
+
+    <article class="receita-card" id="curry-de-grao-de-bico-com-leite-de-coco">
+      <h2 class="receita-titulo">Curry de Grão-de-Bico com Leite de Coco</h2>
+      <p class="receita-desc">Sabor exótico que não precisa de leite pra te fazer viajar (sem sair do sofá)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de grão-de-bico cozido</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>colher de sopa de curry em pó</li>
+              <li>ml de leite de coco</li>
+              <li>tomates picados</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho no azeite, adicione o curry e mexa até soltar aroma.</li>
+              <li>Junte tomates, grão-de-bico e leite de coco, cozinhe por 20 minutos.</li>
+              <li>Ajuste o sal e sirva com arroz.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse curry é tão bom que até boleto atrasado vira motivo pra festa.</div>
+    </article>
+
+    <article class="receita-card" id="muffins-de-maca-e-canela-sem-lactose">
+      <h2 class="receita-titulo">Muffins de Maçã e Canela Sem Lactose</h2>
+      <p class="receita-desc">Porque até as manhãs de segunda merecem um mimo doce e sem drama</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 8 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>maçãs médias raladas</li>
+              <li>ovos</li>
+              <li>xícara de farinha de trigo integral</li>
+              <li>½ xícara de açúcar mascavo</li>
+              <li>colher de chá de fermento em pó</li>
+              <li>colher de chá de canela em pó</li>
+              <li>½ xícara de óleo vegetal</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture ovos, açúcar e óleo.</li>
+              <li>Junte a farinha, fermento, canela e maçãs raladas.</li>
+              <li>Coloque nas forminhas e asse a 180°C por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se não der pra fugir do boleto, pelo menos fuja da TPM com esses muffins.</div>
+    </article>
+
+    <article class="receita-card" id="pure-de-batata-doce-com-alho-assado">
+      <h2 class="receita-titulo">Purê de Batata-Doce com Alho Assado</h2>
+      <p class="receita-desc">Pra transformar a simplicidade em luxo – que nem boleto que vira investimento</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de batata-doce</li>
+              <li>cabeça de alho</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Asse o alho inteiro embrulhado em papel alumínio por 25 minutos a 200°C.</li>
+              <li>Cozinhe a batata-doce até ficar macia e amasse.</li>
+              <li>Misture o alho amassado com azeite, tempere e incorpore ao purê.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Purê de batata-doce é igual boleto: quando você acha que acabou, vem mais uma surpresa.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-quinoa-com-legumes-e-limao-siciliano">
+      <h2 class="receita-titulo">Salada de Quinoa com Legumes e Limão Siciliano</h2>
+      <p class="receita-desc">Pra quem quer saúde no prato e não no boletim do banco</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de quinoa</li>
+              <li>pepino picado</li>
+              <li>tomate picado</li>
+              <li>½ cebola roxa picada</li>
+              <li>Suco de 1 limão siciliano</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a quinoa conforme instruções da embalagem e deixe esfriar.</li>
+              <li>Misture todos os legumes na tigela.</li>
+              <li>Adicione a quinoa, tempere com limão, azeite, sal e pimenta.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida fosse uma salada, que pelo menos fosse tão bem temperada quanto essa.</div>
+    </article>
+
+    <article class="receita-card" id="bife-de-tofu-grelhado-com-molho-de-mostarda">
+      <h2 class="receita-titulo">Bife de Tofu Grelhado com Molho de Mostarda</h2>
+      <p class="receita-desc">Proteína vegetal que até seu cachorro vai querer roubar (se ele pudesse falar)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de tofu firme</li>
+              <li>colheres de sopa de mostarda Dijon</li>
+              <li>colher de sopa de azeite</li>
+              <li>Sal, pimenta e ervas finas a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte o tofu em fatias e tempere com sal, pimenta e azeite.</li>
+              <li>Grelhe o tofu em frigideira quente até dourar dos dois lados.</li>
+              <li>Misture mostarda com azeite e ervas para molho e sirva por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se tofu tivesse voz, diria “me respeita, que eu não tenho lactose”.</div>
+    </article>
+
+    <article class="receita-card" id="creme-de-abacate-com-cacau-e-melado">
+      <h2 class="receita-titulo">Creme de Abacate com Cacau e Melado</h2>
+      <p class="receita-desc">Sobremesa que é tão gostosa que você vai esquecer que está sem leite</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abacate maduro</li>
+              <li>colheres de sopa de cacau em pó</li>
+              <li>colher de sopa de melado de cana</li>
+              <li>colher de chá de essência de baunilha</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes até formar um creme liso.</li>
+              <li>Leve à geladeira por 30 minutos.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida fosse um creme, que fosse assim: doce, sem lactose e sem dar dor de cabeça.</div>
+    </article>
+
+    <article class="receita-card" id="frango-ao-curry-com-leite-de-coco-e-legumes">
+      <h2 class="receita-titulo">Frango ao Curry com Leite de Coco e Legumes</h2>
+      <p class="receita-desc">Jantar pra quem quer sabor, proteína e não quer lavar 500 panelas depois</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 32,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peito de frango em cubos</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>colher de sopa de curry em pó</li>
+              <li>ml de leite de coco</li>
+              <li>cenoura em rodelas</li>
+              <li>pimentão em tiras</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho no azeite, acrescente o curry e frite até soltar aroma.</li>
+              <li>Junte o frango, legumes e refogue por 5 minutos.</li>
+              <li>Adicione o leite de coco, tampe e cozinhe até o frango estar macio.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse prato é tão completo que até seu extrato bancário vai ficar com inveja.</div>
+    </article>
+
+    <article class="receita-card" id="wrap-integral-com-homus-e-legumes-grelhados">
+      <h2 class="receita-titulo">Wrap Integral com Homus e Legumes Grelhados</h2>
+      <p class="receita-desc">Lanche rápido que não tem lactose e nem enrolação (diferente da sua vida)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tortilhas integrais</li>
+              <li>g de homus</li>
+              <li>abobrinha fatiada</li>
+              <li>berinjela fatiada</li>
+              <li>pimentão vermelho fatiado</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Grelhe os legumes temperados com azeite, sal e pimenta.</li>
+              <li>Espalhe homus sobre as tortilhas.</li>
+              <li>Recheie com os legumes e enrole firmemente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se enrolar fosse esporte, esse wrap seria campeão mundial e sua vida bem menos enrolada.</div>
+    </article>
+
+    <article class="receita-card" id="panetone-vegano-sem-lactose">
+      <h2 class="receita-titulo">Panetone Vegano Sem Lactose</h2>
+      <p class="receita-desc">Natal o ano inteiro, sem lactose e sem desculpas pra não dividir</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 2h30 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 45,00</span>
+          <span class="badge">👤 10 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de farinha de trigo</li>
+              <li>g de açúcar mascavo</li>
+              <li>g de fermento biológico seco</li>
+              <li>ml de leite de amêndoas morno</li>
+              <li>g de frutas cristalizadas</li>
+              <li>g de uvas-passas</li>
+              <li>ml de óleo vegetal</li>
+              <li>colher de chá de essência de panetone</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture fermento no leite morno e deixe ativar por 10 minutos.</li>
+              <li>Em bowl, misture farinha, açúcar e sal, adicione fermento ativado, óleo e essência.</li>
+              <li>Sove até ficar elástica, incorpore as frutas e deixe crescer por 1h.</li>
+              <li>Modele o panetone, coloque na forma e asse a 180°C por 40 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se você acha que fazer panetone é difícil, tenta pagar boleto atrasado em dia.</div>
+    </article>
+
+    <article class="receita-card" id="poke-bowl-de-salmao-com-molho-sem-lactose">
+      <h2 class="receita-titulo">Poke Bowl de Salmão com Molho Sem Lactose</h2>
+      <p class="receita-desc">Pra quem quer comer bem e fingir que está numa ilha, não numa sexta-feira de caos</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 50,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de salmão fresco em cubos</li>
+              <li>xícara de arroz japonês cozido</li>
+              <li>½ pepino fatiado</li>
+              <li>abacate fatiado</li>
+              <li>colher de sopa de shoyu sem lactose</li>
+              <li>colher de sopa de óleo de gergelim</li>
+              <li>Sementes de gergelim para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o salmão com shoyu e óleo de gergelim.</li>
+              <li>Monte a tigela com arroz, salmão temperado e os legumes.</li>
+              <li>Decore com sementes de gergelim e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o seu chefe fosse um poke, pelo menos seria bonito, saboroso e sem lactose.</div>
+    </article>
+
+    <article class="receita-card" id="pizza-de-massa-integral-sem-lactose">
+      <h2 class="receita-titulo">Pizza de Massa Integral Sem Lactose</h2>
+      <p class="receita-desc">Porque pizza sem lactose existe e não é castigo, é revolução no seu domingo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de farinha de trigo integral</li>
+              <li>colher de chá de fermento biológico seco</li>
+              <li>colher de chá de açúcar</li>
+              <li>ml de água morna</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Molho de tomate caseiro</li>
+              <li>Legumes fatiados (tomate, cebola, pimentão)</li>
+              <li>Queijo vegano ralado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ative o fermento na água morna com açúcar por 10 minutos.</li>
+              <li>Misture a farinha, fermento, azeite e água até formar massa, sove e deixe crescer por 40 minutos.</li>
+              <li>Abra a massa, espalhe molho, legumes e queijo vegano.</li>
+              <li>Asse a 200°C por 20 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se pizza fosse boleto, que pelo menos fosse essa que a gente quer pagar todo dia.</div>
+    </article>
+
+    <article class="receita-card" id="panetone-salgado-de-azeitonas-com-ervas">
+      <h2 class="receita-titulo">Panetone Salgado de Azeitonas com Ervas</h2>
+      <p class="receita-desc">Um panetone que só falta o Papai Noel pra ser perfeito – e sem lactose, claro</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 2h30 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 10 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de farinha de trigo</li>
+              <li>g de fermento biológico seco</li>
+              <li>ml de água morna</li>
+              <li>colheres de sopa de azeite</li>
+              <li>colher de chá de sal</li>
+              <li>g de azeitonas pretas picadas</li>
+              <li>Ervas finas a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ative o fermento na água morna por 10 minutos.</li>
+              <li>Misture farinha, sal, azeite e fermento ativado, sove até a massa ficar elástica.</li>
+              <li>Incorpore as azeitonas e ervas, deixe crescer por 1h.</li>
+              <li>Modele e coloque na forma, asse a 180°C por 40 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se esse panetone não alegrar seu dia, pelo menos ele não vai te cobrar boleto atrasado.</div>
+    </article>
+
+    <article class="receita-card" id="creme-de-abobora-com-gengibre-e-leite-de-coco">
+      <h2 class="receita-titulo">Creme de Abóbora com Gengibre e Leite de Coco</h2>
+      <p class="receita-desc">Pra esquentar o coração e a alma sem lactose nem drama</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de abóbora em cubos</li>
+              <li>pedaço pequeno de gengibre ralado</li>
+              <li>cebola picada</li>
+              <li>ml de leite de coco</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola e gengibre no azeite até dourar.</li>
+              <li>Acrescente abóbora e água suficiente para cobrir, cozinhe até amaciar.</li>
+              <li>Bata tudo no liquidificador, volte para a panela, junte leite de coco, tempere e aqueça.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o boletim da sua vida fosse tão leve quanto esse creme, você estaria de férias agora.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-batata-doce-com-recheio-de-frango">
+      <h2 class="receita-titulo">Panqueca de Batata Doce com Recheio de Frango</h2>
+      <p class="receita-desc">Jantar pra quem quer conforto sem lactose e sem culpa (e sem pizza de novo)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas doces médias cozidas e amassadas</li>
+              <li>ovos</li>
+              <li>xícara de farinha de trigo</li>
+              <li>g de frango desfiado temperado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture batata doce, ovos, farinha, sal e pimenta até formar massa de panqueca.</li>
+              <li>Faça panquecas na frigideira untada.</li>
+              <li>Recheie com frango desfiado e dobre ou enrole.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se só isso não te convencer a cozinhar, pelo menos pensa que é menos uma pizza pra pagar.</div>
+    </article>
+
+    <article class="receita-card" id="salada-quente-de-lentilha-com-legumes">
+      <h2 class="receita-titulo">Salada Quente de Lentilha com Legumes</h2>
+      <p class="receita-desc">Pra quem quer jantar leve, quente e sem lactose – tipo abraço de mãe em prato</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de lentilhas</li>
+              <li>cenoura picada</li>
+              <li>abobrinha picada</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a lentilha até ficar macia.</li>
+              <li>Refogue cebola e alho no azeite, adicione cenoura e abobrinha e cozinhe até amaciar.</li>
+              <li>Misture tudo, tempere e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida fosse uma lentilha, que fosse tão cheia de energia e sem lactose quanto essa salada.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-doce-com-pasta-de-amendoim-e-mel">
+      <h2 class="receita-titulo">Tapioca Doce com Pasta de Amendoim e Mel</h2>
+      <p class="receita-desc">Pra quem quer começar o dia feliz e sem lactose (e com um pouco de açúcar no sangue)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca</li>
+              <li>colheres de sopa de pasta de amendoim natural</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça a frigideira e espalhe a goma formando discos de tapioca.</li>
+              <li>Cozinhe até firmar, vire e aqueça rapidamente.</li>
+              <li>Recheie com pasta de amendoim e regue mel por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se esse café não te animar, nem o boleto mais generoso do mundo vai.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-legumes-com-molho-de-tahine">
+      <h2 class="receita-titulo">Espetinho de Legumes com Molho de Tahine</h2>
+      <p class="receita-desc">Finger food saudável e sem lactose que até seu crush vai querer provar</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abobrinha em rodelas grossas</li>
+              <li>pimentão vermelho em pedaços</li>
+              <li>g de cogumelos frescos</li>
+              <li>g de tomate cereja</li>
+              <li>colheres de sopa de tahine</li>
+              <li>Suco de ½ limão</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte os espetinhos com os legumes.</li>
+              <li>Grelhe os espetinhos até dourar.</li>
+              <li>Misture tahine, limão, sal e pimenta para molho e sirva junto.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se espetinho fosse boleto, que pelo menos fosse fácil de pagar e gostoso de encarar.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-espinafre-com-recheio-de-ricota-vegana">
+      <h2 class="receita-titulo">Panqueca de Espinafre com Recheio de Ricota Vegana</h2>
+      <p class="receita-desc">Pra quem quer verde no prato e zero lactose na vida (e no boletim)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de trigo</li>
+              <li>xícara de leite de aveia</li>
+              <li>punhado de espinafre cozido e picado</li>
+              <li>g de ricota vegana amassada</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Prepare a massa misturando farinha, leite e espinafre até ficar homogênea.</li>
+              <li>Faça panquecas na frigideira.</li>
+              <li>Recheie com ricota vegana temperada, enrole e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida fosse panqueca, que fosse recheada de alegria e sem lactose, pelo menos.</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-de-grao-de-bico-assado-com-ervas">
+      <h2 class="receita-titulo">Bolinho de Grão-de-Bico Assado com Ervas</h2>
+      <p class="receita-desc">Petisco saudável, sem lactose e que não vai te deixar devendo no banco</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 12 bolinhos</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de grão-de-bico cozido</li>
+              <li>cebola pequena picada</li>
+              <li>dentes de alho</li>
+              <li>punhado de salsinha</li>
+              <li>colheres de sopa de farinha de trigo</li>
+              <li>Sal, pimenta e cominho a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Processe o grão-de-bico, cebola, alho e salsinha até formar uma massa.</li>
+              <li>Misture a farinha e tempere.</li>
+              <li>Modele bolinhos, coloque na assadeira e asse a 200°C por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bolinho saudável é tipo boleto pago: dá satisfação e você quer repetir.</div>
+    </article>
+
+    <article class="receita-card" id="creme-de-castanha-de-caju-para-molhos-e-pates">
+      <h2 class="receita-titulo">Creme de Castanha de Caju para Molhos e Patês</h2>
+      <p class="receita-desc">Porque molho sem lactose não precisa ser triste – só precisa de castanha e atitude</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 Rende cerca de 250ml</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de castanha de caju crua</li>
+              <li>½ xícara de água</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Deixe as castanhas de molho por 4 horas ou de um dia para o outro.</li>
+              <li>Bata as castanhas com água, limão e sal até formar um creme liso.</li>
+              <li>Use em molhos, patês ou para substituir creme de leite.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida fosse um molho, que fosse assim: cremosa, versátil e sem lactose.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-integral-de-maca-com-maple-syrup">
+      <h2 class="receita-titulo">Panqueca Integral de Maçã com Maple Syrup</h2>
+      <p class="receita-desc">Café da manhã que é gostoso, saudável e sem lactose – igual final de novela boa</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha integral</li>
+              <li>ovo</li>
+              <li>maçã ralada</li>
+              <li>colher de chá de fermento</li>
+              <li>½ xícara de leite de aveia</li>
+              <li>Maple syrup para servir</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, ovo, fermento, leite e maçã até formar massa.</li>
+              <li>Faça panquecas na frigideira untada.</li>
+              <li>Sirva com maple syrup.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se maple syrup fosse boleto, que pelo menos fosse doce e fizesse a gente sorrir.</div>
+    </article>
+
+    <article class="receita-card" id="sopa-fria-de-pepino-com-hortela">
+      <h2 class="receita-titulo">Sopa Fria de Pepino com Hortelã</h2>
+      <p class="receita-desc">Pra refrescar a alma e o bolso, sem lactose e sem frescura</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min + geladeira</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pepinos grandes descascados e picados</li>
+              <li>iogurte vegetal natural</li>
+              <li>punhado de hortelã fresca</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Suco de ½ limão</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até ficar cremoso.</li>
+              <li>Leve à geladeira por 1 hora.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sopa fria é igual segunda-feira: difícil de engolir, mas necessária pra vida seguir.</div>
+    </article>
+
+    <article class="receita-card" id="torta-de-maca-sem-lactose-com-massa-integral">
+      <h2 class="receita-titulo">Torta de Maçã Sem Lactose com Massa Integral</h2>
+      <p class="receita-desc">Sobremesa que é só amor – e zero lactose, pra não chorar depois</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de farinha integral</li>
+              <li>ml de óleo vegetal</li>
+              <li>colheres de sopa de açúcar mascavo</li>
+              <li>maçãs fatiadas</li>
+              <li>Canela a gosto</li>
+              <li>Suco de 1 limão</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, óleo e açúcar até formar massa e forre a forma.</li>
+              <li>Misture maçãs com limão e canela e coloque sobre a massa.</li>
+              <li>Asse a 180°C por 50 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se essa torta não te der felicidade, pelo menos não vai te dar lactose e nem boletos atrasados.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-frutas-com-calda-de-maracuja">
+      <h2 class="receita-titulo">Espetinho de Frutas com Calda de Maracujá</h2>
+      <p class="receita-desc">Sobremesa que é refrescante, sem lactose e mais fácil que pagar boleto online</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>manga em cubos</li>
+              <li>abacaxi em cubos</li>
+              <li>kiwi fatiado</li>
+              <li>Polpa de 1 maracujá</li>
+              <li>colheres de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte os espetinhos alternando as frutas.</li>
+              <li>Em panela, aqueça maracujá com mel até formar calda.</li>
+              <li>Regue os espetinhos com a calda antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se espetinho de fruta fosse boleto, pelo menos seria doce e refrescante de pagar.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-aveia-com-recheio-de-morango-e-creme-de-coco">
+      <h2 class="receita-titulo">Panqueca de Aveia com Recheio de Morango e Creme de Coco</h2>
+      <p class="receita-desc">Café da manhã que é puro amor e zero lactose – igual final de novela das 8</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de aveia</li>
+              <li>ovo</li>
+              <li>xícara de leite de coco</li>
+              <li>Morangos picados a gosto</li>
+              <li>ml de creme de coco para recheio</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, ovo e leite de coco até formar massa.</li>
+              <li>Faça panquecas na frigideira.</li>
+              <li>Recheie cada panqueca com morango e creme de coco.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida fosse panqueca, que fosse recheada de alegria e sem lactose.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,1484 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🥙 Comida de Rua — Receitas NaFome</title>
+  <meta name="description" content="37 receitas para quem está na situação "Comida de Rua". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/comida-de-rua/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🥙 Comida de Rua — Receitas NaFome">
+  <meta property="og:description" content="37 receitas para quem está na situação "Comida de Rua". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/comida-de-rua/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🥙 Comida de Rua — NaFome",
+    "description": "37 receitas para quem está na situação "Comida de Rua". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/comida-de-rua/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=comida-de-rua" class="btn-sortear">🎲 Sortear receita de Comida de Rua</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🥙 Comida de Rua</h1>
+    <p>37 receitas para quem está na situação "Comida de Rua". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">37 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Comida de Rua pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=comida-de-rua" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="pastel-de-feira-crocante-e-sem-mimimi">
+      <h2 class="receita-titulo">Pastel de Feira Crocante e Sem Mimimi</h2>
+      <p class="receita-desc">Porque a vida já é dura, o pastel pelo menos tem que ser crocante.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g farinha de trigo</li>
+              <li>colher (chá) de sal</li>
+              <li>colher (sopa) de óleo</li>
+              <li>ml de água morna</li>
+              <li>Recheio: 300g carne moída refogada com cebola e cheiro-verde</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a farinha, sal e óleo numa tigela e vá adicionando a água aos poucos até formar uma massa lisa.</li>
+              <li>Abra a massa com o rolo até ficar fina e corte em retângulos.</li>
+              <li>Recheie com a carne moída, feche dobrando e aperte as bordas com um garfo.</li>
+              <li>Frite em óleo quente até dourar dos dois lados.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o pastel ficar murcho, não culpe a vida, culpe o óleo frio — fritura de feira não perdoa preguiça.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-de-queijo-coalho-com-melado-de-cana">
+      <h2 class="receita-titulo">Tapioca de Queijo Coalho com Melado de Cana</h2>
+      <p class="receita-desc">Aquele lanche que é doce, salgado e ainda te faz duvidar da sua dieta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g goma de tapioca hidratada</li>
+              <li>g queijo coalho fatiado</li>
+              <li>Melado de cana a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça a frigideira e espalhe a goma de tapioca formando uma panqueca fina.</li>
+              <li>Quando começar a desgrudar, coloque o queijo coalho e dobre ao meio.</li>
+              <li>Sirva com melado de cana por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a tapioca grudar, relaxa, é igual ex: aquele ex que insiste em ficar grudado – só precisa de um pouco mais de calor.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-de-pernil-com-vinagrete-arretado">
+      <h2 class="receita-titulo">Sanduíche de Pernil com Vinagrete Arretado</h2>
+      <p class="receita-desc">Aquele lanche que te deixa de boca aberta e bolso vazio, mas vale cada mordida.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min (se o pernil for feito na hora)</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g pernil temperado e assado</li>
+              <li>pão francês grande ou 3 pequenos</li>
+              <li>tomates picados</li>
+              <li>cebola roxa picada</li>
+              <li>Salsinha, sal, pimenta e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Asse o pernil temperado em forno médio por cerca de 40 minutos até ficar macio.</li>
+              <li>Pique o pernil em fatias finas e prepare o vinagrete misturando tomate, cebola, salsinha, azeite, sal e pimenta.</li>
+              <li>Monte o sanduíche com o pernil e o vinagrete dentro do pão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sanduíche de pernil é igual boleto vencido: demora a chegar, mas quando chega, pesa no bolso e no coração.</div>
+    </article>
+
+    <article class="receita-card" id="cuscuz-paulista-na-mao">
+      <h2 class="receita-titulo">Cuscuz Paulista na Mão</h2>
+      <p class="receita-desc">Porque cuscuz de rua é como amizade verdadeira: simples, mas cheio de sabor.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g farinha de milho flocada</li>
+              <li>ml caldo de legumes</li>
+              <li>g sardinha em óleo</li>
+              <li>tomate picado</li>
+              <li>cebola picada</li>
+              <li>/2 pimentão picado</li>
+              <li>Azeitonas e ovos cozidos para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola, tomate e pimentão até murchar.</li>
+              <li>Acrescente a farinha de milho e mexa até incorporar.</li>
+              <li>Adicione o caldo aos poucos até formar uma massa úmida.</li>
+              <li>Coloque sardinha, misture e transfira para a forma.</li>
+              <li>Decore com azeitonas e ovos e deixe firmar por 10 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o cuscuz grudar na forma, não bata na panela igual quando o boleto aperta, use uma espátula e paciência.</div>
+    </article>
+
+    <article class="receita-card" id="churros-recheados-com-doce-de-leite-e-canela">
+      <h2 class="receita-titulo">Churros Recheados com Doce de Leite e Canela</h2>
+      <p class="receita-desc">Aquele doce que te faz esquecer os boletos por 5 minutos, no mínimo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml água</li>
+              <li>colheres (sopa) açúcar</li>
+              <li>pitada de sal</li>
+              <li>g farinha de trigo</li>
+              <li>Óleo para fritar</li>
+              <li>Doce de leite para rechear</li>
+              <li>Açúcar e canela para polvilhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva água, açúcar e sal; retire do fogo e junte a farinha mexendo rápido até formar uma massa.</li>
+              <li>Coloque a massa no saco de confeitar e forme tiras no óleo quente.</li>
+              <li>Frite até dourar, escorra e recheie com doce de leite.</li>
+              <li>Polvilhe açúcar com canela.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Churros é igual aquele crush que some, quando aparece, é só doce e alegria – aproveita antes que acabe.</div>
+    </article>
+
+    <article class="receita-card" id="hot-dog-brasileiro-com-maionese-temperada">
+      <h2 class="receita-titulo">Hot Dog Brasileiro com Maionese Temperada</h2>
+      <p class="receita-desc">Porque cachorro quente aqui não é só pão e salsicha, é evento social.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>salsichas</li>
+              <li>pães para hot dog</li>
+              <li>Maionese caseira (gema, óleo, limão)</li>
+              <li>colher (sopa) de catchup</li>
+              <li>colher (sopa) de mostarda</li>
+              <li>Milho verde, ervilha e batata palha a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe as salsichas em água fervente por 5 minutos.</li>
+              <li>Misture maionese com alho e limão para temperar.</li>
+              <li>Monte o cachorro quente com salsicha, maionese, milho, ervilha, batata palha, catchup e mostarda no pão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Cachorro quente sem batata palha é igual domingo sem futebol – até existe, mas não faz sentido.</div>
+    </article>
+
+    <article class="receita-card" id="pastel-de-nata-salgado-com-frango-e-catupiry">
+      <h2 class="receita-titulo">Pastel de Nata Salgado com Frango e Catupiry</h2>
+      <p class="receita-desc">O pastel que é tão irresistível que devia até ter terapia para parar de comer.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g farinha de trigo</li>
+              <li>colher (chá) de sal</li>
+              <li>colher (sopa) de óleo</li>
+              <li>ml água morna</li>
+              <li>g frango desfiado temperado</li>
+              <li>g catupiry</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Faça a massa misturando farinha, sal, óleo e água até ficar lisa.</li>
+              <li>Abra a massa, corte em quadrados, recheie com frango e catupiry.</li>
+              <li>Dobre e feche as bordas com garfo, frite até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o catupiry escapar na fritura, não chora; é só mais um motivo para repetir o pastel.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-frango-com-molho-de-amendoim-picante">
+      <h2 class="receita-titulo">Espetinho de Frango com Molho de Amendoim Picante</h2>
+      <p class="receita-desc">Porque todo brasileiro merece um espetinho que esquenta até a alma e o boleto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g peito de frango em cubos</li>
+              <li>Sal, pimenta e limão a gosto</li>
+              <li>colheres (sopa) de pasta de amendoim</li>
+              <li>colher (chá) de molho de pimenta</li>
+              <li>colheres (sopa) de água</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o frango com sal, pimenta e limão.</li>
+              <li>Monte os espetinhos e grelhe na frigideira até dourar.</li>
+              <li>Misture a pasta de amendoim, pimenta e água até formar um molho cremoso.</li>
+              <li>Sirva os espetinhos com o molho.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Molho de amendoim é tipo aquele amigo inconveniente – parece estranho no começo, mas depois não vive sem.</div>
+    </article>
+
+    <article class="receita-card" id="acaraje-baiano-na-rua-sem-erro">
+      <h2 class="receita-titulo">Acarajé Baiano na Rua, Sem Erro</h2>
+      <p class="receita-desc">Se a vida tá difícil, pelo menos o acarajé não precisa ser.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g feijão-fradinho demolhado e descascado</li>
+              <li>cebola média</li>
+              <li>Sal a gosto</li>
+              <li>Azeite de dendê para fritar</li>
+              <li>Vatapá, caruru e camarão seco para acompanhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata o feijão com cebola e sal até formar uma massa leve.</li>
+              <li>Aqueça o dendê em panela funda.</li>
+              <li>Modele bolinhos com colher e frite até dourar.</li>
+              <li>Sirva com vatapá, caruru e camarão seco.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Fazer acarajé é igual pagar imposto: dá trabalho, mas se não fizer, não tem direito a reclamar.</div>
+    </article>
+
+    <article class="receita-card" id="burrito-caipira-de-frango-com-quiabo">
+      <h2 class="receita-titulo">Burrito Caipira de Frango com Quiabo</h2>
+      <p class="receita-desc">O burrito que resolveu dar um rolê no interior e não avisou.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tortillas de trigo grandes</li>
+              <li>g frango desfiado temperado</li>
+              <li>g quiabo cortado e refogado</li>
+              <li>g arroz branco cozido</li>
+              <li>Queijo ralado a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue o quiabo até ficar macio.</li>
+              <li>Misture o frango, arroz e quiabo.</li>
+              <li>Aqueça a tortilla, recheie com a mistura e queijo.</li>
+              <li>Enrole em formato de burrito.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Burrito com quiabo é igual amizade verdadeira: às vezes dá aquela meleca, mas o sabor compensa.</div>
+    </article>
+
+    <article class="receita-card" id="coxinha-de-frango-cremosa-com-massa-de-batata">
+      <h2 class="receita-titulo">Coxinha de Frango Cremosa com Massa de Batata</h2>
+      <p class="receita-desc">A coxinha que te faz esquecer a dieta e a conta atrasada.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g peito de frango desfiado</li>
+              <li>g batata cozida e amassada</li>
+              <li>cebola picada</li>
+              <li>dente de alho</li>
+              <li>litro óleo para fritar</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho, junte o frango, sal e pimenta.</li>
+              <li>Modele a massa de batata em formato de coxinha, recheie com frango.</li>
+              <li>Empane com farinha de rosca.</li>
+              <li>Frite em óleo quente até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a massa quebrar, não é você, é ela — coxinha também tem crise existencial.</div>
+    </article>
+
+    <article class="receita-card" id="acai-na-tigela-com-granola-e-banana">
+      <h2 class="receita-titulo">Açaí na Tigela com Granola e Banana</h2>
+      <p class="receita-desc">A energia da rua com sabor e zero culpa (ou quase).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g polpa de açaí congelada</li>
+              <li>bananas</li>
+              <li>ml suco de laranja</li>
+              <li>Granola a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata a polpa de açaí com a banana e suco até ficar cremoso.</li>
+              <li>Sirva em tigelas e acrescente granola por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Açaí é tipo aquele amigo fitness que aparece só no verão, mas deixa saudade o ano todo.</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-de-bacalhau-da-esquina">
+      <h2 class="receita-titulo">Bolinho de Bacalhau da Esquina</h2>
+      <p class="receita-desc">O bolinho que é tão bom que até o vizinho quer a receita (e o seu segredo).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h20 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g bacalhau dessalgado e desfiado</li>
+              <li>g batata cozida e amassada</li>
+              <li>cebola picada</li>
+              <li>ovos</li>
+              <li>Salsinha picada</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola, misture o bacalhau, batata, ovos e salsinha.</li>
+              <li>Modele bolinhos e frite em óleo quente até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bolinho de bacalhau é igual conta de luz em agosto: pode até assustar, mas a gente não vive sem.</div>
+    </article>
+
+    <article class="receita-card" id="kibe-frito-com-molho-de-tahine">
+      <h2 class="receita-titulo">Kibe Frito com Molho de Tahine</h2>
+      <p class="receita-desc">O clássico do churrasco de rua que é uma festa no paladar e na boca.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g trigo para kibe</li>
+              <li>g carne moída</li>
+              <li>cebola ralada</li>
+              <li>Hortelã picada</li>
+              <li>Sal e pimenta</li>
+              <li>Óleo para fritar</li>
+              <li>Molho tahine pronto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Hidrate o trigo, escorra e misture com carne, cebola, hortelã, sal e pimenta.</li>
+              <li>Modele os kibes e frite em óleo quente até dourar.</li>
+              <li>Sirva com molho tahine.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Kibe é igual aquele tio no churrasco: aparece simples, mas todo mundo ama.</div>
+    </article>
+
+    <article class="receita-card" id="esfiha-aberta-de-carne-com-cebola">
+      <h2 class="receita-titulo">Esfiha Aberta de Carne com Cebola</h2>
+      <p class="receita-desc">O lanche que prova que sírio é o tiozão da rua.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g farinha de trigo</li>
+              <li>g fermento biológico</li>
+              <li>ml água morna</li>
+              <li>g carne moída temperada</li>
+              <li>cebola picada</li>
+              <li>Sal, pimenta e cominho a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Prepare a massa misturando farinha, fermento e água, deixe crescer por 30 min.</li>
+              <li>Abra a massa em círculos, coloque carne e cebola temperada.</li>
+              <li>Asse em forno médio por 20 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a massa não crescer, não desanime, igual quando a conta não cai e você espera o salário.</div>
+    </article>
+
+    <article class="receita-card" id="burrito-vegano-de-grao-de-bico-e-abacate">
+      <h2 class="receita-titulo">Burrito Vegano de Grão-de-Bico e Abacate</h2>
+      <p class="receita-desc">Para quem quer street food que não pese na consciência nem no bolso.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 13,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tortillas integrais</li>
+              <li>g grão-de-bico cozido e temperado</li>
+              <li>abacate maduro em fatias</li>
+              <li>Alface e tomate picados</li>
+              <li>Molho de limão e coentro</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o grão-de-bico temperado na frigideira.</li>
+              <li>Monte o burrito com grão-de-bico, abacate, alface, tomate e molho.</li>
+              <li>Enrole e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Burrito vegano é igual final de novela das 6: surpreende quem achava que só ia ter drama.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-de-frango-com-catupiry-e-oregano">
+      <h2 class="receita-titulo">Tapioca de Frango com Catupiry e Orégano</h2>
+      <p class="receita-desc">A tapioca que faz você esquecer que a fila do ônibus nunca anda.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g goma de tapioca hidratada</li>
+              <li>g frango desfiado temperado</li>
+              <li>g catupiry</li>
+              <li>Orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe a goma na frigideira quente formando uma panqueca.</li>
+              <li>Quando soltar, recheie com frango e catupiry, polvilhe orégano.</li>
+              <li>Dobre ao meio e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Tapioca é igual reunião que podia ser e-mail: rápida e sem frescura.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-de-mortadela-completo">
+      <h2 class="receita-titulo">Sanduíche de Mortadela Completo</h2>
+      <p class="receita-desc">O clássico do Mercadão que é uma aula de como ser feliz e gordo ao mesmo tempo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pão francês grande</li>
+              <li>g mortadela fatiada</li>
+              <li>fatias de queijo prato</li>
+              <li>Tomate, alface e maionese a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte o pão ao meio, espalhe maionese.</li>
+              <li>Coloque a mortadela, queijo, tomate e alface.</li>
+              <li>Feche e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sanduíche de mortadela é igual boleto atrasado: todo mundo sabe que não devia, mas ninguém resiste.</div>
+    </article>
+
+    <article class="receita-card" id="pao-com-linguica-na-chapa-com-cebola-caramelizada">
+      <h2 class="receita-titulo">Pão com Linguiça na Chapa com Cebola Caramelizada</h2>
+      <p class="receita-desc">A combinação que vai fazer você esquecer o trânsito e o chefe chato.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pães franceses</li>
+              <li>g linguiça fresca fatiada</li>
+              <li>cebola grande fatiada</li>
+              <li>Manteiga a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Caramelize a cebola na manteiga em fogo baixo até dourar.</li>
+              <li>Grelhe a linguiça na chapa até cozinhar.</li>
+              <li>Monte o sanduíche com linguiça e cebola no pão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a linguiça ficar crua, não se preocupe, é só mais um motivo para pedir uma cerveja.</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-de-chuva-com-acucar-e-canela">
+      <h2 class="receita-titulo">Bolinho de Chuva com Açúcar e Canela</h2>
+      <p class="receita-desc">A nostalgia frita que é o abraço que a vida não deu hoje.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 20 bolinhos</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>colheres (sopa) açúcar</li>
+              <li>xícara farinha de trigo</li>
+              <li>colher (chá) fermento em pó</li>
+              <li>Óleo para fritar</li>
+              <li>Açúcar e canela para polvilhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture ovos, açúcar, farinha e fermento até formar uma massa homogênea.</li>
+              <li>Frite colheradas em óleo quente até dourar.</li>
+              <li>Escorra e passe no açúcar com canela.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bolinho de chuva é igual final de expediente na sexta: doce, rápido e a gente quer repetir.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-queijo-coalho-com-mel-e-pimenta">
+      <h2 class="receita-titulo">Espetinho de Queijo Coalho com Mel e Pimenta</h2>
+      <p class="receita-desc">O doce com salgado que vai te fazer repensar suas escolhas na rua.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g queijo coalho em cubos</li>
+              <li>Mel a gosto</li>
+              <li>Pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte os espetinhos com queijo coalho.</li>
+              <li>Grelhe até dourar levemente.</li>
+              <li>Regue com mel e polvilhe pimenta.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o espeto quebrar, não se desespere, é só a vida lembrando que nem tudo é perfeito.</div>
+    </article>
+
+    <article class="receita-card" id="pastel-de-palmito-com-requeijao">
+      <h2 class="receita-titulo">Pastel de Palmito com Requeijão</h2>
+      <p class="receita-desc">Porque nem só de carne vive o pastel, mas de recheio gostoso também.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g farinha de trigo</li>
+              <li>colher (chá) de sal</li>
+              <li>colher (sopa) de óleo</li>
+              <li>ml água morna</li>
+              <li>g palmito picado</li>
+              <li>g requeijão cremoso</li>
+              <li>Sal, pimenta e cheiro-verde</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, sal, óleo e água até formar massa lisa.</li>
+              <li>Refogue o palmito com sal, pimenta e cheiro-verde.</li>
+              <li>Recheie os pastéis com palmito e requeijão, feche e frite.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o requeijão escapar, não se culpe; até o recheio tem vontade própria na vida.</div>
+    </article>
+
+    <article class="receita-card" id="crepe-de-nutella-com-morango">
+      <h2 class="receita-titulo">Crepe de Nutella com Morango</h2>
+      <p class="receita-desc">A sobremesa que é tipo Netflix: vicia e não deixa ninguém sozinho.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara farinha de trigo</li>
+              <li>ovo</li>
+              <li>xícara leite</li>
+              <li>Nutella a gosto</li>
+              <li>Morangos fatiados</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, ovo e leite até formar massa líquida.</li>
+              <li>Faça crepes finos na frigideira.</li>
+              <li>Recheie com Nutella e morango, dobre e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o crepe rasgar, relaxa, até o melhor relacionamento tem suas falhas.</div>
+    </article>
+
+    <article class="receita-card" id="pastel-de-pizza-com-queijo-e-calabresa">
+      <h2 class="receita-titulo">Pastel de Pizza com Queijo e Calabresa</h2>
+      <p class="receita-desc">A ciranda perfeita entre pastel e pizza que sua fome pediu em prece.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g farinha de trigo</li>
+              <li>colher (chá) de sal</li>
+              <li>colher (sopa) de óleo</li>
+              <li>ml água morna</li>
+              <li>g calabresa picada</li>
+              <li>g queijo mussarela ralado</li>
+              <li>Molho de tomate temperado</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Prepare a massa com farinha, sal, óleo e água até ficar lisa.</li>
+              <li>Refogue calabresa, misture com queijo e molho de tomate.</li>
+              <li>Recheie os pastéis, feche e frite até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o molho vazar, não se culpe; até o melhor plano de vida tem seus imprevistos.</div>
+    </article>
+
+    <article class="receita-card" id="beiju-de-tapioca-com-coco-e-leite-condensado">
+      <h2 class="receita-titulo">Beiju de Tapioca com Coco e Leite Condensado</h2>
+      <p class="receita-desc">Aquele docinho que é mais fácil que pagar boleto, só que mais gostoso.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g goma de tapioca hidratada</li>
+              <li>Coco ralado a gosto</li>
+              <li>Leite condensado para servir</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe a goma na frigideira quente formando uma panqueca fina.</li>
+              <li>Polvilhe coco ralado e dobre.</li>
+              <li>Sirva com leite condensado por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o beiju grudar, não se desespere, é só a tapioca querendo mais atenção.</div>
+    </article>
+
+    <article class="receita-card" id="salgado-frito-de-queijo-com-oregano">
+      <h2 class="receita-titulo">Salgado Frito de Queijo com Orégano</h2>
+      <p class="receita-desc">Aquele petisco que é praticamente um abraço em forma de massa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g queijo mussarela em cubos</li>
+              <li>pacote massa folhada pronta</li>
+              <li>Orégano a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte a massa folhada em quadrados.</li>
+              <li>Recheie com queijo, polvilhe orégano e feche.</li>
+              <li>Frite até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o queijo escapar, não chore, chame o delivery e aproveite a vida.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-de-linguica-com-pao-de-alho">
+      <h2 class="receita-titulo">Sanduíche de Linguiça com Pão de Alho</h2>
+      <p class="receita-desc">Porque na vida adulta, uns 5 minutinhos na chapa salvam qualquer dia ruim.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 11,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pães franceses</li>
+              <li>g linguiça calabresa fatiada</li>
+              <li>Manteiga de alho para passar no pão</li>
+              <li>Cebola roxa fatiada</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Passe manteiga de alho no pão e toste na chapa.</li>
+              <li>Grelhe a linguiça até dourar.</li>
+              <li>Monte o sanduíche com linguiça e cebola.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o pão queimar, lembre-se: até a vida dá uma torrada vez ou outra.</div>
+    </article>
+
+    <article class="receita-card" id="churrasco-grego-de-rua-com-molho-tzatziki">
+      <h2 class="receita-titulo">Churrasco Grego de Rua com Molho Tzatziki</h2>
+      <p class="receita-desc">O giro que rodou o mundo e parou na sua esquina.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne de cordeiro moída</li>
+              <li>Alho, cebola, sal e especiarias a gosto</li>
+              <li>Pão pita ou pão sírio</li>
+              <li>Molho tzatziki (iogurte, pepino, alho, limão)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a carne com temperos e molde no espeto vertical.</li>
+              <li>Grelhe girando até cozinhar por dentro.</li>
+              <li>Sirva fatiado no pão com molho tzatziki.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se não tiver espeto, improvise com paciência, que nem a gente com os boletos atrasados.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-de-falafel-com-tahine-e-salada">
+      <h2 class="receita-titulo">Sanduíche de Falafel com Tahine e Salada</h2>
+      <p class="receita-desc">O lanche que prova que comida de rua pode ser saudável e cheia de atitude.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g grão-de-bico demolhado</li>
+              <li>cebola pequena</li>
+              <li>dentes de alho</li>
+              <li>Salsa e coentro</li>
+              <li>Sal e pimenta</li>
+              <li>Óleo para fritar</li>
+              <li>Pão sírio e tahine para servir</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Processe grão-de-bico com cebola, alho e temperos até virar massa.</li>
+              <li>Modele bolinhos e frite até dourar.</li>
+              <li>Sirva no pão com tahine e salada.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Falafel é igual promessa de segunda-feira: parece difícil, mas quando acontece, é uma delícia.</div>
+    </article>
+
+    <article class="receita-card" id="misto-quente-na-chapa-com-queijo-e-presunto-artesanal">
+      <h2 class="receita-titulo">Misto Quente na Chapa com Queijo e Presunto Artesanal</h2>
+      <p class="receita-desc">O lanche que te salva do apocalipse da fome e do cansaço.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão de forma</li>
+              <li>fatias de presunto artesanal</li>
+              <li>fatias de queijo mussarela</li>
+              <li>Manteiga para passar no pão</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Passe manteiga no pão, monte com presunto e queijo.</li>
+              <li>Leve à chapa ou sanduicheira até dourar e o queijo derreter.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se queimar, não se preocupe, pelo menos é crocante e a vida continua.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-camarao-com-alho-e-limao">
+      <h2 class="receita-titulo">Espetinho de Camarão com Alho e Limão</h2>
+      <p class="receita-desc">O luxo acessível que cabe no bolso e no estômago.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g camarão limpo</li>
+              <li>dentes de alho picados</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal, pimenta e azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o camarão com alho, limão, sal e pimenta.</li>
+              <li>Espete e grelhe na frigideira com azeite até ficar rosado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o camarão ficar borrachudo, é igual desculpa esfarrapada: ninguém merece, mas acontece.</div>
+    </article>
+
+    <article class="receita-card" id="cachorro-quente-com-pure-de-batata-e-bacon">
+      <h2 class="receita-titulo">Cachorro-Quente com Purê de Batata e Bacon</h2>
+      <p class="receita-desc">A invenção que prova que a gordura em dobro é o dobro de amor.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>salsichas</li>
+              <li>pães para cachorro-quente</li>
+              <li>Purê de batata cremoso</li>
+              <li>g bacon frito em cubos</li>
+              <li>Maionese, catchup e mostarda</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe as salsichas.</li>
+              <li>Prepare purê de batata cremoso.</li>
+              <li>Monte o cachorro-quente com salsicha, purê, bacon e molhos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a balança reclamar, manda ela passear e aproveita o lanche.</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-de-mandioca-com-carne-seca">
+      <h2 class="receita-titulo">Bolinho de Mandioca com Carne Seca</h2>
+      <p class="receita-desc">O quitute que é raiz, literalmente, e enche a barriga da galera.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g mandioca cozida e amassada</li>
+              <li>g carne seca desfiada e refogada</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture mandioca com carne seca, tempere.</li>
+              <li>Modele bolinhos e frite em óleo quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bolinho abrir na fritura, não se culpe; até na cozinha a vida dá umas escapadas.</div>
+    </article>
+
+    <article class="receita-card" id="quibe-assado-com-coalhada-e-hortela">
+      <h2 class="receita-titulo">Quibe Assado com Coalhada e Hortelã</h2>
+      <p class="receita-desc">O lanche que junta o melhor do Oriente com a preguiça do Ocidente.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g trigo para quibe hidratado</li>
+              <li>g carne moída</li>
+              <li>Cebola, sal, pimenta e hortelã picada</li>
+              <li>Coalhada para acompanhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture trigo, carne e temperos.</li>
+              <li>Coloque em assadeira e leve ao forno por 40 minutos.</li>
+              <li>Sirva com coalhada e hortelã.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o quibe ficar seco, não reclame, igual segunda-feira: só resta aceitar.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-bauru-classico-com-tomate-e-queijo">
+      <h2 class="receita-titulo">Sanduíche Bauru Clássico com Tomate e Queijo</h2>
+      <p class="receita-desc">O lanche que nunca sai de moda, igual desculpa para faltar à academia.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão de forma</li>
+              <li>fatias de presunto</li>
+              <li>fatias de queijo prato</li>
+              <li>fatias de tomate</li>
+              <li>Manteiga para passar no pão</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte o sanduíche com presunto, queijo e tomate.</li>
+              <li>Passe manteiga no pão e toste na sanduicheira até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o queijo não derreter, culpe o forno, não o entregador da pizza.</div>
+    </article>
+
+    <article class="receita-card" id="pao-de-queijo-recheado-com-linguica-calabresa">
+      <h2 class="receita-titulo">Pão de Queijo Recheado com Linguiça Calabresa</h2>
+      <p class="receita-desc">O pãozinho mineiro que resolveu se rebelar e virar lanche de rua.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h10 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 10 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g polvilho doce</li>
+              <li>ml leite</li>
+              <li>ml óleo</li>
+              <li>ovos</li>
+              <li>g linguiça calabresa cozida e picada</li>
+              <li>g queijo mussarela ralado</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva leite e óleo, misture com polvilho e sal.</li>
+              <li>Espere esfriar, junte ovos, queijo e linguiça.</li>
+              <li>Modele bolinhas e asse por 40 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o pão de queijo não crescer, não se preocupe, até ele tem seus dias de folga.</div>
+    </article>
+
+    <article class="receita-card" id="tacos-mexicanos-de-carne-com-guacamole">
+      <h2 class="receita-titulo">Tacos Mexicanos de Carne com Guacamole</h2>
+      <p class="receita-desc">O mexicano que invadiu a rua e conquistou o coração do brasileiro.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tortilhas de milho</li>
+              <li>g carne moída temperada</li>
+              <li>abacates maduros</li>
+              <li>Cebola, tomate, limão e coentro para guacamole</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a carne moída com temperos.</li>
+              <li>Amasse abacates com cebola, tomate, limão e coentro para guacamole.</li>
+              <li>Monte os tacos com carne e guacamole.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o guacamole ficar amargo, culpa o abacate, não a sua escolha de vida.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,1677 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🫕 Uma Panela Só — Receitas NaFome</title>
+  <meta name="description" content="41 receitas para quem está na situação "Uma Panela Só". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/uma-panela-so/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🫕 Uma Panela Só — Receitas NaFome">
+  <meta property="og:description" content="41 receitas para quem está na situação "Uma Panela Só". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/uma-panela-so/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🫕 Uma Panela Só — NaFome",
+    "description": "41 receitas para quem está na situação "Uma Panela Só". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/uma-panela-so/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=uma-panela-so" class="btn-sortear">🎲 Sortear receita de Uma Panela Só</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🫕 Uma Panela Só</h1>
+    <p>41 receitas para quem está na situação "Uma Panela Só". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">41 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Uma Panela Só pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=uma-panela-so" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="risoto-pos-treino-do-guerreiro-moderno">
+      <h2 class="receita-titulo">Risoto Pós-Treino do Guerreiro Moderno</h2>
+      <p class="receita-desc">Porque suar na academia já basta, na cozinha é só praticidade e proteína.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de arroz arbóreo</li>
+              <li>g de peito de frango em cubos</li>
+              <li>/2 cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>xícaras de caldo de legumes quente</li>
+              <li>colher de sopa de azeite</li>
+              <li>g de queijo parmesão ralado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o azeite na panela e refogue cebola e alho até ficarem translúcidos.</li>
+              <li>Adicione o frango e doure por 5 minutos.</li>
+              <li>Junte o arroz, mexa bem e comece a adicionar o caldo aos poucos, mexendo sempre até o arroz ficar cremoso e cozido.</li>
+              <li>Finalize com o queijo parmesão, ajuste o sal e a pimenta.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se cozinhar mais que o necessário, vira mingau – tipo boletos atrasados, só piora com o tempo.</div>
+    </article>
+
+    <article class="receita-card" id="jantar-romantico-de-macarrao-ao-molho-de-camarao">
+      <h2 class="receita-titulo">Jantar Romântico de Macarrão ao Molho de Camarão</h2>
+      <p class="receita-desc">Porque amor à primeira vista pede um prato que cabe numa panela só e no coração.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 38,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de macarrão tipo talharim</li>
+              <li>g de camarões limpos</li>
+              <li>/2 cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>ml de creme de leite</li>
+              <li>tomate picado</li>
+              <li>colher de sopa de azeite</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o macarrão na panela com água e sal até ficar al dente, escorra e reserve.</li>
+              <li>Na mesma panela, aqueça o azeite e refogue cebola, alho e tomate.</li>
+              <li>Acrescente o camarão e cozinhe até ficarem rosados.</li>
+              <li>Adicione o creme de leite, sal, pimenta e misture o macarrão ao molho.</li>
+              <li>Finalize com cheiro-verde.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o amor acabar, pelo menos o macarrão você comeu. Sobre ex, esquece, mas não esquece de lavar a panela.</div>
+    </article>
+
+    <article class="receita-card" id="omelete-de-forno-integral-para-cafe-da-manha">
+      <h2 class="receita-titulo">Omelete de Forno Integral para Café da Manhã</h2>
+      <p class="receita-desc">Acordar cedo é cruel, mas pelo menos o café da manhã não precisa ser.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>/2 xícara de espinafre picado</li>
+              <li>colheres de sopa de queijo cottage</li>
+              <li>/4 de cebola picada</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com sal e pimenta.</li>
+              <li>Misture o espinafre, a cebola e o queijo cottage.</li>
+              <li>Despeje tudo na assadeira untada e leve ao forno pré-aquecido a 180°C por 15 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o café da manhã é seu pior inimigo, essa omelete é o aliado que cabe na panela – e na sua vontade de voltar a dormir.</div>
+    </article>
+
+    <article class="receita-card" id="sopa-cremosa-de-abobora-com-gengibre">
+      <h2 class="receita-titulo">Sopa Cremosa de Abóbora com Gengibre</h2>
+      <p class="receita-desc">Pra esquentar a alma e enganar a fome, porque boletos não se pagam com sopa, infelizmente.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,50</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de abóbora descascada e picada</li>
+              <li>cebola picada</li>
+              <li>dentes de alho</li>
+              <li>pedaço de gengibre (2 cm) ralado</li>
+              <li>litro de água ou caldo de legumes</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho na panela com azeite até dourar.</li>
+              <li>Adicione a abóbora, gengibre e o caldo, cozinhe até a abóbora ficar macia.</li>
+              <li>Bata tudo com o mixer até virar creme, ajuste sal e pimenta.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der abóbora, faça sopa. Se der boleto, chora e faz a sopa mesmo assim.</div>
+    </article>
+
+    <article class="receita-card" id="quinoa-com-legumes-e-frango-desfiado">
+      <h2 class="receita-titulo">Quinoa com Legumes e Frango Desfiado</h2>
+      <p class="receita-desc">Porque "tem que ser saudável" e "não tem tempo" virou mantra da vida adulta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de quinoa</li>
+              <li>g de peito de frango cozido e desfiado</li>
+              <li>cenoura ralada</li>
+              <li>/2 abobrinha picada</li>
+              <li>/2 cebola picada</li>
+              <li>dentes de alho</li>
+              <li>xícaras de água</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho no azeite até dourar.</li>
+              <li>Acrescente os legumes, refogue por 5 minutos.</li>
+              <li>Adicione a quinoa, o frango e a água, cozinhe com a panela tampada até a quinoa absorver toda a água.</li>
+              <li>Ajuste o sal e a pimenta.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Cozinhar quinoa é igual boleto: no começo parece complicado, mas depois só falta pagar.</div>
+    </article>
+
+    <article class="receita-card" id="estrogonofe-vegano-de-grao-de-bico">
+      <h2 class="receita-titulo">Estrogonofe Vegano de Grão-de-Bico</h2>
+      <p class="receita-desc">Pra provar que dá pra ser vegano e não virar um saco de folhas.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de grão-de-bico cozido</li>
+              <li>/2 cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>ml de creme de castanha de caju</li>
+              <li>colher de sopa de molho shoyu</li>
+              <li>colher de sopa de páprica doce</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho no azeite até dourar.</li>
+              <li>Acrescente o grão-de-bico, páprica e molho shoyu, misture bem.</li>
+              <li>Adicione o creme de castanha, cozinhe até engrossar e tempere.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se alguém perguntar onde está a carne, responda que ela está no seu bolso – com esses preços, não sobra pra nada.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-integral-recheada-de-ricota-e-espinafre">
+      <h2 class="receita-titulo">Panqueca Integral Recheada de Ricota e Espinafre</h2>
+      <p class="receita-desc">Porque comer bem e rápido é o verdadeiro relacionamento sério.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha integral</li>
+              <li>ovo</li>
+              <li>xícara de leite</li>
+              <li>g de ricota amassada</li>
+              <li>/2 xícara de espinafre cozido e picado</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para untar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a farinha, ovo, leite e sal até formar uma massa líquida.</li>
+              <li>Faça panquecas na panela untada, virando para dourar dos dois lados.</li>
+              <li>Misture ricota e espinafre, tempere e recheie as panquecas.</li>
+              <li>Enrole e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Fazer panqueca é igual namoro: se você não virar na hora certa, queima tudo.</div>
+    </article>
+
+    <article class="receita-card" id="arroz-doce-proteico-de-aveia-e-whey">
+      <h2 class="receita-titulo">Arroz Doce Proteico de Aveia e Whey</h2>
+      <p class="receita-desc">Sobremesa que engana a fome e o personal trainer que vive no seu pé.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>/2 xícara de arroz cozido</li>
+              <li>colheres de sopa de aveia em flocos</li>
+              <li>scoop de whey sabor baunilha</li>
+              <li>xícara de leite desnatado</li>
+              <li>Canela em pó a gosto</li>
+              <li>Adoçante ou mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque o arroz, aveia e leite na panela e cozinhe até engrossar.</li>
+              <li>Retire do fogo e misture o whey e o adoçante.</li>
+              <li>Sirva com canela polvilhada.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida não te der açúcar, coloca whey e finge que é festa.</div>
+    </article>
+
+    <article class="receita-card" id="moqueca-de-banana-da-terra-vegana">
+      <h2 class="receita-titulo">Moqueca de Banana-da-Terra Vegana</h2>
+      <p class="receita-desc">Porque peixe no prato é luxo, mas sabor a gente finge que tem.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>bananas-da-terra maduras cortadas em rodelas</li>
+              <li>pimentão vermelho picado</li>
+              <li>cebola grande picada</li>
+              <li>tomates picados</li>
+              <li>ml de leite de coco</li>
+              <li>colher de sopa de azeite de dendê</li>
+              <li>Coentro, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola, pimentão e tomate no azeite de dendê até murchar.</li>
+              <li>Acrescente as bananas, leite de coco, sal, pimenta e deixe cozinhar com a panela tampada até as bananas amolecerem.</li>
+              <li>Finalize com coentro picado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Essa moqueca é como ex: parece que não vai dar certo, mas surpreende no final.</div>
+    </article>
+
+    <article class="receita-card" id="macarrao-com-molho-de-tomate-rustico-e-manjericao">
+      <h2 class="receita-titulo">Macarrão com Molho de Tomate Rústico e Manjericão</h2>
+      <p class="receita-desc">Porque às vezes a vida pede só um prato simples e amor próprio.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de macarrão penne</li>
+              <li>tomates maduros picados</li>
+              <li>dentes de alho picados</li>
+              <li>Folhas de manjericão a gosto</li>
+              <li>colher de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o macarrão em água salgada até ficar al dente, escorra e reserve.</li>
+              <li>Na mesma panela, refogue alho no azeite, adicione os tomates e deixe cozinhar até formar um molho rústico.</li>
+              <li>Misture o macarrão ao molho, tempere e finalize com manjericão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Macarrão é igual boleto: quando você pensa que acabou, aparece outro no meio do caminho.</div>
+    </article>
+
+    <article class="receita-card" id="batata-doce-com-carne-moida-e-legumes">
+      <h2 class="receita-titulo">Batata Doce com Carne Moída e Legumes</h2>
+      <p class="receita-desc">Energia pra virar adulto e pagar as contas sem desmaiar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas doces médias cortadas em cubos</li>
+              <li>g de carne moída</li>
+              <li>cenoura ralada</li>
+              <li>/2 cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho no azeite até dourar.</li>
+              <li>Adicione a carne moída e cozinhe até perder a cor rosada.</li>
+              <li>Acrescente a batata doce, cenoura, sal, pimenta e água suficiente para cozinhar até os legumes ficarem macios.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der batata doce, faça essa receita; se der boleto, faça também... mas chora um pouco.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-americana-fit-de-banana-e-aveia">
+      <h2 class="receita-titulo">Panqueca Americana Fit de Banana e Aveia</h2>
+      <p class="receita-desc">Pra enganar o estômago e o crush que só curte foto no Instagram.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>banana madura amassada</li>
+              <li>ovos</li>
+              <li>colheres de sopa de aveia em flocos</li>
+              <li>/2 colher de chá de fermento em pó</li>
+              <li>Canela a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes até formar uma massa homogênea.</li>
+              <li>Aqueça a panela e faça pequenas panquecas, virando até dourar dos dois lados.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Panqueca fit é igual promessa de ano novo: todo mundo começa animado, mas nem sempre termina.</div>
+    </article>
+
+    <article class="receita-card" id="feijoada-light-de-uma-panela">
+      <h2 class="receita-titulo">Feijoada Light de Uma Panela</h2>
+      <p class="receita-desc">A versão da feijoada que não pesa na consciência, mas agrada na barriga.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de feijão preto cozido</li>
+              <li>g de carne magra em cubos</li>
+              <li>linguiça calabresa cortada em rodelas (opcional)</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>folha de louro</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho no azeite até dourar.</li>
+              <li>Acrescente as carnes e doure levemente.</li>
+              <li>Junte o feijão, louro, sal, pimenta e um pouco de água, cozinhe até os sabores se incorporarem.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Feijoada light é tipo promessa de dieta: você sabe que pode, mas a tentação é outra.</div>
+    </article>
+
+    <article class="receita-card" id="curry-de-grao-de-bico-com-leite-de-coco">
+      <h2 class="receita-titulo">Curry de Grão-de-Bico com Leite de Coco</h2>
+      <p class="receita-desc">Sabor exótico que cabe na panela e no seu bolso.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de grão-de-bico cozido</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>colher de sopa de curry em pó</li>
+              <li>ml de leite de coco</li>
+              <li>tomate picado</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho no azeite até dourar.</li>
+              <li>Adicione o curry e mexa por 1 minuto para liberar os aromas.</li>
+              <li>Coloque o grão-de-bico, tomate e leite de coco, cozinhe até engrossar.</li>
+              <li>Ajuste sal e pimenta.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Curry é como boleto atrasado: arde na hora, mas depois traz um gostinho exótico.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-espinafre-com-recheio-de-frango-cremoso">
+      <h2 class="receita-titulo">Panqueca de Espinafre com Recheio de Frango Cremoso</h2>
+      <p class="receita-desc">O verdinho que sua mãe queria que você comesse, mas com recheio que você ama.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de espinafre cozido e picado</li>
+              <li>xícara de farinha de trigo</li>
+              <li>ovo</li>
+              <li>xícara de leite</li>
+              <li>g de frango cozido e desfiado</li>
+              <li>colheres de sopa de requeijão</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para untar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata no liquidificador espinafre, farinha, ovo, leite e sal até virar massa.</li>
+              <li>Faça panquecas na panela untada.</li>
+              <li>Misture frango com requeijão, sal e pimenta, recheie as panquecas.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der espinafre, transforme em panqueca; se der preguiça, deixa pra amanhã.</div>
+    </article>
+
+    <article class="receita-card" id="arroz-a-grega-com-frango-e-legumes">
+      <h2 class="receita-titulo">Arroz à Grega com Frango e Legumes</h2>
+      <p class="receita-desc">Aquele clássico que você só faz porque é o que sobra da festa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 24,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de arroz</li>
+              <li>g de peito de frango em cubos</li>
+              <li>cenoura picada</li>
+              <li>/2 pimentão vermelho picado</li>
+              <li>/2 cebola picada</li>
+              <li>xícaras de água</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola no azeite, junte o frango e doure.</li>
+              <li>Acrescente os legumes e refogue por 5 minutos.</li>
+              <li>Coloque o arroz, água, sal e pimenta, cozinhe até a água secar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Arroz à grega é igual boleto: quando você acha que acabou, tem mais um escondido.</div>
+    </article>
+
+    <article class="receita-card" id="polenta-cremosa-com-ragu-de-carne">
+      <h2 class="receita-titulo">Polenta Cremosa com Ragu de Carne</h2>
+      <p class="receita-desc">Porque às vezes o conforto mora numa panela só e numa boa carne.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de fubá</li>
+              <li>xícaras de água</li>
+              <li>g de carne moída</li>
+              <li>/2 cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>tomate picado</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o fubá na água, mexendo sempre até engrossar e formar polenta.</li>
+              <li>Em outra etapa (mesma panela), refogue cebola e alho, adicione a carne e o tomate, cozinhe até formar um ragu.</li>
+              <li>Sirva a polenta com o ragu por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Polenta é tipo boleto parcelado: demora pra ficar pronta, mas no fim vale a pena.</div>
+    </article>
+
+    <article class="receita-card" id="ensopado-de-lentilha-com-legumes">
+      <h2 class="receita-titulo">Ensopado de Lentilha com Legumes</h2>
+      <p class="receita-desc">A comida que abraça, mas não cobra juros.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de lentilha</li>
+              <li>cenoura picada</li>
+              <li>batata picada</li>
+              <li>/2 cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>folha de louro</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho no azeite.</li>
+              <li>Junte lentilha, legumes, louro, sal, pimenta e água suficiente para cobrir.</li>
+              <li>Cozinhe até a lentilha e legumes ficarem macios.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Ensopado é igual conta de luz: todo mês chega, mas pelo menos esquenta a casa.</div>
+    </article>
+
+    <article class="receita-card" id="macarrao-integral-com-molho-de-abacate-e-limao">
+      <h2 class="receita-titulo">Macarrão Integral com Molho de Abacate e Limão</h2>
+      <p class="receita-desc">Pra quem quer saudável e gostoso, mas só tem uma panela e paciência curta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de macarrão integral</li>
+              <li>abacate maduro</li>
+              <li>Suco de 1 limão</li>
+              <li>dente de alho pequeno</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o macarrão até al dente e escorra.</li>
+              <li>Amasse o abacate com limão, alho, sal, pimenta e azeite até virar um creme.</li>
+              <li>Misture o macarrão ao molho de abacate e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse molho é igual ex que some: suave, mas não some do prato.</div>
+    </article>
+
+    <article class="receita-card" id="sufle-de-legumes-na-panela">
+      <h2 class="receita-titulo">Suflê de Legumes na Panela</h2>
+      <p class="receita-desc">Porque nem todo herói usa forno, alguns só precisam de uma panela.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>/2 xícara de legumes cozidos e picados (cenoura, abobrinha)</li>
+              <li>colheres de sopa de farinha de trigo</li>
+              <li>/2 xícara de leite</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para untar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata ovos, farinha, leite, sal e pimenta até homogeneizar.</li>
+              <li>Misture os legumes e despeje a mistura na panela untada.</li>
+              <li>Tampe e cozinhe em fogo baixo até firmar (cerca de 20 minutos).</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Suflê é como boleto de cartão: demora pra aparecer, mas quando aparece, não tem como escapar.</div>
+    </article>
+
+    <article class="receita-card" id="tilapia-ao-molho-de-mostarda-com-pure-de-batata-doce">
+      <h2 class="receita-titulo">Tilápia ao Molho de Mostarda com Purê de Batata Doce</h2>
+      <p class="receita-desc">Jantar chique na panela única, pra impressionar até o boleto mais cruel.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>filés de tilápia</li>
+              <li>batatas doces médias</li>
+              <li>colher de sopa de mostarda Dijon</li>
+              <li>/2 cebola picada</li>
+              <li>colher de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe as batatas doces até ficarem macias e amasse formando purê.</li>
+              <li>Na panela, refogue cebola no azeite, adicione os filés e doure dos dois lados.</li>
+              <li>Misture mostarda ao purê, tempere a tilápia e sirva junto.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Tilápia na panela só? Agora só falta a conta de luz colaborar e não cortar.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-batata-com-recheio-de-queijo-e-presunto">
+      <h2 class="receita-titulo">Panqueca de Batata com Recheio de Queijo e Presunto</h2>
+      <p class="receita-desc">A combinação que sua vó aprovaria, mesmo no meio da correria da vida.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 17,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas médias raladas</li>
+              <li>ovo</li>
+              <li>g de queijo muçarela fatiado</li>
+              <li>g de presunto fatiado</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para untar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture as batatas raladas, ovo, sal e pimenta até formar massa.</li>
+              <li>Faça panquecas na panela untada, deixe dourar dos dois lados.</li>
+              <li>Recheie com queijo e presunto, dobre e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der batata, faça panqueca; se der preguiça, peça delivery e chora.</div>
+    </article>
+
+    <article class="receita-card" id="fricasse-de-frango-na-panela-so">
+      <h2 class="receita-titulo">Fricassê de Frango na Panela Só</h2>
+      <p class="receita-desc">Porque comida de mãe é assim: prática, cremosa e que consola boletos atrasados.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peito de frango desfiado</li>
+              <li>lata de milho verde</li>
+              <li>lata de creme de leite</li>
+              <li>copo de requeijão cremoso</li>
+              <li>cebola picada</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola no azeite até dourar.</li>
+              <li>Acrescente o frango, milho, creme de leite e requeijão, misture bem.</li>
+              <li>Cozinhe até ficar cremoso e tempere.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Fricassê é igual boleto: quando você acha que acabou, sempre tem mais um.</div>
+    </article>
+
+    <article class="receita-card" id="arroz-de-forno-com-legumes-e-queijo">
+      <h2 class="receita-titulo">Arroz de Forno com Legumes e Queijo</h2>
+      <p class="receita-desc">Aquele abraço rápido e gostoso que só uma panela sabe dar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de arroz cozido</li>
+              <li>xícara de legumes variados picados (cenoura, ervilha, milho)</li>
+              <li>/2 xícara de queijo ralado</li>
+              <li>/2 cebola picada</li>
+              <li>ovos</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e legumes até ficarem macios.</li>
+              <li>Misture o arroz com os legumes, ovos batidos e metade do queijo.</li>
+              <li>Cozinhe tampado em fogo baixo até firmar.</li>
+              <li>Polvilhe o queijo restante e deixe derreter antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Arroz de forno é tipo amigo que aparece só pra festa: fácil, gostoso e todo mundo gosta.</div>
+    </article>
+
+    <article class="receita-card" id="saute-de-camarao-com-alho-e-limao">
+      <h2 class="receita-titulo">Sauté de Camarão com Alho e Limão</h2>
+      <p class="receita-desc">Pra quem quer impressionar com pouco esforço e muita panela.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de camarões limpos</li>
+              <li>dentes de alho fatiados</li>
+              <li>Suco de 1 limão</li>
+              <li>colher de sopa de azeite</li>
+              <li>Sal, pimenta e salsinha a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o azeite e doure o alho.</li>
+              <li>Acrescente os camarões e cozinhe até ficarem rosados.</li>
+              <li>Regue com o suco de limão, tempere e finalize com salsinha.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o amor não bater à porta, pelo menos o camarão vai bater na sua panela.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-abobrinha-com-queijo-branco">
+      <h2 class="receita-titulo">Panqueca de Abobrinha com Queijo Branco</h2>
+      <p class="receita-desc">Verde que te quero verde, sabor que te quero mais.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abobrinha média ralada</li>
+              <li>ovos</li>
+              <li>colheres de sopa de farinha de trigo</li>
+              <li>g de queijo branco picado</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para untar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture abobrinha, ovos, farinha, sal e pimenta até formar massa.</li>
+              <li>Faça panquecas na panela untada.</li>
+              <li>Recheie com queijo e dobre para servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Comer verde é bom, mas se for na panela só é melhor ainda – menos louça pra lavar, mais tempo pra reclamar da vida.</div>
+    </article>
+
+    <article class="receita-card" id="caldo-verde-simplificado-na-panela-so">
+      <h2 class="receita-titulo">Caldo Verde Simplificado na Panela Só</h2>
+      <p class="receita-desc">A receita que aquece o coração e não a paciência.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas médias picadas</li>
+              <li>/2 maço de couve fatiada fina</li>
+              <li>linguiça calabresa em rodelas (opcional)</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola, alho e linguiça no azeite.</li>
+              <li>Acrescente as batatas e cubra com água, cozinhe até amolecer.</li>
+              <li>Bata as batatas até virar creme, junte a couve e cozinhe por mais 5 minutos.</li>
+              <li>Tempere e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Caldo verde é tipo fatura do cartão: sempre volta pra te esquentar o bolso.</div>
+    </article>
+
+    <article class="receita-card" id="espaguete-de-abobrinha-com-molho-pesto">
+      <h2 class="receita-titulo">Espaguete de Abobrinha com Molho Pesto</h2>
+      <p class="receita-desc">Pra quem quer fugir do macarrão, mas não da panela única.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abobrinhas grandes em espaguete</li>
+              <li>/2 xícara de manjericão fresco</li>
+              <li>colheres de sopa de nozes</li>
+              <li>dente de alho</li>
+              <li>/4 xícara de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a abobrinha rapidamente na panela com um fio de azeite.</li>
+              <li>Bata manjericão, nozes, alho, azeite, sal e pimenta no processador.</li>
+              <li>Misture o pesto à abobrinha e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Espaguete de abobrinha é igual promessa de dieta: começa bem, mas sempre tem uma pizza no caminho.</div>
+    </article>
+
+    <article class="receita-card" id="paella-vegetariana-na-panela-so">
+      <h2 class="receita-titulo">Paella Vegetariana na Panela Só</h2>
+      <p class="receita-desc">Sabor do Mediterrâneo que cabe na sua panela e na sua vida corrida.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de arroz parboilizado</li>
+              <li>/2 cebola picada</li>
+              <li>pimentão vermelho picado</li>
+              <li>tomate picado</li>
+              <li>xícara de ervilhas</li>
+              <li>colher de chá de açafrão</li>
+              <li>xícaras de caldo de legumes</li>
+              <li>Sal e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e pimentão no azeite até murchar.</li>
+              <li>Acrescente arroz, tomate, ervilhas, açafrão e caldo, tempere.</li>
+              <li>Cozinhe com a panela tampada até o arroz absorver o caldo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Paella é igual boleto: só fica boa quando você dá atenção e não deixa acumular.</div>
+    </article>
+
+    <article class="receita-card" id="strogonoff-de-carne-magra-com-cogumelos">
+      <h2 class="receita-titulo">Strogonoff de Carne Magra com Cogumelos</h2>
+      <p class="receita-desc">Pra quem quer sabor e proteína, mas sem drama na cozinha.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 32,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de carne magra em tiras</li>
+              <li>/2 cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>g de cogumelos fatiados</li>
+              <li>ml de creme de leite</li>
+              <li>colher de sopa de mostarda</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho no azeite até dourar.</li>
+              <li>Doure a carne, junte os cogumelos e cozinhe.</li>
+              <li>Adicione creme de leite, mostarda, sal e pimenta, misture e cozinhe até o molho engrossar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Strogonoff é tipo boleto do cartão: só fica bom quando você sabe pagar a tempo.</div>
+    </article>
+
+    <article class="receita-card" id="sufle-de-mandioquinha-com-queijo">
+      <h2 class="receita-titulo">Suflê de Mandioquinha com Queijo</h2>
+      <p class="receita-desc">Pra impressionar o crush e o boleto que chegou no mesmo dia.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de mandioquinha cozida e amassada</li>
+              <li>ovos separados (claras e gemas)</li>
+              <li>g de queijo ralado</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para untar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a mandioquinha, as gemas e o queijo.</li>
+              <li>Bata as claras em neve e incorpore delicadamente à mistura.</li>
+              <li>Despeje na panela untada e cozinhe em fogo baixo com tampa por 30 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Suflê é igual vontade de trabalhar numa segunda: tem que bater muito pra dar certo.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-aveia-com-recheio-de-banana-e-mel">
+      <h2 class="receita-titulo">Panqueca de Aveia com Recheio de Banana e Mel</h2>
+      <p class="receita-desc">A sobremesa que faz o café da manhã parecer menos uma tortura.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de aveia em flocos finos</li>
+              <li>ovo</li>
+              <li>xícara de leite</li>
+              <li>banana fatiada</li>
+              <li>Mel a gosto</li>
+              <li>Canela em pó a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture aveia, ovo e leite até formar massa.</li>
+              <li>Faça panquecas na panela untada.</li>
+              <li>Recheie com banana e regue com mel e canela.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Panqueca de aveia é tipo boleto no fim do mês: aparece de repente, mas traz doçura.</div>
+    </article>
+
+    <article class="receita-card" id="frango-ao-curry-com-arroz-integral">
+      <h2 class="receita-titulo">Frango ao Curry com Arroz Integral</h2>
+      <p class="receita-desc">Um prato que junta sabor, saúde e a desculpa perfeita para não lavar tanta louça.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peito de frango em cubos</li>
+              <li>xícara de arroz integral</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>colher de sopa de curry em pó</li>
+              <li>xícaras de água</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho no azeite até dourar.</li>
+              <li>Acrescente o frango e curry, cozinhe até o frango dourar.</li>
+              <li>Junte o arroz, a água, sal e pimenta, cozinhe até o arroz ficar macio.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Frango ao curry é igual boletos: quando você acha que acabou, aparece mais um pedido de pagamento.</div>
+    </article>
+
+    <article class="receita-card" id="batata-rosti-com-ovo-poche-na-panela">
+      <h2 class="receita-titulo">Batata Rosti com Ovo Pochê na Panela</h2>
+      <p class="receita-desc">O clássico suíço que vai fazer seu café da manhã parecer viagem... sem sair da cozinha.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas médias raladas</li>
+              <li>ovos</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere as batatas raladas com sal e pimenta.</li>
+              <li>Aqueça azeite na panela, espalhe as batatas formando um disco e cozinhe até dourar dos dois lados.</li>
+              <li>Em outra panela, faça os ovos pochê em água com vinagre.</li>
+              <li>Sirva o batata rosti com o ovo por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Fazer ovo pochê é igual vida adulta: parece difícil, mas você aprende na marra.</div>
+    </article>
+
+    <article class="receita-card" id="macarrao-com-brocolis-e-molho-de-queijo">
+      <h2 class="receita-titulo">Macarrão com Brócolis e Molho de Queijo</h2>
+      <p class="receita-desc">Porque né, nem só de boletos e trabalho vive a gente, tem que ter queijo também.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de macarrão tipo penne</li>
+              <li>xícara de brócolis picado</li>
+              <li>ml de creme de leite</li>
+              <li>g de queijo parmesão ralado</li>
+              <li>dente de alho picado</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o macarrão com o brócolis juntos até ficarem macios, escorra.</li>
+              <li>Na mesma panela, refogue alho no azeite, junte creme de leite e queijo.</li>
+              <li>Misture o macarrão e brócolis ao molho, tempere e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der brócolis, joga queijo por cima e esquece os boletos por um instante.</div>
+    </article>
+
+    <article class="receita-card" id="torta-de-liquidificador-salgada-na-panela">
+      <h2 class="receita-titulo">Torta de Liquidificador Salgada na Panela</h2>
+      <p class="receita-desc">Porque às vezes falta forno, mas nunca falta criatividade (e fome).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>xícara de leite</li>
+              <li>/2 xícara de óleo</li>
+              <li>xícaras de farinha de trigo</li>
+              <li>colher de sopa de fermento em pó</li>
+              <li>xícara de frango desfiado ou legumes cozidos</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata ovos, leite, óleo, farinha, fermento, sal e pimenta no liquidificador.</li>
+              <li>Misture o recheio escolhido.</li>
+              <li>Despeje na panela untada e cozinhe em fogo baixo com tampa por cerca de 30 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Fazer torta na panela é igual boleto no fim do mês: você não quer, mas não tem escolha.</div>
+    </article>
+
+    <article class="receita-card" id="sopa-de-lentilha-com-calabresa">
+      <h2 class="receita-titulo">Sopa de Lentilha com Calabresa</h2>
+      <p class="receita-desc">Pra esquentar o corpo e acalmar o coração que já tá no vermelho.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de lentilha</li>
+              <li>g de calabresa em rodelas</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>folha de louro</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+              <li>Água suficiente para cobrir</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola, alho e calabresa no azeite.</li>
+              <li>Acrescente lentilha, louro, sal, pimenta e água, cozinhe até a lentilha ficar macia.</li>
+              <li>Ajuste temperos e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sopa é tipo boleto atrasado: quanto mais espera, mais difícil fica de digerir.</div>
+    </article>
+
+    <article class="receita-card" id="espaguete-ao-alho-e-oleo-com-tomate-cereja">
+      <h2 class="receita-titulo">Espaguete ao Alho e Óleo com Tomate-Cereja</h2>
+      <p class="receita-desc">Simples, rápido e melhor que muitas desculpas para não cozinhar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de espaguete</li>
+              <li>dentes de alho fatiados</li>
+              <li>xícara de tomate-cereja cortados ao meio</li>
+              <li>/4 xícara de azeite</li>
+              <li>Sal, pimenta e salsinha a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o espaguete até al dente e reserve.</li>
+              <li>Na panela pequena, aqueça azeite e doure o alho.</li>
+              <li>Adicione os tomates, sal e pimenta, refogue por 2 minutos.</li>
+              <li>Misture o espaguete ao molho, finalize com salsinha.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Alho e óleo é igual boleto que você paga: simples, direto e sem desculpas.</div>
+    </article>
+
+    <article class="receita-card" id="cuscuz-paulista-na-panela-so">
+      <h2 class="receita-titulo">Cuscuz Paulista na Panela Só</h2>
+      <p class="receita-desc">Aquele prato que junta tudo que você tem na geladeira e ainda parece festa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de farinha de milho para cuscuz</li>
+              <li>lata de sardinha ou frango desfiado</li>
+              <li>/2 cebola picada</li>
+              <li>tomate picado</li>
+              <li>/2 pimentão picado</li>
+              <li>/2 xícara de ervilha</li>
+              <li>xícaras de água</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola, tomate, pimentão e ervilha no azeite.</li>
+              <li>Acrescente a sardinha, farinha de milho, água, sal e pimenta.</li>
+              <li>Cozinhe mexendo até engrossar e soltar do fundo da panela.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Cuscuz é igual boleto parcelado: você sabe que vem, só não sabe quando acaba.</div>
+    </article>
+
+    <article class="receita-card" id="nhoque-de-batata-com-molho-de-tomate-simples">
+      <h2 class="receita-titulo">Nhoque de Batata com Molho de Tomate Simples</h2>
+      <p class="receita-desc">Porque nem todo herói usa capa, alguns usam uma panela só.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de batata cozida e amassada</li>
+              <li>xícara de farinha de trigo</li>
+              <li>ovo</li>
+              <li>Sal a gosto</li>
+              <li>tomates maduros picados</li>
+              <li>dentes de alho picados</li>
+              <li>colher de sopa de azeite</li>
+              <li>Manjericão para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture batata, farinha, ovo e sal até formar massa, modele os nhoques.</li>
+              <li>Cozinhe os nhoques em água fervente até subirem à superfície, retire e reserve.</li>
+              <li>Na panela, refogue alho no azeite, adicione tomates e cozinhe até virar molho.</li>
+              <li>Misture os nhoques ao molho e sirva com manjericão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Nhoque é igual boleto: demora pra ficar pronto, mas quando cai na conta, não tem escapatória.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-frango-com-molho-branco">
+      <h2 class="receita-titulo">Panqueca de Frango com Molho Branco</h2>
+      <p class="receita-desc">Porque panqueca nunca sai de moda, só o dinheiro que some.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de trigo</li>
+              <li>ovo</li>
+              <li>xícara de leite</li>
+              <li>g de frango cozido e desfiado</li>
+              <li>colher de sopa de manteiga</li>
+              <li>colher de sopa de farinha de trigo (para molho)</li>
+              <li>xícara de leite (para molho)</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, ovo, leite e sal até formar massa, faça panquecas na panela untada.</li>
+              <li>Prepare o molho branco: derreta manteiga, junte farinha, mexa e acrescente leite até engrossar.</li>
+              <li>Recheie as panquecas com frango, cubra com molho branco e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Panqueca com molho branco é igual boleto: sempre tem um extra pra apertar o orçamento.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

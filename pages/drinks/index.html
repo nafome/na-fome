@@ -1,0 +1,1497 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🍹 Drinks — Receitas NaFome</title>
+  <meta name="description" content="38 receitas para quem está na situação "Drinks". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/drinks/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🍹 Drinks — Receitas NaFome">
+  <meta property="og:description" content="38 receitas para quem está na situação "Drinks". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/drinks/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🍹 Drinks — NaFome",
+    "description": "38 receitas para quem está na situação "Drinks". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/drinks/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=drinks" class="btn-sortear">🎲 Sortear receita de Drinks</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🍹 Drinks</h1>
+    <p>38 receitas para quem está na situação "Drinks". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">38 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Drinks pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=drinks" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="caipirinha-do-desespero">
+      <h2 class="receita-titulo">Caipirinha do Desespero</h2>
+      <p class="receita-desc">Quando a conta do cartão chega e só resta a cachaça pra consolar</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>unidade Limão tahiti</li>
+              <li>ml Cachaça</li>
+              <li>colheres de sopa Açúcar</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte o limão em 4 partes e macere com o açúcar no copo.</li>
+              <li>Adicione a cachaça e mexa bem.</li>
+              <li>Complete com gelo e mexa mais um pouco.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der limões, faça uma caipirinha. Se der boletos, faça duas.</div>
+    </article>
+
+    <article class="receita-card" id="mojito-da-ressaca">
+      <h2 class="receita-titulo">Mojito da Ressaca</h2>
+      <p class="receita-desc">Para quando você prometeu nunca mais beber e já está mentindo para si mesmo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>folhas Hortelã</li>
+              <li>colheres de chá Açúcar</li>
+              <li>Suco de 2 limões</li>
+              <li>ml Rum branco</li>
+              <li>Água com gás a gosto</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Macere a hortelã com o açúcar e o suco de limão no copo.</li>
+              <li>Adicione o rum, o gelo e misture.</li>
+              <li>Complete com água com gás e mexa suavemente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> O segredo é não pensar na ressaca amanhã, só no gole de hoje.</div>
+    </article>
+
+    <article class="receita-card" id="sex-on-the-beach-paulista">
+      <h2 class="receita-titulo">Sex on the Beach Paulista</h2>
+      <p class="receita-desc">Praia zero, mas o drink é verão garantido na alma paulista</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Vodka</li>
+              <li>ml Suco de pêssego</li>
+              <li>ml Suco de laranja</li>
+              <li>ml Grenadine</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Encha o copo com gelo.</li>
+              <li>Adicione a vodka, suco de pêssego e suco de laranja.</li>
+              <li>Finalize com grenadine, deixando escorrer para dar o efeito degrade.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a praia não vem até você, traga o verão em copo e finja que não tem boletos.</div>
+    </article>
+
+    <article class="receita-card" id="gin-tonica-do-adulto-cansado">
+      <h2 class="receita-titulo">Gin Tônica do Adulto Cansado</h2>
+      <p class="receita-desc">Porque às vezes só um gin salva o dia (e o sono só depois)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Gin</li>
+              <li>ml Água tônica</li>
+              <li>fatias Limão siciliano</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque gelo no copo.</li>
+              <li>Adicione o gin e a água tônica.</li>
+              <li>Mexa suavemente e decore com limão siciliano.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Gin tônica é o café dos adultos que não querem mais café (mas querem esquecer o chefe).</div>
+    </article>
+
+    <article class="receita-card" id="bloody-mary-do-trabalho">
+      <h2 class="receita-titulo">Bloody Mary do Trabalho</h2>
+      <p class="receita-desc">Para quem quer matar a sede e ressuscitar a vontade de trabalhar</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Vodka</li>
+              <li>ml Suco de tomate</li>
+              <li>ml Suco de limão</li>
+              <li>gotas Molho inglês</li>
+              <li>gotas Molho de pimenta</li>
+              <li>Pitada de sal e pimenta</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes no copo com gelo.</li>
+              <li>Mexa bem para incorporar os temperos.</li>
+              <li>Decore com talo de salsão ou aipo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o chefe fosse assim picante, até dava vontade de trabalhar.</div>
+    </article>
+
+    <article class="receita-card" id="margarita-do-fim-de-semana">
+      <h2 class="receita-titulo">Margarita do Fim de Semana</h2>
+      <p class="receita-desc">Porque o sal na borda é pra lembrar dos boletos que não param de chegar</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Tequila</li>
+              <li>ml Triple sec</li>
+              <li>ml Suco de limão</li>
+              <li>Sal para borda</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Passe limão na borda do copo e mergulhe no sal.</li>
+              <li>Na coqueteleira, misture tequila, triple sec e suco de limão com gelo.</li>
+              <li>Coe para o copo e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der tequila, aproveite e faça a festa, boletos que esperem.</div>
+    </article>
+
+    <article class="receita-card" id="pina-colada-do-ipanema-imaginario">
+      <h2 class="receita-titulo">Piña Colada do Ipanema Imaginário</h2>
+      <p class="receita-desc">Pra sentir que tá na praia, mesmo se a praia for só o quintal do vizinho</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Rum branco</li>
+              <li>ml Suco de abacaxi</li>
+              <li>ml Leite de coco</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até ficar cremoso.</li>
+              <li>Sirva em copos altos com um pedaço de abacaxi na borda.</li>
+              <li>Aproveite a "praia" sem areia (e sem cobrar condomínio).</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se areia na praia te irrita, esse drink é sua areia zero — só a sensação.</div>
+    </article>
+
+    <article class="receita-card" id="clericot-do-crush">
+      <h2 class="receita-titulo">Clericot do Crush</h2>
+      <p class="receita-desc">Mistura de frutas e álcool pra tentar adoçar a rejeição</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>garrafa Vinho branco seco</li>
+              <li>ml Água com gás</li>
+              <li>maçã em cubos</li>
+              <li>pêra em cubos</li>
+              <li>laranja em fatias</li>
+              <li>ml Licor de laranja</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em um jarro, coloque as frutas, o licor e o vinho.</li>
+              <li>Deixe descansar por pelo menos 15 minutos na geladeira.</li>
+              <li>Na hora de servir, adicione água com gás e gelo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o crush não responde, pelo menos o clericot responde com álcool.</div>
+    </article>
+
+    <article class="receita-card" id="moscow-mule-da-segunda-feira">
+      <h2 class="receita-titulo">Moscow Mule da Segunda-Feira</h2>
+      <p class="receita-desc">Para fingir que a vida é mais leve, mesmo que o despertador não colabore</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 23,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Vodka</li>
+              <li>ml Ginger beer</li>
+              <li>ml Suco de limão</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Encha a caneca com gelo.</li>
+              <li>Adicione vodka e suco de limão.</li>
+              <li>Complete com ginger beer e mexa suavemente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a segunda-feira fosse tão refrescante quanto esse drink, o mundo seria outro.</div>
+    </article>
+
+    <article class="receita-card" id="aperol-spritz-do-fim-do-expediente">
+      <h2 class="receita-titulo">Aperol Spritz do Fim do Expediente</h2>
+      <p class="receita-desc">Porque o expediente só acaba quando o spritz acaba, e vice-versa</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 7 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 27,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Aperol</li>
+              <li>ml Espumante brut</li>
+              <li>ml Água com gás</li>
+              <li>Gelo a gosto</li>
+              <li>fatia laranja para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Encha a taça com gelo.</li>
+              <li>Adicione o Aperol, o espumante e a água com gás.</li>
+              <li>Misture delicadamente e decore com a laranja.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o chefe chamar, diga que está cuidando do "spritz do expediente".</div>
+    </article>
+
+    <article class="receita-card" id="caipiroska-do-final-de-namoro">
+      <h2 class="receita-titulo">Caipiroska do Final de Namoro</h2>
+      <p class="receita-desc">Pra quando o amor acaba e o álcool vira melhor amigo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>limão</li>
+              <li>ml Vodka</li>
+              <li>colheres de açúcar</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte o limão em pedaços e macere com o açúcar.</li>
+              <li>Adicione a vodka e misture.</li>
+              <li>Complete com gelo e mexa.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o coração partiu, pelo menos a caipiroska segura as pontas.</div>
+    </article>
+
+    <article class="receita-card" id="bellini-do-dia-de-festa">
+      <h2 class="receita-titulo">Bellini do Dia de Festa</h2>
+      <p class="receita-desc">Porque todo mundo merece um pouco de classe antes do caos</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Purê de pêssego</li>
+              <li>ml Espumante brut</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque o purê de pêssego no fundo da taça.</li>
+              <li>Complete lentamente com o espumante.</li>
+              <li>Misture delicadamente e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bellini é o jeito elegante de dizer "hoje vou beber até esquecer o boleto".</div>
+    </article>
+
+    <article class="receita-card" id="drink-sem-nome-mas-com-alcool">
+      <h2 class="receita-titulo">Drink Sem Nome (Mas com Álcool)</h2>
+      <p class="receita-desc">Pra quando você não sabe o que quer, só sabe que quer beber</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 8 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Gin</li>
+              <li>ml Suco de limão</li>
+              <li>ml Xarope de açúcar</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque todos os ingredientes na coqueteleira com gelo.</li>
+              <li>Agite bem por 15 segundos.</li>
+              <li>Coe para o copo e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se não souber o nome, pelo menos o álcool você sabe que tem.</div>
+    </article>
+
+    <article class="receita-card" id="spritz-de-maracuja-com-tequila">
+      <h2 class="receita-titulo">Spritz de Maracujá com Tequila</h2>
+      <p class="receita-desc">A mistura perfeita para fingir que a vida é doce e azeda ao mesmo tempo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 32,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Tequila</li>
+              <li>ml Suco de maracujá</li>
+              <li>ml Água com gás</li>
+              <li>ml Aperol</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em taças com gelo, coloque a tequila e o suco de maracujá.</li>
+              <li>Adicione o Aperol e complete com água com gás.</li>
+              <li>Misture suavemente e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Maracujá te acalma, tequila te anima — igual a segunda-feira, só que com álcool.</div>
+    </article>
+
+    <article class="receita-card" id="cha-gelado-com-vodka-do-cansaco">
+      <h2 class="receita-titulo">Chá Gelado com Vodka do Cansaço</h2>
+      <p class="receita-desc">Porque nem só de café vive quem tem mil tarefas e zero férias</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Chá preto gelado</li>
+              <li>ml Vodka</li>
+              <li>colher de chá Mel</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Adoce o chá gelado com mel e mexa até dissolver.</li>
+              <li>Adicione a vodka e o gelo.</li>
+              <li>Misture e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te tirar o sono, pelo menos o chá com vodka te tira a vontade de trabalhar.</div>
+    </article>
+
+    <article class="receita-card" id="frappe-de-cafe-com-licor-de-amendoas">
+      <h2 class="receita-titulo">Frappé de Café com Licor de Amêndoas</h2>
+      <p class="receita-desc">O combustível alcoólico pra quem acorda cedo e chora por dentro</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Café espresso frio</li>
+              <li>ml Licor de amêndoas</li>
+              <li>ml Leite gelado</li>
+              <li>colher de sopa Açúcar</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até ficar cremoso.</li>
+              <li>Sirva em copo alto com canudo.</li>
+              <li>Aproveite o combustível do dia.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Café com álcool: o verdadeiro "levanta e sacode" do adulto exausto.</div>
+    </article>
+
+    <article class="receita-card" id="drink-detox-com-vodka">
+      <h2 class="receita-titulo">Drink Detox com Vodka</h2>
+      <p class="receita-desc">Pra tentar equilibrar a vida entre a segunda-feira saudável e a sexta irresponsável</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Vodka</li>
+              <li>ml Suco de pepino</li>
+              <li>ml Suco de limão</li>
+              <li>folhas Hortelã</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Macere a hortelã na coqueteleira.</li>
+              <li>Adicione a vodka, suco de pepino, suco de limão e gelo.</li>
+              <li>Agite e coe para o copo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Detox é como o boleto: você sabe que vai chegar, mas tenta evitar até última hora.</div>
+    </article>
+
+    <article class="receita-card" id="cherry-bomb">
+      <h2 class="receita-titulo">Cherry Bomb</h2>
+      <p class="receita-desc">Explosão de sabor pra quem quer esquecer o chefe e lembrar que tem vida</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 8 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 26,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Bourbon</li>
+              <li>ml Licor de cereja</li>
+              <li>ml Suco de limão</li>
+              <li>Gelo a gosto</li>
+              <li>Cereja para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Encha o copo com gelo.</li>
+              <li>Adicione bourbon, licor de cereja e suco de limão.</li>
+              <li>Misture e decore com a cereja.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o chefe fosse assim doce, talvez a segunda fosse mais fácil.</div>
+    </article>
+
+    <article class="receita-card" id="kombucha-spritz">
+      <h2 class="receita-titulo">Kombucha Spritz</h2>
+      <p class="receita-desc">Para quem quer parecer saudável, mas não abre mão do álcool</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 24,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Kombucha sabor cítrico</li>
+              <li>ml Gin</li>
+              <li>ml Suco de limão</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque gelo no copo, adicione gin e suco de limão.</li>
+              <li>Complete com kombucha.</li>
+              <li>Misture delicadamente e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Kombucha com álcool: a desculpa perfeita para beber e dizer que tá cuidando da saúde.</div>
+    </article>
+
+    <article class="receita-card" id="hot-toddy-do-inverno">
+      <h2 class="receita-titulo">Hot Toddy do Inverno</h2>
+      <p class="receita-desc">Esquenta corpo e alma, e ainda faz você esquecer o frio e a conta de luz</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Whisky</li>
+              <li>ml Água quente</li>
+              <li>colher de sopa Mel</li>
+              <li>fatia Limão</li>
+              <li>pau de canela</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça a água e coloque na caneca.</li>
+              <li>Adicione whisky, mel, limão e canela.</li>
+              <li>Misture até o mel dissolver e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o inverno congelar sua alma, o Hot Toddy vai descongelar (ou pelo menos te embriagar).</div>
+    </article>
+
+    <article class="receita-card" id="spritz-tropical-com-maracuja-e-hortela">
+      <h2 class="receita-titulo">Spritz Tropical com Maracujá e Hortelã</h2>
+      <p class="receita-desc">O verão engarrafado pra esquecer que a praia tá lotada demais</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 29,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Aperol</li>
+              <li>ml Suco de maracujá</li>
+              <li>ml Água com gás</li>
+              <li>Folhas de hortelã</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em taças com gelo, adicione Aperol e suco de maracujá.</li>
+              <li>Complete com água com gás.</li>
+              <li>Decore com hortelã e misture suavemente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a praia tá lotada, pelo menos o copo pode ser seu paraíso particular.</div>
+    </article>
+
+    <article class="receita-card" id="cider-quente-com-maca-e-canela">
+      <h2 class="receita-titulo">Cider Quente com Maçã e Canela</h2>
+      <p class="receita-desc">Pra sentir que tá na Europa, mesmo que o boleto só permita Netflix</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Suco de maçã natural</li>
+              <li>ml Rum escuro</li>
+              <li>paus de canela</li>
+              <li>cravos-da-índia</li>
+              <li>fatias de laranja</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o suco de maçã com canela, cravos e laranja, sem deixar ferver.</li>
+              <li>Coe e adoce com mel.</li>
+              <li>Adicione rum, mexa e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se não pode viajar, pelo menos o copo te leva pra Europa (ou pra cozinha da sogra).</div>
+    </article>
+
+    <article class="receita-card" id="batida-de-coco-com-abacaxi">
+      <h2 class="receita-titulo">Batida de Coco com Abacaxi</h2>
+      <p class="receita-desc">O drink que é praticamente uma sobremesa, mas você finge que é saudável</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Leite de coco</li>
+              <li>ml Suco de abacaxi</li>
+              <li>ml Cachaça</li>
+              <li>colheres de sopa Açúcar</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até ficar homogêneo.</li>
+              <li>Sirva em copos com gelo.</li>
+              <li>Aproveite o sabor do verão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida é amarga, essa batida é o seu açúcar.</div>
+    </article>
+
+    <article class="receita-card" id="martini-do-solteiro">
+      <h2 class="receita-titulo">Martini do Solteiro</h2>
+      <p class="receita-desc">Porque às vezes o happy hour é só você contra a garrafa</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 8 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Gin</li>
+              <li>ml Vermute seco</li>
+              <li>Azeitona para decorar</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque gelo na coqueteleira com gin e vermute.</li>
+              <li>Agite bem e coe para a taça.</li>
+              <li>Decore com azeitona e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida amorosa tá deserta, pelo menos o martini é sempre fiel.</div>
+    </article>
+
+    <article class="receita-card" id="caipirinha-de-maracuja-com-pimenta">
+      <h2 class="receita-titulo">Caipirinha de Maracujá com Pimenta</h2>
+      <p class="receita-desc">Pra apimentar a vida e o paladar, porque monotonia não é opção</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>unidade Maracujá</li>
+              <li>ml Cachaça</li>
+              <li>colheres de sopa Açúcar</li>
+              <li>pitada Pimenta dedo-de-moça</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Retire a polpa do maracujá e macere com açúcar e pimenta.</li>
+              <li>Adicione a cachaça e misture.</li>
+              <li>Complete com gelo e mexa.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida tá sem graça, um pouco de pimenta na caipirinha resolve (ou pelo menos distrai).</div>
+    </article>
+
+    <article class="receita-card" id="daiquiri-de-morango">
+      <h2 class="receita-titulo">Daiquiri de Morango</h2>
+      <p class="receita-desc">Para quem quer um drink doce, mas não quer virar criança</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Rum branco</li>
+              <li>g Morangos frescos</li>
+              <li>ml Suco de limão</li>
+              <li>colheres de sopa Açúcar</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até ficar cremoso.</li>
+              <li>Sirva em taças geladas.</li>
+              <li>Aproveite o sabor do verão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Morango e álcool: a combinação perfeita para esquecer o boleto e lembrar de ser feliz.</div>
+    </article>
+
+    <article class="receita-card" id="spritz-de-melancia-com-hortela">
+      <h2 class="receita-titulo">Spritz de Melancia com Hortelã</h2>
+      <p class="receita-desc">Pra quem quer refrescar e se refrescar de problemas</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g Melancia sem sementes</li>
+              <li>ml Aperol</li>
+              <li>ml Água com gás</li>
+              <li>Folhas de hortelã</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata a melancia no liquidificador e coe.</li>
+              <li>Em taças com gelo, coloque Aperol e suco de melancia.</li>
+              <li>Complete com água com gás e decore com hortelã.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der melancia, faça spritz e esqueça a fatura do cartão.</div>
+    </article>
+
+    <article class="receita-card" id="old-fashioned-do-tiozao-moderno">
+      <h2 class="receita-titulo">Old Fashioned do Tiozão Moderno</h2>
+      <p class="receita-desc">Clássico que nem boleto atrasado: nunca sai de moda</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Bourbon</li>
+              <li>cubo Açúcar</li>
+              <li>gotas Angostura</li>
+              <li>Casca de laranja para decorar</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Macere o cubo de açúcar com angostura no copo.</li>
+              <li>Adicione o bourbon e gelo.</li>
+              <li>Mexa bem e decore com a casca de laranja.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Old Fashioned é o drink do tiozão que sabe das coisas – e dos boletos.</div>
+    </article>
+
+    <article class="receita-card" id="spritz-de-lichia-com-espumante">
+      <h2 class="receita-titulo">Spritz de Lichia com Espumante</h2>
+      <p class="receita-desc">Porque um pouco de exotismo ajuda a enganar a rotina</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 38,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Purê de lichia</li>
+              <li>ml Espumante brut</li>
+              <li>ml Água com gás</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque gelo nas taças.</li>
+              <li>Adicione purê de lichia e espumante.</li>
+              <li>Complete com água com gás e mexa suavemente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida parece repetitiva, um toque de lichia pode ser a distração perfeita.</div>
+    </article>
+
+    <article class="receita-card" id="margarita-frozen-de-manga">
+      <h2 class="receita-titulo">Margarita Frozen de Manga</h2>
+      <p class="receita-desc">Pra quem quer fugir do calor e da vida adulta ao mesmo tempo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Tequila</li>
+              <li>ml Triple sec</li>
+              <li>g Manga picada</li>
+              <li>Suco de 2 limões</li>
+              <li>Gelo a gosto</li>
+              <li>Sal para borda</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Passe limão na borda dos copos e mergulhe no sal.</li>
+              <li>Bata no liquidificador tequila, triple sec, manga, limão e gelo.</li>
+              <li>Sirva nos copos e aproveite.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida tá quente demais, um frozen bem feito é o seu melhor amigo (e o ar-condicionado do coração).</div>
+    </article>
+
+    <article class="receita-card" id="spritz-de-maracuja-com-gin-e-alecrim">
+      <h2 class="receita-titulo">Spritz de Maracujá com Gin e Alecrim</h2>
+      <p class="receita-desc">O drink que é tão chique que até seu boleto vai querer pagar</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 33,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Gin</li>
+              <li>ml Suco de maracujá</li>
+              <li>ml Água com gás</li>
+              <li>ramos Alecrim fresco</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em taças com gelo, adicione gin e suco de maracujá.</li>
+              <li>Complete com água com gás.</li>
+              <li>Decore com alecrim e misture suavemente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se até o boleto quer fugir, ofereça um spritz de alecrim e veja o milagre acontecer.</div>
+    </article>
+
+    <article class="receita-card" id="mimosa-do-cafe-da-manha-feliz">
+      <h2 class="receita-titulo">Mimosa do Café da Manhã Feliz</h2>
+      <p class="receita-desc">Porque o domingo merece algo mais do que café e culpa</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Suco de laranja natural</li>
+              <li>ml Espumante brut</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Encha as taças metade com suco de laranja.</li>
+              <li>Complete com espumante.</li>
+              <li>Sirva imediatamente para começar o dia feliz.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te acorda cedo demais, a mimosa te faz esquecer disso (pelo menos até a segunda).</div>
+    </article>
+
+    <article class="receita-card" id="mule-de-abacaxi-com-pimenta-rosa">
+      <h2 class="receita-titulo">Mule de Abacaxi com Pimenta Rosa</h2>
+      <p class="receita-desc">Mistura que apimenta o paladar e a conversa com os vizinhos</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 26,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Vodka</li>
+              <li>ml Suco de abacaxi</li>
+              <li>ml Suco de limão</li>
+              <li>Ginger beer a gosto</li>
+              <li>Pimenta rosa para decorar</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque gelo na caneca, adicione vodka, suco de abacaxi e limão.</li>
+              <li>Complete com ginger beer.</li>
+              <li>Decore com pimenta rosa e mexa suavemente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o vizinho reclama do barulho, pelo menos o drink tá valendo.</div>
+    </article>
+
+    <article class="receita-card" id="rose-tonica-com-frutas-vermelhas">
+      <h2 class="receita-titulo">Rosé Tônica com Frutas Vermelhas</h2>
+      <p class="receita-desc">Para fingir que a vida é um filme francês, mesmo que seja só Netflix</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Vinho rosé</li>
+              <li>ml Água tônica</li>
+              <li>g Frutas vermelhas (morango, amora)</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque gelo na taça.</li>
+              <li>Adicione vinho rosé e água tônica.</li>
+              <li>Adicione frutas vermelhas e mexa delicadamente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida fosse tão leve quanto esse drink, até os boletos dariam risada.</div>
+    </article>
+
+    <article class="receita-card" id="caipirinha-de-kiwi-com-gengibre">
+      <h2 class="receita-titulo">Caipirinha de Kiwi com Gengibre</h2>
+      <p class="receita-desc">Pra dar um tapa no paladar e na rotina sem sair de casa</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 19,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kiwis maduros</li>
+              <li>ml Cachaça</li>
+              <li>colheres de açúcar</li>
+              <li>pedaço pequeno de gengibre ralado</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Descasque e corte os kiwis, macere com açúcar e gengibre.</li>
+              <li>Adicione a cachaça, misture bem.</li>
+              <li>Complete com gelo e mexa.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida tá sem sabor, esse drink é o tempero que faltava (e o boletinho que sobra).</div>
+    </article>
+
+    <article class="receita-card" id="spritz-de-hibisco-com-limao-siciliano">
+      <h2 class="receita-titulo">Spritz de Hibisco com Limão Siciliano</h2>
+      <p class="receita-desc">Pra dar aquele toque floral que faz o boleto parecer menos cruel</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 31,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Aperol</li>
+              <li>ml Chá de hibisco gelado</li>
+              <li>ml Água com gás</li>
+              <li>Fatias de limão siciliano</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Encha as taças com gelo.</li>
+              <li>Adicione Aperol e chá de hibisco.</li>
+              <li>Complete com água com gás, decore com limão e misture.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te dá hibisco, faça um spritz e finja que tá tudo florido.</div>
+    </article>
+
+    <article class="receita-card" id="batida-de-maracuja-com-leite-condensado">
+      <h2 class="receita-titulo">Batida de Maracujá com Leite Condensado</h2>
+      <p class="receita-desc">O abraço doce que você merece depois do chefe mal-humorado</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Polpa de maracujá</li>
+              <li>ml Cachaça</li>
+              <li>colheres de sopa Leite condensado</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até ficar homogêneo.</li>
+              <li>Sirva em copos com gelo.</li>
+              <li>Aproveite o carinho em forma de drink.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o chefe não te abraça, a batida de maracujá abraça (e embriaga também).</div>
+    </article>
+
+    <article class="receita-card" id="spritz-de-limao-com-manjericao">
+      <h2 class="receita-titulo">Spritz de Limão com Manjericão</h2>
+      <p class="receita-desc">Refrescância que até o boleto mais cabeludo aguenta</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 27,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml Aperol</li>
+              <li>ml Suco de limão</li>
+              <li>ml Água com gás</li>
+              <li>Folhas de manjericão fresco</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Macere levemente o manjericão no fundo da taça.</li>
+              <li>Adicione gelo, Aperol, suco de limão e complete com água com gás.</li>
+              <li>Misture suavemente e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o boleto te sufoca, esse spritz te refresca — quase um milagre líquido.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

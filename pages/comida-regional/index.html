@@ -1,0 +1,1656 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🍛 Comida Regional — Receitas NaFome</title>
+  <meta name="description" content="40 receitas para quem está na situação "Comida Regional". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/comida-regional/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🍛 Comida Regional — Receitas NaFome">
+  <meta property="og:description" content="40 receitas para quem está na situação "Comida Regional". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/comida-regional/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🍛 Comida Regional — NaFome",
+    "description": "40 receitas para quem está na situação "Comida Regional". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/comida-regional/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=comida-regional" class="btn-sortear">🎲 Sortear receita de Comida Regional</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🍛 Comida Regional</h1>
+    <p>40 receitas para quem está na situação "Comida Regional". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">40 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Comida Regional pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=comida-regional" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="baiao-de-dois-nordestino">
+      <h2 class="receita-titulo">Baião de Dois Nordestino</h2>
+      <p class="receita-desc">A combinação que junta arroz e feijão como casal que só briga na família, mas não vive separado</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de arroz</li>
+              <li>xícara de feijão verde ou feijão de corda cozido</li>
+              <li>g de queijo coalho em cubos</li>
+              <li>g de carne seca dessalgada e desfiada</li>
+              <li>cebola média picada</li>
+              <li>dentes de alho picados</li>
+              <li>colheres de sopa de manteiga de garrafa</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Coentro picado a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola e o alho na manteiga de garrafa até dourar.</li>
+              <li>Junte a carne seca e refogue por 5 minutos.</li>
+              <li>Adicione o arroz, o feijão, sal, pimenta e 4 xícaras de água; cozinhe até secar.</li>
+              <li>Misture o queijo coalho e o coentro, tampe e deixe mais 5 minutos no fogo baixo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der limões, faça uma limonada; se te der carne seca, faça baião de dois – porque só o boleto não desmancha no fogo, mas essa receita sim!</div>
+    </article>
+
+    <article class="receita-card" id="moqueca-capixaba">
+      <h2 class="receita-titulo">Moqueca Capixaba</h2>
+      <p class="receita-desc">Peixe que não sabe nadar, mas sabe nadar no azeite e dendê da vida</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de filé de peixe branco (robalo ou badejo)</li>
+              <li>tomates médios em rodelas</li>
+              <li>cebola grande em rodelas</li>
+              <li>pimentão verde em rodelas</li>
+              <li>maço de coentro picado</li>
+              <li>dentes de alho amassados</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Azeite de oliva a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o peixe com limão, sal e alho; deixe marinar por 20 minutos.</li>
+              <li>Em uma panela, faça camadas: cebola, tomate, pimentão, peixe, e termine com coentro.</li>
+              <li>Regue com azeite, tampe e cozinhe em fogo baixo por 25 minutos sem mexer.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Moqueca é tipo relacionamento sério: precisa de paciência, tempero e nada de mexer no fogo pra não virar confusão.</div>
+    </article>
+
+    <article class="receita-card" id="pao-de-queijo-mineiro-tradicional">
+      <h2 class="receita-titulo">Pão de Queijo Mineiro Tradicional</h2>
+      <p class="receita-desc">O único pão que não te engana, só te faz engordar feliz e sem culpa</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 20 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de polvilho doce</li>
+              <li>ml de leite</li>
+              <li>ml de óleo</li>
+              <li>ovos</li>
+              <li>g de queijo minas meia cura ralado</li>
+              <li>colher de chá de sal</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva o leite com o óleo e despeje sobre o polvilho, mexendo até formar uma massa.</li>
+              <li>Espere amornar, junte os ovos, o sal e o queijo; misture bem até ficar homogêneo.</li>
+              <li>Faça bolinhas, coloque em assadeira untada e asse em forno preaquecido a 180°C por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o boleto apertar, faça pão de queijo; pelo menos a barriga vai ficar feliz enquanto a conta chora.</div>
+    </article>
+
+    <article class="receita-card" id="tacaca-amazonico">
+      <h2 class="receita-titulo">Tacacá Amazônico</h2>
+      <p class="receita-desc">Sopa que parece remédio, mas é só amor em caldo quente da floresta</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>litro de tucupi</li>
+              <li>g de goma de tapioca</li>
+              <li>g de camarão seco dessalgado</li>
+              <li>dentes de alho picados</li>
+              <li>maço de jambu fresco</li>
+              <li>Pimenta-de-cheiro a gosto</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva o tucupi com o alho e o camarão seco por 15 minutos.</li>
+              <li>Cozinhe o jambu em água fervente até murchar, escorra.</li>
+              <li>Em uma cuia, coloque a goma dissolvida em água, jambu, pimenta e despeje o tucupi quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Tacacá é igual aquele amigo que te arrepia e te faz cócegas na alma – só que com jambu, não com piada ruim.</div>
+    </article>
+
+    <article class="receita-card" id="feijao-tropeiro-mineiro">
+      <h2 class="receita-titulo">Feijão Tropeiro Mineiro</h2>
+      <p class="receita-desc">Prato que junta feijão com farinha e bacon, porque a vida pede gordura e fé</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de feijão carioca cozido e escorrido</li>
+              <li>g de bacon em cubos</li>
+              <li>cebola média picada</li>
+              <li>dentes de alho picados</li>
+              <li>xícara de farinha de mandioca torrada</li>
+              <li>ovos</li>
+              <li>Salsinha picada a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Frite o bacon até dourar, junte cebola e alho e refogue.</li>
+              <li>Acrescente os ovos batidos e mexa até cozinhar.</li>
+              <li>Misture o feijão, farinha de mandioca, salsinha, sal e pimenta; mexa bem e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Feijão tropeiro é a prova que a vida só melhora com bacon e farinha – o resto é boleto e Wi-Fi fraco.</div>
+    </article>
+
+    <article class="receita-card" id="bobo-de-camarao-baiano">
+      <h2 class="receita-titulo">Bobó de Camarão Baiano</h2>
+      <p class="receita-desc">Prato que te abraça com dendê e manda o estresse embora com mandioca</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 45,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de camarão limpo</li>
+              <li>g de mandioca cozida e amassada</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>ml de leite de coco</li>
+              <li>colheres de sopa de azeite de dendê</li>
+              <li>Coentro picado a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho no azeite de dendê até dourar.</li>
+              <li>Junte o camarão, tempere e cozinhe por 5 minutos.</li>
+              <li>Acrescente a mandioca amassada, leite de coco e mexa até formar um creme homogêneo.</li>
+              <li>Finalize com coentro picado e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der mandioca e dendê, faça bobó; se te der boleto, chora no cantinho e come depois.</div>
+    </article>
+
+    <article class="receita-card" id="arroz-carreteiro-gaucho">
+      <h2 class="receita-titulo">Arroz Carreteiro Gaúcho</h2>
+      <p class="receita-desc">O arroz que carrega mais histórias que seu tio bêbado no churrasco</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de arroz</li>
+              <li>g de charque dessalgada e desfiada</li>
+              <li>cebola grande picada</li>
+              <li>dentes de alho picados</li>
+              <li>tomate picado</li>
+              <li>Cheiro-verde picado a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite ou óleo para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho no azeite, junte o charque e cozinhe por 10 minutos.</li>
+              <li>Acrescente o tomate e refogue mais 5 minutos.</li>
+              <li>Adicione o arroz, sal, pimenta e 5 xícaras de água; cozinhe até secar.</li>
+              <li>Finalize com cheiro-verde e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Arroz carreteiro é igual aquele amigo que aparece só pra comer e contar vantagem – mas a gente ama mesmo assim.</div>
+    </article>
+
+    <article class="receita-card" id="galinhada-goiana">
+      <h2 class="receita-titulo">Galinhada Goiana</h2>
+      <p class="receita-desc">O frango que resolveu virar estrela do sertão e brilhar na panela</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 70 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de frango em pedaços</li>
+              <li>xícaras de arroz</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>tomate picado</li>
+              <li>pimentão picado</li>
+              <li>colher de chá de açafrão da terra</li>
+              <li>Cheiro-verde a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Óleo para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho no óleo, doure o frango e tempere.</li>
+              <li>Junte tomate, pimentão e açafrão; cozinhe por 10 minutos.</li>
+              <li>Acrescente o arroz e 4 xícaras de água, ajuste sal e pimenta.</li>
+              <li>Cozinhe até secar e finalize com cheiro-verde.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Galinhada é o Tinder da cozinha: mistura tudo, espera o tempo certo e torce pra dar match no sabor.</div>
+    </article>
+
+    <article class="receita-card" id="acaraje-baiano">
+      <h2 class="receita-titulo">Acarajé Baiano</h2>
+      <p class="receita-desc">Bolinho que é um bloco de carnaval na boca, só que sem dor na cabeça depois</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 90 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 10 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de feijão-fradinho demolhado e sem pele</li>
+              <li>cebola média</li>
+              <li>Sal a gosto</li>
+              <li>Azeite de dendê para fritar</li>
+              <li>Vatapá e caruru para acompanhar (opcional)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata o feijão e a cebola no processador até virar uma massa lisa.</li>
+              <li>Tempere com sal, misture bem e deixe descansar 30 minutos.</li>
+              <li>Aqueça o azeite de dendê e frite colheradas da massa até dourar.</li>
+              <li>Sirva com vatapá, caruru e pimenta.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Acarajé é igual festa de família: demora pra preparar, tem muita história e no final todo mundo elogia.</div>
+    </article>
+
+    <article class="receita-card" id="pastel-de-feira-paulista">
+      <h2 class="receita-titulo">Pastel de Feira Paulista</h2>
+      <p class="receita-desc">Queijo e carne escondidos na massa, igual boleto escondido no fim do mês</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 8 pastéis</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de farinha de trigo</li>
+              <li>colher de sopa de óleo</li>
+              <li>ml de água morna</li>
+              <li>Sal a gosto</li>
+              <li>g de carne moída temperada</li>
+              <li>g de queijo mussarela ralado</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, óleo, sal e água até formar uma massa lisa; deixe descansar 30 minutos.</li>
+              <li>Abra a massa e corte em círculos; coloque recheio de carne e queijo.</li>
+              <li>Dobre, feche as bordas e frite em óleo quente até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pastel é igual promessa de segunda-feira: todo mundo quer, mas pouca gente consegue entregar sem abrir.</div>
+    </article>
+
+    <article class="receita-card" id="maria-isabel-do-sertao">
+      <h2 class="receita-titulo">Maria Isabel do Sertão</h2>
+      <p class="receita-desc">Arroz com carne seca que bate mais forte que sol do meio-dia no sertão</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de arroz</li>
+              <li>g de carne seca dessalgada e desfiada</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>xícaras de caldo de carne</li>
+              <li>Óleo ou manteiga para refogar</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho na manteiga, adicione a carne seca e cozinhe por 10 minutos.</li>
+              <li>Junte o arroz, mexa, acrescente o caldo e tempere.</li>
+              <li>Cozinhe em fogo baixo até o arroz ficar macio e o caldo secar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Maria Isabel é tipo aquele amor antigo: simples, tradicional e que te faz querer repetir sempre que bate a saudade.</div>
+    </article>
+
+    <article class="receita-card" id="vaca-atolada-mineira">
+      <h2 class="receita-titulo">Vaca Atolada Mineira</h2>
+      <p class="receita-desc">Costela que se afunda no aipim e na vontade de comer até passar o boleto</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 3 horas</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 50,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>,5 kg de costela bovina</li>
+              <li>kg de mandioca descascada e cortada</li>
+              <li>cebolas picadas</li>
+              <li>dentes de alho picados</li>
+              <li>tomates picados</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Cheiro-verde para finalizar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Na panela de pressão, refogue cebola e alho, adicione a costela e doure.</li>
+              <li>Junte os tomates, tempere, cubra com água e cozinhe por 1h30.</li>
+              <li>Acrescente a mandioca, ajuste o sal e cozinhe até amolecer.</li>
+              <li>Finalize com cheiro-verde e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Vaca atolada é igual a segunda-feira: demora pra passar, mas no final deixa a gente satisfeito e pronto pra próxima.</div>
+    </article>
+
+    <article class="receita-card" id="cuscuz-paulista">
+      <h2 class="receita-titulo">Cuscuz Paulista</h2>
+      <p class="receita-desc">Prato que junta mar e terra, igual seus boletos e sonhos misturados</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de farinha de milho flocada</li>
+              <li>g de sardinha em óleo</li>
+              <li>cebola picada</li>
+              <li>tomate picado</li>
+              <li>pimentão picado</li>
+              <li>/2 xícara de ervilha</li>
+              <li>ovos cozidos picados</li>
+              <li>Sal e cheiro-verde a gosto</li>
+              <li>Água para hidratar a farinha</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola, tomate e pimentão; junte a sardinha, ervilha e tempere.</li>
+              <li>Hidrate a farinha com água e sal até soltar das mãos.</li>
+              <li>Misture o refogado à farinha, coloque na forma e pressione.</li>
+              <li>Deixe descansar 15 minutos, desenforme, decore com ovos e cheiro-verde.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Cuscuz paulista é igual domingo: só fica bom se todo mundo colaborar e ninguém reclamar do calor.</div>
+    </article>
+
+    <article class="receita-card" id="canjica-nordestina">
+      <h2 class="receita-titulo">Canjica Nordestina</h2>
+      <p class="receita-desc">Doce que é a desculpa oficial do brasileiro pra esquecer a dieta e a vida adulta</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 90 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de milho para canjica</li>
+              <li>litro de leite</li>
+              <li>ml de leite de coco</li>
+              <li>xícara de açúcar</li>
+              <li>g de coco ralado fresco</li>
+              <li>Canela em pau a gosto</li>
+              <li>Cravos-da-índia a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Deixe o milho de molho por 12 horas, escorra e cozinhe até amolecer.</li>
+              <li>Adicione o leite, leite de coco, açúcar, canela e cravo; cozinhe por mais 30 minutos.</li>
+              <li>Acrescente o coco ralado, mexa e desligue.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Canjica é tipo aquele amigo que aparece só pra te lembrar que a vida é doce, mas a conta bancária nem tanto.</div>
+    </article>
+
+    <article class="receita-card" id="empadao-gaucho-de-frango">
+      <h2 class="receita-titulo">Empadão Gaúcho de Frango</h2>
+      <p class="receita-desc">Torta que nem o gaúcho resiste, mesmo depois de cinco churrascos no dia</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 90 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de farinha de trigo</li>
+              <li>g de manteiga gelada</li>
+              <li>ovo</li>
+              <li>Sal a gosto</li>
+              <li>g de frango desfiado</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>tomate picado</li>
+              <li>/2 xícara de azeitonas picadas</li>
+              <li>copo de requeijão cremoso</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, manteiga, ovo e sal até formar massa; reserve na geladeira.</li>
+              <li>Refogue cebola, alho, tomate, junte o frango, azeitonas, sal e pimenta; desligue e misture requeijão.</li>
+              <li>Abra metade da massa, forre a forma, coloque o recheio e cubra com o restante da massa.</li>
+              <li>Asse em forno preaquecido a 180°C por 40 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Empadão é igual reunião de família: muita massa, recheio de história e sempre sobra pra repetir.</div>
+    </article>
+
+    <article class="receita-card" id="pamonha-doce-de-milho-verde">
+      <h2 class="receita-titulo">Pamonha Doce de Milho Verde</h2>
+      <p class="receita-desc">O doce que prova que o milho é o verdadeiro rei do Brasil, não o futebol</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 90 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 8 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>espigas de milho verde</li>
+              <li>xícara de açúcar</li>
+              <li>pitada de sal</li>
+              <li>Folhas de milho para embrulhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Rale o milho e misture com açúcar e sal até formar uma massa.</li>
+              <li>Lave as folhas, molde pacotinhos com a massa e amarre com tiras das próprias folhas.</li>
+              <li>Cozinhe em água fervente por 40 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pamonha é a prova que a vida pode ser enrolada, mas doce e quentinha no final.</div>
+    </article>
+
+    <article class="receita-card" id="caldo-de-cana-com-mandioca-frita">
+      <h2 class="receita-titulo">Caldo de Cana com Mandioca Frita</h2>
+      <p class="receita-desc">Energia instantânea que só o Brasil oferece antes do boleto chegar</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de mandioca cortada em palitos</li>
+              <li>Óleo para fritar</li>
+              <li>Sal a gosto</li>
+              <li>ml de caldo de cana fresco ou pronto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Frite a mandioca em óleo quente até dourar e crocante; escorra e salpique sal.</li>
+              <li>Sirva acompanhando o caldo de cana gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Caldo de cana com mandioca é o combo oficial do “aguentar mais um mês” e do “meu fígado não sabe o que o espera”.</div>
+    </article>
+
+    <article class="receita-card" id="peixada-cearense">
+      <h2 class="receita-titulo">Peixada Cearense</h2>
+      <p class="receita-desc">Peixe que nada na panela e encara o calor do sertão com estilo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 38,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de postas de peixe branco (ex: badejo)</li>
+              <li>tomates picados</li>
+              <li>cebola grande picada</li>
+              <li>dentes de alho picados</li>
+              <li>batatas em rodelas</li>
+              <li>Suco de 1 limão</li>
+              <li>Coentro e cebolinha a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o peixe com limão, sal e pimenta; reserve.</li>
+              <li>Refogue cebola, alho e tomate no azeite até amolecer.</li>
+              <li>Coloque as batatas, o peixe e cubra com água; cozinhe na pressão por 15 minutos.</li>
+              <li>Finalize com coentro e cebolinha.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Peixada é igual reunião de condomínio: mistura tudo, tem gente que reclama, mas no final todo mundo sai satisfeito.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-de-rolo-pernambucano">
+      <h2 class="receita-titulo">Bolo de Rolo Pernambucano</h2>
+      <p class="receita-desc">Rolinho que enrola mais que desculpa de amigo atrasado</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 90 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 10 fatias</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>g de açúcar</li>
+              <li>g de farinha de trigo peneirada</li>
+              <li>g de goiabada derretida</li>
+              <li>Manteiga para untar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata ovos e açúcar até dobrar de volume.</li>
+              <li>Incorpore a farinha delicadamente.</li>
+              <li>Asse em assadeira untada em camadas finas por 5 minutos cada, repetindo até acabar a massa.</li>
+              <li>Espalhe goiabada em cada camada e enrole cuidadosamente após assar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bolo de rolo é o verdadeiro teste de paciência brasileiro: se der errado, finge que é arte moderna.</div>
+    </article>
+
+    <article class="receita-card" id="arroz-de-hauca-bahiano">
+      <h2 class="receita-titulo">Arroz de Hauçá Bahiano</h2>
+      <p class="receita-desc">Arroz que é mais colorido que festa de São João, e menos perigoso que quadrilha</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de arroz</li>
+              <li>g de carne bovina em cubos</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>pimentão vermelho picado</li>
+              <li>tomate picado</li>
+              <li>colher de chá de colorau</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+              <li>Óleo para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola, alho e carne até dourar.</li>
+              <li>Junte tomate, pimentão e colorau; cozinhe por 10 minutos.</li>
+              <li>Acrescente o arroz, água e tempere; cozinhe até secar.</li>
+              <li>Finalize com cheiro-verde.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Arroz de Hauçá: a prova que a Bahia não é só acarajé e axé, mas também festa no prato.</div>
+    </article>
+
+    <article class="receita-card" id="ensopado-de-capivara-pantaneiro">
+      <h2 class="receita-titulo">Ensopado de Capivara Pantaneiro</h2>
+      <p class="receita-desc">Para quem quer se aventurar na cozinha e na vida selvagem sem sair de casa</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 120 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 60,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de carne de capivara limpa e cortada</li>
+              <li>cebolas picadas</li>
+              <li>dentes de alho picados</li>
+              <li>tomates picados</li>
+              <li>pimentas dedo-de-moça picadas</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+              <li>Azeite para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho no azeite, junte a carne e doure.</li>
+              <li>Acrescente tomates, pimenta, sal e pimenta; cubra com água.</li>
+              <li>Cozinhe em fogo baixo por 2 horas até a carne ficar macia.</li>
+              <li>Finalize com cheiro-verde.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Ensopado de capivara: para quem quer se sentir Pantaneiro sem precisar caçar boleto atrasado.</div>
+    </article>
+
+    <article class="receita-card" id="pamonha-salgada-com-queijo-e-linguica">
+      <h2 class="receita-titulo">Pamonha Salgada com Queijo e Linguiça</h2>
+      <p class="receita-desc">Porque nem só de doce vive o milho, a vida também tem suas surpresas salgadas</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 90 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 8 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>espigas de milho verde</li>
+              <li>g de linguiça calabresa picada</li>
+              <li>g de queijo coalho em cubos</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Folhas de milho para embrulhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Rale o milho e misture com sal, linguiça e queijo.</li>
+              <li>Embrulhe em folhas de milho, amarre e cozinhe em água fervente por 40 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pamonha salgada é o lembrete que até o milho tem crise existencial, e às vezes quer ser salgado pra variar.</div>
+    </article>
+
+    <article class="receita-card" id="sarapatel-nordestino">
+      <h2 class="receita-titulo">Sarapatel Nordestino</h2>
+      <p class="receita-desc">Prato que te lembra que a vida é feita de altos e baixos... e miúdos</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 90 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de miúdos de porco (fígado, coração, rins) limpos e picados</li>
+              <li>cebola grande picada</li>
+              <li>dentes de alho picados</li>
+              <li>tomates picados</li>
+              <li>pimentão picado</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+              <li>Vinagre a gosto</li>
+              <li>Óleo para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere os miúdos com vinagre, sal e pimenta; reserve.</li>
+              <li>Refogue cebola, alho, tomate e pimentão no óleo.</li>
+              <li>Junte os miúdos e refogue por 10 minutos.</li>
+              <li>Cozinhe na pressão por 30 minutos, finalize com cheiro-verde.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sarapatel é tipo aquele parente estranho na festa: ninguém espera, mas todo mundo acaba gostando.</div>
+    </article>
+
+    <article class="receita-card" id="peixe-frito-com-farofa-de-dende">
+      <h2 class="receita-titulo">Peixe Frito com Farofa de Dendê</h2>
+      <p class="receita-desc">Combo que prova que o dendê é o verdadeiro tempero da felicidade baiana</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de filés de peixe branco</li>
+              <li>Sal e limão para temperar</li>
+              <li>Óleo para fritar</li>
+              <li>xícaras de farinha de mandioca</li>
+              <li>colheres de sopa de azeite de dendê</li>
+              <li>cebola pequena picada</li>
+              <li>Coentro picado a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o peixe com sal e limão; frite em óleo quente até dourar.</li>
+              <li>Refogue cebola no azeite de dendê, junte farinha e coentro, mexa até dourar.</li>
+              <li>Sirva o peixe com a farofa quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Peixe frito com farofa é o prato oficial dos fins de tarde em que a preguiça vence o boleto.</div>
+    </article>
+
+    <article class="receita-card" id="quibebe-paraense">
+      <h2 class="receita-titulo">Quibebe Paraense</h2>
+      <p class="receita-desc">Purê de abóbora que faz até boleto atrasado parecer doce</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de abóbora descascada e picada</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho no azeite até dourar.</li>
+              <li>Junte a abóbora, cubra com água e cozinhe até desmanchar.</li>
+              <li>Amasse até virar purê, tempere e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Quibebe é o abraço quentinho que a abóbora dá quando a vida aperta e o boleto grita.</div>
+    </article>
+
+    <article class="receita-card" id="dobradinha-paulista">
+      <h2 class="receita-titulo">Dobradinha Paulista</h2>
+      <p class="receita-desc">Tripas que ninguém queria, mas que conquistam estômago e coração</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 120 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de dobradinha (barriga de boi) limpa e cortada</li>
+              <li>g de feijão branco</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>tomates picados</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+              <li>Óleo para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o feijão branco até amolecer; reserve.</li>
+              <li>Refogue cebola, alho, tomates e a dobradinha até dourar.</li>
+              <li>Junte o feijão, cubra com água e cozinhe na pressão por 1 hora.</li>
+              <li>Tempere e finalize com cheiro-verde.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Dobradinha é igual boleto atrasado: ninguém quer, mas se não pagar, o estrago é maior.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-de-macaxeira-com-coco">
+      <h2 class="receita-titulo">Bolo de Macaxeira com Coco</h2>
+      <p class="receita-desc">Brigadeiro que saiu do grupo e virou rei do Nordeste</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 10 fatias</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de macaxeira (aipim) ralada</li>
+              <li>xícara de açúcar</li>
+              <li>ovos</li>
+              <li>vidro de leite de coco (200 ml)</li>
+              <li>g de coco ralado fresco</li>
+              <li>colher de sopa de manteiga</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture macaxeira, açúcar, ovos, leite de coco e manteiga até ficar homogêneo.</li>
+              <li>Coloque em forma untada e asse a 180°C por 40 minutos.</li>
+              <li>Polvilhe coco ralado por cima e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bolo de macaxeira é a desculpa perfeita pra dizer que está comendo saudável porque tem aipim.</div>
+    </article>
+
+    <article class="receita-card" id="sarapatel-capixaba">
+      <h2 class="receita-titulo">Sarapatel Capixaba</h2>
+      <p class="receita-desc">Miúdos que se misturam melhor que WhatsApp de família em grupo da firma</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 90 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de miúdos de porco limpos e picados</li>
+              <li>cebolas picadas</li>
+              <li>dentes de alho picados</li>
+              <li>tomates picados</li>
+              <li>pimenta dedo-de-moça picada</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+              <li>Vinagre a gosto</li>
+              <li>Óleo para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere os miúdos com vinagre, sal e pimenta; reserve.</li>
+              <li>Refogue cebola, alho, tomate e pimenta até amolecer.</li>
+              <li>Junte os miúdos, refogue por 10 minutos e cozinhe na pressão por 30 minutos.</li>
+              <li>Finalize com cheiro-verde.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sarapatel é a prova que até os ingredientes mais improváveis podem virar sucesso – igual reunião de família.</div>
+    </article>
+
+    <article class="receita-card" id="mingau-de-milho-verde-com-coco">
+      <h2 class="receita-titulo">Mingau de Milho Verde com Coco</h2>
+      <p class="receita-desc">O café da manhã que te abraça mais que mensagem de ex arrependido</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>espigas de milho verde ralado</li>
+              <li>ml de leite</li>
+              <li>ml de leite de coco</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>Coco ralado para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture milho, leite e leite de coco na panela.</li>
+              <li>Cozinhe mexendo sempre até engrossar.</li>
+              <li>Adoce a gosto, sirva quente e decore com coco ralado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mingau de milho é o empurrãozinho doce que seu dia precisa antes da realidade bater.</div>
+    </article>
+
+    <article class="receita-card" id="peixe-na-telha-paraense">
+      <h2 class="receita-titulo">Peixe na Telha Paraense</h2>
+      <p class="receita-desc">Peixe que descansa na telha como quem já cansou do trampo e quer só relaxar</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de filés de peixe</li>
+              <li>tomates picados</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>Pimentão verde picado</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+              <li>Azeite para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola, alho, tomates e pimentão no azeite.</li>
+              <li>Tempere o peixe com sal e pimenta, coloque na telha.</li>
+              <li>Cubra com o refogado e leve ao forno a 180°C por 20 minutos.</li>
+              <li>Finalize com cheiro-verde.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Peixe na telha é igual final de expediente: todo mundo quer e ninguém quer que acabe cedo demais.</div>
+    </article>
+
+    <article class="receita-card" id="arroz-de-hauca-com-camarao">
+      <h2 class="receita-titulo">Arroz de Hauçá com Camarão</h2>
+      <p class="receita-desc">Pra quem gosta de arroz, camarão e uma pitada de história no prato</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 55 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 45,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de arroz</li>
+              <li>g de camarão limpo</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>tomate picado</li>
+              <li>pimentão picado</li>
+              <li>colher de chá de colorau</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+              <li>Óleo para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola, alho e camarão até o camarão ficar rosado.</li>
+              <li>Junte tomate, pimentão e colorau; cozinhe por 10 minutos.</li>
+              <li>Acrescente arroz, sal, pimenta e água; cozinhe até secar.</li>
+              <li>Finalize com cheiro-verde.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Arroz de Hauçá com camarão é a prova que a Bahia sabe misturar história, sabor e boleto atrasado num só prato.</div>
+    </article>
+
+    <article class="receita-card" id="caldo-verde-nordestino">
+      <h2 class="receita-titulo">Caldo Verde Nordestino</h2>
+      <p class="receita-desc">A sopa que é mais quente que a conta de luz no verão</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de macaxeira cozida e picada</li>
+              <li>linguiça calabresa em rodelas</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>litro de água</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola, alho e linguiça no azeite.</li>
+              <li>Bata a macaxeira com água no liquidificador até virar creme.</li>
+              <li>Misture o creme na panela com o refogado, tempere e aqueça.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Caldo verde nordestino: a desculpa perfeita pra ligar o fogão e esquecer os boletos por um tempo.</div>
+    </article>
+
+    <article class="receita-card" id="beiju-de-tapioca-cearense">
+      <h2 class="receita-titulo">Beiju de Tapioca Cearense</h2>
+      <p class="receita-desc">A panqueca que é tão versátil quanto as desculpas pra não ir na academia</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de goma de tapioca hidratada</li>
+              <li>Recheio a gosto: coco ralado, queijo coalho, leite condensado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Peneire a goma na frigideira quente formando uma camada fina.</li>
+              <li>Deixe aquecer até grudar e vire para aquecer o outro lado (se quiser).</li>
+              <li>Recheie e dobre ao meio.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Beiju é o fast food do Nordeste: rápido, simples e cheio de opções pra fugir da dieta.</div>
+    </article>
+
+    <article class="receita-card" id="cocada-queimada-do-sertao">
+      <h2 class="receita-titulo">Cocada Queimada do Sertão</h2>
+      <p class="receita-desc">Doce que queima mais que seu cartão de crédito no fim do mês</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>latas de leite condensado</li>
+              <li>g de coco ralado fresco</li>
+              <li>colher de sopa de manteiga</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em panela, misture leite condensado, coco e manteiga.</li>
+              <li>Cozinhe em fogo baixo, mexendo sempre, até desgrudar do fundo.</li>
+              <li>Despeje em forma untada, deixe esfriar e corte em pedaços.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Cocada queimada é o doce que te lembra que até o açúcar sabe queimar, igual a conta que chega no fim do mês.</div>
+    </article>
+
+    <article class="receita-card" id="galeto-com-quiabo-mineiro">
+      <h2 class="receita-titulo">Galeto com Quiabo Mineiro</h2>
+      <p class="receita-desc">Frango que é tão mineiro quanto aquele "uai" que não sai da boca</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 70 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>galeto inteiro cortado em pedaços</li>
+              <li>g de quiabo cortado</li>
+              <li>dentes de alho picados</li>
+              <li>cebola picada</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Óleo para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o galeto, doure em frigideira e reserve.</li>
+              <li>Refogue alho e cebola, junte o galeto e cubra com água.</li>
+              <li>Cozinhe até o galeto ficar macio; acrescente o quiabo e cozinhe mais 15 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Galeto com quiabo é o combo perfeito pra quem quer provar que mineiro sabe sim cozinhar e enrolar na conversa.</div>
+    </article>
+
+    <article class="receita-card" id="bife-a-cavalo-com-arroz-e-feijao-carioca">
+      <h2 class="receita-titulo">Bife à Cavalo com Arroz e Feijão Carioca</h2>
+      <p class="receita-desc">O trio que sustenta mais que seu salário no fim do mês</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>bifes de carne bovina</li>
+              <li>ovos</li>
+              <li>xícara de arroz</li>
+              <li>xícara de feijão carioca cozido</li>
+              <li>Sal, pimenta e óleo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe arroz e feijão separadamente.</li>
+              <li>Tempere e frite os bifes e os ovos (fritos em formato de “cavalo”).</li>
+              <li>Sirva os bifes com os ovos por cima, acompanhados de arroz e feijão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bife à cavalo é igual a segunda-feira: você sabe que vai chegar, mas ainda finge que não acredita.</div>
+    </article>
+
+    <article class="receita-card" id="caldinho-de-feijao-preto-carioca">
+      <h2 class="receita-titulo">Caldinho de Feijão Preto Carioca</h2>
+      <p class="receita-desc">A solução líquida pra sobreviver ao calor e ao boleto atrasado</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de feijão preto cozido</li>
+              <li>cebola média picada</li>
+              <li>dentes de alho picados</li>
+              <li>litro de água</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+              <li>Azeite para finalizar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho em azeite.</li>
+              <li>Bata o feijão com água no liquidificador até ficar cremoso.</li>
+              <li>Misture o refogado ao caldo, tempere e aqueça.</li>
+              <li>Sirva com cheiro-verde por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Caldinho de feijão é o abraço quentinho que seu estômago manda quando a vida aperta e o boleto grita.</div>
+    </article>
+
+    <article class="receita-card" id="cocada-branca-cremosa-do-nordeste">
+      <h2 class="receita-titulo">Cocada Branca Cremosa do Nordeste</h2>
+      <p class="receita-desc">O doce que é mais pegajoso que mensagem de ex no WhatsApp</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>latas de leite condensado</li>
+              <li>g de coco ralado fresco</li>
+              <li>colher de sopa de manteiga</li>
+              <li>ml de leite de coco</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes na panela.</li>
+              <li>Cozinhe em fogo médio, mexendo sempre, até engrossar e soltar do fundo.</li>
+              <li>Despeje em forma untada, deixe esfriar e corte.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Cocada branca é o lembrete doce que a vida pode ser grudenta, mas sempre com sabor.</div>
+    </article>
+
+    <article class="receita-card" id="arroz-de-hauca-com-galinha">
+      <h2 class="receita-titulo">Arroz de Hauçá com Galinha</h2>
+      <p class="receita-desc">A mistura que prova que galinha e arroz são melhores juntos que boleto e preocupação</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de arroz</li>
+              <li>g de galinha caipira cortada</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>tomate picado</li>
+              <li>pimentão picado</li>
+              <li>colher de chá de colorau</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+              <li>Óleo para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola, alho e galinha até dourar.</li>
+              <li>Junte tomate, pimentão e colorau; cozinhe 10 minutos.</li>
+              <li>Acrescente arroz, sal, pimenta e água; cozinhe até secar.</li>
+              <li>Finalize com cheiro-verde.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Arroz de Hauçá com galinha é o prato que prova que juntar ingredientes certos é o segredo, igual na vida e nas contas.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-com-carne-de-sol-e-queijo-coalho">
+      <h2 class="receita-titulo">Tapioca com Carne de Sol e Queijo Coalho</h2>
+      <p class="receita-desc">O lanche que é tão nordestino quanto a desculpa pra não trabalhar cedo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de goma de tapioca hidratada</li>
+              <li>g de carne de sol dessalgada e desfiada</li>
+              <li>g de queijo coalho em fatias</li>
+              <li>Manteiga para untar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça a frigideira e espalhe a goma formando discos.</li>
+              <li>Cozinhe até firmar, vire, coloque carne e queijo, dobre e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Tapioca com carne de sol é o combo que faz até quem odeia levantar cedo querer acordar.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

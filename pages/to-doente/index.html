@@ -1,0 +1,1661 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🤒 Tô Doente — Receitas NaFome</title>
+  <meta name="description" content="44 receitas para quem está na situação "Tô Doente". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/to-doente/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🤒 Tô Doente — Receitas NaFome">
+  <meta property="og:description" content="44 receitas para quem está na situação "Tô Doente". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/to-doente/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🤒 Tô Doente — NaFome",
+    "description": "44 receitas para quem está na situação "Tô Doente". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/to-doente/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=to-doente" class="btn-sortear">🎲 Sortear receita de Tô Doente</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🤒 Tô Doente</h1>
+    <p>44 receitas para quem está na situação "Tô Doente". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">44 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Tô Doente pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=to-doente" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="cha-da-vovo-antigripal-supremo">
+      <h2 class="receita-titulo">Chá da Vovó Antigripal Supremo</h2>
+      <p class="receita-desc">Porque remédio sem chá é igual boleto sem fim: só sofrimento</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de água filtrada</li>
+              <li>colheres de sopa de gengibre ralado</li>
+              <li>colher de sopa de mel</li>
+              <li>Suco de 1 limão</li>
+              <li>cravos-da-índia</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água com o gengibre e os cravos por 5 minutos.</li>
+              <li>Coe o chá em uma caneca.</li>
+              <li>Adicione o mel e o suco de limão, misture bem.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o chá não te curar, pelo menos o suador vai ajudar a expulsar o boleto do corpo.</div>
+    </article>
+
+    <article class="receita-card" id="sopa-detox-do-sofrimento-viral">
+      <h2 class="receita-titulo">Sopa Detox do Sofrimento Viral</h2>
+      <p class="receita-desc">Pra limpar o corpo e o coração enquanto a Netflix te ignora</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>cenouras médias picadas</li>
+              <li>batata doce pequena picada</li>
+              <li>cebola média picada</li>
+              <li>dentes de alho picados</li>
+              <li>litro de caldo de legumes</li>
+              <li>Sal a gosto</li>
+              <li>Pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola e o alho até dourar.</li>
+              <li>Acrescente a cenoura, a batata doce e o caldo; cozinhe até os legumes amolecerem.</li>
+              <li>Bata tudo no liquidificador, tempere e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Essa sopa é como aquele amigo chato: não te deixa mentir sobre estar bem.</div>
+    </article>
+
+    <article class="receita-card" id="suco-de-laranja-com-cenoura-a-cura-da-preguica">
+      <h2 class="receita-titulo">Suco de Laranja com Cenoura – A Cura da Preguiça</h2>
+      <p class="receita-desc">Vitamina C pra espantar a preguiça e o crush que não responde</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>laranjas espremidas</li>
+              <li>cenouras médias descascadas</li>
+              <li>ml de água gelada</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até ficar homogêneo.</li>
+              <li>Coe se preferir menos fibra.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se não curar seu resfriado, pelo menos vai te deixar com a visão de águia para fugir da rotina.</div>
+    </article>
+
+    <article class="receita-card" id="mingau-de-aveia-da-sobrevivencia">
+      <h2 class="receita-titulo">Mingau de Aveia da Sobrevivência</h2>
+      <p class="receita-desc">Porque às vezes só um mingau salva do desespero da vida adulta</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 3,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de aveia em flocos</li>
+              <li>ml de leite (pode ser vegetal)</li>
+              <li>colher de sopa de mel</li>
+              <li>Canela em pó a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite em fogo médio.</li>
+              <li>Adicione a aveia e mexa até engrossar.</li>
+              <li>Tire do fogo, adoce com mel e polvilhe canela.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mingau é igual boleto: parece simples, mas pode te surpreender se deixar passar batido.</div>
+    </article>
+
+    <article class="receita-card" id="caldo-de-galinha-reconfortante">
+      <h2 class="receita-titulo">Caldo de Galinha Reconfortante</h2>
+      <p class="receita-desc">O abraço líquido que seu corpo doente merece (e não reclama)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de carcaça de frango</li>
+              <li>litros de água</li>
+              <li>cenouras picadas</li>
+              <li>cebola picada</li>
+              <li>talos de salsão</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>dentes de alho</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque a carcaça na panela com água e leve ao fogo alto.</li>
+              <li>Acrescente os legumes e o alho, cozinhe por 40 minutos.</li>
+              <li>Coe o caldo, tempere e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der galinha, faça caldo. Se te der boletos, chora no caldo mesmo.</div>
+    </article>
+
+    <article class="receita-card" id="cha-de-hortela-pra-garganta-rebelde">
+      <h2 class="receita-titulo">Chá de Hortelã Pra Garganta Rebelde</h2>
+      <p class="receita-desc">O único menta que você vai querer na boca além do beijo do crush</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 8 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 2,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de água</li>
+              <li>punhado de folhas de hortelã frescas</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água e coloque as folhas de hortelã para infusão por 5 minutos.</li>
+              <li>Coe o chá em uma caneca.</li>
+              <li>Adoce com mel se quiser.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o crush não dá atenção, pelo menos a hortelã vai te refrescar a alma.</div>
+    </article>
+
+    <article class="receita-card" id="pure-de-batata-comfort-food">
+      <h2 class="receita-titulo">Purê de Batata Comfort Food</h2>
+      <p class="receita-desc">O abraço que sua alma doente pede, sem perguntas chatas</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de batatas descascadas</li>
+              <li>ml de leite</li>
+              <li>colheres de sopa de manteiga</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe as batatas em água até ficarem macias.</li>
+              <li>Esprema as batatas e misture a manteiga e o leite.</li>
+              <li>Tempere com sal e misture até ficar cremoso.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Purê é tipo salário no fim do mês: simples, mas salva o dia.</div>
+    </article>
+
+    <article class="receita-card" id="cha-de-camomila-com-mel-sono-de-anjo">
+      <h2 class="receita-titulo">Chá de Camomila com Mel – Sono de Anjo</h2>
+      <p class="receita-desc">Para dormir antes que o vizinho resolva fazer festa</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 3,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>sachê de camomila ou 1 colher de flores secas</li>
+              <li>ml de água quente</li>
+              <li>colher de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque a camomila na água quente e deixe em infusão por 5 minutos.</li>
+              <li>Coe e adoce com mel.</li>
+              <li>Beba quente antes de dormir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o sono não vier, pelo menos a vontade de sair da cama desaparece – e isso já é vitória.</div>
+    </article>
+
+    <article class="receita-card" id="vitamina-de-banana-com-mel-e-aveia">
+      <h2 class="receita-titulo">Vitamina de Banana com Mel e Aveia</h2>
+      <p class="receita-desc">Energia pra quem mal consegue levantar da cama, mas quer fingir que tá bem</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>banana madura</li>
+              <li>colheres de sopa de aveia</li>
+              <li>colher de sopa de mel</li>
+              <li>ml de leite ou bebida vegetal</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata tudo no liquidificador até ficar homogêneo.</li>
+              <li>Sirva imediatamente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Essa vitamina é tão boa que vai te fazer esquecer que você tem que trabalhar amanhã.</div>
+    </article>
+
+    <article class="receita-card" id="cha-de-gengibre-com-limao-e-mel">
+      <h2 class="receita-titulo">Chá de Gengibre com Limão e Mel</h2>
+      <p class="receita-desc">O trio parada dura que espanta vírus e visitas indesejadas</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de água</li>
+              <li>fatias finas de gengibre</li>
+              <li>Suco de 1 limão</li>
+              <li>colheres de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água com o gengibre por 7 minutos.</li>
+              <li>Coe em canecas, adicione limão e mel.</li>
+              <li>Misture e beba quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o vírus não for embora, pelo menos o sabor vai te fazer esquecer da vida por alguns minutos.</div>
+    </article>
+
+    <article class="receita-card" id="omelete-suave-para-estomago-sensivel">
+      <h2 class="receita-titulo">Omelete Suave para Estômago Sensível</h2>
+      <p class="receita-desc">Porque até o ovo sabe quando é hora de sossegar</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>colher de sopa de leite</li>
+              <li>Sal a gosto</li>
+              <li>Salsinha picada a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com o leite e o sal.</li>
+              <li>Despeje na frigideira aquecida e deixe cozinhar em fogo baixo.</li>
+              <li>Quando firmar, dobre ao meio e sirva com salsinha.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Omelete é igual final de novela ruim: simples, mas faz o trabalho.</div>
+    </article>
+
+    <article class="receita-card" id="agua-morna-com-mel-e-limao-elixir-da-sobrevivencia">
+      <h2 class="receita-titulo">Água Morna com Mel e Limão – Elixir da Sobrevivência</h2>
+      <p class="receita-desc">A bebida que engana o corpo e o boleto dizendo que tá tudo bem</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 3 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 1,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de água morna</li>
+              <li>Suco de ½ limão</li>
+              <li>colher de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o mel e o limão na água morna até dissolver.</li>
+              <li>Beba devagar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Essa água é tipo promessa de político: todo mundo fala, poucos fazem efeito, mas a gente bebe mesmo assim.</div>
+    </article>
+
+    <article class="receita-card" id="cha-de-erva-doce-com-mel">
+      <h2 class="receita-titulo">Chá de Erva-Doce com Mel</h2>
+      <p class="receita-desc">Para acalmar a barriga que tá mais nervosa que você na segunda-feira</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 3,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de água</li>
+              <li>colher de sopa de erva-doce</li>
+              <li>colheres de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água e adicione a erva-doce, deixando em infusão por 7 minutos.</li>
+              <li>Coe e adoce com mel.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida tá indigesta, pelo menos o chá vai ajudar a digestão.</div>
+    </article>
+
+    <article class="receita-card" id="caldo-verde-para-amortecer-a-quarentena">
+      <h2 class="receita-titulo">Caldo Verde Para Amortecer a Quarentena</h2>
+      <p class="receita-desc">Porque batata, couve e caldo quente são o trio que nunca te abandona (ao contrário do crush)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas médias descascadas</li>
+              <li>maço de couve fatiada bem fina</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>,5 litros de água</li>
+              <li>g de linguiça calabresa fatiada (opcional)</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola, alho e a linguiça na panela.</li>
+              <li>Adicione as batatas e a água, cozinhe até amolecer.</li>
+              <li>Amasse as batatas com o garfo ou bata parcialmente no liquidificador.</li>
+              <li>Acrescente a couve e cozinhe por mais 5 minutos. Tempere e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Caldo verde é tipo amigo verdadeiro: quente, reconfortante e aparece nos piores momentos.</div>
+    </article>
+
+    <article class="receita-card" id="cha-de-erva-cidreira-pra-coracao-partido-e-garganta-inflamada">
+      <h2 class="receita-titulo">Chá de Erva-Cidreira pra Coração Partido e Garganta Inflamada</h2>
+      <p class="receita-desc">Porque chorar e tomar chá é o combo do sofrimento com classe</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 3,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de água</li>
+              <li>punhado de folhas de erva-cidreira</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água e coloque a erva-cidreira para infusão por 7 minutos.</li>
+              <li>Coe, adoce com mel e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o crush não ligar, pelo menos o chá vai ser seu ombro amigo.</div>
+    </article>
+
+    <article class="receita-card" id="mingau-de-tapioca-com-leite-e-mel">
+      <h2 class="receita-titulo">Mingau de Tapioca com Leite e Mel</h2>
+      <p class="receita-desc">A doçura que você merece enquanto a vida amarga te devora</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de tapioca granulada</li>
+              <li>ml de leite</li>
+              <li>colheres de sopa de mel</li>
+              <li>Canela em pó a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite em fogo médio.</li>
+              <li>Adicione a tapioca e cozinhe mexendo até engrossar.</li>
+              <li>Desligue o fogo, adoce com mel e polvilhe canela.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o mundo te der limões, faça mingau e ignore o limão.</div>
+    </article>
+
+    <article class="receita-card" id="cha-de-alho-com-limao-e-mel-a-arma-secreta">
+      <h2 class="receita-titulo">Chá de Alho com Limão e Mel – A Arma Secreta</h2>
+      <p class="receita-desc">O gosto não é dos melhores, mas o vírus já tá tremendo nas bases</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 3,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>dentes de alho amassados</li>
+              <li>ml de água</li>
+              <li>Suco de 1 limão</li>
+              <li>colheres de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água com o alho por 7 minutos.</li>
+              <li>Coe em canecas, adicione limão e mel.</li>
+              <li>Misture e beba quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o sabor te derrubar, pelo menos o vírus cai antes.</div>
+    </article>
+
+    <article class="receita-card" id="caldo-de-abobora-com-gengibre">
+      <h2 class="receita-titulo">Caldo de Abóbora com Gengibre</h2>
+      <p class="receita-desc">Pra esquentar corpo e alma, porque frio e doença não combinam, igual você e segunda-feira</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de abóbora picada</li>
+              <li>pedaço pequeno de gengibre ralado</li>
+              <li>cebola picada</li>
+              <li>dente de alho picado</li>
+              <li>litro de caldo de legumes</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho até dourar.</li>
+              <li>Adicione a abóbora, gengibre e caldo, cozinhe até abóbora amolecer.</li>
+              <li>Bata no liquidificador, volte ao fogo para aquecer e tempere.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse caldo é como seu chefe: forte, mas necessário pra você continuar na luta.</div>
+    </article>
+
+    <article class="receita-card" id="vitamina-de-mamao-com-laranja-e-mel">
+      <h2 class="receita-titulo">Vitamina de Mamão com Laranja e Mel</h2>
+      <p class="receita-desc">Para dar um chega pra lá no intestino preguiçoso e na gripe</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatia grande de mamão</li>
+              <li>Suco de 1 laranja</li>
+              <li>colher de sopa de mel</li>
+              <li>ml de água</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes até ficar homogêneo.</li>
+              <li>Sirva gelado ou em temperatura ambiente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se seu corpo reclamar, diga que é só um upgrade que a vida mandou.</div>
+    </article>
+
+    <article class="receita-card" id="cha-de-eucalipto-para-nariz-entupido">
+      <h2 class="receita-titulo">Chá de Eucalipto para Nariz Entupido</h2>
+      <p class="receita-desc">O vapor que vai fazer seu nariz lembrar como é respirar sem drama</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de água</li>
+              <li>punhado de folhas de eucalipto frescas ou 2 gotas de óleo essencial</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água com as folhas (ou óleo) por 5 minutos.</li>
+              <li>Inale o vapor com a toalha sobre a cabeça por 5 a 10 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse chá é tipo Wi-Fi bom: faz seu nariz funcionar de novo e salva a sua sanidade.</div>
+    </article>
+
+    <article class="receita-card" id="cha-de-sabugueiro-com-limao-e-mel">
+      <h2 class="receita-titulo">Chá de Sabugueiro com Limão e Mel</h2>
+      <p class="receita-desc">O segredo das avós para espantar qualquer vírus (e a visita que não vai embora)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de água</li>
+              <li>colheres de sopa de flores secas de sabugueiro</li>
+              <li>Suco de 1 limão</li>
+              <li>colheres de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água e adicione as flores, deixando em infusão por 10 minutos.</li>
+              <li>Coe, adoce com mel e limão.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o vírus não sair, pelo menos sua paciência já era há tempos.</div>
+    </article>
+
+    <article class="receita-card" id="cha-de-curcuma-com-pimenta-e-mel">
+      <h2 class="receita-titulo">Chá de Cúrcuma com Pimenta e Mel</h2>
+      <p class="receita-desc">Para sentir que está fazendo algo bom, mesmo que só seja aguentar o dia</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de água</li>
+              <li>colher de chá de cúrcuma em pó</li>
+              <li>pitada de pimenta-do-reino</li>
+              <li>colheres de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água e misture a cúrcuma e a pimenta.</li>
+              <li>Coe se desejar e adoce com mel.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der pimenta, faça chá e esconde o fogo.</div>
+    </article>
+
+    <article class="receita-card" id="pure-de-mandioquinha-com-queijo-e-cebolinha">
+      <h2 class="receita-titulo">Purê de Mandioquinha com Queijo e Cebolinha</h2>
+      <p class="receita-desc">O conforto cremoso que seu corpo pede, sem drama e sem pressa</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de mandioquinha descascada</li>
+              <li>ml de leite</li>
+              <li>g de queijo muçarela ralado</li>
+              <li>Cebolinha picada a gosto</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a mandioquinha até ficar macia.</li>
+              <li>Esprema e misture o leite, o queijo e o sal até virar purê.</li>
+              <li>Salpique a cebolinha e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Purê é tipo Netflix: você não precisa sair da cama pra se sentir melhor.</div>
+    </article>
+
+    <article class="receita-card" id="cha-de-erva-doce-com-hortela">
+      <h2 class="receita-titulo">Chá de Erva-Doce com Hortelã</h2>
+      <p class="receita-desc">A dupla que vai fazer seu estômago e sua mente pararem de brigar</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de água</li>
+              <li>colher de sopa de erva-doce</li>
+              <li>colher de sopa de hortelã fresca</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água e coloque as ervas para infusão por 7 minutos.</li>
+              <li>Coe e adoce com mel.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o estômago reclamar, pelo menos o chá vai ser o juiz da paz.</div>
+    </article>
+
+    <article class="receita-card" id="sopa-de-lentilha-para-fortalecer-o-corpo-e-a-alma">
+      <h2 class="receita-titulo">Sopa de Lentilha para Fortalecer o Corpo e a Alma</h2>
+      <p class="receita-desc">Porque até o vírus sabe que com lentilha não se brinca</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de lentilhas lavadas</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>tomates picados</li>
+              <li>litro de caldo de legumes</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola e o alho até dourar.</li>
+              <li>Adicione os tomates, lentilhas e o caldo.</li>
+              <li>Cozinhe até as lentilhas ficarem macias. Tempere e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sopa de lentilha é igual boleto atrasado: difícil, mas fortalece o bolso e o corpo.</div>
+    </article>
+
+    <article class="receita-card" id="cha-de-alecrim-com-limao">
+      <h2 class="receita-titulo">Chá de Alecrim com Limão</h2>
+      <p class="receita-desc">Pra dar aquele gás que nem você sabe de onde vem</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 3,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de água</li>
+              <li>colher de sopa de alecrim fresco</li>
+              <li>Suco de 1 limão</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água com o alecrim por 7 minutos.</li>
+              <li>Coe, adoce com mel e adicione o limão.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a preguiça vencer, pelo menos o chá vai te fazer parecer ocupado.</div>
+    </article>
+
+    <article class="receita-card" id="vitamina-de-morango-com-banana-e-iogurte">
+      <h2 class="receita-titulo">Vitamina de Morango com Banana e Iogurte</h2>
+      <p class="receita-desc">A doçura que engana o corpo e mente cansada</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>morangos</li>
+              <li>banana madura</li>
+              <li>ml de iogurte natural</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes até ficar homogêneo.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der morango, faça vitamina. Se der boleto, faça silêncio.</div>
+    </article>
+
+    <article class="receita-card" id="sopa-de-cebola-caseira">
+      <h2 class="receita-titulo">Sopa de Cebola Caseira</h2>
+      <p class="receita-desc">A única coisa que vai te fazer chorar mais do que boletos atrasados</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>cebolas grandes fatiadas</li>
+              <li>dentes de alho picados</li>
+              <li>litro de caldo de carne ou legumes</li>
+              <li>colheres de sopa de manteiga</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta a manteiga e refogue cebolas e alho em fogo baixo até caramelizar.</li>
+              <li>Adicione o caldo, tempere e cozinhe por 30 minutos.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a sopa não curar, pelo menos vai te deixar com cara de quem tá sofrendo menos.</div>
+    </article>
+
+    <article class="receita-card" id="cha-de-laranja-com-canela">
+      <h2 class="receita-titulo">Chá de Laranja com Canela</h2>
+      <p class="receita-desc">Pra esquentar o corpo e fingir que a vida tá doce</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 3,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de água</li>
+              <li>Suco de 2 laranjas</li>
+              <li>pau de canela</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água com a canela por 5 minutos.</li>
+              <li>Coe, adicione o suco de laranja e mel.</li>
+              <li>Misture e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida tá amarga, pelo menos o chá vai tentar disfarçar.</div>
+    </article>
+
+    <article class="receita-card" id="mingau-de-milho-doce-com-coco">
+      <h2 class="receita-titulo">Mingau de Milho Doce com Coco</h2>
+      <p class="receita-desc">A doçura que a doença merece, pra adoçar até boleto</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 6,50</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de milho verde escorrido</li>
+              <li>ml de leite</li>
+              <li>ml de leite de coco</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>Canela para polvilhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata o milho com 200 ml de leite no liquidificador.</li>
+              <li>Coe e leve para cozinhar com o restante do leite, leite de coco e açúcar.</li>
+              <li>Mexa até engrossar. Sirva com canela.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mingau é como boleto: doce na hora, amargo depois, mas você encara.</div>
+    </article>
+
+    <article class="receita-card" id="cha-de-rosa-mosqueta-com-mel">
+      <h2 class="receita-titulo">Chá de Rosa Mosqueta com Mel</h2>
+      <p class="receita-desc">O luxo que seu corpo doente merece (mesmo que seu bolso não)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de água</li>
+              <li>colher de sopa de rosa mosqueta seca</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água e coloque a rosa mosqueta para infusão por 8 minutos.</li>
+              <li>Coe, adoce com mel e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o chá não for o remédio, pelo menos vai te fazer se sentir chique no seu sofrimento.</div>
+    </article>
+
+    <article class="receita-card" id="caldo-de-feijao-concentrado">
+      <h2 class="receita-titulo">Caldo de Feijão Concentrado</h2>
+      <p class="receita-desc">Porque feijão é o combustível que nem a gripe consegue apagar</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de feijão preto</li>
+              <li>litro de água</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o feijão na panela de pressão com água por 30 minutos.</li>
+              <li>Refogue cebola e alho, junte ao feijão cozido e cozinhe mais 10 minutos.</li>
+              <li>Bata parte do feijão para engrossar e tempere.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Feijão é tipo boleto: aparece sempre, mas a gente aprende a lidar.</div>
+    </article>
+
+    <article class="receita-card" id="cha-de-camomila-com-lavanda-para-relaxar">
+      <h2 class="receita-titulo">Chá de Camomila com Lavanda para Relaxar</h2>
+      <p class="receita-desc">Pra dormir enquanto o mundo desmorona lá fora</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de água</li>
+              <li>colher de chá de camomila seca</li>
+              <li>colher de chá de lavanda seca</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água e coloque as ervas para infusão por 7 minutos.</li>
+              <li>Coe, adoce com mel e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o sono não vier, pelo menos a lavanda vai te fazer esquecer do boletão.</div>
+    </article>
+
+    <article class="receita-card" id="cha-de-limao-com-acafrao-e-mel">
+      <h2 class="receita-titulo">Chá de Limão com Açafrão e Mel</h2>
+      <p class="receita-desc">A mistura que parece remédio, mas é só pra dar um show de sabor</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de água</li>
+              <li>Suco de 1 limão</li>
+              <li>colher de chá de açafrão-da-terra</li>
+              <li>colheres de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água com o açafrão por 7 minutos.</li>
+              <li>Coe, adicione o limão e o mel.</li>
+              <li>Misture e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der limão e açafrão, pelo menos faça um chá que impressiona os amigos.</div>
+    </article>
+
+    <article class="receita-card" id="papinha-de-arroz-com-frango-e-cenoura">
+      <h2 class="receita-titulo">Papinha de Arroz com Frango e Cenoura</h2>
+      <p class="receita-desc">O almoço do doente que quer carinho e nada de frescura</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>peito de frango pequeno</li>
+              <li>cenoura média picada</li>
+              <li>xícara de arroz branco</li>
+              <li>xícaras de água</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o arroz com a cenoura na água até amolecer.</li>
+              <li>Cozinhe o frango até ficar macio e desfie.</li>
+              <li>Misture tudo e bata no liquidificador se preferir textura lisa.</li>
+              <li>Ajuste o sal e sirva morno.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Papinha não é só pra bebê, é pra adulto cansado que quer carinho em forma de comida.</div>
+    </article>
+
+    <article class="receita-card" id="cha-de-gengibre-com-canela-e-mel">
+      <h2 class="receita-titulo">Chá de Gengibre com Canela e Mel</h2>
+      <p class="receita-desc">O combo que vai te fazer sentir que tá fazendo algo contra a gripe, além de reclamar no grupo da família</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de água</li>
+              <li>fatias finas de gengibre</li>
+              <li>pau de canela</li>
+              <li>colheres de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água com gengibre e canela por 7 minutos.</li>
+              <li>Coe, adoce com mel e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a gripe resistir, pelo menos você ganhou tempo pra maratonar séries.</div>
+    </article>
+
+    <article class="receita-card" id="mingau-de-arroz-com-leite-e-canela">
+      <h2 class="receita-titulo">Mingau de Arroz com Leite e Canela</h2>
+      <p class="receita-desc">A sobremesa quentinha que faz seu corpo esquecer da dor (pelo menos até acabar)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de arroz</li>
+              <li>litro de leite</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>Canela em pau e em pó para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o arroz no leite em fogo baixo, mexendo sempre até engrossar.</li>
+              <li>Adicione o açúcar e continue mexendo até o ponto desejado.</li>
+              <li>Sirva com canela polvilhada.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mingau é tipo aquele amigo que aparece só quando você tá mal, mas a gente gosta mesmo assim.</div>
+    </article>
+
+    <article class="receita-card" id="cha-de-limao-com-gengibre-e-hortela">
+      <h2 class="receita-titulo">Chá de Limão com Gengibre e Hortelã</h2>
+      <p class="receita-desc">O refresco que vai te fazer esquecer que tá doente (pelo menos por alguns minutos)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de água</li>
+              <li>Suco de 1 limão</li>
+              <li>fatias de gengibre</li>
+              <li>folhas de hortelã</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água com gengibre e hortelã por 5 minutos.</li>
+              <li>Coe, adoce e adicione o limão.</li>
+              <li>Misture e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o crush não ligar, pelo menos o chá vai te refrescar a alma.</div>
+    </article>
+
+    <article class="receita-card" id="caldo-de-legumes-com-toque-de-limao">
+      <h2 class="receita-titulo">Caldo de Legumes com Toque de Limão</h2>
+      <p class="receita-desc">A poção mágica que não cura boleto, mas fortalece o corpo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 11,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>cenouras picadas</li>
+              <li>batatas picadas</li>
+              <li>chuchu picado</li>
+              <li>cebola picada</li>
+              <li>talos de salsão</li>
+              <li>litro de água</li>
+              <li>Suco de ½ limão</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe todos os legumes na água até ficarem macios.</li>
+              <li>Tempere com sal e limão antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o caldo não curar, pelo menos vai te lembrar que ainda tem limão na vida.</div>
+    </article>
+
+    <article class="receita-card" id="cha-de-capim-limao-com-mel">
+      <h2 class="receita-titulo">Chá de Capim-Limão com Mel</h2>
+      <p class="receita-desc">A calmaria líquida que seu corpo implora entre um espirro e outro</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 3,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de água</li>
+              <li>colher de sopa de capim-limão fresco ou seco</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água com o capim-limão por 7 minutos.</li>
+              <li>Coe e adoce com mel.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida tá difícil, pelo menos o chá vai te ajudar a fingir que tá zen.</div>
+    </article>
+
+    <article class="receita-card" id="pure-de-abobora-com-gengibre-e-mel">
+      <h2 class="receita-titulo">Purê de Abóbora com Gengibre e Mel</h2>
+      <p class="receita-desc">Doçura e calor para o estômago que tá mais confuso que sua vida amorosa</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de abóbora descascada</li>
+              <li>pedaço pequeno de gengibre ralado</li>
+              <li>colher de sopa de mel</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a abóbora até amolecer.</li>
+              <li>Amasse a abóbora com o gengibre e o mel.</li>
+              <li>Tempere com sal e sirva morno.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Purê é o abraço que sua barriga merece, sem perguntas inconvenientes.</div>
+    </article>
+
+    <article class="receita-card" id="cha-de-anis-estrelado-com-mel-e-limao">
+      <h2 class="receita-titulo">Chá de Anis Estrelado com Mel e Limão</h2>
+      <p class="receita-desc">O sabor exótico pra espantar vírus e a vontade de responder mensagens</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de água</li>
+              <li>anis estrelados</li>
+              <li>Suco de 1 limão</li>
+              <li>colheres de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água com anis por 7 minutos.</li>
+              <li>Coe, adoce, adicione limão e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o chá não curar, pelo menos vai te deixar mais elegante no sofrimento.</div>
+    </article>
+
+    <article class="receita-card" id="mingau-de-aveia-com-banana-e-canela">
+      <h2 class="receita-titulo">Mingau de Aveia com Banana e Canela</h2>
+      <p class="receita-desc">O café da manhã dos campeões – ou pelo menos dos que acordam doentes</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de aveia em flocos</li>
+              <li>ml de leite</li>
+              <li>banana amassada</li>
+              <li>Canela em pó a gosto</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite e adicione a aveia, mexendo até engrossar.</li>
+              <li>Desligue o fogo, misture a banana e mel.</li>
+              <li>Polvilhe canela e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mingau é tipo primeira impressão no Tinder: simples, mas pode surpreender.</div>
+    </article>
+
+    <article class="receita-card" id="cha-de-hortela-com-gengibre-e-mel">
+      <h2 class="receita-titulo">Chá de Hortelã com Gengibre e Mel</h2>
+      <p class="receita-desc">O trio que vai fazer seu corpo agradecer e sua mente sossegar</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de água</li>
+              <li>punhado de hortelã fresca</li>
+              <li>fatias de gengibre</li>
+              <li>colheres de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água com hortelã e gengibre por 7 minutos.</li>
+              <li>Coe, adoce e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o chá não curar, pelo menos vai te deixar com hálito de gente saudável.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

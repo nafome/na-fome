@@ -1,0 +1,1717 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🥂 Ano Novo — Receitas NaFome</title>
+  <meta name="description" content="40 receitas para quem está na situação "Ano Novo". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/ano-novo/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🥂 Ano Novo — Receitas NaFome">
+  <meta property="og:description" content="40 receitas para quem está na situação "Ano Novo". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/ano-novo/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🥂 Ano Novo — NaFome",
+    "description": "40 receitas para quem está na situação "Ano Novo". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/ano-novo/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=ano-novo" class="btn-sortear">🎲 Sortear receita de Ano Novo</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🥂 Ano Novo</h1>
+    <p>40 receitas para quem está na situação "Ano Novo". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">40 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Ano Novo pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=ano-novo" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="lentilha-com-linguica-para-dar-sorte-e-nao-falhar-na-ceia">
+      <h2 class="receita-titulo">Lentilha com Linguiça para Dar Sorte (e Não Falhar na Ceia)</h2>
+      <p class="receita-desc">Uma lentilha com linguiça que promete sorte no Ano Novo, porque a única coisa mais irritante que contar calorias é contar defeito de réveillon.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 xícara de lentilha</li>
+              <li>2 linguiças calabresa cortadas em rodelas</li>
+              <li>1 cebola média picada</li>
+              <li>2 dentes de alho amassados</li>
+              <li>2 colheres de sopa de azeite</li>
+              <li>Sal a gosto</li>
+              <li>Pimenta-do-reino a gosto</li>
+              <li>Cheiro-verde picado para finalizar</li>
+              <li>1 folha de louro</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave bem a lentilha e deixe de molho por 30 minutos (pra dar aquela de sorte, ou pelo menos pra cozinhar melhor).</li>
+              <li>Em uma panela, aqueça o azeite e refogue a cebola e o alho até ficarem douradinhos — igual sua empolgação pra dieta que sempre demora a aparecer.</li>
+              <li>Adicione a linguiça e deixe fritar até soltar aquela gordura que a gente ama e culpa depois.</li>
+              <li>Escorra a lentilha e coloque na panela, cubra com água até 2 dedos acima e ponha a folha de louro.</li>
+              <li>Deixe cozinhar em fogo médio até a lentilha ficar macia, cerca de 30 a 40 minutos (tempo ótimo pra pensar sobre suas resoluções que nunca saem do papel).</li>
+              <li>Tempere com sal, pimenta e finalize com cheiro-verde.</li>
+              <li>Sirva quente e prepare-se para atrair sorte... ou pelo menos um bom apetite.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a sorte não aparecer, pelo menos você comeu bem e teve motivo pra colocar a culpa na política em vez da comida.</div>
+    </article>
+
+    <article class="receita-card" id="ano-novo-no-pique-gourmet-roma-com-mel-e-a-torrada-que-sofre-com-brie">
+      <h2 class="receita-titulo">Ano Novo no Pique Gourmet: Romã com Mel e a Torrada que Sofre com Brie</h2>
+      <p class="receita-desc">A receita para quem quer um Ano Novo chique, mas com aquela pitada de realismo: porque entre brie e romã, a gente sabe que o mel é quem mantém a esperança doce.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 romã média (pra encher o peito de esperança e o prato de sementes)</li>
+              <li>2 colheres de sopa de mel (do tipo que sua avó aprovaria)</li>
+              <li>4 fatias de pão de forma ou baguete, para a torrada</li>
+              <li>100g de queijo brie (aquele que derrete na boca e não no bolso)</li>
+              <li>1 colher de sopa de manteiga (pra garantir que a torrada não sofra sozinha)</li>
+              <li>Uma pitada de paciência para não comer tudo antes de montar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Pré-aqueça a frigideira ou toaster para as torradas, porque festa sem pão é só propaganda.</li>
+              <li>Passe a manteiga nas fatias do pão e toste até ficarem douradinhas - ou até decidir que já queimou demais e tá bom assim.</li>
+              <li>Enquanto isso, corte o brie em fatias finas. Se der para lamber o queijo sem culpa, você está no caminho certo.</li>
+              <li>Esprema as sementes de romã numa tigela, aproveitando para fazer cara de quem está apertando os problemas do ano velho.</li>
+              <li>Regue as sementes com o mel e misture sem dó, tipo quando mistura os problemas com a esperança pro ano que vem.</li>
+              <li>Monte as torradas com fatias generosas de brie e depois coloque uma boa colherada da mistura de romã com mel em cima. Se sobrar, calma, tem mais aí.</li>
+              <li>Sirva imediatamente antes que o brie perceba que virou jantar e não somente um aperitivo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o brie começar a fazer drama, lembre que ele só quer ser apreciado — igual você tentando se controlar no primeiro dia do ano.</div>
+    </article>
+
+    <article class="receita-card" id="canape-de-salmao-defumado-o-luxo-que-cabe-na-boca">
+      <h2 class="receita-titulo">Canapé de Salmão Defumado: O Luxo que Cabe na Boca</h2>
+      <p class="receita-desc">Porque começar o ano com fome de pão e vontade de ser chique nunca foi tão fácil (e gostoso).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 12 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>100g de salmão defumado fatiado (quanto mais, melhor, não nego!)</li>
+              <li>150g de cream cheese (aquela manteiguinha dos endinheirados)</li>
+              <li>1 colher de sopa de dill fresco picado (ou aquela ervinha que você tem no quintal)</li>
+              <li>1 colher de chá de suco de limão (para dar uma azedinha civilizada)</li>
+              <li>Pão de forma ou torradinhas para base (a base da segurança)</li>
+              <li>Sal e pimenta-do-reino a gosto (porque a vida precisa de tempero)</li>
+              <li>Fatias finas de pepino ou cebola roxa para decorar (opcional, mas visual ajuda no ego)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o cream cheese com o dill, o suco de limão, sal e pimenta até ficar homogêneo – como aquele discurso que você ensaia antes da virada.</li>
+              <li>Espalhe uma generosa camada dessa mistura no pão ou torradinha, porque ninguém merece canapé tímido.</li>
+              <li>Cubra com uma fatia de salmão defumado, feito um tapete vermelho para o seu paladar VIP.</li>
+              <li>Decore com fatias finas de pepino ou cebola roxa, ou jogue tudo por cima como quem não quer nada.</li>
+              <li>Leve à geladeira por 10 minutos, para dar aquele 'geladinho' que a ceia de Ano Novo pede.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se alguém reclamar do preço do salmão, diga que é investimento no sabor... ou na inveja do vizinho.</div>
+    </article>
+
+    <article class="receita-card" id="champagne-gele-ano-novo-sem-manchas">
+      <h2 class="receita-titulo">Champagne Gelê: Porque o Ano Novo Merece Brilho e Uma Gelatina que Não Te Deixa Tonto</h2>
+      <p class="receita-desc">Uma receita que combina o luxo da champagne com a nostalgia da gelatina de infância, para você brindar sem ficar tonto e ainda sair de fininho pra cama cedo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min + 4h de geladeira</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 garrafa de champagne brut (ou aquele espumante barato que você insiste em chamar de champagne)</li>
+              <li>1 xícara de frutas vermelhas frescas (morango, amora, framboesa, ou aquela frutinha que você encontrou no fundo da geladeira)</li>
+              <li>3 envelopes de gelatina incolor e sem sabor</li>
+              <li>3 colheres de sopa de açúcar (se você gosta do ano novo mais doce que suas resoluções)</li>
+              <li>1/2 xícara de água fria para hidratar a gelatina</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Hidrate a gelatina na água fria e deixe ela pensar sobre as escolhas da vida por 5 minutos.</li>
+              <li>Enquanto isso, abra a champagne como um adulto responsável (ou não) e reserve 1 xícara para misturar.</li>
+              <li>Aqueça ligeiramente a gelatina hidratada no micro-ondas por 15 segundos – nada de transformar em sopa!</li>
+              <li>Misture a gelatina aquecida com a champagne reservada e o açúcar até o açúcar desaparecer como suas expectativas em 31 de dezembro.</li>
+              <li>No restante da champagne, coloque as frutas vermelhas para dar aquele charme e sabor que dizem "eu tentei".</li>
+              <li>Despeje a mistura de gelatina com champagne sobre as frutas, em taças ou em uma forma bonita – afinal, a gente também tem que impressionar a galera do Instagram.</li>
+              <li>Leve para gelar por no mínimo 4 horas ou até que a gelatina fique firme – tempo suficiente para você repensar suas metas de ano novo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a gelatina ficar mole demais, não culpe a receita, culpe aquela última taça antes de começar o preparo.</div>
+    </article>
+
+    <article class="receita-card" id="bacalhau-com-natas-desculpa-espumante-antes-meia-noite">
+      <h2 class="receita-titulo">Bacalhau com Natas: a desculpa perfeita pra beber espumante antes da meia-noite</h2>
+      <p class="receita-desc">A receita que justifica sua estratégia de começar a comemorar o Ano Novo mais cedo e com estilo — porque ninguém merece esperar até a meia-noite com barriga vazia.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 65,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de bacalhau dessalgado e desfiado</li>
+              <li>600g de batatas</li>
+              <li>1 cebola média picada</li>
+              <li>2 dentes de alho picados</li>
+              <li>300ml de creme de leite fresco</li>
+              <li>200ml de leite</li>
+              <li>3 colheres de sopa de farinha de trigo</li>
+              <li>50g de manteiga</li>
+              <li>100g de queijo parmesão ralado</li>
+              <li>Azeite de oliva a gosto</li>
+              <li>Sal e pimenta do reino a gosto</li>
+              <li>Salsinha picada para finalizar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe as batatas com casca até ficarem macias, descasque e corte em cubos.</li>
+              <li>Numa panela, refogue a cebola e o alho no azeite até dourar e o aroma ser mais presente que suas desculpas para não pular as sete ondas.</li>
+              <li>Junte o bacalhau desfiado, refogue rapidamente e reserve.</li>
+              <li>Faça o molho branco: derreta a manteiga, acrescente a farinha, mexa sem parar até formar uma pasta (tipo discutir com parente no Natal).</li>
+              <li>Vá adicionando o leite aos poucos, mexendo até engrossar e ficar um creme lisinho.</li>
+              <li>Acrescente o creme de leite, tempere com sal, pimenta e misture ao bacalhau e batatas.</li>
+              <li>Coloque tudo em um refratário, cubra com queijo parmesão ralado e leve ao forno pré-aquecido a 200° por uns 20 minutos ou até gratinar.</li>
+              <li>Finalize com salsinha picada e sirva acompanhado daquele espumante que você já abriu antes da hora.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se alguém reclamar do sal do bacalhau, diga que é o tempero natural da sua paciência depois do ano que passou.</div>
+    </article>
+
+    <article class="receita-card" id="costelinha-porco-caramelizada-brinde-ano-novo">
+      <h2 class="receita-titulo">Costelinha de Porco Caramelizada: O Brinde Que Seu Ano Novo Merece</h2>
+      <p class="receita-desc">Uma costelinha tão irresistível que até aquela sua tia que só come alface vai pedir bis. Perfeita para começar o ano com um toque doce, pegajoso e cheio de humor.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h 20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 45,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 kg de costelinha de porco</li>
+              <li>3 colheres de sopa de mel</li>
+              <li>2 colheres de sopa de mostarda Dijon</li>
+              <li>2 dentes de alho picados</li>
+              <li>1 colher de sopa de molho de soja</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>1 colher de chá de páprica defumada</li>
+              <li>Suco de meio limão</li>
+              <li>Azeite para grelhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere as costelinhas com sal, pimenta, alho e páprica defumada. Deixe marinar por pelo menos 30 minutos, ou até esquecer a dieta do ano passado.</li>
+              <li>Misture o mel, a mostarda, o molho de soja e o suco de limão para fazer a marinada doce e amarga – igual a vida pós-festas.</li>
+              <li>Aqueça uma frigideira com azeite e sele as costelinhas até dourar bem, como sua cara quando vê a conta do supermercado.</li>
+              <li>Reduza o fogo e pincele a mistura de mel e mostarda por cima, deixando caramelizar devagar, como aquela resolução de ir para a academia.</li>
+              <li>Cozinhe por mais 10-15 minutos, virando e pincelando sempre, até ficar brilhante e deliciosa — ou até o seu amigo que prometeu aparecer no churrasco finalmente chegar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não se esqueça: costelinha caramelizada significa que a dieta só começa depois do terceiro pedaço... pelo menos é essa a desculpa que uso.</div>
+    </article>
+
+    <article class="receita-card" id="camarao-que-nem-ano-novo-cheio-de-alho-e-com-pao-que-a-vo-aprovou">
+      <h2 class="receita-titulo">Camarão Que Nem Ano Novo: Cheio de Alho e Com Pão Que a Vó Aprovou</h2>
+      <p class="receita-desc">Se tem uma coisa melhor que prometer dieta no Ano Novo é quebrar a promessa com muito alho e camarão saboroso — porque até o Réveillon merece ser feliz (e fedido)!</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 45,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de camarão limpo</li>
+              <li>5 dentes de alho picados</li>
+              <li>4 colheres de sopa de manteiga</li>
+              <li>1 colher de sopa de azeite de oliva</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>1/2 maço de salsinha picada</li>
+              <li>1 pão francês grande ou 4 mini pães</li>
+              <li>2 dentes de alho para o pão</li>
+              <li>1 colher de sopa de manteiga para o pão</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Pré-aqueça uma frigideira grande em fogo médio.</li>
+              <li>Misture a manteiga e o azeite na frigideira até derreter e ficar brilhante — já dá aquele aroma que anuncia o Ano Novo!</li>
+              <li>Adicione o alho picado e refogue até perfumar, mas cuidado para não queimar — ninguém quer um Ano Novo com gosto de forno queimado.</li>
+              <li>Jogue os camarões na frigideira, tempere com sal e pimenta, e cozinhe por cerca de 3-4 minutos até que fiquem rosados e felizes.</li>
+              <li>Adicione a salsinha picada para aquele toque verde e fresh, como a esperança do Ano Novo.</li>
+              <li>Enquanto isso, misture a manteiga com o alho amassado para o pão de alho.</li>
+              <li>Corte o pão ao meio, espalhe a manteiga temperada e leve à grelha até ficar dourado e crocante, perfeito para limpar o prato depois.</li>
+              <li>Sirva o camarão com o pão de alho grelhado e aproveite o combo que vai fazer seu Ano Novo começar com sabor e humor!</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se seu amor pelo alho incomodar mais que a ressaca do dia seguinte, pelo menos ele vai ter um cheiro de fracasso delicioso!</div>
+    </article>
+
+    <article class="receita-card" id="mini-quiches-queijo-tomate-seco-virada-sem-queimar-panela">
+      <h2 class="receita-titulo">Mini Quiches de Queijo e Tomate Seco: A Salvação da Virada Sem Queimar a Panela</h2>
+      <p class="receita-desc">Mini quiches que salvam a virada do Ano Novo daquelas opções ultrarrápidas, fáceis e que ninguém vai ficar falando que você só serviu salgadinho industrializado. Porque, convenhamos, adultos também merecem festa gostosa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 12 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 pacote de massa folhada pronta</li>
+              <li>150g de queijo mussarela ralado</li>
+              <li>100g de tomate seco picado</li>
+              <li>3 ovos</li>
+              <li>200 ml de creme de leite</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>1 colher de sopa de azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Pré-aqueça o forno a 180°C — é basicamente o tipo de calor que sua vontade de cozinhar vai precisar.</li>
+              <li>Unte uma forma de mini muffins com azeite, ou use forminhas de silicone para evitar aquele drama de grudar.</li>
+              <li>Corte a massa folhada em círculos que caibam nas forminhas e pressione no fundo e nas laterais — tipo quando você tenta encaixar a peça do quebra-cabeça que não quer entrar.</li>
+              <li>Misture os ovos, o creme de leite, o queijo ralado, o tomate seco, sal e pimenta. Essa é a parte onde você finge que sabe o que está fazendo.</li>
+              <li>Despeje a mistura nas forminhas sobre a massa, até quase a borda (sem exagerar, não é banho de mar).</li>
+              <li>Leve ao forno por cerca de 20 minutos, ou até dourar — aproveite para brincar de MasterChef pela janela.</li>
+              <li>Deixe esfriar um pouco antes de desenformar, ou finja que vai queimar a língua e prove para ver se é verdade.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se alguém reclamar que a receita é pequena, responda que é pra não estragar a dieta do ano novo... pelo menos até amanhã.</div>
+    </article>
+
+    <article class="receita-card" id="bruschetta-de-tomate-porque-iniciar-o-ano-sem-crise-na-cozinha-e-possivel">
+      <h2 class="receita-titulo">Bruschetta de Tomate: Porque Iniciar o Ano Sem Crise na Cozinha é Possível</h2>
+      <p class="receita-desc">A bruschetta que te faz pensar que iniciar o ano de forma leve e saborosa é tão simples quanto evitar a fatura do cartão em janeiro.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 baguete média (ou aquela que sobrou da ceia que ninguém quis)</li>
+              <li>3 tomates maduros (aqueles que você só ia olhar, mas acabou comprando)</li>
+              <li>1 maço de manjericão fresco (porque sim, verde no ano novo é sorte)</li>
+              <li>50g de queijo parmesão ralado (pra dar aquela força no visual gourmet)</li>
+              <li>2 dentes de alho (pra espantar as más energias e os vizinhos barulhentos)</li>
+              <li>Azeite de oliva extra virgem a gosto (melhor que dinheiro, né?)</li>
+              <li>Sal e pimenta-do-reino a gosto (pra deixar tudo temperado, inclusive suas resoluções)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte a baguete em fatias de aproximadamente 1,5 cm e pincele azeite nelas. Se quiser impressionar, use o pincel mesmo; se não, use o dedo, ninguém vai julgar.</li>
+              <li>Torre as fatias na frigideira ou no forno até ficarem douradinhas e crocantes – porque crocância é o segredo do sucesso na vida e na bruschetta.</li>
+              <li>Enquanto isso, pique os tomates em cubinhos, rasgue as folhas de manjericão e misture tudo em uma tigela com um fio generoso de azeite, sal e pimenta.</li>
+              <li>Esfregue o alho nas torradas – sim, esfregue! Não precisa sujar sua mão tentando colocar alho picado, o cheiro vale o esforço.</li>
+              <li>Cubra as torradas com a mistura de tomate e manjericão, finalize com parmesão ralado por cima, aquela chuva de sabor que todo mundo merece no Ano Novo.</li>
+              <li>Sirva imediatamente, porque bruschetta fria é quase como promessa de Ano Novo: ninguém cumpre.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se quiser impressionar, finge que essa receita é segredo da sua avó italiana. Afinal, todo mundo adora um mistério com queijo parmesão por cima!</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-caprese-romance-tomate-mozzarella-sogra-aprova">
+      <h2 class="receita-titulo">Espetinho de Caprese: O Romance do Tomate com a Mozzarella que Até Sua Sogra Vai Aprovar</h2>
+      <p class="receita-desc">Uma receita que junta tomate e mozzarella como aquele casal que todo mundo sabe que não vai dar certo, mas, no fundo, torce para durar. Ótima para impressionar até sua sogra no Ano Novo sem precisar chamar o tio do pavê.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>200g de mozzarella de búfala em bolinhas</li>
+              <li>200g de tomate cereja</li>
+              <li>Folhas frescas de manjericão</li>
+              <li>Azeite extra virgem a gosto</li>
+              <li>Sal e pimenta do reino a gosto</li>
+              <li>Palitos de madeira para espetinho</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave bem os tomates cereja e as folhas de manjericão — porque ninguém merece comer sujeira no Ano Novo.</li>
+              <li>Espete alternadamente no palito: tomate cereja, folha de manjericão, bolinha de mozzarella, outro tomate, mais manjericão e finalize com outra bolinha de mozzarella. Montar o talião do amor.</li>
+              <li>Tempere os espetinhos com sal e pimenta do reino a gosto, e regue generosamente com azeite extra virgem — porque ninguém é bobo de economizar azeite quando o assunto é festa.</li>
+              <li>Sirva gelado para garantir que o romance não esfrie no seu Ano Novo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se quiser apimentar o romance, coloque umas folhinhas de pimenta entre os ingredientes. Se não quiser, coloque só a cara de quem comeu pimenta sem saber — garantia de risada.</div>
+    </article>
+
+    <article class="receita-card" id="risoto-de-lentilha-porque-dinheiro-nao-cai-do-ceu-mas-lentilha-da-sorte">
+      <h2 class="receita-titulo">Risoto de lentilha: porque dinheiro não cai do céu, mas lentilha dá sorte</h2>
+      <p class="receita-desc">Esse risoto une a tradição da lentilha com o glamour do arroz arbóreo, pra começar o ano com o pé direito e a barriga cheia. Porque sorte sem sabor é só promessa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,50</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 xícara de lentilha</li>
+              <li>1 xícara de arroz arbóreo</li>
+              <li>1 cebola picada</li>
+              <li>2 dentes de alho</li>
+              <li>Caldo de legumes (1 litro)</li>
+              <li>Queijo parmesão ralado</li>
+              <li>Azeite</li>
+              <li>Sal e pimenta</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola e o alho como se estivesse contando a piada do ano para a panela.</li>
+              <li>Junte o arroz arbóreo e a lentilha, misture com entusiasmo de quem sabe que 2024 vai ser top.</li>
+              <li>Vá adicionando o caldo de legumes aos poucos, como se fosse aquele amigo que nunca larga o celular.</li>
+              <li>Quando o arroz estiver cremoso e al dente, finalize com parmesão, sal e pimenta, e prepare-se para ser o chef da sorte.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se errar o ponto do risoto, finja que é uma nova receita fusion. Ano novo, invenções novas!</div>
+    </article>
+
+    <article class="receita-card" id="salpicao-do-reveillon-vegano-crocante-e-com-gosto-de-quero-mais-um-ano-assim">
+      <h2 class="receita-titulo">Salpicão do réveillon: vegano, crocante e com gosto de 'quero mais um ano assim'</h2>
+      <p class="receita-desc">Salpicão pra quem quer começar o ano leve, saudável e com aquele crunch que faz a vida valer a pena. Sem frango, sem frescura, só alegria.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 cenoura ralada</li>
+              <li>1 maçã verde picada</li>
+              <li>1/2 xícara de uva passa</li>
+              <li>1/2 xícara de milho verde</li>
+              <li>1/2 xícara de ervilha</li>
+              <li>1 xícara de repolho roxo picado</li>
+              <li>Maionese vegana</li>
+              <li>Salsinha picada</li>
+              <li>Sal e pimenta</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture tudo como se estivesse fazendo a melhor mistura de gente na festa de ano novo.</li>
+              <li>Tempere com sal, pimenta e maionese vegana, com a delicadeza de quem evita dar mancada no grupo da família.</li>
+              <li>Decore com salsinha e celebre o ano novo com crocância e saúde.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se alguém reclamar que não tem carne, manda esse salpicão e um convite pra repensar a vida.</div>
+    </article>
+
+    <article class="receita-card" id="cuscuz-pernambucano-o-tapete-vermelho-do-ano-novo-na-sua-mesa">
+      <h2 class="receita-titulo">Cuscuz pernambucano: o tapete vermelho do Ano Novo na sua mesa</h2>
+      <p class="receita-desc">O cuscuz pernambucano é aquela receita simples que vira estrela no Ano Novo. Dá sorte, sabor e faz a família cantar junto (ou pelo menos tentar).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 xícaras de flocos de milho para cuscuz</li>
+              <li>1 cebola picada</li>
+              <li>1 tomate picado</li>
+              <li>1 pimentão vermelho picado</li>
+              <li>Salsinha e cebolinha</li>
+              <li>Sal</li>
+              <li>Azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Hidrate os flocos de milho com um pouco de água, porque até o cuscuz precisa de um banho antes da festa.</li>
+              <li>Refogue cebola, tomate e pimentão como se estivesse preparando o palco para o show do ano.</li>
+              <li>Misture tudo, tempere e ajeite a salsinha e cebolinha como se fosse o diretor de arte da ceia.</li>
+              <li>Deixe cozinhar na cuscuzeira, e prepare-se para a ovada de elogios.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não chore na cozinha, chorar de emoção é permitido quando provar o cuscuz.</div>
+    </article>
+
+    <article class="receita-card" id="salada-fria-de-bacalhau-pra-quem-quer-comecar-o-ano-sem-drama-mas-com-muito-sabor">
+      <h2 class="receita-titulo">Salada fria de bacalhau: pra quem quer começar o ano sem drama, mas com muito sabor</h2>
+      <p class="receita-desc">Salada fria de bacalhau pra quem quer começar o ano refrescando corpo e alma, e mostrando que até no frio a ceia pode ser quente.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 45,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>300g de bacalhau dessalgado e desfiado</li>
+              <li>1 cebola roxa em rodelas finas</li>
+              <li>1 pimentão vermelho em tiras</li>
+              <li>1/2 xícara de azeitonas pretas</li>
+              <li>1 batata cozida em cubos</li>
+              <li>Azeite</li>
+              <li>Salsinha</li>
+              <li>Sal e pimenta</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o bacalhau com as batatas, cebola, pimentão e azeitonas como se estivesse juntando todos os ex da sua lista (mas só as boas memórias).</li>
+              <li>Regue bastante azeite, porque é o óleo do sucesso para essa receita.</li>
+              <li>Tempere com sal (com moderação, ninguém quer um drama salgado) e pimenta, e deixe gelar.</li>
+              <li>Sirva com aquela cara de quem sabe que o ano vai ser top.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bacalhau insistir em ser salgado demais, finja que é o tempero da emoção.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-frutas-com-calda-de-chocolate-a-sobremesa-que-vai-fazer-voce-virar-a-noite-e-o-ano">
+      <h2 class="receita-titulo">Espetinho de frutas com calda de chocolate: a sobremesa que vai fazer você virar a noite (e o ano)</h2>
+      <p class="receita-desc">Essa sobremesa é a prova que dá pra ser saudável e ainda se lambuzar sem culpa, porque ano novo é tempo de açúcar e sorrisos.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>Morangos</li>
+              <li>Abacaxi em cubos</li>
+              <li>Uvas verdes</li>
+              <li>Banana em rodelas</li>
+              <li>Chocolate meio amargo para derreter</li>
+              <li>Palitos para espetinho</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espete as frutas como se estivesse montando o time dos sonhos para a virada.</li>
+              <li>Derreta o chocolate no micro-ondas ou banho-maria, como se fosse um spa pros doces.</li>
+              <li>Regue a calda sobre os espetinhos na hora de servir, pra garantir que o ano comece doce e com estilo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a calda de chocolate sobrar, use a desculpa: 'É pra garantir o próximo ano doce'.</div>
+    </article>
+
+    <article class="receita-card" id="salada-da-sorte-com-roma-que-ate-o-horoscopo-aprova">
+      <h2 class="receita-titulo">Salada da Sorte com Romã que Até o Horóscopo Aprova</h2>
+      <p class="receita-desc">Essa salada é tipo aquele amigo que faz promessa de Ano Novo: cheia de esperança, sabor e uma pitada de sorte para você começar o ano com o pé direito (e a barriga feliz).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 romã média</li>
+              <li>1 maço de rúcula</li>
+              <li>100g queijo feta</li>
+              <li>1 cenoura ralada</li>
+              <li>1/2 cebola roxa fatiada fina</li>
+              <li>azeite extra virgem</li>
+              <li>sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Abra a romã como se fosse desvendar o mistério do seu 2024 e separe as sementinhas brilhantes.</li>
+              <li>Misture a rúcula com a cenoura ralada e a cebola, porque ninguém merece uma salada sem emoção.</li>
+              <li>Jogue o queijo feta por cima como se fosse confete de festa — é Ano Novo, bebê!</li>
+              <li>Tempere com azeite, sal e pimenta enquanto faz um discurso de agradecimento ao ano que passou.</li>
+              <li>Finalize com as sementes de romã, que prometem sorte e pelo menos um match no app em 2024.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não esqueça de tirar as sementes com calma, senão você vai parecer que brigou com a romã e saiu perdendo.</div>
+    </article>
+
+    <article class="receita-card" id="risoto-de-espumante-porque-ano-novo-merece-um-brinde-cremoso">
+      <h2 class="receita-titulo">Risoto de Espumante: Porque Ano Novo Merece Um Brinde Cremoso</h2>
+      <p class="receita-desc">Um risoto que é praticamente a festa do Ano Novo no seu prato: borbulhante, cremoso e que faz até o seu vizinho querer uma garfada.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 xícara de arroz arbóreo</li>
+              <li>500 ml de espumante brut</li>
+              <li>1 cebola pequena picada</li>
+              <li>2 colheres de sopa de manteiga</li>
+              <li>50g de queijo parmesão ralado</li>
+              <li>Caldo de legumes (1 litro)</li>
+              <li>Sal e pimenta do reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola na manteiga como se estivesse fazendo discurso para a festa toda ouvir.</li>
+              <li>Jogue o arroz para dançar junto e deixe ele ficar brilhando de vontade.</li>
+              <li>Adicione o espumante aos poucos, fazendo um brinde silencioso para o risoto ficar mais animado.</li>
+              <li>Vá colocando o caldo de legumes aos poucos, mexendo até o arroz ficar cremoso como abraço de avó.</li>
+              <li>Finalize com parmesão, sal e pimenta e prepare-se para receber elogios e olhares invejosos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar espumante, aproveite para brindar de verdade, porque cozinhar com bebida alcoólica é um talento, não erro.</div>
+    </article>
+
+    <article class="receita-card" id="pave-do-reveillon-adoçando-a-vida-e-a-virada">
+      <h2 class="receita-titulo">Pavê do Réveillon: Adoçando a Vida e a Virada</h2>
+      <p class="receita-desc">O pavê que vai te fazer pensar que o ano novo tá doce demais, mesmo que as promessas estejam só começando.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 4 horas (com geladeira)</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 lata de leite condensado</li>
+              <li>1 vidro de leite de coco (200 ml)</li>
+              <li>2 pacotes de biscoito tipo maisena</li>
+              <li>1 caixa de creme de leite</li>
+              <li>100g de coco ralado</li>
+              <li>Chocolate granulado para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o leite condensado, o leite de coco e o creme de leite – é o trio parada dura da sobremesa.</li>
+              <li>Molhe rapidamente os biscoitos no leite de coco, mas não faça eles virarem um tsunami, hein?</li>
+              <li>Em um refratário, intercale camadas de biscoito e creme, como se fosse um jogo de paciência doce.</li>
+              <li>Finalize com coco ralado e chocolate granulado para dar aquele toque de glamour de Ano Novo.</li>
+              <li>Leve à geladeira e aguarde, porque ansiedade não combina com pavê.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se alguém perguntar se é pavê ou pacomê, diga que é só a receita do sucesso mesmo.</div>
+    </article>
+
+    <article class="receita-card" id="file-de-frango-com-mostarda-porque-ano-novo-tambem-merece-uma-pegada">
+      <h2 class="receita-titulo">Filé de Frango com Mostarda: Porque Ano Novo Também Merece Uma Pegada</h2>
+      <p class="receita-desc">Um franguinho com mostarda que te dá a coragem que falta para encarar a lista de promessas – e ainda te deixa com gostinho de quero mais.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 24,50</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>4 filés de peito de frango</li>
+              <li>3 colheres de sopa de mostarda</li>
+              <li>2 dentes de alho picados</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para grelhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere os filés com alho, sal, pimenta e limão, porque frango sem personalidade não entra no Ano Novo.</li>
+              <li>Passe a mostarda como se estivesse pintando a obra-prima da sua ceia.</li>
+              <li>Aqueça o azeite na frigideira e grelhe os filés até ficarem douradinhos, tipo finalista de reality show.</li>
+              <li>Sirva com aquela farofinha esperta ou um arrozinho básico para não complicar a vida.</li>
+              <li>Prepare-se para ouvir que o Ano Novo começou com sabor e atitude!</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a mostarda for forte demais, finja que é o tempero da vida: às vezes amarga, mas sempre surpreendente.</div>
+    </article>
+
+    <article class="receita-card" id="docinhos-de-amendoim-porque-ano-novo-sem-doce-e-como-festa-sem-musica">
+      <h2 class="receita-titulo">Docinhos de Amendoim: Porque Ano Novo Sem Doce É Como Festa Sem Música</h2>
+      <p class="receita-desc">Docinhos de amendoim que são a trilha sonora doce para o seu Réveillon – grudam na boca, na memória e no coração.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 15 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>200g de amendoim torrado sem sal</li>
+              <li>1 lata de leite condensado</li>
+              <li>1 colher de sopa de manteiga</li>
+              <li>Açúcar cristal para enrolar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Triture o amendoim até virar uma farofa, como se fosse preparar o solo para um jardim de felicidade.</li>
+              <li>Misture o leite condensado e a manteiga em uma panela, leve ao fogo baixo e mexa até desgrudar do fundo – paciência é a chave do sucesso.</li>
+              <li>Junte o amendoim triturado, misture bem e espere esfriar porque a pressa é inimiga do docinho.</li>
+              <li>Enrole bolinhas, passe no açúcar cristal e prepare-se para ver seus amigos sumirem com a caixa em segundos.</li>
+              <li>Se sobrar, esconde antes que vire briga de Ano Novo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Use amendoim torrado para garantir que o gosto seja tão forte quanto suas resoluções — e tão gostoso quanto os erros que vamos cometer depois.</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-da-virada-crocante-pra-nao-escorregar-no-ano-novo">
+      <h2 class="receita-titulo">Bolinho da Virada: Crocante pra não escorregar no ano novo</h2>
+      <p class="receita-desc">Esse bolinho é tipo aquela promessa de Ano Novo: crocante, irresistível e que não deixa você escorregar logo no primeiro passo do ano.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,50</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 kg de mandioca ralada</li>
+              <li>200g de queijo coalho ralado</li>
+              <li>1 cebola pequena picada</li>
+              <li>2 dentes de alho amassados</li>
+              <li>Salsinha a gosto</li>
+              <li>Sal e pimenta do reino</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a mandioca, queijo, cebola, alho, salsinha, sal e pimenta até virar um brigadeiro salgado—só que sem chocolate.</li>
+              <li>Modele bolinhos com as mãos, tipo massinha de criança crescida.</li>
+              <li>Aqueça o óleo e frite até dourar, parecendo que o ano velho está indo embora rapidinho.</li>
+              <li>Escorra e sirva antes que o ano novo chegue e você fique só na vontade.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar, guarde para o dia seguinte, porque até o ano novo merece um 'replay' saboroso.</div>
+    </article>
+
+    <article class="receita-card" id="salada-da-fortuna-porque-grao-de-bico-nunca-mente">
+      <h2 class="receita-titulo">Salada da Fortuna: Porque grão de bico nunca mente</h2>
+      <p class="receita-desc">Salada leve que promete fortuna e justiça no ano novo. Porque se a sorte não vier, pelo menos você vai estar saudável e com estilo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 xícara de grão de bico cozido</li>
+              <li>Tomate cereja cortado ao meio</li>
+              <li>Cebola roxa fatiada finamente</li>
+              <li>Pepino em cubos</li>
+              <li>Salsinha picada</li>
+              <li>Azeite, limão, sal e pimenta do reino</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture tudo numa tigela como se estivesse preparando sua lista de metas: com cuidado e esperança.</li>
+              <li>Tempere com azeite, limão, sal e pimenta. Porque nada começa direito sem tempero, inclusive o ano.</li>
+              <li>Deixe na geladeira para pegar aquele friozinho motivacional antes de atacar o prato.</li>
+              <li>Sirva chamando os amigos para garantir sorte coletiva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se quiser apimentar a sorte, tente olhar pra salada e imaginar o seu extrato bancário positivo.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-do-recomeco-recheio-de-esperanca-com-molho-de-e-agora">
+      <h2 class="receita-titulo">Panqueca do Recomeço: Recheio de esperança com molho de 'é agora!'</h2>
+      <p class="receita-desc">Panqueca que abraça seu estômago e sua alma, porque começar o ano com carboidrato é mais seguro que promessa de dieta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 xícara de farinha de trigo</li>
+              <li>1 ovo</li>
+              <li>1/2 xícara de leite</li>
+              <li>Sal a gosto</li>
+              <li>Recheio: queijo minas e tomate picado</li>
+              <li>Molho: tomate pelado, alho, cebola, azeite, sal e manjericão</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a farinha, ovo, leite e sal até formar uma massa lisinha, tipo pele de bebê.</li>
+              <li>Faça as panquecas em frigideira antiaderente, sem pressa, porque pressa é inimiga da virada.</li>
+              <li>Recheie com queijo e tomate e enrole como se estivesse enrolando os problemas do ano velho.</li>
+              <li>Prepare o molho com todo amor e despeje por cima, porque o ano novo merece molho especial, não molho de desculpa.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a panqueca quebrar, diga que é estilo artesanal e que o ano será cheio de surpresas.</div>
+    </article>
+
+    <article class="receita-card" id="arroz-de-coco-da-prosperidade-pra-dar-aquele-toque-tropical-no-seu-31">
+      <h2 class="receita-titulo">Arroz de Coco da Prosperidade: Pra dar aquele toque tropical no seu 31</h2>
+      <p class="receita-desc">Arroz que vem com aquele jeitinho pra você atrair prosperidade — ou pelo menos um pouco de gostosura na mesa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 xícaras de arroz branco</li>
+              <li>1 vidro pequeno de leite de coco</li>
+              <li>1 cebola pequena picada</li>
+              <li>2 dentes de alho picados</li>
+              <li>1/2 xícara de castanha de caju picada</li>
+              <li>Sal, azeite e cheiro-verde</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho no azeite, porque ninguém merece começar o ano com cheiro ruim.</li>
+              <li>Adicione o arroz e refogue mais um pouco para sentir o cheiro da prosperidade chegando.</li>
+              <li>Misture o leite de coco e 3 xícaras de água, mexa com fé e deixe cozinhar até o arroz ficar macio e cheiroso.</li>
+              <li>Acrescente castanhas e cheiro-verde para um toque final de glamour e sorte.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Coma com a mão direita e pense positivo, porque a energia boa é tão importante quanto o sal.</div>
+    </article>
+
+    <article class="receita-card" id="mousse-de-maracuja-azedinho-que-faz-doce-no-coracao-do-ano-novo">
+      <h2 class="receita-titulo">Mousse de Maracujá: Azedinho que faz doce no coração do ano novo</h2>
+      <p class="receita-desc">Mousse que combina o azedinho da vida com a doçura das esperanças, igualzinho pro ano que tá chegando.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min + geladeira</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 lata de leite condensado</li>
+              <li>1 lata de creme de leite</li>
+              <li>1 medida da lata de suco de maracujá concentrado</li>
+              <li>Polpa de 1 maracujá para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata o leite condensado, creme de leite e suco de maracujá no liquidificador até virar um affair gostoso.</li>
+              <li>Despeje em taças e leve para gelar por pelo menos 3 horas — tempo suficiente pra você pensar nas resoluções que nem vai cumprir.</li>
+              <li>Decore com a polpa para dar aquele charme de 'eu me importo com a apresentação', mesmo que o ano seja bagunçado.</li>
+              <li>Sirva gelado e prepare-se para os elogios (ou para dividir a culpa do doce).</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se alguém reclamar que é azedo, diga que é só o gostinho da mudança chegando.</div>
+    </article>
+
+    <article class="receita-card" id="salpicao-do-recomeco-aquela-baguncinha-que-da-sorte">
+      <h2 class="receita-titulo">Salpicão do Recomeço: aquela baguncinha que dá sorte</h2>
+      <p class="receita-desc">Um salpicão simples e cheio de esperança, porque começar o ano com uma saladinha é melhor do que com ressaca.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 peito de frango desfiado</li>
+              <li>1 cenoura ralada</li>
+              <li>1 maçã verde picada</li>
+              <li>1 lata de milho verde</li>
+              <li>1 lata de ervilha</li>
+              <li>1 xícara de maionese</li>
+              <li>1/2 cebola picadinha</li>
+              <li>Batata palha para finalizar</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o frango com a cenoura, maçã, milho, ervilha e cebola — é tipo uma festa dos ingredientes, só falta o DJ.</li>
+              <li>Adicione a maionese e mexa até tudo ficar grudado igual fofoca de vizinho.</li>
+              <li>Tempere com sal e pimenta, mas cuidado pra não exagerar e virar piada.</li>
+              <li>Cubra com batata palha na hora de servir, que é o glamour crocante que ninguém esperava.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se quiser dar sorte extra, coma olhando pro relógio sem esquecer de fazer um brinde.</div>
+    </article>
+
+    <article class="receita-card" id="espaguete-da-virada-enrola-que-e-sucesso">
+      <h2 class="receita-titulo">Espaguete da Virada: enrola que é sucesso</h2>
+      <p class="receita-desc">Macarrão que te abraça e faz acreditar que o próximo ano vai ser descomplicado (ou pelo menos com molho bom).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,50</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>250g de espaguete</li>
+              <li>2 dentes de alho picados</li>
+              <li>1 tomate grande picado</li>
+              <li>1/2 cebola picada</li>
+              <li>Azeite de oliva a gosto</li>
+              <li>Folhas de manjericão</li>
+              <li>Sal e pimenta do reino a gosto</li>
+              <li>Queijo parmesão ralado para polvilhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o espaguete até ficar al dente, tipo essa promessa de dieta que você não vai cumprir.</li>
+              <li>Enquanto isso, refogue alho, cebola e tomate no azeite até formar um molho que nem sua vida amorosa: quente e meio bagunçado.</li>
+              <li>Junte o macarrão ao molho e misture como quem tenta juntar os pedaços do ano que passou.</li>
+              <li>Finalize com manjericão e parmesão — porque a gente merece um toque gourmet na virada.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se enrolar demais no macarrão, não esqueça: o que importa é se enrolar nas oportunidades.</div>
+    </article>
+
+    <article class="receita-card" id="farofa-da-sorte-crocancia-que-nao-mente">
+      <h2 class="receita-titulo">Farofa da Sorte: crocância que não mente</h2>
+      <p class="receita-desc">Farofa que promete sorte e crocância, pra garantir que seu ano novo não fique só na promessa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 xícaras de farinha de mandioca</li>
+              <li>1 cebola picada</li>
+              <li>2 colheres de sopa de manteiga</li>
+              <li>1/2 xícara de uvas passas</li>
+              <li>1/2 xícara de milho verde</li>
+              <li>Sal a gosto</li>
+              <li>Cheiro verde picado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta a manteiga e refogue a cebola até ficar douradinha, tipo aquele tio que já sabe tudo da vida.</li>
+              <li>Junte o milho e as uvas passas, porque a vida é feita de contrastes e a farofa não podia ser diferente.</li>
+              <li>Acrescente a farinha aos poucos, mexendo até ficar com aquela crocância que faz barulho na boca — perfeito pra espantar a crise.</li>
+              <li>Finalize com cheiro verde e sal, e se prepare para a sorte bater na porta (ou pelo menos o estômago ficar feliz).</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se quiser sorte extra, jogue uma colher na mochila — vai que cola!</div>
+    </article>
+
+    <article class="receita-card" id="bolo-do-recomeco-doce-que-faz-esquecer-os-boletos">
+      <h2 class="receita-titulo">Bolo do Recomeço: doce que faz esquecer os boletos</h2>
+      <p class="receita-desc">Bolo fofinho que é um abraço doce pra alma, ideal pra esquecer que a fatura do cartão chegou no dia 2.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>3 ovos</li>
+              <li>2 xícaras de farinha de trigo</li>
+              <li>1 xícara de açúcar</li>
+              <li>1/2 xícara de óleo</li>
+              <li>1 xícara de leite</li>
+              <li>1 colher de sopa de fermento em pó</li>
+              <li>Raspas de limão</li>
+              <li>Cobertura de chocolate ao leite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture ovos, açúcar e óleo até ficar uma mistura tão animada quanto você na noite do ano novo.</li>
+              <li>Acrescente farinha, leite e fermento, mexendo como quem tenta juntar os pedaços do ano passado.</li>
+              <li>Junte as raspas de limão para dar aquele toque de 'tamo junto, 2024'.</li>
+              <li>Asse por 35 minutos e, depois de frio, cubra com chocolate pra adoçar qualquer ressaca emocional.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Coma um pedaço e diga ‘tá tudo certo’, mesmo que não esteja.</div>
+    </article>
+
+    <article class="receita-card" id="coquetel-da-virada-a-ressaca-que-voce-quer-ter">
+      <h2 class="receita-titulo">Coquetel da Virada: a ressaca que você quer ter</h2>
+      <p class="receita-desc">Coquetel refrescante e leve, mas que promete te deixar animado para as resoluções (ou para esquecer que tem).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>200 ml de suco de laranja</li>
+              <li>100 ml de água com gás</li>
+              <li>50 ml de vodka</li>
+              <li>1 colher de chá de mel</li>
+              <li>Gelo a gosto</li>
+              <li>Fatias de laranja para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o suco de laranja com a vodka e o mel, porque a vida é melhor com doçura e um pouco de loucura.</li>
+              <li>Adicione gelo para manter a vibe gelada, tipo aquela promessa de manter a calma.</li>
+              <li>Complete com água com gás para dar a festa borbulhante que seu ano novo merece.</li>
+              <li>Decore com fatias de laranja e prepare-se pra brindar até esquecer o que prometeu no ano passado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Beba devagar, afinal, a ressaca boa é aquela que chegou depois das 12.</div>
+    </article>
+
+    <article class="receita-card" id="sopa-da-virada-caldo-que-esquenta-o-ano-e-a-alma">
+      <h2 class="receita-titulo">Sopa da Virada: Caldo que Esquenta o Ano (e a Alma)</h2>
+      <p class="receita-desc">Uma sopa que esquenta o corpo e renova as energias pra começar o ano sem desculpas (nem frio). Porque no réveillon, até a fome merece um brinde.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,50</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 litro de caldo de galinha</li>
+              <li>2 xícaras de legumes variados (cenoura, chuchu, batata)</li>
+              <li>1 peito de frango desfiado</li>
+              <li>1 cebola picada</li>
+              <li>2 dentes de alho amassados</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Cheiro-verde para finalizar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola e o alho até ficarem mais perfumados que seu crush na balada.</li>
+              <li>Jogue os legumes no caldo, porque a vida é melhor com cores e vitaminas.</li>
+              <li>Deixe cozinhar até os legumes ficarem mais macios que a sua preguiça de segunda-feira.</li>
+              <li>Adicione o frango desfiado, para garantir que no ano novo você não precise ‘desfiar’ problemas.</li>
+              <li>Tempere com sal e pimenta, porque até na cozinha a gente tem que ter atitude.</li>
+              <li>Finalize com cheiro-verde e sirva quente, tipo aquele abraço que a gente quer na virada.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se alguém reclamar que sopa é só pra quem tá gripado, ofereça uma concha e diga: 'cura até ano ruim!'</div>
+    </article>
+
+    <article class="receita-card" id="salada-do-recomeco-verde-que-te-quero-sorte">
+      <h2 class="receita-titulo">Salada do Recomeço: Verde que Te Quero Sorte</h2>
+      <p class="receita-desc">Salada para quem quer o combo sorte + saúde + poupar tempo na cozinha. Verde que te quero forte no ano que começa!</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 maço de alface americana</li>
+              <li>1 pepino cortado em rodelas</li>
+              <li>1 maçã verde picada</li>
+              <li>100g de queijo minas frescal em cubos</li>
+              <li>1 colher de sopa de azeite</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Sementes de girassol para crocância</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave tudo, porque começar o ano sujo nem na vida nem na salada dá certo.</li>
+              <li>Misture alface, pepino e maçã, porque um mix saudável é a desculpa perfeita para repetir.</li>
+              <li>Jogue o queijo por cima, que nem aquele amigo que aparece sempre na hora certa.</li>
+              <li>Tempere com azeite, limão, sal e pimenta, para o gostinho da esperança no prato.</li>
+              <li>Finalize com sementes de girassol, porque crocância é o que a gente quer do ano que vem.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Dê uma mexida na salada pensando em tudo que você quer deixar pra trás — inclusive a dieta de janeiro.</div>
+    </article>
+
+    <article class="receita-card" id="escondidinho-do-recomeco-esconde-a-tristeza-mostra-o-pure">
+      <h2 class="receita-titulo">Escondidinho do Recomeço: Esconde a Tristeza, Mostra o Purê</h2>
+      <p class="receita-desc">Um escondidinho que esconde a tristeza e revela sabor, provando que pra recomeçar não precisa complicar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de mandioca cozida</li>
+              <li>300g de carne moída</li>
+              <li>1 cebola picada</li>
+              <li>2 dentes de alho picados</li>
+              <li>1 tomate picado</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+              <li>100g de queijo coalho ralado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Prepare um purê de mandioca tão cremoso que vai fazer você esquecer qualquer drama antigo.</li>
+              <li>Refogue a cebola e o alho, porque até o escondidinho precisa de uma base forte.</li>
+              <li>Junte a carne moída e o tomate, e tempere como se estivesse preparando seu discurso de ano novo.</li>
+              <li>Monte camadas de purê e carne numa travessa, igual a vida que a gente quer: camadas de bons momentos.</li>
+              <li>Cubra com queijo e leve ao forno até dourar, porque brilho nunca é demais no ano novo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Enquanto o queijo derrete, mentalize só coisas boas. Funciona, ou pelo menos deixa seu prato mais saboroso.</div>
+    </article>
+
+    <article class="receita-card" id="brigadeiro-da-sorte-docinho-pra-adoçar-a-virada-e-a-conta-bancaria">
+      <h2 class="receita-titulo">Brigadeiro da Sorte: Docinho pra Adoçar a Virada e a Conta Bancária</h2>
+      <p class="receita-desc">Brigadeiro simples que promete adoçar seu ano novo e dar aquela força na sorte financeira — porque a gente quer, né?</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 15 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 lata de leite condensado</li>
+              <li>1 colher de sopa de manteiga</li>
+              <li>4 colheres de sopa de chocolate em pó</li>
+              <li>Chocolate granulado para enrolar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Mexa o leite condensado, manteiga e chocolate até desgrudar da panela, igual a sua vontade de trabalhar na segunda.</li>
+              <li>Deixe a mistura esfriar e vire bolinhas, porque tamanho não é documento, mas doce é conforto.</li>
+              <li>Role no granulado e tente não comer tudo antes da virada, desafio aceito!</li>
+              <li>Sirva com sorriso e peça um desejo em cada mordida. Se não funcionar, pelo menos você comeu.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Colecione os brigadeiros para atrair dinheiro, porque doce e grana são bons parceiros de festa.</div>
+    </article>
+
+    <article class="receita-card" id="batida-da-virada-mistura-que-une-familia-amigos-e-ressaca">
+      <h2 class="receita-titulo">Batida da Virada: Mistura que Une Família, Amigos e Ressaca</h2>
+      <p class="receita-desc">Batida cremosa e alcoólica, perfeita pra celebrar a virada com alegria e, claro, preparar a desculpa para o dia seguinte.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>200ml de leite condensado</li>
+              <li>200ml de vodka (ou cachaça, porque Brasil é Brasil)</li>
+              <li>200ml de leite integral</li>
+              <li>Gelo a gosto</li>
+              <li>Raspas de limão para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque tudo no liquidificador e bata até parecer que o ano velho está indo embora rápido.</li>
+              <li>Sirva com gelo e decore com raspas de limão, porque a vida precisa de um toque ácido às vezes.</li>
+              <li>Brinde alto e não esqueça que essa batida pode virar a causa da sua preguiça dia 1º.</li>
+              <li>Se alguém perguntar o segredo, diga que é amor, mas principalmente vodka.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Beba devagar, porque a única coisa que deve passar rápido no ano novo é a tristeza.</div>
+    </article>
+
+    <article class="receita-card" id="salada-do-comeco-sem-crise-folhas-frutas-e-confusao">
+      <h2 class="receita-titulo">Salada do Começo Sem Crise: Folhas, Frutas e Confusão</h2>
+      <p class="receita-desc">Uma salada que junta o amargo, o doce e o crocante, igual sua lista de resoluções: misturada e cheia de esperança.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,50</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>alface americana</li>
+              <li>rúcula</li>
+              <li>manga picada</li>
+              <li>nozes picadas</li>
+              <li>queijo minas frescal</li>
+              <li>mel</li>
+              <li>limão</li>
+              <li>azeite de oliva</li>
+              <li>pimenta-do-reino</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave as folhas como se estivesse lavando as mágoas do ano passado.</li>
+              <li>Misture a manga, as nozes e o queijo, porque no ano novo a gente merece um elenco variado.</li>
+              <li>Faça um molho com mel, limão, azeite e pimenta, o tempero da mixórdia que dá certo.</li>
+              <li>Jogue tudo na tigela, misture e finja que está controlando a vida.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se alguém reclamar que tem nozes demais, diga que é pra não perder a cabeça em 2024.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-da-virada-crocante-como-suas-promessas">
+      <h2 class="receita-titulo">Tapioca da Virada: Crocante como suas promessas</h2>
+      <p class="receita-desc">Tapioca doce com toque nordestino pra deixar seu réveillon crocante e saboroso, igual suas ideias no meio da festa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>goma de tapioca hidratada</li>
+              <li>queijo coalho ralado</li>
+              <li>coco ralado fresco</li>
+              <li>melado de cana</li>
+              <li>manteiga</li>
+              <li>canela em pó</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe a goma na frigideira como se estivesse espalhando suas expectativas pro ano novo.</li>
+              <li>Deixe dourar, coloque o queijo coalho e o coco ralado, e dobre com a habilidade de evitar problemas.</li>
+              <li>Sirva com melado e polvilhe canela para dar aquele aroma de quem sabe o que faz, pelo menos na cozinha.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Coma antes da meia-noite pra garantir que o ano comece doce, não só na boca.</div>
+    </article>
+
+    <article class="receita-card" id="panetone-salgado-do-desespero-porque-so-doce-nao-resolve">
+      <h2 class="receita-titulo">Panetone Salgado do Desespero: Porque só doce não resolve</h2>
+      <p class="receita-desc">Aquela receita que mistura o doce do panetone com o salgado da vida real, porque o ano novo é isso: mistureba que dá certo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>panetone pequeno</li>
+              <li>requeijão cremoso</li>
+              <li>presunto fatiado</li>
+              <li>queijo prato fatiado</li>
+              <li>azeitona preta picada</li>
+              <li>orégano</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte a 'tampa' do panetone com jeitinho, igual cortando expectativas ruins.</li>
+              <li>Recheie com requeijão, presunto, queijo e azeitona, porque ano novo merece recheio completo.</li>
+              <li>Polvilhe orégano e leve ao forno rápido só pra derreter o queijo e fazer tudo parecer que saiu de uma padaria chique.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se alguém reclamar, diga que é inovação gourmet de quem não aguenta só doce.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-queijo-coalho-com-mel-e-pimenta-pra-esquentar-o-ano-e-a-alma">
+      <h2 class="receita-titulo">Espetinho de Queijo Coalho com Mel e Pimenta: Pra esquentar o ano e a alma</h2>
+      <p class="receita-desc">Um espetinho que é doçura e ardência, porque seu ano novo merece emoção, até no prato.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>queijo coalho em cubos</li>
+              <li>mel</li>
+              <li>pimenta calabresa</li>
+              <li>azeite de oliva</li>
+              <li>palitos de churrasco</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espete os cubos de queijo como se estivesse firmando seus planos para o ano.</li>
+              <li>Grelhe na frigideira com azeite até dourar e ficar com cara de que sabe o que faz.</li>
+              <li>Regue com mel e salpique pimenta calabresa pra aquele choque de sabores, igual a vida.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não esqueça de avisar os convidados que vai ter fogo no parquinho – e no paladar.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-salgado-do-recomeco-pra-virar-a-pagina-e-o-prato">
+      <h2 class="receita-titulo">Bolo Salgado do Recomeço: Pra virar a página e o prato</h2>
+      <p class="receita-desc">Um bolo que não é doce, mas é cheio de sabor e promessa, pra você começar o ano com o pé direito e o estômago feliz.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>farinha de trigo</li>
+              <li>ovos</li>
+              <li>leite</li>
+              <li>óleo</li>
+              <li>queijo ralado</li>
+              <li>presunto picado</li>
+              <li>tomate picado</li>
+              <li>cebola picada</li>
+              <li>fermento em pó</li>
+              <li>sal e pimenta</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture tudo como se estivesse juntando seus planos para um ano melhor.</li>
+              <li>Coloque numa forma untada e leve ao forno até dourar, igual seu ânimo depois do café da manhã.</li>
+              <li>Sirva com aquele sorriso de quem promete tentar de novo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar, leve pro trabalho e conquiste a galera com seu talento culinário (ou pelo menos com a comida).</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

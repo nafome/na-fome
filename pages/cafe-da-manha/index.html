@@ -1,0 +1,1614 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>☀️ Café da Manhã — Receitas NaFome</title>
+  <meta name="description" content="42 receitas para quem está na situação "Café da Manhã". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/cafe-da-manha/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="☀️ Café da Manhã — Receitas NaFome">
+  <meta property="og:description" content="42 receitas para quem está na situação "Café da Manhã". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/cafe-da-manha/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "☀️ Café da Manhã — NaFome",
+    "description": "42 receitas para quem está na situação "Café da Manhã". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/cafe-da-manha/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=cafe-da-manha" class="btn-sortear">🎲 Sortear receita de Café da Manhã</a>
+  </nav>
+
+  <div class="hero">
+    <h1>☀️ Café da Manhã</h1>
+    <p>42 receitas para quem está na situação "Café da Manhã". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">42 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Café da Manhã pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=cafe-da-manha" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="omelete-dos-deuses-apressados">
+      <h2 class="receita-titulo">Omelete dos Deuses Apressados</h2>
+      <p class="receita-desc">Porque até Zeus precisava de um café rápido antes de julgar os mortais.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>colheres de sopa de leite</li>
+              <li>Sal a gosto</li>
+              <li>Pimenta-do-reino a gosto</li>
+              <li>colher de sopa de queijo ralado</li>
+              <li>colher de sopa de cebola picada</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com leite, sal e pimenta na tigela até ficar homogêneo.</li>
+              <li>Aqueça a frigideira e despeje a mistura.</li>
+              <li>Quando começar a firmar, adicione queijo e cebola, dobre ao meio e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Omelete é igual boleto: se você deixar pra depois, vira um problema gigante. Faça logo antes que o sono vença!</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-de-queijo-com-tomate-o-sol-na-panela">
+      <h2 class="receita-titulo">Tapioca de Queijo com Tomate – O Sol na Panela</h2>
+      <p class="receita-desc">Pra quem quer o Nordeste no café, mas sem sair do sofá (e da preguiça).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca</li>
+              <li>g de queijo muçarela ralado</li>
+              <li>fatias de tomate</li>
+              <li>Orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Peneire a goma na frigideira aquecida, espalhando em círculo.</li>
+              <li>Quando começar a firmar, coloque o queijo e as fatias de tomate.</li>
+              <li>Dobre ao meio, polvilhe orégano e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Tapioca é tipo boleto sem juros: fácil de fazer, difícil de resistir. E com queijo, melhor ainda!</div>
+    </article>
+
+    <article class="receita-card" id="smoothie-verde-do-acorda-mulher">
+      <h2 class="receita-titulo">Smoothie Verde do Acorda, Mulher!</h2>
+      <p class="receita-desc">Porque levantar da cama já é um desafio, mas a saúde não pode esperar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 8 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>banana madura</li>
+              <li>maçã verde picada</li>
+              <li>punhado de espinafre</li>
+              <li>ml de água de coco</li>
+              <li>colher de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque todos os ingredientes no liquidificador.</li>
+              <li>Bata até ficar homogêneo.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Smoothie verde é igual reunião de segunda-feira: você sabe que é bom, mas só de pensar já dá sono.</div>
+    </article>
+
+    <article class="receita-card" id="pao-na-chapa-com-manteiga-e-cafe-classico-da-vida-adulta">
+      <h2 class="receita-titulo">Pão na Chapa com Manteiga e Café – Clássico da Vida Adulta</h2>
+      <p class="receita-desc">Porque nada é mais sofisticado que pão com manteiga e o drama do boleto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão francês</li>
+              <li>colher de sopa de manteiga</li>
+              <li>xícara de café preto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Passe manteiga nas fatias de pão.</li>
+              <li>Torre na sanduicheira ou frigideira até dourar.</li>
+              <li>Prepare o café e sirva junto.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pão na chapa é o abraço quente que o boleto não dá. Se der sorte, ainda sobra pra pagar ele.</div>
+    </article>
+
+    <article class="receita-card" id="panquecas-americanas-que-nem-o-tinder-rapidas-e-prometem-muito">
+      <h2 class="receita-titulo">Panquecas Americanas Que Nem o Tinder – Rápidas e Prometem Muito</h2>
+      <p class="receita-desc">Pra quem acorda com fome e com esperança de que a vida vai melhorar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de trigo</li>
+              <li>colher de sopa de açúcar</li>
+              <li>colher de chá de fermento em pó</li>
+              <li>ovo</li>
+              <li>xícara de leite</li>
+              <li>colheres de sopa de manteiga derretida</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, açúcar e fermento.</li>
+              <li>Adicione ovo, leite e manteiga, misture até ficar homogêneo.</li>
+              <li>Cozinhe pequenas porções na frigideira untada até dourar dos dois lados.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Panqueca é igual promessa de político: parece ótimo, mas nem sempre entrega tudo que você quer.</div>
+    </article>
+
+    <article class="receita-card" id="iogurte-natural-com-granola-e-mel-o-refugio-da-preguica">
+      <h2 class="receita-titulo">Iogurte Natural com Granola e Mel – O Refúgio da Preguiça</h2>
+      <p class="receita-desc">Se levantar da cama é difícil, pelo menos o café pode ser preguiçoso também.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pote de iogurte natural (170g)</li>
+              <li>colheres de sopa de granola</li>
+              <li>colher de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque o iogurte na tigela.</li>
+              <li>Adicione a granola por cima.</li>
+              <li>Regue com mel e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Essa receita é tão fácil que até o boleto atrasado consegue fazer antes do café.</div>
+    </article>
+
+    <article class="receita-card" id="cuscuz-nordestino-com-manteiga-e-queijo-coalho">
+      <h2 class="receita-titulo">Cuscuz Nordestino com Manteiga e Queijo Coalho</h2>
+      <p class="receita-desc">Pra sentir o Nordeste no coração e o boleto no bolso.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de flocos de milho para cuscuz</li>
+              <li>xícara de água</li>
+              <li>Sal a gosto</li>
+              <li>colheres de sopa de manteiga</li>
+              <li>g de queijo coalho fatiado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque os flocos na cuscuzeira e hidrate com a água e sal.</li>
+              <li>Cozinhe no vapor por 15 minutos até firmar.</li>
+              <li>Sirva com manteiga e queijo coalho frito.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Cuscuz é igual boleto, demora pra chegar, mas quando vem, marca presença!</div>
+    </article>
+
+    <article class="receita-card" id="vitamina-de-mamao-com-aveia-energia-que-nem-o-boleto">
+      <h2 class="receita-titulo">Vitamina de Mamão com Aveia – Energia que Nem o Boleto</h2>
+      <p class="receita-desc">Pra te dar aquele gás antes do primeiro café xingando o banco.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 7 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>/2 mamão papaia</li>
+              <li>colheres de sopa de aveia em flocos</li>
+              <li>ml de leite</li>
+              <li>colher de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até ficar homogêneo.</li>
+              <li>Sirva gelado.</li>
+              <li>Se preferir, adoce mais com mel.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Vitamina é tipo boleto: bate rápido, mas se demorar, dá aquela preguiça danada.</div>
+    </article>
+
+    <article class="receita-card" id="pao-de-queijo-mineiro-o-carinho-que-o-boleto-nao-da">
+      <h2 class="receita-titulo">Pão de Queijo Mineiro – O Carinho que o Boleto Não Dá</h2>
+      <p class="receita-desc">Porque nada cura a crise igual um pãozinho quentinho saindo do forno.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 10 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de polvilho doce</li>
+              <li>ml de leite</li>
+              <li>ml de óleo</li>
+              <li>ovo</li>
+              <li>g de queijo minas padrão ralado</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva o leite com o óleo e despeje sobre o polvilho, mexendo até formar uma massa.</li>
+              <li>Espere esfriar, acrescente o ovo, queijo e sal, misture bem.</li>
+              <li>Forme bolinhas, coloque na assadeira e asse a 180ºC por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Fazer pão de queijo é igual boleto: no começo parece complicado, mas o resultado vale cada segundo.</div>
+    </article>
+
+    <article class="receita-card" id="misto-quente-do-sofa-classico-dos-adultos-que-nao-querem-sair-da-cama">
+      <h2 class="receita-titulo">Misto Quente do Sofá – Clássico dos Adultos que Não Querem Sair da Cama</h2>
+      <p class="receita-desc">Porque às vezes o esforço máximo é ir até a cozinha.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão de forma</li>
+              <li>fatias de presunto</li>
+              <li>fatias de queijo</li>
+              <li>Manteiga para passar no pão</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Passe manteiga nas fatias de pão.</li>
+              <li>Monte o sanduíche com presunto e queijo.</li>
+              <li>Leve à sanduicheira ou frigideira até o pão dourar e o queijo derreter.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> O misto quente é igual boleto: simples, rápido e todo mundo precisa encarar.</div>
+    </article>
+
+    <article class="receita-card" id="crepioca-proteica-do-guerreiro-do-cafe-da-manha">
+      <h2 class="receita-titulo">Crepioca Proteica do Guerreiro do Café da Manhã</h2>
+      <p class="receita-desc">Pra quem acorda querendo algo saudável, mas não quer guerra com a panela.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>colheres de sopa de goma de tapioca</li>
+              <li>colher de sopa de queijo ralado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com a goma, queijo, sal e pimenta.</li>
+              <li>Aqueça a frigideira e despeje a mistura.</li>
+              <li>Cozinhe até firmar dos dois lados e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Crepioca é igual boleto: se você enrolar, a dor só aumenta.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-leite-cremoso-do-sofrido">
+      <h2 class="receita-titulo">Café com Leite Cremoso do Sofrido</h2>
+      <p class="receita-desc">Porque o café preto não é pra qualquer um – tem que ter coração forte.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 3,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de café coado</li>
+              <li>/2 xícara de leite integral</li>
+              <li>Açúcar a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite até quase ferver.</li>
+              <li>Misture o café coado com o leite quente.</li>
+              <li>Adoce a gosto e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Café com leite é igual boleto: mistura amarga com doce, mas a gente encara mesmo assim.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-de-caneca-de-banana-com-aveia-para-quem-nao-quer-sair-da-cama">
+      <h2 class="receita-titulo">Bolo de Caneca de Banana com Aveia – Para Quem Não Quer Sair da Cama</h2>
+      <p class="receita-desc">Porque no café da manhã, às vezes o micro-ondas é o melhor amigo da preguiça.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>banana madura amassada</li>
+              <li>colheres de sopa de aveia em flocos</li>
+              <li>ovo</li>
+              <li>colher de chá de fermento em pó</li>
+              <li>colher de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes na caneca até ficar homogêneo.</li>
+              <li>Leve ao micro-ondas por 3 minutos.</li>
+              <li>Deixe esfriar um pouco e coma direto da caneca.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse bolo é tipo boleto digital: rápido, prático e você nem sente que aconteceu.</div>
+    </article>
+
+    <article class="receita-card" id="pao-integral-com-abacate-e-ovo-cozido-o-cafe-da-consciencia">
+      <h2 class="receita-titulo">Pão Integral com Abacate e Ovo Cozido – O Café da Consciência</h2>
+      <p class="receita-desc">Pra fingir que é fitness enquanto pensa no boleto do mês.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão integral</li>
+              <li>/2 abacate maduro</li>
+              <li>ovo cozido</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o ovo por 8 minutos, descasque e fatie.</li>
+              <li>Amasse o abacate, tempere com sal e pimenta.</li>
+              <li>Passe o abacate no pão, coloque o ovo fatiado por cima e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Essa combinação é igual boleto: saudável, mas sempre dá aquele aperto no coração.</div>
+    </article>
+
+    <article class="receita-card" id="mingau-de-aveia-com-canela-e-maca-o-conforto-em-forma-de-cafe">
+      <h2 class="receita-titulo">Mingau de Aveia com Canela e Maçã – O Conforto em Forma de Café</h2>
+      <p class="receita-desc">Pra quando o corpo tá cansado, mas o boleto não deixa a mente descansar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>/2 xícara de aveia em flocos</li>
+              <li>xícara de leite</li>
+              <li>maçã picada</li>
+              <li>colher de chá de canela em pó</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a aveia no leite até engrossar.</li>
+              <li>Adicione a maçã e canela, misture bem.</li>
+              <li>Adoce com mel e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mingau é tipo boleto atrasado: não é o ideal, mas às vezes é o que salva o dia.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-natural-de-frango-com-maionese-caseira">
+      <h2 class="receita-titulo">Sanduíche Natural de Frango com Maionese Caseira</h2>
+      <p class="receita-desc">Pra fingir que tá saudável enquanto o boleto queima sua alma.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>filés de frango cozidos e desfiados</li>
+              <li>fatias de pão integral</li>
+              <li>colheres de sopa de maionese caseira</li>
+              <li>Alface e tomate a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o frango com a maionese, sal e pimenta.</li>
+              <li>Monte o sanduíche com pão, frango, alface e tomate.</li>
+              <li>Sirva fresco.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sanduíche natural é igual boleto: parece leve, mas pesa no final do mês.</div>
+    </article>
+
+    <article class="receita-card" id="crepe-doce-de-nutella-com-morango-o-pecado-permitido">
+      <h2 class="receita-titulo">Crepe Doce de Nutella com Morango – O Pecado Permitido</h2>
+      <p class="receita-desc">Porque às vezes o boleto pode esperar, mas o doce não.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de trigo</li>
+              <li>xícara de leite</li>
+              <li>ovo</li>
+              <li>colher de sopa de açúcar</li>
+              <li>Nutella a gosto</li>
+              <li>Morangos fatiados a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a farinha, leite, ovo e açúcar até formar massa líquida.</li>
+              <li>Cozinhe a massa na frigideira formando crepes finos.</li>
+              <li>Recheie com Nutella e morangos, dobre e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Crepe é igual boleto: você sabe que vai pesar, mas não resiste ao charme.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-gelado-com-leite-condensado-o-acorda-negao">
+      <h2 class="receita-titulo">Café Gelado com Leite Condensado – O Acorda, Negão</h2>
+      <p class="receita-desc">Pra quem precisa de um café que bata mais forte que boleto atrasado.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 7 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de café forte coado e gelado</li>
+              <li>ml de leite</li>
+              <li>colheres de sopa de leite condensado</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o café, leite e leite condensado em um copo.</li>
+              <li>Adicione gelo a gosto.</li>
+              <li>Mexa bem e sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Café gelado com leite condensado é igual boleto: doce na boca, mas pesado na consciência.</div>
+    </article>
+
+    <article class="receita-card" id="muffin-integral-de-banana-e-nozes-o-cafe-da-manha-que-abraca">
+      <h2 class="receita-titulo">Muffin Integral de Banana e Nozes – O Café da Manhã que Abraça</h2>
+      <p class="receita-desc">Pra quem quer um café gostoso, mas sem que a vida vire uma novela.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 13,00</span>
+          <span class="badge">👤 6 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>bananas maduras amassadas</li>
+              <li>xícara de farinha integral</li>
+              <li>/2 xícara de açúcar mascavo</li>
+              <li>/2 xícara de nozes picadas</li>
+              <li>ovo</li>
+              <li>/3 xícara de óleo vegetal</li>
+              <li>colher de chá de fermento em pó</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture bananas, ovo e óleo.</li>
+              <li>Adicione farinha, açúcar, fermento e nozes, mexa até homogeneizar.</li>
+              <li>Coloque nas forminhas e asse a 180ºC por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Muffin integral é igual boleto: parece saudável, mas sempre tem um peso no final.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-frutas-com-iogurte-e-granola-o-cafe-da-manha-dos-justos">
+      <h2 class="receita-titulo">Salada de Frutas com Iogurte e Granola – O Café da Manhã dos Justos</h2>
+      <p class="receita-desc">Pra quem quer algo leve, mas o boleto não deixa ser leve na vida.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>maçã picada</li>
+              <li>banana fatiada</li>
+              <li>/2 mamão picado</li>
+              <li>pote de iogurte natural</li>
+              <li>colheres de sopa de granola</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture as frutas na tigela.</li>
+              <li>Adicione o iogurte e misture delicadamente.</li>
+              <li>Polvilhe granola por cima e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada de frutas é igual boleto: colorida e cheia de problemas escondidos.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-pao-de-mel-a-docura-que-o-boleto-esconde">
+      <h2 class="receita-titulo">Café com Pão de Mel – A Doçura que o Boleto Esconde</h2>
+      <p class="receita-desc">Porque às vezes a vida precisa de um doce pra enganar o cartão.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de mel</li>
+              <li>ovos</li>
+              <li>/2 xícara de açúcar mascavo</li>
+              <li>/2 xícara de leite</li>
+              <li>xícaras de farinha de trigo</li>
+              <li>colher de chá de bicarbonato</li>
+              <li>colher de chá de canela em pó</li>
+              <li>colher de chá de cravo em pó</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture mel, ovos, açúcar e leite.</li>
+              <li>Acrescente farinha, bicarbonato e especiarias, mexa até homogeneizar.</li>
+              <li>Asse em forma untada a 180ºC por 30 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pão de mel é igual boleto: doce de início, amargo no fim do mês.</div>
+    </article>
+
+    <article class="receita-card" id="waffle-salgado-com-queijo-e-presunto-o-cafe-da-preguica-gourmet">
+      <h2 class="receita-titulo">Waffle Salgado com Queijo e Presunto – O Café da Preguiça Gourmet</h2>
+      <p class="receita-desc">Pra quando você quer acordar bem, mas sem levantar correndo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de trigo</li>
+              <li>ovo</li>
+              <li>/2 xícara de leite</li>
+              <li>colher de chá de fermento em pó</li>
+              <li>g de queijo ralado</li>
+              <li>g de presunto picado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, fermento, ovo, leite e temperos até formar massa.</li>
+              <li>Acrescente queijo e presunto, mexa delicadamente.</li>
+              <li>Cozinhe na máquina de waffle até dourar e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Waffle salgado é igual boleto: cheio de pedaços que você nem sempre quer encarar.</div>
+    </article>
+
+    <article class="receita-card" id="pao-sirio-com-homus-e-pepino-o-cafe-da-paz-interior">
+      <h2 class="receita-titulo">Pão Sírio com Homus e Pepino – O Café da Paz Interior</h2>
+      <p class="receita-desc">Pra quem quer um café leve, mas o boleto grita no fundo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 11,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pães sírios</li>
+              <li>g de homus</li>
+              <li>/2 pepino fatiado</li>
+              <li>Azeite a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte o pão sírio ao meio.</li>
+              <li>Espalhe homus, coloque fatias de pepino.</li>
+              <li>Tempere com azeite, sal e pimenta e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Homus no café é igual boleto: parece tranquilo, mas deixa você com um gostinho amargo.</div>
+    </article>
+
+    <article class="receita-card" id="ovos-mexidos-com-espinafre-e-tomate-o-cafe-da-rotina-saudavel">
+      <h2 class="receita-titulo">Ovos Mexidos com Espinafre e Tomate – O Café da Rotina Saudável</h2>
+      <p class="receita-desc">Pra quem tenta ser fitness, mas tá só no começo da saga.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>punhado de espinafre</li>
+              <li>tomate picado</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>colher de sopa de azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos e tempere com sal e pimenta.</li>
+              <li>Aqueça o azeite, refogue espinafre e tomate rapidamente.</li>
+              <li>Adicione os ovos e mexa até firmar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Ovos mexidos são igual boleto: simples, mas nunca passam despercebidos.</div>
+    </article>
+
+    <article class="receita-card" id="cacau-quente-com-marshmallow-o-abraco-do-boleto-no-inverno">
+      <h2 class="receita-titulo">Cacau Quente com Marshmallow – O Abraço do Boleto no Inverno</h2>
+      <p class="receita-desc">Porque nada esquenta mais que a conta atrasada (mas esse cacau ajuda).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de leite</li>
+              <li>colheres de sopa de cacau em pó</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>Marshmallows para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite com cacau e açúcar até quase ferver, mexendo.</li>
+              <li>Sirva nas canecas e coloque marshmallows por cima.</li>
+              <li>Espere derreter um pouco antes de beber.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Cacau quente é igual boleto: doce e quente, mas que deixa a alma em chamas.</div>
+    </article>
+
+    <article class="receita-card" id="bruschetta-de-abacate-com-tomate-e-manjericao-cafe-da-manha-estiloso">
+      <h2 class="receita-titulo">Bruschetta de Abacate com Tomate e Manjericão – Café da Manhã Estiloso</h2>
+      <p class="receita-desc">Pra impressionar no café, mesmo que o boleto não permita.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pão baguete fatiado</li>
+              <li>abacate maduro amassado</li>
+              <li>tomate picado</li>
+              <li>Folhas de manjericão fresco</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Torre as fatias de pão.</li>
+              <li>Espalhe o abacate, coloque tomate e manjericão.</li>
+              <li>Tempere com sal e pimenta e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bruschetta é igual boleto: parece chique, mas no fundo é só pão com problemas.</div>
+    </article>
+
+    <article class="receita-card" id="suco-detox-de-laranja-cenoura-e-gengibre-o-cafe-da-vida-real">
+      <h2 class="receita-titulo">Suco Detox de Laranja, Cenoura e Gengibre – O Café da Vida Real</h2>
+      <p class="receita-desc">Pra tentar enganar o corpo que o boleto não tá destruindo tudo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>laranjas espremidas</li>
+              <li>cenoura média picada</li>
+              <li>pedaço pequeno de gengibre</li>
+              <li>Água a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador com água.</li>
+              <li>Coe se preferir mais suave.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Suco detox é igual boleto: promete limpar, mas só acumula mais.</div>
+    </article>
+
+    <article class="receita-card" id="croissant-recheado-com-presunto-e-queijo-o-cafe-da-preguica-chique">
+      <h2 class="receita-titulo">Croissant Recheado com Presunto e Queijo – O Café da Preguiça Chique</h2>
+      <p class="receita-desc">Pra quem quer luxo no café, mas sem esforço de novela.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>croissants prontos</li>
+              <li>fatias de presunto</li>
+              <li>fatias de queijo</li>
+              <li>Manteiga para pincelar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte os croissants ao meio.</li>
+              <li>Recheie com presunto e queijo.</li>
+              <li>Pincele manteiga e leve ao forno a 180ºC por 10 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Croissant recheado é igual boleto: parece caro, mas no fim todo mundo paga.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-doce-com-coco-e-leite-condensado-o-cafe-da-felicidade-instantanea">
+      <h2 class="receita-titulo">Tapioca Doce com Coco e Leite Condensado – O Café da Felicidade Instantânea</h2>
+      <p class="receita-desc">Porque às vezes o boleto pode esperar, mas a gula não.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca</li>
+              <li>colheres de sopa de coco ralado</li>
+              <li>Leite condensado a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Peneire a goma na frigideira aquecida formando um disco.</li>
+              <li>Quando firmar, vire e aqueça o outro lado.</li>
+              <li>Recheie com coco ralado e regue leite condensado, dobre e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Tapioca doce é igual boleto: chega doce, mas deixa um peso no final.</div>
+    </article>
+
+    <article class="receita-card" id="pao-frances-com-requeijao-e-mel-o-cafe-da-simplicidade">
+      <h2 class="receita-titulo">Pão Francês com Requeijão e Mel – O Café da Simplicidade</h2>
+      <p class="receita-desc">Pra quem quer acordar bem, mas o boleto não ajuda no estilo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pão francês</li>
+              <li>colheres de sopa de requeijão</li>
+              <li>colher de chá de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte o pão ao meio.</li>
+              <li>Passe requeijão em ambas as partes.</li>
+              <li>Regue com mel e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pão francês com mel é igual boleto: simples, mas te dá aquela energia (ou susto) na hora.</div>
+    </article>
+
+    <article class="receita-card" id="iogurte-grego-com-frutas-vermelhas-e-semente-de-chia-o-cafe-da-alma-fitness">
+      <h2 class="receita-titulo">Iogurte Grego com Frutas Vermelhas e Semente de Chia – O Café da Alma Fitness</h2>
+      <p class="receita-desc">Pra quem quer parecer saudável no Instagram, mas só quer café mesmo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pote de iogurte grego</li>
+              <li>/2 xícara de frutas vermelhas</li>
+              <li>colher de sopa de semente de chia</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque o iogurte na tigela.</li>
+              <li>Adicione as frutas e as sementes por cima.</li>
+              <li>Misture ou coma assim, pra foto.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Iogurte grego é igual boleto: parece sofisticado, mas no fim é só mais uma conta.</div>
+    </article>
+
+    <article class="receita-card" id="torrada-francesa-com-canela-e-acucar-o-cafe-da-nostalgia">
+      <h2 class="receita-titulo">Torrada Francesa com Canela e Açúcar – O Café da Nostalgia</h2>
+      <p class="receita-desc">Pra quem quer sentir o gostinho da infância, mesmo com boleto adulto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão de forma</li>
+              <li>ovos</li>
+              <li>/2 xícara de leite</li>
+              <li>colher de chá de canela</li>
+              <li>Açúcar a gosto</li>
+              <li>Manteiga para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata ovos, leite, canela e açúcar na tigela.</li>
+              <li>Molhe as fatias de pão na mistura.</li>
+              <li>Frite na manteiga até dourar dos dois lados.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Torrada francesa é igual boleto: doce e irresistível, mas te lembra que a vida não é só festa.</div>
+    </article>
+
+    <article class="receita-card" id="cha-mate-com-limao-e-hortela-o-cafe-da-manha-refrescante">
+      <h2 class="receita-titulo">Chá Mate com Limão e Hortelã – O Café da Manhã Refrescante</h2>
+      <p class="receita-desc">Pra tentar refrescar a mente antes do boleto queimar o bolso.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>sachês de chá mate</li>
+              <li>limão fatiado</li>
+              <li>Folhas de hortelã a gosto</li>
+              <li>Açúcar a gosto</li>
+              <li>ml de água</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água e coloque os sachês para infusão por 5 minutos.</li>
+              <li>Retire os sachês, adoce a gosto, adicione limão e hortelã.</li>
+              <li>Sirva gelado ou quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Chá mate é igual boleto: refresca na hora, mas não resolve o problema.</div>
+    </article>
+
+    <article class="receita-card" id="crepioca-de-banana-com-canela-o-cafe-da-doce-tentacao">
+      <h2 class="receita-titulo">Crepioca de Banana com Canela – O Café da Doce Tentação</h2>
+      <p class="receita-desc">Pra quem quer acordar saudável, mas o boleto insiste em adoçar a vida.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>colheres de sopa de goma de tapioca</li>
+              <li>banana amassada</li>
+              <li>Canela a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com a goma e a banana, adicione canela.</li>
+              <li>Aqueça a frigideira e despeje a mistura.</li>
+              <li>Cozinhe até firmar dos dois lados e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Crepioca doce é igual boleto: tenta ser saudável, mas acaba sendo um drama.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-de-ricota-com-mel-e-nozes-o-cafe-de-quem-ta-na-correria">
+      <h2 class="receita-titulo">Sanduíche de Ricota com Mel e Nozes – O Café de Quem Tá na Correria</h2>
+      <p class="receita-desc">Pra quem mal tem tempo, mas quer fingir que se importa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão integral</li>
+              <li>colheres de sopa de ricota amassada</li>
+              <li>colher de sopa de mel</li>
+              <li>Nozes picadas a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a ricota com mel.</li>
+              <li>Passe a mistura no pão, salpique nozes por cima.</li>
+              <li>Feche o sanduíche e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse sanduíche é igual boleto: rápido, mas com aquele gostinho amargo no final.</div>
+    </article>
+
+    <article class="receita-card" id="mingau-de-milho-verde-com-coco-o-cafe-que-abraca-o-boleto">
+      <h2 class="receita-titulo">Mingau de Milho Verde com Coco – O Café que Abraça o Boleto</h2>
+      <p class="receita-desc">Pra aquecer o coração enquanto a conta aperta o bolso.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 8,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>espigas de milho verde debulhadas</li>
+              <li>ml de leite de coco</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>Coco ralado para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata o milho com um pouco de leite de coco no liquidificador.</li>
+              <li>Coe e leve à panela com o restante do leite de coco e açúcar.</li>
+              <li>Cozinhe mexendo até engrossar, decore com coco ralado e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mingau de milho é igual boleto: doce, mas que pesa na alma e no bolso.</div>
+    </article>
+
+    <article class="receita-card" id="pao-sirio-com-pasta-de-atum-o-cafe-da-sobrevivencia">
+      <h2 class="receita-titulo">Pão Sírio com Pasta de Atum – O Café da Sobrevivência</h2>
+      <p class="receita-desc">Pra quem quer algo rápido antes de encarar o dia e o boleto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pão sírio</li>
+              <li>lata de atum em água</li>
+              <li>colheres de sopa de maionese</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o atum com a maionese, sal e pimenta.</li>
+              <li>Corte o pão sírio e recheie com a pasta de atum.</li>
+              <li>Sirva fresco.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pão sírio com atum é igual boleto: simples, mas garante que você não desmorone antes do almoço.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-aveia-com-mel-e-frutas-o-cafe-da-esperanca">
+      <h2 class="receita-titulo">Panqueca de Aveia com Mel e Frutas – O Café da Esperança</h2>
+      <p class="receita-desc">Pra quem acredita que o café da manhã pode mudar o dia (e o boleto).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 11,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de aveia em flocos</li>
+              <li>ovo</li>
+              <li>/2 xícara de leite</li>
+              <li>Mel a gosto</li>
+              <li>Frutas picadas a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture aveia, ovo e leite até formar massa.</li>
+              <li>Cozinhe na frigideira até dourar dos dois lados.</li>
+              <li>Sirva com mel e frutas por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Panqueca de aveia é igual boleto: você sabe que é bom, mas bate aquela vontade de desistir.</div>
+    </article>
+
+    <article class="receita-card" id="pao-frances-com-geleia-caseira-o-cafe-da-simplicidade-que-salva">
+      <h2 class="receita-titulo">Pão Francês com Geleia Caseira – O Café da Simplicidade que Salva</h2>
+      <p class="receita-desc">Pra quem quer doçura na vida, mesmo com boleto na carteira vazia.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pão francês</li>
+              <li>colheres de sopa de geleia de frutas</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte o pão ao meio.</li>
+              <li>Passe a geleia nas duas partes.</li>
+              <li>Sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pão com geleia é igual boleto: simples, mas dá aquele gostinho que conforta o coração.</div>
+    </article>
+
+    <article class="receita-card" id="omelete-de-claras-com-espinafre-o-cafe-dos-fitness-que-sofrem">
+      <h2 class="receita-titulo">Omelete de Claras com Espinafre – O Café dos Fitness que Sofrem</h2>
+      <p class="receita-desc">Pra quem quer proteína, mas o boleto só deixa comer vontade.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>claras de ovo</li>
+              <li>punhado de espinafre picado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata as claras com sal e pimenta.</li>
+              <li>Refogue o espinafre rapidamente na frigideira.</li>
+              <li>Despeje as claras, cozinhe até firmar e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Omelete de claras é igual boleto: leve no começo, mas pesa no final do mês.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-leite-de-amendoas-e-canela-o-cafe-que-engana-o-boleto">
+      <h2 class="receita-titulo">Café com Leite de Amêndoas e Canela – O Café que Engana o Boleto</h2>
+      <p class="receita-desc">Pra dar aquela sensação de luxo enquanto conta os centavos.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de café coado</li>
+              <li>/2 xícara de leite de amêndoas</li>
+              <li>pitada de canela em pó</li>
+              <li>Açúcar a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite de amêndoas com canela.</li>
+              <li>Misture com o café coado.</li>
+              <li>Adoce a gosto e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Café com leite de amêndoas é igual boleto: parece caro, mas no fim só pesa no bolso.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-de-frango-com-catupiry-o-cafe-da-preguica-com-sabor">
+      <h2 class="receita-titulo">Tapioca de Frango com Catupiry – O Café da Preguiça com Sabor</h2>
+      <p class="receita-desc">Pra quem quer praticidade, mas não abre mão do sabor (e do boleto).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca</li>
+              <li>g de frango desfiado temperado</li>
+              <li>colheres de sopa de catupiry</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Peneire a goma na frigideira aquecida formando discos.</li>
+              <li>Quando firmar, adicione frango e catupiry, dobre a tapioca.</li>
+              <li>Cozinhe mais um pouco e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Tapioca recheada é igual boleto: cheia de surpresas que nem sempre são boas.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

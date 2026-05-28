@@ -1,0 +1,1721 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🧺 Piquenique — Receitas NaFome</title>
+  <meta name="description" content="44 receitas para quem está na situação "Piquenique". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/piquenique/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🧺 Piquenique — Receitas NaFome">
+  <meta property="og:description" content="44 receitas para quem está na situação "Piquenique". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/piquenique/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🧺 Piquenique — NaFome",
+    "description": "44 receitas para quem está na situação "Piquenique". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/piquenique/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=piquenique" class="btn-sortear">🎲 Sortear receita de Piquenique</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🧺 Piquenique</h1>
+    <p>44 receitas para quem está na situação "Piquenique". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">44 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Piquenique pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=piquenique" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="sanduiche-crocante-da-vovo-moderninha">
+      <h2 class="receita-titulo">Sanduíche Crocante da Vovó Moderninha</h2>
+      <p class="receita-desc">Praquele lanche que até a vovó aprovaria, se ela não estivesse no WhatsApp reclamando do Brasil</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão integral</li>
+              <li>fatias de queijo prato</li>
+              <li>fatias de presunto magro</li>
+              <li>folhas de alface</li>
+              <li>colheres de sopa de maionese</li>
+              <li>tomate cortado em rodelas</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe a maionese nas fatias de pão.</li>
+              <li>Monte o sanduíche com presunto, queijo, alface e tomate.</li>
+              <li>Corte ao meio e embale para o piquenique.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o sanduíche ficar meio amassado no caminho, finge que é estilo "gourmet rústico" e ninguém vai notar — igual boletos atrasados, ninguém quer ver, mas todo mundo tem.</div>
+    </article>
+
+    <article class="receita-card" id="salada-colorida-de-graos-do-amor-livre">
+      <h2 class="receita-titulo">Salada Colorida de Grãos do Amor Livre</h2>
+      <p class="receita-desc">Porque até no piquenique a gente tenta ser saudável, mas sem abrir mão da zoeira</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,50</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de quinoa cozida</li>
+              <li>/2 xícara de grão-de-bico cozido</li>
+              <li>/2 xícara de milho verde</li>
+              <li>tomate picado</li>
+              <li>/4 de cebola roxa picada</li>
+              <li>Suco de 1 limão</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os grãos com o tomate e a cebola na tigela.</li>
+              <li>Tempere com limão, azeite, sal e pimenta.</li>
+              <li>Leve para a cesta e não esqueça do guardanapo, porque grão cai mais que notificação de boleto.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a salada parecer sem graça, joga um pouco de pimenta; se queimar, finge que é "picante emocional", igual ex que só dá dor de cabeça.</div>
+    </article>
+
+    <article class="receita-card" id="wrap-de-frango-que-nao-cai-barriga">
+      <h2 class="receita-titulo">Wrap de Frango que Não Cai Barriga</h2>
+      <p class="receita-desc">Para quem quer impressionar no piquenique, mas a única coisa que impressiona é a conta do cartão</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tortilhas de trigo</li>
+              <li>g de peito de frango desfiado</li>
+              <li>cenoura ralada</li>
+              <li>folhas de alface</li>
+              <li>colheres de sopa de cream cheese</li>
+              <li>Sal, pimenta e alho em pó a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o frango com sal, pimenta e alho; refogue até dourar.</li>
+              <li>Espalhe o cream cheese na tortilha, coloque o frango, cenoura e alface.</li>
+              <li>Enrole firme, corte ao meio e embale para não virar bagunça.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o wrap abrir no meio, finge que é efeito especial, igual vida adulta: tudo desmorona, mas a gente finge que tá tudo bem.</div>
+    </article>
+
+    <article class="receita-card" id="muffin-salgado-de-queijo-e-ervas-do-desespero">
+      <h2 class="receita-titulo">Muffin Salgado de Queijo e Ervas do Desespero</h2>
+      <p class="receita-desc">Porque às vezes o piquenique é só desculpa pra comer coisas que parecem bolo, mas são salgadas</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>xícara de farinha de trigo</li>
+              <li>/2 xícara de leite</li>
+              <li>/2 xícara de queijo ralado</li>
+              <li>colher de chá de fermento em pó</li>
+              <li>colheres de sopa de ervas finas</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com o leite, junte a farinha, fermento, queijo e ervas.</li>
+              <li>Tempere com sal e pimenta, misture até homogêneo.</li>
+              <li>Coloque nas forminhas e asse em forno pré-aquecido a 180°C por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o muffin ficar seco, acredita que é "estilo fitness" e queimar calorias mastigando é seu plano B.</div>
+    </article>
+
+    <article class="receita-card" id="salpicao-tropical-do-tio-ze">
+      <h2 class="receita-titulo">Salpicão Tropical do Tio Zé</h2>
+      <p class="receita-desc">Salada que tá mais para festa na boca do que reunião de condomínio</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de frango desfiado</li>
+              <li>maçã verde picada</li>
+              <li>cenoura ralada</li>
+              <li>/2 xícara de uva passa</li>
+              <li>/2 xícara de milho verde</li>
+              <li>/2 xícara de maionese</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes em uma tigela.</li>
+              <li>Tempere com sal e pimenta.</li>
+              <li>Leve para a cesta e aproveite o piquenique sem drama.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o salpicão ficar muito doce, finge que é receita de ex: parece bom, mas tem uns pedaços que incomodam.</div>
+    </article>
+
+    <article class="receita-card" id="pao-de-queijo-da-tia-joana-que-nunca-falha">
+      <h2 class="receita-titulo">Pão de Queijo da Tia Joana (Que Nunca Falha)</h2>
+      <p class="receita-desc">Pra quem quer fingir que tá na roça, mas só tá no parque mesmo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 12 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de polvilho doce</li>
+              <li>ml de leite</li>
+              <li>ml de óleo</li>
+              <li>ovos</li>
+              <li>g de queijo minas padrão ralado</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva o leite com o óleo e o sal.</li>
+              <li>Despeje sobre o polvilho e misture até formar uma massa.</li>
+              <li>Incorpore os ovos e o queijo, faça bolinhas e asse a 180°C por 30 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o pão de queijo não crescer, não se preocupe, assim como boletos, às vezes a vida só encolhe e a gente finge que é normal.</div>
+    </article>
+
+    <article class="receita-card" id="salada-caprese-na-marmita-do-amor">
+      <h2 class="receita-titulo">Salada Caprese na Marmita do Amor</h2>
+      <p class="receita-desc">Porque o amor pode até ser complicado, mas tomate, manjericão e queijo são certezas</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tomates maduros fatiados</li>
+              <li>g de mussarela de búfala fatiada</li>
+              <li>Folhas de manjericão fresco</li>
+              <li>Azeite extra virgem</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte camadas alternadas de tomate, mussarela e manjericão.</li>
+              <li>Tempere com sal, pimenta e regue com azeite.</li>
+              <li>Embale com cuidado para o piquenique não virar guerra.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o queijo escapar da marmita, finge que é parte do charme, tipo sua vida amorosa: sempre escapa alguma coisa.</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-de-chuva-salgado-com-queijo-e-oregano">
+      <h2 class="receita-titulo">Bolinho de Chuva Salgado com Queijo e Orégano</h2>
+      <p class="receita-desc">Bolinho de chuva que não é doce, igual aquela promessa de dieta que nunca cai bem</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 10 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de farinha de trigo</li>
+              <li>colher de chá de fermento em pó</li>
+              <li>/2 colher de chá de sal</li>
+              <li>ovo</li>
+              <li>xícara de leite</li>
+              <li>g de queijo ralado</li>
+              <li>Orégano a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, fermento, sal e orégano.</li>
+              <li>Acrescente ovo, leite e queijo, misture até formar massa homogênea.</li>
+              <li>Frite colheradas da massa em óleo quente até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bolinho abrir na fritura, finge que é estilo "explosão de sabor" — igual boletos, às vezes o susto é maior que o dano.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-macarrao-colorida-do-sol">
+      <h2 class="receita-titulo">Salada de Macarrão Colorida do Sol</h2>
+      <p class="receita-desc">Porque macarrão frio é quase tão bom quanto piada ruim, só que menos indigestão</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 17,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de macarrão parafuso</li>
+              <li>/2 xícara de ervilha</li>
+              <li>/2 xícara de milho</li>
+              <li>tomate picado</li>
+              <li>/4 de cebola picada</li>
+              <li>colheres de sopa de maionese</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o macarrão al dente, escorra e deixe esfriar.</li>
+              <li>Misture com os legumes, tomate, cebola e maionese.</li>
+              <li>Tempere com sal e pimenta e leve para o piquenique.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o macarrão grudar, finge que é abraço apertado, tipo sua mãe que não respeita espaço pessoal.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-frutas-tropical-da-paixao">
+      <h2 class="receita-titulo">Espetinho de Frutas Tropical da Paixão</h2>
+      <p class="receita-desc">Porque até as frutas querem um pouco de glamour no seu piquenique que nem você tentando pagar o boleto atrasado</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>manga em cubos</li>
+              <li>abacaxi em cubos</li>
+              <li>kiwi em fatias</li>
+              <li>banana em rodelas</li>
+              <li>Suco de 1 limão</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte as frutas em pedaços médios.</li>
+              <li>Espete as frutas nos palitos alternando as cores.</li>
+              <li>Regue com suco de limão para não escurecer e leve na cesta.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a banana escurecer, finge que é bronzeado natural, igual a gente tentando parecer saudável no Instagram.</div>
+    </article>
+
+    <article class="receita-card" id="quiche-de-alho-poro-do-desespero-gourmet">
+      <h2 class="receita-titulo">Quiche de Alho-Poró do Desespero Gourmet</h2>
+      <p class="receita-desc">Praquele prato chique que você leva só pra mostrar que sabe cozinhar, mesmo que só tenha aprendido no YouTube</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>massa pronta para torta</li>
+              <li>talos de alho-poró picados</li>
+              <li>ovos</li>
+              <li>ml de creme de leite</li>
+              <li>g de queijo ralado</li>
+              <li>Sal, pimenta e noz-moscada a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Forre a forma com a massa e pré-asse por 10 minutos a 180°C.</li>
+              <li>Refogue o alho-poró até murchar.</li>
+              <li>Bata ovos, creme de leite, queijo e temperos; junte o alho-poró.</li>
+              <li>Despeje na forma e asse por 30 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a quiche rachar, finge que é charme, igual sua vida amorosa: cheia de pedaços que não encaixam.</div>
+    </article>
+
+    <article class="receita-card" id="pao-sirio-recheado-com-homus-e-legumes">
+      <h2 class="receita-titulo">Pão Sírio Recheado com Homus e Legumes</h2>
+      <p class="receita-desc">Porque pão sírio é igual boleto: você sabe que vai ter que lidar, mas prefere adiar</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pães sírios</li>
+              <li>xícara de homus pronto</li>
+              <li>cenoura ralada</li>
+              <li>pepino fatiado</li>
+              <li>Folhas de alface</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte o pão sírio ao meio formando uma bolsinha.</li>
+              <li>Recheie com homus, cenoura, pepino e alface.</li>
+              <li>Embale para o piquenique e evite que vaze.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o pão rasgar, finge que é estilo "look descontraído", igual sua camisa velha que você não larga.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-de-cenoura-com-cobertura-de-chocolate-em-potinho">
+      <h2 class="receita-titulo">Bolo de Cenoura com Cobertura de Chocolate em Potinho</h2>
+      <p class="receita-desc">Porque até no piquenique a gente merece um docinho, afinal boletos não pagam a nossa felicidade</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>cenouras médias</li>
+              <li>ovos</li>
+              <li>xícara de óleo</li>
+              <li>xícaras de açúcar</li>
+              <li>e 1/2 xícaras de farinha de trigo</li>
+              <li>colher de sopa de fermento</li>
+              <li>g de chocolate meio amargo para cobertura</li>
+              <li>caixinha de creme de leite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata no liquidificador cenoura, ovos e óleo.</li>
+              <li>Misture com açúcar, farinha e fermento.</li>
+              <li>Asse a 180°C por 35 minutos, depois cubra com ganache feita com chocolate e creme de leite.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bolo ficar meio seco, finge que é "versão light", igual sua vida depois de pagar boletos.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-batata-com-maionese-do-que-nao-tem-tempo">
+      <h2 class="receita-titulo">Salada de Batata com Maionese do Que Não Tem Tempo</h2>
+      <p class="receita-desc">A salada que é mais rápida que sua vontade de limpar a casa antes do piquenique</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas médias cozidas e picadas</li>
+              <li>/2 xícara de maionese</li>
+              <li>/4 de cebola picada</li>
+              <li>/2 cenoura ralada</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe e pique as batatas.</li>
+              <li>Misture todos os ingredientes em uma tigela.</li>
+              <li>Tempere e leve para o piquenique.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a maionese ficar demais, finge que é "extra cremoso", igual seu café depois das 3 da tarde.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-natural-de-atum-com-abacate">
+      <h2 class="receita-titulo">Sanduíche Natural de Atum com Abacate</h2>
+      <p class="receita-desc">Porque até o atum quer ser saudável no meio da bagunça do piquenique</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de atum em água</li>
+              <li>/2 abacate amassado</li>
+              <li>fatias de pão integral</li>
+              <li>colher de sopa de maionese</li>
+              <li>Sal, pimenta e limão a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o atum com o abacate, maionese, sal, pimenta e limão.</li>
+              <li>Espalhe sobre as fatias de pão.</li>
+              <li>Monte os sanduíches e corte ao meio.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o sanduíche ficar meio mole, finge que é "estilo gourmet descontraído", igual seu chefe na sexta-feira.</div>
+    </article>
+
+    <article class="receita-card" id="chips-de-batata-doce-crocantes-do-fim-de-semana">
+      <h2 class="receita-titulo">Chips de Batata-Doce Crocantes do Fim de Semana</h2>
+      <p class="receita-desc">Porque todo mundo quer ser saudável, mas nada supera a crocância do pecado</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas-doces médias fatiadas bem finas</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal e páprica a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Preaqueça o forno a 180°C.</li>
+              <li>Misture as fatias com azeite, sal e páprica.</li>
+              <li>Espalhe na assadeira e asse por 30 minutos, virando na metade.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se queimar um pouco, finge que é "sabor defumado" igual sua conta de luz em julho.</div>
+    </article>
+
+    <article class="receita-card" id="omelete-frio-de-forno-com-tomate-e-queijo">
+      <h2 class="receita-titulo">Omelete Frio de Forno com Tomate e Queijo</h2>
+      <p class="receita-desc">Omelete que você pode comer frio, porque ser prático é a nova arte da sobrevivência</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>tomate picado</li>
+              <li>g de queijo ralado</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com sal, pimenta e cheiro-verde.</li>
+              <li>Misture tomate e queijo.</li>
+              <li>Asse em forma untada a 180°C por 20 minutos, deixe esfriar antes de levar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a omelete grudar, finge que é "textura artesanal", igual seus planos de final de semana: nunca dão certo.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-couscous-marroquino-com-hortela">
+      <h2 class="receita-titulo">Salada de Couscous Marroquino com Hortelã</h2>
+      <p class="receita-desc">Porque até o couscous quer dar um rolê no parque e fingir que é chique</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de couscous</li>
+              <li>xícara de água fervente</li>
+              <li>/2 pepino picado</li>
+              <li>tomate picado</li>
+              <li>Folhas de hortelã picadas</li>
+              <li>Suco de 1 limão</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque o couscous em tigela e cubra com água fervente, tampe por 5 minutos.</li>
+              <li>Solte o couscous com garfo e misture com os vegetais e temperos.</li>
+              <li>Leve para o piquenique e faça sucesso.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o couscous ficar grudado, finge que é abraço apertado, igual sua vontade de ficar na cama na segunda-feira.</div>
+    </article>
+
+    <article class="receita-card" id="pao-de-forma-recheado-com-cream-cheese-e-pepino">
+      <h2 class="receita-titulo">Pão de Forma Recheado com Cream Cheese e Pepino</h2>
+      <p class="receita-desc">Pra quem quer algo simples, mas que parece que sabe o que tá fazendo – tipo fingir que entende de economia</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão de forma integral</li>
+              <li>g de cream cheese</li>
+              <li>pepino fatiado finamente</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe cream cheese nas fatias de pão.</li>
+              <li>Distribua as fatias de pepino por cima, tempere.</li>
+              <li>Monte os sanduíches, corte as bordas e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o pepino escorregar, finge que é estilo "vida escorregadia" — igual seus planos de dieta.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-lentilha-com-tomate-seco-e-rucula">
+      <h2 class="receita-titulo">Salada de Lentilha com Tomate Seco e Rúcula</h2>
+      <p class="receita-desc">Porque lentilha é a única coisa que a gente come no Ano Novo, mas merece um upgrade até no piquenique</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de lentilha cozida</li>
+              <li>/2 xícara de tomate seco picado</li>
+              <li>xícara de rúcula</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a lentilha até ficar macia e escorra.</li>
+              <li>Misture com tomate seco e rúcula.</li>
+              <li>Tempere com azeite, sal e pimenta.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a lentilha ficar meio mole, finge que é "amaldiçoada", igual sua conta bancária depois do fim do mês.</div>
+    </article>
+
+    <article class="receita-card" id="mini-pizzas-de-pao-sirio-rapidas">
+      <h2 class="receita-titulo">Mini Pizzas de Pão Sírio Rápidas</h2>
+      <p class="receita-desc">Pra quem quer pizza, mas não quer sujar a cozinha inteira — ou a paciência dos vizinhos</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 17,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pães sírios cortados ao meio</li>
+              <li>g de molho de tomate</li>
+              <li>g de mussarela ralada</li>
+              <li>Orégano a gosto</li>
+              <li>Fatias de tomate para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe molho sobre os pães sírios.</li>
+              <li>Cubra com queijo e orégano.</li>
+              <li>Leve ao forno a 180°C até o queijo derreter e sirva frio ou morno.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o queijo não derreter direito, finge que é estilo "pizza fitness", igual seu crush que não dá moral.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-frutas-com-mel-e-hortela">
+      <h2 class="receita-titulo">Salada de Frutas com Mel e Hortelã</h2>
+      <p class="receita-desc">Porque fruta tem que ter mel, mas o piquenique não pode virar festa da abelha</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>maçã picada</li>
+              <li>pera picada</li>
+              <li>manga picada</li>
+              <li>banana em rodelas</li>
+              <li>colheres de sopa de mel</li>
+              <li>Folhas de hortelã picadas</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todas as frutas em uma tigela.</li>
+              <li>Regue com mel e misture delicadamente.</li>
+              <li>Salpique hortelã e leve para o piquenique.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se as frutas escurecerem, finge que é "bronzeado natural", igual seu entusiasmo na segunda-feira.</div>
+    </article>
+
+    <article class="receita-card" id="quibe-assado-de-forno-para-piquenique-sem-drama">
+      <h2 class="receita-titulo">Quibe Assado de Forno para Piquenique Sem Drama</h2>
+      <p class="receita-desc">Pra quem quer um petisco que não derrama molho nem culpa</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de carne moída</li>
+              <li>xícara de trigo para quibe hidratado</li>
+              <li>cebola picada</li>
+              <li>Hortelã a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes até formar uma massa homogênea.</li>
+              <li>Espalhe em assadeira untada.</li>
+              <li>Asse a 180°C por 30 minutos, corte em quadrados e leve para o piquenique.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o quibe ficar seco, finge que é “projeto low carb”, igual sua vontade de malhar.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-de-berinjela-grelhada-com-pesto">
+      <h2 class="receita-titulo">Sanduíche de Berinjela Grelhada com Pesto</h2>
+      <p class="receita-desc">Pra quem quer ser vegetariano só no piquenique, pra não perder a festa</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 19,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>berinjela fatiada</li>
+              <li>fatias de pão ciabatta</li>
+              <li>colheres de sopa de pesto pronto</li>
+              <li>Queijo de cabra a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere as fatias de berinjela e grelhe até ficar macia.</li>
+              <li>Espalhe pesto no pão, coloque berinjela e queijo.</li>
+              <li>Monte o sanduíche e embale para o piquenique.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a berinjela ficar amarga, finge que é "sabor da vida adulta", igual boletos que não param de chegar.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-rucula-com-pera-e-nozes">
+      <h2 class="receita-titulo">Salada de Rúcula com Pera e Nozes</h2>
+      <p class="receita-desc">Porque salada também pode ser chique, igual a desculpa que você dá pra não ir trabalhar</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de rúcula</li>
+              <li>pera fatiada</li>
+              <li>/2 xícara de nozes picadas</li>
+              <li>g de queijo gorgonzola</li>
+              <li>Azeite e vinagre balsâmico a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture rúcula, pera e nozes.</li>
+              <li>Esfarele o queijo por cima.</li>
+              <li>Tempere com azeite e vinagre.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a pera estiver meio dura, finge que é "crocrante natural", igual seu humor na segunda-feira.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-gelado-de-coco-com-abacaxi">
+      <h2 class="receita-titulo">Bolo Gelado de Coco com Abacaxi</h2>
+      <p class="receita-desc">Porque bolo gelado é a desculpa perfeita pra beber água com bolo e não só água</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>xícaras de açúcar</li>
+              <li>xícaras de farinha de trigo</li>
+              <li>colher de sopa de fermento</li>
+              <li>vidro de leite de coco</li>
+              <li>abacaxi picado</li>
+              <li>Coco ralado para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata ovos e açúcar até ficar fofo.</li>
+              <li>Misture farinha e fermento.</li>
+              <li>Asse a 180°C por 35 minutos.</li>
+              <li>Depois de frio, fure o bolo e regue com leite de coco.</li>
+              <li>Decore com abacaxi e coco ralado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bolo ficar meio molhado demais, finge que é efeito da chuva da vida — só que mais doce.</div>
+    </article>
+
+    <article class="receita-card" id="guacamole-basico-para-piquenique-sem-estresse">
+      <h2 class="receita-titulo">Guacamole Básico para Piquenique Sem Estresse</h2>
+      <p class="receita-desc">Pra quem quer abacate, mas não quer virar bolsista de supermercado</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abacates maduros</li>
+              <li>tomate picado</li>
+              <li>/2 cebola picada</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Amasse o abacate com garfo.</li>
+              <li>Misture tomate, cebola e limão.</li>
+              <li>Tempere e leve com tortilhas para o piquenique.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o abacate estiver meio duro, finge que é "fitness", igual sua preguiça de levantar cedo.</div>
+    </article>
+
+    <article class="receita-card" id="biscoito-salgado-de-parmesao-e-alecrim">
+      <h2 class="receita-titulo">Biscoito Salgado de Parmesão e Alecrim</h2>
+      <p class="receita-desc">Porque biscoito salgado é a desculpa perfeita pra abrir a cerveja no parque</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 20 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de trigo</li>
+              <li>g de manteiga</li>
+              <li>g de queijo parmesão ralado</li>
+              <li>colher de sopa de alecrim picado</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes até formar massa.</li>
+              <li>Abra a massa e corte em formatos desejados.</li>
+              <li>Asse em forno a 180°C por 20 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se os biscoitos ficarem duros, finge que é "sabor crocante da vida", igual seu humor depois do expediente.</div>
+    </article>
+
+    <article class="receita-card" id="suco-detox-verde-refrescante">
+      <h2 class="receita-titulo">Suco Detox Verde Refrescante</h2>
+      <p class="receita-desc">Pra quem quer parecer saudável enquanto come um brigadeiro escondido</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>maçã verde</li>
+              <li>pepino pequeno</li>
+              <li>punhado de couve</li>
+              <li>Suco de 1 limão</li>
+              <li>ml de água de coco</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador.</li>
+              <li>Coe se quiser e sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o suco ficar amargo, finge que é "sabor da vida", igual boletos que só aumentam.</div>
+    </article>
+
+    <article class="receita-card" id="barrinha-caseira-de-granola-com-chocolate">
+      <h2 class="receita-titulo">Barrinha Caseira de Granola com Chocolate</h2>
+      <p class="receita-desc">Pra quem quer energia no piquenique, mas não quer pagar a academia depois</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 6 barrinhas</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de granola</li>
+              <li>/2 xícara de mel</li>
+              <li>g de chocolate meio amargo picado</li>
+              <li>colher de sopa de manteiga</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture granola, mel e manteiga até ficar pegajoso.</li>
+              <li>Pressione em assadeira e asse a 180°C por 15 minutos.</li>
+              <li>Espalhe chocolate por cima e deixe esfriar antes de cortar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a barrinha quebrar, finge que é "quebra da rotina", igual segunda-feira que não acaba nunca.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-de-ovo-mexido-com-ciboulette">
+      <h2 class="receita-titulo">Sanduíche de Ovo Mexido com Ciboulette</h2>
+      <p class="receita-desc">Pra quem quer um café da manhã tardio no piquenique, sem parecer que acordou agora</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>colheres de sopa de leite</li>
+              <li>Ciboulette picada a gosto</li>
+              <li>Sal e pimenta</li>
+              <li>fatias de pão</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata ovos com leite, sal, pimenta e ciboulette.</li>
+              <li>Cozinhe mexendo até firmar.</li>
+              <li>Sirva nos pães e embale para o piquenique.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o ovo ficar meio borrachudo, finge que é "textura gourmet", igual sua desculpa pra não ir trabalhar.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-americana-recheada-com-geleia">
+      <h2 class="receita-titulo">Panqueca Americana Recheada com Geleia</h2>
+      <p class="receita-desc">Porque panqueca é desculpa pra comer doce e fingir que tá na Disney</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de trigo</li>
+              <li>ovo</li>
+              <li>xícara de leite</li>
+              <li>colher de sopa de açúcar</li>
+              <li>colher de chá de fermento</li>
+              <li>Geleia de frutas a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture os ingredientes até formar massa homogênea.</li>
+              <li>Faça panquecas na frigideira quente.</li>
+              <li>Recheie com geleia, dobre e embale para o piquenique.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a panqueca grudar, finge que é "selo de autenticidade", igual sua conta bancária depois do fim do mês.</div>
+    </article>
+
+    <article class="receita-card" id="wrap-vegano-de-hummus-e-legumes">
+      <h2 class="receita-titulo">Wrap Vegano de Hummus e Legumes</h2>
+      <p class="receita-desc">Pra quem quer salvar o mundo, mas só até o horário do piquenique</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 19,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tortilhas integrais</li>
+              <li>xícara de hummus</li>
+              <li>/2 cenoura ralada</li>
+              <li>/2 pepino fatiado</li>
+              <li>Folhas de alface</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe hummus nas tortilhas.</li>
+              <li>Coloque os legumes e alface.</li>
+              <li>Enrole, corte e embale para o piquenique.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o wrap abrir, finge que é "abraço apertado", igual sua vontade de ir embora do trabalho.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-grao-de-bico-com-atum-e-cebola-roxa">
+      <h2 class="receita-titulo">Salada de Grão-de-Bico com Atum e Cebola Roxa</h2>
+      <p class="receita-desc">Porque grão-de-bico é o novo feijão, só que mais hipster e menos drama</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de grão-de-bico cozido</li>
+              <li>lata de atum</li>
+              <li>/2 cebola roxa picada</li>
+              <li>Suco de 1 limão</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture grão-de-bico, atum e cebola.</li>
+              <li>Tempere com limão, azeite, sal e pimenta.</li>
+              <li>Leve para o piquenique feliz da vida.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a cebola estiver forte demais, finge que é “perfume natural”, igual sua vontade de chorar vendo as contas.</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-de-batata-recheado-com-catupiry">
+      <h2 class="receita-titulo">Bolinho de Batata Recheado com Catupiry</h2>
+      <p class="receita-desc">Pra quem quer um petisco cremoso que não te julga por repetir a terceira vez</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 10 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas médias cozidas e amassadas</li>
+              <li>g de catupiry</li>
+              <li>ovo</li>
+              <li>colheres de sopa de farinha de trigo</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture batata, ovo, farinha, sal e pimenta até formar massa.</li>
+              <li>Faça bolinhas, recheie com catupiry e feche bem.</li>
+              <li>Frite em óleo quente até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bolinho abrir, finge que é “efeito surpresa”, igual sua conta bancária depois do fim do mês.</div>
+    </article>
+
+    <article class="receita-card" id="smoothie-de-morango-com-banana-refrescante">
+      <h2 class="receita-titulo">Smoothie de Morango com Banana Refrescante</h2>
+      <p class="receita-desc">Pra quem quer parecer que tá cuidando da saúde, mas só quer um geladinho gostoso</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>banana madura</li>
+              <li>xícara de morangos</li>
+              <li>ml de leite ou leite vegetal</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador.</li>
+              <li>Sirva gelado no piquenique.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o smoothie ficar doce demais, finge que é “carinho líquido”, igual seu chefe quando dá folga na sexta.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-caprese-com-molho-pesto">
+      <h2 class="receita-titulo">Espetinho Caprese com Molho Pesto</h2>
+      <p class="receita-desc">Porque espetinho não é só pra churrasco, é pra impressionar no piquenique também</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>bolinhas de mussarela de búfala</li>
+              <li>tomates cereja</li>
+              <li>Folhas de manjericão</li>
+              <li>colheres de sopa de molho pesto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espete tomate, mussarela e manjericão alternando nos palitos.</li>
+              <li>Regue com molho pesto.</li>
+              <li>Leve para o piquenique sem medo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o pesto escorrer, finge que é "arte abstrata", igual sua vida financeira.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-de-fuba-cremoso-com-erva-doce">
+      <h2 class="receita-titulo">Bolo de Fubá Cremoso com Erva-Doce</h2>
+      <p class="receita-desc">Porque bolo de fubá é tradição, e tradição é a desculpa pra comer sem culpa no piquenique</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>e 1/2 xícara de açúcar</li>
+              <li>xícaras de fubá</li>
+              <li>xícara de farinha de trigo</li>
+              <li>xícara de leite</li>
+              <li>colher de sopa de fermento</li>
+              <li>colher de sopa de erva-doce</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata ovos e açúcar até formar creme.</li>
+              <li>Adicione fubá, farinha, leite, erva-doce e fermento.</li>
+              <li>Asse a 180°C por 40 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bolo ficar rachado, finge que é “efeito do calor”, igual sua vontade de trabalhar num dia quente.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-repolho-com-maca-e-cenoura-crocante">
+      <h2 class="receita-titulo">Salada de Repolho com Maçã e Cenoura Crocante</h2>
+      <p class="receita-desc">Porque salada de repolho é quase uma festa, só que menos animada</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de repolho picado</li>
+              <li>maçã picada</li>
+              <li>cenoura ralada</li>
+              <li>colheres de sopa de maionese</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture repolho, maçã e cenoura.</li>
+              <li>Acrescente maionese, sal e pimenta.</li>
+              <li>Misture bem e leve para o piquenique.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a salada ficar meio aguada, finge que é "molho extra", igual sua vontade de trabalhar na sexta.</div>
+    </article>
+
+    <article class="receita-card" id="cookies-de-aveia-com-gotas-de-chocolate">
+      <h2 class="receita-titulo">Cookies de Aveia com Gotas de Chocolate</h2>
+      <p class="receita-desc">Porque cookie é a solução pra tudo, menos pra problemas financeiros</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 10 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de aveia em flocos</li>
+              <li>/2 xícara de farinha de trigo</li>
+              <li>/2 xícara de açúcar mascavo</li>
+              <li>/2 xícara de manteiga</li>
+              <li>ovo</li>
+              <li>colher de chá de fermento</li>
+              <li>g de gotas de chocolate</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture manteiga e açúcar até formar creme.</li>
+              <li>Adicione ovo, farinha, aveia e fermento.</li>
+              <li>Junte as gotas de chocolate, forme bolinhas e asse a 180°C por 15 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o cookie ficar duro, finge que é "sabor resistente", igual sua vontade de sair da cama cedo.</div>
+    </article>
+
+    <article class="receita-card" id="suco-de-laranja-com-gengibre-e-hortela">
+      <h2 class="receita-titulo">Suco de Laranja com Gengibre e Hortelã</h2>
+      <p class="receita-desc">Porque suco natural é a única coisa que refresca mais que férias</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>laranjas espremidas</li>
+              <li>pedaço pequeno de gengibre ralado</li>
+              <li>Folhas de hortelã para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Esprema as laranjas.</li>
+              <li>Misture o gengibre no suco.</li>
+              <li>Sirva com hortelã e gelo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o gengibre ficar forte, finge que é "sabor da coragem", igual sua cara na segunda-feira cedo.</div>
+    </article>
+
+    <article class="receita-card" id="tabua-de-frios-simples-para-piquenique">
+      <h2 class="receita-titulo">Tábua de Frios Simples para Piquenique</h2>
+      <p class="receita-desc">Pra quem quer impressionar sem nem suar — porque suar só se for na academia</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de queijo gouda</li>
+              <li>g de salame fatiado</li>
+              <li>g de azeitonas</li>
+              <li>Pão italiano fatiado</li>
+              <li>Uvas para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Disponha os frios e frutas na tábua de forma harmônica.</li>
+              <li>Sirva com pão fatiado.</li>
+              <li>Leve para o piquenique e finja que sabe o que está fazendo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a tábua parecer bagunçada, finge que é "arte moderna", igual sua agenda na sexta-feira.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-pepino-com-iogurte-e-dill">
+      <h2 class="receita-titulo">Salada de Pepino com Iogurte e Dill</h2>
+      <p class="receita-desc">Porque pepino com iogurte combina mais que você com fim de semana</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pepinos fatiados finamente</li>
+              <li>pote de iogurte natural</li>
+              <li>colher de sopa de dill picado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture pepino, iogurte e dill.</li>
+              <li>Tempere com sal e pimenta.</li>
+              <li>Leve para o piquenique geladinho.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o iogurte talhar, finge que é "toque especial", igual sua desculpa pra faltar na reunião.</div>
+    </article>
+
+    <article class="receita-card" id="brownie-de-chocolate-com-nozes-no-pote">
+      <h2 class="receita-titulo">Brownie de Chocolate com Nozes no Pote</h2>
+      <p class="receita-desc">Porque doce no pote é a desculpa perfeita pra não dividir com ninguém</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 6 potes</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de chocolate meio amargo</li>
+              <li>g de manteiga</li>
+              <li>xícara de açúcar</li>
+              <li>ovos</li>
+              <li>xícara de farinha de trigo</li>
+              <li>/2 xícara de nozes picadas</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta chocolate e manteiga.</li>
+              <li>Misture com açúcar, ovos, farinha e nozes.</li>
+              <li>Asse a 180°C por 30 minutos, corte em pedaços e coloque nos potes.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o brownie ficar seco, finge que é “sabor robusto”, igual sua vontade de trabalhar na segunda-feira.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

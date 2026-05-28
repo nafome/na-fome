@@ -1,0 +1,1541 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🦉 Madrugada — Receitas NaFome</title>
+  <meta name="description" content="40 receitas para quem está na situação "Madrugada". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/madrugada/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🦉 Madrugada — Receitas NaFome">
+  <meta property="og:description" content="40 receitas para quem está na situação "Madrugada". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/madrugada/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🦉 Madrugada — NaFome",
+    "description": "40 receitas para quem está na situação "Madrugada". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/madrugada/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=madrugada" class="btn-sortear">🎲 Sortear receita de Madrugada</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🦉 Madrugada</h1>
+    <p>40 receitas para quem está na situação "Madrugada". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">40 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Madrugada pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=madrugada" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="sanduiche-explosao-noturna">
+      <h2 class="receita-titulo">Sanduíche Explosão Noturna</h2>
+      <p class="receita-desc">Porque a fome bate quando o sono foge, igual boleto atrasado.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão de forma integral</li>
+              <li>fatias de queijo prato</li>
+              <li>fatias de presunto</li>
+              <li>ovo</li>
+              <li>colher de sopa de manteiga</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça a frigideira e derreta a manteiga.</li>
+              <li>Frite o ovo mexido rapidamente, tempere com sal e pimenta.</li>
+              <li>Monte o sanduíche com presunto, queijo e o ovo, doure dos dois lados até o queijo derreter.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der sono, faça esse sanduíche. Pelo menos a fome você resolve, diferente daquela dívida que só aumenta.</div>
+    </article>
+
+    <article class="receita-card" id="mingau-de-aveia-com-banana-e-canela">
+      <h2 class="receita-titulo">Mingau de Aveia com Banana e Canela</h2>
+      <p class="receita-desc">Aquele abraço quentinho que você merece, sem precisar sair da cama.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de aveia em flocos</li>
+              <li>xícara de leite (ou bebida vegetal)</li>
+              <li>banana madura fatiada</li>
+              <li>colher de chá de canela em pó</li>
+              <li>colher de chá de mel (opcional)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em uma panela, misture a aveia e o leite, leve ao fogo médio.</li>
+              <li>Mexa até engrossar, cerca de 5 minutos.</li>
+              <li>Sirva com banana fatiada, canela e mel por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Comer mingau de madrugada é igual promessa de fim de ano: parece simples, mas só quem tenta sabe o trabalho.</div>
+    </article>
+
+    <article class="receita-card" id="omelete-de-micro-ondas-da-sobrevivencia">
+      <h2 class="receita-titulo">Omelete de Micro-ondas da Sobrevivência</h2>
+      <p class="receita-desc">Para quem quer proteína, mas só tem 5 minutos e preguiça de vida adulta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 7 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>colheres de sopa de queijo ralado</li>
+              <li>colher de sopa de tomate picado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Quebre os ovos na caneca e bata com o garfo.</li>
+              <li>Misture o queijo, tomate, sal e pimenta.</li>
+              <li>Leve ao micro-ondas por 2 minutos, depois verifique e cozinhe mais se precisar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Omelete de micro-ondas é como relacionamento sério: rápido, prático e às vezes deixa a desejar, mas quebra o galho.</div>
+    </article>
+
+    <article class="receita-card" id="pipoca-doce-com-toque-de-cafe">
+      <h2 class="receita-titulo">Pipoca Doce com Toque de Café</h2>
+      <p class="receita-desc">Porque maratona de série sem pipoca é igual boleto sem juros: não existe.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>/2 xícara de milho para pipoca</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>colher de chá de café solúvel</li>
+              <li>colheres de sopa de óleo</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o óleo na panela, adicione o milho e tampe.</li>
+              <li>Quando começar a estourar, agite a panela para não queimar.</li>
+              <li>Em uma tigela, misture açúcar e café solúvel e polvilhe sobre a pipoca quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida adoça sua alma, essa pipoca adoça a madrugada e o coração (ou pelo menos a Netflix).</div>
+    </article>
+
+    <article class="receita-card" id="vitamina-turbo-do-sono-que-nao-vem">
+      <h2 class="receita-titulo">Vitamina Turbo do Sono Que Não Vem</h2>
+      <p class="receita-desc">Para quem acorda às 3 da manhã e quer parecer gente no trabalho às 8.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>banana</li>
+              <li>colher de sopa de pasta de amendoim</li>
+              <li>ml de leite ou bebida vegetal</li>
+              <li>colher de chá de cacau em pó</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até ficar homogêneo.</li>
+              <li>Sirva gelado ou na temperatura ambiente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Essa vitamina é como aquele amigo que te acorda dizendo “vamos malhar?” – só serve pra te deixar acordado, não pro resto.</div>
+    </article>
+
+    <article class="receita-card" id="pao-na-chapa-com-requeijao-e-oregano">
+      <h2 class="receita-titulo">Pão na Chapa com Requeijão e Orégano</h2>
+      <p class="receita-desc">O clássico dos clássicos, porque pão sempre salva a madrugada e a dignidade.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão francês</li>
+              <li>colheres de sopa de requeijão cremoso</li>
+              <li>Orégano a gosto</li>
+              <li>Manteiga para untar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Passe manteiga nas fatias de pão.</li>
+              <li>Coloque na frigideira quente e doure dos dois lados.</li>
+              <li>Espalhe o requeijão e polvilhe orégano por cima antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pão na chapa é tipo boleto: sempre chega, mas pelo menos esse você pode saborear.</div>
+    </article>
+
+    <article class="receita-card" id="macarrao-instantaneo-gourmetizado">
+      <h2 class="receita-titulo">Macarrão Instantâneo Gourmetizado</h2>
+      <p class="receita-desc">Porque até miojo merece uma chance na alta gastronomia da madrugada.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pacote de macarrão instantâneo</li>
+              <li>ovo</li>
+              <li>colher de sopa de manteiga</li>
+              <li>colheres de sopa de queijo ralado</li>
+              <li>Cebolinha picada a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o macarrão conforme instruções.</li>
+              <li>Em outra panela, derreta a manteiga e frite o ovo estrelado.</li>
+              <li>Misture o macarrão cozido, o tempero, o ovo, o queijo e a cebolinha.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Gourmetizar miojo é igual dar nó na gravata com preguiça: pode não resolver tudo, mas o esforço conta.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-noturna-com-queijo-e-mel">
+      <h2 class="receita-titulo">Tapioca Noturna com Queijo e Mel</h2>
+      <p class="receita-desc">A sobremesa que é café da manhã disfarçado, para enganar a madrugada.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca hidratada</li>
+              <li>fatias de queijo coalho</li>
+              <li>colher de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe a goma na frigideira quente formando um disco.</li>
+              <li>Quando firmar, coloque o queijo e dobre ao meio.</li>
+              <li>Deixe derreter, retire e regue com mel.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Tapioca de madrugada é tipo ex: parece boa ideia, mas no final só te deixa com vontade de mais.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-cremoso-de-caneca">
+      <h2 class="receita-titulo">Café Cremoso de Caneca</h2>
+      <p class="receita-desc">Porque café preto é pra quem tem coragem, mas madrugada pede conforto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 2,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de café forte coado</li>
+              <li>colheres de sopa de leite condensado</li>
+              <li>colheres de sopa de leite integral</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Prepare o café coado bem forte.</li>
+              <li>Misture na caneca o café, o leite condensado e o leite.</li>
+              <li>Mexa bem até ficar cremoso e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Café cremoso é tipo amigo que te acorda pra festa – te dá energia, mas também te deixa meio grudento.</div>
+    </article>
+
+    <article class="receita-card" id="crepioca-do-desespero">
+      <h2 class="receita-titulo">Crepioca do Desespero</h2>
+      <p class="receita-desc">Quando o relógio bate 2 da manhã e o estômago grita mais alto que seu chefe.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca</li>
+              <li>ovo</li>
+              <li>Sal a gosto</li>
+              <li>colheres de sopa de queijo ralado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a goma, o ovo, o sal e o queijo até ficar homogêneo.</li>
+              <li>Despeje na frigideira aquecida formando uma panqueca.</li>
+              <li>Cozinhe dos dois lados até dourar e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Crepioca é igual promessa de dieta: começa animado, acaba no meio da madrugada com queijo.</div>
+    </article>
+
+    <article class="receita-card" id="salada-rapida-de-grao-de-bico-e-atum">
+      <h2 class="receita-titulo">Salada Rápida de Grão-de-Bico e Atum</h2>
+      <p class="receita-desc">Porque às vezes você quer ser saudável, mas só até onde o sono deixa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de grão-de-bico cozido e escorrido</li>
+              <li>lata de atum em água</li>
+              <li>tomate picado</li>
+              <li>Suco de 1/2 limão</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o grão-de-bico, o atum e o tomate na tigela.</li>
+              <li>Tempere com limão, sal e pimenta.</li>
+              <li>Sirva gelado ou em temperatura ambiente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada de madrugada é a desculpa que damos para o corpo “Calma, amanhã eu pago o boleto... quer dizer, dieta”.</div>
+    </article>
+
+    <article class="receita-card" id="brownie-de-caneca-para-insonia">
+      <h2 class="receita-titulo">Brownie de Caneca para Insônia</h2>
+      <p class="receita-desc">O doce que entende seu desespero, sem sair da sua cama.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 8 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de farinha de trigo</li>
+              <li>colheres de sopa de cacau em pó</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>ovo</li>
+              <li>colheres de sopa de óleo</li>
+              <li>colheres de sopa de leite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes na caneca até ficar homogêneo.</li>
+              <li>Leve ao micro-ondas por 1 minuto e meio.</li>
+              <li>Deixe esfriar um pouco e aproveite.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Brownie de caneca é o abraço doce que você merece depois de discutir com seu travesseiro.</div>
+    </article>
+
+    <article class="receita-card" id="sopa-de-legumes-express-para-virar-a-noite">
+      <h2 class="receita-titulo">Sopa de Legumes Express para Virar a Noite</h2>
+      <p class="receita-desc">Porque até os adultos cansados precisam fingir que comem bem.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>cenoura picada</li>
+              <li>batata média picada</li>
+              <li>/2 cebola picada</li>
+              <li>dente de alho picado</li>
+              <li>ml de caldo de legumes</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola e o alho na panela até dourar.</li>
+              <li>Adicione a cenoura, batata e caldo, cozinhe até os legumes ficarem macios.</li>
+              <li>Bata no liquidificador para uma textura cremosa ou sirva pedaçudo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sopa de legumes é tipo boleto: parece que não vai acabar nunca, mas no final dá uma sensação boa.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-com-ovo-mexido-e-queijo-coalho">
+      <h2 class="receita-titulo">Tapioca com Ovo Mexido e Queijo Coalho</h2>
+      <p class="receita-desc">A mistura perfeita para quem não sabe se janta ou se só quer um lanchinho.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca hidratada</li>
+              <li>ovos</li>
+              <li>fatias de queijo coalho</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com sal e pimenta e faça um mexido na frigideira.</li>
+              <li>Em outra frigideira, faça a tapioca até firmar.</li>
+              <li>Coloque o mexido e o queijo coalho dentro da tapioca, dobre e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Tapioca com ovo é o amigo que aparece na madrugada e te lembra que a vida é simples (mas o boleto não).</div>
+    </article>
+
+    <article class="receita-card" id="cuscuz-nordestino-para-acordar-o-corpo">
+      <h2 class="receita-titulo">Cuscuz Nordestino para Acordar o Corpo</h2>
+      <p class="receita-desc">Porque às vezes você precisa de um abraço salgado pra continuar acordado.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de farinha de milho para cuscuz</li>
+              <li>pitada de sal</li>
+              <li>colher de sopa de manteiga</li>
+              <li>fatias de queijo coalho</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Hidrate a farinha com água e sal, deixe descansar 5 minutos.</li>
+              <li>Coloque na cuscuzeira e cozinhe no vapor por 10 minutos.</li>
+              <li>Sirva com manteiga e queijo coalho derretido por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Cuscuz é como conta atrasada, sempre tem que encarar, mas pelo menos é gostoso.</div>
+    </article>
+
+    <article class="receita-card" id="pizza-rapida-de-pao-sirio">
+      <h2 class="receita-titulo">Pizza Rápida de Pão Sírio</h2>
+      <p class="receita-desc">Aquela pizza que não exige entrega nem coragem pra abrir a geladeira.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pães sírios pequenos</li>
+              <li>colheres de sopa de molho de tomate</li>
+              <li>g de muçarela ralada</li>
+              <li>Orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Abra os pães sírios e espalhe o molho de tomate.</li>
+              <li>Cubra com muçarela e orégano.</li>
+              <li>Leve ao forno ou frigideira até o queijo derreter.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pizza de pão sírio é igual promessa em reunião de condomínio: rápida, prática e todo mundo gosta.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-natural-do-sofa">
+      <h2 class="receita-titulo">Sanduíche Natural do Sofá</h2>
+      <p class="receita-desc">Porque a preguiça às vezes ganha, mas a fome não perdoa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão integral</li>
+              <li>folhas de alface</li>
+              <li>fatias de peito de peru</li>
+              <li>fatias de tomate</li>
+              <li>colher de sopa de maionese</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe a maionese nas fatias de pão.</li>
+              <li>Monte o sanduíche com alface, peito de peru e tomate.</li>
+              <li>Sirva sem pressa, mas com fome.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sanduíche natural é tipo boleto parcelado: parece mais leve, mas no fim pesa no bolso e na consciência.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-doce-com-chocolate-e-morango">
+      <h2 class="receita-titulo">Tapioca Doce com Chocolate e Morango</h2>
+      <p class="receita-desc">A sobremesa que diz “vou dormir cedo” mas só come depois das 2.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca hidratada</li>
+              <li>morangos fatiados</li>
+              <li>colheres de sopa de chocolate meio amargo picado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe a goma na frigideira quente até firmar.</li>
+              <li>Coloque os morangos e chocolate sobre a tapioca.</li>
+              <li>Dobre ao meio e deixe o chocolate derreter, sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Tapioca doce é igual promessa de dieta: começa doce e termina derretendo no meio da madrugada.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-banana-com-aveia-e-mel">
+      <h2 class="receita-titulo">Panqueca de Banana com Aveia e Mel</h2>
+      <p class="receita-desc">Café da manhã pra quem acorda tarde demais... ou nunca dorme.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>banana amassada</li>
+              <li>ovos</li>
+              <li>colheres de sopa de aveia em flocos</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a banana, ovos e aveia até formar uma massa.</li>
+              <li>Cozinhe pequenas panquecas na frigideira untada até dourar dos dois lados.</li>
+              <li>Sirva com mel por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Panqueca de banana é tipo amigo que te chama pra sair de madrugada: doce, saudável e às vezes meio sem noção.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-queijo-coalho-com-mel-e-pimenta">
+      <h2 class="receita-titulo">Espetinho de Queijo Coalho com Mel e Pimenta</h2>
+      <p class="receita-desc">Para quem quer ser raiz, mas com um toque de modernidade ardida.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de queijo coalho em cubos</li>
+              <li>colheres de sopa de mel</li>
+              <li>Pimenta do reino moída a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espete os cubos de queijo coalho.</li>
+              <li>Grelhe até dourar, virando para não queimar.</li>
+              <li>Pincele mel e polvilhe pimenta antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Queijo coalho com mel é como boleto com desconto: combinação improvável, mas que dá certo na prática.</div>
+    </article>
+
+    <article class="receita-card" id="iogurte-grego-com-granola-e-frutas-vermelhas">
+      <h2 class="receita-titulo">Iogurte Grego com Granola e Frutas Vermelhas</h2>
+      <p class="receita-desc">O luxo que a sua madrugada merece, mesmo que o boleto não.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pote de iogurte grego natural</li>
+              <li>colheres de sopa de granola</li>
+              <li>/2 xícara de frutas vermelhas congeladas</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque o iogurte na tigela.</li>
+              <li>Acrescente a granola e as frutas vermelhas por cima.</li>
+              <li>Misture se quiser ou coma assim mesmo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Iogurte grego é tipo amigo que tem vida social: você sabe que existe, mas só vê de vez em quando.</div>
+    </article>
+
+    <article class="receita-card" id="caldo-de-canja-simples">
+      <h2 class="receita-titulo">Caldo de Canja Simples</h2>
+      <p class="receita-desc">O abraço literal que você precisa depois de maratona e chatices da vida.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peito de frango com osso</li>
+              <li>/2 xícara de arroz</li>
+              <li>cenoura picada</li>
+              <li>batata picada</li>
+              <li>Sal e cheiro-verde a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o frango em água até ficar macio.</li>
+              <li>Retire o frango, desfie e volte para a panela com arroz e legumes.</li>
+              <li>Cozinhe até o arroz e legumes ficarem macios, tempere e sirva com cheiro-verde.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Canja é como amigo que te ajuda a levantar da cama: simples, eficaz e cheio de afeto.</div>
+    </article>
+
+    <article class="receita-card" id="crepe-salgado-de-atum-com-requeijao">
+      <h2 class="receita-titulo">Crepe Salgado de Atum com Requeijão</h2>
+      <p class="receita-desc">Quando você quer jantar sem parecer que está comendo o que sobrou da geladeira.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de trigo</li>
+              <li>ovo</li>
+              <li>xícara de leite</li>
+              <li>lata de atum escorrido</li>
+              <li>colheres de sopa de requeijão</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, ovo, leite e sal até formar uma massa líquida.</li>
+              <li>Faça os crepes na frigideira aquecida.</li>
+              <li>Recheie com atum misturado ao requeijão, dobre e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Crepe salgado é igual promessa de segunda-feira: todo mundo sabe que vai ser bom, mas nem sempre acontece.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-de-frango-desfiado-com-maionese-temperada">
+      <h2 class="receita-titulo">Sanduíche de Frango Desfiado com Maionese Temperada</h2>
+      <p class="receita-desc">Porque a vida adulta é feita de soluções práticas e recheios generosos.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peito de frango cozido e desfiado</li>
+              <li>fatias de pão de forma</li>
+              <li>colheres de sopa de maionese</li>
+              <li>colher de sopa de salsinha picada</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o frango com a maionese, salsinha, sal e pimenta.</li>
+              <li>Monte os sanduíches com a mistura e pão.</li>
+              <li>Sirva imediatamente ou leve à frigideira para tostar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sanduíche de frango é tipo boleto parcelado: você acha que vai dar conta, mas no fim sempre surpreende.</div>
+    </article>
+
+    <article class="receita-card" id="cha-de-camomila-com-mel-e-gengibre">
+      <h2 class="receita-titulo">Chá de Camomila com Mel e Gengibre</h2>
+      <p class="receita-desc">O calmante natural que custa menos que terapia e é mais fácil de preparar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 3,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>sachê de chá de camomila</li>
+              <li>pedaço pequeno de gengibre fatiado</li>
+              <li>colher de chá de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água e coloque o sachê de camomila e o gengibre por 5 minutos.</li>
+              <li>Coe e adoce com mel.</li>
+              <li>Beba quente para acalmar a alma e a mente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Chá de camomila é igual amigo que não te deixa na mão: sempre tem quando você mais precisa.</div>
+    </article>
+
+    <article class="receita-card" id="torrada-com-abacate-e-ovo-poche">
+      <h2 class="receita-titulo">Torrada com Abacate e Ovo Pochê</h2>
+      <p class="receita-desc">O luxo simples que prova que você pode ser adulto e não um desastre total.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatia de pão integral</li>
+              <li>/2 abacate maduro</li>
+              <li>ovo</li>
+              <li>Sal, pimenta e limão a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Toste o pão até dourar.</li>
+              <li>Amasse o abacate com sal, pimenta e limão e espalhe sobre a torrada.</li>
+              <li>Cozinhe o ovo em água fervente com vinagre por 3 minutos e coloque sobre a torrada.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Ovo pochê é igual promessa de academia: parece difícil, mas quando você consegue, se sente um campeão.</div>
+    </article>
+
+    <article class="receita-card" id="mix-de-castanhas-e-frutas-secas">
+      <h2 class="receita-titulo">Mix de Castanhas e Frutas Secas</h2>
+      <p class="receita-desc">O snack saudável para parecer que você tem a vida organizada, mesmo que não tenha.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de castanha de caju</li>
+              <li>g de castanha do pará</li>
+              <li>g de damasco seco picado</li>
+              <li>g de uva passa</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes na tigela.</li>
+              <li>Sirva imediatamente ou guarde para a próxima crise noturna.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mix de castanhas é tipo boleto que você paga em dia: raro, mas traz uma satisfação inexplicável.</div>
+    </article>
+
+    <article class="receita-card" id="crepioca-de-frango-com-espinafre">
+      <h2 class="receita-titulo">Crepioca de Frango com Espinafre</h2>
+      <p class="receita-desc">Quando você quer saúde, mas só até onde o sabor permite.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca</li>
+              <li>ovo</li>
+              <li>g de frango desfiado</li>
+              <li>/2 xícara de espinafre refogado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a goma, ovo, sal e pimenta.</li>
+              <li>Despeje na frigideira formando uma panqueca.</li>
+              <li>Recheie com frango e espinafre, dobre e deixe aquecer.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Crepioca é como boleto atrasado: você tenta ignorar, mas no fim tem que encarar com estilo.</div>
+    </article>
+
+    <article class="receita-card" id="misto-quente-com-pao-integral-e-queijo-minas">
+      <h2 class="receita-titulo">Misto Quente com Pão Integral e Queijo Minas</h2>
+      <p class="receita-desc">Porque misto quente é a terapia em forma de lanche.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão integral</li>
+              <li>fatias de queijo minas</li>
+              <li>fatias de presunto magro</li>
+              <li>Manteiga para passar no pão</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Passe manteiga nas fatias de pão.</li>
+              <li>Monte o sanduíche com presunto e queijo.</li>
+              <li>Leve à sanduicheira ou frigideira até dourar e o queijo derreter.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Misto quente é igual boleto com desconto: sempre deixa a vida mais leve.</div>
+    </article>
+
+    <article class="receita-card" id="cuscuz-doce-com-coco-e-leite-condensado">
+      <h2 class="receita-titulo">Cuscuz Doce com Coco e Leite Condensado</h2>
+      <p class="receita-desc">A sobremesa que é um tapa na cara da dieta, mas você merece.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de farinha de milho para cuscuz</li>
+              <li>pitada de sal</li>
+              <li>colheres de sopa de coco ralado</li>
+              <li>colheres de sopa de leite condensado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Hidrate a farinha com água e sal, deixe descansar 5 minutos.</li>
+              <li>Cozinhe no vapor por 10 minutos.</li>
+              <li>Sirva com coco ralado e leite condensado por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Cuscuz doce é como final de novela: sempre surpreende e deixa um gostinho de quero mais.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-de-queijo-brie-com-geleia-de-pimenta">
+      <h2 class="receita-titulo">Sanduíche de Queijo Brie com Geleia de Pimenta</h2>
+      <p class="receita-desc">O toque sofisticado que sua madrugada merece – ou pelo menos tenta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão de forma</li>
+              <li>g de queijo brie</li>
+              <li>colher de sopa de geleia de pimenta</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque o queijo brie nas fatias de pão.</li>
+              <li>Adicione a geleia de pimenta por cima.</li>
+              <li>Sirva imediatamente, sem medo de ser feliz.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Queijo brie com geleia é igual boleto quitado: raro, mas traz uma alegria inexplicável.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-frutas-tropical-da-madrugada">
+      <h2 class="receita-titulo">Salada de Frutas Tropical da Madrugada</h2>
+      <p class="receita-desc">A luz no fim do túnel quando só resta a geladeira e a preguiça.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>maçã picada</li>
+              <li>/2 manga picada</li>
+              <li>kiwi picado</li>
+              <li>Suco de 1/2 limão</li>
+              <li>colher de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todas as frutas na tigela.</li>
+              <li>Regue com o suco de limão e mel.</li>
+              <li>Sirva fresco ou gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada de frutas é tipo promessa de ano novo: saudável, bonita e cheia de esperança.</div>
+    </article>
+
+    <article class="receita-card" id="iogurte-natural-com-mel-e-nozes-picadas">
+      <h2 class="receita-titulo">Iogurte Natural com Mel e Nozes Picadas</h2>
+      <p class="receita-desc">Pra fingir que você está cuidando da saúde enquanto assiste mais um episódio.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pote de iogurte natural</li>
+              <li>colher de sopa de mel</li>
+              <li>colheres de sopa de nozes picadas</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque o iogurte na tigela.</li>
+              <li>Adicione o mel e as nozes por cima.</li>
+              <li>Misture se preferir ou coma direto.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Iogurte com mel é igual boleto pago em dia: simples, mas te deixa leve por dentro.</div>
+    </article>
+
+    <article class="receita-card" id="pao-de-queijo-express">
+      <h2 class="receita-titulo">Pão de Queijo Express</h2>
+      <p class="receita-desc">O clássico mineiro que até quem não sabe cozinhar pode dominar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 8 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de polvilho doce</li>
+              <li>ml de leite</li>
+              <li>ml de óleo</li>
+              <li>ovo</li>
+              <li>g de queijo minas ralado</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva o leite com o óleo e despeje sobre o polvilho, misture até amornar.</li>
+              <li>Acrescente o ovo, queijo e sal, mexa até formar massa homogênea.</li>
+              <li>Faça bolinhas, coloque na assadeira e asse a 180ºC por 20 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pão de queijo é o amigo fiel da madrugada: sempre quentinho e pronto pra te salvar.</div>
+    </article>
+
+    <article class="receita-card" id="smoothie-verde-energetico">
+      <h2 class="receita-titulo">Smoothie Verde Energético</h2>
+      <p class="receita-desc">Porque a gente tenta ser saudável, mas só até o primeiro gole.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 7 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>banana congelada</li>
+              <li>/2 maçã picada</li>
+              <li>punhado de espinafre</li>
+              <li>ml de água de coco</li>
+              <li>colher de chá de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até ficar homogêneo.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Smoothie verde é tipo promessa de academia: cheio de boas intenções e gostinho de esforço.</div>
+    </article>
+
+    <article class="receita-card" id="wrap-de-frango-com-alface-e-molho-de-iogurte">
+      <h2 class="receita-titulo">Wrap de Frango com Alface e Molho de Iogurte</h2>
+      <p class="receita-desc">O lanche que tenta ser saudável, mas não abre mão do sabor.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 13,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tortilla de trigo integral</li>
+              <li>g de frango desfiado temperado</li>
+              <li>Folhas de alface</li>
+              <li>colheres de sopa de iogurte natural</li>
+              <li>colher de chá de limão</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o iogurte com limão, sal e pimenta.</li>
+              <li>Aqueça a tortilla na frigideira.</li>
+              <li>Recheie com frango, alface e o molho, enrole e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Wrap é como boleto parcelado: enrola, enrola, mas no fim dá certo.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-de-caneca-de-chocolate-com-cafe">
+      <h2 class="receita-titulo">Bolo de Caneca de Chocolate com Café</h2>
+      <p class="receita-desc">A sobremesa que entende a sua madrugada insone e te dá um up.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 8 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de farinha de trigo</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>colheres de sopa de cacau em pó</li>
+              <li>ovo</li>
+              <li>colheres de sopa de leite</li>
+              <li>colher de chá de café solúvel</li>
+              <li>colheres de sopa de óleo</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes na caneca até ficar homogêneo.</li>
+              <li>Leve ao micro-ondas por 2 minutos.</li>
+              <li>Deixe esfriar um pouco e aproveite.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bolo de caneca com café é igual final de mês: vira tudo uma mistura louca, mas no fim dá energia pra continuar.</div>
+    </article>
+
+    <article class="receita-card" id="torrada-com-pasta-de-ricota-e-tomate-seco">
+      <h2 class="receita-titulo">Torrada com Pasta de Ricota e Tomate Seco</h2>
+      <p class="receita-desc">O sabor sofisticado para quem quer fingir que sabe cozinhar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão integral</li>
+              <li>colheres de sopa de ricota amassada</li>
+              <li>tomates secos picados</li>
+              <li>Orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Toste as fatias de pão.</li>
+              <li>Misture a ricota com os tomates secos e orégano.</li>
+              <li>Espalhe a pasta nas torradas e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Torrada com ricota é tipo boleto pago adiantado: dá um orgulho que ninguém entende, mas a gente sente.</div>
+    </article>
+
+    <article class="receita-card" id="mousse-rapido-de-maracuja">
+      <h2 class="receita-titulo">Mousse Rápido de Maracujá</h2>
+      <p class="receita-desc">A sobremesa azedinha que adoça até a vida mais amarga.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min + refrigeração</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de leite condensado</li>
+              <li>lata de creme de leite</li>
+              <li>lata de suco de maracujá concentrado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture bem todos os ingredientes até ficar homogêneo.</li>
+              <li>Coloque em potes e leve à geladeira por no mínimo 2 horas.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mousse de maracujá é igual fatura do cartão: azeda, mas tem seu charme.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-gelado-com-leite-condensado">
+      <h2 class="receita-titulo">Café Gelado com Leite Condensado</h2>
+      <p class="receita-desc">O combustível que você precisa quando o sono insiste em brincar de esconde-esconde.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de café forte coado e frio</li>
+              <li>colheres de sopa de leite condensado</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o café com o leite condensado até dissolver.</li>
+              <li>Coloque gelo no copo e despeje o café doce.</li>
+              <li>Mexa e tome com vontade.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Café gelado com leite condensado é tipo boleto pago no débito automático: prático, doce e sem dor de cabeça.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

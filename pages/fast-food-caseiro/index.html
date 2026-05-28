@@ -1,0 +1,1565 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🍔 Fast Food Caseiro — Receitas NaFome</title>
+  <meta name="description" content="39 receitas para quem está na situação "Fast Food Caseiro". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/fast-food-caseiro/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🍔 Fast Food Caseiro — Receitas NaFome">
+  <meta property="og:description" content="39 receitas para quem está na situação "Fast Food Caseiro". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/fast-food-caseiro/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🍔 Fast Food Caseiro — NaFome",
+    "description": "39 receitas para quem está na situação "Fast Food Caseiro". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/fast-food-caseiro/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=fast-food-caseiro" class="btn-sortear">🎲 Sortear receita de Fast Food Caseiro</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🍔 Fast Food Caseiro</h1>
+    <p>39 receitas para quem está na situação "Fast Food Caseiro". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">39 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Fast Food Caseiro pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=fast-food-caseiro" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="hamburguer-classico-do-sofa">
+      <h2 class="receita-titulo">Hambúrguer Clássico do Sofá</h2>
+      <p class="receita-desc">Quando a preguiça vence o delivery, mas a fome não.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne moída bovina (patinho)</li>
+              <li>pães de hambúrguer</li>
+              <li>fatias queijo prato</li>
+              <li>folhas alface</li>
+              <li>rodelas tomate</li>
+              <li>colheres sopa maionese</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere a carne com sal e pimenta e molde 2 hambúrgueres.</li>
+              <li>Aqueça a frigideira e grelhe os hambúrgueres por 4 minutos de cada lado.</li>
+              <li>Monte o lanche com pão, hambúrguer, queijo, alface, tomate e maionese.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o boleto apertar, invista no hambúrguer caseiro, porque delivery não aceita parcelamento no cartão, infelizmente.</div>
+    </article>
+
+    <article class="receita-card" id="batata-rustica-crocante">
+      <h2 class="receita-titulo">Batata Rústica Crocante</h2>
+      <p class="receita-desc">O acompanhamento que é mais pedido que aumento salarial.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas médias com casca</li>
+              <li>colheres sopa azeite</li>
+              <li>colher chá sal grosso</li>
+              <li>colher chá páprica defumada</li>
+              <li>Alecrim a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave bem as batatas e corte em gomos grandes.</li>
+              <li>Misture com azeite, sal, páprica e alecrim, espalhe na assadeira.</li>
+              <li>Asse por 35 minutos a 200°C, virando na metade.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a batata não ficar crocante, não culpe a receita, culpa a sua pressa igual na vida adulta que nunca deixa nada crocante.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-de-frango-desfiado-picante">
+      <h2 class="receita-titulo">Sanduíche de Frango Desfiado Picante</h2>
+      <p class="receita-desc">Pra quem quer sabor com um tapa na cara de pimenta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g peito de frango cozido e desfiado</li>
+              <li>pães de hambúrguer integral</li>
+              <li>colheres sopa maionese</li>
+              <li>colher sopa molho de pimenta</li>
+              <li>colher sopa cebola picada</li>
+              <li>Folhas de rúcula a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o frango desfiado com maionese, molho de pimenta e cebola.</li>
+              <li>Recheie os pães com a mistura e rúcula.</li>
+              <li>Sirva quente ou frio, que nem aquele crush que some e volta.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o fogo da pimenta te pegar, lembre: é só o tempero da vida adulta, que às vezes queima mais que boleto atrasado.</div>
+    </article>
+
+    <article class="receita-card" id="cachorro-quente-gourmet-caseiro">
+      <h2 class="receita-titulo">Cachorro-Quente Gourmet Caseiro</h2>
+      <p class="receita-desc">O clássico que nunca sai da moda, mesmo com a crise.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>salsichas</li>
+              <li>pães para cachorro-quente</li>
+              <li>colheres sopa ketchup</li>
+              <li>colheres sopa mostarda</li>
+              <li>/2 cebola picada</li>
+              <li>colheres sopa maionese</li>
+              <li>Batata palha a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe as salsichas em água fervente por 5 minutos.</li>
+              <li>Doure a cebola na frigideira e reserve.</li>
+              <li>Monte o lanche com pão, salsicha, cebola, ketchup, mostarda, maionese e batata palha.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Cachorro-quente é igual boleto: a gente sabe que vai chegar, mas sempre finge surpresa na hora.</div>
+    </article>
+
+    <article class="receita-card" id="mini-pizzas-de-pao-de-forma">
+      <h2 class="receita-titulo">Mini Pizzas de Pão de Forma</h2>
+      <p class="receita-desc">A pizza que nasceu na cozinha do desespero.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão de forma</li>
+              <li>colheres sopa molho de tomate</li>
+              <li>g mussarela ralada</li>
+              <li>fatias de tomate</li>
+              <li>Orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe o molho de tomate sobre as fatias de pão.</li>
+              <li>Cubra com mussarela, tomate e orégano.</li>
+              <li>Leve ao forno a 180°C por 15 minutos ou até derreter o queijo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se você acha que pizza é só para sair, é porque nunca fez essa no pão de forma e se sentiu o chef da quebrada.</div>
+    </article>
+
+    <article class="receita-card" id="wrap-de-carne-com-molho-especial">
+      <h2 class="receita-titulo">Wrap de Carne com Molho Especial</h2>
+      <p class="receita-desc">Porque enrolar a vida nunca foi tão saboroso.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tortilhas grandes</li>
+              <li>g carne moída temperada</li>
+              <li>tomate picado</li>
+              <li>/2 cebola picada</li>
+              <li>colheres sopa maionese</li>
+              <li>Alface a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a carne moída até dourar e reserve.</li>
+              <li>Misture maionese com tomate e cebola para o molho.</li>
+              <li>Monte as tortilhas com alface, carne e molho, enrole firme.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se enrolar demais, vira nó na vida e no wrap. Enrole só o que der, que já tá ótimo.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-lentilha-vegano">
+      <h2 class="receita-titulo">Hambúrguer de Lentilha Vegano</h2>
+      <p class="receita-desc">A revolução vegana que até seu tio do churrasco vai querer provar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g lentilha cozida</li>
+              <li>/2 cebola picada</li>
+              <li>dentes alho picados</li>
+              <li>colheres sopa farinha de aveia</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>pães de hambúrguer veganos</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata a lentilha, cebola e alho no processador até formar uma pasta grossa.</li>
+              <li>Misture a farinha, sal e pimenta e molde os hambúrgueres.</li>
+              <li>Frite na frigideira antiaderente até dourar dos dois lados.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o vegano da família reclamar, ofereça com pão e diga que é o hambúrguer de amor, que não sai caro nem engorda.</div>
+    </article>
+
+    <article class="receita-card" id="nuggets-crocantes-de-frango-caseiros">
+      <h2 class="receita-titulo">Nuggets Crocantes de Frango Caseiros</h2>
+      <p class="receita-desc">Porque pedir nuggets na lanchonete é quase uma religião.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g peito de frango moído</li>
+              <li>ovo</li>
+              <li>/2 xícara farinha de rosca</li>
+              <li>/4 xícara farinha de trigo</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o frango moído com sal, pimenta e ovo até dar liga.</li>
+              <li>Modele os nuggets, passe na farinha de trigo e depois na farinha de rosca.</li>
+              <li>Frite em óleo quente até dourar, escorra no papel toalha.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a cozinha virar zona de guerra, lembra que nuggets são a desculpa perfeita pra evitar lavar a louça.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-calabresa-com-cebola-caramelizada">
+      <h2 class="receita-titulo">Hambúrguer de Calabresa com Cebola Caramelizada</h2>
+      <p class="receita-desc">Para quem quer um lanche com tempero de novela mexicana.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g calabresa moída</li>
+              <li>cebola grande fatiada</li>
+              <li>pães de hambúrguer</li>
+              <li>fatias queijo prato</li>
+              <li>colher sopa açúcar mascavo</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Caramelize a cebola com açúcar mascavo até dourar.</li>
+              <li>Modele a calabresa em forma de hambúrguer e frite até dourar.</li>
+              <li>Monte o lanche com pão, hambúrguer, queijo e cebola caramelizada.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a cebola queimar, não chore. É só a vida lembrando que nem tudo é doce, até no fast food.</div>
+    </article>
+
+    <article class="receita-card" id="hot-dog-de-guacamole">
+      <h2 class="receita-titulo">Hot Dog de Guacamole</h2>
+      <p class="receita-desc">O cachorro-quente que virou festa mexicana na sua cozinha.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>salsichas</li>
+              <li>pães para cachorro-quente</li>
+              <li>abacate maduro</li>
+              <li>tomate picado</li>
+              <li>/4 cebola picada</li>
+              <li>Suco de 1/2 limão</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe as salsichas em água fervente por 5 minutos.</li>
+              <li>Amasse o abacate e misture com tomate, cebola, limão, sal e pimenta.</li>
+              <li>Monte o hot dog com salsicha, pão e guacamole por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o abacate estiver duro, não force a vida nem o guacamole, igual a promessa de academia na segunda-feira.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-queijo-coalho-com-melado">
+      <h2 class="receita-titulo">Hambúrguer de Queijo Coalho com Melado</h2>
+      <p class="receita-desc">O sabor do Nordeste que vai fazer seu coração bater mais forte que boleto atrasado.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g queijo coalho em fatias grossas</li>
+              <li>pães de hambúrguer</li>
+              <li>colheres sopa melado de cana</li>
+              <li>Folhas de rúcula a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Grelhe o queijo coalho na frigideira até dourar dos dois lados.</li>
+              <li>Regue o queijo com melado ainda na frigideira para caramelizar.</li>
+              <li>Monte o hambúrguer com pão, queijo e rúcula.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o melado grudar demais na frigideira, lembre que a vida também é assim: às vezes a gente gruda, mas não pode desistir.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-atum-com-maionese-de-ervas">
+      <h2 class="receita-titulo">Hambúrguer de Atum com Maionese de Ervas</h2>
+      <p class="receita-desc">Para impressionar no fast food sem usar desculpa de pizza.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>latas atum sólido drenado</li>
+              <li>ovo</li>
+              <li>colheres sopa farinha de rosca</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>pães de hambúrguer</li>
+              <li>colheres sopa maionese</li>
+              <li>Salsinha e cebolinha picadas</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture atum, ovo, farinha, sal e pimenta e molde os hambúrgueres.</li>
+              <li>Frite em frigideira com um fio de óleo até dourar.</li>
+              <li>Misture a maionese com ervas e sirva com o hambúrguer no pão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se atum parecer estranho, pense que é só o mar dando seu toque especial, igual a conta de luz todo mês.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-carne-com-bacon-e-ovo">
+      <h2 class="receita-titulo">Hambúrguer de Carne com Bacon e Ovo</h2>
+      <p class="receita-desc">O combo que segura o café da manhã e a alma.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne moída bovina</li>
+              <li>fatias bacon</li>
+              <li>ovos</li>
+              <li>pães de hambúrguer</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Modele e tempere a carne, frite os hambúrgueres até ficar ao ponto.</li>
+              <li>Frite o bacon até ficar crocante e reserve.</li>
+              <li>Frite os ovos mexidos ou estrelados a gosto.</li>
+              <li>Monte o hambúrguer com bacon e ovo no pão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a barriga roncar mais que noticiário, esse lanche é tiro certo, só não esquece da balança depois.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-cogumelos-com-queijo-brie">
+      <h2 class="receita-titulo">Hambúrguer de Cogumelos com Queijo Brie</h2>
+      <p class="receita-desc">Sofisticação para o lanche que sua mãe não entende.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g cogumelos frescos fatiados</li>
+              <li>pães de hambúrguer</li>
+              <li>fatias queijo brie</li>
+              <li>dente alho picado</li>
+              <li>colher sopa manteiga</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue o alho na manteiga, junte os cogumelos e cozinhe até murchar.</li>
+              <li>Monte o hambúrguer com os cogumelos refogados e queijo brie.</li>
+              <li>Leve ao forno quente por 5 minutos para derreter o queijo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der cogumelos, transforma em hambúrguer e finge que é jantar romântico, mesmo sozinho.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-carne-com-molho-barbecue-caseiro">
+      <h2 class="receita-titulo">Hambúrguer de Carne com Molho Barbecue Caseiro</h2>
+      <p class="receita-desc">Porque molho é a alma do negócio e a desculpa pra lambuzar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne moída</li>
+              <li>pães de hambúrguer</li>
+              <li>/2 xícara ketchup</li>
+              <li>colheres sopa açúcar mascavo</li>
+              <li>colher sopa vinagre</li>
+              <li>colher chá molho inglês</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture ketchup, açúcar, vinagre e molho inglês e cozinhe em fogo baixo até engrossar.</li>
+              <li>Tempere e modele a carne, frite os hambúrgueres até o ponto desejado.</li>
+              <li>Monte o lanche com hambúrguer e bastante molho barbecue.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o molho ficar grudado na panela, lembre que a vida também gruda, só não vale desistir no meio do caminho.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-fraldinha-com-queijo-cheddar">
+      <h2 class="receita-titulo">Hambúrguer de Fraldinha com Queijo Cheddar</h2>
+      <p class="receita-desc">Porque às vezes só um corte nobre salva o fim de semana.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 27,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne moída de fraldinha</li>
+              <li>pães de hambúrguer</li>
+              <li>fatias queijo cheddar</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere a carne, molde hambúrgueres e frite até o ponto desejado.</li>
+              <li>Coloque o queijo por cima para derreter levemente.</li>
+              <li>Monte o sanduíche com pão e hambúrguer.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a fraldinha faltar na feira, substitua com amor e espere boleto passar pra comprar de novo.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-queijo-minas-com-goiabada">
+      <h2 class="receita-titulo">Hambúrguer de Queijo Minas com Goiabada</h2>
+      <p class="receita-desc">O famoso "Romeu e Julieta" que virou fast food.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g queijo minas frescal em fatias</li>
+              <li>pães de hambúrguer</li>
+              <li>colheres sopa goiabada cremosa</li>
+              <li>Folhas de hortelã para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Grelhe as fatias de queijo até dourar levemente.</li>
+              <li>Monte o pão com queijo quente e goiabada por cima.</li>
+              <li>Decore com hortelã e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o amor fosse tão fácil quanto esse lanche, a gente já teria resolvido tudo no churrasco do domingo.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-carne-com-bacon-e-abacate">
+      <h2 class="receita-titulo">Hambúrguer de Carne com Bacon e Abacate</h2>
+      <p class="receita-desc">A mistura que é mais inesperada que promessa de político.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 26,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne moída</li>
+              <li>fatias bacon</li>
+              <li>/2 abacate amassado</li>
+              <li>pães de hambúrguer</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Modele e tempere os hambúrgueres, frite até o ponto.</li>
+              <li>Frite o bacon até ficar crocante.</li>
+              <li>Monte o lanche com pão, hambúrguer, bacon e abacate amassado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o abacate não estiver maduro, finge que é assim mesmo, igual a vida adulta que nunca tá no ponto.</div>
+    </article>
+
+    <article class="receita-card" id="hot-dog-com-maionese-de-alho-e-batata-palha-caseira">
+      <h2 class="receita-titulo">Hot Dog com Maionese de Alho e Batata Palha Caseira</h2>
+      <p class="receita-desc">O clássico que não sai da cabeça nem da boca.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>salsichas</li>
+              <li>pães para cachorro-quente</li>
+              <li>batatas médias raladas</li>
+              <li>dentes alho picados</li>
+              <li>colheres sopa maionese</li>
+              <li>Sal a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Frite as salsichas em água fervente por 5 minutos.</li>
+              <li>Rale e esprema as batatas para tirar o excesso de água, frite em óleo quente até dourar.</li>
+              <li>Misture maionese com alho e sal. Monte o hot dog com salsicha, maionese e batata palha caseira.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a batata virar purê, respira fundo, lembra que nem sempre a receita da vida sai crocante.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-frango-com-molho-de-iogurte-e-hortela">
+      <h2 class="receita-titulo">Hambúrguer de Frango com Molho de Iogurte e Hortelã</h2>
+      <p class="receita-desc">O lanche que te faz parecer saudável sem esforço.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g peito de frango moído</li>
+              <li>pães de hambúrguer</li>
+              <li>/2 xícara iogurte natural</li>
+              <li>Hortelã picada a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Modele e tempere o frango, frite até dourar.</li>
+              <li>Misture o iogurte com hortelã, sal e pimenta.</li>
+              <li>Monte o hambúrguer com o molho por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se lembrar que iogurte estraga rápido, aproveita o lanche antes que vire piada de geladeira.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-carne-com-cebola-roxa-e-queijo-azul">
+      <h2 class="receita-titulo">Hambúrguer de Carne com Cebola Roxa e Queijo Azul</h2>
+      <p class="receita-desc">Para quem quer causar na reunião de família.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne moída</li>
+              <li>pães de hambúrguer</li>
+              <li>cebola roxa fatiada</li>
+              <li>g queijo azul em fatias</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Frite a cebola na frigideira até ficar macia e dourada.</li>
+              <li>Modele e tempere a carne, frite os hambúrgueres.</li>
+              <li>Monte o lanche com hambúrguer, cebola e queijo azul.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o queijo azul for forte demais, finge que é o tempero da vida adulta: intenso e difícil de entender.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-carne-com-molho-de-queijo-e-picles">
+      <h2 class="receita-titulo">Hambúrguer de Carne com Molho de Queijo e Picles</h2>
+      <p class="receita-desc">O lanche que é quase uma festa para o paladar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 23,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne moída</li>
+              <li>pães de hambúrguer</li>
+              <li>g queijo cheddar ralado</li>
+              <li>/4 xícara leite</li>
+              <li>fatias picles</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Modele e tempere o hambúrguer, frite até dourar.</li>
+              <li>Derreta o queijo com leite em fogo baixo até virar molho cremoso.</li>
+              <li>Monte o lanche com hambúrguer, molho de queijo e picles.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o molho talhar, não se preocupe, acontece mais que aquela promessa de dieta na segunda.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-carne-com-bacon-e-cebola-na-mostarda">
+      <h2 class="receita-titulo">Hambúrguer de Carne com Bacon e Cebola na Mostarda</h2>
+      <p class="receita-desc">O lanche que é tiro certo para espantar crise existencial.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne moída</li>
+              <li>fatias bacon</li>
+              <li>cebola fatiada</li>
+              <li>colheres sopa mostarda Dijon</li>
+              <li>pães de hambúrguer</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Frite o bacon até ficar crocante e reserve.</li>
+              <li>Na mesma frigideira, refogue a cebola com mostarda até caramelizar.</li>
+              <li>Modele e frite os hambúrgueres, monte com bacon e cebola na mostarda.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a cebola queimar, finge que é o tempero da vida: às vezes amarga, mas faz parte.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-grao-de-bico-com-tahine">
+      <h2 class="receita-titulo">Hambúrguer de Grão-de-Bico com Tahine</h2>
+      <p class="receita-desc">Quando o fast food resolve virar filosofia de vida.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g grão-de-bico cozido</li>
+              <li>colher sopa tahine</li>
+              <li>/2 cebola picada</li>
+              <li>dente alho picado</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>pães de hambúrguer</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata o grão-de-bico, cebola, alho e tahine até formar uma massa.</li>
+              <li>Tempere, molde os hambúrgueres e frite até dourar.</li>
+              <li>Monte com pão e o acompanhamento que preferir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o grão-de-bico quiser grudar nos dentes, lembra que é só o preço da saúde, igual academia todo mês.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-carne-com-molho-de-gorgonzola-e-nozes">
+      <h2 class="receita-titulo">Hambúrguer de Carne com Molho de Gorgonzola e Nozes</h2>
+      <p class="receita-desc">O lanche que é quase um encontro de milionários.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne moída</li>
+              <li>pães de hambúrguer</li>
+              <li>g queijo gorgonzola</li>
+              <li>/4 xícara creme de leite</li>
+              <li>colheres sopa nozes picadas</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Modele e tempere a carne, frite os hambúrgueres.</li>
+              <li>Derreta o gorgonzola com creme de leite até formar molho cremoso.</li>
+              <li>Monte o lanche com hambúrguer, molho e nozes por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o molho ficar forte demais, finge que é o tempero da vida adulta: intenso, cheio de surpresas e boletos.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-carne-com-queijo-e-picles-de-beterraba">
+      <h2 class="receita-titulo">Hambúrguer de Carne com Queijo e Picles de Beterraba</h2>
+      <p class="receita-desc">O lanche que une o tradicional e o exótico na mesma mordida.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne moída</li>
+              <li>pães de hambúrguer</li>
+              <li>fatias queijo prato</li>
+              <li>beterraba pequena em fatias finas</li>
+              <li>/2 xícara vinagre</li>
+              <li>colher sopa açúcar</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Prepare o picles cozinhando a beterraba com vinagre, açúcar e sal por 10 minutos e deixe esfriar.</li>
+              <li>Modele e tempere a carne, frite os hambúrgueres.</li>
+              <li>Monte o lanche com queijo e picles de beterraba.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o picles ficar azedo demais, lembra que a vida também não é sempre doce, mas tá tudo certo.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-carne-com-queijo-e-maionese-de-alho-negro">
+      <h2 class="receita-titulo">Hambúrguer de Carne com Queijo e Maionese de Alho Negro</h2>
+      <p class="receita-desc">O sabor que vai fazer você se sentir chef, mesmo com conta atrasada.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne moída</li>
+              <li>pães de hambúrguer</li>
+              <li>fatias queijo prato</li>
+              <li>dentes alho negro amassados</li>
+              <li>colheres sopa maionese</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture alho negro na maionese e reserve.</li>
+              <li>Modele e tempere a carne, frite os hambúrgueres.</li>
+              <li>Monte o lanche com queijo e maionese de alho negro.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o alho negro parecer estranho, finge que é o novo “exótico” que venceu o boleto e veio pra ficar.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-carne-com-molho-de-mostarda-e-mel">
+      <h2 class="receita-titulo">Hambúrguer de Carne com Molho de Mostarda e Mel</h2>
+      <p class="receita-desc">O lanche que é uma briga de sabores, mas no final dá beijo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne moída</li>
+              <li>pães de hambúrguer</li>
+              <li>colheres sopa mostarda Dijon</li>
+              <li>colher sopa mel</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Modele e tempere a carne, frite os hambúrgueres.</li>
+              <li>Misture mostarda e mel para o molho.</li>
+              <li>Monte o lanche com hambúrguer e molho por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a mistura ficar esquisita, lembra que a vida adulta é essa confusão, mas a gente finge que tá tudo ótimo.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-costela-com-queijo-provolone">
+      <h2 class="receita-titulo">Hambúrguer de Costela com Queijo Provolone</h2>
+      <p class="receita-desc">O lanche que é mais resistente que seu sono na segunda-feira.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne de costela moída</li>
+              <li>pães de hambúrguer</li>
+              <li>fatias queijo provolone</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere a carne, molde hambúrgueres e frite lentamente para ficar suculento.</li>
+              <li>Coloque o queijo para derreter sobre o hambúrguer ainda na frigideira.</li>
+              <li>Monte o lanche com pão e hambúrguer.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a costela demorar a cozinhar, lembra que até boletos atrasam, mas não podem ser ignorados.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-carne-com-bacon-e-molho-de-pimenta-doce">
+      <h2 class="receita-titulo">Hambúrguer de Carne com Bacon e Molho de Pimenta Doce</h2>
+      <p class="receita-desc">O lanche que é uma festa na boca com fogueira no coração.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne moída</li>
+              <li>fatias bacon</li>
+              <li>colheres sopa molho de pimenta doce</li>
+              <li>pães de hambúrguer</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Frite o bacon até ficar crocante e reserve.</li>
+              <li>Modele a carne, tempere e frite os hambúrgueres.</li>
+              <li>Monte o lanche com bacon e molho de pimenta doce por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o fogo pegar mais que o esperado, finge que é só a paixão pelo lanche, não a conta atrasada.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-carne-com-queijo-e-maionese-de-limao-siciliano">
+      <h2 class="receita-titulo">Hambúrguer de Carne com Queijo e Maionese de Limão Siciliano</h2>
+      <p class="receita-desc">O toque cítrico que deixa a vida menos amarga que boletos.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne moída</li>
+              <li>pães de hambúrguer</li>
+              <li>fatias queijo prato</li>
+              <li>colheres sopa maionese</li>
+              <li>Raspas de 1 limão siciliano</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a maionese com raspas de limão e reserve.</li>
+              <li>Modele e tempere a carne, frite os hambúrgueres.</li>
+              <li>Monte o lanche com queijo e maionese de limão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o limão deixar o lanche azedo, finge que é só a vida adulta dando aquele toque especial.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-carne-com-molho-de-alho-e-parmesao">
+      <h2 class="receita-titulo">Hambúrguer de Carne com Molho de Alho e Parmesão</h2>
+      <p class="receita-desc">Pra quem quer transformar o fast food em alta gastronomia de boteco.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 24,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne moída</li>
+              <li>pães de hambúrguer</li>
+              <li>colheres sopa maionese</li>
+              <li>dentes alho amassados</li>
+              <li>colheres sopa parmesão ralado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture maionese, alho e parmesão e reserve.</li>
+              <li>Modele e tempere os hambúrgueres, frite até dourar.</li>
+              <li>Monte o lanche com hambúrguer e molho de alho e parmesão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o cheiro de alho ficar forte, finge que é só seu perfume de sucesso, não o cheiro de conta atrasada.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-carne-com-queijo-suico-e-molho-de-mostarda">
+      <h2 class="receita-titulo">Hambúrguer de Carne com Queijo Suíço e Molho de Mostarda</h2>
+      <p class="receita-desc">O clássico chique que ninguém resiste, nem a vida corrida.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 24,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne moída</li>
+              <li>pães de hambúrguer</li>
+              <li>fatias queijo suíço</li>
+              <li>colheres sopa mostarda amarela</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Modele e tempere a carne, frite os hambúrgueres.</li>
+              <li>Coloque o queijo suíço para derreter sobre o hambúrguer.</li>
+              <li>Monte o lanche com mostarda.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a mostarda escapar, finge que é só a vida querendo adicionar emoção à rotina.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-carne-com-cebola-caramelizada-e-queijo-brie">
+      <h2 class="receita-titulo">Hambúrguer de Carne com Cebola Caramelizada e Queijo Brie</h2>
+      <p class="receita-desc">O lanche que é um namoro sério com seu paladar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne moída</li>
+              <li>cebola grande fatiada</li>
+              <li>pães de hambúrguer</li>
+              <li>fatias queijo brie</li>
+              <li>colher sopa açúcar mascavo</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Caramelize a cebola com açúcar mascavo até ficar dourada.</li>
+              <li>Modele e tempere a carne, frite os hambúrgueres.</li>
+              <li>Monte o lanche com hambúrguer, queijo brie e cebola caramelizada.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a cebola queimar, finge que é só a vida dando aquele tempero extra de drama.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-carne-com-molho-de-gorgonzola-e-rucula">
+      <h2 class="receita-titulo">Hambúrguer de Carne com Molho de Gorgonzola e Rúcula</h2>
+      <p class="receita-desc">Para quem quer se sentir sofisticado sem sair do sofá.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne moída</li>
+              <li>pães de hambúrguer</li>
+              <li>g queijo gorgonzola</li>
+              <li>Folhas de rúcula a gosto</li>
+              <li>/4 xícara creme de leite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Modele e tempere a carne, frite os hambúrgueres.</li>
+              <li>Derreta o gorgonzola com creme de leite até formar molho.</li>
+              <li>Monte o lanche com hambúrguer, molho e rúcula.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o gorgonzola for forte demais, finge que é só o tempero da vida adulta, cheio de surpresas.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-carne-com-queijo-e-bacon-crocante">
+      <h2 class="receita-titulo">Hambúrguer de Carne com Queijo e Bacon Crocante</h2>
+      <p class="receita-desc">O lanche que é a desculpa perfeita para esquecer os boletos.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 27,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne moída</li>
+              <li>fatias bacon</li>
+              <li>pães de hambúrguer</li>
+              <li>fatias queijo prato</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Frite o bacon até ficar crocante e reserve.</li>
+              <li>Modele e tempere a carne, frite os hambúrgueres.</li>
+              <li>Monte o lanche com bacon e queijo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bacon grudar na frigideira, finge que é só a vida grudando, mas a gente não desiste.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-carne-com-molho-de-tomate-picante-e-queijo">
+      <h2 class="receita-titulo">Hambúrguer de Carne com Molho de Tomate Picante e Queijo</h2>
+      <p class="receita-desc">O lanche que é uma explosão de sabor e emoção.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne moída</li>
+              <li>pães de hambúrguer</li>
+              <li>g molho de tomate caseiro picante</li>
+              <li>fatias queijo prato</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Modele e tempere a carne, frite os hambúrgueres.</li>
+              <li>Aqueça o molho de tomate picante.</li>
+              <li>Monte o lanche com hambúrguer, molho e queijo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o molho ficar muito quente, finge que é só a vida te dando aquele tapa de realidade.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-carne-com-queijo-e-picles-caseiro">
+      <h2 class="receita-titulo">Hambúrguer de Carne com Queijo e Picles Caseiro</h2>
+      <p class="receita-desc">O lanche que junta o azedo e o salgado pra fazer a paz na boca.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne moída</li>
+              <li>pães de hambúrguer</li>
+              <li>fatias queijo prato</li>
+              <li>pepino pequeno em fatias finas</li>
+              <li>/4 xícara vinagre</li>
+              <li>colher sopa açúcar</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Prepare o picles com pepino, vinagre, açúcar e sal, deixe descansar por 20 minutos.</li>
+              <li>Modele e tempere a carne, frite os hambúrgueres.</li>
+              <li>Monte o lanche com queijo e picles.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o picles ficar azedo demais, finge que é só a vida dando aquele tempero extra de emoção.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-carne-com-molho-de-iogurte-e-pepino">
+      <h2 class="receita-titulo">Hambúrguer de Carne com Molho de Iogurte e Pepino</h2>
+      <p class="receita-desc">O lanche que é refrescante igual promessa de férias que nunca vem.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne moída</li>
+              <li>pães de hambúrguer</li>
+              <li>/2 xícara iogurte natural</li>
+              <li>/4 pepino ralado e espremido</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Modele e tempere a carne, frite os hambúrgueres.</li>
+              <li>Misture iogurte, pepino, sal e pimenta.</li>
+              <li>Monte o lanche com molho por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o lanche ficar meio aguado, finge que é só a vida te lembrando que nem tudo sai como planejado.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,1588 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🤢 De Ressaca — Receitas NaFome</title>
+  <meta name="description" content="41 receitas para quem está na situação "De Ressaca". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/de-ressaca/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🤢 De Ressaca — Receitas NaFome">
+  <meta property="og:description" content="41 receitas para quem está na situação "De Ressaca". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/de-ressaca/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🤢 De Ressaca — NaFome",
+    "description": "41 receitas para quem está na situação "De Ressaca". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/de-ressaca/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=de-ressaca" class="btn-sortear">🎲 Sortear receita de De Ressaca</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🤢 De Ressaca</h1>
+    <p>41 receitas para quem está na situação "De Ressaca". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">41 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de De Ressaca pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=de-ressaca" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="caldo-de-galinha-do-ressacado-profundo">
+      <h2 class="receita-titulo">Caldo de Galinha do Ressacado Profundo</h2>
+      <p class="receita-desc">Porque acordar parecendo um zumbi não é desculpa pra comer qualquer coisa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de carcaça de galinha</li>
+              <li>litros de água</li>
+              <li>cenouras médias picadas</li>
+              <li>cebola picada</li>
+              <li>dentes de alho amassados</li>
+              <li>Sal a gosto</li>
+              <li>Pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque a carcaça de galinha na panela com água e leve ao fogo alto até ferver.</li>
+              <li>Reduza o fogo para médio e adicione cenoura, cebola, alho, sal e pimenta.</li>
+              <li>Cozinhe por 30 minutos, coe o caldo e sirva bem quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a ressaca te deixar mais lento que boleto vencendo, esse caldo vai ser seu combustível – só não esquece de pagar as contas também!</div>
+    </article>
+
+    <article class="receita-card" id="omelete-ressaca-power">
+      <h2 class="receita-titulo">Omelete Ressaca Power</h2>
+      <p class="receita-desc">O clássico “quebrador de ressaca” que nem sua ex vai querer esquecer.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>tomate picado</li>
+              <li>colheres de sopa de queijo ralado</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>colher de sopa de azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com o sal e a pimenta na tigela.</li>
+              <li>Aqueça o azeite na frigideira e refogue o tomate rapidamente.</li>
+              <li>Despeje os ovos batidos, polvilhe o queijo e cozinhe até firmar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Omelete é tipo amigo fiel na ressaca: simples, confiável e não te julga por ter mandado mensagem pro crush às 3 da manhã.</div>
+    </article>
+
+    <article class="receita-card" id="vitamina-anti-cabeca-latejante">
+      <h2 class="receita-titulo">Vitamina Anti-Cabeça Latejante</h2>
+      <p class="receita-desc">Porque café sozinho é só um grito silencioso de desespero.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>banana madura</li>
+              <li>ml de leite gelado</li>
+              <li>colher de sopa de mel</li>
+              <li>g de mamão picado</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque todos os ingredientes no liquidificador.</li>
+              <li>Bata até obter uma mistura homogênea.</li>
+              <li>Sirva imediatamente, antes que a vontade de chorar volte.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Essa vitamina é tipo aquele amigo que te ajuda a levantar da cama, só que sem julgar se você dormiu com a maquiagem da balada ainda.</div>
+    </article>
+
+    <article class="receita-card" id="arroz-de-forno-do-sofrimento">
+      <h2 class="receita-titulo">Arroz de Forno do Sofrimento</h2>
+      <p class="receita-desc">Quando você quer comer algo que vale a pena e não parecer um ET ambulante.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de arroz cozido</li>
+              <li>lata de milho</li>
+              <li>peito de frango desfiado</li>
+              <li>xícara de queijo mussarela ralado</li>
+              <li>/2 xícara de creme de leite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o arroz, frango, milho, creme de leite, sal e pimenta na tigela.</li>
+              <li>Transfira para a assadeira, cubra com queijo ralado.</li>
+              <li>Leve ao forno a 180°C por 20 minutos até gratinar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der ressaca, faça arroz de forno – porque nem só de miojo vive o adulto que não quer ligar pra ninguém.</div>
+    </article>
+
+    <article class="receita-card" id="cha-de-gengibre-salvando-vidas">
+      <h2 class="receita-titulo">Chá de Gengibre Salvando Vidas</h2>
+      <p class="receita-desc">Para espantar a ressaca, a preguiça e até a vontade de responder WhatsApp.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>cm de gengibre fresco fatiado</li>
+              <li>ml de água</li>
+              <li>colher de sopa de mel</li>
+              <li>Suco de 1/2 limão</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água na panela e adicione o gengibre.</li>
+              <li>Deixe ferver por 10 minutos, desligue o fogo.</li>
+              <li>Coe, adicione mel e limão, misture e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse chá é tipo aquele crush que some, mas volta quando você mais precisa – só que ele realmente resolve seu problema.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-do-sofrimento-feliz">
+      <h2 class="receita-titulo">Sanduíche do Sofrimento Feliz</h2>
+      <p class="receita-desc">Porque ressaca não é desculpa pra se alimentar como um urso hibernando.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão integral</li>
+              <li>fatias de queijo prato</li>
+              <li>fatias de presunto magro</li>
+              <li>ovo frito</li>
+              <li>Maionese a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Passe maionese nas fatias de pão.</li>
+              <li>Monte o sanduíche com presunto, queijo e ovo frito.</li>
+              <li>Aqueça na frigideira até o queijo derreter.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse sanduíche é tão bom que vai fazer você esquecer que a conta do bar chegou junto com a ressaca.</div>
+    </article>
+
+    <article class="receita-card" id="batida-energetica-pos-noitada">
+      <h2 class="receita-titulo">Batida Energética Pós-Noitada</h2>
+      <p class="receita-desc">Aquele boost que nem café forte e nem motivação do chefe conseguem dar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de suco de laranja natural</li>
+              <li>banana</li>
+              <li>colher de sopa de mel</li>
+              <li>colher de sopa de aveia</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até ficar cremoso.</li>
+              <li>Sirva com gelo para refrescar a alma.</li>
+              <li>Beba rápido antes que a vontade de dormir volte.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida fosse fácil, a batida energética seria receita de família e não só remédio pra ressaca.</div>
+    </article>
+
+    <article class="receita-card" id="sopa-de-legumes-do-sofrimento">
+      <h2 class="receita-titulo">Sopa de Legumes do Sofrimento</h2>
+      <p class="receita-desc">Porque até a sua saúde merece um “amém” depois da noitada.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>cenouras picadas</li>
+              <li>batatas médias picadas</li>
+              <li>abobrinha picada</li>
+              <li>litro de água</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe as cenouras, batatas e abobrinha na água até ficarem macias.</li>
+              <li>Bata tudo no liquidificador até virar um creme.</li>
+              <li>Volte para a panela, ajuste o sal e aqueça antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Essa sopa é tipo melhor amigo que te leva pra casa e ainda traz remédio – raro, mas essencial.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-do-esquecimento">
+      <h2 class="receita-titulo">Tapioca do Esquecimento</h2>
+      <p class="receita-desc">Porque até o carboidrato precisa ser leve pra ressaca pesada.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca hidratada</li>
+              <li>colheres de queijo coalho ralado</li>
+              <li>colher de chá de manteiga</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça a frigideira e espalhe a goma de tapioca formando uma panqueca fina.</li>
+              <li>Salpique o queijo sobre a tapioca.</li>
+              <li>Dobre ao meio e deixe derreter o queijo, retire e sirva com manteiga.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der tapioca, faça essa receita e esqueça que você prometeu só beber água amanhã.</div>
+    </article>
+
+    <article class="receita-card" id="macarrao-alho-e-oleo-ressaca-style">
+      <h2 class="receita-titulo">Macarrão Alho e Óleo Ressaca Style</h2>
+      <p class="receita-desc">Porque a simplicidade às vezes é o melhor remédio para o caos do fígado.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de macarrão espaguete</li>
+              <li>dentes de alho fatiados</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal a gosto</li>
+              <li>Pimenta-do-reino a gosto</li>
+              <li>Salsinha picada para finalizar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o macarrão em água salgada até ficar al dente.</li>
+              <li>Em uma frigideira, aqueça o azeite e doure o alho.</li>
+              <li>Misture o macarrão escorrido ao alho e azeite, tempere, finalize com salsinha e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se bateu fome na ressaca, esse macarrão é tipo aquele boleto que você sabe que vai chegar, não adianta fugir.</div>
+    </article>
+
+    <article class="receita-card" id="suco-verde-ressaca-level-hard">
+      <h2 class="receita-titulo">Suco Verde Ressaca Level Hard</h2>
+      <p class="receita-desc">Para quem acha que verde cura até a dívida do cartão.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>maçã verde</li>
+              <li>folha grande de couve</li>
+              <li>Suco de 1 limão</li>
+              <li>ml de água de coco</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até ficar homogêneo.</li>
+              <li>Coe se preferir menos fibra.</li>
+              <li>Sirva gelado para dar aquele soco no mal-estar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Suco verde é tipo promessa de segunda-feira: parece que vai ajudar, mas só o tempo dirá.</div>
+    </article>
+
+    <article class="receita-card" id="pure-de-batata-do-sofrimento">
+      <h2 class="receita-titulo">Purê de Batata do Sofrimento</h2>
+      <p class="receita-desc">Porque às vezes a vida só quer conforto em forma de batata.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de batatas</li>
+              <li>colheres de sopa de manteiga</li>
+              <li>ml de leite</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe as batatas descascadas até ficarem macias.</li>
+              <li>Amasse as batatas com o espremedor, misture manteiga, leite e sal.</li>
+              <li>Sirva quentinho e se aconchegue no sofá.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Purê é igual amor de mãe: simples, quentinho e te ajuda a sobreviver aos boletos do mês.</div>
+    </article>
+
+    <article class="receita-card" id="cuscuz-nordestino-do-recomeco">
+      <h2 class="receita-titulo">Cuscuz Nordestino do Recomeço</h2>
+      <p class="receita-desc">Porque até o Nordeste sabe lidar melhor com ressaca que a gente.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de flocos de milho para cuscuz</li>
+              <li>/2 xícara de água</li>
+              <li>colher de chá de sal</li>
+              <li>Manteiga a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture os flocos de milho com sal e água até hidratar.</li>
+              <li>Coloque na cuscuzeira e cozinhe por 15 minutos.</li>
+              <li>Sirva com manteiga derretida por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Cuscuz é tão simples e eficaz que deveria ser receita de paz mundial – ou pelo menos da paz com a ressaca.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-turbinado-do-sofrimento">
+      <h2 class="receita-titulo">Café Turbinado do Sofrimento</h2>
+      <p class="receita-desc">Porque café fraco em dia de ressaca é quase piada de tio no churrasco.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 3,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de café forte coado</li>
+              <li>colher de sopa de açúcar mascavo</li>
+              <li>pitada de canela em pó</li>
+              <li>ml de leite quente</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Prepare o café coado forte.</li>
+              <li>Misture o açúcar e a canela.</li>
+              <li>Adicione o leite quente, mexa e beba com vontade.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Café turbinado é como aquele amigo que te puxa pra balada mas também te ajuda a levantar de manhã. Só cuidado pra não virar sócio do café.</div>
+    </article>
+
+    <article class="receita-card" id="salada-colorida-do-juizo">
+      <h2 class="receita-titulo">Salada Colorida do Juízo</h2>
+      <p class="receita-desc">Porque ressaca também pede um pouco de dignidade no prato.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tomates cortados em cubos</li>
+              <li>pepino fatiado</li>
+              <li>cenoura ralada</li>
+              <li>/2 cebola roxa fatiada</li>
+              <li>Folhas de alface</li>
+              <li>Azeite, sal e limão para temperar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave e prepare todos os legumes.</li>
+              <li>Misture em uma tigela com azeite, sal e limão.</li>
+              <li>Sirva fresquinho para dar aquela sensação de “recomeço”.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada é tipo boletos pagos: ninguém gosta, mas é melhor fazer pra não sofrer depois.</div>
+    </article>
+
+    <article class="receita-card" id="mingau-de-aveia-do-retorno-a-vida">
+      <h2 class="receita-titulo">Mingau de Aveia do Retorno à Vida</h2>
+      <p class="receita-desc">Porque ressaca merece café da manhã que abraça, não só empurra.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de aveia em flocos</li>
+              <li>ml de leite ou água</li>
+              <li>colher de mel</li>
+              <li>Canela a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a aveia no leite ou água até engrossar.</li>
+              <li>Adicione mel e canela, misture bem.</li>
+              <li>Sirva quente para abraçar o estômago.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mingau de aveia é como aquele amigo que aparece só quando você tá mal, mas tá valendo o carinho.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-banana-do-esquecimento">
+      <h2 class="receita-titulo">Panqueca de Banana do Esquecimento</h2>
+      <p class="receita-desc">Porque doce na ressaca é terapia com cobertura de açúcar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>banana madura amassada</li>
+              <li>ovos</li>
+              <li>colheres de sopa de farinha de aveia</li>
+              <li>Mel para servir</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture banana, ovos e farinha até formar uma massa homogênea.</li>
+              <li>Aqueça a frigideira e faça pequenas panquecas.</li>
+              <li>Sirva com mel por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Panqueca de banana é tipo desculpa perfeita: doce, rapidinho e faz você esquecer o que fez ontem à noite.</div>
+    </article>
+
+    <article class="receita-card" id="caldo-verde-do-ressacaco">
+      <h2 class="receita-titulo">Caldo Verde do Ressacaço</h2>
+      <p class="receita-desc">Porque nada como couve pra escovar o fígado e a alma.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas médias</li>
+              <li>linguiça calabresa defumada fatiada</li>
+              <li>maço de couve fatiado fininho</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho na panela.</li>
+              <li>Cozinhe as batatas em água, depois bata no liquidificador até virar creme.</li>
+              <li>Volte o creme para panela, adicione a linguiça e couve, cozinhe por 10 minutos.</li>
+              <li>Tempere e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Caldo verde é como boleto em dia: você não quer, mas sabe que faz bem enfrentar.</div>
+    </article>
+
+    <article class="receita-card" id="smoothie-de-melancia-e-hortela">
+      <h2 class="receita-titulo">Smoothie de Melancia e Hortelã</h2>
+      <p class="receita-desc">Aquele refresco que faz seu corpo lembrar que ele existe.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de melancia picada sem sementes</li>
+              <li>Folhas de hortelã a gosto</li>
+              <li>Suco de 1 limão</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até ficar homogêneo.</li>
+              <li>Sirva gelado para dar um banho de frescor na alma.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der melancia, faça esse smoothie e esqueça que o boleto tá chegando – pelo menos por 10 minutos.</div>
+    </article>
+
+    <article class="receita-card" id="polenta-cremosa-do-sofrimento">
+      <h2 class="receita-titulo">Polenta Cremosa do Sofrimento</h2>
+      <p class="receita-desc">A textura do conforto que sua cabeça pediu, mas seu fígado não sabe.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de fubá</li>
+              <li>xícaras de água</li>
+              <li>colheres de sopa de manteiga</li>
+              <li>Sal a gosto</li>
+              <li>Queijo ralado para finalizar (opcional)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água com sal na panela.</li>
+              <li>Vá adicionando o fubá aos poucos, mexendo sem parar para não empelotar.</li>
+              <li>Cozinhe até engrossar, adicione manteiga e queijo, misture e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Polenta é igual aquela desculpa pra não sair: parece difícil, mas no fim é só questão de mexer um pouco – e ter paciência.</div>
+    </article>
+
+    <article class="receita-card" id="mingau-de-milho-verde-do-recomeco">
+      <h2 class="receita-titulo">Mingau de Milho Verde do Recomeço</h2>
+      <p class="receita-desc">Porque resgatar a infância é o melhor remédio pra cabeça de adulto quebrada.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de milho verde escorrido</li>
+              <li>ml de leite</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>colher de chá de amido de milho</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata o milho com o leite no liquidificador.</li>
+              <li>Coe e leve ao fogo com açúcar e amido, mexendo até engrossar.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mingau de milho é tipo abraço de vó: simples, doce e faz você esquecer que a vida adulta cobra juros altos.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-de-frango-desfiado-e-requeijao">
+      <h2 class="receita-titulo">Tapioca de Frango Desfiado e Requeijão</h2>
+      <p class="receita-desc">Porque o recheio da vida não pode ser sempre só arrependimento.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca hidratada</li>
+              <li>g de frango desfiado temperado</li>
+              <li>colheres de sopa de requeijão cremoso</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça a frigideira e espalhe a goma formando uma panqueca.</li>
+              <li>Recheie com o frango e requeijão.</li>
+              <li>Dobre a tapioca ao meio, cozinhe até o recheio aquecer e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Tapioca recheada é tipo aquela conversa que você evita, mas que no fim te faz bem – só que com menos drama.</div>
+    </article>
+
+    <article class="receita-card" id="caldo-de-mandioca-reconfortante">
+      <h2 class="receita-titulo">Caldo de Mandioca Reconfortante</h2>
+      <p class="receita-desc">Para quando a vida te virar de cabeça pra baixo e ainda derrubar a cerveja no sofá.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de mandioca descascada e picada</li>
+              <li>litro de água</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>cubo de caldo de legumes</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho na panela.</li>
+              <li>Adicione mandioca, água e caldo, cozinhe até mandioca amolecer.</li>
+              <li>Bata parte do caldo no liquidificador para engrossar, volte para a panela e tempere.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Caldo de mandioca é como férias: demora pra preparar, mas vale cada minuto de espera.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-natural-do-juizo-rapido">
+      <h2 class="receita-titulo">Sanduíche Natural do Juízo Rápido</h2>
+      <p class="receita-desc">Porque às vezes a ressaca pede saúde, mas a preguiça fala mais alto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão integral</li>
+              <li>folhas de alface</li>
+              <li>fatias de peito de peru</li>
+              <li>fatias de tomate</li>
+              <li>colher de sopa de cream cheese</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe cream cheese nas fatias de pão.</li>
+              <li>Monte o sanduíche com alface, peito de peru e tomate.</li>
+              <li>Sirva imediatamente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sanduíche natural é tipo boleto digital: rápido, prático e não te deixa na mão (ou na ressaca).</div>
+    </article>
+
+    <article class="receita-card" id="mingau-de-chia-com-frutas">
+      <h2 class="receita-titulo">Mingau de Chia com Frutas</h2>
+      <p class="receita-desc">Porque hidratar o corpo e a alma é um ato de coragem pós-balada.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 8 horas (de descanso)</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de chia</li>
+              <li>ml de leite de amêndoas ou outro</li>
+              <li>colher de mel</li>
+              <li>Frutas picadas para decorar (morango, banana)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture chia, leite e mel na tigela.</li>
+              <li>Leve à geladeira por pelo menos 8 horas.</li>
+              <li>Sirva com frutas picadas por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mingau de chia é tipo promessa de dieta: leva tempo, mas no fim você se sente melhor (e menos culpado).</div>
+    </article>
+
+    <article class="receita-card" id="macarrao-com-molho-de-tomate-caseiro">
+      <h2 class="receita-titulo">Macarrão com Molho de Tomate Caseiro</h2>
+      <p class="receita-desc">Porque molho pronto só funciona quando a vida tá em dia, não a sua cabeça.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de macarrão penne</li>
+              <li>tomates maduros picados</li>
+              <li>cebola picada</li>
+              <li>dentes de alho</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal, pimenta e manjericão a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o macarrão em água salgada até al dente.</li>
+              <li>Refogue cebola e alho no azeite, adicione tomates e cozinhe até desmanchar.</li>
+              <li>Bata o molho no liquidificador para textura homogênea, volte para a panela e tempere.</li>
+              <li>Misture o macarrão ao molho e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Molho feito em casa é como dívida paga: alivia o peso e dá uma sensação de vitória.</div>
+    </article>
+
+    <article class="receita-card" id="sopa-de-feijao-leve">
+      <h2 class="receita-titulo">Sopa de Feijão Leve</h2>
+      <p class="receita-desc">Porque até o feijão quer te ajudar a levantar da cama difícil.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de feijão carioca</li>
+              <li>litro de água</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Deixe o feijão de molho por 8 horas.</li>
+              <li>Cozinhe o feijão na panela de pressão com água, cebola e alho por 25 minutos.</li>
+              <li>Tempere e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Feijão na ressaca é tipo aquela mensagem que você evita, mas que no fim te conforta – nunca subestime o poder do básico.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-de-banana-saudavel">
+      <h2 class="receita-titulo">Bolo de Banana Saudável</h2>
+      <p class="receita-desc">Porque até a sobremesa merece ser amiga do fígado quebrado.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>bananas maduras amassadas</li>
+              <li>ovos</li>
+              <li>/2 xícara de açúcar mascavo</li>
+              <li>xícara de farinha integral</li>
+              <li>colher de chá de fermento em pó</li>
+              <li>colher de chá de canela</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata ovos e açúcar, acrescente bananas e misture.</li>
+              <li>Adicione farinha, fermento e canela, misture até homogeneizar.</li>
+              <li>Despeje na forma e asse a 180°C por 35 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bolo saudável é como promessa de academia pós-ressaca: começa bem, mas o sofá ainda ganha a disputa.</div>
+    </article>
+
+    <article class="receita-card" id="torrada-com-abacate-e-ovo-poche">
+      <h2 class="receita-titulo">Torrada com Abacate e Ovo Pochê</h2>
+      <p class="receita-desc">Porque ressaca merece um toque gourmet, mesmo que seja só pra impressionar o espelho.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatia de pão integral</li>
+              <li>/2 abacate maduro amassado</li>
+              <li>ovo</li>
+              <li>Sal, pimenta e limão a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Torre a fatia de pão.</li>
+              <li>Cozinhe o ovo em água fervente com vinagre por 3 minutos para pochê.</li>
+              <li>Espalhe o abacate na torrada, tempere e coloque o ovo por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Ovo pochê é tipo relacionamento sério: parece difícil, mas no final vale o esforço (e o sabor).</div>
+    </article>
+
+    <article class="receita-card" id="mingau-de-arroz-com-canela">
+      <h2 class="receita-titulo">Mingau de Arroz com Canela</h2>
+      <p class="receita-desc">Porque ressaca pede um abraço quentinho e açucarado.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>/2 xícara de arroz lavado</li>
+              <li>ml de leite</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>Canela em pó a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o arroz no leite com açúcar até ficar bem macio e cremoso.</li>
+              <li>Sirva quente polvilhado com canela.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mingau de arroz é como você na segunda-feira: devagar, mas chegando lá.</div>
+    </article>
+
+    <article class="receita-card" id="suco-de-laranja-com-gengibre-e-mel">
+      <h2 class="receita-titulo">Suco de Laranja com Gengibre e Mel</h2>
+      <p class="receita-desc">O combo oficial para mandar o mau humor e a ressaca embora.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>Suco de 4 laranjas</li>
+              <li>cm de gengibre ralado</li>
+              <li>colher de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Esprema as laranjas e misture o gengibre e o mel.</li>
+              <li>Mexa bem e sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse suco é como resposta de chefe: direto, eficiente e você sai vivo no final.</div>
+    </article>
+
+    <article class="receita-card" id="frango-desfiado-com-legumes-refogados">
+      <h2 class="receita-titulo">Frango Desfiado com Legumes Refogados</h2>
+      <p class="receita-desc">Porque até a ressaca merece uma comidinha que não vai te fazer chorar mais.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peito de frango cozido e desfiado</li>
+              <li>cenoura em tiras</li>
+              <li>abobrinha em tiras</li>
+              <li>cebola fatiada</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola no azeite até ficar transparente.</li>
+              <li>Adicione cenoura e abobrinha, cozinhe até ficarem macios.</li>
+              <li>Junte o frango, tempere e aqueça antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Frango com legumes é tipo final de mês: você sabe que tem que encarar, mas pelo menos tem recompensa.</div>
+    </article>
+
+    <article class="receita-card" id="mingau-de-aveia-com-maca-e-canela">
+      <h2 class="receita-titulo">Mingau de Aveia com Maçã e Canela</h2>
+      <p class="receita-desc">O abraço quentinho que você esqueceu que precisava.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de aveia</li>
+              <li>ml de leite</li>
+              <li>maçã picada</li>
+              <li>colher de chá de canela</li>
+              <li>colher de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a aveia no leite até engrossar.</li>
+              <li>Adicione a maçã, canela e mel, misture e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mingau com maçã é como mensagem do crush: doce, quentinho e que você quer repetir.</div>
+    </article>
+
+    <article class="receita-card" id="sopa-de-abobora-com-gengibre">
+      <h2 class="receita-titulo">Sopa de Abóbora com Gengibre</h2>
+      <p class="receita-desc">O empurrãozinho que seu corpo pede pra levantar a cabeça.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de abóbora picada</li>
+              <li>cebola picada</li>
+              <li>pedaço pequeno de gengibre ralado</li>
+              <li>litro de água</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e gengibre na panela.</li>
+              <li>Adicione a abóbora e água, cozinhe até a abóbora amolecer.</li>
+              <li>Bata tudo no liquidificador até ficar cremoso, volte à panela, tempere e aqueça.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Essa sopa é tipo aquele amigo que te puxa pra academia: você não quer, mas no fim agradece.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-grao-de-bico-refrescante">
+      <h2 class="receita-titulo">Salada de Grão-de-Bico Refrescante</h2>
+      <p class="receita-desc">Porque proteína na ressaca é amor com gosto de sal.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de grão-de-bico escorrido</li>
+              <li>tomate picado</li>
+              <li>/2 cebola picada</li>
+              <li>Suco de 1 limão</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes na tigela.</li>
+              <li>Ajuste o tempero e sirva fresco.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Grão-de-bico na ressaca é como aquele boleto que você esquece: melhor encarar logo e se livrar.</div>
+    </article>
+
+    <article class="receita-card" id="ensopado-de-lentilha-conforto-total">
+      <h2 class="receita-titulo">Ensopado de Lentilha Conforto Total</h2>
+      <p class="receita-desc">Porque ressaca pede comida que abraça e não só empurra.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 17,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de lentilhas</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>tomates picados</li>
+              <li>litro de água</li>
+              <li>Sal, pimenta e cominho a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho na panela.</li>
+              <li>Adicione lentilhas, tomates, água e temperos.</li>
+              <li>Cozinhe até as lentilhas ficarem macias e o caldo engrossar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Lentilha é tipo aquele amigo que aparece só quando você precisa, mas que faz toda diferença no final.</div>
+    </article>
+
+    <article class="receita-card" id="crepioca-do-recomeco-rapido">
+      <h2 class="receita-titulo">Crepioca do Recomeço Rápido</h2>
+      <p class="receita-desc">Porque a vida não pode parar só porque a cabeça não ajuda.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de tapioca</li>
+              <li>ovo</li>
+              <li>Sal a gosto</li>
+              <li>colher de queijo ralado (opcional)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture ovo, tapioca e sal até formar massa homogênea.</li>
+              <li>Aqueça a frigideira, despeje a massa e cozinhe dos dois lados.</li>
+              <li>Adicione queijo e dobre ao meio, sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Crepioca é como promessa de dieta: fácil de fazer, difícil de resistir ao sofá depois.</div>
+    </article>
+
+    <article class="receita-card" id="cha-de-camomila-com-mel-e-limao">
+      <h2 class="receita-titulo">Chá de Camomila com Mel e Limão</h2>
+      <p class="receita-desc">O calmante natural que sua mente grita que precisa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>sachê de camomila</li>
+              <li>ml de água quente</li>
+              <li>colher de mel</li>
+              <li>Suco de 1/2 limão</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Prepare o chá de camomila com água quente.</li>
+              <li>Adicione mel e limão, misture e beba devagar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Chá de camomila é como aquele tio que não fala muito, mas quando fala, acalma geral.</div>
+    </article>
+
+    <article class="receita-card" id="mingau-de-milho-com-coco">
+      <h2 class="receita-titulo">Mingau de Milho com Coco</h2>
+      <p class="receita-desc">Porque ressaca pede doce, mas sem culpa (ou quase).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de milho verde escorrido</li>
+              <li>ml de leite de coco</li>
+              <li>colheres de sopa de açúcar mascavo</li>
+              <li>colher de farinha de tapioca</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata o milho com leite de coco no liquidificador.</li>
+              <li>Coe e leve ao fogo com açúcar e farinha, mexendo até engrossar.</li>
+              <li>Sirva quente ou frio.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse mingau é tipo férias curtas: doce, rápido e deixa vontade de repetir.</div>
+    </article>
+
+    <article class="receita-card" id="caldo-de-legumes-detox">
+      <h2 class="receita-titulo">Caldo de Legumes Detox</h2>
+      <p class="receita-desc">Para dar um reset no corpo antes do próximo boleto (ou rolezinho).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>cenouras</li>
+              <li>talos de salsão</li>
+              <li>abobrinha</li>
+              <li>cebola</li>
+              <li>litros de água</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Pique todos os legumes e coloque na panela com água.</li>
+              <li>Cozinhe por 30 minutos, coe e tempere com sal.</li>
+              <li>Beba quente ou morno.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Caldo detox é como promessa de dieta pós-fim de semana: quase nunca cumprida, mas sempre tentada.</div>
+    </article>
+
+    <article class="receita-card" id="iogurte-natural-com-mel-e-granola">
+      <h2 class="receita-titulo">Iogurte Natural com Mel e Granola</h2>
+      <p class="receita-desc">Porque ressaca também pede crocância e doçura na vida.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pote de iogurte natural</li>
+              <li>colher de mel</li>
+              <li>colheres de granola</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o mel no iogurte.</li>
+              <li>Cubra com granola e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Iogurte com granola é tipo mensagem de bom dia: simples, rápida e deixa o coração mais leve, mesmo na ressaca.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

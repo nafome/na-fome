@@ -1,0 +1,1762 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>💎 Gourmet — Receitas NaFome</title>
+  <meta name="description" content="40 receitas para quem está na situação "Gourmet". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/gourmet/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="💎 Gourmet — Receitas NaFome">
+  <meta property="og:description" content="40 receitas para quem está na situação "Gourmet". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/gourmet/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "💎 Gourmet — NaFome",
+    "description": "40 receitas para quem está na situação "Gourmet". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/gourmet/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=gourmet" class="btn-sortear">🎲 Sortear receita de Gourmet</a>
+  </nav>
+
+  <div class="hero">
+    <h1>💎 Gourmet</h1>
+    <p>40 receitas para quem está na situação "Gourmet". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">40 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Gourmet pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=gourmet" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="risoto-trufas-negras-almocar-como-invadiu-cofre-chef">
+      <h2 class="receita-titulo">Risoto de Trufas Negras: Porque Almoçar Como se Você Tivesse Invadido o Cofre do Chef</h2>
+      <p class="receita-desc">Para quem quer impressionar no jantar sem precisar vender um rim — só meio, porque trufa não é coisa barata, né? Risoto chique para parecer que você domina a culinária e a vida.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 75,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 xícara de arroz arbóreo</li>
+              <li>1 cebola pequena picada finamente</li>
+              <li>2 colheres de sopa de manteiga</li>
+              <li>100 ml de vinho branco seco</li>
+              <li>1 litro de caldo de legumes quente</li>
+              <li>30g de trufas negras frescas raladas</li>
+              <li>50g de queijo parmesão reggiano ralado na hora</li>
+              <li>Sal a gosto</li>
+              <li>Pimenta-do-reino moída na hora</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola na manteiga até ficar transparente, como aquele seu chefe quando percebe que você entrou na reunião só para olhar o relógio.</li>
+              <li>Adicione o arroz arbóreo e mexa por 2 minutos, dando aquele abraço carinhoso que a dieta não permite.</li>
+              <li>Despeje o vinho branco e espere evaporar, porque nem tudo que brilha é álcool barato.</li>
+              <li>Vá adicionando o caldo de legumes aos poucos, mexendo sempre, até o arroz ficar al dente — tipo aquele amigo que só aparece na hora do rango.</li>
+              <li>Quando o arroz estiver quase pronto, misture as trufas negras raladas e o parmesão, garantindo uma explosão de sabor digna de um chef estrelado.</li>
+              <li>Finalize com sal e pimenta a gosto, ou vai do jeito que seu paladar permitir, porque na cozinha a gente manda mais que na vida.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se você achar muito caro, pode sempre dizer que é um investimento na sua 'experiência gourmet' — ou na desculpa pra gastar o cartão mesmo!</div>
+    </article>
+
+    <article class="receita-card" id="file-mignon-ao-molho-de-foie-gras-sexta-amigo">
+      <h2 class="receita-titulo">Filé Mignon ao Molho de Foie Gras: Porque Hoje é Sexta, Amigo!</h2>
+      <p class="receita-desc">Porque nada diz 'eu tenho dinheiro e gosto duvidoso' como misturar foie gras com filé mignon e ainda chamar isso de jantar casual.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 120,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>4 medalhões de filé mignon (150g cada)</li>
+              <li>100g de foie gras fresco</li>
+              <li>1 colher de sopa de manteiga sem sal</li>
+              <li>1/2 xícara de vinho branco seco</li>
+              <li>1/2 xícara de creme de leite fresco</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>1 kg de batatas</li>
+              <li>50g de manteiga trufada</li>
+              <li>1/2 xícara de leite integral</li>
+              <li>Sal a gosto</li>
+              <li>Azeite para grelhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Descasque as batatas, cozinhe em água com sal até ficarem bem macias.</li>
+              <li>Amasse as batatas ainda quentes, junte manteiga trufada e leite até formar um purê cremoso. Tempere com sal e reserve.</li>
+              <li>Tempere os medalhões com sal e pimenta.</li>
+              <li>Aqueça uma frigideira com azeite e sele os medalhões por cerca de 3 minutos de cada lado para mal passado ou ajuste o tempo ao seu desejo.</li>
+              <li>Retire os medalhões e mantenha aquecido.</li>
+              <li>Na mesma frigideira, reduza o fogo, adicione a manteiga e o foie gras picado, deixe derreter lentamente.</li>
+              <li>Regue com o vinho branco e deixe evaporar o álcool.</li>
+              <li>Acrescente o creme de leite e cozinhe até o molho engrossar levemente. Ajuste o sal e a pimenta.</li>
+              <li>Sirva os medalhões regados com o molho e acompanhados do purê de trufas.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se reclamar do preço, lembre que você está pagando pelo sabor, não pelo seu momento financeiro. Também funciona para justificar aquela segunda garrafa de vinho.</div>
+    </article>
+
+    <article class="receita-card" id="lagosta-thermidor-romance-luxo-manteiga-ervas-conhaque">
+      <h2 class="receita-titulo">Lagosta Thermidor: O Romance de Luxo entre Manteiga de Ervas e Conhaque</h2>
+      <p class="receita-desc">Para quem quer impressionar sem parecer que descobriu o orçamento secreto dos pais — lagosta Thermidor com aquela manteiga de ervas que vai gritar 'Eu sei cozinhar melhor que o delivery'.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 180,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 lagostas vivas (cerca de 500g cada)</li>
+              <li>100g de manteiga sem sal</li>
+              <li>2 colheres de sopa de conhaque</li>
+              <li>1 cebola pequena picada</li>
+              <li>1 dente de alho picado</li>
+              <li>100ml de creme de leite fresco</li>
+              <li>50g de queijo gruyère ralado</li>
+              <li>1 colher de sopa de mostarda dijon</li>
+              <li>Salsinha e cebolinha picadas a gosto</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Suco de 1/2 limão</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva as lagostas por cerca de 5 minutos, apenas para cozinhar levemente e facilitar a extração da carne.</li>
+              <li>Abra as lagostas, retire a carne cuidadosamente e reserve as cascas para rechear depois.</li>
+              <li>Derreta metade da manteiga e refogue a cebola e o alho até ficarem translúcidos — aproveite para fazer um café, porque aí a coisa fica séria.</li>
+              <li>Adicione a carne da lagosta picada, o conhaque (cuidado com o fogo, não queremos incendiar a cozinha, só impressionar os convidados) e deixe reduzir um pouco.</li>
+              <li>Misture o creme de leite, mostarda, sal e pimenta, mexendo até formar um creme homogêneo.</li>
+              <li>Recheie as cascas com essa mistura, polvilhe o queijo gruyère e leve ao forno preaquecido a 200°C para gratinar até dourar (uns 10 minutos).</li>
+              <li>Finalize com a manteiga restante derretida misturada às ervas, um toque de limão e uma boa dose de orgulho por cozinhar algo tão chique em casa.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se errar, finge que está criando um novo prato e chama de 'Lagosta Surpresa'. Mas sério, só não esquece do conhaque — ele é o responsável por esse fogo todo.</div>
+    </article>
+
+    <article class="receita-card" id="carpaccio-de-wagyu-corte-fino-pra-quem-quebra-o-porquinho">
+      <h2 class="receita-titulo">Carpaccio de Wagyu: Corte Fino pra Quem Quebra o Porquinho</h2>
+      <p class="receita-desc">Porque nada diz 'eu sou sofisticado e falido' como um carpaccio de Wagyu com alcaparras e pecorino. Para impressionar sem sujar muita louça.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 120,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>150g de filé de Wagyu bem gelado</li>
+              <li>20g de alcaparras</li>
+              <li>30g de queijo pecorino ralado na hora</li>
+              <li>Azeite extra virgem a gosto</li>
+              <li>Pimenta do reino moída na hora a gosto</li>
+              <li>Folhas de rúcula para decorar</li>
+              <li>Gotinhas de limão siciliano</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Fatie o Wagyu bem fino – se não tiver uma faca afiada, tente usar uma serra, mas não recomendo.</li>
+              <li>Arrume as fatias no prato com leveza, como se estivesse tentando impressionar o crush, mas sem parecer que passou horas nisso.</li>
+              <li>Distribua as alcaparras por cima, porque um pouco de salgado nunca fez mal a ninguém.</li>
+              <li>Regue com azeite extra virgem – nada de usar aquele azeite que você comprou no supermercado que pode ser só óleo disfarçado.</li>
+              <li>Polvilhe o queijo pecorino ralado e um toque de pimenta do reino na medida certa, para parecer que você sabe o que está fazendo.</li>
+              <li>Finalize com algumas gotinhas de limão siciliano e decore com folhas de rúcula para dar aquele ar cool e saudável.</li>
+              <li>Sirva imediatamente antes que alguém perceba o preço da carne e bata em retirada.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o seu orçamento não aguentar o Wagyu, lembre-se: no Instagram ninguém pergunta a procedência, só quer a foto bonita.</div>
+    </article>
+
+    <article class="receita-card" id="vieiras-flambadas-porque-ate-o-mar-merece-um-show-de-fogos">
+      <h2 class="receita-titulo">Vieiras Flambadas: Porque Até o Mar Merece um Show de Fogos</h2>
+      <p class="receita-desc">A receita que prova que você pode colocar fogo na cozinha e ainda sair como chef, não como bombeiro. Vieiras flambadas com champagne e caviar — para quando a vida pedir um pouco de ostentação com sabor.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 150,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>8 vieiras frescas (sem a parte dura)</li>
+              <li>50 ml de champagne brut</li>
+              <li>20 g de caviar</li>
+              <li>2 colheres de sopa de manteiga sem sal</li>
+              <li>1 dente de alho picado</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Salsinha picada para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere as vieiras com sal e pimenta-do-reino. Não economize, elas merecem um tapinha na cara gourmet.</li>
+              <li>Aqueça uma frigideira grande em fogo alto e derreta a manteiga junto com o alho até dourar levemente. É tipo a sauna do spa das vieiras.</li>
+              <li>Adicione as vieiras e sele por cerca de 2 minutos de cada lado, até ficarem douradas e com aquele cheiro que faz inveja ao vizinho.</li>
+              <li>Desligue o fogo, despeje o champagne na frigideira e com cuidado, flambeie com um fósforo aceso ou isqueiro (aquela parte que deixa tudo mais emocionante).</li>
+              <li>Quando as chamas baixarem, arrume as vieiras no prato, coloque uma colher de chá do caviar sobre cada uma e finalize com salsinha picada.</li>
+              <li>Sirva imediatamente com um sorriso de quem sabe que acabou de impressionar até o seu gato.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se for tentar flambar, cuidado para não chamar os bombeiros e acabar desperdiçando o caviar — afinal, o verdadeiro fogo é o do seu talento na cozinha!</div>
+    </article>
+
+    <article class="receita-card" id="magret-de-pato-porque-frango-e-para-os-fracos">
+      <h2 class="receita-titulo">Magret de Pato: Porque Frango é para os Fracos</h2>
+      <p class="receita-desc">Para quando você quer impressionar mas não quer que o frango te julgue por toda a vida.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 70,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 peitos de magret de pato (com pele)</li>
+              <li>1 maracujá grande (polpa)</li>
+              <li>100 ml de vinho do Porto</li>
+              <li>2 colheres de sopa de açúcar mascavo</li>
+              <li>1 colher de sopa de manteiga</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Raminhos de tomilho para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Faça pequenos cortes na pele do magret em formato de losangos, sem atingir a carne; tempere com sal e pimenta.</li>
+              <li>Aqueça uma frigideira e coloque o magret com a pele para baixo sem óleo; deixe a gordura derreter e a pele ficar dourada e crocante (uns 8 minutos).</li>
+              <li>Vire o magret e cozinhe do outro lado por mais 4-5 minutos para um ponto malpassado.</li>
+              <li>Retire o pato da frigideira e deixe descansar enquanto faz o molho.</li>
+              <li>Na mesma frigideira, adicione o açúcar mascavo e deixe derreter até formar caramelo.</li>
+              <li>Junte a polpa do maracujá e o vinho do Porto, mexa até reduzir pela metade e engrosse com a manteiga.</li>
+              <li>Fatie o magret, regue com o molho e decore com tomilho.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se errar o ponto do pato, dá pra dizer que era uma nouvelle cuisine experimental. O importante é ter atitude, e um bom vinho pra disfarçar!</div>
+    </article>
+
+    <article class="receita-card" id="salmao-selvagem-crosta-pistache-mostrando-que-acertou-no-pistache">
+      <h2 class="receita-titulo">Salmão Selvagem com Crosta de Pistache: Porque Comer Bem Também é Sobre Mostrar que Você Conseguiu Achar Pistache no Caixa Econômica</h2>
+      <p class="receita-desc">Aquele prato chique que você prepara pra impressionar, mas no fundo só quer falar que gastou uma fortuna em pistache e virou chef por uma noite.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 75,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>4 filés de salmão selvagem (150g cada)</li>
+              <li>100g de pistaches sem casca e sem sal</li>
+              <li>1 maço de dill fresco</li>
+              <li>2 colheres de sopa de mostarda Dijon</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>2 colheres de sopa de azeite de oliva</li>
+              <li>1 limão siciliano</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Pré-aqueça o forno a 200°C.</li>
+              <li>Pique os pistaches e o dill juntos até formar uma crosta grossa.</li>
+              <li>Tempere os filés de salmão com sal, pimenta e suco de limão.</li>
+              <li>Espalhe a mostarda Dijon sobre cada filé, como quem quer convencer todo mundo que comer salmão com mostarda é super normal.</li>
+              <li>Cubra o salmão com a mistura de pistache e dill, apertando bem para a crosta grudar - porque ninguém quer crosta caindo no prato, a menos que você tenha gatos.</li>
+              <li>Aqueça o azeite numa frigideira que possa ir ao forno e doure os filés por 2 minutos de cada lado - para dar aquela impressão que você sabe o que está fazendo.</li>
+              <li>Leve ao forno por 8 minutos, tempo suficiente para você fingir que não está esperando o prato acabar.</li>
+              <li>Sirva com uma fatia de limão e um sorriso de quem pagou caro mas saiu feliz.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a crosta cair, finja que é um toque moderno; afinal, na alta gastronomia, até desastre vira arte.</div>
+    </article>
+
+    <article class="receita-card" id="creme-brulee-o-luxo-que-queima-ate-seu-cartao">
+      <h2 class="receita-titulo">Creme Brûlée: O Luxo Que Queima Até Seu Cartão</h2>
+      <p class="receita-desc">Um clássico francês que te faz sentir rico enquanto sua fatura do cartão desmonta a carteira – porque nada é tão doce quanto luxo queimado com baunilha de Madagascar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h 10 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 45,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500 ml de creme de leite fresco</li>
+              <li>6 gemas de ovo</li>
+              <li>100 g de açúcar refinado</li>
+              <li>1 fava de baunilha de Madagascar</li>
+              <li>Açúcar cristal para caramelizar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Pré-aqueça o forno a 160ºC e prepare ramequins para assar o creme.</li>
+              <li>Abra a fava de baunilha e raspe as sementes para infundir no creme de leite.</li>
+              <li>Em uma panela, aqueça o creme de leite com as sementes e a fava até quase ferver. Tire do fogo e deixe descansar por 10 minutos.</li>
+              <li>Em uma tigela, bata as gemas com o açúcar até formar uma mistura homogênea e clara, sem virar omelete.</li>
+              <li>Retire a fava do creme e despeje o creme morno suavemente na mistura de gemas, mexendo delicadamente para não cozinhar os ovos.</li>
+              <li>Distribua a mistura nos ramequins, coloque em uma assadeira com água quente até a metade dos ramequins.</li>
+              <li>Asse por cerca de 40 minutos, até que o creme esteja firme nas bordas e ligeiramente tremente no centro.</li>
+              <li>Deixe esfriar, leve à geladeira por no mínimo 2 horas.</li>
+              <li>Na hora de servir, polvilhe açúcar cristal por cima e use um maçarico para caramelizar até formar aquela crostinha que deixa qualquer um hipnotizado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o maçarico for mais moderno que seu fogão, parabéns: você está oficializando o desserviço doméstico mais saboroso da alta gastronomia.</div>
+    </article>
+
+    <article class="receita-card" id="ravioli-ricota-trufas-mimo-gourmet">
+      <h2 class="receita-titulo">Ravioli de Ricota e Trufas: Porque a vida merece um mimo gourmet (e seu bolso, um desespero)</h2>
+      <p class="receita-desc">O jantar para quem quer impressionar o chef de Instagram, mas que pode acabar impressionando mais o seu extrato bancário.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 90 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 85,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>300g de farinha de trigo</li>
+              <li>3 ovos</li>
+              <li>200g de ricota fresca</li>
+              <li>30g de trufa negra ralhada</li>
+              <li>50g de manteiga</li>
+              <li>1 colher de sopa de sálvia fresca</li>
+              <li>sal a gosto</li>
+              <li>pimenta do reino a gosto</li>
+              <li>1 colher de sopa de azeite de oliva extra virgem</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a farinha com os ovos e uma pitada de sal até formar uma massa homogênea. Se a massa reclamar, cadeira de terapia não incluída.</li>
+              <li>Deixe a massa descansar por 30 minutos, tempo suficiente para você repensar suas escolhas de vida.</li>
+              <li>Misture a ricota com a trufa, sal e pimenta, formando o recheio gourmet que seu Instagram vai amar.</li>
+              <li>Abra a massa em folhas bem fininhas e distribua pequenas porções do recheio, formando os raviolis com cuidado para não virar bagunça - ou vai ter mais recheio na bancada do que no pasta.</li>
+              <li>Cozinhe os raviolis em água fervente e salgada até que flutuem, sinal que também querem fugir da panela.</li>
+              <li>Enquanto isso, derreta a manteiga com a sálvia até virar uma manteiga noisette perfumada, porque a vida é curta e manteiga queimada é pecado.</li>
+              <li>Sirva os raviolis com a manteiga noisette por cima e um fio de azeite para parecer que você sabe o que está fazendo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se gastar tanto com trufa assim, pelo menos finja que sabe diferenciar uma trufa de um tubérculo qualquer. Ou então chame a mãe pra elogiar, que sempre funciona.</div>
+    </article>
+
+    <article class="receita-card" id="costela-wagyu-braseada-o-luxo-que-ate-sua-conta-bancaria-vai-sentir-saudade">
+      <h2 class="receita-titulo">Costela Wagyu Braseada: O Luxo que até sua Conta Bancária Vai Sentir Saudade</h2>
+      <p class="receita-desc">Para quem quer impressionar o crush, a família ou apenas a si mesmo, essa costela Wagyu braseada é a definição de 'fome de leão, bolso de tigre'.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 210 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 320,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1,5 kg de costela de Wagyu</li>
+              <li>500 ml de caldo de carne</li>
+              <li>3 dentes de alho picados</li>
+              <li>1 cebola média picada</li>
+              <li>2 ramos de alecrim</li>
+              <li>200 g de tutano</li>
+              <li>1 maço de salsinha</li>
+              <li>1 maço de cebolinha</li>
+              <li>1 maço de hortelã</li>
+              <li>3 colheres de sopa de vinagre de vinho tinto</li>
+              <li>100 ml de azeite extra virgem</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere a costela de Wagyu com sal, pimenta e alho picado.</li>
+              <li>Sele a costela em uma panela quente até dourar todos os lados.</li>
+              <li>Adicione a cebola, o alecrim e o caldo de carne, tampe e deixe brasear em fogo baixo por 3 horas ou até a carne ficar macia o suficiente para desmanchar, igual sua paciência quando troca a carne por brócolis.</li>
+              <li>Enquanto isso, retire o tutano dos ossos e derreta em fogo baixo até ficar cremoso.</li>
+              <li>Para o chimichurri, misture salsinha, cebolinha, hortelã, vinagre, azeite, sal e pimenta até formar um molho verde que parece que saiu direto do spa.</li>
+              <li>Após a costela pronta, sirva com o tutano derretido por cima e uma generosa colherada de chimichurri para fazer sua boca pensar que valeu cada centavo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o preço apertar, lembre-se: é só um jantar, não uma hipoteca. Mas a fama de chef vai durar mais que sua fatura do cartão.</div>
+    </article>
+
+    <article class="receita-card" id="confit-cebola-roxa-ate-cebola-merece-spa">
+      <h2 class="receita-titulo">Confit de Cebola Roxa: porque até a cebola merece um spa</h2>
+      <p class="receita-desc">Confit de cebola roxa para aqueles dias que você quer impressionar o crush e o chef interno ao mesmo tempo. Um toque doce e sofisticado que vai fazer você parecer que sabe cozinhar e ser engraçado ao mesmo tempo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,50</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>cebola roxa</li>
+              <li>azeite de oliva extra virgem</li>
+              <li>vinagre balsâmico</li>
+              <li>açúcar mascavo</li>
+              <li>sal rosa do Himalaia</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Pique as cebolas como se fosse segurar um microfone na mão e mandar aquele stand-up: devagar e com estilo.</li>
+              <li>Coloque tudo na panela com azeite, açúcar e vinagre, e deixe cozinhar até a cebola ficar tão macia quanto seu coração depois de uma piada boa.</li>
+              <li>Mexa de vez em quando, tipo aquele amigo engraçado que não deixa a conversa morrer.</li>
+              <li>Deixe apurar até reduzir e virar uma calda brilhante: glamour puro para seu prato gourmet.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a cebola te fizer chorar, diga que é emoção gourmet!</div>
+    </article>
+
+    <article class="receita-card" id="camarao-champagne-mar-merece-festa-gala">
+      <h2 class="receita-titulo">Camarão ao Champagne: porque até o mar merece uma festa de gala</h2>
+      <p class="receita-desc">Camarão ao champagne para quem quer transformar o jantar numa noite de gala com direito a piada, glamour e um pouco de 'tô rico' na receita.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 42,90</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>camarão fresco</li>
+              <li>champagne brut</li>
+              <li>alho</li>
+              <li>manteiga</li>
+              <li>salsinha</li>
+              <li>pimenta-do-reino</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere os camarões como se estivesse preparando um discurso premiado: com atenção e sem medo.</li>
+              <li>Refogue o alho na manteiga até virar aquele aroma que faz até o vizinho chamar para o jantar.</li>
+              <li>Jogue os camarões na panela e dê aquele mergulho no champagne – afinal, festa boa tem bebida até na comida.</li>
+              <li>Deixe o molho reduzir, polvilhe a salsinha e finalize com pimenta-do-reino para aquele punch de comediante afiado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o champagne acabar, pode usar espumante, mas avisa que é VIP fake!</div>
+    </article>
+
+    <article class="receita-card" id="salada-figos-queijo-cabra-romance-comedia">
+      <h2 class="receita-titulo">Salada de Figos com Queijo de Cabra: o encontro do romance com a comédia</h2>
+      <p class="receita-desc">Salada que é puro romance gourmet com uma pitada de humor – porque até os figos sabem que um bom prato tem que ser leve e engraçado.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>figos frescos</li>
+              <li>queijo de cabra</li>
+              <li>rúcula</li>
+              <li>mel</li>
+              <li>nozes</li>
+              <li>azeite extra virgem</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave e corte os figos como se estivesse preparando o palco para o show: com cuidado e estilo.</li>
+              <li>Arrume a rúcula no prato, porque até a salada merece uma plateia bonita.</li>
+              <li>Coloque os figos, o queijo de cabra e as nozes – a trupe toda reunida para o espetáculo.</li>
+              <li>Regue com mel e azeite para o gran finale, aquela explosão de sabor que faz a piada valer a pena.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se não achar figo, substitua por pera e finja que é gourmet de coração.</div>
+    </article>
+
+    <article class="receita-card" id="polenta-cremosa-funghi-abraco-gourmet">
+      <h2 class="receita-titulo">Polenta Cremosa ao Funghi: o abraço caloroso que sua alma gourmet precisa</h2>
+      <p class="receita-desc">Polenta cremosa com funghi para quem quer conforto gourmet sem medo de ser feliz (e sem medo de errar o ponto).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,70</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fubá mimoso</li>
+              <li>creme de leite</li>
+              <li>manteiga</li>
+              <li>funghi seco</li>
+              <li>alho</li>
+              <li>caldo de legumes</li>
+              <li>parmesão ralado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Hidrate o funghi seco como quem acorda devagar, preparando o dia para ser incrível.</li>
+              <li>Faça a polenta misturando o fubá no caldo de legumes, mexendo sempre para não empelotar (nada de piada travada, hein?).</li>
+              <li>Acrescente manteiga, creme de leite e parmesão para aquele toque de carinho que só um chef sabe dar.</li>
+              <li>Finalize com o funghi refogado no alho, porque até a polenta merece um amigo saboroso.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mexa a polenta como se estivesse contando uma boa piada: sem pressa e com muito amor.</div>
+    </article>
+
+    <article class="receita-card" id="torta-maca-canela-classico-avo-risada">
+      <h2 class="receita-titulo">Torta de Maçã com Canela: o clássico que até sua avó aprovaria com uma risada</h2>
+      <p class="receita-desc">Torta de maçã com canela, a garantia que você vai impressionar qualquer um, até a tia do pavê, com sabor e uma piada doce.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h 10 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,90</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>maçãs verdes</li>
+              <li>açúcar mascavo</li>
+              <li>canela em pó</li>
+              <li>massa folhada</li>
+              <li>suco de limão</li>
+              <li>manteiga</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Descasque e corte as maçãs como quem prepara o roteiro para a comédia: com ritmo e sem enrolação.</li>
+              <li>Misture as maçãs com açúcar mascavo, canela e limão – aquela combinação que faz todo mundo querer bis.</li>
+              <li>Forre a forma com a massa folhada, coloque o recheio e cubra com mais massa, tipo um cobridor de piada ruim.</li>
+              <li>Asse até dourar e deixe o aroma invadir a casa: um convite que ninguém vai recusar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se queimar a torta, diga que é 'caramelo artístico' e pronto: sucesso garantido!</div>
+    </article>
+
+    <article class="receita-card" id="tartare-de-salmao-cru-chique-e-sem-frescura">
+      <h2 class="receita-titulo">Tartare de Salmão: cru, chique e sem frescura</h2>
+      <p class="receita-desc">O tartare de salmão é a prova de que você pode ser gourmet sem precisar ligar o fogão. Cru, elegante e mais fácil que lembrar a senha do Wi-Fi.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 28,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>200g de salmão fresco</li>
+              <li>1 cebola roxa pequena</li>
+              <li>1 colher de sopa de alcaparras</li>
+              <li>1 colher de chá de mostarda Dijon</li>
+              <li>suco de 1 limão</li>
+              <li>azeite extra virgem</li>
+              <li>sal e pimenta do reino</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Pique o salmão como se estivesse cortando os problemas do dia.</li>
+              <li>Misture com cebola roxa picadinha, alcaparras e mostarda – o trio que faz seu paladar dar piruetas.</li>
+              <li>Tempere com limão, azeite, sal e pimenta – porque até tartare precisa de tempero com atitude.</li>
+              <li>Sirva geladinho, para parecer que você sabe o que está fazendo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se errar o corte, finja que é estilo artístico moderno e venda como arte na próxima reunião.</div>
+    </article>
+
+    <article class="receita-card" id="polvo-ao-alho-e-oleo-porque-ate-o-polvo-merece-paparicar">
+      <h2 class="receita-titulo">Polvo ao Alho e Óleo: porque até o polvo merece paparicar</h2>
+      <p class="receita-desc">Polvo ao alho e óleo é o prato que prova que você pode ser sofisticado sem complicar. Perfeito para impressionar sem perder o bom humor.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 42,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de polvo limpo</li>
+              <li>4 dentes de alho</li>
+              <li>azeite extra virgem</li>
+              <li>salsinha fresca</li>
+              <li>sal grosso e pimenta do reino</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o polvo até ele ficar macio, como aquele abraço que você merece.</li>
+              <li>Fatie o alho como se estivesse cortando suas preocupações.</li>
+              <li>Refogue o alho no azeite até dourar e liberar aquele cheiro que faz todo mundo sair da sala.</li>
+              <li>Junte o polvo, mexa como se estivesse encantando a panela, tempere com sal e pimenta e finalize com salsinha.</li>
+              <li>Sirva quente e prepare-se para elogios – ou inveja.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não esqueça: polvo bem cozido não morde, mas a conta pode assustar.</div>
+    </article>
+
+    <article class="receita-card" id="bruschetta-de-tomate-confitado-o-luxo-que-vai-direto-pro-pao">
+      <h2 class="receita-titulo">Bruschetta de Tomate Confitado: o luxo que vai direto pro pão</h2>
+      <p class="receita-desc">Bruschetta é tipo o aperitivo que faz você parecer que sabe tudo de cozinha italiana sem sair do Brasil. Tomate confitado? Sim, a estrela do show que não precisa de palco.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>6 tomates-cereja</li>
+              <li>2 colheres de sopa de azeite</li>
+              <li>2 dentes de alho picados</li>
+              <li>folhas de manjericão fresco</li>
+              <li>pão italiano fatiado</li>
+              <li>sal e pimenta do reino</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte os tomates e deixe eles ‘suar’ numa panela com azeite e alho, como se estivessem numa sauna gourmet.</li>
+              <li>Tempere com sal, pimenta e manjericão – a combinação que até seu tio gourmet aprovaria.</li>
+              <li>Toste as fatias de pão até ficarem com aquela cara de ‘vou ser crocante e delicioso’.</li>
+              <li>Espalhe os tomates confitados por cima e faça cara de chef enquanto serve.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar tomate confitado, coloque na pizza do dia seguinte. É o upgrade que ninguém espera.</div>
+    </article>
+
+    <article class="receita-card" id="ceviche-amazonico-quando-o-limao-encontra-a-selva">
+      <h2 class="receita-titulo">Ceviche Amazônico: quando o limão encontra a selva</h2>
+      <p class="receita-desc">Um ceviche com sotaque amazônico que prova que sua cozinha pode viajar mais que você no último feriado. Refrescante, picante e com aquele toque de selva que ninguém sabia que queria.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>300g de filé de tambaqui fresco</li>
+              <li>suco de 4 limões taiti</li>
+              <li>1 pimenta dedo-de-moça sem sementes</li>
+              <li>1 cebola roxa fatiada</li>
+              <li>coentro fresco</li>
+              <li>sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte o tambaqui em cubos pequenos e fresquinhos, como seu ânimo na segunda-feira.</li>
+              <li>Misture com o suco de limão e deixe marinar até o peixe 'cozinhar' na acidez – tipo banho de spa para peixe.</li>
+              <li>Adicione a cebola, a pimenta e o coentro, aquela pitada que faz a diferença.</li>
+              <li>Tempere com sal e chame os amigos antes de devorar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Use sempre peixe fresquíssimo, porque ninguém quer ceviche que parece fileira de banheiro público.</div>
+    </article>
+
+    <article class="receita-card" id="panna-cotta-de-coco-com-calda-de-maracuja-o-creme-que-te-da-vontade-de-cantar">
+      <h2 class="receita-titulo">Panna Cotta de Coco com Calda de Maracujá: o creme que te dá vontade de cantar</h2>
+      <p class="receita-desc">Essa panna cotta é o abraço doce que você não sabia que precisava. Coco e maracujá se encontram no palco para um dueto que vai fazer seu paladar dançar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 4 h (incluindo geladeira)</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>400ml de leite de coco</li>
+              <li>200ml de creme de leite fresco</li>
+              <li>4 colheres de sopa de açúcar</li>
+              <li>1 envelope de gelatina em pó sem sabor</li>
+              <li>polpa de 2 maracujás</li>
+              <li>2 colheres de sopa de açúcar para a calda</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Hidrate a gelatina conforme instruções, porque até o gelatina merece um banho.</li>
+              <li>Misture o leite de coco, creme de leite e açúcar, e leve ao fogo baixo, mexendo até o açúcar desaparecer como mágica.</li>
+              <li>Incorpore a gelatina e despeje nas forminhas – agora é hora do descanso, tipo soneca pós-almoço.</li>
+              <li>Para a calda, leve a polpa de maracujá com açúcar ao fogo até engrossar, a trilha sonora da sobremesa.</li>
+              <li>Sirva a panna cotta desenformada com a calda por cima e prepare os elogios.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se for cantar, melhor não no chuveiro – a calda pode escorrer.</div>
+    </article>
+
+    <article class="receita-card" id="risoto-de-aspargos-e-limao-o-verde-que-te-faz-rir">
+      <h2 class="receita-titulo">Risoto de Aspargos e Limão: O Verde que Te Faz Rir</h2>
+      <p class="receita-desc">Um risoto que mistura o frescor dos aspargos com o azedinho do limão, perfeito para quem quer comer chique sem precisar vender um rim. A receita é tão fácil que até sua sogra vai pedir bis (ou pelo menos fingir).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 xícara de arroz arbóreo</li>
+              <li>1 maço de aspargos frescos</li>
+              <li>1 limão siciliano (raspas e suco)</li>
+              <li>1 cebola pequena picada</li>
+              <li>1 dente de alho</li>
+              <li>1/2 xícara de vinho branco</li>
+              <li>Caldo de legumes (aproximadamente 1 litro)</li>
+              <li>50 g de queijo parmesão ralado</li>
+              <li>2 colheres de sopa de manteiga</li>
+              <li>Azeite de oliva</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Primeiro, corte os aspargos com carinho, como se fosse um comediante cortando o silêncio: na medida certa.</li>
+              <li>Refogue a cebola e o alho no azeite até ficarem transparentes, quase como aquela piada que você já sabe o final mas ri do mesmo jeito.</li>
+              <li>Jogue o arroz arbóreo para dar aquela suadinha e depois mande o vinho branco para a festa, deixando evaporar, porque ninguém gosta de ressaca.</li>
+              <li>Agora, vá acrescentando o caldo de legumes aos poucos, mexendo com paciência de quem espera resposta no grupo de família.</li>
+              <li>Quando o arroz estiver quase lá, junte os aspargos e o limão, porque nada como um toque cítrico para animar o clube do risoto.</li>
+              <li>Finalize com a manteiga e o parmesão, misturando até virar aquela cremosidade que faz tudo valer a pena.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se ficar empapado, jogue a culpa no arroz, mas continue comendo porque tá gostoso demais!</div>
+    </article>
+
+    <article class="receita-card" id="picanha-ao-molho-de-cerveja-e-mel-o-amor-em-forma-de-churrasco">
+      <h2 class="receita-titulo">Picanha ao Molho de Cerveja e Mel: O Amor em Forma de Churrasco</h2>
+      <p class="receita-desc">Um prato que une o brasileiro amor pela picanha com o toque inesperado do mel e da cerveja. É a receita para impressionar e fazer até o churrasqueiro oficial da família pedir a receita.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de picanha fatiada</li>
+              <li>1 lata de cerveja clara</li>
+              <li>2 colheres de sopa de mel</li>
+              <li>2 dentes de alho picados</li>
+              <li>1 colher de sopa de mostarda</li>
+              <li>Sal grosso e pimenta-do-reino a gosto</li>
+              <li>Azeite para grelhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere a picanha com sal grosso, pimenta e alho, como quem prepara o palco para o show principal.</li>
+              <li>Misture a cerveja, o mel e a mostarda para criar o molho que vai fazer seu paladar aplaudir de pé.</li>
+              <li>Grelhe a picanha até aquele ponto que faz o vizinho bater na parede e pedir um pedaço.</li>
+              <li>Enquanto isso, reduza o molho numa panela, até ficar mais encorpado que seu amigo pedindo bis no karaokê.</li>
+              <li>Regue a carne com o molho, sirva e prepare-se para a plateia (seu estômago) vibrar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se alguém perguntar se tem opção vegetariana, ofereça uma piada e um sorriso – essa é só para os carnívoros!</div>
+    </article>
+
+    <article class="receita-card" id="camarao-na-moranga-com-toque-de-pimenta-e-cachaca-a-bahia-encontrou-minas">
+      <h2 class="receita-titulo">Camarão na Moranga com Toque de Pimenta e Cachaça: A Bahia Encontrou Minas</h2>
+      <p class="receita-desc">Um prato que é quase um carnaval na boca: colorido, animado e com aquele toque que só a cachaça pode dar. Ideal para impressionar sem precisar ser chef – só amigo do fogo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h10 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 70,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 moranga média</li>
+              <li>500g de camarão limpo</li>
+              <li>1 cebola média picada</li>
+              <li>2 dentes de alho</li>
+              <li>200 ml de leite de coco</li>
+              <li>1 pimenta dedo-de-moça picada sem sementes</li>
+              <li>2 colheres de sopa de cachaça</li>
+              <li>Coentro a gosto</li>
+              <li>Azeite, sal e pimenta-do-reino</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a moranga inteira até ficar macia, como aquela piada que só o tio do pavê entende.</li>
+              <li>Enquanto isso, refogue a cebola, alho e a pimenta no azeite e junte os camarões para dar um mergulho rápido.</li>
+              <li>Flambe com a cachaça, para aquela explosão de sabores que faz a festa começar.</li>
+              <li>Adicione o leite de coco e o coentro, criando um molho que é praticamente a caipirinha dos frutos do mar.</li>
+              <li>Retire a tampa da moranga com cuidado, recheie com o camarão e leve ao forno rápido para gratinar e impressionar convidados.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar, faça piada dizendo que é um prato para ressuscitar qualquer ressaca.</div>
+    </article>
+
+    <article class="receita-card" id="salada-quente-de-abobora-e-gorgonzola-a-festa-dos-contrastes">
+      <h2 class="receita-titulo">Salada Quente de Abóbora e Gorgonzola: A Festa dos Contrastes</h2>
+      <p class="receita-desc">Salada? Quente? Sim! Essa receita prova que salada pode ser a estrela do show e que misturar sabores é como contar piada: o segredo está no timing e na entrega.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 32,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>400g de abóbora cabotiá em cubos</li>
+              <li>150g de queijo gorgonzola</li>
+              <li>Mix de folhas verdes (rúcula, agrião, alface) – 2 xícaras</li>
+              <li>Nozes picadas (50g)</li>
+              <li>Azeite trufado (opcional)</li>
+              <li>Sal e pimenta-do-reino</li>
+              <li>Mel para regar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Asse a abóbora até ficar douradinha, como aquele comediante que brilha no palco e no forno.</li>
+              <li>Misture as folhas com as nozes para dar aquela crocância chique, tipo risada inesperada.</li>
+              <li>Coloque a abóbora quente por cima, permitindo que o queijo gorgonzola derreta só um pouquinho, tipo coração de gelo que se rende ao amor.</li>
+              <li>Regue com mel e azeite trufado para o toque final que faz até o seu gato querer experimentar.</li>
+              <li>Sirva rápido antes que alguém queira repetir e você tenha que esconder a travessa.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se não achar azeite trufado, use o normal e finja que sabe o segredo do chef.</div>
+    </article>
+
+    <article class="receita-card" id="espaguete-ao-molho-de-beterraba-com-nozes-o-vermelho-que-nao-e-susto">
+      <h2 class="receita-titulo">Espaguete ao Molho de Beterraba com Nozes: O Vermelho que Não É Susto</h2>
+      <p class="receita-desc">Para quem quer impressionar com cor e sabor, esse espaguete vermelho é o prato que vai fazer você parecer que passou horas na cozinha, mas que na verdade é tão rápido quanto aquela piada boa na roda de amigos.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>250g de espaguete</li>
+              <li>2 beterrabas médias cozidas</li>
+              <li>1/2 xícara de nozes picadas</li>
+              <li>1 dente de alho</li>
+              <li>100 ml de creme de leite fresco</li>
+              <li>Queijo parmesão ralado a gosto</li>
+              <li>Azeite de oliva</li>
+              <li>Sal e pimenta-do-reino</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o espaguete até ficar al dente, do jeito que o brasileiro gosta (nem duro, nem mole demais).</li>
+              <li>No liquidificador, bata a beterraba com o alho, creme de leite, sal e pimenta até virar um molho tão vermelho que assusta (mas só um pouco).</li>
+              <li>Refogue as nozes no azeite até ficarem douradas, porque crocância é vida, minha gente.</li>
+              <li>Misture o molho com o espaguete e finalize com as nozes por cima, como a cereja do bolo, só que mais crocante.</li>
+              <li>Sirva com parmesão e prepare-se para os elogios (ou as perguntas sobre como você ficou com a boca rosa).</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Use guardanapo: beterraba mancha mais que ex da sua vida.</div>
+    </article>
+
+    <article class="receita-card" id="sufle-de-queijo-o-ar-que-cai-no-seu-prato">
+      <h2 class="receita-titulo">Suflê de Queijo: O Ar que Cai no Seu Prato</h2>
+      <p class="receita-desc">Um suflê de queijo que é como aquele amigo que chega leve e faz a festa, mas desaparece rápido — então aproveite cada mordida antes que ele desabe!</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>4 ovos</li>
+              <li>200g de queijo parmesão ralado</li>
+              <li>200ml de leite integral</li>
+              <li>2 colheres de sopa de manteiga</li>
+              <li>2 colheres de sopa de farinha de trigo</li>
+              <li>sal a gosto</li>
+              <li>pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Separe as claras das gemas como quem separa os problemas do domingo.</li>
+              <li>Faça um roux: derreta a manteiga, junte a farinha e mexa até formar uma pasta que não vai te deixar na mão.</li>
+              <li>Adicione o leite, mexa até engrossar e junte as gemas, queijo, sal e pimenta — é o momento de brilhar!</li>
+              <li>Bata as claras em neve até ficarem firmes como suas resoluções de Ano Novo.</li>
+              <li>Incorpore delicadamente as claras no creme, para não perder o ar — porque aqui o segredo é leveza, não drama.</li>
+              <li>Coloque em ramequins untados e leve ao forno pré-aquecido a 180°C por cerca de 25 minutos ou até crescer e dourar, rápido antes que murche como suas plantas.</li>
+              <li>Sirva imediatamente para evitar que desanime como aquele amigo que não responde mensagem.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não abra o forno antes da hora, ou seu suflê vai murchar mais rápido que suas ambições na segunda-feira.</div>
+    </article>
+
+    <article class="receita-card" id="tartar-de-beterraba-cru-e-chique-sem-frescura">
+      <h2 class="receita-titulo">Tartar de Beterraba: Cru e Chique, Sem Frescura</h2>
+      <p class="receita-desc">Tartar de beterraba: a prova de que você pode ser chique, saudável e ainda economizar tempo — e evitar o drama de peixe cru.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 beterrabas médias cruas</li>
+              <li>1 colher de sopa de azeite extra virgem</li>
+              <li>1 colher de chá de mostarda Dijon</li>
+              <li>1 colher de sopa de suco de limão</li>
+              <li>sal e pimenta-do-reino a gosto</li>
+              <li>folhas de rúcula para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Rale as beterrabas cruas como se fosse lavar a alma, com capricho e paciência.</li>
+              <li>Misture o azeite, a mostarda e o limão para fazer o molho que vai dar aquela animada no visual e no sabor.</li>
+              <li>Tempere a beterraba com sal e pimenta, como quem dá aquela apimentada na vida.</li>
+              <li>Monte o tartar com um aro para ficar bonitão — porque aqui a estética também conta, né?</li>
+              <li>Decore com rúcula para aquele toque verde que diz 'eu me importo com minha saúde'</li>
+              <li>Sirva frio, pra combinar com seu humor de quem acordou cedo pra fazer receita gourmet.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não se esqueça do limão, ele é o cupido que junta todos os sabores num romance de dar água na boca.</div>
+    </article>
+
+    <article class="receita-card" id="frango-ao-molho-de-laranja-porque-azedume-tambem-e-sofisticado">
+      <h2 class="receita-titulo">Frango ao Molho de Laranja: Porque Azedume Também é Sofisticado</h2>
+      <p class="receita-desc">Frango ao molho de laranja: quando a acidez encontra a doçura e faz você repensar a vida — ou pelo menos o jantar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de peito de frango</li>
+              <li>2 laranjas</li>
+              <li>2 colheres de sopa de mel</li>
+              <li>2 dentes de alho picados</li>
+              <li>1 colher de sopa de azeite</li>
+              <li>sal e pimenta-do-reino a gosto</li>
+              <li>salsinha para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o frango com sal, pimenta e alho como quem prepara para um encontro importante.</li>
+              <li>Sele o frango no azeite até dourar, porque todo mundo merece um bronzeado digno.</li>
+              <li>Esprema o suco das laranjas e misture com o mel para o molho que vai fazer seu paladar dançar.</li>
+              <li>Despeje o molho na panela, tampe e deixe cozinhar até o frango ficar macio, tipo final de série que te prende no sofá.</li>
+              <li>Finalize com salsinha para aquele toque de chef que só você sabe dar.</li>
+              <li>Sirva com arroz ou aquela saladinha que finge que você come saudável.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o molho ficar muito ácido, jogue mais mel — seu paladar vai agradecer e seu estômago também.</div>
+    </article>
+
+    <article class="receita-card" id="risoto-de-abobora-com-gengibre-outono-no-prato-piada-no-prato">
+      <h2 class="receita-titulo">Risoto de Abóbora com Gengibre: Outono no Prato, Piada no Prato</h2>
+      <p class="receita-desc">Risoto de abóbora com gengibre: aquele abraço quente que você precisava no prato, com um toque de fogo que nem o tio do pavê tem.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 xícara de arroz arbóreo</li>
+              <li>300g de abóbora picada</li>
+              <li>1 pedaço pequeno de gengibre ralado</li>
+              <li>1/2 cebola picada</li>
+              <li>1 dente de alho picado</li>
+              <li>1/2 xícara de vinho branco</li>
+              <li>1 litro de caldo de legumes</li>
+              <li>2 colheres de sopa de manteiga</li>
+              <li>50g de queijo parmesão ralado</li>
+              <li>sal e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho até ficarem douradinhos, como seu humor depois do terceiro café.</li>
+              <li>Junte a abóbora e o gengibre e deixe eles se conhecerem por uns minutinhos.</li>
+              <li>Acrescente o arroz e mexa até os grãos ficarem brilhantes, tipo sua vontade de cozinhar nas férias.</li>
+              <li>Despeje o vinho e deixe evaporar, porque álcool na receita é tipo piada boa: essencial.</li>
+              <li>Vá adicionando o caldo aos poucos, mexendo sempre, até o arroz ficar cremoso, com paciência de monge e fome de leão.</li>
+              <li>Finalize com manteiga, parmesão, sal e pimenta — e prepare-se para ser aplaudido de pé pela sua própria cozinha.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> A paciência é o segredo. Se precisar, coloque uma playlist animada para não desistir no meio do caminho.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-caprese-com-toque-de-balsamico-porque-salada-tambem-pode-ser-festa">
+      <h2 class="receita-titulo">Espetinho Caprese com Toque de Balsâmico: Porque Salada Também Pode Ser Festa</h2>
+      <p class="receita-desc">Espetinho Caprese: a salada que decidiu que podia ser estrela do churrasco, sem perder a classe nem o sabor.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>200g de tomate-cereja</li>
+              <li>200g de muçarela de búfala</li>
+              <li>folhas de manjericão fresco</li>
+              <li>2 colheres de sopa de vinagre balsâmico</li>
+              <li>1 colher de sopa de azeite extra virgem</li>
+              <li>sal e pimenta-do-reino a gosto</li>
+              <li>palitos para espetinho</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave os tomates e folhas de manjericão como se estivesse preparando um spa para eles.</li>
+              <li>Corte a muçarela em bolinhas ou cubos — chique e prático, porque ninguém merece drama.</li>
+              <li>Monte os espetinhos intercalando tomate, muçarela e manjericão, tipo aquele trio que nunca decepciona.</li>
+              <li>Misture o vinagre balsâmico com o azeite, sal e pimenta para o molho que vai transformar seu petisco em obra de arte.</li>
+              <li>Regue os espetinhos com o molho e sirva, porque festa no paladar não espera convite.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Use um bom vinagre balsâmico — a diferença entre um 'uau' e um 'mais ou menos' no seu paladar.</div>
+    </article>
+
+    <article class="receita-card" id="risoto-de-beterraba-vermelho-que-te-deixa-com-fome-e-nao-de-medo">
+      <h2 class="receita-titulo">Risoto de Beterraba: Vermelho que Te Deixa Com Fome e Não de Medo</h2>
+      <p class="receita-desc">Um risoto que pinta seu prato de vermelho e seu humor de alegria. Fácil de fazer, difícil de esquecer! Afinal, beterraba não é só para quem quer virar vampiro.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 xícara de arroz arbóreo</li>
+              <li>1 beterraba média cozida e ralada</li>
+              <li>1/2 cebola picada</li>
+              <li>1 litro de caldo de legumes</li>
+              <li>1/2 xícara de vinho branco seco</li>
+              <li>50g de queijo parmesão ralado</li>
+              <li>2 colheres de sopa de manteiga</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Enquanto a beterraba se esconde no caldo, refogue a cebola com manteiga até ela ficar transparente – igual suas intenções na cozinha.</li>
+              <li>Junte o arroz e o vinho, faça aquela dancinha do chef e deixe o álcool evaporar enquanto você pratica seu sorriso de quem sabe o que está fazendo.</li>
+              <li>Vá adicionando o caldo aos poucos, mexendo sem parar, porque risoto é maratona, não corrida de 100 metros.</li>
+              <li>Quando o arroz estiver quase no ponto, misture a beterraba ralada e deixe o vermelho invadir seu prato e sua alma.</li>
+              <li>Finalize com queijo parmesão, ajuste o sal e a pimenta, e sirva antes que alguém peça um risoto de miojo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se você errar o ponto do risoto, finja que era assim mesmo, é arte moderna!</div>
+    </article>
+
+    <article class="receita-card" id="file-de-tilapia-na-manteiga-de-alho-peixinho-chique-que-nem-seu-sogro-aguenta">
+      <h2 class="receita-titulo">Filé de Tilápia na Manteiga de Alho: Peixinho Chique que Nem Seu Sogro Aguenta</h2>
+      <p class="receita-desc">Um prato simples que vai fazer seu jantar parecer uma festa de aniversário da rainha. Tilápia com manteiga de alho: o básico que virou glamour.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>4 filés de tilápia</li>
+              <li>3 dentes de alho picados</li>
+              <li>50g de manteiga</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal, pimenta-do-reino e salsinha a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere os filés com sal, pimenta e limão, e deixe eles curtindo a vida por uns 10 minutos.</li>
+              <li>Derreta a manteiga numa frigideira, jogue o alho e deixe ele dourar daquele jeitinho que faz você se sentir chef de cozinha.</li>
+              <li>Coloque os filés e deixe dourar, virando com cuidado para não parecer que você está fazendo equilibrista.</li>
+              <li>Finalize com salsinha e mais um pouco de limão se quiser impressionar na foto do prato.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não economize no alho – só cuidado pra não ficar com bafo de dragão no encontro.</div>
+    </article>
+
+    <article class="receita-card" id="brie-assado-com-mel-e-nozes-queijo-que-se-veste-de-festa-e-danca-com-seu-paladar">
+      <h2 class="receita-titulo">Brie Assado com Mel e Nozes: Queijo Que Se Veste de Festa e Dança com Seu Paladar</h2>
+      <p class="receita-desc">Esse brie é tipo aquele amigo que chega na festa e todo mundo quer conversar. Derretido, doce e com nozes crocantes, é o luxo que não pede convite.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 roda de queijo brie (200g)</li>
+              <li>3 colheres de sopa de mel</li>
+              <li>1/4 de xícara de nozes picadas</li>
+              <li>Pimenta rosa para decorar</li>
+              <li>Pão baguete para acompanhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Preaqueça o forno a 180ºC e prepare-se para o show do queijo derretido.</li>
+              <li>Coloque o brie numa travessa pequena, regue com mel, jogue as nozes por cima e uma pitada de pimenta rosa para aquela pose de influencer.</li>
+              <li>Leve ao forno por uns 15 minutos ou até o queijo estar com cara de quem acabou de sair da sauna gourmet.</li>
+              <li>Sirva quente com fatias de baguete, porque dourado combina com crocante e com risada na cozinha.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não deixe o queijo passar do ponto, ou vira queijo derretido com crise existencial.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-camarao-com-bacon-o-amor-improvavel-que-todo-gourmet-quer-provar">
+      <h2 class="receita-titulo">Espetinho de Camarão com Bacon: O Amor Improvável que Todo Gourmet Quer Provar</h2>
+      <p class="receita-desc">Quando o mar encontra a fazenda, nasce esse espetinho que é festa no paladar. Camarão com bacon: a prova de que opostos realmente se atraem.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>300g de camarão limpo</li>
+              <li>150g de bacon em fatias</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Palitos para espetinho</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o camarão com sal, pimenta e limão – nada de frescura, só amor.</li>
+              <li>Enrole cada camarão em uma fatia fina de bacon, tipo um abraço saboroso.</li>
+              <li>Espete os camarões enrolados no palito e prepare-se para o espetáculo na grelha ou frigideira.</li>
+              <li>Cozinhe até o bacon ficar crocante e o camarão suculento – o equilíbrio do universo em um espetinho.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Fique de olho na grelha... bacon gosta de brilhar, mas não quer virar carvão.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-rucula-com-pera-e-gorgonzola-o-romance-azedo-doce-que-ate-shakespeare-aprovava">
+      <h2 class="receita-titulo">Salada de Rúcula com Pera e Gorgonzola: O Romance Azedo-Doce Que Até Shakespeare Aprovava</h2>
+      <p class="receita-desc">Azeda, doce, crocante e cremosa – essa salada é como aquela piada que só os bons entendem, mas todo mundo quer provar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>3 xícaras de rúcula fresca</li>
+              <li>1 pera madura fatiada</li>
+              <li>100g de queijo gorgonzola esfarelado</li>
+              <li>1/4 de xícara de nozes tostadas</li>
+              <li>Molho: azeite, vinagre balsâmico, mel, sal e pimenta</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave e seque a rúcula, porque ninguém gosta de salada nadando no tanque.</li>
+              <li>Misture o azeite, balsâmico, mel, sal e pimenta para fazer o molho que vai dar aquele 'up' no seu status gourmet.</li>
+              <li>Monte a salada com rúcula, pera, gorgonzola e nozes – combinação que é quase poesia no prato.</li>
+              <li>Regue com o molho na hora de servir e prepare-se para elogios, ou pelo menos para parecer que sabe o que está fazendo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não deixe o gorgonzola mandar no prato, mantenha a paz entre os sabores!</div>
+    </article>
+
+    <article class="receita-card" id="carpaccio-de-beterraba-cru-vermelho-e-de-roer-as-unhas">
+      <h2 class="receita-titulo">Carpaccio de Beterraba: Cru, vermelho e de roer as unhas</h2>
+      <p class="receita-desc">Quem disse que beterraba é só pra suco de vó? Essa receita é a prova de que ela pode entrar no jogo gourmet e ainda te fazer rir do quanto ficou chique.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 beterrabas médias</li>
+              <li>50 ml de azeite extra virgem</li>
+              <li>Suco de 1 limão siciliano</li>
+              <li>Raspas de limão siciliano</li>
+              <li>Folhas de rúcula</li>
+              <li>50g de queijo parmesão ralado na hora</li>
+              <li>Sal marinho</li>
+              <li>Pimenta do reino moída</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave as beterrabas com carinho, afinal, elas merecem.</li>
+              <li>Com uma faca afiada (ou um mandolim para parecer chef), corte a beterraba em fatias finíssimas, quase transparentes — é para fingir que você sabe o que está fazendo.</li>
+              <li>Arrume as fatias no prato, como se estivesse pendurando uma obra de arte moderna.</li>
+              <li>Tempere com sal, pimenta, azeite e o suco de limão — a beterraba vai ficar tão vermelha que seu blush vai ter inveja.</li>
+              <li>Decore com folhas de rúcula e as raspas de limão para aquele toque de chef que ninguém entende, mas todo mundo admira.</li>
+              <li>Finalize com parmesão ralado para dar um crunch que ninguém esperava.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se errar a faca, finge que é o estilo do prato. Estilo ‘beterraba freestyle’.</div>
+    </article>
+
+    <article class="receita-card" id="pernil-de-porco-ao-vinho-com-toque-de-vovo-descolada">
+      <h2 class="receita-titulo">Pernil de Porco ao Vinho com Toque de Vovó Descolada</h2>
+      <p class="receita-desc">Um prato que junta tradição e ousadia, para quem quer impressionar sem parecer que passou o dia inteiro na cozinha (mas na verdade passou sim).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 3h (com marinada e cozimento)</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 45,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 kg de pernil de porco</li>
+              <li>2 dentes de alho amassados</li>
+              <li>1 cebola grande picada</li>
+              <li>200 ml de vinho tinto seco</li>
+              <li>2 folhas de louro</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>2 colheres de sopa de mel</li>
+              <li>Alecrim fresco</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o pernil com sal, pimenta, alho e alecrim – imagine que está preparando um spa para o porco antes do show.</li>
+              <li>Coloque para marinar no vinho tinto e deixe dar aquele mergulho profundo por pelo menos 2 horas (ou durante o tempo que você ficar vendo séries).</li>
+              <li>Na panela, refogue a cebola até dourar e jogue o pernil com tudo dentro, incluindo o vinho da marinada – porque desperdício não é chique.</li>
+              <li>Adicione as folhas de louro e o mel para aquela mistura doce e rebelde.</li>
+              <li>Cozinhe em fogo baixo, com a tampa, até a carne estar tão macia que vai se despedir do osso, tipo ex da novela.</li>
+              <li>Pra finalizar, dê um toque de forno para dourar e deixar todo mundo babando.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar, conte que é receita secreta da família. Ninguém precisa saber que foi improviso.</div>
+    </article>
+
+    <article class="receita-card" id="quiche-de-alho-poro-chique-no-ultimo-fio-verde">
+      <h2 class="receita-titulo">Quiche de Alho-Poró: Chique no último fio verde</h2>
+      <p class="receita-desc">Para quem quer ser chique sem precisar de ingrediente vindo do outro lado do mundo. Um clássico que combina com piada boa e vinho barato.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 massa folhada pronta</li>
+              <li>3 talos de alho-poró fatiados finamente</li>
+              <li>3 ovos</li>
+              <li>200 ml de creme de leite fresco</li>
+              <li>100g queijo gruyère ralado (pode ser parmesão ralado na falta)</li>
+              <li>Sal, pimenta do reino e noz-moscada a gosto</li>
+              <li>Manteiga para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Pré-aqueça seu forno, enquanto finge que sabe a temperatura exata (180°C tá ótimo).</li>
+              <li>Em uma frigideira, derreta manteiga e refogue o alho-poró até ele ficar macio e se sentir importante.</li>
+              <li>Misture os ovos com creme de leite, o queijo ralado e tempere com sal, pimenta e uma pitada de noz-moscada — porque a vida precisa de um toque misterioso.</li>
+              <li>Forre uma forma com a massa folhada e pique o fundo com um garfo para não empolgar e crescer demais.</li>
+              <li>Espalhe o alho-poró refogado, derrame a mistura cremosa e leve ao forno até firmar e dourar — mais ou menos 35 minutos.</li>
+              <li>Espere esfriar um pouco, porque ninguém merece boca queimada no nível chef.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a massa fugir do forno, diga que é conceito artístico. Ninguém vai te julgar.</div>
+    </article>
+
+    <article class="receita-card" id="espaguete-ao-molho-de-limao-siciliano-e-manjericao">
+      <h2 class="receita-titulo">Espaguete ao Molho de Limão Siciliano e Manjericão: Acorda o paladar (e o chefe preguiçoso)</h2>
+      <p class="receita-desc">Para quem quer uma receita gourmet, rápida e que vai acordar até seu vizinho. O limão dá o toque ácido, o manjericão o charme e você, a piada final.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>250g de espaguete</li>
+              <li>Suco e raspas de 2 limões sicilianos</li>
+              <li>1 maço de manjericão fresco</li>
+              <li>3 colheres de sopa de azeite extra virgem</li>
+              <li>2 dentes de alho picados</li>
+              <li>Sal e pimenta do reino a gosto</li>
+              <li>50g queijo parmesão ralado para servir</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o espaguete na água com sal até ficar al dente — tipo você na segunda-feira, firme, mas não muito duro.</li>
+              <li>Enquanto isso, aqueça o azeite e refogue o alho suavemente, sem deixar queimar (porque queimar é coisa de iniciante).</li>
+              <li>Desligue o fogo, misture o suco e as raspas do limão, e adicione as folhas de manjericão rasgadas na hora — nada de preguiça com manjericão congelado.</li>
+              <li>Escorra o macarrão e misture ao molho, mexendo com amor (ou com garfo mesmo, que também dá).</li>
+              <li>Sirva com parmesão ralado e um sorriso porque você merece.</li>
+              <li>Se quiser impressionar, conte que esse prato é a cara do verão, mesmo que esteja chovendo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Use o limão inteiro, porque quanto mais azedo, mais chique. Ou pelo menos é o que dizem.</div>
+    </article>
+
+    <article class="receita-card" id="caldinho-de-mandioquinha-com-gengibre-o-aconchego-que-te-da-um-tapa-gourmet">
+      <h2 class="receita-titulo">Caldinho de Mandioquinha com Gengibre: O aconchego que te dá um tapa gourmet</h2>
+      <p class="receita-desc">Quando a mandioquinha encontra o gengibre, é como se o Brasil tropical desse um abraço gourmet no seu estômago.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de mandioquinha descascada e picada</li>
+              <li>1 pedaço de gengibre fresco (3cm) ralado</li>
+              <li>1 dente de alho picado</li>
+              <li>1 cebola média picada</li>
+              <li>1 litro de caldo de legumes ou água</li>
+              <li>Sal e pimenta do reino a gosto</li>
+              <li>Cheiro verde para decorar</li>
+              <li>Azeite para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola e o alho no azeite até ficarem dourados e mais perfumados que seu chefe depois do café.</li>
+              <li>Junte a mandioquinha e o gengibre, mexendo como se estivesse fazendo mágica, mas é só calor mesmo.</li>
+              <li>Cubra com caldo de legumes e deixe cozinhar até a mandioquinha virar um abraço quente, bem macia.</li>
+              <li>Bata tudo no liquidificador até ficar cremoso, tipo aquele suspense do final da série.</li>
+              <li>Volte para a panela para ajustar o sal e a pimenta, porque ninguém merece caldinho apagadinho.</li>
+              <li>Sirva com cheiro verde e prepare-se para os aplausos (ou pelo menos um obrigado).</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar, guarde para os dias que você quer se sentir abraçado pela culinária sem sair do sofá.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

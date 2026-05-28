@@ -1,0 +1,1522 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🚫 Sem Fogão — Receitas NaFome</title>
+  <meta name="description" content="38 receitas para quem está na situação "Sem Fogão". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/sem-fogao/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🚫 Sem Fogão — Receitas NaFome">
+  <meta property="og:description" content="38 receitas para quem está na situação "Sem Fogão". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/sem-fogao/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🚫 Sem Fogão — NaFome",
+    "description": "38 receitas para quem está na situação "Sem Fogão". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/sem-fogao/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=sem-fogao" class="btn-sortear">🎲 Sortear receita de Sem Fogão</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🚫 Sem Fogão</h1>
+    <p>38 receitas para quem está na situação "Sem Fogão". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">38 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Sem Fogão pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=sem-fogao" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="salada-power-pos-treino-do-sofa">
+      <h2 class="receita-titulo">Salada Power Pós-Treino do Sofá</h2>
+      <p class="receita-desc">Porque malhar na academia já cansa, imagina cozinhar depois!</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g peito de frango defumado fatiado</li>
+              <li>xícara de quinoa cozida (comprada pronta)</li>
+              <li>/2 pepino picado</li>
+              <li>tomates-cereja cortados ao meio</li>
+              <li>/4 xícara de grão-de-bico enlatado, escorrido</li>
+              <li>colheres de sopa de azeite extra virgem</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em uma tigela grande, misture a quinoa, o pepino, tomates e grão-de-bico.</li>
+              <li>Acrescente o peito de frango defumado e tempere com azeite, limão, sal e pimenta.</li>
+              <li>Mexa delicadamente e sirva imediatamente, antes que a preguiça vença.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a preguiça bater forte, lembra que até boletos a gente paga sem sair do sofá. Essa salada é igual: saudável, fácil e sem esforço!</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-sofisticado-de-atum-com-abacate">
+      <h2 class="receita-titulo">Sanduíche Sofisticado de Atum com Abacate</h2>
+      <p class="receita-desc">Porque amar a si mesmo inclui não queimar a cozinha</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de atum em água, escorrido</li>
+              <li>/2 abacate maduro</li>
+              <li>fatias de pão integral</li>
+              <li>colher de sopa de maionese light</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Folhas de alface para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Amasse o abacate com um garfo até virar um creme.</li>
+              <li>Misture o atum, a maionese, sal e pimenta ao creme de abacate.</li>
+              <li>Espalhe a mistura nas fatias de pão, decore com alface e feche o sanduíche.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der abacate, faz sanduíche. Pelo menos ele não vai te perguntar “quando vai lavar a louça”.</div>
+    </article>
+
+    <article class="receita-card" id="taca-romantica-de-camarao-com-manga">
+      <h2 class="receita-titulo">Taça Romântica de Camarão com Manga</h2>
+      <p class="receita-desc">Porque conquistar o crush é mais fácil que acender um fogão</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 42,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g camarão cozido e descascado (pronto para consumo)</li>
+              <li>manga pequena cortada em cubos</li>
+              <li>/2 cebola roxa picada finamente</li>
+              <li>Suco de 1 limão</li>
+              <li>colheres de sopa de coentro picado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em uma tigela, misture o camarão, a manga, cebola, coentro e suco de limão.</li>
+              <li>Tempere com sal e pimenta, mexa delicadamente.</li>
+              <li>Distribua em taças e leve à geladeira por 10 minutos antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o crush não se impressionar com isso, pelo menos você não precisou apagar incêndio na cozinha. Já é um upgrade!</div>
+    </article>
+
+    <article class="receita-card" id="overnight-oats-energetico-com-frutas-vermelhas">
+      <h2 class="receita-titulo">Overnight Oats Energético com Frutas Vermelhas</h2>
+      <p class="receita-desc">O café da manhã que trabalha mais que você (e sem fogão)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 8 horas (de descanso)</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>/2 xícara de aveia em flocos</li>
+              <li>/2 xícara de leite vegetal ou leite de sua preferência</li>
+              <li>colher de sopa de chia</li>
+              <li>colher de chá de mel</li>
+              <li>/4 xícara de frutas vermelhas congeladas ou frescas</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em um pote, misture a aveia, leite, chia e mel.</li>
+              <li>Cubra com as frutas vermelhas e tampe o pote.</li>
+              <li>Leve à geladeira durante a noite e coma no dia seguinte, sem culpa e sem fogueira.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te deixar na seca, essa aveia vai te hidratar. Sem fogão, sem drama, só sabor e energia.</div>
+    </article>
+
+    <article class="receita-card" id="wrap-mediterraneo-de-grao-de-bico">
+      <h2 class="receita-titulo">Wrap Mediterrâneo de Grão-de-Bico</h2>
+      <p class="receita-desc">Porque enrolar a vida já basta, enrolar comida também é vida</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pão sírio integral</li>
+              <li>/2 xícara de grão-de-bico enlatado, escorrido</li>
+              <li>colheres de sopa de homus</li>
+              <li>folhas de rúcula</li>
+              <li>/4 pepino fatiado fino</li>
+              <li>azeitonas pretas fatiadas</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe o homus sobre o pão sírio.</li>
+              <li>Distribua o grão-de-bico, rúcula, pepino e azeitonas.</li>
+              <li>Tempere com sal e pimenta, enrole como se enrolasse os problemas e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Enrolar comida é menos traumático que enrolar boletos. Pelo menos essa receita não fica atrasada!</div>
+    </article>
+
+    <article class="receita-card" id="mix-de-frutas-com-iogurte-grego-e-mel">
+      <h2 class="receita-titulo">Mix de Frutas com Iogurte Grego e Mel</h2>
+      <p class="receita-desc">O único mix que você precisa na vida: frutas e preguiça</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pote de iogurte grego natural (150g)</li>
+              <li>/2 maçã picada</li>
+              <li>/4 xícara de uvas sem sementes</li>
+              <li>colher de sopa de mel</li>
+              <li>colher de sopa de granola (opcional)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque o iogurte em uma tigela.</li>
+              <li>Acrescente as frutas picadas, mel e granola por cima.</li>
+              <li>Misture levemente e aproveite antes que o sono vença.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der preguiça, faça isso. É tão fácil que até o seu cachorro vai se sentir inútil.</div>
+    </article>
+
+    <article class="receita-card" id="bruschetta-de-tomate-e-manjericao-sem-forno">
+      <h2 class="receita-titulo">Bruschetta de Tomate e Manjericão Sem Forno</h2>
+      <p class="receita-desc">Porque às vezes só queremos algo chique sem sujar a cozinha inteira</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão integral sem tostar</li>
+              <li>tomates maduros picados</li>
+              <li>folhas de manjericão fresco picadas</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o tomate, manjericão, azeite, sal e pimenta.</li>
+              <li>Distribua a mistura sobre as fatias de pão.</li>
+              <li>Sirva imediatamente antes que o pão fique triste de molhar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida não te der forno, faça uma bruschetta sem ele. É quase como um beijo: pode não ser quente, mas é saboroso!</div>
+    </article>
+
+    <article class="receita-card" id="salpicao-vegano-de-cenoura-e-maca">
+      <h2 class="receita-titulo">Salpicão Vegano de Cenoura e Maçã</h2>
+      <p class="receita-desc">Porque até a salada merece festa, sem fogo e sem drama</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>cenouras médias raladas</li>
+              <li>maçã verde picada em cubos pequenos</li>
+              <li>/2 cebola roxa picada finamente</li>
+              <li>/3 xícara de uvas-passas</li>
+              <li>/3 xícara de castanhas picadas</li>
+              <li>colheres de sopa de maionese vegana</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em uma tigela, misture cenoura, maçã, cebola, uvas-passas e castanhas.</li>
+              <li>Adicione a maionese vegana, tempere com sal e pimenta.</li>
+              <li>Misture bem e sirva gelado, para não perder o ritmo da preguiça.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der cenoura, faça salpicão. Se der preguiça, coloque mais maionese. Ninguém precisa saber!</div>
+    </article>
+
+    <article class="receita-card" id="poke-bowl-de-salmao-defumado">
+      <h2 class="receita-titulo">Poke Bowl de Salmão Defumado</h2>
+      <p class="receita-desc">Porque até quem não sabe cozinhar merece parecer chef no Instagram</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 36,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g salmão defumado fatiado</li>
+              <li>/2 xícara de arroz integral cozido comprado pronto</li>
+              <li>/4 pepino em cubos</li>
+              <li>/4 abacate em fatias</li>
+              <li>colher de sopa de molho shoyu</li>
+              <li>colher de chá de gergelim preto</li>
+              <li>Cebolinha picada a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em uma tigela, coloque o arroz integral como base.</li>
+              <li>Arrume o salmão, pepino e abacate por cima.</li>
+              <li>Regue com o shoyu, salpique gergelim e finalize com cebolinha.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se cozinhar é um bicho de sete cabeças, montar poke é só um bicho-papão. Mas calma, ele é bonzinho!</div>
+    </article>
+
+    <article class="receita-card" id="bowl-refrescante-de-melancia-e-queijo-feta">
+      <h2 class="receita-titulo">Bowl Refrescante de Melancia e Queijo Feta</h2>
+      <p class="receita-desc">Porque só o boleto esquenta, a comida não precisa</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 8 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de melancia em cubos</li>
+              <li>g queijo feta esfarelado</li>
+              <li>Folhas de hortelã a gosto</li>
+              <li>Suco de 1/2 limão</li>
+              <li>colher de sopa de azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a melancia com queijo feta e hortelã.</li>
+              <li>Regue com suco de limão e azeite.</li>
+              <li>Sirva gelado, porque só o boleto pode queimar você.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o calor te deixa derretendo, essa receita é tipo ar-condicionado no prato. Sem fio, sem barulho!</div>
+    </article>
+
+    <article class="receita-card" id="salada-caprese-no-pote">
+      <h2 class="receita-titulo">Salada Caprese no Pote</h2>
+      <p class="receita-desc">Porque até a salada gosta de uma vida prática e sem fogo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g queijo mussarela de búfala em bolinhas</li>
+              <li>tomates-cereja cortados ao meio</li>
+              <li>Folhas de manjericão fresco</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>No pote, coloque camadas de tomate, queijo e manjericão.</li>
+              <li>Tempere com azeite, sal e pimenta em cada camada.</li>
+              <li>Tampe e leve à geladeira até o momento de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der potes, faz salada no pote. Pelo menos você não vai precisar lavar a cozinha toda depois.</div>
+    </article>
+
+    <article class="receita-card" id="creme-de-abacate-com-cacau-e-mel">
+      <h2 class="receita-titulo">Creme de Abacate com Cacau e Mel</h2>
+      <p class="receita-desc">Porque às vezes o doce da vida vem sem forno e sem culpa</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abacate pequeno maduro</li>
+              <li>colheres de sopa de cacau em pó sem açúcar</li>
+              <li>colher de sopa de mel</li>
+              <li>colher de chá de essência de baunilha</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até virar um creme homogêneo.</li>
+              <li>Coloque em tigelas e leve à geladeira por 10 minutos.</li>
+              <li>Sirva gelado, porque o calor já é problema suficiente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der abacate e preguiça, faz esse creme. É tipo brigadeiro, só que sem ter que ligar o fogo.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-graos-com-frutas-secas">
+      <h2 class="receita-titulo">Salada de Grãos com Frutas Secas</h2>
+      <p class="receita-desc">Porque até a mistura tem mais equilíbrio que minha vida financeira</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 19,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de lentilhas cozidas (compradas prontas)</li>
+              <li>/4 xícara de damascos secos picados</li>
+              <li>/4 xícara de nozes picadas</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture as lentilhas, damascos e nozes em uma tigela.</li>
+              <li>Tempere com azeite, limão, sal e pimenta.</li>
+              <li>Mexa bem e sirva na hora ou gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der grãos, faça salada. Se der dívida, pelo menos você vai estar saudável para pagar.</div>
+    </article>
+
+    <article class="receita-card" id="ceviche-de-tilapia-rapido">
+      <h2 class="receita-titulo">Ceviche de Tilápia Rápido</h2>
+      <p class="receita-desc">Porque peixe cru é o fogo que você não precisa acender</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g filé de tilápia fresco cortado em cubos pequenos</li>
+              <li>Suco de 3 limões</li>
+              <li>/2 cebola roxa fatiada fina</li>
+              <li>pimenta dedo-de-moça sem sementes picada</li>
+              <li>Coentro picado a gosto</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em tigela, cubra o peixe com o suco de limão e deixe marinar por 15 minutos.</li>
+              <li>Adicione a cebola, pimenta, coentro e sal.</li>
+              <li>Misture delicadamente e sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se cozinhar é um pesadelo, marinar é o sonho. Só cuidado pra não marinar o crush junto, que isso é cilada!</div>
+    </article>
+
+    <article class="receita-card" id="smoothie-verde-detox">
+      <h2 class="receita-titulo">Smoothie Verde Detox</h2>
+      <p class="receita-desc">Porque se a vida é amarga, o suco pelo menos pode ser verde e doce</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 7 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 13,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>folha grande de couve rasgada</li>
+              <li>maçã verde picada</li>
+              <li>/2 pepino picado</li>
+              <li>Suco de 1 limão</li>
+              <li>ml de água de coco</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até ficar homogêneo.</li>
+              <li>Sirva gelado em um copo grande.</li>
+              <li>Beba antes que o tédio te ataque.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der limão, faz smoothie. Se der preguiça, bota gelo e deixa a preguiça congelar também.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-abacaxi-com-hortela-e-gengibre">
+      <h2 class="receita-titulo">Salada de Abacaxi com Hortelã e Gengibre</h2>
+      <p class="receita-desc">Porque até a combinação mais inusitada tem mais química que meu último relacionamento</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de abacaxi em cubos</li>
+              <li>Folhas de hortelã picadas a gosto</li>
+              <li>colher de chá de gengibre ralado</li>
+              <li>Suco de 1 limão</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o abacaxi com hortelã e gengibre na tigela.</li>
+              <li>Regue com suco de limão e mel.</li>
+              <li>Mexa e sirva gelado para refrescar a alma.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der abacaxi, faz salada. Se te der ex, ignora e come mesmo assim.</div>
+    </article>
+
+    <article class="receita-card" id="tabua-de-queijos-e-frutas-sem-misterio">
+      <h2 class="receita-titulo">Tábua de Queijos e Frutas Sem Mistério</h2>
+      <p class="receita-desc">Porque montar tábua é o máximo que o fogão vai pedir hoje</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g queijo brie</li>
+              <li>g queijo gouda</li>
+              <li>maçã fatiada</li>
+              <li>punhado de uvas</li>
+              <li>Castanhas variadas a gosto</li>
+              <li>Mel para acompanhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Disponha os queijos na tábua.</li>
+              <li>Arrume as frutas e castanhas ao redor.</li>
+              <li>Sirva com mel para lambuzar sem culpa.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida é bagunçada, pelo menos a sua tábua pode ser organizada. E sem fogão pra complicar!</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-feijao-fradinho-com-tomate-e-cebolinha">
+      <h2 class="receita-titulo">Salada de Feijão Fradinho com Tomate e Cebolinha</h2>
+      <p class="receita-desc">Porque o feijão também pode ser amigo do seu tempo livre</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de feijão fradinho cozido (comprado pronto)</li>
+              <li>tomate picado</li>
+              <li>Cebolinha picada a gosto</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Suco de 1/2 limão</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o feijão com tomate e cebolinha.</li>
+              <li>Tempere com azeite, limão, sal e pimenta.</li>
+              <li>Mexa e sirva, porque o tempo é precioso demais pra fogão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te deixar na seca, pelo menos o feijão fradinho vai estar molhadinho e saboroso.</div>
+    </article>
+
+    <article class="receita-card" id="pate-de-ricota-com-ervas-finas">
+      <h2 class="receita-titulo">Patê de Ricota com Ervas Finas</h2>
+      <p class="receita-desc">Porque passar no pão é mais fácil que passar a noite acordado</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de ricota amassada</li>
+              <li>colher de sopa de azeite</li>
+              <li>colher de sopa de salsinha picada</li>
+              <li>colher de sopa de cebolinha picada</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a ricota com azeite e ervas.</li>
+              <li>Tempere com sal e pimenta.</li>
+              <li>Sirva com torradas ou pão integral.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der ricota, faz patê. Se der estresse, passa no pão e não na cabeça dos outros.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-graos-com-pepino-e-iogurte">
+      <h2 class="receita-titulo">Salada de Grãos com Pepino e Iogurte</h2>
+      <p class="receita-desc">Porque a combinação mais refrescante do verão é sem fogo e com estilo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de cevada cozida (comprada pronta)</li>
+              <li>/2 pepino picado</li>
+              <li>/2 xícara de iogurte natural</li>
+              <li>Hortelã picada a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a cevada com pepino e hortelã.</li>
+              <li>Adicione o iogurte e tempere com sal e pimenta.</li>
+              <li>Sirva gelado para não esquentar o clima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der cevada, faz essa salada. Se te der calor, pelo menos não vai precisar ligar o fogão pra se refrescar.</div>
+    </article>
+
+    <article class="receita-card" id="bowl-de-frutas-tropicais-com-granola">
+      <h2 class="receita-titulo">Bowl de Frutas Tropicais com Granola</h2>
+      <p class="receita-desc">Porque começar o dia já é um desafio, pelo menos o café da manhã não precisa ser</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>/2 banana fatiada</li>
+              <li>/2 manga picada</li>
+              <li>/2 kiwi fatiado</li>
+              <li>colheres de sopa de granola</li>
+              <li>colher de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque as frutas em uma tigela.</li>
+              <li>Adicione a granola e regue com mel.</li>
+              <li>Misture levemente e aproveite.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te deixar zonzo, pelo menos o café da manhã vai te dar energia. E sem fogão, pra não queimar a paciência.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-lentilha-com-tomate-seco-e-rucula">
+      <h2 class="receita-titulo">Salada de Lentilha com Tomate Seco e Rúcula</h2>
+      <p class="receita-desc">Porque a lentilha também pode ser diva sem precisar de panelas</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de lentilha cozida (comprada pronta)</li>
+              <li>/4 xícara de tomate seco picado</li>
+              <li>xícara de rúcula</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Suco de 1/2 limão</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a lentilha com tomate seco e rúcula.</li>
+              <li>Tempere com azeite, limão, sal e pimenta.</li>
+              <li>Sirva em seguida e não deixe a vida esfriar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der lentilha, faz essa salada. Se der preguiça, compra pronta e finge que fez.</div>
+    </article>
+
+    <article class="receita-card" id="mix-de-nuts-com-frutas-secas-e-chocolate-amargo">
+      <h2 class="receita-titulo">Mix de Nuts com Frutas Secas e Chocolate Amargo</h2>
+      <p class="receita-desc">Porque snack saudável com sabor de pecado é possível e sem fogão</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de castanhas variadas</li>
+              <li>colheres de sopa de frutas secas picadas</li>
+              <li>punhado de pedacinhos de chocolate amargo</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes em uma tigela.</li>
+              <li>Sirva imediatamente para não perder a crocância.</li>
+              <li>Guarde o resto para evitar ataques de fome repentinos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der vontade de beliscar, belisca com estilo. E sem fogão, porque ninguém merece deixar a cozinha parecendo zona de guerra.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-milho-verde-com-tomate-e-coentro">
+      <h2 class="receita-titulo">Salada de Milho Verde com Tomate e Coentro</h2>
+      <p class="receita-desc">Porque até o milho pode ser requintado sem panela e sem estresse</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 13,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de milho verde cozido (comprado pronto)</li>
+              <li>tomate picado</li>
+              <li>Coentro picado a gosto</li>
+              <li>Suco de 1 limão</li>
+              <li>colher de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o milho, tomate e coentro na tigela.</li>
+              <li>Tempere com limão, azeite, sal e pimenta.</li>
+              <li>Sirva gelado e aproveite o sabor sem fogueira.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der milho, faz essa salada. Se der calor, pelo menos não vai precisar suar na cozinha.</div>
+    </article>
+
+    <article class="receita-card" id="guacamole-rapido-com-chips-de-tortilla">
+      <h2 class="receita-titulo">Guacamole Rápido com Chips de Tortilla</h2>
+      <p class="receita-desc">Porque até a preguiça merece um petisco com classe</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abacates maduros</li>
+              <li>tomate picado</li>
+              <li>/2 cebola roxa picada</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Chips de tortilla para acompanhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Amasse os abacates com garfo até virar um creme com pedacinhos.</li>
+              <li>Misture o tomate, cebola, limão, sal e pimenta.</li>
+              <li>Sirva com chips de tortilla para mergulhar e se deliciar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der abacate, faz guacamole. Se der preguiça, compra chips prontos e finge que é chef.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-pepino-com-iogurte-e-hortela">
+      <h2 class="receita-titulo">Salada de Pepino com Iogurte e Hortelã</h2>
+      <p class="receita-desc">Porque refrescar a alma e o corpo é um ato de sobrevivência sem fogão</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 8 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 11,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pepino médio fatiado</li>
+              <li>/2 xícara de iogurte natural</li>
+              <li>Folhas de hortelã picadas a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o pepino com iogurte e hortelã na tigela.</li>
+              <li>Tempere com sal e pimenta.</li>
+              <li>Sirva gelado para enfrentar o calor da vida.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der pepino, faz essa salada. Se der estresse, pelo menos vai estar fresco e crocante.</div>
+    </article>
+
+    <article class="receita-card" id="bowl-de-tapioca-com-frutas-e-mel">
+      <h2 class="receita-titulo">Bowl de Tapioca com Frutas e Mel</h2>
+      <p class="receita-desc">Porque tapioca pode ser tão preguiçosa quanto você, sem fogão!</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de tapioca hidratada (pronta para consumo)</li>
+              <li>/2 banana fatiada</li>
+              <li>colher de sopa de mel</li>
+              <li>colher de sopa de granola</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque a tapioca em uma tigela.</li>
+              <li>Acrescente a banana, mel e granola por cima.</li>
+              <li>Misture e coma sem culpa, sem fogão e com preguiça.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der tapioca pronta, aproveita. Se der sono, come na cama mesmo, que isso é vida adulta.</div>
+    </article>
+
+    <article class="receita-card" id="mix-tropical-de-abacaxi-com-coco-ralado">
+      <h2 class="receita-titulo">Mix Tropical de Abacaxi com Coco Ralado</h2>
+      <p class="receita-desc">Porque o tropical vem sem fogo e com muito sabor</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 7 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 13,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de abacaxi picado</li>
+              <li>colheres de sopa de coco ralado sem açúcar</li>
+              <li>Suco de 1 limão</li>
+              <li>Hortelã para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o abacaxi com o coco ralado e o suco de limão.</li>
+              <li>Decore com folhas de hortelã.</li>
+              <li>Sirva gelado e refrescante.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der abacaxi, faz essa mistura. Se der calor, pelo menos você não vai precisar ligar o fogão.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-rucula-com-pera-e-nozes">
+      <h2 class="receita-titulo">Salada de Rúcula com Pera e Nozes</h2>
+      <p class="receita-desc">Porque combinação chique e sem fogo é o que temos pra hoje</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de rúcula</li>
+              <li>pera fatiada</li>
+              <li>/4 xícara de nozes picadas</li>
+              <li>colheres de sopa de azeite</li>
+              <li>colher de sopa de vinagre balsâmico</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a rúcula com a pera e as nozes.</li>
+              <li>Tempere com azeite, vinagre, sal e pimenta.</li>
+              <li>Sirva imediatamente e finja que é masterchef.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der rúcula, faz essa salada. Se der preguiça, chama o delivery e finge que você fez.</div>
+    </article>
+
+    <article class="receita-card" id="iogurte-com-mel-nozes-e-canela">
+      <h2 class="receita-titulo">Iogurte com Mel, Nozes e Canela</h2>
+      <p class="receita-desc">Porque o café da manhã pode ser um abraço quentinho, sem fogo e sem drama</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pote de iogurte natural</li>
+              <li>colher de sopa de mel</li>
+              <li>colheres de sopa de nozes picadas</li>
+              <li>pitada de canela em pó</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque o iogurte em uma tigela.</li>
+              <li>Regue com mel, adicione as nozes e polvilhe canela.</li>
+              <li>Misture levemente e aproveite o abraço no estômago.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der iogurte, faz essa receita. Se der frio, pelo menos esse café da manhã vai te esquentar por dentro.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-repolho-com-maca-e-cenoura">
+      <h2 class="receita-titulo">Salada de Repolho com Maçã e Cenoura</h2>
+      <p class="receita-desc">Porque crocância sem fogão é o verdadeiro barulho da vida</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de repolho ralado</li>
+              <li>maçã verde ralada</li>
+              <li>cenoura ralada</li>
+              <li>colheres de sopa de maionese light</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Rale o repolho, maçã e cenoura e misture na tigela.</li>
+              <li>Adicione a maionese, tempere com sal e pimenta.</li>
+              <li>Misture bem e sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der repolho, rale tudo. Se der preguiça, coloca mais maionese e segue o baile.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-quinoa-com-abacate-e-tomate">
+      <h2 class="receita-titulo">Salada de Quinoa com Abacate e Tomate</h2>
+      <p class="receita-desc">Porque proteína e gordura boa também podem ser preguiça gourmet</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 24,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de quinoa cozida (comprada pronta)</li>
+              <li>/2 abacate em cubos</li>
+              <li>tomate grande picado</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a quinoa com o abacate e o tomate.</li>
+              <li>Tempere com azeite, limão, sal e pimenta.</li>
+              <li>Sirva imediatamente para aproveitar a cremosidade.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der quinoa, faz essa salada. Se der preguiça, nem precisa lavar panela, só misturar e ser feliz.</div>
+    </article>
+
+    <article class="receita-card" id="mix-de-castanhas-temperadas">
+      <h2 class="receita-titulo">Mix de Castanhas Temperadas</h2>
+      <p class="receita-desc">Porque petisco sem fogão salva qualquer reunião e qualquer fôlego</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de castanhas de caju</li>
+              <li>xícara de amêndoas</li>
+              <li>colher de chá de páprica doce</li>
+              <li>colher de chá de sal</li>
+              <li>colher de chá de azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture as castanhas com azeite, sal e páprica.</li>
+              <li>Sirva imediatamente ou guarde para o ataque de fome.</li>
+              <li>Não precisa de fogo, só de vontade.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der castanhas, tempera e belisca. Se der vontade de cozinhar, ignora e come assim mesmo.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-tomate-com-queijo-cottage-e-manjericao">
+      <h2 class="receita-titulo">Salada de Tomate com Queijo Cottage e Manjericão</h2>
+      <p class="receita-desc">Porque o queijo não precisa de fogo para ser estrela do prato</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 8 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tomates médios picados</li>
+              <li>g queijo cottage</li>
+              <li>Folhas de manjericão fresco</li>
+              <li>colher de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o tomate com o queijo cottage e manjericão.</li>
+              <li>Tempere com azeite, sal e pimenta.</li>
+              <li>Sirva fresco e sem fogueira.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der queijo, não precisa cozinhar, só amar. Queijo cottage é tipo amizade: simples e essencial.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-graos-com-tomate-pepino-e-azeitonas">
+      <h2 class="receita-titulo">Salada de Grãos com Tomate, Pepino e Azeitonas</h2>
+      <p class="receita-desc">Porque até os grãos merecem festa sem fogo e sem pressa</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 17,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de mistura de grãos cozidos (comprados prontos)</li>
+              <li>tomate picado</li>
+              <li>/2 pepino picado</li>
+              <li>azeitonas picadas</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Suco de 1/2 limão</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture os grãos com tomate, pepino e azeitonas.</li>
+              <li>Tempere com azeite, limão, sal e pimenta.</li>
+              <li>Sirva em temperatura ambiente ou gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der grãos, faz essa salada. Se der preguiça, finge que é gourmet e só mistura na tigela.</div>
+    </article>
+
+    <article class="receita-card" id="salada-colorida-de-beterraba-e-laranja">
+      <h2 class="receita-titulo">Salada Colorida de Beterraba e Laranja</h2>
+      <p class="receita-desc">Porque o mundo precisa de cor e sabor, mesmo sem fogo e sem graça</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>beterraba média ralada</li>
+              <li>laranjas descascadas e picadas</li>
+              <li>colher de sopa de azeite</li>
+              <li>Folhas de hortelã picadas a gosto</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Rale a beterraba e misture com a laranja na tigela.</li>
+              <li>Tempere com azeite, hortelã e sal.</li>
+              <li>Sirva fresco e vibrante.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der beterraba, rale e mistura. Se te der problemas, pelo menos a salada vai estar linda para postar.</div>
+    </article>
+
+    <article class="receita-card" id="mix-de-frutas-secas-e-sementes">
+      <h2 class="receita-titulo">Mix de Frutas Secas e Sementes</h2>
+      <p class="receita-desc">Porque o que salva o dia é um punhado de energia sem fogão e sem culpa</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 3 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de sementes de abóbora</li>
+              <li>colheres de sopa de sementes de girassol</li>
+              <li>colheres de sopa de uva-passa</li>
+              <li>colheres de sopa de damasco seco picado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes em uma tigela.</li>
+              <li>Sirva como snack a qualquer hora.</li>
+              <li>Guarda o resto para não ficar comendo o dia todo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der sementes, mistura tudo e belisca. Se der vontade de cozinhar, esquece e come assim mesmo!</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-abobrinha-crua-com-limao-e-queijo-parmesao">
+      <h2 class="receita-titulo">Salada de Abobrinha Crua com Limão e Queijo Parmesão</h2>
+      <p class="receita-desc">Porque até a abobrinha pode ser diva sem fogo e sem drama</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abobrinha média fatiada finamente</li>
+              <li>Suco de 1 limão</li>
+              <li>colheres de sopa de queijo parmesão ralado</li>
+              <li>colher de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a abobrinha com limão e azeite.</li>
+              <li>Adicione o parmesão, sal e pimenta.</li>
+              <li>Sirva imediatamente para manter a crocância.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der abobrinha, faz essa salada. Se der preguiça, come direto da tigela que ninguém vai julgar.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

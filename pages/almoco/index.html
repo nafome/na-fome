@@ -1,0 +1,1674 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🍽️ Almoço — Receitas NaFome</title>
+  <meta name="description" content="40 receitas para quem está na situação "Almoço". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/almoco/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🍽️ Almoço — Receitas NaFome">
+  <meta property="og:description" content="40 receitas para quem está na situação "Almoço". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/almoco/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🍽️ Almoço — NaFome",
+    "description": "40 receitas para quem está na situação "Almoço". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/almoco/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=almoco" class="btn-sortear">🎲 Sortear receita de Almoço</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🍽️ Almoço</h1>
+    <p>40 receitas para quem está na situação "Almoço". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">40 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Almoço pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=almoco" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="frango-cremoso-com-cogumelos-a-moda-sofa-e-boleto">
+      <h2 class="receita-titulo">Frango Cremoso com Cogumelos à Moda “Sofá e Boleto”</h2>
+      <p class="receita-desc">Para quem quer almoço gostoso, mas o boleto não deixa gastar no delivery.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peito de frango em cubos</li>
+              <li>g de cogumelos frescos fatiados</li>
+              <li>cebola média picada</li>
+              <li>dentes de alho picados</li>
+              <li>ml de creme de leite</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o azeite e refogue a cebola e o alho até dourar.</li>
+              <li>Adicione o frango e cozinhe até ficar branco por fora.</li>
+              <li>Junte os cogumelos e refogue por 5 minutos.</li>
+              <li>Acrescente o creme de leite, tempere com sal e pimenta e cozinhe até engrossar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o frango ficar duro, não é você que está velho demais, é ele que não quer colaborar – deixe marinar com limão antes, pelo menos o frango vai tentar cooperar.</div>
+    </article>
+
+    <article class="receita-card" id="arroz-de-forno-com-legumes-e-queijo-porque-segunda-e-segunda">
+      <h2 class="receita-titulo">Arroz de Forno com Legumes e Queijo – Porque Segunda é Segunda</h2>
+      <p class="receita-desc">A receita que transforma sobras em obra-prima e sua vontade de cozinhar em lenda urbana.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de arroz cozido</li>
+              <li>cenoura ralada</li>
+              <li>abobrinha ralada</li>
+              <li>tomate picado</li>
+              <li>g de queijo mussarela ralado</li>
+              <li>/2 xícara de creme de leite</li>
+              <li>Sal, pimenta e orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o arroz com os legumes, creme de leite e temperos.</li>
+              <li>Coloque em assadeira, cubra com queijo e orégano.</li>
+              <li>Leve ao forno a 180ºC por 20 minutos ou até gratinar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der sobras, faça arroz de forno; se te der boletos, faça cara de quem não tá entendendo nada – a receita pelo menos vale a pena.</div>
+    </article>
+
+    <article class="receita-card" id="escondidinho-de-carne-moida-com-pure-de-mandioca">
+      <h2 class="receita-titulo">Escondidinho de Carne Moída com Purê de Mandioca</h2>
+      <p class="receita-desc">Porque às vezes a vida esconde os problemas, e o purê esconde a carne moída.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de carne moída</li>
+              <li>kg de mandioca cozida</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>/2 xícara de leite</li>
+              <li>colheres de manteiga</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho, acrescente a carne moída e tempere.</li>
+              <li>Amasse a mandioca com manteiga e leite até virar purê.</li>
+              <li>Em assadeira, faça uma camada de carne, cubra com purê.</li>
+              <li>Leve ao forno a 200ºC por 20 minutos até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida tá difícil, pelo menos o purê é macio; e se alguém reclamar do calor do forno, diga que é só um aquecimento pro seu coração endurecido.</div>
+    </article>
+
+    <article class="receita-card" id="macarrao-ao-molho-de-tomate-com-manjericao-e-bacon-crocante">
+      <h2 class="receita-titulo">Macarrão ao Molho de Tomate com Manjericão e Bacon Crocante</h2>
+      <p class="receita-desc">Porque às vezes o almoço tem que ser rápido pra sobrar tempo de reclamar da vida depois.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de macarrão penne</li>
+              <li>g de bacon em cubinhos</li>
+              <li>tomates maduros picados</li>
+              <li>/2 cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>Folhas de manjericão a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o macarrão até ficar al dente.</li>
+              <li>Frite o bacon até ficar crocante e reserve.</li>
+              <li>Refogue cebola e alho, junte os tomates e cozinhe até virar molho.</li>
+              <li>Misture o macarrão ao molho, acrescente o bacon e manjericão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bacon queimar, não chore; pelo menos a fumaça subiu rápido, igual sua paciência no trânsito.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-grao-de-bico-com-atum-o-almoco-dos-adultos-que-nao-querem-sofrer">
+      <h2 class="receita-titulo">Salada de Grão-de-Bico com Atum – O Almoço dos Adultos que Não Querem Sofrer</h2>
+      <p class="receita-desc">Porque adulto também merece almoço rápido, saudável e que não peça conversa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de grão-de-bico cozido</li>
+              <li>lata de atum em água</li>
+              <li>tomate picado</li>
+              <li>/2 cebola roxa picada</li>
+              <li>Suco de 1 limão</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Escorra o grão-de-bico e o atum.</li>
+              <li>Misture todos os ingredientes em uma tigela.</li>
+              <li>Tempere com limão, azeite, sal e pimenta.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se você acha que salada não sustenta, tente carregar uma caixa de boleto no dia seguinte – isso sim é peso de verdade.</div>
+    </article>
+
+    <article class="receita-card" id="strogonoff-de-frango-com-arroz-branco-o-classico-que-nunca-morre-e-as-dividas-tambem-nao">
+      <h2 class="receita-titulo">Strogonoff de Frango com Arroz Branco – O Clássico que Nunca Morre (E as Dívidas Também Não)</h2>
+      <p class="receita-desc">O almoço que abraça e diz que amanhã a gente finge que paga o boleto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peito de frango em tiras</li>
+              <li>cebola picada</li>
+              <li>lata de creme de leite</li>
+              <li>g de champignon fatiado</li>
+              <li>colheres de ketchup</li>
+              <li>colher de mostarda</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Arroz branco para acompanhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola, acrescente o frango e cozinhe até dourar.</li>
+              <li>Adicione champignon, ketchup, mostarda, sal e pimenta.</li>
+              <li>Abaixe o fogo, junte creme de leite e misture sem deixar ferver.</li>
+              <li>Sirva com arroz branco.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o frango grudar na panela, não é falta de amor, é só falta de óleo – mas na vida, às vezes é falta de tudo.</div>
+    </article>
+
+    <article class="receita-card" id="omelete-recheado-com-espinafre-e-queijo-coalho-porque-almoco-tambem-pode-ser-ovo">
+      <h2 class="receita-titulo">Omelete Recheado com Espinafre e Queijo Coalho – Porque Almoço Também Pode Ser Ovo</h2>
+      <p class="receita-desc">Pra quem quer almoço rápido e quer se sentir um chef mesmo sem saber nem fritar ovo direito.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>/2 xícara de espinafre cozido e picado</li>
+              <li>g de queijo coalho em cubos</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para untar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com sal e pimenta.</li>
+              <li>Aqueça a frigideira untada e despeje os ovos batidos.</li>
+              <li>Quando começar a firmar, espalhe o espinafre e queijo.</li>
+              <li>Dobre a omelete ao meio e cozinhe até o queijo derreter.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a omelete grudar, não desanime – na vida, às vezes só precisa virar do avesso pra dar certo (ou chamar delivery mesmo).</div>
+    </article>
+
+    <article class="receita-card" id="moqueca-baiana-simples-pra-sentir-o-sol-mesmo-na-quarentena">
+      <h2 class="receita-titulo">Moqueca Baiana Simples – Pra Sentir o Sol Mesmo na Quarentena</h2>
+      <p class="receita-desc">Porque a gente não sabe se vai pra praia, mas o prato vai te levar lá no sabor.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de filé de peixe em postas</li>
+              <li>tomates picados</li>
+              <li>pimentão verde fatiado</li>
+              <li>cebola em rodelas</li>
+              <li>ml de leite de coco</li>
+              <li>colheres de azeite de dendê</li>
+              <li>Coentro picado a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o peixe com sal e pimenta.</li>
+              <li>Em panela, faça camadas com cebola, tomate, pimentão e peixe.</li>
+              <li>Regue com leite de coco e azeite de dendê.</li>
+              <li>Cozinhe em fogo baixo com panela semi tampada por 30 minutos.</li>
+              <li>Finalize com coentro.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o dendê ficar forte demais, não é sua vida que tá pegando fogo, é só a panela – mas cuidado pra não queimar o coração também.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-carne-com-molho-de-tomate-caseiro-porque-almoco-e-pra-ser-pratico-e-gostoso">
+      <h2 class="receita-titulo">Panqueca de Carne com Molho de Tomate Caseiro – Porque Almoço é pra Ser Prático e Gostoso</h2>
+      <p class="receita-desc">Para quem acha que panqueca é só sobremesa, mas quer fugir do arroz e feijão do dia a dia.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 24,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de trigo</li>
+              <li>ovo</li>
+              <li>e 1/4 xícara de leite</li>
+              <li>g de carne moída</li>
+              <li>tomates picados</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>Sal, pimenta e orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, ovo e leite até formar massa líquida.</li>
+              <li>Faça panquecas finas na frigideira e reserve.</li>
+              <li>Refogue cebola, alho, acrescente carne, tempere e cozinhe.</li>
+              <li>Adicione tomates para fazer molho e cozinhe até apurar.</li>
+              <li>Recheie as panquecas, coloque em assadeira, cubra com molho e leve ao forno por 15 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a massa grudar, não culpe a frigideira, culpe a vida que insiste em ser grudenta também.</div>
+    </article>
+
+    <article class="receita-card" id="esfiha-aberta-de-frango-com-catupiry-o-sabor-do-oriente-no-seu-almoco">
+      <h2 class="receita-titulo">Esfiha Aberta de Frango com Catupiry – O Sabor do Oriente no Seu Almoço</h2>
+      <p class="receita-desc">Pra quem quer viajar no sabor, mas não tem dinheiro nem pra passagem de ônibus.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de farinha de trigo</li>
+              <li>g de fermento biológico seco</li>
+              <li>colher de açúcar</li>
+              <li>ml de água morna</li>
+              <li>g de peito de frango cozido e desfiado</li>
+              <li>cebola pequena picada</li>
+              <li>g de catupiry</li>
+              <li>Sal, pimenta e temperos a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, fermento, açúcar e água para formar massa; deixe crescer 1 hora.</li>
+              <li>Refogue cebola e frango, tempere a gosto.</li>
+              <li>Abra a massa, corte círculos, recheie com frango e catupiry.</li>
+              <li>Asse a 200ºC por 20 minutos ou até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a massa ficar dura, não é o seu coração, é só a fermentação que resolveu tirar férias.</div>
+    </article>
+
+    <article class="receita-card" id="bobo-de-camarao-simples">
+      <h2 class="receita-titulo">Bobó de Camarão Simples</h2>
+      <p class="receita-desc">Porque às vezes o almoço precisa ser tão bom que até o boleto vale a pena.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 50,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de camarão limpo</li>
+              <li>g de mandioca cozida</li>
+              <li>ml de leite de coco</li>
+              <li>dentes de alho</li>
+              <li>cebola média</li>
+              <li>tomates picados</li>
+              <li>colheres de azeite de dendê</li>
+              <li>Sal, pimenta e coentro a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue alho, cebola e tomate com azeite de dendê.</li>
+              <li>Bata a mandioca com leite de coco até virar um creme.</li>
+              <li>Junte o creme na panela, acrescente camarão e cozinhe até ficar rosa.</li>
+              <li>Finalize com coentro.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o camarão ficar borrachudo, não é o almoço que errou, é o seu amor próprio que precisa de descanso.</div>
+    </article>
+
+    <article class="receita-card" id="feijao-tropeiro-o-almoco-que-e-um-abraco-no-estomago-e-um-soco-no-cansaco">
+      <h2 class="receita-titulo">Feijão Tropeiro – O Almoço que é um Abraço no Estômago e um Soco no Cansaço</h2>
+      <p class="receita-desc">Porque um almoço que não dá trabalho é o único relacionamento que a gente quer.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de feijão cozido e escorrido</li>
+              <li>g de bacon em cubos</li>
+              <li>linguiça calabresa fatiada</li>
+              <li>ovos</li>
+              <li>cebola picada</li>
+              <li>Farinha de mandioca a gosto</li>
+              <li>Cheiro-verde picado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Frite bacon e linguiça até dourar.</li>
+              <li>Refogue cebola, acrescente feijão e misture.</li>
+              <li>Adicione ovos mexidos, farinha e cheiro-verde.</li>
+              <li>Misture até dar ponto, ajuste sal e pimenta.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a farinha grudar demais, não se preocupe, é só o amor grudando no seu coração cansado.</div>
+    </article>
+
+    <article class="receita-card" id="quiche-de-alho-poro-com-queijo-porque-almoco-tambem-pode-ser-chique-e-sem-sofrimento">
+      <h2 class="receita-titulo">Quiche de Alho-Poró com Queijo – Porque Almoço Também Pode Ser Chique (E Sem Sofrimento)</h2>
+      <p class="receita-desc">Pra quem quer impressionar no almoço, mas só tem 30 minutos e zero dignidade.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>massa pronta para torta</li>
+              <li>ovos</li>
+              <li>ml de creme de leite</li>
+              <li>alho-poró picado</li>
+              <li>g de queijo prato ralado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Pré-asse a massa por 10 minutos a 180ºC.</li>
+              <li>Refogue alho-poró, deixe amaciar.</li>
+              <li>Misture ovos, creme de leite, queijo, alho-poró, sal e pimenta.</li>
+              <li>Despeje sobre a massa e asse por 30 minutos até firmar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a quiche afundar, não é sua autoestima, é só o peso da vida adulta que não perdoa.</div>
+    </article>
+
+    <article class="receita-card" id="bife-a-milanesa-com-pure-de-batata-o-almoco-que-te-abraca-e-te-julga-ao-mesmo-tempo">
+      <h2 class="receita-titulo">Bife à Milanesa com Purê de Batata – O Almoço que Te Abraça e Te Julga ao Mesmo Tempo</h2>
+      <p class="receita-desc">Para quem quer um almoço que lembra infância, mas a conta bancária já tá no modo adulto responsável.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>bifes de alcatra</li>
+              <li>ovos batidos</li>
+              <li>Farinha de rosca para empanar</li>
+              <li>batatas grandes</li>
+              <li>colheres de manteiga</li>
+              <li>/2 xícara de leite</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe as batatas, amasse com manteiga e leite, tempere.</li>
+              <li>Tempere os bifes, passe no ovo e na farinha.</li>
+              <li>Frite os bifes até dourar.</li>
+              <li>Sirva com purê.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a milanesa não ficar crocante, não culpe a receita; às vezes, é só a sua vontade que tá mole demais.</div>
+    </article>
+
+    <article class="receita-card" id="salada-caesar-com-frango-grelhado-pra-quem-quer-almoco-light-mas-nao-tao-light-assim">
+      <h2 class="receita-titulo">Salada Caesar com Frango Grelhado – Pra Quem Quer Almoço Light, Mas Não Tão Light Assim</h2>
+      <p class="receita-desc">Porque dieta é como boleto, a gente finge que tá pagando, mas só vai juntando.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>peitos de frango</li>
+              <li>Alface romana a gosto</li>
+              <li>g de queijo parmesão ralado</li>
+              <li>Croutons prontos</li>
+              <li>colheres de sopa de molho Caesar</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere e grelhe os peitos de frango até dourar.</li>
+              <li>Rasgue a alface, misture com molho e croutons.</li>
+              <li>Fatie o frango e coloque por cima da salada.</li>
+              <li>Polvilhe parmesão e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o molho acabar antes da salada, a culpa não é do frango, é do seu amor pelo molho que não tem limite.</div>
+    </article>
+
+    <article class="receita-card" id="peixe-assado-com-legumes-ao-forno-pra-quem-quer-comer-bem-e-fingir-que-ta-na-praia">
+      <h2 class="receita-titulo">Peixe Assado com Legumes ao Forno – Pra Quem Quer Comer Bem e Fingir que Tá na Praia</h2>
+      <p class="receita-desc">Porque o verão no boleto só existe na imaginação, mas o peixe assado é real.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>filés de peixe branco</li>
+              <li>abobrinha fatiada</li>
+              <li>cenoura em rodelas</li>
+              <li>cebola em rodelas</li>
+              <li>dentes de alho picados</li>
+              <li>Suco de 1 limão</li>
+              <li>Azeite, sal, pimenta e ervas finas a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o peixe com limão, sal, pimenta e alho.</li>
+              <li>Em assadeira, coloque os legumes, regue com azeite e tempere.</li>
+              <li>Coloque os filés sobre os legumes, cubra com papel alumínio.</li>
+              <li>Asse a 180ºC por 30 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o peixe grudar, não é você que tá grudando na vida, é só a assadeira que não colaborou hoje.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-espinafre-com-ricota-o-almoco-que-engana-mas-nutre">
+      <h2 class="receita-titulo">Panqueca de Espinafre com Ricota – O Almoço que Engana, Mas Nutre</h2>
+      <p class="receita-desc">Pra quem quer comer verdura sem sentir que tá pagando por isso.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de trigo</li>
+              <li>ovo</li>
+              <li>xícara de leite</li>
+              <li>xícara de espinafre cozido e picado</li>
+              <li>g de ricota amassada</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para untar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, ovo e leite até formar massa.</li>
+              <li>Acrescente o espinafre e tempere.</li>
+              <li>Faça panquecas finas na frigideira untada.</li>
+              <li>Recheie cada panqueca com ricota e enrole.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a panqueca rasgar, não chore; é só a vida te lembrando que nem tudo sai perfeito, nem o almoço e nem o boleto.</div>
+    </article>
+
+    <article class="receita-card" id="picadinho-de-carne-com-legumes-o-almoco-que-te-faz-sentir-um-chef-sem-ter-que-ser-um">
+      <h2 class="receita-titulo">Picadinho de Carne com Legumes – O Almoço que Te Faz Sentir um Chef (Sem Ter Que Ser um)</h2>
+      <p class="receita-desc">Porque comida feita em pedaços é mais fácil de mastigar e de engolir as frustrações.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de carne bovina em cubos pequenos</li>
+              <li>cenoura picada</li>
+              <li>batata picada</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>tomates picados</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho, acrescente carne e doure.</li>
+              <li>Junte os tomates e cozinhe até formar molho.</li>
+              <li>Adicione legumes, cubra com água e cozinhe até amaciar.</li>
+              <li>Tempere e finalize com cheiro-verde.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a carne demorar a amolecer, relaxa, às vezes a gente também precisa de um tempo pra digerir a vida.</div>
+    </article>
+
+    <article class="receita-card" id="salpicao-de-frango-classico-o-almoco-que-disfarca-saudabilidade-com-maionese">
+      <h2 class="receita-titulo">Salpicão de Frango Clássico – O Almoço que Disfarça Saudabilidade com Maionese</h2>
+      <p class="receita-desc">Porque salada com maionese é tipo boleto: ninguém gosta, mas não tem como evitar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de frango cozido e desfiado</li>
+              <li>cenoura ralada</li>
+              <li>maçã picada</li>
+              <li>/2 xícara de milho verde</li>
+              <li>/2 xícara de ervilha</li>
+              <li>/2 xícara de maionese</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes em uma tigela.</li>
+              <li>Tempere com sal, pimenta e maionese.</li>
+              <li>Leve à geladeira por 30 minutos antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar maionese, coma de colher – afinal, ninguém é de ferro, mas o coração é de manteiga.</div>
+    </article>
+
+    <article class="receita-card" id="frango-xadrez-rapido-o-almoco-que-vira-festa-em-30-minutos">
+      <h2 class="receita-titulo">Frango Xadrez Rápido – O Almoço que Vira Festa em 30 Minutos</h2>
+      <p class="receita-desc">Pra quando a preguiça e a fome brigam, e só o frango ganha.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 24,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peito de frango em cubos</li>
+              <li>pimentão vermelho em cubos</li>
+              <li>cebola em cubos</li>
+              <li>/2 xícara de molho shoyu</li>
+              <li>colheres de óleo</li>
+              <li>dente de alho picado</li>
+              <li>Amendoim torrado a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o óleo e refogue alho e frango até dourar.</li>
+              <li>Junte cebola e pimentão, mexa por 5 minutos.</li>
+              <li>Acrescente o molho shoyu e cozinhe até reduzir.</li>
+              <li>Finalize com amendoim e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o frango ficar seco, não é você que tá seco, é só ele que não quer colaborar – tenta marinar antes, amor também precisa de tempero.</div>
+    </article>
+
+    <article class="receita-card" id="lasanha-de-berinjela-light-porque-almoco-tambem-pode-ser-saudavel-sem-culpa-mas-com-muita-delicia">
+      <h2 class="receita-titulo">Lasanha de Berinjela Light – Porque Almoço também pode ser saudável sem culpa (mas com muita delícia)</h2>
+      <p class="receita-desc">Pra quem quer comer lasanha sem parecer que comeu um tijolo de carboidrato.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>berinjelas médias cortadas em fatias finas</li>
+              <li>g de molho de tomate</li>
+              <li>g de queijo cottage</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>Sal, pimenta e orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Grelhe as fatias de berinjela até dourar.</li>
+              <li>Refogue cebola e alho, junte molho de tomate e tempere.</li>
+              <li>Em assadeira, faça camadas de berinjela, molho e queijo.</li>
+              <li>Leve ao forno a 180ºC por 30 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a berinjela soltar muita água, não é choro, é só ela mostrando que tá mais molhada que seu coração depois do terceiro boleto do mês.</div>
+    </article>
+
+    <article class="receita-card" id="fricasse-de-frango-com-milho-o-almoco-que-acolhe-e-engorda-mas-a-gente-nem-liga">
+      <h2 class="receita-titulo">Fricassê de Frango com Milho – O Almoço que Acolhe e Engorda (Mas a Gente Nem Liga)</h2>
+      <p class="receita-desc">Pra quem quer um abraço em forma de comida, apesar do saldo bancário triste.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 26,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de frango cozido e desfiado</li>
+              <li>lata de milho verde</li>
+              <li>copo de requeijão cremoso</li>
+              <li>caixa de creme de leite</li>
+              <li>g de batata palha</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture frango, milho, requeijão e creme de leite.</li>
+              <li>Coloque em assadeira, cubra com batata palha.</li>
+              <li>Leve ao forno pré-aquecido a 180ºC por 15 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar batata palha, coma direto da embalagem – às vezes a vida precisa de crocância, nem que seja na alma.</div>
+    </article>
+
+    <article class="receita-card" id="risoto-de-abobora-com-gorgonzola-pra-quem-quer-sofisticacao-sem-sofrimento">
+      <h2 class="receita-titulo">Risoto de Abóbora com Gorgonzola – Pra Quem Quer Sofisticação Sem Sofrimento</h2>
+      <p class="receita-desc">Porque almoço chique não precisa ser complicado, só precisa ter queijo que o boleto que lute.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de arroz arbóreo</li>
+              <li>g de abóbora picada</li>
+              <li>cebola picada</li>
+              <li>g de queijo gorgonzola</li>
+              <li>litro de caldo de legumes quente</li>
+              <li>colheres de manteiga</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola na manteiga, junte abóbora e cozinhe até amolecer.</li>
+              <li>Acrescente arroz e mexa até ficar translúcido.</li>
+              <li>Vá adicionando caldo aos poucos, mexendo até o arroz ficar cremoso.</li>
+              <li>Misture o gorgonzola, tempere e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o risoto empapar, não é a receita que falhou, é só seu coração que tá empapado de saudade do fim do mês.</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-de-arroz-com-queijo-e-ervas-o-almoco-que-aproveita-restos-e-alegria">
+      <h2 class="receita-titulo">Bolinho de Arroz com Queijo e Ervas – O Almoço que Aproveita Restos e Alegria</h2>
+      <p class="receita-desc">Porque a vida é curta demais pra jogar comida fora, mas longa demais pra cozinhar todo dia.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de arroz cozido</li>
+              <li>ovos</li>
+              <li>g de queijo parmesão ralado</li>
+              <li>Salsinha e cebolinha picadas</li>
+              <li>Farinha de trigo para dar liga</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture arroz, ovos, queijo e ervas.</li>
+              <li>Adicione farinha até dar liga.</li>
+              <li>Modele bolinhos e frite até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bolinho desmanchar, não é falta de amor, é só falta de farinha – mas na vida, amor demais também desmancha.</div>
+    </article>
+
+    <article class="receita-card" id="sopa-de-legumes-com-carne-o-almoco-que-aquece-o-corpo-e-congela-as-emocoes">
+      <h2 class="receita-titulo">Sopa de Legumes com Carne – O Almoço que Aquece o Corpo e Congela as Emoções</h2>
+      <p class="receita-desc">Pra quem quer um almoço reconfortante, mas a vida insiste em ser um gelo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de carne em cubos pequenos</li>
+              <li>cenouras picadas</li>
+              <li>batatas picadas</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>litro de água</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Doure a carne com cebola e alho.</li>
+              <li>Adicione legumes e água, cozinhe até amaciar.</li>
+              <li>Tempere e finalize com cheiro-verde.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a sopa ficar sem graça, não é a receita, é só seu coração precisando de sal e pimenta pra viver.</div>
+    </article>
+
+    <article class="receita-card" id="espaguete-ao-alho-e-oleo-com-camarao-o-almoco-que-diz-eu-consigo-mesmo-sem-saber-cozinhar">
+      <h2 class="receita-titulo">Espaguete ao Alho e Óleo com Camarão – O Almoço que Diz “Eu Consigo” Mesmo Sem Saber Cozinhar</h2>
+      <p class="receita-desc">Pra quem quer se sentir chef e bancar o mestre cuca, mas só sabe fritar alho.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 38,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de espaguete</li>
+              <li>g de camarão limpo</li>
+              <li>dentes de alho fatiados</li>
+              <li>colheres de azeite</li>
+              <li>Sal, pimenta e salsinha a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o espaguete até al dente.</li>
+              <li>Refogue o alho no azeite até dourar, acrescente camarão e cozinhe.</li>
+              <li>Misture o espaguete ao camarão, tempere e salpique salsinha.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o alho queimar, não fique bravo; é só sua paciência que tá fritando junto.</div>
+    </article>
+
+    <article class="receita-card" id="escondidinho-de-abobora-com-carne-seca-porque-esconder-problemas-na-comida-e-terapia">
+      <h2 class="receita-titulo">Escondidinho de Abóbora com Carne Seca – Porque Esconder Problemas na Comida é Terapia</h2>
+      <p class="receita-desc">Pra quem quer um almoço que abrace a alma e esconda as dívidas.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de carne seca dessalgada e desfiada</li>
+              <li>kg de abóbora cozida</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>/2 xícara de creme de leite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho, acrescente carne seca e refogue.</li>
+              <li>Amasse a abóbora com creme de leite e tempere.</li>
+              <li>Em assadeira, faça camada de carne e cubra com abóbora.</li>
+              <li>Leve ao forno por 20 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a abóbora ficar muito mole, não é você que tá mole, é só ela mesmo – aproveita pra dar aquela relaxada também.</div>
+    </article>
+
+    <article class="receita-card" id="file-de-peixe-empanado-com-salada-de-batata-pra-quem-quer-simplicidade-e-sabor">
+      <h2 class="receita-titulo">Filé de Peixe Empanado com Salada de Batata – Pra Quem Quer Simplicidade e Sabor</h2>
+      <p class="receita-desc">Porque almoço não precisa ser complicado pra ser gostoso, só precisa de paciência pra fritar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>filés de peixe branco</li>
+              <li>Farinha de trigo para empanar</li>
+              <li>ovos batidos</li>
+              <li>Farinha de rosca para empanar</li>
+              <li>batatas cozidas e picadas</li>
+              <li>cebola pequena picada</li>
+              <li>colheres de maionese</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o peixe, passe na farinha, ovo e farinha de rosca.</li>
+              <li>Frite até dourar e reserve.</li>
+              <li>Misture batata, cebola, maionese, sal e pimenta para a salada.</li>
+              <li>Sirva juntos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o peixe desmanchar, não é você que tá fraco, é só ele que não quis entrar na linha.</div>
+    </article>
+
+    <article class="receita-card" id="frango-ao-curry-com-arroz-de-coco-o-almoco-que-transporta-pra-india-sem-passar-pela-receita-do-boleto">
+      <h2 class="receita-titulo">Frango ao Curry com Arroz de Coco – O Almoço que Transporta Pra Índia (Sem Passar pela Receita do Boleto)</h2>
+      <p class="receita-desc">Pra quem quer tempero diferente, mas não quer que a conta vire drama.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peito de frango em cubos</li>
+              <li>colheres de sopa de curry em pó</li>
+              <li>cebola picada</li>
+              <li>ml de leite de coco</li>
+              <li>xícaras de arroz branco</li>
+              <li>colher de manteiga</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola, junte frango e curry, cozinhe até dourar.</li>
+              <li>Acrescente leite de coco, tampe e cozinhe por 15 minutos.</li>
+              <li>Cozinhe o arroz com manteiga para acompanhar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o curry ficar forte demais, não é a receita que exagerou, é só sua vida que anda muito temperada.</div>
+    </article>
+
+    <article class="receita-card" id="torta-de-frango-com-massa-de-liquidificador-pra-quem-quer-economizar-tempo-e-dinheiro">
+      <h2 class="receita-titulo">Torta de Frango com Massa de Liquidificador – Pra Quem Quer Economizar Tempo e Dinheiro</h2>
+      <p class="receita-desc">Porque às vezes o jeito é improvisar, mas sem perder o sabor (e a sanidade).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de farinha de trigo</li>
+              <li>copo de leite</li>
+              <li>/2 copo de óleo</li>
+              <li>ovos</li>
+              <li>xícaras de frango cozido e desfiado</li>
+              <li>cebola picada</li>
+              <li>/2 xícara de milho verde</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>No liquidificador, bata farinha, leite, óleo e ovos.</li>
+              <li>Refogue cebola, junte frango, milho e temperos.</li>
+              <li>Em assadeira untada, coloque metade da massa, recheio e cubra com o restante da massa.</li>
+              <li>Asse a 180ºC por 35 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a massa ficar pesada, não é você que tá carregado, é só a torta mostrando que a vida adulta pesa mesmo.</div>
+    </article>
+
+    <article class="receita-card" id="bife-acebolado-com-farofa-o-almoco-que-e-simples-mas-nunca-sai-de-moda">
+      <h2 class="receita-titulo">Bife Acebolado com Farofa – O Almoço que é Simples, Mas Nunca Sai de Moda</h2>
+      <p class="receita-desc">Porque às vezes o básico é o que salva o dia (e o estômago).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>bifes de carne bovina</li>
+              <li>cebolas em rodelas</li>
+              <li>xícara de farinha de mandioca</li>
+              <li>colheres de manteiga</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere e frite os bifes, reserve.</li>
+              <li>Na mesma frigideira, refogue as cebolas até dourar.</li>
+              <li>Derreta manteiga, junte farinha e torre até dourar a farofa.</li>
+              <li>Sirva bifes com cebola por cima e farofa ao lado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a cebola queimar, não chore – é só a vida dizendo que às vezes o que importa é o sabor amargo.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-carne-com-molho-branco-porque-almoco-tambem-pode-ser-nostalgia">
+      <h2 class="receita-titulo">Panqueca de Carne com Molho Branco – Porque Almoço Também Pode Ser Nostalgia</h2>
+      <p class="receita-desc">Pra quem quer um almoço que lembra infância, mas com a conta do adulto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 26,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de trigo</li>
+              <li>ovo</li>
+              <li>xícara de leite</li>
+              <li>g de carne moída</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>copo de leite para molho branco</li>
+              <li>colher de sopa de manteiga</li>
+              <li>colher de sopa de farinha para molho branco</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, ovo e leite para massa; faça panquecas finas.</li>
+              <li>Refogue cebola, alho e carne; tempere.</li>
+              <li>Faça molho branco com manteiga, farinha e leite.</li>
+              <li>Recheie panquecas com carne, cubra com molho e asse por 15 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o molho talhar, não é a receita que falhou; é só seu amor próprio precisando de um pouco mais de calor.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-quinoa-com-legumes-e-frango-o-almoco-que-engana-e-alimenta">
+      <h2 class="receita-titulo">Salada de Quinoa com Legumes e Frango – O Almoço que Engana e Alimenta</h2>
+      <p class="receita-desc">Pra quem quer parecer saudável sem abrir mão do sabor (ou do rango mesmo).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de quinoa</li>
+              <li>g de peito de frango grelhado em cubos</li>
+              <li>tomate picado</li>
+              <li>pepino picado</li>
+              <li>Suco de 1 limão</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a quinoa conforme instruções da embalagem.</li>
+              <li>Misture quinoa, frango e legumes em tigela.</li>
+              <li>Tempere com limão, azeite, sal e pimenta.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a quinoa ficar amarga, não é a receita, é só o seu humor – tenta sorrir, melhora o sabor.</div>
+    </article>
+
+    <article class="receita-card" id="macarrao-com-molho-de-queijo-e-brocolis-o-almoco-que-abraca-o-estomago-e-o-coracao">
+      <h2 class="receita-titulo">Macarrão com Molho de Queijo e Brócolis – O Almoço que Abraça o Estômago e o Coração</h2>
+      <p class="receita-desc">Pra quem quer conforto e sabor, mas o boleto só deixa comprar macarrão.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de macarrão penne</li>
+              <li>maço de brócolis em floretes</li>
+              <li>ml de creme de leite</li>
+              <li>g de queijo muçarela ralado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o macarrão e o brócolis juntos por 8 minutos.</li>
+              <li>Em outra panela, aqueça creme de leite e queijo até derreter.</li>
+              <li>Misture macarrão, brócolis e molho de queijo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o queijo não derreter direito, não se preocupe – às vezes o amor também demora pra derreter.</div>
+    </article>
+
+    <article class="receita-card" id="carne-de-panela-com-batatas-e-cenoura-o-almoco-que-abraca-a-alma-cansada">
+      <h2 class="receita-titulo">Carne de Panela com Batatas e Cenoura – O Almoço que Abraça a Alma Cansada</h2>
+      <p class="receita-desc">Porque a vida adulta é dura, mas um bom cozido deixa tudo mais suportável.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 90 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 32,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de carne bovina em cubos</li>
+              <li>batatas grandes picadas</li>
+              <li>cenouras picadas</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>Sal, pimenta e louro a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Doure a carne com cebola e alho na panela de pressão.</li>
+              <li>Adicione água, temperos e cozinhe por 40 minutos.</li>
+              <li>Acrescente batatas e cenoura, cozinhe por mais 20 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a carne não amolecer, não é você que tá duro, é só ela que não quer colaborar – paciência é tempero secreto.</div>
+    </article>
+
+    <article class="receita-card" id="batata-recheada-com-frango-e-cheddar-o-almoco-que-e-conforto-em-forma-de-batata">
+      <h2 class="receita-titulo">Batata Recheada com Frango e Cheddar – O Almoço que é Conforto em Forma de Batata</h2>
+      <p class="receita-desc">Pra quem quer um almoço que é quase um abraço, mas sem precisar se levantar do sofá.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas grandes</li>
+              <li>g de frango cozido e desfiado</li>
+              <li>g de queijo cheddar ralado</li>
+              <li>/2 xícara de creme de leite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Asse as batatas até ficarem macias.</li>
+              <li>Corte uma tampa, retire parte da polpa e misture com frango, cheddar e creme de leite.</li>
+              <li>Recheie as batatas e leve ao forno para gratinar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a batata quebrar, não chore – às vezes, até a batata tem crise existencial.</div>
+    </article>
+
+    <article class="receita-card" id="yakisoba-caseiro-com-legumes-o-almoco-que-e-rapido-barato-e-engana-o-estomago">
+      <h2 class="receita-titulo">Yakisoba Caseiro com Legumes – O Almoço que é Rápido, Barato e Engana o Estômago</h2>
+      <p class="receita-desc">Porque às vezes a gente quer comida japonesa, mas só tem arroz e legumes na geladeira.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de macarrão para yakisoba</li>
+              <li>cenoura em tiras</li>
+              <li>/2 repolho picado</li>
+              <li>cebola fatiada</li>
+              <li>peito de frango em tiras</li>
+              <li>colheres de molho shoyu</li>
+              <li>Sal e óleo para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o macarrão e reserve.</li>
+              <li>Refogue frango até dourar, junte legumes e cozinhe rápido.</li>
+              <li>Acrescente macarrão, molho shoyu, misture e aqueça.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o macarrão grudar, não é você que tá grudando na vida, é só o macarrão que não quer colaborar – respira fundo e tenta de novo.</div>
+    </article>
+
+    <article class="receita-card" id="tutu-de-feijao-com-couve-refogada-o-almoco-que-abraca-a-tradicao-e-o-estomago">
+      <h2 class="receita-titulo">Tutu de Feijão com Couve Refogada – O Almoço que Abraça a Tradição (e o Estômago)</h2>
+      <p class="receita-desc">Porque comida mineira é amor, boleto e saudade num só prato.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de feijão cozido e amassado</li>
+              <li>colheres de farinha de mandioca</li>
+              <li>dentes de alho</li>
+              <li>maço de couve fatiada</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Óleo para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue alho, junte feijão e farinha até formar um creme.</li>
+              <li>Tempere e cozinhe mexendo até engrossar.</li>
+              <li>Refogue couve com alho e sal.</li>
+              <li>Sirva tutu com couve.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a farinha embolar, não é a receita que falhou, é só seu coração que precisa se soltar mais.</div>
+    </article>
+
+    <article class="receita-card" id="quibe-assado-com-salada-de-tabule-o-almoco-que-traz-sabor-e-refrescancia">
+      <h2 class="receita-titulo">Quibe Assado com Salada de Tabule – O Almoço que Traz Sabor e Refrescância</h2>
+      <p class="receita-desc">Pra quem quer comer bem e se sentir o dono da picanha no churrasco da firma.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de trigo para quibe</li>
+              <li>g de carne moída</li>
+              <li>cebola picada</li>
+              <li>Hortelã e salsinha picadas a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>tomates picados</li>
+              <li>pepino picado</li>
+              <li>Suco de limão e azeite para tabule</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Hidrate o trigo, misture com carne, cebola, sal, pimenta e ervas.</li>
+              <li>Coloque em assadeira e asse a 180ºC por 35 minutos.</li>
+              <li>Misture tomate, pepino, ervas, limão e azeite para tabule.</li>
+              <li>Sirva quibe com tabule.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o quibe não firmar, não é você que tá inseguro, é só ele que precisa de mais tempo no forno.</div>
+    </article>
+
+    <article class="receita-card" id="espaguete-a-bolonhesa-o-almoco-que-nunca-sai-de-moda-assim-como-a-conta-de-luz">
+      <h2 class="receita-titulo">Espaguete à Bolonhesa – O Almoço que Nunca Sai de Moda (Assim Como a Conta de Luz)</h2>
+      <p class="receita-desc">Porque molho vermelho é vida, e boleto vermelho é só mais um capítulo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de carne moída</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>ml de molho de tomate</li>
+              <li>g de espaguete</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho, junte carne e cozinhe até dourar.</li>
+              <li>Acrescente molho de tomate, tempere e deixe apurar.</li>
+              <li>Cozinhe o espaguete e escorra.</li>
+              <li>Misture o molho ao macarrão e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o molho secar demais, não é a receita que falhou, é só seu estoque de paciência que tá baixo.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

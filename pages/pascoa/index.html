@@ -1,0 +1,1692 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🐣 Páscoa — Receitas NaFome</title>
+  <meta name="description" content="40 receitas para quem está na situação "Páscoa". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/pascoa/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🐣 Páscoa — Receitas NaFome">
+  <meta property="og:description" content="40 receitas para quem está na situação "Páscoa". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/pascoa/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🐣 Páscoa — NaFome",
+    "description": "40 receitas para quem está na situação "Páscoa". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/pascoa/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=pascoa" class="btn-sortear">🎲 Sortear receita de Páscoa</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🐣 Páscoa</h1>
+    <p>40 receitas para quem está na situação "Páscoa". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">40 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Páscoa pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=pascoa" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="bacalhau-a-bras-porque-ate-na-pascoa-a-gente-merece-um-rango-que-nao-e-so-chocolate">
+      <h2 class="receita-titulo">Bacalhau à Brás: Porque até na Páscoa a gente merece um rango que não é só chocolate</h2>
+      <p class="receita-desc">Se a sua Páscoa anda muito doce, vem conferir o bacalhau à Brás que é quase um tapa na mesa: carinho, sabor e aquela batata palha que todo mundo rouba.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>300g de bacalhau dessalgado e desfiado</li>
+              <li>4 ovos</li>
+              <li>2 batatas médias cortadas em palha ou 1 pacote de batata palha pronta</li>
+              <li>1 cebola média picada</li>
+              <li>3 dentes de alho picados</li>
+              <li>Azeite a gosto</li>
+              <li>Salsinha picada a gosto</li>
+              <li>Sal e pimenta do reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola e o alho no azeite até ficarem transparentes – cuidado para não queimar, ninguém gosta de Páscoa com cheiro de churrasco acidental.</li>
+              <li>Adicione o bacalhau desfiado e deixe cozinhar por uns 5 minutos para ele se misturar nos temperos e sentir que está em festa.</li>
+              <li>Enquanto isso, bata os ovos com uma pitada de sal e pimenta, como se estivesse preparando um discurso para convencer seu estômago de que isso é saudável.</li>
+              <li>Misture as batatas palha ao refogado de bacalhau, reserve uma parte para colocar por cima e dar aquele toque crocante – porque quem disse que Páscoa não pode ter textura?</li>
+              <li>Despeje os ovos batidos sobre o bacalhau com batata, mexendo suavemente até que os ovos estejam cozidos, mas sem virar um omelete do churrasco de família.</li>
+              <li>Finalize com a batata palha reservada e a salsinha picada para aquele visual Instagramável.</li>
+              <li>Sirva quente e prepare-se para esquecer, por alguns minutos, que deveria estar comendo ovo de chocolate.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se acabar a batata palha antes do final, não culpe a receita… culpe a família que não sabe esperar jantar.</div>
+    </article>
+
+    <article class="receita-card" id="bacalhau-com-batatas-o-encontro-do-feriado-com-a-geladeira-vazia">
+      <h2 class="receita-titulo">Bacalhau com Batatas: O Encontro do Feriado com a Geladeira Vazia</h2>
+      <p class="receita-desc">Se a Páscoa representa renovação, esse bacalhau é a chance de renovar a promessa de que você vai cozinhar mais (pelo menos até a próxima sobremesa congelada).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 55,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de bacalhau dessalgado</li>
+              <li>4 batatas médias</li>
+              <li>1 cebola grande</li>
+              <li>3 dentes de alho</li>
+              <li>100ml de azeite de oliva</li>
+              <li>Salsinha a gosto</li>
+              <li>Pimenta-do-reino e sal a gosto</li>
+              <li>Azeitonas pretas para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Preaqueça o forno a 200°C e prepare-se para provar que a paciência é uma virtude.</li>
+              <li>Descasque as batatas e corte em rodelas grossas, para evitar aquela farofa no prato.</li>
+              <li>Corte o bacalhau em lascas generosas – nada de pão no pote, aqui é coração!</li>
+              <li>Pique a cebola e o alho e refogue no azeite até que o cheiro comece a atacar as narinas.</li>
+              <li>Em uma assadeira, faça camadas – batatas no fundo, bacalhau por cima, e repita como se fosse montar um castelo com comida.</li>
+              <li>Regue tudo generosamente com o azeite (afinal, festa sem azeite não é festa).</li>
+              <li>Tempere com sal, pimenta e salsinha, um toque de classe para parecer que você sabe cozinhar.</li>
+              <li>Leve ao forno por aproximadamente 40 minutos ou até que as batatas estejam macias e o cheiro tenha tomado conta da casa.</li>
+              <li>Na hora de servir, decore com as azeitonas – para aquele toque “instagramável” que ninguém perguntou, mas todo mundo ama.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não esqueça de dessalgar o bacalhau com calma – porque ninguém merece Páscoa com sabor de mar do canal das águas residuais.</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-de-bacalhau-o-rei-da-pascoa-que-nao-precisa-de-ovo">
+      <h2 class="receita-titulo">Bolinho de Bacalhau: O Rei da Páscoa que Não Precisa de Ovo</h2>
+      <p class="receita-desc">Porque na Páscoa não é só ovo que reina: aprenda a fazer o bolinho de bacalhau que faz até sua tia pedir bis.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de bacalhau dessalgado e desfiado</li>
+              <li>500g de batatas</li>
+              <li>1 cebola média picada</li>
+              <li>2 dentes de alho picados</li>
+              <li>3 ovos</li>
+              <li>Salsinha picada a gosto</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe as batatas com casca até ficarem macias, descasque e amasse como purê.</li>
+              <li>Misture o bacalhau desfiado com a cebola, alho, salsinha, ovos e o purê de batatas.</li>
+              <li>Tempere com sal e pimenta, mas cuidado para não exagerar, o bacalhau já vem com uma pitadinha de mar!</li>
+              <li>Modele bolinhos com as mãos (se grudar, não se preocupe, é só um sinal de amor pela cozinha).</li>
+              <li>Frite em óleo quente até dourar, igual dignidade em segunda-feira, difícil mas vale a pena!</li>
+              <li>Escorra em papel absorvente e sirva quente para impressionar a família (ou pelo menos conquistar o próximo churrasco).</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bolinho escapar da frigideira e voar, não se preocupe, significa que está muito leve... ou que você tá precisando de aula de frying 101.</div>
+    </article>
+
+    <article class="receita-card" id="bacalhau-ao-molho-de-natas-papo-de-pascoa">
+      <h2 class="receita-titulo">Bacalhau ao Molho de Natas: O Papo de Páscoa Que Seu Estômago Vai Amar</h2>
+      <p class="receita-desc">A receita ideal para quem quer impressionar no almoço de Páscoa e explanar todo seu amor por peixe salgado e molhos cremosos, tudo isso sem perder o humor – porque né, ninguém merece uma Páscoa sem piada e um estômago vazio!</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 65,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de bacalhau dessalgado e desfiado (sim, aquele que parecia um tijolo)</li>
+              <li>2 colheres de sopa de azeite de oliva (pra disfarçar a origem piscatória)</li>
+              <li>1 cebola grande picada com lágrimas garantidas</li>
+              <li>2 dentes de alho picados (pra expulsar o mau olhado)</li>
+              <li>200g de creme de leite fresco (as famosas natas)</li>
+              <li>100g de queijo parmesão ralado (pra gratinar e impressionar a sogra)</li>
+              <li>1 colher de sopa de farinha de trigo (pra dar aquela engrossada esperada)</li>
+              <li>300ml de leite integral (fiel amigo do molho)</li>
+              <li>Sal e pimenta-do-reino a gosto (mas cuidado pra não transformar em salada)</li>
+              <li>Salsinha picada para finalizar (porque ninguém é de ferro)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Pré-aqueça o forno a 200°C e prepare-se pra ver magia acontecendo.</li>
+              <li>Em uma panela, aqueça o azeite e refogue a cebola até ela ficar transparente, mas não triste.</li>
+              <li>Junte o alho e refogue por mais um minutinho, só pra não deixar ninguém sem companhia.</li>
+              <li>Adicione a farinha de trigo e mexa bem para formar um roux – basicamente, aquele molho que parece uma lama deliciosa.</li>
+              <li>Vá adicionando o leite aos poucos, mexendo sempre para não criar bolota – tipo reunião chata, ninguém quer.</li>
+              <li>Deixe o molho engrossar, tempere com sal e pimenta, e acrescenta o creme de leite para aquela textura de abraço de vó.</li>
+              <li>Incorpore o bacalhau desfiado no molho e misture com carinho, como se estivesse consolando um amigo na Páscoa.</li>
+              <li>Coloque tudo em um refratário, cubra com o queijo parmesão ralado e leve ao forno para gratinar até dourar (ou até a casa cheirar como um verdadeiro banquete).</li>
+              <li>Retire do forno, salpique salsinha e sirva com orgulho (e fome).</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bacalhau te olhar torto depois de dessalgar, fala que é só pra garantir que ele perdiu o sal — e não a paciência!</div>
+    </article>
+
+    <article class="receita-card" id="bacalhau-com-grao-de-bico-pascoa-da-mamae">
+      <h2 class="receita-titulo">Bacalhau com Grão-de-Bico: a Páscoa que sua mãe aprovaria (se ela não fosse tão exigente)</h2>
+      <p class="receita-desc">Aquela receita de Páscoa que junta tradição e um toque de humor para ninguém cair no sono à mesa (ou pelo menos tentar). Bacalhau com grão-de-bico, porque a reunião de família merece algo mais que só peixe, e um pouco de stand-up no prato.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 90 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 65,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de bacalhau dessalgado</li>
+              <li>2 xícaras de grão-de-bico cozido</li>
+              <li>1 cebola grande picada</li>
+              <li>3 dentes de alho picados</li>
+              <li>4 ovos cozidos</li>
+              <li>Azeite extra virgem a gosto</li>
+              <li>Salsinha picada a gosto</li>
+              <li>Sal e pimenta do reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Dessalgue o bacalhau com a paciência que você não teve no último encontro amoroso: deixe de molho por 24 horas, trocando a água algumas vezes.</li>
+              <li>Cozinhe o grão-de-bico até ficar macio, ou até ele aceitar seu pedido educado para amolecer.</li>
+              <li>Em uma panela, refogue a cebola e o alho no azeite até ficarem douradinhos, porque ninguém merece cebola crua em festa de família.</li>
+              <li>Junte o bacalhau desfiado e deixe cozinhar por alguns minutos, soltando aquela vontade boa de cheirar a casa.</li>
+              <li>Acrescente o grão-de-bico, misture tudo como você mistura suas emoções numa terça-feira à noite.</li>
+              <li>Tempere com sal e pimenta do reino a gosto, mas lembre-se: é Páscoa, não carnaval de sabores.</li>
+              <li>Sirva com ovos cozidos decorando por cima e uma generosa regada de azeite, porque na vida, e na cozinha, azeite nunca é demais.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bacalhau insistir em ficar salgado, faça como na vida: troque a água até conseguir o resultado perfeito. E nunca conte para os convidados essa saga—mantenha a mágica viva!</div>
+    </article>
+
+    <article class="receita-card" id="ovo-de-pascoa-caseiro-porque-1kg-de-chocolate-e-um-investimento">
+      <h2 class="receita-titulo">Ovo de Páscoa Caseiro: Porque 1kg de chocolate comprando no mercado já é um investimento!</h2>
+      <p class="receita-desc">Porque fazer ovo de Páscoa em casa é a desculpa perfeita pra comer chocolate sem sentir culpa e dar aquela mão na economia da família.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 1 ovo médio</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de chocolate ao leite (e nada de fingir que é chocolate meio amargo, por favor)</li>
+              <li>Forma para ovo de Páscoa (ou a tampa daquele pote de sorvete vazio que você nunca usa)</li>
+              <li>1 colher de sopa de manteiga (pra dar brilho e fingir que você é um confeiteiro profissional)</li>
+              <li>Papel manteiga para facilitar na hora de desenformar (porque o ovo grudado não combina com felicidade)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta o chocolate em banho-maria ou no micro-ondas (sem deixar virar ovo de pedra, por favor).</li>
+              <li>Misture a manteiga ao chocolate derretido para dar aquele brilho digno de Instagram.</li>
+              <li>Com uma colher, espalhe o chocolate derretido nas formas, não economiza, porque ovo fino é tristeza.</li>
+              <li>Leve à geladeira por 15 minutos, repita a camada para ficar mais resistente (ninguém quer ovo que desaba ao primeiro toque!).</li>
+              <li>Depois de endurecido, desenforme com jeitinho – ou use a tática do soco na mesa (não recomendado).</li>
+              <li>Decore se quiser, ou coma o ovo puro mesmo que já tá valendo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o chocolate não quiser desgrudar da forma, culpa da gravidade, mas um pontinho de paciência e outra camada de manteiga na forma podem salvar seu ovo (e sua dignidade).</div>
+    </article>
+
+    <article class="receita-card" id="trufa-de-chocolate-com-cachaca-e-castanha-a-pascoa-que-embala-e-crocaa">
+      <h2 class="receita-titulo">Trufa de Chocolate com Cachaça e Castanha: a Páscoa que embala e crocaa!</h2>
+      <p class="receita-desc">A trufa que resolve dois problemas: a Páscoa chata e a vontade de beber algo diferente. Chocolate, cachaça e castanha pra ninguém botar defeito e sim confete!</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min + 2h geladeira</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 15 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>200g de chocolate meio amargo picado</li>
+              <li>100ml de creme de leite fresco</li>
+              <li>50ml de cachaça boa (aquela que você não esconde)</li>
+              <li>1 colher de sopa de manteiga sem sal</li>
+              <li>100g de castanhas-do-pará picadas</li>
+              <li>Cacau em pó para enrolar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta o chocolate com a manteiga em banho-maria. Se o chocolate tentar fugir, segure firme, ele só quer o seu amor.</li>
+              <li>Misture o creme de leite no chocolate derretido até ficar um creme liso. Se ficar empelotado, respira, tá quase lá.</li>
+              <li>Adicione a cachaça e mexa bem. Agora a trufa tá na vibe 'festa junina na Páscoa'.</li>
+              <li>Leve à geladeira por cerca de 2 horas até firmar. Tempo para preparar a playlist de embalo.</li>
+              <li>Com o creme firme, faça bolinhas, role nas castanhas picadas para dar crocância e depois passe no cacau em pó.</li>
+              <li>Coloque em forminhas e mantenha na geladeira até a hora de servir para não virar lanchinho de madrugada.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se as trufas ficaram meio duronas, não se preocupe — é só a cachaça dizendo que você está no clima de festa. Aproveita e proseia!</div>
+    </article>
+
+    <article class="receita-card" id="pave-de-chocolate-com-chantilly-porque-quem-nao-quis-pave-na-pascoa-nunca-foi-feliz">
+      <h2 class="receita-titulo">Pavê de Chocolate com Chantilly: Porque Quem Não Quis Pavê na Páscoa, Nunca Foi Feliz</h2>
+      <p class="receita-desc">O pavê que vai salvar sua Páscoa e convencer todo mundo que até comida pode ser motivo de piada e festa!</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>200g de biscoito maisena (ou aquele biscoito esquecido na despensa)</li>
+              <li>300ml de creme de leite fresco para chantilly</li>
+              <li>200g de chocolate meio amargo picado</li>
+              <li>2 colheres de sopa de açúcar</li>
+              <li>1 caixa de leite condensado</li>
+              <li>1 caixa de creme de leite</li>
+              <li>1 colher de sopa de manteiga</li>
+              <li>100ml de leite para molhar os biscoitos</li>
+              <li>Chocolate granulado para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta o chocolate com a manteiga em banho-maria, mexendo até ficar homogêneo — sem queimar, afinal, ninguém quer chocolate amargo e drama extra.</li>
+              <li>Misture o leite condensado e o creme de leite ao chocolate derretido para formar uma ganache cremosa.</li>
+              <li>Molhe rapidamente os biscoitos no leite, com cuidado para não virar sopa, e faça uma camada no fundo da forma.</li>
+              <li>Cubra os biscoitos com uma camada generosa da ganache de chocolate.</li>
+              <li>Repita as camadas até acabar os ingredientes, terminando com ganache.</li>
+              <li>Bata o creme de leite fresco com o açúcar até virar chantilly — e sem perder a linha, como na reunião do trabalho.</li>
+              <li>Cubra o pavê com o chantilly e decorate com chocolate granulado.</li>
+              <li>Leve à geladeira por pelo menos 4 horas (ou até a próxima reunião familiar).</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se alguém reclamar que tá querendo pavê ou pacomê, lembre que na vida o importante é ter chantilly — e bom humor!</div>
+    </article>
+
+    <article class="receita-card" id="mousse-de-chocolate-com-ovos-de-codorna-delicia-mini-estresse-maximo">
+      <h2 class="receita-titulo">Mousse de Chocolate com Ovos de Codorna: Delícia Mini, Estresse Máximo</h2>
+      <p class="receita-desc">Uma mousse sofisticada que usa os ovos de codorna para transformar sua Páscoa em uma caça ao tesouro gastronômica — porque encontrar um ovinho miniatura nas sobremesas é tipo academia mental.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>200g de chocolate meio amargo</li>
+              <li>3 ovos (separe as claras das gemas)</li>
+              <li>12 ovos de codorna cozidos e descascados</li>
+              <li>3 colheres de sopa de açúcar</li>
+              <li>1 lata de creme de leite sem soro</li>
+              <li>1 pitada de sal</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta o chocolate em banho-maria ou no micro-ondas com cuidado para não virar carvão — porque ninguém merece mousse salgada de carvão.</li>
+              <li>Separe as claras das gemas e bata as claras em neve com uma pitada de sal, porque até na cozinha a gente tenta fazer as coisas subirem.</li>
+              <li>Misture as gemas ao chocolate derretido e depois incorpore delicadamente o creme de leite.</li>
+              <li>Adicione o açúcar ao suspiro (claras em neve) e misture tudo com jeitinho, como quem conversa com o crush pela primeira vez.</li>
+              <li>Em taças pequenas ou em um refratário, coloque uma camada de mousse, disponha os ovos de codorna cortados pela metade — a parte mais desafiadora, porque descascar esses mini ovos parece um trabalho de ninja.</li>
+              <li>Finalize com outra camada de mousse e leve à geladeira por pelo menos 4 horas para firmar e para você ter tempo de rir queimar os dedos com o chocolate quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Descascar os ovos de codorna é a verdadeira prova de paciência; aproveite para praticar a meditação ou xingar baixinho enquanto ninguém ouve.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-de-cenoura-verdadeira-verdura-que-se-fantasia-de-sobremesa-na-pascoa">
+      <h2 class="receita-titulo">Bolo de Cenoura: A Verdadeira Verdura que se Fantasia de Sobremesa na Páscoa</h2>
+      <p class="receita-desc">Quem disse que cenoura é só para coelhos? Esse bolo é a prova de que até uma verdura pode entrar na festa da Páscoa com direito a chocolate e tudo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 10 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>3 cenouras médias raladas (porque cenoura crua não é opção)</li>
+              <li>4 ovos (a proteína oficial da proteína da Páscoa)</li>
+              <li>1 xícara de óleo (se for de girassol, parabéns, você é fitness)</li>
+              <li>2 xícaras de açúcar (porque porcaria saudável não é o nosso foco)</li>
+              <li>2 e 1/2 xícaras de farinha de trigo (a base da felicidade)</li>
+              <li>1 colher de sopa de fermento em pó (o foguete que levanta o bolo)</li>
+              <li>200g de chocolate meio amargo para cobertura (porque mais amargo que o seu chefe)</li>
+              <li>3 colheres de sopa de manteiga (que a gente não conta calorias nessa festa)</li>
+              <li>3 colheres de sopa de leite (pra dar aquela cremosa que é tipo abraço de vó)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Pré-aqueça o forno a 180°C - ou faça como eu, ligue o forno e esqueça, vai dar certo.</li>
+              <li>No liquidificador, bata as cenouras raladas, ovos e óleo até virar aquele suco laranja suspeito.</li>
+              <li>Despeje tudo numa tigela e misture com açúcar e farinha até parecer uma massa de boliche, mas não tão dura.</li>
+              <li>Adicione o fermento last minute, tipo fofoca boa, e misture rapidinho.</li>
+              <li>Coloque a massa em uma forma untada e enfarinhada. Já aproveita pra lamber a colher, ninguém vai julgar.</li>
+              <li>Asse por cerca de 40 minutos, ou até quando o palito sair limpinho (ou você cansar de esperar).</li>
+              <li>Enquanto isso, derreta o chocolate com manteiga e leite em banho-maria (ou método ‘mimimi, por que não derrete?’, mexa sempre).</li>
+              <li>Espalhe a cobertura no bolo quando ele estiver frio, porque vamos combinar que chocolate quente no bolo de cenoura é quase uma bomba relógio.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se ninguém quiser dividir o bolo, finja que experimentou demais e vá dormir cedo — amanhã a dieta começa mesmo, né?</div>
+    </article>
+
+    <article class="receita-card" id="coelho-durao-chocolate">
+      <h2 class="receita-titulo">Coelho Durão de Chocolate que Não Derrete na Sua Cara</h2>
+      <p class="receita-desc">O coelho que vai sobreviver mais tempo que sua dieta. Cheio de personalidade e chocolate, para ninguém reclamar da páscoa sem graça.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g chocolate meio amargo</li>
+              <li>50g chocolate branco para decorar</li>
+              <li>forminha de coelho de silicone</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta o chocolate meio amargo e finja que está fazendo mágica.</li>
+              <li>Despeje na forminha, bata na mesa (não na cabeça) para tirar bolhas.</li>
+              <li>Leve à geladeira e conte até 100... ou até endurecer.</li>
+              <li>Decore com chocolate branco, tentando desenhar o coelhinho que vive em você.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o coelho derreter, é só fingir que era um fondue. Ou chorar.</div>
+    </article>
+
+    <article class="receita-card" id="ovos-recheados-de-mentira">
+      <h2 class="receita-titulo">Ovos Recheados de Mentira (Mas Muito Saborosos)</h2>
+      <p class="receita-desc">Aquele ovo de páscoa que engana a família e te faz parecer chef, sem precisar abrir o coelho de verdade.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,50</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>6 ovos cozidos</li>
+              <li>2 colheres maionese</li>
+              <li>1 colher mostarda</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Salsinha para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte os ovos ao meio e tire a gema com jeitinho, como se fosse um roubo culinário.</li>
+              <li>Misture a gema com maionese, mostarda, sal e pimenta, inventando que é o recheio dos sonhos.</li>
+              <li>Recheie as claras com a pasta e decore com salsinha – porque verde é vida e faz você parecer gourmet.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se alguém reclamar que é 'simples demais', jogue um pouco mais de pimenta. Resolve tudo.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-cenoura-cobertura-chocolate">
+      <h2 class="receita-titulo">Bolo de Cenoura com Cobertura de Chocolate – O Clássico que Salva</h2>
+      <p class="receita-desc">Bolo de cenoura é a prova que nem todo chocolate da páscoa precisa ser ovo. Além disso, salva aquele tio que só come bolo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>3 cenouras médias</li>
+              <li>3 ovos</li>
+              <li>1 xícara óleo</li>
+              <li>2 xícaras açúcar</li>
+              <li>2 e 1/2 xícara farinha de trigo</li>
+              <li>1 colher sopa fermento</li>
+              <li>200g chocolate meio amargo</li>
+              <li>1 caixinha creme de leite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata no liquidificador cenoura, ovos e óleo, fazendo cara de chef de masterchef.</li>
+              <li>Misture com o açúcar, farinha e fermento, tentando não sujar tudo.</li>
+              <li>Asse até o bolo dizer 'eu tô pronto!' com cheiro delicioso.</li>
+              <li>Para a cobertura, derreta chocolate com creme de leite e espalhe como se fosse pintura abstrata.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bolo afundar, é só dizer que é um bolo 'pós-modernista'.</div>
+    </article>
+
+    <article class="receita-card" id="salada-frutas-pascoa">
+      <h2 class="receita-titulo">Salada de Frutas da Páscoa – Porque Nem Só de Chocolate Vive o Coelho</h2>
+      <p class="receita-desc">Salada de frutas é a desculpa perfeita para dizer que você está na páscoa, mas sem culpa. O coelho agradece.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 maçã</li>
+              <li>1 banana</li>
+              <li>1 laranja</li>
+              <li>1 punhado de uva</li>
+              <li>Mel a gosto</li>
+              <li>Hortelã para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Pique as frutas como se estivesse cortando os problemas da vida em pedaços.</li>
+              <li>Misture tudo numa tigela com mel, sorria porque está saudável.</li>
+              <li>Decore com hortelã – ou finja que é grana para impressionar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a criança reclamar, diga que é ovo desintoxicante.</div>
+    </article>
+
+    <article class="receita-card" id="coelhinho-pao-de-queijo">
+      <h2 class="receita-titulo">Coelhinho de Pão de Queijo – Porque Tudo é Melhor Frito</h2>
+      <p class="receita-desc">Pão de queijo é o verdadeiro herói brasileiro e se for em formato de coelho, vira Páscoa gourmet. Surpreenda os amigos!</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g polvilho azedo</li>
+              <li>200ml leite</li>
+              <li>100ml óleo</li>
+              <li>2 ovos</li>
+              <li>300g queijo minas padrão ralado</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture tudo até virar uma massa que nem você entende como funciona.</li>
+              <li>Modele em formato de coelhinho, porque a páscoa merece arte.</li>
+              <li>Asse até dourar e finja que fez isso de primeira.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se desmanchar, diga que é coelho de lama. Originalidade manda.</div>
+    </article>
+
+    <article class="receita-card" id="brigadeiro-de-colher">
+      <h2 class="receita-titulo">Brigadeiro de Colher – O Coelho do Apocalipse da Dieta</h2>
+      <p class="receita-desc">Brigadeiro de colher é o verdadeiro protagonista da Páscoa. Quem precisa de ovo quando tem chocolate que você come direto da panela?</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 lata leite condensado</li>
+              <li>2 colheres sopa cacau em pó</li>
+              <li>1 colher sopa manteiga</li>
+              <li>granulado para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture tudo numa panela e mexa até desgrudar do fundo como aquele ex que não sai da sua cabeça.</li>
+              <li>Coloque em potinhos e jogue granulado, porque na dúvida, joga granulado.</li>
+              <li>Coma com colher, sem vergonha e com orgulho.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar (duvido), guarde na geladeira e finja que é dieta.</div>
+    </article>
+
+    <article class="receita-card" id="torta-limao-chocolate">
+      <h2 class="receita-titulo">Torta de Limão com Chocolate – O Casamento do Século</h2>
+      <p class="receita-desc">A torta que junta o azedinho do limão com o doce do chocolate, igual aquela relação complicada que você conhece.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 pacote biscoito maisena</li>
+              <li>100g manteiga derretida</li>
+              <li>1 lata leite condensado</li>
+              <li>1 lata creme de leite</li>
+              <li>4 limões espremidos</li>
+              <li>100g chocolate meio amargo picado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Triture os biscoitos e misture com manteiga para fazer a base, igual montar um castelo de areia.</li>
+              <li>Misture leite condensado, creme de leite e limão para o recheio azedinho, mas doce.</li>
+              <li>Monte a torta, deixe na geladeira e decore com chocolate derretido tipo Picasso.</li>
+              <li>Faça drama pra parecer chef.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o chocolate rachar, é só dizer que é 'torta vintage'.</div>
+    </article>
+
+    <article class="receita-card" id="cupcake-cenoura-orelhas-coelho">
+      <h2 class="receita-titulo">Cupcake de Cenoura com Orelhas de Coelho – Moda que Engorda</h2>
+      <p class="receita-desc">Cupcakes que parecem coelhos, perfeitos para quem quer comer doce e causar no Instagram ao mesmo tempo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 10 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 cenouras médias raladas</li>
+              <li>2 ovos</li>
+              <li>1/2 xícara óleo</li>
+              <li>1 xícara açúcar</li>
+              <li>1 e 1/2 xícara farinha de trigo</li>
+              <li>1 colher sopa fermento</li>
+              <li>Glacê de chocolate para decorar</li>
+              <li>Marshmallows para as orelhas</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture tudo e asse em forminhas de cupcake, sorrindo para o forno.</li>
+              <li>Depois de frio, cubra com glacê e finja que sabe fazer orelhas com marshmallows.</li>
+              <li>Sirva e espere elogios (ou pelo menos risadas).</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se der errado, coma tudo antes que alguém veja.</div>
+    </article>
+
+    <article class="receita-card" id="rabanada-pascoa-canela">
+      <h2 class="receita-titulo">Rabanada de Páscoa com Toque de Canela (E Vontade de Sumir)</h2>
+      <p class="receita-desc">Rabanada é o abraço quentinho da Páscoa que você não sabia que precisava. E com canela, vira festa na boca.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>6 fatias pão de forma amanhecido</li>
+              <li>3 ovos</li>
+              <li>1 xícara leite</li>
+              <li>1 colher canela em pó</li>
+              <li>Açúcar para polvilhar</li>
+              <li>Manteiga para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture ovos, leite e canela como se estivesse preparando poção mágica.</li>
+              <li>Mergulhe o pão na mistura e frite na manteiga até dourar como se fosse o sol da manhã.</li>
+              <li>Polvilhe açúcar e prepare a desculpa para a balança.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar, diga que é recheio para o café da manhã do dia seguinte. Ou do último.</div>
+    </article>
+
+    <article class="receita-card" id="mousse-maracuja-pascoa">
+      <h2 class="receita-titulo">Mousse de Maracujá que Vai Te Fazer Esquecer do Chocolate</h2>
+      <p class="receita-desc">Quando o chocolate não dá conta, a mousse de maracujá chega para refrescar a alma e o paladar. Páscoa inovadora, meu amigo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 3h (geladeira)</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 lata leite condensado</li>
+              <li>1 lata creme de leite</li>
+              <li>1 lata suco de maracujá concentrado</li>
+              <li>Polpa de 1 maracujá para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata leite condensado, creme de leite e suco de maracujá no liquidificador como se fosse inventar o verão.</li>
+              <li>Leve à geladeira até firmar, contando piadas para acelerar o tempo.</li>
+              <li>Decore com polpa de maracujá e finja que sabe fazer arte.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se alguém preferir chocolate, ofereça uma mordida e corra.</div>
+    </article>
+
+    <article class="receita-card" id="coelhinho-da-pascoa-vegano-chocolate-que-nao-some-do-seu-bolso">
+      <h2 class="receita-titulo">Coelhinho da Páscoa Vegano: Chocolate que não some do seu bolso</h2>
+      <p class="receita-desc">Para quem quer a Páscoa sem culpa e com sabor que não deixa você chorar na hora da conta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>200g de chocolate amargo vegano</li>
+              <li>1 colher de sopa de óleo de coco</li>
+              <li>granulado vegano para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta o chocolate no micro-ondas, se não der certo, finja que é mágica.</li>
+              <li>Misture o óleo de coco para dar aquele brilho digno de coelhinho de revista.</li>
+              <li>Despeje em formas de coelho, coloque o granulado e leve à geladeira até virar arte.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se der vontade de comer a forma, lembre-se: plástico não é chocolate, infelizmente.</div>
+    </article>
+
+    <article class="receita-card" id="ovo-de-pascoa-explosivo-recheio-de-brigadeiro">
+      <h2 class="receita-titulo">Ovo de Páscoa Explosivo: Recheio de brigadeiro que explode na boca (e no olho de fome)</h2>
+      <p class="receita-desc">Porque Páscoa sem brigadeiro não é Páscoa, é só um domingo triste.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>300g de chocolate ao leite</li>
+              <li>1 lata de leite condensado</li>
+              <li>2 colheres de sopa de chocolate em pó</li>
+              <li>manteiga para o brigadeiro</li>
+              <li>granulado para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Faça o brigadeiro: misture leite condensado, chocolate em pó e manteiga, e mexa até não aguentar mais.</li>
+              <li>Derreta o chocolate e molde as metades do ovo.</li>
+              <li>Recheie com o brigadeiro, feche o ovo e decore para parecer que não tá com vontade de comer.</li>
+              <li>Leve para gelar e prepare para a explosão de sabor.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não deixe o brigadeiro muito mole, ou a explosão vira uma bagunça no prato.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-cenoura-ninja-surpresa-de-chocolate">
+      <h2 class="receita-titulo">Bolo Cenoura Ninja: Surpresa de chocolate que ataca seu paladar</h2>
+      <p class="receita-desc">Um bolo que parece saudável mas te trai com chocolate. Páscoa é tempo de surpresas!</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h20min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>3 cenouras médias raladas</li>
+              <li>3 ovos</li>
+              <li>1 xícara de óleo</li>
+              <li>2 xícaras de açúcar</li>
+              <li>2 e 1/2 xícaras de farinha de trigo</li>
+              <li>1 colher de sopa de fermento</li>
+              <li>200g de chocolate meio amargo para cobertura</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata no liquidificador cenoura, ovos e óleo – é quase um suco saudável.</li>
+              <li>Misture o açúcar, farinha e fermento, e depois o que bateu no liquidificador.</li>
+              <li>Asse na forma untada e pense: ‘Será que rende até a Páscoa?’</li>
+              <li>Derreta o chocolate para a cobertura ninja e espalhe antes que ele desista.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Use cenoura fresquinha para o bolo não virar uma cenoura desanimada.</div>
+    </article>
+
+    <article class="receita-card" id="coelhinho-de-pascoa-salgado">
+      <h2 class="receita-titulo">Coelhinho de Páscoa Salgado: Porque coelho também é fã de lanche</h2>
+      <p class="receita-desc">Para quem acha que coelhinho só come chocolate e quer inovar na Páscoa salgada.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 massa de pão de forma</li>
+              <li>200g de presunto</li>
+              <li>200g de queijo mussarela</li>
+              <li>orégano a gosto</li>
+              <li>1 gema para pincelar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Modele a massa em forma de coelho, se estragar, diga que é arte abstrata.</li>
+              <li>Coloque presunto e queijo, feche a massa com jeitinho (e coragem).</li>
+              <li>Pincele a gema para dar aquele dourado que até coelho inveja.</li>
+              <li>Asse até parecer que aguenta um abraço de coelhinho.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o coelho não ficar bonito, ofereça como ‘coelho moderninho’ e pronto.</div>
+    </article>
+
+    <article class="receita-card" id="pave-de-pascoa-camadas-de-drama-e-chocolate">
+      <h2 class="receita-titulo">Pavê de Páscoa: Camadas de drama e chocolate</h2>
+      <p class="receita-desc">Pavê é aquele rolê de Páscoa que tem drama, justiça e chocolate na medida exata.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 2h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 pacote de biscoito champagne</li>
+              <li>2 latas de leite condensado</li>
+              <li>2 colheres de sopa de amido de milho</li>
+              <li>500 ml de leite</li>
+              <li>200g de chocolate meio amargo</li>
+              <li>1 caixinha de creme de leite</li>
+              <li>chocolate ralado para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Faça um creme com leite condensado, amido e leite, mexendo até virar um thriller.</li>
+              <li>Derreta o chocolate e misture com creme de leite para a camada de mistério.</li>
+              <li>Monte camadas de biscoito molhado, creme branco e creme de chocolate, até acabar a paciência.</li>
+              <li>Decore e leve à geladeira para juntar suspense e sabor.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Molhe o biscoito rápido, ninguém quer biscoito desmanchado tipo novela mexicana.</div>
+    </article>
+
+    <article class="receita-card" id="ovo-de-colher-do-desespero">
+      <h2 class="receita-titulo">Ovo de Colher do Desespero: Pra quando só te resta lamber a sorte</h2>
+      <p class="receita-desc">Quando a vida te dá limões, faça um ovo de colher e esqueça o limão.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h30min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 23,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>300g de chocolate ao leite</li>
+              <li>1 lata de leite condensado</li>
+              <li>2 colheres de sopa de manteiga</li>
+              <li>granulado para enfeitar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta o chocolate e cubra uma forma de ovo para fazer a casca, tipo escudo de guerra.</li>
+              <li>Faça o brigadeiro clássico com leite condensado e manteiga, mexa até o desespero acabar.</li>
+              <li>Recheie a casca com brigadeiro e decore com granulado, pra fingir que não tá só com vontade de atacar.</li>
+              <li>Leve para gelar e prepare a colher para a batalha.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar chocolate, coma com a colher. A culpa é sua.</div>
+    </article>
+
+    <article class="receita-card" id="cupcake-coelhinho-saltitante">
+      <h2 class="receita-titulo">Cupcake Coelhinho Saltitante: Pequeno, fofo e cheio de caloria</h2>
+      <p class="receita-desc">Cupcake é pra quem quer a doçura em porções pequenas, mas com alma gigante.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 xícara de farinha de trigo</li>
+              <li>1/2 xícara de açúcar</li>
+              <li>1/2 xícara de leite</li>
+              <li>1 ovo</li>
+              <li>1 colher de chá de fermento em pó</li>
+              <li>1 colher de sopa de manteiga</li>
+              <li>confeitos coloridos para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture os ingredientes secos e molhados com a velocidade da inveja do vizinho.</li>
+              <li>Coloque nas forminhas e asse até sentir cheiro de felicidade.</li>
+              <li>Decore com confeitos formando orelhas e olhos, ou invente que é arte moderna.</li>
+              <li>Serve e espera os elogios saltitarem.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não esqueça de deixar os confeitos longe das crianças – e do seu dedo.</div>
+    </article>
+
+    <article class="receita-card" id="colomba-pascal-express">
+      <h2 class="receita-titulo">Colomba Pascal Express: O pão que chega antes do coelho</h2>
+      <p class="receita-desc">Colomba pascal é o pão que prova que até a Páscoa tem pressa às vezes.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 3h</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 xícaras de farinha de trigo</li>
+              <li>1/2 xícara de açúcar</li>
+              <li>1/2 xícara de leite morno</li>
+              <li>1 ovo</li>
+              <li>1 colher de sopa de fermento biológico seco</li>
+              <li>100g de frutas cristalizadas</li>
+              <li>50g de açúcar para a cobertura</li>
+              <li>1 clara de ovo</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture fermento, leite morno e açúcar e espere a mágica do crescimento.</li>
+              <li>Adicione farinha, ovo e frutas cristalizadas, sove até cansar os braços.</li>
+              <li>Modele em forma de pomba (ou algo que pareça) e deixe crescer de novo, porque crescer é vida.</li>
+              <li>Pincele a clara, polvilhe açúcar e asse até dourar mais que seu humor.</li>
+              <li>Pronto, a pomba chegou antes do coelho, pode comemorar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não desista na sova, seu braço vai agradecer depois – e seu estômago também.</div>
+    </article>
+
+    <article class="receita-card" id="almodegas-do-judas-pascoa-com-sabor-de-plot-twist">
+      <h2 class="receita-titulo">Almôndegas do Judas: Páscoa com sabor de plot twist</h2>
+      <p class="receita-desc">Para quem quer fugir do chocolate e fazer um plot twist no cardápio de Páscoa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de carne moída</li>
+              <li>1/2 cebola picada</li>
+              <li>2 dentes de alho amassados</li>
+              <li>1 ovo</li>
+              <li>1/2 xícara de farinha de rosca</li>
+              <li>sal e pimenta a gosto</li>
+              <li>molho de tomate para cobrir</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture tudo com vontade de trair a dieta.</li>
+              <li>Modele as almôndegas como se fossem pequenos traidores, mas muito saborosos.</li>
+              <li>Frite ou asse até dourar, porque até o Judas merece uma aparência boa.</li>
+              <li>Cubra com molho de tomate e sirva com aquela cara de ‘não acredito que estou comendo isso na Páscoa’.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se alguém perguntar quem fez, diga que foi o coelho, ele é bom em surpresas.</div>
+    </article>
+
+    <article class="receita-card" id="risoto-de-aspargos-do-ultimo-jantar">
+      <h2 class="receita-titulo">Risoto de Aspargos do Último Jantar: Elegância com gostinho de 'adeus, fome!'</h2>
+      <p class="receita-desc">Inspirado nos jantares de despedida dos grandes, para uma Páscoa com classe e sabor.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 xícara de arroz arbóreo</li>
+              <li>1 maço de aspargos</li>
+              <li>1/2 cebola picada</li>
+              <li>2 colheres de sopa de manteiga</li>
+              <li>1/2 xícara de vinho branco</li>
+              <li>caldo de legumes quente</li>
+              <li>50g de queijo parmesão ralado</li>
+              <li>sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola na manteiga até ficar transparente, igual suas intenções na cozinha.</li>
+              <li>Adicione o arroz e o vinho, mexa até o álcool evaporar e o coração acelerar.</li>
+              <li>Vá adicionando caldo aos poucos, mexendo e rezando para dar certo.</li>
+              <li>Cozinhe os aspargos separados e adicione quase no final para não virarem purê.</li>
+              <li>Finalize com parmesão e sirva com a elegância de um jantar de despedida.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não esqueça de mexer sempre; um risoto parado é um drama ambulante.</div>
+    </article>
+
+    <article class="receita-card" id="coelhinho-gourmet-ovos-recheados-risoto-caipira">
+      <h2 class="receita-titulo">Coelhinho Gourmet: Ovos Recheados de Risoto Caipira</h2>
+      <p class="receita-desc">Porque Páscoa não é só chocolate! Que tal surpreender com ovos recheados que parecem feitos por chef de restaurante caro (mas com preço de feira?).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>6 ovos grandes</li>
+              <li>1 xícara de arroz arbóreo</li>
+              <li>1/2 cebola picada</li>
+              <li>1 dente de alho</li>
+              <li>200g de frango desfiado</li>
+              <li>1/2 xícara de queijo parmesão ralado</li>
+              <li>1 colher de sopa de manteiga</li>
+              <li>caldo de galinha</li>
+              <li>sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Quebre os ovos, mas não os ovos da vida, apenas o topo, e retire as claras com jeitinho.</li>
+              <li>Cozinhe o arroz arbóreo com cebola, alho e caldo de galinha até virar aquele risoto cremoso, como abraço de vó.</li>
+              <li>Misture o frango, parmesão, manteiga, sal e pimenta no risoto.</li>
+              <li>Recheie as cascas vazias de ovo com essa maravilha culinária e leve ao forno por 10 minutos para dar aquela dourada de respeito.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a casca rachar, culpa o coelho, e faça uma omelete rápida com o conteúdo.</div>
+    </article>
+
+    <article class="receita-card" id="coelho-vegano-cenoura-molho-amendoim-pimenta">
+      <h2 class="receita-titulo">Coelho Vegano Ataca: Cenoura com Molho de Amendoim e Pimenta</h2>
+      <p class="receita-desc">Para o coelho que quer manter a forma, mas não abre mão do sabor. Cenoura nunca foi tão sexy!</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,50</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>4 cenouras grandes</li>
+              <li>1/2 xícara de pasta de amendoim</li>
+              <li>1 colher de sopa de molho de soja</li>
+              <li>1 colher de chá de pimenta calabresa</li>
+              <li>suco de 1 limão</li>
+              <li>sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Descasque as cenouras e corte em palitos para fingir que é batata frita saudável.</li>
+              <li>Misture a pasta de amendoim, molho de soja, pimenta calabresa, limão e sal até virar um molho que ninguém espera que seja tão bom.</li>
+              <li>Sirva os palitos de cenoura mergulhados nesse molho digno de Instagram.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o molho ficar muito grosso, balance com água, e se ficar muito fino, coma de colher mesmo.</div>
+    </article>
+
+    <article class="receita-card" id="ninho-batata-ovo-pascoa-salgado">
+      <h2 class="receita-titulo">Ninho de Batata: Ovo de Páscoa Salgado (sem chocolate, sem culpa)</h2>
+      <p class="receita-desc">Um ovo de Páscoa para quem quer quebrar a dieta e o padrão. Salgado, crocante e recheado, o coelho vai querer saber o segredo!</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>4 batatas médias</li>
+              <li>2 ovos</li>
+              <li>100g de queijo mussarela ralado</li>
+              <li>sal, pimenta e orégano a gosto</li>
+              <li>óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Rale as batatas e esprema para tirar o excesso de água (sim, a batata é ciumenta).</li>
+              <li>Misture com sal, pimenta e orégano, formando uma massa grudenta – tipo amor de mãe.</li>
+              <li>Modele ninhos com a batata ralada e coloque uma gema de ovo no centro de cada um, polvilhe queijo.</li>
+              <li>Frite em óleo quente até dourar e o ovo cozinhar – não esqueça de fingir que sabe o ponto.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Para fritar sem bagunça, use uma frigideira funda e cuidado para não virar omelete.</div>
+    </article>
+
+    <article class="receita-card" id="colomba-pascoalinda-pao-doce-frutas">
+      <h2 class="receita-titulo">Colomba Pascoalinda: Pão doce com frutas que amam festa</h2>
+      <p class="receita-desc">A Colomba é tipo aquele amigo legal que todo mundo quer na Páscoa: doce, festivo e fácil de agradar. Ideal para impressionar sem esforço.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 2h 30 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de farinha de trigo</li>
+              <li>100g de açúcar</li>
+              <li>10g de fermento biológico seco</li>
+              <li>200ml de leite</li>
+              <li>100g de manteiga</li>
+              <li>2 ovos</li>
+              <li>50g de frutas cristalizadas</li>
+              <li>50g de uvas-passas</li>
+              <li>açúcar de confeiteiro para polvilhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a farinha, açúcar e fermento, como se estivesse fazendo um convite para a festa mais doce do ano.</li>
+              <li>Adicione leite morno, manteiga e ovos, misturando até formar uma massa que não grude no seu humor.</li>
+              <li>Incorpore as frutas cristalizadas e as passas, porque até doce precisa de um pouco de drama.</li>
+              <li>Deixe crescer até dobrar de tamanho — tempo perfeito para praticar sua dança da vitória.</li>
+              <li>Asse por 35 minutos, polvilhe açúcar de confeiteiro e se prepare para conquistar corações.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a massa ficar grudenta, não se desespere, é só amor e farinha extra.</div>
+    </article>
+
+    <article class="receita-card" id="coelho-explosivo-brigadeiro-cenoura-chocolate">
+      <h2 class="receita-titulo">Coelho Explosivo: Brigadeiro de Cenoura com Chocolate (Sim, isso existe!)</h2>
+      <p class="receita-desc">A união do clássico brigadeiro com a cenoura, o legume mais subestimado da festa. Se fosse fácil, não seria comédia.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 20 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 cenouras médias raladas</li>
+              <li>1 lata de leite condensado</li>
+              <li>2 colheres de sopa de cacau em pó</li>
+              <li>1 colher de sopa de manteiga</li>
+              <li>granulado de chocolate para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a cenoura até amolecer, para que fique mais doce que seu crush.</li>
+              <li>No fogo baixo, misture cenoura, leite condensado, manteiga e cacau até desgrudar da panela, igual promessa de ano novo.</li>
+              <li>Deixe esfriar, faça bolinhas e passe no granulado — porque até brigadeiro gosta de brilhar.</li>
+              <li>Coma sem culpa, porque é Páscoa e coelho aprova.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a massa estiver mole demais, coloque na geladeira e finja que é mágica.</div>
+    </article>
+
+    <article class="receita-card" id="ovo-surpresa-frango-a-passarinho">
+      <h2 class="receita-titulo">Ovo Surpresa de Frango à Passarinho: Porque Chocolate Cansa</h2>
+      <p class="receita-desc">Aquela receita para quem quer dar um tapa na tradição e dizer: ‘Chocolate? Só se for de frango!’</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de coxinhas de frango</li>
+              <li>1 limão</li>
+              <li>2 dentes de alho amassados</li>
+              <li>sal, pimenta do reino e colorau a gosto</li>
+              <li>óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere as coxinhas com limão, alho, sal, pimenta e colorau, dando aquela marinada para se sentirem especiais.</li>
+              <li>Frite até ficarem douradas, crocantes e pedindo bis.</li>
+              <li>Arrume as coxinhas em uma caixa de ovo vazia (ou em uma cesta bonitona) para o efeito surpresa.</li>
+              <li>Sirva como se fosse um ovo de chocolate, só que com mais personalidade e menos culpa.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Use limão de verdade, não só para decorar a foto do prato.</div>
+    </article>
+
+    <article class="receita-card" id="pascoaca-amendoim-chocolate">
+      <h2 class="receita-titulo">Pascoaça de Amendoim: O Chocolate que não é Chocolate, mas é Delícia</h2>
+      <p class="receita-desc">Para quem quer fugir do chocolate tradicional e ainda assim fazer a Páscoa virar festa na boca.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 12 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 lata de leite condensado</li>
+              <li>200g de amendoim torrado e moído</li>
+              <li>1 colher de sopa de manteiga</li>
+              <li>açúcar cristal para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o leite condensado, amendoim e manteiga em fogo baixo, mexendo até desgrudar da panela — tipo mágica de verdade.</li>
+              <li>Despeje em uma forma untada, espalhe açúcar cristal por cima para brilhar mais que coelho de pelúcia.</li>
+              <li>Deixe esfriar e corte em pedaços para devorar com aquele sorriso culpado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se quiser ainda mais crocância, adicione amendoim inteiro por cima antes de esfriar.</div>
+    </article>
+
+    <article class="receita-card" id="coelho-zen-salada-ovos-codorna-hortela">
+      <h2 class="receita-titulo">Coelho Zen: Salada de Ovos de Codorna com Molho de Hortelã</h2>
+      <p class="receita-desc">Para quem quer a Páscoa com sabor e leveza, evitando aqueles 5kg extras da temporada.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>20 ovos de codorna</li>
+              <li>1/2 xícara de iogurte natural</li>
+              <li>1 punhado de hortelã fresca picada</li>
+              <li>sal e pimenta a gosto</li>
+              <li>azeite de oliva</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe os ovos de codorna e descasque com paciência de monge.</li>
+              <li>Misture iogurte, hortelã, sal, pimenta e azeite para fazer um molho que até o coelho viraria vegano.</li>
+              <li>Misture os ovos com o molho, sirva frio e aproveite a calmaria pós-chocolate.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a hortelã não gostar de você, tente salsa. Ou mais hortelã.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-cenoura-rebelde-cobertura-chocolate">
+      <h2 class="receita-titulo">Bolo de Cenoura Rebelde: Cobertura de Chocolate para Quem Não Segue Regras</h2>
+      <p class="receita-desc">O clássico que todo mundo ama, agora com cobertura que desafia as expectativas da dieta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h 10 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 10 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>3 cenouras médias</li>
+              <li>4 ovos</li>
+              <li>1 xícara de óleo</li>
+              <li>2 xícaras de açúcar</li>
+              <li>2 e 1/2 xícaras de farinha de trigo</li>
+              <li>1 colher de sopa de fermento em pó</li>
+              <li>200g de chocolate meio amargo</li>
+              <li>1 caixa de creme de leite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata cenoura, ovos e óleo até parecer uma poção mágica.</li>
+              <li>Misture açúcar, farinha e fermento, e combine tudo como se fosse juntar peças de um quebra-cabeça.</li>
+              <li>Asse por 40 minutos, ou até o palito sair sem sujeira (ou você desistir de testar).</li>
+              <li>Faça a cobertura derretendo o chocolate com creme de leite, jogue por cima e sinta o poder do rebelde.</li>
+              <li>Coma e faça a dancinha da vitória no final.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bolo murchar, finja que é estilo artesanal. Todo mundo vai comprar.</div>
+    </article>
+
+    <article class="receita-card" id="salada-frutas-surpresa-pascoa">
+      <h2 class="receita-titulo">Salada de Frutas Surpresa: Porque Páscoa Também é Sobre Sofrimento Saudável</h2>
+      <p class="receita-desc">Para equilibrar o tanto de chocolate que você vai devorar, aqui está a salada mais divertida que você respeita.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 maçãs</li>
+              <li>2 bananas</li>
+              <li>1 mamão pequeno</li>
+              <li>1 laranja</li>
+              <li>1 colher de sopa de mel</li>
+              <li>suco de meio limão</li>
+              <li>folhas de hortelã para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte todas as frutas em cubos, tentando não chorar com a faca.</li>
+              <li>Misture o mel e o suco de limão para um tempero que é quase uma festa.</li>
+              <li>Regue as frutas com essa mistura, decore com hortelã e finja que está se divertindo muito.</li>
+              <li>Sirva gelado e lembre-se: saúde também é uma piada da vida.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se quiser impressionar, coloque a salada em um ovo de chocolate vazio. Confusão garantida.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

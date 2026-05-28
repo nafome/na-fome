@@ -1,0 +1,1591 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🔋 Pré-Treino — Receitas NaFome</title>
+  <meta name="description" content="40 receitas para quem está na situação "Pré-Treino". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/pre-treino/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🔋 Pré-Treino — Receitas NaFome">
+  <meta property="og:description" content="40 receitas para quem está na situação "Pré-Treino". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/pre-treino/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🔋 Pré-Treino — NaFome",
+    "description": "40 receitas para quem está na situação "Pré-Treino". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/pre-treino/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=pre-treino" class="btn-sortear">🎲 Sortear receita de Pré-Treino</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🔋 Pré-Treino</h1>
+    <p>40 receitas para quem está na situação "Pré-Treino". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">40 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Pré-Treino pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=pre-treino" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="banana-power-a-torrada-que-disfarca-seu-pre-treino">
+      <h2 class="receita-titulo">Banana Power: A Torrada que Disfarça Seu Pré-Treino</h2>
+      <p class="receita-desc">Porque nada diz 'pré-treino' como carregar a bateria com o combo clássico de banana e pasta de amendoim, sem abrir mão do pão integral — a verdadeira capa de super-herói desse combustível.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 fatia de pão integral</li>
+              <li>1 banana madura</li>
+              <li>2 colheres de sopa de pasta de amendoim natural</li>
+              <li>Uma pitada de canela (opcional, pra fingir que é gourmet)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Torre a fatia de pão integral até ela ficar com aquele toque crocante que faz barulho na hora da mordida.</li>
+              <li>Espalhe a pasta de amendoim como se estivesse pintando uma obra de arte — ou apenas tente não fazer bagunça.</li>
+              <li>Corte a banana em rodelas e distribua por cima da pasta de amendoim, porque a gente nunca descarta a fruta do pré-treino.</li>
+              <li>Polvilhe uma pitada de canela para impressionar os outros na cozinha, mesmo que eles não percebam.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se quiser se sentir um atleta profissional, coma fingindo que está ali fazendo um vídeo de treino — mesmo que seja só pra sair da cama.</div>
+    </article>
+
+    <article class="receita-card" id="mingau-de-aveia-energia-netflix-treino-sem-panico">
+      <h2 class="receita-titulo">Mingau de Aveia: Energia Netflix & Treino Sem Pânico</h2>
+      <p class="receita-desc">Porque nada te prepara melhor para o treino do que um mingau que é quase um abraço em forma de carboidrato.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1/2 xícara de aveia em flocos</li>
+              <li>1 xícara de leite (pode ser vegetal, pode ser líquido de Netflix, vai lá)</li>
+              <li>1 colher de sopa de mel (açúcar disfarçado, mas vai)</li>
+              <li>1/2 colher de chá de canela em pó</li>
+              <li>Uma pitada de paciência (para não desistir no meio)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque a aveia e o leite em uma panela pequena.</li>
+              <li>Leve ao fogo médio mexendo sempre para não virar um grude da vida.</li>
+              <li>Quando começar a engrossar, adicione a canela e misture para parecer que você sabe cozinhar.</li>
+              <li>Desligue o fogo e coloque o mel por cima para aquela doçura que faz você esquecer que está se preparando para treino, não para festa.</li>
+              <li>Coma antes que seu celular te tente com vídeos de gatos fofos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o mingau ficar muito grosso, não entre em pânico, é só o travo da vida te desafiando a ajustar o leite.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-power-ovo-mexido-queijo-minas-para-virar-atleta-ou-quase">
+      <h2 class="receita-titulo">Tapioca Power: Ovo Mexido e Queijo Minas para Virar Atleta (Ou Quase)</h2>
+      <p class="receita-desc">A receita que vai te transformar no filho do Flash com o Saci — tapioca leve, ovo energizante e queijo para dar aquele toque mineiro, porque força também é cultura.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 colheres de sopa de goma de tapioca</li>
+              <li>2 ovos</li>
+              <li>50g de queijo minas frescal ralado</li>
+              <li>1 pitada de sal</li>
+              <li>1 colher de chá de manteiga ou azeite</li>
+              <li>pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça uma frigideira antiaderente e espalhe a goma de tapioca formando uma panqueca fina.</li>
+              <li>Deixe a tapioca cozinhar até as bordas soltarem, como se estivesse tímida, e reserve.</li>
+              <li>Na mesma frigideira, derreta a manteiga ou aqueça o azeite.</li>
+              <li>Bata os ovos com sal e pimenta e despeje na frigideira, mexendo sem parar para não virar omelete hardcore.</li>
+              <li>Quando os ovos estiverem cremosos, adicione o queijo minas e mexa até começar a derreter – é quase um abraço.</li>
+              <li>Monte a tapioca recheando com o ovo mexido e queijo, dobre como se estivesse escondendo um superpoder.</li>
+              <li>Coma rápido para não perder o boost (e o ônibus, porque pré-treino tem hora!).</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se preferir, aposte no queijo minas curado para dar o 'up' de sabor, porque força física também depende de força no paladar.</div>
+    </article>
+
+    <article class="receita-card" id="acai-simples-energia-pra-voce-nao-dormir-na-esteira">
+      <h2 class="receita-titulo">Açaí Simples: Energia pra Você Não Dormir na Esteira</h2>
+      <p class="receita-desc">Para aqueles que precisam de um pré-treino que dê gás sem virar chef gourmet. Energia na medida para não dormir na esteira e evitar a crise existencial do final do treino.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>200g de polpa de açaí congelada</li>
+              <li>1 banana média</li>
+              <li>3 colheres de sopa de granola</li>
+              <li>100ml de água ou leite vegetal</li>
+              <li>Mel a gosto (se for fã de algo doce além do seu treino)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>No liquidificador, coloque a polpa de açaí e a água (ou leite vegetal) para facilitar a mistura.</li>
+              <li>Bata até ficar com textura cremosa, daqueles que fazem você querer provar só com a colher mesmo.</li>
+              <li>Coloque o creme em uma tigela, fatie a banana por cima e jogue a granola para dar aquele crocante que seu combustível merece.</li>
+              <li>Se quiser um toque doce extra, regue com um fio de mel — porque ninguém é de ferro, né?</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se acabar o açaí antes do treino, vale chorar até a mãe comprar mais... ou usar sorvete mesmo, ninguém vai julgar.</div>
+    </article>
+
+    <article class="receita-card" id="pao-integral-ricota-mel-energia-mae-reclama">
+      <h2 class="receita-titulo">Pão Integral com Ricota e Mel: Energia de Mãe que Reclama</h2>
+      <p class="receita-desc">O pré-treino perfeito pra quem quer força, sabor e uma desculpa para não levantar cedo: “Sou saudável, mas com humor”.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 fatias de pão integral (porque saúde é caro, mas pão integral é mais barato que terapia)</li>
+              <li>3 colheres de sopa de ricota (aquela que parece queijo, mas não é tão cara quanto o queijo mesmo)</li>
+              <li>1 colher de sopa de mel (para adoçar suas esperanças e o treino)</li>
+              <li>1 pitada de canela (opcional, mas só pra parecer que você sabe cozinhar)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Passe a ricota nas fatias de pão com a coragem que te falta na academia.</li>
+              <li>Regue com mel, lembrando que o mel é o açúcar que a nutricionista deixa passar.</li>
+              <li>Se quiser parecer chef e saudável, polvilhe canela por cima.</li>
+              <li>Coma antes do treino, aproveitando a ignorância sobre o carboidrato certo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não esqueça: essa receita não vai te transformar no atleta, mas vai te deixar menos sem graça na hora da esteira.</div>
+    </article>
+
+    <article class="receita-card" id="vitamina-turbinada-pra-bombar-no-treino-e-nao-no-sofa">
+      <h2 class="receita-titulo">Vitamina Turbinada pra Bombar no Treino (e Não no Sofá)</h2>
+      <p class="receita-desc">A vitamina perfeita pra quem quer energia no treino, mas preguiça de pratos complicados — porque energizar o corpo não precisa te dar trabalho.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 bananas nanicas maduras (aquelas que não dão trabalho pra descascar)</li>
+              <li>3 colheres de sopa de aveia em flocos (nada de aveia de Pinterest, viu?)</li>
+              <li>300 ml de leite desnatado (pra tentar enganar a balança)</li>
+              <li>1 colher de mel (pra fingir que é saudável e gostoso)</li>
+              <li>Gelo a gosto (porque suar no treino com vitamina quente, só se for novela mexicana)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Jogue a banana no liquidificador (se acabar grudando, lave as mãos na área, ninguém te julga).</li>
+              <li>Adicione a aveia, o leite desnatado e o mel, porque a vida precisa de um pouco de doçura.</li>
+              <li>Bata tudo até ficar uma mistura lisinha, quase um shake de praia de tão chique.</li>
+              <li>Jogue o gelo, bata de novo, ou só coloque direto se preferir se sentir o Mr. Freeze.</li>
+              <li>Sirva na cara do sono e tome antes de se transformar em maratonista (ou no máximo, andar até o ônibus).</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o treino bater forte, obviamente a vitamina não vai ajudar... mas pelo menos você vai estar bem alimentado pra pedir uma pizza depois!</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-de-aveia-com-banana-energia-que-nem-wifi-na-academia">
+      <h2 class="receita-titulo">Bolinho de Aveia com Banana: Energia que Nem Wi-Fi na Academia</h2>
+      <p class="receita-desc">O bolinho que te dá energia pra malhar e motivos pra sorrir (porque treino sem comida boa é cilada, Bino!).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,50</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 bananas maduras (porque nem só de proteína vive o atleta)</li>
+              <li>1 xícara de aveia em flocos (aquela que a gente promete comer todo dia)</li>
+              <li>1 colher de sopa de mel (para adoçar a vida e o treino)</li>
+              <li>1 ovo (para dar aquela liga, não para levantar peso sozinho)</li>
+              <li>1 colher de chá de canela em pó (pra dar um charme e fingir que sabe cozinhar)</li>
+              <li>1 colher de chá de fermento em pó (o segredo do bolinho ficar fofinho, não você)</li>
+              <li>uma pitada de sal (porque até balança gosta de equilíbrio)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Preaqueça o forno a 180°C e já prepare o palco para o show do seu bolinho.</li>
+              <li>Amasse as bananas com um garfo, como se fosse a vontade de comer doce depois do treino.</li>
+              <li>Misture a aveia, o mel, o ovo, a canela e o fermento na banana amassada. Se quiser, faça uma dancinha para agilizar.</li>
+              <li>Adicione a pitada de sal, aquela pitada de vida que tudo equilibra.</li>
+              <li>Coloque a massa em forminhas ou em uma assadeira untada - só não vale usar o mesmo pote que usou para cozinhar, ninguém merece lavar duas vezes.</li>
+              <li>Asse por cerca de 20 minutos ou até que o cheiro comece a invadir a casa e seus vizinhos fiquem curiosos.</li>
+              <li>Deixe esfriar (se conseguir esperar), e aproveite sua bomba de energia que não precisa de Wi-Fi.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a preguiça bater, lembre que até maratonista começa dando um passo – e esse passo pode começar abrindo o forno.</div>
+    </article>
+
+    <article class="receita-card" id="cuscuz-nordestino-com-ovo-cozido-energia-de-raiz">
+      <h2 class="receita-titulo">Cuscuz Nordestino com Ovo Cozido: Energia de Raiz pra Academia e Pra Vida</h2>
+      <p class="receita-desc">Quer energia nordestina pra aguentar o treino? Esse cuscuz com ovo é tipo aquele carbo que fala 'fica tranquilo, vou te sustentar' enquanto você sofre na esteira.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 xícara de flocos de milho para cuscuz</li>
+              <li>1 pitada de sal</li>
+              <li>1/2 xícara de água quente</li>
+              <li>2 ovos</li>
+              <li>1 colher de manteiga</li>
+              <li>Cebolinha picada a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture os flocos de milho com o sal em uma tigela.</li>
+              <li>Adicione a água quente aos poucos, mexendo até formar uma farofa úmida.</li>
+              <li>Coloque a manteiga em uma cuscuzeira e leve para aquecer.</li>
+              <li>Despeje o cuscuz na cuscuzeira, tampe e deixe cozinhar no vapor por cerca de 15 minutos.</li>
+              <li>Enquanto isso, cozinhe os ovos em água fervente por 10 minutos para ficarem cozidos firmes.</li>
+              <li>Desenforme o cuscuz, decore com cebolinha e sirva acompanhado dos ovos cozidos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o treino ficar difícil, lembre que o cuscuz não te abandona — ao contrário do seu personal trainer no último exercício.</div>
+    </article>
+
+    <article class="receita-card" id="energia-que-nao-acaba-iogurte-turbinado-para-pre-treino">
+      <h2 class="receita-titulo">Energia que Não Acaba: Iogurte Turbinado para Pré-Treino</h2>
+      <p class="receita-desc">A receita perfeita pra quem quer energia rápida e sabor sem drama. Porque levantar do sofá já é um treino, né?</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 pote de iogurte natural (170g)</li>
+              <li>3 colheres de sopa de granola</li>
+              <li>1 colher de sopa de mel</li>
+              <li>1 banana (opcional, mas você sabe que vai querer)</li>
+              <li>1 pitada de paciência para não comer tudo antes do treino</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Abra o pote do iogurte com a força de quem quer evitar a preguiça do treino.</li>
+              <li>Coloque a granola por cima, aquela crocância que faz parecer que você está saudável de verdade.</li>
+              <li>Regue com o mel, porque a vida já é amarga demais.</li>
+              <li>Se quiser, corte a banana e adicione para enganar o cérebro com uma docinho extra.</li>
+              <li>Misture tudo, finja que está preparando uma bomba energética e coma antes que a fome te traia.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se estiver com preguiça até de abrir o pote, lembre-se: o prêmio é mais energia do que efeito Netflix em dia de limpeza.</div>
+    </article>
+
+    <article class="receita-card" id="torrada-integral-abacate-sal-rosa-novo-po-de-magica">
+      <h2 class="receita-titulo">Torrada Integral com Abacate: Porque Sal Rosa é o Novo Pó de Mágica</h2>
+      <p class="receita-desc">A receita que junta saúde e aquele toque gourmet que você finge que entende, pra não passar vergonha na academia.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 fatias de pão integral</li>
+              <li>1/2 abacate maduro</li>
+              <li>1 pitada generosa de sal rosa do Himalaia</li>
+              <li>gotas de limão a gosto</li>
+              <li>pimenta-do-reino moída na hora (opcional)</li>
+              <li>azeite de oliva extra virgem (uma 'pingadinha')</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Torre as fatias de pão até ficarem douradinhas, tipo final de novela das 8.</li>
+              <li>Com um garfo, amasse o abacate até virar uma pasta que nem no Tinder: compreensível, mas não perfeito.</li>
+              <li>Acrescente as gotinhas de limão para aquele toque que não vai deixar o sabor parecido com a sua terça-feira.</li>
+              <li>Passe a pasta de abacate nas torradas com a mesma dedicação que você ignora mensagens dizendo 'vamo academia?'.</li>
+              <li>Polvilhe o sal rosa do Himalaia como se fosse o tempero secreto da sua vida fitness.</li>
+              <li>Se quiser bancar o chef, adicione um pouco de pimenta-do-reino moída na hora e uma 'pingadinha' de azeite.</li>
+              <li>Aproveite antes do treino, ou melhor, antes de desistir dele.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Lembre-se: sal rosa não vai te fazer virar marombeiro, mas pelo menos deixa a torrada mais charmosa do que você no espelho do vestiário.</div>
+    </article>
+
+    <article class="receita-card" id="shake-do-hulk-verde-que-te-quero-forte">
+      <h2 class="receita-titulo">Shake do Hulk: Verde que te quero forte</h2>
+      <p class="receita-desc">Um shake pré-treino que vai te deixar tão forte que até o Hulk vai pedir sua receita. Combina energia, proteína e aquela cor verde que faz a galera perguntar se você virou super-herói.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 banana prata</li>
+              <li>200ml de leite de amêndoas</li>
+              <li>1 colher de sopa de pasta de amendoim</li>
+              <li>1 colher de chá de cacau em pó</li>
+              <li>1 colher de chá de spirulina em pó</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Jogue tudo no liquidificador e imagine que está ficando verde de força.</li>
+              <li>Bata até parecer que Hulk mexeu ali dentro. Se ficar grosso, junte um pouco mais de leite e grite: 'Mais verde, por favor!'</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se você ficar verde, não se preocupe. Só evite abraçar os amigos até o treino.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-turbo-carboidrato-com-comedia">
+      <h2 class="receita-titulo">Tapioca Turbo: Carboidrato com comédia</h2>
+      <p class="receita-desc">A tapioca que vai te dar energia para correr daquela desculpa de faltar treino. Sabor doce, saudável e pronta em minutos - para você não perder o foco ou a piada.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 7 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 colheres de sopa de goma de tapioca hidratada</li>
+              <li>1 colher de sopa de queijo coalho ralado</li>
+              <li>1 colher de chá de chia</li>
+              <li>Mel para regar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Esquente a frigideira e espalhe a goma de tapioca como se estivesse pintando sua tela da força.</li>
+              <li>Espalhe o queijo, deixe derreter e salpique a chia como se fosse confete na festa do pré-treino.</li>
+              <li>Dobre a tapioca, regue com mel e diga: ‘Agora só falta o músculo aparecer!’</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Coma rápido, porque a preguiça não espera.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-bombado-energia-que-acorda-ate-preguica">
+      <h2 class="receita-titulo">Café Bombado: Energia que acorda até preguiça</h2>
+      <p class="receita-desc">Uma bebida que vai te acordar mais rápido que um ‘buzinaço’ no trânsito. Combina o poder do café com aquela pitada de doçura e antioxidantes para um pré-treino de respeito.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 3,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>150ml de café coado</li>
+              <li>100ml de leite desnatado</li>
+              <li>1 colher de sopa de cacau em pó</li>
+              <li>1 colher de chá de canela em pó</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Prepare o café com o amor de quem quer evitar soneca no treino.</li>
+              <li>Misture o leite, cacau e canela – porque sua vida merece um pouco de chocolate e tempero, até na energia.</li>
+              <li>Adoce com mel e tome como se fosse poção mágica.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não beba 10 para não virar o próprio café ambulante.</div>
+    </article>
+
+    <article class="receita-card" id="banana-explosiva-com-aveia-e-canela">
+      <h2 class="receita-titulo">Banana Explosiva com Aveia e Canela</h2>
+      <p class="receita-desc">Doce, nutritiva e com um toque crocante que vai te dar energia para explodir no treino ou pelo menos não cochilar na esteira.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 8 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,80</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 banana madura</li>
+              <li>3 colheres de sopa de aveia em flocos</li>
+              <li>1 colher de chá de canela em pó</li>
+              <li>1 colher de sopa de mel</li>
+              <li>1 colher de chá de semente de abóbora</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Amasse a banana até ficar tipo purê de gente feliz.</li>
+              <li>Misture a aveia, canela, mel e sementes como se fosse preparar o coquetel da força.</li>
+              <li>Coma rápido antes que a preguiça te convença a ficar no sofá.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se quiser explosão garantida, faça uma dancinha antes de comer.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-do-atleta-preguicoso">
+      <h2 class="receita-titulo">Sanduíche do Atleta Preguiçoso</h2>
+      <p class="receita-desc">Um sanduíche simples, rápido e cheio de proteína para aquele treino que você até quer fazer, mas quer ir logo para casa depois.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 6 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 fatias de pão integral</li>
+              <li>2 fatias de peito de peru</li>
+              <li>Folhas de alface</li>
+              <li>1 fatia de queijo minas frescal</li>
+              <li>1 colher de sopa de mostarda</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Passe a mostarda no pão como se estivesse pintando sua vitória no treino.</li>
+              <li>Monte o sanduíche com peito de peru, queijo e alface, cuidando para não perder nenhum ingrediente por preguiça.</li>
+              <li>Morda com vontade e finja que está na final da maratona.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Para não errar, não deixe o pão cair na cara.</div>
+    </article>
+
+    <article class="receita-card" id="suco-energia-de-abacaxi-com-gengibre-e-curcuma">
+      <h2 class="receita-titulo">Suco Energia de Abacaxi com Gengibre e Cúrcuma</h2>
+      <p class="receita-desc">Um suco cheio de vitaminas e anti-inflamatórios naturais para te deixar pronto para qualquer desafio, até para aquela série de agachamento que parece uma piada.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 7 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 fatia média de abacaxi</li>
+              <li>1 pedaço pequeno de gengibre</li>
+              <li>1 colher de chá de cúrcuma em pó</li>
+              <li>200ml de água de coco</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque tudo no liquidificador e bata até parecer uma poção do bem.</li>
+              <li>Tome com força e imagine que está limpando a preguiça do corpo.</li>
+              <li>Se cuspir, faça de novo (mas não exagere no gengibre).</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não faça careta, o segredo está no poder do gengibre.</div>
+    </article>
+
+    <article class="receita-card" id="ovos-recheados-para-hercules-de-cozinha">
+      <h2 class="receita-titulo">Ovos Recheados para Hércules de Cozinha</h2>
+      <p class="receita-desc">Clássico, simples e cheio de proteína para você parar de inventar desculpas e partir para o treino com estilo e humor.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>3 ovos cozidos</li>
+              <li>1 colher de sopa de maionese light</li>
+              <li>1 colher de chá de mostarda</li>
+              <li>Salsinha picada a gosto</li>
+              <li>Pimenta do reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte os ovos ao meio, mas cuidado para não deixar cair na mesa e perder metade da força.</li>
+              <li>Misture as gemas com maionese, mostarda e salsinha como se fosse criar o elixir do pré-treino.</li>
+              <li>Recheie as metades e coma como se fosse o lanche dos campeões.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a pimenta fizer você chorar, diga que é suor de treino antecipado.</div>
+    </article>
+
+    <article class="receita-card" id="iogurte-ninja-com-frutas-e-granola">
+      <h2 class="receita-titulo">Iogurte Ninja com Frutas e Granola</h2>
+      <p class="receita-desc">Um pré-treino leve, saboroso e nutritivo para você atacar os exercícios sem perder a pose do guerreiro da academia.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>200g de iogurte natural</li>
+              <li>1 colher de sopa de granola</li>
+              <li>½ maçã picada</li>
+              <li>½ banana picada</li>
+              <li>Mel para adoçar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o iogurte com as frutas como se estivesse preparando um arsenal secreto.</li>
+              <li>Salpique a granola por cima com a precisão de um ninja.</li>
+              <li>Adicione mel para dar doçura e ataque rápido de energia.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Coma sem fazer barulho, ninja que é ninja não anuncia a chegada.</div>
+    </article>
+
+    <article class="receita-card" id="paozinho-de-batata-doce-o-carbo-que-te-entende">
+      <h2 class="receita-titulo">Pãozinho de Batata Doce: O carbo que te entende</h2>
+      <p class="receita-desc">Pãozinho saudável e caseiro feito para dar aquela energia que nem o melhor meme do Instagram é capaz de te proporcionar antes do treino.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 7,20</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 batatas doces médias cozidas</li>
+              <li>1 ovo</li>
+              <li>3 colheres de sopa de farinha de aveia</li>
+              <li>1 colher de chá de fermento em pó</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Amasse as batatas com um garfo até virar um purê que parece fofura de criança.</li>
+              <li>Misture ovo, farinha e fermento, como se estivesse preparando a massa da felicidade.</li>
+              <li>Forme bolinhas, asse a 180°C por 20 minutos e sinta o poder do carbo na veia.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não coma tudo de uma vez, guarde um para o pós-treino (ou para o lanche da tarde).</div>
+    </article>
+
+    <article class="receita-card" id="vitamina-fugitiva-abacate-leite-e-humor">
+      <h2 class="receita-titulo">Vitamina Fugitiva: Abacate, Leite e Humor</h2>
+      <p class="receita-desc">Uma vitamina cremosa, nutritiva e com aquela vibe de que você está fazendo algo bom pela sua vida. Ótima para acordar até músculo preguiçoso.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 7 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,90</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>½ abacate maduro</li>
+              <li>200ml de leite desnatado</li>
+              <li>1 colher de sopa de mel</li>
+              <li>1 colher de sopa de aveia</li>
+              <li>Canela para polvilhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Jogue tudo no liquidificador e bata como se estivesse fugindo da preguiça.</li>
+              <li>Sirva com um sorriso e polvilhe canela para dar aquele toque de chef gourmet que você não é, mas quer parecer.</li>
+              <li>Beba rápido antes que a vontade de desistir apareça.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se quiser, faça uma careta engraçada antes de tomar, ajuda no ânimo.</div>
+    </article>
+
+    <article class="receita-card" id="explosao-de-energia-com-banana-pipioca">
+      <h2 class="receita-titulo">Explosão de Energia com Banana-Pipioca</h2>
+      <p class="receita-desc">Essa receita é para quem quer energia com gostinho de infância e um toque de 'vou voar na academia'. A banana dá o açúcar natural, a pipoca o crocante e o mel o abraço doce que seu treino merece.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 banana prata madura</li>
+              <li>2 colheres de sopa de milho para pipoca</li>
+              <li>1 colher de chá de mel</li>
+              <li>1 pitada de canela em pó</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque o milho para pipoca na panela e faça o espetáculo: POP, POP, POP!</li>
+              <li>Enquanto a pipoca dança, amasse a banana e misture com mel e canela.</li>
+              <li>Misture a pipoca com a banana e tente não comer tudo antes do treino.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a pipoca estourar demais, você já ganhou o aquecimento!</div>
+    </article>
+
+    <article class="receita-card" id="vitamina-bombada-de-acai-e-cafe">
+      <h2 class="receita-titulo">Vitamina Bombada de Açaí e Café</h2>
+      <p class="receita-desc">Para quem quer parecer que tomou 3 cafés e ainda está na academia, essa vitamina é o seu superpoder em forma de copo. Açaí para o calor, café para o gás e banana para o docinho natural.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>100g de polpa de açaí congelada</li>
+              <li>1 xícara de café coado forte</li>
+              <li>1 banana nanica</li>
+              <li>1 colher de sopa de aveia</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Jogue tudo no liquidificador e ligue antes que seus músculos reclamem.</li>
+              <li>Beba rápido para não perder o efeito turbo do café e açaí.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se ficar muito forte, finja que é energia concentrada!</div>
+    </article>
+
+    <article class="receita-card" id="torrada-power-de-abacate-com-ovo-caipira">
+      <h2 class="receita-titulo">Torrada Power de Abacate com Ovo Caipira</h2>
+      <p class="receita-desc">Essa receita é o match perfeito: gordura boa do abacate, proteína do ovo e carboidrato do pão. Uma explosão de energia com gostinho de ‘eu sou fitness, mas não sou chato’.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 fatias de pão integral</li>
+              <li>1/2 abacate maduro</li>
+              <li>1 ovo caipira</li>
+              <li>Sal e pimenta do reino a gosto</li>
+              <li>Gotas de limão</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Toste o pão até ficar mais crocante que sua motivação na segunda-feira.</li>
+              <li>Amasse o abacate com sal, pimenta e limão e espalhe generosamente.</li>
+              <li>Frite o ovo de um jeito que ele fique mais bonito do que seu rosto de sono.</li>
+              <li>Monte a torrada e coma pensando que você já fez metade do treino.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o ovo virar omelete, chame de ‘nova receita fitness’.</div>
+    </article>
+
+    <article class="receita-card" id="smoothie-do-hulk-pre-treino">
+      <h2 class="receita-titulo">Smoothie do Hulk Pré-Treino</h2>
+      <p class="receita-desc">Se o Hulk fosse fitness, esse seria o pré-treino dele. Leve, nutritivo e verde, para você ficar com energia e sem destruir o sofá.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 11,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>200ml de leite de amêndoas</li>
+              <li>1 maçã verde</li>
+              <li>1 punhado de espinafre fresco</li>
+              <li>1 colher de sopa de chia</li>
+              <li>1 colher de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque tudo no liquidificador e ligue antes que o Hulk perca a paciência.</li>
+              <li>Beba verde para ficar forte, não verde de inveja.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Cuidado pra não ficar verde demais e assustar os vizinhos.</div>
+    </article>
+
+    <article class="receita-card" id="pao-de-queijo-turbo">
+      <h2 class="receita-titulo">Pão de Queijo Turbo</h2>
+      <p class="receita-desc">Se você acha que pão de queijo é só lanche, está na hora de repensar. Esse turbo vai te encher de carboidrato e queijo, porque a vida também precisa de alegria e sabor.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>150g de polvilho doce</li>
+              <li>100g de queijo minas padrão ralado</li>
+              <li>50ml de leite</li>
+              <li>1 ovo</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture tudo até virar uma massa que parece uma bola de basquete amassada.</li>
+              <li>Faça bolinhas e asse até ficarem douradas e cheirosas.</li>
+              <li>Coma antes do treino e sinta o turbo começar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não jogue na academia, é só pra comer mesmo.</div>
+    </article>
+
+    <article class="receita-card" id="barra-de-cereal-caseira-do-atleta-preguicoso">
+      <h2 class="receita-titulo">Barra de Cereal Caseira do Atleta Preguiçoso</h2>
+      <p class="receita-desc">Perfeita para quem diz que não tem tempo para preparar nada, essa barra caseira é o combustível do preguiçoso que quer treinar. Prático, nutritivo e com gostinho de ‘eu me superei hoje’.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min + geladeira</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 xícara de aveia em flocos</li>
+              <li>1/2 xícara de mel</li>
+              <li>1/3 xícara de castanha-do-pará picada</li>
+              <li>1/3 xícara de uva passa</li>
+              <li>1 colher de sopa de pasta de amendoim</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture tudo numa tigela e faça aquela cara de ‘será que vai dar certo?’</li>
+              <li>Forre uma forma e aperte tudo com força, como se fosse empurrar o preguiçoso pra academia.</li>
+              <li>Leve à geladeira e corte em barras antes de devorar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se não der tempo de gelar, finja que é barra de energia líquida.</div>
+    </article>
+
+    <article class="receita-card" id="mix-selvagem-de-castanhas-e-frutas-secas">
+      <h2 class="receita-titulo">Mix Selvagem de Castanhas e Frutas Secas</h2>
+      <p class="receita-desc">Simples, direto e eficaz. Essa mistura é como o playlist da academia: te dá energia e não deixa você desistir no meio do caminho.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>50g de castanha de caju</li>
+              <li>50g de amêndoas</li>
+              <li>50g de uva passa</li>
+              <li>50g de damasco seco picado</li>
+              <li>1 pitada de sal rosa do Himalaia</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Junte tudo em um pote e chacoalhe como se fosse um shaker de treino mental.</li>
+              <li>Coma aos poucos enquanto lembra que você está ficando forte.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não confunda com petisco, mesmo que pareça.</div>
+    </article>
+
+    <article class="receita-card" id="suco-de-beterraba-do-usain-bolt-brasileiro">
+      <h2 class="receita-titulo">Suco de Beterraba do Usain Bolt Brasileiro</h2>
+      <p class="receita-desc">Beterraba é o segredo dos corredores, e aqui você tem o suco que vai te deixar vermelho de energia e não de vergonha do treino ruim.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 beterraba média cozida</li>
+              <li>1 cenoura média</li>
+              <li>1 maçã</li>
+              <li>Suco de 1 limão</li>
+              <li>Gengibre a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata tudo no liquidificador e finja que virou o Usain Bolt depois de tomar o suco.</li>
+              <li>Beba rápido e corra pro treino, ou pelo menos pro sofá.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se começar a sentir vontade de correr, não se assuste, é normal.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-ninja-de-aveia-e-mel">
+      <h2 class="receita-titulo">Panqueca Ninja de Aveia e Mel</h2>
+      <p class="receita-desc">Panqueca que nem ninja: rápida, eficiente e cheia de energia para te fazer dar aquele salto mortal no treino (ou pelo menos tentar).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,50</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 xícara de aveia em flocos finos</li>
+              <li>1 ovo</li>
+              <li>1/2 xícara de leite</li>
+              <li>1 colher de sopa de mel</li>
+              <li>Canela para polvilhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture tudo e faça panquecas finas, como um ninja que não quer ser visto.</li>
+              <li>Vire na hora certa para não virar panqueca encrenca.</li>
+              <li>Sirva com mel e canela, e treine seu sorriso para a academia.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se queimar, diga que é treino de resistência.</div>
+    </article>
+
+    <article class="receita-card" id="wrap-do-atleta-descolado">
+      <h2 class="receita-titulo">Wrap do Atleta Descolado</h2>
+      <p class="receita-desc">Esse wrap é para quem quer ser saudável e descolado, com proteína, fibras e estilo na mesma mordida. Porque treino também é questão de atitude.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 pão sírio integral</li>
+              <li>100g de frango desfiado temperado</li>
+              <li>Folhas de alface</li>
+              <li>Tomate fatiado</li>
+              <li>1 colher de sopa de requeijão light</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte o wrap como se fosse um presente para seu corpo.</li>
+              <li>Enrole com carinho e coma como se estivesse em um filme de ação.</li>
+              <li>Sinta-se o herói do treino antes mesmo de começar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o wrap abrir, é só chamar de treino de empacotamento.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-power-up-o-turbo-do-preguicoso">
+      <h2 class="receita-titulo">Café com Power-Up: o turbo do preguiçoso</h2>
+      <p class="receita-desc">Para quem quer acordar as energias e dar aquele gás pré-treino, essa receita é o equivalente líquido de um high five.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>200ml de café coado</li>
+              <li>1 colher de sopa de cacau em pó</li>
+              <li>1 colher de chá de mel</li>
+              <li>1 pitada de canela</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Faça o café como se estivesse tentando acordar até o vizinho.</li>
+              <li>Misture o cacau em pó e a canela, porque café simples é para os fracos.</li>
+              <li>Adicione o mel pra adoçar a vida e o treino.</li>
+              <li>Mexa tudo e imagine que está carregando suas energias como um download de fibra óptica.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se errar a quantidade de mel, vira café com sobremesa. Não tem erro, só consequências.</div>
+    </article>
+
+    <article class="receita-card" id="banana-explosiva-o-combustivel-amarelo-da-academia">
+      <h2 class="receita-titulo">Banana Explosiva: o combustível amarelo da academia</h2>
+      <p class="receita-desc">Simples, poderoso e rápido, esse lanche é o grito de guerra das fibras musculares antes do treino.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,80</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 banana madura</li>
+              <li>1 colher de sopa de pasta de amendoim</li>
+              <li>1 colher de sopa de aveia</li>
+              <li>1 pitada de canela</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Amasse a banana como se estivesse amassando a preguiça.</li>
+              <li>Misture a pasta de amendoim e a aveia para o combo energético nível hard.</li>
+              <li>Salpique a canela pra sentir que está fazendo algo saudável (e cheiroso).</li>
+              <li>Coma pensando na proteína que vai queimar e na pizza que vai merecer depois.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a banana estiver muito madura, é sinal de que o treino vai ser intenso (ou que você perdeu a hora).</div>
+    </article>
+
+    <article class="receita-card" id="vitamina-atomica-explosao-de-energia-que-nem-meme">
+      <h2 class="receita-titulo">Vitamina Atômica: explosão de energia que nem meme</h2>
+      <p class="receita-desc">Essa vitamina é para quem quer malhar com a energia de um meme viral: rápida, intensa e pra deixar todo mundo olhando.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 7 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 copo de leite desnatado</li>
+              <li>1 banana</li>
+              <li>2 colheres de sopa de aveia</li>
+              <li>1 colher de sopa de mel</li>
+              <li>1 colher de café de café solúvel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Jogue tudo no liquidificador como se estivesse misturando sua preguiça e sua vontade de malhar.</li>
+              <li>Bata até parecer que virou shake de atleta (ou meme de nutricionista).</li>
+              <li>Tome com vontade e sinta a energia invadir o seu ser.</li>
+              <li>Se começar a falar rápido, é normal, foi a cafeína agindo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Cuidado para não tomar demais e acabar falando rápido demais na aula de spinning.</div>
+    </article>
+
+    <article class="receita-card" id="suco-de-beterraba-o-power-up-que-o-popeye-esqueceu">
+      <h2 class="receita-titulo">Suco de Beterraba: o power-up que o Popeye esqueceu</h2>
+      <p class="receita-desc">O suco que vai te dar aquele gás extra, porque até o Popeye deveria ter trocado o espinafre por beterraba.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 8,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 beterraba média</li>
+              <li>1 maçã</li>
+              <li>1 cenoura</li>
+              <li>200ml de água</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Descasque a beterraba e a cenoura como se fosse se livrar das preguiças que te atrasam.</li>
+              <li>Bata tudo no liquidificador com a maçã e a água, porque energia não é só força, é doce também.</li>
+              <li>Coe se quiser se sentir mais fitness do que realmente é.</li>
+              <li>Beba e sinta o sangue bombando (literalmente).</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o suco ficar muito forte, finja que está comendo a raiz da energia mesmo.</div>
+    </article>
+
+    <article class="receita-card" id="pao-com-pasta-de-amendoim-o-classico-que-treina-a-boca-e-o-braco">
+      <h2 class="receita-titulo">Pão com Pasta de Amendoim: o clássico que treina a boca e o braço</h2>
+      <p class="receita-desc">Simples, rápido e delicioso, esse pré-treino é a prova de que força pode estar em pequenas doses... e em carboidratos.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 fatias de pão integral</li>
+              <li>2 colheres de sopa de pasta de amendoim</li>
+              <li>1 colher de chá de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe a pasta de amendoim no pão como se estivesse pintando uma obra de arte (mas sem bagunça).</li>
+              <li>Regue com mel para a doçura do esforço que virá.</li>
+              <li>Coma devagar, aproveitando cada mordida para imaginar os músculos crescendo.</li>
+              <li>Repita a frase 'Eu vou conseguir' até acabar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar pasta, não se culpe por lamber a colher. É parte do plano de treino.</div>
+    </article>
+
+    <article class="receita-card" id="smoothie-do-hulk-brasileiro-verde-e-poderoso">
+      <h2 class="receita-titulo">Smoothie do Hulk Brasileiro: verde e poderoso</h2>
+      <p class="receita-desc">O smoothie que vai transformar sua preguiça em Hulk, só não garanta que vai ficar verde, a não ser que você queira.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 7 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,80</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 copo de água de coco</li>
+              <li>1 punhado de couve</li>
+              <li>1 banana</li>
+              <li>1 colher de sopa de chia</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque tudo no liquidificador e bata como se estivesse fazendo um milagre verde.</li>
+              <li>Se parecer uma poção mágica, é porque está no caminho certo.</li>
+              <li>Beba rápido antes que vire um Hulk verde do sofá.</li>
+              <li>Sinta a força crescendo e a vontade de esmagar a preguiça.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o sabor estiver forte, finja que está bebendo o suco do herói e que vai valer a pena.</div>
+    </article>
+
+    <article class="receita-card" id="omelete-da-coragem-ovo-pra-quem-tem-medo-do-treino">
+      <h2 class="receita-titulo">Omelete da Coragem: ovo pra quem tem medo do treino</h2>
+      <p class="receita-desc">Para quem sente que a preguiça é maior que a vontade, esse omelete é o empurrãozinho que faltava antes do treino.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 ovos</li>
+              <li>1 tomate picado</li>
+              <li>1 colher de sopa de cebola picada</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Quebre os ovos com a mesma coragem que você precisa pra ir na academia.</li>
+              <li>Misture os ingredientes e tempere com sal e pimenta pra dar sabor à vida (e ao treino).</li>
+              <li>Cozinhe na frigideira, fazendo charme como um chef do Masterchef.</li>
+              <li>Coma e sinta a coragem invadindo seu corpo, ou pelo menos o estômago.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se errar o tempero, finja que é uma nova receita gourmet que você inventou.</div>
+    </article>
+
+    <article class="receita-card" id="mix-crocante-do-atleta-escondido">
+      <h2 class="receita-titulo">Mix Crocante do Atleta Escondido</h2>
+      <p class="receita-desc">O mix perfeito para dar aquele up de energia antes do treino, para quem quer ser atleta mas leva jeito de formiga.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 2 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>30g de castanhas de caju</li>
+              <li>30g de amendoim torrado</li>
+              <li>20g de uva passa</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture tudo em um potinho como se fosse um tesouro de energia.</li>
+              <li>Coma aos poucos pra fingir que está controlando a fome e a força.</li>
+              <li>Sinta o crocante invadindo o corpo e o atleta escondido saindo do sofá.</li>
+              <li>Não conte pra ninguém que você roubou esse segredo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar, esconda para não dividir com os amigos que querem te sabotar.</div>
+    </article>
+
+    <article class="receita-card" id="iogurte-do-ninja-rapidez-e-forca-em-pote">
+      <h2 class="receita-titulo">Iogurte do Ninja: rapidez e força em pote</h2>
+      <p class="receita-desc">A energia que cabe no pote, para quem quer ser rápido e forte sem perder tempo (e sem perder o humor).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 3 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 pote de iogurte natural</li>
+              <li>2 colheres de sopa de granola</li>
+              <li>1 colher de sopa de mel</li>
+              <li>Frutas vermelhas (opcional)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Abra o pote com a mesma rapidez que você quer correr na esteira.</li>
+              <li>Misture a granola e o mel para virar uma bomba de energia que não explode, só entrega resultado.</li>
+              <li>Se quiser parecer fitness, jogue umas frutas vermelhas por cima.</li>
+              <li>Coma antes que o treino comece, senão o iogurte vira desculpa para não malhar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se quiser impressionar, fale que é o segredo dos ninjas do crossfit.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-turbo-o-combustivel-do-nordeste-para-sua-academia">
+      <h2 class="receita-titulo">Tapioca Turbo: o combustível do Nordeste para sua academia</h2>
+      <p class="receita-desc">A tapioca que vai transformar sua energia com sabor e estilo nordestino, porque pré-treino também pode ser regional e saboroso.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 colheres de sopa de goma de tapioca</li>
+              <li>1 colher de sopa de queijo coalho ralado</li>
+              <li>1 colher de chá de orégano</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe a goma na frigideira quente como se estivesse pintando um quadro energético.</li>
+              <li>Quando a parte de baixo estiver firme, espalhe o queijo e polvilhe o orégano, porque treino sem estilo não vale.</li>
+              <li>Dobre a tapioca com elegância e cozinhe mais um pouco.</li>
+              <li>Coma rápido para entrar em modo turbo e deixar a preguiça no chinelo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se grudar na frigideira, finja que é técnica de resistência para o treino.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

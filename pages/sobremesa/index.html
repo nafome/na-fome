@@ -1,0 +1,1549 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🍫 Sobremesa — Receitas NaFome</title>
+  <meta name="description" content="38 receitas para quem está na situação "Sobremesa". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/sobremesa/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🍫 Sobremesa — Receitas NaFome">
+  <meta property="og:description" content="38 receitas para quem está na situação "Sobremesa". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/sobremesa/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🍫 Sobremesa — NaFome",
+    "description": "38 receitas para quem está na situação "Sobremesa". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/sobremesa/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=sobremesa" class="btn-sortear">🎲 Sortear receita de Sobremesa</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🍫 Sobremesa</h1>
+    <p>38 receitas para quem está na situação "Sobremesa". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">38 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Sobremesa pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=sobremesa" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="mousse-de-chocolate-dos-deuses-endividados">
+      <h2 class="receita-titulo">Mousse de Chocolate dos Deuses Endividados</h2>
+      <p class="receita-desc">Porque até quem tá no vermelho merece um pouco de doce no extrato</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min (+ 2h de geladeira)</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de chocolate meio amargo</li>
+              <li>ovos (gemas e claras separadas)</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>pitada de sal</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta o chocolate em banho-maria ou micro-ondas, mexendo a cada 30 segundos.</li>
+              <li>Bata as claras em neve com o sal até formar picos firmes, adicionando o açúcar aos poucos.</li>
+              <li>Misture as gemas ao chocolate derretido, depois incorpore delicadamente as claras em neve.</li>
+              <li>Distribua em taças e leve à geladeira por pelo menos 2 horas antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida tá dura, pelo menos o mousse não é – faça e deixe o boleto esperar na fila do crediário.</div>
+    </article>
+
+    <article class="receita-card" id="brownie-explosao-de-chocolate-e-nozes">
+      <h2 class="receita-titulo">Brownie Explosão de Chocolate e Nozes</h2>
+      <p class="receita-desc">Praquela vontade de comer chocolate e ainda parecer saudável pros outros</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de chocolate meio amargo</li>
+              <li>g de manteiga</li>
+              <li>xícara de açúcar</li>
+              <li>ovos</li>
+              <li>/4 de xícara de farinha de trigo</li>
+              <li>/2 xícara de nozes picadas</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta o chocolate com a manteiga em banho-maria.</li>
+              <li>Misture o açúcar e os ovos até ficar homogêneo, depois junte o chocolate derretido.</li>
+              <li>Incorpore a farinha e as nozes, despeje na forma untada e asse a 180ºC por 25-30 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se seu chefe reclamar, dê um pedaço do brownie – chocolate é o único argumento que não pedem feedback.</div>
+    </article>
+
+    <article class="receita-card" id="pave-de-chocolate-com-bis-e-memorias-do-ensino-fundamental">
+      <h2 class="receita-titulo">Pavê de Chocolate com Bis e Memórias do Ensino Fundamental</h2>
+      <p class="receita-desc">Porque a gente cresce, mas o pavê nunca sai da roda de amigos</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min (+ 3h de geladeira)</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,50</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de leite condensado</li>
+              <li>caixinha de creme de leite</li>
+              <li>colheres de sopa de chocolate em pó</li>
+              <li>pacote de bis triturado</li>
+              <li>xícara de leite para molhar o bis</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o leite condensado, o creme de leite e o chocolate em pó até formar um creme liso.</li>
+              <li>Molhe os bis rapidamente no leite e faça uma camada na travessa.</li>
+              <li>Cubra com o creme, repita as camadas e finalize com bis triturado.</li>
+              <li>Leve à geladeira por 3 horas antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Assim como aquela nota que nunca veio, a paciência é essencial para o pavê perfeito – ou só coma na hora.</div>
+    </article>
+
+    <article class="receita-card" id="sorvete-rapido-de-chocolate-com-banana-sem-maquina">
+      <h2 class="receita-titulo">Sorvete Rápido de Chocolate com Banana (Sem Máquina)</h2>
+      <p class="receita-desc">Pra quem quer sorvete e não quer nem escutar falar em máquina</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min (+ 4h congelador)</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>bananas maduras congeladas</li>
+              <li>colheres de sopa de cacau em pó</li>
+              <li>colher de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata as bananas congeladas com o cacau e o mel até virar um creme homogêneo.</li>
+              <li>Coloque em recipiente e leve ao congelador por 4 horas.</li>
+              <li>Sirva com raspas de chocolate se quiser parecer gourmet.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida congelar suas expectativas, pelo menos seu sorvete vai estar no ponto.</div>
+    </article>
+
+    <article class="receita-card" id="pudim-de-chocolate-da-vovo-moderna">
+      <h2 class="receita-titulo">Pudim de Chocolate da Vovó Moderna</h2>
+      <p class="receita-desc">Tradição com chocolate porque nostalgia sem açúcar é só saudade</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h (20 min preparo + 40 min forno)</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de leite condensado</li>
+              <li>latas de leite (medida da lata condensado)</li>
+              <li>ovos</li>
+              <li>colheres de sopa de cacau em pó</li>
+              <li>xícara de açúcar para a calda</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Faça a calda caramelizando o açúcar e despeje na forma.</li>
+              <li>Bata no liquidificador o leite condensado, leite, ovos e cacau.</li>
+              <li>Despeje na forma caramelizada e asse em banho-maria a 180ºC por 40 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o pudim rachar, culpe a vida adulta que é assim mesmo – doce e cheio de imperfeições.</div>
+    </article>
+
+    <article class="receita-card" id="trufas-de-chocolate-com-pimenta-pra-esquentar-a-vida">
+      <h2 class="receita-titulo">Trufas de Chocolate com Pimenta – Pra Esquentar a Vida</h2>
+      <p class="receita-desc">Porque apimentar a relação não precisa ser só no Whatsapp</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min (+ 2h geladeira)</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 12 trufas</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de chocolate meio amargo</li>
+              <li>ml de creme de leite</li>
+              <li>pitada de pimenta caiena</li>
+              <li>Cacau em pó para polvilhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta o chocolate e misture com o creme de leite e a pimenta.</li>
+              <li>Leve à geladeira por 2 horas até firmar.</li>
+              <li>Modele as trufas com as mãos e passe no cacau em pó.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a pimenta não te assustar, o boleto do cartão sim – aproveite a trufa.</div>
+    </article>
+
+    <article class="receita-card" id="torta-gelada-de-chocolate-com-oreo-o-crime-perfeito">
+      <h2 class="receita-titulo">Torta Gelada de Chocolate com Oreo – O Crime Perfeito</h2>
+      <p class="receita-desc">Porque misturar biscoito e chocolate é tão fácil quanto sumir da reunião chata</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min (+ 3h geladeira)</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de biscoito Oreo triturado</li>
+              <li>g de manteiga derretida</li>
+              <li>g de chocolate ao leite</li>
+              <li>ml de creme de leite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o biscoito com a manteiga e pressione na forma para formar a base.</li>
+              <li>Derreta o chocolate, misture com o creme de leite até ficar cremoso e despeje sobre a base.</li>
+              <li>Leve à geladeira por 3 horas antes de desenformar e servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der biscoitos, faça torta. Se der boleto, chame um amigo pra dividir.</div>
+    </article>
+
+    <article class="receita-card" id="fondue-de-chocolate-com-frutas-o-encontro-que-nao-acaba">
+      <h2 class="receita-titulo">Fondue de Chocolate com Frutas – O Encontro que Não Acaba</h2>
+      <p class="receita-desc">Praquela desculpa de reunião que termina só quando acaba o chocolate</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de chocolate meio amargo</li>
+              <li>ml de creme de leite</li>
+              <li>Frutas variadas (morango, banana, abacaxi)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta o chocolate com o creme de leite em fogo baixo até ficar homogêneo.</li>
+              <li>Lave e corte as frutas em pedaços para espetar.</li>
+              <li>Sirva o chocolate quente em recipiente e mergulhe as frutas.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a reunião for longa, aumente o chocolate – pelo menos a boca não fica seca de tanto enrolar.</div>
+    </article>
+
+    <article class="receita-card" id="pave-de-chocolate-branco-com-framboesa-amor-em-camadas">
+      <h2 class="receita-titulo">Pavê de Chocolate Branco com Framboesa – Amor em Camadas</h2>
+      <p class="receita-desc">Pra mostrar que sobremesa também entende de relacionamento complicado</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min (+ 4h geladeira)</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de chocolate branco</li>
+              <li>lata de creme de leite</li>
+              <li>caixinha de framboesas frescas</li>
+              <li>pacote de biscoitos champagne</li>
+              <li>xícara de leite para molhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta o chocolate branco, misture com o creme de leite até virar um creme liso.</li>
+              <li>Molhe os biscoitos no leite e faça uma camada na travessa.</li>
+              <li>Coloque uma camada do creme, espalhe algumas framboesas.</li>
+              <li>Repita as camadas e finalize com framboesas por cima.</li>
+              <li>Leve à geladeira por 4 horas antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o amor não der certo, pelo menos o pavê vai estar geladinho pra consolar.</div>
+    </article>
+
+    <article class="receita-card" id="brigadeirao-de-chocolate-o-classico-indestrutivel">
+      <h2 class="receita-titulo">Brigadeirão de Chocolate – O Clássico Indestrutível</h2>
+      <p class="receita-desc">Porque todo mundo merece um brigadeiro que vira bolo e vice-versa</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h (20 min preparo + 40 min forno)</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de leite condensado</li>
+              <li>lata de creme de leite</li>
+              <li>xícara de chocolate em pó</li>
+              <li>ovos</li>
+              <li>Chocolate granulado para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata no liquidificador o leite condensado, creme de leite, chocolate em pó e ovos.</li>
+              <li>Despeje na forma untada com manteiga e asse em banho-maria a 180ºC por 40 minutos.</li>
+              <li>Depois de frio, desenforme e decore com granulado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida tá um brigadeirão, pelo menos o brigadeirão é doce e não cobra juros.</div>
+    </article>
+
+    <article class="receita-card" id="bombom-gelado-de-chocolate-com-coco-praiso-na-boca">
+      <h2 class="receita-titulo">Bombom Gelado de Chocolate com Coco – Praíso na Boca</h2>
+      <p class="receita-desc">Porque às vezes o paraíso cabe numa mordida gelada e sem culpa</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min (+ 2h geladeira)</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 10 bombons</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de chocolate ao leite</li>
+              <li>vidro pequeno de leite de coco</li>
+              <li>g de coco ralado</li>
+              <li>colher de sopa de açúcar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o leite de coco, coco ralado e açúcar até formar uma pasta.</li>
+              <li>Derreta o chocolate e preencha as forminhas pela metade.</li>
+              <li>Coloque uma colher da mistura de coco e cubra com mais chocolate.</li>
+              <li>Leve à geladeira por 2 horas para firmar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o boleto chegar e a vontade de chorar bater, um bombom gelado ajuda mais que terapia.</div>
+    </article>
+
+    <article class="receita-card" id="crepe-doce-de-chocolate-com-morango-romance-de-segunda">
+      <h2 class="receita-titulo">Crepe Doce de Chocolate com Morango – Romance de Segunda</h2>
+      <p class="receita-desc">Pra alimentar o amor e a preguiça num só gesto</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de trigo</li>
+              <li>ovo</li>
+              <li>xícara de leite</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>g de chocolate meio amargo picado</li>
+              <li>Morangos fatiados para rechear</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a farinha, ovo, leite e açúcar até formar uma massa líquida.</li>
+              <li>Despeje uma concha na frigideira quente e faça o crepe fino.</li>
+              <li>Derreta o chocolate e espalhe sobre o crepe, adicione morangos e dobre.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o amor não der certo, pelo menos o crepe vai estar quente e gostoso pra te esquentar.</div>
+    </article>
+
+    <article class="receita-card" id="cookies-de-chocolate-com-gotas-e-cafe-acorda-vida">
+      <h2 class="receita-titulo">Cookies de Chocolate com Gotas e Café – Acorda, Vida!</h2>
+      <p class="receita-desc">Pra quem quer doce e café, porque adulto é isso: necessidade urgente</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 12 cookies</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de farinha de trigo</li>
+              <li>colher de chá de fermento em pó</li>
+              <li>g de manteiga</li>
+              <li>xícara de açúcar mascavo</li>
+              <li>ovo</li>
+              <li>colher de chá de café solúvel</li>
+              <li>g de gotas de chocolate</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture manteiga e açúcar até formar um creme.</li>
+              <li>Acrescente o ovo e o café solúvel, misture bem.</li>
+              <li>Adicione farinha e fermento, incorpore as gotas de chocolate.</li>
+              <li>Modele os cookies e asse a 180ºC por 12-15 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida tá difícil, o café e o cookie são a terapia que o boleto não cobre.</div>
+    </article>
+
+    <article class="receita-card" id="pave-de-nutella-com-amendoim-porque-adulto-tambem-merece">
+      <h2 class="receita-titulo">Pavê de Nutella com Amendoim – Porque Adulto Também Merece</h2>
+      <p class="receita-desc">Pra fingir que tá saudável enquanto entope o cartão</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min (+ 3h geladeira)</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pote de Nutella (200 g)</li>
+              <li>pacote de biscoitos de maisena</li>
+              <li>ml de leite para molhar biscoitos</li>
+              <li>xícara de amendoim torrado e triturado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Molhe os biscoitos no leite e faça uma camada na travessa.</li>
+              <li>Espalhe uma camada generosa de Nutella e polvilhe amendoim.</li>
+              <li>Repita as camadas e finalize com amendoim.</li>
+              <li>Leve à geladeira por 3 horas antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o amor não der certo, pelo menos a Nutella tá sempre disponível pra substituir.</div>
+    </article>
+
+    <article class="receita-card" id="cupcake-de-chocolate-com-cobertura-de-chantilly">
+      <h2 class="receita-titulo">Cupcake de Chocolate com Cobertura de Chantilly</h2>
+      <p class="receita-desc">Porque a vida adulta precisa de dose extra de fofura (e açúcar)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 12 cupcakes</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de trigo</li>
+              <li>/2 xícara de cacau em pó</li>
+              <li>xícara de açúcar</li>
+              <li>/2 xícara de óleo vegetal</li>
+              <li>ovos</li>
+              <li>colher de chá de fermento em pó</li>
+              <li>ml de creme de leite fresco para chantilly</li>
+              <li>colheres de sopa de açúcar para chantilly</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, cacau, açúcar e fermento.</li>
+              <li>Adicione óleo e ovos, mexa até homogeneizar.</li>
+              <li>Coloque a massa nas forminhas e asse a 180ºC por 20-25 minutos.</li>
+              <li>Bata o creme de leite com açúcar até formar chantilly e cubra os cupcakes.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o dia tá feio, um cupcake e chantilly podem ser seu sorriso – grátis e sem boleto.</div>
+    </article>
+
+    <article class="receita-card" id="bombocado-de-chocolate-com-coco-cremoso">
+      <h2 class="receita-titulo">Bombocado de Chocolate com Coco Cremoso</h2>
+      <p class="receita-desc">Um abraço quente de chocolate que nem seu chefe sabe dar</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>xícara de açúcar</li>
+              <li>xícara de farinha de trigo</li>
+              <li>g de chocolate meio amargo derretido</li>
+              <li>vidro pequeno de leite de coco</li>
+              <li>g de coco ralado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata ovos e açúcar até ficar fofo.</li>
+              <li>Misture a farinha e o chocolate derretido.</li>
+              <li>Despeje em forma untada e asse a 180ºC por 25 minutos.</li>
+              <li>Faça um creme com leite de coco e coco ralado para acompanhar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o chefe apertar, ofereça um bombocado – talvez ele aceite um abraço doce.</div>
+    </article>
+
+    <article class="receita-card" id="sorvete-de-chocolate-proteico-pos-treino">
+      <h2 class="receita-titulo">Sorvete de Chocolate Proteico Pós-Treino</h2>
+      <p class="receita-desc">Pra poder dizer que chocolate também constrói músculo (mentira, mas vale)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min (+ 3h congelador)</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>bananas congeladas</li>
+              <li>scoops de whey sabor chocolate</li>
+              <li>ml de leite desnatado</li>
+              <li>colher de sopa de cacau em pó</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes até virar um creme.</li>
+              <li>Coloque no recipiente e leve ao congelador por 3 horas.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o personal não acreditar, mostre o sorvete – o resto a gente finge que é músculo.</div>
+    </article>
+
+    <article class="receita-card" id="tiramisu-de-chocolate-com-cafe-para-quem-nao-tem-tempo-de-viajar">
+      <h2 class="receita-titulo">Tiramisu de Chocolate com Café – Para Quem Não Tem Tempo de Viajar</h2>
+      <p class="receita-desc">Um passaporte para a Itália sem precisar sair do sofá (nem do boleto)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min (+ 4h geladeira)</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de queijo mascarpone</li>
+              <li>ovos (gemas e claras separadas)</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>g de biscoitos champagne</li>
+              <li>ml de café forte frio</li>
+              <li>colheres de sopa de cacau em pó</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata as gemas com açúcar até ficar cremoso.</li>
+              <li>Misture o mascarpone e incorpore as claras em neve delicadamente.</li>
+              <li>Molhe os biscoitos no café e faça uma camada na travessa.</li>
+              <li>Cubra com o creme, repita as camadas e finalize com cacau em pó.</li>
+              <li>Leve à geladeira por 4 horas antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida tá amarga, o tiramisu é o seu café com açúcar – só não paga juros.</div>
+    </article>
+
+    <article class="receita-card" id="pave-de-chocolate-com-amora-sofisticacao-que-o-boleto-nao-permite">
+      <h2 class="receita-titulo">Pavê de Chocolate com Amora – Sofisticação que o Boleto Não Permite</h2>
+      <p class="receita-desc">Porque a gente tenta ser sofisticado, mas só o chocolate salva</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min (+ 3h geladeira)</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 27,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de leite condensado</li>
+              <li>caixinha de creme de leite</li>
+              <li>g de chocolate meio amargo</li>
+              <li>pacote de biscoito champagne</li>
+              <li>xícara de amoras frescas</li>
+              <li>xícara de leite para molhar os biscoitos</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta o chocolate e misture com o creme de leite.</li>
+              <li>Misture leite condensado e reserve.</li>
+              <li>Molhe os biscoitos no leite e faça uma camada na travessa.</li>
+              <li>Coloque uma camada do creme de chocolate, depois leite condensado e amoras.</li>
+              <li>Repita as camadas e finalize com amoras.</li>
+              <li>Leve à geladeira por 3 horas.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a conta não fechar, pelo menos o pavê fecha com chave de chocolate.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-de-caneca-de-chocolate-solucao-para-rapidos-e-estressados">
+      <h2 class="receita-titulo">Bolo de Caneca de Chocolate – Solução Para Rápidos e Estressados</h2>
+      <p class="receita-desc">Porque às vezes o desespero pede bolo em 5 minutos (sem sair do sofá)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 7 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de farinha de trigo</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>colheres de sopa de cacau em pó</li>
+              <li>ovo</li>
+              <li>colheres de sopa de leite</li>
+              <li>colheres de sopa de óleo</li>
+              <li>/2 colher de chá de fermento em pó</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes na caneca até ficar homogêneo.</li>
+              <li>Leve ao micro-ondas por 3 minutos em potência alta.</li>
+              <li>Deixe esfriar um pouco e coma direto da caneca.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o chefe ligar, diga que está em reunião importante com o micro-ondas.</div>
+    </article>
+
+    <article class="receita-card" id="pave-de-chocolate-com-doce-de-leite-e-amendoim-a-combinacao-imbativel">
+      <h2 class="receita-titulo">Pavê de Chocolate com Doce de Leite e Amendoim – A Combinação Imbatível</h2>
+      <p class="receita-desc">Pra juntar o que a vida separou: chocolate, doce e amendoim</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min (+ 3h geladeira)</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 24,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de doce de leite</li>
+              <li>g de chocolate meio amargo derretido</li>
+              <li>pacote de biscoito maisena</li>
+              <li>xícara de leite para molhar</li>
+              <li>/2 xícara de amendoim triturado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Molhe os biscoitos no leite e faça uma camada na travessa.</li>
+              <li>Espalhe uma camada de doce de leite, depois uma de chocolate.</li>
+              <li>Polvilhe amendoim e repita as camadas.</li>
+              <li>Finalize com amendoim e leve à geladeira por 3 horas.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der amendoim, faça pavê – não precisa nem descascar boleto.</div>
+    </article>
+
+    <article class="receita-card" id="panna-cotta-de-chocolate-com-calda-de-frutas-vermelhas">
+      <h2 class="receita-titulo">Panna Cotta de Chocolate com Calda de Frutas Vermelhas</h2>
+      <p class="receita-desc">Sofisticação que nem sua conta bancária acredita</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min (+ 4h geladeira)</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 32,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de creme de leite fresco</li>
+              <li>g de chocolate meio amargo picado</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>folhas de gelatina hidratadas</li>
+              <li>xícara de frutas vermelhas para calda</li>
+              <li>colheres de sopa de açúcar para calda</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o creme de leite com o açúcar e o chocolate até derreter.</li>
+              <li>Junte a gelatina dissolvida e mexa bem.</li>
+              <li>Distribua em forminhas e leve à geladeira por 4 horas.</li>
+              <li>Faça a calda cozinhando as frutas com açúcar até reduzir.</li>
+              <li>Sirva a panna cotta com a calda por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o boleto for surpresa, pelo menos a panna cotta não é – pode planejar.</div>
+    </article>
+
+    <article class="receita-card" id="picole-caseiro-de-chocolate-com-leite-condensado">
+      <h2 class="receita-titulo">Picolé Caseiro de Chocolate com Leite Condensado</h2>
+      <p class="receita-desc">Pra refrescar a alma enquanto a conta esquenta</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min (+ 6h congelador)</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 6 picolés</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de leite condensado</li>
+              <li>ml de leite</li>
+              <li>colheres de sopa de chocolate em pó</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até ficar homogêneo.</li>
+              <li>Despeje nas forminhas, coloque os palitos e leve ao congelador por 6 horas.</li>
+              <li>Desenforme e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida der calor, o picolé é seu ar-condicionado portátil (sem pagar luz).</div>
+    </article>
+
+    <article class="receita-card" id="brownie-de-chocolate-branco-com-framboesa">
+      <h2 class="receita-titulo">Brownie de Chocolate Branco com Framboesa</h2>
+      <p class="receita-desc">Pra adoçar a vida com um toque de drama e fruta azeda</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 26,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de chocolate branco</li>
+              <li>g de manteiga</li>
+              <li>xícara de açúcar</li>
+              <li>ovos</li>
+              <li>xícara de farinha de trigo</li>
+              <li>/2 xícara de framboesas frescas</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta o chocolate branco com manteiga.</li>
+              <li>Misture açúcar e ovos, depois adicione o chocolate.</li>
+              <li>Incorpore a farinha e as framboesas delicadamente.</li>
+              <li>Asse a 180ºC por 25-30 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a framboesa azedar, pelo menos o chocolate branco tá lá pra equilibrar a vida.</div>
+    </article>
+
+    <article class="receita-card" id="milkshake-de-chocolate-com-cafe-remedio-para-segunda-feira">
+      <h2 class="receita-titulo">Milkshake de Chocolate com Café – Remédio para Segunda-feira</h2>
+      <p class="receita-desc">Porque café e chocolate juntos são o combustível da sobrevivência</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>bolas de sorvete de chocolate</li>
+              <li>ml de leite</li>
+              <li>ml de café forte frio</li>
+              <li>Chantilly para decorar (opcional)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata o sorvete, leite e café até ficar cremoso.</li>
+              <li>Sirva em copos e decore com chantilly se quiser.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a segunda te derrubar, esse milkshake te levanta – e não cobra taxa extra.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-gelado-de-chocolate-com-creme-de-leite-ninho">
+      <h2 class="receita-titulo">Bolo Gelado de Chocolate com Creme de Leite Ninho</h2>
+      <p class="receita-desc">Pra enganar o estômago e o coração com sabor e nostalgia</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h (30 min preparo + 30 min geladeira)</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>xícara de açúcar</li>
+              <li>xícara de farinha de trigo</li>
+              <li>/2 xícara de cacau em pó</li>
+              <li>colher de chá de fermento</li>
+              <li>lata de creme de leite</li>
+              <li>xícara de leite em pó (Ninho)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata ovos e açúcar até dobrar de volume.</li>
+              <li>Adicione farinha, cacau e fermento, misture delicadamente.</li>
+              <li>Asse a 180ºC por 25 minutos, deixe esfriar.</li>
+              <li>Misture o creme de leite com o leite em pó até virar creme e espalhe sobre o bolo.</li>
+              <li>Leve à geladeira por 30 minutos antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida não der bolo, faça um bolo gelado – pelo menos não precisa de calor humano.</div>
+    </article>
+
+    <article class="receita-card" id="chocolate-quente-cremoso-com-marshmallow-adocando-o-tedio">
+      <h2 class="receita-titulo">Chocolate Quente Cremoso com Marshmallow – Adoçando o Tédio</h2>
+      <p class="receita-desc">Pra esquentar o coração enquanto o boleto congela sua conta</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de leite</li>
+              <li>colheres de sopa de chocolate em pó</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>Marshmallows para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o leite com o chocolate em pó e açúcar, mexendo até dissolver.</li>
+              <li>Sirva em canecas e coloque marshmallows por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida tá amarga, o chocolate quente é o abraço que o boleto não dá.</div>
+    </article>
+
+    <article class="receita-card" id="pave-de-chocolate-com-maracuja-o-azedinho-que-a-vida-pede">
+      <h2 class="receita-titulo">Pavê de Chocolate com Maracujá – O Azedinho que a Vida Pede</h2>
+      <p class="receita-desc">Porque nem só de chocolate vive o coração (mas quase)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min (+ 3h geladeira)</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 26,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de leite condensado</li>
+              <li>g de chocolate meio amargo</li>
+              <li>caixinha de creme de leite</li>
+              <li>Polpa de 2 maracujás</li>
+              <li>pacote de biscoito maisena</li>
+              <li>xícara de leite para molhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta o chocolate e misture com creme de leite.</li>
+              <li>Molhe os biscoitos no leite e faça uma camada.</li>
+              <li>Coloque uma camada de creme de chocolate, depois uma de leite condensado misturado com a polpa de maracujá.</li>
+              <li>Repita camadas e leve à geladeira por 3 horas.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o maracujá azedar a vida, o chocolate volta a adoçar – equilíbrio que a gente paga caro.</div>
+    </article>
+
+    <article class="receita-card" id="trufas-de-chocolate-com-licor-pra-esquentar-as-conversas">
+      <h2 class="receita-titulo">Trufas de Chocolate com Licor – Pra Esquentar as Conversas</h2>
+      <p class="receita-desc">Porque nem só de café vive a resenha da noite</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min (+ 2h geladeira)</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 15 trufas</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de chocolate meio amargo</li>
+              <li>ml de creme de leite</li>
+              <li>colheres de sopa de licor (ex: amarula, rum)</li>
+              <li>Cacau em pó para enrolar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta o chocolate e misture com creme de leite e licor.</li>
+              <li>Leve à geladeira por 2 horas até firmar.</li>
+              <li>Modele as trufas e passe no cacau em pó.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a conversa travar, jogue uma trufa – chocolate e licor resolvem mais que reunião de condomínio.</div>
+    </article>
+
+    <article class="receita-card" id="pave-de-chocolate-com-castanhas-porque-vida-de-adulto-e-seria">
+      <h2 class="receita-titulo">Pavê de Chocolate com Castanhas – Porque Vida de Adulto é Séria</h2>
+      <p class="receita-desc">Pra fingir que você tá cuidando da saúde enquanto come doce</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min (+ 3h geladeira)</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 27,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de leite condensado</li>
+              <li>g de chocolate meio amargo</li>
+              <li>caixinha de creme de leite</li>
+              <li>pacote de biscoito maisena</li>
+              <li>xícara de leite para molhar</li>
+              <li>/2 xícara de castanhas picadas</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta o chocolate e misture com creme de leite.</li>
+              <li>Molhe os biscoitos no leite e faça uma camada na travessa.</li>
+              <li>Coloque uma camada de creme de chocolate, polvilhe castanhas.</li>
+              <li>Repita as camadas e finalize com castanhas.</li>
+              <li>Leve à geladeira por 3 horas.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida apertar, pelo menos as castanhas dão um crunch pra segurar o choro.</div>
+    </article>
+
+    <article class="receita-card" id="pave-de-chocolate-com-abacaxi-adocando-a-ressaca">
+      <h2 class="receita-titulo">Pavê de Chocolate com Abacaxi – Adoçando a Ressaca</h2>
+      <p class="receita-desc">Porque até o azedume do abacaxi precisa de um pouco de doce</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min (+ 3h geladeira)</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de leite condensado</li>
+              <li>g de chocolate ao leite</li>
+              <li>caixinha de creme de leite</li>
+              <li>xícara de abacaxi picado</li>
+              <li>pacote de biscoito maisena</li>
+              <li>xícara de leite para molhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta o chocolate e misture com creme de leite.</li>
+              <li>Molhe os biscoitos no leite e faça uma camada na travessa.</li>
+              <li>Coloque camada de creme de chocolate, depois abacaxi.</li>
+              <li>Repita as camadas e leve à geladeira por 3 horas.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a ressaca bater, esse pavê é seu melhor amigo – doce e hidratante.</div>
+    </article>
+
+    <article class="receita-card" id="pao-de-mel-recheado-com-chocolate-cremoso">
+      <h2 class="receita-titulo">Pão de Mel Recheado com Chocolate Cremoso</h2>
+      <p class="receita-desc">Porque doce e conforto são sinônimos de sobrevivência na vida adulta</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h (30 min preparo + 30 min forno + 10 min recheio)</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 12 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>xícara de açúcar mascavo</li>
+              <li>xícara de mel</li>
+              <li>xícaras de farinha de trigo</li>
+              <li>colher de chá de canela</li>
+              <li>colher de chá de cravo em pó</li>
+              <li>colher de chá de fermento</li>
+              <li>g de chocolate meio amargo para recheio</li>
+              <li>ml de creme de leite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture ovos, açúcar mascavo e mel até ficar homogêneo.</li>
+              <li>Adicione farinha, canela, cravo e fermento, misture.</li>
+              <li>Asse em forminhas untadas a 180ºC por 30 minutos.</li>
+              <li>Derreta o chocolate com creme de leite para o recheio.</li>
+              <li>Corte os pães ao meio e recheie com o creme.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der mel e canela, faça pão de mel – pelo menos a boca fica doce.</div>
+    </article>
+
+    <article class="receita-card" id="bombom-de-chocolate-com-caramelo-salgado">
+      <h2 class="receita-titulo">Bombom de Chocolate com Caramelo Salgado</h2>
+      <p class="receita-desc">O doce que tem mais sal que a sua conta bancária</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min (+ 2h geladeira)</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 12 bombons</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de chocolate meio amargo</li>
+              <li>/2 xícara de açúcar</li>
+              <li>colheres de sopa de manteiga</li>
+              <li>/4 colher de chá de sal</li>
+              <li>ml de creme de leite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta o chocolate e preencha as forminhas pela metade.</li>
+              <li>Faça o caramelo derretendo açúcar até dourar, adicione manteiga, creme de leite e sal, mexa até homogêneo.</li>
+              <li>Coloque o caramelo sobre o chocolate nas forminhas e cubra com mais chocolate.</li>
+              <li>Leve à geladeira por 2 horas para firmar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida tá salgada, pelo menos o bombom é doce e com um toque de sal pra fingir equilíbrio.</div>
+    </article>
+
+    <article class="receita-card" id="pave-de-chocolate-com-chantilly-e-morango-classico-que-nunca-falha">
+      <h2 class="receita-titulo">Pavê de Chocolate com Chantilly e Morango – Clássico que Nunca Falha</h2>
+      <p class="receita-desc">Porque todo mundo merece um clássico pra fugir da rotina amarga</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min (+ 3h geladeira)</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pacote de biscoito champagne</li>
+              <li>g de chocolate meio amargo derretido</li>
+              <li>lata de creme de leite</li>
+              <li>ml de creme de leite fresco para chantilly</li>
+              <li>colheres de sopa de açúcar para chantilly</li>
+              <li>g de morangos fatiados</li>
+              <li>xícara de leite para molhar biscoitos</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata o creme de leite fresco com açúcar até formar chantilly.</li>
+              <li>Misture o chocolate derretido com o creme de leite normal até formar um creme.</li>
+              <li>Molhe os biscoitos no leite e faça uma camada na travessa.</li>
+              <li>Coloque uma camada do creme de chocolate, depois chantilly e morangos.</li>
+              <li>Repita as camadas e finalize com chantilly e morangos.</li>
+              <li>Leve à geladeira por 3 horas.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a rotina apertar, um pavê clássico com morango é o abraço doce que ninguém te dá.</div>
+    </article>
+
+    <article class="receita-card" id="trufa-light-de-chocolate-com-abacate-pra-enganar-a-dieta">
+      <h2 class="receita-titulo">Trufa Light de Chocolate com Abacate – Pra Enganar a Dieta</h2>
+      <p class="receita-desc">Porque até na dieta a gente quer um pouco de gostoso e vergonhoso</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min (+ 1h geladeira)</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 10 trufas</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abacate maduro</li>
+              <li>colheres de sopa de cacau em pó</li>
+              <li>colheres de sopa de mel</li>
+              <li>Cacau em pó para enrolar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata o abacate, cacau e mel até formar um creme.</li>
+              <li>Leve à geladeira por 1 hora para firmar.</li>
+              <li>Modele as trufas e passe no cacau em pó.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a dieta não der certo, pelo menos a trufa light não vai te julgar (mas o espelho sim).</div>
+    </article>
+
+    <article class="receita-card" id="pudim-de-chocolate-com-cafe-despertar-dos-deuses">
+      <h2 class="receita-titulo">Pudim de Chocolate com Café – Despertar dos Deuses</h2>
+      <p class="receita-desc">Pra acordar até o mais preguiçoso dos boletos</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h (20 min preparo + 40 min forno)</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de leite condensado</li>
+              <li>latas de leite (medida da lata condensado)</li>
+              <li>ovos</li>
+              <li>colheres de sopa de chocolate em pó</li>
+              <li>colheres de sopa de café solúvel</li>
+              <li>xícara de açúcar para calda</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Faça a calda caramelizando o açúcar e despeje na forma.</li>
+              <li>Bata no liquidificador leite condensado, leite, ovos, chocolate e café até ficar homogêneo.</li>
+              <li>Despeje na forma caramelizada e asse em banho-maria a 180°C por 40 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o café não acordar você, pelo menos o pudim vai dar um gás – e não cobra hora extra.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-de-chocolate-com-recheio-de-doce-de-leite-e-nozes">
+      <h2 class="receita-titulo">Bolo de Chocolate com Recheio de Doce de Leite e Nozes</h2>
+      <p class="receita-desc">Pra vida ser doce, mesmo que o boleto não</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h20 (40 min preparo + 40 min forno)</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 10 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>xícara de açúcar</li>
+              <li>xícara de farinha de trigo</li>
+              <li>/2 xícara de cacau em pó</li>
+              <li>colher de chá de fermento</li>
+              <li>lata de doce de leite</li>
+              <li>/2 xícara de nozes picadas</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata ovos e açúcar até dobrar de volume.</li>
+              <li>Adicione farinha, cacau e fermento, misture delicadamente.</li>
+              <li>Asse a 180ºC por 40 minutos e deixe esfriar.</li>
+              <li>Corte o bolo ao meio, recheie com doce de leite e nozes.</li>
+              <li>Feche e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der nozes, faça um bolo – pelo menos elas não cobram juros.</div>
+    </article>
+
+    <article class="receita-card" id="sorvete-de-chocolate-vegano-com-leite-de-coco">
+      <h2 class="receita-titulo">Sorvete de Chocolate Vegano com Leite de Coco</h2>
+      <p class="receita-desc">Pra provar que doce bom não precisa de drama animal</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min (+ 4h congelador)</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de leite de coco</li>
+              <li>colheres de sopa de cacau em pó</li>
+              <li>/2 xícara de açúcar demerara</li>
+              <li>colher de chá de essência de baunilha</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes até ficar homogêneo.</li>
+              <li>Leve ao congelador por 4 horas, mexendo a cada hora para evitar cristais.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida não for vegana, faça o sorvete vegano – pelo menos ele não reclama.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

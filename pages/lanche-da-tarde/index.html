@@ -1,0 +1,1614 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🥪 Lanche da Tarde — Receitas NaFome</title>
+  <meta name="description" content="41 receitas para quem está na situação "Lanche da Tarde". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/lanche-da-tarde/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🥪 Lanche da Tarde — Receitas NaFome">
+  <meta property="og:description" content="41 receitas para quem está na situação "Lanche da Tarde". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/lanche-da-tarde/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🥪 Lanche da Tarde — NaFome",
+    "description": "41 receitas para quem está na situação "Lanche da Tarde". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/lanche-da-tarde/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=lanche-da-tarde" class="btn-sortear">🎲 Sortear receita de Lanche da Tarde</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🥪 Lanche da Tarde</h1>
+    <p>41 receitas para quem está na situação "Lanche da Tarde". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">41 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Lanche da Tarde pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=lanche-da-tarde" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="sanduiche-de-frango-com-maionese-de-abacate">
+      <h2 class="receita-titulo">Sanduíche de Frango com Maionese de Abacate</h2>
+      <p class="receita-desc">Porque lanchar saudável não precisa ser um castigo do boleto vencido.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peito de frango desfiado</li>
+              <li>colheres de sopa de maionese</li>
+              <li>/2 abacate maduro</li>
+              <li>fatias de pão integral</li>
+              <li>Folhas de alface a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o frango com sal e pimenta e aqueça na frigideira até dourar.</li>
+              <li>Amasse o abacate e misture com a maionese para fazer a pasta.</li>
+              <li>Monte o sanduíche com o pão, a pasta de abacate, o frango e a alface.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der abacate, faça maionese. Se te der boletos, pelo menos coma bem!</div>
+    </article>
+
+    <article class="receita-card" id="pao-de-queijo-recheado-com-goiabada-cremosa">
+      <h2 class="receita-titulo">Pão de Queijo Recheado com Goiabada Cremosa</h2>
+      <p class="receita-desc">O único casal que não vai te deixar na mão no lanche da tarde.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 12,50</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de polvilho azedo</li>
+              <li>ml de leite</li>
+              <li>ml de óleo</li>
+              <li>ovo</li>
+              <li>g de queijo minas padrão ralado</li>
+              <li>g de goiabada cremosa</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o polvilho com o leite quente, óleo e sal até formar uma massa.</li>
+              <li>Adicione o ovo e o queijo ralado, misture bem.</li>
+              <li>Modele bolinhas, recheie com goiabada, feche e asse a 180ºC por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a sua vida amorosa é fria, pelo menos o pão de queijo recheado vai te aquecer.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-de-banana-com-canela-e-mel">
+      <h2 class="receita-titulo">Tapioca de Banana com Canela e Mel</h2>
+      <p class="receita-desc">Porque nem só de boletos e café preto vive o adulto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca hidratada</li>
+              <li>banana madura fatiada</li>
+              <li>Canela em pó a gosto</li>
+              <li>Mel para regar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça a frigideira e espalhe a goma formando um disco.</li>
+              <li>Cozinhe até firmar e vire para aquecer do outro lado.</li>
+              <li>Recheie com banana, polvilhe canela e regue com mel.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida está amarga, joga mel que fica doce. Se não, toma um café.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-caprese-no-pao-ciabatta">
+      <h2 class="receita-titulo">Sanduíche Caprese no Pão Ciabatta</h2>
+      <p class="receita-desc">Porque às vezes o lanche precisa ser mais sofisticado que sua vida social.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pão ciabatta médio</li>
+              <li>g de mussarela de búfala</li>
+              <li>tomates maduros em fatias</li>
+              <li>Folhas de manjericão fresco</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte o pão ao meio e coloque fatias de mussarela e tomate.</li>
+              <li>Adicione folhas de manjericão e tempere com azeite, sal e pimenta.</li>
+              <li>Feche o sanduíche e sirva imediatamente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse sanduíche é mais fácil de montar que sua rotina de exercícios... e mais gostoso também.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-de-cenoura-com-cobertura-de-chocolate">
+      <h2 class="receita-titulo">Bolo de Cenoura com Cobertura de Chocolate</h2>
+      <p class="receita-desc">O lanche que faz você esquecer que o boleto venceu ontem.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>cenouras médias picadas</li>
+              <li>ovos</li>
+              <li>xícara de óleo</li>
+              <li>xícaras de açúcar</li>
+              <li>e 1/2 xícaras de farinha de trigo</li>
+              <li>colher de sopa de fermento em pó</li>
+              <li>/2 xícara de leite</li>
+              <li>colheres de sopa de chocolate em pó</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>colher de sopa de manteiga</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata no liquidificador as cenouras, ovos e óleo até ficar homogêneo.</li>
+              <li>Misture o açúcar, farinha e fermento, incorpore delicadamente.</li>
+              <li>Asse em forma untada a 180ºC por 40 minutos.</li>
+              <li>Para a cobertura, misture tudo em panela, leve ao fogo até engrossar e despeje sobre o bolo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse bolo é tão bom que se fosse boleto, a gente pagava feliz.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-de-atum-com-maionese-de-ervas">
+      <h2 class="receita-titulo">Sanduíche de Atum com Maionese de Ervas</h2>
+      <p class="receita-desc">Porque até o atum sabe que a vida adulta é uma mistura de caos com maionese.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de atum em água</li>
+              <li>colheres de sopa de maionese</li>
+              <li>Salsinha e cebolinha picadas a gosto</li>
+              <li>fatias de pão de forma integral</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Escorra o atum e misture com maionese, salsinha, cebolinha, sal e pimenta.</li>
+              <li>Passe a mistura nas fatias de pão.</li>
+              <li>Monte o sanduíche e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o atum consegue se juntar com maionese, você consegue juntar as contas no fim do mês.</div>
+    </article>
+
+    <article class="receita-card" id="crepioca-de-queijo-e-presunto">
+      <h2 class="receita-titulo">Crepioca de Queijo e Presunto</h2>
+      <p class="receita-desc">O lanche que é tão versátil quanto desculpas para não ir à academia.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca</li>
+              <li>ovo</li>
+              <li>fatias de presunto magro</li>
+              <li>fatias de queijo prato</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata o ovo com a goma e o sal até ficar homogêneo.</li>
+              <li>Despeje na frigideira aquecida formando uma camada fina.</li>
+              <li>Quando firmar, coloque o presunto e o queijo, dobre a crepioca e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Essa crepioca é mais rápida que você tentando explicar o boleto atrasado pro gerente.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-frutas-com-iogurte-e-granola">
+      <h2 class="receita-titulo">Salada de Frutas com Iogurte e Granola</h2>
+      <p class="receita-desc">O lanche que grita “vida saudável” enquanto a mente pensa no próximo boleto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>maçã picada</li>
+              <li>banana fatiada</li>
+              <li>/2 mamão picado</li>
+              <li>pote de iogurte natural (170g)</li>
+              <li>colheres de sopa de granola</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture as frutas em uma tigela.</li>
+              <li>Adicione o iogurte por cima.</li>
+              <li>Salpique a granola e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Frutas e granola pra enganar o estômago e esquecer que boletos não pedem licença.</div>
+    </article>
+
+    <article class="receita-card" id="pao-sirio-com-homus-e-tomate-seco">
+      <h2 class="receita-titulo">Pão Sírio com Homus e Tomate Seco</h2>
+      <p class="receita-desc">O lanche que é mais sofisticado que sua desculpa para faltar no trabalho.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pães sírios pequenos</li>
+              <li>colheres de sopa de homus</li>
+              <li>tomates secos hidratados</li>
+              <li>Folhas de rúcula a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte o pão sírio ao meio.</li>
+              <li>Espalhe o homus generosamente.</li>
+              <li>Distribua os tomates secos e a rúcula, feche e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sua vida fosse tão organizada quanto esse lanche, já tinha pago o boleto.</div>
+    </article>
+
+    <article class="receita-card" id="wrap-integral-de-frango-com-cream-cheese">
+      <h2 class="receita-titulo">Wrap Integral de Frango com Cream Cheese</h2>
+      <p class="receita-desc">Enroladinho que te deixa feliz, diferente da sua caixa de e-mails.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tortilhas integrais</li>
+              <li>g de frango desfiado e temperado</li>
+              <li>colheres de sopa de cream cheese</li>
+              <li>Folhas de alface e tomate fatiado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o frango em frigideira até dourar.</li>
+              <li>Espalhe cream cheese nas tortilhas.</li>
+              <li>Recheie com frango, alface e tomate, enrole firmemente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se enrolar no trabalho é ruim, enrolar no wrap é só gostoso.</div>
+    </article>
+
+    <article class="receita-card" id="biscoitos-salgados-de-queijo-e-oregano">
+      <h2 class="receita-titulo">Biscoitos Salgados de Queijo e Orégano</h2>
+      <p class="receita-desc">Porque até na crise a gente precisa de um petisco que não te cobre juros.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 20 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de farinha de trigo</li>
+              <li>g de manteiga gelada</li>
+              <li>g de queijo parmesão ralado</li>
+              <li>colher de chá de orégano</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a farinha com a manteiga até formar uma farofa.</li>
+              <li>Adicione queijo, orégano e sal, misture até virar massa.</li>
+              <li>Abra a massa, corte em formatos e asse a 180ºC por 20 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esses biscoitos são a única coisa que vai te dar um retorno sem juros hoje.</div>
+    </article>
+
+    <article class="receita-card" id="paozinho-de-batata-com-recheio-de-catupiry">
+      <h2 class="receita-titulo">Pãozinho de Batata com Recheio de Catupiry</h2>
+      <p class="receita-desc">O lanche que abraça você mais que sua sogra no domingo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de batata cozida e amassada</li>
+              <li>ovos</li>
+              <li>colheres de sopa de manteiga</li>
+              <li>xícara de farinha de trigo</li>
+              <li>g de catupiry</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a batata, ovos, manteiga e sal.</li>
+              <li>Adicione a farinha até a massa desgrudar das mãos.</li>
+              <li>Modele bolinhas, abra, recheie com catupiry, feche e asse a 180ºC por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o boleto apertar, pelo menos o pãozinho de batata vai te abraçar com queijo.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-de-berinjela-grelhada-com-queijo-minas">
+      <h2 class="receita-titulo">Sanduíche de Berinjela Grelhada com Queijo Minas</h2>
+      <p class="receita-desc">Para os dias que você quer ser saudável, mas com gostinho de rebeldia.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 16,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>berinjela média em fatias</li>
+              <li>g de queijo minas frescal</li>
+              <li>fatias de pão integral</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere e grelhe as fatias de berinjela até dourar.</li>
+              <li>Monte o sanduíche com berinjela e queijo minas.</li>
+              <li>Sirva com fio de azeite por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida é uma berinjela, pelo menos o sanduíche não precisa ser amarga.</div>
+    </article>
+
+    <article class="receita-card" id="coxinha-fit-de-frango-com-recheio-de-requeijao-light">
+      <h2 class="receita-titulo">Coxinha Fit de Frango com Recheio de Requeijão Light</h2>
+      <p class="receita-desc">A coxinha que não engorda, só o boleto que pesa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 8 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de caldo de frango</li>
+              <li>xícara de farinha de trigo integral</li>
+              <li>g de peito de frango desfiado</li>
+              <li>colheres de sopa de requeijão light</li>
+              <li>Sal e temperos a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva o caldo e adicione a farinha, mexendo até formar massa.</li>
+              <li>Modele as coxinhas, recheie com frango e requeijão.</li>
+              <li>Asse ou frite em óleo quente até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vontade de fugir do boleto é grande, essa coxinha fit ajuda a disfarçar.</div>
+    </article>
+
+    <article class="receita-card" id="muffin-salgado-de-espinafre-e-queijo">
+      <h2 class="receita-titulo">Muffin Salgado de Espinafre e Queijo</h2>
+      <p class="receita-desc">O lanche que parece saudável, mas é só para enganar o chefe.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>xícara de espinafre cozido e picado</li>
+              <li>/2 xícara de queijo ralado</li>
+              <li>/2 xícara de farinha de trigo</li>
+              <li>/4 xícara de leite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com leite, adicione farinha, queijo e espinafre.</li>
+              <li>Tempere e coloque nas formas para muffin.</li>
+              <li>Asse a 180ºC por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o chefe não aceitar seu lanche, pelo menos o estresse não vai entrar na receita.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-de-ovo-mexido-com-cebolinha">
+      <h2 class="receita-titulo">Sanduíche de Ovo Mexido com Cebolinha</h2>
+      <p class="receita-desc">Simples, rápido, e melhor que sua reunião das 15h.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>fatias de pão de forma</li>
+              <li>Cebolinha picada a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Manteiga para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com sal, pimenta e cebolinha.</li>
+              <li>Cozinhe na frigideira com manteiga mexendo até firmar.</li>
+              <li>Sirva no pão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a reunião é um ovo mexido, pelo menos no lanche a gente acerta o ponto.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-natural-de-frango-com-cenoura-ralada">
+      <h2 class="receita-titulo">Sanduíche Natural de Frango com Cenoura Ralada</h2>
+      <p class="receita-desc">O lanche que tenta te convencer que você é fitness, mesmo sabendo que não.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peito de frango cozido e desfiado</li>
+              <li>colheres de sopa de maionese light</li>
+              <li>cenoura ralada</li>
+              <li>fatias de pão integral</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o frango com a maionese, cenoura, sal e pimenta.</li>
+              <li>Passe a mistura nas fatias de pão.</li>
+              <li>Monte e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vontade de ser fitness é pouca, pelo menos o lanche ajuda no disfarce.</div>
+    </article>
+
+    <article class="receita-card" id="pao-frances-com-queijo-coalho-na-chapa">
+      <h2 class="receita-titulo">Pão Francês com Queijo Coalho na Chapa</h2>
+      <p class="receita-desc">O clássico que nunca te abandona, diferente do seu salário.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pão francês</li>
+              <li>g de queijo coalho</li>
+              <li>Manteiga para a chapa</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte o pão ao meio e a manteiga nas bordas.</li>
+              <li>Grelhe o queijo na chapa até dourar.</li>
+              <li>Monte o sanduíche e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o salário some rápido, pelo menos o pão com queijo fica por perto.</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-de-chuva-com-acucar-e-canela">
+      <h2 class="receita-titulo">Bolinho de Chuva com Açúcar e Canela</h2>
+      <p class="receita-desc">O lanche que é a prova de que nem tudo que é doce estraga sua vida.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 10 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>xícara de leite</li>
+              <li>colher de sopa de açúcar</li>
+              <li>xícaras de farinha de trigo</li>
+              <li>colher de chá de fermento em pó</li>
+              <li>Açúcar e canela para polvilhar</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture ovos, leite e açúcar.</li>
+              <li>Adicione farinha e fermento, misture até formar massa homogênea.</li>
+              <li>Frite colheradas da massa em óleo quente até dourar.</li>
+              <li>Escorra e passe em açúcar com canela.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida está difícil, pelo menos o bolinho de chuva está doce e fofinho.</div>
+    </article>
+
+    <article class="receita-card" id="pao-de-forma-com-pasta-de-amendoim-e-mel">
+      <h2 class="receita-titulo">Pão de Forma com Pasta de Amendoim e Mel</h2>
+      <p class="receita-desc">Energia rápida pra aguentar as contas e as piadas ruins da família.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão de forma integral</li>
+              <li>colheres de sopa de pasta de amendoim</li>
+              <li>colher de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe a pasta de amendoim nas fatias de pão.</li>
+              <li>Regue com mel e feche o sanduíche.</li>
+              <li>Sirva na hora.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida é amarga, a pasta de amendoim e mel são o abraço que você merece.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-integral-com-recheio-de-ricota-e-espinafre">
+      <h2 class="receita-titulo">Panqueca Integral com Recheio de Ricota e Espinafre</h2>
+      <p class="receita-desc">Porque lanchar saudável dá trabalho, mas a gente finge que gosta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha integral</li>
+              <li>ovo</li>
+              <li>xícara de leite</li>
+              <li>g de ricota amassada</li>
+              <li>xícara de espinafre cozido e picado</li>
+              <li>Sal e noz-moscada a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, ovo e leite até formar massa homogênea.</li>
+              <li>Faça pequenas panquecas na frigideira quente.</li>
+              <li>Recheie com ricota misturada ao espinafre e dobre.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Essa panqueca é mais organizada que sua planilha de gastos.</div>
+    </article>
+
+    <article class="receita-card" id="bruschetta-de-tomate-manjericao-e-azeite">
+      <h2 class="receita-titulo">Bruschetta de Tomate, Manjericão e Azeite</h2>
+      <p class="receita-desc">O lanche que é aquela tentativa de ser chique sem gastar tudo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>baguete fatiada</li>
+              <li>tomates maduros picados</li>
+              <li>Folhas de manjericão a gosto</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Torre as fatias de baguete no forno ou grill.</li>
+              <li>Misture tomates, manjericão, azeite, sal e pimenta.</li>
+              <li>Coloque a mistura sobre as torradas e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> A bruschetta é mais rápida que sua desculpa para faltar no happy hour.</div>
+    </article>
+
+    <article class="receita-card" id="pao-integral-com-pasta-de-grao-de-bico-e-limao">
+      <h2 class="receita-titulo">Pão Integral com Pasta de Grão-de-Bico e Limão</h2>
+      <p class="receita-desc">Pra quem quer ser saudável, mas só até o limão aparecer.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 11,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de grão-de-bico cozido</li>
+              <li>Suco de 1 limão</li>
+              <li>dente de alho</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>fatias de pão integral</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata o grão-de-bico, limão, alho, azeite, sal e pimenta até virar pasta.</li>
+              <li>Espalhe a pasta nas fatias de pão.</li>
+              <li>Sirva imediatamente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der limão, faça pasta; se te der boleto, chora mesmo.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-de-mortadela-com-queijo-e-picles">
+      <h2 class="receita-titulo">Sanduíche de Mortadela com Queijo e Picles</h2>
+      <p class="receita-desc">O clássico que prova que nem tudo que é simples é ruim.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão francês</li>
+              <li>fatias de mortadela</li>
+              <li>fatias de queijo prato</li>
+              <li>Picles fatiado a gosto</li>
+              <li>Manteiga para passar no pão</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Passe manteiga no pão e monte com mortadela, queijo e picles.</li>
+              <li>Feche e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o lanche é simples, o boleto não precisa complicar também.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-recheada-com-queijo-coalho-e-melado-de-cana">
+      <h2 class="receita-titulo">Tapioca Recheada com Queijo Coalho e Melado de Cana</h2>
+      <p class="receita-desc">O doce que não é só pra quem tem doce na vida, que é raro.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca hidratada</li>
+              <li>g de queijo coalho fatiado</li>
+              <li>colheres de sopa de melado de cana</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe a goma na frigideira quente até formar disco.</li>
+              <li>Coloque o queijo coalho, dobre a tapioca e deixe derreter.</li>
+              <li>Sirva com melado por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Um doce que te lembra que a vida tem sim momentos gostosos... entre um boleto e outro.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-de-almondega-ao-molho-de-tomate">
+      <h2 class="receita-titulo">Sanduíche de Almôndega ao Molho de Tomate</h2>
+      <p class="receita-desc">O lanche que te sustenta mais que o salário no fim do mês.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de carne moída</li>
+              <li>/2 cebola picada</li>
+              <li>dente de alho picado</li>
+              <li>xícara de molho de tomate</li>
+              <li>Sal, pimenta e ervas a gosto</li>
+              <li>Pães franceses para servir</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture carne, cebola, alho, sal e pimenta; modele almôndegas.</li>
+              <li>Frite as almôndegas até dourar, adicione molho e cozinhe 10 minutos.</li>
+              <li>Monte os sanduíches com as almôndegas e molho.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o salário não sustenta, pelo menos o sanduíche sustenta a fome.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-de-fuba-cremoso-com-coco">
+      <h2 class="receita-titulo">Bolo de Fubá Cremoso com Coco</h2>
+      <p class="receita-desc">O lanche que é mais confortável que suas desculpas para não sair.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 13,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de fubá</li>
+              <li>xícara de farinha de trigo</li>
+              <li>xícara de açúcar</li>
+              <li>ovos</li>
+              <li>vidro de leite de coco (200ml)</li>
+              <li>/2 xícara de óleo</li>
+              <li>colher de sopa de fermento</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata ovos, açúcar e óleo.</li>
+              <li>Adicione fubá, farinha, leite de coco e fermento.</li>
+              <li>Asse a 180ºC por 40 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o conforto fosse boleto, ninguém reclamava de pagar.</div>
+    </article>
+
+    <article class="receita-card" id="croissant-recheado-com-presunto-e-queijo">
+      <h2 class="receita-titulo">Croissant Recheado com Presunto e Queijo</h2>
+      <p class="receita-desc">O lanche que faz você se sentir rico, mesmo com conta no vermelho.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>croissants prontos</li>
+              <li>fatias de presunto</li>
+              <li>fatias de queijo mussarela</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte os croissants ao meio.</li>
+              <li>Recheie com presunto e queijo.</li>
+              <li>Aqueça no forno a 180ºC por 10 minutos até o queijo derreter.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o saldo bancário é croissant, que seja recheado de alegria.</div>
+    </article>
+
+    <article class="receita-card" id="pao-sirio-com-falafel-e-molho-tahine">
+      <h2 class="receita-titulo">Pão Sírio com Falafel e Molho Tahine</h2>
+      <p class="receita-desc">O lanche que é um rolê no oriente sem sair da cozinha (ou do boleto).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de grão-de-bico demolhado</li>
+              <li>/2 cebola picada</li>
+              <li>dentes de alho</li>
+              <li>colher de chá de cominho</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Pães sírios para servir</li>
+              <li>Molho tahine para acompanhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata grão-de-bico, cebola, alho, cominho, sal e pimenta até virar massa.</li>
+              <li>Modele bolinhos e frite em óleo quente até dourar.</li>
+              <li>Sirva no pão sírio com molho tahine.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o boleto é árabe, o falafel pelo menos é mais saboroso.</div>
+    </article>
+
+    <article class="receita-card" id="muffin-doce-de-maca-com-canela">
+      <h2 class="receita-titulo">Muffin Doce de Maçã com Canela</h2>
+      <p class="receita-desc">O lanche que é mais doce que a sua esperança no fim do mês.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>maçãs raladas</li>
+              <li>ovos</li>
+              <li>xícara de açúcar</li>
+              <li>/2 xícara de óleo</li>
+              <li>xícaras de farinha de trigo</li>
+              <li>colher de chá de fermento</li>
+              <li>colher de chá de canela</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture ovos, açúcar e óleo.</li>
+              <li>Adicione farinha, fermento, canela e maçã.</li>
+              <li>Asse em forminhas a 180ºC por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o mês está difícil, pelo menos o muffin está doce e macio.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-de-salame-com-queijo-e-picles">
+      <h2 class="receita-titulo">Sanduíche de Salame com Queijo e Picles</h2>
+      <p class="receita-desc">Para os dias que você quer um lanche com personalidade e sem frescura.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão italiano</li>
+              <li>fatias de salame</li>
+              <li>fatias de queijo prato</li>
+              <li>Picles a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte o sanduíche com salame, queijo e picles entre as fatias de pão.</li>
+              <li>Sirva imediatamente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida é um salame, que pelo menos o sanduíche tenha queijo.</div>
+    </article>
+
+    <article class="receita-card" id="crepioca-doce-de-morango-com-chocolate">
+      <h2 class="receita-titulo">Crepioca Doce de Morango com Chocolate</h2>
+      <p class="receita-desc">O lanche que é um beijo na boca da dieta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>colheres de sopa de goma de tapioca</li>
+              <li>Morangos fatiados a gosto</li>
+              <li>Chocolate meio amargo picado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com a goma.</li>
+              <li>Despeje na frigideira formando disco.</li>
+              <li>Quando firme, adicione morango e chocolate, dobre e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a dieta fosse beijo, a crepioca doce já teria me tornado milionário.</div>
+    </article>
+
+    <article class="receita-card" id="paozinho-de-leite-com-recheio-de-doce-de-leite-e-coco">
+      <h2 class="receita-titulo">Pãozinho de Leite com Recheio de Doce de Leite e Coco</h2>
+      <p class="receita-desc">O lanche que é um abraço açucarado no fim da tarde.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de farinha de trigo</li>
+              <li>ovo</li>
+              <li>ml de leite morno</li>
+              <li>g de açúcar</li>
+              <li>g de fermento biológico</li>
+              <li>g de doce de leite</li>
+              <li>Coco ralado para polvilhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture fermento, leite e açúcar, deixe ativar.</li>
+              <li>Adicione farinha e ovo, amasse até formar massa lisa.</li>
+              <li>Modele pãezinhos, recheie com doce de leite, deixe crescer e asse a 180ºC por 25 minutos.</li>
+              <li>Polvilhe coco ralado por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o boleto estiver pesado, pelo menos o pão doce é leve e doce como abraço.</div>
+    </article>
+
+    <article class="receita-card" id="biscoitos-de-aveia-com-banana-e-mel">
+      <h2 class="receita-titulo">Biscoitos de Aveia com Banana e Mel</h2>
+      <p class="receita-desc">O lanche que é uma desculpa saudável para não sair do sofá.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 12 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>bananas maduras amassadas</li>
+              <li>xícara de aveia em flocos</li>
+              <li>colheres de sopa de mel</li>
+              <li>colher de chá de canela</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes até formar massa.</li>
+              <li>Modele bolinhas e achate na assadeira.</li>
+              <li>Asse a 180ºC por 15 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a preguiça é grande, esses biscoitos são seu coração batendo na cozinha.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-de-pernil-desfiado-com-cebola-caramelizada">
+      <h2 class="receita-titulo">Sanduíche de Pernil Desfiado com Cebola Caramelizada</h2>
+      <p class="receita-desc">Porque um lanche caprichado sempre faz você esquecer o boleto por um instante.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 23,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de pernil cozido e desfiado</li>
+              <li>cebola grande fatiada</li>
+              <li>colher de sopa de açúcar</li>
+              <li>fatias de pão ciabatta</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Caramelize a cebola com açúcar em frigideira.</li>
+              <li>Aqueça o pernil e misture com a cebola.</li>
+              <li>Monte o sanduíche com a mistura e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o boleto é amargo, a cebola caramelizada e o pernil dão um sabor diferente.</div>
+    </article>
+
+    <article class="receita-card" id="torrada-integral-com-ricota-e-mel">
+      <h2 class="receita-titulo">Torrada Integral com Ricota e Mel</h2>
+      <p class="receita-desc">O lanche que é o jeitinho doce de dizer “vai passar, boleto”.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão integral</li>
+              <li>colheres de sopa de ricota amassada</li>
+              <li>Mel para regar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Torre o pão até ficar crocante.</li>
+              <li>Espalhe a ricota e regue com mel.</li>
+              <li>Sirva na hora.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida está amarga, a torrada com ricota e mel é o docinho que salva.</div>
+    </article>
+
+    <article class="receita-card" id="crepe-salgado-de-calabresa-com-queijo">
+      <h2 class="receita-titulo">Crepe Salgado de Calabresa com Queijo</h2>
+      <p class="receita-desc">O lanche que é um carinho no estômago e uma facada no colesterol.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de trigo</li>
+              <li>ovo</li>
+              <li>xícara de leite</li>
+              <li>g de calabresa fatiada</li>
+              <li>g de queijo mussarela ralado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, ovo, leite e sal até formar massa líquida.</li>
+              <li>Faça crepes finos na frigideira.</li>
+              <li>Recheie com calabresa e queijo, dobre e deixe o queijo derreter.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o boleto é pesado, o crepe pelo menos é leve e gostoso.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-vegetariano-com-berinjela-e-abobrinha-grelhadas">
+      <h2 class="receita-titulo">Sanduíche Vegetariano com Berinjela e Abobrinha Grelhadas</h2>
+      <p class="receita-desc">O lanche que prova que não precisa de carne pra ser gostoso (mas com carne também é bom).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 17,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>berinjela média em fatias</li>
+              <li>abobrinha média em fatias</li>
+              <li>fatias de pão integral</li>
+              <li>Pasta de ricota para passar</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere e grelhe as fatias de berinjela e abobrinha.</li>
+              <li>Passe a pasta de ricota no pão.</li>
+              <li>Monte o sanduíche com os legumes grelhados.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida é cheia de legumes, que pelo menos o lanche seja saboroso.</div>
+    </article>
+
+    <article class="receita-card" id="biscoitos-de-polvilho-com-queijo">
+      <h2 class="receita-titulo">Biscoitos de Polvilho com Queijo</h2>
+      <p class="receita-desc">O lanche crocante que não te cobra juros nem no sabor.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 15 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de polvilho azedo</li>
+              <li>ml de leite</li>
+              <li>ml de óleo</li>
+              <li>ovo</li>
+              <li>g de queijo parmesão ralado</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o polvilho com leite quente, óleo e sal até formar massa.</li>
+              <li>Acrescente ovo e queijo, misture bem.</li>
+              <li>Modele biscoitos, coloque na assadeira e asse a 180ºC por 20 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o boleto pesa, pelo menos o biscoito de polvilho é leve e gostoso.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-de-peito-de-peru-com-cream-cheese-e-rucula">
+      <h2 class="receita-titulo">Sanduíche de Peito de Peru com Cream Cheese e Rúcula</h2>
+      <p class="receita-desc">O lanche que é chique, mas não chique demais pra sua carteira.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 19,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão integral</li>
+              <li>g de peito de peru fatiado</li>
+              <li>colheres de sopa de cream cheese</li>
+              <li>Folhas de rúcula a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe cream cheese nas fatias de pão.</li>
+              <li>Recheie com peito de peru e rúcula.</li>
+              <li>Monte os sanduíches e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida está apertada, pelo menos o sanduíche está bem recheado.</div>
+    </article>
+
+    <article class="receita-card" id="pao-de-mel-com-recheio-de-doce-de-leite">
+      <h2 class="receita-titulo">Pão de Mel com Recheio de Doce de Leite</h2>
+      <p class="receita-desc">O lanche que é um mimo pra você mesmo, porque boleto não perdoa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de farinha de trigo</li>
+              <li>xícara de mel</li>
+              <li>xícara de açúcar mascavo</li>
+              <li>/2 xícara de leite</li>
+              <li>ovos</li>
+              <li>colher de chá de bicarbonato</li>
+              <li>colher de chá de canela</li>
+              <li>colher de chá de cravo em pó</li>
+              <li>Doce de leite para rechear</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture os líquidos e o açúcar, depois adicione os secos.</li>
+              <li>Asse em forma untada a 180ºC por 30 minutos.</li>
+              <li>Corte ao meio, recheie com doce de leite e feche.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o boleto é doce amargo, esse pão de mel é só doce.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

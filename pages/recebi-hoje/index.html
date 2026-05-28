@@ -1,0 +1,1580 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>💰 Recebi Hoje — Receitas NaFome</title>
+  <meta name="description" content="40 receitas para quem está na situação "Recebi Hoje". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/recebi-hoje/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="💰 Recebi Hoje — Receitas NaFome">
+  <meta property="og:description" content="40 receitas para quem está na situação "Recebi Hoje". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/recebi-hoje/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "💰 Recebi Hoje — NaFome",
+    "description": "40 receitas para quem está na situação "Recebi Hoje". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/recebi-hoje/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=recebi-hoje" class="btn-sortear">🎲 Sortear receita de Recebi Hoje</a>
+  </nav>
+
+  <div class="hero">
+    <h1>💰 Recebi Hoje</h1>
+    <p>40 receitas para quem está na situação "Recebi Hoje". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">40 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Recebi Hoje pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=recebi-hoje" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="omelete-do-salario-que-caiu">
+      <h2 class="receita-titulo">Omelete do Salário que Caiu</h2>
+      <p class="receita-desc">Quando o dinheiro entra e você lembra que ovo é proteína, não boleto</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>colher de sopa de leite</li>
+              <li>Sal a gosto</li>
+              <li>Pimenta-do-reino a gosto</li>
+              <li>colher de sopa de queijo ralado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com leite, sal e pimenta na tigela.</li>
+              <li>Aqueça a frigideira, despeje a mistura e deixe cozinhar em fogo médio.</li>
+              <li>Quando começar a firmar, polvilhe o queijo e dobre a omelete ao meio.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a omelete abrir, não se preocupe — é tipo a sua conta bancária vazando antes do dia 5.</div>
+    </article>
+
+    <article class="receita-card" id="macarrao-expresso-da-fatura-baixa">
+      <h2 class="receita-titulo">Macarrão Expresso da Fatura Baixa</h2>
+      <p class="receita-desc">Porque nem todo dinheiro novo dá pra pagar jantar caro, mas dá pra matar a fome</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de macarrão tipo espaguete</li>
+              <li>dentes de alho picados</li>
+              <li>colheres de sopa de azeite</li>
+              <li>lata de molho de tomate</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o macarrão em água com sal até ficar al dente.</li>
+              <li>Refogue o alho no azeite, adicione o molho de tomate, sal e pimenta.</li>
+              <li>Escorra o macarrão, misture ao molho e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse macarrão é igual a boleto atrasado: rápido e inevitável, mas pelo menos você come feliz.</div>
+    </article>
+
+    <article class="receita-card" id="arroz-com-ovo-do-recebi-hoje-mas-ja-foi">
+      <h2 class="receita-titulo">Arroz com Ovo do “Recebi Hoje, Mas Já Foi”</h2>
+      <p class="receita-desc">Aquele clássico que lembra que dinheiro vem e vai mais rápido que internet ruim</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de arroz branco cozido</li>
+              <li>ovos</li>
+              <li>colher de sopa de óleo</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o óleo na frigideira e frite os ovos mexidos, tempere com sal.</li>
+              <li>Misture o arroz cozido ao ovo mexido e aqueça tudo junto.</li>
+              <li>Sirva imediatamente antes do dinheiro desaparecer.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o arroz grudar, lembre que até a vida adulta insiste em te deixar na mão.</div>
+    </article>
+
+    <article class="receita-card" id="salada-saldo-positivo-de-grao-de-bico">
+      <h2 class="receita-titulo">Salada “Saldo Positivo” de Grão-de-Bico</h2>
+      <p class="receita-desc">Porque até o saldo bancário precisa de fibras pra não entupir</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de grão-de-bico cozido</li>
+              <li>tomate picado</li>
+              <li>½ cebola roxa picada</li>
+              <li>Suco de 1 limão</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Escorra o grão-de-bico e misture todos os ingredientes na tigela.</li>
+              <li>Tempere com limão, azeite, sal e pimenta.</li>
+              <li>Deixe na geladeira por 10 minutos antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Grão-de-bico é igual dinheiro: demora pra chegar, mas quando chega, dá aquela sensação boa.</div>
+    </article>
+
+    <article class="receita-card" id="pao-de-queijo-do-primeira-parcela">
+      <h2 class="receita-titulo">Pão de Queijo do Primeira Parcela</h2>
+      <p class="receita-desc">Porque a alegria do parcelamento é a mesma do pão quentinho saindo do forno</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 8 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de polvilho doce</li>
+              <li>ml de leite</li>
+              <li>ml de óleo</li>
+              <li>ovo</li>
+              <li>g de queijo minas ralado</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva o leite com o óleo e despeje sobre o polvilho, mexendo até formar uma massa.</li>
+              <li>Deixe esfriar, adicione o ovo, queijo e sal; misture bem.</li>
+              <li>Modele bolinhas, coloque na assadeira e asse a 180°C por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a massa grudar na mão, pense que é igual boleto: às vezes incomoda, mas faz parte.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-saldo-suficiente-de-frango-desfiado">
+      <h2 class="receita-titulo">Sanduíche “Saldo Suficiente” de Frango Desfiado</h2>
+      <p class="receita-desc">Quando o dinheiro chega, mas o coração ainda tá apertado na marmita</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>filés de peito de frango</li>
+              <li>fatias de pão integral</li>
+              <li>folhas de alface</li>
+              <li>fatias de tomate</li>
+              <li>colher de sopa de maionese</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe os filés de frango com sal e pimenta até ficarem macios.</li>
+              <li>Desfie o frango com um garfo e misture com a maionese.</li>
+              <li>Monte o sanduíche com alface, tomate e o frango desfiado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Frango desfiado na vida é igual dinheiro fracionado: nunca vem tudo de uma vez, mas dá pra sobreviver.</div>
+    </article>
+
+    <article class="receita-card" id="mingau-do-primeiro-dinheiro-no-bolso">
+      <h2 class="receita-titulo">Mingau do Primeiro Dinheiro no Bolso</h2>
+      <p class="receita-desc">Porque até a gente merece um abraço quentinho quando o saldo entra</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de aveia</li>
+              <li>xícara de leite</li>
+              <li>colher de sopa de açúcar mascavo</li>
+              <li>Canela a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a aveia, leite e açúcar na panela.</li>
+              <li>Cozinhe em fogo baixo mexendo sempre até engrossar.</li>
+              <li>Sirva com canela polvilhada por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o mingau virar papa, pense que às vezes a vida adulta é um pouco assim: pegajosa e sem explicação.</div>
+    </article>
+
+    <article class="receita-card" id="sopa-saldo-zerado-de-legumes">
+      <h2 class="receita-titulo">Sopa “Saldo Zerado” de Legumes</h2>
+      <p class="receita-desc">Aquele caldo que conforta mais que ver o extrato bancário</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas médias picadas</li>
+              <li>cenouras picadas</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>litro de água</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho no azeite até ficarem transparentes.</li>
+              <li>Adicione batata, cenoura, água, sal e pimenta; cozinhe até os legumes amaciarem.</li>
+              <li>Bata a sopa no liquidificador se quiser cremosa ou sirva rústica.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a sopa ficar rala, pelo menos ela não vai te cobrar juros como o banco.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-saldo-no-azul">
+      <h2 class="receita-titulo">Tapioca “Saldo no Azul”</h2>
+      <p class="receita-desc">Porque a felicidade é simples e cabe em 3 ingredientes</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca</li>
+              <li>colheres de sopa de queijo coalho ralado</li>
+              <li>colher de sopa de manteiga</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça a frigideira e espalhe a goma formando uma camada fina.</li>
+              <li>Quando firmar, espalhe o queijo e dobre a tapioca.</li>
+              <li>Coloque a manteiga por cima e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a tapioca grudar, é só pensar que até o dinheiro às vezes insiste em não aparecer.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-recebi-e-ja-pensei-no-boleto">
+      <h2 class="receita-titulo">Bolo “Recebi e Já Pensei no Boleto”</h2>
+      <p class="receita-desc">O bolo que some mais rápido que seu saldo depois do pagamento</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>xícara de açúcar</li>
+              <li>xícaras de farinha de trigo</li>
+              <li>xícara de leite</li>
+              <li>colher de sopa de fermento em pó</li>
+              <li>colher de chá de essência de baunilha</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com açúcar até formar um creme claro.</li>
+              <li>Adicione o leite, farinha, fermento e baunilha, misturando delicadamente.</li>
+              <li>Despeje na forma untada e asse a 180°C por 35 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bolo virar pedra, pelo menos você não perde dinheiro, ao contrário do extrato.</div>
+    </article>
+
+    <article class="receita-card" id="frango-ao-curry-do-dinheiro-que-caiu-do-ceu">
+      <h2 class="receita-titulo">Frango ao Curry do Dinheiro que Caiu do Céu</h2>
+      <p class="receita-desc">Porque às vezes o saldo aparece do nada e merece sabor exótico</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peito de frango em cubos</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>colher de sopa de curry em pó</li>
+              <li>ml de leite de coco</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho no azeite até dourar.</li>
+              <li>Adicione o frango, tempere com sal, pimenta e curry; deixe dourar.</li>
+              <li>Acrescente o leite de coco, cozinhe até o molho engrossar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Curry na vida é igual dinheiro inesperado: transforma o comum em festa.</div>
+    </article>
+
+    <article class="receita-card" id="wrap-recebi-hoje-quero-gastar-depois">
+      <h2 class="receita-titulo">Wrap “Recebi Hoje, Quero Gastar Depois”</h2>
+      <p class="receita-desc">Porque enrolar o dinheiro é melhor quando ele vem enrolado também</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tortilhas de trigo</li>
+              <li>g de peito de peru fatiado</li>
+              <li>folhas de alface</li>
+              <li>fatias de queijo mussarela</li>
+              <li>colher de sopa de maionese</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça as tortilhas na frigideira por alguns segundos.</li>
+              <li>Espalhe maionese, coloque alface, peito de peru e queijo.</li>
+              <li>Enrole firmemente e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o wrap desmontar, é igual o planejamento financeiro: precisa de mais treino.</div>
+    </article>
+
+    <article class="receita-card" id="salpicao-do-recebi-hoje-mas-ja-planejei-o-pix">
+      <h2 class="receita-titulo">Salpicão do “Recebi Hoje, Mas Já Planejei o Pix”</h2>
+      <p class="receita-desc">A salada que te lembra que dinheiro bom é o que rende, não o que some rápido</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de frango cozido e desfiado</li>
+              <li>cenoura ralada</li>
+              <li>maçã picada</li>
+              <li>½ xícara de uva passa</li>
+              <li>colheres de sopa de maionese</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes na tigela.</li>
+              <li>Tempere com sal, pimenta e maionese até ficar cremoso.</li>
+              <li>Leve à geladeira por 15 minutos antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a uva passa afundar, é igual seu dinheiro no fim do mês: some misteriosamente.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-recebi-hoje-mas-ja-quero-ferias">
+      <h2 class="receita-titulo">Panqueca “Recebi Hoje, Mas Já Quero Férias”</h2>
+      <p class="receita-desc">Porque dinheiro novo merece recheio e drama na cozinha</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de trigo</li>
+              <li>ovo</li>
+              <li>xícara de leite</li>
+              <li>colher de sopa de açúcar</li>
+              <li>pitada de sal</li>
+              <li>Recheio de sua preferência (doce ou salgado)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, ovo, leite, açúcar e sal até formar massa lisa.</li>
+              <li>Aqueça a frigideira e faça panquecas finas, dourando dos dois lados.</li>
+              <li>Recheie e enrole antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a panqueca rasgar, pelo menos você não rasga seu cartão de crédito ainda.</div>
+    </article>
+
+    <article class="receita-card" id="espaguete-a-bolonhesa-do-saldo-que-nao-dura">
+      <h2 class="receita-titulo">Espaguete à Bolonhesa do “Saldo Que Não Dura”</h2>
+      <p class="receita-desc">Porque o molho vermelho é mais persistente que a fatura do cartão</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de carne moída</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>lata de molho de tomate</li>
+              <li>g de espaguete</li>
+              <li>Sal, pimenta e orégano a gosto</li>
+              <li>Azeite para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho no azeite, adicione a carne e cozinhe até dourar.</li>
+              <li>Acrescente o molho de tomate, tempere e deixe apurar por 20 minutos.</li>
+              <li>Cozinhe o espaguete em água com sal, escorra e misture ao molho.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o molho espirrar na camisa, aproveite e pague o boleto com estilo.</div>
+    </article>
+
+    <article class="receita-card" id="quiche-de-legumes-do-saldo-pra-gastar-com-estilo">
+      <h2 class="receita-titulo">Quiche de Legumes do “Saldo Pra Gastar com Estilo”</h2>
+      <p class="receita-desc">Porque às vezes a grana entra e a gente quer fingir que sabe cozinhar</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de farinha de trigo</li>
+              <li>g de manteiga gelada</li>
+              <li>ovos</li>
+              <li>ml de creme de leite</li>
+              <li>xícara de legumes picados (cenoura, abobrinha, etc.)</li>
+              <li>Sal e noz-moscada a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha e manteiga até formar uma farofa; adicione água para dar ponto e forre a forma.</li>
+              <li>Bata ovos com creme de leite, sal e noz-moscada; junte legumes.</li>
+              <li>Despeje na forma e asse a 180°C por 40 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a massa quebrar, pense que até o seu saldo às vezes dá uma trincada.</div>
+    </article>
+
+    <article class="receita-card" id="crepioca-do-rende-mais-que-o-saldo">
+      <h2 class="receita-titulo">Crepioca do “Rende Mais Que o Saldo”</h2>
+      <p class="receita-desc">Porque economizar no café da manhã é arte e sobrevivência</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca</li>
+              <li>ovo</li>
+              <li>Sal a gosto</li>
+              <li>Recheio opcional (queijo, presunto)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a goma de tapioca com o ovo e sal.</li>
+              <li>Aqueça a frigideira, despeje a mistura e cozinhe até firmar.</li>
+              <li>Recheie e dobre a crepioca ao meio.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a crepioca ficar grudada, é só pensar que até a conta bancária às vezes empaca.</div>
+    </article>
+
+    <article class="receita-card" id="bife-acebolado-do-salario-que-nao-engana">
+      <h2 class="receita-titulo">Bife Acebolado do “Salário que Não Engana”</h2>
+      <p class="receita-desc">Porque dinheiro fresco merece proteína de verdade, não miojo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de contra-filé em bifes</li>
+              <li>cebola grande em rodelas</li>
+              <li>Sal, pimenta e óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere os bifes com sal e pimenta.</li>
+              <li>Aqueça o óleo e frite os bifes até o ponto desejado; reserve.</li>
+              <li>Na mesma frigideira, refogue a cebola até dourar e sirva sobre os bifes.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a cebola queimar, é tipo sua conta no fim do mês: amarga e difícil de engolir.</div>
+    </article>
+
+    <article class="receita-card" id="mousse-de-maracuja-da-grana-que-vem-e-vai">
+      <h2 class="receita-titulo">Mousse de Maracujá da “Grana que Vem e Vai”</h2>
+      <p class="receita-desc">Porque o saldo some, mas a sobremesa fica na memória</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 3 h (incluindo geladeira)</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de leite condensado</li>
+              <li>lata de creme de leite</li>
+              <li>lata de suco concentrado de maracujá</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata o leite condensado, creme de leite e suco de maracujá até ficar homogêneo.</li>
+              <li>Coloque em taças ou recipiente e leve à geladeira por no mínimo 3 horas.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o mousse ficar meio líquido, é igual seu saldo: às vezes some sem avisar.</div>
+    </article>
+
+    <article class="receita-card" id="caldo-de-feijao-do-dinheiro-que-esquenta-a-alma">
+      <h2 class="receita-titulo">Caldo de Feijão do “Dinheiro que Esquenta a Alma”</h2>
+      <p class="receita-desc">A receita que prova que até pouco pode ser muito quando bem feito</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de feijão carioca</li>
+              <li>pedaço de bacon picado</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Água suficiente para cozinhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o feijão na panela de pressão com água por 30 minutos.</li>
+              <li>Refogue bacon, cebola e alho, junte ao feijão cozido.</li>
+              <li>Deixe ferver até engrossar ligeiramente e tempere.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o caldo ficar ralo, lembre-se que até o seu saldo tem dias assim: desaponta.</div>
+    </article>
+
+    <article class="receita-card" id="pizza-caseira-do-recebi-hoje-quero-so-viver">
+      <h2 class="receita-titulo">Pizza Caseira do “Recebi Hoje, Quero Só Viver”</h2>
+      <p class="receita-desc">Porque dinheiro novo merece festa até na cozinha</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h 10 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 6 fatias</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de farinha de trigo</li>
+              <li>g de fermento biológico seco</li>
+              <li>ml de água morna</li>
+              <li>colheres de sopa de azeite</li>
+              <li>g de molho de tomate</li>
+              <li>g de queijo mussarela</li>
+              <li>Orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture fermento, água, farinha e azeite até formar uma massa; deixe crescer 40 minutos.</li>
+              <li>Abra a massa, coloque na assadeira, espalhe molho, queijo e orégano.</li>
+              <li>Asse a 220°C por 20 minutos e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a massa ficar dura, pense que até o seu saldo às vezes é meio insosso.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-atum-do-saldo-que-nao-deixa-afundar">
+      <h2 class="receita-titulo">Salada de Atum do “Saldo que Não Deixa Afundar”</h2>
+      <p class="receita-desc">Porque até dinheiro instável merece uma alimentação estável</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 17,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de atum em água</li>
+              <li>tomate picado</li>
+              <li>/2 cebola picada</li>
+              <li>colher de sopa de maionese</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Escorra o atum e misture com tomate, cebola e maionese.</li>
+              <li>Tempere com sal e pimenta.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a maionese virar um molho estranho, é tipo sua planilha financeira: confusa e imprevisível.</div>
+    </article>
+
+    <article class="receita-card" id="batata-rustica-do-recebi-hoje-quero-descontar">
+      <h2 class="receita-titulo">Batata Rústica do “Recebi Hoje, Quero Descontar”</h2>
+      <p class="receita-desc">Porque às vezes o saldo só dá pra fritar as preocupações</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas médias</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal grosso e alecrim a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte as batatas em palitos grossos com casca.</li>
+              <li>Misture com azeite, sal grosso e alecrim.</li>
+              <li>Asse em forno pré-aquecido a 200°C por 30 minutos, virando na metade.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a batata queimar, é igual seu saldo no fim do mês: um desespero inesperado.</div>
+    </article>
+
+    <article class="receita-card" id="cuscuz-nordestino-do-recebi-hoje-mas-ja-penso-no-pix">
+      <h2 class="receita-titulo">Cuscuz Nordestino do “Recebi Hoje, Mas Já Penso no Pix”</h2>
+      <p class="receita-desc">Porque até o dinheiro mais rápido merece um café da manhã lento</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de milho para cuscuz</li>
+              <li>xícara de água</li>
+              <li>Sal a gosto</li>
+              <li>Manteiga para servir</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Hidrate a farinha com água e sal, misturando bem.</li>
+              <li>Coloque na cuscuzeira e cozinhe no vapor por 15 minutos.</li>
+              <li>Sirva com manteiga.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o cuscuz ficar seco, pense que até o seu saldo às vezes é um pouco ranzinza.</div>
+    </article>
+
+    <article class="receita-card" id="moqueca-rapida-do-recebi-hoje-mas-ja-quero-praia">
+      <h2 class="receita-titulo">Moqueca Rápida do “Recebi Hoje, Mas Já Quero Praia”</h2>
+      <p class="receita-desc">Porque dinheiro bom é aquele que te leva pra longe do boleto</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 45,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peixe em postas</li>
+              <li>cebola fatiada</li>
+              <li>tomate picado</li>
+              <li>pimentão fatiado</li>
+              <li>ml de leite de coco</li>
+              <li>Coentro a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em panela, faça camadas de cebola, tomate, pimentão e peixe.</li>
+              <li>Tempere com sal, pimenta e coentro, cubra com leite de coco.</li>
+              <li>Cozinhe tampado em fogo baixo por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o peixe desmanchar, é igual sua conta bancária depois do fim do mês: só sobram lembranças.</div>
+    </article>
+
+    <article class="receita-card" id="smoothie-energetico-do-dinheiro-que-da-energia">
+      <h2 class="receita-titulo">Smoothie Energético do “Dinheiro que Dá Energia”</h2>
+      <p class="receita-desc">Porque saldo cheio merece um boost antes do próximo boleto</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>banana madura</li>
+              <li>/2 xícara de morango</li>
+              <li>ml de leite ou bebida vegetal</li>
+              <li>colher de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até ficar homogêneo.</li>
+              <li>Sirva imediatamente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o smoothie ficar aguado, é igual seu saldo: às vezes decepciona, mas cumpre o básico.</div>
+    </article>
+
+    <article class="receita-card" id="strogonoff-economico-do-recebi-hoje-mas-ja-quero-gastar">
+      <h2 class="receita-titulo">Strogonoff Econômico do “Recebi Hoje, Mas Já Quero Gastar”</h2>
+      <p class="receita-desc">Porque o saldo é curto, mas o desejo é grande</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de carne em tiras</li>
+              <li>cebola picada</li>
+              <li>lata de creme de leite</li>
+              <li>colheres de sopa de ketchup</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Óleo para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola no óleo até dourar, adicione a carne e cozinhe.</li>
+              <li>Junte ketchup, creme de leite, sal e pimenta; misture bem.</li>
+              <li>Cozinhe por 5 minutos e sirva com arroz branco.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o molho talhar, pense que é só o saldo querendo fazer drama.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-quinoa-do-saldo-que-vem-pra-ficar">
+      <h2 class="receita-titulo">Salada de Quinoa do “Saldo que Vem Pra Ficar”</h2>
+      <p class="receita-desc">Porque dinheiro bem investido rende sabor e saúde</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de quinoa</li>
+              <li>pepino picado</li>
+              <li>tomate picado</li>
+              <li>Suco de 1 limão</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a quinoa conforme instruções da embalagem e deixe esfriar.</li>
+              <li>Misture com pepino, tomate, limão, azeite, sal e pimenta.</li>
+              <li>Sirva fresca.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a quinoa amargar, é igual suas decisões financeiras: às vezes você aprende na marra.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-de-caneca-do-dinheiro-que-caiu-mas-nao-aconteceu-nada">
+      <h2 class="receita-titulo">Bolo de Caneca do “Dinheiro que Caiu, Mas Não Aconteceu Nada”</h2>
+      <p class="receita-desc">Pra quem quer um doce rápido antes do boleto chegar</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 3,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de farinha de trigo</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>colheres de sopa de cacau em pó</li>
+              <li>ovo</li>
+              <li>colheres de sopa de leite</li>
+              <li>colheres de sopa de óleo</li>
+              <li>colher de chá de fermento em pó</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes na caneca até ficar homogêneo.</li>
+              <li>Leve ao micro-ondas por 3 minutos.</li>
+              <li>Deixe esfriar um pouco e coma direto da caneca.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bolo secar, é igual seu saldo: rápido e decepcionante.</div>
+    </article>
+
+    <article class="receita-card" id="moqueca-veggie-do-recebi-hoje-quero-salvar-o-mundo">
+      <h2 class="receita-titulo">Moqueca Veggie do “Recebi Hoje, Quero Salvar o Mundo”</h2>
+      <p class="receita-desc">Porque o saldo novo também pode ser verde e consciente</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>berinjela em cubos</li>
+              <li>abobrinha em cubos</li>
+              <li>tomate picado</li>
+              <li>cebola picada</li>
+              <li>ml de leite de coco</li>
+              <li>Coentro, sal e pimenta a gosto</li>
+              <li>Azeite para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola no azeite, junte berinjela e abobrinha até amolecer.</li>
+              <li>Adicione tomate, leite de coco, sal, pimenta e coentro.</li>
+              <li>Cozinhe em fogo baixo por 20 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o sabor ficar estranho, é só o saldo querendo te dar uma lição.</div>
+    </article>
+
+    <article class="receita-card" id="cuscuz-paulista-do-recebi-hoje-mas-ja-estou-no-vermelho">
+      <h2 class="receita-titulo">Cuscuz Paulista do “Recebi Hoje, Mas Já Estou No Vermelho”</h2>
+      <p class="receita-desc">Porque até quando o saldo some, a comida tem que ser bonita</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de farinha de milho fina</li>
+              <li>g de peixe desfiado</li>
+              <li>tomate picado</li>
+              <li>cebola picada</li>
+              <li>pimentão picado</li>
+              <li>ovos cozidos fatiados</li>
+              <li>Sal, pimenta e azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola, tomate e pimentão no azeite; adicione peixe e tempere.</li>
+              <li>Misture a farinha de milho com o refogado e água suficiente para dar ponto.</li>
+              <li>Coloque em forma, decore com ovos, e cozinhe no vapor por 30 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o cuscuz desmanchar, é igual seu planejamento financeiro: cheio de surpresas.</div>
+    </article>
+
+    <article class="receita-card" id="pudim-de-leite-condensado-do-saldo-que-derrete">
+      <h2 class="receita-titulo">Pudim de Leite Condensado do “Saldo Que Derrete”</h2>
+      <p class="receita-desc">Porque dinheiro e pudim têm algo em comum: desaparecem rápido</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de leite condensado</li>
+              <li>latas de leite (use a lata do leite condensado como medida)</li>
+              <li>ovos</li>
+              <li>xícara de açúcar para caramelizar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Caramelize a forma com açúcar e reserve.</li>
+              <li>Bata no liquidificador leite condensado, leite e ovos.</li>
+              <li>Despeje na forma, asse em banho-maria a 180°C por 1 hora.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o pudim ficar com furinhos, é igual seu extrato bancário: cheio de buracos.</div>
+    </article>
+
+    <article class="receita-card" id="pastel-de-forno-do-dinheiro-que-nao-da-pra-comer-na-rua">
+      <h2 class="receita-titulo">Pastel de Forno do “Dinheiro Que Não Dá Pra Comer Na Rua”</h2>
+      <p class="receita-desc">Pra quem recebeu hoje, mas não quer gastar com pastel na feira</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 6 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de massa pronta para pastel de forno</li>
+              <li>g de carne moída</li>
+              <li>cebola picada</li>
+              <li>Sal, pimenta e azeite</li>
+              <li>gema para pincelar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a carne com cebola, sal e pimenta; deixe esfriar.</li>
+              <li>Abra a massa, corte em retângulos, recheie com carne e feche.</li>
+              <li>Pincele gema e asse a 200°C por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o pastel abrir, é tipo o seu extrato: cheio de surpresas não convidadas.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-de-cenoura-com-cobertura-de-chocolate-do-recebi-hoje-quero-doce">
+      <h2 class="receita-titulo">Bolo de Cenoura com Cobertura de Chocolate do “Recebi Hoje, Quero Doce”</h2>
+      <p class="receita-desc">Porque saldo positivo merece uma explosão de açúcar na vida</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 10 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>cenouras médias</li>
+              <li>ovos</li>
+              <li>xícara de óleo</li>
+              <li>xícaras de açúcar</li>
+              <li>e ½ xícaras de farinha de trigo</li>
+              <li>colher de sopa de fermento</li>
+              <li>lata de leite condensado (para cobertura)</li>
+              <li>colheres de sopa de chocolate em pó</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata no liquidificador cenoura, ovos, óleo e açúcar.</li>
+              <li>Misture a farinha e fermento, leve para assar a 180°C por 40 minutos.</li>
+              <li>Faça a cobertura com leite condensado e chocolate, leve ao fogo até engrossar e espalhe no bolo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a cobertura ficar dura, é igual seu saldo depois das contas: só tristeza.</div>
+    </article>
+
+    <article class="receita-card" id="escondidinho-de-carne-do-saldo-que-ainda-esconde-surpresas">
+      <h2 class="receita-titulo">Escondidinho de Carne do “Saldo Que Ainda Esconde Surpresas”</h2>
+      <p class="receita-desc">Porque dinheiro novo merece um prato que esconde o sofrimento</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de carne moída</li>
+              <li>kg de mandioca cozida e amassada</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>Sal, pimenta e azeite</li>
+              <li>Queijo ralado para gratinar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho, adicione carne, tempere e cozinhe.</li>
+              <li>Em um refratário, coloque a carne, cubra com a mandioca amassada.</li>
+              <li>Polvilhe queijo e leve ao forno para gratinar por 20 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o escondidinho ficar seco, é igual seu saldo: desaparece sem avisar.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-doce-recebi-hoje-e-quero-mimar">
+      <h2 class="receita-titulo">Tapioca Doce “Recebi Hoje e Quero Mimar”</h2>
+      <p class="receita-desc">Porque saldo novo merece um carinho açucarado na cozinha</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca</li>
+              <li>colher de sopa de leite condensado</li>
+              <li>Coco ralado a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça a frigideira e espalhe a goma formando uma camada fina.</li>
+              <li>Quando firmar, espalhe leite condensado e polvilhe coco ralado.</li>
+              <li>Dobre a tapioca e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a goma não firmar, pensa que nem todo dinheiro fica no bolso, às vezes some rapidinho.</div>
+    </article>
+
+    <article class="receita-card" id="arroz-carreteiro-do-recebi-hoje-mas-ja-quero-sair">
+      <h2 class="receita-titulo">Arroz Carreteiro do “Recebi Hoje, Mas Já Quero Sair”</h2>
+      <p class="receita-desc">Porque dinheiro novo pede um prato forte antes da conta chegar</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de arroz</li>
+              <li>g de carne seca dessalgada e desfiada</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho no azeite, adicione a carne seca e refogue.</li>
+              <li>Junte o arroz, água suficiente e tempere.</li>
+              <li>Cozinhe até o arroz secar e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o arroz grudar no fundo, é igual boleto atrasado: ninguém quer, mas acontece.</div>
+    </article>
+
+    <article class="receita-card" id="vitamina-de-frutas-do-saldo-que-da-energia-pra-ficar-no-azul">
+      <h2 class="receita-titulo">Vitamina de Frutas do “Saldo que Dá Energia Pra Ficar no Azul”</h2>
+      <p class="receita-desc">Porque até o dinheiro mais curto merece um boost natural</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>banana</li>
+              <li>maçã picada</li>
+              <li>ml de suco de laranja</li>
+              <li>colher de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata tudo no liquidificador até ficar homogêneo.</li>
+              <li>Sirva imediatamente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vitamina ficar aguada, é igual seu saldo: às vezes decepciona, mas ajuda.</div>
+    </article>
+
+    <article class="receita-card" id="esfiha-aberta-do-recebi-hoje-mas-ja-quero-gastar">
+      <h2 class="receita-titulo">Esfiha Aberta do “Recebi Hoje, Mas Já Quero Gastar”</h2>
+      <p class="receita-desc">Porque até o saldo curto merece uma viagem ao oriente médio</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 6 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de farinha de trigo</li>
+              <li>g de fermento biológico seco</li>
+              <li>ml de água morna</li>
+              <li>g de carne moída temperada</li>
+              <li>Sal, pimenta e azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a farinha, fermento e água até formar massa; deixe crescer 40 minutos.</li>
+              <li>Abra a massa, corte discos, coloque recheio e asse a 200°C por 20 minutos.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a esfiha abrir, é igual seu extrato bancário: cheia de surpresas não convidadas.</div>
+    </article>
+
+    <article class="receita-card" id="churrasco-simples-do-saldo-que-vem-pra-celebrar">
+      <h2 class="receita-titulo">Churrasco Simples do “Saldo Que Vem Pra Celebrar”</h2>
+      <p class="receita-desc">Porque quando o dinheiro cai, só dá vontade de chamar os amigos</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 50,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de carne bovina (picanha ou maminha)</li>
+              <li>Sal grosso a gosto</li>
+              <li>Limão para temperar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere a carne com sal grosso e limão.</li>
+              <li>Grelhe a carne na churrasqueira até o ponto desejado.</li>
+              <li>Corte em fatias e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a carne queimar, pense que até seu saldo às vezes dá uma queimadinha básica.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

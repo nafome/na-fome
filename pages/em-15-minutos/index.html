@@ -1,0 +1,1453 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>⏱️ Em 15 Minutos — Receitas NaFome</title>
+  <meta name="description" content="36 receitas para quem está na situação "Em 15 Minutos". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/em-15-minutos/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="⏱️ Em 15 Minutos — Receitas NaFome">
+  <meta property="og:description" content="36 receitas para quem está na situação "Em 15 Minutos". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/em-15-minutos/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "⏱️ Em 15 Minutos — NaFome",
+    "description": "36 receitas para quem está na situação "Em 15 Minutos". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/em-15-minutos/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=em-15-minutos" class="btn-sortear">🎲 Sortear receita de Em 15 Minutos</a>
+  </nav>
+
+  <div class="hero">
+    <h1>⏱️ Em 15 Minutos</h1>
+    <p>36 receitas para quem está na situação "Em 15 Minutos". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">36 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Em 15 Minutos pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=em-15-minutos" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="omelete-power-turbo-de-frango-com-espinafre">
+      <h2 class="receita-titulo">Omelete Power Turbo de Frango com Espinafre</h2>
+      <p class="receita-desc">Porque nem todo herói usa capa, alguns usam frigideira e pressa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>g peito de frango desfiado cozido</li>
+              <li>punhado de espinafre fresco</li>
+              <li>colher de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com sal e pimenta na tigela.</li>
+              <li>Aqueça o azeite na frigideira, refogue o espinafre rapidamente.</li>
+              <li>Adicione o frango, despeje os ovos batidos e cozinhe até firmar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Omelete é igual boleto, você só quer que acabe rápido e sem sustos, mas pelo menos essa dá energia sem calote.</div>
+    </article>
+
+    <article class="receita-card" id="salada-mediterranea-express-com-grao-de-bico">
+      <h2 class="receita-titulo">Salada Mediterrânea Express com Grão-de-Bico</h2>
+      <p class="receita-desc">Salada que nem sua vida social: rápida, saudável e cheia de grão.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de grão-de-bico escorrido (240g)</li>
+              <li>tomates-cereja cortados ao meio</li>
+              <li>g queijo feta esfarelado</li>
+              <li>/2 cebola roxa picada</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o grão-de-bico, tomates, cebola e queijo na tigela.</li>
+              <li>Regue com azeite, limão, sal e pimenta.</li>
+              <li>Mexa bem e sirva sem drama.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Essa salada é tão rápida que até sua procrastinação vai ficar com inveja.</div>
+    </article>
+
+    <article class="receita-card" id="macarrao-ao-alho-e-oleo-com-camarao">
+      <h2 class="receita-titulo">Macarrão ao Alho e Óleo com Camarão</h2>
+      <p class="receita-desc">Porque às vezes a vida é só alho, óleo e um pouco de glamour.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g macarrão espaguete</li>
+              <li>g camarão limpo</li>
+              <li>dentes de alho fatiados</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Salsinha picada a gosto</li>
+              <li>Sal e pimenta do reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o macarrão em água com sal até ficar al dente e escorra.</li>
+              <li>Em uma frigideira, aqueça o azeite, doure o alho e refogue o camarão até ficar rosado.</li>
+              <li>Misture o macarrão ao molho, salpique salsinha e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o camarão não te conquistar, pelo menos o alho vai afastar aquele crush inconveniente.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-natural-pos-treino-de-atum-e-abacate">
+      <h2 class="receita-titulo">Sanduíche Natural Pós-Treino de Atum e Abacate</h2>
+      <p class="receita-desc">Energia pra malhar e disposição pra fugir das pessoas na academia.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão integral</li>
+              <li>lata de atum em água (120g)</li>
+              <li>/2 abacate maduro amassado</li>
+              <li>Suco de 1/2 limão</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Folhas de alface</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o atum, abacate, limão, sal e pimenta na tigela.</li>
+              <li>Passe a mistura nas fatias de pão e adicione alface.</li>
+              <li>Monte o sanduíche e, se quiser, toste levemente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse lanche é tão rápido que até a preguiça manda um "vai nessa que tá bom".</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-aveia-com-banana-e-canela">
+      <h2 class="receita-titulo">Panqueca de Aveia com Banana e Canela</h2>
+      <p class="receita-desc">Café da manhã para quem quer acordar, mas o corpo só quer dormir.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>banana madura amassada</li>
+              <li>ovos</li>
+              <li>colheres de sopa de aveia em flocos</li>
+              <li>colher de chá de canela em pó</li>
+              <li>Mel para servir (opcional)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a banana, ovos, aveia e canela até formar uma massa homogênea.</li>
+              <li>Aqueça a frigideira e despeje porções da massa formando panquecas.</li>
+              <li>Cozinhe por 2-3 minutos de cada lado até dourar e sirva com mel.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Essa panqueca é tão rápida que dá tempo até de reclamar do despertador antes de comer.</div>
+    </article>
+
+    <article class="receita-card" id="wrap-de-frango-com-molho-de-iogurte-e-hortela">
+      <h2 class="receita-titulo">Wrap de Frango com Molho de Iogurte e Hortelã</h2>
+      <p class="receita-desc">O lanche que diz “tô saudável” mas não abre mão do sabor.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tortilhas de trigo integral</li>
+              <li>g peito de frango cozido e desfiado</li>
+              <li>colheres de sopa de iogurte natural</li>
+              <li>Folhas de hortelã picadas</li>
+              <li>Folhas de alface</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o iogurte, hortelã, sal e pimenta na tigela.</li>
+              <li>Aqueça o frango na frigideira, espalhe sobre as tortilhas.</li>
+              <li>Adicione alface e o molho, enrole os wraps e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse wrap é tão prático que até sua sogra vai achar que você sabe cozinhar.</div>
+    </article>
+
+    <article class="receita-card" id="sopa-rapida-de-legumes-com-gengibre">
+      <h2 class="receita-titulo">Sopa Rápida de Legumes com Gengibre</h2>
+      <p class="receita-desc">Para aquecer o corpo e esquentar as ideias antes do boletão do mês.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>cenouras médias picadas</li>
+              <li>batata média picada</li>
+              <li>/2 cebola picada</li>
+              <li>pedaço de gengibre fresco (2 cm) ralado</li>
+              <li>ml de caldo de legumes</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e gengibre na panela por 2 minutos.</li>
+              <li>Adicione cenoura, batata e caldo, cozinhe até os legumes amaciarem (10 min).</li>
+              <li>Bata no liquidificador até ficar cremoso, tempere e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sopa que esquenta mais rápido que sua internet quando o Wi-Fi cai.</div>
+    </article>
+
+    <article class="receita-card" id="salada-caprese-com-reducao-de-balsamico">
+      <h2 class="receita-titulo">Salada Caprese com Redução de Balsâmico</h2>
+      <p class="receita-desc">Sofisticação que cabe no tempo de um bloco de WhatsApp.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tomates maduros fatiados</li>
+              <li>g mussarela de búfala fatiada</li>
+              <li>Folhas de manjericão fresco</li>
+              <li>colheres de sopa de vinagre balsâmico</li>
+              <li>colher de sopa de açúcar</li>
+              <li>Azeite a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em panela pequena, reduza o vinagre com açúcar até engrossar (5-7 min).</li>
+              <li>Monte camadas de tomate, mussarela e manjericão no prato.</li>
+              <li>Regue com azeite, a redução e tempere com sal e pimenta.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Essa salada é tão chique que até seu vizinho vai pedir para entrar no seu grupo da família.</div>
+    </article>
+
+    <article class="receita-card" id="bowl-vegano-de-quinoa-com-legumes-grelhados">
+      <h2 class="receita-titulo">Bowl Vegano de Quinoa com Legumes Grelhados</h2>
+      <p class="receita-desc">Porque ser vegano rápido é quase um esporte radical.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de quinoa cozida</li>
+              <li>abobrinha fatiada</li>
+              <li>cenoura fatiada</li>
+              <li>/2 pimentão vermelho fatiado</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal, pimenta e ervas a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a quinoa conforme instruções (cerca de 12 min).</li>
+              <li>Enquanto isso, grelhe os legumes no azeite temperado.</li>
+              <li>Monte o bowl com quinoa e legumes, tempere com ervas e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse bowl é mais rápido que você dizer “só mais cinco minutinhos” para o chefe.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-rapida-de-queijo-coalho-com-mel-e-pimenta">
+      <h2 class="receita-titulo">Tapioca Rápida de Queijo Coalho com Mel e Pimenta</h2>
+      <p class="receita-desc">O famoso “doce com salgado” pra confundir o paladar e a vida.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca</li>
+              <li>g queijo coalho fatiado</li>
+              <li>colher de chá de mel</li>
+              <li>Pimenta do reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça a frigideira e espalhe a goma formando uma panqueca.</li>
+              <li>Quando firmar, coloque o queijo, dobre e deixe derreter.</li>
+              <li>Sirva com mel e uma pitada de pimenta.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida tá amarga, pelo menos essa tapioca te dá um docinho com pitada de malícia.</div>
+    </article>
+
+    <article class="receita-card" id="smoothie-verde-pos-festa-com-abacaxi-e-hortela">
+      <h2 class="receita-titulo">Smoothie Verde Pós-Festa com Abacaxi e Hortelã</h2>
+      <p class="receita-desc">Porque ressaca é só um lembrete que você precisa de mais verde na vida.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatia grande de abacaxi</li>
+              <li>punhado de folhas de hortelã</li>
+              <li>/2 pepino picado</li>
+              <li>ml de água de coco</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até ficar homogêneo.</li>
+              <li>Sirva gelado e tente se convencer que vai melhorar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse smoothie é mais refrescante que sua desculpa para faltar na academia.</div>
+    </article>
+
+    <article class="receita-card" id="pao-sirio-com-homus-e-tomate-seco">
+      <h2 class="receita-titulo">Pão Sírio com Homus e Tomate Seco</h2>
+      <p class="receita-desc">O lanche que te faz parecer gourmet, mesmo com preguiça de lavar a louça.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pães sírios pequenos</li>
+              <li>g homus pronto</li>
+              <li>tomates secos fatiados</li>
+              <li>Folhas de rúcula</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte os pães ao meio e espalhe homus generosamente.</li>
+              <li>Adicione tomates secos e folhas de rúcula.</li>
+              <li>Feche e sirva para impressionar sem esforço.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Com esse lanche, até sua sogra vai achar que você é o chef da casa (mentira, mas sonhar não custa).</div>
+    </article>
+
+    <article class="receita-card" id="espaguete-de-abobrinha-com-molho-pesto">
+      <h2 class="receita-titulo">Espaguete de Abobrinha com Molho Pesto</h2>
+      <p class="receita-desc">Aquele macarrão que é saudável, mas não deixa você sentir falta do carboidrato na alma.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abobrinhas médias em espiral</li>
+              <li>colheres de sopa de pesto pronto</li>
+              <li>colher de sopa de azeite</li>
+              <li>Queijo parmesão ralado a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o azeite e refogue rapidamente o espaguete de abobrinha por 3 minutos.</li>
+              <li>Misture o pesto e mexa até incorporar.</li>
+              <li>Sirva com parmesão ralado por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse prato é tão leve que até seu boleto do cartão vai parecer menos pesado.</div>
+    </article>
+
+    <article class="receita-card" id="tacos-rapidos-de-carne-moida-com-guacamole">
+      <h2 class="receita-titulo">Tacos Rápidos de Carne Moída com Guacamole</h2>
+      <p class="receita-desc">A comida que te faz esquecer que amanhã tem reunião chata.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 27,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g carne moída magra</li>
+              <li>tortilhas de milho pequenas</li>
+              <li>abacate maduro</li>
+              <li>Suco de 1 limão</li>
+              <li>tomate picado</li>
+              <li>/4 cebola picada</li>
+              <li>Sal, pimenta e temperos mexicanos a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a carne na frigideira com temperos até dourar.</li>
+              <li>Amasse o abacate com limão, tomate, cebola, sal e pimenta para fazer o guacamole.</li>
+              <li>Monte os tacos com carne e guacamole, sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esses tacos são tão bons que você vai esquecer que sua vida amorosa tá mais fria que freezer.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-graos-com-frango-e-molho-mostarda-e-mel">
+      <h2 class="receita-titulo">Salada de Grãos com Frango e Molho Mostarda e Mel</h2>
+      <p class="receita-desc">O encontro perfeito entre “quero saudável” e “quero sabor” – sem drama.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de grãos cozidos (feijão-fradinho, lentilha, etc)</li>
+              <li>g peito de frango cozido e desfiado</li>
+              <li>colheres de sopa de mostarda</li>
+              <li>colher de sopa de mel</li>
+              <li>colher de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a mostarda, mel, azeite, sal e pimenta para fazer o molho.</li>
+              <li>Em uma tigela, junte os grãos e o frango, adicione o molho e misture bem.</li>
+              <li>Sirva imediatamente ou leve à geladeira.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada tão rápida que até o seu chefe vai achar que você trabalha em ritmo de feriado.</div>
+    </article>
+
+    <article class="receita-card" id="crepioca-de-queijo-com-tomate-e-manjericao">
+      <h2 class="receita-titulo">Crepioca de Queijo com Tomate e Manjericão</h2>
+      <p class="receita-desc">Aquele café da manhã que acorda seu estômago antes do seu chefe.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca</li>
+              <li>ovo</li>
+              <li>g queijo mussarela ralado</li>
+              <li>tomates-cereja fatiados</li>
+              <li>Folhas de manjericão</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a goma de tapioca com o ovo na tigela.</li>
+              <li>Despeje na frigideira quente formando uma crepioca, espalhe o queijo e deixe derreter.</li>
+              <li>Adicione tomates e manjericão, dobre e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Crepioca que é mais rápida que sua desculpa para não ir à academia.</div>
+    </article>
+
+    <article class="receita-card" id="file-de-tilapia-grelhado-com-pure-rapido-de-mandioquinha">
+      <h2 class="receita-titulo">Filé de Tilápia Grelhado com Purê Rápido de Mandioquinha</h2>
+      <p class="receita-desc">Jantar romântico que não precisa de vinho caro, só de vontade.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>filés de tilápia</li>
+              <li>g mandioquinha descascada e picada</li>
+              <li>colher de sopa de manteiga</li>
+              <li>Sal, pimenta e limão a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a mandioquinha em água fervente até amaciar (10 min).</li>
+              <li>Enquanto isso, tempere e grelhe os filés de tilápia por 3-4 minutos de cada lado.</li>
+              <li>Escorra a mandioquinha, amasse com manteiga, sal e pimenta e sirva junto com o peixe.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse prato é tão rápido que até seu date vai achar que você domina a cozinha (spoiler: só domina o tempo).</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-rapido-de-batata-doce-com-queijo-coalho">
+      <h2 class="receita-titulo">Bolinho Rápido de Batata Doce com Queijo Coalho</h2>
+      <p class="receita-desc">Snack praqueles momentos que o estômago ronca mais que seu chefe.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g batata doce cozida e amassada</li>
+              <li>g queijo coalho ralado</li>
+              <li>ovo</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+              <li>Azeite para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a batata doce, queijo, ovo e temperos até formar uma massa.</li>
+              <li>Modele bolinhos com a colher e frite no azeite até dourar.</li>
+              <li>Escorra em papel absorvente e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bolinho tão fácil que só falta ele pagar o seu boleto.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-caprese-com-pao-ciabatta">
+      <h2 class="receita-titulo">Sanduíche Caprese com Pão Ciabatta</h2>
+      <p class="receita-desc">O clássico italiano que dá um tempo no seu rango de delivery.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pão ciabatta pequeno</li>
+              <li>g mussarela de búfala fatiada</li>
+              <li>tomates fatiados</li>
+              <li>Folhas de manjericão</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte o pão ao meio e regue com azeite.</li>
+              <li>Monte camadas de mussarela, tomate e manjericão.</li>
+              <li>Tempere com sal, pimenta e feche o sanduíche.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sanduíche que é rápido e chique, igual você fingindo que sabe o que tá fazendo.</div>
+    </article>
+
+    <article class="receita-card" id="saute-de-cogumelos-com-alho-e-tomilho">
+      <h2 class="receita-titulo">Sauté de Cogumelos com Alho e Tomilho</h2>
+      <p class="receita-desc">Acompanhamento que faz até seu arroz branco parecer chef.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g cogumelos frescos fatiados</li>
+              <li>dentes de alho picados</li>
+              <li>colher de sopa de azeite</li>
+              <li>Ramos de tomilho fresco</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o azeite e refogue o alho até dourar.</li>
+              <li>Adicione os cogumelos e tomilho, cozinhe até amaciar.</li>
+              <li>Tempere com sal e pimenta e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der cogumelos, faça esse sauté e finja que é chef de restaurante.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-frutas-com-iogurte-grego-e-granola">
+      <h2 class="receita-titulo">Salada de Frutas com Iogurte Grego e Granola</h2>
+      <p class="receita-desc">Sobremesa ou café? Pra quem não tem tempo pra escolher.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>maçã picada</li>
+              <li>banana fatiada</li>
+              <li>xícara de morangos picados</li>
+              <li>pote de iogurte grego natural (150g)</li>
+              <li>colheres de sopa de granola</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture as frutas na tigela.</li>
+              <li>Sirva com iogurte por cima e finalize com granola.</li>
+              <li>Coma antes que alguém peça pra dividir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada de frutas que é mais rápida que você tentando decidir o que quer na vida.</div>
+    </article>
+
+    <article class="receita-card" id="curry-rapido-de-grao-de-bico-com-leite-de-coco">
+      <h2 class="receita-titulo">Curry Rápido de Grão-de-Bico com Leite de Coco</h2>
+      <p class="receita-desc">O prato que vai te transportar para a Índia, sem sair do sofá.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 23,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de grão-de-bico escorrido (240g)</li>
+              <li>ml leite de coco</li>
+              <li>/2 cebola picada</li>
+              <li>colher de sopa de curry em pó</li>
+              <li>colher de sopa de azeite</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola no azeite até ficar transparente.</li>
+              <li>Adicione o curry, grão-de-bico e leite de coco, cozinhe por 10 minutos.</li>
+              <li>Tempere e sirva com arroz ou pão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Curry tão rápido que sua única preocupação será saber se vai sobrar para amanhã.</div>
+    </article>
+
+    <article class="receita-card" id="bruschetta-de-tomate-com-manjericao-e-alho">
+      <h2 class="receita-titulo">Bruschetta de Tomate com Manjericão e Alho</h2>
+      <p class="receita-desc">O aperitivo que vai salvar seu encontro, mesmo se você não souber cozinhar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>baguete fatiada</li>
+              <li>tomates maduros picados</li>
+              <li>dentes de alho picados</li>
+              <li>Folhas de manjericão</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Torre as fatias de baguete rapidamente na frigideira ou forno.</li>
+              <li>Misture tomate, alho, manjericão, azeite, sal e pimenta.</li>
+              <li>Coloque a mistura sobre as torradas e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bruschetta que é tão fácil que se fosse trabalho, seria freelancer sem chefe.</div>
+    </article>
+
+    <article class="receita-card" id="salada-asiatica-de-repolho-com-amendoim">
+      <h2 class="receita-titulo">Salada Asiática de Repolho com Amendoim</h2>
+      <p class="receita-desc">O crunch que sua vida precisava, junto com um toque de exotismo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de repolho roxo fatiado</li>
+              <li>cenoura ralada</li>
+              <li>colheres de sopa de amendoim torrado</li>
+              <li>colheres de sopa de molho shoyu</li>
+              <li>colher de sopa de vinagre de arroz</li>
+              <li>colher de chá de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o repolho, cenoura e amendoim na tigela.</li>
+              <li>Em outro recipiente, combine shoyu, vinagre e mel.</li>
+              <li>Regue a salada com o molho, misture e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada tão crocante que vai te distrair até do boleto entrando na conta.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-de-banana-com-canela-e-pasta-de-amendoim">
+      <h2 class="receita-titulo">Tapioca de Banana com Canela e Pasta de Amendoim</h2>
+      <p class="receita-desc">A sobremesa saudável que engana até sua vontade de besteira.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca</li>
+              <li>banana fatiada</li>
+              <li>colher de sopa de pasta de amendoim</li>
+              <li>Canela em pó a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe a goma na frigideira quente formando uma panqueca.</li>
+              <li>Quando firmar, adicione banana e pasta de amendoim, dobre a tapioca.</li>
+              <li>Finalize com canela e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Essa tapioca é tão doce que vai até te fazer esquecer o preço do mercado.</div>
+    </article>
+
+    <article class="receita-card" id="frango-oriental-rapido-com-legumes-salteados">
+      <h2 class="receita-titulo">Frango Oriental Rápido com Legumes Salteados</h2>
+      <p class="receita-desc">Aquele almoço que parece complicado, mas é só mágica e pressa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g peito de frango em tiras</li>
+              <li>cenoura fatiada</li>
+              <li>/2 pimentão em tiras</li>
+              <li>cebola pequena em tiras</li>
+              <li>colheres de sopa de molho shoyu</li>
+              <li>colher de sopa de óleo de gergelim</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o óleo e refogue o frango até dourar.</li>
+              <li>Adicione os legumes e refogue por mais 5 minutos.</li>
+              <li>Regue com shoyu, tempere e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse prato é tão rápido que até sua sogra vai pedir a receita (ou pelo menos fingir).</div>
+    </article>
+
+    <article class="receita-card" id="mousse-de-chocolate-fit-com-abacate">
+      <h2 class="receita-titulo">Mousse de Chocolate Fit com Abacate</h2>
+      <p class="receita-desc">A sobremesa que engana a dieta, mas não seu paladar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abacate maduro</li>
+              <li>colheres de sopa de cacau em pó</li>
+              <li>colheres de sopa de mel ou adoçante natural</li>
+              <li>colher de chá de essência de baunilha</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até ficar cremoso.</li>
+              <li>Distribua em taças e leve à geladeira por pelo menos 10 minutos.</li>
+              <li>Sirva gelado e finja que é chef pâtissier.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mousse tão rápida que é quase um golpe de mestre na sua gula.</div>
+    </article>
+
+    <article class="receita-card" id="pizza-rapida-de-pao-sirio-com-queijo-e-oregano">
+      <h2 class="receita-titulo">Pizza Rápida de Pão Sírio com Queijo e Orégano</h2>
+      <p class="receita-desc">Praquele momento que você quer pizza, mas sem drama e sem espera.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pão sírio</li>
+              <li>g queijo muçarela ralado</li>
+              <li>colheres de sopa de molho de tomate</li>
+              <li>Orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe o molho no pão sírio.</li>
+              <li>Cubra com queijo e polvilhe orégano.</li>
+              <li>Aqueça na frigideira tampada até o queijo derreter.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pizza tão rápida que até sua ansiedade vai dar um tempo.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-rapido-de-frango-com-legumes">
+      <h2 class="receita-titulo">Espetinho Rápido de Frango com Legumes</h2>
+      <p class="receita-desc">Porque espetinho é vida, principalmente quando o tempo é curto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g peito de frango em cubos</li>
+              <li>abobrinha fatiada em rodelas</li>
+              <li>pimentão em cubos</li>
+              <li>Sal, pimenta e limão a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o frango e os legumes com sal, pimenta e limão.</li>
+              <li>Monte os espetinhos intercalando frango e legumes.</li>
+              <li>Grelhe por cerca de 10 minutos, virando para dourar todos os lados.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Espetinho tão rápido que até sua fila de WhatsApp vai esperar um pouco.</div>
+    </article>
+
+    <article class="receita-card" id="mingau-rapido-de-aveia-com-maca-e-canela">
+      <h2 class="receita-titulo">Mingau Rápido de Aveia com Maçã e Canela</h2>
+      <p class="receita-desc">O aconchego da infância, sem precisar pedir dinheiro pro papai.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>/2 xícara de aveia em flocos</li>
+              <li>xícara de leite ou bebida vegetal</li>
+              <li>maçã picada</li>
+              <li>colher de chá de canela em pó</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a aveia com o leite em fogo médio até engrossar.</li>
+              <li>Adicione a maçã e a canela, mexa e cozinhe por mais 2 minutos.</li>
+              <li>Sirva com mel por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mingau que é mais reconfortante que encontrar dinheiro esquecido no bolso da calça.</div>
+    </article>
+
+    <article class="receita-card" id="burrito-de-ovo-mexido-com-queijo-e-salsa">
+      <h2 class="receita-titulo">Burrito de Ovo Mexido com Queijo e Salsa</h2>
+      <p class="receita-desc">O café da manhã que te faz sentir um chef, mesmo antes do primeiro café.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>tortilha de trigo integral</li>
+              <li>g queijo ralado</li>
+              <li>colheres de sopa de salsa picada</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com sal e pimenta e faça ovos mexidos na frigideira.</li>
+              <li>Aqueça a tortilha, coloque os ovos, queijo e salsa.</li>
+              <li>Enrole formando o burrito e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Burrito tão rápido que dá tempo até de sonhar com férias enquanto come.</div>
+    </article>
+
+    <article class="receita-card" id="espetinhos-caprese-com-reducao-de-balsamico">
+      <h2 class="receita-titulo">Espetinhos Caprese com Redução de Balsâmico</h2>
+      <p class="receita-desc">Petisco elegante para impressionar sem perder a dignidade.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tomates-cereja</li>
+              <li>bolinhas de mussarela de búfala</li>
+              <li>Folhas de manjericão</li>
+              <li>colheres de sopa de vinagre balsâmico</li>
+              <li>colher de chá de açúcar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em panela, reduza o vinagre com açúcar até formar calda.</li>
+              <li>Monte os espetinhos intercalando tomate, mussarela e manjericão.</li>
+              <li>Regue com a redução e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Petisco tão fácil que até seu crush vai achar que você faz mágica na cozinha.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-lentilha-com-cenoura-e-hortela">
+      <h2 class="receita-titulo">Salada de Lentilha com Cenoura e Hortelã</h2>
+      <p class="receita-desc">Simples, rápida e com proteína pra não deixar você de molho.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de lentilha cozida</li>
+              <li>cenoura ralada</li>
+              <li>Folhas de hortelã picadas</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a lentilha até ficar macia (10 min).</li>
+              <li>Em tigela, misture lentilha, cenoura, hortelã, azeite, limão, sal e pimenta.</li>
+              <li>Sirva fria ou em temperatura ambiente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada tão rápida que até sua vontade de enrolar vai embora.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-americana-rapida-com-mel-e-frutas-vermelhas">
+      <h2 class="receita-titulo">Panqueca Americana Rápida com Mel e Frutas Vermelhas</h2>
+      <p class="receita-desc">Café da manhã que te faz esquecer que segunda-feira existe.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de trigo</li>
+              <li>ovo</li>
+              <li>xícara de leite</li>
+              <li>colher de sopa de açúcar</li>
+              <li>colher de chá de fermento em pó</li>
+              <li>Frutas vermelhas a gosto</li>
+              <li>Mel para servir</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, ovo, leite, açúcar e fermento até formar massa lisa.</li>
+              <li>Aqueça a frigideira e faça panquecas pequenas, dourando dos dois lados.</li>
+              <li>Sirva com mel e frutas por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Panqueca tão fácil que até sua preguiça vai levantar da cama.</div>
+    </article>
+
+    <article class="receita-card" id="salada-rapida-de-abacate-com-camarao-e-coentro">
+      <h2 class="receita-titulo">Salada Rápida de Abacate com Camarão e Coentro</h2>
+      <p class="receita-desc">Aquele toque tropical pra fugir da mesmice do almoço.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g camarão limpo</li>
+              <li>abacate maduro em cubos</li>
+              <li>Suco de 1 limão</li>
+              <li>Coentro picado a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue os camarões em azeite até ficarem rosados.</li>
+              <li>Misture o abacate com limão, coentro, sal e pimenta na tigela.</li>
+              <li>Adicione os camarões e sirva imediatamente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada que é tão rápida que seu crush vai achar que você é um mestre Jedi da cozinha.</div>
+    </article>
+
+    <article class="receita-card" id="mix-de-frutas-secas-e-castanhas-para-energia-instantanea">
+      <h2 class="receita-titulo">Mix de Frutas Secas e Castanhas para Energia Instantânea</h2>
+      <p class="receita-desc">Porque a vida adulta é um eterno “me dá energia que eu aguento mais um boleto”.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g castanhas de caju</li>
+              <li>g nozes</li>
+              <li>g damascos secos picados</li>
+              <li>g uva passa</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes na tigela.</li>
+              <li>Sirva como snack rápido para qualquer hora.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mix tão prático que até seu chefe vai querer um para o plantão.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

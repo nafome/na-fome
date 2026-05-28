@@ -1,0 +1,1521 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🍺 Boteco em Casa — Receitas NaFome</title>
+  <meta name="description" content="38 receitas para quem está na situação "Boteco em Casa". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/boteco-em-casa/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🍺 Boteco em Casa — Receitas NaFome">
+  <meta property="og:description" content="38 receitas para quem está na situação "Boteco em Casa". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/boteco-em-casa/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🍺 Boteco em Casa — NaFome",
+    "description": "38 receitas para quem está na situação "Boteco em Casa". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/boteco-em-casa/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=boteco-em-casa" class="btn-sortear">🎲 Sortear receita de Boteco em Casa</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🍺 Boteco em Casa</h1>
+    <p>38 receitas para quem está na situação "Boteco em Casa". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">38 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Boteco em Casa pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=boteco-em-casa" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="bolinho-de-bacalhau-crocante-do-seu-ze">
+      <h2 class="receita-titulo">Bolinho de Bacalhau Crocante do Seu Zé</h2>
+      <p class="receita-desc">Porque todo boteco tem um Seu Zé e um bolinho que some antes de você pedir</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de bacalhau dessalgado e desfiado</li>
+              <li>batatas médias cozidas e espremidas</li>
+              <li>cebola pequena picada</li>
+              <li>dentes de alho amassados</li>
+              <li>ovos</li>
+              <li>/2 xícara de salsinha picada</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o bacalhau, as batatas, cebola, alho, ovos e salsinha numa tigela até formar uma massa.</li>
+              <li>Modele bolinhos com as mãos e reserve.</li>
+              <li>Aqueça o óleo e frite os bolinhos até dourarem, escorra em papel absorvente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se seu bolinho sumir rápido demais, talvez esteja com mais fãs do que seu grupo do WhatsApp. Faça em dobro e esconda a segunda leva!</div>
+    </article>
+
+    <article class="receita-card" id="torresmo-crocante-que-nao-te-julga">
+      <h2 class="receita-titulo">Torresmo Crocante que Não Te Julga</h2>
+      <p class="receita-desc">Praquele petisco que faz dieta chorar e coração bater mais forte</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de barriga de porco cortada em cubos</li>
+              <li>Sal a gosto</li>
+              <li>Água para cozinhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe os cubos de barriga de porco em água com sal até ficarem macios.</li>
+              <li>Escorra e seque bem os cubos.</li>
+              <li>Frite em óleo quente até ficarem dourados e crocantes.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o seu bolso tá mais seco que o torresmo, aproveite a crocância e esqueça o extrato bancário por um momento.</div>
+    </article>
+
+    <article class="receita-card" id="pastelzinho-de-carne-com-massa-quebradica">
+      <h2 class="receita-titulo">Pastelzinho de Carne com Massa Quebradiça</h2>
+      <p class="receita-desc">Pastel que não fura e não te deixa com vergonha na roda de boteco</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 24,50</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de farinha de trigo</li>
+              <li>ml de água morna</li>
+              <li>ml de óleo</li>
+              <li>pitada de sal</li>
+              <li>g de carne moída temperada</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, óleo, sal e água até formar uma massa lisa, deixe descansar 30 min.</li>
+              <li>Abra a massa com o rolo e corte círculos.</li>
+              <li>Recheie com carne moída, feche e frite até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se seu pastel abrir, não se preocupe, é só fingir que é estilo "boteco gourmet" e cobrar mais caro.</div>
+    </article>
+
+    <article class="receita-card" id="calabresa-acebolada-do-seu-madruga">
+      <h2 class="receita-titulo">Calabresa Acebolada do Seu Madruga</h2>
+      <p class="receita-desc">Porque todo mundo precisa de uma calabresa que coloca ordem no boteco</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de calabresa em rodelas</li>
+              <li>cebolas grandes em rodelas</li>
+              <li>colheres de óleo</li>
+              <li>Pimenta-do-reino e sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o óleo e frite a calabresa até dourar.</li>
+              <li>Acrescente a cebola e refogue até murchar.</li>
+              <li>Tempere com pimenta e sal e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a calabresa parece que vai fugir da frigideira, é só lembrar que ela é mais fiel que muita gente por aí.</div>
+    </article>
+
+    <article class="receita-card" id="mandioca-frita-com-maionese-temperada">
+      <h2 class="receita-titulo">Mandioca Frita com Maionese Temperada</h2>
+      <p class="receita-desc">A mandioca que te entende quando você só quer petiscar e esquecer boletos</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de mandioca descascada e cortada</li>
+              <li>Sal a gosto</li>
+              <li>Óleo para fritar</li>
+              <li>/2 xícara de maionese</li>
+              <li>dente de alho amassado</li>
+              <li>Suco de 1/2 limão</li>
+              <li>Pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a mandioca em água até ficar macia, escorra e deixe secar.</li>
+              <li>Frite a mandioca em óleo quente até dourar.</li>
+              <li>Misture maionese, alho, limão e pimenta para o molho.</li>
+              <li>Sirva mandioca com a maionese temperada.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a mandioca estiver mais crocante que sua paciência na segunda-feira, é porque você fez certo.</div>
+    </article>
+
+    <article class="receita-card" id="ceviche-de-tilapia-do-boteco-tropical">
+      <h2 class="receita-titulo">Ceviche de Tilápia do Boteco Tropical</h2>
+      <p class="receita-desc">Pra fingir que tá na praia enquanto seu bolso tá na seca</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de filé de tilápia cortado em cubos</li>
+              <li>Suco de 4 limões</li>
+              <li>cebola roxa fatiada fina</li>
+              <li>tomate picado</li>
+              <li>Coentro a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o peixe com o suco de limão e deixe marinar por 15 minutos.</li>
+              <li>Acrescente cebola, tomate, coentro, sal e pimenta.</li>
+              <li>Misture e sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o limão deixar seu rosto mais amargo que segunda-feira, lembre-se que é só mais um golpe da vida adulta.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-frango-com-molho-de-mostarda-e-mel">
+      <h2 class="receita-titulo">Espetinho de Frango com Molho de Mostarda e Mel</h2>
+      <p class="receita-desc">Porque até o frango merece um pouco de glamour no boteco</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peito de frango em cubos</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>colheres de sopa de mostarda</li>
+              <li>colher de sopa de mel</li>
+              <li>colher de sopa de azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o frango com sal e pimenta.</li>
+              <li>Espete os cubos no espeto.</li>
+              <li>Grelhe ou frite até dourar.</li>
+              <li>Misture mostarda, mel e azeite e sirva como molho.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o frango grudar na grelha, não é você, é ele querendo te prender pra mais um drink.</div>
+    </article>
+
+    <article class="receita-card" id="isca-de-tilapia-com-molho-tartaro">
+      <h2 class="receita-titulo">Isca de Tilápia com Molho Tártaro</h2>
+      <p class="receita-desc">Porque peixe frito no boteco é felicidade líquida e crocante</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 32,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de filés de tilápia cortados em tiras</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>xícara de farinha de trigo</li>
+              <li>ovo</li>
+              <li>Óleo para fritar</li>
+              <li>/2 xícara de maionese</li>
+              <li>colher de sopa de alcaparras picadas</li>
+              <li>colher de sopa de picles picado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere as tiras de peixe com limão, sal e pimenta.</li>
+              <li>Passe as tiras na farinha, depois no ovo batido, e novamente na farinha.</li>
+              <li>Frite em óleo quente até dourar.</li>
+              <li>Misture a maionese, alcaparras e picles para o molho tártaro.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o peixe sair do óleo mais rápido que sua vontade de trabalhar, é sinal que tá perfeito.</div>
+    </article>
+
+    <article class="receita-card" id="linguica-blumenau-na-cerveja">
+      <h2 class="receita-titulo">Linguiça Blumenau na Cerveja</h2>
+      <p class="receita-desc">Um brinde à linguiça que leva cerveja até pra cozinhar, porque ninguém é de ferro</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de linguiça Blumenau cortada em rodelas</li>
+              <li>lata de cerveja clara</li>
+              <li>cebola grande fatiada</li>
+              <li>colher de sopa de óleo</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça o óleo e refogue a cebola até dourar.</li>
+              <li>Junte as rodelas de linguiça e doure levemente.</li>
+              <li>Despeje a cerveja, tampe e cozinhe até o líquido reduzir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o cheiro da linguiça na cerveja te acordar mais que despertador, é porque tá no ponto certo.</div>
+    </article>
+
+    <article class="receita-card" id="batata-rustica-com-alecrim-e-sal-grosso">
+      <h2 class="receita-titulo">Batata Rústica com Alecrim e Sal Grosso</h2>
+      <p class="receita-desc">Praquela batata que parece simples, mas é mais trabalhada que sua vida financeira</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de batatas cortadas em gomos</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal grosso a gosto</li>
+              <li>Alecrim fresco a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Preaqueça o forno a 220°C.</li>
+              <li>Misture as batatas com azeite, sal grosso e alecrim.</li>
+              <li>Disponha na assadeira e asse por 40 minutos ou até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se as batatas ficarem mais crocantes que sua desculpa pra faltar no trabalho, você acertou.</div>
+    </article>
+
+    <article class="receita-card" id="torresmo-de-barriga-com-pimenta-biquinho">
+      <h2 class="receita-titulo">Torresmo de Barriga com Pimenta Biquinho</h2>
+      <p class="receita-desc">Pra esquentar o boteco e o coração de quem não tem tempo pra dieta</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de barriga de porco em cubos</li>
+              <li>colher de sopa de sal</li>
+              <li>colher de chá de pimenta-do-reino</li>
+              <li>Pimenta biquinho para decorar</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere a barriga com sal e pimenta e deixe descansar 15 minutos.</li>
+              <li>Frite em óleo quente até dourar e ficar crocante.</li>
+              <li>Sirva com pimenta biquinho.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o torresmo estalar mais que suas contas atrasadas, é porque tá perfeito.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-de-pernil-desfiado-com-vinagrete">
+      <h2 class="receita-titulo">Sanduíche de Pernil Desfiado com Vinagrete</h2>
+      <p class="receita-desc">Porque o pernil desfiado é o ex que todo mundo quer reencontrar no boteco</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h10min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 27,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de pernil cozido e desfiado</li>
+              <li>pães tipo francês</li>
+              <li>cebola picada</li>
+              <li>tomate picado</li>
+              <li>/2 pimentão picado</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola no azeite, adicione o pernil e aqueça.</li>
+              <li>Misture tomate, pimentão, limão, sal e pimenta para o vinagrete.</li>
+              <li>Monte o sanduíche com pernil e vinagrete.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o sanduíche sumir tão rápido quanto seu dinheiro no fim do mês, é porque tá irresistível.</div>
+    </article>
+
+    <article class="receita-card" id="misto-quente-com-queijo-coalho-e-oregano">
+      <h2 class="receita-titulo">Misto Quente com Queijo Coalho e Orégano</h2>
+      <p class="receita-desc">O clássico que nunca sai de moda, igual aquela cerveja gelada que você esqueceu de comprar</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão de forma</li>
+              <li>fatias de queijo coalho</li>
+              <li>fatias de presunto</li>
+              <li>Orégano a gosto</li>
+              <li>Manteiga para passar no pão</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte o sanduíche com presunto, queijo e orégano.</li>
+              <li>Passe manteiga nas fatias de pão e leve à sanduicheira ou frigideira.</li>
+              <li>Cozinhe até o queijo derreter e o pão dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se seu misto quente está mais quente que seu chefe na segunda, aproveite e coma com gosto.</div>
+    </article>
+
+    <article class="receita-card" id="caldo-de-feijao-com-torresmo">
+      <h2 class="receita-titulo">Caldo de Feijão com Torresmo</h2>
+      <p class="receita-desc">A receita que é quase abraço de mãe depois de um dia ruim no trabalho</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de feijão preto</li>
+              <li>cebola picada</li>
+              <li>dentes de alho amassados</li>
+              <li>g de bacon em cubos</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Água suficiente</li>
+              <li>Torresmo para acompanhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Deixe o feijão de molho por 8 horas.</li>
+              <li>Refogue cebola, alho e bacon na panela de pressão.</li>
+              <li>Adicione o feijão, água até cobrir e cozinhe por 30 minutos após pressão.</li>
+              <li>Tempere, sirva com torresmo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se seu caldo ficou mais quente que suas conversas em grupo, é sinal que fez certinho.</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-de-carne-seca-com-queijo-coalho">
+      <h2 class="receita-titulo">Bolinho de Carne Seca com Queijo Coalho</h2>
+      <p class="receita-desc">Quando a carne seca e o queijo se encontram, até boleto vira piada</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de carne seca dessalgada e desfiada</li>
+              <li>g de queijo coalho em cubos</li>
+              <li>batatas cozidas e espremidas</li>
+              <li>cebola picada</li>
+              <li>dente de alho amassado</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho, misture com a carne seca, batata e queijo.</li>
+              <li>Modele bolinhos, recheando com queijo.</li>
+              <li>Frite até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bolinho sumir mais rápido que seu salário, é porque tá bom demais pra dividir.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-coracao-com-alho-e-limao">
+      <h2 class="receita-titulo">Espetinho de Coração com Alho e Limão</h2>
+      <p class="receita-desc">Pra quem gosta de coração batendo forte, seja na paixão ou no boteco</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de coração de frango limpo</li>
+              <li>Suco de 2 limões</li>
+              <li>dentes de alho picados</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para grelhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere os corações com limão, alho, sal e pimenta por 20 minutos.</li>
+              <li>Espete e grelhe com azeite até dourar.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o coração bater mais forte que sua vontade de ir ao trabalho, é sinal de que o boteco chegou.</div>
+    </article>
+
+    <article class="receita-card" id="cachaca-caseira-com-limao-e-mel">
+      <h2 class="receita-titulo">Cachaça Caseira com Limão e Mel</h2>
+      <p class="receita-desc">Porque às vezes a gente precisa transformar a crise em festa</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml de cachaça</li>
+              <li>Suco de 1 limão</li>
+              <li>colher de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a cachaça com suco de limão e mel até dissolver.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a cachaça der mais ânimo que seu chefe, aproveite e comemore a vida adulta.</div>
+    </article>
+
+    <article class="receita-card" id="pao-de-alho-do-boteco-que-nunca-falha">
+      <h2 class="receita-titulo">Pão de Alho do Boteco que Nunca Falha</h2>
+      <p class="receita-desc">Pão com alho que acompanha melhor que amigo de bar</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pão francês grande cortado ao meio</li>
+              <li>dentes de alho amassados</li>
+              <li>colheres de sopa de manteiga</li>
+              <li>Salsinha picada a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture manteiga, alho e salsinha.</li>
+              <li>Espalhe no pão e leve ao forno a 180°C por 15 minutos.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o cheiro do alho deixar seu crush afastado, pelo menos o boteco vai te amar.</div>
+    </article>
+
+    <article class="receita-card" id="moela-ao-molho-apimentado">
+      <h2 class="receita-titulo">Moela ao Molho Apimentado</h2>
+      <p class="receita-desc">Pra quem gosta de desafio no boteco e na vida</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h20min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de moela limpa</li>
+              <li>cebola picada</li>
+              <li>dentes de alho amassados</li>
+              <li>tomates picados</li>
+              <li>pimenta dedo-de-moça picada</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+              <li>Óleo para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho no óleo, junte moela e doure.</li>
+              <li>Adicione tomates, pimenta, sal e água suficiente.</li>
+              <li>Cozinhe na pressão por 40 minutos.</li>
+              <li>Finalize com cheiro-verde e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a moela der trabalho, lembre que a vida adulta não é mais fácil, só tem mais bebida.</div>
+    </article>
+
+    <article class="receita-card" id="torresmo-de-rolo-com-melado-de-cana">
+      <h2 class="receita-titulo">Torresmo de Rolo com Melado de Cana</h2>
+      <p class="receita-desc">Pra quem gosta de torresmo com gosto de infância e um toque de boteco</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h30min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de pele de porco enrolada (torresmo de rolo)</li>
+              <li>Sal a gosto</li>
+              <li>Melado de cana para regar</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o torresmo com sal e deixe descansar 30 minutos.</li>
+              <li>Frite em óleo quente até dourar e crocante.</li>
+              <li>Regue com melado antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o torresmo for mais doce que sua conversa com a sogra, tá na hora de virar cliente VIP.</div>
+    </article>
+
+    <article class="receita-card" id="calabresa-ao-molho-barbecue-caseiro">
+      <h2 class="receita-titulo">Calabresa ao Molho Barbecue Caseiro</h2>
+      <p class="receita-desc">Porque o boteco merece uma calabresa com molho digno de churrasco americano</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de calabresa em rodelas</li>
+              <li>/2 xícara de ketchup</li>
+              <li>colheres de sopa de mel</li>
+              <li>colher de sopa de vinagre</li>
+              <li>colher de chá de páprica defumada</li>
+              <li>cebola pequena picada</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola na frigideira, junte a calabresa e doure.</li>
+              <li>Em panela, misture ketchup, mel, vinagre e páprica para o molho.</li>
+              <li>Cozinhe o molho até engrossar e misture com a calabresa.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o molho ficar mais doce que sua vida amorosa, não se preocupe, é só boteco!</div>
+    </article>
+
+    <article class="receita-card" id="queijo-coalho-na-chapa-com-mel-e-pimenta">
+      <h2 class="receita-titulo">Queijo Coalho na Chapa com Mel e Pimenta</h2>
+      <p class="receita-desc">Porque queijo coalho é o melhor amigo do boteco e do seu coração</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de queijo coalho em fatias</li>
+              <li>Mel a gosto</li>
+              <li>Pimenta-do-reino moída na hora</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Grelhe o queijo na chapa até dourar ambos os lados.</li>
+              <li>Regue com mel e polvilhe pimenta.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o queijo grudar mais que boleto na sua conta, vale a pena garantir a crocância.</div>
+    </article>
+
+    <article class="receita-card" id="misto-de-linguica-com-queijo-e-cebola-caramelizada">
+      <h2 class="receita-titulo">Misto de Linguiça com Queijo e Cebola Caramelizada</h2>
+      <p class="receita-desc">Porque misturar linguiça e cebola é quase terapia de boteco</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 26,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de linguiça toscana sem pele</li>
+              <li>cebola grande fatiada</li>
+              <li>g de queijo muçarela ralado</li>
+              <li>Azeite para refogar</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola em azeite até caramelizar.</li>
+              <li>Acrescente a linguiça e cozinhe até dourar.</li>
+              <li>Misture o queijo, espere derreter e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o misto sumir mais rápido que sua vontade de sair da cama, é sinal de sucesso.</div>
+    </article>
+
+    <article class="receita-card" id="frango-a-passarinho-com-alho-e-salsa">
+      <h2 class="receita-titulo">Frango à Passarinho com Alho e Salsa</h2>
+      <p class="receita-desc">Praquele frango que te ajuda a esquecer que amanhã tem reunião chata</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de frango cortado em pedaços pequenos</li>
+              <li>dentes de alho picados</li>
+              <li>Salsa picada a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o frango com sal, pimenta e alho.</li>
+              <li>Frite em óleo quente até dourar.</li>
+              <li>Salpique salsa antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o frango estalar mais que sua paciência, é hora de brindar com mais uma cerveja.</div>
+    </article>
+
+    <article class="receita-card" id="vinagrete-de-tomate-com-cebola-roxa">
+      <h2 class="receita-titulo">Vinagrete de Tomate com Cebola Roxa</h2>
+      <p class="receita-desc">O molho que salva qualquer petisco e sua vida amorosa no boteco</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tomates médios picados</li>
+              <li>cebola roxa picada</li>
+              <li>Suco de 1 limão</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes numa tigela.</li>
+              <li>Deixe descansar 10 minutos antes de servir.</li>
+              <li>Ajuste temperos se necessário.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o vinagrete for mais azedo que sua última DR, aproveite que no boteco a gente se entende.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-queijo-coalho-com-oregano-e-mel">
+      <h2 class="receita-titulo">Espetinho de Queijo Coalho com Orégano e Mel</h2>
+      <p class="receita-desc">Porque queijo na brasa é amor que não se explica, só se devora</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de queijo coalho em cubos</li>
+              <li>Orégano a gosto</li>
+              <li>Mel para regar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espete os cubos de queijo.</li>
+              <li>Grelhe na chapa até dourar.</li>
+              <li>Salpique orégano e regue com mel antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o mel fizer mais sucesso que seu crush, pelo menos o boteco tá garantido.</div>
+    </article>
+
+    <article class="receita-card" id="frango-empanado-crocante-com-molho-de-mostarda">
+      <h2 class="receita-titulo">Frango Empanado Crocante com Molho de Mostarda</h2>
+      <p class="receita-desc">Porque empanar é a arte de fazer frango ganhar status VIP no boteco</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 24,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peito de frango em tiras</li>
+              <li>xícara de farinha de trigo</li>
+              <li>ovos batidos</li>
+              <li>xícara de farinha de rosca</li>
+              <li>Óleo para fritar</li>
+              <li>colheres de sopa de mostarda</li>
+              <li>colher de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Passe o frango na farinha, depois no ovo e na farinha de rosca.</li>
+              <li>Frite até dourar.</li>
+              <li>Misture mostarda e mel para o molho.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o frango empanado estalar mais que seus boletos atrasados, é hora de esquecer a conta e focar no sabor.</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-de-arroz-com-queijo-e-cebolinha">
+      <h2 class="receita-titulo">Bolinho de Arroz com Queijo e Cebolinha</h2>
+      <p class="receita-desc">Aquele bolinho que salva restinho de arroz e sua dignidade no boteco</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de arroz cozido</li>
+              <li>g de queijo muçarela ralado</li>
+              <li>ovo</li>
+              <li>Cebolinha picada a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture arroz, queijo, ovo, cebolinha, sal e pimenta.</li>
+              <li>Modele bolinhos e frite até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bolinho sumir da frigideira tão rápido quanto seu interesse por segunda-feira, é porque tá bom demais.</div>
+    </article>
+
+    <article class="receita-card" id="coxinha-de-jaca-verde-vegana">
+      <h2 class="receita-titulo">Coxinha de Jaca Verde Vegana</h2>
+      <p class="receita-desc">Pra quem quer boteco sem culpa, só risadas e sabor</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h30min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 27,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de jaca verde desfiada e cozida</li>
+              <li>xícaras de farinha de trigo</li>
+              <li>litro de caldo de legumes</li>
+              <li>cebola picada</li>
+              <li>dentes de alho amassados</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho, junte a jaca e tempere.</li>
+              <li>Ferva o caldo, adicione a farinha e mexa até formar massa.</li>
+              <li>Modele as coxinhas, recheie com jaca, empane e frite.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a coxinha vegana virar a estrela do boteco, é sinal que até dieta pode ser divertida.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-camarao-com-alho-e-limao">
+      <h2 class="receita-titulo">Espetinho de Camarão com Alho e Limão</h2>
+      <p class="receita-desc">Praquele toque sofisticado pra impressionar até o tio do bar</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de camarão limpo</li>
+              <li>dentes de alho picados</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para grelhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere camarão com alho, limão, sal e pimenta por 15 minutos.</li>
+              <li>Espete e grelhe até ficar rosado.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o camarão for mais caro que sua conta de luz, pelo menos vale o glamour no boteco.</div>
+    </article>
+
+    <article class="receita-card" id="salgadinhos-de-queijo-e-presunto-com-massa-de-batata">
+      <h2 class="receita-titulo">Salgadinhos de Queijo e Presunto com Massa de Batata</h2>
+      <p class="receita-desc">Porque salgadinho de boteco é quase terapia em forma de comida</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 10 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas médias cozidas e amassadas</li>
+              <li>xícaras de farinha de trigo</li>
+              <li>g de queijo muçarela picado</li>
+              <li>g de presunto picado</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture batata, farinha, sal e pimenta até formar massa.</li>
+              <li>Abra a massa, recheie com queijo e presunto, feche e modele salgadinhos.</li>
+              <li>Frite até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o salgadinho desaparecer mais rápido que seus planos na sexta-feira, é porque o sucesso tá garantido.</div>
+    </article>
+
+    <article class="receita-card" id="frango-ao-molho-barbecue-com-batata-frita">
+      <h2 class="receita-titulo">Frango ao Molho Barbecue com Batata Frita</h2>
+      <p class="receita-desc">Combinação que deixa até boleto atrasado mais suportável</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h10min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de frango em pedaços</li>
+              <li>xícara de molho barbecue</li>
+              <li>kg de batatas para fritar</li>
+              <li>Sal a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o frango até ficar macio, misture com o molho barbecue e deixe apurar.</li>
+              <li>Frite as batatas até dourar.</li>
+              <li>Sirva frango com batata.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o molho fica mais grudado que suas dívidas, pelo menos o sabor vai te abraçar.</div>
+    </article>
+
+    <article class="receita-card" id="linguica-ao-alho-e-cerveja-na-panela">
+      <h2 class="receita-titulo">Linguiça ao Alho e Cerveja na Panela</h2>
+      <p class="receita-desc">Porque linguiça com cerveja é quase o casamento perfeito do boteco</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 24,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de linguiça calabresa fatiada</li>
+              <li>lata de cerveja</li>
+              <li>dentes de alho picados</li>
+              <li>cebola fatiada</li>
+              <li>Azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue alho e cebola no azeite, junte a linguiça e doure.</li>
+              <li>Acrescente a cerveja, tampe e cozinhe até reduzir o líquido.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o cheiro da linguiça invadir a vizinhança, pelo menos faça amizade com todo mundo.</div>
+    </article>
+
+    <article class="receita-card" id="coracao-de-galinha-grelhado-com-limao-e-pimenta">
+      <h2 class="receita-titulo">Coração de Galinha Grelhado com Limão e Pimenta</h2>
+      <p class="receita-desc">Pra quem gosta de coração forte, de boteco e da vida</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 19,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de coração de galinha limpo</li>
+              <li>Suco de 2 limões</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para grelhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere os corações com limão, sal e pimenta por 20 minutos.</li>
+              <li>Espete e grelhe até dourar.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o coração bater mais forte que seu despertador, é hora de boteco!</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-de-mandioca-com-carne-moida">
+      <h2 class="receita-titulo">Bolinho de Mandioca com Carne Moída</h2>
+      <p class="receita-desc">Quando mandioca e carne se juntam, até segunda-feira fica feliz</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de mandioca cozida e amassada</li>
+              <li>g de carne moída temperada</li>
+              <li>cebola picada</li>
+              <li>ovo</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola e misture com a carne moída temperada.</li>
+              <li>Misture a mandioca, o ovo, sal e pimenta.</li>
+              <li>Modele bolinhos recheados com carne e frite até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bolinho sumir antes da cerveja esquentar, é sinal que o boteco em casa tá bombando.</div>
+    </article>
+
+    <article class="receita-card" id="linguica-de-frango-com-molho-de-mostarda-e-mel">
+      <h2 class="receita-titulo">Linguiça de Frango com Molho de Mostarda e Mel</h2>
+      <p class="receita-desc">Pra quem quer fugir da tradicional, mas não da cerveja gelada</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 23,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de linguiça de frango fatiada</li>
+              <li>colheres de sopa de mostarda</li>
+              <li>colher de sopa de mel</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Frite a linguiça até dourar.</li>
+              <li>Misture mostarda e mel e aqueça rapidamente.</li>
+              <li>Sirva linguiça com molho por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o molho for mais doce que suas mensagens não respondidas, aproveite o momento.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-carne-com-pimentao-e-cebola">
+      <h2 class="receita-titulo">Espetinho de Carne com Pimentão e Cebola</h2>
+      <p class="receita-desc">Porque espetinho sem pimentão é igual boleto sem juros, não existe</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de carne bovina em cubos</li>
+              <li>pimentão vermelho cortado em pedaços</li>
+              <li>cebola cortada em pedaços</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere a carne com sal e pimenta.</li>
+              <li>Monte espetos intercalando carne, pimentão e cebola.</li>
+              <li>Grelhe com azeite até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o espetinho acabar mais rápido que seu saldo bancário, é porque tá irresistível.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-maionese-do-boteco-raiz">
+      <h2 class="receita-titulo">Salada de Maionese do Boteco Raiz</h2>
+      <p class="receita-desc">A salada que é mais raiz que boleto atrasado e cerveja quente</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas cozidas e picadas</li>
+              <li>cenouras cozidas e picadas</li>
+              <li>lata de ervilha</li>
+              <li>/2 xícara de maionese</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes numa tigela.</li>
+              <li>Ajuste sal e pimenta.</li>
+              <li>Leve à geladeira por 20 minutos antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a salada for mais refrescante que sua conversa com o chefe, tá na hora de brindar.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

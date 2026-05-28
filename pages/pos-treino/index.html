@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>💪 Pós-Treino — Receitas NaFome</title>
+  <meta name="description" content="39 receitas para quem está na situação "Pós-Treino". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/pos-treino/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="💪 Pós-Treino — Receitas NaFome">
+  <meta property="og:description" content="39 receitas para quem está na situação "Pós-Treino". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/pos-treino/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "💪 Pós-Treino — NaFome",
+    "description": "39 receitas para quem está na situação "Pós-Treino". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/pos-treino/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=pos-treino" class="btn-sortear">🎲 Sortear receita de Pós-Treino</a>
+  </nav>
+
+  <div class="hero">
+    <h1>💪 Pós-Treino</h1>
+    <p>39 receitas para quem está na situação "Pós-Treino". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">39 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Pós-Treino pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=pos-treino" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="omelete-turbo-de-claras-com-espinafre">
+      <h2 class="receita-titulo">Omelete Turbo de Claras com Espinafre</h2>
+      <p class="receita-desc">Porque depois do treino até o espinafre quer virar músculo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>claras de ovo</li>
+              <li>xícara de espinafre fresco picado</li>
+              <li>colher de sopa de queijo cottage</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata as claras com sal e pimenta na tigela.</li>
+              <li>Aqueça a frigideira, coloque o espinafre e refogue até murchar.</li>
+              <li>Despeje as claras batidas, espalhe o queijo e cozinhe até firmar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o espinafre te pedir pra virar músculo, responda que o boleto já virou dívida, aqui é só proteína!</div>
+    </article>
+
+    <article class="receita-card" id="shake-de-whey-com-banana-e-aveia">
+      <h2 class="receita-titulo">Shake de Whey com Banana e Aveia</h2>
+      <p class="receita-desc">Aquele empurrãozinho para os músculos saírem da preguiça pós-treino.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>scoop de whey protein sabor baunilha</li>
+              <li>banana madura</li>
+              <li>colheres de sopa de aveia em flocos</li>
+              <li>ml de leite desnatado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque todos os ingredientes no liquidificador.</li>
+              <li>Bata até obter uma mistura homogênea.</li>
+              <li>Sirva gelado e beba antes dos músculos dormirem.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se esse shake não acordar seus músculos, tenta chamar o boleto pra ver se eles se mexem!</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-quinoa-com-frango-e-legumes">
+      <h2 class="receita-titulo">Salada de Quinoa com Frango e Legumes</h2>
+      <p class="receita-desc">Porque proteína sem salada é igual academia sem Wi-Fi: sem graça e improdutiva.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de quinoa</li>
+              <li>g de peito de frango em cubos</li>
+              <li>/2 pimentão vermelho picado</li>
+              <li>cenoura ralada</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a quinoa conforme instruções da embalagem e reserve.</li>
+              <li>Em frigideira, refogue o frango com sal e pimenta até dourar.</li>
+              <li>Misture a quinoa, o frango e os legumes na tigela, regue com azeite e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o frango fugir da frigideira, lembra que boleto nunca foge do seu bolso!</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-proteica-de-aveia-e-banana">
+      <h2 class="receita-titulo">Panqueca Proteica de Aveia e Banana</h2>
+      <p class="receita-desc">Pra quem quer malhar e comer doce sem culpa – porque a vida já é amarga demais.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>banana madura</li>
+              <li>ovos</li>
+              <li>colheres de sopa de aveia em flocos</li>
+              <li>scoop de whey protein sabor baunilha</li>
+              <li>Canela a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até virar massa homogênea.</li>
+              <li>Aqueça a frigideira e faça pequenas panquecas, cozinhando dos dois lados.</li>
+              <li>Sirva com mel ou frutas vermelhas.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a panqueca grudar, não se preocupe, pelo menos é só a massa grudando, diferente do boleto que gruda na mente.</div>
+    </article>
+
+    <article class="receita-card" id="iogurte-grego-com-mix-de-castanhas-e-mel">
+      <h2 class="receita-titulo">Iogurte Grego com Mix de Castanhas e Mel</h2>
+      <p class="receita-desc">Proteína e gordura boa pra enganar a fome, porque o amor só engana mesmo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de iogurte grego natural</li>
+              <li>colheres de sopa de mix de castanhas picadas</li>
+              <li>colher de sopa de mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque o iogurte na tigela.</li>
+              <li>Polvilhe as castanhas por cima.</li>
+              <li>Regue com mel e sirva imediatamente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o mel não adoçar sua vida, tenta olhar o extrato bancário que é mais amargo que palestra de segunda-feira.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-recheada-com-ricota-e-peito-de-peru">
+      <h2 class="receita-titulo">Tapioca Recheada com Ricota e Peito de Peru</h2>
+      <p class="receita-desc">Porque até a tapioca quer malhar, mas sem perder a classe.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca hidratada</li>
+              <li>g de ricota amassada</li>
+              <li>g de peito de peru fatiado</li>
+              <li>Orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça a frigideira e espalhe a goma formando uma camada fina.</li>
+              <li>Cozinhe até as bordas soltarem, vire.</li>
+              <li>Recheie com ricota, peito de peru e orégano, dobre e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a tapioca abrir, não é você que tá errado, é ela querendo fugir do treino também.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-integral-de-atum-com-abacate">
+      <h2 class="receita-titulo">Sanduíche Integral de Atum com Abacate</h2>
+      <p class="receita-desc">Pra engolir proteína e gordura boa sem parecer que tá devorando o cardápio inteiro.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão integral</li>
+              <li>lata de atum em água drenado</li>
+              <li>/2 abacate maduro amassado</li>
+              <li>Suco de 1/2 limão</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o atum com o abacate, limão, sal e pimenta na tigela.</li>
+              <li>Espalhe a mistura nas fatias de pão.</li>
+              <li>Feche o sanduíche e sirva na hora.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o abacate tá caro, pensa que é o investimento pra não virar um boleto ambulante.</div>
+    </article>
+
+    <article class="receita-card" id="arroz-integral-com-feijao-preto-e-ovo-poche">
+      <h2 class="receita-titulo">Arroz Integral com Feijão Preto e Ovo Pochê</h2>
+      <p class="receita-desc">Porque sustância e equilíbrio é o que falta na vida – e no prato.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de arroz integral cozido</li>
+              <li>/2 xícara de feijão preto cozido</li>
+              <li>ovo</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o ovo pochê: ferva água, quebre o ovo numa concha e deslize na água, cozinhe por 3 minutos.</li>
+              <li>Aqueça o arroz e o feijão juntos em panela.</li>
+              <li>Sirva o arroz com feijão e coloque o ovo pochê por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o ovo desmanchar, aceita que nem tudo na vida sai perfeito, diferente do boleto que chega todo mês.</div>
+    </article>
+
+    <article class="receita-card" id="smoothie-verde-com-proteina-e-linhaca">
+      <h2 class="receita-titulo">Smoothie Verde com Proteína e Linhaça</h2>
+      <p class="receita-desc">Porque seu corpo merece um detox, mas não de boletos.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 7 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>scoop de whey protein sabor neutro</li>
+              <li>xícara de couve picada</li>
+              <li>maçã verde picada</li>
+              <li>colher de sopa de linhaça moída</li>
+              <li>ml de água de coco</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque todos os ingredientes no liquidificador.</li>
+              <li>Bata até ficar homogêneo.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o smoothie ficar verde demais, lembra que seu extrato bancário também anda meio esverdeado.</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-de-batata-doce-com-frango-desfiado">
+      <h2 class="receita-titulo">Bolinho de Batata Doce com Frango Desfiado</h2>
+      <p class="receita-desc">Porque depois do treino você merece um bolinho, não um drama.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas doces médias cozidas e amassadas</li>
+              <li>g de peito de frango desfiado</li>
+              <li>ovo</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a batata doce, frango, ovo e temperos na tigela até formar massa.</li>
+              <li>Modele bolinhos e coloque na assadeira untada.</li>
+              <li>Asse a 200°C por 25 minutos ou até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se os bolinhos grudarem, pelo menos é mais fácil do que segurar a conta no fim do mês.</div>
+    </article>
+
+    <article class="receita-card" id="wrap-integral-de-peru-com-abobrinha-grelhada">
+      <h2 class="receita-titulo">Wrap Integral de Peru com Abobrinha Grelhada</h2>
+      <p class="receita-desc">Enrole suas desculpas e coma proteína, que é pra variar o treino e a dieta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>wrap integral</li>
+              <li>g de peito de peru fatiado</li>
+              <li>/2 abobrinha fatiada e grelhada</li>
+              <li>colher de sopa de cream cheese light</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Grelhe a abobrinha até ficar macia.</li>
+              <li>Espalhe o cream cheese no wrap, coloque o peru e a abobrinha.</li>
+              <li>Enrole firme e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se enrolar errado, pelo menos você não enrola na academia igual na dieta.</div>
+    </article>
+
+    <article class="receita-card" id="crepioca-proteica-com-frango-e-requeijao">
+      <h2 class="receita-titulo">Crepioca Proteica com Frango e Requeijão</h2>
+      <p class="receita-desc">Misturando carbo e proteína pra não deixar a preguiça ganhar do shape.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 11,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de tapioca</li>
+              <li>ovo</li>
+              <li>g de frango desfiado</li>
+              <li>colher de sopa de requeijão light</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a tapioca, ovo e sal na tigela.</li>
+              <li>Aqueça a frigideira e despeje a mistura formando uma crepioca.</li>
+              <li>Quando firmar, vire, espalhe frango e requeijão, dobre e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a crepioca colar, culpa do boleto que pesa mais que a goma.</div>
+    </article>
+
+    <article class="receita-card" id="salmao-grelhado-com-batata-doce-e-brocolis">
+      <h2 class="receita-titulo">Salmão Grelhado com Batata Doce e Brócolis</h2>
+      <p class="receita-desc">Pra quem quer ser forte e bonito, e não só forte na desculpa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 38,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>filés de salmão (150 g cada)</li>
+              <li>batatas doces médias cortadas em cubos</li>
+              <li>maço de brócolis</li>
+              <li>Azeite, sal, pimenta e limão a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Asse as batatas doces em forno a 200°C por 25 minutos.</li>
+              <li>Cozinhe o brócolis no vapor até ficar macio.</li>
+              <li>Grelhe o salmão com azeite, sal, pimenta e finalize com limão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o salmão grudar na frigideira, não se preocupe, pelo menos ele não gruda nas suas contas como o boleto.</div>
+    </article>
+
+    <article class="receita-card" id="mix-de-oleaginosas-e-frutas-secas">
+      <h2 class="receita-titulo">Mix de Oleaginosas e Frutas Secas</h2>
+      <p class="receita-desc">Energia rápida pra não deixar o cansaço virar desculpa – ou será só um papo furado?</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 2 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de castanhas de caju</li>
+              <li>g de amêndoas</li>
+              <li>g de damascos secos picados</li>
+              <li>g de uvas passas</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes na tigela.</li>
+              <li>Consuma imediatamente ou leve na marmita.</li>
+              <li>Energia e praticidade para o treino e o boleto.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se faltar energia, tenta comer o boleto que ele é pesado, mas não recomendado.</div>
+    </article>
+
+    <article class="receita-card" id="panini-integral-de-frango-com-queijo-branco">
+      <h2 class="receita-titulo">Panini Integral de Frango com Queijo Branco</h2>
+      <p class="receita-desc">Pra mostrar que pão integral pode ser tão gostoso quanto aquela pizza que você prometeu não comer.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão integral</li>
+              <li>g de peito de frango cozido e desfiado</li>
+              <li>fatias de queijo branco</li>
+              <li>Orégano e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte o sanduíche com frango, queijo e orégano.</li>
+              <li>Passe azeite nas fatias e leve para o sanduicheira até dourar.</li>
+              <li>Sirva quente para não virar desculpa esfriada.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o queijo não derreter, culpa o forno, não o boleto que também nunca derrete.</div>
+    </article>
+
+    <article class="receita-card" id="bowl-de-iogurte-com-granola-proteica-e-morangos">
+      <h2 class="receita-titulo">Bowl de Iogurte com Granola Proteica e Morangos</h2>
+      <p class="receita-desc">Pra quem quer malhar e se sentir numa propaganda fitness – só que sem pagar agência.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de iogurte natural integral</li>
+              <li>colheres de sopa de granola proteica</li>
+              <li>morangos fatiados</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque o iogurte na tigela.</li>
+              <li>Adicione a granola e os morangos por cima.</li>
+              <li>Regue com mel e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a granola acabar rápido, culpa a fome, não o boleto que sempre sobra.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-frango-com-legumes-grelhados">
+      <h2 class="receita-titulo">Espetinho de Frango com Legumes Grelhados</h2>
+      <p class="receita-desc">Pra espetar a preguiça e devorar a proteína sem drama.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peito de frango em cubos</li>
+              <li>abobrinha cortada em rodelas</li>
+              <li>pimentão vermelho em cubos</li>
+              <li>Sal, pimenta e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o frango e os legumes com sal, pimenta e azeite.</li>
+              <li>Monte os espetinhos alternando frango e legumes.</li>
+              <li>Grelhe até dourar todos os lados e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o espetinho virar bagunça, lembra que o boleto vira fatura, sempre bagunça a vida.</div>
+    </article>
+
+    <article class="receita-card" id="batida-de-cacau-com-whey-e-pasta-de-amendoim">
+      <h2 class="receita-titulo">Batida de Cacau com Whey e Pasta de Amendoim</h2>
+      <p class="receita-desc">Porque quem malha merece chocolate, mas sem culpa nem chamar o boleto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 13,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>scoop de whey protein sabor chocolate</li>
+              <li>colher de sopa de pasta de amendoim natural</li>
+              <li>ml de leite desnatado</li>
+              <li>colher de chá de cacau em pó</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até ficar cremoso.</li>
+              <li>Sirva gelado para um pós-treino digno.</li>
+              <li>Aproveite sem culpa.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o amendoim acabar rápido, culpa o apetite, não o boleto que nunca acaba.</div>
+    </article>
+
+    <article class="receita-card" id="bowl-de-grao-de-bico-com-atum-e-tomate">
+      <h2 class="receita-titulo">Bowl de Grão-de-Bico com Atum e Tomate</h2>
+      <p class="receita-desc">Porque proteína vegetal e animal juntos é tipo casal que dá certo: forte e saudável.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de grão-de-bico cozido</li>
+              <li>lata de atum em água drenado</li>
+              <li>tomate picado</li>
+              <li>Salsinha, azeite, sal e limão a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o grão-de-bico, atum e tomate na tigela.</li>
+              <li>Tempere com salsinha, azeite, sal e limão.</li>
+              <li>Sirva fresco.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o grão-de-bico te deixar inchado, lembra que o boleto é que realmente pesa.</div>
+    </article>
+
+    <article class="receita-card" id="muffin-salgado-de-ovo-com-legumes">
+      <h2 class="receita-titulo">Muffin Salgado de Ovo com Legumes</h2>
+      <p class="receita-desc">Porque até os muffins querem entrar na festa do shape pós-treino.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,50</span>
+          <span class="badge">👤 6 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>/2 xícara de cenoura ralada</li>
+              <li>/2 xícara de espinafre picado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com sal e pimenta.</li>
+              <li>Misture os legumes e despeje nas formas de muffin.</li>
+              <li>Asse a 180°C por 20 minutos ou até firmar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o muffin murchar, não é você, é o boleto que sempre diminui seu salário.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-batata-doce-com-cottage-e-mel">
+      <h2 class="receita-titulo">Panqueca de Batata Doce com Cottage e Mel</h2>
+      <p class="receita-desc">Pra quem quer doce, proteína e carboidrato na mesma mordida – equilíbrio é tudo, menos no boleto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batata doce média cozida e amassada</li>
+              <li>ovos</li>
+              <li>colheres de sopa de farinha de aveia</li>
+              <li>colheres de sopa de queijo cottage</li>
+              <li>Mel para servir</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata a batata doce, ovos e farinha no liquidificador até virar massa.</li>
+              <li>Cozinhe as panquecas na frigideira até dourar dos dois lados.</li>
+              <li>Sirva com queijo cottage e mel por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a panqueca grudar, culpa a batata, não o boleto que gruda na sua mente.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-graos-com-ovo-cozido-e-abacate">
+      <h2 class="receita-titulo">Salada de Grãos com Ovo Cozido e Abacate</h2>
+      <p class="receita-desc">Porque o pós-treino também pode ser um banquete, e não só um aperto no bolso.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>/2 xícara de lentilhas cozidas</li>
+              <li>/2 xícara de grão-de-bico cozido</li>
+              <li>ovos cozidos picados</li>
+              <li>/2 abacate em cubos</li>
+              <li>Sal, azeite e limão a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture as lentilhas, grão-de-bico e ovos na tigela.</li>
+              <li>Adicione o abacate, tempere com sal, azeite e limão.</li>
+              <li>Sirva imediatamente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o abacate estiver caro, pensa que é o preço da saúde, não do boleto que só aumenta.</div>
+    </article>
+
+    <article class="receita-card" id="brownie-proteico-de-feijao-preto">
+      <h2 class="receita-titulo">Brownie Proteico de Feijão Preto</h2>
+      <p class="receita-desc">Porque até o doce pode ter proteína e salvar seu treino – e a sua alma.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de feijão preto cozido e escorrido</li>
+              <li>ovos</li>
+              <li>colheres de sopa de cacau em pó</li>
+              <li>colheres de sopa de mel</li>
+              <li>scoop de whey protein sabor chocolate</li>
+              <li>colher de chá de fermento em pó</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até virar massa homogênea.</li>
+              <li>Despeje em forma untada e asse a 180°C por 25-30 minutos.</li>
+              <li>Deixe esfriar antes de cortar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o brownie grudou na forma, lembra que boleto também gruda na conta bancária.</div>
+    </article>
+
+    <article class="receita-card" id="macarrao-integral-com-molho-de-ricota-e-espinafre">
+      <h2 class="receita-titulo">Macarrão Integral com Molho de Ricota e Espinafre</h2>
+      <p class="receita-desc">Porque carboidrato pós-treino não é vilão, é aliado de verdade – diferente do boleto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de macarrão integral</li>
+              <li>g de ricota</li>
+              <li>xícara de espinafre fresco</li>
+              <li>dente de alho picado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o macarrão conforme instruções.</li>
+              <li>Refogue o alho e o espinafre, misture a ricota até formar molho.</li>
+              <li>Misture o molho ao macarrão e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o macarrão grudar, entende que nem tudo na vida é perfeito, só o boleto que é certeza.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-de-banana-com-pasta-de-amendoim-e-canela">
+      <h2 class="receita-titulo">Tapioca de Banana com Pasta de Amendoim e Canela</h2>
+      <p class="receita-desc">O doce que malha junto com você, sem deixar a culpa bater na porta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca hidratada</li>
+              <li>banana madura fatiada</li>
+              <li>colher de sopa de pasta de amendoim natural</li>
+              <li>Canela a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça a frigideira e espalhe a goma formando uma camada fina.</li>
+              <li>Cozinhe até soltar das bordas, vire.</li>
+              <li>Recheie com banana, pasta de amendoim e canela, dobre e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a tapioca abrir, relaxa, o boleto não abre se não for pra apertar.</div>
+    </article>
+
+    <article class="receita-card" id="frango-xadrez-light-com-arroz-integral">
+      <h2 class="receita-titulo">Frango Xadrez Light com Arroz Integral</h2>
+      <p class="receita-desc">Porque até o frango quer entrar na dança do pós-treino saudável.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 26,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peito de frango em cubos</li>
+              <li>/2 pimentão verde em cubos</li>
+              <li>/2 cebola picada</li>
+              <li>colheres de sopa de molho shoyu light</li>
+              <li>xícara de arroz integral cozido</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue o frango até dourar, junte cebola e pimentão.</li>
+              <li>Adicione o molho shoyu e cozinhe até reduzir.</li>
+              <li>Sirva com arroz integral.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o frango grudar, não é você, é o boleto que gruda na consciência.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-proteina-com-recheio-de-ricota-e-espinafre">
+      <h2 class="receita-titulo">Panqueca de Proteína com Recheio de Ricota e Espinafre</h2>
+      <p class="receita-desc">Pra quem quer malhar e comer como rei, mas sem gastar como um.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>colheres de sopa de farinha de aveia</li>
+              <li>scoop de whey protein sabor neutro</li>
+              <li>g de ricota</li>
+              <li>/2 xícara de espinafre cozido e picado</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata ovos, farinha e whey até formar massa.</li>
+              <li>Cozinhe as panquecas até dourar dos dois lados.</li>
+              <li>Misture ricota e espinafre para o recheio, recheie as panquecas e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a panqueca rasgar, não desanima, o boleto sempre rasga seu orçamento.</div>
+    </article>
+
+    <article class="receita-card" id="bife-de-patinho-com-pure-de-mandioquinha">
+      <h2 class="receita-titulo">Bife de Patinho com Purê de Mandioquinha</h2>
+      <p class="receita-desc">Porque músculo precisa de carne e carboidrato, e não só de desculpas.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de bife de patinho</li>
+              <li>g de mandioquinha cozida</li>
+              <li>colher de sopa de manteiga</li>
+              <li>Sal, pimenta e alho a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere e grelhe o bife até o ponto desejado.</li>
+              <li>Amasse a mandioquinha com manteiga, sal e pimenta formando purê.</li>
+              <li>Sirva o bife acompanhado do purê.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bife grudar, não se preocupe, o boleto cola na conta igual chiclete.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-frutas-proteica-com-iogurte-e-sementes">
+      <h2 class="receita-titulo">Salada de Frutas Proteica com Iogurte e Sementes</h2>
+      <p class="receita-desc">Pra adoçar a vida sem deixar a preguiça e o boleto dominarem.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>maçã picada</li>
+              <li>banana picada</li>
+              <li>/2 xícara de morangos fatiados</li>
+              <li>g de iogurte natural</li>
+              <li>colher de sopa de sementes de chia</li>
+              <li>colher de sopa de sementes de abóbora</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture as frutas na tigela.</li>
+              <li>Adicione o iogurte e as sementes.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a fruta acabar rápido, culpa a fome, não o boleto que só aumenta.</div>
+    </article>
+
+    <article class="receita-card" id="escondidinho-de-frango-com-pure-de-batata-doce">
+      <h2 class="receita-titulo">Escondidinho de Frango com Purê de Batata Doce</h2>
+      <p class="receita-desc">Aquele conforto de mãe, mas turbinado pra pós-treino.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peito de frango desfiado</li>
+              <li>g de batata doce cozida e amassada</li>
+              <li>cebola picada</li>
+              <li>colher de sopa de azeite</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola no azeite e adicione o frango, tempere.</li>
+              <li>Coloque o frango no fundo da forma.</li>
+              <li>Espalhe o purê de batata doce por cima e leve ao forno a 180°C por 20 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o purê ficar grudando, lembra que o boleto é que gruda na mente e no bolso.</div>
+    </article>
+
+    <article class="receita-card" id="smoothie-de-morango-com-aveia-e-whey">
+      <h2 class="receita-titulo">Smoothie de Morango com Aveia e Whey</h2>
+      <p class="receita-desc">Porque até o copo pode malhar junto com você.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>scoop de whey protein sabor morango</li>
+              <li>/2 xícara de morangos congelados</li>
+              <li>colheres de sopa de aveia</li>
+              <li>ml de leite desnatado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes até ficar cremoso.</li>
+              <li>Sirva gelado.</li>
+              <li>Beba antes do sofá te abraçar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o smoothie não te animar, tenta olhar o extrato bancário, aí o ânimo é garantido... de raiva.</div>
+    </article>
+
+    <article class="receita-card" id="quiche-de-espinafre-com-massa-integral">
+      <h2 class="receita-titulo">Quiche de Espinafre com Massa Integral</h2>
+      <p class="receita-desc">Porque até o salgado pode ser saudável e ainda te ajudar no shape.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha integral</li>
+              <li>/2 xícara de manteiga gelada</li>
+              <li>ovos</li>
+              <li>xícara de espinafre cozido e picado</li>
+              <li>/2 xícara de queijo branco ralado</li>
+              <li>Sal e noz-moscada a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha e manteiga até formar farofa, acrescente água para formar massa.</li>
+              <li>Forre a forma, asse por 15 minutos a 180°C.</li>
+              <li>Bata ovos, espinafre, queijo, sal e noz-moscada, despeje sobre a massa e asse por mais 30 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a massa quebrar, lembra que boleto também quebra seu orçamento.</div>
+    </article>
+
+    <article class="receita-card" id="wrap-de-grao-de-bico-com-homus-e-pepino">
+      <h2 class="receita-titulo">Wrap de Grão-de-Bico com Homus e Pepino</h2>
+      <p class="receita-desc">Envolve a fome, a proteína e a preguiça num só pacote.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>wrap integral</li>
+              <li>/2 xícara de grão-de-bico cozido</li>
+              <li>colheres de sopa de homus</li>
+              <li>/2 pepino fatiado</li>
+              <li>Sal e limão a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata o grão-de-bico com homus, sal e limão até virar pasta.</li>
+              <li>Espalhe no wrap, adicione o pepino e enrole.</li>
+              <li>Sirva fresco.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o wrap rasgar, não é você, é o boleto que rasga seu orçamento.</div>
+    </article>
+
+    <article class="receita-card" id="omelete-com-legumes-e-queijo-cottage">
+      <h2 class="receita-titulo">Omelete com Legumes e Queijo Cottage</h2>
+      <p class="receita-desc">Pra quem quer proteína de verdade sem enrolação – só o boleto que enrola.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>/2 tomate picado</li>
+              <li>/4 cebola picada</li>
+              <li>colheres de sopa de queijo cottage</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com sal e pimenta.</li>
+              <li>Refogue os legumes na frigideira, despeje os ovos e cozinhe até firmar.</li>
+              <li>Acrescente o queijo cottage antes de dobrar e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o omelete grudar, culpa o boleto que gruda no seu bolso também.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-com-frango-desfiado-e-guacamole">
+      <h2 class="receita-titulo">Tapioca com Frango desfiado e Guacamole</h2>
+      <p class="receita-desc">Mistura brasileira com mexicana pra salvar seu pós-treino e o humor.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca hidratada</li>
+              <li>g de frango desfiado temperado</li>
+              <li>/2 abacate amassado com limão (guacamole)</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça a frigideira e espalhe a goma formando uma camada fina.</li>
+              <li>Cozinhe até soltar das bordas, vire.</li>
+              <li>Recheie com frango e guacamole, dobre e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a tapioca abrir, lembra que boleto também abre seu bolso, só que sem dó.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-lentilha-com-atum-e-tomate-cereja">
+      <h2 class="receita-titulo">Salada de Lentilha com Atum e Tomate Cereja</h2>
+      <p class="receita-desc">Porque até na salada a proteína não pode faltar – diferente do seu saldo bancário.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de lentilha cozida</li>
+              <li>lata de atum em água drenado</li>
+              <li>tomates cereja cortados ao meio</li>
+              <li>Azeite, sal e limão a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture lentilha, atum e tomates na tigela.</li>
+              <li>Tempere com azeite, sal e limão.</li>
+              <li>Sirva na hora.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a lentilha demorar pra cozinhar, pensa que seu boleto demora menos pra chegar todo mês.</div>
+    </article>
+
+    <article class="receita-card" id="smoothie-de-abacate-com-whey-e-mel">
+      <h2 class="receita-titulo">Smoothie de Abacate com Whey e Mel</h2>
+      <p class="receita-desc">O cremoso que sustenta mais que promessa de dieta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 7 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>/2 abacate maduro</li>
+              <li>scoop de whey protein sabor baunilha</li>
+              <li>colher de sopa de mel</li>
+              <li>ml de leite desnatado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes até ficar cremoso.</li>
+              <li>Sirva gelado para refrescar o pós-treino.</li>
+              <li>Aproveite a energia.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o abacate sumir do mercado, culpa o boleto, que não deixa nada barato.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-integral-com-recheio-de-cottage-e-morango">
+      <h2 class="receita-titulo">Panqueca Integral com Recheio de Cottage e Morango</h2>
+      <p class="receita-desc">Porque doce saudável é tipo boleto pago: raro, mas vale a pena.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha integral</li>
+              <li>ovo</li>
+              <li>ml de leite desnatado</li>
+              <li>g de queijo cottage</li>
+              <li>morangos fatiados</li>
+              <li>Mel para regar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, ovo e leite até formar massa.</li>
+              <li>Cozinhe as panquecas na frigideira até dourar dos dois lados.</li>
+              <li>Recheie com cottage e morangos, regue com mel e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a panqueca grudar, culpa a farinha, não o boleto que gruda no orçamento.</div>
+    </article>
+
+    <article class="receita-card" id="mix-de-proteinas-com-frutas-e-sementes">
+      <h2 class="receita-titulo">Mix de Proteínas com Frutas e Sementes</h2>
+      <p class="receita-desc">O combo pra você que quer tudo no pós-treino sem drama nem culpa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos cozidos picados</li>
+              <li>g de queijo branco em cubos</li>
+              <li>maçã picada</li>
+              <li>colher de sopa de sementes de girassol</li>
+              <li>colher de sopa de semente de chia</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes na tigela.</li>
+              <li>Sirva imediatamente.</li>
+              <li>Energia e saúde no mesmo prato.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se faltar ânimo, lembra que boleto não dá desconto, mas essa receita dá força.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

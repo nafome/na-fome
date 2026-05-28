@@ -1,0 +1,1722 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>😎 Final de Semana — Receitas NaFome</title>
+  <meta name="description" content="40 receitas para quem está na situação "Final de Semana". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/final-de-semana/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="😎 Final de Semana — Receitas NaFome">
+  <meta property="og:description" content="40 receitas para quem está na situação "Final de Semana". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/final-de-semana/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "😎 Final de Semana — NaFome",
+    "description": "40 receitas para quem está na situação "Final de Semana". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/final-de-semana/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=final-de-semana" class="btn-sortear">🎲 Sortear receita de Final de Semana</a>
+  </nav>
+
+  <div class="hero">
+    <h1>😎 Final de Semana</h1>
+    <p>40 receitas para quem está na situação "Final de Semana". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">40 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Final de Semana pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=final-de-semana" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="churrasco-de-picanha-a-desculpa-perfeita-pra-juntar-os-amigos-e-fugir-da-dieta">
+      <h2 class="receita-titulo">Churrasco de Picanha: a desculpa perfeita pra juntar os amigos e fugir da dieta</h2>
+      <p class="receita-desc">Porque nada diz ‘final de semana’ como picanha suculenta, farofa que gruda na alma e um vinagrete que engana a consciência.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 65,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 kg de picanha com aquela gordurinha marota</li>
+              <li>Sal grosso a gosto (não economia, é churrasco!)</li>
+              <li>Farinha de mandioca para a farofa – pelo menos 2 xícaras</li>
+              <li>2 colheres de manteiga ou óleo de dendê – pra farofa ficar nós trinque</li>
+              <li>1 cebola grande picada em cubos generosos (que ninguém gosta, mas tá lá pra dar sabor)</li>
+              <li>2 tomates maduros picados</li>
+              <li>1 pimentão verde picado</li>
+              <li>Cheiro-verde a gosto (pra fingir que é saudável)</li>
+              <li>Vinagre, azeite, sal e pimenta para o vinagrete</li>
+              <li>1 limão (opcional, mas põe pra fingir frescor)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Pré-aqueça a churrasqueira ou a grelha – ou a paciência dos vizinhos.</li>
+              <li>Tempere a picanha com bastante sal grosso, do jeito que o churrasqueiro raiz gosta: sem dó nem piedade. Deixe descansar enquanto a brasa pega vida.</li>
+              <li>Coloque a picanha na grelha com a gordura para baixo primeiro, escute aquele chiado que é música para os seus ouvidos.</li>
+              <li>Enquanto a carne pega um bronze, prepare o vinagrete misturando tomate, cebola, pimentão, cheiro-verde, vinagre, azeite, sal, pimenta e uma pitada de esperança.</li>
+              <li>Na panela, derreta a manteiga, refogue a cebola até ficar transparente – como as boas intenções da segunda-feira – e junte a farinha de mandioca mexendo bem até ficar com aquela cor dourada apetitosamente suspeita.</li>
+              <li>Vire a picanha na grelha para selar o outro lado, mantenha o fogo médio para não queimar e virar carvão (ninguém quer teoria do cozimento carbono em casa).</li>
+              <li>Retire a carne quando atingir o ponto desejado, deixe descansar por uns minutinhos enquanto a farofa termina de dar aquele charme.</li>
+              <li>Sirva a picanha fatiada com a farofa crocante e o vinagrete refrescante. Prepare-se para se sentir o chef menos fitness do final de semana.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a picanha não acabou, as desculpas pra beliscar até a segunda vão acabar. Aproveite e convide geral, porque engordar sozinho é sem graça!</div>
+    </article>
+
+    <article class="receita-card" id="feijoada-do-seu-fim-de-semana-so-nao-chega-quarta">
+      <h2 class="receita-titulo">Feijoada do Seu Fim de Semana: Só Não Chega Quarta!</h2>
+      <p class="receita-desc">A feijoada que transforma seu final de semana em um culto à preguiça, com direito a laranja pra tentar disfarçar a culpa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 150 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de feijão preto</li>
+              <li>200g de carne seca dessalgada</li>
+              <li>150g de costelinha de porco</li>
+              <li>150g de linguiça calabresa defumada</li>
+              <li>100g de paio</li>
+              <li>150g de bacon picado</li>
+              <li>1 cebola grande picada</li>
+              <li>4 dentes de alho amassados</li>
+              <li>2 folhas de louro</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Azeite ou óleo para refogar</li>
+              <li>1 maço de couve finamente cortada</li>
+              <li>2 laranjas cortadas em rodelas</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Deixe o feijão preto de molho por pelo menos 8 horas. Porque, vamos combinar, essa pausa é pra você preparar o útero da semana.</li>
+              <li>Cozinhe o feijão com as folhas de louro até ficar macio, mas sem virar papa - ninguém quer uma feijoada de sopa.</li>
+              <li>Enquanto isso, dessalgue a carne seca em água, trocando a água algumas vezes para tirar o sal e, de passo, paciente pra não surtar.</li>
+              <li>Em uma panela grande, refogue o bacon até soltar aquela gordura que todo mundo respeita. Depois, adicione a cebola e o alho até ficarem douradinhos, igual aquelas piadas que só melhoram com o tempo.</li>
+              <li>Junte as carnes cortadas e deixe dourar um pouco para garantir sabor e uma desculpa pra ficar perto da panela.</li>
+              <li>Acrescente o feijão cozido junto com seu caldo, tempere com sal e pimenta a gosto e deixe a feijoada apurar em fogo baixo por pelo menos 1 hora. Dá tempo até de negociar as brigas da família no almoço.</li>
+              <li>Enquanto isso, lave e corte a couve em tiras finas e refogue rapidamente em azeite com alho, só para ficar brilhando no prato.</li>
+              <li>Sirva a feijoada acompanhada da couve refogada e das fatias de laranja, que são como aquele parente que só aparece no almoço pra trazer frescor e confusão.</li>
+              <li>Prepare-se para os elogios e para o cochilo pós-almoço inevitável - tá liberado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a feijoada te deixar sem energia pra lavar a louça, chame a galera e transforme o resto do dia em um festival de quem me aguenta mais no sofá.</div>
+    </article>
+
+    <article class="receita-card" id="macarrao-bolonhesa-combo-imbativel-final-de-semana">
+      <h2 class="receita-titulo">Macarrão Bolonhesa: O Combo Imbatível do Final de Semana (Pra Querer Repetir Segunda)</h2>
+      <p class="receita-desc">Uma receita que é básicamente o abraço apertado do carboidrato com a carne moída, perfeito pra dar aquela animada no seu final de semana. Macarrão com bolonhesa caseiro, porque jantar congelado tá fora do nosso vocabulário hoje.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>300g de macarrão tipo espaguete</li>
+              <li>300g de carne moída</li>
+              <li>1 cebola média picada</li>
+              <li>2 dentes de alho picados</li>
+              <li>400g de molho de tomate (pode ser de latinha mesmo, não julgo)</li>
+              <li>1 tomate picado</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Azeite de oliva</li>
+              <li>Cheiro-verde picado (só pra fingir que é saudável)</li>
+              <li>Queijo ralado para finalizar (porque ninguém é de ferro)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque água para ferver e aproveite pra contar quantos minutos demora pra esquentar, afinal, paciência é a alma do macarrão.</li>
+              <li>Cozinhe o macarrão conforme as instruções da embalagem, ou até perceber que já não aguenta mais esperar.</li>
+              <li>Enquanto isso, aqueça o azeite numa panela e refogue a cebola e o alho – cheiro bom é sinal que tá no caminho certo.</li>
+              <li>Jogue a carne moída pra dar um mergulho na panela, mexa até ficar douradinha. Se achar que tá parecendo solo árido, tá certo.</li>
+              <li>Adicione o tomate picado e o molho de tomate, misture tudo como quem tenta juntar os pedaços do seu final de semana.</li>
+              <li>Tempere com sal e pimenta e deixe cozinhar até o molho engrossar e você perceber que já tá quase pronto pra maratona de série.</li>
+              <li>Escorra o macarrão, junte ao molho, misture tudo (com vontade) e finalize com cheiro-verde e queijo ralado. Beau-tiful!</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar, guarde na geladeira e repita a dose amanhã; afinal, final de semana é o que encanta até a preguiça.</div>
+    </article>
+
+    <article class="receita-card" id="pizza-caseira-de-calabresa-com-catupiry-porque-congelada-nao-conta">
+      <h2 class="receita-titulo">Pizza Caseira de Calabresa com Catupiry: Porque Congelada Não Conta</h2>
+      <p class="receita-desc">Nada como provar que você sobreviveu a uma pandemia de crise emocional fazendo pizza em casa — e ainda sair com orgulho da cozinha.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de farinha de trigo (ou mais, porque sempre gruda)</li>
+              <li>10g de fermento biológico seco (o que vai te transformar em padeiro)</li>
+              <li>1 colher de chá de açúcar (para animar o fermento)</li>
+              <li>1 colher de chá de sal (pra temperar a vida)</li>
+              <li>300ml de água morna (não muito quente, camarada!)</li>
+              <li>2 colheres de sopa de azeite de oliva (o óleo dos deuses)</li>
+              <li>200g de calabresa fatiada (a estrela do show)</li>
+              <li>150g de catupiry (a cobertura que abraça a alma)</li>
+              <li>200g de mussarela ralada (o complemento amigo)</li>
+              <li>Molho de tomate a gosto (a base que ninguém quer esquecer)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a farinha, fermento, açúcar e sal numa tigela grande; se a massa te desobedecer, culpe o fermento.</li>
+              <li>Adicione a água morna e o azeite, e comece a sovar até virar uma massa lisinha (ou até desistir e amar as bolhas).</li>
+              <li>Deixe a massa descansar coberta por 1 hora, enquanto você assiste Netflix fingindo que é um chef.</li>
+              <li>Abra a massa na forma com um pouco de farinha para não grudar (porque cozinheiro não é escravo do cartão).</li>
+              <li>Espalhe o molho de tomate, depois a mussarela, a calabresa e finalize com bastante catupiry, porque ninguém aqui é pão duro.</li>
+              <li>Leve ao forno preaquecido a 220°C por cerca de 20 minutos ou até a borda ficar dourada e o queijo borbulhando (pode lamber a tela do celular de ansiedade).</li>
+              <li>Retire, se segure pra não queimar o céu da boca e divirta-se porque você merece mais que entregador de pizza.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a massa não crescer, faça uma piada interna dizendo que é dieta e coma a calabresa pura mesmo.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-artesanal-para-quem-culpa-a-segunda-feira">
+      <h2 class="receita-titulo">Hambúrguer Artesanal para Quem Culpa a Segunda-feira</h2>
+      <p class="receita-desc">O hambúrguer que vai te fazer pensar duas vezes antes de reclamar da segunda-feira, porque no final de semana, a fome tem legenda.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de carne moída (patinho ou acém, porque ninguém merece gordura demais)</li>
+              <li>4 fatias de bacon (quanto mais, melhor a vida, né?)</li>
+              <li>4 fatias de queijo prato (porque cheddar é para os turistas)</li>
+              <li>1 cebola pequena picada (para chorar vendo a conta do mercado)</li>
+              <li>Sal e pimenta-do-reino a gosto (para temperar a alma)</li>
+              <li>4 pães de hambúrguer (pretinho malhado, porque o instagram manda)</li>
+              <li>Folhas de alface (sim, tem que fingir que é saudável)</li>
+              <li>1 tomate em rodelas</li>
+              <li>Maionese, ketchup e mostarda (a trindade sagrada do sanduíche)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere a carne com sal, pimenta e a cebola picada. Misture como se fosse um terapeuta ajudando na autoajuda.</li>
+              <li>Modele 4 hambúrgueres com cuidado, porque eles são praticamente seus filhos no domingo.</li>
+              <li>Frite o bacon em uma frigideira até ficar crocante, ou como chamamos, 'dor de amor' — você quer, mas sabe que vai arder.</li>
+              <li>Grelhe os hambúrgueres na mesma frigideira com o bacon para pegar sabor, e coloque as fatias de queijo por cima nos últimos minutos. Fundido é mais gostoso, a gente não está aqui para economizar amor.</li>
+              <li>Dê uma leve tostada nos pães na frigideira, afinal, crocância nunca fez mal a ninguém.</li>
+              <li>Monte o hambúrguer: pão, maionese, alface, hambúrguer com queijo, bacon, tomate, ketchup, mostarda e pão. Cuidado para não apertar demais e perder tudo pelo lado.</li>
+              <li>Sirva com aquela batata frita que você jurou que ia fazer, mas comprou congelada mesmo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bacon começar a gritar na frigideira, não é a sua culpa, é só o churrasco de domingo anunciando presença.</div>
+    </article>
+
+    <article class="receita-card" id="lasanha-de-carne-ao-molho-bechamel-falsa-gourmet-preguicoso">
+      <h2 class="receita-titulo">Lasanha de Carne ao Molho Bechamel: A Falsa Gourmet que Todo Preguiçoso Merece</h2>
+      <p class="receita-desc">A lasanha que une o desejo de comer coisa gostosa e a preguiça de gastar horas na cozinha. Porque até no final de semana merecemos parecer chefs, mesmo que o máximo que façamos seja achar o controle remoto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de carne moída (aquela que não te julga pela dieta)</li>
+              <li>1 pacote de massa para lasanha pré-cozida</li>
+              <li>2 colheres de sopa de manteiga (porque vida sem gordura não é vida)</li>
+              <li>2 colheres de sopa de farinha de trigo</li>
+              <li>500ml de leite (quase um copo do seu churrasco)</li>
+              <li>1 cebola média picada (para fingir que você está saudável)</li>
+              <li>2 dentes de alho picados</li>
+              <li>200g de queijo mussarela ralado (sem dó)</li>
+              <li>100g de queijo parmesão ralado (para se gabar pras visitas)</li>
+              <li>Sal e pimenta do reino a gosto (pra dar um tapa no visual)</li>
+              <li>Azeite para refogar (só um fio, que a gordura já é muita)</li>
+              <li>Noz-moscada ralada (pra parecer que você sabe o que está fazendo)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola e o alho no azeite até ficarem transparentes, porque ninguém merece cebola crua na lasanha.</li>
+              <li>Adicione a carne moída, temperando com sal e pimenta, e cozinhe até perder aquele tom rosado básico da carne crua.</li>
+              <li>Em outra panela, derreta a manteiga e misture a farinha, mexendo sem parar para não virar aquele mingau que a vovó não aprovaria.</li>
+              <li>Vá acrescentando o leite aos poucos, mexendo até o molho bechamel ficar lisinho, como sua desculpa para não ir à academia.</li>
+              <li>Tempere o molho com sal, pimenta e uma pitada de noz-moscada, para parecer que você está no MasterChef.</li>
+              <li>Em um refratário, faça camadas alternando massa, carne, molho bechamel e queijo mussarela ralado. Repita até acabar, terminando com bechamel e parmesão.</li>
+              <li>Leve ao forno pré-aquecido a 180°C por cerca de 30 minutos, ou até dourar e você começar a lembrar que tem um encontro depois do rango.</li>
+              <li>Espere esfriar um pouco, porque ninguém merece queimar a língua enquanto tenta parecer sofisticado no final de semana.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar, finja que é comida fitness do dia seguinte e ninguém vai te julgar por comer duas vezes.</div>
+    </article>
+
+    <article class="receita-card" id="frango-assado-de-domingo-receita-para-quem-quer-fingir-que-tem-vida-social">
+      <h2 class="receita-titulo">Frango Assado de Domingo: Receita Para Quem Quer Fingir que Tem Vida Social</h2>
+      <p class="receita-desc">O clássico frango assado de domingo, porque nada une mais a família do que um prato cheiroso e a desculpa perfeita para não lavar a louça.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 frango inteiro (aproximadamente 1,5 kg)</li>
+              <li>4 batatas médias cortadas em pedaços grandes</li>
+              <li>3 dentes de alho picados (porque amaciar o papo é importante)</li>
+              <li>Suco de 1 limão (pra dar aquela disfarçada na segunda-feira)</li>
+              <li>2 colheres de sopa de azeite de oliva</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>1 colher de chá de páprica (pra dar aquela cor de Instagram)</li>
+              <li>Alecrim fresco (opcional, mas obrigatório pra fingir que você sabe cozinhar)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave o frango e esfregue com o suco de limão. Se ele reclamar, é só ignorar.</li>
+              <li>Tempere o frango com alho, sal, pimenta e páprica - quanto mais esfrega, melhor, porque frango também precisa de carinho.</li>
+              <li>Reserve o frango enquanto você tenta convencer as batatas que elas vão virar maravilha no forno.</li>
+              <li>Pré-aqueça o forno a 200°C. O momento em que você percebe que ‘fácil’ não significa ‘instantâneo’.</li>
+              <li>Coloque o frango na assadeira, regue com azeite e espalhe as batatas ao redor, espalhando também seu talento culinário.</li>
+              <li>Jogue alecrim por cima para aquele toque sofisticado (ou pra mostrar que tentou).</li>
+              <li>Asse por cerca de 1 hora ou até o frango estar dourado e as batatas macias. Aproveite a fumaça pra lembrar que cozinhar é um investimento em wifi para chamar os amigos.</li>
+              <li>Retire do forno, espere esfriar um pouco e aproveite antes que alguém peça delivery.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se quiser impressionar, finja que colocar alecrim fresco é parte do seu ritual secreto – ninguém precisa saber que você comprou o saco no mercado.</div>
+    </article>
+
+    <article class="receita-card" id="costela-na-churrasqueira-no-bafo-a-arte-de-esperar-com-fome">
+      <h2 class="receita-titulo">Costela na Churrasqueira no Bafo: A Arte de Esperar com Fome</h2>
+      <p class="receita-desc">Costela na churrasqueira no bafo: o teste definitivo de paciência e da sua habilidade de fingir que não está morrendo de fome enquanto espera.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 240 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 70,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1,5 kg de costela bovina com osso</li>
+              <li>Sal grosso a gosto</li>
+              <li>2 folhas de louro</li>
+              <li>1 ramo de alecrim</li>
+              <li>Carvão para churrasqueira</li>
+              <li>Água para o bafo</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere a costela generosamente com sal grosso e esfregue como se estivesse tentando tirar a vontade de trabalhar na segunda-feira.</li>
+              <li>Deixe a costela descansar enquanto você monta o fogo — porque paciência é ingrediente secreto dos campeões.</li>
+              <li>Acenda a churrasqueira e, quando o carvão estiver no ponto (quase vermelho, como o seu esforço pra acordar cedo), coloque a costela na grelha lateral, longe da brasa direta.</li>
+              <li>Adicione as folhas de louro e o alecrim por cima para fingir que você entende de gastronomia.</li>
+              <li>Cerca de 300 ml de água vão para a bandeja abaixo da costela para criar aquele vapor mágico que vai fazer o “bafo” funcionar.</li>
+              <li>Feche a churrasqueira e deixe a costela cozinhar lentamente por aproximadamente 3 a 4 horas. Aproveite pra planejar sua desculpa pra não ir trabalhar amanhã.</li>
+              <li>Se precisar, vá adicionando carvão e água, porque costela no bafo é igual fila de banco: exige persistência e paciência.</li>
+              <li>Quando a carne estiver macia e quase se desfazendo ao toque do garfo, retire do fogo, arrume no prato e prepare-se para a aventura de comer com as mãos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a costela demorar muito, finja que está meditando e não só louco pra atacar a churrasqueira.</div>
+    </article>
+
+    <article class="receita-card" id="arroz-de-forno-com-frango-e-catupiry-o-curinga-do-final-de-semana">
+      <h2 class="receita-titulo">Arroz de Forno com Frango e Catupiry: O Curinga do Final de Semana</h2>
+      <p class="receita-desc">O arroz de forno que abraça sua alma no final de semana, com frango desfiado e aquele toque cremoso do Catupiry que faz tudo valer a pena.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 xícaras de arroz cozido (se sobrou, parabéns, você é esperto!)</li>
+              <li>300g de peito de frango desfiado (ou aquele franguinho que sobrou da marmita de ontem)</li>
+              <li>1 copo de requeijão Catupiry (porque final de semana merece conforto)</li>
+              <li>1/2 cebola picada</li>
+              <li>2 dentes de alho amassados</li>
+              <li>1 tomate picado</li>
+              <li>1/2 pimentão picado (se tiver, se não, relaxa)</li>
+              <li>1/2 xícara de queijo mussarela ralado</li>
+              <li>Sal e pimenta a gosto (ou mais sal, porque a vida já é amarga)</li>
+              <li>Salsinha para finalizar</li>
+              <li>Azeite para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Pré-aqueça o forno a 200°C. Se tiver preguiça, liga esse forno e relaxa um pouco.</li>
+              <li>Em uma panela, refogue a cebola e alho no azeite até ficarem douradinhos, tipo aquele crush que demora para reagir, mas quando reage, arrasa.</li>
+              <li>Adicione o frango desfiado, o tomate e o pimentão. Refogue até os vegetais ficarem macios e o frango absorver aquele temperinho maroto.</li>
+              <li>Misture o arroz cozido com o refogado de frango e vegetais. Não tem segredo, é quase como juntar peças de um quebra-cabeça que você nem sabia que sabia montar.</li>
+              <li>Acrescente o requeijão Catupiry e mexa até os pedaços de queijo começarem a se esconder no meio do arroz, prometendo aquela explosão de sabor.</li>
+              <li>Coloque a mistura em um refratário, salpique a mussarela por cima e leve ao forno para gratinar até o queijo derreter e formar aquela crostinha que brilha mais que sua vontade de lavar louça no domingo.</li>
+              <li>Finalize com salsinha picada para dar aquela cara de chef e... pronto! Só sentar e aproveitar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se estiver na dúvida entre pedir delivery ou fazer, lembre: 40 minutos de forno valem muito mais que 40 minutos de conversa estranha com o entregador!</div>
+    </article>
+
+    <article class="receita-card" id="coxinha-de-frango-com-catupiry-fuga-perfeita-da-dieta">
+      <h2 class="receita-titulo">Coxinha de Frango com Catupiry: A Fuga Perfeita da Dieta no Final de Semana</h2>
+      <p class="receita-desc">A coxinha que vai salvar seu final de semana, porque afinal, dieta em dia só na segunda... Quem aguenta essa delícia com Catupiry e uma pitada de culpa gostosa?</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 12 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de peito de frango desfiado</li>
+              <li>1 cebola média picada</li>
+              <li>2 dentes de alho picados</li>
+              <li>1 colher de sopa de óleo</li>
+              <li>500ml de caldo de frango</li>
+              <li>2 xícaras de farinha de trigo</li>
+              <li>1 xícara de leite</li>
+              <li>2 colheres de sopa de manteiga</li>
+              <li>sal e pimenta-do-reino a gosto</li>
+              <li>200g de Catupiry</li>
+              <li>3 ovos para empanar</li>
+              <li>farinha de rosca para empanar</li>
+              <li>óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola e o alho no óleo até ficarem dourados.</li>
+              <li>Acrescente o frango desfiado, tempere com sal e pimenta e refogue por mais 5 minutos.</li>
+              <li>Em uma panela, aqueça o caldo de frango com leite e manteiga.</li>
+              <li>Adicione a farinha de trigo de uma vez, mexendo vigorosamente até formar uma massa homogênea e que desgrude do fundo.</li>
+              <li>Deixe a massa esfriar um pouco para não queimar as mãos.</li>
+              <li>Pegue porções da massa, abra na mão, coloque uma colher de frango e uma porção generosa de Catupiry no centro.</li>
+              <li>Feche a massa formando a coxinha (tipo um gota), aperte bem para não vazar o recheio.</li>
+              <li>Passe as coxinhas nos ovos batidos e depois na farinha de rosca.</li>
+              <li>Frite em óleo quente até dourar e escorra em papel absorvente.</li>
+              <li>Sirva quente para evitar brigas familiares pelo último salgadinho.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se você achar que está demais fritar, só lembre que o sofrimento da dieta vale cada mordida. E o óleo? Esse é o tempero secreto da felicidade.</div>
+    </article>
+
+    <article class="receita-card" id="pizza-de-sofa-pronta-em-20-minutos">
+      <h2 class="receita-titulo">Pizza de Sofá: Pronta em 20 Minutos (ou Menos!)</h2>
+      <p class="receita-desc">A pizza perfeita para o final de semana quando o plano é só o sofá, a TV e você não levantando nem para o telefone. Rápida, gostosa e com um toque de preguiça gourmet.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 massa pronta para pizza</li>
+              <li>200g de molho de tomate</li>
+              <li>150g de queijo mussarela ralado</li>
+              <li>50g de pepperoni fatiado</li>
+              <li>Orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Abra a massa e imagine que ela é seu convite para a preguiça. Espalhe o molho de tomate com amor (ou preguiça mesmo).</li>
+              <li>Jogue o queijo por cima como se fosse confete na festa do seu sofá.</li>
+              <li>Coloque o pepperoni só para dar aquele drama.</li>
+              <li>Polvilhe orégano como se fosse seu tempero da vida.</li>
+              <li>Leve ao forno pré-aquecido a 220°C por 15 minutos ou até o queijo falar 'estou derretendo de emoção'.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se quiser impressionar, faça a pizza com uma mão só e a outra segurando o controle remoto.</div>
+    </article>
+
+    <article class="receita-card" id="batata-frita-da-preguica-crocante-sem-esforco">
+      <h2 class="receita-titulo">Batata Frita da Preguiça: Crocante sem Esforço</h2>
+      <p class="receita-desc">Para aqueles dias que você só quer um prato e três dedos de batata frita para acompanhar o seriado da vez. Crocante, simples e com zero culpa (a gente finge).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>4 batatas grandes</li>
+              <li>Óleo para fritar</li>
+              <li>Sal a gosto</li>
+              <li>Páprica doce (opcional)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Descasque as batatas, ou não, se quiser algo rústico e desleixado.</li>
+              <li>Corte em palitos como se estivesse praticando para o campeonato mundial de cortar batata.</li>
+              <li>Frite em óleo quente até dourar, mas sem perder o controle emocional.</li>
+              <li>Escorra o óleo e jogue sal e páprica como se estivesse temperando sua vida.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a batata queimar, finja que é estilo rústico gourmet e venda para os amigos.</div>
+    </article>
+
+    <article class="receita-card" id="macarrao-do-desespero-10-minutos-para-salvar-seu-fim-de-semana">
+      <h2 class="receita-titulo">Macarrão do Desespero: 10 Minutos para Salvar seu Fim de Semana</h2>
+      <p class="receita-desc">Quando a fome bate na porta e você não quer inventar moda, o macarrão do desespero é seu melhor amigo. Rápido, saboroso e com cara de zero esforço.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>250g de macarrão tipo espaguete</li>
+              <li>2 dentes de alho picados</li>
+              <li>Azeite de oliva</li>
+              <li>Pimenta do reino</li>
+              <li>Queijo parmesão ralado</li>
+              <li>Sal</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o macarrão conforme a embalagem enquanto mentaliza o final de semana perfeito.</li>
+              <li>Em uma frigideira, esquente o azeite e doure o alho - sem deixar queimar, ou seu final de semana vai virar fumaça.</li>
+              <li>Misture o macarrão escorrido com o alho e azeite, tempere com sal e pimenta como se tivesse falando com seu chefe.</li>
+              <li>Finalize com parmesão e sorria, você merece.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Diga para os amigos que é receita de chef, ninguém precisa saber que é só alho e massa.</div>
+    </article>
+
+    <article class="receita-card" id="frango-a-moda-esqueci-na-geladeira">
+      <h2 class="receita-titulo">Frango à Moda 'Esqueci na Geladeira'</h2>
+      <p class="receita-desc">Ideal para quando o frango está esquecido na geladeira e você decide salvá-lo com estilo e sabor. Simples, barato e com gosto de vitória.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de peito de frango em cubos</li>
+              <li>1 cebola picada</li>
+              <li>2 tomates maduros</li>
+              <li>Sal e pimenta do reino</li>
+              <li>Cheiro verde</li>
+              <li>Azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola no azeite até ela contar todos os seus segredos.</li>
+              <li>Adicione o frango e deixe dourar, tentando não queimar (mas se queimar, finge que é defumado).</li>
+              <li>Junte os tomates picados, tempere com sal e pimenta e deixe cozinhar até o frango estar macio.</li>
+              <li>Finalize com cheiro verde para dar aquele ar de 'eu sei cozinhar'.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Use o cheiro verde para parecer que passou horas cozinhando, mesmo que tenha sido só 30 minutos.</div>
+    </article>
+
+    <article class="receita-card" id="omelete-da-sorte-acerta-sempre-no-sabor">
+      <h2 class="receita-titulo">Omelete da Sorte: Acerta Sempre no Sabor</h2>
+      <p class="receita-desc">A omelete que vai fazer você sentir que ganhou na loteria do sabor, sem precisar sair de casa ou gastar muito.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>3 ovos</li>
+              <li>100g de queijo mussarela</li>
+              <li>1 tomate picado</li>
+              <li>Sal e pimenta</li>
+              <li>Manteiga</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos como se estivesse aplaudindo sua própria vida.</li>
+              <li>Adicione o queijo e o tomate, tempere com sal e pimenta.</li>
+              <li>Derreta a manteiga na frigideira e despeje a mistura com a confiança de um chef.</li>
+              <li>Cozinhe até firmar e vire com a habilidade de quem não quer sujar a cozinha.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a omelete quebrar, diga que é um 'omelete artesanal' e que a imperfeição é tendência.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-do-futuro-facil-rapido-e-imbativel">
+      <h2 class="receita-titulo">Sanduíche do Futuro: Fácil, Rápido e Imbatível</h2>
+      <p class="receita-desc">O sanduíche que o futuro aprova: simples, prático e pronto para te salvar no final de semana mais corrido.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 fatias de pão de forma</li>
+              <li>2 fatias de presunto</li>
+              <li>2 fatias de queijo prato</li>
+              <li>Maionese</li>
+              <li>Alface e tomate</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Passe maionese nas fatias de pão como se estivesse pintando a tela da sua fome.</li>
+              <li>Monte o sanduíche com presunto, queijo, alface e tomate com a precisão de um arquiteto faminto.</li>
+              <li>Se quiser, aqueça na sanduicheira para derreter o queijo e o coração.</li>
+              <li>Coma antes que o mundo acabe (ou a fome volte).</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Use a mão dominante para montar e a outra para segurar o celular. Multitarefa é tudo!</div>
+    </article>
+
+    <article class="receita-card" id="salada-do-chef-desorganizado">
+      <h2 class="receita-titulo">Salada do Chef Desorganizado</h2>
+      <p class="receita-desc">Para quem quer comer leve no final de semana, mas não quer perder tempo nem paciência. Saúde e preguiça em um prato só.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 alface americana</li>
+              <li>1 cenoura ralada</li>
+              <li>Tomates cereja</li>
+              <li>Azeite, vinagre e sal</li>
+              <li>Queijo branco em cubos</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Puxe as folhas de alface e imagine que está colhendo ouro verde.</li>
+              <li>Rale a cenoura como se estivesse moendo sua preguiça.</li>
+              <li>Misture tudo com os tomates cereja e o queijo.</li>
+              <li>Tempere com azeite, vinagre e sal na dose do 'mais ou menos que fica bom'.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se faltar tempero, finja que é minimalismo gastronômico.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-de-caneca-da-desesperanca">
+      <h2 class="receita-titulo">Bolo de Caneca da Desesperança</h2>
+      <p class="receita-desc">Quando a vontade de bolo é urgente e a paciência para fazer é zero, este bolo de caneca salva o dia (e a alma).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 3,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>4 colheres de sopa de farinha de trigo</li>
+              <li>4 colheres de sopa de açúcar</li>
+              <li>2 colheres de sopa de chocolate em pó</li>
+              <li>1 ovo</li>
+              <li>3 colheres de sopa de leite</li>
+              <li>3 colheres de sopa de óleo</li>
+              <li>1 colher de chá de fermento em pó</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture tudo na caneca como se fosse mágica (e é mesmo, da preguiça).</li>
+              <li>Coloque no micro-ondas por 3 minutos e torça para não transbordar.</li>
+              <li>Espere esfriar para não virar Frankenstein do bolo.</li>
+              <li>Coma direto na caneca, porque louça extra não dá.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bolo ficar duro, finja que é bolo de astronauta: compacto e resistente.</div>
+    </article>
+
+    <article class="receita-card" id="escondidinho-do-final-de-semana">
+      <h2 class="receita-titulo">Escondidinho do Final de Semana: Porque Sim!</h2>
+      <p class="receita-desc">Escondidinho que é puro conforto e que vai fazer seu final de semana mais feliz, mesmo que você só queira maratonar séries.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de carne moída</li>
+              <li>500g de mandioca cozida</li>
+              <li>1 cebola picada</li>
+              <li>100g de queijo coalho ralado</li>
+              <li>Sal, pimenta e azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola até ela chorar (de felicidade).</li>
+              <li>Adicione a carne moída e tempere com sal e pimenta a gosto.</li>
+              <li>Amasse a mandioca cozida até virar um purê liso como a sua desculpa para não cozinhar.</li>
+              <li>Em um refratário, faça uma camada de purê, depois a carne e cubra com o restante do purê.</li>
+              <li>Polvilhe queijo coalho e leve ao forno a 200°C até dourar como aquele seu amigo que nunca chega atrasado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o purê ficar muito duro, chame de 'textura interessante' e siga feliz.</div>
+    </article>
+
+    <article class="receita-card" id="crepioca-do-amor-proprio">
+      <h2 class="receita-titulo">Crepioca do Amor Próprio</h2>
+      <p class="receita-desc">Crepioca para quem sabe que o melhor investimento do final de semana é em si mesmo. Prático, gostoso e com muito estilo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 ovos</li>
+              <li>2 colheres de sopa de tapioca</li>
+              <li>Sal a gosto</li>
+              <li>Recheio de sua preferência (queijo, presunto, tomate)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture os ovos com a tapioca e o sal como se estivesse preparando sua autoestima.</li>
+              <li>Despeje a mistura na frigideira quente e espalhe com amor.</li>
+              <li>Quando firmar, coloque o recheio que você ama (ou tem na geladeira).</li>
+              <li>Dobre a crepioca e cozinhe mais um minutinho para fechar esse amor.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se queimar a crepioca, só coloque mais recheio que ninguém vai perceber.</div>
+    </article>
+
+    <article class="receita-card" id="pizza-de-sofa-domingo-relaxar">
+      <h2 class="receita-titulo">Pizza de Sofá: Porque Domingo é pra Relaxar e Comer</h2>
+      <p class="receita-desc">A pizza de sofá é perfeita pra quem quer um final de semana gostoso sem levantar do lugar. Fácil, rápida e com aquele gostinho de preguiça que só domingo entende.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 massa pronta para pizza (300g)</li>
+              <li>100g mussarela ralada</li>
+              <li>50g presunto fatiado</li>
+              <li>Molho de tomate (100g)</li>
+              <li>Orégano a gosto</li>
+              <li>Azeitonas pretas</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Abra a massa como se estivesse esticando sua preguiça dominical.</li>
+              <li>Espalhe o molho de tomate com o mesmo amor que você joga a zapeada no controle remoto.</li>
+              <li>Coloque a mussarela e o presunto, porque domingo merece queijo e carne, não só Wi-Fi.</li>
+              <li>Salpique orégano e azeitonas – ou seja, o tempero do seu drama de final de semana.</li>
+              <li>Leve ao forno pré-aquecido a 200°C por 15 minutos (ou até ficar douradinha como seu bronzeado de férias).</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se quiser impressionar na preguiça, peça delivery; se quiser impressionar na cozinha, faça você mesmo e conte como foi difícil.</div>
+    </article>
+
+    <article class="receita-card" id="coxinha-fim-de-semana">
+      <h2 class="receita-titulo">Coxinha do Fim de Semana: Porque Saudade de Festa é Dor de Estômago</h2>
+      <p class="receita-desc">A coxinha do fim de semana é a resposta saborosa para o dilema: 'Quero festa, mas só na minha cozinha mesmo'.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g peito de frango desfiado</li>
+              <li>1 pacote de massa para coxinha pronta</li>
+              <li>Caldo de galinha (1 cubo)</li>
+              <li>Farinha de trigo (200g)</li>
+              <li>Óleo para fritar</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o frango desfiado com caldo, sal e pimenta – faça essa reflexão profunda sobre a vida enquanto cozinha.</li>
+              <li>Prepare a massa conforme as instruções: aquela parte chata que você vai fingir que é mágica.</li>
+              <li>Modele as coxinhas com vontade, lembrando das festas que você não foi por causa do trabalho.</li>
+              <li>Frite em óleo quente até dourar – cuidado pra não se queimar, que não é final de semana pra hospital.</li>
+              <li>Sirva quente e se sinta o rei da festa em casa.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar coxinha, use o poder da geladeira pra esconder a culpa até a próxima festa.</div>
+    </article>
+
+    <article class="receita-card" id="escondidinho-mandioca-final-de-semana">
+      <h2 class="receita-titulo">Escondidinho de Mandioca: O Tesouro Escondido do Seu Sofá</h2>
+      <p class="receita-desc">O escondidinho é o prato que esconde a fome e revela o sabor. Perfeito pra final de semana quando você quer algo que parece chique, mas é só mandioca com carinho.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 19,90</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g mandioca cozida</li>
+              <li>300g carne moída</li>
+              <li>1 cebola picada</li>
+              <li>2 dentes de alho</li>
+              <li>100g queijo coalho ralado</li>
+              <li>Sal, pimenta e cheiro-verde</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Amasse a mandioca como se estivesse amassando os problemas da semana.</li>
+              <li>Refogue a carne com cebola e alho, porque até final de semana tem que ter tempero.</li>
+              <li>Misture o queijo ralado na mandioca – a parte que vai fazer você achar que sabe cozinhar.</li>
+              <li>Em um refratário, coloque a carne, cubra com o purê de mandioca e finalize com queijo por cima.</li>
+              <li>Leve ao forno a 180°C por 20 minutos até gratinar e soltar aquele cheiro que atrai até vizinho.</li>
+              <li>Coma com vontade, porque escondidinho é como a felicidade: melhor quando é bem recheada.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a mandioca estiver dura, coloque um pouco de água no cozimento – ninguém merece dente quebrado no fim de semana.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-sofrimento-final-de-semana">
+      <h2 class="receita-titulo">Sanduíche do Sofrimento: Porque Segunda-feira Tá Longe Ainda</h2>
+      <p class="receita-desc">O sanduíche do sofrimento é simples, mas cheio de sentimento. Perfeito pra quando o domingo pede conforto e você só tem 10 minutos pra cozinhar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 fatias de pão de forma</li>
+              <li>2 ovos</li>
+              <li>1 fatia de queijo prato</li>
+              <li>1 colher de manteiga</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Frite os ovos com cuidado, porque domingo já tem drama suficiente.</li>
+              <li>Passe manteiga nas fatias de pão com a dedicação que falta na sua vida.</li>
+              <li>Monte o sanduíche com ovo e queijo, porque nada mais simples merece tanto amor.</li>
+              <li>Se quiser emoção, coloque pimenta – ou não, domingo já é picante o suficiente.</li>
+              <li>Pressione na frigideira por 3 minutos para ficar dourado, como o sol que não quer aparecer.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se errar o ponto do ovo, fale que é estilo gourmet e ninguém vai contestar.</div>
+    </article>
+
+    <article class="receita-card" id="batata-rustica-preguicoso">
+      <h2 class="receita-titulo">Batata Rústica do Preguiçoso: Crispy sem Stress</h2>
+      <p class="receita-desc">Batata rústica é o petisco que fala 'Eu tentei ser saudável', mas tem sal e gordura suficientes para te fazer feliz.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,50</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>4 batatas médias</li>
+              <li>Azeite de oliva</li>
+              <li>Sal grosso</li>
+              <li>Alecrim fresco (opcional)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave bem as batatas e corte em palitos, como se estivesse cortando a preguiça em pedaços.</li>
+              <li>Misture as batatas com azeite, sal grosso e alecrim – porque até preguiçoso merece aroma.</li>
+              <li>Espalhe em uma assadeira sem encostar uma na outra, para não virar purê sem aviso.</li>
+              <li>Asse em forno pré-aquecido a 220°C por 30 minutos, virando na metade, enquanto maratona sua série favorita.</li>
+              <li>Coma com ketchup ou mostarda, ou com o que tiver na geladeira – ninguém vai julgar no domingo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se quiser crocância extra, deixe as batatas de molho em água fria por 20 minutos antes de assar.</div>
+    </article>
+
+    <article class="receita-card" id="esfiha-sabado-preguica">
+      <h2 class="receita-titulo">Esfiha do Sábado: Oriente-se para a Preguiça</h2>
+      <p class="receita-desc">A esfiha é a desculpa perfeita pra ligar o forno e esquecer os boletos por um tempinho.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h 10 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g farinha de trigo</li>
+              <li>1 sachê de fermento biológico seco</li>
+              <li>300ml água morna</li>
+              <li>250g carne moída</li>
+              <li>1 cebola picada</li>
+              <li>Sal, pimenta, e temperos a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, fermento e água para fazer a massa – a receita do sucesso e da fome.</li>
+              <li>Deixe a massa crescer enquanto imagina onde poderia estar se não estivesse cozinhando.</li>
+              <li>Refogue a carne com cebola e temperos até perder a vontade de reclamar da vida.</li>
+              <li>Abra a massa, recheie com carne, feche como se estivesse escondendo seus problemas e asse a 200°C por 25 minutos.</li>
+              <li>Sirva quente e engane a mente dizendo que você está em uma viagem gastronômica.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se tiver pressa, compre massa pronta para pastel e asse ao invés de fritar – assim perde menos tempo chorando.</div>
+    </article>
+
+    <article class="receita-card" id="crepioca-ressaca-free">
+      <h2 class="receita-titulo">Crepioca do Ressaca-Free: A Salvação do Domingo</h2>
+      <p class="receita-desc">Crepioca é o brunch do final de semana que fala 'Eu tô bem', mesmo que a cabeça peça pizza.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 ovos</li>
+              <li>2 colheres de sopa de goma de tapioca</li>
+              <li>Queijo minas fresco</li>
+              <li>Sal e orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com a goma de tapioca até a preguiça desaparecer (ou quase).</li>
+              <li>Tempere com sal e orégano, porque até na ressaca a gente merece um sabor.</li>
+              <li>Despeje na frigideira antiaderente quente e deixe cozinhar até firmar.</li>
+              <li>Coloque o queijo minas, dobre a crepioca e espere o queijo derreter – a paciência é o segredo.</li>
+              <li>Coma com um copo de água (e tente não pensar na ressaca).</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Para ressaca, evite café e prefira suco de laranja – mas se for pra tomar, que seja com crepioca.</div>
+    </article>
+
+    <article class="receita-card" id="macarrao-desespero-final-de-semana">
+      <h2 class="receita-titulo">Macarrão do Desespero: É Só Jogar no Prato e Chorar</h2>
+      <p class="receita-desc">Macarrão do desespero é a receita que salva qualquer final de semana sem inspiração e com fome urgente.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>250g macarrão espaguete</li>
+              <li>1 lata de molho de tomate</li>
+              <li>1 dente de alho</li>
+              <li>Queijo parmesão ralado</li>
+              <li>Sal e pimenta</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o macarrão até ficar ‘al dente’, igual aquele fim de semana que você quer esticar.</li>
+              <li>Refogue o alho no azeite com a mesma intensidade que você evita problemas.</li>
+              <li>Acrescente o molho de tomate, sal, pimenta e faça uma prece para que tudo dê certo.</li>
+              <li>Misture o espaguete com o molho, como quem tenta juntar os pedaços da semana.</li>
+              <li>Sirva com parmesão e um sorriso torto.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se quiser dar um upgrade, jogue umas azeitonas ou manjericão – ou pelo menos finja que está chique.</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-chuva-cafe-domingo">
+      <h2 class="receita-titulo">Bolinho de Chuva com Café: O Abraço Quentinho do Domingo</h2>
+      <p class="receita-desc">Bolinho de chuva é o conforto em formato frito, perfeito para acompanhar histórias de domingo e café forte.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,50</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 xícara de farinha de trigo</li>
+              <li>1 ovo</li>
+              <li>1/2 xícara de leite</li>
+              <li>2 colheres de açúcar</li>
+              <li>1 colher de fermento em pó</li>
+              <li>Canela em pó</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a farinha, açúcar, ovo, leite e fermento até formar uma massa meio preguiçosa.</li>
+              <li>Aqueça o óleo e jogue colheradas da massa para fritar – cuidado para não se queimar, afinal, domingo não é dia de hospital.</li>
+              <li>Quando dourar, retire e passe na canela em pó como se estivesse dando carinho nos bolinhos.</li>
+              <li>Sirva com uma xícara de café para aquele combo campeão de final de semana.</li>
+              <li>Coma rápido antes que alguém perceba que você fez em casa.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se quiser bolinho mais fofinho, bata as claras em neve antes de misturar à massa.</div>
+    </article>
+
+    <article class="receita-card" id="churrasco-varanda-final-de-semana">
+      <h2 class="receita-titulo">Churrasco de Varanda: Porque o Vizinho Também Quer</h2>
+      <p class="receita-desc">Churrasco de varanda é a solução simples e social para um final de semana que quer agito, mas não quer sair de casa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 45,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g linguiça toscana</li>
+              <li>300g picanha fatiada</li>
+              <li>Pão francês</li>
+              <li>Vinagrete (tomate, cebola, cheiro-verde, azeite e vinagre)</li>
+              <li>Sal grosso</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere a picanha com sal grosso e tente não fazer churrasco na chuva (mas a vida é assim).</li>
+              <li>Acenda a churrasqueira ou use a chapa elétrica, porque ninguém aguenta mais desculpa.</li>
+              <li>Grelhe a linguiça e a picanha até ficarem douradas, como seu bronzeado imaginário.</li>
+              <li>Monte os sanduíches com pão francês, carne e vinagrete, chamando os vizinhos para a festa grátis.</li>
+              <li>Coma com cerveja (ou refrigerante, se for mais saudável) e dê risada da vida que é dura mas saborosa.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o vizinho reclamar do cheiro, ofereça um pedaço – o silêncio tem preço.</div>
+    </article>
+
+    <article class="receita-card" id="frango-a-la-preguica-do-domingo">
+      <h2 class="receita-titulo">Frango à la preguiça do domingo</h2>
+      <p class="receita-desc">Um frango tão fácil e gostoso que até sua preguiça vai querer levantar do sofá só para provar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 peito de frango</li>
+              <li>2 dentes de alho</li>
+              <li>suco de 1 limão</li>
+              <li>sal a gosto</li>
+              <li>azeite de oliva</li>
+              <li>orégano</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o frango enquanto finge que está na praia, com alho, limão, sal e orégano.</li>
+              <li>Deixe na geladeira dormir a sesta por 30 minutos.</li>
+              <li>Aqueça o azeite e cozinhe o frango até ficar douradinho, igual aquele seu bronzeado de verão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o frango falar que está cansado, diga que é só um tempero!</div>
+    </article>
+
+    <article class="receita-card" id="macarrao-do-desespero-gourmet">
+      <h2 class="receita-titulo">Macarrão do desespero gourmet</h2>
+      <p class="receita-desc">Para aqueles momentos em que só o macarrão salva sua alma e seu estômago no final de semana.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>250g de macarrão espaguete</li>
+              <li>molho de tomate pronto</li>
+              <li>1 cebola picada</li>
+              <li>2 dentes de alho</li>
+              <li>queijo ralado</li>
+              <li>sal e pimenta</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o macarrão como se estivesse fugindo da segunda-feira.</li>
+              <li>Refogue cebola e alho enquanto pensa na vida.</li>
+              <li>Junte o molho pronto, misture e jogue tudo no macarrão.</li>
+              <li>Finaliza com queijo ralado, que é a parte feliz da receita.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Quer impressionar? Diga que o molho foi feito com lágrimas de chef.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-do-crush-que-nao-atende">
+      <h2 class="receita-titulo">Sanduíche do crush que não atende</h2>
+      <p class="receita-desc">Um sanduíche simples, mas que simboliza a mistura de esperança e ansiedade do final de semana.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 fatias de pão de forma</li>
+              <li>2 fatias de queijo muçarela</li>
+              <li>2 fatias de presunto</li>
+              <li>manteiga</li>
+              <li>tomate fatiado</li>
+              <li>folhas de alface</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Passe manteiga no pão, como quem espalha sua sinceridade.</li>
+              <li>Monte o sanduíche com queijo, presunto, tomate e alface. Se o crush não atender, pelo menos o sanduíche sim.</li>
+              <li>Leve para a frigideira quente até derreter o queijo, igual seu coração quando ele responde.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o crush não atender, pelo menos o sanduíche vai te responder com sabor.</div>
+    </article>
+
+    <article class="receita-card" id="pizza-de-frigideira-do-nao-quero-sair-hoje">
+      <h2 class="receita-titulo">Pizza de frigideira do 'não quero sair hoje'</h2>
+      <p class="receita-desc">Perfeita para quem quer pizza sem sair de casa, porque o sofá é o verdadeiro amor do final de semana.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 pão sírio</li>
+              <li>molho de tomate</li>
+              <li>200g de muçarela ralada</li>
+              <li>orégano</li>
+              <li>azeitona</li>
+              <li>presunto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Abra seu pão sírio e espalhe o molho de tomate como quem espalha memes pelo grupo da família.</li>
+              <li>Cubra com muçarela, presunto e azeitonas, porque até o sal precisa de companhia.</li>
+              <li>Leve ao fogo baixo na frigideira tampada até o queijo derreter, igual sua vontade de trabalhar na segunda.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a pizza grudar, lembre-se: amor próprio também é não grudar em ninguém.</div>
+    </article>
+
+    <article class="receita-card" id="ovo-mexido-a-la-acordei-assim-mesmo">
+      <h2 class="receita-titulo">Ovo mexido à la 'acordei assim mesmo'</h2>
+      <p class="receita-desc">O clássico ovo mexido que combina com aquela cara de quem não quer saber de nada no sábado.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>3 ovos</li>
+              <li>sal</li>
+              <li>pimenta do reino</li>
+              <li>manteiga</li>
+              <li>cebolinha picada</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Quebre os ovos com a mesma energia que você quebrou a rotina essa manhã.</li>
+              <li>Bata com sal e pimenta, mas sem perder a classe.</li>
+              <li>Derreta manteiga na frigideira e mexa os ovos como quem mexe na vida: devagar e com gosto.</li>
+              <li>Finalize com cebolinha para parecer que você realmente se esforçou.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se errar, diga que é receita experimental, que tá na moda.</div>
+    </article>
+
+    <article class="receita-card" id="batata-rustica-do-sofa-vip">
+      <h2 class="receita-titulo">Batata rústica do sofá VIP</h2>
+      <p class="receita-desc">Batata que combina com aquele final de semana onde o sofá é seu melhor amigo e a preguiça sua musa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>4 batatas médias</li>
+              <li>azeite</li>
+              <li>sal grosso</li>
+              <li>alecrim</li>
+              <li>páprica doce</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte as batatas em pedaços grandes, como seus planos de viagem que estão na gaveta.</li>
+              <li>Misture com azeite, sal, alecrim e páprica para dar aquele tchan gourmet.</li>
+              <li>Asse no forno pré-aquecido a 200°C por 40 minutos, e aproveite para maratonar sua série preferida.</li>
+              <li>Lembre de virar as batatas, porque até elas merecem atenção.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se quiser crocância extra, cure a batata com elogios antes de assar.</div>
+    </article>
+
+    <article class="receita-card" id="salada-da-vergonha">
+      <h2 class="receita-titulo">Salada da vergonha (porque ninguém quer, mas faz)</h2>
+      <p class="receita-desc">Aquela salada que você faz para se sentir saudável, mas só pensa no brigadeiro escondido na geladeira.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>alface americana</li>
+              <li>tomate cereja</li>
+              <li>cenoura ralada</li>
+              <li>azeite</li>
+              <li>vinagre balsâmico</li>
+              <li>sal</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave a alface como quem lava a alma depois da sexta-feira.</li>
+              <li>Corte os tomates e misture com cenoura ralada, porque cor faz bem para o feed do Instagram.</li>
+              <li>Regue com azeite e vinagre, salpique sal e mexa com vontade, mesmo que o coração peça pizza.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Faça careta para a salada, afinal, ela merece o drama.</div>
+    </article>
+
+    <article class="receita-card" id="arroz-a-la-so-hoje-chef-do-sofa">
+      <h2 class="receita-titulo">Arroz à la 'só hoje, chef do sofá'</h2>
+      <p class="receita-desc">Arroz básico, mas feito com tanto amor que até o delivery vai ficar com inveja do seu prato.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 3,50</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 xícara de arroz</li>
+              <li>2 xícaras de água</li>
+              <li>1 dente de alho</li>
+              <li>1 colher de óleo</li>
+              <li>sal</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue o alho no óleo até o cheiro invadir a casa e os vizinhos pedirem ingresso.</li>
+              <li>Junte o arroz, mexa como quem dança em festa de família.</li>
+              <li>Adicione a água e sal, tampe e deixe cozinhar até o arroz virar aquele tapete macio.</li>
+              <li>Mexa com jeitinho para não acordar o vizinho do lado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se passar do ponto, diga que é arroz cremoso, versão chef preguiçoso.</div>
+    </article>
+
+    <article class="receita-card" id="feijoada-da-ressaca-invisivel">
+      <h2 class="receita-titulo">Feijoada da ressaca invisível</h2>
+      <p class="receita-desc">A feijoada que cura qualquer ressaca, inclusive a invisível da vida adulta no final de semana.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 2h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>300g de feijão preto</li>
+              <li>200g de carne seca</li>
+              <li>100g de linguiça calabresa</li>
+              <li>1 laranja</li>
+              <li>arroz branco</li>
+              <li>farofa pronta</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Deixe o feijão de molho e a preguiça de molho também.</li>
+              <li>Cozinhe as carnes até ficarem macias como abraço de vó.</li>
+              <li>Junte o feijão e deixe ferver até tudo virar uma mistura de amor e gordura.</li>
+              <li>Sirva com arroz, farofa e a laranja para disfarçar a culpa.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não economize na laranja, ela é o antidepressivo natural da feijoada.</div>
+    </article>
+
+    <article class="receita-card" id="brigadeiro-de-panela-para-final-de-semana-com-plot-twist">
+      <h2 class="receita-titulo">Brigadeiro de panela para final de semana com plot twist</h2>
+      <p class="receita-desc">O clássico brigadeiro que transforma qualquer domingo em festa, mesmo que seja só na sua cabeça.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 lata de leite condensado</li>
+              <li>2 colheres de chocolate em pó</li>
+              <li>1 colher de manteiga</li>
+              <li>granulado para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture leite condensado, chocolate em pó e manteiga na panela, como se fosse contar um segredo.</li>
+              <li>Cozinhe em fogo médio e mexa sem parar até desgrudar do fundo, igual aquele papo de final de festa.</li>
+              <li>Deixe esfriar um pouco e divida em potinhos para não acabar rápido demais.</li>
+              <li>Finaliza com granulado para fingir que é sofisticado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se acabar rápido, culpa o amor (e seus amigos).</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

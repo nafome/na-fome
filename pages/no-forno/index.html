@@ -1,0 +1,1566 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🔆 No Forno — Receitas NaFome</title>
+  <meta name="description" content="38 receitas para quem está na situação "No Forno". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/no-forno/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🔆 No Forno — Receitas NaFome">
+  <meta property="og:description" content="38 receitas para quem está na situação "No Forno". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/no-forno/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🔆 No Forno — NaFome",
+    "description": "38 receitas para quem está na situação "No Forno". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/no-forno/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=no-forno" class="btn-sortear">🎲 Sortear receita de No Forno</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🔆 No Forno</h1>
+    <p>38 receitas para quem está na situação "No Forno". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">38 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de No Forno pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=no-forno" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="frango-cremoso-com-batata-rustica-ao-forno">
+      <h2 class="receita-titulo">Frango Cremoso com Batata Rústica ao Forno</h2>
+      <p class="receita-desc">Porque nada une mais que frango e batata, igual boleto e conta atrasada.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de coxa e sobrecoxa de frango</li>
+              <li>batatas médias cortadas em palitos rústicos</li>
+              <li>copo de creme de leite</li>
+              <li>g de queijo mussarela ralado</li>
+              <li>dentes de alho picados</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para regar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o frango com alho, sal, pimenta e deixe marinando por 15 minutos.</li>
+              <li>Em uma assadeira, distribua as batatas, regue com azeite e tempere com sal.</li>
+              <li>Coloque o frango sobre as batatas, cubra com o creme de leite e polvilhe o queijo.</li>
+              <li>Cubra com papel alumínio e leve ao forno pré-aquecido a 200°C por 30 minutos.</li>
+              <li>Retire o papel alumínio e deixe dourar por mais 10 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o frango demorar a dourar, finja que está esperando o boleto chegar: paciência é o segredo.</div>
+    </article>
+
+    <article class="receita-card" id="lasanha-de-berinjela-low-carb">
+      <h2 class="receita-titulo">Lasanha de Berinjela Low Carb</h2>
+      <p class="receita-desc">Pra quem quer jantar leve, mas não quer jantar tristeza.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>berinjelas médias cortadas em fatias finas</li>
+              <li>g de carne moída magra</li>
+              <li>xícara de molho de tomate caseiro</li>
+              <li>g de queijo ricota</li>
+              <li>g de queijo parmesão ralado</li>
+              <li>dente de alho picado</li>
+              <li>Sal, pimenta e orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Grelhe as fatias de berinjela em frigideira com um pouco de azeite até amolecer.</li>
+              <li>Refogue a carne com alho, sal, pimenta e adicione o molho de tomate.</li>
+              <li>Em uma forma, monte camadas alternadas: berinjela, carne, ricota e repita.</li>
+              <li>Finalize com parmesão ralado e leve ao forno a 180°C por 30 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Essa lasanha é tão leve que até sua consciência vai pedir bis, diferente da conta do cartão.</div>
+    </article>
+
+    <article class="receita-card" id="torta-de-frango-com-catupiry">
+      <h2 class="receita-titulo">Torta de Frango com Catupiry</h2>
+      <p class="receita-desc">Porque na vida adulta, catupiry é o equivalente ao abraço apertado.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de farinha de trigo</li>
+              <li>g de manteiga gelada</li>
+              <li>ovo</li>
+              <li>g de peito de frango desfiado</li>
+              <li>g de catupiry</li>
+              <li>cebola picada</li>
+              <li>dentes de alho</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>colher de sopa de óleo</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a farinha, manteiga e ovo até formar uma massa homogênea; reserve na geladeira.</li>
+              <li>Refogue cebola e alho no óleo, adicione o frango desfiado, tempere e desligue o fogo.</li>
+              <li>Abra metade da massa na forma, espalhe o frango e o catupiry por cima.</li>
+              <li>Cubra com o restante da massa, pincele com ovo batido e leve ao forno a 180°C por 40 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a massa quebrar, não chore; lembre-se que na vida adulta, às vezes até a massa é difícil de segurar.</div>
+    </article>
+
+    <article class="receita-card" id="batata-recheada-com-bacon-e-queijo">
+      <h2 class="receita-titulo">Batata Recheada com Bacon e Queijo</h2>
+      <p class="receita-desc">A batata que é mais recheada que sua agenda de reuniões.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas grandes</li>
+              <li>g de bacon picado</li>
+              <li>g de queijo cheddar ralado</li>
+              <li>colheres de creme de leite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave as batatas e asse inteiras a 200°C por 50 minutos.</li>
+              <li>Corte uma tampa nas batatas e retire o miolo com cuidado.</li>
+              <li>Misture o miolo com bacon, queijo, creme de leite, sal e pimenta.</li>
+              <li>Recheie as batatas, polvilhe mais queijo e leve ao forno por mais 15 minutos para gratinar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a batata não ficar macia, não se preocupe, pelo menos o boleto venceu no prazo, né?</div>
+    </article>
+
+    <article class="receita-card" id="peixe-ao-forno-com-crosta-de-ervas">
+      <h2 class="receita-titulo">Peixe ao Forno com Crosta de Ervas</h2>
+      <p class="receita-desc">Pra quem quer jantar saudável, mas com sabor que não parece dieta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>filés de tilápia</li>
+              <li>colheres de sopa de farinha de amêndoas</li>
+              <li>colher de sopa de salsa picada</li>
+              <li>colher de sopa de cebolinha picada</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para pincelar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere os filés com sal, pimenta e limão, deixe descansar por 10 minutos.</li>
+              <li>Misture a farinha de amêndoas com as ervas.</li>
+              <li>Pincele azeite sobre os filés e pressione a mistura de ervas para formar a crosta.</li>
+              <li>Leve ao forno a 180°C por 20 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o peixe grudar na forma, pense que é igual relacionamento complicado: só solta quando quer.</div>
+    </article>
+
+    <article class="receita-card" id="escondidinho-de-carne-seca-com-pure-de-mandioquinha">
+      <h2 class="receita-titulo">Escondidinho de Carne Seca com Purê de Mandioquinha</h2>
+      <p class="receita-desc">A única coisa escondida aqui é a vontade de dividir.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de carne seca dessalgada e desfiada</li>
+              <li>g de mandioquinha</li>
+              <li>cebola picada</li>
+              <li>dentes de alho</li>
+              <li>ml de leite</li>
+              <li>colheres de sopa de manteiga</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a mandioquinha até ficar macia; amasse com leite, manteiga, sal e pimenta até virar purê.</li>
+              <li>Refogue a cebola e o alho, junte a carne seca e deixe apurar.</li>
+              <li>Em uma assadeira, coloque metade do purê, a carne refogada e cubra com o restante do purê.</li>
+              <li>Leve ao forno a 180°C por 25 minutos até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar escondidinho, guarde; igual dívida, só cresce se ignorar.</div>
+    </article>
+
+    <article class="receita-card" id="quiche-de-espinafre-com-queijo-feta">
+      <h2 class="receita-titulo">Quiche de Espinafre com Queijo Feta</h2>
+      <p class="receita-desc">Pra impressionar sem precisar fazer stand-up no jantar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h10 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 33,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>massa podre pronta</li>
+              <li>g de espinafre cozido e escorrido</li>
+              <li>g de queijo feta esfarelado</li>
+              <li>ovos</li>
+              <li>ml de creme de leite</li>
+              <li>Sal, pimenta e noz-moscada a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Forre a forma com a massa e pré-asse por 10 minutos a 180°C.</li>
+              <li>Misture ovos, creme de leite, espinafre, queijo e temperos.</li>
+              <li>Despeje o recheio na massa e asse por mais 35 minutos até firmar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o recheio ficar líquido, não entre em pânico; na vida, também tem dias que a gente vaza.</div>
+    </article>
+
+    <article class="receita-card" id="pizza-caseira-de-massa-integral">
+      <h2 class="receita-titulo">Pizza Caseira de Massa Integral</h2>
+      <p class="receita-desc">Pra provar que integral pode ser tão gostoso quanto boleto integral.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 27,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de farinha de trigo integral</li>
+              <li>colher de chá de fermento biológico seco</li>
+              <li>colher de chá de açúcar</li>
+              <li>colher de sopa de azeite</li>
+              <li>/2 xícara de água morna</li>
+              <li>g de molho de tomate</li>
+              <li>g de queijo mussarela</li>
+              <li>Orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture fermento, açúcar e água; deixe ativar por 10 minutos.</li>
+              <li>Acrescente farinha e azeite, sovando até formar uma massa lisa; deixe crescer por 40 minutos.</li>
+              <li>Abra a massa, espalhe molho, queijo e orégano.</li>
+              <li>Leve ao forno a 220°C por 20 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Massa integral é igual boleto pago: dá trabalho, mas a sensação no final é maravilhosa.</div>
+    </article>
+
+    <article class="receita-card" id="mousse-de-chocolate-assado-no-forno">
+      <h2 class="receita-titulo">Mousse de Chocolate Assado no Forno</h2>
+      <p class="receita-desc">Pra quem quer docinho, mas sem sujar o fogão inteiro.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de chocolate meio amargo</li>
+              <li>ovos separados (gemas e claras)</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>pitada de sal</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta o chocolate em banho-maria.</li>
+              <li>Bata as gemas com metade do açúcar até formar um creme claro.</li>
+              <li>Bata as claras em neve com sal e o restante do açúcar.</li>
+              <li>Misture o chocolate com as gemas e incorpore delicadamente as claras.</li>
+              <li>Despeje em tigelas e asse em banho-maria a 160°C por 20 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mousse de forno é igual amor adulto: parece leve, mas precisa de paciência para não desandar.</div>
+    </article>
+
+    <article class="receita-card" id="pimentao-recheado-com-arroz-e-carne-moida">
+      <h2 class="receita-titulo">Pimentão Recheado com Arroz e Carne Moída</h2>
+      <p class="receita-desc">Porque até pimentão merece um recheio digno, diferente do WhatsApp da família.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 24,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pimentões grandes</li>
+              <li>g de carne moída</li>
+              <li>xícara de arroz cozido</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho, acrescente a carne, tempere e cozinhe até dourar.</li>
+              <li>Misture a carne com o arroz e cheiro-verde.</li>
+              <li>Corte a tampa dos pimentões, retire as sementes e recheie com a mistura.</li>
+              <li>Coloque na assadeira, cubra com papel alumínio e asse a 180°C por 30 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o pimentão ficar mole demais, pense que nem só boleto estraga seu dia.</div>
+    </article>
+
+    <article class="receita-card" id="batata-doce-gratinada-com-queijo-e-alecrim">
+      <h2 class="receita-titulo">Batata Doce Gratinada com Queijo e Alecrim</h2>
+      <p class="receita-desc">Pra quem quer carboidrato, mas com classe de jantar chique.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de batata doce em rodelas finas</li>
+              <li>g de queijo prato ralado</li>
+              <li>ml de creme de leite</li>
+              <li>ramo de alecrim fresco picado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em tigela, misture creme de leite, alecrim, sal e pimenta.</li>
+              <li>Em uma assadeira, coloque camadas de batata doce e creme.</li>
+              <li>Finalize com queijo ralado e leve ao forno a 180°C por 40 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a batata não gratinar, culpe o forno, não o boleto atrasado.</div>
+    </article>
+
+    <article class="receita-card" id="peito-de-peru-assado-com-molho-de-laranja">
+      <h2 class="receita-titulo">Peito de Peru Assado com Molho de Laranja</h2>
+      <p class="receita-desc">Para quem quer impressionar no jantar sem precisar virar cozinheiro de novela.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 45,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de peito de peru</li>
+              <li>Suco de 3 laranjas</li>
+              <li>colheres de mel</li>
+              <li>Sal, pimenta e tomilho a gosto</li>
+              <li>dentes de alho picados</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o peito de peru com sal, pimenta, alho e tomilho.</li>
+              <li>Misture o suco de laranja com mel e reserve.</li>
+              <li>Coloque o peito na assadeira, pincele com o molho e asse a 180°C por 1h.</li>
+              <li>A cada 20 minutos, pincele o molho para criar uma camada brilhante.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o peito ficar seco, pelo menos o boleto não vai embora, né?</div>
+    </article>
+
+    <article class="receita-card" id="abobrinha-recheada-com-ricota-e-tomate-seco">
+      <h2 class="receita-titulo">Abobrinha Recheada com Ricota e Tomate Seco</h2>
+      <p class="receita-desc">A abobrinha que é mais recheada que sua caixa de entrada de e-mails.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 55 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 26,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abobrinhas médias cortadas ao meio e sem miolo</li>
+              <li>g de ricota esfarelada</li>
+              <li>g de tomate seco picado</li>
+              <li>dente de alho picado</li>
+              <li>Sal, pimenta e manjericão a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture ricota, tomate seco, alho e temperos.</li>
+              <li>Recheie as abobrinhas e coloque na assadeira.</li>
+              <li>Leve ao forno a 180°C por 30 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o recheio escapar, não se preocupe, até boleto some às vezes.</div>
+    </article>
+
+    <article class="receita-card" id="canelone-de-ricota-com-espinafre-ao-forno">
+      <h2 class="receita-titulo">Canelone de Ricota com Espinafre ao Forno</h2>
+      <p class="receita-desc">Pra quem quer jantar saudável, mas não quer parecer coelhinho triste.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h10 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 34,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>unidades de massa para canelone</li>
+              <li>g de ricota</li>
+              <li>g de espinafre cozido e picado</li>
+              <li>ml de molho branco</li>
+              <li>g de queijo parmesão ralado</li>
+              <li>Sal e noz-moscada a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture ricota, espinafre, sal e noz-moscada.</li>
+              <li>Recheie as massas e enrole os canelones.</li>
+              <li>Coloque-os na assadeira, cubra com molho branco e parmesão.</li>
+              <li>Asse a 180°C por 40 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o molho talhar, lembre-se: na vida, nem tudo sai perfeito, mas o boleto não perdoa.</div>
+    </article>
+
+    <article class="receita-card" id="pao-de-alho-recheado-com-queijo-no-forno">
+      <h2 class="receita-titulo">Pão de Alho Recheado com Queijo no Forno</h2>
+      <p class="receita-desc">O pão que é mais recheado que sua cabeça de preocupações.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pão francês grande ou pão baguete</li>
+              <li>g de manteiga</li>
+              <li>dentes de alho picados</li>
+              <li>g de queijo mussarela ralado</li>
+              <li>Salsa picada a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture manteiga, alho e salsa.</li>
+              <li>Corte o pão em fatias sem separar totalmente.</li>
+              <li>Passe a manteiga entre as fatias e recheie com queijo.</li>
+              <li>Leve ao forno a 180°C por 20 minutos até derreter o queijo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o pão queimar, pense que nem todo boleto vence na data.</div>
+    </article>
+
+    <article class="receita-card" id="file-de-salmao-com-crosta-de-mostarda-e-mel">
+      <h2 class="receita-titulo">Filé de Salmão com Crosta de Mostarda e Mel</h2>
+      <p class="receita-desc">Pra quem quer um jantar digno, mas não quer virar MasterChef (ainda).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 50,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>filés de salmão</li>
+              <li>colheres de sopa de mostarda Dijon</li>
+              <li>colher de sopa de mel</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture mostarda, mel, sal e pimenta.</li>
+              <li>Espalhe a mistura sobre os filés.</li>
+              <li>Asse a 180°C por 20 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o salmão grudar na forma, a culpa não é sua, é da vida grudenta igual boleto atrasado.</div>
+    </article>
+
+    <article class="receita-card" id="gratinado-de-couve-flor-com-queijo-e-bacon">
+      <h2 class="receita-titulo">Gratinado de Couve-Flor com Queijo e Bacon</h2>
+      <p class="receita-desc">Porque até a couve-flor merece um tratamento VIP.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 27,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>couve-flor média em buquês</li>
+              <li>g de bacon picado</li>
+              <li>g de queijo mussarela ralado</li>
+              <li>ml de creme de leite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a couve-flor até ficar al dente.</li>
+              <li>Frite o bacon até ficar crocante.</li>
+              <li>Em uma assadeira, misture couve-flor, bacon, creme e metade do queijo.</li>
+              <li>Cubra com o restante do queijo e asse a 180°C por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o queijo não gratinar, culpa o forno, não a sua vida que já é cheia de perrengue.</div>
+    </article>
+
+    <article class="receita-card" id="empadao-de-palmito-com-massa-crocante">
+      <h2 class="receita-titulo">Empadão de Palmito com Massa Crocante</h2>
+      <p class="receita-desc">Porque nem só de boletos e problemas vive o adulto.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 38,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de farinha de trigo</li>
+              <li>g de manteiga gelada</li>
+              <li>ovo</li>
+              <li>g de palmito picado</li>
+              <li>cebola picada</li>
+              <li>dentes de alho</li>
+              <li>ml de creme de leite</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, manteiga e ovo até formar massa; deixe gelar por 30 minutos.</li>
+              <li>Refogue cebola e alho, junte o palmito, tempere e adicione creme de leite.</li>
+              <li>Forre a forma com metade da massa, coloque o recheio e cubra com o restante.</li>
+              <li>Pincele com ovo batido e asse a 180°C por 45 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a massa quebrar, oferece um cafezinho, que amizade também se conserta assim.</div>
+    </article>
+
+    <article class="receita-card" id="cuscuz-paulista-assado-no-forno">
+      <h2 class="receita-titulo">Cuscuz Paulista Assado no Forno</h2>
+      <p class="receita-desc">Aquele cuscuz que não desmancha, igual promessa de político.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 29,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de farinha de milho flocada</li>
+              <li>g de peixe desfiado cozido</li>
+              <li>cebola picada</li>
+              <li>tomate picado</li>
+              <li>/2 pimentão picado</li>
+              <li>/2 xícara de ervilhas</li>
+              <li>ovos cozidos picados</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola, tomate e pimentão; acrescente o peixe e ervilhas.</li>
+              <li>Misture a farinha com o refogado, ajustando com água para umedecer.</li>
+              <li>Coloque em assadeira, decore com ovos e leve ao forno a 180°C por 35 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o cuscuz grudar, pense que na vida adulta, às vezes só sobra grudado boleto e saudade.</div>
+    </article>
+
+    <article class="receita-card" id="escondidinho-de-lentilha-com-pure-de-abobora">
+      <h2 class="receita-titulo">Escondidinho de Lentilha com Purê de Abóbora</h2>
+      <p class="receita-desc">Vegetariano, gostoso e tão útil quanto pagar as contas em dia.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h10 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de lentilha cozida</li>
+              <li>g de abóbora cozida e amassada</li>
+              <li>cebola picada</li>
+              <li>dentes de alho</li>
+              <li>ml de creme de leite</li>
+              <li>Sal, pimenta e noz-moscada a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho, misture a lentilha e tempere.</li>
+              <li>Misture abóbora com creme de leite, sal, pimenta e noz-moscada.</li>
+              <li>Em assadeira, coloque lentilha e cubra com purê.</li>
+              <li>Asse a 180°C por 30 minutos até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o purê ficar muito firme, relaxa; até boleto às vezes dá uma desandada.</div>
+    </article>
+
+    <article class="receita-card" id="frango-a-parmegiana-no-forno">
+      <h2 class="receita-titulo">Frango à Parmegiana no Forno</h2>
+      <p class="receita-desc">Porque frango frito é para os fortes, e assado para os espertos.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>filés de peito de frango</li>
+              <li>xícara de farinha de rosca</li>
+              <li>ovos batidos</li>
+              <li>g de molho de tomate</li>
+              <li>g de queijo mussarela ralado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o frango, passe nos ovos e depois na farinha de rosca.</li>
+              <li>Coloque em assadeira e asse a 200°C por 25 minutos.</li>
+              <li>Cubra com molho de tomate e queijo, leve ao forno por mais 10 minutos para gratinar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Frango à parmegiana é igual boleto: melhor pagar antes que acumule.</div>
+    </article>
+
+    <article class="receita-card" id="pao-de-queijo-assado-com-recheio-de-goiabada">
+      <h2 class="receita-titulo">Pão de Queijo Assado com Recheio de Goiabada</h2>
+      <p class="receita-desc">A mistura que é mais inesperada que boleto no meio do mês.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 12 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de polvilho azedo</li>
+              <li>ml de leite</li>
+              <li>ml de óleo</li>
+              <li>ovos</li>
+              <li>g de queijo meia cura ralado</li>
+              <li>Goiabada em cubos para rechear</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva leite, óleo e sal; despeje sobre o polvilho, mexa e deixe esfriar.</li>
+              <li>Acrescente ovos e queijo, misture até formar massa.</li>
+              <li>Faça bolinhas, abra e recheie com goiabada.</li>
+              <li>Feche e asse a 180°C por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o recheio vazar, não chora; nem todo boleto cabe no orçamento.</div>
+    </article>
+
+    <article class="receita-card" id="legumes-assados-com-ervas-finas">
+      <h2 class="receita-titulo">Legumes Assados com Ervas Finas</h2>
+      <p class="receita-desc">Porque às vezes a vida pede só um descanso e um forno ligado.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abobrinha cortada em rodelas</li>
+              <li>berinjela em cubos</li>
+              <li>cenouras em rodelas</li>
+              <li>cebola roxa em pétalas</li>
+              <li>Azeite, sal, pimenta e ervas finas a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture os legumes com azeite e temperos.</li>
+              <li>Espalhe na assadeira e asse a 200°C por 30 minutos, mexendo na metade do tempo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se os legumes queimarem, lembre-se: até o boleto queima a paciência.</div>
+    </article>
+
+    <article class="receita-card" id="coracao-de-frango-ao-forno-com-batatas">
+      <h2 class="receita-titulo">Coração de Frango ao Forno com Batatas</h2>
+      <p class="receita-desc">Porque coração não é só para sentimental, também é para quem gosta de petiscar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h10 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de coração de frango limpo</li>
+              <li>batatas médias em cubos</li>
+              <li>dentes de alho picados</li>
+              <li>Sal, pimenta e páprica a gosto</li>
+              <li>Azeite para regar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere coração com alho, sal, pimenta e páprica.</li>
+              <li>Misture batatas com azeite e sal.</li>
+              <li>Em assadeira, disponha coração e batatas.</li>
+              <li>Asse a 200°C por 50 minutos, mexendo na metade do tempo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o coração resistir, lembre-se que boletos também não querem ser pagos.</div>
+    </article>
+
+    <article class="receita-card" id="torta-de-maca-com-massa-folhada">
+      <h2 class="receita-titulo">Torta de Maçã com Massa Folhada</h2>
+      <p class="receita-desc">Pra adoçar a vida sem precisar de piada pronta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 6 fatias</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pacote de massa folhada pronta</li>
+              <li>maçãs descascadas e fatiadas</li>
+              <li>/2 xícara de açúcar mascavo</li>
+              <li>colher de chá de canela</li>
+              <li>Suco de 1 limão</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture maçãs com açúcar, canela e limão.</li>
+              <li>Forre a forma com a massa, coloque as maçãs e cubra com outra camada de massa.</li>
+              <li>Faça furos na massa superior e asse a 180°C por 40 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a torta desmanchar, relaxa; até boleto já desmanchou sua paciência.</div>
+    </article>
+
+    <article class="receita-card" id="berinjela-parmegiana-ao-forno">
+      <h2 class="receita-titulo">Berinjela Parmegiana ao Forno</h2>
+      <p class="receita-desc">Pra provar que vegetariano também sabe ser gourmet e sarcástico.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 29,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>berinjelas cortadas em fatias</li>
+              <li>ml de molho de tomate</li>
+              <li>g de queijo mussarela ralado</li>
+              <li>xícara de farinha de rosca</li>
+              <li>ovos batidos</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere as berinjelas com sal e deixe escorrer por 20 minutos.</li>
+              <li>Passe as fatias nos ovos e depois na farinha de rosca.</li>
+              <li>Frite rapidamente para dourar e escorra o excesso de óleo.</li>
+              <li>Monte em assadeira: berinjela, molho e queijo.</li>
+              <li>Asse a 180°C por 30 minutos até gratinar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a berinjela soltar água, lembra que até boleto às vezes vaza.</div>
+    </article>
+
+    <article class="receita-card" id="mandioquinha-assada-com-alecrim-e-alho">
+      <h2 class="receita-titulo">Mandioquinha Assada com Alecrim e Alho</h2>
+      <p class="receita-desc">Pra quem quer acompanhamento, mas não quer conversa fiada.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de mandioquinha cortada em palitos</li>
+              <li>dentes de alho picados</li>
+              <li>ramos de alecrim</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture mandioquinha, alho, alecrim, azeite, sal e pimenta.</li>
+              <li>Espalhe na assadeira e asse a 200°C por 35 minutos, mexendo na metade do tempo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a mandioquinha não dourar, não se preocupe, boleto não tem dó.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-forno-com-recheio-de-carne-e-queijo">
+      <h2 class="receita-titulo">Panqueca de Forno com Recheio de Carne e Queijo</h2>
+      <p class="receita-desc">Pra quem quer panqueca sem precisar de chapa – e sem desculpas.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de trigo</li>
+              <li>ovo</li>
+              <li>xícara de leite</li>
+              <li>g de carne moída</li>
+              <li>g de queijo mussarela ralado</li>
+              <li>Sal, pimenta e temperos a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Prepare a massa da panqueca batendo farinha, ovo e leite.</li>
+              <li>Cozinhe a carne moída com temperos.</li>
+              <li>Em forma, faça camadas de massa, carne e queijo.</li>
+              <li>Leve ao forno a 180°C por 40 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a panqueca grudar, pense que até boleto quer te prender.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-legumes-e-queijo-assado">
+      <h2 class="receita-titulo">Espetinho de Legumes e Queijo Assado</h2>
+      <p class="receita-desc">Pra quem gosta de petisco saudável e tem pouco tempo pra drama.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abobrinha cortada em cubos</li>
+              <li>pimentão vermelho em cubos</li>
+              <li>g de queijo coalho em cubos</li>
+              <li>Azeite, sal, pimenta e orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte espetinhos alternando legumes e queijo.</li>
+              <li>Regue com azeite e tempere.</li>
+              <li>Asse a 200°C por 25 minutos, virando na metade do tempo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o queijo não derreter, pense que pelo menos boleto não derrete seu coração.</div>
+    </article>
+
+    <article class="receita-card" id="pao-doce-de-forno-com-canela-e-acucar">
+      <h2 class="receita-titulo">Pão Doce de Forno com Canela e Açúcar</h2>
+      <p class="receita-desc">Pra adoçar a vida e esquecer o extrato bancário.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 10 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de farinha de trigo</li>
+              <li>/2 xícara de açúcar</li>
+              <li>ovo</li>
+              <li>/2 xícara de leite morno</li>
+              <li>colher de sopa de fermento biológico seco</li>
+              <li>colheres de sopa de manteiga derretida</li>
+              <li>Canela e açúcar para polvilhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ative o fermento no leite com açúcar por 10 minutos.</li>
+              <li>Misture farinha, ovo, manteiga e fermento até formar massa; deixe crescer 40 minutos.</li>
+              <li>Abra a massa, polvilhe açúcar e canela, enrole e coloque na forma.</li>
+              <li>Deixe crescer mais 20 minutos e asse a 180°C por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o pão não crescer, não se desespere; na vida, só boleto cresce rápido demais.</div>
+    </article>
+
+    <article class="receita-card" id="batata-gratinada-com-creme-de-alho-e-parmesao">
+      <h2 class="receita-titulo">Batata Gratinada com Creme de Alho e Parmesão</h2>
+      <p class="receita-desc">Pra quem quer carboidrato com direito a glamour.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de batatas em rodelas finas</li>
+              <li>ml de creme de leite</li>
+              <li>dentes de alho picados</li>
+              <li>g de queijo parmesão ralado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture creme de leite, alho, sal e pimenta.</li>
+              <li>Em assadeira, faça camadas de batata e creme.</li>
+              <li>Finalize com parmesão e asse a 180°C por 40 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a batata não gratinar, finge que é boleto atrasado: só aparece quando quer.</div>
+    </article>
+
+    <article class="receita-card" id="fricasse-de-frango-no-forno">
+      <h2 class="receita-titulo">Fricassê de Frango no Forno</h2>
+      <p class="receita-desc">Porque não dá pra ser adulto sem um fricassê na vida.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de peito de frango desfiado</li>
+              <li>lata de milho verde</li>
+              <li>copo de requeijão cremoso</li>
+              <li>ml de creme de leite</li>
+              <li>Batata palha para finalizar</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture frango, milho, requeijão e creme de leite; tempere.</li>
+              <li>Coloque em assadeira e leve ao forno a 180°C por 30 minutos.</li>
+              <li>Retire do forno e cubra com batata palha antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar batata, come assim mesmo; na vida adulta, sobra sempre boleto.</div>
+    </article>
+
+    <article class="receita-card" id="torta-de-legumes-com-massa-integral">
+      <h2 class="receita-titulo">Torta de Legumes com Massa Integral</h2>
+      <p class="receita-desc">Pra quem quer saúde, mas não quer abrir mão do sabor.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de farinha de trigo integral</li>
+              <li>g de manteiga gelada</li>
+              <li>ovo</li>
+              <li>cenoura ralada</li>
+              <li>abobrinha ralada</li>
+              <li>cebola picada</li>
+              <li>ovos</li>
+              <li>ml de creme de leite</li>
+              <li>Sal e temperos a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, manteiga e ovo até formar massa; leve à geladeira por 30 min.</li>
+              <li>Refogue cenoura, abobrinha e cebola; tempere.</li>
+              <li>Bata ovos com creme e sal.</li>
+              <li>Forre a forma com a massa, coloque legumes e cubra com a mistura de ovos.</li>
+              <li>Asse a 180°C por 40 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a massa quebrar, oferece um cafezinho; relacionamento com massa é igual boleto: tem altos e baixos.</div>
+    </article>
+
+    <article class="receita-card" id="peito-de-frango-recheado-com-espinafre-e-queijo">
+      <h2 class="receita-titulo">Peito de Frango Recheado com Espinafre e Queijo</h2>
+      <p class="receita-desc">Porque frango sem graça não tem vez na vida adulta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 33,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>filés de peito de frango</li>
+              <li>g de espinafre cozido e picado</li>
+              <li>g de queijo mussarela</li>
+              <li>Sal, pimenta e alho a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Abra um bolso nos filés, tempere com sal e pimenta.</li>
+              <li>Recheie com espinafre e queijo, feche com palitos.</li>
+              <li>Coloque na assadeira, regue com azeite e asse a 180°C por 40 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o recheio escapar, lembra que até boleto às vezes foge da conta.</div>
+    </article>
+
+    <article class="receita-card" id="escondidinho-de-batata-com-carne-moida-e-queijo">
+      <h2 class="receita-titulo">Escondidinho de Batata com Carne Moída e Queijo</h2>
+      <p class="receita-desc">A desculpa perfeita para comer purê e carne juntos sem culpa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg de batatas</li>
+              <li>g de carne moída</li>
+              <li>g de queijo mussarela ralado</li>
+              <li>cebola picada</li>
+              <li>dentes de alho</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe batatas e faça purê com manteiga, sal e leite.</li>
+              <li>Refogue cebola, alho e carne até dourar; tempere.</li>
+              <li>Em assadeira, coloque metade do purê, a carne e o restante do purê.</li>
+              <li>Cubra com queijo e asse a 180°C por 30 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar escondidinho, guarda; igual boleto, a gente tenta esconder mas sempre aparece.</div>
+    </article>
+
+    <article class="receita-card" id="pao-de-batata-assado-com-recheio-de-presunto-e-queijo">
+      <h2 class="receita-titulo">Pão de Batata Assado com Recheio de Presunto e Queijo</h2>
+      <p class="receita-desc">O lanche que é mais aconchego que abraço de mãe.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de batata cozida e amassada</li>
+              <li>xícaras de farinha de trigo</li>
+              <li>ovo</li>
+              <li>fatias de presunto</li>
+              <li>fatias de queijo mussarela</li>
+              <li>Sal e fermento a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture batata, farinha, ovo, fermento e sal até formar massa; deixe crescer 40 minutos.</li>
+              <li>Abra a massa, corte em pedaços, recheie com presunto e queijo, feche.</li>
+              <li>Coloque na assadeira e asse a 180°C por 30 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o pão ficar duro, pense que nem todo boleto é fácil de engolir.</div>
+    </article>
+
+    <article class="receita-card" id="couve-flor-a-milanesa-assada-no-forno">
+      <h2 class="receita-titulo">Couve-Flor à Milanesa Assada no Forno</h2>
+      <p class="receita-desc">Pra quem quer crocância sem fritura e sem culpa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>couve-flor média em floretes</li>
+              <li>ovos batidos</li>
+              <li>xícara de farinha de rosca</li>
+              <li>Sal, pimenta e páprica a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere a couve-flor com sal, pimenta e páprica.</li>
+              <li>Passe nos ovos e depois na farinha de rosca.</li>
+              <li>Disponha na assadeira e asse a 200°C por 35 minutos, virando na metade do tempo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se não ficar crocante, finge que é boleto: só aparece quando quer dar trabalho.</div>
+    </article>
+
+    <article class="receita-card" id="pave-de-chocolate-no-forno">
+      <h2 class="receita-titulo">Pavê de Chocolate no Forno</h2>
+      <p class="receita-desc">Sobremesa que é quase um milagre para quem não sabe fazer pudim.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de biscoito maisena</li>
+              <li>ml de creme de leite</li>
+              <li>g de chocolate meio amargo</li>
+              <li>ovos separados</li>
+              <li>/2 xícara de açúcar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta o chocolate em banho-maria.</li>
+              <li>Bata as gemas com açúcar até clarear, misture ao chocolate.</li>
+              <li>Bata as claras em neve e incorpore delicadamente.</li>
+              <li>Monte camadas de biscoito e creme em refratário.</li>
+              <li>Asse em banho-maria a 160°C por 30 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o pavê não firmar, lembra que boleto também não tem compromisso.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

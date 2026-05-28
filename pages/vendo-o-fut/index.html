@@ -1,0 +1,1625 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>⚽ Vendo o Fut — Receitas NaFome</title>
+  <meta name="description" content="42 receitas para quem está na situação "Vendo o Fut". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/vendo-o-fut/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="⚽ Vendo o Fut — Receitas NaFome">
+  <meta property="og:description" content="42 receitas para quem está na situação "Vendo o Fut". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/vendo-o-fut/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "⚽ Vendo o Fut — NaFome",
+    "description": "42 receitas para quem está na situação "Vendo o Fut". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/vendo-o-fut/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=vendo-o-fut" class="btn-sortear">🎲 Sortear receita de Vendo o Fut</a>
+  </nav>
+
+  <div class="hero">
+    <h1>⚽ Vendo o Fut</h1>
+    <p>42 receitas para quem está na situação "Vendo o Fut". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">42 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Vendo o Fut pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=vendo-o-fut" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="shake-poderoso-do-pos-jogo">
+      <h2 class="receita-titulo">Shake Poderoso do Pós-Jogo</h2>
+      <p class="receita-desc">Proteína para aguentar o VAR e a vida real que não perdoa</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml leite desnatado</li>
+              <li>scoop whey protein sabor baunilha</li>
+              <li>banana madura</li>
+              <li>colheres de sopa aveia em flocos</li>
+              <li>colher de sopa mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque todos os ingredientes no liquidificador.</li>
+              <li>Bata por 1 minuto até ficar homogêneo.</li>
+              <li>Sirva imediatamente para não perder o gás, igual ao atacante no segundo tempo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se bater demais, vira sorvete e aí só serve no inverno, igual promessa de fim de ano que nunca sai do papel.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-de-atacante-racudo">
+      <h2 class="receita-titulo">Sanduíche de Atacante Raçudo</h2>
+      <p class="receita-desc">Porque se o atacante não for rápido, pelo menos o lanche tem que ser</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão integral</li>
+              <li>g peito de frango grelhado desfiado</li>
+              <li>folhas de alface</li>
+              <li>fatias de tomate</li>
+              <li>colher de sopa maionese light</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Grelhe o peito de frango temperado com sal e pimenta.</li>
+              <li>Monte o sanduíche com alface, tomate, frango e maionese entre as fatias de pão.</li>
+              <li>Sirva com a fome de quem está vendo o jogo e o churrasco atrasado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o sanduíche cair no chão, lembre-se: seis segundos de regra só valem para o futebol, não para a cozinha.</div>
+    </article>
+
+    <article class="receita-card" id="omelete-do-tecnico-nervoso">
+      <h2 class="receita-titulo">Omelete do Técnico Nervoso</h2>
+      <p class="receita-desc">Pra levantar a moral depois de tomar aquele gol no último minuto</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 12 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>colher de sopa queijo ralado</li>
+              <li>fatias de presunto picadas</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>colher de sopa azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com sal e pimenta.</li>
+              <li>Aqueça o azeite e despeje os ovos batidos na frigideira.</li>
+              <li>Adicione o presunto e o queijo, dobre a omelete e cozinhe até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a omelete virar ovos mexidos, não se desespere, acontece até com técnico de VAR.</div>
+    </article>
+
+    <article class="receita-card" id="salada-do-zagueiro-imbativel">
+      <h2 class="receita-titulo">Salada do Zagueiro Imbatível</h2>
+      <p class="receita-desc">Verde que te quero forte pra bloquear até boleto chato</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras alface americana picada</li>
+              <li>xícara rúcula</li>
+              <li>pepino pequeno fatiado</li>
+              <li>tomates-cereja cortados ao meio</li>
+              <li>g queijo feta esfarelado</li>
+              <li>Azeite, sal e vinagre a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave e pique todas as verduras.</li>
+              <li>Misture em uma tigela com azeite, vinagre e sal.</li>
+              <li>Salpique o queijo feta por cima e sirva antes que o adversário ataque.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a salada murchar, não é só você que tá cansado, a alface também sente o peso da vida adulta.</div>
+    </article>
+
+    <article class="receita-card" id="macarronada-do-meia-arteiro">
+      <h2 class="receita-titulo">Macarronada do Meia-Arteiro</h2>
+      <p class="receita-desc">Energia de carboidrato pra driblar o sofá e a preguiça</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g macarrão integral</li>
+              <li>g carne moída magra</li>
+              <li>lata molho de tomate</li>
+              <li>cebola média picada</li>
+              <li>dentes alho picados</li>
+              <li>Sal, pimenta e orégano a gosto</li>
+              <li>Queijo parmesão ralado para polvilhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o macarrão conforme instruções da embalagem.</li>
+              <li>Refogue cebola e alho, acrescente a carne moída e tempere.</li>
+              <li>Junte o molho de tomate e deixe apurar por 10 minutos.</li>
+              <li>Misture o molho ao macarrão escorrido e sirva com parmesão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a massa grudar, não é só sua vida que tá complicada, até o macarrão quer atenção.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-do-goleiro-esperto">
+      <h2 class="receita-titulo">Tapioca do Goleiro Esperto</h2>
+      <p class="receita-desc">Pra defender a fome e ainda marcar ponto com a saúde</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa goma de tapioca</li>
+              <li>fatias queijo minas frescal</li>
+              <li>fatias tomate</li>
+              <li>Orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça a frigideira e espalhe a goma formando uma camada fina.</li>
+              <li>Deixe cozinhar até firmar, coloque o queijo e o tomate.</li>
+              <li>Dobre a tapioca e deixe o queijo derreter, salpique orégano.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a tapioca grudar, não culpe só a frigideira, talvez você também tá grudado no sofá.</div>
+    </article>
+
+    <article class="receita-card" id="suco-verde-do-preparador-fisico">
+      <h2 class="receita-titulo">Suco Verde do Preparador Físico</h2>
+      <p class="receita-desc">Detox pra limpar a alma depois do VAR polêmico</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 7 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>maçã verde picada</li>
+              <li>pepino pequeno</li>
+              <li>folhas couve</li>
+              <li>Suco de 1 limão</li>
+              <li>ml água gelada</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até ficar homogêneo.</li>
+              <li>Coe se preferir e sirva com gelo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o suco ficar amargo, lembre-se: a vida já tem amargor suficiente, o suco não precisa ajudar.</div>
+    </article>
+
+    <article class="receita-card" id="pizza-do-torcedor-sofredor">
+      <h2 class="receita-titulo">Pizza do Torcedor Sofredor</h2>
+      <p class="receita-desc">Pra enganar a tristeza do placar e a conta do bar</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g farinha de trigo</li>
+              <li>ml água morna</li>
+              <li>g fermento biológico</li>
+              <li>colher sopa azeite</li>
+              <li>g mussarela ralada</li>
+              <li>g molho de tomate</li>
+              <li>Orégano e manjericão a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture fermento com água morna, depois farinha e azeite; sove até formar massa.</li>
+              <li>Deixe crescer por 30 minutos coberta.</li>
+              <li>Abra a massa, espalhe molho, queijo e temperos.</li>
+              <li>Asse em forno pré-aquecido a 220°C por 15 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a massa não crescer, o único crescimento que você vai ver hoje é o preço do ingresso.</div>
+    </article>
+
+    <article class="receita-card" id="barrinha-energetica-do-reservista">
+      <h2 class="receita-titulo">Barrinha Energética do Reservista</h2>
+      <p class="receita-desc">Energia na medida pra quem entra no segundo tempo da vida</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara aveia em flocos</li>
+              <li>/2 xícara mel</li>
+              <li>/2 xícara pasta de amendoim integral</li>
+              <li>/4 xícara castanhas picadas</li>
+              <li>/4 xícara uvas-passas</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes até formar uma massa homogênea.</li>
+              <li>Forre uma forma com papel manteiga e aperte a mistura formando uma camada.</li>
+              <li>Leve à geladeira por 1 hora e corte em barrinhas.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a barrinha quebrar, não se desespere, às vezes na vida só sobra migalha mesmo.</div>
+    </article>
+
+    <article class="receita-card" id="caldo-de-cana-do-meio-campo">
+      <h2 class="receita-titulo">Caldo de Cana do Meio-Campo</h2>
+      <p class="receita-desc">Doce na medida pra manter a energia e a paciência com juiz</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml caldo de cana fresco</li>
+              <li>Suco de 1 limão pequeno</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Extraia o caldo da cana na hora.</li>
+              <li>Misture com o suco de limão e sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se não tiver espremedor, substitua por suco de laranja, que nem técnico, faz o que pode.</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-de-arroz-do-reserva-esperancoso">
+      <h2 class="receita-titulo">Bolinho de Arroz do Reserva Esperançoso</h2>
+      <p class="receita-desc">Pra não desperdiçar e ainda tentar marcar um gol na cozinha</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras arroz cozido</li>
+              <li>ovo</li>
+              <li>colheres farinha de trigo</li>
+              <li>/2 cebola picada</li>
+              <li>Sal, pimenta e cheiro-verde a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o arroz, ovo, farinha, cebola e temperos até formar massa.</li>
+              <li>Modele bolinhos e frite em óleo quente até dourar.</li>
+              <li>Escorra em papel absorvente e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bolinho desmanchar, é igual promessa de campanha: muita enrolação e pouco resultado.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-do-atleta-em-recuperacao">
+      <h2 class="receita-titulo">Panqueca do Atleta em Recuperação</h2>
+      <p class="receita-desc">Refeição leve pra levantar do sofá e do limbo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara farinha de aveia</li>
+              <li>ovo</li>
+              <li>xícara leite desnatado</li>
+              <li>colher chá fermento em pó</li>
+              <li>colher sopa mel</li>
+              <li>Frutas para cobertura (banana ou morango)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, ovo, leite, mel e fermento até ficar homogêneo.</li>
+              <li>Aqueça a frigideira e despeje porções da massa.</li>
+              <li>Cozinhe cada lado até dourar e sirva com frutas.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a panqueca grudar, é só um sinal que você também precisa levantar do sofá.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-de-frutas-do-torcedor-fitness">
+      <h2 class="receita-titulo">Espetinho de Frutas do Torcedor Fitness</h2>
+      <p class="receita-desc">Vitaminas no palito pra não deixar a preguiça ser gol</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>maçã cortada em cubos</li>
+              <li>banana em rodelas</li>
+              <li>kiwi em cubos</li>
+              <li>xícara uvas sem sementes</li>
+              <li>Mel para regar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte as frutas nos espetos intercalando as variedades.</li>
+              <li>Regue com mel e sirva fresco.</li>
+              <li>Leve à geladeira se preferir geladinho.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se alguma fruta escorregar do espeto, não se preocupe, até fruta tem vida difícil.</div>
+    </article>
+
+    <article class="receita-card" id="risoto-do-craque-sofisticado">
+      <h2 class="receita-titulo">Risoto do Craque Sofisticado</h2>
+      <p class="receita-desc">Pra impressionar a torcida sem perder o estilo (nem o apetite)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras arroz arbóreo</li>
+              <li>cebola pequena picada</li>
+              <li>/2 xícara vinho branco seco</li>
+              <li>litro caldo de legumes quente</li>
+              <li>g queijo parmesão ralado</li>
+              <li>colheres sopa manteiga</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola na manteiga até ficar transparente.</li>
+              <li>Acrescente o arroz e mexa por 2 minutos.</li>
+              <li>Adicione o vinho e mexa até evaporar.</li>
+              <li>Vá colocando o caldo aos poucos, mexendo sempre até o arroz cozinhar.</li>
+              <li>Finalize com queijo parmesão, ajuste sal e pimenta.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a paciência acabar antes do risoto, relaxa, até craque perde pênalti de vez em quando.</div>
+    </article>
+
+    <article class="receita-card" id="smoothie-de-banana-e-cafe-do-madrugador">
+      <h2 class="receita-titulo">Smoothie de Banana e Café do Madrugador</h2>
+      <p class="receita-desc">Energia dupla pra acordar antes do juiz apitar o jogo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 8 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>banana madura</li>
+              <li>ml café coado forte e frio</li>
+              <li>ml leite desnatado</li>
+              <li>colher sopa mel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até ficar homogêneo.</li>
+              <li>Sirva gelado e pronto pra virar craque no trabalho.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o café acabar, tome só a banana, que pelo menos engana o estômago e o chefe.</div>
+    </article>
+
+    <article class="receita-card" id="tostex-do-volante-guerreiro">
+      <h2 class="receita-titulo">Tostex do Volante Guerreiro</h2>
+      <p class="receita-desc">Reforço na marcação e na fome entre um jogo e outro</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias pão de forma integral</li>
+              <li>fatias queijo prato</li>
+              <li>fatias presunto magro</li>
+              <li>colher sopa manteiga</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte o sanduíche com presunto e queijo entre as fatias de pão.</li>
+              <li>Passe manteiga por fora e toste na sanduicheira ou frigideira até dourar.</li>
+              <li>Sirva quente e crocante pra não deixar a fome passar a bola.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se queimar o pão, relaxa, até volante às vezes pisa na bola.</div>
+    </article>
+
+    <article class="receita-card" id="sopa-do-preparador-mental">
+      <h2 class="receita-titulo">Sopa do Preparador Mental</h2>
+      <p class="receita-desc">Caldo quente pra acalmar o coração que tá no sufoco do campeonato</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>cenouras médias picadas</li>
+              <li>batatas médias picadas</li>
+              <li>cebola picada</li>
+              <li>dente alho</li>
+              <li>litro caldo de legumes</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho até dourar.</li>
+              <li>Acrescente cenoura, batata e caldo, cozinhe até os legumes amolecerem.</li>
+              <li>Bata no liquidificador, volte para a panela, ajuste temperos e aqueça antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a sopa ficar sem graça, coloque mais sal, que nem aquele atacante que só marca gol de vez em quando.</div>
+    </article>
+
+    <article class="receita-card" id="wrap-do-jogador-em-viagem">
+      <h2 class="receita-titulo">Wrap do Jogador em Viagem</h2>
+      <p class="receita-desc">Rápido, prático e sem frescura, igual aquele técnico que só fala no intervalo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 14,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tortilhas integrais</li>
+              <li>g peito de peru fatiado</li>
+              <li>folhas alface</li>
+              <li>fatias tomate</li>
+              <li>colheres sopa cream cheese light</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe cream cheese na tortilha.</li>
+              <li>Coloque alface, tomate e peito de peru.</li>
+              <li>Enrole firme, corte ao meio e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se enrolar demais, vai virar nó e aí só serve pra amarrar as chuteiras.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-de-banana-do-volante-trabalhador">
+      <h2 class="receita-titulo">Bolo de Banana do Volante Trabalhador</h2>
+      <p class="receita-desc">Doce que dá energia pra aguentar o tranco e o boleto todo mês</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>bananas maduras amassadas</li>
+              <li>ovos</li>
+              <li>/2 xícara óleo de coco</li>
+              <li>xícara açúcar mascavo</li>
+              <li>xícaras farinha de trigo integral</li>
+              <li>colher chá fermento em pó</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture bananas, ovos, óleo e açúcar.</li>
+              <li>Acrescente a farinha e o fermento, misture até ficar homogêneo.</li>
+              <li>Asse em forno médio 180°C por 40 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bolo afundar, não é só sua vida que tá em crise, até o bolo tem seus dias ruins.</div>
+    </article>
+
+    <article class="receita-card" id="bruschetta-do-tecnico-inspirado">
+      <h2 class="receita-titulo">Bruschetta do Técnico Inspirado</h2>
+      <p class="receita-desc">Entrada rápida pra levantar o astral do time e da cozinha</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>baguete fatiada</li>
+              <li>tomates maduros picados</li>
+              <li>dentes alho picados</li>
+              <li>Manjericão fresco a gosto</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Toste as fatias de baguete levemente.</li>
+              <li>Misture tomate, alho, manjericão, azeite, sal e pimenta.</li>
+              <li>Cubra as torradas com a mistura e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o tomate estiver sem gosto, lembre-se: a vida também não costuma ser sempre doce.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-doce-do-torcedor-apaixonado">
+      <h2 class="receita-titulo">Tapioca Doce do Torcedor Apaixonado</h2>
+      <p class="receita-desc">Pra adoçar a derrota e a vida amorosa em crise</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres sopa goma de tapioca</li>
+              <li>colheres sopa leite condensado</li>
+              <li>colher sopa coco ralado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça a frigideira e espalhe a goma formando uma camada fina.</li>
+              <li>Cozinhe até firmar, espalhe leite condensado e polvilhe coco.</li>
+              <li>Dobre a tapioca e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a tapioca rasgar, não se preocupe, às vezes coração também sofre rasgos.</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-de-grao-de-bico-do-meio-campo-versatil">
+      <h2 class="receita-titulo">Bolinho de Grão-de-Bico do Meio-Campo Versátil</h2>
+      <p class="receita-desc">Proteína vegana pra quem marca no ataque e na cozinha</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras grão-de-bico cozido</li>
+              <li>cebola pequena picada</li>
+              <li>dentes alho</li>
+              <li>/2 xícara farinha de trigo</li>
+              <li>Salsa, sal e pimenta a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Processe o grão-de-bico, cebola e alho até virar pasta.</li>
+              <li>Misture farinha e temperos, forme bolinhos.</li>
+              <li>Frite em óleo quente até dourar e escorra.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bolinho desmanchar, não se abale, até craque às vezes perde a bola no meio-campo.</div>
+    </article>
+
+    <article class="receita-card" id="cuscuz-paulista-do-craque-da-cozinha">
+      <h2 class="receita-titulo">Cuscuz Paulista do Craque da Cozinha</h2>
+      <p class="receita-desc">Um prato só pra ganhar o jogo da praticidade e do sabor</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras farinha de milho flocada</li>
+              <li>lata sardinha</li>
+              <li>tomate picado</li>
+              <li>/2 cebola picada</li>
+              <li>pimentão pequeno picado</li>
+              <li>xícara água quente</li>
+              <li>Sal, azeite e cheiro-verde a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola, tomate e pimentão, junte sardinha e tempere.</li>
+              <li>Misture a farinha com água quente até hidratar.</li>
+              <li>Acrescente o refogado, coloque na forma e pressione.</li>
+              <li>Deixe descansar 15 minutos e desenforme.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o cuscuz desmanchar, não é só sua carreira que tá instável, até comida tem crise.</div>
+    </article>
+
+    <article class="receita-card" id="mousse-de-maracuja-do-torcedor-sofisticado">
+      <h2 class="receita-titulo">Mousse de Maracujá do Torcedor Sofisticado</h2>
+      <p class="receita-desc">Sobremesa que acalma até juiz em dia ruim</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min (+3h geladeira)</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata leite condensado</li>
+              <li>lata creme de leite</li>
+              <li>lata suco de maracujá concentrado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata leite condensado, creme de leite e suco até ficar homogêneo.</li>
+              <li>Coloque em taças e leve à geladeira por 3 horas.</li>
+              <li>Sirva gelado e pronto pra apagar o sofrimento.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se não endurecer, não se culpe, até a vida às vezes fica mole demais.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-com-ovo-mexido-do-goleiro-atento">
+      <h2 class="receita-titulo">Tapioca com Ovo Mexido do Goleiro Atento</h2>
+      <p class="receita-desc">Segurança no gol e no café da manhã, sem falhas</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres sopa goma de tapioca</li>
+              <li>ovos</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Faça a tapioca na frigideira até firmar.</li>
+              <li>Em outra frigideira, mexa os ovos com sal e pimenta.</li>
+              <li>Recheie a tapioca com ovos mexidos e dobre.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o ovo grudar, não é só sua vida que tá pegajosa, até café da manhã tem seus dramas.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-quinoa-do-meia-criativo">
+      <h2 class="receita-titulo">Salada de Quinoa do Meia Criativo</h2>
+      <p class="receita-desc">Proteína e estilo pra quem joga fora e dentro de campo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara quinoa</li>
+              <li>pepino picado</li>
+              <li>tomates-cereja cortados</li>
+              <li>/2 cebola roxa picada</li>
+              <li>Azeite, limão, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a quinoa até ficar macia e deixe esfriar.</li>
+              <li>Misture com os vegetais e tempere.</li>
+              <li>Sirva fresca, como jogada ensaiada.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a quinoa ficar amarga, não se preocupe, às vezes nem o craque agrada todo mundo.</div>
+    </article>
+
+    <article class="receita-card" id="churrasco-do-torcedor-emocionado">
+      <h2 class="receita-titulo">Churrasco do Torcedor Emocionado</h2>
+      <p class="receita-desc">Porque nada une mais que uma carne e um gol na última hora</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 50,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>kg carne bovina (picanha ou fraldinha)</li>
+              <li>Sal grosso a gosto</li>
+              <li>Limão para pincelar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere a carne com sal grosso.</li>
+              <li>Grelhe na churrasqueira até o ponto desejado.</li>
+              <li>Pincele limão para dar sabor e sirva com alegria.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o churrasco atrasar, pelo menos você já tem desculpa pra faltar no jogo.</div>
+    </article>
+
+    <article class="receita-card" id="biscoitos-de-aveia-do-preparador-de-categoria">
+      <h2 class="receita-titulo">Biscoitos de Aveia do Preparador de Categoria</h2>
+      <p class="receita-desc">Snack saudável pra segurar a ansiedade do VAR</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 20 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras aveia em flocos</li>
+              <li>/2 xícara açúcar mascavo</li>
+              <li>/2 xícara óleo de coco</li>
+              <li>ovo</li>
+              <li>colher chá fermento em pó</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes até formar massa.</li>
+              <li>Modele bolinhas e achate na assadeira.</li>
+              <li>Asse em forno 180°C por 15 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se os biscoitos grudarem, pense que pelo menos não grudaram na sua consciência.</div>
+    </article>
+
+    <article class="receita-card" id="misto-quente-do-zagueiro-classico">
+      <h2 class="receita-titulo">Misto Quente do Zagueiro Clássico</h2>
+      <p class="receita-desc">Simples, eficiente e sempre na defesa da fome</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias pão de forma</li>
+              <li>fatia queijo mussarela</li>
+              <li>fatia presunto</li>
+              <li>colher sopa manteiga</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte o sanduíche com presunto e queijo.</li>
+              <li>Passe manteiga nas fatias por fora.</li>
+              <li>Doure na sanduicheira ou frigideira até o queijo derreter.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o queijo não derreter, não é só seu coração que tá duro nesse jogo da vida.</div>
+    </article>
+
+    <article class="receita-card" id="canja-do-torcedor-convalescente">
+      <h2 class="receita-titulo">Canja do Torcedor Convalescente</h2>
+      <p class="receita-desc">Calorzinho amigo pra curar ressaca de derrota e de festa</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>peito de frango inteiro</li>
+              <li>xícara arroz</li>
+              <li>cenouras picadas</li>
+              <li>cebola picada</li>
+              <li>Sal e cheiro-verde a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o frango com cebola e sal até estar macio.</li>
+              <li>Retire o frango, desfie e volte o caldo com arroz e cenoura para cozinhar.</li>
+              <li>Junte o frango desfiado, ajuste temperos e cozinhe até o arroz ficar macio.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a canja ficar aguada, pense que até na cozinha às vezes a gente perde a bola.</div>
+    </article>
+
+    <article class="receita-card" id="iogurte-com-granola-do-meia-atento">
+      <h2 class="receita-titulo">Iogurte com Granola do Meia Atento</h2>
+      <p class="receita-desc">Um café da manhã rápido pra assistir o jogo sem perder lance</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g iogurte natural desnatado</li>
+              <li>colheres sopa granola</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque o iogurte na tigela.</li>
+              <li>Acrescente a granola e regue com mel.</li>
+              <li>Misture na hora de consumir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a granola amolecer, não significa que você está velho, é só ela que não aguenta o tranco.</div>
+    </article>
+
+    <article class="receita-card" id="frango-ao-curry-do-atacante-internacional">
+      <h2 class="receita-titulo">Frango ao Curry do Atacante Internacional</h2>
+      <p class="receita-desc">Sabor de vitória pra quem quer marcar gol e conquistar paladar</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g peito de frango em cubos</li>
+              <li>cebola picada</li>
+              <li>dentes alho picados</li>
+              <li>colher sopa curry em pó</li>
+              <li>ml leite de coco</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho, acrescente frango e tempere.</li>
+              <li>Adicione curry e leite de coco, cozinhe até o frango ficar macio.</li>
+              <li>Ajuste temperos e sirva com arroz branco.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o curry ficar forte demais, pense que até craque às vezes exagera na comemoração.</div>
+    </article>
+
+    <article class="receita-card" id="batata-doce-assada-do-preparador-fisico">
+      <h2 class="receita-titulo">Batata Doce Assada do Preparador Físico</h2>
+      <p class="receita-desc">Carboidrato complexo pra correr atrás do prejuízo e da conta</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas doces médias</li>
+              <li>Azeite, sal e alecrim a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave e corte as batatas em palitos.</li>
+              <li>Tempere com azeite, sal e alecrim.</li>
+              <li>Asse em forno 200°C por 40 minutos até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a batata queimar, relaxa, às vezes até a batata está cansada de tanto esforço.</div>
+    </article>
+
+    <article class="receita-card" id="salada-caprese-do-tecnico-italiano">
+      <h2 class="receita-titulo">Salada Caprese do Técnico Italiano</h2>
+      <p class="receita-desc">Simples e elegante, pra fazer inveja até no VAR</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tomates maduros fatiados</li>
+              <li>g mussarela de búfala fatiada</li>
+              <li>Folhas de manjericão fresco</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Intercale fatias de tomate e mussarela no prato.</li>
+              <li>Distribua as folhas de manjericão.</li>
+              <li>Regue com azeite, salpique sal e pimenta.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a mussarela não for fresca, o único gol será contra a sua saúde.</div>
+    </article>
+
+    <article class="receita-card" id="panini-do-jogador-estiloso">
+      <h2 class="receita-titulo">Panini do Jogador Estiloso</h2>
+      <p class="receita-desc">Sanduba prensado pra impressionar a torcida e o crush</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias pão ciabatta</li>
+              <li>fatias peito de peru</li>
+              <li>fatias queijo prato</li>
+              <li>colher sopa pesto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte o sanduíche com pesto, peito de peru e queijo.</li>
+              <li>Prense no sanduicheira ou frigideira até o queijo derreter.</li>
+              <li>Sirva quente e crocante.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o pão esfarelar, não se culpe, às vezes até o pão perde a bola na hora H.</div>
+    </article>
+
+    <article class="receita-card" id="vitamina-de-morango-com-aveia-do-meia-promessa">
+      <h2 class="receita-titulo">Vitamina de Morango com Aveia do Meia Promessa</h2>
+      <p class="receita-desc">Energia rápida pra quem quer jogar bem e não dormir no jogo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 8 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara morangos frescos</li>
+              <li>banana madura</li>
+              <li>colheres sopa aveia</li>
+              <li>ml leite desnatado</li>
+              <li>Mel a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes até ficar homogêneo.</li>
+              <li>Sirva gelado para não perder o pique.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vitamina ficar aguada, não se preocupe, até promessa às vezes é só água.</div>
+    </article>
+
+    <article class="receita-card" id="ceviche-do-torcedor-tropical">
+      <h2 class="receita-titulo">Ceviche do Torcedor Tropical</h2>
+      <p class="receita-desc">Frescor pra não desanimar mesmo com jogo quente e clima quente</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g filé de tilápia em cubos</li>
+              <li>Suco de 3 limões</li>
+              <li>cebola roxa fatiada</li>
+              <li>Coentro picado a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o peixe com suco de limão, cebola, coentro, sal e pimenta.</li>
+              <li>Deixe marinar na geladeira por 20 minutos.</li>
+              <li>Sirva fresco.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o peixe ficar muito ácido, pense que às vezes a vida também dá umas piscadas erradas.</div>
+    </article>
+
+    <article class="receita-card" id="batido-de-proteina-e-cafe-do-apoiador-noturno">
+      <h2 class="receita-titulo">Batido de Proteína e Café do Apoiador Noturno</h2>
+      <p class="receita-desc">Energia pra quem assiste jogo até de madrugada e ainda acorda cedo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>scoop whey protein chocolate</li>
+              <li>ml café coado frio</li>
+              <li>ml leite desnatado</li>
+              <li>colher sopa cacau em pó</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes até ficar cremoso.</li>
+              <li>Sirva gelado para não apagar no segundo tempo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o café acabar, substitua por coragem, que é o que não falta pra quem assiste VAR.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-de-frango-com-catupiry-do-craque-da-bola-e-da-cozinha">
+      <h2 class="receita-titulo">Tapioca de Frango com Catupiry do Craque da Bola e da Cozinha</h2>
+      <p class="receita-desc">Recheio gostoso pra segurar a fome e a torcida</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres sopa goma de tapioca</li>
+              <li>g frango desfiado temperado</li>
+              <li>colheres sopa catupiry</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Faça a tapioca na frigideira até firmar.</li>
+              <li>Recheie com frango e catupiry.</li>
+              <li>Dobre e deixe até o catupiry derreter.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a tapioca rasgar, pelo menos não foi seu coração que levou cartão vermelho.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-com-leite-do-tecnico-padrao">
+      <h2 class="receita-titulo">Café com Leite do Técnico Padrão</h2>
+      <p class="receita-desc">Clássico pra acordar e não dormir no meio do jogo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 3,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ml café coado</li>
+              <li>ml leite quente</li>
+              <li>Açúcar a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Prepare o café coado.</li>
+              <li>Aqueça o leite e misture ao café.</li>
+              <li>Adoce a gosto e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o café ficar fraco, não é só o time que tá sem vontade, você também.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-salgado-do-jogador-completo">
+      <h2 class="receita-titulo">Bolo Salgado do Jogador Completo</h2>
+      <p class="receita-desc">Refeição que não deixa passar fome nem tempo de jogo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>/2 xícara óleo</li>
+              <li>xícara leite</li>
+              <li>xícaras farinha de trigo</li>
+              <li>colher sopa fermento</li>
+              <li>g presunto picado</li>
+              <li>g queijo ralado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata ovos, óleo e leite.</li>
+              <li>Misture farinha, fermento, presunto, queijo, sal e pimenta.</li>
+              <li>Asse em forno 180°C por 40 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bolo não crescer, não se culpe, às vezes a vida só sabe fazer cera.</div>
+    </article>
+
+    <article class="receita-card" id="cha-gelado-de-hibisco-do-torcedor-zen">
+      <h2 class="receita-titulo">Chá Gelado de Hibisco do Torcedor Zen</h2>
+      <p class="receita-desc">Relaxa, respira, o jogo só acaba depois do apito final</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>sachês chá de hibisco</li>
+              <li>litro água</li>
+              <li>Mel ou adoçante a gosto</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva a água e faça o chá com os sachês por 5 minutos.</li>
+              <li>Adoce a gosto, deixe esfriar e sirva com gelo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o chá ficar amargo, pense que às vezes o juiz também não ajuda.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

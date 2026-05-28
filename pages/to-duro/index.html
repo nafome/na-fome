@@ -1,0 +1,1495 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🪙 Tô Duro — Receitas NaFome</title>
+  <meta name="description" content="38 receitas para quem está na situação "Tô Duro". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/to-duro/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🪙 Tô Duro — Receitas NaFome">
+  <meta property="og:description" content="38 receitas para quem está na situação "Tô Duro". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/to-duro/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🪙 Tô Duro — NaFome",
+    "description": "38 receitas para quem está na situação "Tô Duro". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/to-duro/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=to-duro" class="btn-sortear">🎲 Sortear receita de Tô Duro</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🪙 Tô Duro</h1>
+    <p>38 receitas para quem está na situação "Tô Duro". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">38 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Tô Duro pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=to-duro" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="omelete-de-restos-da-geladeira">
+      <h2 class="receita-titulo">Omelete de Restos da Geladeira</h2>
+      <p class="receita-desc">Quando o bolso aperta, até o que sobrou vira banquete.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 3,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>pitada de sal</li>
+              <li>colheres de sopa de vegetais variados picados (qualquer coisa da geladeira)</li>
+              <li>colher de sopa de queijo ralado (se tiver)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata os ovos com o sal na tigela.</li>
+              <li>Misture os vegetais e o queijo ralado.</li>
+              <li>Despeje a mistura na frigideira quente e cozinhe até firmar, virando para dourar ambos os lados.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a geladeira está tão vazia que parece cenário de filme pós-apocalíptico, pelo menos faça um omelete que tenha história pra contar – ou pelo menos um sabor que não seja só "desespero".</div>
+    </article>
+
+    <article class="receita-card" id="macarrao-de-pacote-com-ovo-estrelado">
+      <h2 class="receita-titulo">Macarrão de Pacote com Ovo Estrelado</h2>
+      <p class="receita-desc">Gourmetizar miojo porque a grana não dá pra caviar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pacote de macarrão instantâneo</li>
+              <li>ovo</li>
+              <li>colher de sopa de óleo</li>
+              <li>Temperos do pacote</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o macarrão conforme instruções do pacote.</li>
+              <li>Frite o ovo na frigideira com óleo.</li>
+              <li>Escorra o macarrão, misture o tempero e sirva com o ovo por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o boleto te chamar mais que a fome, pelo menos não deixa o ovo virar pedra – ele é o luxo que seu bolso pode bancar hoje.</div>
+    </article>
+
+    <article class="receita-card" id="arroz-com-feijao-do-amor-proprio">
+      <h2 class="receita-titulo">Arroz com Feijão do Amor Próprio</h2>
+      <p class="receita-desc">A combinação que nunca te deixa na mão, mesmo quando a carteira chora.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de feijão carioca</li>
+              <li>xícara de arroz branco</li>
+              <li>dente de alho picado</li>
+              <li>colher de sopa de óleo</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Deixe o feijão de molho por 1 hora.</li>
+              <li>Cozinhe o feijão na panela de pressão por 20 minutos com sal e alho.</li>
+              <li>Em outra panela, refogue alho no óleo, adicione o arroz e água, cozinhe até secar.</li>
+              <li>Sirva arroz com feijão, porque amor próprio é ter comida na mesa.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a grana tá curta, pelo menos o arroz com feijão não te deixa na mão – diferente daquele crush que sumiu depois do primeiro "oi".</div>
+    </article>
+
+    <article class="receita-card" id="sopa-de-legumes-de-desempregado">
+      <h2 class="receita-titulo">Sopa de Legumes de Desempregado</h2>
+      <p class="receita-desc">Quando a geladeira grita "socorro" e o estômago só aceita caldo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas médias</li>
+              <li>cenouras</li>
+              <li>cebola pequena</li>
+              <li>talo de salsão (se tiver)</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Água suficiente para cobrir os legumes</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Pique todos os legumes em cubos pequenos.</li>
+              <li>Coloque na panela, cubra com água e cozinhe até os legumes amolecerem.</li>
+              <li>Tempere com sal e pimenta e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sopa é igual boleto: não dá pra escapar, mas pelo menos te deixa quentinho e sem pressa de abrir a carteira.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-de-ovo-com-pao-dormido">
+      <h2 class="receita-titulo">Sanduíche de Ovo com Pão Dormido</h2>
+      <p class="receita-desc">O luxo do pão amanhecido com o glamour da fritura econômica.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 2,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>fatias de pão dormido</li>
+              <li>ovo</li>
+              <li>colher de chá de manteiga ou óleo</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Torre as fatias de pão na frigideira com um pouco de manteiga.</li>
+              <li>Frite o ovo, tempere com sal e pimenta.</li>
+              <li>Monte o sanduíche com o ovo entre as fatias e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pão dormido é como aquele amigo que não te responde, mas tá sempre ali – só que esse você pode comer sem culpa.</div>
+    </article>
+
+    <article class="receita-card" id="farofa-de-banana-com-ovo">
+      <h2 class="receita-titulo">Farofa de Banana com Ovo</h2>
+      <p class="receita-desc">O casamento perfeito entre o "tô duro" e o "tô com fome".</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>bananas nanicas maduras</li>
+              <li>ovos</li>
+              <li>colheres de sopa de farinha de mandioca</li>
+              <li>colher de sopa de óleo</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte as bananas em rodelas e frite no óleo até dourar.</li>
+              <li>Bata os ovos com sal e despeje na frigideira, mexendo até cozinhar.</li>
+              <li>Adicione a farinha de mandioca, mexa até ficar úmido, sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Farofa de banana é igual boleto de cartão: surpresa garantida e você sempre acaba pagando com o que tem.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-aveia-e-banana">
+      <h2 class="receita-titulo">Panqueca de Aveia e Banana</h2>
+      <p class="receita-desc">Café da manhã de rico? Não, só a cara de pau mesmo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 3,80</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>banana madura amassada</li>
+              <li>colheres de sopa de aveia em flocos</li>
+              <li>ovo</li>
+              <li>colher de chá de óleo</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a banana, aveia e ovo até formar uma massa.</li>
+              <li>Aqueça a frigideira com óleo e despeje porções da massa.</li>
+              <li>Cozinhe até dourar dos dois lados, sirva com mel ou açúcar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Aveia e banana: a dupla que te faz parecer fitness, mas na verdade você só quer economizar e adiar o boleto do cartão.</div>
+    </article>
+
+    <article class="receita-card" id="arroz-temperado-com-sardinha">
+      <h2 class="receita-titulo">Arroz Temperado com Sardinha</h2>
+      <p class="receita-desc">Luxo dos pobres: proteína em lata que não quebra o cofrinho.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de arroz</li>
+              <li>lata de sardinha com molho</li>
+              <li>dente de alho picado</li>
+              <li>colher de sopa de óleo</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue o alho no óleo até dourar.</li>
+              <li>Adicione o arroz e água, cozinhe até secar.</li>
+              <li>Misture a sardinha com o molho, tempere e sirva por cima do arroz.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sardinha é o caviar dos bolsos vazios – cheira estranho, mas sustenta o dia e não pede aumento.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-grao-de-bico-simples">
+      <h2 class="receita-titulo">Salada de Grão-de-Bico Simples</h2>
+      <p class="receita-desc">Quando você quer parecer saudável, mas só tem grão e cebola.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,50</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de grão-de-bico escorrido</li>
+              <li>cebola pequena picada</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal e azeite a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o grão-de-bico com a cebola na tigela.</li>
+              <li>Tempere com limão, sal e azeite.</li>
+              <li>Sirva frio ou em temperatura ambiente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada de grão-de-bico é igual promessa de político: parece boa, mas você sabe que vai ter que se virar nos 30 pra bancar.</div>
+    </article>
+
+    <article class="receita-card" id="caldo-de-mandioca-com-linguica-de-pacote">
+      <h2 class="receita-titulo">Caldo de Mandioca com Linguiça de Pacote</h2>
+      <p class="receita-desc">Conforto barato que esconde o vazio da carteira e da alma.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de mandioca descascada e picada</li>
+              <li>linguiça calabresa pequena</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a mandioca em água até ficar macia.</li>
+              <li>Refogue cebola, alho e linguiça fatiada na panela.</li>
+              <li>Adicione a mandioca cozida, amasse parte dela para engrossar o caldo.</li>
+              <li>Tempere e deixe ferver por mais 5 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Caldo de mandioca é como aquele amigo que aparece só na hora do aperto: simples, mas te salva da fome e da solidão.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-de-caneca-de-micro-ondas-economico">
+      <h2 class="receita-titulo">Bolo de Caneca de Micro-ondas Econômico</h2>
+      <p class="receita-desc">Sobremesa express que não exige parcelar no cartão.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 5 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 2,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de farinha de trigo</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>colher de sopa de óleo</li>
+              <li>colheres de sopa de leite</li>
+              <li>ovo pequeno</li>
+              <li>colher de chá de fermento em pó</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes na caneca até formar uma massa homogênea.</li>
+              <li>Leve ao micro-ondas por 3 minutos em potência alta.</li>
+              <li>Deixe esfriar um pouco e coma direto da caneca.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bolo de caneca é a prova que na vida a pressa é inimiga da dieta – e amiga da economia.</div>
+    </article>
+
+    <article class="receita-card" id="pure-de-batata-com-cebola-caramelizada">
+      <h2 class="receita-titulo">Purê de Batata com Cebola Caramelizada</h2>
+      <p class="receita-desc">Sofisticação barata pra enganar o crush e o estômago.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 6,50</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas médias</li>
+              <li>cebola grande</li>
+              <li>colher de sopa de manteiga ou margarina</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe as batatas até ficarem macias.</li>
+              <li>Amasse as batatas com sal e manteiga até virar purê.</li>
+              <li>Em frigideira, refogue a cebola fatiada até caramelizar.</li>
+              <li>Sirva o purê com a cebola por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Purê com cebola caramelizada é o jeitinho brasileiro de dizer “tô pobre, mas tô chique”.</div>
+    </article>
+
+    <article class="receita-card" id="espaguete-com-molho-de-tomate-caseiro">
+      <h2 class="receita-titulo">Espaguete com Molho de Tomate Caseiro</h2>
+      <p class="receita-desc">Clássico eterno que nem o boleto atrasado consegue derrubar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de espaguete</li>
+              <li>tomates maduros</li>
+              <li>dente de alho picado</li>
+              <li>colher de sopa de óleo</li>
+              <li>Sal, pimenta e orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o espaguete até ficar al dente.</li>
+              <li>Pique os tomates e refogue o alho no óleo.</li>
+              <li>Adicione os tomates, tempere e cozinhe até formar molho.</li>
+              <li>Misture o espaguete no molho e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Molho de tomate caseiro é tipo boleto: demora, mas no fim você se arrepende de não ter feito antes.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-repolho-com-cenoura-e-maionese">
+      <h2 class="receita-titulo">Salada de Repolho com Cenoura e Maionese</h2>
+      <p class="receita-desc">Salada de pobre que engana a vista e a fome.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>/2 repolho pequeno fatiado fino</li>
+              <li>cenouras raladas</li>
+              <li>colheres de sopa de maionese</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o repolho e a cenoura na tigela.</li>
+              <li>Adicione a maionese, sal e pimenta, mexa bem.</li>
+              <li>Leve à geladeira por 10 minutos antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada com maionese é tipo promessa de dieta: parece boa, mas no fundo você sabe que vai acabar no fast food.</div>
+    </article>
+
+    <article class="receita-card" id="cuscuz-de-milho-simples">
+      <h2 class="receita-titulo">Cuscuz de Milho Simples</h2>
+      <p class="receita-desc">O clássico nordestino que cabe no orçamento apertado.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 3,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de flocos de milho para cuscuz</li>
+              <li>xícara de água quente</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque os flocos de milho numa tigela, adicione sal.</li>
+              <li>Acrescente a água quente e misture, deixe hidratar por 5 minutos.</li>
+              <li>Cozinhe na cuscuzeira por 15 minutos e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Cuscuz é a prova que dá pra ser raiz e moderno ao mesmo tempo – e ainda economizar uns trocados pro boleto.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-de-pate-de-sardinha">
+      <h2 class="receita-titulo">Sanduíche de Patê de Sardinha</h2>
+      <p class="receita-desc">Quando o pão com patê vira banquete de chef (ou quase).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de sardinha</li>
+              <li>colheres de sopa de maionese</li>
+              <li>fatias de pão</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Amasse a sardinha com a maionese na tigela.</li>
+              <li>Tempere com sal e pimenta.</li>
+              <li>Passe o patê nas fatias de pão e monte os sanduíches.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Patê de sardinha é o tiozão dos patês: ninguém quer, mas quando aparece, salva o churrasco (ou o fim do mês).</div>
+    </article>
+
+    <article class="receita-card" id="mingau-de-aveia-com-leite-e-acucar">
+      <h2 class="receita-titulo">Mingau de Aveia com Leite e Açúcar</h2>
+      <p class="receita-desc">Conforto barato pro coração e pro bolso.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 2,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de aveia em flocos</li>
+              <li>xícara de leite (ou água para economizar)</li>
+              <li>colher de sopa de açúcar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Leve o leite ao fogo até ferver.</li>
+              <li>Acrescente a aveia e o açúcar, mexa até engrossar.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mingau é tipo abraço de vó: simples, barato e capaz de salvar seu dia de boleto atrasado.</div>
+    </article>
+
+    <article class="receita-card" id="batata-doce-assada-com-tempero-de-alho">
+      <h2 class="receita-titulo">Batata Doce Assada com Tempero de Alho</h2>
+      <p class="receita-desc">A batata que engana o estômago e o cartão de crédito.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas doces médias</li>
+              <li>colher de sopa de azeite ou óleo</li>
+              <li>dentes de alho picados</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave e corte as batatas em rodelas grossas.</li>
+              <li>Misture alho, azeite e sal, tempere as batatas.</li>
+              <li>Asse em forno médio por 35 minutos, virando na metade.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Batata doce é o carboidrato que faz seu bolso chorar menos e sua fome chorar mais (de felicidade).</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-farinha-de-trigo-com-recheio-de-doce-de-leite">
+      <h2 class="receita-titulo">Panqueca de Farinha de Trigo com Recheio de Doce de Leite</h2>
+      <p class="receita-desc">Pra adoçar a vida sem esvaziar a carteira – nem a esperança.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de trigo</li>
+              <li>ovo</li>
+              <li>xícara de leite</li>
+              <li>colheres de sopa de açúcar</li>
+              <li>Doce de leite para rechear</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a farinha, ovo, leite e açúcar até formar massa líquida.</li>
+              <li>Aqueça a frigideira e faça panquecas finas.</li>
+              <li>Recheie com doce de leite e dobre ao meio.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Panqueca doce é igual boleto parcelado: você sabe que vai pagar, mas pelo menos o sabor é bom enquanto dura.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-tomate-com-cebola-e-vinagrete">
+      <h2 class="receita-titulo">Salada de Tomate com Cebola e Vinagrete</h2>
+      <p class="receita-desc">Frescor barato pra fingir que tá tudo sob controle.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>tomates maduros</li>
+              <li>cebola pequena</li>
+              <li>colheres de sopa de vinagre</li>
+              <li>colheres de sopa de óleo</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte os tomates e a cebola em fatias finas.</li>
+              <li>Misture vinagre, óleo, sal e pimenta formando o vinagrete.</li>
+              <li>Regue os legumes com o vinagrete e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada simples é como aquele amigo que não te chama pra festa, mas aparece quando você menos espera (e você agradece).</div>
+    </article>
+
+    <article class="receita-card" id="farofa-de-ovo-com-cebola">
+      <h2 class="receita-titulo">Farofa de Ovo com Cebola</h2>
+      <p class="receita-desc">O segredo do sabor que não quebra o cofrinho.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovos</li>
+              <li>/2 cebola picada</li>
+              <li>colheres de sopa de farinha de mandioca</li>
+              <li>colher de sopa de óleo</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola no óleo até dourar.</li>
+              <li>Bata os ovos e despeje na frigideira, mexa até cozinhar.</li>
+              <li>Adicione a farinha, mexa até ficar úmido, tempere e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Farofa é tipo boleto que você paga só depois do prazo, mas o sabor continua ali, firme e forte.</div>
+    </article>
+
+    <article class="receita-card" id="pure-de-abobora-com-cebola-e-alho">
+      <h2 class="receita-titulo">Purê de Abóbora com Cebola e Alho</h2>
+      <p class="receita-desc">Sabor de comida caseira que não pede aumento no salário.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 5,50</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de abóbora descascada e picada</li>
+              <li>cebola pequena picada</li>
+              <li>dentes de alho picados</li>
+              <li>colher de sopa de óleo</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a abóbora até ficar macia.</li>
+              <li>Amasse a abóbora com sal.</li>
+              <li>Refogue alho e cebola no óleo, misture ao purê.</li>
+              <li>Ajuste o tempero e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Purê de abóbora é tipo aquela dívida que você esquece, mas volta pra atormentar – só que esse só te faz feliz.</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-de-arroz-com-sobras">
+      <h2 class="receita-titulo">Bolinho de Arroz com Sobras</h2>
+      <p class="receita-desc">Nada se perde, tudo se transforma – até a fome.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 3,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de arroz cozido</li>
+              <li>ovo</li>
+              <li>colheres de farinha de trigo</li>
+              <li>Sal e temperos a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o arroz, ovo, farinha e temperos até dar ponto.</li>
+              <li>Modele bolinhos com as mãos.</li>
+              <li>Frite em óleo quente até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bolinho de arroz é igual boleto pago em dia: raro, mas quando acontece, é motivo de festa.</div>
+    </article>
+
+    <article class="receita-card" id="mingau-de-milho-verde-com-leite">
+      <h2 class="receita-titulo">Mingau de Milho Verde com Leite</h2>
+      <p class="receita-desc">Doce barato que aquece a alma e o bolso.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 3,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>espiga de milho verde (ou 1 lata de milho)</li>
+              <li>xícaras de leite</li>
+              <li>colheres de sopa de açúcar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata o milho no liquidificador com um pouco de leite.</li>
+              <li>Coe a mistura e leve ao fogo com o restante do leite e açúcar.</li>
+              <li>Mexa até engrossar e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mingau de milho é tipo esperança de promoção: doce, quentinho e que faz você acreditar no impossível.</div>
+    </article>
+
+    <article class="receita-card" id="macarrao-com-molho-de-sardinha-e-tomate">
+      <h2 class="receita-titulo">Macarrão com Molho de Sardinha e Tomate</h2>
+      <p class="receita-desc">Pra mostrar que você sabe cozinhar mesmo com o que tem.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 7,50</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de macarrão</li>
+              <li>lata de sardinha</li>
+              <li>tomates maduros picados</li>
+              <li>dente de alho picado</li>
+              <li>colher de sopa de óleo</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o macarrão até al dente.</li>
+              <li>Refogue alho no óleo, adicione tomates e cozinhe até formar molho.</li>
+              <li>Junte a sardinha, tempere e misture ao macarrão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sardinha no macarrão é igual aquele boleto que você esqueceu: aparece quando menos espera, mas no fim dá um sabor especial.</div>
+    </article>
+
+    <article class="receita-card" id="tapioca-de-queijo-simples">
+      <h2 class="receita-titulo">Tapioca de Queijo Simples</h2>
+      <p class="receita-desc">Quando o queijo faz o papel de investidor na sua economia alimentar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 3,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca hidratada</li>
+              <li>fatias de queijo muçarela ou outro barato</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Aqueça a frigideira e espalhe a goma formando um disco.</li>
+              <li>Quando firmar, coloque o queijo e dobre ao meio.</li>
+              <li>Espere derreter e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Tapioca é o investimento mais seguro da vida: não rende juros, mas rende sabor e economia.</div>
+    </article>
+
+    <article class="receita-card" id="sopa-de-macarrao-com-ovo-e-legumes">
+      <h2 class="receita-titulo">Sopa de Macarrão com Ovo e Legumes</h2>
+      <p class="receita-desc">O caldo quente que não deixa nem o frio nem a conta te congelar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de macarrão para sopa</li>
+              <li>ovo</li>
+              <li>cenoura pequena picada</li>
+              <li>batata pequena picada</li>
+              <li>Sal e temperos a gosto</li>
+              <li>Água para o caldo</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a cenoura e a batata na água até amolecer.</li>
+              <li>Adicione o macarrão e cozinhe até ficar macio.</li>
+              <li>Quebre o ovo e misture delicadamente para cozinhar no caldo.</li>
+              <li>Tempere e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sopa com ovo é tipo salário no fim do mês: não é muito, mas dá um alívio e sustenta a gente até o próximo.</div>
+    </article>
+
+    <article class="receita-card" id="arroz-carreteiro-economico">
+      <h2 class="receita-titulo">Arroz Carreteiro Econômico</h2>
+      <p class="receita-desc">O prato que transforma sobras em festa – e a carteira agradece.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de arroz cozido</li>
+              <li>g de carne moída ou sobras de carne</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>colher de sopa de óleo</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue alho e cebola no óleo até dourar.</li>
+              <li>Adicione a carne e cozinhe até perder a cor crua.</li>
+              <li>Misture o arroz, tempere e deixe apurar por 10 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Arroz carreteiro é o amigo que pega o que sobrou da festa e transforma em banquete – só que sem cobrar couvert artístico.</div>
+    </article>
+
+    <article class="receita-card" id="cuscuz-com-ovos-mexidos">
+      <h2 class="receita-titulo">Cuscuz com Ovos Mexidos</h2>
+      <p class="receita-desc">Café da manhã de milionário no espírito, pobre no bolso.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 5,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de flocos de milho para cuscuz</li>
+              <li>ovos</li>
+              <li>Sal a gosto</li>
+              <li>colher de sopa de óleo</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Hidrate o cuscuz com água quente e cozinhe na cuscuzeira.</li>
+              <li>Bata os ovos com sal e faça ovos mexidos na frigideira.</li>
+              <li>Sirva o cuscuz com os ovos por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Cuscuz com ovos é a prova que até no aperto dá pra ser gourmet – ou pelo menos fingir no Instagram.</div>
+    </article>
+
+    <article class="receita-card" id="pizza-de-pao-sirio-com-molho-de-tomate-e-queijo">
+      <h2 class="receita-titulo">Pizza de Pão Sírio com Molho de Tomate e Queijo</h2>
+      <p class="receita-desc">Quando a vontade de pizza é maior que o saldo da conta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>pães sírios</li>
+              <li>colheres de sopa de molho de tomate</li>
+              <li>g de queijo ralado ou fatiado</li>
+              <li>Orégano a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Espalhe o molho de tomate sobre o pão sírio.</li>
+              <li>Cubra com queijo e orégano.</li>
+              <li>Leve ao forno preaquecido a 180°C por 10 minutos ou até derreter o queijo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pizza de pão sírio é o jeitinho brasileiro de driblar a fome e o boleto atrasado – simples, rápido e com gosto de vitória.</div>
+    </article>
+
+    <article class="receita-card" id="mingau-salgado-de-aveia-com-legumes">
+      <h2 class="receita-titulo">Mingau Salgado de Aveia com Legumes</h2>
+      <p class="receita-desc">Pra enganar o estômago e o gerente do banco.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 4,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de aveia em flocos</li>
+              <li>xícara de água</li>
+              <li>/2 cenoura ralada</li>
+              <li>/4 cebola picada</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola e a cenoura em uma panela com um pouco de óleo.</li>
+              <li>Adicione a água e a aveia, mexa até engrossar.</li>
+              <li>Tempere e sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mingau salgado é igual boleto que não para de chegar: você não quer, mas sabe que vai ter que encarar.</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-batata-com-maionese-caseira">
+      <h2 class="receita-titulo">Salada de Batata com Maionese Caseira</h2>
+      <p class="receita-desc">Frescor barato que engana até sua tia chata.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas médias</li>
+              <li>colheres de sopa de maionese caseira (ovo, óleo, limão, sal)</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe as batatas com casca até ficarem macias.</li>
+              <li>Descasque e corte em cubos.</li>
+              <li>Misture com a maionese caseira, tempere e leve à geladeira antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salada de batata com maionese é o truque do pobre que quer parecer chef sem gastar no supermercado.</div>
+    </article>
+
+    <article class="receita-card" id="ovo-poche-no-pao-torrado">
+      <h2 class="receita-titulo">Ovo Pochê no Pão Torrado</h2>
+      <p class="receita-desc">O brunch dos desempregados com estilo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 4,50</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>ovo</li>
+              <li>fatias de pão</li>
+              <li>colher de sopa de vinagre (para o ovo)</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ferva água com vinagre e faça o ovo pochê, cozinhando por 3 minutos.</li>
+              <li>Torre o pão na frigideira ou torradeira.</li>
+              <li>Coloque o ovo sobre o pão e tempere.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Ovo pochê é igual boleto parcelado: você sabe que vai ter trabalho, mas pelo menos a aparência é bonita.</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-de-mandioca-com-queijo">
+      <h2 class="receita-titulo">Bolinho de Mandioca com Queijo</h2>
+      <p class="receita-desc">Petisco barato pra enganar o estômago e a vontade de sair.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 8,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de mandioca cozida e amassada</li>
+              <li>g de queijo ralado</li>
+              <li>ovo</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a mandioca amassada, queijo, ovo e temperos até ficar homogêneo.</li>
+              <li>Modele bolinhos com as mãos.</li>
+              <li>Frite em óleo quente até dourar e escorra.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bolinho de mandioca é igual feriado prolongado: raro, mas quando acontece, todo mundo aproveita.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-de-atum-com-maionese">
+      <h2 class="receita-titulo">Sanduíche de Atum com Maionese</h2>
+      <p class="receita-desc">O clássico do pobre que quer fingir que tá na dieta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 6,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de atum</li>
+              <li>colheres de sopa de maionese</li>
+              <li>fatias de pão</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o atum com a maionese, sal e pimenta.</li>
+              <li>Passe a mistura nas fatias de pão.</li>
+              <li>Monte os sanduíches e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sanduíche de atum é como boleto: aparece sempre, mas você aprende a lidar e até gosta do sabor.</div>
+    </article>
+
+    <article class="receita-card" id="cafe-preto-com-pao-com-manteiga">
+      <h2 class="receita-titulo">Café Preto com Pão com Manteiga</h2>
+      <p class="receita-desc">O combo que mantém o pobre acordado e sonhando.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 2,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de café preto</li>
+              <li>fatias de pão</li>
+              <li>colher de sopa de manteiga</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Prepare o café coado ou solúvel.</li>
+              <li>Torre as fatias de pão e passe manteiga.</li>
+              <li>Sirva junto.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Café preto com pão é o abraço diário que seu bolso pode pagar – e o único pacote que não chega atrasado.</div>
+    </article>
+
+    <article class="receita-card" id="frango-desfiado-com-arroz-e-cenoura">
+      <h2 class="receita-titulo">Frango Desfiado com Arroz e Cenoura</h2>
+      <p class="receita-desc">Refeição que engana a fome e o gerente do banco.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 9,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>peito de frango pequeno</li>
+              <li>xícara de arroz</li>
+              <li>cenoura ralada</li>
+              <li>Sal e temperos a gosto</li>
+              <li>colher de sopa de óleo</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o frango em água com sal, desfie e reserve o caldo.</li>
+              <li>Refogue a cenoura no óleo, adicione o arroz e o caldo do frango.</li>
+              <li>Cozinhe até o arroz ficar macio.</li>
+              <li>Misture o frango desfiado e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Frango desfiado é igual àquele amigo que sempre aparece na hora do aperto: simples, mas essencial.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-salgado-de-liquidificador">
+      <h2 class="receita-titulo">Bolo Salgado de Liquidificador</h2>
+      <p class="receita-desc">Pra enganar a fome e dizer que cozinha sem gastar uma fortuna.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 7,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de trigo</li>
+              <li>ovo</li>
+              <li>/2 xícara de óleo</li>
+              <li>/2 xícara de leite</li>
+              <li>colher de sopa de fermento em pó</li>
+              <li>lata de sardinha ou atum</li>
+              <li>Sal e temperos a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata no liquidificador a farinha, ovo, óleo, leite e fermento.</li>
+              <li>Misture a sardinha ou atum e tempere.</li>
+              <li>Despeje na forma untada e leve ao forno médio por 30 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bolo salgado é o jeito do pobre ser gourmet sem precisar pagar o jantar – só não esquece de avisar que não é doce.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

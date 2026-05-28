@@ -1,0 +1,1759 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌱 Vegano — Receitas NaFome</title>
+  <meta name="description" content="43 receitas para quem está na situação "Vegano". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/vegano/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🌱 Vegano — Receitas NaFome">
+  <meta property="og:description" content="43 receitas para quem está na situação "Vegano". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/vegano/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🌱 Vegano — NaFome",
+    "description": "43 receitas para quem está na situação "Vegano". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/vegano/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=vegano" class="btn-sortear">🎲 Sortear receita de Vegano</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🌱 Vegano</h1>
+    <p>43 receitas para quem está na situação "Vegano". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">43 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Vegano pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=vegano" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="panquecas-proteicas-de-aveia-e-banana">
+      <h2 class="receita-titulo">Panquecas Proteicas de Aveia e Banana</h2>
+      <p class="receita-desc">Café da manhã que te dá energia pra fingir que vai malhar hoje</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de aveia em flocos</li>
+              <li>banana madura amassada</li>
+              <li>colher de sopa de farinha de linhaça dourada</li>
+              <li>colher de chá de fermento em pó</li>
+              <li>xícara de leite vegetal (amêndoas, soja ou aveia)</li>
+              <li>colher de chá de óleo de coco para untar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a aveia, a farinha de linhaça, o fermento e a banana amassada no bowl.</li>
+              <li>Adicione o leite vegetal aos poucos até formar uma massa cremosa.</li>
+              <li>Aqueça a frigideira, unte com óleo de coco e despeje porções da massa formando panquecas.</li>
+              <li>Cozinhe por 2-3 minutos de cada lado até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a panqueca grudar, não se culpe – é só a vida adulta te lembrando que nada na vida é tão fácil quanto parecia no Instagram.</div>
+    </article>
+
+    <article class="receita-card" id="almondegas-de-lentilha-com-molho-de-tomate-picante">
+      <h2 class="receita-titulo">Almôndegas de Lentilha com Molho de Tomate Picante</h2>
+      <p class="receita-desc">Porque até vegano merece um abraço em forma de comida</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de lentilha cozida e escorrida</li>
+              <li>cebola pequena picada</li>
+              <li>dentes de alho amassados</li>
+              <li>/2 xícara de farinha de rosca vegana</li>
+              <li>colher de chá de cominho em pó</li>
+              <li>ml de molho de tomate caseiro</li>
+              <li>pimenta dedo-de-moça picada (opcional)</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para cozinhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>No processador, bata a lentilha, cebola, alho, cominho, sal e pimenta até virar uma pasta grossa.</li>
+              <li>Misture a farinha de rosca para dar liga e forme bolinhas.</li>
+              <li>Asse as almôndegas em forno pré-aquecido a 200ºC por 20 minutos, virando na metade.</li>
+              <li>Enquanto isso, aqueça o molho de tomate com a pimenta e regue as almôndegas antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der lentilhas, faça almôndegas – porque nem só de boletos e reuniões vive o vegano!</div>
+    </article>
+
+    <article class="receita-card" id="salada-de-quinoa-com-abacate-e-tomate-cereja">
+      <h2 class="receita-titulo">Salada de Quinoa com Abacate e Tomate Cereja</h2>
+      <p class="receita-desc">A salada que é tão fresca quanto sua vontade de sair no domingo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de quinoa cozida</li>
+              <li>abacate maduro cortado em cubos</li>
+              <li>g de tomate cereja cortado ao meio</li>
+              <li>Suco de 1 limão</li>
+              <li>colheres de sopa de azeite de oliva</li>
+              <li>Sal e pimenta do reino a gosto</li>
+              <li>Folhas de hortelã para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a quinoa conforme instruções da embalagem e deixe esfriar.</li>
+              <li>Em uma tigela, misture a quinoa, o abacate, os tomates e tempere com limão, azeite, sal e pimenta.</li>
+              <li>Decore com hortelã e sirva imediatamente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der abacate, faça essa salada – porque guacamole é delicioso, mas tem que ter vida social pra isso.</div>
+    </article>
+
+    <article class="receita-card" id="curry-de-grao-de-bico-com-leite-de-coco">
+      <h2 class="receita-titulo">Curry de Grão-de-Bico com Leite de Coco</h2>
+      <p class="receita-desc">Aquela receita que abraça sua alma enquanto o boleto abraça sua conta</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,50</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de grão-de-bico cozido</li>
+              <li>cebola média picada</li>
+              <li>dentes de alho picados</li>
+              <li>colher de sopa de curry em pó</li>
+              <li>ml de leite de coco</li>
+              <li>tomate picado</li>
+              <li>colher de sopa de óleo de coco ou azeite</li>
+              <li>Sal a gosto</li>
+              <li>Coentro fresco para finalizar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola e o alho no óleo até ficarem transparentes.</li>
+              <li>Adicione o curry e mexa por 1 minuto para liberar o aroma.</li>
+              <li>Junte o tomate e o grão-de-bico, misture bem.</li>
+              <li>Acrescente o leite de coco, tempere com sal e deixe cozinhar em fogo baixo por 20 minutos.</li>
+              <li>Finalize com coentro fresco e sirva com arroz.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida está pegando fogo, pelo menos seu curry não precisa pegar – controle a pimenta, não a raiva.</div>
+    </article>
+
+    <article class="receita-card" id="smoothie-verde-pos-treino-com-proteina-de-ervilha">
+      <h2 class="receita-titulo">Smoothie Verde Pós-Treino com Proteína de Ervilha</h2>
+      <p class="receita-desc">Energia líquida pra quando o sofá te chama de volta</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>banana congelada</li>
+              <li>xícara de espinafre fresco</li>
+              <li>colher de sopa de proteína de ervilha vegana</li>
+              <li>ml de leite de amêndoas</li>
+              <li>colher de chá de sementes de chia</li>
+              <li>Gelo a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até ficar homogêneo.</li>
+              <li>Sirva gelado e beba antes que o sofá te vença.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse smoothie é como academia: você sabe que deve fazer, mas a vontade é de maratonar série.</div>
+    </article>
+
+    <article class="receita-card" id="tofu-grelhado-com-molho-de-mostarda-e-ervas">
+      <h2 class="receita-titulo">Tofu Grelhado com Molho de Mostarda e Ervas</h2>
+      <p class="receita-desc">Porque até o tofu merece uma chance de brilhar na vida</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de tofu firme cortado em fatias</li>
+              <li>colheres de sopa de mostarda Dijon</li>
+              <li>colher de sopa de azeite de oliva</li>
+              <li>colher de chá de ervas finas secas</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o tofu com sal, pimenta e azeite.</li>
+              <li>Grelhe as fatias em frigideira quente até dourar dos dois lados.</li>
+              <li>Misture a mostarda com as ervas e sirva por cima do tofu grelhado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o tofu te parecer sem graça, lembre-se que até o boleto pode ser fatiado e ainda assim amedrontar.</div>
+    </article>
+
+    <article class="receita-card" id="escondidinho-de-mandioquinha-com-cogumelos">
+      <h2 class="receita-titulo">Escondidinho de Mandioquinha com Cogumelos</h2>
+      <p class="receita-desc">Aquela comfort food que te abraça mais que seu crush no WhatsApp</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de mandioquinha descascada e cortada</li>
+              <li>g de cogumelos frescos fatiados</li>
+              <li>cebola picada</li>
+              <li>dentes de alho amassados</li>
+              <li>ml de leite de coco</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe a mandioquinha até ficar macia e amasse com leite de coco até virar purê.</li>
+              <li>Refogue cebola, alho e cogumelos no azeite até dourar, tempere com sal e pimenta.</li>
+              <li>Em um refratário, coloque o refogado, cubra com o purê e leve ao forno a 180ºC por 20 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sua vida está uma bagunça, pelo menos seu escondidinho pode ser organizado – e delicioso!</div>
+    </article>
+
+    <article class="receita-card" id="wrap-de-alface-com-homus-e-legumes-crocantes">
+      <h2 class="receita-titulo">Wrap de Alface com Homus e Legumes Crocantes</h2>
+      <p class="receita-desc">Pra quem quer ser saudável, mas não abre mão do crunch no meio da vida</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 16,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>folhas grandes de alface americana</li>
+              <li>/2 xícara de homus pronto</li>
+              <li>cenoura ralada</li>
+              <li>pepino fatiado em tiras finas</li>
+              <li>/2 pimentão vermelho fatiado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave e seque as folhas de alface.</li>
+              <li>Espalhe homus em cada folha, recheie com os legumes e tempere.</li>
+              <li>Enrole as folhas como wrap e sirva imediatamente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida é enrolada, pelo menos seu wrap não precisa ser – e ainda te dá crédito saudável.</div>
+    </article>
+
+    <article class="receita-card" id="moqueca-vegana-de-banana-da-terra">
+      <h2 class="receita-titulo">Moqueca Vegana de Banana da Terra</h2>
+      <p class="receita-desc">O sabor do Brasil que te faz esquecer que o boleto chegou</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>bananas da terra maduras cortadas em rodelas</li>
+              <li>cebola grande fatiada</li>
+              <li>tomates maduros picados</li>
+              <li>pimentão verde fatiado</li>
+              <li>ml de leite de coco</li>
+              <li>colheres de sopa de azeite de dendê</li>
+              <li>Coentro fresco picado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola, o pimentão e os tomates no azeite de dendê até amolecerem.</li>
+              <li>Acrescente as bananas, o leite de coco, sal e pimenta e cozinhe em fogo médio por 20 minutos.</li>
+              <li>Finalize com coentro e sirva com arroz branco.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida está amarga, pelo menos a moqueca pode ser doce – e cheia de dendê para dar aquele sabor de vitória.</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-de-grao-de-bico-com-hortela">
+      <h2 class="receita-titulo">Bolinho de Grão-de-Bico com Hortelã</h2>
+      <p class="receita-desc">Crocância que faz você esquecer que segunda-feira existe</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 3 porções (15 bolinhos)</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de grão-de-bico cozido</li>
+              <li>cebola pequena</li>
+              <li>dentes de alho</li>
+              <li>punhado de hortelã fresca</li>
+              <li>/2 xícara de farinha de trigo integral</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata o grão-de-bico, cebola, alho e hortelã no processador até formar uma massa grossa.</li>
+              <li>Misture a farinha, tempere e modele bolinhos.</li>
+              <li>Frite em óleo quente até dourar, escorra no papel absorvente e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der bolinhos, faça festa – porque segunda-feira já tem drama demais.</div>
+    </article>
+
+    <article class="receita-card" id="risoto-cremoso-de-cogumelos-selvagens">
+      <h2 class="receita-titulo">Risoto Cremoso de Cogumelos Selvagens</h2>
+      <p class="receita-desc">Sofisticação pra impressionar até seu crush do Tinder (ou o gato)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de arroz arbóreo</li>
+              <li>g de mix de cogumelos selvagens fatiados</li>
+              <li>cebola picada</li>
+              <li>dente de alho picado</li>
+              <li>litro de caldo de legumes quente</li>
+              <li>/2 xícara de vinho branco seco (opcional)</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Salsinha picada para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola e o alho no azeite até dourar.</li>
+              <li>Adicione os cogumelos e cozinhe até amolecerem.</li>
+              <li>Junte o arroz e mexa por 2 minutos.</li>
+              <li>Se usar, adicione o vinho e deixe evaporar.</li>
+              <li>Vá adicionando o caldo quente concha a concha, mexendo sempre, até o arroz ficar cremoso e al dente.</li>
+              <li>Tempere e decore com salsinha antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Risoto é como relacionamento sério: requer paciência, mexer com cuidado e sempre estar pronto pra dar aquela atenção.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-de-cenoura-com-cobertura-de-chocolate-vegano">
+      <h2 class="receita-titulo">Bolo de Cenoura com Cobertura de Chocolate Vegano</h2>
+      <p class="receita-desc">Adoça a vida melhor que mensagem de ex que não volta mais</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>cenouras médias raladas</li>
+              <li>xícaras de farinha de trigo integral</li>
+              <li>xícara de açúcar mascavo</li>
+              <li>/2 xícara de óleo vegetal</li>
+              <li>xícara de leite vegetal</li>
+              <li>colher de sopa de fermento em pó</li>
+              <li>g de chocolate vegano para cobertura</li>
+              <li>colher de sopa de óleo de coco para a cobertura</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata no liquidificador as cenouras, óleo e leite até homogeneizar.</li>
+              <li>Misture os secos em uma tigela e junte a mistura líquida, mexendo até ficar uniforme.</li>
+              <li>Adicione o fermento por último e misture delicadamente.</li>
+              <li>Asse em forma untada a 180°C por 40 minutos.</li>
+              <li>Derreta o chocolate com óleo de coco e espalhe sobre o bolo frio.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der cenouras, faça bolo – pelo menos essa doçura não some depois de 3 dias.</div>
+    </article>
+
+    <article class="receita-card" id="espaguete-de-abobrinha-ao-pesto-de-manjericao">
+      <h2 class="receita-titulo">Espaguete de Abobrinha ao Pesto de Manjericão</h2>
+      <p class="receita-desc">Pra enganar a fome e fingir que tá na dieta (sem sofrimento)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abobrinhas médias cortadas em espaguete</li>
+              <li>maço de manjericão fresco</li>
+              <li>/4 xícara de castanhas de caju</li>
+              <li>dentes de alho</li>
+              <li>/4 xícara de azeite de oliva</li>
+              <li>Sal a gosto</li>
+              <li>Tomate seco para decorar (opcional)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata no processador o manjericão, castanhas, alho, azeite e sal até formar pesto.</li>
+              <li>Refogue o espaguete de abobrinha por 2-3 minutos no azeite até ficar al dente.</li>
+              <li>Misture o pesto ao espaguete e decore com tomate seco.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Abobrinha no prato é tipo desculpa pra não ir na festa – convence, mas todo mundo sabe que você queria mesmo é pizza.</div>
+    </article>
+
+    <article class="receita-card" id="feijoada-vegana-com-tofu-defumado-e-couve-refogada">
+      <h2 class="receita-titulo">Feijoada Vegana com Tofu Defumado e Couve Refogada</h2>
+      <p class="receita-desc">O clássico que prova que não precisa de carne pra dar samba no estômago</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 90 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de feijão preto</li>
+              <li>g de tofu defumado em cubos</li>
+              <li>cebola grande picada</li>
+              <li>dentes de alho picados</li>
+              <li>folha de louro</li>
+              <li>maço de couve fatiada</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Deixe o feijão de molho por 8 horas e cozinhe na panela de pressão com louro até ficar macio.</li>
+              <li>Refogue o tofu, cebola e alho no azeite até dourar.</li>
+              <li>Misture o tofu ao feijão cozido, ajuste o sal e pimenta.</li>
+              <li>Refogue a couve separadamente com um pouco de alho e azeite.</li>
+              <li>Sirva a feijoada com couve refogada.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sua vida tá mais enrolada que feijão na panela, pelo menos o sabor tá garantido.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-grao-de-bico-e-beterraba">
+      <h2 class="receita-titulo">Hambúrguer de Grão-de-Bico e Beterraba</h2>
+      <p class="receita-desc">Pra quem quer hambúrguer, mas não quer culpa (nem carne)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 4 hambúrgueres</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de grão-de-bico cozido</li>
+              <li>beterraba média ralada</li>
+              <li>/2 cebola picada</li>
+              <li>/2 xícara de farinha de aveia</li>
+              <li>colher de chá de cominho</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata o grão-de-bico no processador até formar uma pasta.</li>
+              <li>Misture com beterraba, cebola, farinha, cominho, sal e pimenta.</li>
+              <li>Modele hambúrgueres e frite em óleo quente até dourar dos dois lados.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te der beterraba, faça hambúrguer – é a desculpa perfeita pra fugir da carne e ainda impressionar.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-grao-de-bico-com-recheio-de-espinafre-e-tofu">
+      <h2 class="receita-titulo">Panqueca de Grão-de-Bico com Recheio de Espinafre e Tofu</h2>
+      <p class="receita-desc">A panqueca que não te deixa na mão quando o estômago grita "socorro"</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de grão-de-bico</li>
+              <li>xícara de água</li>
+              <li>Sal a gosto</li>
+              <li>g de espinafre fresco</li>
+              <li>g de tofu firme esfarelado</li>
+              <li>dente de alho picado</li>
+              <li>Azeite para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a farinha de grão-de-bico, água e sal até formar massa líquida.</li>
+              <li>Refogue o alho e o espinafre no azeite, misture o tofu e tempere.</li>
+              <li>Faça panquecas na frigideira, recheie com a mistura de espinafre e tofu, dobre e sirva.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Panqueca de grão-de-bico é tipo aquele amigo que nunca te deixa na mão – resistente e versátil.</div>
+    </article>
+
+    <article class="receita-card" id="sopa-detox-de-abobora-com-gengibre">
+      <h2 class="receita-titulo">Sopa Detox de Abóbora com Gengibre</h2>
+      <p class="receita-desc">Pra limpar a alma enquanto a vida só suja com boletos</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de abóbora picada</li>
+              <li>cebola picada</li>
+              <li>dentes de alho amassados</li>
+              <li>pedaço de gengibre (3 cm) ralado</li>
+              <li>litro de água</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola, alho e gengibre no azeite até dourar.</li>
+              <li>Adicione a abóbora e a água, cozinhe até amolecer.</li>
+              <li>Bata tudo no liquidificador até ficar cremoso, ajuste o sal e pimenta.</li>
+              <li>Sirva quente.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sopa detox é como promessa de Ano Novo: todo mundo faz, mas a vida insiste em sujar tudo de novo.</div>
+    </article>
+
+    <article class="receita-card" id="tacos-veganos-de-jaca-desfiada">
+      <h2 class="receita-titulo">Tacos Veganos de Jaca Desfiada</h2>
+      <p class="receita-desc">A jaca que te engana melhor que conversa de vendedor de carro</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de jaca verde cozida e desfiada</li>
+              <li>cebola picada</li>
+              <li>dentes de alho picados</li>
+              <li>colher de chá de páprica defumada</li>
+              <li>colher de chá de cominho</li>
+              <li>Tortillas de milho para servir</li>
+              <li>Coentro e limão para acompanhar</li>
+              <li>Azeite para refogar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola e alho no azeite, adicione a jaca e os temperos.</li>
+              <li>Cozinhe por 20 minutos, mexendo para incorporar sabor.</li>
+              <li>Sirva a jaca desfiada nas tortillas com coentro e limão.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a vida te dá jaca, faça tacos – porque disfarçar é uma arte que todo vegano domina.</div>
+    </article>
+
+    <article class="receita-card" id="ceviche-vegano-de-palmito-com-manga">
+      <h2 class="receita-titulo">Ceviche Vegano de Palmito com Manga</h2>
+      <p class="receita-desc">Pra quem quer sabor de praia, mas só tem a vida seca do escritório</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de palmito picado em cubos</li>
+              <li>manga madura em cubos</li>
+              <li>Suco de 2 limões</li>
+              <li>/2 cebola roxa fatiada finamente</li>
+              <li>Coentro picado a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o palmito, manga, cebola e coentro na tigela.</li>
+              <li>Regue com suco de limão, tempere e deixe marinar por 15 minutos.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Ceviche vegano é como férias: refrescante, inesperado e você finge que está longe do chefe.</div>
+    </article>
+
+    <article class="receita-card" id="panetone-vegano-com-frutas-secas">
+      <h2 class="receita-titulo">Panetone Vegano com Frutas Secas</h2>
+      <p class="receita-desc">Natal antecipado pra enganar a tristeza dos boletos do fim de ano</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 120 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 45,00</span>
+          <span class="badge">👤 10 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de farinha de trigo</li>
+              <li>xícara de açúcar mascavo</li>
+              <li>xícara de leite vegetal morno</li>
+              <li>colher de sopa de fermento biológico seco</li>
+              <li>/2 xícara de óleo vegetal</li>
+              <li>pitada de sal</li>
+              <li>xícara de frutas secas (uva passa, damasco, cranberry)</li>
+              <li>colher de chá de essência de baunilha</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Ative o fermento no leite morno com uma colher de açúcar por 10 minutos.</li>
+              <li>Misture farinha, açúcar, sal, óleo e essência, adicione o fermento ativado e sove a massa.</li>
+              <li>Incorpore as frutas secas e deixe crescer por 1 hora.</li>
+              <li>Modele e coloque na forma, deixe crescer mais 30 minutos.</li>
+              <li>Asse a 180ºC por 40 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Fazer panetone em casa é como criar filho: demora, dá trabalho, mas a recompensa vale a pena (e você não troca por boletos).</div>
+    </article>
+
+    <article class="receita-card" id="pizza-vegana-com-queijo-de-castanha-de-caju">
+      <h2 class="receita-titulo">Pizza Vegana com Queijo de Castanha de Caju</h2>
+      <p class="receita-desc">Porque pizza sem queijo é quase um relacionamento sem beijo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de farinha de trigo</li>
+              <li>colher de chá de fermento biológico seco</li>
+              <li>/4 xícara de água morna</li>
+              <li>/4 xícara de azeite</li>
+              <li>Sal a gosto</li>
+              <li>xícara de castanha de caju hidratada</li>
+              <li>Suco de 1 limão</li>
+              <li>dente de alho</li>
+              <li>Levedura nutricional a gosto</li>
+              <li>Molho de tomate caseiro</li>
+              <li>Legumes para cobertura (tomate, pimentão, cebola)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Prepare a massa misturando farinha, fermento, água, azeite e sal, deixando crescer 1 hora.</li>
+              <li>Triture a castanha com limão, alho, água e levedura até formar um creme tipo "queijo".</li>
+              <li>Abra a massa, espalhe molho, o queijo vegano e os legumes.</li>
+              <li>Asse a 220ºC por 20 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pizza vegana é tipo aquele crush que surpreende – você não espera, mas se apaixona rápido.</div>
+    </article>
+
+    <article class="receita-card" id="mousse-de-chocolate-com-abacate">
+      <h2 class="receita-titulo">Mousse de Chocolate com Abacate</h2>
+      <p class="receita-desc">Sobremesa que engana até seu cérebro e não sua consciência</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abacates maduros</li>
+              <li>/2 xícara de cacau em pó</li>
+              <li>/4 xícara de xarope de agave ou maple</li>
+              <li>colher de chá de essência de baunilha</li>
+              <li>Pitada de sal</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata todos os ingredientes no liquidificador até ficar cremoso.</li>
+              <li>Leve à geladeira por pelo menos 1 hora antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mousse de abacate é como felicidade: tem que estar escondidinha pra você se surpreender quando encontra.</div>
+    </article>
+
+    <article class="receita-card" id="sanduiche-de-berinjela-empanada-com-maionese-de-alho">
+      <h2 class="receita-titulo">Sanduíche de Berinjela Empanada com Maionese de Alho</h2>
+      <p class="receita-desc">Crunch que salva qualquer lanche da mesmice e da TPM</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>berinjela cortada em fatias grossas</li>
+              <li>xícara de farinha de trigo</li>
+              <li>/2 xícara de leite vegetal</li>
+              <li>xícara de farinha de rosca</li>
+              <li>dentes de alho</li>
+              <li>/2 xícara de maionese vegana pronta</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Pão integral para servir</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere as fatias de berinjela com sal e pimenta.</li>
+              <li>Passe na farinha, depois no leite vegetal e por último na farinha de rosca.</li>
+              <li>Frite as fatias até dourar e escorra em papel absorvente.</li>
+              <li>Misture o alho amassado com a maionese vegana.</li>
+              <li>Monte o sanduíche com berinjela e maionese.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Sanduíche é tipo amizade verdadeira: precisa de crocância e tempero na medida certa pra durar.</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-de-chuva-vegano-com-acucar-e-canela">
+      <h2 class="receita-titulo">Bolinho de Chuva Vegano com Açúcar e Canela</h2>
+      <p class="receita-desc">Nostalgia que não pesa na consciência – só na cintura mesmo</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de trigo</li>
+              <li>/2 xícara de açúcar</li>
+              <li>/2 xícara de leite vegetal</li>
+              <li>colher de sopa de fermento em pó</li>
+              <li>colher de chá de canela em pó</li>
+              <li>Óleo para fritar</li>
+              <li>Açúcar com canela para polvilhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture farinha, açúcar, fermento e canela.</li>
+              <li>Adicione o leite vegetal até formar uma massa grossa.</li>
+              <li>Frite colheradas em óleo quente até dourar.</li>
+              <li>Escorra e passe no açúcar com canela.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bolinho de chuva é como chuva de boleto: inevitável, mas pelo menos um é gostoso.</div>
+    </article>
+
+    <article class="receita-card" id="tabule-com-trigo-para-quibe-e-hortela">
+      <h2 class="receita-titulo">Tabule com Trigo para Quibe e Hortelã</h2>
+      <p class="receita-desc">Salada que é quase um convite pra festa no corpo e na alma</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de trigo para quibe hidratado</li>
+              <li>tomates picados</li>
+              <li>pepino picado</li>
+              <li>cebola pequena picada</li>
+              <li>punhado de hortelã picada</li>
+              <li>Suco de 2 limões</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes na tigela.</li>
+              <li>Tempere com limão, azeite e sal.</li>
+              <li>Sirva gelado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Tabule é como crush no WhatsApp: refrescante, leve e cheio de esperança.</div>
+    </article>
+
+    <article class="receita-card" id="pao-de-queijo-vegano-de-mandioquinha">
+      <h2 class="receita-titulo">Pão de Queijo Vegano de Mandioquinha</h2>
+      <p class="receita-desc">Aquele clássico mineiro que virou vegano e conquistou o Brasil</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 15 unidades</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de polvilho doce</li>
+              <li>g de mandioquinha cozida e amassada</li>
+              <li>/2 xícara de leite vegetal</li>
+              <li>/4 xícara de óleo vegetal</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a mandioquinha com o polvilho e o sal.</li>
+              <li>Aqueça o leite vegetal com o óleo e despeje sobre a mistura, mexendo até formar uma massa.</li>
+              <li>Modele bolinhas e asse a 180ºC por 25 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pão de queijo vegano é a prova que até saudade pode ser reinventada – e sem lactose.</div>
+    </article>
+
+    <article class="receita-card" id="lasanha-de-berinjela-com-tofu-e-espinafre">
+      <h2 class="receita-titulo">Lasanha de Berinjela com Tofu e Espinafre</h2>
+      <p class="receita-desc">Jantar pra impressionar até a sogra que acha que vegano só come alface</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>berinjelas fatiadas longitudinalmente</li>
+              <li>g de tofu amassado</li>
+              <li>xícaras de espinafre refogado</li>
+              <li>xícaras de molho de tomate</li>
+              <li>dentes de alho picados</li>
+              <li>Azeite, sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Grelhe as fatias de berinjela até ficarem macias.</li>
+              <li>Misture o tofu com o espinafre, alho, sal e pimenta.</li>
+              <li>Monte camadas na assadeira: molho, berinjela, recheio, repetindo.</li>
+              <li>Finalize com molho e asse a 180ºC por 30 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Lasanha vegana é tipo papo com sogra: precisa de camadas e paciência, mas no final vale a pena.</div>
+    </article>
+
+    <article class="receita-card" id="crepioca-vegana-de-espinafre-e-tomate-seco">
+      <h2 class="receita-titulo">Crepioca Vegana de Espinafre e Tomate Seco</h2>
+      <p class="receita-desc">Café da manhã pra quem quer praticidade, sabor e não falir o mês</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 15 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de goma de tapioca</li>
+              <li>colheres de sopa de farinha de grão-de-bico</li>
+              <li>/2 xícara de água</li>
+              <li>/2 xícara de espinafre picado</li>
+              <li>tomates secos picados</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a goma, farinha e a água até formar uma massa líquida.</li>
+              <li>Acrescente o espinafre e os tomates, tempere.</li>
+              <li>Despeje a massa na frigideira quente e cozinhe até firmar dos dois lados.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Crepioca é a prova que dá pra ser rápido, gostoso e saudável – ao contrário da conta de luz.</div>
+    </article>
+
+    <article class="receita-card" id="cuscuz-marroquino-com-legumes-e-amendoas">
+      <h2 class="receita-titulo">Cuscuz Marroquino com Legumes e Amêndoas</h2>
+      <p class="receita-desc">O prato que te faz parecer que viajou, mesmo se só saiu do sofá</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de cuscuz marroquino</li>
+              <li>xícara de água fervente</li>
+              <li>cenoura picada</li>
+              <li>abobrinha picada</li>
+              <li>/4 xícara de amêndoas laminadas</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal, pimenta e salsinha a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Hidrate o cuscuz na água fervente coberto por 5 minutos.</li>
+              <li>Refogue os legumes no azeite até ficarem macios.</li>
+              <li>Misture o cuscuz com os legumes, tempere e salpique amêndoas e salsinha.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Cuscuz é como férias na cabeça: você não foi, mas pelo menos comeu bem.</div>
+    </article>
+
+    <article class="receita-card" id="brigadeiro-vegano-de-cacau-e-leite-de-coco">
+      <h2 class="receita-titulo">Brigadeiro Vegano de Cacau e Leite de Coco</h2>
+      <p class="receita-desc">Aquele docinho que salva a autoestima em dia ruim (e o bolso também)</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 20 brigadeiros</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>lata de leite de coco (400ml)</li>
+              <li>colheres de sopa de cacau em pó</li>
+              <li>colheres de sopa de açúcar mascavo</li>
+              <li>colher de sopa de óleo de coco</li>
+              <li>Chocolate granulado vegano para enrolar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o leite de coco, cacau e açúcar na panela.</li>
+              <li>Cozinhe em fogo médio, mexendo sempre até desgrudar do fundo.</li>
+              <li>Deixe esfriar, enrole os brigadeiros e passe no granulado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Brigadeiro vegano é o melhor tipo de amor: doce, simples e que não te deixa na mão.</div>
+    </article>
+
+    <article class="receita-card" id="salpicao-vegano-com-maionese-de-castanha-de-caju">
+      <h2 class="receita-titulo">Salpicão Vegano com Maionese de Castanha de Caju</h2>
+      <p class="receita-desc">A salada que faz qualquer reunião de família menos traumática</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>cenoura ralada</li>
+              <li>maçã verde picada</li>
+              <li>/2 xícara de ervilhas cozidas</li>
+              <li>/2 xícara de milho verde</li>
+              <li>/2 xícara de uva passa</li>
+              <li>xícara de maionese vegana de castanha de caju</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture todos os ingredientes numa tigela.</li>
+              <li>Tempere com sal e pimenta e incorpore a maionese.</li>
+              <li>Leve à geladeira por 30 minutos antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Salpicão é a prova de que reunião de família pode ser doce – pelo menos no prato.</div>
+    </article>
+
+    <article class="receita-card" id="batata-doce-assada-com-alecrim-e-alho">
+      <h2 class="receita-titulo">Batata Doce Assada com Alecrim e Alho</h2>
+      <p class="receita-desc">O carboidrato que te abraça e não te cobra nada depois</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 12,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>batatas doces médias cortadas em cubos</li>
+              <li>dentes de alho picados</li>
+              <li>ramos de alecrim fresco</li>
+              <li>colheres de sopa de azeite</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a batata com alho, alecrim, azeite, sal e pimenta.</li>
+              <li>Espalhe na assadeira e asse a 200ºC por 35 minutos, mexendo na metade do tempo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Batata doce assada é tipo domingo: simples, aconchegante e a gente sempre quer repetir.</div>
+    </article>
+
+    <article class="receita-card" id="creme-de-amendoim-com-banana-e-granola">
+      <h2 class="receita-titulo">Creme de Amendoim com Banana e Granola</h2>
+      <p class="receita-desc">Café da manhã pra quem quer energia e não desculpas esfarrapadas</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 10,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>colheres de sopa de creme de amendoim natural</li>
+              <li>banana fatiada</li>
+              <li>colheres de sopa de granola vegana</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em uma tigela, espalhe o creme de amendoim.</li>
+              <li>Cubra com banana fatiada e salpique granola por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Creme de amendoim é tipo motivação: você sabe que precisa, mas só funciona se fizer o esforço.</div>
+    </article>
+
+    <article class="receita-card" id="quiche-vegana-de-alho-poro-com-massa-integral">
+      <h2 class="receita-titulo">Quiche Vegana de Alho-Poró com Massa Integral</h2>
+      <p class="receita-desc">Jantar sofisticado que não exige diploma de chef nem paciência de monge</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 38,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>/2 xícara de farinha de trigo integral</li>
+              <li>/2 xícara de óleo vegetal</li>
+              <li>/4 xícara de água gelada</li>
+              <li>alhos-porós fatiados</li>
+              <li>g de tofu firme amassado</li>
+              <li>/4 xícara de leite vegetal</li>
+              <li>Sal, pimenta e noz-moscada a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a farinha, óleo e água até formar massa, leve à geladeira 30 minutos.</li>
+              <li>Refogue o alho-poró até amaciar.</li>
+              <li>Misture o tofu, leite, alho-poró e temperos.</li>
+              <li>Abra a massa na forma, despeje o recheio e asse a 180ºC por 30 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Quiche vegana é tipo vida adulta: precisa de preparo, mas no final é só sucesso.</div>
+    </article>
+
+    <article class="receita-card" id="bolo-de-chocolate-com-beterraba-e-cafe">
+      <h2 class="receita-titulo">Bolo de Chocolate com Beterraba e Café</h2>
+      <p class="receita-desc">A combinação que acorda seu paladar e entorpece seu cansaço</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 22,00</span>
+          <span class="badge">👤 8 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>beterrabas médias cozidas e picadas</li>
+              <li>xícara de açúcar mascavo</li>
+              <li>/2 xícara de óleo vegetal</li>
+              <li>xícara de café forte coado</li>
+              <li>xícaras de farinha de trigo</li>
+              <li>/2 xícara de cacau em pó</li>
+              <li>colher de sopa de fermento em pó</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata no liquidificador beterraba, açúcar, óleo e café até homogeneizar.</li>
+              <li>Misture os secos numa tigela e incorpore a mistura líquida.</li>
+              <li>Adicione fermento, misture e asse a 180ºC por 35 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Bolo de beterraba com café é a desculpa perfeita pra devorar doce e fingir que tá saudável.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-de-banana-com-farinha-de-amendoas">
+      <h2 class="receita-titulo">Panqueca de Banana com Farinha de Amêndoas</h2>
+      <p class="receita-desc">O café da manhã que te faz esquecer que o snooze existe</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>banana madura amassada</li>
+              <li>ovos veganos (linhaça + água)</li>
+              <li>/2 xícara de farinha de amêndoas</li>
+              <li>colher de chá de fermento em pó</li>
+              <li>Canela a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a banana, ovos veganos, farinha, fermento e canela.</li>
+              <li>Despeje porções na frigideira quente e cozinhe até dourar dos dois lados.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Panqueca de banana é como soneca: melhor quando é rápida, doce e sem culpa.</div>
+    </article>
+
+    <article class="receita-card" id="espetinho-vegano-de-legumes-com-molho-barbecue-caseiro">
+      <h2 class="receita-titulo">Espetinho Vegano de Legumes com Molho Barbecue Caseiro</h2>
+      <p class="receita-desc">Porque até churrasco pode ser vegano e sem crise de consciência</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abobrinha fatiada</li>
+              <li>pimentão vermelho cortado em cubos</li>
+              <li>cebola roxa em pedaços</li>
+              <li>g de cogumelos inteiros</li>
+              <li>xícara de molho barbecue vegano (caseiro ou comprado)</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Monte os espetinhos intercalando os legumes.</li>
+              <li>Tempere com sal e pimenta.</li>
+              <li>Grelhe os espetinhos até dourar.</li>
+              <li>Aqueça o molho barbecue e pincele nos espetinhos antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Espetinho vegano é o jeito mais fácil de dizer “foco na saúde” sem perder o sabor – nem o churrasco.</div>
+    </article>
+
+    <article class="receita-card" id="pamonha-vegana-doce-com-coco-e-acucar-mascavo">
+      <h2 class="receita-titulo">Pamonha Vegana Doce com Coco e Açúcar Mascavo</h2>
+      <p class="receita-desc">A prova de que tradição e veganismo podem dançar juntos no mesmo forró</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 90 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 6 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>espigas de milho verde ralado</li>
+              <li>xícara de leite de coco</li>
+              <li>/2 xícara de açúcar mascavo</li>
+              <li>/2 xícara de coco ralado fresco</li>
+              <li>Folhas de milho para embrulhar</li>
+              <li>Sal a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o milho ralado com leite de coco, açúcar, coco ralado e uma pitada de sal.</li>
+              <li>Envolva a mistura nas folhas de milho formando pacotinhos.</li>
+              <li>Cozinhe os pacotinhos em água fervente por 60 minutos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pamonha vegana é tipo festa junina da vida: cheia de sabor e cheia de histórias pra contar.</div>
+    </article>
+
+    <article class="receita-card" id="hamburguer-de-feijao-preto-com-aveia">
+      <h2 class="receita-titulo">Hambúrguer de Feijão Preto com Aveia</h2>
+      <p class="receita-desc">Pra quem quer proteína e sabor sem drama nem fila de fast-food</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 4 hambúrgueres</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícaras de feijão preto cozido</li>
+              <li>/2 xícara de aveia em flocos</li>
+              <li>cebola pequena picada</li>
+              <li>dentes de alho amassados</li>
+              <li>colher de chá de cominho</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata o feijão no processador até virar uma pasta.</li>
+              <li>Misture com aveia, cebola, alho, cominho, sal e pimenta.</li>
+              <li>Modele hambúrgueres e frite até dourar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Hambúrguer vegano é como resposta rápida no WhatsApp: eficiente e te deixa satisfeito.</div>
+    </article>
+
+    <article class="receita-card" id="panqueca-americana-vegana-com-maple-syrup-e-frutas">
+      <h2 class="receita-titulo">Panqueca Americana Vegana com Maple Syrup e Frutas</h2>
+      <p class="receita-desc">Pra começar o dia como se fosse sábado, mesmo sendo terça-feira</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>xícara de farinha de trigo</li>
+              <li>colher de sopa de açúcar</li>
+              <li>colher de chá de fermento em pó</li>
+              <li>xícara de leite vegetal</li>
+              <li>colher de sopa de óleo vegetal</li>
+              <li>Frutas frescas a gosto</li>
+              <li>Maple syrup para servir</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture os ingredientes secos e depois adicione o leite e óleo até formar massa.</li>
+              <li>Cozinhe porções na frigideira quente até borbulhar, vire e doure do outro lado.</li>
+              <li>Sirva com frutas e maple syrup.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Panqueca americana é a desculpa perfeita pra esquecer a dieta e lembrar que vida é feita de pequenos prazeres.</div>
+    </article>
+
+    <article class="receita-card" id="moqueca-de-palmito-com-pimentoes-coloridos">
+      <h2 class="receita-titulo">Moqueca de Palmito com Pimentões Coloridos</h2>
+      <p class="receita-desc">O sabor do litoral brasileiro sem precisar enfrentar trânsito ou fila</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 32,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>g de palmito cortado em rodelas</li>
+              <li>cebola média fatiada</li>
+              <li>pimentão vermelho em tiras</li>
+              <li>pimentão amarelo em tiras</li>
+              <li>tomates picados</li>
+              <li>ml de leite de coco</li>
+              <li>colheres de sopa de azeite de dendê</li>
+              <li>Coentro fresco picado</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue cebola, pimentões e tomates no azeite de dendê até amolecerem.</li>
+              <li>Adicione o palmito, leite de coco, sal e pimenta.</li>
+              <li>Cozinhe em fogo baixo por 20 minutos.</li>
+              <li>Finalize com coentro e sirva com arroz branco.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Moqueca vegana é a prova que você pode ter sabor e consciência – e ainda escapar do trânsito.</div>
+    </article>
+
+    <article class="receita-card" id="pudim-vegano-de-chia-com-leite-de-amendoas-e-frutas-vermelhas">
+      <h2 class="receita-titulo">Pudim Vegano de Chia com Leite de Amêndoas e Frutas Vermelhas</h2>
+      <p class="receita-desc">Doce que hidrata, alimenta e ainda finge que é saudável</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 6 horas (geladeira)</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 18,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>/2 xícara de sementes de chia</li>
+              <li>xícaras de leite de amêndoas</li>
+              <li>colheres de sopa de xarope de agave</li>
+              <li>Frutas vermelhas para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture as sementes de chia, leite de amêndoas e xarope.</li>
+              <li>Deixe na geladeira por pelo menos 6 horas ou durante a noite.</li>
+              <li>Sirva com frutas vermelhas por cima.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Pudim de chia é como promessa de dieta: precisa de tempo e paciência, mas no final vale a pena.</div>
+    </article>
+
+    <article class="receita-card" id="creme-de-abacate-com-lima-e-hortela">
+      <h2 class="receita-titulo">Creme de Abacate com Lima e Hortelã</h2>
+      <p class="receita-desc">Sobremesa rápida pra quem quer refrescar e não complicar a vida</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 10 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 15,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>abacates maduros</li>
+              <li>Suco de 2 limas</li>
+              <li>Folhas de hortelã a gosto</li>
+              <li>colheres de sopa de açúcar de coco</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Bata tudo no liquidificador até ficar cremoso.</li>
+              <li>Sirva gelado decorado com hortelã.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Esse creme é tipo feriado: rápido, refrescante e deixa todo mundo feliz.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>

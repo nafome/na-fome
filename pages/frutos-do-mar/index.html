@@ -1,0 +1,1791 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🦐 Frutos do Mar — Receitas NaFome</title>
+  <meta name="description" content="40 receitas para quem está na situação "Frutos do Mar". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nafome.com.br/frutos-do-mar/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🦐 Frutos do Mar — Receitas NaFome">
+  <meta property="og:description" content="40 receitas para quem está na situação "Frutos do Mar". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.">
+  <meta property="og:url" content="https://nafome.com.br/frutos-do-mar/">
+  <meta property="og:image" content="https://nafome.com.br/og-image.jpg">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "🦐 Frutos do Mar — NaFome",
+    "description": "40 receitas para quem está na situação "Frutos do Mar". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.",
+    "url": "https://nafome.com.br/frutos-do-mar/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NaFome",
+      "url": "https://nafome.com.br"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    a { color: #ff6b35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar {
+      background: #1a1a1a;
+      border-bottom: 2px solid #ff6b35;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .logo span { color: #ff6b35; }
+
+    .btn-sortear {
+      background: #ff6b35;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .btn-sortear:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 5vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 15px;
+    }
+
+    .hero .count {
+      display: inline-block;
+      margin-top: 12px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: #ff6b35;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    .receita-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .receita-card:hover {
+      border-color: #ff6b35;
+    }
+
+    .receita-titulo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .receita-desc {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .receita-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    .receita-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .receita-cols { grid-template-columns: 1fr; }
+    }
+
+    .receita-cols h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff6b35;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .ingredientes, .preparo {
+      font-size: 14px;
+      color: #ccc;
+      padding-left: 18px;
+    }
+
+    .ingredientes li, .preparo li {
+      margin-bottom: 6px;
+    }
+
+    .receita-dica {
+      background: #252525;
+      border-left: 3px solid #ff6b35;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #bbb;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-box h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-box p {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-cta {
+      background: #fff;
+      color: #ff6b35;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.04);
+      text-decoration: none;
+      color: #e55a25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #222;
+    }
+
+    footer a { color: #ff6b35; }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="https://nafome.com.br" class="logo">Na<span>Fome</span> 🍳</a>
+    <a href="https://nafome.com.br/?nicho=frutos-do-mar" class="btn-sortear">🎲 Sortear receita de Frutos do Mar</a>
+  </nav>
+
+  <div class="hero">
+    <h1>🦐 Frutos do Mar</h1>
+    <p>40 receitas para quem está na situação "Frutos do Mar". Sorteia uma agora no NaFome — rápidas, baratas e com personalidade.</p>
+    <span class="count">40 receitas disponíveis</span>
+  </div>
+
+  <div class="container">
+
+    <div class="cta-box">
+      <h2>Quer ser surpreendido?</h2>
+      <p>Clica no botão e a máquina sorteia uma receita de Frutos do Mar pra você agora.</p>
+      <a href="https://nafome.com.br/?nicho=frutos-do-mar" class="btn-cta">🎰 Girar o sorteio!</a>
+    </div>
+
+    
+    <article class="receita-card" id="moqueca-de-camarao-o-mar-embriagado-no-leite-de-coco">
+      <h2 class="receita-titulo">Moqueca de Camarão: O Mar Embriagado no Leite de Coco</h2>
+      <p class="receita-desc">Uma moqueca que é como aquela sogra sarcástica: cheia de personalidade, tempero e pronta para te fazer rir – e comer bem.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 45,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de camarão limpo</li>
+              <li>2 tomates maduros picados</li>
+              <li>1 pimentão vermelho picado</li>
+              <li>1 cebola média em rodelas</li>
+              <li>3 dentes de alho amassados</li>
+              <li>200ml de leite de coco</li>
+              <li>3 colheres de sopa de azeite de dendê</li>
+              <li>Coentro fresco a gosto</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Suco de 1 limão</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere os camarões com sal, pimenta e suco de limão. Deixe marinar enquanto você finge que sabe cozinhar.</li>
+              <li>Em uma panela, aqueça o azeite de dendê e refogue a cebola e o alho até ficarem transparentes – ou até você perceber que esqueceu o tempo como sempre.</li>
+              <li>Junte o pimentão e os tomates, mexa e deixe cozinhar até formar um molho que parece mais uma obra de arte do que seu histórico na cozinha.</li>
+              <li>Coloque os camarões, misture bem e deixe cozinhar por cerca de 5 minutos para não transformar o camarão em chiclete.</li>
+              <li>Adicione o leite de coco e o coentro, mexa delicadamente como quem não quer estragar nada e deixe ferver por mais 5 minutos.</li>
+              <li>Desligue o fogo, sirva com arroz branco e prepare-se para fingir que você é chef enquanto devora tudo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não deixe o dendê virar óleo de motor; a moqueca é comida, não peça pro mecânico, ok?</div>
+    </article>
+
+    <article class="receita-card" id="camarao-na-moranga-a-moranga-que-virou-festa-e-o-camarao-que-deu-show">
+      <h2 class="receita-titulo">Camarão na Moranga: A Moranga que Virou Festa e o Camarão que Deu Show</h2>
+      <p class="receita-desc">Um clássico dos frutos do mar que une a elegância da moranga com a gostosura do camarão. Perfeito pra aquela visita surpresa ou pra impressionar a sogra — ou pelo menos tentar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 65,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 moranga média (aquela que você acha que é um abóbora, mas é VIP)</li>
+              <li>500g de camarão limpo (sem drama, só a parte bonita)</li>
+              <li>2 dentes de alho picados (para afastar vampiros e invejosos)</li>
+              <li>1 cebola média picada (choro de emoção garantido)</li>
+              <li>1 tomate picado (pra dar cor e fingir que é dieta)</li>
+              <li>200ml de creme de leite (porque gordice às vezes é amor)</li>
+              <li>3 colheres de sopa de requeijão (a cola que une essa bagunça)</li>
+              <li>Cheiro verde a gosto (pra fingir que é saudável)</li>
+              <li>Sal e pimenta do reino a gosto (só não exagera, que não é competição)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Pré-aqueça o forno a 180°C, porque a moranga merece um spa quente.</li>
+              <li>Corte a tampa da moranga e retire as sementes com jeitinho, como tirando um ex da vida.</li>
+              <li>Leve a moranga ao forno por aproximadamente 30 minutos para ela amolecer e ficar maravilhosa.</li>
+              <li>Enquanto isso, aqueça uma panela com azeite e refogue a cebola e o alho até ficarem dourados, tipo final de novela.</li>
+              <li>Junte o tomate e refogue até murchar, como a esperança de segunda-feira.</li>
+              <li>Adicione o camarão, salteie até ficar rosa (o camarão, não você), tempere com sal e pimenta a gosto.</li>
+              <li>Desligue o fogo e misture o creme de leite, o requeijão e o cheiro verde – uma festa na panela.</li>
+              <li>Retire a moranga do forno, recheie com a mistura de camarão, cubra com a tampa e leve ao forno por mais 15 minutos.</li>
+              <li>Retire, chame os amigos e aproveite antes que alguém coma tudo sozinho.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se ficar sem companhia pra dividir, faça questão de tirar selfies com a moranga recheada antes de devorar; é a única audiência garantida que você vai ter.</div>
+    </article>
+
+    <article class="receita-card" id="bobo-de-camarao-o-prato-que-faz-ate-seu-crush-perguntar-se-vai-ter-repeteco">
+      <h2 class="receita-titulo">Bobó de Camarão: O prato que faz até seu crush perguntar se vai ter repeteco</h2>
+      <p class="receita-desc">Bobó de camarão: a desculpa perfeita pra chamar os amigos e impressionar até quem acha que pimenta é invenção do diabo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 45,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de camarão limpo</li>
+              <li>500g de mandioca (aipim) cozida</li>
+              <li>200ml de leite de coco</li>
+              <li>2 colheres de sopa de azeite de dendê</li>
+              <li>1 cebola média picada</li>
+              <li>2 dentes de alho picados</li>
+              <li>1 tomate picado</li>
+              <li>1 pimenta dedo-de-moça (opcional, pra dar aquele frio na barriga)</li>
+              <li>Coentro a gosto</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola e o alho no azeite de dendê até ficarem douradinhos — esse cheirinho já dá vontade de beijar o vizinho.</li>
+              <li>Acrescente o camarão e cozinhe até ficarem rosadinhos, não até virarem lagosta, ok?</li>
+              <li>Junte o tomate e a pimenta dedo-de-moça, porque só um pouco de fogo na vida não faz mal.</li>
+              <li>Bata a mandioca cozida com o leite de coco até virar um creme lisinho, que nem discurso fácil de entender.</li>
+              <li>Misture o creme de mandioca com o camarão refogado e deixe apurar por uns 5 minutos.</li>
+              <li>Finalize com coentro, sal e pimenta-do-reino a gosto — se não gostar de coentro, finja que só tá decorando o prato.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o resultado não ficar tão cremoso, não culpe a receita: culpe o fornecedor da mandioca... ou finja que é assim mesmo, artesanal.</div>
+    </article>
+
+    <article class="receita-card" id="peixe-assado-que-ate-sogra-vai-aprovar">
+      <h2 class="receita-titulo">Peixe Assado que Até Sua Sogra Vai Aprovar (ou pelo menos fingir)</h2>
+      <p class="receita-desc">Uma receita que te faz parecer chef, impressiona a família e ainda mantém o peixe longe daquele gosto de 'tem coisa errada aqui'.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 filé grande de peixe branco (pode ser robalo, tilápia, ou fique amigo do seu pescador local)</li>
+              <li>1 limão siciliano (porque limão normal é muito mainstream)</li>
+              <li>2 dentes de alho picados (para espantar vampiros e visitas indesejadas)</li>
+              <li>1/2 xícara de ervas frescas picadas (salsinha, alecrim, tomilho, aquele cheiro que sua cozinha merece)</li>
+              <li>3 colheres de sopa de azeite de oliva (para a pele do peixe ficar mais brilhante que seu futuro)</li>
+              <li>Sal e pimenta do reino a gosto (para temperar sua vida)</li>
+              <li>Farinha de rosca ou pão ralado (para aquela crosta que parece que você fez mil cursos de cozinha)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Pré-aqueça o forno a 200°C, porque paciência é uma virtude que nem todo mundo tem.</li>
+              <li>Misture as ervas, o alho, o azeite, o sal, a pimenta e a raspinha do limão em uma tigela. Se quiser, faça uma dancinha para criar clima.</li>
+              <li>Passe essa mistura generosamente sobre o filé de peixe, cobrir também os lados, afinal, ninguém gosta de ficar de fora do agito.</li>
+              <li>Cubra o peixe com a farinha de rosca pressionando para formar a crosta – é o casaco estiloso do peixe.</li>
+              <li>Asse por cerca de 20 minutos ou até o peixe ficar soltando aquele cheiro que faz vizinho aparecer com fome.</li>
+              <li>Regue com o suco do limão siciliano antes de servir, porque a vida precisa de um sabor azedinho para ser interessante.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a crosta grudar na assadeira, finja que é parte do charme rústico – ninguém precisa saber que você esqueceu o papel alumínio!</div>
+    </article>
+
+    <article class="receita-card" id="caldeirada-maravilhosa-o-mar-na-sua-panela-sem-precisar-mergulhar">
+      <h2 class="receita-titulo">Caldeirada Maravilhosa: O Mar na Sua Panela (Sem Precisar Mergulhar)</h2>
+      <p class="receita-desc">Quer sentir o mar sem fazer balé na areia? Essa caldeirada mistura tudo que vem do mar num lugar só, pra sua cozinha virar uma praia (com ar-condicionado).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 65,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>300g de camarão limpo</li>
+              <li>300g de peixe branco em postas (merluza, robalo ou similar)</li>
+              <li>200g de mexilhões</li>
+              <li>200g de lula em rodelas</li>
+              <li>2 tomates maduros picados</li>
+              <li>1 cebola média picada</li>
+              <li>3 dentes de alho picados</li>
+              <li>1 pimentão vermelho picado</li>
+              <li>1/2 xícara de azeite de oliva</li>
+              <li>1/2 xícara de vinho branco seco</li>
+              <li>1 colher de sopa de extrato de tomate</li>
+              <li>Salsinha picada a gosto</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>1 folha de louro</li>
+              <li>Suco de 1 limão</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere os frutos do mar com sal, pimenta e limão. Reserve enquanto toma coragem para começar.</li>
+              <li>Em uma panela grande, aqueça o azeite e refogue a cebola, o alho e o pimentão até ficarem macios — ou até não aguentar mais o cheiro de cebola.</li>
+              <li>Adicione os tomates picados e o extrato de tomate. Cozinhe até formar um molho consistente, tipo aquele fim de pepino antes da festa acabar.</li>
+              <li>Coloque o vinho branco e a folha de louro. Deixe o álcool evaporar enquanto pensa na conta de luz da próxima mês.</li>
+              <li>Junte o peixe, tampe a panela e cozinhe por 5 minutos — o peixe vai se sentir na sauna, mas é por uma boa causa.</li>
+              <li>Adicione camarão, lula e mexilhões, cozinhe por mais 5 minutos ou até que todos estejam no ponto, igual aquele amigo que aparece só pra festa ficar boa.</li>
+              <li>Finalize com salsinha picada, ajuste o sal e a pimenta — aqui é o momento de provar e fingir que entende do que está comendo.</li>
+              <li>Sirva quente e aproveite o sabor do mar, sem precisar colocar os pés na areia e sem ficar com areia no sapato.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se os frutos do mar começarem a fugir da panela, lembre que a cerveja gelada está ao alcance das mãos para ajudar na negociação.</div>
+    </article>
+
+    <article class="receita-card" id="casquinha-de-siri-gratinada-o-mar-que-cai-no-pao">
+      <h2 class="receita-titulo">Casquinha de Siri Gratinada: O Mar que Cai no Pão (e Não na Conta)</h2>
+      <p class="receita-desc">Um clássico do litoral que dá vontade de abraçar o siri antes de comer. Surpreenda seu paladar e esqueça o preço do peixe fresco (por pelo menos uns 30 minutos).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>300g de carne de siri limpa</li>
+              <li>1 colher de sopa de manteiga</li>
+              <li>1 cebola pequena picada</li>
+              <li>2 dentes de alho picados</li>
+              <li>1 tomate maduro picado</li>
+              <li>2 colheres de sopa de cheiro-verde picado</li>
+              <li>1 colher de sopa de farinha de trigo</li>
+              <li>100ml de leite</li>
+              <li>sal e pimenta-do-reino a gosto</li>
+              <li>queijo parmesão ralado para gratinar</li>
+              <li>casquinhas de siri (ou conchas para servir)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Derreta a manteiga em uma panela e refogue a cebola e o alho até ficarem dourados – assim, pelo menos a cozinha vai ficar animada.</li>
+              <li>Adicione o tomate e a carne de siri, refogue por 5 minutos, como se estivesse convencendo o siri a colaborar.</li>
+              <li>Misture a farinha de trigo para dar liga, como aquele amigo que une a galera no churrasco.</li>
+              <li>Vá adicionando o leite aos poucos, mexendo até criar um creme consistente – como um relacionamento, tem que ter paciência.</li>
+              <li>Tempere com sal, pimenta e cheiro-verde. Experimente para não acabar parecendo almoço de hospital.</li>
+              <li>Recheie as casquinhas com o creme, cubra com queijo parmesão e leve ao forno preaquecido a 200ºC para gratinar por cerca de 10 minutos, até que o queijo forme aquela casquinha irresistível.</li>
+              <li>Sirva quente e prepare-se para fingir que sabe o que está comendo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a receita não der certo, finja que é um novo estilo gastronômico: 'Mar na Casquinha, versão abstrata'.</div>
+    </article>
+
+    <article class="receita-card" id="arroz-de-mariscos-a-praia-que-cabe-na-panela">
+      <h2 class="receita-titulo">Arroz de Mariscos: a Praia que Cabe na Panela</h2>
+      <p class="receita-desc">Um arroz de mariscos que é praticamente uma viagem à praia – só que sem areia nos sapatos e com muito mais sabor.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 xícaras de arroz branco</li>
+              <li>500g de mistura de mariscos (mexilhões, camarões e lulas)</li>
+              <li>1 cebola média picada</li>
+              <li>2 dentes de alho picados</li>
+              <li>1 tomate grande picado</li>
+              <li>1 pimentão vermelho picado</li>
+              <li>1/2 xícara de vinho branco seco</li>
+              <li>4 xícaras de caldo de peixe ou legumes</li>
+              <li>2 colheres de sopa de azeite de oliva</li>
+              <li>Salsinha e coentro a gosto</li>
+              <li>Sal e pimenta do reino a gosto</li>
+              <li>Suco de 1 limão</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Em uma panela grande, aqueça o azeite e refogue a cebola e o alho até ficarem transparentes. Se você já chorou mais por causa da cebola do que da última DR, está no caminho certo.</li>
+              <li>Adicione o tomate e o pimentão e refogue por 5 minutos. Sua cozinha já deve estar cheirando a férias na praia, mesmo que você esteja no quarto de solteiro.</li>
+              <li>Junte os mariscos e refogue por 3 minutos, para eles perceberem que chegaram ao lugar certo.</li>
+              <li>Despeje o vinho branco e deixe evaporar o álcool, porque ninguém quer ressaca culinária.</li>
+              <li>Acrescente o arroz e mexa bem para misturar tudo, garantindo que o arroz também entre na festa.</li>
+              <li>Adicione o caldo e tempere com sal e pimenta. Aumente o fogo até ferver, depois abaixe para médio e tampe a panela. Sim, como aquele ex que só aparece quando você menos espera.</li>
+              <li>Cozinhe por 15 minutos até o arroz estar macio e o caldo quase seco. Se quiser, coloque um pano de prato por cima da tampa para evitar aquela água assustadora pingando.</li>
+              <li>Finalize com suco de limão e ervas frescas. Isso é o glamour que o chef nunca te contou.</li>
+              <li>Sirva quente e prepare-se para fingir que passou horas cozinhando, quando na verdade só queria matar a fome e impressionar os crushes.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar, não jogue fora! Reaqueça com uma cerveja gelada e finja que é um prato gourmet para impressionar na segunda-feira.</div>
+    </article>
+
+    <article class="receita-card" id="file-tilapia-grelhado-molho-maracuja-crush-dieta">
+      <h2 class="receita-titulo">Filé de Tilápia Grelhado com Molho de Maracujá: o Crush que Você Merece na Dieta</h2>
+      <p class="receita-desc">Receita que prova que comer saudável não precisa ser tão triste quanto segunda-feira sem café. Tilápia grelhada com um molho de maracujá agridoce para enganar a fome e deixar o paladar feliz (pelo menos temporariamente).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>4 filés de tilápia</li>
+              <li>1 maracujá azedo</li>
+              <li>2 colheres de sopa de mel</li>
+              <li>1 colher de sopa de azeite de oliva</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>1 dente de alho picado</li>
+              <li>Salsinha picada para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere os filés de tilápia com sal, pimenta e alho picado. Deixe descansar como aquele crush que nunca responde rápido.</li>
+              <li>Aqueça o azeite numa frigideira e grelhe os filés por 3 a 4 minutos de cada lado, até ficarem douradinhos — tipo sua paciência na segunda-feira.</li>
+              <li>Enquanto isso, corte o maracujá ao meio, retire a polpa e coe para tirar as sementes (ou faça como na dieta, faça que não viu).</li>
+              <li>Misture a polpa do maracujá com o mel até formar um molho agridoce que é tipo o equilíbrio da vida: amargo e doce ao mesmo tempo.</li>
+              <li>Regue o molho sobre os filés grelhados e decore com salsinha porque a gente finge que é sofisticado.</li>
+              <li>Sirva na hora, porque peixe frio até parece ex que só te traz dor de cabeça.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o molho ficar muito azedo, lembre-se: na vida também tem momentos amargos, mas adicionar um pouco de mel ajuda (na comida e no coração).</div>
+    </article>
+
+    <article class="receita-card" id="lula-grelhada-pra-impressionar-o-crush-ou-pelo-menos-o-estomago">
+      <h2 class="receita-titulo">Lula Grelhada: pra impressionar o crush (ou pelo menos o estômago)</h2>
+      <p class="receita-desc">A lula que vai fazer você se sentir chef e não o faz de bobo na cozinha. Rápida, saborosa e com uma vibe cítrica que até ex te esqueceria.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de lula limpa</li>
+              <li>3 dentes de alho picados</li>
+              <li>suco de 1 limão</li>
+              <li>2 colheres de sopa de azeite de oliva</li>
+              <li>sal a gosto</li>
+              <li>pimenta-do-reino moída na hora</li>
+              <li>salsinha picada para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Marinar a lula com alho, suco de limão, sal e pimenta por 15 minutos. Não é uma sessão de terapia, apenas deixe o peixe respirar.</li>
+              <li>Preaqueça a grelha ou frigideira com azeite. Se não tiver grelha, uso frigideira mesmo, a gente improvisa na vida e na cozinha.</li>
+              <li>Grelhe as lulas por cerca de 2-3 minutos de cada lado, até ficarem douradinhas. Se passar do ponto vira borracha, e ninguém quer chiclete no almoço.</li>
+              <li>Retire, salpique a salsinha e sirva com aquele suquinho de limão extra. Porque limão nunca é demais, igual conselho não solicitado.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a lula agarrar na grelha, não entre em pânico. É igual relacionamento: não precisa forçar, deixa acontecer natural.</div>
+    </article>
+
+    <article class="receita-card" id="vatapa-de-camarao-seco-porque-camarao-fresco-e-para-os-fracos">
+      <h2 class="receita-titulo">Vatapá de Camarão Seco: Porque Camarão Fresco é para os Fracos</h2>
+      <p class="receita-desc">Uma receita que prova que camarão seco é o herói anônimo dos frutos do mar: saboroso, econômico e com uma personalidade que não pede frescor, só respeito.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de camarão seco dessalgado</li>
+              <li>2 pães franceses amanhecidos</li>
+              <li>200ml de leite de coco</li>
+              <li>1 cebola média picada</li>
+              <li>2 dentes de alho picados</li>
+              <li>1 tomate sem sementes picado</li>
+              <li>1/2 xícara de azeite de dendê</li>
+              <li>50g de amendoim torrado</li>
+              <li>50g de castanha de caju torrada</li>
+              <li>pimenta a gosto</li>
+              <li>sal a gosto</li>
+              <li>coentro ou cheiro-verde para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque o pão para demolhar no leite de coco até amolecer (tempo ideal para maratonar um episódio da sua série favorita).</li>
+              <li>No liquidificador, bata o pão embebido, o amendoim e a castanha até formar uma pasta cremosa – essa vai ser a base do 'magical vatapá'.</li>
+              <li>Refogue a cebola e o alho no azeite de dendê até ficarem douradinhos, que nem o bronzeado do tio do churrasco.</li>
+              <li>Adicione o tomate e refogue até desmanchar, porque tomate inteiro no vatapá só se for tomate-game.</li>
+              <li>Misture a pasta do liquidificador com o refogado e acrescente o camarão seco dessalgado.</li>
+              <li>Mexa em fogo baixo até começar a desgrudar da panela, como aquela conversa que você tenta sair de uma festa chata.</li>
+              <li>Tempere com sal e pimenta a gosto (vale a pena testar, mas não transforme em batalha naval).</li>
+              <li>Decore com coentro ou cheiro-verde, para fingir que está saudável.</li>
+              <li>Sirva com arroz branco e se prepare para explicar que camarão seco não é coisa de vó, mas de quem sabe aproveitar a vida.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se alguém reclamar do camarão seco, só diga que frescura é pra peixe, e eu prefiro camarão com personalidade!</div>
+    </article>
+
+    <article class="receita-card" id="camarao-na-cerveja-mare-alta-no-seu-copo">
+      <h2 class="receita-titulo">Camarão na Cerveja: Maré Alta no Seu Copo</h2>
+      <p class="receita-desc">Uma mistura que vai te fazer sentir que o happy hour começou mais cedo. Camarão suculento com aquele toque de cerveja que é quase um convite pra festa no paladar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de camarão médio fresco</li>
+              <li>1 lata de cerveja clara (350ml)</li>
+              <li>3 dentes de alho picados</li>
+              <li>1 cebola pequena picada</li>
+              <li>1 pimenta dedo-de-moça sem sementes</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Salsinha picada para finalizar</li>
+              <li>Azeite de oliva</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coloque o camarão pra marinar no suco de limão, sal e pimenta — tipo romance de verão, só que mais rápido.</li>
+              <li>Enquanto isso, esquente o azeite e refogue alho, cebola e a pimenta. Deixe o cheiro invadir a casa, é grátis!</li>
+              <li>Jogue os camarões na panela, deixe eles dançarem por uns 3 minutos.</li>
+              <li>Agora o show principal: despeje a cerveja e tampe a panela. Deixe ferver até o líquido reduzir e o camarão ficar no ponto (nem 1 minuto a mais, nem 1 a menos).</li>
+              <li>Finalize com salsinha e sirva rápido antes que alguém roube.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar cerveja, aproveite a bebida – a receita não pede regrinhas, só cerveja boa e camarão na medida certa!</div>
+    </article>
+
+    <article class="receita-card" id="tilapia-swagger-o-peixe-que-sabe-jogar-limao">
+      <h2 class="receita-titulo">Tilápia Swagger: O Peixe que Sabe Jogar Limão</h2>
+      <p class="receita-desc">A tilápia que chega chegando, com limão e crocância pra fazer inveja até no peixe do açougue.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>4 filés de tilápia</li>
+              <li>Suco de 2 limões</li>
+              <li>Farinha de trigo para empanar</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>1 colher de chá de páprica</li>
+              <li>Azeite para fritar</li>
+              <li>Salsinha picada</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere os filés com sal, pimenta, páprica e suco de limão. Deixe eles curtindo essa vibe por 15 minutos.</li>
+              <li>Passe os filés na farinha com jeitinho, sem exagerar, queremos crocância, não a múmia do peixe.</li>
+              <li>Aqueça o azeite e frite os filés até ficarem dourados, tipo aquele bronzeado de verão que todo mundo inveja.</li>
+              <li>Decore com salsinha e sirva com aquele arroz branco amigo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não economize no limão, ele é o coach desse peixe para ficar estiloso!</div>
+    </article>
+
+    <article class="receita-card" id="lula-recheada-o-polvo-da-impostora">
+      <h2 class="receita-titulo">Lula Recheada: O Polvo da Impostora</h2>
+      <p class="receita-desc">Uma lula que quer ser polvo, recheada com sabor e atitude pra deixar seu almoço com alma de dar inveja no mar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 45,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>4 lulas médias limpas</li>
+              <li>200g de farinha de pão</li>
+              <li>1 tomate picado</li>
+              <li>1 cebola pequena picada</li>
+              <li>2 dentes de alho picados</li>
+              <li>Cheiro-verde a gosto</li>
+              <li>Sal e pimenta-do-reino</li>
+              <li>Azeite</li>
+              <li>Suco de 1 limão</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a farinha de pão com tomate, cebola, alho, cheiro-verde, sal e pimenta. Essa é a nossa mágica secreta de recheio.</li>
+              <li>Recheie as lulas com essa mistura (sem encher demais, ninguém quer virar bexiga).</li>
+              <li>Feche com palitos e grelhe na frigideira com azeite até ficarem douradinhas e com cheiro que vai fazer vizinho perguntar o que tá rolando.</li>
+              <li>Finalize com suco de limão e sirva quente, porque frio só a conta.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a lula quiser fugir, segure firme – ela só quer ser recheada, não maratonista!</div>
+    </article>
+
+    <article class="receita-card" id="mariscada-do-vizinho-pra-ficar-de-boa-e-sem-reza-brava">
+      <h2 class="receita-titulo">Mariscada do Vizinho: Pra Ficar de Boa e Sem Reza Brava</h2>
+      <p class="receita-desc">A mariscada perfeita pra chamar o vizinho, o crush e até aquele amigo que só aparece pra comer.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 50,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>300g de mexilhões limpos</li>
+              <li>300g de mariscos limpos</li>
+              <li>2 tomates maduros picados</li>
+              <li>1 cebola picada</li>
+              <li>2 dentes de alho picados</li>
+              <li>1 vidro pequeno de vinho branco (opcional, mas recomendado pra fingir que sabe cozinhar)</li>
+              <li>Salsinha</li>
+              <li>Sal e pimenta-do-reino</li>
+              <li>Azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue alho e cebola no azeite até ficarem translucentes, aquele efeito Hollywood no seu fogão.</li>
+              <li>Junte tomates picados e deixe virar um molho básico, mas cheio de vida.</li>
+              <li>Adicione os mexilhões e mariscos, tempere com sal, pimenta e jogue o vinho branco – a cerveja fica pro camarão, lembra?</li>
+              <li>Tampe a panela e deixe os frutos do mar abrirem, é o sinal verde pra festa no prato.</li>
+              <li>Finalize com salsinha e sirva com pão para não deixar ninguém chupando dedo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se alguém perguntar o segredo, diga que é o vinho – funciona toda vez!</div>
+    </article>
+
+    <article class="receita-card" id="bolinho-de-siri-das-ultimas-horas-o-adeus-crocante">
+      <h2 class="receita-titulo">Bolinho de Siri das Últimas Horas: O Adeus Crocante</h2>
+      <p class="receita-desc">O bolinho de siri que é quase uma despedida em forma de crocância, perfeito pra última refeição ou pra qualquer momento que mereça um adeus saboroso.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>300g de carne de siri desfiada</li>
+              <li>1 batata média cozida e amassada</li>
+              <li>2 dentes de alho picados</li>
+              <li>1 cebola pequena picada</li>
+              <li>Cheiro-verde</li>
+              <li>1 ovo</li>
+              <li>Farinha de trigo para dar liga</li>
+              <li>Sal e pimenta-do-reino</li>
+              <li>Óleo para fritar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture a carne de siri, batata, alho, cebola, cheiro-verde, ovo, sal e pimenta até formar uma massa que não desmancha – tipo promessa de político.</li>
+              <li>Vá adicionando farinha aos poucos para ajustar a textura, sem virar massa de pão, ok?</li>
+              <li>Forme bolinhos do tamanho que caibam na boca (ou na pressa).</li>
+              <li>Frite em óleo quente até dourar, cuidado pra não fritar o dedo também.</li>
+              <li>Sirva com molho de pimenta pra dar aquela explosão final.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o bolinho quiser fugir, lembre que ele sempre volta às últimas horas... na sua boca.</div>
+    </article>
+
+    <article class="receita-card" id="camarao-a-vibe-do-surfista-sal-sol-e-solteirice">
+      <h2 class="receita-titulo">Camarão à Vibe do Surfista: Sal, Sol e Solteirice</h2>
+      <p class="receita-desc">Camarão com a vibe de quem quer surfar na praia e na cozinha. Fácil, rápido e com um toque de limão que vai fazer você pensar que está de férias, mesmo se for só na sua cozinha.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de camarão rosa limpo</li>
+              <li>2 dentes de alho picados</li>
+              <li>1 limão siciliano</li>
+              <li>1 colher de sopa de azeite de oliva</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Salsinha picada para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave o camarão como se estivesse lavando a alma na praia.</li>
+              <li>Tempere com alho, sal, pimenta e o suco do limão, porque aqui a vibe é azedinha.</li>
+              <li>Esquente o azeite na frigideira, jogue o camarão e deixe fritar até ele ficar corado — tipo bronzeado saudável.</li>
+              <li>Salpique salsinha como se estivesse jogando confete na festa do mar.</li>
+              <li>Sirva rápido antes que a fome te derrube como uma onda gigante!</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não deixe o camarão passar do ponto, senão ele fica mais duro que a última piada do tio no churrasco.</div>
+    </article>
+
+    <article class="receita-card" id="peixe-espetacular-tilapia-no-espeto-da-zueira">
+      <h2 class="receita-titulo">Peixe Espetacular: Tilápia no Espeto da Zueira</h2>
+      <p class="receita-desc">A tilápia que virou a estrela do churrasco, só que sem a fumaça de carvão e com mais estilo. Fácil, rápido e divertido, para quem quer impressionar sem estresse.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,50</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de filé de tilápia</li>
+              <li>Suco de 1 laranja</li>
+              <li>2 colheres de sopa de shoyu</li>
+              <li>1 colher de chá de gengibre ralado</li>
+              <li>Palitos de churrasco</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Corte a tilápia em cubos do tamanho ideal para fazer inveja à churrasqueira do vizinho.</li>
+              <li>Marinhe no suco de laranja, shoyu, gengibre, sal e pimenta por 20 minutos — mais tempo e o peixe vira peça de museu.</li>
+              <li>Espete os cubos nos palitos, sem furar seu dedo (ninguém quer esse tipo de ferimento).</li>
+              <li>Grelhe até dourar, igual a um bronzeado de verão.</li>
+              <li>Devore com moderação ou com muito apetite, sem julgamentos.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se quiser um toque especial, faça aquela dancinha do espeto antes de virar na grelha — garante sabor e risadas.</div>
+    </article>
+
+    <article class="receita-card" id="risoto-do-mar-que-nao-afunda-camarao-e-alegria">
+      <h2 class="receita-titulo">Risoto do Mar que Não Afunda: Camarão e Alegria</h2>
+      <p class="receita-desc">Risoto que não afunda, só te afoga em sabor e piadas. Ideal pra quem quer um prato elegante, mas não tão sério assim.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 42,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 xícara de arroz arbóreo</li>
+              <li>200g de camarão limpo</li>
+              <li>1 cebola pequena picada</li>
+              <li>2 dentes de alho picados</li>
+              <li>1/2 xícara de vinho branco</li>
+              <li>Caldo de legumes (aproximadamente 700ml)</li>
+              <li>1 colher de sopa de manteiga</li>
+              <li>Queijo parmesão ralado a gosto</li>
+              <li>Sal e pimenta a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola e o alho na manteiga como se estivesse preparando o palco para o show do camarão.</li>
+              <li>Jogue o arroz arbóreo e mexa até ele ficar meio transparente, tipo aquele crush que demora a dar sinal.</li>
+              <li>Adicione o vinho branco e espere evaporar, aproveitando para cantar uma música do mar (opcional).</li>
+              <li>Vá adicionando o caldo aos poucos, mexendo sem parar, porque risoto não gosta de preguiça.</li>
+              <li>Quando o arroz estiver quase no ponto, jogue os camarões, sal e pimenta, e continue mexendo até tudo ficar cremoso e feliz.</li>
+              <li>Finalize com parmesão para dar aquele abraço de queijo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mexa com amor e paciência, ou pelo menos finja que sabe o que está fazendo.</div>
+    </article>
+
+    <article class="receita-card" id="polvo-enrolado-o-tentaculo-do-amor">
+      <h2 class="receita-titulo">Polvo Enrolado: O Tentáculo do Amor</h2>
+      <p class="receita-desc">Polvo que te enrosca com sabor e te conquista com tentáculos de humor. Pra impressionar sem perder a piada.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 60 min</span>
+          <span class="badge">📊 Difícil</span>
+          <span class="badge">💰 R$ 55,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 polvo pequeno (aprox. 1kg)</li>
+              <li>3 dentes de alho</li>
+              <li>1 folha de louro</li>
+              <li>Suco de 1 limão</li>
+              <li>Azeite de oliva</li>
+              <li>Sal grosso e pimenta-do-reino</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Dê um banho relaxante no polvo em água fervente com alho e louro — spa para o polvo, baby!</li>
+              <li>Depois de amolecer (sim, ele precisa relaxar), corte em pedaços e tempere com sal, pimenta e limão, pra dar aquele aroma de romance.</li>
+              <li>Grelhe no azeite até ficar dourado, tipo aquele bronze que você sonha ter nas férias.</li>
+              <li>Sirva com um sorriso e prepare-se para conquistar corações (ou pelo menos o estômago de alguém).</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o polvo ficar duro, não se preocupe: pelo menos você tentou e agora tem uma boa história pra contar.</div>
+    </article>
+
+    <article class="receita-card" id="linguado-a-pimpao-o-peixe-que-caiu-na-gandaia">
+      <h2 class="receita-titulo">Linguado à Pimpão: O Peixe que Caiu na Gandaia</h2>
+      <p class="receita-desc">Linguado que chegou chegando, com manteiga na mão e limão no coração. Perfeito para quem quer um prato simples, porém cheio de atitude.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 1 porção</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 filé grande de linguado (aprox. 400g)</li>
+              <li>Suco de 1 limão</li>
+              <li>2 colheres de sopa de manteiga</li>
+              <li>1 dente de alho amassado</li>
+              <li>Salsinha picada</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o linguado com sal, pimenta e limão, porque até peixe merece uma festa cítrica.</li>
+              <li>Derreta a manteiga na frigideira e adicione o alho para aquele cheirinho que abre portas (ou estômagos).</li>
+              <li>Coloque o filé na frigideira e cozinhe até que ele fique com aquela cor dourada de quem acabou de ganhar na loteria do sabor.</li>
+              <li>Finalize com salsinha para dar o toque de swag do mar.</li>
+              <li>Sirva com aquela cara de quem sabe que vai arrasar no jantar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não fique mexendo demais o peixe, ele é tipo celebridade: gosta de seu tempo no palco.</div>
+    </article>
+
+    <article class="receita-card" id="camarao-a-zueira-o-prato-que-faz-a-panela-rir">
+      <h2 class="receita-titulo">Camarão à Zueira: o prato que faz a panela rir</h2>
+      <p class="receita-desc">Uma receita que é tão divertida quanto fácil de fazer. Camarão temperado na medida certa para deixar seu estômago e seu humor lá em cima.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de camarão médio limpo</li>
+              <li>3 dentes de alho picados</li>
+              <li>1 cebola média picada</li>
+              <li>1 pimenta dedo-de-moça sem sementes picada</li>
+              <li>2 tomates maduros picados</li>
+              <li>1 colher de sopa de azeite de oliva</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Salsinha fresca para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o camarão com sal, pimenta e limão. Deixe ele pensando na vida por 10 minutos.</li>
+              <li>Esquente o azeite e jogue o alho e a cebola para fazer aquele cheirinho que chama a galera.</li>
+              <li>Jogue a pimenta e os tomates na panela, para fazer a festa do sabor.</li>
+              <li>Hora do camarão! Manda ele para a panela e mexa até ele ficar coradinho, tipo bronzeado de verão.</li>
+              <li>Desligue o fogo, salpique salsinha e sirva antes que o camarão fuja do prato.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não fique de bobeira: camarão cozinha rápido e ninguém gosta de lagosta mal passada!</div>
+    </article>
+
+    <article class="receita-card" id="lula-a-tiracolo-o-tentaculo-do-sabor-que-nao-te-da-no">
+      <h2 class="receita-titulo">Lula à Tiracolo: o tentáculo do sabor que não te dá nó</h2>
+      <p class="receita-desc">Lula rápida e saborosa, para quem quer impressionar sem drama. Prepare-se para aplausos e convites de volta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de lula limpa e cortada em anéis</li>
+              <li>Suco de 1 limão</li>
+              <li>2 colheres de sopa de azeite</li>
+              <li>2 dentes de alho picados</li>
+              <li>1 colher de chá de páprica doce</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Folhas de coentro para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere a lula com limão, sal, pimenta e páprica. Deixe marinar e pensar na vida por 15 minutos.</li>
+              <li>Aqueça o azeite na frigideira e jogue o alho para começar a festa aromática.</li>
+              <li>Coloque a lula e mexa rápido, é um espetáculo relâmpago para não virar borracha.</li>
+              <li>Assim que mudar de cor, tire do fogo para não virar chiclete gourmet.</li>
+              <li>Decore com coentro e sirva com aquela cara de mestre do mar!</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Lula é igual notícia boa: se demorar demais, perde a graça (e a textura)!</div>
+    </article>
+
+    <article class="receita-card" id="moqueca-da-ressaca-o-conserto-oficial-do-fim-de-semana">
+      <h2 class="receita-titulo">Moqueca da Ressaca: o conserto oficial do fim de semana</h2>
+      <p class="receita-desc">Para quem exagerou na festa e quer se redimir com estilo: moqueca que abraça o estômago e espanta a ressaca.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 45,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>400g de peixe branco em postas (como cação ou robalo)</li>
+              <li>200g de camarão limpo</li>
+              <li>1 cebola grande em rodelas</li>
+              <li>1 tomate grande em rodelas</li>
+              <li>1 pimentão verde em rodelas</li>
+              <li>200ml de leite de coco</li>
+              <li>2 colheres de sopa de azeite de dendê</li>
+              <li>Coentro fresco picado</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o peixe e camarão com sal e pimenta, enquanto você lembra dos exageros do fim de semana.</li>
+              <li>Em uma panela, faça camadas de cebola, pimentão, tomate, peixe e camarão. É tipo um Tetris saboroso.</li>
+              <li>Regue com leite de coco e azeite de dendê, para dar aquele abraço afro-baiano.</li>
+              <li>Tampe e cozinhe em fogo médio-baixo até o peixe ficar macio e o aroma invadir sua alma.</li>
+              <li>Finalize com coentro e prepare-se para agradecer à vida (e ao NaFome).</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Tomar uma água antes ajuda, mas se não der, essa moqueca resolve!</div>
+    </article>
+
+    <article class="receita-card" id="bobo-de-siri-descolado-o-rei-do-camarote-pra-sua-panela">
+      <h2 class="receita-titulo">Bobó de Siri Descolado: o rei do camarote pra sua panela</h2>
+      <p class="receita-desc">Bobó de siri que é puro charme e sabor, perfeito para quem quer virar o rei ou a rainha da cozinha e do rolê.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>300g de carne de siri desfiada</li>
+              <li>1 vidro de leite de coco (200ml)</li>
+              <li>2 mandiocas médias cozidas e amassadas</li>
+              <li>1 cebola picada</li>
+              <li>2 dentes de alho picados</li>
+              <li>1 tomate picado</li>
+              <li>2 colheres de sopa de azeite de dendê</li>
+              <li>Coentro fresco picado</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola e o alho no azeite de dendê, até ficarem douradinhos e cheirosos.</li>
+              <li>Junte o tomate e deixe virar aquele molho que faz qualquer um babar.</li>
+              <li>Adicione a mandioca amassada e misture bem, é a base cremosa que abraça o siri.</li>
+              <li>Coloque a carne de siri e mexa com amor e ritmo de samba.</li>
+              <li>Despeje o leite de coco, ajuste sal e pimenta, e deixe cozinhar até apurar o sabor.</li>
+              <li>Finalize com coentro e prepare o cenário para o sucesso.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Mandioca bem cozida é o segredo do sucesso: nem crua, nem tapete!</div>
+    </article>
+
+    <article class="receita-card" id="espaguete-marajo-massa-que-navega-no-molho-do-mar">
+      <h2 class="receita-titulo">Espaguete Marujo: massa que navega no molho do mar</h2>
+      <p class="receita-desc">Um prato pra quem quer embarcar numa viagem gastronômica sem sair da mesa. Mariscos e massa num encontro que até a sereia aprova.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 50,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>250g de espaguete</li>
+              <li>300g de mariscos frescos limpos</li>
+              <li>200g de mexilhões limpos</li>
+              <li>3 dentes de alho picados</li>
+              <li>1 cebola pequena picada</li>
+              <li>200ml de vinho branco seco</li>
+              <li>2 colheres de sopa de azeite de oliva</li>
+              <li>Salsinha picada</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Cozinhe o espaguete conforme as instruções da embalagem, mas sem deixar virar um chiclete.</li>
+              <li>Enquanto isso, refogue alho e cebola no azeite até dourar, porque sabor nunca é demais.</li>
+              <li>Jogue os mariscos e mexilhões na panela e regue com vinho branco. Deixe o mar abrir a boca.</li>
+              <li>Tampe e cozinhe até as conchas abrirem – se não abrirem, não são convidados.</li>
+              <li>Misture o espaguete ao molho, salpique salsinha e sirva com orgulho de capitão.</li>
+              <li>Se o espaguete começar a cantar, é sinal de que está pronto.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Vinho branco é para cozinhar, não para beber todo antes do prato ficar pronto!</div>
+    </article>
+
+    <article class="receita-card" id="camarao-pula-pula-o-petisco-que-nao-deixa-a-festa-apagar">
+      <h2 class="receita-titulo">Camarão Pula-Pula: o petisco que não deixa a festa apagar</h2>
+      <p class="receita-desc">O camarão que não perde a festa nem quando o DJ para! Fácil, rápido e com sabor que faz você querer repetir (ou pelo menos tentar disfarçar).</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de camarão médio limpo</li>
+              <li>2 dentes de alho picados</li>
+              <li>1 pimenta dedo-de-moça</li>
+              <li>suco de 1 limão</li>
+              <li>sal a gosto</li>
+              <li>azeite para fritar</li>
+              <li>salsinha picada para finalizar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere o camarão com alho, limão, sal e a pimenta dedo-de-moça (se quiser um baile na boca, não economize na pimenta).</li>
+              <li>Em uma frigideira, esquente o azeite até ficar mais quente que fofoca de vizinho.</li>
+              <li>Jogue os camarões e deixe eles 'dançarem' até ficarem rosados (uns 3 minutos de agito).</li>
+              <li>Finalize com salsinha e prepare-se para ouvir elogios até dos que não gostam de frutos do mar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o camarão começar a pular na frigideira, parabéns, você tá no ritmo certo!</div>
+    </article>
+
+    <article class="receita-card" id="tirinhas-de-peixe-crocantes-o-segredo-pra-fingir-que-voce-sabe-cozinhar">
+      <h2 class="receita-titulo">Tirinhas de Peixe Crocantes: o segredo pra fingir que você sabe cozinhar</h2>
+      <p class="receita-desc">Quando bate a dúvida se você sabe cozinhar, essas tirinhas crocantes salvam seu status e seu estômago. Crocância garantida, sujeira minimalista!</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de filé de tilápia cortado em tiras</li>
+              <li>1 xícara de farinha de trigo</li>
+              <li>1 ovo</li>
+              <li>1/2 xícara de farinha de rosca</li>
+              <li>sal e pimenta a gosto</li>
+              <li>óleo para fritar</li>
+              <li>limão para acompanhar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere as tiras de peixe com sal e pimenta, porque ninguém gosta de frango, ops, peixe sem sabor.</li>
+              <li>Passe o peixe na farinha de trigo, depois no ovo batido e finalize na farinha de rosca. Repetir esse ritual três vezes se quiser impressionar (ou só uma para não bagunçar muito).</li>
+              <li>Esquente o óleo até ficar digno de fritura de boteco e frite as tiras até ficar douradinho, tipo bronzeado de verão.</li>
+              <li>Sirva com limão e prepare-se para ouvir 'mas você que fez?'.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não economize na farinha de rosca, ela é a diva da festa!</div>
+    </article>
+
+    <article class="receita-card" id="polvo-desenrolado-o-tentaculo-que-vai-conquistar-seu-estomago-e-seu-crush">
+      <h2 class="receita-titulo">Polvo Desenrolado: o tentáculo que vai conquistar seu estômago (e seu crush)</h2>
+      <p class="receita-desc">Polvo que não enrola na conversa: sabor na medida certa e maciez que até seu crush vai querer provar!</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h 10min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 60,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 polvo médio limpo (aprox. 1kg)</li>
+              <li>3 dentes de alho amassados</li>
+              <li>1 folha de louro</li>
+              <li>1 limão</li>
+              <li>azeite</li>
+              <li>sal e pimenta do reino a gosto</li>
+              <li>salsinha picada</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Coza o polvo em água fervente com louro por uns 40 minutos, até ele ficar macio como seu coração no final do domingo.</li>
+              <li>Escorra e corte os tentáculos em pedaços para facilitar a conquista.</li>
+              <li>Em uma frigideira, refogue alho no azeite até perfumar a casa inteira (e os vizinhos reclamarem).</li>
+              <li>Jogue o polvo, tempere com sal, pimenta e limão. Deixe grelhar até dourar e ficar irresistível.</li>
+              <li>Finalize com salsinha e prepare o coração para o crush pedir bis.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o polvo grudar na panela, não é ciúmes, é só deixar dourar mais um pouco.</div>
+    </article>
+
+    <article class="receita-card" id="mexidinho-de-mar-o-caos-saboroso-que-voce-vai-amar-bagunçar">
+      <h2 class="receita-titulo">Mexidinho de Mar: o caos saboroso que você vai amar bagunçar</h2>
+      <p class="receita-desc">Um mexidinho que é quase um festival do mar na panela, bagunçado de tão gostoso. Para os que gostam de viver perigosamente na cozinha!</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 45,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>200g de camarão limpo</li>
+              <li>200g de lula picada</li>
+              <li>200g de mexilhão</li>
+              <li>1 cebola picada</li>
+              <li>2 tomates maduros picados</li>
+              <li>2 dentes de alho</li>
+              <li>1/2 pimentão vermelho</li>
+              <li>azeite</li>
+              <li>sal, pimenta e cheiro-verde</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue alho e cebola no azeite até ficarem mais dourados que seu bronzeado de praia.</li>
+              <li>Junte o pimentão e tomate, e deixe o negócio ficar colorido igual festa de Carnaval.</li>
+              <li>Adicione os frutos do mar e mexa com amor (e um pouco de desespero para que não grudem).</li>
+              <li>Tempere com sal, pimenta e finalize com cheiro-verde para aquele toque chef de novela.</li>
+              <li>Sirva acompanhado de arroz branco e prepare a bagunça gastronômica.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não fique parado, mexa com ritmo de pagode para garantir o sabor!</div>
+    </article>
+
+    <article class="receita-card" id="sardinha-na-brasa-do-vizinho-o-classico-que-aquece-ate-o-coracao-e-o-churrasco">
+      <h2 class="receita-titulo">Sardinha na Brasa do Vizinho: o clássico que aquece até o coração (e o churrasco)</h2>
+      <p class="receita-desc">A sardinha que vai te fazer querer mudar para a casa do vizinho só pelo churrasco. Simples, direto e com sabor que vale cada brasa.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 20,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1kg de sardinha fresca</li>
+              <li>sal grosso a gosto</li>
+              <li>limão</li>
+              <li>azeite</li>
+              <li>pimenta-do-reino</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Peça a permissão do vizinho para usar a brasa (ou invente uma desculpa, não julgo).</li>
+              <li>Limpe as sardinhas e tempere com sal grosso e pimenta-do-reino, porque peixe merece respeito.</li>
+              <li>Coloque as sardinhas na grelha quente e deixe elas curtirem o calor por uns 5 minutos de cada lado (ou até ficarem douradas e cheirosas).</li>
+              <li>Regue com azeite e esprema limão na hora de servir, para dar aquela acidez que faz a festa.</li>
+              <li>Sirva com pão e aquela cerveja gelada que não pode faltar.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o vizinho perguntar, diga que é para a ciência – e convide pra provar!</div>
+    </article>
+
+    <article class="receita-card" id="camarao-pirata-o-tesouro-que-nao-afunda-seu-bolso">
+      <h2 class="receita-titulo">Camarão Pirata: o tesouro que não afunda seu bolso</h2>
+      <p class="receita-desc">Esse camarão é tipo aquele amigo que aparece só quando tem festa: rápido, saboroso e faz você querer repetir.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g camarão médio limpo</li>
+              <li>2 dentes de alho amassados</li>
+              <li>1 limão siciliano</li>
+              <li>1/2 pimenta dedo-de-moça picada</li>
+              <li>Salsinha a gosto</li>
+              <li>Azeite de oliva</li>
+              <li>Sal e pimenta-do-reino</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Adorne seu guarda-roupa de pirata com avental e pronto, vamos à ação!</li>
+              <li>Tempere o camarão com alho, limão, pimenta, sal e pimenta-do-reino. Deixe ele entender que a vida pode ser apimentada por 15 minutos.</li>
+              <li>Em uma frigideira, aqueça o azeite como se fosse o sol do Caribe e jogue os camarões para dançar até ficarem rosadinhos e irresistíveis.</li>
+              <li>Finalize com salsinha e um gole de limão para aquele drama cítrico.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não conte para o camarão que ele é barato, ele pode inflar o ego e querer ser estrela de reality show.</div>
+    </article>
+
+    <article class="receita-card" id="lula-a-moda-enroladinha-o-tentaculo-que-te-abraca-com-sabor">
+      <h2 class="receita-titulo">Lula à Moda Enroladinha: o tentáculo que te abraça com sabor</h2>
+      <p class="receita-desc">A lula enroladinha é aquele crush que te conquista na primeira mordida, mas que não te deixa pagar a conta.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 30 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>400g de lula limpa em anéis</li>
+              <li>Suco de 1 limão</li>
+              <li>2 colheres de sopa de farinha de trigo</li>
+              <li>1 colher de chá de páprica doce</li>
+              <li>Sal e pimenta-do-reino</li>
+              <li>Óleo para fritar</li>
+              <li>Salsinha para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere a lula com limão, sal e pimenta para ela entender que não é só mais um marisco na história.</li>
+              <li>Misture a farinha e a páprica como se fosse a fórmula secreta de um chef meio doido.</li>
+              <li>Passe a lula nessa mistura e prepare o óleo para a festa de fritura.</li>
+              <li>Frite os anéis até ficarem dourados, crocantes e prontos para te fazer suspirar.</li>
+              <li>Decore com salsinha, porque comida bonita também convence o estômago.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a lula começar a fazer careta, é porque você passou do ponto. Respeite o timing dela!</div>
+    </article>
+
+    <article class="receita-card" id="moqueca-de-surpresa-o-mar-que-da-ate-vontade-de-lavar-a-louca">
+      <h2 class="receita-titulo">Moqueca de Surpresa: o mar que dá até vontade de lavar a louça</h2>
+      <p class="receita-desc">Essa moqueca é tipo aquela série viciante: você começa só para experimentar e quando vê, já acabou com tudo.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 45 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 45,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>300g de peixe branco em postas (ex: namorado ou badejo)</li>
+              <li>200g de camarão limpo</li>
+              <li>1 cebola grande fatiada</li>
+              <li>2 tomates maduros picados</li>
+              <li>1 pimentão amarelo em tiras</li>
+              <li>Leite de coco 200ml</li>
+              <li>Coentro a gosto</li>
+              <li>Azeite de dendê 2 colheres de sopa</li>
+              <li>Sal e pimenta-do-reino</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Arrume o palco com cebola, tomate, pimentão e peixe, como se fosse um show de talentos do mar.</li>
+              <li>Tempere tudo com sal, pimenta e coentro, para garantir um elenco afinado.</li>
+              <li>Cubra com leite de coco e azeite de dendê, o duo dinâmico que vai dar o tom da festa.</li>
+              <li>Deixe cozinhar em fogo médio com a tampa fechada, para os sabores fazerem a dança da chuva no seu prato.</li>
+              <li>No final, jogue o camarão para entrar no palco e finalize com mais coentro, porque coentro nunca é demais.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar moqueca, coloque na geladeira e finja que é um souvenir da praia.</div>
+    </article>
+
+    <article class="receita-card" id="bobo-do-vizinho-o-segredo-que-veio-de-porta-em-porta">
+      <h2 class="receita-titulo">Bobó do Vizinho: o segredo que veio de porta em porta</h2>
+      <p class="receita-desc">Esse bobó é tipo aquele vizinho gente boa: sempre aparece para alegrar sua cozinha e sua vida.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 50 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 40,00</span>
+          <span class="badge">👤 5 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>400g de camarão limpo</li>
+              <li>500g de mandioca cozida e amassada</li>
+              <li>200ml de leite de coco</li>
+              <li>1 cebola picada</li>
+              <li>2 tomates picados</li>
+              <li>Azeite de dendê 3 colheres de sopa</li>
+              <li>Coentro e cebolinha</li>
+              <li>Sal e pimenta-do-reino</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Refogue a cebola e o tomate no azeite de dendê até ficar um romance no fogo baixo.</li>
+              <li>Jogue o camarão para se juntar à festa e cozinhe até ele virar o astro principal.</li>
+              <li>Misture a mandioca amassada com o leite de coco na panela, cria-se a alquimia do sabor.</li>
+              <li>Tempere com sal, pimenta, coentro e cebolinha — o quarteto fantástico do tempero.</li>
+              <li>Deixe apurar até o bobó ficar cremoso e cheio de charme.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não conte para o vizinho que você copiou a receita, mantenha o mistério do gostinho caseiro.</div>
+    </article>
+
+    <article class="receita-card" id="isca-de-peixe-sorridente-o-petisco-que-morde-de-volta">
+      <h2 class="receita-titulo">Isca de Peixe Sorridente: o petisco que morde de volta</h2>
+      <p class="receita-desc">A isca de peixe que vai fisgar seu coração e fazer você querer virar pescador de petiscos.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 35 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 25,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de filé de tilápia cortado em tiras</li>
+              <li>Suco de 1 limão</li>
+              <li>1 colher de sopa de colorau</li>
+              <li>2 dentes de alho amassados</li>
+              <li>Farinha de trigo para empanar</li>
+              <li>Óleo para fritar</li>
+              <li>Sal e pimenta-do-reino</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere as tiras de peixe com limão, alho, sal, pimenta e aquele colorau que dá cor e personalidade.</li>
+              <li>Passe as tiras na farinha de trigo como quem prepara para um desfile de sabor.</li>
+              <li>Esquente o óleo até ele estar mais animado que você em sexta-feira à noite.</li>
+              <li>Frite as iscas até ficarem douradas e crocantes, prontas para morder quem ousar resistir.</li>
+              <li>Sirva com aquele molho de sua preferência e prepare-se para o sorriso no rosto dos convidados.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se sobrar isca, cuidado ao reaquecer: peixe sem graça é igual piada sem punchline — ninguém merece.</div>
+    </article>
+
+    <article class="receita-card" id="camarao-ninja-ataca-na-panela-e-desaparece-no-prato">
+      <h2 class="receita-titulo">Camarão Ninja: Ataca na Panela e Desaparece no Prato</h2>
+      <p class="receita-desc">O camarão ninja é aquela receita rápida e certeira que some do prato antes que você perceba. Fácil, rápida e saborosa, perfeita pra quem gosta de ação na cozinha sem drama.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 20 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 28,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>300g de camarão limpo</li>
+              <li>2 dentes de alho picados</li>
+              <li>1 pimenta dedo-de-moça sem sementes picada</li>
+              <li>1 colher de sopa de azeite de oliva</li>
+              <li>Suco de 1 limão</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Salsinha picada para finalizar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Esquente o azeite e faça os camarões sentirem que chegaram na balada: alho e pimenta são o DJ.</li>
+              <li>Jogue os camarões na pista quente da frigideira, mexa com jeitinho até ficarem rosadinhos – sem deixar virar borracha!</li>
+              <li>Tempere com limão, sal e pimenta, afinal camarão também merece uma pitada de emoção.</li>
+              <li>Finalize com salsinha porque até ninjas têm estilo.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o camarão começar a fazer acrobacias fora da frigideira, é sinal que tá na hora de desligar o fogo!</div>
+    </article>
+
+    <article class="receita-card" id="sururu-do-agito-o-mar-que-balança-o-copo-e-a-panela">
+      <h2 class="receita-titulo">Sururu do Agito: O Mar Que Balança o Copo e a Panela</h2>
+      <p class="receita-desc">Sururu do Agito é o prato que chega chegando com sabor e festa, trazendo o mar direto pra sua casa com aquela vibe que faz até o copo dançar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 40 min</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 35,00</span>
+          <span class="badge">👤 4 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>500g de sururu</li>
+              <li>1 cebola média picada</li>
+              <li>2 tomates maduros picados</li>
+              <li>1 pimenta biquinho</li>
+              <li>2 colheres de sopa de azeite de dendê</li>
+              <li>1 maço de coentro</li>
+              <li>Sal a gosto</li>
+              <li>500ml de leite de coco</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Lave bem o sururu, porque ninguém quer sujeira no agito.</li>
+              <li>Refogue cebola e tomate no azeite de dendê, o ritmo da Bahia já começa aqui.</li>
+              <li>Jogue o sururu na panela e deixe ele cantar (ou cozinhar) até abrir as conchas.</li>
+              <li>Adicione o leite de coco e o coentro pra dar aquela pegada tropical e um toque de festa na boca.</li>
+              <li>Tempere com sal e não esqueça de colocar a pimenta biquinho pra embalar a dança.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se a panela começar a chiar como um pagodeiros afinando o cavaquinho, é sinal que tá no ponto!</div>
+    </article>
+
+    <article class="receita-card" id="polvo-do-role-tentaculos-na-balada-da-sua-panela">
+      <h2 class="receita-titulo">Polvo do Rolê: Tentáculos na Balada da Sua Panela</h2>
+      <p class="receita-desc">Polvo do Rolê é a receita pra quem quer impressionar e ainda fazer piada com os tentáculos. Fácil, elegante e com gostinho de mar que dá vontade de dançar.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 1h</span>
+          <span class="badge">📊 Médio</span>
+          <span class="badge">💰 R$ 48,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>1 polvo pequeno (600g)</li>
+              <li>3 dentes de alho amassados</li>
+              <li>Suco de 1 limão siciliano</li>
+              <li>Azeite de oliva extra virgem</li>
+              <li>Sal grosso a gosto</li>
+              <li>Pimenta-do-reino a gosto</li>
+              <li>Salsa fresca para decorar</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Dê um banho de limão no polvo para tirar o cheiro de 'maré baixa'.</li>
+              <li>Ferva uma panela com água e sal grosso, deixe o polvo entrar na sauna por uns 40 minutos – é o spa do mar.</li>
+              <li>Depois de relaxado, corte em pedaços e grelhe com azeite e alho até ficar com aquela cor de quem acabou de sair do rolê.</li>
+              <li>Tempere com pimenta e sal, decore com salsa e prepare-se para o show de sabor.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Se o polvo tentar fugir da grelha, lembre que ele só tem oito tentáculos, não é Houdini!</div>
+    </article>
+
+    <article class="receita-card" id="linguado-do-sereio-o-peixe-que-canta-na-sua-frigideira">
+      <h2 class="receita-titulo">Linguado do Sereio: O Peixe Que Canta na Sua Frigideira</h2>
+      <p class="receita-desc">Linguado do Sereio é aquele peixe que vai cantar na sua frigideira e fazer seu paladar dançar com sabor, sem desafinar no preço e na praticidade.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 30,00</span>
+          <span class="badge">👤 2 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>2 filés de linguado</li>
+              <li>Suco de meio limão</li>
+              <li>1 colher de sopa de manteiga</li>
+              <li>Sal e pimenta-do-reino a gosto</li>
+              <li>Ervas finas (alecrim, tomilho) a gosto</li>
+              <li>1 dente de alho picado</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Tempere os filés de linguado com limão, sal, pimenta e aquele toque das ervas finas – o show começa aqui.</li>
+              <li>Esquente a manteiga na frigideira e deixe o alho contar histórias douradinhas.</li>
+              <li>Coloque os filés com cuidado, como quem coloca alguém pra dormir, e deixe cantar até ficarem macios e brilhantes.</li>
+              <li>Vire com gosto e espere o segundo verso, perfeito para quem adora um peixe com drama.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não fique mexendo demais o peixe; ele é tímido e prefere arrasar no palco sozinho.</div>
+    </article>
+
+    <article class="receita-card" id="ceviche-do-maroto-o-mar-que-te-deixa-de-cara-sem-fogao-e-sem-drama">
+      <h2 class="receita-titulo">Ceviche do Maroto: O Mar que Te Deixa de Cara, sem Fogão e Sem Drama</h2>
+      <p class="receita-desc">Ceviche do Maroto é a receita pra quem quer impressionar na rapidez e sabor, com aquele toque ácido que é uma verdadeira piada boa na boca.</p>
+      <div class="receita-badges">
+          <span class="badge">⏱ 25 min</span>
+          <span class="badge">📊 Fácil</span>
+          <span class="badge">💰 R$ 27,00</span>
+          <span class="badge">👤 3 porções</span>
+      </div>
+      <div class="receita-cols">
+        <div>
+          <h3>🛒 Ingredientes</h3>
+          <ul class="ingredientes">
+              <li>300g de filé de peixe branco fresco em cubos</li>
+              <li>Suco de 3 limões</li>
+              <li>1 cebola roxa fatiada finamente</li>
+              <li>1 pimenta dedo-de-moça picada sem sementes</li>
+              <li>Coentro fresco picado a gosto</li>
+              <li>Sal a gosto</li>
+              <li>1 colher de sopa de azeite</li>
+          </ul>
+        </div>
+        <div>
+          <h3>👨‍🍳 Modo de Preparo</h3>
+          <ol class="preparo">
+              <li>Misture o peixe com o suco de limão e deixe marinar por uns 20 minutos, o limão é o chef de palco aqui, cozinhando o peixe sem fogo.</li>
+              <li>Adicione a cebola, pimenta e o coentro – é tipo convidar a galera pro rolê do sabor.</li>
+              <li>Tempere com sal e regue com azeite para dar aquela brilhada de estrela do mar.</li>
+              <li>Sirva gelado e prepare-se para as caras de 'uau' dos convidados.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="receita-dica">💡 <strong>Dica:</strong> Não deixe o peixe marinar demais, senão ele fica passado, igual à piada que já contamos demais.</div>
+    </article>
+
+    <div class="cta-box">
+      <h2>Gostou? Sorteia outra!</h2>
+      <p>Mais de 1.700 receitas te esperando. Cada giro é uma surpresa.</p>
+      <a href="https://nafome.com.br" class="btn-cta">🍳 Ver todos os nichos</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <a href="https://nafome.com.br">NaFome</a> — Feito pra quem tá com fome e sem ideia 🍽️
+  </footer>
+
+</body>
+</html>
