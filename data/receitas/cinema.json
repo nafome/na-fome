@@ -280,7 +280,7 @@
       "Tempere as asas com sal, pimenta, alho em pó e páprica defumada — já preparar o elenco pra ação.",
       "Coloque as alitas numa assadeira forrada com papel alumínio para evitar aquele final trágico de grudar tudo.",
       "Asse por 40 minutos, virando na metade — como um bom roteiro com reviravolta.",
-      "Enquanto isso, misture a manteiga derretida com o molho de pimenta e o vinagre. Esse é o nosso molho ‘voz-off’ que dá o tom.",
+      "Enquanto isso, misture a manteiga derretida com o molho de pimenta e o vinagre. Esse é o nosso molho 'voz-off' que dá o tom.",
       "Quando as asas estiverem douradinhas, mergulhe no molho e retorne ao forno por mais 5 minutos. O grand finale é sempre picante.",
       "Sirva com aipo e o molho blue cheese, porque até o melhor vilão merece um sidekick cremoso."
     ],
@@ -290,5 +290,873 @@
     "preco": "R$ 40,00",
     "porcoes": "4 porções",
     "dica": "Não tente fingir que vai comer só uma alita — spoiler: você vai acabar comendo todas e culpando o roteiro da dieta."
+  },
+  {
+    "id": 11,
+    "titulo": "Tamagoyaki da Bento Box (Fruits Basket)",
+    "slug": "tamagoyaki-da-bento-box-fruits-basket",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "3 ovos",
+      "1 colher de sopa de shoyu",
+      "1 colher de chá de açúcar",
+      "1 pitada de sal",
+      "Óleo para untar"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com shoyu, açúcar e sal até dissolver bem. Não precisa de batedeira — só braço e vontade.",
+      "Aqueça uma frigideira antiaderente em fogo médio-baixo e unte com um papel toalha embebido em óleo.",
+      "Despeje um terço da mistura e deixe firmar levemente. Quando as bordas estiverem cozidas, enrole com uma espátula da borda até o centro.",
+      "Empurre o rolinho para uma extremidade, unte de novo e despeje mais um terço. Levante o rolinho para o ovo novo passar por baixo.",
+      "Repita o processo com o restante. Parece difícil mas é só treino — o Tohru fazia isso todo dia antes das 7h.",
+      "Retire, deixe esfriar e corte em fatias. Sirva na bento box, no prato ou em pé na cozinha mesmo."
+    ],
+    "descricao": "O omelete enrolado japonês que aparece em todo anime como símbolo de carinho e dedicação matinal. Feito com amor ou com pressa — o sabor é quase igual.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 5,00",
+    "porcoes": "1 porção",
+    "dica": "Se desmanchar na hora de enrolar, chame de omelete desconstruído estilo Tohru Honda e siga em frente com dignidade."
+  },
+  {
+    "id": 12,
+    "titulo": "Frango Assado de Domingo (Malcolm in the Middle)",
+    "slug": "frango-assado-de-domingo-malcolm-in-the-middle",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "1 frango inteiro (cerca de 1,5kg)",
+      "4 dentes de alho amassados",
+      "Suco de 1 limão",
+      "2 colheres de sopa de manteiga em temperatura ambiente",
+      "1 colher de chá de páprica defumada",
+      "Sal e pimenta-do-reino generosos",
+      "Tomilho seco ou fresco",
+      "Batatas e cenouras cortadas para assar junto"
+    ],
+    "modoPreparo": [
+      "Misture a manteiga com alho, limão, páprica, sal, pimenta e tomilho. Essa é a pasta mágica que vai salvar o jantar.",
+      "Separe a pele do frango com os dedos e coloque metade da pasta por baixo dela — direto na carne. Sim, é estranho. Funciona.",
+      "Passe o restante da pasta por fora do frango. Massageie com a dedicação de quem quer evitar discussão na hora do jantar.",
+      "Disponha as batatas e cenouras ao redor do frango na assadeira, tempere com sal e azeite.",
+      "Asse a 200°C por 1h a 1h15, regando com o próprio caldo na metade do tempo.",
+      "Está pronto quando a pele estiver dourada e crocante e o suco sair transparente ao furar a coxa. Hal tentaria checar com o termômetro que quebrou em 2003."
+    ],
+    "descricao": "O frango que a Lois fazia quando queria que a família fingisse ser normal por pelo menos 40 minutos. Crocante por fora, macio por dentro — ao contrário dos filhos.",
+    "tempo": "80 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Se queimar as bordas, diga que é caramelização avançada. A Lois diria a mesma coisa e ninguém ousaria questionar."
+  },
+  {
+    "id": 13,
+    "titulo": "Bolo de Cenoura com Cobertura de Chocolate (Chiquititas)",
+    "slug": "bolo-de-cenoura-chiquititas",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "3 cenouras médias picadas",
+      "3 ovos",
+      "1 xícara de óleo",
+      "2 xícaras de açúcar",
+      "2 xícaras de farinha de trigo",
+      "1 colher de sopa de fermento",
+      "Para a cobertura: 4 colheres de sopa de chocolate em pó, 4 colheres de sopa de açúcar, 1 colher de manteiga, 5 colheres de leite"
+    ],
+    "modoPreparo": [
+      "Bata no liquidificador as cenouras, os ovos e o óleo até virar uma mistura lisa e laranja como o pôr do sol do orfanato.",
+      "Misture o açúcar, a farinha e o fermento numa tigela. Adicione o líquido do liquidificador e mexa até incorporar.",
+      "Despeje na forma untada e enfarinhada. Leve ao forno a 180°C por 35–40 minutos.",
+      "Para a cobertura: misture tudo em fogo médio mexendo sempre até engrossar. Despeje ainda quente sobre o bolo.",
+      "Espere esfriar um pouco antes de cortar — se tiver paciência, algo que nenhuma criança do orfanato tinha.",
+      "Sirva em fatias generosas. Esse bolo une qualquer turma, mesmo as mais confusas."
+    ],
+    "descricao": "O bolo de cenoura que a cozinheira do orfanato faria se tivesse ingredientes bons. Simples, fofo e com cobertura de chocolate que tapa qualquer rachadura — no bolo e na vida.",
+    "tempo": "50 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "10 fatias",
+    "dica": "Bater a cenoura no liquidificador é o segredo. Quem rala na mão está certo também, mas aí o bolo leva drama extra de ingrediente."
+  },
+  {
+    "id": 14,
+    "titulo": "Caldo Verde da Avó (Diário de Bridget Jones)",
+    "slug": "caldo-verde-da-avo-bridget-jones",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "4 batatas médias em cubos",
+      "1 paio ou linguiça calabresa fatiada",
+      "1 maço de couve manteiga fatiada bem fininha",
+      "1 cebola picada",
+      "3 dentes de alho",
+      "Azeite",
+      "Sal e pimenta-do-reino",
+      "1 litro de água ou caldo de legumes"
+    ],
+    "modoPreparo": [
+      "Refogue o alho e a cebola no azeite. Junte as batatas e cubra com água. Cozinhe até as batatas estarem bem macias.",
+      "Bata tudo com um mixer até virar creme. Se não tiver mixer, amasse com garfo — é terapêutico, tipo o diário da Bridget.",
+      "Frite a linguiça levemente em frigideira separada e reserve.",
+      "Volte o creme ao fogo, ajuste sal e pimenta. Quando ferver, desligue e jogue a couve crua por cima.",
+      "Mexa bem — o calor do caldo cozinha a couve levemente, mantendo a cor verde vibrante.",
+      "Sirva com a linguiça por cima e um fio de azeite. Consome bem na frente do computador às 23h revisando decisões da vida."
+    ],
+    "descricao": "Reconfortante como um diário mal escrito numa noite chuvosa. A Bridget tomaria isso antes de qualquer jantar constrangedor com os pais — e depois também.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Quanto mais fina a couve, melhor. Se ficar grossa, é sopa; se ficar fina, é caldo verde. A diferença é só a faca e o orgulho."
+  },
+  {
+    "id": 15,
+    "titulo": "Mochi de Leite Condensado (Spirited Away)",
+    "slug": "mochi-de-leite-condensado-spirited-away",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "1 xícara de polvilho doce (substituto do arroz glutinoso)",
+      "1/2 lata de leite condensado",
+      "1/2 xícara de leite",
+      "Amido de milho para polvilhar",
+      "Recheio opcional: doce de leite ou pasta de amendoim"
+    ],
+    "modoPreparo": [
+      "Misture o polvilho, o leite condensado e o leite até virar uma massa lisa. Parece massa de papel — continue.",
+      "Cubra com filme plástico e leve ao micro-ondas por 2 minutos. Retire, misture bem com colher.",
+      "Volte por mais 1 minuto. Repita até a massa ficar elástica e brilhante, com aspecto pegajoso e translúcido.",
+      "Deixe esfriar um pouco. Polvilhe amido de milho na bancada e nas mãos — generosamente.",
+      "Divida a massa em bolinhas, abra na palma e coloque o recheio se quiser. Feche bem e modele.",
+      "Sirva em temperatura ambiente. Não tente comer quente — não é o espírito certo. A Chihiro esperaria."
+    ],
+    "descricao": "O docinho que os espíritos do banho comeriam se tivessem leite condensado. Adaptado com polvilho porque arroz glutinoso some do mercado como espíritos no amanhecer.",
+    "tempo": "20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "12 unidades",
+    "dica": "As mãos vão grudar. Amido de milho é seu melhor amigo nesse momento. Sem ele, a receita vira instalação artística."
+  },
+  {
+    "id": 16,
+    "titulo": "Peixe Assado com Ervas (O Velho e o Mar)",
+    "slug": "peixe-assado-com-ervas-o-velho-e-o-mar",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "1 peixe inteiro (tilápia, dourada ou corvina — uns 700g)",
+      "4 dentes de alho fatiados",
+      "Suco de 2 limões",
+      "Azeite generoso",
+      "Sal grosso",
+      "Pimenta-do-reino",
+      "Alecrim ou tomilho fresco",
+      "1 tomate fatiado",
+      "1 cebola em rodelas"
+    ],
+    "modoPreparo": [
+      "Faça cortes diagonais no peixe dos dois lados — umas 3 incisões por lado — para o tempero entrar.",
+      "Tempere com sal, limão, alho e pimenta dentro e fora. Deixe marinar 20 minutos enquanto você pensa nas decisões da sua vida.",
+      "Forre uma assadeira com papel alumínio, coloque cebola e tomate como cama do peixe.",
+      "Coloque o peixe, recheie a barriga com ervas frescas e regue tudo com azeite.",
+      "Cubra com papel alumínio e asse a 200°C por 25 minutos. Retire o papel e deixe dourar mais 10 minutos.",
+      "O velho pescou por 84 dias. Você esperou 35 minutos. Ambos merecem respeito."
+    ],
+    "descricao": "Simples como o mar. Honesto como a luta do velho Santiago. E muito mais fácil de preparar do que fisgar um marlim gigante no meio do oceano.",
+    "tempo": "45 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 30,00",
+    "porcoes": "2 porções",
+    "dica": "Tilápia é democrática e barata. Mas se quiser se sentir o Santiago, compra uma dourada e não fala o preço pra ninguém."
+  },
+  {
+    "id": 17,
+    "titulo": "Curry de Grão-de-Bico (Aladdin)",
+    "slug": "curry-de-grao-de-bico-aladdin",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "2 latas de grão-de-bico cozido escorrido",
+      "1 lata de leite de coco",
+      "1 lata de tomate pelado",
+      "1 cebola picada",
+      "3 dentes de alho",
+      "1 colher de chá de curry em pó",
+      "1 colher de chá de cúrcuma",
+      "1 colher de chá de cominho",
+      "Azeite, sal e pimenta",
+      "Coentro fresco para finalizar (opcional, se não tiver trauma)"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e o alho no azeite até dourar. Adicione o curry, cúrcuma e cominho e frite as especiarias por 1 minuto — o cheiro vai tomar conta da casa como magia.",
+      "Adicione o tomate pelado amassado e cozinhe por 5 minutos mexendo bem.",
+      "Junte o grão-de-bico e o leite de coco. Mexa, ajuste o sal e cozinhe em fogo médio por 15 minutos.",
+      "O molho vai engrossar e ficar cremoso e alaranjado. Se quiser mais denso, amasse alguns grãos com a colher.",
+      "Finalize com coentro fresco ou salsinha. Sirva com arroz branco ou pão sírio.",
+      "Nenhum desejo foi desperdiçado. Essa receita realiza o sonho de comer bem gastando pouco."
+    ],
+    "descricao": "Inspirado no Oriente Médio fantasioso da Arábia de Aladdin — mas feito com ingredientes que existem de verdade no mercado do bairro, sem tapete voador necessário.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "4 porções",
+    "dica": "Grão-de-bico de lata é liberado. Deixar de molho e cozinhar do zero é para quem tem 3 desejos sobrando. Use a lata sem culpa."
+  },
+  {
+    "id": 18,
+    "titulo": "Waffle de Café da Manhã (Stranger Things)",
+    "slug": "waffle-de-cafe-da-manha-stranger-things",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "2 xícaras de farinha de trigo",
+      "2 colheres de sopa de açúcar",
+      "1 colher de sopa de fermento",
+      "1 pitada de sal",
+      "2 ovos",
+      "1 e 3/4 xícara de leite",
+      "1/3 xícara de óleo vegetal",
+      "Manteiga para untar a forma",
+      "Maple syrup, mel ou calda de morango para servir"
+    ],
+    "modoPreparo": [
+      "Misture os ingredientes secos numa tigela. Em outra, misture ovos, leite e óleo.",
+      "Combine os dois grupos mexendo levemente. Não exagere — a massa pode ter alguns grumos. Ela fica bem, como a Eleven.",
+      "Pré-aqueça a máquina de waffle e unte com manteiga. Se não tiver máquina, use frigideira e chame de panqueca belga.",
+      "Despeje a massa e feche. Cozinhe por 3–4 minutos até dourar e soltar sozinho.",
+      "Sirva imediatamente com calda de morango — a escolha canônica da Eleven desde a primeira temporada.",
+      "Consuma em silêncio, com olhar intenso, de preferência de cócoras no chão da floresta."
+    ],
+    "descricao": "O waffle sagrado. O alimento que a Eleven escolheria se tivesse de escolher entre salvar o mundo e o café da manhã. Spoiler: ela escolheria os dois.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "4 waffles",
+    "dica": "Sem máquina de waffle? Frigideira antiaderente resolve. O formato muda, o amor pelo waffle permanece."
+  },
+  {
+    "id": 19,
+    "titulo": "Lasanha de Carne Moída (Garfield)",
+    "slug": "lasanha-de-carne-moida-garfield",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "500g de massa para lasanha (cozida ou tipo pré-cozida)",
+      "500g de carne moída",
+      "1 lata de tomate pelado",
+      "1 cebola picada",
+      "3 dentes de alho",
+      "400g de muçarela fatiada ou ralada",
+      "200g de presunto fatiado",
+      "500ml de molho branco (bechamel ou de caixinha)",
+      "Sal, pimenta, orégano e azeite",
+      "Queijo parmesão para gratinar"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e o alho, adicione a carne moída e frite até secar. Tempere com sal, pimenta e orégano.",
+      "Adicione o tomate pelado, misture e cozinhe em fogo baixo por 10 minutos. Esse é o bolonhesa rústico.",
+      "Monte em forma untada: molho vermelho, massa, presunto, muçarela, molho branco. Repita as camadas como se estivesse construindo um castelo comestível.",
+      "Finalize com molho branco, muçarela e parmesão ralado por cima.",
+      "Cubra com papel alumínio e asse a 180°C por 30 minutos. Retire o papel e deixe gratinar mais 10.",
+      "Aguarde 10 minutos antes de cortar. O Garfield nunca esperava, mas o resultado sempre ficava melhor quando esperava."
+    ],
+    "descricao": "A lasanha. A receita mais famosa de um gato laranja preguiçoso que nunca abriu uma lata na vida. Clássica, generosa e indispensável como o próprio Garfield às segundas-feiras.",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 55,00",
+    "porcoes": "8 porções",
+    "dica": "Pode usar molho branco de caixinha sem culpa. O Garfield não ligaria — ele nem perguntaria como foi feito antes de comer tudo."
+  },
+  {
+    "id": 20,
+    "titulo": "Pudim de Leite da Vovó (Sessame Street)",
+    "slug": "pudim-de-leite-da-vovo-sesame-street",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "A mesma lata medida de leite integral",
+      "3 ovos inteiros",
+      "1 xícara de açúcar para a calda"
+    ],
+    "modoPreparo": [
+      "Comece pela calda: derreta o açúcar em fogo médio sem mexer até caramelizar. Quando dourar, despeje na forma de pudim e espalhe pelas laterais. Vai queimar? Talvez. Vale? Sempre.",
+      "Bata no liquidificador o leite condensado, o leite e os ovos por 2 minutos. Simples como o alfabeto.",
+      "Coe a mistura e despeje sobre a calda na forma.",
+      "Leve ao banho-maria no forno a 180°C por 1h a 1h15 — coberto com papel alumínio.",
+      "Faça o teste do palito. Se sair limpo, está pronto. Se sair molhado, espera mais um pouco como se fosse a contagem regressiva da rua Sésamo.",
+      "Deixe esfriar e leve à geladeira por pelo menos 4 horas. Desenforme com confiança ou com medo — o resultado é igual."
+    ],
+    "descricao": "O pudim que o Cookie Monster teria feito se não fosse de biscoito. Clássico, cremoso, com aquela calda dourada que faz qualquer criança (e adulto) parar o que está fazendo.",
+    "tempo": "80 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "8 fatias",
+    "dica": "O segredo é o banho-maria lento. Pudim que vai ao forno direto vira omelete doce. Filosofia básica da Rua Sésamo: respeite o processo."
+  },
+  {
+    "id": 21,
+    "titulo": "Costelinha ao Molho Barbecue (The Flintstones)",
+    "slug": "costelinha-ao-molho-barbecue-flintstones",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "1kg de costelinha de porco",
+      "Sal, pimenta, alho em pó e páprica defumada",
+      "Para o molho BBQ: 4 colheres de ketchup, 2 colheres de shoyu, 1 colher de mel, 1 colher de vinagre de maçã, 1 colher de açúcar mascavo, pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere as costelinhas com sal, pimenta, alho em pó e páprica. Massageie bem como se fosse esculpir pedra, estilo Fred Flintstone.",
+      "Embrulhe em papel alumínio e leve ao forno a 160°C por 2 horas. Baixo e lento — o oposto da filosofia do Fred no trabalho.",
+      "Misture todos os ingredientes do molho barbecue numa panelinha e aqueça por 5 minutos até encorpar.",
+      "Retire as costelinhas do papel, pincele generosamente com o molho e volte ao forno descoberto a 220°C por 15 minutos.",
+      "Repita o pincel de molho mais uma vez na metade. A caramelização vai fazer você entender porque os Flintstones viviam em volta do fogo.",
+      "Sirva com mais molho do lado. Yabba-Dabba-Doo."
+    ],
+    "descricao": "A costela pré-histórica dos Flintstones, sem o pterodáctilo e sem o carro movido a pé. Mas com o mesmo nível de satisfação primitiva ao arrancar a carne do osso.",
+    "tempo": "135 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 48,00",
+    "porcoes": "4 porções",
+    "dica": "O segredo do forno baixo por 2 horas é inegociável. Quem pula essa etapa come costelinha borrachuda — e o Fred nem comeria isso."
+  },
+  {
+    "id": 22,
+    "titulo": "Vitamina de Banana com Aveia (Malhação)",
+    "slug": "vitamina-de-banana-com-aveia-malhacao",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "2 bananas maduras",
+      "1 xícara de leite (ou leite vegetal)",
+      "3 colheres de aveia em flocos",
+      "1 colher de mel",
+      "1 pitada de canela",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque tudo no liquidificador — banana, leite, aveia, mel e canela.",
+      "Bata por 1 minuto até ficar homogêneo e cremoso. Sem grumos, sem drama.",
+      "Adicione gelo e bata mais 30 segundos para gelar.",
+      "Sirva em copo alto, estilo academia fitness dos anos 2000.",
+      "Consuma antes do treino, depois do treino ou enquanto assiste reprise de Malhação às 14h30 sem nenhum julgamento."
+    ],
+    "descricao": "A vitamina que todo personagem de Malhação tomava antes de ir à academia resolver o drama do dia. Nutritiva, barata e pronta antes do intervalo comercial.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Banana congelada deixa a vitamina mais cremosa e fria sem precisar de gelo. Coloque em saquinho e congele as que estão passando do ponto — as mais maduras são as mais doces."
+  },
+  {
+    "id": 23,
+    "titulo": "Torrada com Pasta de Amendoim (Peanuts - Snoopy)",
+    "slug": "torrada-com-pasta-de-amendoim-snoopy",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "4 fatias de pão de forma ou pão australiano",
+      "4 colheres de pasta de amendoim (industrializada ou caseira)",
+      "1 banana fatiada",
+      "Mel para finalizar",
+      "1 pitada de canela"
+    ],
+    "modoPreparo": [
+      "Torre o pão na torradeira ou frigideira seca até dourar. Simples como a filosofia do Charlie Brown.",
+      "Espalhe a pasta de amendoim generosamente enquanto o pão ainda está quente.",
+      "Disponha as fatias de banana por cima.",
+      "Regue com um fio de mel e polvilhe canela.",
+      "Sirva imediatamente. O Snoopy comeria a dele antes de você terminar de montar a sua."
+    ],
+    "descricao": "O lanche do Charlie Brown em versão mais elaborada — porque até o cara mais azarado do mundo merece uma torrada decente. Simples, honesto e impossível de errar.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "2 porções",
+    "dica": "Pasta de amendoim integral tem mais proteína e menos açúcar. Mas se a industrializada for a que tem em casa, tá ótimo. Felicidade não precisa ser gourmet."
+  },
+  {
+    "id": 24,
+    "titulo": "Coxinha de Frango (Turma da Mônica)",
+    "slug": "coxinha-de-frango-turma-da-monica",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "Para a massa: 500ml de caldo de frango, 250g de farinha de trigo, 1 colher de manteiga, sal",
+      "Para o recheio: 2 peitos de frango cozidos e desfiados, 1 cebola picada, 2 dentes de alho, 1 colher de extrato de tomate, cheiro-verde, sal e pimenta",
+      "Para empanar: 2 ovos batidos, farinha de rosca",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Refogue o alho e cebola, adicione o frango desfiado, extrato de tomate, tempere e finalize com cheiro-verde. Reserve.",
+      "Para a massa: leve o caldo e a manteiga ao fogo. Quando ferver, adicione toda a farinha de uma vez e mexa vigorosamente até soltar do fundo. Deixe esfriar.",
+      "Sove a massa ainda morna. Abra uma porção na palma da mão enfarinhada, coloque o recheio e modele em forma de coxinha — a ponta pra cima como a Mônica usaria como arma.",
+      "Passe no ovo batido e depois na farinha de rosca.",
+      "Frite em óleo quente (180°C) até dourar por igual. Escorra no papel toalha.",
+      "Sirva quente. O Cebolinha tentaria roubar a sua, então se cuide."
+    ],
+    "descricao": "O salgado mais brasileiro do Brasil, homenageado pela turma mais famosa do Bairro do Limoeiro. Crocante por fora, macio por dentro — igualzinho à amizade da Mônica e da Magali.",
+    "tempo": "60 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "20 unidades",
+    "dica": "Massa fria é mais difícil de trabalhar. Modele enquanto ainda está morna para evitar rachaduras — e para evitar a Mônica na sua porta reclamando."
+  },
+  {
+    "id": 25,
+    "titulo": "Sopa de Legumes da Tempestade (Castle in the Sky - Ghibli)",
+    "slug": "sopa-de-legumes-da-tempestade-castle-in-the-sky",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "2 batatas em cubos",
+      "2 cenouras em rodelas",
+      "1 chuchu em cubos",
+      "1 cebola picada",
+      "2 dentes de alho",
+      "1 talo de salsão",
+      "1 litro de caldo de legumes",
+      "Azeite, sal, pimenta e salsinha"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola, alho e salsão no azeite por 3 minutos. O cheiro já vai ser reconfortante como uma casa flutuante.",
+      "Adicione as cenouras e batatas, mexa por 2 minutos.",
+      "Despeje o caldo de legumes e leve à fervura. Reduza o fogo e cozinhe por 20 minutos.",
+      "Adicione o chuchu nos últimos 10 minutos — ele cozinha rápido e não precisa de destaque.",
+      "Ajuste sal e pimenta, finalize com salsinha picada.",
+      "Sirva em tigela funda, de preferência em noite fria, dentro de uma mina de carvão ou castelo voador."
+    ],
+    "descricao": "A sopa que a Dola faria para a tripulação antes de uma batalha aérea — simples, nutritiva e quente o suficiente para aguentar o vento a 3000 metros de altitude.",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "4 porções",
+    "dica": "Qualquer legume da geladeira funciona aqui. Essa sopa é o destino final dos vegetais órfãos de outros pratos. Nenhum chuchu fica pra trás."
+  },
+  {
+    "id": 26,
+    "titulo": "Panqueca de Banana (Hannah Montana)",
+    "slug": "panqueca-de-banana-hannah-montana",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "2 bananas maduras amassadas",
+      "2 ovos",
+      "1 xícara de farinha de trigo",
+      "1/2 xícara de leite",
+      "1 colher de fermento",
+      "1 pitada de sal",
+      "Manteiga para fritar",
+      "Mel e frutas para servir"
+    ],
+    "modoPreparo": [
+      "Amasse as bananas até virar purê. Bata com os ovos.",
+      "Adicione a farinha, o leite, o fermento e o sal. Misture até obter uma massa levemente grumosa — tudo bem, elas somem na frigideira.",
+      "Aqueça a frigideira com manteiga em fogo médio. Despeje uma concha de massa e espere bolhas se formarem na superfície.",
+      "Vire a panqueca com uma espátula rápida e confiante. Se hesitar, a panqueca sente.",
+      "Sirva com mel, frutas frescas ou leite condensado.",
+      "Coma no café da manhã ouvindo uma música pop e sem revelar sua identidade secreta pra ninguém."
+    ],
+    "descricao": "A panqueca que Miley faria antes de colocar a peruca loira e virar Hannah. Rápida, deliciosa e com um segredo: é a banana que faz toda a diferença no sabor.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "8 panquecas",
+    "dica": "Banana mais madura = mais doce e mais fácil de amassar. A panqueca fica naturalmente adocicada e precisa de menos açúcar. Segredo simples, resultado pop star."
+  },
+  {
+    "id": 27,
+    "titulo": "Frango ao Curry Vermelho (Bangkok — Corra que a Polícia Vem Aí!)",
+    "slug": "frango-ao-curry-vermelho-corra-que-a-policia-vem-ai",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "500g de frango em cubos",
+      "1 lata de leite de coco",
+      "2 colheres de pasta de curry vermelho (encontra em mercado oriental)",
+      "1 pimentão vermelho em tiras",
+      "1 abobrinha em fatias",
+      "2 colheres de shoyu",
+      "1 colher de açúcar",
+      "Azeite e sal",
+      "Arroz branco para acompanhar",
+      "Manjericão ou coentro para finalizar"
+    ],
+    "modoPreparo": [
+      "Frite a pasta de curry no azeite em fogo médio por 1 minuto. O cheiro vai anunciar a refeição para o andar de baixo.",
+      "Adicione o frango e sele por 3 minutos de cada lado.",
+      "Despeje o leite de coco, o shoyu e o açúcar. Mexa e deixe ferver.",
+      "Adicione os legumes e cozinhe por mais 10 minutos em fogo médio. O molho vai reduzir e ficar alaranjado e cremoso.",
+      "Ajuste o sal e finalize com manjericão ou coentro.",
+      "Sirva sobre arroz branco. Ação garantida, sem perseguição de carro necessária."
+    ],
+    "descricao": "O curry que Leslie Nielsen teria pedido se o filme fosse na Tailândia. Picante, aromático e muito mais fácil de fazer do que fugir da polícia.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 32,00",
+    "porcoes": "3 porções",
+    "dica": "Pasta de curry vermelho varia muito em ardência entre marcas. Comece com 1 colher, prove, e aumente. Ninguém precisa de um incêndio no paladar sem aviso."
+  },
+  {
+    "id": 28,
+    "titulo": "Escondidinho de Carne Seca (O Auto da Compadecida)",
+    "slug": "escondidinho-de-carne-seca-auto-da-compadecida",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "500g de carne seca dessalgada e desfiada",
+      "1kg de mandioca cozida e amassada",
+      "1 cebola picada",
+      "3 dentes de alho",
+      "1 tomate picado",
+      "Cheiro-verde",
+      "Azeite, sal e pimenta",
+      "Queijo muçarela ralado para gratinar",
+      "Creme de leite (opcional, para o purê ficar mais cremoso)"
+    ],
+    "modoPreparo": [
+      "Dessalgue a carne seca: cozinhe em água por 30 minutos, troque a água, cozinhe mais 30. Desfie. Isso não é pressa, isso é respeito pelo sertão.",
+      "Refogue alho e cebola no azeite, junte a carne desfiada, o tomate e o cheiro-verde. Tempere com pimenta. Reserve.",
+      "Amasse a mandioca cozida com um garfo ou espremedor. Adicione creme de leite e sal até virar purê cremoso.",
+      "Numa forma untada: camada de purê de mandioca, camada de carne seca refogada, outra camada de purê.",
+      "Cubra com muçarela ralada e leve ao forno a 200°C por 20 minutos até gratinar.",
+      "Sirva quente. João Grilo comeria rezando e ainda agradeceria ao cangaceiro."
+    ],
+    "descricao": "O prato que representa a alma do sertão nordestino e do teatro de Ariano Suassuna. Carne seca honesta com purê de mandioca — porque esconder comida boa é crime, mas escondidinho é obra de arte.",
+    "tempo": "90 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 42,00",
+    "porcoes": "6 porções",
+    "dica": "Carne seca já cozida e embalada a vácuo existe no mercado e abrevia tudo. João Grilo aprovaria — ele sempre encontrava o atalho."
+  },
+  {
+    "id": 29,
+    "titulo": "Cookies de Chocolate (Friends - A Receita da Neisa Bing)",
+    "slug": "cookies-de-chocolate-friends-neisa-bing",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "2 xícaras de farinha de trigo",
+      "1 colher de chá de bicarbonato de sódio",
+      "1 colher de chá de sal",
+      "200g de manteiga em temperatura ambiente",
+      "3/4 xícara de açúcar",
+      "3/4 xícara de açúcar mascavo",
+      "2 ovos",
+      "1 colher de chá de essência de baunilha",
+      "200g de gotas de chocolate meio amargo"
+    ],
+    "modoPreparo": [
+      "Bata a manteiga com os dois açúcares até virar creme claro e fofo — uns 3 minutos. A Neisa Bing guardou esse segredo por décadas.",
+      "Adicione os ovos um a um, batendo entre cada um. Junte a baunilha.",
+      "Misture a farinha, o bicarbonato e o sal peneirados à mistura úmida. Não bata demais.",
+      "Incorpore as gotas de chocolate com uma espátula. A massa vai ser grossa e tentadora.",
+      "Refrigere a massa por 30 minutos — esse passo faz toda a diferença na textura.",
+      "Faça bolinhas e disponha em assadeira com papel manteiga. Asse a 180°C por 10–12 minutos — o centro deve parecer levemente cru.",
+      "Deixe esfriar na assadeira por 5 minutos antes de remover. Eles firmam ao esfriar. A Phoebe testaria com o Joey antes de servir."
+    ],
+    "descricao": "A receita que Monica tentou recriar por temporadas inteiras. Crocante nas bordas, mole no centro e com gotas de chocolate que justificam qualquer discussão de apartamento.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "24 cookies",
+    "dica": "Não asse demais. O centro mole é o objetivo, não o erro. Cookies que saem duros do forno viram pedra ao esfriar — e a Neisa não deixaria isso acontecer."
+  },
+  {
+    "id": 30,
+    "titulo": "Tapioca Recheada (Que Horas Ela Volta?)",
+    "slug": "tapioca-recheada-que-horas-ela-volta",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "1 xícara de goma de tapioca (hidratada e peneirada)",
+      "Recheio: 2 colheres de queijo coalho ou muçarela ralada",
+      "Recheio alternativo: banana com mel e canela",
+      "Recheio alternativo: carne seca desfiada com manteiga de garrafa"
+    ],
+    "modoPreparo": [
+      "Coloque a frigideira antiaderente em fogo médio. Não unte — a tapioca não precisa de gordura para funcionar.",
+      "Espalhe a goma de tapioca em camada fina e uniforme pelo fundo da frigideira.",
+      "Espere firmar e soltar das bordas — uns 2 minutos. A massa vai ficar branquinha e levemente translúcida.",
+      "Adicione o recheio escolhido em metade da tapioca.",
+      "Dobre ao meio com uma espátula suavemente.",
+      "Sirva imediatamente. A Val faria isso de madrugada depois de um dia longo na casa dos patrões — e ainda ficaria gostosa."
+    ],
+    "descricao": "O café da manhã que representa a divisão de classes com mais honestidade do que qualquer discurso. A tapioca é a mesma para todos — o recheio é que conta a história.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Goma de tapioca grossa não fecha direito. Peneire antes de usar — esse é o único segredo técnico de uma receita que já nasce certa."
+  },
+  {
+    "id": 31,
+    "titulo": "Pão de Queijo Mineiro (Central do Brasil)",
+    "slug": "pao-de-queijo-mineiro-central-do-brasil",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "500g de polvilho azedo",
+      "1 xícara de leite",
+      "1/2 xícara de óleo",
+      "2 ovos",
+      "1 colher de sal",
+      "200g de queijo meia cura ralado (ou parmesão + muçarela)"
+    ],
+    "modoPreparo": [
+      "Aqueça o leite e o óleo juntos até quase ferver. Despeje sobre o polvilho e misture com garfo — vai parecer granulado. Normal.",
+      "Deixe amornar. Adicione os ovos um a um, amassando com as mãos até a massa ficar lisa e elástica.",
+      "Incorpore o queijo e ajuste o sal. A massa deve soltar das mãos levemente.",
+      "Faça bolinhas do tamanho de uma noz e disponha em assadeira untada.",
+      "Asse a 200°C por 20–25 minutos até dourar. O cheiro vai parar o tempo, como a Dora fazendo cartas na Central.",
+      "Coma quente. Frio ainda presta, mas quente é diferente — é chegada, não despedida."
+    ],
+    "descricao": "O pão que representa o Brasil profundo no filme de Walter Salles. Crocante por fora, oco e mole por dentro — exatamente como a saudade que a Dora nunca admitia sentir.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "30 unidades",
+    "dica": "Polvilho azedo faz pão mais crocante e com o sabor característico. Polvilho doce deixa mais mole. Pode misturar metade de cada para um meio-termo digno."
+  },
+  {
+    "id": 32,
+    "titulo": "Bolinho de Bacalhau (Bem-Vindos a Marwen)",
+    "slug": "bolinho-de-bacalhau-bem-vindos-a-marwen",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "400g de bacalhau dessalgado e desfiado",
+      "3 batatas médias cozidas e amassadas",
+      "1 ovo",
+      "2 dentes de alho picados",
+      "Salsinha e cebolinha picadas",
+      "Pimenta-do-reino",
+      "Sal se necessário",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Dessalgue o bacalhau: deixe de molho em água por 24h, trocando 3 vezes. Depois cozinhe, escorra e desfie — retire as espinhas com paciência.",
+      "Misture o bacalhau desfiado com a batata amassada, o ovo, alho, salsinha, cebolinha e pimenta.",
+      "Prove antes de salgar — o bacalhau já tem sal próprio.",
+      "Modele os bolinhos com duas colheres ou na palma da mão. Formato oval tradicional ou redondo moderno — os dois funcionam.",
+      "Frite em óleo quente (180°C) até dourar por igual. Escorra no papel toalha.",
+      "Sirva com limão ou maionese. Cada bolinho é uma pequena obra de arte comestível."
+    ],
+    "descricao": "O bolinho que qualquer avó portuguesa — ou brasileira de ascendência — faria com carinho e bacalhau guardado. Dourado, crocante e com aquele interior cremoso que justifica qualquer espera.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "20 bolinhos",
+    "dica": "Bacalhau salgado em lascas (não ralado) dá melhor resultado. O dessalgue de 24h é obrigatório — não existe atalho digno para bolinho de bacalhau decente."
+  },
+  {
+    "id": 33,
+    "titulo": "Suco de Laranja com Gengibre (Rocky)",
+    "slug": "suco-de-laranja-com-gengibre-rocky",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "6 laranjas",
+      "1 pedaço pequeno de gengibre (uns 2cm)",
+      "1 cenoura (opcional para turbinar)",
+      "Gelo",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Esprema as laranjas. Se tiver centrífuga, use — mas espremedor manual também funciona e ainda treina o braço.",
+      "Rale o gengibre finamente ou bata no liquidificador com um pouco do suco.",
+      "Misture o suco com o gengibre ralado. Se usar cenoura, passe na centrífuga junto com a laranja.",
+      "Coe se preferir sem resíduo.",
+      "Adicione mel a gosto e sirva com gelo.",
+      "Tome antes de subir escadas correndo e gritar no topo. O grito é opcional. O suco não é."
+    ],
+    "descricao": "O combustível matinal do Rocky Balboa — sem os ovos crus que a gente finge que não viu. Revigorante, anti-inflamatório e muito mais apetitoso que uma garrafa de ovos batidos às 4h da manhã.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "2 copos",
+    "dica": "Gengibre em excesso arde bastante. Comece com pouco e vá adicionando. O objetivo é tonificar, não incendiar a garganta antes do treino."
+  },
+  {
+    "id": 34,
+    "titulo": "Brigadeiro Clássico (Meninas Malvadas)",
+    "slug": "brigadeiro-classico-meninas-malvadas",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "1 colher de sopa de manteiga",
+      "4 colheres de sopa de chocolate em pó (não achocolatado)",
+      "Granulado de chocolate para enrolar",
+      "Forminhas de papel"
+    ],
+    "modoPreparo": [
+      "Coloque o leite condensado, a manteiga e o chocolate em pó numa panela de fundo grosso em fogo médio.",
+      "Mexa sem parar — esse é o ponto em que a maioria desiste e queima. Não desista. Mexa sempre, como quem mantém o grupo unido mesmo com drama.",
+      "Quando começar a soltar do fundo e aparecer o fundo da panela ao mexer, está pronto. Uns 10 minutos.",
+      "Despeje numa tigela untada com manteiga e deixe esfriar completamente — não tente enrolar quente.",
+      "Com as mãos untadas, enrole em bolinhas e passe no granulado.",
+      "Coloque nas forminhas. Compartilhe com quem você quer — ou não compartilhe. Essa é a parte mean girl da receita."
+    ],
+    "descricao": "O doce que apareceria na mesa da cafeteria das Plásticas se elas fossem brasileiras. Irresistível, viciante e impossível de comer só um — exatamente como o drama do filme.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "30 unidades",
+    "dica": "Fogo médio e mexer sempre. Fogo alto queima o fundo antes de cozinhar o centro — e ninguém quer brigadeiro com gosto de vingança acidental."
+  },
+  {
+    "id": 35,
+    "titulo": "Arroz Carreteiro (O Pagador de Promessas)",
+    "slug": "arroz-carreteiro-o-pagador-de-promessas",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "2 xícaras de arroz",
+      "300g de carne seca dessalgada e em cubinhos",
+      "1 cebola picada",
+      "4 dentes de alho",
+      "1 tomate picado",
+      "Cheiro-verde",
+      "Pimenta-do-reino e azeite",
+      "Água quente para cozinhar o arroz"
+    ],
+    "modoPreparo": [
+      "Frite a carne seca em cubinhos no azeite até dourar bem. Reserve.",
+      "Na mesma panela, refogue o alho e a cebola até dourar. Adicione o tomate e misture.",
+      "Junte o arroz cru e frite por 2 minutos mexendo sempre — esse passo faz toda a diferença na textura final.",
+      "Adicione a carne de volta, misture, e cubra com água quente na proporção de 2 para 1.",
+      "Tampe, reduza o fogo e cozinhe por 15 minutos sem abrir.",
+      "Finalize com cheiro-verde picado. Sirva na própria panela como manda a tradição e o Zé do Burro mandaria."
+    ],
+    "descricao": "O prato que sustentou os carreteiros do sertão e que Zé do Burro comeria depois de carregar a cruz pela cidade inteira. Robusto, simples e com mais alma do que qualquer refeição de hotel.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "O segredo está em fritar a carne até quase secar antes do arroz. Isso desenvolve um fundo de sabor que nenhum tempero industrializado alcança."
+  },
+  {
+    "id": 36,
+    "titulo": "Mousse de Maracujá (Mulher Maravilha)",
+    "slug": "mousse-de-maracuja-mulher-maravilha",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "1 lata de creme de leite",
+      "1/2 xícara de suco de maracujá concentrado (ou 3 maracujás espremidos)",
+      "1 pacote de gelatina sem sabor incolor (para firmar mais)",
+      "Sementes de maracujá para decorar"
+    ],
+    "modoPreparo": [
+      "Dissolva a gelatina conforme o pacote manda. Reserve.",
+      "Bata no liquidificador o leite condensado, o creme de leite e o suco de maracujá por 2 minutos.",
+      "Com o liquidificador ainda ligado, adicione a gelatina dissolvida em fio.",
+      "Despeje em taças individuais ou numa travessa.",
+      "Leve à geladeira por no mínimo 3 horas — paciência guerreira.",
+      "Decore com as sementes de maracujá antes de servir. Acidez, doçura e força — assim como a Diana Prince."
+    ],
+    "descricao": "Leve, ácida e poderosa como Diana na batalha de No Man's Land. O maracujá traz aquela acidez que corta a doçura com precisão de laço dourado.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "6 taças",
+    "dica": "Suco de maracujá mais concentrado = mousse mais ácido. Ajuste pela quantidade de suco. Quem gosta de equilíbrio usa menos; quem gosta de aventura usa mais."
+  },
+  {
+    "id": 37,
+    "titulo": "Frango com Quiabo (Cidade de Deus)",
+    "slug": "frango-com-quiabo-cidade-de-deus",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "1 frango cortado em pedaços",
+      "500g de quiabo cortado em rodelas e seco",
+      "1 cebola picada",
+      "4 dentes de alho",
+      "2 tomates picados",
+      "Azeite de dendê (1 colher, opcional mas transforma)",
+      "Sal, pimenta-do-reino e cheiro-verde",
+      "Óleo para selar o frango"
+    ],
+    "modoPreparo": [
+      "Tempere o frango com sal, alho e pimenta. Sele em fogo alto até dourar dos dois lados. Reserve.",
+      "Refogue a cebola no mesmo azeite, junte o tomate e deixe desmanchar.",
+      "Adicione o frango de volta, cubra com água quente e cozinhe tampado por 20 minutos.",
+      "Enquanto isso, torre o quiabo seco em frigideira sem óleo em fogo alto, mexendo — isso elimina a baba. Uns 5 minutos.",
+      "Junte o quiabo ao frango e cozinhe por mais 10 minutos.",
+      "Finalize com azeite de dendê e cheiro-verde. Sirva com arroz e farinha de mandioca."
+    ],
+    "descricao": "O prato que representa a cozinha carioca real — não a do cartão-postal, a do dia a dia, do quintal, da avó que cozinhava de verdade enquanto a cidade acontecia lá fora.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 32,00",
+    "porcoes": "4 porções",
+    "dica": "Secar o quiabo antes de cozinhar é obrigatório. Quiabo encharcado = baba no prato inteiro. O truque da frigideira seca elimina o problema sem eliminar o sabor."
+  },
+  {
+    "id": 38,
+    "titulo": "Crepe Doce de Nutella com Morango (Amélie Poulain)",
+    "slug": "crepe-doce-de-nutella-com-morango-amelie-poulain",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "1 xícara de farinha de trigo",
+      "2 ovos",
+      "1 e 1/2 xícara de leite",
+      "1 colher de manteiga derretida",
+      "1 pitada de sal",
+      "1 colher de açúcar",
+      "Nutella ou pasta de avelã para rechear",
+      "Morangos fatiados",
+      "Açúcar de confeiteiro para finalizar"
+    ],
+    "modoPreparo": [
+      "Bata todos os ingredientes da massa no liquidificador. Deixe descansar 30 minutos na geladeira — esse passo faz o crepe ficar fino e sem furos. A Amélie esperaria.",
+      "Aqueça uma frigideira antiaderente em fogo médio com um toque de manteiga.",
+      "Despeje uma concha de massa e incline a frigideira para espalhar em círculo fino.",
+      "Cozinhe por 1 minuto até as bordas soltarem, vire e cozinhe mais 30 segundos.",
+      "Espalhe a nutella sobre o crepe, distribua os morangos e dobre em triângulo ou enrole.",
+      "Polvilhe açúcar de confeiteiro. Sirva imediatamente como se estivesse em Montmartre, mesmo que esteja em Copacabana."
+    ],
+    "descricao": "O crepe que Amélie comeria entre uma travessura e outra em Paris. Simples no preparo, sofisticado no resultado — como toda pessoa que observa o mundo com olhos atentos e coração curioso.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "6 crepes",
+    "dica": "A frigideira precisa estar quente mas não queimando. Teste com uma gotinha d'água — se evaporar na hora, está certa a temperatura. A Amélie aprovaria a precisão."
+  },
+  {
+    "id": 39,
+    "titulo": "Galinhada Caipira (Lisbela e o Prisioneiro)",
+    "slug": "galinhada-caipira-lisbela-e-o-prisioneiro",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "1 frango caipira cortado (ou 1kg de coxa e sobrecoxa)",
+      "2 xícaras de arroz",
+      "1 cebola picada",
+      "4 dentes de alho",
+      "2 tomates picados",
+      "1 pimentão amarelo picado",
+      "Açafrão da terra (cúrcuma) a gosto",
+      "Cheiro-verde, sal, pimenta e óleo"
+    ],
+    "modoPreparo": [
+      "Tempere o frango com sal, alho, pimenta e cúrcuma. Deixe marinar 20 minutos enquanto conta uma história.",
+      "Frite os pedaços no óleo quente até dourar bem. Retire e reserve.",
+      "No mesmo óleo, refogue a cebola, o alho, o tomate e o pimentão.",
+      "Adicione o arroz cru e frite por 2 minutos mexendo bem — vai ficar alaranjado do açafrão.",
+      "Recoloque o frango, cubra com água quente (3 xícaras) e cozinhe tampado em fogo baixo por 20 minutos.",
+      "Finalize com cheiro-verde. Sirva na panela mesmo, com aquela generosidade nordestina que o Leléu entenderia bem."
+    ],
+    "descricao": "O prato que o Nordeste faz em dia de festa e que Leléu comeria antes de prometer mais uma vez que vai se comportar. Aromático, generoso e impossível de fazer em porção pequena.",
+    "tempo": "50 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 36,00",
+    "porcoes": "5 porções",
+    "dica": "Cúrcuma na quantidade certa dá cor sem amargar. Exagerar é erro de novato — igual o Leléu exagerando nas promessas."
+  },
+  {
+    "id": 40,
+    "titulo": "Sorvete Frito (Diário de Uma Paixão)",
+    "slug": "sorvete-frito-diario-de-uma-paixao",
+    "categoria": "Cinema 🎬",
+    "ingredientes": [
+      "4 bolas grandes de sorvete de creme (bem firmes)",
+      "2 ovos batidos",
+      "2 xícaras de corn flakes triturado (ou biscoito maisena triturado)",
+      "1 colher de canela em pó",
+      "Óleo para fritar",
+      "Mel ou calda de chocolate para servir"
+    ],
+    "modoPreparo": [
+      "Faça as bolas de sorvete e coloque no congelador por pelo menos 2 horas — precisam estar bem duras. Esse passo é inegociável.",
+      "Misture o corn flakes triturado com a canela.",
+      "Passe cada bola rapidamente no ovo batido e depois na mistura de corn flakes. Repita o processo (ovo → corn flakes) mais uma vez para garantir a cobertura.",
+      "Volte ao congelador por mais 1 hora. Esse é o segredo para o sorvete não derreter na fritura.",
+      "Frite em óleo bem quente (190°C) por apenas 20–30 segundos — o suficiente para dourar sem derreter.",
+      "Sirva imediatamente com mel. O Noah construiu uma casa inteira pelo amor. Você fritou sorvete. Proporcional."
+    ],
+    "descricao": "O sobremesa mais contraditória e romântica da culinária. Quente por fora, fria por dentro — como os sentimentos em qualquer filme do Nicholas Sparks. Imperdível e levemente insano.",
+    "tempo": "30 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Velocidade é tudo. Sorvete no óleo por mais de 30 segundos vira desastre quente. Tenha tudo pronto antes de fritar — não é hora de procurar a concha."
   }
 ]
