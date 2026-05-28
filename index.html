@@ -46,6 +46,112 @@
 
   <!-- CSS Externo -->
   <link rel="stylesheet" href="css/style.css">
+
+  <!-- CSS Cookie Banner -->
+  <style>
+    .cookie-banner {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 9999;
+      background: #1a1a1a;
+      border-top: 3px solid #ff6b35;
+      padding: 14px 20px;
+      transform: translateY(100%);
+      transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+      box-shadow: 0 -4px 24px rgba(0,0,0,0.4);
+    }
+
+    .cookie-banner.show {
+      transform: translateY(0);
+    }
+
+    .cookie-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .cookie-emoji {
+      font-size: 28px;
+      flex-shrink: 0;
+    }
+
+    .cookie-text {
+      flex: 1;
+      font-size: 13px;
+      color: #ccc;
+      line-height: 1.5;
+      min-width: 200px;
+    }
+
+    .cookie-text strong {
+      color: #fff;
+      display: block;
+      margin-bottom: 2px;
+      font-size: 14px;
+    }
+
+    .cookie-text a {
+      color: #ff6b35;
+      text-decoration: underline;
+    }
+
+    .cookie-actions {
+      display: flex;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+
+    .cookie-btn {
+      padding: 9px 18px;
+      border-radius: 8px;
+      border: none;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+
+    .cookie-recusar {
+      background: transparent;
+      border: 1.5px solid #444;
+      color: #aaa;
+    }
+
+    .cookie-recusar:hover {
+      border-color: #888;
+      color: #fff;
+    }
+
+    .cookie-aceitar {
+      background: #ff6b35;
+      color: #fff;
+    }
+
+    .cookie-aceitar:hover {
+      background: #e55a25;
+      transform: scale(1.03);
+    }
+
+    @media (max-width: 600px) {
+      .cookie-inner {
+        gap: 10px;
+      }
+      .cookie-actions {
+        width: 100%;
+      }
+      .cookie-btn {
+        flex: 1;
+        text-align: center;
+      }
+    }
+  </style>
 </head>
 <body>
 
@@ -152,7 +258,55 @@
     </div>
   </div>
 
+  <!-- COOKIE BANNER -->
+  <div class="cookie-banner" id="cookieBanner">
+    <div class="cookie-inner">
+      <span class="cookie-emoji">🍪</span>
+      <div class="cookie-text">
+        <strong>Ei, a gente usa cookies!</strong>
+        Não os de chocolate (infelizmente). São para análise de tráfego e anúncios personalizados.
+        <a href="#" onclick="abrirModal('privacidade'); return false;">Saiba mais</a>
+      </div>
+      <div class="cookie-actions">
+        <button class="cookie-btn cookie-recusar" onclick="recusarCookies()">Só o essencial</button>
+        <button class="cookie-btn cookie-aceitar" onclick="aceitarCookies()">Tudo bem! 👍</button>
+      </div>
+    </div>
+  </div>
+
   <!-- JavaScript Externo -->
   <script src="js/script.js"></script>
+
+  <!-- Script Cookie Banner -->
+  <script>
+    (function() {
+      var consent = localStorage.getItem('nafome_cookie_consent');
+      if (!consent) {
+        setTimeout(function() {
+          var banner = document.getElementById('cookieBanner');
+          if (banner) banner.classList.add('show');
+        }, 800);
+      }
+    })();
+
+    function aceitarCookies() {
+      localStorage.setItem('nafome_cookie_consent', 'accepted');
+      fecharCookieBanner();
+    }
+
+    function recusarCookies() {
+      localStorage.setItem('nafome_cookie_consent', 'essential');
+      fecharCookieBanner();
+    }
+
+    function fecharCookieBanner() {
+      var banner = document.getElementById('cookieBanner');
+      if (banner) {
+        banner.style.transform = 'translateY(100%)';
+        setTimeout(function() { banner.style.display = 'none'; }, 400);
+      }
+    }
+  </script>
+
 </body>
 </html>
