@@ -306,5 +306,778 @@
     "preco": "R$ 15,00",
     "porcoes": "10 porções",
     "dica": "Se ninguém quiser dividir o bolo, finja que experimentou demais e vá dormir cedo — amanhã a dieta começa mesmo, né?"
+  },
+  {
+    "id": 11,
+    "titulo": "Coelho Durão de Chocolate que Não Derrete na Sua Cara",
+    "slug": "coelho-durao-chocolate",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "500g chocolate meio amargo",
+      "50g chocolate branco para decorar",
+      "forminha de coelho de silicone"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate meio amargo e finja que está fazendo mágica.",
+      "Despeje na forminha, bata na mesa (não na cabeça) para tirar bolhas.",
+      "Leve à geladeira e conte até 100... ou até endurecer.",
+      "Decore com chocolate branco, tentando desenhar o coelhinho que vive em você."
+    ],
+    "descricao": "O coelho que vai sobreviver mais tempo que sua dieta. Cheio de personalidade e chocolate, para ninguém reclamar da páscoa sem graça.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Se o coelho derreter, é só fingir que era um fondue. Ou chorar."
+  },
+  {
+    "id": 12,
+    "titulo": "Ovos Recheados de Mentira (Mas Muito Saborosos)",
+    "slug": "ovos-recheados-de-mentira",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "6 ovos cozidos",
+      "2 colheres maionese",
+      "1 colher mostarda",
+      "Sal e pimenta a gosto",
+      "Salsinha para decorar"
+    ],
+    "modoPreparo": [
+      "Corte os ovos ao meio e tire a gema com jeitinho, como se fosse um roubo culinário.",
+      "Misture a gema com maionese, mostarda, sal e pimenta, inventando que é o recheio dos sonhos.",
+      "Recheie as claras com a pasta e decore com salsinha – porque verde é vida e faz você parecer gourmet."
+    ],
+    "descricao": "Aquele ovo de páscoa que engana a família e te faz parecer chef, sem precisar abrir o coelho de verdade.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "6 porções",
+    "dica": "Se alguém reclamar que é 'simples demais', jogue um pouco mais de pimenta. Resolve tudo."
+  },
+  {
+    "id": 13,
+    "titulo": "Bolo de Cenoura com Cobertura de Chocolate – O Clássico que Salva",
+    "slug": "bolo-cenoura-cobertura-chocolate",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "3 cenouras médias",
+      "3 ovos",
+      "1 xícara óleo",
+      "2 xícaras açúcar",
+      "2 e 1/2 xícara farinha de trigo",
+      "1 colher sopa fermento",
+      "200g chocolate meio amargo",
+      "1 caixinha creme de leite"
+    ],
+    "modoPreparo": [
+      "Bata no liquidificador cenoura, ovos e óleo, fazendo cara de chef de masterchef.",
+      "Misture com o açúcar, farinha e fermento, tentando não sujar tudo.",
+      "Asse até o bolo dizer 'eu tô pronto!' com cheiro delicioso.",
+      "Para a cobertura, derreta chocolate com creme de leite e espalhe como se fosse pintura abstrata."
+    ],
+    "descricao": "Bolo de cenoura é a prova que nem todo chocolate da páscoa precisa ser ovo. Além disso, salva aquele tio que só come bolo.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "8 porções",
+    "dica": "Se o bolo afundar, é só dizer que é um bolo 'pós-modernista'."
+  },
+  {
+    "id": 14,
+    "titulo": "Salada de Frutas da Páscoa – Porque Nem Só de Chocolate Vive o Coelho",
+    "slug": "salada-frutas-pascoa",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "1 maçã",
+      "1 banana",
+      "1 laranja",
+      "1 punhado de uva",
+      "Mel a gosto",
+      "Hortelã para decorar"
+    ],
+    "modoPreparo": [
+      "Pique as frutas como se estivesse cortando os problemas da vida em pedaços.",
+      "Misture tudo numa tigela com mel, sorria porque está saudável.",
+      "Decore com hortelã – ou finja que é grana para impressionar."
+    ],
+    "descricao": "Salada de frutas é a desculpa perfeita para dizer que você está na páscoa, mas sem culpa. O coelho agradece.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "4 porções",
+    "dica": "Se a criança reclamar, diga que é ovo desintoxicante."
+  },
+  {
+    "id": 15,
+    "titulo": "Coelhinho de Pão de Queijo – Porque Tudo é Melhor Frito",
+    "slug": "coelhinho-pao-de-queijo",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "500g polvilho azedo",
+      "200ml leite",
+      "100ml óleo",
+      "2 ovos",
+      "300g queijo minas padrão ralado",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Misture tudo até virar uma massa que nem você entende como funciona.",
+      "Modele em formato de coelhinho, porque a páscoa merece arte.",
+      "Asse até dourar e finja que fez isso de primeira."
+    ],
+    "descricao": "Pão de queijo é o verdadeiro herói brasileiro e se for em formato de coelho, vira Páscoa gourmet. Surpreenda os amigos!",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "6 porções",
+    "dica": "Se desmanchar, diga que é coelho de lama. Originalidade manda."
+  },
+  {
+    "id": 16,
+    "titulo": "Brigadeiro de Colher – O Coelho do Apocalipse da Dieta",
+    "slug": "brigadeiro-de-colher",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "1 lata leite condensado",
+      "2 colheres sopa cacau em pó",
+      "1 colher sopa manteiga",
+      "granulado para decorar"
+    ],
+    "modoPreparo": [
+      "Misture tudo numa panela e mexa até desgrudar do fundo como aquele ex que não sai da sua cabeça.",
+      "Coloque em potinhos e jogue granulado, porque na dúvida, joga granulado.",
+      "Coma com colher, sem vergonha e com orgulho."
+    ],
+    "descricao": "Brigadeiro de colher é o verdadeiro protagonista da Páscoa. Quem precisa de ovo quando tem chocolate que você come direto da panela?",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "4 porções",
+    "dica": "Se sobrar (duvido), guarde na geladeira e finja que é dieta."
+  },
+  {
+    "id": 17,
+    "titulo": "Torta de Limão com Chocolate – O Casamento do Século",
+    "slug": "torta-limao-chocolate",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "1 pacote biscoito maisena",
+      "100g manteiga derretida",
+      "1 lata leite condensado",
+      "1 lata creme de leite",
+      "4 limões espremidos",
+      "100g chocolate meio amargo picado"
+    ],
+    "modoPreparo": [
+      "Triture os biscoitos e misture com manteiga para fazer a base, igual montar um castelo de areia.",
+      "Misture leite condensado, creme de leite e limão para o recheio azedinho, mas doce.",
+      "Monte a torta, deixe na geladeira e decore com chocolate derretido tipo Picasso.",
+      "Faça drama pra parecer chef."
+    ],
+    "descricao": "A torta que junta o azedinho do limão com o doce do chocolate, igual aquela relação complicada que você conhece.",
+    "tempo": "1h 30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "8 porções",
+    "dica": "Se o chocolate rachar, é só dizer que é 'torta vintage'."
+  },
+  {
+    "id": 18,
+    "titulo": "Cupcake de Cenoura com Orelhas de Coelho – Moda que Engorda",
+    "slug": "cupcake-cenoura-orelhas-coelho",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "2 cenouras médias raladas",
+      "2 ovos",
+      "1/2 xícara óleo",
+      "1 xícara açúcar",
+      "1 e 1/2 xícara farinha de trigo",
+      "1 colher sopa fermento",
+      "Glacê de chocolate para decorar",
+      "Marshmallows para as orelhas"
+    ],
+    "modoPreparo": [
+      "Misture tudo e asse em forminhas de cupcake, sorrindo para o forno.",
+      "Depois de frio, cubra com glacê e finja que sabe fazer orelhas com marshmallows.",
+      "Sirva e espere elogios (ou pelo menos risadas)."
+    ],
+    "descricao": "Cupcakes que parecem coelhos, perfeitos para quem quer comer doce e causar no Instagram ao mesmo tempo.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "10 porções",
+    "dica": "Se der errado, coma tudo antes que alguém veja."
+  },
+  {
+    "id": 19,
+    "titulo": "Rabanada de Páscoa com Toque de Canela (E Vontade de Sumir)",
+    "slug": "rabanada-pascoa-canela",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "6 fatias pão de forma amanhecido",
+      "3 ovos",
+      "1 xícara leite",
+      "1 colher canela em pó",
+      "Açúcar para polvilhar",
+      "Manteiga para fritar"
+    ],
+    "modoPreparo": [
+      "Misture ovos, leite e canela como se estivesse preparando poção mágica.",
+      "Mergulhe o pão na mistura e frite na manteiga até dourar como se fosse o sol da manhã.",
+      "Polvilhe açúcar e prepare a desculpa para a balança."
+    ],
+    "descricao": "Rabanada é o abraço quentinho da Páscoa que você não sabia que precisava. E com canela, vira festa na boca.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "6 porções",
+    "dica": "Se sobrar, diga que é recheio para o café da manhã do dia seguinte. Ou do último."
+  },
+  {
+    "id": 20,
+    "titulo": "Mousse de Maracujá que Vai Te Fazer Esquecer do Chocolate",
+    "slug": "mousse-maracuja-pascoa",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "1 lata leite condensado",
+      "1 lata creme de leite",
+      "1 lata suco de maracujá concentrado",
+      "Polpa de 1 maracujá para decorar"
+    ],
+    "modoPreparo": [
+      "Bata leite condensado, creme de leite e suco de maracujá no liquidificador como se fosse inventar o verão.",
+      "Leve à geladeira até firmar, contando piadas para acelerar o tempo.",
+      "Decore com polpa de maracujá e finja que sabe fazer arte."
+    ],
+    "descricao": "Quando o chocolate não dá conta, a mousse de maracujá chega para refrescar a alma e o paladar. Páscoa inovadora, meu amigo.",
+    "tempo": "3h (geladeira)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "6 porções",
+    "dica": "Se alguém preferir chocolate, ofereça uma mordida e corra."
+  },
+  {
+    "id": 21,
+    "titulo": "Coelhinho da Páscoa Vegano: Chocolate que não some do seu bolso",
+    "slug": "coelhinho-da-pascoa-vegano-chocolate-que-nao-some-do-seu-bolso",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "200g de chocolate amargo vegano",
+      "1 colher de sopa de óleo de coco",
+      "granulado vegano para decorar"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate no micro-ondas, se não der certo, finja que é mágica.",
+      "Misture o óleo de coco para dar aquele brilho digno de coelhinho de revista.",
+      "Despeje em formas de coelho, coloque o granulado e leve à geladeira até virar arte."
+    ],
+    "descricao": "Para quem quer a Páscoa sem culpa e com sabor que não deixa você chorar na hora da conta.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Se der vontade de comer a forma, lembre-se: plástico não é chocolate, infelizmente."
+  },
+  {
+    "id": 22,
+    "titulo": "Ovo de Páscoa Explosivo: Recheio de brigadeiro que explode na boca (e no olho de fome)",
+    "slug": "ovo-de-pascoa-explosivo-recheio-de-brigadeiro",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "300g de chocolate ao leite",
+      "1 lata de leite condensado",
+      "2 colheres de sopa de chocolate em pó",
+      "manteiga para o brigadeiro",
+      "granulado para decorar"
+    ],
+    "modoPreparo": [
+      "Faça o brigadeiro: misture leite condensado, chocolate em pó e manteiga, e mexa até não aguentar mais.",
+      "Derreta o chocolate e molde as metades do ovo.",
+      "Recheie com o brigadeiro, feche o ovo e decore para parecer que não tá com vontade de comer.",
+      "Leve para gelar e prepare para a explosão de sabor."
+    ],
+    "descricao": "Porque Páscoa sem brigadeiro não é Páscoa, é só um domingo triste.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,50",
+    "porcoes": "2 porções",
+    "dica": "Não deixe o brigadeiro muito mole, ou a explosão vira uma bagunça no prato."
+  },
+  {
+    "id": 23,
+    "titulo": "Bolo Cenoura Ninja: Surpresa de chocolate que ataca seu paladar",
+    "slug": "bolo-cenoura-ninja-surpresa-de-chocolate",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "3 cenouras médias raladas",
+      "3 ovos",
+      "1 xícara de óleo",
+      "2 xícaras de açúcar",
+      "2 e 1/2 xícaras de farinha de trigo",
+      "1 colher de sopa de fermento",
+      "200g de chocolate meio amargo para cobertura"
+    ],
+    "modoPreparo": [
+      "Bata no liquidificador cenoura, ovos e óleo – é quase um suco saudável.",
+      "Misture o açúcar, farinha e fermento, e depois o que bateu no liquidificador.",
+      "Asse na forma untada e pense: ‘Será que rende até a Páscoa?’",
+      "Derreta o chocolate para a cobertura ninja e espalhe antes que ele desista."
+    ],
+    "descricao": "Um bolo que parece saudável mas te trai com chocolate. Páscoa é tempo de surpresas!",
+    "tempo": "1h20min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "8 porções",
+    "dica": "Use cenoura fresquinha para o bolo não virar uma cenoura desanimada."
+  },
+  {
+    "id": 24,
+    "titulo": "Coelhinho de Páscoa Salgado: Porque coelho também é fã de lanche",
+    "slug": "coelhinho-de-pascoa-salgado",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "1 massa de pão de forma",
+      "200g de presunto",
+      "200g de queijo mussarela",
+      "orégano a gosto",
+      "1 gema para pincelar"
+    ],
+    "modoPreparo": [
+      "Modele a massa em forma de coelho, se estragar, diga que é arte abstrata.",
+      "Coloque presunto e queijo, feche a massa com jeitinho (e coragem).",
+      "Pincele a gema para dar aquele dourado que até coelho inveja.",
+      "Asse até parecer que aguenta um abraço de coelhinho."
+    ],
+    "descricao": "Para quem acha que coelhinho só come chocolate e quer inovar na Páscoa salgada.",
+    "tempo": "50 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "4 porções",
+    "dica": "Se o coelho não ficar bonito, ofereça como ‘coelho moderninho’ e pronto."
+  },
+  {
+    "id": 25,
+    "titulo": "Pavê de Páscoa: Camadas de drama e chocolate",
+    "slug": "pave-de-pascoa-camadas-de-drama-e-chocolate",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "1 pacote de biscoito champagne",
+      "2 latas de leite condensado",
+      "2 colheres de sopa de amido de milho",
+      "500 ml de leite",
+      "200g de chocolate meio amargo",
+      "1 caixinha de creme de leite",
+      "chocolate ralado para decorar"
+    ],
+    "modoPreparo": [
+      "Faça um creme com leite condensado, amido e leite, mexendo até virar um thriller.",
+      "Derreta o chocolate e misture com creme de leite para a camada de mistério.",
+      "Monte camadas de biscoito molhado, creme branco e creme de chocolate, até acabar a paciência.",
+      "Decore e leve à geladeira para juntar suspense e sabor."
+    ],
+    "descricao": "Pavê é aquele rolê de Páscoa que tem drama, justiça e chocolate na medida exata.",
+    "tempo": "2h",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "6 porções",
+    "dica": "Molhe o biscoito rápido, ninguém quer biscoito desmanchado tipo novela mexicana."
+  },
+  {
+    "id": 26,
+    "titulo": "Ovo de Colher do Desespero: Pra quando só te resta lamber a sorte",
+    "slug": "ovo-de-colher-do-desespero",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "300g de chocolate ao leite",
+      "1 lata de leite condensado",
+      "2 colheres de sopa de manteiga",
+      "granulado para enfeitar"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate e cubra uma forma de ovo para fazer a casca, tipo escudo de guerra.",
+      "Faça o brigadeiro clássico com leite condensado e manteiga, mexa até o desespero acabar.",
+      "Recheie a casca com brigadeiro e decore com granulado, pra fingir que não tá só com vontade de atacar.",
+      "Leve para gelar e prepare a colher para a batalha."
+    ],
+    "descricao": "Quando a vida te dá limões, faça um ovo de colher e esqueça o limão.",
+    "tempo": "1h30min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 23,00",
+    "porcoes": "3 porções",
+    "dica": "Se sobrar chocolate, coma com a colher. A culpa é sua."
+  },
+  {
+    "id": 27,
+    "titulo": "Cupcake Coelhinho Saltitante: Pequeno, fofo e cheio de caloria",
+    "slug": "cupcake-coelhinho-saltitante",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "1 xícara de farinha de trigo",
+      "1/2 xícara de açúcar",
+      "1/2 xícara de leite",
+      "1 ovo",
+      "1 colher de chá de fermento em pó",
+      "1 colher de sopa de manteiga",
+      "confeitos coloridos para decorar"
+    ],
+    "modoPreparo": [
+      "Misture os ingredientes secos e molhados com a velocidade da inveja do vizinho.",
+      "Coloque nas forminhas e asse até sentir cheiro de felicidade.",
+      "Decore com confeitos formando orelhas e olhos, ou invente que é arte moderna.",
+      "Serve e espera os elogios saltitarem."
+    ],
+    "descricao": "Cupcake é pra quem quer a doçura em porções pequenas, mas com alma gigante.",
+    "tempo": "45 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "6 porções",
+    "dica": "Não esqueça de deixar os confeitos longe das crianças – e do seu dedo."
+  },
+  {
+    "id": 28,
+    "titulo": "Colomba Pascal Express: O pão que chega antes do coelho",
+    "slug": "colomba-pascal-express",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "2 xícaras de farinha de trigo",
+      "1/2 xícara de açúcar",
+      "1/2 xícara de leite morno",
+      "1 ovo",
+      "1 colher de sopa de fermento biológico seco",
+      "100g de frutas cristalizadas",
+      "50g de açúcar para a cobertura",
+      "1 clara de ovo"
+    ],
+    "modoPreparo": [
+      "Misture fermento, leite morno e açúcar e espere a mágica do crescimento.",
+      "Adicione farinha, ovo e frutas cristalizadas, sove até cansar os braços.",
+      "Modele em forma de pomba (ou algo que pareça) e deixe crescer de novo, porque crescer é vida.",
+      "Pincele a clara, polvilhe açúcar e asse até dourar mais que seu humor.",
+      "Pronto, a pomba chegou antes do coelho, pode comemorar."
+    ],
+    "descricao": "Colomba pascal é o pão que prova que até a Páscoa tem pressa às vezes.",
+    "tempo": "3h",
+    "dificuldade": "Difícil",
+    "preco": "R$ 18,00",
+    "porcoes": "8 porções",
+    "dica": "Não desista na sova, seu braço vai agradecer depois – e seu estômago também."
+  },
+  {
+    "id": 29,
+    "titulo": "Almôndegas do Judas: Páscoa com sabor de plot twist",
+    "slug": "almodegas-do-judas-pascoa-com-sabor-de-plot-twist",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "500g de carne moída",
+      "1/2 cebola picada",
+      "2 dentes de alho amassados",
+      "1 ovo",
+      "1/2 xícara de farinha de rosca",
+      "sal e pimenta a gosto",
+      "molho de tomate para cobrir"
+    ],
+    "modoPreparo": [
+      "Misture tudo com vontade de trair a dieta.",
+      "Modele as almôndegas como se fossem pequenos traidores, mas muito saborosos.",
+      "Frite ou asse até dourar, porque até o Judas merece uma aparência boa.",
+      "Cubra com molho de tomate e sirva com aquela cara de ‘não acredito que estou comendo isso na Páscoa’."
+    ],
+    "descricao": "Para quem quer fugir do chocolate e fazer um plot twist no cardápio de Páscoa.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "5 porções",
+    "dica": "Se alguém perguntar quem fez, diga que foi o coelho, ele é bom em surpresas."
+  },
+  {
+    "id": 30,
+    "titulo": "Risoto de Aspargos do Último Jantar: Elegância com gostinho de 'adeus, fome!'",
+    "slug": "risoto-de-aspargos-do-ultimo-jantar",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "1 xícara de arroz arbóreo",
+      "1 maço de aspargos",
+      "1/2 cebola picada",
+      "2 colheres de sopa de manteiga",
+      "1/2 xícara de vinho branco",
+      "caldo de legumes quente",
+      "50g de queijo parmesão ralado",
+      "sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola na manteiga até ficar transparente, igual suas intenções na cozinha.",
+      "Adicione o arroz e o vinho, mexa até o álcool evaporar e o coração acelerar.",
+      "Vá adicionando caldo aos poucos, mexendo e rezando para dar certo.",
+      "Cozinhe os aspargos separados e adicione quase no final para não virarem purê.",
+      "Finalize com parmesão e sirva com a elegância de um jantar de despedida."
+    ],
+    "descricao": "Inspirado nos jantares de despedida dos grandes, para uma Páscoa com classe e sabor.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Não esqueça de mexer sempre; um risoto parado é um drama ambulante."
+  },
+  {
+    "id": 31,
+    "titulo": "Coelhinho Gourmet: Ovos Recheados de Risoto Caipira",
+    "slug": "coelhinho-gourmet-ovos-recheados-risoto-caipira",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "6 ovos grandes",
+      "1 xícara de arroz arbóreo",
+      "1/2 cebola picada",
+      "1 dente de alho",
+      "200g de frango desfiado",
+      "1/2 xícara de queijo parmesão ralado",
+      "1 colher de sopa de manteiga",
+      "caldo de galinha",
+      "sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Quebre os ovos, mas não os ovos da vida, apenas o topo, e retire as claras com jeitinho.",
+      "Cozinhe o arroz arbóreo com cebola, alho e caldo de galinha até virar aquele risoto cremoso, como abraço de vó.",
+      "Misture o frango, parmesão, manteiga, sal e pimenta no risoto.",
+      "Recheie as cascas vazias de ovo com essa maravilha culinária e leve ao forno por 10 minutos para dar aquela dourada de respeito."
+    ],
+    "descricao": "Porque Páscoa não é só chocolate! Que tal surpreender com ovos recheados que parecem feitos por chef de restaurante caro (mas com preço de feira?).",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Se a casca rachar, culpa o coelho, e faça uma omelete rápida com o conteúdo."
+  },
+  {
+    "id": 32,
+    "titulo": "Coelho Vegano Ataca: Cenoura com Molho de Amendoim e Pimenta",
+    "slug": "coelho-vegano-cenoura-molho-amendoim-pimenta",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "4 cenouras grandes",
+      "1/2 xícara de pasta de amendoim",
+      "1 colher de sopa de molho de soja",
+      "1 colher de chá de pimenta calabresa",
+      "suco de 1 limão",
+      "sal a gosto"
+    ],
+    "modoPreparo": [
+      "Descasque as cenouras e corte em palitos para fingir que é batata frita saudável.",
+      "Misture a pasta de amendoim, molho de soja, pimenta calabresa, limão e sal até virar um molho que ninguém espera que seja tão bom.",
+      "Sirva os palitos de cenoura mergulhados nesse molho digno de Instagram."
+    ],
+    "descricao": "Para o coelho que quer manter a forma, mas não abre mão do sabor. Cenoura nunca foi tão sexy!",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,50",
+    "porcoes": "3 porções",
+    "dica": "Se o molho ficar muito grosso, balance com água, e se ficar muito fino, coma de colher mesmo."
+  },
+  {
+    "id": 33,
+    "titulo": "Ninho de Batata: Ovo de Páscoa Salgado (sem chocolate, sem culpa)",
+    "slug": "ninho-batata-ovo-pascoa-salgado",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "4 batatas médias",
+      "2 ovos",
+      "100g de queijo mussarela ralado",
+      "sal, pimenta e orégano a gosto",
+      "óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Rale as batatas e esprema para tirar o excesso de água (sim, a batata é ciumenta).",
+      "Misture com sal, pimenta e orégano, formando uma massa grudenta – tipo amor de mãe.",
+      "Modele ninhos com a batata ralada e coloque uma gema de ovo no centro de cada um, polvilhe queijo.",
+      "Frite em óleo quente até dourar e o ovo cozinhar – não esqueça de fingir que sabe o ponto."
+    ],
+    "descricao": "Um ovo de Páscoa para quem quer quebrar a dieta e o padrão. Salgado, crocante e recheado, o coelho vai querer saber o segredo!",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Para fritar sem bagunça, use uma frigideira funda e cuidado para não virar omelete."
+  },
+  {
+    "id": 34,
+    "titulo": "Colomba Pascoalinda: Pão doce com frutas que amam festa",
+    "slug": "colomba-pascoalinda-pao-doce-frutas",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "500g de farinha de trigo",
+      "100g de açúcar",
+      "10g de fermento biológico seco",
+      "200ml de leite",
+      "100g de manteiga",
+      "2 ovos",
+      "50g de frutas cristalizadas",
+      "50g de uvas-passas",
+      "açúcar de confeiteiro para polvilhar"
+    ],
+    "modoPreparo": [
+      "Misture a farinha, açúcar e fermento, como se estivesse fazendo um convite para a festa mais doce do ano.",
+      "Adicione leite morno, manteiga e ovos, misturando até formar uma massa que não grude no seu humor.",
+      "Incorpore as frutas cristalizadas e as passas, porque até doce precisa de um pouco de drama.",
+      "Deixe crescer até dobrar de tamanho — tempo perfeito para praticar sua dança da vitória.",
+      "Asse por 35 minutos, polvilhe açúcar de confeiteiro e se prepare para conquistar corações."
+    ],
+    "descricao": "A Colomba é tipo aquele amigo legal que todo mundo quer na Páscoa: doce, festivo e fácil de agradar. Ideal para impressionar sem esforço.",
+    "tempo": "2h 30 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 22,00",
+    "porcoes": "8 porções",
+    "dica": "Se a massa ficar grudenta, não se desespere, é só amor e farinha extra."
+  },
+  {
+    "id": 35,
+    "titulo": "Coelho Explosivo: Brigadeiro de Cenoura com Chocolate (Sim, isso existe!)",
+    "slug": "coelho-explosivo-brigadeiro-cenoura-chocolate",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "2 cenouras médias raladas",
+      "1 lata de leite condensado",
+      "2 colheres de sopa de cacau em pó",
+      "1 colher de sopa de manteiga",
+      "granulado de chocolate para decorar"
+    ],
+    "modoPreparo": [
+      "Cozinhe a cenoura até amolecer, para que fique mais doce que seu crush.",
+      "No fogo baixo, misture cenoura, leite condensado, manteiga e cacau até desgrudar da panela, igual promessa de ano novo.",
+      "Deixe esfriar, faça bolinhas e passe no granulado — porque até brigadeiro gosta de brilhar.",
+      "Coma sem culpa, porque é Páscoa e coelho aprova."
+    ],
+    "descricao": "A união do clássico brigadeiro com a cenoura, o legume mais subestimado da festa. Se fosse fácil, não seria comédia.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "20 unidades",
+    "dica": "Se a massa estiver mole demais, coloque na geladeira e finja que é mágica."
+  },
+  {
+    "id": 36,
+    "titulo": "Ovo Surpresa de Frango à Passarinho: Porque Chocolate Cansa",
+    "slug": "ovo-surpresa-frango-a-passarinho",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "500g de coxinhas de frango",
+      "1 limão",
+      "2 dentes de alho amassados",
+      "sal, pimenta do reino e colorau a gosto",
+      "óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Tempere as coxinhas com limão, alho, sal, pimenta e colorau, dando aquela marinada para se sentirem especiais.",
+      "Frite até ficarem douradas, crocantes e pedindo bis.",
+      "Arrume as coxinhas em uma caixa de ovo vazia (ou em uma cesta bonitona) para o efeito surpresa.",
+      "Sirva como se fosse um ovo de chocolate, só que com mais personalidade e menos culpa."
+    ],
+    "descricao": "Aquela receita para quem quer dar um tapa na tradição e dizer: ‘Chocolate? Só se for de frango!’",
+    "tempo": "45 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Use limão de verdade, não só para decorar a foto do prato."
+  },
+  {
+    "id": 37,
+    "titulo": "Pascoaça de Amendoim: O Chocolate que não é Chocolate, mas é Delícia",
+    "slug": "pascoaca-amendoim-chocolate",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "200g de amendoim torrado e moído",
+      "1 colher de sopa de manteiga",
+      "açúcar cristal para decorar"
+    ],
+    "modoPreparo": [
+      "Misture o leite condensado, amendoim e manteiga em fogo baixo, mexendo até desgrudar da panela — tipo mágica de verdade.",
+      "Despeje em uma forma untada, espalhe açúcar cristal por cima para brilhar mais que coelho de pelúcia.",
+      "Deixe esfriar e corte em pedaços para devorar com aquele sorriso culpado."
+    ],
+    "descricao": "Para quem quer fugir do chocolate tradicional e ainda assim fazer a Páscoa virar festa na boca.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "12 porções",
+    "dica": "Se quiser ainda mais crocância, adicione amendoim inteiro por cima antes de esfriar."
+  },
+  {
+    "id": 38,
+    "titulo": "Coelho Zen: Salada de Ovos de Codorna com Molho de Hortelã",
+    "slug": "coelho-zen-salada-ovos-codorna-hortela",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "20 ovos de codorna",
+      "1/2 xícara de iogurte natural",
+      "1 punhado de hortelã fresca picada",
+      "sal e pimenta a gosto",
+      "azeite de oliva"
+    ],
+    "modoPreparo": [
+      "Cozinhe os ovos de codorna e descasque com paciência de monge.",
+      "Misture iogurte, hortelã, sal, pimenta e azeite para fazer um molho que até o coelho viraria vegano.",
+      "Misture os ovos com o molho, sirva frio e aproveite a calmaria pós-chocolate."
+    ],
+    "descricao": "Para quem quer a Páscoa com sabor e leveza, evitando aqueles 5kg extras da temporada.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Se a hortelã não gostar de você, tente salsa. Ou mais hortelã."
+  },
+  {
+    "id": 39,
+    "titulo": "Bolo de Cenoura Rebelde: Cobertura de Chocolate para Quem Não Segue Regras",
+    "slug": "bolo-cenoura-rebelde-cobertura-chocolate",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "3 cenouras médias",
+      "4 ovos",
+      "1 xícara de óleo",
+      "2 xícaras de açúcar",
+      "2 e 1/2 xícaras de farinha de trigo",
+      "1 colher de sopa de fermento em pó",
+      "200g de chocolate meio amargo",
+      "1 caixa de creme de leite"
+    ],
+    "modoPreparo": [
+      "Bata cenoura, ovos e óleo até parecer uma poção mágica.",
+      "Misture açúcar, farinha e fermento, e combine tudo como se fosse juntar peças de um quebra-cabeça.",
+      "Asse por 40 minutos, ou até o palito sair sem sujeira (ou você desistir de testar).",
+      "Faça a cobertura derretendo o chocolate com creme de leite, jogue por cima e sinta o poder do rebelde.",
+      "Coma e faça a dancinha da vitória no final."
+    ],
+    "descricao": "O clássico que todo mundo ama, agora com cobertura que desafia as expectativas da dieta.",
+    "tempo": "1h 10 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "10 porções",
+    "dica": "Se o bolo murchar, finja que é estilo artesanal. Todo mundo vai comprar."
+  },
+  {
+    "id": 40,
+    "titulo": "Salada de Frutas Surpresa: Porque Páscoa Também é Sobre Sofrimento Saudável",
+    "slug": "salada-frutas-surpresa-pascoa",
+    "categoria": "Páscoa 🐣",
+    "ingredientes": [
+      "2 maçãs",
+      "2 bananas",
+      "1 mamão pequeno",
+      "1 laranja",
+      "1 colher de sopa de mel",
+      "suco de meio limão",
+      "folhas de hortelã para decorar"
+    ],
+    "modoPreparo": [
+      "Corte todas as frutas em cubos, tentando não chorar com a faca.",
+      "Misture o mel e o suco de limão para um tempero que é quase uma festa.",
+      "Regue as frutas com essa mistura, decore com hortelã e finja que está se divertindo muito.",
+      "Sirva gelado e lembre-se: saúde também é uma piada da vida."
+    ],
+    "descricao": "Para equilibrar o tanto de chocolate que você vai devorar, aqui está a salada mais divertida que você respeita.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Se quiser impressionar, coloque a salada em um ovo de chocolate vazio. Confusão garantida."
   }
 ]

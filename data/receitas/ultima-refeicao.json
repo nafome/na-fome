@@ -315,5 +315,790 @@
     "preco": "R$ 35,00",
     "porcoes": "4 porções",
     "dica": "Se essa é sua última refeição, pelo menos faça como o frango: fique bem dourado e seja inesquecível."
+  },
+  {
+    "id": 11,
+    "titulo": "Bife da Última Chance – Porque até o troco merece um churrasco",
+    "slug": "bife-da-ultima-chance",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "2 bifes de contrafilé (200g cada)",
+      "Sal grosso a gosto",
+      "Pimenta-do-reino moída na hora",
+      "2 dentes de alho amassados",
+      "Manteiga (1 colher de sopa)",
+      "Farofa pronta (100g)",
+      "Vinagrete simples (tomate, cebola, vinagre, azeite)"
+    ],
+    "modoPreparo": [
+      "Tempere os bifes com sal grosso, pimenta e alho, como se estivesse mandando um último recado ao mundo.",
+      "Na frigideira quente, jogue a manteiga e depois o bife; grelhe até o ponto que seu destino mandar.",
+      "Sirva com farofa e vinagrete, pra dar aquela crocância e acidez que equilibram até final de novela mexicana."
+    ],
+    "descricao": "O bife escolhido por muitos condenados: direto ao ponto e com sabor que faz a gente pensar se a vida não poderia ser só um churrasco eterno.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "2 porções",
+    "dica": "Se for o último prato, pede pra deixar o ponto do bife do jeitinho que você gosta – nem que seja bem mal passado, porque você merece!"
+  },
+  {
+    "id": 12,
+    "titulo": "Macarronada do Adeus: o abraço carbônico",
+    "slug": "macarronada-do-adeus",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "250g de macarrão espaguete",
+      "Molho de tomate caseiro (300ml)",
+      "1 cebola picada",
+      "2 dentes de alho",
+      "Queijo parmesão ralado a gosto",
+      "Azeite de oliva",
+      "Folhas de manjericão"
+    ],
+    "modoPreparo": [
+      "Ferva a água com sal, jogue o macarrão como quem manda um último 'tchauzinho' para a dieta.",
+      "Refogue cebola e alho no azeite até dourar, faça o molho de tomate com amor e uma pitada de desespero.",
+      "Misture o molho com o macarrão, finalize com parmesão e manjericão – porque até na despedida a gente merece frescor."
+    ],
+    "descricao": "A clássica macarronada que lembra que a vida é uma festa, e essa é a última dança na pista de carboidratos.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "3 porções",
+    "dica": "Não economize no queijo, aqui é última refeição, não reunião de condomínio!"
+  },
+  {
+    "id": 13,
+    "titulo": "Frango Caipira da Sentença – Sabor que até o juiz aprovaria",
+    "slug": "frango-caipira-da-sentenca",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "1 frango caipira inteiro (aprox. 1,2kg)",
+      "1 limão",
+      "Sal e pimenta a gosto",
+      "Alecrim fresco",
+      "3 dentes de alho",
+      "Batatas cortadas para assar"
+    ],
+    "modoPreparo": [
+      "Tempere o frango com sal, pimenta, alho e limão, como se dissesse 'foi bom enquanto durou'.",
+      "Coloque alecrim por dentro e por fora, porque um pouco de perfume nunca fez mal à consciência.",
+      "Asse com batatas, para garantir que até a última batata seja comida com vontade."
+    ],
+    "descricao": "Frango simples, direto e cheio de personalidade – porque última refeição não é hora de inventar moda, mas de se despedir com dignidade.",
+    "tempo": "1h 20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Deixe a pele bem douradinha, para um último 'crunch' que vai fazer até o carcereiro babar."
+  },
+  {
+    "id": 14,
+    "titulo": "Feijoada do Fim – Porque todo crime merece um último samba no prato",
+    "slug": "feijoada-do-fim",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "300g de feijão preto",
+      "200g de carne seca dessalgada",
+      "150g de linguiça calabresa",
+      "100g de paio",
+      "1 laranja",
+      "Farinha de mandioca para farofa",
+      "Couve manteiga fatiada"
+    ],
+    "modoPreparo": [
+      "Cozinhe o feijão com as carnes, como quem prepara uma última reunião de família caliente.",
+      "Faça a farofa na manteiga, para dar aquele toque crocante de despedida.",
+      "Sirva com laranja e couve, para garantir que o coração fique leve antes do último baile."
+    ],
+    "descricao": "A feijoada que já foi última refeição de alguns condenados famosos – ou seja, prova que até na pior hora, a gente pode escolher um prato cheio de alegria.",
+    "tempo": "2h",
+    "dificuldade": "Difícil",
+    "preco": "R$ 50,00",
+    "porcoes": "5 porções",
+    "dica": "Não esqueça da laranja, porque até na última hora, a boca quer refrescar do calor do crime."
+  },
+  {
+    "id": 15,
+    "titulo": "Moqueca do Último Suspiro – Mar e fogo até o fim",
+    "slug": "moqueca-do-ultimo-suspiro",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "500g de filé de peixe (como robalo ou namorado)",
+      "1 tomate grande",
+      "1 pimentão verde",
+      "1 cebola média",
+      "Leite de coco (200ml)",
+      "Azeite de dendê (2 colheres de sopa)",
+      "Coentro a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o peixe com sal e limão, pensando que é um último mergulho.",
+      "Refogue cebola, tomate e pimentão no dendê, fazendo a festa da Bahia na panela.",
+      "Adicione o peixe, o leite de coco e deixe cozinhar como se o tempo fosse o inimigo.",
+      "Finalize com coentro, pra sentir o frescor do litoral mesmo sem sair do lugar."
+    ],
+    "descricao": "Moqueca clássica, perfeita para quem quer um pouco da brisa do mar mesmo na última refeição.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "3 porções",
+    "dica": "Se não gosta de coentro, finja que é salsa e aproveite a vida até a última gota."
+  },
+  {
+    "id": 16,
+    "titulo": "Pastel de Feira Final – Crocante que até o carrasco vai querer provar",
+    "slug": "pastel-de-feira-final",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "Massa para pastel pronta (500g)",
+      "300g de carne moída",
+      "Cebola picada",
+      "Cheiro-verde a gosto",
+      "Óleo para fritar",
+      "Sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Refogue a carne moída com cebola, sal e pimenta como quem prepara um discurso de despedida.",
+      "Recheie a massa de pastel com a carne temperada, fechando com cuidado – não queremos que a última refeição escape.",
+      "Frite em óleo quente até dourar e ficar crocante, porque nada como uma explosão de sabor nos últimos minutos."
+    ],
+    "descricao": "Pastel de feira, aquele clássico que lembra que a vida pode ser simples e deliciosa até a última mordida.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Não se esqueça do vinagrete para acompanhar – até na última refeição, precisamos de uma ajudinha para descer."
+  },
+  {
+    "id": 17,
+    "titulo": "Camarão à Paulista – Para uma despedida com glamour (e um pouco de molho)",
+    "slug": "camarao-a-paulista",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "300g de camarão limpo",
+      "1 tomate picado",
+      "1 cebola picada",
+      "1 dente de alho",
+      "Azeite de oliva",
+      "Salsinha",
+      "Pimenta-do-reino e sal"
+    ],
+    "modoPreparo": [
+      "Refogue alho e cebola no azeite como se estivesse preparando um último show na cozinha.",
+      "Junte o tomate e deixe formar um molhinho digno de aplausos.",
+      "Adicione os camarões e cozinhe rápido – último ato, última chance de brilhar.",
+      "Finalize com salsinha e tempere com sal e pimenta."
+    ],
+    "descricao": "Um prato leve e sofisticado, perfeito para quem quer sair de cena com elegância e sabor.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 45,00",
+    "porcoes": "2 porções",
+    "dica": "Sirva com arroz branco e um sorriso, porque até o último prato merece um toque de classe."
+  },
+  {
+    "id": 18,
+    "titulo": "Arroz de carreteiro do fim – O legado gaúcho no prato",
+    "slug": "arroz-de-carreteiro-do-fim",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "300g de carne seca dessalgada e desfiada",
+      "1 cebola picada",
+      "2 dentes de alho",
+      "2 xícaras de arroz",
+      "Salsinha e cebolinha",
+      "Óleo ou manteiga para refogar",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e o alho até ficarem dourados, porque até a despedida pede glamour.",
+      "Junte a carne seca e dê aquela misturada que só quem sabe que é a última vez faz.",
+      "Acrescente o arroz, água e sal, e cozinhe até ficar macio e perfeito.",
+      "Finalize com salsinha e cebolinha para aquele toque de esperança."
+    ],
+    "descricao": "O arroz carreteiro que traz o sabor do campo para a última refeição, porque tradição é coisa séria até no fim.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Se quiser um drama extra, conte histórias de gaúchos enquanto come – assim o sabor fica mais forte."
+  },
+  {
+    "id": 19,
+    "titulo": "Pudim do Último Suspiro – A doçura que a vida pediu pra acabar",
+    "slug": "pudim-do-ultimo-suspiro",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "2 latas de leite (medida da lata de leite condensado)",
+      "3 ovos",
+      "1 xícara de açúcar para a calda"
+    ],
+    "modoPreparo": [
+      "Faça a calda com açúcar, deixe dourar e espalhe pela forma – não é hora de economizar brilho.",
+      "Bata o leite condensado, leite e ovos no liquidificador, imaginando que cada giro é um último pensamento.",
+      "Coloque na forma caramelizada e asse em banho-maria até o pudim firmar, como um abraço doce final.",
+      "Espere esfriar, desenforme e prepare-se para a despedida mais gostosa."
+    ],
+    "descricao": "O clássico pudim que já foi última refeição de muitos – porque quando é pra acabar, que seja com gostinho de quero mais.",
+    "tempo": "1h 30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "6 porções",
+    "dica": "Não faça drama na hora de desenformar, afinal, não é o fim do mundo... ou será?"
+  },
+  {
+    "id": 20,
+    "titulo": "Coxinha de Frango Final – Pequena bomba de sabor e saudade",
+    "slug": "coxinha-de-frango-final",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "500g de peito de frango desfiado",
+      "1 cebola picada",
+      "2 dentes de alho",
+      "Massa para coxinha (farinha de trigo, caldo de galinha, leite)",
+      "Farinha de rosca para empanar",
+      "Óleo para fritar",
+      "Sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Refogue o frango com cebola, alho, sal e pimenta, pensando que é a última festa da sua vida.",
+      "Prepare a massa e molde as coxinhas, porque até o fim a gente quer algo para segurar na mão e ser feliz.",
+      "Empane e frite até dourar, garantindo aquela crocância que ninguém esquece.",
+      "Sirva quente e com aquela vontade de repetir."
+    ],
+    "descricao": "Coxinha é o abraço quente da culinária brasileira, e essa é para fechar com chave de ouro e muita farinha de rosca.",
+    "tempo": "1h",
+    "dificuldade": "Difícil",
+    "preco": "R$ 30,00",
+    "porcoes": "6 porções",
+    "dica": "Se quiser impressionar até o carrasco, faça um molho de pimenta caseiro para acompanhar."
+  },
+  {
+    "id": 21,
+    "titulo": "O Bife da Última Chance",
+    "slug": "o-bife-da-ultima-chance",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "1 bife de contra-filé (200g)",
+      "1 dente de alho",
+      "Sal a gosto",
+      "Pimenta do reino moída",
+      "Azeite de oliva"
+    ],
+    "modoPreparo": [
+      "Tempere o bife como se fosse seu último jantar – com todo o amor e um toque de pimenta para dar emoção.",
+      "Esquente a frigideira até ela chiar como se estivesse reclamando da sua decisão.",
+      "Coloque o bife e o alho com azeite, deixe dourar cada lado como se fosse a última novela da sua vida.",
+      "Sirva quente, porque quente é o que essa última refeição merece."
+    ],
+    "descricao": "Um clássico que não decepciona. Afinal, se é pra ser a última, que seja saborosa e com um toque dramático no alho. Bife de respeito para quem não quer deixar dúvidas no paladar.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "1 porção",
+    "dica": "Não esqueça: a última refeição merece um pouco de pimenta, porque ninguém quer ir sem emoção."
+  },
+  {
+    "id": 22,
+    "titulo": "Macarrão da Despedida do Chef",
+    "slug": "macarrao-da-despedida-do-chef",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "200g de macarrão espaguete",
+      "2 tomates maduros",
+      "1 dente de alho",
+      "Manjericão fresco",
+      "Azeite de oliva",
+      "Queijo parmesão ralado"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão com toda a calma do mundo, afinal é a despedida, nada de pressa.",
+      "Enquanto isso, faça um molho com tomates, alho e manjericão – a combinação perfeita para quem quer deixar um gostinho de 'volte sempre'.",
+      "Misture o macarrão e o molho, polvilhe o queijo e sirva com um sorriso meio triste."
+    ],
+    "descricao": "Macarrão simples, mas cheio de sentimento, ideal para quem quer uma última refeição que abrace a alma antes do show final.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "2 porções",
+    "dica": "Se estiver nervoso, respire fundo – o macarrão vai te salvar (ou pelo menos seu estômago)."
+  },
+  {
+    "id": 23,
+    "titulo": "Frango do Julgamento Final",
+    "slug": "frango-do-julgamento-final",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "1 coxa de frango",
+      "Suco de 1 limão",
+      "1 colher de chá de páprica",
+      "Sal e pimenta",
+      "1 colher de sopa de manteiga"
+    ],
+    "modoPreparo": [
+      "Marine o frango com limão, sal, pimenta e páprica – porque até o frango quer uma chance de redenção.",
+      "Frite na manteiga até ficar dourado, como se estivesse brilhando na sua última festa.",
+      "Sirva com aquela cara de 'eu tentei'."
+    ],
+    "descricao": "Frango simples, mas com atitude, ideal pra quem quer sair do palco da vida com estilo e sabor.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vida te der limão, faça um frango delicioso – e se for a última refeição, faça com manteiga, sempre."
+  },
+  {
+    "id": 24,
+    "titulo": "Arroz à Moda (Até Que Enfim)",
+    "slug": "arroz-a-moda-ate-que-enfim",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "1 xícara de arroz branco",
+      "2 xícaras de água",
+      "1 dente de alho picado",
+      "1 colher de óleo",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue o alho no óleo até o cheiro invadir a casa toda, como se fosse aquela última visita inesperada.",
+      "Junte o arroz, refogue até ele ficar brilhando de vontade de ir embora.",
+      "Adicione a água e o sal, tampe e espere até a última gota evaporar.",
+      "Sirva com a consciência tranquila."
+    ],
+    "descricao": "O arroz básico, mas que nunca falha. Perfeito pra quem quer simplicidade na despedida – porque nem todo herói usa capa, alguns só cozinham arroz.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,50",
+    "porcoes": "3 porções",
+    "dica": "Não tenha medo do básico, às vezes o simples é o que te salva no final."
+  },
+  {
+    "id": 25,
+    "titulo": "Tapioca do Fim do Mundo",
+    "slug": "tapioca-do-fim-do-mundo",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "100g de goma de tapioca",
+      "Requeijão cremoso",
+      "Queijo coalho",
+      "Mel para finalizar"
+    ],
+    "modoPreparo": [
+      "Espalhe a goma na frigideira como se estivesse desenhando seu último adeus.",
+      "Quando firmar, coloque requeijão e queijo coalho, porque até no fim a gente merece um recheio caprichado.",
+      "Feche a tapioca, deixe o queijo derreter e finalize com um fio de mel – porque ninguém merece ir sem um docinho."
+    ],
+    "descricao": "Uma mistura nordestina açucarada e salgada, perfeita pra última refeição que quer conforto e um toque de surpresa.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Se a vida está grudenta, a tapioca tá aí pra mostrar que dá pra virar a mesa com estilo."
+  },
+  {
+    "id": 26,
+    "titulo": "Feijão do Adeus Comovente",
+    "slug": "feijao-do-adeus-comovente",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "1 xícara de feijão carioca",
+      "1 folha de louro",
+      "1 dente de alho",
+      "Cebola picada",
+      "Sal e pimenta",
+      "Óleo para refogar"
+    ],
+    "modoPreparo": [
+      "Deixe o feijão de molho, afinal, até ele precisa de um tempo pra pensar na vida.",
+      "Cozinhe com louro, alho e sal, deixando o aroma invadir tudo como lembrança boa.",
+      "Refogue cebola e alho no óleo e misture no feijão, pra dar aquele abraço final no sabor.",
+      "Sirva com arroz, porque despedida boa tem dupla imbatível."
+    ],
+    "descricao": "Feijão clássico, que aquece o coração e o estômago. Ideal pra quem quer uma última refeição cheia de alma e carboidrato.",
+    "tempo": "1h20 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 6,50",
+    "porcoes": "4 porções",
+    "dica": "Feijão é como amigo: precisa de tempo e carinho, mas vale a pena no final."
+  },
+  {
+    "id": 27,
+    "titulo": "Pastel do Último Riso",
+    "slug": "pastel-do-ultimo-riso",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "Massa de pastel pronta",
+      "200g de carne moída",
+      "1 tomate picado",
+      "Cebola picada",
+      "Sal, pimenta e cheiro-verde",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Refogue a carne com tomate, cebola, sal, pimenta e cheiro-verde – como se fosse a última piada do seu show.",
+      "Recheie a massa com essa gostosura, dobre e feche com gosto (e um garfo para o suspense).",
+      "Frite até dourar, porque a última risada tem que ser crocante e inesquecível."
+    ],
+    "descricao": "Pastel recheado com aquele tempero de despedida, perfeito pra quem quer ir sorrindo e mastigando.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "3 porções",
+    "dica": "Não se esqueça do óleo quente, porque ninguém quer pastel mole na última refeição."
+  },
+  {
+    "id": 28,
+    "titulo": "Purê da Paz Final",
+    "slug": "pure-da-paz-final",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "3 batatas grandes",
+      "1 colher de manteiga",
+      "Leite a gosto",
+      "Sal a gosto",
+      "Noz-moscada ralada"
+    ],
+    "modoPreparo": [
+      "Cozinhe as batatas até que estejam tão moles quanto suas ideias no fim do dia.",
+      "Amasse tudo com manteiga, leite e sal, até virar um purê digno de aplausos.",
+      "Finalize com noz-moscada, porque todo fim merece um toque de mistério."
+    ],
+    "descricao": "Purê cremoso e tranquilo pra quem quer paz interior na última refeição, sem muitas firulas, só sabor.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "2 porções",
+    "dica": "Se o purê ficar muito grosso, adicione leite; se ficar muito mole, coma rápido antes de virar sopinha."
+  },
+  {
+    "id": 29,
+    "titulo": "Salada do Julgamento Final",
+    "slug": "salada-do-julgamento-final",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "Folhas de alface",
+      "Tomate cereja",
+      "Cenoura ralada",
+      "Milho verde",
+      "Azeite",
+      "Vinagre balsâmico",
+      "Sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Lave as folhas como se estivesse lavando as mãos de todas as suas escolhas.",
+      "Misture os vegetais com amor e um pouco de desculpas.",
+      "Tempere com azeite, vinagre, sal e pimenta, porque despedida sem tempero é só tristeza.",
+      "Sirva como entrada para quem quer começar a última refeição bem leve."
+    ],
+    "descricao": "Salada refrescante, perfeita para preparar o corpo (e a alma) para o que vem depois. Porque até o julgamento merece um verdinho.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "2 porções",
+    "dica": "Dê um tempo para o azeite e o vinagre se conhecerem antes de temperar a salada, pra não ser um drama na boca."
+  },
+  {
+    "id": 30,
+    "titulo": "Pudim do Adeus Indelével",
+    "slug": "pudim-do-adeus-indelevel",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "1 lata de leite (medida da lata de leite condensado)",
+      "3 ovos",
+      "1 xícara de açúcar para caramelizar"
+    ],
+    "modoPreparo": [
+      "Caramelize a forma com açúcar até formar um dourado que nem suas memórias favoritas.",
+      "Bata no liquidificador leite condensado, leite e ovos, porque até na última receita a tecnologia ajuda.",
+      "Despeje na forma, asse em banho-maria e espere com paciência, porque o melhor vem no final.",
+      "Esfrie e desenforme com aquele cuidado de quem se despede."
+    ],
+    "descricao": "Pudim clássico, doce e cremoso, que deixa um gostinho de quero mais – ou pelo menos um bom motivo para sorrir.",
+    "tempo": "1h30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "6 porções",
+    "dica": "Resista à tentação de querer experimentar o pudim quente, a ansiedade só atrapalha o sabor."
+  },
+  {
+    "id": 31,
+    "titulo": "O Último X-Tudo do Presidiário",
+    "slug": "o-ultimo-x-tudo-do-presidiario",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "2 hambúrgueres bovinos (150g cada)",
+      "2 fatias de queijo cheddar",
+      "2 fatias de bacon",
+      "alface americana",
+      "tomate fatiado",
+      "pão de hambúrguer",
+      "maionese",
+      "ketchup",
+      "batata palha"
+    ],
+    "modoPreparo": [
+      "Chame o açougueiro e peça para ele não julgar seus últimos desejos.",
+      "Monte o hambúrguer com tudo que você ama, porque amanhã não tem mais fast food.",
+      "Frite o bacon até ficar crocante, igual sua última chance de ser feliz.",
+      "Passe maionese e ketchup no pão, afinal, ninguém quer uma refeição triste.",
+      "Adicione a batata palha para aquele croc croc final, tipo a porta da cela se fechando."
+    ],
+    "descricao": "A última refeição dos condenados tem que ser um X-Tudo, porque se é pra partir, que seja com muito sabor e gordura. Essa receita é um tributo aos que sabem aproveitar até o último segundo (e mordida).",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 38,00",
+    "porcoes": "1 porção",
+    "dica": "Não tente correr com o hambúrguer na mão, a última corrida é só para os fortes (ou os rápidos)."
+  },
+  {
+    "id": 32,
+    "titulo": "Macarronada do Adeus Dramático",
+    "slug": "macarronada-do-adeus-dramatico",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "200g de macarrão espaguete",
+      "molho de tomate artesanal",
+      "carne moída",
+      "alho e cebola",
+      "queijo parmesão ralado",
+      "azeite de oliva",
+      "sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Ferva a água como se fosse o seu último banho quente antes da cela.",
+      "Refogue a carne moída com alho e cebola até dourar – não é hora de economizar no tempero.",
+      "Misture o molho de tomate, faça uma serenata para o molho e deixe apurar.",
+      "Cozinhe o macarrão e escorra, porque perder tempo é coisa do passado.",
+      "Sirva o espaguete com o molho e finalize com uma chuva generosa de parmesão."
+    ],
+    "descricao": "Nada melhor para uma despedida do que um clássico italiano que agrada até o carrasco. A macarronada do adeus dramático vai fazer você se sentir num filme de comédia romântica, só que com final diferente.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "2 porções",
+    "dica": "Se alguém perguntar se você quer repetir, diga que amanhã não tem segunda chance."
+  },
+  {
+    "id": 33,
+    "titulo": "Filé Mignon da Última Tentação",
+    "slug": "file-mignon-da-ultima-tentacao",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "1 filé mignon (200g)",
+      "manteiga",
+      "alho picado",
+      "alecrim fresco",
+      "sal grosso e pimenta-do-reino",
+      "batatas rústicas"
+    ],
+    "modoPreparo": [
+      "Tempere o filé com sal grosso e pimenta, o último toque de carinho antes do show final.",
+      "Frite o alho na manteiga até dourar e jogue o alecrim como se fosse mágica.",
+      "Sele o filé dos dois lados, lembrando que a pressa é inimiga da última refeição.",
+      "Asse as batatas rústicas enquanto conta as histórias que não vai poder contar depois.",
+      "Sirva tudo com um sorriso cúmplice e uma piscadela para o garçom."
+    ],
+    "descricao": "Porque se você vai se despedir, que seja com classe e sabor. Um filé mignon preparado como se fosse sua última chance de agradar papilas e plateias (ou carrascos).",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 48,50",
+    "porcoes": "1 porção",
+    "dica": "Use o alecrim para exalar cheiro de 'eu me dei bem até o fim'."
+  },
+  {
+    "id": 34,
+    "titulo": "Feijoada do Fim do Mundo",
+    "slug": "feijoada-do-fim-do-mundo",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "500g de feijão preto",
+      "200g de carne seca",
+      "100g de paio",
+      "100g de linguiça calabresa",
+      "200g de costelinha de porco",
+      "alho, cebola, louro",
+      "farinha de mandioca",
+      "laranja",
+      "couve refogada"
+    ],
+    "modoPreparo": [
+      "Deixe o feijão de molho, assim como você gostaria que te deixassem descansar em paz.",
+      "Cozinhe as carnes lentamente enquanto conta as histórias da sua vida (não vale inventar).",
+      "Refogue alho e cebola, e deixe o cheiro invadir a casa, como sua presença marcante.",
+      "Sirva a feijoada com couve, laranja e farinha para aquele toque final de 'Estou pronto'.",
+      "Faça um brinde silencioso para o futuro incerto, com um copo de água (ou não)."
+    ],
+    "descricao": "A feijoada é a última refeição oficial de muitos condenados por aqui. Se você vai se despedir, que seja com sabor, fartura e aquele cheirinho que faz vizinho reclamar.",
+    "tempo": "2h 30 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 65,00",
+    "porcoes": "4 porções",
+    "dica": "Não esqueça a laranja; dizem que ela corta a ressaca do além."
+  },
+  {
+    "id": 35,
+    "titulo": "Pizza Margherita do Último Pedido",
+    "slug": "pizza-margherita-do-ultimo-pedido",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "massa de pizza pronta",
+      "molho de tomate",
+      "mussarela fresca",
+      "manjericão fresco",
+      "azeite de oliva",
+      "sal"
+    ],
+    "modoPreparo": [
+      "Espalhe o molho de tomate na massa com a delicadeza de um adeus silencioso.",
+      "Coloque as fatias de mussarela como quem monta um quebra-cabeça de despedida.",
+      "Salpique folhas de manjericão e um toque de sal, porque até o sal tem que ter classe.",
+      "Regue com azeite e asse até a borda ficar dourada, como o pôr do sol do seu prato.",
+      "Sirva com um sorriso meio triste, meio satisfeito, tipo 'até mais, pizza'."
+    ],
+    "descricao": "A pizza Margherita é simples, clássica e perfeita para quem quer uma última refeição que não complique a vida... ou a execução.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "2 porções",
+    "dica": "Se sobrar, não coma no dia seguinte, porque não tem 'amanhã' garantido."
+  },
+  {
+    "id": 36,
+    "titulo": "Bife à Cavalo da Despedida",
+    "slug": "bife-a-cavalo-da-despedida",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "1 bife de contra-filé (200g)",
+      "2 ovos",
+      "batatas fritas",
+      "alface",
+      "sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Tempere o bife como se fosse a última vez que alguém vai sentir seu cheiro.",
+      "Frite o bife na frigideira, vire com a mesma calma de quem já aceitou o destino.",
+      "Frite os ovos e coloque em cima do bife, simbolizando a última montaria na vida.",
+      "Prepare as batatas fritas crocantes, porque ninguém merece despedida mole.",
+      "Monte o prato e coma pensando que da próxima vez é só na próxima vida."
+    ],
+    "descricao": "Um clássico brasileiro para a última refeição: simples, farto e com o ovo para dar aquele charme final. Perfeito para quem gosta de coisas simples, mas com um toque dramático.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 28,00",
+    "porcoes": "1 porção",
+    "dica": "Não esqueça de pedir para ninguém tirar foto, essa é sua última pose."
+  },
+  {
+    "id": 37,
+    "titulo": "Moqueca Baiana do Fim da Linha",
+    "slug": "moqueca-baiana-do-fim-da-linha",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "500g de peixe branco (robalo ou namorado)",
+      "1 cebola grande",
+      "1 pimentão vermelho",
+      "2 tomates",
+      "leite de coco",
+      "azeite de dendê",
+      "coentro fresco",
+      "sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Pique os legumes com a força de quem vai enfrentar o inevitável.",
+      "Refogue cebola, pimentão e tomate no azeite de dendê, como se fosse a última festa na panela.",
+      "Coloque o peixe, tempere com sal e pimenta, e regue com leite de coco, para trazer um abraço afetuoso da Bahia.",
+      "Deixe cozinhar lentamente, como o tempo que sobra para refletir.",
+      "Finalize com coentro fresco e sirva, aproveitando cada garfada como se fosse a última."
+    ],
+    "descricao": "Moqueca baiana é sabor, cor e cultura. A última refeição merece esse toque de Brasil profundo e tempero de esperança, mesmo que seja a última vez no seu prato.",
+    "tempo": "1h 10 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 55,00",
+    "porcoes": "3 porções",
+    "dica": "Não confunda dendê com azeite comum, ninguém quer um enterro de gosto duvidoso."
+  },
+  {
+    "id": 38,
+    "titulo": "Frango à Parmegiana do Último Ato",
+    "slug": "frango-a-parmegiana-do-ultimo-ato",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "2 filés de peito de frango",
+      "farinha de trigo",
+      "ovo para empanar",
+      "farinha de rosca",
+      "molho de tomate",
+      "queijo mussarela",
+      "orégano"
+    ],
+    "modoPreparo": [
+      "Tempere os filés e prepare a linha do tempo para empanar: trigo, ovo, farinha de rosca.",
+      "Frite os filés até dourar, é a sua hora de brilhar na cozinha.",
+      "Cubra os filés com molho de tomate e fatias de queijo, porque quem vai partir merece luxo.",
+      "Leve ao forno para gratinar, até o queijo borbulhar como seu coração.",
+      "Sirva acompanhado de um arrozinho branco, para não perder a tradição."
+    ],
+    "descricao": "O frango à parmegiana é aquele velho e querido que nunca te abandona, perfeito para quem quer uma última refeição confortável e sem surpresas.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "2 porções",
+    "dica": "Se for pedir a última palavra, faça isso enquanto o queijo ainda está derretendo."
+  },
+  {
+    "id": 39,
+    "titulo": "Tutu de Feijão do Juízo Final",
+    "slug": "tutu-de-feijao-do-juizo-final",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "300g de feijão carioca",
+      "farinha de mandioca",
+      "bacon picado",
+      "alho e cebola",
+      "sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Cozinhe o feijão até ficar bem molinho, quase pedindo clemência.",
+      "Frite o bacon com alho e cebola, espalhando aquele aroma de perdão.",
+      "Misture o feijão com a farinha de mandioca até formar um purê consistente, como suas decisões finais.",
+      "Tempere com sal e pimenta, porque até na despedida tem que ter sabor.",
+      "Sirva quente e aproveite esse abraço quentinho de comida de vó."
+    ],
+    "descricao": "Tutu de feijão é comida de raiz e tradição, perfeito para quem quer se despedir com um prato simples, cheio de memória e sabor.",
+    "tempo": "1h",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "3 porções",
+    "dica": "Não tente dividir a receita, essa última refeição é só sua."
+  },
+  {
+    "id": 40,
+    "titulo": "Sorvete de Chocolate do Último Suspiro",
+    "slug": "sorvete-de-chocolate-do-ultimo-suspiro",
+    "categoria": "Última refeição ☠️🔒",
+    "ingredientes": [
+      "1 litro de sorvete de chocolate",
+      "calda de chocolate",
+      "granulado",
+      "chantilly",
+      "cerejas em calda"
+    ],
+    "modoPreparo": [
+      "Coloque uma generosa bola de sorvete na taça, porque último sorvete é último capricho.",
+      "Regue com calda de chocolate, que nem a vida rega com ironias.",
+      "Salpique granulado como se fossem confetes de uma festa que acaba agora.",
+      "Adicione uma camada de chantilly para o toque de suavidade final.",
+      "Finalize com uma cereja no topo, a cereja do seu último suspiro."
+    ],
+    "descricao": "Se a última refeição não for salgada, que seja doce. Esse sorvete de chocolate é o mimo que você merece antes do grande final.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "2 porções",
+    "dica": "Não deixe o sorvete derreter, porque nem tudo no fim é líquido."
   }
 ]

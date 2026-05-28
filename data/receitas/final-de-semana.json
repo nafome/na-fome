@@ -339,5 +339,775 @@
     "preco": "R$ 30,00",
     "porcoes": "12 porções",
     "dica": "Se você achar que está demais fritar, só lembre que o sofrimento da dieta vale cada mordida. E o óleo? Esse é o tempero secreto da felicidade."
+  },
+  {
+    "id": 11,
+    "titulo": "Pizza de Sofá: Pronta em 20 Minutos (ou Menos!)",
+    "slug": "pizza-de-sofa-pronta-em-20-minutos",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "1 massa pronta para pizza",
+      "200g de molho de tomate",
+      "150g de queijo mussarela ralado",
+      "50g de pepperoni fatiado",
+      "Orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Abra a massa e imagine que ela é seu convite para a preguiça. Espalhe o molho de tomate com amor (ou preguiça mesmo).",
+      "Jogue o queijo por cima como se fosse confete na festa do seu sofá.",
+      "Coloque o pepperoni só para dar aquele drama.",
+      "Polvilhe orégano como se fosse seu tempero da vida.",
+      "Leve ao forno pré-aquecido a 220°C por 15 minutos ou até o queijo falar 'estou derretendo de emoção'."
+    ],
+    "descricao": "A pizza perfeita para o final de semana quando o plano é só o sofá, a TV e você não levantando nem para o telefone. Rápida, gostosa e com um toque de preguiça gourmet.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "2 porções",
+    "dica": "Se quiser impressionar, faça a pizza com uma mão só e a outra segurando o controle remoto."
+  },
+  {
+    "id": 12,
+    "titulo": "Batata Frita da Preguiça: Crocante sem Esforço",
+    "slug": "batata-frita-da-preguica-crocante-sem-esforco",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "4 batatas grandes",
+      "Óleo para fritar",
+      "Sal a gosto",
+      "Páprica doce (opcional)"
+    ],
+    "modoPreparo": [
+      "Descasque as batatas, ou não, se quiser algo rústico e desleixado.",
+      "Corte em palitos como se estivesse praticando para o campeonato mundial de cortar batata.",
+      "Frite em óleo quente até dourar, mas sem perder o controle emocional.",
+      "Escorra o óleo e jogue sal e páprica como se estivesse temperando sua vida."
+    ],
+    "descricao": "Para aqueles dias que você só quer um prato e três dedos de batata frita para acompanhar o seriado da vez. Crocante, simples e com zero culpa (a gente finge).",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "3 porções",
+    "dica": "Se a batata queimar, finja que é estilo rústico gourmet e venda para os amigos."
+  },
+  {
+    "id": 13,
+    "titulo": "Macarrão do Desespero: 10 Minutos para Salvar seu Fim de Semana",
+    "slug": "macarrao-do-desespero-10-minutos-para-salvar-seu-fim-de-semana",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "250g de macarrão tipo espaguete",
+      "2 dentes de alho picados",
+      "Azeite de oliva",
+      "Pimenta do reino",
+      "Queijo parmesão ralado",
+      "Sal"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão conforme a embalagem enquanto mentaliza o final de semana perfeito.",
+      "Em uma frigideira, esquente o azeite e doure o alho - sem deixar queimar, ou seu final de semana vai virar fumaça.",
+      "Misture o macarrão escorrido com o alho e azeite, tempere com sal e pimenta como se tivesse falando com seu chefe.",
+      "Finalize com parmesão e sorria, você merece."
+    ],
+    "descricao": "Quando a fome bate na porta e você não quer inventar moda, o macarrão do desespero é seu melhor amigo. Rápido, saboroso e com cara de zero esforço.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Diga para os amigos que é receita de chef, ninguém precisa saber que é só alho e massa."
+  },
+  {
+    "id": 14,
+    "titulo": "Frango à Moda 'Esqueci na Geladeira'",
+    "slug": "frango-a-moda-esqueci-na-geladeira",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "500g de peito de frango em cubos",
+      "1 cebola picada",
+      "2 tomates maduros",
+      "Sal e pimenta do reino",
+      "Cheiro verde",
+      "Azeite"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola no azeite até ela contar todos os seus segredos.",
+      "Adicione o frango e deixe dourar, tentando não queimar (mas se queimar, finge que é defumado).",
+      "Junte os tomates picados, tempere com sal e pimenta e deixe cozinhar até o frango estar macio.",
+      "Finalize com cheiro verde para dar aquele ar de 'eu sei cozinhar'."
+    ],
+    "descricao": "Ideal para quando o frango está esquecido na geladeira e você decide salvá-lo com estilo e sabor. Simples, barato e com gosto de vitória.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "3 porções",
+    "dica": "Use o cheiro verde para parecer que passou horas cozinhando, mesmo que tenha sido só 30 minutos."
+  },
+  {
+    "id": 15,
+    "titulo": "Omelete da Sorte: Acerta Sempre no Sabor",
+    "slug": "omelete-da-sorte-acerta-sempre-no-sabor",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "3 ovos",
+      "100g de queijo mussarela",
+      "1 tomate picado",
+      "Sal e pimenta",
+      "Manteiga"
+    ],
+    "modoPreparo": [
+      "Bata os ovos como se estivesse aplaudindo sua própria vida.",
+      "Adicione o queijo e o tomate, tempere com sal e pimenta.",
+      "Derreta a manteiga na frigideira e despeje a mistura com a confiança de um chef.",
+      "Cozinhe até firmar e vire com a habilidade de quem não quer sujar a cozinha."
+    ],
+    "descricao": "A omelete que vai fazer você sentir que ganhou na loteria do sabor, sem precisar sair de casa ou gastar muito.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,50",
+    "porcoes": "1 porção",
+    "dica": "Se a omelete quebrar, diga que é um 'omelete artesanal' e que a imperfeição é tendência."
+  },
+  {
+    "id": 16,
+    "titulo": "Sanduíche do Futuro: Fácil, Rápido e Imbatível",
+    "slug": "sanduiche-do-futuro-facil-rapido-e-imbativel",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "2 fatias de pão de forma",
+      "2 fatias de presunto",
+      "2 fatias de queijo prato",
+      "Maionese",
+      "Alface e tomate"
+    ],
+    "modoPreparo": [
+      "Passe maionese nas fatias de pão como se estivesse pintando a tela da sua fome.",
+      "Monte o sanduíche com presunto, queijo, alface e tomate com a precisão de um arquiteto faminto.",
+      "Se quiser, aqueça na sanduicheira para derreter o queijo e o coração.",
+      "Coma antes que o mundo acabe (ou a fome volte)."
+    ],
+    "descricao": "O sanduíche que o futuro aprova: simples, prático e pronto para te salvar no final de semana mais corrido.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "1 porção",
+    "dica": "Use a mão dominante para montar e a outra para segurar o celular. Multitarefa é tudo!"
+  },
+  {
+    "id": 17,
+    "titulo": "Salada do Chef Desorganizado",
+    "slug": "salada-do-chef-desorganizado",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "1 alface americana",
+      "1 cenoura ralada",
+      "Tomates cereja",
+      "Azeite, vinagre e sal",
+      "Queijo branco em cubos"
+    ],
+    "modoPreparo": [
+      "Puxe as folhas de alface e imagine que está colhendo ouro verde.",
+      "Rale a cenoura como se estivesse moendo sua preguiça.",
+      "Misture tudo com os tomates cereja e o queijo.",
+      "Tempere com azeite, vinagre e sal na dose do 'mais ou menos que fica bom'."
+    ],
+    "descricao": "Para quem quer comer leve no final de semana, mas não quer perder tempo nem paciência. Saúde e preguiça em um prato só.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Se faltar tempero, finja que é minimalismo gastronômico."
+  },
+  {
+    "id": 18,
+    "titulo": "Bolo de Caneca da Desesperança",
+    "slug": "bolo-de-caneca-da-desesperanca",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "4 colheres de sopa de farinha de trigo",
+      "4 colheres de sopa de açúcar",
+      "2 colheres de sopa de chocolate em pó",
+      "1 ovo",
+      "3 colheres de sopa de leite",
+      "3 colheres de sopa de óleo",
+      "1 colher de chá de fermento em pó"
+    ],
+    "modoPreparo": [
+      "Misture tudo na caneca como se fosse mágica (e é mesmo, da preguiça).",
+      "Coloque no micro-ondas por 3 minutos e torça para não transbordar.",
+      "Espere esfriar para não virar Frankenstein do bolo.",
+      "Coma direto na caneca, porque louça extra não dá."
+    ],
+    "descricao": "Quando a vontade de bolo é urgente e a paciência para fazer é zero, este bolo de caneca salva o dia (e a alma).",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,50",
+    "porcoes": "1 porção",
+    "dica": "Se o bolo ficar duro, finja que é bolo de astronauta: compacto e resistente."
+  },
+  {
+    "id": 19,
+    "titulo": "Escondidinho do Final de Semana: Porque Sim!",
+    "slug": "escondidinho-do-final-de-semana",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "500g de carne moída",
+      "500g de mandioca cozida",
+      "1 cebola picada",
+      "100g de queijo coalho ralado",
+      "Sal, pimenta e azeite"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola até ela chorar (de felicidade).",
+      "Adicione a carne moída e tempere com sal e pimenta a gosto.",
+      "Amasse a mandioca cozida até virar um purê liso como a sua desculpa para não cozinhar.",
+      "Em um refratário, faça uma camada de purê, depois a carne e cubra com o restante do purê.",
+      "Polvilhe queijo coalho e leve ao forno a 200°C até dourar como aquele seu amigo que nunca chega atrasado."
+    ],
+    "descricao": "Escondidinho que é puro conforto e que vai fazer seu final de semana mais feliz, mesmo que você só queira maratonar séries.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Se o purê ficar muito duro, chame de 'textura interessante' e siga feliz."
+  },
+  {
+    "id": 20,
+    "titulo": "Crepioca do Amor Próprio",
+    "slug": "crepioca-do-amor-proprio",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "2 ovos",
+      "2 colheres de sopa de tapioca",
+      "Sal a gosto",
+      "Recheio de sua preferência (queijo, presunto, tomate)"
+    ],
+    "modoPreparo": [
+      "Misture os ovos com a tapioca e o sal como se estivesse preparando sua autoestima.",
+      "Despeje a mistura na frigideira quente e espalhe com amor.",
+      "Quando firmar, coloque o recheio que você ama (ou tem na geladeira).",
+      "Dobre a crepioca e cozinhe mais um minutinho para fechar esse amor."
+    ],
+    "descricao": "Crepioca para quem sabe que o melhor investimento do final de semana é em si mesmo. Prático, gostoso e com muito estilo.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Se queimar a crepioca, só coloque mais recheio que ninguém vai perceber."
+  },
+  {
+    "id": 21,
+    "titulo": "Pizza de Sofá: Porque Domingo é pra Relaxar e Comer",
+    "slug": "pizza-de-sofa-domingo-relaxar",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "1 massa pronta para pizza (300g)",
+      "100g mussarela ralada",
+      "50g presunto fatiado",
+      "Molho de tomate (100g)",
+      "Orégano a gosto",
+      "Azeitonas pretas"
+    ],
+    "modoPreparo": [
+      "Abra a massa como se estivesse esticando sua preguiça dominical.",
+      "Espalhe o molho de tomate com o mesmo amor que você joga a zapeada no controle remoto.",
+      "Coloque a mussarela e o presunto, porque domingo merece queijo e carne, não só Wi-Fi.",
+      "Salpique orégano e azeitonas – ou seja, o tempero do seu drama de final de semana.",
+      "Leve ao forno pré-aquecido a 200°C por 15 minutos (ou até ficar douradinha como seu bronzeado de férias)."
+    ],
+    "descricao": "A pizza de sofá é perfeita pra quem quer um final de semana gostoso sem levantar do lugar. Fácil, rápida e com aquele gostinho de preguiça que só domingo entende.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,50",
+    "porcoes": "2 porções",
+    "dica": "Se quiser impressionar na preguiça, peça delivery; se quiser impressionar na cozinha, faça você mesmo e conte como foi difícil."
+  },
+  {
+    "id": 22,
+    "titulo": "Coxinha do Fim de Semana: Porque Saudade de Festa é Dor de Estômago",
+    "slug": "coxinha-fim-de-semana",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "500g peito de frango desfiado",
+      "1 pacote de massa para coxinha pronta",
+      "Caldo de galinha (1 cubo)",
+      "Farinha de trigo (200g)",
+      "Óleo para fritar",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o frango desfiado com caldo, sal e pimenta – faça essa reflexão profunda sobre a vida enquanto cozinha.",
+      "Prepare a massa conforme as instruções: aquela parte chata que você vai fingir que é mágica.",
+      "Modele as coxinhas com vontade, lembrando das festas que você não foi por causa do trabalho.",
+      "Frite em óleo quente até dourar – cuidado pra não se queimar, que não é final de semana pra hospital.",
+      "Sirva quente e se sinta o rei da festa em casa."
+    ],
+    "descricao": "A coxinha do fim de semana é a resposta saborosa para o dilema: 'Quero festa, mas só na minha cozinha mesmo'.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "6 porções",
+    "dica": "Se sobrar coxinha, use o poder da geladeira pra esconder a culpa até a próxima festa."
+  },
+  {
+    "id": 23,
+    "titulo": "Escondidinho de Mandioca: O Tesouro Escondido do Seu Sofá",
+    "slug": "escondidinho-mandioca-final-de-semana",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "500g mandioca cozida",
+      "300g carne moída",
+      "1 cebola picada",
+      "2 dentes de alho",
+      "100g queijo coalho ralado",
+      "Sal, pimenta e cheiro-verde"
+    ],
+    "modoPreparo": [
+      "Amasse a mandioca como se estivesse amassando os problemas da semana.",
+      "Refogue a carne com cebola e alho, porque até final de semana tem que ter tempero.",
+      "Misture o queijo ralado na mandioca – a parte que vai fazer você achar que sabe cozinhar.",
+      "Em um refratário, coloque a carne, cubra com o purê de mandioca e finalize com queijo por cima.",
+      "Leve ao forno a 180°C por 20 minutos até gratinar e soltar aquele cheiro que atrai até vizinho.",
+      "Coma com vontade, porque escondidinho é como a felicidade: melhor quando é bem recheada."
+    ],
+    "descricao": "O escondidinho é o prato que esconde a fome e revela o sabor. Perfeito pra final de semana quando você quer algo que parece chique, mas é só mandioca com carinho.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 19,90",
+    "porcoes": "4 porções",
+    "dica": "Se a mandioca estiver dura, coloque um pouco de água no cozimento – ninguém merece dente quebrado no fim de semana."
+  },
+  {
+    "id": 24,
+    "titulo": "Sanduíche do Sofrimento: Porque Segunda-feira Tá Longe Ainda",
+    "slug": "sanduiche-sofrimento-final-de-semana",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "2 fatias de pão de forma",
+      "2 ovos",
+      "1 fatia de queijo prato",
+      "1 colher de manteiga",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Frite os ovos com cuidado, porque domingo já tem drama suficiente.",
+      "Passe manteiga nas fatias de pão com a dedicação que falta na sua vida.",
+      "Monte o sanduíche com ovo e queijo, porque nada mais simples merece tanto amor.",
+      "Se quiser emoção, coloque pimenta – ou não, domingo já é picante o suficiente.",
+      "Pressione na frigideira por 3 minutos para ficar dourado, como o sol que não quer aparecer."
+    ],
+    "descricao": "O sanduíche do sofrimento é simples, mas cheio de sentimento. Perfeito pra quando o domingo pede conforto e você só tem 10 minutos pra cozinhar.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "1 porção",
+    "dica": "Se errar o ponto do ovo, fale que é estilo gourmet e ninguém vai contestar."
+  },
+  {
+    "id": 25,
+    "titulo": "Batata Rústica do Preguiçoso: Crispy sem Stress",
+    "slug": "batata-rustica-preguicoso",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "4 batatas médias",
+      "Azeite de oliva",
+      "Sal grosso",
+      "Alecrim fresco (opcional)"
+    ],
+    "modoPreparo": [
+      "Lave bem as batatas e corte em palitos, como se estivesse cortando a preguiça em pedaços.",
+      "Misture as batatas com azeite, sal grosso e alecrim – porque até preguiçoso merece aroma.",
+      "Espalhe em uma assadeira sem encostar uma na outra, para não virar purê sem aviso.",
+      "Asse em forno pré-aquecido a 220°C por 30 minutos, virando na metade, enquanto maratona sua série favorita.",
+      "Coma com ketchup ou mostarda, ou com o que tiver na geladeira – ninguém vai julgar no domingo."
+    ],
+    "descricao": "Batata rústica é o petisco que fala 'Eu tentei ser saudável', mas tem sal e gordura suficientes para te fazer feliz.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,50",
+    "porcoes": "3 porções",
+    "dica": "Se quiser crocância extra, deixe as batatas de molho em água fria por 20 minutos antes de assar."
+  },
+  {
+    "id": 26,
+    "titulo": "Esfiha do Sábado: Oriente-se para a Preguiça",
+    "slug": "esfiha-sabado-preguica",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "500g farinha de trigo",
+      "1 sachê de fermento biológico seco",
+      "300ml água morna",
+      "250g carne moída",
+      "1 cebola picada",
+      "Sal, pimenta, e temperos a gosto"
+    ],
+    "modoPreparo": [
+      "Misture farinha, fermento e água para fazer a massa – a receita do sucesso e da fome.",
+      "Deixe a massa crescer enquanto imagina onde poderia estar se não estivesse cozinhando.",
+      "Refogue a carne com cebola e temperos até perder a vontade de reclamar da vida.",
+      "Abra a massa, recheie com carne, feche como se estivesse escondendo seus problemas e asse a 200°C por 25 minutos.",
+      "Sirva quente e engane a mente dizendo que você está em uma viagem gastronômica."
+    ],
+    "descricao": "A esfiha é a desculpa perfeita pra ligar o forno e esquecer os boletos por um tempinho.",
+    "tempo": "1h 10 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "8 porções",
+    "dica": "Se tiver pressa, compre massa pronta para pastel e asse ao invés de fritar – assim perde menos tempo chorando."
+  },
+  {
+    "id": 27,
+    "titulo": "Crepioca do Ressaca-Free: A Salvação do Domingo",
+    "slug": "crepioca-ressaca-free",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "2 ovos",
+      "2 colheres de sopa de goma de tapioca",
+      "Queijo minas fresco",
+      "Sal e orégano a gosto"
+    ],
+    "modoPreparo": [
+      "Bata os ovos com a goma de tapioca até a preguiça desaparecer (ou quase).",
+      "Tempere com sal e orégano, porque até na ressaca a gente merece um sabor.",
+      "Despeje na frigideira antiaderente quente e deixe cozinhar até firmar.",
+      "Coloque o queijo minas, dobre a crepioca e espere o queijo derreter – a paciência é o segredo.",
+      "Coma com um copo de água (e tente não pensar na ressaca)."
+    ],
+    "descricao": "Crepioca é o brunch do final de semana que fala 'Eu tô bem', mesmo que a cabeça peça pizza.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "1 porção",
+    "dica": "Para ressaca, evite café e prefira suco de laranja – mas se for pra tomar, que seja com crepioca."
+  },
+  {
+    "id": 28,
+    "titulo": "Macarrão do Desespero: É Só Jogar no Prato e Chorar",
+    "slug": "macarrao-desespero-final-de-semana",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "250g macarrão espaguete",
+      "1 lata de molho de tomate",
+      "1 dente de alho",
+      "Queijo parmesão ralado",
+      "Sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão até ficar ‘al dente’, igual aquele fim de semana que você quer esticar.",
+      "Refogue o alho no azeite com a mesma intensidade que você evita problemas.",
+      "Acrescente o molho de tomate, sal, pimenta e faça uma prece para que tudo dê certo.",
+      "Misture o espaguete com o molho, como quem tenta juntar os pedaços da semana.",
+      "Sirva com parmesão e um sorriso torto."
+    ],
+    "descricao": "Macarrão do desespero é a receita que salva qualquer final de semana sem inspiração e com fome urgente.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "2 porções",
+    "dica": "Se quiser dar um upgrade, jogue umas azeitonas ou manjericão – ou pelo menos finja que está chique."
+  },
+  {
+    "id": 29,
+    "titulo": "Bolinho de Chuva com Café: O Abraço Quentinho do Domingo",
+    "slug": "bolinho-chuva-cafe-domingo",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "1 xícara de farinha de trigo",
+      "1 ovo",
+      "1/2 xícara de leite",
+      "2 colheres de açúcar",
+      "1 colher de fermento em pó",
+      "Canela em pó",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Misture a farinha, açúcar, ovo, leite e fermento até formar uma massa meio preguiçosa.",
+      "Aqueça o óleo e jogue colheradas da massa para fritar – cuidado para não se queimar, afinal, domingo não é dia de hospital.",
+      "Quando dourar, retire e passe na canela em pó como se estivesse dando carinho nos bolinhos.",
+      "Sirva com uma xícara de café para aquele combo campeão de final de semana.",
+      "Coma rápido antes que alguém perceba que você fez em casa."
+    ],
+    "descricao": "Bolinho de chuva é o conforto em formato frito, perfeito para acompanhar histórias de domingo e café forte.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,50",
+    "porcoes": "4 porções",
+    "dica": "Se quiser bolinho mais fofinho, bata as claras em neve antes de misturar à massa."
+  },
+  {
+    "id": 30,
+    "titulo": "Churrasco de Varanda: Porque o Vizinho Também Quer",
+    "slug": "churrasco-varanda-final-de-semana",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "500g linguiça toscana",
+      "300g picanha fatiada",
+      "Pão francês",
+      "Vinagrete (tomate, cebola, cheiro-verde, azeite e vinagre)",
+      "Sal grosso"
+    ],
+    "modoPreparo": [
+      "Tempere a picanha com sal grosso e tente não fazer churrasco na chuva (mas a vida é assim).",
+      "Acenda a churrasqueira ou use a chapa elétrica, porque ninguém aguenta mais desculpa.",
+      "Grelhe a linguiça e a picanha até ficarem douradas, como seu bronzeado imaginário.",
+      "Monte os sanduíches com pão francês, carne e vinagrete, chamando os vizinhos para a festa grátis.",
+      "Coma com cerveja (ou refrigerante, se for mais saudável) e dê risada da vida que é dura mas saborosa."
+    ],
+    "descricao": "Churrasco de varanda é a solução simples e social para um final de semana que quer agito, mas não quer sair de casa.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 45,00",
+    "porcoes": "5 porções",
+    "dica": "Se o vizinho reclamar do cheiro, ofereça um pedaço – o silêncio tem preço."
+  },
+  {
+    "id": 31,
+    "titulo": "Frango à la preguiça do domingo",
+    "slug": "frango-a-la-preguica-do-domingo",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "1 peito de frango",
+      "2 dentes de alho",
+      "suco de 1 limão",
+      "sal a gosto",
+      "azeite de oliva",
+      "orégano"
+    ],
+    "modoPreparo": [
+      "Tempere o frango enquanto finge que está na praia, com alho, limão, sal e orégano.",
+      "Deixe na geladeira dormir a sesta por 30 minutos.",
+      "Aqueça o azeite e cozinhe o frango até ficar douradinho, igual aquele seu bronzeado de verão."
+    ],
+    "descricao": "Um frango tão fácil e gostoso que até sua preguiça vai querer levantar do sofá só para provar.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Se o frango falar que está cansado, diga que é só um tempero!"
+  },
+  {
+    "id": 32,
+    "titulo": "Macarrão do desespero gourmet",
+    "slug": "macarrao-do-desespero-gourmet",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "250g de macarrão espaguete",
+      "molho de tomate pronto",
+      "1 cebola picada",
+      "2 dentes de alho",
+      "queijo ralado",
+      "sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão como se estivesse fugindo da segunda-feira.",
+      "Refogue cebola e alho enquanto pensa na vida.",
+      "Junte o molho pronto, misture e jogue tudo no macarrão.",
+      "Finaliza com queijo ralado, que é a parte feliz da receita."
+    ],
+    "descricao": "Para aqueles momentos em que só o macarrão salva sua alma e seu estômago no final de semana.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "3 porções",
+    "dica": "Quer impressionar? Diga que o molho foi feito com lágrimas de chef."
+  },
+  {
+    "id": 33,
+    "titulo": "Sanduíche do crush que não atende",
+    "slug": "sanduiche-do-crush-que-nao-atende",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "2 fatias de pão de forma",
+      "2 fatias de queijo muçarela",
+      "2 fatias de presunto",
+      "manteiga",
+      "tomate fatiado",
+      "folhas de alface"
+    ],
+    "modoPreparo": [
+      "Passe manteiga no pão, como quem espalha sua sinceridade.",
+      "Monte o sanduíche com queijo, presunto, tomate e alface. Se o crush não atender, pelo menos o sanduíche sim.",
+      "Leve para a frigideira quente até derreter o queijo, igual seu coração quando ele responde."
+    ],
+    "descricao": "Um sanduíche simples, mas que simboliza a mistura de esperança e ansiedade do final de semana.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,50",
+    "porcoes": "1 porção",
+    "dica": "Se o crush não atender, pelo menos o sanduíche vai te responder com sabor."
+  },
+  {
+    "id": 34,
+    "titulo": "Pizza de frigideira do 'não quero sair hoje'",
+    "slug": "pizza-de-frigideira-do-nao-quero-sair-hoje",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "1 pão sírio",
+      "molho de tomate",
+      "200g de muçarela ralada",
+      "orégano",
+      "azeitona",
+      "presunto"
+    ],
+    "modoPreparo": [
+      "Abra seu pão sírio e espalhe o molho de tomate como quem espalha memes pelo grupo da família.",
+      "Cubra com muçarela, presunto e azeitonas, porque até o sal precisa de companhia.",
+      "Leve ao fogo baixo na frigideira tampada até o queijo derreter, igual sua vontade de trabalhar na segunda."
+    ],
+    "descricao": "Perfeita para quem quer pizza sem sair de casa, porque o sofá é o verdadeiro amor do final de semana.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "2 porções",
+    "dica": "Se a pizza grudar, lembre-se: amor próprio também é não grudar em ninguém."
+  },
+  {
+    "id": 35,
+    "titulo": "Ovo mexido à la 'acordei assim mesmo'",
+    "slug": "ovo-mexido-a-la-acordei-assim-mesmo",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "3 ovos",
+      "sal",
+      "pimenta do reino",
+      "manteiga",
+      "cebolinha picada"
+    ],
+    "modoPreparo": [
+      "Quebre os ovos com a mesma energia que você quebrou a rotina essa manhã.",
+      "Bata com sal e pimenta, mas sem perder a classe.",
+      "Derreta manteiga na frigideira e mexa os ovos como quem mexe na vida: devagar e com gosto.",
+      "Finalize com cebolinha para parecer que você realmente se esforçou."
+    ],
+    "descricao": "O clássico ovo mexido que combina com aquela cara de quem não quer saber de nada no sábado.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "1 porção",
+    "dica": "Se errar, diga que é receita experimental, que tá na moda."
+  },
+  {
+    "id": 36,
+    "titulo": "Batata rústica do sofá VIP",
+    "slug": "batata-rustica-do-sofa-vip",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "4 batatas médias",
+      "azeite",
+      "sal grosso",
+      "alecrim",
+      "páprica doce"
+    ],
+    "modoPreparo": [
+      "Corte as batatas em pedaços grandes, como seus planos de viagem que estão na gaveta.",
+      "Misture com azeite, sal, alecrim e páprica para dar aquele tchan gourmet.",
+      "Asse no forno pré-aquecido a 200°C por 40 minutos, e aproveite para maratonar sua série preferida.",
+      "Lembre de virar as batatas, porque até elas merecem atenção."
+    ],
+    "descricao": "Batata que combina com aquele final de semana onde o sofá é seu melhor amigo e a preguiça sua musa.",
+    "tempo": "50 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "3 porções",
+    "dica": "Se quiser crocância extra, cure a batata com elogios antes de assar."
+  },
+  {
+    "id": 37,
+    "titulo": "Salada da vergonha (porque ninguém quer, mas faz)",
+    "slug": "salada-da-vergonha",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "alface americana",
+      "tomate cereja",
+      "cenoura ralada",
+      "azeite",
+      "vinagre balsâmico",
+      "sal"
+    ],
+    "modoPreparo": [
+      "Lave a alface como quem lava a alma depois da sexta-feira.",
+      "Corte os tomates e misture com cenoura ralada, porque cor faz bem para o feed do Instagram.",
+      "Regue com azeite e vinagre, salpique sal e mexa com vontade, mesmo que o coração peça pizza."
+    ],
+    "descricao": "Aquela salada que você faz para se sentir saudável, mas só pensa no brigadeiro escondido na geladeira.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "2 porções",
+    "dica": "Faça careta para a salada, afinal, ela merece o drama."
+  },
+  {
+    "id": 38,
+    "titulo": "Arroz à la 'só hoje, chef do sofá'",
+    "slug": "arroz-a-la-so-hoje-chef-do-sofa",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "1 xícara de arroz",
+      "2 xícaras de água",
+      "1 dente de alho",
+      "1 colher de óleo",
+      "sal"
+    ],
+    "modoPreparo": [
+      "Refogue o alho no óleo até o cheiro invadir a casa e os vizinhos pedirem ingresso.",
+      "Junte o arroz, mexa como quem dança em festa de família.",
+      "Adicione a água e sal, tampe e deixe cozinhar até o arroz virar aquele tapete macio.",
+      "Mexa com jeitinho para não acordar o vizinho do lado."
+    ],
+    "descricao": "Arroz básico, mas feito com tanto amor que até o delivery vai ficar com inveja do seu prato.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,50",
+    "porcoes": "3 porções",
+    "dica": "Se passar do ponto, diga que é arroz cremoso, versão chef preguiçoso."
+  },
+  {
+    "id": 39,
+    "titulo": "Feijoada da ressaca invisível",
+    "slug": "feijoada-da-ressaca-invisivel",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "300g de feijão preto",
+      "200g de carne seca",
+      "100g de linguiça calabresa",
+      "1 laranja",
+      "arroz branco",
+      "farofa pronta"
+    ],
+    "modoPreparo": [
+      "Deixe o feijão de molho e a preguiça de molho também.",
+      "Cozinhe as carnes até ficarem macias como abraço de vó.",
+      "Junte o feijão e deixe ferver até tudo virar uma mistura de amor e gordura.",
+      "Sirva com arroz, farofa e a laranja para disfarçar a culpa."
+    ],
+    "descricao": "A feijoada que cura qualquer ressaca, inclusive a invisível da vida adulta no final de semana.",
+    "tempo": "2h",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Não economize na laranja, ela é o antidepressivo natural da feijoada."
+  },
+  {
+    "id": 40,
+    "titulo": "Brigadeiro de panela para final de semana com plot twist",
+    "slug": "brigadeiro-de-panela-para-final-de-semana-com-plot-twist",
+    "categoria": "Final de semana 😎",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "2 colheres de chocolate em pó",
+      "1 colher de manteiga",
+      "granulado para decorar"
+    ],
+    "modoPreparo": [
+      "Misture leite condensado, chocolate em pó e manteiga na panela, como se fosse contar um segredo.",
+      "Cozinhe em fogo médio e mexa sem parar até desgrudar do fundo, igual aquele papo de final de festa.",
+      "Deixe esfriar um pouco e divida em potinhos para não acabar rápido demais.",
+      "Finaliza com granulado para fingir que é sofisticado."
+    ],
+    "descricao": "O clássico brigadeiro que transforma qualquer domingo em festa, mesmo que seja só na sua cabeça.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "4 porções",
+    "dica": "Se acabar rápido, culpa o amor (e seus amigos)."
   }
 ]

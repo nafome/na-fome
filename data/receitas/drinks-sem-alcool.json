@@ -265,5 +265,737 @@
     "preco": "R$ 25,00",
     "porcoes": "4 porções",
     "dica": "Se o SCOBY parecer mais uma medusa alienígena, não se assuste — ela só quer transformar seu chá em festa, não explodir sua cozinha."
+  },
+  {
+    "id": 11,
+    "titulo": "Caipirinha de Melancia sem Ressaca",
+    "slug": "caipirinha-de-melancia-sem-ressaca",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "200g de melancia picada",
+      "1 limão taiti",
+      "2 colheres de sopa de açúcar",
+      "água com gás",
+      "gelo"
+    ],
+    "modoPreparo": [
+      "Esprema o limão como se estivesse tentando arrancar uma confissão.",
+      "Misture o açúcar com o suco do limão até ele pensar que está numa festa.",
+      "Amasse a melancia como se fosse sua ansiedade semanal.",
+      "Junte tudo em um copo, adicione gelo e complete com água com gás para aquele estalo de felicidade."
+    ],
+    "descricao": "A caipirinha que não te deixa na mão amanhã! Refrescante e com sabor de verão, perfeita para quem quer beber sem dar trabalho ao fígado.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,50",
+    "porcoes": "2 porções",
+    "dica": "Se a melancia estiver muito doce, diminua o açúcar para não virar sobremesa líquida."
+  },
+  {
+    "id": 12,
+    "titulo": "Soda Italiana de Frutas do Brasil",
+    "slug": "soda-italiana-de-frutas-do-brasil",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "100ml de polpa de maracujá",
+      "100ml de polpa de manga",
+      "água com gás",
+      "gelo",
+      "folhas de hortelã para decorar"
+    ],
+    "modoPreparo": [
+      "Misture as polpas como se estivesse criando uma obra de arte tropical.",
+      "Adicione bastante gelo porque calor é inimigo do bom humor.",
+      "Complete com água com gás para aquele toque fashion italiano.",
+      "Decore com hortelã para fingir que é chique — funciona."
+    ],
+    "descricao": "Soda italiana com jeitinho brasileiro, para você se sentir na praia sem sair do sofá.",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "2 porções",
+    "dica": "Use polpas naturais para não pagar mico com sabor artificial."
+  },
+  {
+    "id": 13,
+    "titulo": "Piña Sem Colada: O Caribe do Brasil",
+    "slug": "pina-sem-colada-o-caribe-do-brasil",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "200ml de suco de abacaxi",
+      "100ml de leite de coco",
+      "1 colher de sopa de açúcar",
+      "gelo"
+    ],
+    "modoPreparo": [
+      "Misture tudo no liquidificador e imagine que está numa praia, mesmo que esteja no trânsito.",
+      "Bata até ficar cremoso, tipo aquele amigo que não para de falar.",
+      "Sirva com gelo para refrescar o calor da vida."
+    ],
+    "descricao": "O famoso Piña Colada sem a parte que te deixa falando com as plantas no dia seguinte.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "1 porção",
+    "dica": "Se quiser um toque extra, junte um pouco de hortelã e finja que é mixologista."
+  },
+  {
+    "id": 14,
+    "titulo": "Limonada de Capim-Cidreira: O zen da bebida",
+    "slug": "limonada-de-capim-cidreira-o-zen-da-bebida",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "2 limões sicilianos",
+      "1 xícara de chá de capim-cidreira fresco",
+      "1 litro de água gelada",
+      "açúcar a gosto",
+      "gelo"
+    ],
+    "modoPreparo": [
+      "Esprema os limões como se estivesse espremendo a preguiça.",
+      "Ferva o capim-cidreira para libertar os espíritos zen.",
+      "Misture tudo, adoce, e sirva com gelo para acalmar até os amigos mais agitados."
+    ],
+    "descricao": "Limonada com um twist calmante, para beber enquanto tenta entender a vida ou só o boleto que chegou.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "4 porções",
+    "dica": "Não confunda capim-cidreira com capim normal, a natureza não perdoa."
+  },
+  {
+    "id": 15,
+    "titulo": "Chá Gelado de Hibisco com Gengibre: Acorda aí!",
+    "slug": "cha-gelado-de-hibisco-com-gengibre-acorda-ai",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "2 saquinhos de chá de hibisco",
+      "1 pedaço pequeno de gengibre fresco",
+      "1 litro de água",
+      "mel a gosto",
+      "gelo"
+    ],
+    "modoPreparo": [
+      "Ferva a água e adicione o gengibre, para não deixar o calor te vencer.",
+      "Coloque os saquinhos de hibisco e deixe em infusão até ficar vermelho como seu humor de segunda-feira.",
+      "Adoce com mel porque você merece um doce na vida.",
+      "Resfrie, sirva com gelo e impressione os amigos que não gostam de cerveja."
+    ],
+    "descricao": "Um chá gelado que vai te dar aquela acordada sem precisar gritar com o despertador.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "3 porções",
+    "dica": "Gengibre demais pode ser como aquele tio no churrasco: pesado demais."
+  },
+  {
+    "id": 16,
+    "titulo": "Mocktail de Maracujá e Hortelã: Amor em cada gole",
+    "slug": "mocktail-de-maracuja-e-hortela-amor-em-cada-gole",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "150ml de suco de maracujá",
+      "100ml de água com gás",
+      "folhas de hortelã",
+      "gelo",
+      "açúcar a gosto"
+    ],
+    "modoPreparo": [
+      "Macere as folhas de hortelã como se estivesse liberando o estresse da semana.",
+      "Misture o suco de maracujá com açúcar até atingir a felicidade.",
+      "Adicione gelo, hortelã e água com gás para aquele efeito borbulhante que faz o coração bater mais forte."
+    ],
+    "descricao": "Um drink refrescante para quem gosta de amor, mas sem álcool — porque amor mesmo é clareza mental.",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,80",
+    "porcoes": "2 porções",
+    "dica": "Não economize na hortelã, porque ela é o 'tchan' da bebida."
+  },
+  {
+    "id": 17,
+    "titulo": "Refresco de Tamarindo com Gelo e Garra",
+    "slug": "refresco-de-tamarindo-com-gelo-e-garra",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "100g de polpa de tamarindo",
+      "500ml de água fria",
+      "açúcar a gosto",
+      "gelo"
+    ],
+    "modoPreparo": [
+      "Dissolva a polpa de tamarindo na água como quem tenta resolver a vida com calma.",
+      "Adicione açúcar para tentar adoçar até os dias ruins.",
+      "Coloque gelo e faça cara de quem vai tomar coragem para a semana."
+    ],
+    "descricao": "Um refresco azedinho que é a cara daquele dia que você tenta ser adulto e falha, mas pelo menos refresca.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,50",
+    "porcoes": "3 porções",
+    "dica": "Se quiser mais azedo, menos açúcar; se quiser mais drama, mais açúcar."
+  },
+  {
+    "id": 18,
+    "titulo": "Suco de Manga com Gengibre: O choque tropical",
+    "slug": "suco-de-manga-com-gengibre-o-choque-tropical",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "2 mangas maduras",
+      "1 pedaço pequeno de gengibre fresco",
+      "água gelada",
+      "gelo",
+      "açúcar opcional"
+    ],
+    "modoPreparo": [
+      "Bata a manga com gengibre no liquidificador até virar uma tempestade tropical.",
+      "Adicione água gelada para suavizar a confusão de sabores.",
+      "Sirva com gelo e finja que está numa ilha paradisíaca, mesmo que seja no sofá."
+    ],
+    "descricao": "Suco que te dá aquele choque de sabor tropical com um toque picante para não deixar a vida insossa.",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "2 porções",
+    "dica": "Se não gostar de picância, coloque menos gengibre e mais vontade de viver."
+  },
+  {
+    "id": 19,
+    "titulo": "Água de Coco com Limão e Alegria",
+    "slug": "agua-de-coco-com-limao-e-alegria",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "300ml de água de coco natural",
+      "suco de 1 limão taiti",
+      "gelo",
+      "folhas de hortelã para decorar"
+    ],
+    "modoPreparo": [
+      "Misture a água de coco com o suco do limão e sinta a brisa do litoral.",
+      "Adicione gelo para ficar na temperatura do seu espírito.",
+      "Decore com hortelã para dar aquele charme de quem sabe o que faz."
+    ],
+    "descricao": "Uma bebida para hidratar corpo e alma sem precisar de filtro solar.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Quer mais graça? Use água de coco gelada direto do coco, para sentir o sabor da praia."
+  },
+  {
+    "id": 20,
+    "titulo": "Mocktail de Laranja com Gengibre e Piada Ruim",
+    "slug": "mocktail-de-laranja-com-gengibre-e-piada-ruim",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "200ml de suco de laranja natural",
+      "1 pedaço pequeno de gengibre ralado",
+      "água com gás",
+      "açúcar a gosto",
+      "gelo"
+    ],
+    "modoPreparo": [
+      "Misture o suco de laranja com gengibre e tente não rir da piada ruim.",
+      "Adicione açúcar para adoçar a vida e a piada.",
+      "Complete com água com gás para dar um 'tcham' efervescente.",
+      "Sirva com gelo e prepare para contar a piada mesmo assim."
+    ],
+    "descricao": "Refresco para quem gosta de sabor intenso e humor questionável na mesma taça.",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "2 porções",
+    "dica": "Se a piada não agradar, pelo menos o drink salva seu momento."
+  },
+  {
+    "id": 21,
+    "titulo": "Sede Zero: O Mocktail do Desespero Saudável",
+    "slug": "sede-zero-o-mocktail-do-desespero-saudavel",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "200 ml de suco de laranja natural",
+      "100 ml de água com gás",
+      "1 colher de chá de mel",
+      "Gelo a gosto",
+      "Rodela de laranja para decorar"
+    ],
+    "modoPreparo": [
+      "Pegue aquele copo triste e coloque o gelo para dar um friozinho na alma.",
+      "Misture o suco de laranja com o mel – o mel é tipo a promessa que você faz e não cumpre, mas aqui vai funcionar.",
+      "Adicione a água com gás para aquele efeito 'puff' de festa que você nunca recebeu.",
+      "Mexa gentilmente, como quem tenta convencer o chefe a liberar o fim de expediente mais cedo.",
+      "Decore com a rodela de laranja e finja que você está tomando um drink chique na praia, mesmo que esteja no sofá da sala."
+    ],
+    "descricao": "Um drink sem álcool para quem quer parecer saudável e ainda manter o humor. Ideal para quem acha que 'água é vida', mas quer um saborzinho a mais.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "1 porção",
+    "dica": "Se alguém perguntar se tem álcool, responda com um sorriso sutil e um 'só se for no espírito'."
+  },
+  {
+    "id": 22,
+    "titulo": "Nem Te Conto: O Chá Gelado do Fofoqueiro",
+    "slug": "nem-te-conto-o-cha-gelado-do-fofoqueiro",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "1 saquinho de chá de hibisco",
+      "200 ml de água quente",
+      "1 colher de sopa de açúcar mascavo",
+      "Gelo a gosto",
+      "Folhinhas de hortelã"
+    ],
+    "modoPreparo": [
+      "Prepare o chá de hibisco com todo o amor e um pouco de curiosidade alheia.",
+      "Adicione o açúcar mascavo para adoçar a conversa (ou o drink).",
+      "Deixe esfriar enquanto você imagina as fofocas que vai contar.",
+      "Coloque gelo e as folhinhas de hortelã para refrescar o papo.",
+      "Sirva e espere os vizinhos quererem saber o que você tá bebendo."
+    ],
+    "descricao": "Um chá gelado que é tão refrescante quanto uma fofoca bem contada na roda de amigos. Sem álcool, mas com muita informação.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,00",
+    "porcoes": "1 porção",
+    "dica": "Cuidado para não ficar tão refrescante a ponto de congelar seu discurso."
+  },
+  {
+    "id": 23,
+    "titulo": "Abacaxi Explosivo: O Drink que Não Bomba no Seu Teste de Balada",
+    "slug": "abacaxi-explosivo-o-drink-que-nao-bomba-no-seu-teste-de-balada",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "150 ml de suco de abacaxi",
+      "50 ml de água de coco",
+      "1 colher de chá de açúcar",
+      "Gelo a gosto",
+      "Folha de hortelã para decorar"
+    ],
+    "modoPreparo": [
+      "Coloque o gelo no copo como se estivesse enterrando um segredo.",
+      "Misture o suco de abacaxi com a água de coco e o açúcar – a combinação perfeita que não deixa você passar vergonha na festa.",
+      "Mexa até o açúcar se dissolver ou até você desistir de mexer.",
+      "Decore com a hortelã e finja que sabe o nome científico dela.",
+      "Beba antes que a festa acabe e você precise explicar por que está sóbrio."
+    ],
+    "descricao": "Um drink tropical, refrescante e sem álcool, perfeito para quem quer se divertir sem perder o controle (ou o celular).",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "1 porção",
+    "dica": "Se alguém falar que esse drink é 'sem graça', mostre a cara de quem vai dirigir depois da festa."
+  },
+  {
+    "id": 24,
+    "titulo": "Limonada das Promessas Quebradas",
+    "slug": "limonada-das-promessas-quebradas",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "2 limões espremidos",
+      "200 ml de água gelada",
+      "2 colheres de sopa de açúcar",
+      "Gelo a gosto",
+      "Rodelas de limão para decorar"
+    ],
+    "modoPreparo": [
+      "Esprema os limões como se estivesse espremendo a paciência depois de uma reunião longa.",
+      "Misture o suco com a água gelada e o açúcar para equilibrar a amargura da vida.",
+      "Adicione gelo para esfriar a cabeça, que sempre está fervendo.",
+      "Decore com as rodelas de limão e prepare-se para prometer que vai beber menos refrigerante.",
+      "Beba com moderação ou até esquecer daquela promessa."
+    ],
+    "descricao": "Uma limonada clássica que é tão azeda quanto a realidade, mas muito mais refrescante.",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,50",
+    "porcoes": "1 porção",
+    "dica": "Se a vida ficar muito azeda, dobre o açúcar e finja que está tudo sob controle."
+  },
+  {
+    "id": 25,
+    "titulo": "Maracujá do Crush: Amargo que Vicia",
+    "slug": "maracuja-do-crush-amargo-que-vicia",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "150 ml de suco de maracujá coado",
+      "100 ml de água com gás",
+      "1 colher de sopa de mel",
+      "Gelo a gosto",
+      "Folha de hortelã para decorar"
+    ],
+    "modoPreparo": [
+      "Coloque gelo no copo e pense no crush que nunca responde as mensagens.",
+      "Misture o suco de maracujá com o mel para adoçar o coração partido.",
+      "Complete com água com gás para dar aquele efeito efervescente, como suas emoções.",
+      "Mexa tudo com vontade e decore com hortelã, porque você merece.",
+      "Beba e perceba que, às vezes, amargo também pode ser gostoso."
+    ],
+    "descricao": "Um drink que traduz o amor não correspondido: amargo, doce e cheio de emoção – sem álcool para não complicar mais ainda.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Se o crush aparecer, ofereça o drink e observe a reação. Se for ruim, você já tem desculpa pra sumir."
+  },
+  {
+    "id": 26,
+    "titulo": "Ginger Ale do Desapego",
+    "slug": "ginger-ale-do-desapego",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "200 ml de ginger ale",
+      "50 ml de suco de limão",
+      "Gelo a gosto",
+      "Raminho de alecrim para decorar"
+    ],
+    "modoPreparo": [
+      "Encha o copo com gelo, porque desapegar é difícil, mas gelar a bebida ajuda.",
+      "Adicione o suco de limão para dar aquele toque ácido da vida.",
+      "Complete com o ginger ale para borbulhar como suas emoções confusas.",
+      "Mexa levemente e decore com o alecrim que ninguém sabe que cheiro é, mas parece chique.",
+      "Beba e lembre-se: desapegar é um processo, mas a bebida ajuda."
+    ],
+    "descricao": "Um drink levemente picante e refrescante para quem está aprendendo a deixar as coisas irem embora, inclusive o álcool.",
+    "tempo": "3 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,50",
+    "porcoes": "1 porção",
+    "dica": "Se a vida estiver amarga demais, acrescente um pouco de mel para equilibrar."
+  },
+  {
+    "id": 27,
+    "titulo": "Refresco do Fim do Expediente",
+    "slug": "refresco-do-fim-do-expediente",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "200 ml de suco de maçã",
+      "100 ml de água com gás",
+      "1 colher de chá de canela em pó",
+      "Gelo a gosto",
+      "Fatias finas de maçã para decorar"
+    ],
+    "modoPreparo": [
+      "Coloque o gelo no copo como se estivesse congelando os minutos que faltam para o fim do expediente.",
+      "Misture o suco de maçã com a água com gás para dar aquele gás final.",
+      "Polvilhe a canela por cima como quem joga a culpa da segunda-feira em qualquer coisa.",
+      "Decore com fatias de maçã e finja que é o CEO da produtividade.",
+      "Beba e prepare-se para a maratona Netflix que vem depois."
+    ],
+    "descricao": "O refresco perfeito para marcar o fim do dia de trabalho, sem álcool e com muito estilo.",
+    "tempo": "4 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Se quiser um toque extra, jogue umas pedras de gelo no teclado... brincadeira, não faça isso."
+  },
+  {
+    "id": 28,
+    "titulo": "Chá Gelado do Desencanto",
+    "slug": "cha-gelado-do-desencanto",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "1 saquinho de chá preto",
+      "200 ml de água quente",
+      "1 colher de sopa de açúcar",
+      "Gelo a gosto",
+      "Rodelas de limão para decorar"
+    ],
+    "modoPreparo": [
+      "Prepare o chá preto e imagine que está preparando seu coração para a realidade.",
+      "Adicione o açúcar para suavizar o desencanto, mas não muito para não enganar a si mesmo.",
+      "Deixe esfriar e coloque bastante gelo, porque a vida não espera.",
+      "Decore com limão e sirva com um sorriso amarelo.",
+      "Beba e reflita se a amargura do chá combina com a do mundo."
+    ],
+    "descricao": "Um clássico chá gelado que traz o sabor do desencanto, perfeito para dias em que nem o álcool ajuda.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,00",
+    "porcoes": "1 porção",
+    "dica": "Se quiser evitar o desencanto, tome com um amigo que te faça rir."
+  },
+  {
+    "id": 29,
+    "titulo": "Coco Loco Sincero",
+    "slug": "coco-loco-sincero",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "200 ml de água de coco",
+      "100 ml de suco de abacaxi",
+      "Gelo a gosto",
+      "Folhas de hortelã para decorar"
+    ],
+    "modoPreparo": [
+      "Coloque o gelo no copo e imagine que está em uma ilha, mesmo que seja só na sua cabeça.",
+      "Misture a água de coco com o suco de abacaxi para o combo tropical que vai fazer você esquecer do trânsito.",
+      "Mexa com vontade e decore com hortelã, porque ninguém é de ferro.",
+      "Beba e finja que está curtindo férias, mesmo que o chefe esteja te mandando mensagem.",
+      "Sorria, você merece."
+    ],
+    "descricao": "Um drink tropical sem álcool, perfeito para dar aquela escapada mental sem sair do lugar.",
+    "tempo": "3 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 9,00",
+    "porcoes": "1 porção",
+    "dica": "Se quiser exagerar na viagem, coloque uma sombrinha de papel e faça pose para o story."
+  },
+  {
+    "id": 30,
+    "titulo": "Suco de Cenoura do Otimismo Insano",
+    "slug": "suco-de-cenoura-do-otimismo-insano",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "2 cenouras médias",
+      "200 ml de suco de laranja",
+      "1 colher de chá de mel",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Lave e descasque as cenouras, pensando em todas as vezes que você acreditou que hoje seria seu dia de sorte.",
+      "Bata as cenouras no liquidificador com o suco de laranja e o mel para adoçar essa ilusão.",
+      "Coe para ficar só na fé (e no sabor).",
+      "Coloque gelo no copo, despeje o suco e prepare-se para mais um dia.",
+      "Beba com um sorriso e a certeza de que o otimismo é uma escolha (ou uma loucura)."
+    ],
+    "descricao": "Um suco energizante e cheio de humor para quem insiste em acreditar que amanhã vai ser melhor.",
+    "tempo": "10 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 5,50",
+    "porcoes": "1 porção",
+    "dica": "Se for tirar onda, sirva em copo transparente para mostrar que o otimismo tem cor de cenoura."
+  },
+  {
+    "id": 31,
+    "titulo": "Piña Colada do Tio do Pavê",
+    "slug": "pina-colada-do-tio-do-pave",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "200 ml de suco de abacaxi",
+      "100 ml de leite de coco",
+      "50 ml de creme de leite",
+      "gelo"
+    ],
+    "modoPreparo": [
+      "Jogue tudo no liquidificador como se estivesse misturando as fofocas da família",
+      "Bata até ficar cremoso, tipo a paciência do tio do pavê",
+      "Sirva com uma fatia de abacaxi porque ninguém é de ferro"
+    ],
+    "descricao": "Um drink tão doce e cremoso quanto a piada do tio do pavê naquela reunião de família. Refresca, diverte e ainda te deixa hidratado para aguentar as perguntas incômodas.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "2 porções",
+    "dica": "Se o tio do pavê tentar te ajudar, agradeça e faça sozinho. Bebida e piada são coisas sérias."
+  },
+  {
+    "id": 32,
+    "titulo": "Caju Sorridente",
+    "slug": "caju-sorridente",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "200 ml de suco de caju",
+      "100 ml de água com gás",
+      "1 colher de chá de açúcar",
+      "gelo",
+      "rodelas de limão"
+    ],
+    "modoPreparo": [
+      "Misture o suco de caju com o açúcar como se estivesse fazendo malabarismo na cozinha",
+      "Adicione a água com gás e gelo, porque até o caju quer uma festa",
+      "Decore com rodelas de limão para dar aquele sorriso no copo"
+    ],
+    "descricao": "Esse drink vai fazer seu rosto parecer que tomou um elogio inesperado. Refrescância e doçura na medida certa, perfeito para quem quer curtir sem perder o sorriso.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,50",
+    "porcoes": "1 porção",
+    "dica": "Se o caju não te fizer sorrir, a piada do garçom talvez ajude."
+  },
+  {
+    "id": 33,
+    "titulo": "Maracujá Zen Mode",
+    "slug": "maracuja-zen-mode",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "200 ml de suco de maracujá",
+      "100 ml de água de coco",
+      "1 colher de mel",
+      "gelo"
+    ],
+    "modoPreparo": [
+      "Misture o suco de maracujá com a água de coco como quem tenta manter a calma no trânsito",
+      "Adicione o mel para adoçar a vida e o drink",
+      "Coloque gelo e respire fundo antes de beber, estilo mestre zen"
+    ],
+    "descricao": "Para aqueles dias em que só o maracujá pode acalmar sua alma e os vizinhos barulhentos. Esse drink é a meditação líquida que você precisava.",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "1 porção",
+    "dica": "Beba devagar, porque a zenitude não vem de um gole só – infelizmente."
+  },
+  {
+    "id": 34,
+    "titulo": "Limonada do Crush",
+    "slug": "limonada-do-crush",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "1 limão siciliano",
+      "200 ml de água com gás",
+      "2 colheres de açúcar",
+      "gelo",
+      "folhas de hortelã"
+    ],
+    "modoPreparo": [
+      "Esprema com vontade o limão, como se fosse mandar mensagem para o crush",
+      "Misture a água com gás e o açúcar, porque tem que ter aquele brilho",
+      "Adicione gelo e hortelã para refrescar o coração partido"
+    ],
+    "descricao": "Um drink que é doce, azedinho e refrescante – exatamente como a vida amorosa de qualquer um que já mandou um 'oi' e não recebeu resposta.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "1 porção",
+    "dica": "Se o crush não responder, pelo menos a limonada é garantia de refresco."
+  },
+  {
+    "id": 35,
+    "titulo": "Sangria Sem Culpa",
+    "slug": "sangria-sem-culpa",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "200 ml de suco de uva integral",
+      "100 ml de suco de laranja",
+      "1 maçã picada",
+      "1 laranja picada",
+      "gelo"
+    ],
+    "modoPreparo": [
+      "Misture os sucos como quem tenta juntar as peças da vida amorosa",
+      "Adicione as frutas picadas para dar aquele toque saudável que todo mundo finge gostar",
+      "Coloque gelo e sirva antes que alguém peça algo alcoólico"
+    ],
+    "descricao": "Sangria para quem quer festa no copo sem ressaca no dia seguinte. Frutado, colorido e tão divertido quanto um encontro que deu certo.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "3 porções",
+    "dica": "Se sobrar, coloque na geladeira. Na dúvida, quem não bebe pode sempre repetir."
+  },
+  {
+    "id": 36,
+    "titulo": "Chá Gelado do Tédio",
+    "slug": "cha-gelado-do-tedio",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "1 sachê de chá de camomila",
+      "200 ml de água",
+      "1 colher de mel",
+      "gelo"
+    ],
+    "modoPreparo": [
+      "Prepare o chá como quem tenta sobreviver a uma reunião longa demais",
+      "Deixe esfriar porque ninguém merece chá quente no calor",
+      "Adoce com mel para enganar o tédio e coloque gelo para refrescar o espírito"
+    ],
+    "descricao": "O chá gelado que vai te acompanhar quando sua série acabar, a internet cair e o tédio bater forte. Calmante, docinho e com cara de quem sabe o que faz.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,50",
+    "porcoes": "1 porção",
+    "dica": "Se quiser animar, coloque um limãozinho. Ou uma piada ruim. Ou os dois."
+  },
+  {
+    "id": 37,
+    "titulo": "Suco Hulk Verde",
+    "slug": "suco-hulk-verde",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "1 maçã verde",
+      "1 pepino pequeno",
+      "suco de 1 limão",
+      "200 ml de água gelada",
+      "gelo"
+    ],
+    "modoPreparo": [
+      "Bata tudo no liquidificador como se fosse esmagar a preguiça",
+      "Coe para não ficar igual suco de mato de avó",
+      "Sirva com gelo e se prepare para ficar forte (ou pelo menos parecer)"
+    ],
+    "descricao": "Um suco verde que vai te dar a força do Hulk sem destruir apartamentos. Saudável, refrescante e ótimo para quem precisa de um empurrãozinho verde na vida.",
+    "tempo": "10 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 9,00",
+    "porcoes": "2 porções",
+    "dica": "Se ficar muito verde, é só dizer que é sua nova identidade secreta."
+  },
+  {
+    "id": 38,
+    "titulo": "Fanta Caseira do Zeca Pagodinho",
+    "slug": "fanta-caseira-do-zeca-pagodinho",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "200 ml de suco de laranja",
+      "100 ml de água com gás",
+      "1 colher de açúcar",
+      "gelo"
+    ],
+    "modoPreparo": [
+      "Misture o suco de laranja com o açúcar, cantando uma música do Zeca Pagodinho",
+      "Adicione a água com gás para fazer a festa borbulhante",
+      "Coloque gelo e aproveite a vibe sambista no copo"
+    ],
+    "descricao": "A Fanta que o Zeca Pagodinho aprovaria, se ele estivesse de ressaca e quisesse algo leve e refrescante. Borbulhante, doce e com gosto de domingo na laje.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "1 porção",
+    "dica": "Cante junto e ninguém vai perceber que é só suco com gás."
+  },
+  {
+    "id": 39,
+    "titulo": "Milkshake de Café sem Café",
+    "slug": "milkshake-de-cafe-sem-cafe",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "200 ml de leite gelado",
+      "2 bolas de sorvete de baunilha",
+      "1 colher de cacau em pó",
+      "chantilly para decorar"
+    ],
+    "modoPreparo": [
+      "Bata o leite, sorvete e cacau no liquidificador como se estivesse acordando para trabalhar",
+      "Sirva em um copo alto, porque tamanho importa",
+      "Finalize com chantilly porque a vida merece um pouco de glamour"
+    ],
+    "descricao": "Para quem ama o sabor do café, mas odeia o efeito de ficar acordado às 3 da manhã pensando em tudo que deu errado. Um milkshake que engana os neurônios e agrada o paladar.",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "1 porção",
+    "dica": "Se quiser um boost de energia, só não espere cafeína aqui, amigo."
+  },
+  {
+    "id": 40,
+    "titulo": "Suco Explosão Tropical",
+    "slug": "suco-explosao-tropical",
+    "categoria": "Drinks sem álcool 🧃",
+    "ingredientes": [
+      "150 ml de suco de manga",
+      "150 ml de suco de maracujá",
+      "50 ml de suco de acerola",
+      "gelo"
+    ],
+    "modoPreparo": [
+      "Misture todos os sucos como se estivesse criando uma banda de axé",
+      "Adicione gelo para o ritmo ficar geladinho",
+      "Sirva e dance porque a explosão é garantida no sabor e no astral"
+    ],
+    "descricao": "Um suco que é carnaval na boca, festa na garganta e alegria no coração. Tudo isso sem precisar de abadá ou trio elétrico.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 13,00",
+    "porcoes": "2 porções",
+    "dica": "Se começar a dançar, culpa do suco, não minha."
   }
 ]

@@ -299,5 +299,810 @@
     "preco": "R$ 25,00",
     "porcoes": "4 porções",
     "dica": "Se quiser apimentar o romance, coloque umas folhinhas de pimenta entre os ingredientes. Se não quiser, coloque só a cara de quem comeu pimenta sem saber — garantia de risada."
+  },
+  {
+    "id": 11,
+    "titulo": "Risoto de lentilha: porque dinheiro não cai do céu, mas lentilha dá sorte",
+    "slug": "risoto-de-lentilha-porque-dinheiro-nao-cai-do-ceu-mas-lentilha-da-sorte",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "1 xícara de lentilha",
+      "1 xícara de arroz arbóreo",
+      "1 cebola picada",
+      "2 dentes de alho",
+      "Caldo de legumes (1 litro)",
+      "Queijo parmesão ralado",
+      "Azeite",
+      "Sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e o alho como se estivesse contando a piada do ano para a panela.",
+      "Junte o arroz arbóreo e a lentilha, misture com entusiasmo de quem sabe que 2024 vai ser top.",
+      "Vá adicionando o caldo de legumes aos poucos, como se fosse aquele amigo que nunca larga o celular.",
+      "Quando o arroz estiver cremoso e al dente, finalize com parmesão, sal e pimenta, e prepare-se para ser o chef da sorte."
+    ],
+    "descricao": "Esse risoto une a tradição da lentilha com o glamour do arroz arbóreo, pra começar o ano com o pé direito e a barriga cheia. Porque sorte sem sabor é só promessa.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,50",
+    "porcoes": "4 porções",
+    "dica": "Se errar o ponto do risoto, finja que é uma nova receita fusion. Ano novo, invenções novas!"
+  },
+  {
+    "id": 12,
+    "titulo": "Salpicão do réveillon: vegano, crocante e com gosto de 'quero mais um ano assim'",
+    "slug": "salpicao-do-reveillon-vegano-crocante-e-com-gosto-de-quero-mais-um-ano-assim",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "1 cenoura ralada",
+      "1 maçã verde picada",
+      "1/2 xícara de uva passa",
+      "1/2 xícara de milho verde",
+      "1/2 xícara de ervilha",
+      "1 xícara de repolho roxo picado",
+      "Maionese vegana",
+      "Salsinha picada",
+      "Sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Misture tudo como se estivesse fazendo a melhor mistura de gente na festa de ano novo.",
+      "Tempere com sal, pimenta e maionese vegana, com a delicadeza de quem evita dar mancada no grupo da família.",
+      "Decore com salsinha e celebre o ano novo com crocância e saúde."
+    ],
+    "descricao": "Salpicão pra quem quer começar o ano leve, saudável e com aquele crunch que faz a vida valer a pena. Sem frango, sem frescura, só alegria.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "6 porções",
+    "dica": "Se alguém reclamar que não tem carne, manda esse salpicão e um convite pra repensar a vida."
+  },
+  {
+    "id": 13,
+    "titulo": "Cuscuz pernambucano: o tapete vermelho do Ano Novo na sua mesa",
+    "slug": "cuscuz-pernambucano-o-tapete-vermelho-do-ano-novo-na-sua-mesa",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "2 xícaras de flocos de milho para cuscuz",
+      "1 cebola picada",
+      "1 tomate picado",
+      "1 pimentão vermelho picado",
+      "Salsinha e cebolinha",
+      "Sal",
+      "Azeite"
+    ],
+    "modoPreparo": [
+      "Hidrate os flocos de milho com um pouco de água, porque até o cuscuz precisa de um banho antes da festa.",
+      "Refogue cebola, tomate e pimentão como se estivesse preparando o palco para o show do ano.",
+      "Misture tudo, tempere e ajeite a salsinha e cebolinha como se fosse o diretor de arte da ceia.",
+      "Deixe cozinhar na cuscuzeira, e prepare-se para a ovada de elogios."
+    ],
+    "descricao": "O cuscuz pernambucano é aquela receita simples que vira estrela no Ano Novo. Dá sorte, sabor e faz a família cantar junto (ou pelo menos tentar).",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "5 porções",
+    "dica": "Não chore na cozinha, chorar de emoção é permitido quando provar o cuscuz."
+  },
+  {
+    "id": 14,
+    "titulo": "Salada fria de bacalhau: pra quem quer começar o ano sem drama, mas com muito sabor",
+    "slug": "salada-fria-de-bacalhau-pra-quem-quer-comecar-o-ano-sem-drama-mas-com-muito-sabor",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "300g de bacalhau dessalgado e desfiado",
+      "1 cebola roxa em rodelas finas",
+      "1 pimentão vermelho em tiras",
+      "1/2 xícara de azeitonas pretas",
+      "1 batata cozida em cubos",
+      "Azeite",
+      "Salsinha",
+      "Sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Misture o bacalhau com as batatas, cebola, pimentão e azeitonas como se estivesse juntando todos os ex da sua lista (mas só as boas memórias).",
+      "Regue bastante azeite, porque é o óleo do sucesso para essa receita.",
+      "Tempere com sal (com moderação, ninguém quer um drama salgado) e pimenta, e deixe gelar.",
+      "Sirva com aquela cara de quem sabe que o ano vai ser top."
+    ],
+    "descricao": "Salada fria de bacalhau pra quem quer começar o ano refrescando corpo e alma, e mostrando que até no frio a ceia pode ser quente.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 45,00",
+    "porcoes": "4 porções",
+    "dica": "Se o bacalhau insistir em ser salgado demais, finja que é o tempero da emoção."
+  },
+  {
+    "id": 15,
+    "titulo": "Espetinho de frutas com calda de chocolate: a sobremesa que vai fazer você virar a noite (e o ano)",
+    "slug": "espetinho-de-frutas-com-calda-de-chocolate-a-sobremesa-que-vai-fazer-voce-virar-a-noite-e-o-ano",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "Morangos",
+      "Abacaxi em cubos",
+      "Uvas verdes",
+      "Banana em rodelas",
+      "Chocolate meio amargo para derreter",
+      "Palitos para espetinho"
+    ],
+    "modoPreparo": [
+      "Espete as frutas como se estivesse montando o time dos sonhos para a virada.",
+      "Derreta o chocolate no micro-ondas ou banho-maria, como se fosse um spa pros doces.",
+      "Regue a calda sobre os espetinhos na hora de servir, pra garantir que o ano comece doce e com estilo."
+    ],
+    "descricao": "Essa sobremesa é a prova que dá pra ser saudável e ainda se lambuzar sem culpa, porque ano novo é tempo de açúcar e sorrisos.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "6 porções",
+    "dica": "Se a calda de chocolate sobrar, use a desculpa: 'É pra garantir o próximo ano doce'."
+  },
+  {
+    "id": 16,
+    "titulo": "Salada da Sorte com Romã que Até o Horóscopo Aprova",
+    "slug": "salada-da-sorte-com-roma-que-ate-o-horoscopo-aprova",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "1 romã média",
+      "1 maço de rúcula",
+      "100g queijo feta",
+      "1 cenoura ralada",
+      "1/2 cebola roxa fatiada fina",
+      "azeite extra virgem",
+      "sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Abra a romã como se fosse desvendar o mistério do seu 2024 e separe as sementinhas brilhantes.",
+      "Misture a rúcula com a cenoura ralada e a cebola, porque ninguém merece uma salada sem emoção.",
+      "Jogue o queijo feta por cima como se fosse confete de festa — é Ano Novo, bebê!",
+      "Tempere com azeite, sal e pimenta enquanto faz um discurso de agradecimento ao ano que passou.",
+      "Finalize com as sementes de romã, que prometem sorte e pelo menos um match no app em 2024."
+    ],
+    "descricao": "Essa salada é tipo aquele amigo que faz promessa de Ano Novo: cheia de esperança, sabor e uma pitada de sorte para você começar o ano com o pé direito (e a barriga feliz).",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "4 porções",
+    "dica": "Não esqueça de tirar as sementes com calma, senão você vai parecer que brigou com a romã e saiu perdendo."
+  },
+  {
+    "id": 17,
+    "titulo": "Risoto de Espumante: Porque Ano Novo Merece Um Brinde Cremoso",
+    "slug": "risoto-de-espumante-porque-ano-novo-merece-um-brinde-cremoso",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "1 xícara de arroz arbóreo",
+      "500 ml de espumante brut",
+      "1 cebola pequena picada",
+      "2 colheres de sopa de manteiga",
+      "50g de queijo parmesão ralado",
+      "Caldo de legumes (1 litro)",
+      "Sal e pimenta do reino a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola na manteiga como se estivesse fazendo discurso para a festa toda ouvir.",
+      "Jogue o arroz para dançar junto e deixe ele ficar brilhando de vontade.",
+      "Adicione o espumante aos poucos, fazendo um brinde silencioso para o risoto ficar mais animado.",
+      "Vá colocando o caldo de legumes aos poucos, mexendo até o arroz ficar cremoso como abraço de avó.",
+      "Finalize com parmesão, sal e pimenta e prepare-se para receber elogios e olhares invejosos."
+    ],
+    "descricao": "Um risoto que é praticamente a festa do Ano Novo no seu prato: borbulhante, cremoso e que faz até o seu vizinho querer uma garfada.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "3 porções",
+    "dica": "Se sobrar espumante, aproveite para brindar de verdade, porque cozinhar com bebida alcoólica é um talento, não erro."
+  },
+  {
+    "id": 18,
+    "titulo": "Pavê do Réveillon: Adoçando a Vida e a Virada",
+    "slug": "pave-do-reveillon-adoçando-a-vida-e-a-virada",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "1 vidro de leite de coco (200 ml)",
+      "2 pacotes de biscoito tipo maisena",
+      "1 caixa de creme de leite",
+      "100g de coco ralado",
+      "Chocolate granulado para decorar"
+    ],
+    "modoPreparo": [
+      "Misture o leite condensado, o leite de coco e o creme de leite – é o trio parada dura da sobremesa.",
+      "Molhe rapidamente os biscoitos no leite de coco, mas não faça eles virarem um tsunami, hein?",
+      "Em um refratário, intercale camadas de biscoito e creme, como se fosse um jogo de paciência doce.",
+      "Finalize com coco ralado e chocolate granulado para dar aquele toque de glamour de Ano Novo.",
+      "Leve à geladeira e aguarde, porque ansiedade não combina com pavê."
+    ],
+    "descricao": "O pavê que vai te fazer pensar que o ano novo tá doce demais, mesmo que as promessas estejam só começando.",
+    "tempo": "4 horas (com geladeira)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "6 porções",
+    "dica": "Se alguém perguntar se é pavê ou pacomê, diga que é só a receita do sucesso mesmo."
+  },
+  {
+    "id": 19,
+    "titulo": "Filé de Frango com Mostarda: Porque Ano Novo Também Merece Uma Pegada",
+    "slug": "file-de-frango-com-mostarda-porque-ano-novo-tambem-merece-uma-pegada",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "4 filés de peito de frango",
+      "3 colheres de sopa de mostarda",
+      "2 dentes de alho picados",
+      "Suco de 1 limão",
+      "Sal e pimenta a gosto",
+      "Azeite para grelhar"
+    ],
+    "modoPreparo": [
+      "Tempere os filés com alho, sal, pimenta e limão, porque frango sem personalidade não entra no Ano Novo.",
+      "Passe a mostarda como se estivesse pintando a obra-prima da sua ceia.",
+      "Aqueça o azeite na frigideira e grelhe os filés até ficarem douradinhos, tipo finalista de reality show.",
+      "Sirva com aquela farofinha esperta ou um arrozinho básico para não complicar a vida.",
+      "Prepare-se para ouvir que o Ano Novo começou com sabor e atitude!"
+    ],
+    "descricao": "Um franguinho com mostarda que te dá a coragem que falta para encarar a lista de promessas – e ainda te deixa com gostinho de quero mais.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 24,50",
+    "porcoes": "4 porções",
+    "dica": "Se a mostarda for forte demais, finja que é o tempero da vida: às vezes amarga, mas sempre surpreendente."
+  },
+  {
+    "id": 20,
+    "titulo": "Docinhos de Amendoim: Porque Ano Novo Sem Doce É Como Festa Sem Música",
+    "slug": "docinhos-de-amendoim-porque-ano-novo-sem-doce-e-como-festa-sem-musica",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "200g de amendoim torrado sem sal",
+      "1 lata de leite condensado",
+      "1 colher de sopa de manteiga",
+      "Açúcar cristal para enrolar"
+    ],
+    "modoPreparo": [
+      "Triture o amendoim até virar uma farofa, como se fosse preparar o solo para um jardim de felicidade.",
+      "Misture o leite condensado e a manteiga em uma panela, leve ao fogo baixo e mexa até desgrudar do fundo – paciência é a chave do sucesso.",
+      "Junte o amendoim triturado, misture bem e espere esfriar porque a pressa é inimiga do docinho.",
+      "Enrole bolinhas, passe no açúcar cristal e prepare-se para ver seus amigos sumirem com a caixa em segundos.",
+      "Se sobrar, esconde antes que vire briga de Ano Novo."
+    ],
+    "descricao": "Docinhos de amendoim que são a trilha sonora doce para o seu Réveillon – grudam na boca, na memória e no coração.",
+    "tempo": "45 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "15 porções",
+    "dica": "Use amendoim torrado para garantir que o gosto seja tão forte quanto suas resoluções — e tão gostoso quanto os erros que vamos cometer depois."
+  },
+  {
+    "id": 21,
+    "titulo": "Bolinho da Virada: Crocante pra não escorregar no ano novo",
+    "slug": "bolinho-da-virada-crocante-pra-nao-escorregar-no-ano-novo",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "1 kg de mandioca ralada",
+      "200g de queijo coalho ralado",
+      "1 cebola pequena picada",
+      "2 dentes de alho amassados",
+      "Salsinha a gosto",
+      "Sal e pimenta do reino",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Misture a mandioca, queijo, cebola, alho, salsinha, sal e pimenta até virar um brigadeiro salgado—só que sem chocolate.",
+      "Modele bolinhos com as mãos, tipo massinha de criança crescida.",
+      "Aqueça o óleo e frite até dourar, parecendo que o ano velho está indo embora rapidinho.",
+      "Escorra e sirva antes que o ano novo chegue e você fique só na vontade."
+    ],
+    "descricao": "Esse bolinho é tipo aquela promessa de Ano Novo: crocante, irresistível e que não deixa você escorregar logo no primeiro passo do ano.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,50",
+    "porcoes": "6 porções",
+    "dica": "Se sobrar, guarde para o dia seguinte, porque até o ano novo merece um 'replay' saboroso."
+  },
+  {
+    "id": 22,
+    "titulo": "Salada da Fortuna: Porque grão de bico nunca mente",
+    "slug": "salada-da-fortuna-porque-grao-de-bico-nunca-mente",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "1 xícara de grão de bico cozido",
+      "Tomate cereja cortado ao meio",
+      "Cebola roxa fatiada finamente",
+      "Pepino em cubos",
+      "Salsinha picada",
+      "Azeite, limão, sal e pimenta do reino"
+    ],
+    "modoPreparo": [
+      "Misture tudo numa tigela como se estivesse preparando sua lista de metas: com cuidado e esperança.",
+      "Tempere com azeite, limão, sal e pimenta. Porque nada começa direito sem tempero, inclusive o ano.",
+      "Deixe na geladeira para pegar aquele friozinho motivacional antes de atacar o prato.",
+      "Sirva chamando os amigos para garantir sorte coletiva."
+    ],
+    "descricao": "Salada leve que promete fortuna e justiça no ano novo. Porque se a sorte não vier, pelo menos você vai estar saudável e com estilo.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Se quiser apimentar a sorte, tente olhar pra salada e imaginar o seu extrato bancário positivo."
+  },
+  {
+    "id": 23,
+    "titulo": "Panqueca do Recomeço: Recheio de esperança com molho de 'é agora!'",
+    "slug": "panqueca-do-recomeco-recheio-de-esperanca-com-molho-de-e-agora",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "1 xícara de farinha de trigo",
+      "1 ovo",
+      "1/2 xícara de leite",
+      "Sal a gosto",
+      "Recheio: queijo minas e tomate picado",
+      "Molho: tomate pelado, alho, cebola, azeite, sal e manjericão"
+    ],
+    "modoPreparo": [
+      "Misture a farinha, ovo, leite e sal até formar uma massa lisinha, tipo pele de bebê.",
+      "Faça as panquecas em frigideira antiaderente, sem pressa, porque pressa é inimiga da virada.",
+      "Recheie com queijo e tomate e enrole como se estivesse enrolando os problemas do ano velho.",
+      "Prepare o molho com todo amor e despeje por cima, porque o ano novo merece molho especial, não molho de desculpa."
+    ],
+    "descricao": "Panqueca que abraça seu estômago e sua alma, porque começar o ano com carboidrato é mais seguro que promessa de dieta.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "3 porções",
+    "dica": "Se a panqueca quebrar, diga que é estilo artesanal e que o ano será cheio de surpresas."
+  },
+  {
+    "id": 24,
+    "titulo": "Arroz de Coco da Prosperidade: Pra dar aquele toque tropical no seu 31",
+    "slug": "arroz-de-coco-da-prosperidade-pra-dar-aquele-toque-tropical-no-seu-31",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "2 xícaras de arroz branco",
+      "1 vidro pequeno de leite de coco",
+      "1 cebola pequena picada",
+      "2 dentes de alho picados",
+      "1/2 xícara de castanha de caju picada",
+      "Sal, azeite e cheiro-verde"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho no azeite, porque ninguém merece começar o ano com cheiro ruim.",
+      "Adicione o arroz e refogue mais um pouco para sentir o cheiro da prosperidade chegando.",
+      "Misture o leite de coco e 3 xícaras de água, mexa com fé e deixe cozinhar até o arroz ficar macio e cheiroso.",
+      "Acrescente castanhas e cheiro-verde para um toque final de glamour e sorte."
+    ],
+    "descricao": "Arroz que vem com aquele jeitinho pra você atrair prosperidade — ou pelo menos um pouco de gostosura na mesa.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "5 porções",
+    "dica": "Coma com a mão direita e pense positivo, porque a energia boa é tão importante quanto o sal."
+  },
+  {
+    "id": 25,
+    "titulo": "Mousse de Maracujá: Azedinho que faz doce no coração do ano novo",
+    "slug": "mousse-de-maracuja-azedinho-que-faz-doce-no-coracao-do-ano-novo",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "1 lata de creme de leite",
+      "1 medida da lata de suco de maracujá concentrado",
+      "Polpa de 1 maracujá para decorar"
+    ],
+    "modoPreparo": [
+      "Bata o leite condensado, creme de leite e suco de maracujá no liquidificador até virar um affair gostoso.",
+      "Despeje em taças e leve para gelar por pelo menos 3 horas — tempo suficiente pra você pensar nas resoluções que nem vai cumprir.",
+      "Decore com a polpa para dar aquele charme de 'eu me importo com a apresentação', mesmo que o ano seja bagunçado.",
+      "Sirva gelado e prepare-se para os elogios (ou para dividir a culpa do doce)."
+    ],
+    "descricao": "Mousse que combina o azedinho da vida com a doçura das esperanças, igualzinho pro ano que tá chegando.",
+    "tempo": "20 min + geladeira",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Se alguém reclamar que é azedo, diga que é só o gostinho da mudança chegando."
+  },
+  {
+    "id": 26,
+    "titulo": "Salpicão do Recomeço: aquela baguncinha que dá sorte",
+    "slug": "salpicao-do-recomeco-aquela-baguncinha-que-da-sorte",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "1 peito de frango desfiado",
+      "1 cenoura ralada",
+      "1 maçã verde picada",
+      "1 lata de milho verde",
+      "1 lata de ervilha",
+      "1 xícara de maionese",
+      "1/2 cebola picadinha",
+      "Batata palha para finalizar",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o frango com a cenoura, maçã, milho, ervilha e cebola — é tipo uma festa dos ingredientes, só falta o DJ.",
+      "Adicione a maionese e mexa até tudo ficar grudado igual fofoca de vizinho.",
+      "Tempere com sal e pimenta, mas cuidado pra não exagerar e virar piada.",
+      "Cubra com batata palha na hora de servir, que é o glamour crocante que ninguém esperava."
+    ],
+    "descricao": "Um salpicão simples e cheio de esperança, porque começar o ano com uma saladinha é melhor do que com ressaca.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Se quiser dar sorte extra, coma olhando pro relógio sem esquecer de fazer um brinde."
+  },
+  {
+    "id": 27,
+    "titulo": "Espaguete da Virada: enrola que é sucesso",
+    "slug": "espaguete-da-virada-enrola-que-e-sucesso",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "250g de espaguete",
+      "2 dentes de alho picados",
+      "1 tomate grande picado",
+      "1/2 cebola picada",
+      "Azeite de oliva a gosto",
+      "Folhas de manjericão",
+      "Sal e pimenta do reino a gosto",
+      "Queijo parmesão ralado para polvilhar"
+    ],
+    "modoPreparo": [
+      "Cozinhe o espaguete até ficar al dente, tipo essa promessa de dieta que você não vai cumprir.",
+      "Enquanto isso, refogue alho, cebola e tomate no azeite até formar um molho que nem sua vida amorosa: quente e meio bagunçado.",
+      "Junte o macarrão ao molho e misture como quem tenta juntar os pedaços do ano que passou.",
+      "Finalize com manjericão e parmesão — porque a gente merece um toque gourmet na virada."
+    ],
+    "descricao": "Macarrão que te abraça e faz acreditar que o próximo ano vai ser descomplicado (ou pelo menos com molho bom).",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,50",
+    "porcoes": "3 porções",
+    "dica": "Se enrolar demais no macarrão, não esqueça: o que importa é se enrolar nas oportunidades."
+  },
+  {
+    "id": 28,
+    "titulo": "Farofa da Sorte: crocância que não mente",
+    "slug": "farofa-da-sorte-crocancia-que-nao-mente",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "2 xícaras de farinha de mandioca",
+      "1 cebola picada",
+      "2 colheres de sopa de manteiga",
+      "1/2 xícara de uvas passas",
+      "1/2 xícara de milho verde",
+      "Sal a gosto",
+      "Cheiro verde picado"
+    ],
+    "modoPreparo": [
+      "Derreta a manteiga e refogue a cebola até ficar douradinha, tipo aquele tio que já sabe tudo da vida.",
+      "Junte o milho e as uvas passas, porque a vida é feita de contrastes e a farofa não podia ser diferente.",
+      "Acrescente a farinha aos poucos, mexendo até ficar com aquela crocância que faz barulho na boca — perfeito pra espantar a crise.",
+      "Finalize com cheiro verde e sal, e se prepare para a sorte bater na porta (ou pelo menos o estômago ficar feliz)."
+    ],
+    "descricao": "Farofa que promete sorte e crocância, pra garantir que seu ano novo não fique só na promessa.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "4 porções",
+    "dica": "Se quiser sorte extra, jogue uma colher na mochila — vai que cola!"
+  },
+  {
+    "id": 29,
+    "titulo": "Bolo do Recomeço: doce que faz esquecer os boletos",
+    "slug": "bolo-do-recomeco-doce-que-faz-esquecer-os-boletos",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "3 ovos",
+      "2 xícaras de farinha de trigo",
+      "1 xícara de açúcar",
+      "1/2 xícara de óleo",
+      "1 xícara de leite",
+      "1 colher de sopa de fermento em pó",
+      "Raspas de limão",
+      "Cobertura de chocolate ao leite"
+    ],
+    "modoPreparo": [
+      "Misture ovos, açúcar e óleo até ficar uma mistura tão animada quanto você na noite do ano novo.",
+      "Acrescente farinha, leite e fermento, mexendo como quem tenta juntar os pedaços do ano passado.",
+      "Junte as raspas de limão para dar aquele toque de 'tamo junto, 2024'.",
+      "Asse por 35 minutos e, depois de frio, cubra com chocolate pra adoçar qualquer ressaca emocional."
+    ],
+    "descricao": "Bolo fofinho que é um abraço doce pra alma, ideal pra esquecer que a fatura do cartão chegou no dia 2.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 15,00",
+    "porcoes": "6 porções",
+    "dica": "Coma um pedaço e diga ‘tá tudo certo’, mesmo que não esteja."
+  },
+  {
+    "id": 30,
+    "titulo": "Coquetel da Virada: a ressaca que você quer ter",
+    "slug": "coquetel-da-virada-a-ressaca-que-voce-quer-ter",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "200 ml de suco de laranja",
+      "100 ml de água com gás",
+      "50 ml de vodka",
+      "1 colher de chá de mel",
+      "Gelo a gosto",
+      "Fatias de laranja para decorar"
+    ],
+    "modoPreparo": [
+      "Misture o suco de laranja com a vodka e o mel, porque a vida é melhor com doçura e um pouco de loucura.",
+      "Adicione gelo para manter a vibe gelada, tipo aquela promessa de manter a calma.",
+      "Complete com água com gás para dar a festa borbulhante que seu ano novo merece.",
+      "Decore com fatias de laranja e prepare-se pra brindar até esquecer o que prometeu no ano passado."
+    ],
+    "descricao": "Coquetel refrescante e leve, mas que promete te deixar animado para as resoluções (ou para esquecer que tem).",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "2 porções",
+    "dica": "Beba devagar, afinal, a ressaca boa é aquela que chegou depois das 12."
+  },
+  {
+    "id": 31,
+    "titulo": "Sopa da Virada: Caldo que Esquenta o Ano (e a Alma)",
+    "slug": "sopa-da-virada-caldo-que-esquenta-o-ano-e-a-alma",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "1 litro de caldo de galinha",
+      "2 xícaras de legumes variados (cenoura, chuchu, batata)",
+      "1 peito de frango desfiado",
+      "1 cebola picada",
+      "2 dentes de alho amassados",
+      "Sal e pimenta a gosto",
+      "Cheiro-verde para finalizar"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e o alho até ficarem mais perfumados que seu crush na balada.",
+      "Jogue os legumes no caldo, porque a vida é melhor com cores e vitaminas.",
+      "Deixe cozinhar até os legumes ficarem mais macios que a sua preguiça de segunda-feira.",
+      "Adicione o frango desfiado, para garantir que no ano novo você não precise ‘desfiar’ problemas.",
+      "Tempere com sal e pimenta, porque até na cozinha a gente tem que ter atitude.",
+      "Finalize com cheiro-verde e sirva quente, tipo aquele abraço que a gente quer na virada."
+    ],
+    "descricao": "Uma sopa que esquenta o corpo e renova as energias pra começar o ano sem desculpas (nem frio). Porque no réveillon, até a fome merece um brinde.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,50",
+    "porcoes": "4 porções",
+    "dica": "Se alguém reclamar que sopa é só pra quem tá gripado, ofereça uma concha e diga: 'cura até ano ruim!'"
+  },
+  {
+    "id": 32,
+    "titulo": "Salada do Recomeço: Verde que Te Quero Sorte",
+    "slug": "salada-do-recomeco-verde-que-te-quero-sorte",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "1 maço de alface americana",
+      "1 pepino cortado em rodelas",
+      "1 maçã verde picada",
+      "100g de queijo minas frescal em cubos",
+      "1 colher de sopa de azeite",
+      "Suco de 1 limão",
+      "Sal e pimenta-do-reino a gosto",
+      "Sementes de girassol para crocância"
+    ],
+    "modoPreparo": [
+      "Lave tudo, porque começar o ano sujo nem na vida nem na salada dá certo.",
+      "Misture alface, pepino e maçã, porque um mix saudável é a desculpa perfeita para repetir.",
+      "Jogue o queijo por cima, que nem aquele amigo que aparece sempre na hora certa.",
+      "Tempere com azeite, limão, sal e pimenta, para o gostinho da esperança no prato.",
+      "Finalize com sementes de girassol, porque crocância é o que a gente quer do ano que vem."
+    ],
+    "descricao": "Salada para quem quer o combo sorte + saúde + poupar tempo na cozinha. Verde que te quero forte no ano que começa!",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "3 porções",
+    "dica": "Dê uma mexida na salada pensando em tudo que você quer deixar pra trás — inclusive a dieta de janeiro."
+  },
+  {
+    "id": 33,
+    "titulo": "Escondidinho do Recomeço: Esconde a Tristeza, Mostra o Purê",
+    "slug": "escondidinho-do-recomeco-esconde-a-tristeza-mostra-o-pure",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "500g de mandioca cozida",
+      "300g de carne moída",
+      "1 cebola picada",
+      "2 dentes de alho picados",
+      "1 tomate picado",
+      "Sal, pimenta e cheiro-verde a gosto",
+      "100g de queijo coalho ralado"
+    ],
+    "modoPreparo": [
+      "Prepare um purê de mandioca tão cremoso que vai fazer você esquecer qualquer drama antigo.",
+      "Refogue a cebola e o alho, porque até o escondidinho precisa de uma base forte.",
+      "Junte a carne moída e o tomate, e tempere como se estivesse preparando seu discurso de ano novo.",
+      "Monte camadas de purê e carne numa travessa, igual a vida que a gente quer: camadas de bons momentos.",
+      "Cubra com queijo e leve ao forno até dourar, porque brilho nunca é demais no ano novo."
+    ],
+    "descricao": "Um escondidinho que esconde a tristeza e revela sabor, provando que pra recomeçar não precisa complicar.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Enquanto o queijo derrete, mentalize só coisas boas. Funciona, ou pelo menos deixa seu prato mais saboroso."
+  },
+  {
+    "id": 34,
+    "titulo": "Brigadeiro da Sorte: Docinho pra Adoçar a Virada e a Conta Bancária",
+    "slug": "brigadeiro-da-sorte-docinho-pra-adoçar-a-virada-e-a-conta-bancaria",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "1 colher de sopa de manteiga",
+      "4 colheres de sopa de chocolate em pó",
+      "Chocolate granulado para enrolar"
+    ],
+    "modoPreparo": [
+      "Mexa o leite condensado, manteiga e chocolate até desgrudar da panela, igual a sua vontade de trabalhar na segunda.",
+      "Deixe a mistura esfriar e vire bolinhas, porque tamanho não é documento, mas doce é conforto.",
+      "Role no granulado e tente não comer tudo antes da virada, desafio aceito!",
+      "Sirva com sorriso e peça um desejo em cada mordida. Se não funcionar, pelo menos você comeu."
+    ],
+    "descricao": "Brigadeiro simples que promete adoçar seu ano novo e dar aquela força na sorte financeira — porque a gente quer, né?",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "15 porções",
+    "dica": "Colecione os brigadeiros para atrair dinheiro, porque doce e grana são bons parceiros de festa."
+  },
+  {
+    "id": 35,
+    "titulo": "Batida da Virada: Mistura que Une Família, Amigos e Ressaca",
+    "slug": "batida-da-virada-mistura-que-une-familia-amigos-e-ressaca",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "200ml de leite condensado",
+      "200ml de vodka (ou cachaça, porque Brasil é Brasil)",
+      "200ml de leite integral",
+      "Gelo a gosto",
+      "Raspas de limão para decorar"
+    ],
+    "modoPreparo": [
+      "Coloque tudo no liquidificador e bata até parecer que o ano velho está indo embora rápido.",
+      "Sirva com gelo e decore com raspas de limão, porque a vida precisa de um toque ácido às vezes.",
+      "Brinde alto e não esqueça que essa batida pode virar a causa da sua preguiça dia 1º.",
+      "Se alguém perguntar o segredo, diga que é amor, mas principalmente vodka."
+    ],
+    "descricao": "Batida cremosa e alcoólica, perfeita pra celebrar a virada com alegria e, claro, preparar a desculpa para o dia seguinte.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Beba devagar, porque a única coisa que deve passar rápido no ano novo é a tristeza."
+  },
+  {
+    "id": 36,
+    "titulo": "Salada do Começo Sem Crise: Folhas, Frutas e Confusão",
+    "slug": "salada-do-comeco-sem-crise-folhas-frutas-e-confusao",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "alface americana",
+      "rúcula",
+      "manga picada",
+      "nozes picadas",
+      "queijo minas frescal",
+      "mel",
+      "limão",
+      "azeite de oliva",
+      "pimenta-do-reino"
+    ],
+    "modoPreparo": [
+      "Lave as folhas como se estivesse lavando as mágoas do ano passado.",
+      "Misture a manga, as nozes e o queijo, porque no ano novo a gente merece um elenco variado.",
+      "Faça um molho com mel, limão, azeite e pimenta, o tempero da mixórdia que dá certo.",
+      "Jogue tudo na tigela, misture e finja que está controlando a vida."
+    ],
+    "descricao": "Uma salada que junta o amargo, o doce e o crocante, igual sua lista de resoluções: misturada e cheia de esperança.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,50",
+    "porcoes": "4 porções",
+    "dica": "Se alguém reclamar que tem nozes demais, diga que é pra não perder a cabeça em 2024."
+  },
+  {
+    "id": 37,
+    "titulo": "Tapioca da Virada: Crocante como suas promessas",
+    "slug": "tapioca-da-virada-crocante-como-suas-promessas",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "goma de tapioca hidratada",
+      "queijo coalho ralado",
+      "coco ralado fresco",
+      "melado de cana",
+      "manteiga",
+      "canela em pó"
+    ],
+    "modoPreparo": [
+      "Espalhe a goma na frigideira como se estivesse espalhando suas expectativas pro ano novo.",
+      "Deixe dourar, coloque o queijo coalho e o coco ralado, e dobre com a habilidade de evitar problemas.",
+      "Sirva com melado e polvilhe canela para dar aquele aroma de quem sabe o que faz, pelo menos na cozinha."
+    ],
+    "descricao": "Tapioca doce com toque nordestino pra deixar seu réveillon crocante e saboroso, igual suas ideias no meio da festa.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "3 porções",
+    "dica": "Coma antes da meia-noite pra garantir que o ano comece doce, não só na boca."
+  },
+  {
+    "id": 38,
+    "titulo": "Panetone Salgado do Desespero: Porque só doce não resolve",
+    "slug": "panetone-salgado-do-desespero-porque-so-doce-nao-resolve",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "panetone pequeno",
+      "requeijão cremoso",
+      "presunto fatiado",
+      "queijo prato fatiado",
+      "azeitona preta picada",
+      "orégano"
+    ],
+    "modoPreparo": [
+      "Corte a 'tampa' do panetone com jeitinho, igual cortando expectativas ruins.",
+      "Recheie com requeijão, presunto, queijo e azeitona, porque ano novo merece recheio completo.",
+      "Polvilhe orégano e leve ao forno rápido só pra derreter o queijo e fazer tudo parecer que saiu de uma padaria chique."
+    ],
+    "descricao": "Aquela receita que mistura o doce do panetone com o salgado da vida real, porque o ano novo é isso: mistureba que dá certo.",
+    "tempo": "25 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Se alguém reclamar, diga que é inovação gourmet de quem não aguenta só doce."
+  },
+  {
+    "id": 39,
+    "titulo": "Espetinho de Queijo Coalho com Mel e Pimenta: Pra esquentar o ano e a alma",
+    "slug": "espetinho-de-queijo-coalho-com-mel-e-pimenta-pra-esquentar-o-ano-e-a-alma",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "queijo coalho em cubos",
+      "mel",
+      "pimenta calabresa",
+      "azeite de oliva",
+      "palitos de churrasco"
+    ],
+    "modoPreparo": [
+      "Espete os cubos de queijo como se estivesse firmando seus planos para o ano.",
+      "Grelhe na frigideira com azeite até dourar e ficar com cara de que sabe o que faz.",
+      "Regue com mel e salpique pimenta calabresa pra aquele choque de sabores, igual a vida."
+    ],
+    "descricao": "Um espetinho que é doçura e ardência, porque seu ano novo merece emoção, até no prato.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "3 porções",
+    "dica": "Não esqueça de avisar os convidados que vai ter fogo no parquinho – e no paladar."
+  },
+  {
+    "id": 40,
+    "titulo": "Bolo Salgado do Recomeço: Pra virar a página e o prato",
+    "slug": "bolo-salgado-do-recomeco-pra-virar-a-pagina-e-o-prato",
+    "categoria": "Ano Novo 🥂",
+    "ingredientes": [
+      "farinha de trigo",
+      "ovos",
+      "leite",
+      "óleo",
+      "queijo ralado",
+      "presunto picado",
+      "tomate picado",
+      "cebola picada",
+      "fermento em pó",
+      "sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Misture tudo como se estivesse juntando seus planos para um ano melhor.",
+      "Coloque numa forma untada e leve ao forno até dourar, igual seu ânimo depois do café da manhã.",
+      "Sirva com aquele sorriso de quem promete tentar de novo."
+    ],
+    "descricao": "Um bolo que não é doce, mas é cheio de sabor e promessa, pra você começar o ano com o pé direito e o estômago feliz.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "6 porções",
+    "dica": "Se sobrar, leve pro trabalho e conquiste a galera com seu talento culinário (ou pelo menos com a comida)."
   }
 ]

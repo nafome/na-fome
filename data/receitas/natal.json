@@ -319,5 +319,811 @@
     "preco": "R$ 25,00",
     "porcoes": "6 porções",
     "dica": "Se sobrar, diga que é 'ceia do dia seguinte' para justificar comer frio no café da manhã — tradição de verdade."
+  },
+  {
+    "id": 11,
+    "titulo": "Salada de Maçã com Nozes: Natal que até o Papai Noel tenta roubar",
+    "slug": "salada-maca-nozes-natal-papai-noel-rouba",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "3 maçãs verdes picadas",
+      "1 xícara de nozes picadas",
+      "1 pote de iogurte natural",
+      "1 colher de sopa de mel",
+      "1 colher de chá de canela em pó",
+      "Suco de meio limão"
+    ],
+    "modoPreparo": [
+      "Misture as maçãs com o suco de limão para elas não ficarem tímidas e escurecerem.",
+      "Adicione as nozes para dar aquela crocância que faz até a tia festeira calar.",
+      "Misture o iogurte com mel e canela até parecer uma nuvem doce.",
+      "Junte tudo e mexa como se estivesse animado para abrir os presentes."
+    ],
+    "descricao": "Uma salada fresca, doce e crocante que vai fazer seus convidados esquecerem da ceia por um minuto (ou dois). Perfeita para quem quer impressionar sem virar o chef da família.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,50",
+    "porcoes": "6 porções",
+    "dica": "Se alguém reclamar que é dieta, diga que é 'ceia saudável' e sirva mais uma fatia de peru depois."
+  },
+  {
+    "id": 12,
+    "titulo": "Biscoito Natalino de Gengibre que até o Grinch vai querer bis",
+    "slug": "biscoito-natalino-gengibre-grinch-quer-bis",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "2 xícaras de farinha de trigo",
+      "1 colher de chá de gengibre em pó",
+      "1 colher de chá de canela em pó",
+      "1/2 colher de chá de noz-moscada",
+      "1/2 xícara de açúcar mascavo",
+      "125g de manteiga",
+      "1 ovo",
+      "1 colher de chá de bicarbonato de sódio",
+      "Açúcar de confeiteiro para decorar"
+    ],
+    "modoPreparo": [
+      "Misture tudo até a massa ficar parecida com aquela resistência do tio no almoço de Natal.",
+      "Abra a massa com um rolo (ou com as mãos mesmo, a gente não julga).",
+      "Corte em formatos natalinos para impressionar a criançada.",
+      "Asse até dourar e sinta o cheirinho invadir a casa como se fosse magia."
+    ],
+    "descricao": "Um clássico que une especiarias e diversão, perfeito para fazer com a família e garantir uns biscoitos extra (ou esconder alguns para você!).",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 12,00",
+    "porcoes": "20 biscoitos",
+    "dica": "Se a criança reclamar que está difícil, diga que é treino para o Papai Noel carregar o saco de presentes."
+  },
+  {
+    "id": 13,
+    "titulo": "Cuscuz Natalino com Frutas Secas: porque peru cansa",
+    "slug": "cuscuz-natalino-frutas-secas-peru-cansa",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "2 xícaras de flocos de milho para cuscuz",
+      "1 xícara de frutas secas picadas (damasco, uva passa, ameixa)",
+      "1/2 xícara de castanhas de caju picadas",
+      "1 colher de sopa de manteiga",
+      "1 pitada de sal",
+      "1 colher de sopa de açúcar"
+    ],
+    "modoPreparo": [
+      "Hidrate os flocos com água quente, como quem tenta acordar no dia 25 de dezembro.",
+      "Misture as frutas e castanhas com a manteiga para dar aquele toque chique que só o Natal tem.",
+      "Misture tudo, tampe e deixe descansar como se fosse o tio depois do almoço.",
+      "Sirva e veja a família pedir bis antes do peru chegar."
+    ],
+    "descricao": "Uma opção diferente para quem quer fugir do peru e ainda manter aquele clima natalino cheio de sabor e crocância.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "5 porções",
+    "dica": "Se sobrar, use no café da manhã – é como um presente que dura mais que a véspera."
+  },
+  {
+    "id": 14,
+    "titulo": "Pipoca Doce de Natal: o cinema da sala invadiu a ceia",
+    "slug": "pipoca-doce-natal-cinema-sala-ceia",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "1/2 xícara de milho para pipoca",
+      "1/2 xícara de açúcar",
+      "3 colheres de sopa de manteiga",
+      "1 colher de sopa de água",
+      "Canela em pó a gosto",
+      "Corante vermelho alimentício (opcional)"
+    ],
+    "modoPreparo": [
+      "Faça a pipoca como se fosse a vontade de fugir da conversa da família.",
+      "Misture açúcar, manteiga e água numa panela até virar uma calda brilhante digna de Natal.",
+      "Despeje a calda sobre a pipoca quente e mexa rápido para não queimar nem os dedos.",
+      "Se quiser, adicione corante para um toque natalino e sirva antes que o Papai Noel peça."
+    ],
+    "descricao": "Pipoca doce para deixar a ceia mais divertida e abrir espaço para a sobremesa – afinal, Natal é maratona, não sprint.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "4 porções",
+    "dica": "Se ficar grudando no dente, finja que era a intenção para lembrar do espírito natalino grudando na alma."
+  },
+  {
+    "id": 15,
+    "titulo": "Mousse de Maracujá Natalino: azedinho que conquista até a tia reclamona",
+    "slug": "mousse-maracuja-natal-azedinho-tia-reclamona",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "1 lata de creme de leite",
+      "1 medida da lata de suco de maracujá concentrado",
+      "1 envelope de gelatina sem sabor",
+      "Polpa de maracujá para decorar"
+    ],
+    "modoPreparo": [
+      "Hidrate a gelatina e derreta com o jeitinho que só você sabe, como convencer o tio a contar piadas novas.",
+      "Bata leite condensado, creme de leite e suco de maracujá até ficar uma mistura que parece até que vai dar certo.",
+      "Misture a gelatina derretida com cuidado para não espantar a mousse.",
+      "Coloque na geladeira e espere o tempo que parece uma eternidade (ou até a sobremesa ficar firme).",
+      "Decore com polpa de maracujá para aquele toque de chef que ninguém vai acreditar que é tão fácil."
+    ],
+    "descricao": "Um doce azedinho que equilibra o açúcar da ceia e conquista até quem acha que sobremesa é perda de tempo.",
+    "tempo": "3 h (com geladeira)",
+    "dificuldade": "Fácil",
+    "preco": "R$ 16,00",
+    "porcoes": "6 porções",
+    "dica": "Se sobrar, avise que é pra 'reforçar a imunidade' – ninguém vai questionar com essa desculpa."
+  },
+  {
+    "id": 16,
+    "titulo": "Rabanada Recheada: O Natal que Escondeu a Dieta",
+    "slug": "rabanada-recheada-o-natal-que-escondeu-a-dieta",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "pão de forma brioche",
+      "doce de leite",
+      "canela em pó",
+      "açúcar",
+      "ovos",
+      "leite",
+      "manteiga"
+    ],
+    "modoPreparo": [
+      "Corte o pão em fatias grossas, daquele jeitinho que parece que vai rolar um banquete.",
+      "Recheie cada fatia com uma generosa camada de doce de leite – porque escondidinho de dieta é mais gostoso.",
+      "Faça uma mistura de ovos, leite, açúcar e canela e mergulhe as fatias como se fossem férias no Caribe.",
+      "Frite na manteiga até dourar, com aquele cheirinho que faz até o tio perguntar se pode repetir."
+    ],
+    "descricao": "Rabanada recheada que disfarça a culpa e faz a balança pensar que não foi nada.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,50",
+    "porcoes": "6 porções",
+    "dica": "Se a dieta reclamar, diga que é só um experimento científico pra ver se o doce de leite derrete rápido."
+  },
+  {
+    "id": 17,
+    "titulo": "Salada Natalina de Grão-de-Bico: Porque Até no Natal Tem que Ter Verdura",
+    "slug": "salada-natalina-de-grao-de-bico-porque-ate-no-natal-tem-que-ter-verdura",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "grão-de-bico cozido",
+      "tomate cereja",
+      "cebola roxa",
+      "salsinha",
+      "azeite",
+      "limão",
+      "sal",
+      "pimenta-do-reino"
+    ],
+    "modoPreparo": [
+      "Jogue o grão-de-bico na tigela como se estivesse jogando confete no réveillon.",
+      "Pique os tomates e a cebola com a precisão de quem quer impressionar a tia, mas não muito para evitar lágrimas.",
+      "Misture tudo com azeite, limão, sal e pimenta e mexa até parecer que está dando uma aula de gastronomia.",
+      "Deixe na geladeira para ficar aquela delícia refrescante, igual fofoca de família que só melhora com o tempo."
+    ],
+    "descricao": "Salada que convence até quem acha que verdura no Natal é invenção da vovó.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "4 porções",
+    "dica": "Use a cebola roxa pra dar charme, porque no Natal a gente quer tudo bem paparicado."
+  },
+  {
+    "id": 18,
+    "titulo": "Pernil de Frango Duro que Amolece no Forno (E no Coração)",
+    "slug": "pernil-de-frango-duro-que-amolece-no-forno-e-no-coracao",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "pernil de frango",
+      "alho",
+      "alecrim",
+      "sal grosso",
+      "pimenta do reino",
+      "vinagre",
+      "azeite"
+    ],
+    "modoPreparo": [
+      "Marinar o pernil com alho, alecrim, vinagre e azeite para dar aquele tempero que faz inveja ao vizinho.",
+      "Deixe descansar como quem espera o amigo que sempre se atrasa na ceia.",
+      "Asse no forno devagarinho, enquanto conta piadas para o frango, porque ele vai amolecer de tanto rir.",
+      "Sirva com aquela farofa que até a dieta vai pedir pra dar um tempo."
+    ],
+    "descricao": "Pernil de frango que começa duro, mas termina suave como as desculpas do tio bêbado.",
+    "tempo": "2h 30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "6 porções",
+    "dica": "Não esqueça de contar piadas para o pernil, amizades verdadeiras amolecem até o frango."
+  },
+  {
+    "id": 19,
+    "titulo": "Arroz Doce Natalino com Toque de Whisky: Para Adultos com Alma de Criança",
+    "slug": "arroz-doce-natalino-com-toque-de-whisky-para-adultos-com-alma-de-crianca",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "arroz branco",
+      "leite integral",
+      "açúcar",
+      "canela em pau",
+      "casca de limão",
+      "whisky",
+      "cravos-da-índia"
+    ],
+    "modoPreparo": [
+      "Cozinhe o arroz com leite, canela, cravo e casca de limão como se estivesse preparando a poção mágica do Natal.",
+      "Mexa até o arroz ficar cremoso, igual a conversa da família depois do terceiro vinho.",
+      "Desligue o fogo e, com cuidado de tio que não quer confusão, adicione um toque de whisky.",
+      "Deixe esfriar e sirva, provocando aquele olhar de quem sabe aproveitar a ceia."
+    ],
+    "descricao": "Arroz doce que é quase um drink natalino disfarçado, para quem gosta de misturar tudo na vida.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "5 porções",
+    "dica": "Dose o whisky com moderação, pra festa não virar roda de karaokê desafinado."
+  },
+  {
+    "id": 20,
+    "titulo": "Salpicão Vegano: Natal para Quem Quer Comer e Não Sofrer Depois",
+    "slug": "salpicao-vegano-natal-para-quem-quer-comer-e-nao-sofrer-depois",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "shimeji",
+      "maçã verde",
+      "cenoura ralada",
+      "salsão",
+      "maionese vegana",
+      "castanha de caju",
+      "salsinha",
+      "limão",
+      "sal",
+      "pimenta"
+    ],
+    "modoPreparo": [
+      "Refogue o shimeji com sal e pimenta, dando aquele tempero esperto para enganar até os carnívoros.",
+      "Corte a maçã verde em cubos, porque Natal é festa e fruta também é festa, né?",
+      "Misture tudo com cenoura, salsão, maionese vegana, castanhas e salsinha, como quem monta um quebra-cabeça gostoso.",
+      "Acerte no limão para dar aquela acidez, como aquela piada que só a família do lado entende."
+    ],
+    "descricao": "Salpicão que prova que dá pra ser vegano e ainda conquistar o prato principal da ceia.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "6 porções",
+    "dica": "Se alguém perguntar onde está a proteína, responda com um sorriso e mais salpicão."
+  },
+  {
+    "id": 21,
+    "titulo": "Couve-Flor Natalina: O Brócolis Rebelde que Virou Estrela",
+    "slug": "couve-flor-natalina-o-brocolis-rebelde-que-virou-estrela",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "1 cabeça média de couve-flor",
+      "3 dentes de alho picados",
+      "3 colheres de sopa de azeite",
+      "Sal a gosto",
+      "Pimenta-do-reino a gosto",
+      "Salsinha picada para decorar"
+    ],
+    "modoPreparo": [
+      "Separe a couve-flor como se estivesse arrumando um time de futebol: tire os buquês mais bonitos.",
+      "Em uma panela, aqueça o azeite e faça uma serenata para o alho até ele dourar e ficar cheirosíssimo.",
+      "Jogue a couve-flor na panela e mexa como se fosse convencer a galera a dançar na festa de Natal.",
+      "Tempere com sal e pimenta, tampe e deixe cozinhar até ficar macia, tipo aquele tio que só aparece na festa e some rapidinho.",
+      "Salpique salsinha como se fosse confete e sirva com orgulho – porque couve-flor também merece seu momento de fama."
+    ],
+    "descricao": "Uma receita simples que vai fazer até quem torce o nariz para legumes na ceia natalina dar uma segunda chance para a couve-flor. Afinal, no Natal tudo pode virar estrela!",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Se a couve-flor começar a fazer cara de brava, dá uma mexida com piada – legumes também amam stand-up."
+  },
+  {
+    "id": 22,
+    "titulo": "Arroz Natalino de Pinhão: O Segredo da Serra que Caiu na Ceia",
+    "slug": "arroz-natalino-de-pinhao-o-segredo-da-serra-que-caiu-na-ceia",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "2 xícaras de arroz branco",
+      "1 xícara de pinhão cozido e picado",
+      "1 cebola média picada",
+      "2 dentes de alho picados",
+      "3 colheres de sopa de óleo",
+      "Sal e pimenta a gosto",
+      "Salsinha picada"
+    ],
+    "modoPreparo": [
+      "Lave o arroz como quem lava a alma – com carinho e paciência.",
+      "Refogue a cebola e o alho no óleo até ficarem douradinhos, tipo aquele tio que sabe contar história boa.",
+      "Jogue o pinhão na panela e dê uma mexida; ele merece entrar na dança da ceia.",
+      "Acrescente o arroz, misture tudo e cubra com água fervente. Tempere com sal e pimenta e deixe cozinhar até a água secar e o arroz ficar fofinho, como travesseiro de Natal.",
+      "Finalize com salsinha e sirva antes que o peru fique com ciúmes."
+    ],
+    "descricao": "Para quem quer uma ceia com gostinho de montanha e um toque regional que vai surpreender até o Papai Noel.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,50",
+    "porcoes": "5 porções",
+    "dica": "Se não achar pinhão, não vale colocar castanha do Pará e chamar de regional, hein?"
+  },
+  {
+    "id": 23,
+    "titulo": "Brigadeiro de Panetone: O Natal que Derrete na Boca e na Dieta",
+    "slug": "brigadeiro-de-panetone-o-natal-que-derrete-na-boca-e-na-dieta",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "1 colher de sopa de manteiga",
+      "4 colheres de sopa de achocolatado em pó",
+      "1 xícara de panetone picado",
+      "Granulado para decorar"
+    ],
+    "modoPreparo": [
+      "Em uma panela, misture leite condensado, manteiga e achocolatado como quem está preparando um stand-up: com amor e risadas.",
+      "Cozinhe em fogo baixo, mexendo sempre até o brigadeiro desgrudar da panela (ou até seu vizinho pedir para parar o barulho).",
+      "Desligue o fogo e misture o panetone picado, porque Natal sem panetone é tipo piada sem punchline.",
+      "Deixe esfriar, faça bolinhas e passe no granulado com a mesma empolgação de criança no Natal.",
+      "Sirva e aguarde os elogios (e pedidos de mais)."
+    ],
+    "descricao": "O brigadeiro ganhou um upgrade natalino com pedaços de panetone que garantem a festa na sua boca e a quebra da dieta na certa.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "10 porções",
+    "dica": "Se sobrar, esconda dos parentes – esse brigadeiro é tipo presente que só você merece."
+  },
+  {
+    "id": 24,
+    "titulo": "Salada de Maçã com Hortelã: O Refresco para a Tia que Reclama da Ceia",
+    "slug": "salada-de-maca-com-hortela-o-refresco-para-a-tia-que-reclama-da-ceia",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "2 maçãs verdes picadas",
+      "1 maço pequeno de hortelã picado",
+      "Suco de 1 limão",
+      "2 colheres de sopa de mel",
+      "1/2 xícara de nozes picadas"
+    ],
+    "modoPreparo": [
+      "Misture as maçãs com o suco de limão para evitar que fiquem com cara de madrugadinha de Natal.",
+      "Junte o mel e a hortelã, aquele toque fresco que até a tia mais crítica vai achar válido (ou pelo menos fingir).",
+      "Adicione as nozes para fazer cara de chique e saudável.",
+      "Misture tudo com carinho e ponha na geladeira para dar aquele refresco antes da próxima rodada de pernil.",
+      "Sirva com um sorriso sarcástico e espere a reação."
+    ],
+    "descricao": "A salada que é praticamente um spa na ceia, perfeita para quem quer parecer saudável e ainda rir da cara da dieta.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "4 porções",
+    "dica": "Se a tia reclamar da hortelã, ofereça um brigadeiro ao lado – equilíbrio é tudo."
+  },
+  {
+    "id": 25,
+    "titulo": "Batata Doce Assada com Canela: O Natal que Parece Sobremesa e Não é",
+    "slug": "batata-doce-assada-com-canela-o-natal-que-parece-sobremesa-e-nao-e",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "4 batatas doces médias",
+      "2 colheres de sopa de azeite",
+      "1 colher de sopa de canela em pó",
+      "Sal a gosto",
+      "Mel para regar (opcional)"
+    ],
+    "modoPreparo": [
+      "Lave as batatas como quem se prepara para a maratona de ceia.",
+      "Corte em rodelas grossas, porque batata doce fina some antes do Natal acabar.",
+      "Misture o azeite, canela e sal em uma tigela e dê uma dancinha para atrair boas energias.",
+      "Passe as batatas nessa mistura como se estivesse dando aquele abraço apertado de Natal.",
+      "Asse em forno médio por 35 minutos ou até ficarem douradas e cheirosas – sinal de que a ceia vai bombar.",
+      "Se quiser, regue com mel no final para enganar o paladar e chamar de sobremesa."
+    ],
+    "descricao": "Um prato que engana todo mundo: parece doce, mas é um acompanhamento salgado que vai trazer paz (e sabor) à sua ceia.",
+    "tempo": "50 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "4 porções",
+    "dica": "Se alguém reclamar que batata doce não é natalina, responda que nem peru é mais, mas a gente come do mesmo jeito."
+  },
+  {
+    "id": 26,
+    "titulo": "Pernil de Natal: A Saga do Bicho que Sobreviveu ao Forno",
+    "slug": "pernil-de-natal-a-saga-do-bicho-que-sobreviveu-ao-forno",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "1 pernil suíno de 2kg",
+      "5 dentes de alho amassados",
+      "1 cebola grande picada",
+      "Suco de 2 laranjas",
+      "Sal e pimenta do reino a gosto",
+      "Alecrim fresco",
+      "Azeite de oliva"
+    ],
+    "modoPreparo": [
+      "Tempere o pernil como se estivesse contando toda a fofoca da família: alho, cebola, sal, pimenta, suco de laranja e alecrim.",
+      "Deixe o pernil na geladeira por pelo menos 4 horas (ou o dia todo, se você é fã de suspense).",
+      "Coloque no forno a 180°C, cubra com papel alumínio (para não ressecar, tipo aquela tia que reclama do ar condicionado) e asse por 3 horas.",
+      "Retire o alumínio, jogue um pouco de azeite e deixe dourar por 30 minutos.",
+      "Sirva na ceia e prepare-se para os elogios (ou para os pedidos de sobra)."
+    ],
+    "descricao": "Um pernil digno de novela mexicana: cheio de drama, emoção e uma boa dose de suculência que faz até a dieta pedir arrego.",
+    "tempo": "4h 30min",
+    "dificuldade": "Médio",
+    "preco": "R$ 65,00",
+    "porcoes": "8 porções",
+    "dica": "Se a família começar a brigar, ofereça uma fatia extra de pernil. Funciona como um pacificador oficial!"
+  },
+  {
+    "id": 27,
+    "titulo": "Gelatina Natalina: O Jogo do Esconde-Esconde da Fruta",
+    "slug": "gelatina-natalina-o-jogo-do-esconde-esconde-da-fruta",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "1 pacote de gelatina sabor morango",
+      "300 ml de água quente",
+      "200 ml de água fria",
+      "1 lata de pêssego em calda picado",
+      "1 maçã picada",
+      "Uvas-passas a gosto"
+    ],
+    "modoPreparo": [
+      "Dissolva a gelatina na água quente como se estivesse derretendo um coração de pedra.",
+      "Acrescente a água fria e misture como quem tenta juntar os pedaços da ceia.",
+      "Na travessa, jogue as frutas picadas como se estivesse escondendo tesouros.",
+      "Despeje a gelatina sobre as frutas e leve à geladeira por pelo menos 4 horas (tempo suficiente para planejar as piadas do Natal).",
+      "Sirva gelada e observe quem vai tentar adivinhar quantas frutas tem dentro."
+    ],
+    "descricao": "Gelatina natalina que é quase um reality show: cheia de surpresas, frutas e aquela expectativa de quem vai comer mais.",
+    "tempo": "4h 15min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,50",
+    "porcoes": "6 porções",
+    "dica": "Use as uvas-passas para distrair as crianças enquanto você fura a gelatina com o garfo."
+  },
+  {
+    "id": 28,
+    "titulo": "Salada Crocante Natalina: Porque Até o Papai Noel Quer Verdura",
+    "slug": "salada-crocante-natalina-porque-ate-o-papai-noel-quer-verdura",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "1 maço de alface americana",
+      "1 cenoura ralada",
+      "1 maçã verde picada",
+      "1/2 xícara de nozes picadas",
+      "Molho de iogurte com hortelã",
+      "Sal e pimenta do reino a gosto"
+    ],
+    "modoPreparo": [
+      "Lave e rasgue a alface como quem tenta não pensar nas calorias do Natal.",
+      "Misture a cenoura e a maçã para dar aquela crocância que faz até o peru querer virar vegetariano.",
+      "Adicione as nozes com a mesma empolgação de quem encontra dinheiro no bolso da calça.",
+      "Tempere com o molho de iogurte, sal e pimenta, e misture tudo com carinho, quase como um presente embrulhado.",
+      "Sirva e observe as caras de surpresa: 'Salada no Natal? E gostosa ainda!'"
+    ],
+    "descricao": "Salada crocante que prova que Natal não é só gordura e açúcar — tem espaço pra saúde e risadas também.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Se alguém reclamar, ofereça a última noz como prêmio de consolação."
+  },
+  {
+    "id": 29,
+    "titulo": "Brigadeiro Brilhante: O Docinho que Ilumina a Árvore (e a Dieta)",
+    "slug": "brigadeiro-brilhante-o-docinho-que-ilumina-a-arvore-e-a-dieta",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "2 colheres de sopa de cacau em pó",
+      "1 colher de sopa de manteiga",
+      "Chocolate granulado colorido",
+      "Confeitos natalinos (estrelas, bolinhas)"
+    ],
+    "modoPreparo": [
+      "Misture leite condensado, cacau e manteiga numa panela como se fosse montar o roteiro do stand-up: devagar e cheio de graça.",
+      "Cozinhe em fogo médio, mexendo sempre até desgrudar da panela (nem muito mole, nem pedra no sapato).",
+      "Deixe esfriar e faça bolinhas com as mãos, que devem estar limpas ou você vai perder audiência.",
+      "Role os brigadeiros no chocolate granulado e finalize com confeitos natalinos para aquele brilho digno de estrela do Natal.",
+      "Sirva no prato de festa e prepare para ser a estrela da ceia."
+    ],
+    "descricao": "Brigadeiro com mais brilho que pisca-pisca, ideal para adoçar a vida e justificar a caloria com sorriso no rosto.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "15 porções",
+    "dica": "Se quiser impressionar, esconda um brigadeiro extra para o Papai Noel. Ele merece!"
+  },
+  {
+    "id": 30,
+    "titulo": "Arroz Natalino com Castanhas: A Festa das Texturas e Confusões Familiares",
+    "slug": "arroz-natalino-com-castanhas-a-festa-das-texturas-e-confusoes-familiares",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "2 xícaras de arroz branco",
+      "1 cebola picada",
+      "2 dentes de alho picados",
+      "1/2 xícara de castanha de caju picada",
+      "1/4 xícara de uvas-passas",
+      "3 xícaras de água",
+      "Sal e azeite a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e o alho no azeite como se estivesse preparando o palco para o show natalino.",
+      "Junte o arroz e refogue até ficar brilhando (não literalmente, mas quase).",
+      "Adicione a água, o sal e deixe cozinhar até a água sumir como as desculpas para não ajudar na ceia.",
+      "Misture as castanhas e as uvas-passas como se estivesse organizando a bagunça da família — com cuidado e um pouco de medo.",
+      "Sirva quentinho e fique atento para os elogios (ou pedidos de receita)."
+    ],
+    "descricao": "Arroz natalino que mistura crocância, doçura e aquela pitada de confusão que só o Natal sabe trazer.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "6 porções",
+    "dica": "Se sobrar, use o arroz para fazer bolinhos no dia seguinte — porque desperdício no Natal é quase pecado."
+  },
+  {
+    "id": 31,
+    "titulo": "Pavê de Natal: 'É pra comer ou pra jogar no tio do pavê?'",
+    "slug": "pave-de-natal-e-pra-comer-ou-pra-jogar-no-tio-do-pave",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "1 pacote de biscoito maisena",
+      "2 latas de leite condensado",
+      "2 caixas de creme de leite",
+      "1 pacote de chocolate em pó",
+      "1 xícara de leite",
+      "Frutas cristalizadas para enfeitar"
+    ],
+    "modoPreparo": [
+      "Misture o leite condensado com o creme de leite e o chocolate em pó, até parecer um brigadeiro de festa.",
+      "Molhe os biscoitos no leite, e faça camadas no refratário, tipo montagem de castelo de cartas.",
+      "Finalize com o creme e jogue frutas cristalizadas por cima, porque no Natal, quanto mais colorido, melhor.",
+      "Leve à geladeira e espere o tempo suficiente para o tio do pavê não estragar a sobremesa."
+    ],
+    "descricao": "A sobremesa que todo Natal tem, e todo Natal o tio do pavê comenta. Agora ele não vai resistir a esse pavê com dose extra de humor e chocolate.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "8 porções",
+    "dica": "Se o tio do pavê perguntar, diga que é receita secreta da vovó... mas só sua!"
+  },
+  {
+    "id": 32,
+    "titulo": "Salada de Lentilha: 'Pros azarados do Ano Novo e pra quem quer julgar menos'",
+    "slug": "salada-de-lentilha-pros-azarados-do-ano-novo-e-pra-quem-quer-julgar-menos",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "1 xícara de lentilha",
+      "1 cebola roxa picada",
+      "1 tomate grande picado",
+      "Salsinha e cebolinha a gosto",
+      "Suco de 1 limão",
+      "Azeite, sal e pimenta do reino"
+    ],
+    "modoPreparo": [
+      "Cozinhe a lentilha até ela ficar macia, tipo aquela piada que demora mas entrega o punchline.",
+      "Misture com a cebola, tomate, salsinha e cebolinha, tudo picadinho pra não ter desculpa de não gostar.",
+      "Tempere com limão, azeite, sal e pimenta do reino, porque a vida é sem graça sem tempero.",
+      "Deixe na geladeira pelo menos 30 minutos, pra ficar mais saborosa e seu ego menos pesado."
+    ],
+    "descricao": "A salada que promete dar sorte no Ano Novo e pelo menos uma desculpa pra você não culpar só o destino.",
+    "tempo": "50 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "6 porções",
+    "dica": "Se sobrar, coma no dia seguinte e finja que é gourmet."
+  },
+  {
+    "id": 33,
+    "titulo": "Pernil de Porco ao Molho de Coca-Cola: 'Natal que cola e não desgruda da mesa'",
+    "slug": "pernil-de-porco-ao-molho-de-coca-cola-natal-que-cola-e-nao-desgruda-da-mesa",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "1 pernil de porco pequeno (2kg)",
+      "1 lata de Coca-Cola",
+      "4 dentes de alho amassados",
+      "Sal, pimenta do reino e alecrim a gosto",
+      "1 cebola grande fatiada"
+    ],
+    "modoPreparo": [
+      "Tempere o pernil com alho, sal, pimenta e alecrim, como se estivesse preparando um discurso de Natal, com emoção e intensidade.",
+      "Coloque o pernil numa assadeira com a cebola fatiada ao redor, pra ele não se sentir sozinho.",
+      "Despeje a Coca-Cola por cima, que vai fazer aquele molho docinho que ninguém espera, tipo presente surpresa.",
+      "Leve para assar em forno médio por 3 horas, regando de vez em quando, igual àquele parente que só aparece na ceia."
+    ],
+    "descricao": "Pernil suculento com um toque secreto que cola na mente e na mesa, fazendo todo mundo pedir bis e garantir a vaga no Natal do ano que vem.",
+    "tempo": "3h30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 70,00",
+    "porcoes": "10 porções",
+    "dica": "Se quiser a garantia de sucesso, prepare a sobremesa antes do pernil acabar."
+  },
+  {
+    "id": 34,
+    "titulo": "Brigadeiro de Panettone: 'O Natal rebelde que mistura festa com vontade de comer tudo'",
+    "slug": "brigadeiro-de-panettone-o-natal-rebelde-que-mistura-festa-com-vontade-de-comer-tudo",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "1 colher de sopa de manteiga",
+      "2 fatias de panettone picadas",
+      "Chocolate granulado para enrolar"
+    ],
+    "modoPreparo": [
+      "Numa panela, misture o leite condensado, a manteiga e o panettone picado, que vai dar aquele sabor natalino com atitude.",
+      "Cozinhe mexendo sempre até desgrudar do fundo da panela, igual as conversas da família na ceia.",
+      "Deixe esfriar e enrole nos brigadeiros, passando no chocolate granulado, porque o Natal merece brilho e crocância.",
+      "Sirva e observe o duelo entre quem vai querer repetir e quem vai fingir que está de dieta."
+    ],
+    "descricao": "O brigadeiro que decidiu que panettone não é só pra comer seco, mas sim para invadir sua boca em forma de doce e diversão.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "12 porções",
+    "dica": "Se quiser revolucionar, adicione uma pitada de canela para aquele toque natalino extra."
+  },
+  {
+    "id": 35,
+    "titulo": "Farofa Crocante de Natal: 'Porque até a farofa merece seu momento de fama'",
+    "slug": "farofa-crocante-de-natal-porque-ate-a-farofa-merece-seu-momento-de-fama",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "2 xícaras de farinha de mandioca",
+      "1 cebola picada",
+      "1/2 xícara de uvas passas",
+      "1/2 xícara de castanhas de caju picadas",
+      "2 colheres de sopa de manteiga",
+      "Sal e pimenta do reino a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola na manteiga até ficar douradinha, igual a aquela tia que só aparece no Natal para criticar.",
+      "Adicione as castanhas e as uvas passas, porque Natal tem que ser mistura de doce com salgado, igual conversa na mesa.",
+      "Jogue a farinha de mandioca e mexa até ficar sequinha e crocante, como as piadas do tio do pavê.",
+      "Tempere com sal e pimenta, porque até a farofa tem seu temperamento."
+    ],
+    "descricao": "Farofa que não é coadjuvante, é estrela da ceia que conquista até quem torce o nariz pra farinha.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "6 porções",
+    "dica": "Para a farofa ficar ainda mais crocante, use castanhas torradas no fim do preparo."
+  },
+  {
+    "id": 36,
+    "titulo": "Panqueca Natalina que até o Papai Noel trocaria o trenó",
+    "slug": "panqueca-natalina-que-ate-o-papai-noel-trocaria-o-treno",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "1 xícara de farinha de trigo",
+      "1 ovo",
+      "1 xícara de leite",
+      "1 colher de sopa de açúcar",
+      "1 colher de chá de canela em pó",
+      "1 maçã picada",
+      "Mel para servir"
+    ],
+    "modoPreparo": [
+      "Misture tudo menos a maçã e o mel, afinal, ninguém quer maçã voando num tornado de farinha.",
+      "Derrame a massa na frigideira quente e jogue as maçãs por cima como se fosse neve.",
+      "Quando as bordas estiverem douradas e a casa cheirando a Natal, vire com coragem.",
+      "Sirva com mel, porque Natal é doce, e a dieta fica pra próxima temporada."
+    ],
+    "descricao": "Essa panqueca é tão natalina que faz até o Papai Noel querer uma pausa no trenó pra experimentar. Fácil, rápida e com uma pitada de canela pra dar aquele abraço no seu estômago.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,50",
+    "porcoes": "4 porções",
+    "dica": "Capriche na canela: é o tempero oficial dos abraços natalinos."
+  },
+  {
+    "id": 37,
+    "titulo": "Chocotone de microondas: Natal express para os sem paciência",
+    "slug": "chocotone-de-microondas-natal-express-para-os-sem-paciencia",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "4 colheres de sopa de farinha de trigo",
+      "3 colheres de sopa de açúcar",
+      "1 ovo",
+      "2 colheres de sopa de leite",
+      "1 colher de sopa de óleo",
+      "1 colher de chá de fermento em pó",
+      "1 punhado de chocolate granulado"
+    ],
+    "modoPreparo": [
+      "Misture tudo numa caneca, até parecer aquela receita que sua tia tenta explicar no WhatsApp.",
+      "Jogue o fermento por último, porque ele é o mágico da história.",
+      "Leve ao microondas por 2 minutos e meio, ou até parecer que não vai explodir.",
+      "Deixe esfriar (ou não), e se prepare para comer um chocotone que é praticamente um milagre natalino."
+    ],
+    "descricao": "Para quem quer o espírito natalino, mas não a espera do Papai Noel. Um chocotone que fica pronto mais rápido que sua vontade de 'só uma fatia'.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Não esqueça do tempo no microondas, ou seu chocotone vira um vulcão de chocolate."
+  },
+  {
+    "id": 38,
+    "titulo": "Arroz de Natal com toque de bacon: porque tudo fica melhor com bacon",
+    "slug": "arroz-de-natal-com-toque-de-bacon-porque-tudo-fica-melhor-com-bacon",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "2 xícaras de arroz branco",
+      "4 fatias de bacon picado",
+      "1 cebola picada",
+      "1/2 xícara de uvas passas",
+      "1/2 xícara de castanhas de caju picadas",
+      "3 xícaras de água",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Frite o bacon até ficar crocante, ouvindo a sinfonia natalina da gordura crepitando.",
+      "Refogue a cebola na gordura do bacon, porque desperdício não é palavra no Natal.",
+      "Junte o arroz, a água, sal e pimenta, e deixe cozinhar como quem espera ansioso pela ceia.",
+      "Quando estiver quase pronto, misture as passas e as castanhas para aquele toque de festa.",
+      "Sirva quente e observe a felicidade no olhar de quem ama bacon (tipo, todo mundo)."
+    ],
+    "descricao": "Arroz de Natal que junta tradição com o poder supremo do bacon. Fácil, gostoso e com aquele toque que faz até o tio do pavê pedir mais.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,00",
+    "porcoes": "6 porções",
+    "dica": "Se sobrar bacon, coma cru. No Natal, a gula é regra."
+  },
+  {
+    "id": 39,
+    "titulo": "Salada de frutas natalina: a desculpa saudável que ninguém acredita",
+    "slug": "salada-de-frutas-natalina-a-desculpa-saudavel-que-ninguem-acredita",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "1 maçã picada",
+      "1 laranja em gomos",
+      "1 banana fatiada",
+      "1/2 xícara de uvas",
+      "1/2 xícara de abacaxi picado",
+      "Suco de 1 limão",
+      "Mel a gosto",
+      "Hortelã para decorar"
+    ],
+    "modoPreparo": [
+      "Junte todas as frutas com a dignidade de quem sabe que vai atacar a rabanada em seguida.",
+      "Regue com suco de limão para evitar que a banana fique com cara de quem perdeu a esperança.",
+      "Adicione mel para fingir que é saudável e também pra agradar o paladar rebelde.",
+      "Decore com hortelã, porque a gente tenta parecer chique até na salada.",
+      "Sirva gelada e use a desculpa que é pra equilibrar a ceia... ou pelo menos tente."
+    ],
+    "descricao": "A salada de frutas que todo mundo coloca na mesa pra parecer que comeu bem, mas depois esconde o pratinho pra não perder tempo.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "5 porções",
+    "dica": "Se algum parente reclamar, ofereça outra fatia de panetone e finja que nada aconteceu."
+  },
+  {
+    "id": 40,
+    "titulo": "Molho natalino secreto: o que a vovó não quer que você saiba",
+    "slug": "molho-natalino-secreto-o-que-a-vovo-nao-quer-que-voce-saiba",
+    "categoria": "Natal 🎄",
+    "ingredientes": [
+      "1 pote de maionese (200g)",
+      "2 colheres de sopa de mostarda",
+      "1 colher de sopa de mel",
+      "1 colher de chá de páprica doce",
+      "Suco de meio limão",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Misture tudo numa tigela como se fosse um ritual sagrado para salvar a ceia.",
+      "Prove com uma colher generosa e finja que é a receita da família há gerações.",
+      "Sirva com carnes, saladas ou até aquele pãozinho esquecido na mesa.",
+      "Observe os elogios e guarde a receita, porque segredo de vovó não se conta nem pra Papai Noel."
+    ],
+    "descricao": "Molho simples, mas que transforma qualquer prato em estrela da ceia. Perfeito para quem gosta de mistério e sabor sem complicação.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "8 porções",
+    "dica": "Deixe na geladeira por umas horas para o molho pegar aquele ar de 'fiz com amor'."
   }
 ]

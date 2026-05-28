@@ -328,5 +328,855 @@
     "preco": "R$ 35,00",
     "porcoes": "4 porções",
     "dica": "Se alguém reclamar do camarão seco, só diga que frescura é pra peixe, e eu prefiro camarão com personalidade!"
+  },
+  {
+    "id": 11,
+    "titulo": "Camarão na Cerveja: Maré Alta no Seu Copo",
+    "slug": "camarao-na-cerveja-mare-alta-no-seu-copo",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "500g de camarão médio fresco",
+      "1 lata de cerveja clara (350ml)",
+      "3 dentes de alho picados",
+      "1 cebola pequena picada",
+      "1 pimenta dedo-de-moça sem sementes",
+      "Suco de 1 limão",
+      "Sal e pimenta-do-reino a gosto",
+      "Salsinha picada para finalizar",
+      "Azeite de oliva"
+    ],
+    "modoPreparo": [
+      "Coloque o camarão pra marinar no suco de limão, sal e pimenta — tipo romance de verão, só que mais rápido.",
+      "Enquanto isso, esquente o azeite e refogue alho, cebola e a pimenta. Deixe o cheiro invadir a casa, é grátis!",
+      "Jogue os camarões na panela, deixe eles dançarem por uns 3 minutos.",
+      "Agora o show principal: despeje a cerveja e tampe a panela. Deixe ferver até o líquido reduzir e o camarão ficar no ponto (nem 1 minuto a mais, nem 1 a menos).",
+      "Finalize com salsinha e sirva rápido antes que alguém roube."
+    ],
+    "descricao": "Uma mistura que vai te fazer sentir que o happy hour começou mais cedo. Camarão suculento com aquele toque de cerveja que é quase um convite pra festa no paladar.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 40,00",
+    "porcoes": "3 porções",
+    "dica": "Se sobrar cerveja, aproveite a bebida – a receita não pede regrinhas, só cerveja boa e camarão na medida certa!"
+  },
+  {
+    "id": 12,
+    "titulo": "Tilápia Swagger: O Peixe que Sabe Jogar Limão",
+    "slug": "tilapia-swagger-o-peixe-que-sabe-jogar-limao",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "4 filés de tilápia",
+      "Suco de 2 limões",
+      "Farinha de trigo para empanar",
+      "Sal e pimenta-do-reino a gosto",
+      "1 colher de chá de páprica",
+      "Azeite para fritar",
+      "Salsinha picada"
+    ],
+    "modoPreparo": [
+      "Tempere os filés com sal, pimenta, páprica e suco de limão. Deixe eles curtindo essa vibe por 15 minutos.",
+      "Passe os filés na farinha com jeitinho, sem exagerar, queremos crocância, não a múmia do peixe.",
+      "Aqueça o azeite e frite os filés até ficarem dourados, tipo aquele bronzeado de verão que todo mundo inveja.",
+      "Decore com salsinha e sirva com aquele arroz branco amigo."
+    ],
+    "descricao": "A tilápia que chega chegando, com limão e crocância pra fazer inveja até no peixe do açougue.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 30,00",
+    "porcoes": "4 porções",
+    "dica": "Não economize no limão, ele é o coach desse peixe para ficar estiloso!"
+  },
+  {
+    "id": 13,
+    "titulo": "Lula Recheada: O Polvo da Impostora",
+    "slug": "lula-recheada-o-polvo-da-impostora",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "4 lulas médias limpas",
+      "200g de farinha de pão",
+      "1 tomate picado",
+      "1 cebola pequena picada",
+      "2 dentes de alho picados",
+      "Cheiro-verde a gosto",
+      "Sal e pimenta-do-reino",
+      "Azeite",
+      "Suco de 1 limão"
+    ],
+    "modoPreparo": [
+      "Misture a farinha de pão com tomate, cebola, alho, cheiro-verde, sal e pimenta. Essa é a nossa mágica secreta de recheio.",
+      "Recheie as lulas com essa mistura (sem encher demais, ninguém quer virar bexiga).",
+      "Feche com palitos e grelhe na frigideira com azeite até ficarem douradinhas e com cheiro que vai fazer vizinho perguntar o que tá rolando.",
+      "Finalize com suco de limão e sirva quente, porque frio só a conta."
+    ],
+    "descricao": "Uma lula que quer ser polvo, recheada com sabor e atitude pra deixar seu almoço com alma de dar inveja no mar.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 45,00",
+    "porcoes": "4 porções",
+    "dica": "Se a lula quiser fugir, segure firme – ela só quer ser recheada, não maratonista!"
+  },
+  {
+    "id": 14,
+    "titulo": "Mariscada do Vizinho: Pra Ficar de Boa e Sem Reza Brava",
+    "slug": "mariscada-do-vizinho-pra-ficar-de-boa-e-sem-reza-brava",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "300g de mexilhões limpos",
+      "300g de mariscos limpos",
+      "2 tomates maduros picados",
+      "1 cebola picada",
+      "2 dentes de alho picados",
+      "1 vidro pequeno de vinho branco (opcional, mas recomendado pra fingir que sabe cozinhar)",
+      "Salsinha",
+      "Sal e pimenta-do-reino",
+      "Azeite"
+    ],
+    "modoPreparo": [
+      "Refogue alho e cebola no azeite até ficarem translucentes, aquele efeito Hollywood no seu fogão.",
+      "Junte tomates picados e deixe virar um molho básico, mas cheio de vida.",
+      "Adicione os mexilhões e mariscos, tempere com sal, pimenta e jogue o vinho branco – a cerveja fica pro camarão, lembra?",
+      "Tampe a panela e deixe os frutos do mar abrirem, é o sinal verde pra festa no prato.",
+      "Finalize com salsinha e sirva com pão para não deixar ninguém chupando dedo."
+    ],
+    "descricao": "A mariscada perfeita pra chamar o vizinho, o crush e até aquele amigo que só aparece pra comer.",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 50,00",
+    "porcoes": "4 porções",
+    "dica": "Se alguém perguntar o segredo, diga que é o vinho – funciona toda vez!"
+  },
+  {
+    "id": 15,
+    "titulo": "Bolinho de Siri das Últimas Horas: O Adeus Crocante",
+    "slug": "bolinho-de-siri-das-ultimas-horas-o-adeus-crocante",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "300g de carne de siri desfiada",
+      "1 batata média cozida e amassada",
+      "2 dentes de alho picados",
+      "1 cebola pequena picada",
+      "Cheiro-verde",
+      "1 ovo",
+      "Farinha de trigo para dar liga",
+      "Sal e pimenta-do-reino",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Misture a carne de siri, batata, alho, cebola, cheiro-verde, ovo, sal e pimenta até formar uma massa que não desmancha – tipo promessa de político.",
+      "Vá adicionando farinha aos poucos para ajustar a textura, sem virar massa de pão, ok?",
+      "Forme bolinhos do tamanho que caibam na boca (ou na pressa).",
+      "Frite em óleo quente até dourar, cuidado pra não fritar o dedo também.",
+      "Sirva com molho de pimenta pra dar aquela explosão final."
+    ],
+    "descricao": "O bolinho de siri que é quase uma despedida em forma de crocância, perfeito pra última refeição ou pra qualquer momento que mereça um adeus saboroso.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Se o bolinho quiser fugir, lembre que ele sempre volta às últimas horas... na sua boca."
+  },
+  {
+    "id": 16,
+    "titulo": "Camarão à Vibe do Surfista: Sal, Sol e Solteirice",
+    "slug": "camarao-a-vibe-do-surfista-sal-sol-e-solteirice",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "500g de camarão rosa limpo",
+      "2 dentes de alho picados",
+      "1 limão siciliano",
+      "1 colher de sopa de azeite de oliva",
+      "Sal e pimenta-do-reino a gosto",
+      "Salsinha picada para decorar"
+    ],
+    "modoPreparo": [
+      "Lave o camarão como se estivesse lavando a alma na praia.",
+      "Tempere com alho, sal, pimenta e o suco do limão, porque aqui a vibe é azedinha.",
+      "Esquente o azeite na frigideira, jogue o camarão e deixe fritar até ele ficar corado — tipo bronzeado saudável.",
+      "Salpique salsinha como se estivesse jogando confete na festa do mar.",
+      "Sirva rápido antes que a fome te derrube como uma onda gigante!"
+    ],
+    "descricao": "Camarão com a vibe de quem quer surfar na praia e na cozinha. Fácil, rápido e com um toque de limão que vai fazer você pensar que está de férias, mesmo se for só na sua cozinha.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 35,00",
+    "porcoes": "2 porções",
+    "dica": "Não deixe o camarão passar do ponto, senão ele fica mais duro que a última piada do tio no churrasco."
+  },
+  {
+    "id": 17,
+    "titulo": "Peixe Espetacular: Tilápia no Espeto da Zueira",
+    "slug": "peixe-espetacular-tilapia-no-espeto-da-zueira",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "500g de filé de tilápia",
+      "Suco de 1 laranja",
+      "2 colheres de sopa de shoyu",
+      "1 colher de chá de gengibre ralado",
+      "Palitos de churrasco",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Corte a tilápia em cubos do tamanho ideal para fazer inveja à churrasqueira do vizinho.",
+      "Marinhe no suco de laranja, shoyu, gengibre, sal e pimenta por 20 minutos — mais tempo e o peixe vira peça de museu.",
+      "Espete os cubos nos palitos, sem furar seu dedo (ninguém quer esse tipo de ferimento).",
+      "Grelhe até dourar, igual a um bronzeado de verão.",
+      "Devore com moderação ou com muito apetite, sem julgamentos."
+    ],
+    "descricao": "A tilápia que virou a estrela do churrasco, só que sem a fumaça de carvão e com mais estilo. Fácil, rápido e divertido, para quem quer impressionar sem estresse.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,50",
+    "porcoes": "3 porções",
+    "dica": "Se quiser um toque especial, faça aquela dancinha do espeto antes de virar na grelha — garante sabor e risadas."
+  },
+  {
+    "id": 18,
+    "titulo": "Risoto do Mar que Não Afunda: Camarão e Alegria",
+    "slug": "risoto-do-mar-que-nao-afunda-camarao-e-alegria",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "1 xícara de arroz arbóreo",
+      "200g de camarão limpo",
+      "1 cebola pequena picada",
+      "2 dentes de alho picados",
+      "1/2 xícara de vinho branco",
+      "Caldo de legumes (aproximadamente 700ml)",
+      "1 colher de sopa de manteiga",
+      "Queijo parmesão ralado a gosto",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e o alho na manteiga como se estivesse preparando o palco para o show do camarão.",
+      "Jogue o arroz arbóreo e mexa até ele ficar meio transparente, tipo aquele crush que demora a dar sinal.",
+      "Adicione o vinho branco e espere evaporar, aproveitando para cantar uma música do mar (opcional).",
+      "Vá adicionando o caldo aos poucos, mexendo sem parar, porque risoto não gosta de preguiça.",
+      "Quando o arroz estiver quase no ponto, jogue os camarões, sal e pimenta, e continue mexendo até tudo ficar cremoso e feliz.",
+      "Finalize com parmesão para dar aquele abraço de queijo."
+    ],
+    "descricao": "Risoto que não afunda, só te afoga em sabor e piadas. Ideal pra quem quer um prato elegante, mas não tão sério assim.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 42,00",
+    "porcoes": "4 porções",
+    "dica": "Mexa com amor e paciência, ou pelo menos finja que sabe o que está fazendo."
+  },
+  {
+    "id": 19,
+    "titulo": "Polvo Enrolado: O Tentáculo do Amor",
+    "slug": "polvo-enrolado-o-tentaculo-do-amor",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "1 polvo pequeno (aprox. 1kg)",
+      "3 dentes de alho",
+      "1 folha de louro",
+      "Suco de 1 limão",
+      "Azeite de oliva",
+      "Sal grosso e pimenta-do-reino"
+    ],
+    "modoPreparo": [
+      "Dê um banho relaxante no polvo em água fervente com alho e louro — spa para o polvo, baby!",
+      "Depois de amolecer (sim, ele precisa relaxar), corte em pedaços e tempere com sal, pimenta e limão, pra dar aquele aroma de romance.",
+      "Grelhe no azeite até ficar dourado, tipo aquele bronze que você sonha ter nas férias.",
+      "Sirva com um sorriso e prepare-se para conquistar corações (ou pelo menos o estômago de alguém)."
+    ],
+    "descricao": "Polvo que te enrosca com sabor e te conquista com tentáculos de humor. Pra impressionar sem perder a piada.",
+    "tempo": "60 min",
+    "dificuldade": "Difícil",
+    "preco": "R$ 55,00",
+    "porcoes": "3 porções",
+    "dica": "Se o polvo ficar duro, não se preocupe: pelo menos você tentou e agora tem uma boa história pra contar."
+  },
+  {
+    "id": 20,
+    "titulo": "Linguado à Pimpão: O Peixe que Caiu na Gandaia",
+    "slug": "linguado-a-pimpao-o-peixe-que-caiu-na-gandaia",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "1 filé grande de linguado (aprox. 400g)",
+      "Suco de 1 limão",
+      "2 colheres de sopa de manteiga",
+      "1 dente de alho amassado",
+      "Salsinha picada",
+      "Sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o linguado com sal, pimenta e limão, porque até peixe merece uma festa cítrica.",
+      "Derreta a manteiga na frigideira e adicione o alho para aquele cheirinho que abre portas (ou estômagos).",
+      "Coloque o filé na frigideira e cozinhe até que ele fique com aquela cor dourada de quem acabou de ganhar na loteria do sabor.",
+      "Finalize com salsinha para dar o toque de swag do mar.",
+      "Sirva com aquela cara de quem sabe que vai arrasar no jantar."
+    ],
+    "descricao": "Linguado que chegou chegando, com manteiga na mão e limão no coração. Perfeito para quem quer um prato simples, porém cheio de atitude.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 30,00",
+    "porcoes": "1 porção",
+    "dica": "Não fique mexendo demais o peixe, ele é tipo celebridade: gosta de seu tempo no palco."
+  },
+  {
+    "id": 21,
+    "titulo": "Camarão à Zueira: o prato que faz a panela rir",
+    "slug": "camarao-a-zueira-o-prato-que-faz-a-panela-rir",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "500g de camarão médio limpo",
+      "3 dentes de alho picados",
+      "1 cebola média picada",
+      "1 pimenta dedo-de-moça sem sementes picada",
+      "2 tomates maduros picados",
+      "1 colher de sopa de azeite de oliva",
+      "Suco de 1 limão",
+      "Sal e pimenta-do-reino a gosto",
+      "Salsinha fresca para decorar"
+    ],
+    "modoPreparo": [
+      "Tempere o camarão com sal, pimenta e limão. Deixe ele pensando na vida por 10 minutos.",
+      "Esquente o azeite e jogue o alho e a cebola para fazer aquele cheirinho que chama a galera.",
+      "Jogue a pimenta e os tomates na panela, para fazer a festa do sabor.",
+      "Hora do camarão! Manda ele para a panela e mexa até ele ficar coradinho, tipo bronzeado de verão.",
+      "Desligue o fogo, salpique salsinha e sirva antes que o camarão fuja do prato."
+    ],
+    "descricao": "Uma receita que é tão divertida quanto fácil de fazer. Camarão temperado na medida certa para deixar seu estômago e seu humor lá em cima.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 35,00",
+    "porcoes": "3 porções",
+    "dica": "Não fique de bobeira: camarão cozinha rápido e ninguém gosta de lagosta mal passada!"
+  },
+  {
+    "id": 22,
+    "titulo": "Lula à Tiracolo: o tentáculo do sabor que não te dá nó",
+    "slug": "lula-a-tiracolo-o-tentaculo-do-sabor-que-nao-te-da-no",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "500g de lula limpa e cortada em anéis",
+      "Suco de 1 limão",
+      "2 colheres de sopa de azeite",
+      "2 dentes de alho picados",
+      "1 colher de chá de páprica doce",
+      "Sal e pimenta-do-reino a gosto",
+      "Folhas de coentro para decorar"
+    ],
+    "modoPreparo": [
+      "Tempere a lula com limão, sal, pimenta e páprica. Deixe marinar e pensar na vida por 15 minutos.",
+      "Aqueça o azeite na frigideira e jogue o alho para começar a festa aromática.",
+      "Coloque a lula e mexa rápido, é um espetáculo relâmpago para não virar borracha.",
+      "Assim que mudar de cor, tire do fogo para não virar chiclete gourmet.",
+      "Decore com coentro e sirva com aquela cara de mestre do mar!"
+    ],
+    "descricao": "Lula rápida e saborosa, para quem quer impressionar sem drama. Prepare-se para aplausos e convites de volta.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 28,00",
+    "porcoes": "2 porções",
+    "dica": "Lula é igual notícia boa: se demorar demais, perde a graça (e a textura)!"
+  },
+  {
+    "id": 23,
+    "titulo": "Moqueca da Ressaca: o conserto oficial do fim de semana",
+    "slug": "moqueca-da-ressaca-o-conserto-oficial-do-fim-de-semana",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "400g de peixe branco em postas (como cação ou robalo)",
+      "200g de camarão limpo",
+      "1 cebola grande em rodelas",
+      "1 tomate grande em rodelas",
+      "1 pimentão verde em rodelas",
+      "200ml de leite de coco",
+      "2 colheres de sopa de azeite de dendê",
+      "Coentro fresco picado",
+      "Sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o peixe e camarão com sal e pimenta, enquanto você lembra dos exageros do fim de semana.",
+      "Em uma panela, faça camadas de cebola, pimentão, tomate, peixe e camarão. É tipo um Tetris saboroso.",
+      "Regue com leite de coco e azeite de dendê, para dar aquele abraço afro-baiano.",
+      "Tampe e cozinhe em fogo médio-baixo até o peixe ficar macio e o aroma invadir sua alma.",
+      "Finalize com coentro e prepare-se para agradecer à vida (e ao NaFome)."
+    ],
+    "descricao": "Para quem exagerou na festa e quer se redimir com estilo: moqueca que abraça o estômago e espanta a ressaca.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 45,00",
+    "porcoes": "4 porções",
+    "dica": "Tomar uma água antes ajuda, mas se não der, essa moqueca resolve!"
+  },
+  {
+    "id": 24,
+    "titulo": "Bobó de Siri Descolado: o rei do camarote pra sua panela",
+    "slug": "bobo-de-siri-descolado-o-rei-do-camarote-pra-sua-panela",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "300g de carne de siri desfiada",
+      "1 vidro de leite de coco (200ml)",
+      "2 mandiocas médias cozidas e amassadas",
+      "1 cebola picada",
+      "2 dentes de alho picados",
+      "1 tomate picado",
+      "2 colheres de sopa de azeite de dendê",
+      "Coentro fresco picado",
+      "Sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e o alho no azeite de dendê, até ficarem douradinhos e cheirosos.",
+      "Junte o tomate e deixe virar aquele molho que faz qualquer um babar.",
+      "Adicione a mandioca amassada e misture bem, é a base cremosa que abraça o siri.",
+      "Coloque a carne de siri e mexa com amor e ritmo de samba.",
+      "Despeje o leite de coco, ajuste sal e pimenta, e deixe cozinhar até apurar o sabor.",
+      "Finalize com coentro e prepare o cenário para o sucesso."
+    ],
+    "descricao": "Bobó de siri que é puro charme e sabor, perfeito para quem quer virar o rei ou a rainha da cozinha e do rolê.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "3 porções",
+    "dica": "Mandioca bem cozida é o segredo do sucesso: nem crua, nem tapete!"
+  },
+  {
+    "id": 25,
+    "titulo": "Espaguete Marujo: massa que navega no molho do mar",
+    "slug": "espaguete-marajo-massa-que-navega-no-molho-do-mar",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "250g de espaguete",
+      "300g de mariscos frescos limpos",
+      "200g de mexilhões limpos",
+      "3 dentes de alho picados",
+      "1 cebola pequena picada",
+      "200ml de vinho branco seco",
+      "2 colheres de sopa de azeite de oliva",
+      "Salsinha picada",
+      "Sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o espaguete conforme as instruções da embalagem, mas sem deixar virar um chiclete.",
+      "Enquanto isso, refogue alho e cebola no azeite até dourar, porque sabor nunca é demais.",
+      "Jogue os mariscos e mexilhões na panela e regue com vinho branco. Deixe o mar abrir a boca.",
+      "Tampe e cozinhe até as conchas abrirem – se não abrirem, não são convidados.",
+      "Misture o espaguete ao molho, salpique salsinha e sirva com orgulho de capitão.",
+      "Se o espaguete começar a cantar, é sinal de que está pronto."
+    ],
+    "descricao": "Um prato pra quem quer embarcar numa viagem gastronômica sem sair da mesa. Mariscos e massa num encontro que até a sereia aprova.",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 50,00",
+    "porcoes": "4 porções",
+    "dica": "Vinho branco é para cozinhar, não para beber todo antes do prato ficar pronto!"
+  },
+  {
+    "id": 26,
+    "titulo": "Camarão Pula-Pula: o petisco que não deixa a festa apagar",
+    "slug": "camarao-pula-pula-o-petisco-que-nao-deixa-a-festa-apagar",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "500g de camarão médio limpo",
+      "2 dentes de alho picados",
+      "1 pimenta dedo-de-moça",
+      "suco de 1 limão",
+      "sal a gosto",
+      "azeite para fritar",
+      "salsinha picada para finalizar"
+    ],
+    "modoPreparo": [
+      "Tempere o camarão com alho, limão, sal e a pimenta dedo-de-moça (se quiser um baile na boca, não economize na pimenta).",
+      "Em uma frigideira, esquente o azeite até ficar mais quente que fofoca de vizinho.",
+      "Jogue os camarões e deixe eles 'dançarem' até ficarem rosados (uns 3 minutos de agito).",
+      "Finalize com salsinha e prepare-se para ouvir elogios até dos que não gostam de frutos do mar."
+    ],
+    "descricao": "O camarão que não perde a festa nem quando o DJ para! Fácil, rápido e com sabor que faz você querer repetir (ou pelo menos tentar disfarçar).",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 35,00",
+    "porcoes": "3 porções",
+    "dica": "Se o camarão começar a pular na frigideira, parabéns, você tá no ritmo certo!"
+  },
+  {
+    "id": 27,
+    "titulo": "Tirinhas de Peixe Crocantes: o segredo pra fingir que você sabe cozinhar",
+    "slug": "tirinhas-de-peixe-crocantes-o-segredo-pra-fingir-que-voce-sabe-cozinhar",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "500g de filé de tilápia cortado em tiras",
+      "1 xícara de farinha de trigo",
+      "1 ovo",
+      "1/2 xícara de farinha de rosca",
+      "sal e pimenta a gosto",
+      "óleo para fritar",
+      "limão para acompanhar"
+    ],
+    "modoPreparo": [
+      "Tempere as tiras de peixe com sal e pimenta, porque ninguém gosta de frango, ops, peixe sem sabor.",
+      "Passe o peixe na farinha de trigo, depois no ovo batido e finalize na farinha de rosca. Repetir esse ritual três vezes se quiser impressionar (ou só uma para não bagunçar muito).",
+      "Esquente o óleo até ficar digno de fritura de boteco e frite as tiras até ficar douradinho, tipo bronzeado de verão.",
+      "Sirva com limão e prepare-se para ouvir 'mas você que fez?'."
+    ],
+    "descricao": "Quando bate a dúvida se você sabe cozinhar, essas tirinhas crocantes salvam seu status e seu estômago. Crocância garantida, sujeira minimalista!",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Não economize na farinha de rosca, ela é a diva da festa!"
+  },
+  {
+    "id": 28,
+    "titulo": "Polvo Desenrolado: o tentáculo que vai conquistar seu estômago (e seu crush)",
+    "slug": "polvo-desenrolado-o-tentaculo-que-vai-conquistar-seu-estomago-e-seu-crush",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "1 polvo médio limpo (aprox. 1kg)",
+      "3 dentes de alho amassados",
+      "1 folha de louro",
+      "1 limão",
+      "azeite",
+      "sal e pimenta do reino a gosto",
+      "salsinha picada"
+    ],
+    "modoPreparo": [
+      "Coza o polvo em água fervente com louro por uns 40 minutos, até ele ficar macio como seu coração no final do domingo.",
+      "Escorra e corte os tentáculos em pedaços para facilitar a conquista.",
+      "Em uma frigideira, refogue alho no azeite até perfumar a casa inteira (e os vizinhos reclamarem).",
+      "Jogue o polvo, tempere com sal, pimenta e limão. Deixe grelhar até dourar e ficar irresistível.",
+      "Finalize com salsinha e prepare o coração para o crush pedir bis."
+    ],
+    "descricao": "Polvo que não enrola na conversa: sabor na medida certa e maciez que até seu crush vai querer provar!",
+    "tempo": "1h 10min",
+    "dificuldade": "Médio",
+    "preco": "R$ 60,00",
+    "porcoes": "4 porções",
+    "dica": "Se o polvo grudar na panela, não é ciúmes, é só deixar dourar mais um pouco."
+  },
+  {
+    "id": 29,
+    "titulo": "Mexidinho de Mar: o caos saboroso que você vai amar bagunçar",
+    "slug": "mexidinho-de-mar-o-caos-saboroso-que-voce-vai-amar-bagunçar",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "200g de camarão limpo",
+      "200g de lula picada",
+      "200g de mexilhão",
+      "1 cebola picada",
+      "2 tomates maduros picados",
+      "2 dentes de alho",
+      "1/2 pimentão vermelho",
+      "azeite",
+      "sal, pimenta e cheiro-verde"
+    ],
+    "modoPreparo": [
+      "Refogue alho e cebola no azeite até ficarem mais dourados que seu bronzeado de praia.",
+      "Junte o pimentão e tomate, e deixe o negócio ficar colorido igual festa de Carnaval.",
+      "Adicione os frutos do mar e mexa com amor (e um pouco de desespero para que não grudem).",
+      "Tempere com sal, pimenta e finalize com cheiro-verde para aquele toque chef de novela.",
+      "Sirva acompanhado de arroz branco e prepare a bagunça gastronômica."
+    ],
+    "descricao": "Um mexidinho que é quase um festival do mar na panela, bagunçado de tão gostoso. Para os que gostam de viver perigosamente na cozinha!",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 45,00",
+    "porcoes": "4 porções",
+    "dica": "Não fique parado, mexa com ritmo de pagode para garantir o sabor!"
+  },
+  {
+    "id": 30,
+    "titulo": "Sardinha na Brasa do Vizinho: o clássico que aquece até o coração (e o churrasco)",
+    "slug": "sardinha-na-brasa-do-vizinho-o-classico-que-aquece-ate-o-coracao-e-o-churrasco",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "1kg de sardinha fresca",
+      "sal grosso a gosto",
+      "limão",
+      "azeite",
+      "pimenta-do-reino"
+    ],
+    "modoPreparo": [
+      "Peça a permissão do vizinho para usar a brasa (ou invente uma desculpa, não julgo).",
+      "Limpe as sardinhas e tempere com sal grosso e pimenta-do-reino, porque peixe merece respeito.",
+      "Coloque as sardinhas na grelha quente e deixe elas curtirem o calor por uns 5 minutos de cada lado (ou até ficarem douradas e cheirosas).",
+      "Regue com azeite e esprema limão na hora de servir, para dar aquela acidez que faz a festa.",
+      "Sirva com pão e aquela cerveja gelada que não pode faltar."
+    ],
+    "descricao": "A sardinha que vai te fazer querer mudar para a casa do vizinho só pelo churrasco. Simples, direto e com sabor que vale cada brasa.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 20,00",
+    "porcoes": "5 porções",
+    "dica": "Se o vizinho perguntar, diga que é para a ciência – e convide pra provar!"
+  },
+  {
+    "id": 31,
+    "titulo": "Camarão Pirata: o tesouro que não afunda seu bolso",
+    "slug": "camarao-pirata-o-tesouro-que-nao-afunda-seu-bolso",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "500g camarão médio limpo",
+      "2 dentes de alho amassados",
+      "1 limão siciliano",
+      "1/2 pimenta dedo-de-moça picada",
+      "Salsinha a gosto",
+      "Azeite de oliva",
+      "Sal e pimenta-do-reino"
+    ],
+    "modoPreparo": [
+      "Adorne seu guarda-roupa de pirata com avental e pronto, vamos à ação!",
+      "Tempere o camarão com alho, limão, pimenta, sal e pimenta-do-reino. Deixe ele entender que a vida pode ser apimentada por 15 minutos.",
+      "Em uma frigideira, aqueça o azeite como se fosse o sol do Caribe e jogue os camarões para dançar até ficarem rosadinhos e irresistíveis.",
+      "Finalize com salsinha e um gole de limão para aquele drama cítrico."
+    ],
+    "descricao": "Esse camarão é tipo aquele amigo que aparece só quando tem festa: rápido, saboroso e faz você querer repetir.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 35,00",
+    "porcoes": "3 porções",
+    "dica": "Não conte para o camarão que ele é barato, ele pode inflar o ego e querer ser estrela de reality show."
+  },
+  {
+    "id": 32,
+    "titulo": "Lula à Moda Enroladinha: o tentáculo que te abraça com sabor",
+    "slug": "lula-a-moda-enroladinha-o-tentaculo-que-te-abraca-com-sabor",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "400g de lula limpa em anéis",
+      "Suco de 1 limão",
+      "2 colheres de sopa de farinha de trigo",
+      "1 colher de chá de páprica doce",
+      "Sal e pimenta-do-reino",
+      "Óleo para fritar",
+      "Salsinha para decorar"
+    ],
+    "modoPreparo": [
+      "Tempere a lula com limão, sal e pimenta para ela entender que não é só mais um marisco na história.",
+      "Misture a farinha e a páprica como se fosse a fórmula secreta de um chef meio doido.",
+      "Passe a lula nessa mistura e prepare o óleo para a festa de fritura.",
+      "Frite os anéis até ficarem dourados, crocantes e prontos para te fazer suspirar.",
+      "Decore com salsinha, porque comida bonita também convence o estômago."
+    ],
+    "descricao": "A lula enroladinha é aquele crush que te conquista na primeira mordida, mas que não te deixa pagar a conta.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Se a lula começar a fazer careta, é porque você passou do ponto. Respeite o timing dela!"
+  },
+  {
+    "id": 33,
+    "titulo": "Moqueca de Surpresa: o mar que dá até vontade de lavar a louça",
+    "slug": "moqueca-de-surpresa-o-mar-que-da-ate-vontade-de-lavar-a-louca",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "300g de peixe branco em postas (ex: namorado ou badejo)",
+      "200g de camarão limpo",
+      "1 cebola grande fatiada",
+      "2 tomates maduros picados",
+      "1 pimentão amarelo em tiras",
+      "Leite de coco 200ml",
+      "Coentro a gosto",
+      "Azeite de dendê 2 colheres de sopa",
+      "Sal e pimenta-do-reino"
+    ],
+    "modoPreparo": [
+      "Arrume o palco com cebola, tomate, pimentão e peixe, como se fosse um show de talentos do mar.",
+      "Tempere tudo com sal, pimenta e coentro, para garantir um elenco afinado.",
+      "Cubra com leite de coco e azeite de dendê, o duo dinâmico que vai dar o tom da festa.",
+      "Deixe cozinhar em fogo médio com a tampa fechada, para os sabores fazerem a dança da chuva no seu prato.",
+      "No final, jogue o camarão para entrar no palco e finalize com mais coentro, porque coentro nunca é demais."
+    ],
+    "descricao": "Essa moqueca é tipo aquela série viciante: você começa só para experimentar e quando vê, já acabou com tudo.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 45,00",
+    "porcoes": "4 porções",
+    "dica": "Se sobrar moqueca, coloque na geladeira e finja que é um souvenir da praia."
+  },
+  {
+    "id": 34,
+    "titulo": "Bobó do Vizinho: o segredo que veio de porta em porta",
+    "slug": "bobo-do-vizinho-o-segredo-que-veio-de-porta-em-porta",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "400g de camarão limpo",
+      "500g de mandioca cozida e amassada",
+      "200ml de leite de coco",
+      "1 cebola picada",
+      "2 tomates picados",
+      "Azeite de dendê 3 colheres de sopa",
+      "Coentro e cebolinha",
+      "Sal e pimenta-do-reino"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e o tomate no azeite de dendê até ficar um romance no fogo baixo.",
+      "Jogue o camarão para se juntar à festa e cozinhe até ele virar o astro principal.",
+      "Misture a mandioca amassada com o leite de coco na panela, cria-se a alquimia do sabor.",
+      "Tempere com sal, pimenta, coentro e cebolinha — o quarteto fantástico do tempero.",
+      "Deixe apurar até o bobó ficar cremoso e cheio de charme."
+    ],
+    "descricao": "Esse bobó é tipo aquele vizinho gente boa: sempre aparece para alegrar sua cozinha e sua vida.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "5 porções",
+    "dica": "Não conte para o vizinho que você copiou a receita, mantenha o mistério do gostinho caseiro."
+  },
+  {
+    "id": 35,
+    "titulo": "Isca de Peixe Sorridente: o petisco que morde de volta",
+    "slug": "isca-de-peixe-sorridente-o-petisco-que-morde-de-volta",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "500g de filé de tilápia cortado em tiras",
+      "Suco de 1 limão",
+      "1 colher de sopa de colorau",
+      "2 dentes de alho amassados",
+      "Farinha de trigo para empanar",
+      "Óleo para fritar",
+      "Sal e pimenta-do-reino"
+    ],
+    "modoPreparo": [
+      "Tempere as tiras de peixe com limão, alho, sal, pimenta e aquele colorau que dá cor e personalidade.",
+      "Passe as tiras na farinha de trigo como quem prepara para um desfile de sabor.",
+      "Esquente o óleo até ele estar mais animado que você em sexta-feira à noite.",
+      "Frite as iscas até ficarem douradas e crocantes, prontas para morder quem ousar resistir.",
+      "Sirva com aquele molho de sua preferência e prepare-se para o sorriso no rosto dos convidados."
+    ],
+    "descricao": "A isca de peixe que vai fisgar seu coração e fazer você querer virar pescador de petiscos.",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Se sobrar isca, cuidado ao reaquecer: peixe sem graça é igual piada sem punchline — ninguém merece."
+  },
+  {
+    "id": 36,
+    "titulo": "Camarão Ninja: Ataca na Panela e Desaparece no Prato",
+    "slug": "camarao-ninja-ataca-na-panela-e-desaparece-no-prato",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "300g de camarão limpo",
+      "2 dentes de alho picados",
+      "1 pimenta dedo-de-moça sem sementes picada",
+      "1 colher de sopa de azeite de oliva",
+      "Suco de 1 limão",
+      "Sal e pimenta-do-reino a gosto",
+      "Salsinha picada para finalizar"
+    ],
+    "modoPreparo": [
+      "Esquente o azeite e faça os camarões sentirem que chegaram na balada: alho e pimenta são o DJ.",
+      "Jogue os camarões na pista quente da frigideira, mexa com jeitinho até ficarem rosadinhos – sem deixar virar borracha!",
+      "Tempere com limão, sal e pimenta, afinal camarão também merece uma pitada de emoção.",
+      "Finalize com salsinha porque até ninjas têm estilo."
+    ],
+    "descricao": "O camarão ninja é aquela receita rápida e certeira que some do prato antes que você perceba. Fácil, rápida e saborosa, perfeita pra quem gosta de ação na cozinha sem drama.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 28,00",
+    "porcoes": "2 porções",
+    "dica": "Se o camarão começar a fazer acrobacias fora da frigideira, é sinal que tá na hora de desligar o fogo!"
+  },
+  {
+    "id": 37,
+    "titulo": "Sururu do Agito: O Mar Que Balança o Copo e a Panela",
+    "slug": "sururu-do-agito-o-mar-que-balança-o-copo-e-a-panela",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "500g de sururu",
+      "1 cebola média picada",
+      "2 tomates maduros picados",
+      "1 pimenta biquinho",
+      "2 colheres de sopa de azeite de dendê",
+      "1 maço de coentro",
+      "Sal a gosto",
+      "500ml de leite de coco"
+    ],
+    "modoPreparo": [
+      "Lave bem o sururu, porque ninguém quer sujeira no agito.",
+      "Refogue cebola e tomate no azeite de dendê, o ritmo da Bahia já começa aqui.",
+      "Jogue o sururu na panela e deixe ele cantar (ou cozinhar) até abrir as conchas.",
+      "Adicione o leite de coco e o coentro pra dar aquela pegada tropical e um toque de festa na boca.",
+      "Tempere com sal e não esqueça de colocar a pimenta biquinho pra embalar a dança."
+    ],
+    "descricao": "Sururu do Agito é o prato que chega chegando com sabor e festa, trazendo o mar direto pra sua casa com aquela vibe que faz até o copo dançar.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Se a panela começar a chiar como um pagodeiros afinando o cavaquinho, é sinal que tá no ponto!"
+  },
+  {
+    "id": 38,
+    "titulo": "Polvo do Rolê: Tentáculos na Balada da Sua Panela",
+    "slug": "polvo-do-role-tentaculos-na-balada-da-sua-panela",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "1 polvo pequeno (600g)",
+      "3 dentes de alho amassados",
+      "Suco de 1 limão siciliano",
+      "Azeite de oliva extra virgem",
+      "Sal grosso a gosto",
+      "Pimenta-do-reino a gosto",
+      "Salsa fresca para decorar"
+    ],
+    "modoPreparo": [
+      "Dê um banho de limão no polvo para tirar o cheiro de 'maré baixa'.",
+      "Ferva uma panela com água e sal grosso, deixe o polvo entrar na sauna por uns 40 minutos – é o spa do mar.",
+      "Depois de relaxado, corte em pedaços e grelhe com azeite e alho até ficar com aquela cor de quem acabou de sair do rolê.",
+      "Tempere com pimenta e sal, decore com salsa e prepare-se para o show de sabor."
+    ],
+    "descricao": "Polvo do Rolê é a receita pra quem quer impressionar e ainda fazer piada com os tentáculos. Fácil, elegante e com gostinho de mar que dá vontade de dançar.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 48,00",
+    "porcoes": "3 porções",
+    "dica": "Se o polvo tentar fugir da grelha, lembre que ele só tem oito tentáculos, não é Houdini!"
+  },
+  {
+    "id": 39,
+    "titulo": "Linguado do Sereio: O Peixe Que Canta na Sua Frigideira",
+    "slug": "linguado-do-sereio-o-peixe-que-canta-na-sua-frigideira",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "2 filés de linguado",
+      "Suco de meio limão",
+      "1 colher de sopa de manteiga",
+      "Sal e pimenta-do-reino a gosto",
+      "Ervas finas (alecrim, tomilho) a gosto",
+      "1 dente de alho picado"
+    ],
+    "modoPreparo": [
+      "Tempere os filés de linguado com limão, sal, pimenta e aquele toque das ervas finas – o show começa aqui.",
+      "Esquente a manteiga na frigideira e deixe o alho contar histórias douradinhas.",
+      "Coloque os filés com cuidado, como quem coloca alguém pra dormir, e deixe cantar até ficarem macios e brilhantes.",
+      "Vire com gosto e espere o segundo verso, perfeito para quem adora um peixe com drama."
+    ],
+    "descricao": "Linguado do Sereio é aquele peixe que vai cantar na sua frigideira e fazer seu paladar dançar com sabor, sem desafinar no preço e na praticidade.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 30,00",
+    "porcoes": "2 porções",
+    "dica": "Não fique mexendo demais o peixe; ele é tímido e prefere arrasar no palco sozinho."
+  },
+  {
+    "id": 40,
+    "titulo": "Ceviche do Maroto: O Mar que Te Deixa de Cara, sem Fogão e Sem Drama",
+    "slug": "ceviche-do-maroto-o-mar-que-te-deixa-de-cara-sem-fogao-e-sem-drama",
+    "categoria": "Frutos do mar 🦐",
+    "ingredientes": [
+      "300g de filé de peixe branco fresco em cubos",
+      "Suco de 3 limões",
+      "1 cebola roxa fatiada finamente",
+      "1 pimenta dedo-de-moça picada sem sementes",
+      "Coentro fresco picado a gosto",
+      "Sal a gosto",
+      "1 colher de sopa de azeite"
+    ],
+    "modoPreparo": [
+      "Misture o peixe com o suco de limão e deixe marinar por uns 20 minutos, o limão é o chef de palco aqui, cozinhando o peixe sem fogo.",
+      "Adicione a cebola, pimenta e o coentro – é tipo convidar a galera pro rolê do sabor.",
+      "Tempere com sal e regue com azeite para dar aquela brilhada de estrela do mar.",
+      "Sirva gelado e prepare-se para as caras de 'uau' dos convidados."
+    ],
+    "descricao": "Ceviche do Maroto é a receita pra quem quer impressionar na rapidez e sabor, com aquele toque ácido que é uma verdadeira piada boa na boca.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 27,00",
+    "porcoes": "3 porções",
+    "dica": "Não deixe o peixe marinar demais, senão ele fica passado, igual à piada que já contamos demais."
   }
 ]

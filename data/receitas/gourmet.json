@@ -315,5 +315,839 @@
     "preco": "R$ 320,00",
     "porcoes": "6 porções",
     "dica": "Se o preço apertar, lembre-se: é só um jantar, não uma hipoteca. Mas a fama de chef vai durar mais que sua fatura do cartão."
+  },
+  {
+    "id": 11,
+    "titulo": "Confit de Cebola Roxa: porque até a cebola merece um spa",
+    "slug": "confit-cebola-roxa-ate-cebola-merece-spa",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "cebola roxa",
+      "azeite de oliva extra virgem",
+      "vinagre balsâmico",
+      "açúcar mascavo",
+      "sal rosa do Himalaia"
+    ],
+    "modoPreparo": [
+      "Pique as cebolas como se fosse segurar um microfone na mão e mandar aquele stand-up: devagar e com estilo.",
+      "Coloque tudo na panela com azeite, açúcar e vinagre, e deixe cozinhar até a cebola ficar tão macia quanto seu coração depois de uma piada boa.",
+      "Mexa de vez em quando, tipo aquele amigo engraçado que não deixa a conversa morrer.",
+      "Deixe apurar até reduzir e virar uma calda brilhante: glamour puro para seu prato gourmet."
+    ],
+    "descricao": "Confit de cebola roxa para aqueles dias que você quer impressionar o crush e o chef interno ao mesmo tempo. Um toque doce e sofisticado que vai fazer você parecer que sabe cozinhar e ser engraçado ao mesmo tempo.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 18,50",
+    "porcoes": "4 porções",
+    "dica": "Se a cebola te fizer chorar, diga que é emoção gourmet!"
+  },
+  {
+    "id": 12,
+    "titulo": "Camarão ao Champagne: porque até o mar merece uma festa de gala",
+    "slug": "camarao-champagne-mar-merece-festa-gala",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "camarão fresco",
+      "champagne brut",
+      "alho",
+      "manteiga",
+      "salsinha",
+      "pimenta-do-reino"
+    ],
+    "modoPreparo": [
+      "Tempere os camarões como se estivesse preparando um discurso premiado: com atenção e sem medo.",
+      "Refogue o alho na manteiga até virar aquele aroma que faz até o vizinho chamar para o jantar.",
+      "Jogue os camarões na panela e dê aquele mergulho no champagne – afinal, festa boa tem bebida até na comida.",
+      "Deixe o molho reduzir, polvilhe a salsinha e finalize com pimenta-do-reino para aquele punch de comediante afiado."
+    ],
+    "descricao": "Camarão ao champagne para quem quer transformar o jantar numa noite de gala com direito a piada, glamour e um pouco de 'tô rico' na receita.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 42,90",
+    "porcoes": "3 porções",
+    "dica": "Se o champagne acabar, pode usar espumante, mas avisa que é VIP fake!"
+  },
+  {
+    "id": 13,
+    "titulo": "Salada de Figos com Queijo de Cabra: o encontro do romance com a comédia",
+    "slug": "salada-figos-queijo-cabra-romance-comedia",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "figos frescos",
+      "queijo de cabra",
+      "rúcula",
+      "mel",
+      "nozes",
+      "azeite extra virgem"
+    ],
+    "modoPreparo": [
+      "Lave e corte os figos como se estivesse preparando o palco para o show: com cuidado e estilo.",
+      "Arrume a rúcula no prato, porque até a salada merece uma plateia bonita.",
+      "Coloque os figos, o queijo de cabra e as nozes – a trupe toda reunida para o espetáculo.",
+      "Regue com mel e azeite para o gran finale, aquela explosão de sabor que faz a piada valer a pena."
+    ],
+    "descricao": "Salada que é puro romance gourmet com uma pitada de humor – porque até os figos sabem que um bom prato tem que ser leve e engraçado.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 28,00",
+    "porcoes": "2 porções",
+    "dica": "Se não achar figo, substitua por pera e finja que é gourmet de coração."
+  },
+  {
+    "id": 14,
+    "titulo": "Polenta Cremosa ao Funghi: o abraço caloroso que sua alma gourmet precisa",
+    "slug": "polenta-cremosa-funghi-abraco-gourmet",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "fubá mimoso",
+      "creme de leite",
+      "manteiga",
+      "funghi seco",
+      "alho",
+      "caldo de legumes",
+      "parmesão ralado"
+    ],
+    "modoPreparo": [
+      "Hidrate o funghi seco como quem acorda devagar, preparando o dia para ser incrível.",
+      "Faça a polenta misturando o fubá no caldo de legumes, mexendo sempre para não empelotar (nada de piada travada, hein?).",
+      "Acrescente manteiga, creme de leite e parmesão para aquele toque de carinho que só um chef sabe dar.",
+      "Finalize com o funghi refogado no alho, porque até a polenta merece um amigo saboroso."
+    ],
+    "descricao": "Polenta cremosa com funghi para quem quer conforto gourmet sem medo de ser feliz (e sem medo de errar o ponto).",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 25,70",
+    "porcoes": "4 porções",
+    "dica": "Mexa a polenta como se estivesse contando uma boa piada: sem pressa e com muito amor."
+  },
+  {
+    "id": 15,
+    "titulo": "Torta de Maçã com Canela: o clássico que até sua avó aprovaria com uma risada",
+    "slug": "torta-maca-canela-classico-avo-risada",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "maçãs verdes",
+      "açúcar mascavo",
+      "canela em pó",
+      "massa folhada",
+      "suco de limão",
+      "manteiga"
+    ],
+    "modoPreparo": [
+      "Descasque e corte as maçãs como quem prepara o roteiro para a comédia: com ritmo e sem enrolação.",
+      "Misture as maçãs com açúcar mascavo, canela e limão – aquela combinação que faz todo mundo querer bis.",
+      "Forre a forma com a massa folhada, coloque o recheio e cubra com mais massa, tipo um cobridor de piada ruim.",
+      "Asse até dourar e deixe o aroma invadir a casa: um convite que ninguém vai recusar."
+    ],
+    "descricao": "Torta de maçã com canela, a garantia que você vai impressionar qualquer um, até a tia do pavê, com sabor e uma piada doce.",
+    "tempo": "1h 10 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,90",
+    "porcoes": "6 porções",
+    "dica": "Se queimar a torta, diga que é 'caramelo artístico' e pronto: sucesso garantido!"
+  },
+  {
+    "id": 16,
+    "titulo": "Tartare de Salmão: cru, chique e sem frescura",
+    "slug": "tartare-de-salmao-cru-chique-e-sem-frescura",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "200g de salmão fresco",
+      "1 cebola roxa pequena",
+      "1 colher de sopa de alcaparras",
+      "1 colher de chá de mostarda Dijon",
+      "suco de 1 limão",
+      "azeite extra virgem",
+      "sal e pimenta do reino"
+    ],
+    "modoPreparo": [
+      "Pique o salmão como se estivesse cortando os problemas do dia.",
+      "Misture com cebola roxa picadinha, alcaparras e mostarda – o trio que faz seu paladar dar piruetas.",
+      "Tempere com limão, azeite, sal e pimenta – porque até tartare precisa de tempero com atitude.",
+      "Sirva geladinho, para parecer que você sabe o que está fazendo."
+    ],
+    "descricao": "O tartare de salmão é a prova de que você pode ser gourmet sem precisar ligar o fogão. Cru, elegante e mais fácil que lembrar a senha do Wi-Fi.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 28,50",
+    "porcoes": "2 porções",
+    "dica": "Se errar o corte, finja que é estilo artístico moderno e venda como arte na próxima reunião."
+  },
+  {
+    "id": 17,
+    "titulo": "Polvo ao Alho e Óleo: porque até o polvo merece paparicar",
+    "slug": "polvo-ao-alho-e-oleo-porque-ate-o-polvo-merece-paparicar",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "500g de polvo limpo",
+      "4 dentes de alho",
+      "azeite extra virgem",
+      "salsinha fresca",
+      "sal grosso e pimenta do reino"
+    ],
+    "modoPreparo": [
+      "Cozinhe o polvo até ele ficar macio, como aquele abraço que você merece.",
+      "Fatie o alho como se estivesse cortando suas preocupações.",
+      "Refogue o alho no azeite até dourar e liberar aquele cheiro que faz todo mundo sair da sala.",
+      "Junte o polvo, mexa como se estivesse encantando a panela, tempere com sal e pimenta e finalize com salsinha.",
+      "Sirva quente e prepare-se para elogios – ou inveja."
+    ],
+    "descricao": "Polvo ao alho e óleo é o prato que prova que você pode ser sofisticado sem complicar. Perfeito para impressionar sem perder o bom humor.",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 42,00",
+    "porcoes": "3 porções",
+    "dica": "Não esqueça: polvo bem cozido não morde, mas a conta pode assustar."
+  },
+  {
+    "id": 18,
+    "titulo": "Bruschetta de Tomate Confitado: o luxo que vai direto pro pão",
+    "slug": "bruschetta-de-tomate-confitado-o-luxo-que-vai-direto-pro-pao",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "6 tomates-cereja",
+      "2 colheres de sopa de azeite",
+      "2 dentes de alho picados",
+      "folhas de manjericão fresco",
+      "pão italiano fatiado",
+      "sal e pimenta do reino"
+    ],
+    "modoPreparo": [
+      "Corte os tomates e deixe eles ‘suar’ numa panela com azeite e alho, como se estivessem numa sauna gourmet.",
+      "Tempere com sal, pimenta e manjericão – a combinação que até seu tio gourmet aprovaria.",
+      "Toste as fatias de pão até ficarem com aquela cara de ‘vou ser crocante e delicioso’.",
+      "Espalhe os tomates confitados por cima e faça cara de chef enquanto serve."
+    ],
+    "descricao": "Bruschetta é tipo o aperitivo que faz você parecer que sabe tudo de cozinha italiana sem sair do Brasil. Tomate confitado? Sim, a estrela do show que não precisa de palco.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Se sobrar tomate confitado, coloque na pizza do dia seguinte. É o upgrade que ninguém espera."
+  },
+  {
+    "id": 19,
+    "titulo": "Ceviche Amazônico: quando o limão encontra a selva",
+    "slug": "ceviche-amazonico-quando-o-limao-encontra-a-selva",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "300g de filé de tambaqui fresco",
+      "suco de 4 limões taiti",
+      "1 pimenta dedo-de-moça sem sementes",
+      "1 cebola roxa fatiada",
+      "coentro fresco",
+      "sal a gosto"
+    ],
+    "modoPreparo": [
+      "Corte o tambaqui em cubos pequenos e fresquinhos, como seu ânimo na segunda-feira.",
+      "Misture com o suco de limão e deixe marinar até o peixe 'cozinhar' na acidez – tipo banho de spa para peixe.",
+      "Adicione a cebola, a pimenta e o coentro, aquela pitada que faz a diferença.",
+      "Tempere com sal e chame os amigos antes de devorar."
+    ],
+    "descricao": "Um ceviche com sotaque amazônico que prova que sua cozinha pode viajar mais que você no último feriado. Refrescante, picante e com aquele toque de selva que ninguém sabia que queria.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 35,00",
+    "porcoes": "3 porções",
+    "dica": "Use sempre peixe fresquíssimo, porque ninguém quer ceviche que parece fileira de banheiro público."
+  },
+  {
+    "id": 20,
+    "titulo": "Panna Cotta de Coco com Calda de Maracujá: o creme que te dá vontade de cantar",
+    "slug": "panna-cotta-de-coco-com-calda-de-maracuja-o-creme-que-te-da-vontade-de-cantar",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "400ml de leite de coco",
+      "200ml de creme de leite fresco",
+      "4 colheres de sopa de açúcar",
+      "1 envelope de gelatina em pó sem sabor",
+      "polpa de 2 maracujás",
+      "2 colheres de sopa de açúcar para a calda"
+    ],
+    "modoPreparo": [
+      "Hidrate a gelatina conforme instruções, porque até o gelatina merece um banho.",
+      "Misture o leite de coco, creme de leite e açúcar, e leve ao fogo baixo, mexendo até o açúcar desaparecer como mágica.",
+      "Incorpore a gelatina e despeje nas forminhas – agora é hora do descanso, tipo soneca pós-almoço.",
+      "Para a calda, leve a polpa de maracujá com açúcar ao fogo até engrossar, a trilha sonora da sobremesa.",
+      "Sirva a panna cotta desenformada com a calda por cima e prepare os elogios."
+    ],
+    "descricao": "Essa panna cotta é o abraço doce que você não sabia que precisava. Coco e maracujá se encontram no palco para um dueto que vai fazer seu paladar dançar.",
+    "tempo": "4 h (incluindo geladeira)",
+    "dificuldade": "Médio",
+    "preco": "R$ 22,00",
+    "porcoes": "4 porções",
+    "dica": "Se for cantar, melhor não no chuveiro – a calda pode escorrer."
+  },
+  {
+    "id": 21,
+    "titulo": "Risoto de Aspargos e Limão: O Verde que Te Faz Rir",
+    "slug": "risoto-de-aspargos-e-limao-o-verde-que-te-faz-rir",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "1 xícara de arroz arbóreo",
+      "1 maço de aspargos frescos",
+      "1 limão siciliano (raspas e suco)",
+      "1 cebola pequena picada",
+      "1 dente de alho",
+      "1/2 xícara de vinho branco",
+      "Caldo de legumes (aproximadamente 1 litro)",
+      "50 g de queijo parmesão ralado",
+      "2 colheres de sopa de manteiga",
+      "Azeite de oliva",
+      "Sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Primeiro, corte os aspargos com carinho, como se fosse um comediante cortando o silêncio: na medida certa.",
+      "Refogue a cebola e o alho no azeite até ficarem transparentes, quase como aquela piada que você já sabe o final mas ri do mesmo jeito.",
+      "Jogue o arroz arbóreo para dar aquela suadinha e depois mande o vinho branco para a festa, deixando evaporar, porque ninguém gosta de ressaca.",
+      "Agora, vá acrescentando o caldo de legumes aos poucos, mexendo com paciência de quem espera resposta no grupo de família.",
+      "Quando o arroz estiver quase lá, junte os aspargos e o limão, porque nada como um toque cítrico para animar o clube do risoto.",
+      "Finalize com a manteiga e o parmesão, misturando até virar aquela cremosidade que faz tudo valer a pena."
+    ],
+    "descricao": "Um risoto que mistura o frescor dos aspargos com o azedinho do limão, perfeito para quem quer comer chique sem precisar vender um rim. A receita é tão fácil que até sua sogra vai pedir bis (ou pelo menos fingir).",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "3 porções",
+    "dica": "Se ficar empapado, jogue a culpa no arroz, mas continue comendo porque tá gostoso demais!"
+  },
+  {
+    "id": 22,
+    "titulo": "Picanha ao Molho de Cerveja e Mel: O Amor em Forma de Churrasco",
+    "slug": "picanha-ao-molho-de-cerveja-e-mel-o-amor-em-forma-de-churrasco",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "500g de picanha fatiada",
+      "1 lata de cerveja clara",
+      "2 colheres de sopa de mel",
+      "2 dentes de alho picados",
+      "1 colher de sopa de mostarda",
+      "Sal grosso e pimenta-do-reino a gosto",
+      "Azeite para grelhar"
+    ],
+    "modoPreparo": [
+      "Tempere a picanha com sal grosso, pimenta e alho, como quem prepara o palco para o show principal.",
+      "Misture a cerveja, o mel e a mostarda para criar o molho que vai fazer seu paladar aplaudir de pé.",
+      "Grelhe a picanha até aquele ponto que faz o vizinho bater na parede e pedir um pedaço.",
+      "Enquanto isso, reduza o molho numa panela, até ficar mais encorpado que seu amigo pedindo bis no karaokê.",
+      "Regue a carne com o molho, sirva e prepare-se para a plateia (seu estômago) vibrar."
+    ],
+    "descricao": "Um prato que une o brasileiro amor pela picanha com o toque inesperado do mel e da cerveja. É a receita para impressionar e fazer até o churrasqueiro oficial da família pedir a receita.",
+    "tempo": "50 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 35,00",
+    "porcoes": "4 porções",
+    "dica": "Se alguém perguntar se tem opção vegetariana, ofereça uma piada e um sorriso – essa é só para os carnívoros!"
+  },
+  {
+    "id": 23,
+    "titulo": "Camarão na Moranga com Toque de Pimenta e Cachaça: A Bahia Encontrou Minas",
+    "slug": "camarao-na-moranga-com-toque-de-pimenta-e-cachaca-a-bahia-encontrou-minas",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "1 moranga média",
+      "500g de camarão limpo",
+      "1 cebola média picada",
+      "2 dentes de alho",
+      "200 ml de leite de coco",
+      "1 pimenta dedo-de-moça picada sem sementes",
+      "2 colheres de sopa de cachaça",
+      "Coentro a gosto",
+      "Azeite, sal e pimenta-do-reino"
+    ],
+    "modoPreparo": [
+      "Cozinhe a moranga inteira até ficar macia, como aquela piada que só o tio do pavê entende.",
+      "Enquanto isso, refogue a cebola, alho e a pimenta no azeite e junte os camarões para dar um mergulho rápido.",
+      "Flambe com a cachaça, para aquela explosão de sabores que faz a festa começar.",
+      "Adicione o leite de coco e o coentro, criando um molho que é praticamente a caipirinha dos frutos do mar.",
+      "Retire a tampa da moranga com cuidado, recheie com o camarão e leve ao forno rápido para gratinar e impressionar convidados."
+    ],
+    "descricao": "Um prato que é quase um carnaval na boca: colorido, animado e com aquele toque que só a cachaça pode dar. Ideal para impressionar sem precisar ser chef – só amigo do fogo.",
+    "tempo": "1h10 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 70,00",
+    "porcoes": "5 porções",
+    "dica": "Se sobrar, faça piada dizendo que é um prato para ressuscitar qualquer ressaca."
+  },
+  {
+    "id": 24,
+    "titulo": "Salada Quente de Abóbora e Gorgonzola: A Festa dos Contrastes",
+    "slug": "salada-quente-de-abobora-e-gorgonzola-a-festa-dos-contrastes",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "400g de abóbora cabotiá em cubos",
+      "150g de queijo gorgonzola",
+      "Mix de folhas verdes (rúcula, agrião, alface) – 2 xícaras",
+      "Nozes picadas (50g)",
+      "Azeite trufado (opcional)",
+      "Sal e pimenta-do-reino",
+      "Mel para regar"
+    ],
+    "modoPreparo": [
+      "Asse a abóbora até ficar douradinha, como aquele comediante que brilha no palco e no forno.",
+      "Misture as folhas com as nozes para dar aquela crocância chique, tipo risada inesperada.",
+      "Coloque a abóbora quente por cima, permitindo que o queijo gorgonzola derreta só um pouquinho, tipo coração de gelo que se rende ao amor.",
+      "Regue com mel e azeite trufado para o toque final que faz até o seu gato querer experimentar.",
+      "Sirva rápido antes que alguém queira repetir e você tenha que esconder a travessa."
+    ],
+    "descricao": "Salada? Quente? Sim! Essa receita prova que salada pode ser a estrela do show e que misturar sabores é como contar piada: o segredo está no timing e na entrega.",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 32,00",
+    "porcoes": "3 porções",
+    "dica": "Se não achar azeite trufado, use o normal e finja que sabe o segredo do chef."
+  },
+  {
+    "id": 25,
+    "titulo": "Espaguete ao Molho de Beterraba com Nozes: O Vermelho que Não É Susto",
+    "slug": "espaguete-ao-molho-de-beterraba-com-nozes-o-vermelho-que-nao-e-susto",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "250g de espaguete",
+      "2 beterrabas médias cozidas",
+      "1/2 xícara de nozes picadas",
+      "1 dente de alho",
+      "100 ml de creme de leite fresco",
+      "Queijo parmesão ralado a gosto",
+      "Azeite de oliva",
+      "Sal e pimenta-do-reino"
+    ],
+    "modoPreparo": [
+      "Cozinhe o espaguete até ficar al dente, do jeito que o brasileiro gosta (nem duro, nem mole demais).",
+      "No liquidificador, bata a beterraba com o alho, creme de leite, sal e pimenta até virar um molho tão vermelho que assusta (mas só um pouco).",
+      "Refogue as nozes no azeite até ficarem douradas, porque crocância é vida, minha gente.",
+      "Misture o molho com o espaguete e finalize com as nozes por cima, como a cereja do bolo, só que mais crocante.",
+      "Sirva com parmesão e prepare-se para os elogios (ou as perguntas sobre como você ficou com a boca rosa)."
+    ],
+    "descricao": "Para quem quer impressionar com cor e sabor, esse espaguete vermelho é o prato que vai fazer você parecer que passou horas na cozinha, mas que na verdade é tão rápido quanto aquela piada boa na roda de amigos.",
+    "tempo": "30 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "2 porções",
+    "dica": "Use guardanapo: beterraba mancha mais que ex da sua vida."
+  },
+  {
+    "id": 26,
+    "titulo": "Suflê de Queijo: O Ar que Cai no Seu Prato",
+    "slug": "sufle-de-queijo-o-ar-que-cai-no-seu-prato",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "4 ovos",
+      "200g de queijo parmesão ralado",
+      "200ml de leite integral",
+      "2 colheres de sopa de manteiga",
+      "2 colheres de sopa de farinha de trigo",
+      "sal a gosto",
+      "pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Separe as claras das gemas como quem separa os problemas do domingo.",
+      "Faça um roux: derreta a manteiga, junte a farinha e mexa até formar uma pasta que não vai te deixar na mão.",
+      "Adicione o leite, mexa até engrossar e junte as gemas, queijo, sal e pimenta — é o momento de brilhar!",
+      "Bata as claras em neve até ficarem firmes como suas resoluções de Ano Novo.",
+      "Incorpore delicadamente as claras no creme, para não perder o ar — porque aqui o segredo é leveza, não drama.",
+      "Coloque em ramequins untados e leve ao forno pré-aquecido a 180°C por cerca de 25 minutos ou até crescer e dourar, rápido antes que murche como suas plantas.",
+      "Sirva imediatamente para evitar que desanime como aquele amigo que não responde mensagem."
+    ],
+    "descricao": "Um suflê de queijo que é como aquele amigo que chega leve e faz a festa, mas desaparece rápido — então aproveite cada mordida antes que ele desabe!",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 28,00",
+    "porcoes": "4 porções",
+    "dica": "Não abra o forno antes da hora, ou seu suflê vai murchar mais rápido que suas ambições na segunda-feira."
+  },
+  {
+    "id": 27,
+    "titulo": "Tartar de Beterraba: Cru e Chique, Sem Frescura",
+    "slug": "tartar-de-beterraba-cru-e-chique-sem-frescura",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "2 beterrabas médias cruas",
+      "1 colher de sopa de azeite extra virgem",
+      "1 colher de chá de mostarda Dijon",
+      "1 colher de sopa de suco de limão",
+      "sal e pimenta-do-reino a gosto",
+      "folhas de rúcula para decorar"
+    ],
+    "modoPreparo": [
+      "Rale as beterrabas cruas como se fosse lavar a alma, com capricho e paciência.",
+      "Misture o azeite, a mostarda e o limão para fazer o molho que vai dar aquela animada no visual e no sabor.",
+      "Tempere a beterraba com sal e pimenta, como quem dá aquela apimentada na vida.",
+      "Monte o tartar com um aro para ficar bonitão — porque aqui a estética também conta, né?",
+      "Decore com rúcula para aquele toque verde que diz 'eu me importo com minha saúde'",
+      "Sirva frio, pra combinar com seu humor de quem acordou cedo pra fazer receita gourmet."
+    ],
+    "descricao": "Tartar de beterraba: a prova de que você pode ser chique, saudável e ainda economizar tempo — e evitar o drama de peixe cru.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "2 porções",
+    "dica": "Não se esqueça do limão, ele é o cupido que junta todos os sabores num romance de dar água na boca."
+  },
+  {
+    "id": 28,
+    "titulo": "Frango ao Molho de Laranja: Porque Azedume Também é Sofisticado",
+    "slug": "frango-ao-molho-de-laranja-porque-azedume-tambem-e-sofisticado",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "500g de peito de frango",
+      "2 laranjas",
+      "2 colheres de sopa de mel",
+      "2 dentes de alho picados",
+      "1 colher de sopa de azeite",
+      "sal e pimenta-do-reino a gosto",
+      "salsinha para decorar"
+    ],
+    "modoPreparo": [
+      "Tempere o frango com sal, pimenta e alho como quem prepara para um encontro importante.",
+      "Sele o frango no azeite até dourar, porque todo mundo merece um bronzeado digno.",
+      "Esprema o suco das laranjas e misture com o mel para o molho que vai fazer seu paladar dançar.",
+      "Despeje o molho na panela, tampe e deixe cozinhar até o frango ficar macio, tipo final de série que te prende no sofá.",
+      "Finalize com salsinha para aquele toque de chef que só você sabe dar.",
+      "Sirva com arroz ou aquela saladinha que finge que você come saudável."
+    ],
+    "descricao": "Frango ao molho de laranja: quando a acidez encontra a doçura e faz você repensar a vida — ou pelo menos o jantar.",
+    "tempo": "35 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "3 porções",
+    "dica": "Se o molho ficar muito ácido, jogue mais mel — seu paladar vai agradecer e seu estômago também."
+  },
+  {
+    "id": 29,
+    "titulo": "Risoto de Abóbora com Gengibre: Outono no Prato, Piada no Prato",
+    "slug": "risoto-de-abobora-com-gengibre-outono-no-prato-piada-no-prato",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "1 xícara de arroz arbóreo",
+      "300g de abóbora picada",
+      "1 pedaço pequeno de gengibre ralado",
+      "1/2 cebola picada",
+      "1 dente de alho picado",
+      "1/2 xícara de vinho branco",
+      "1 litro de caldo de legumes",
+      "2 colheres de sopa de manteiga",
+      "50g de queijo parmesão ralado",
+      "sal e pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue cebola e alho até ficarem douradinhos, como seu humor depois do terceiro café.",
+      "Junte a abóbora e o gengibre e deixe eles se conhecerem por uns minutinhos.",
+      "Acrescente o arroz e mexa até os grãos ficarem brilhantes, tipo sua vontade de cozinhar nas férias.",
+      "Despeje o vinho e deixe evaporar, porque álcool na receita é tipo piada boa: essencial.",
+      "Vá adicionando o caldo aos poucos, mexendo sempre, até o arroz ficar cremoso, com paciência de monge e fome de leão.",
+      "Finalize com manteiga, parmesão, sal e pimenta — e prepare-se para ser aplaudido de pé pela sua própria cozinha."
+    ],
+    "descricao": "Risoto de abóbora com gengibre: aquele abraço quente que você precisava no prato, com um toque de fogo que nem o tio do pavê tem.",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "4 porções",
+    "dica": "A paciência é o segredo. Se precisar, coloque uma playlist animada para não desistir no meio do caminho."
+  },
+  {
+    "id": 30,
+    "titulo": "Espetinho Caprese com Toque de Balsâmico: Porque Salada Também Pode Ser Festa",
+    "slug": "espetinho-caprese-com-toque-de-balsamico-porque-salada-tambem-pode-ser-festa",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "200g de tomate-cereja",
+      "200g de muçarela de búfala",
+      "folhas de manjericão fresco",
+      "2 colheres de sopa de vinagre balsâmico",
+      "1 colher de sopa de azeite extra virgem",
+      "sal e pimenta-do-reino a gosto",
+      "palitos para espetinho"
+    ],
+    "modoPreparo": [
+      "Lave os tomates e folhas de manjericão como se estivesse preparando um spa para eles.",
+      "Corte a muçarela em bolinhas ou cubos — chique e prático, porque ninguém merece drama.",
+      "Monte os espetinhos intercalando tomate, muçarela e manjericão, tipo aquele trio que nunca decepciona.",
+      "Misture o vinagre balsâmico com o azeite, sal e pimenta para o molho que vai transformar seu petisco em obra de arte.",
+      "Regue os espetinhos com o molho e sirva, porque festa no paladar não espera convite."
+    ],
+    "descricao": "Espetinho Caprese: a salada que decidiu que podia ser estrela do churrasco, sem perder a classe nem o sabor.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "4 porções",
+    "dica": "Use um bom vinagre balsâmico — a diferença entre um 'uau' e um 'mais ou menos' no seu paladar."
+  },
+  {
+    "id": 31,
+    "titulo": "Risoto de Beterraba: Vermelho que Te Deixa Com Fome e Não de Medo",
+    "slug": "risoto-de-beterraba-vermelho-que-te-deixa-com-fome-e-nao-de-medo",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "1 xícara de arroz arbóreo",
+      "1 beterraba média cozida e ralada",
+      "1/2 cebola picada",
+      "1 litro de caldo de legumes",
+      "1/2 xícara de vinho branco seco",
+      "50g de queijo parmesão ralado",
+      "2 colheres de sopa de manteiga",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Enquanto a beterraba se esconde no caldo, refogue a cebola com manteiga até ela ficar transparente – igual suas intenções na cozinha.",
+      "Junte o arroz e o vinho, faça aquela dancinha do chef e deixe o álcool evaporar enquanto você pratica seu sorriso de quem sabe o que está fazendo.",
+      "Vá adicionando o caldo aos poucos, mexendo sem parar, porque risoto é maratona, não corrida de 100 metros.",
+      "Quando o arroz estiver quase no ponto, misture a beterraba ralada e deixe o vermelho invadir seu prato e sua alma.",
+      "Finalize com queijo parmesão, ajuste o sal e a pimenta, e sirva antes que alguém peça um risoto de miojo."
+    ],
+    "descricao": "Um risoto que pinta seu prato de vermelho e seu humor de alegria. Fácil de fazer, difícil de esquecer! Afinal, beterraba não é só para quem quer virar vampiro.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 20,00",
+    "porcoes": "4 porções",
+    "dica": "Se você errar o ponto do risoto, finja que era assim mesmo, é arte moderna!"
+  },
+  {
+    "id": 32,
+    "titulo": "Filé de Tilápia na Manteiga de Alho: Peixinho Chique que Nem Seu Sogro Aguenta",
+    "slug": "file-de-tilapia-na-manteiga-de-alho-peixinho-chique-que-nem-seu-sogro-aguenta",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "4 filés de tilápia",
+      "3 dentes de alho picados",
+      "50g de manteiga",
+      "Suco de 1 limão",
+      "Sal, pimenta-do-reino e salsinha a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere os filés com sal, pimenta e limão, e deixe eles curtindo a vida por uns 10 minutos.",
+      "Derreta a manteiga numa frigideira, jogue o alho e deixe ele dourar daquele jeitinho que faz você se sentir chef de cozinha.",
+      "Coloque os filés e deixe dourar, virando com cuidado para não parecer que você está fazendo equilibrista.",
+      "Finalize com salsinha e mais um pouco de limão se quiser impressionar na foto do prato."
+    ],
+    "descricao": "Um prato simples que vai fazer seu jantar parecer uma festa de aniversário da rainha. Tilápia com manteiga de alho: o básico que virou glamour.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 25,00",
+    "porcoes": "4 porções",
+    "dica": "Não economize no alho – só cuidado pra não ficar com bafo de dragão no encontro."
+  },
+  {
+    "id": 33,
+    "titulo": "Brie Assado com Mel e Nozes: Queijo Que Se Veste de Festa e Dança com Seu Paladar",
+    "slug": "brie-assado-com-mel-e-nozes-queijo-que-se-veste-de-festa-e-danca-com-seu-paladar",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "1 roda de queijo brie (200g)",
+      "3 colheres de sopa de mel",
+      "1/4 de xícara de nozes picadas",
+      "Pimenta rosa para decorar",
+      "Pão baguete para acompanhar"
+    ],
+    "modoPreparo": [
+      "Preaqueça o forno a 180ºC e prepare-se para o show do queijo derretido.",
+      "Coloque o brie numa travessa pequena, regue com mel, jogue as nozes por cima e uma pitada de pimenta rosa para aquela pose de influencer.",
+      "Leve ao forno por uns 15 minutos ou até o queijo estar com cara de quem acabou de sair da sauna gourmet.",
+      "Sirva quente com fatias de baguete, porque dourado combina com crocante e com risada na cozinha."
+    ],
+    "descricao": "Esse brie é tipo aquele amigo que chega na festa e todo mundo quer conversar. Derretido, doce e com nozes crocantes, é o luxo que não pede convite.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 35,00",
+    "porcoes": "3 porções",
+    "dica": "Não deixe o queijo passar do ponto, ou vira queijo derretido com crise existencial."
+  },
+  {
+    "id": 34,
+    "titulo": "Espetinho de Camarão com Bacon: O Amor Improvável que Todo Gourmet Quer Provar",
+    "slug": "espetinho-de-camarao-com-bacon-o-amor-improvavel-que-todo-gourmet-quer-provar",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "300g de camarão limpo",
+      "150g de bacon em fatias",
+      "Suco de 1 limão",
+      "Sal e pimenta-do-reino a gosto",
+      "Palitos para espetinho"
+    ],
+    "modoPreparo": [
+      "Tempere o camarão com sal, pimenta e limão – nada de frescura, só amor.",
+      "Enrole cada camarão em uma fatia fina de bacon, tipo um abraço saboroso.",
+      "Espete os camarões enrolados no palito e prepare-se para o espetáculo na grelha ou frigideira.",
+      "Cozinhe até o bacon ficar crocante e o camarão suculento – o equilíbrio do universo em um espetinho."
+    ],
+    "descricao": "Quando o mar encontra a fazenda, nasce esse espetinho que é festa no paladar. Camarão com bacon: a prova de que opostos realmente se atraem.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 40,00",
+    "porcoes": "4 porções",
+    "dica": "Fique de olho na grelha... bacon gosta de brilhar, mas não quer virar carvão."
+  },
+  {
+    "id": 35,
+    "titulo": "Salada de Rúcula com Pera e Gorgonzola: O Romance Azedo-Doce Que Até Shakespeare Aprovava",
+    "slug": "salada-de-rucula-com-pera-e-gorgonzola-o-romance-azedo-doce-que-ate-shakespeare-aprovava",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "3 xícaras de rúcula fresca",
+      "1 pera madura fatiada",
+      "100g de queijo gorgonzola esfarelado",
+      "1/4 de xícara de nozes tostadas",
+      "Molho: azeite, vinagre balsâmico, mel, sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Lave e seque a rúcula, porque ninguém gosta de salada nadando no tanque.",
+      "Misture o azeite, balsâmico, mel, sal e pimenta para fazer o molho que vai dar aquele 'up' no seu status gourmet.",
+      "Monte a salada com rúcula, pera, gorgonzola e nozes – combinação que é quase poesia no prato.",
+      "Regue com o molho na hora de servir e prepare-se para elogios, ou pelo menos para parecer que sabe o que está fazendo."
+    ],
+    "descricao": "Azeda, doce, crocante e cremosa – essa salada é como aquela piada que só os bons entendem, mas todo mundo quer provar.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 28,00",
+    "porcoes": "3 porções",
+    "dica": "Não deixe o gorgonzola mandar no prato, mantenha a paz entre os sabores!"
+  },
+  {
+    "id": 36,
+    "titulo": "Carpaccio de Beterraba: Cru, vermelho e de roer as unhas",
+    "slug": "carpaccio-de-beterraba-cru-vermelho-e-de-roer-as-unhas",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "2 beterrabas médias",
+      "50 ml de azeite extra virgem",
+      "Suco de 1 limão siciliano",
+      "Raspas de limão siciliano",
+      "Folhas de rúcula",
+      "50g de queijo parmesão ralado na hora",
+      "Sal marinho",
+      "Pimenta do reino moída"
+    ],
+    "modoPreparo": [
+      "Lave as beterrabas com carinho, afinal, elas merecem.",
+      "Com uma faca afiada (ou um mandolim para parecer chef), corte a beterraba em fatias finíssimas, quase transparentes — é para fingir que você sabe o que está fazendo.",
+      "Arrume as fatias no prato, como se estivesse pendurando uma obra de arte moderna.",
+      "Tempere com sal, pimenta, azeite e o suco de limão — a beterraba vai ficar tão vermelha que seu blush vai ter inveja.",
+      "Decore com folhas de rúcula e as raspas de limão para aquele toque de chef que ninguém entende, mas todo mundo admira.",
+      "Finalize com parmesão ralado para dar um crunch que ninguém esperava."
+    ],
+    "descricao": "Quem disse que beterraba é só pra suco de vó? Essa receita é a prova de que ela pode entrar no jogo gourmet e ainda te fazer rir do quanto ficou chique.",
+    "tempo": "25 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 22,00",
+    "porcoes": "2 porções",
+    "dica": "Se errar a faca, finge que é o estilo do prato. Estilo ‘beterraba freestyle’."
+  },
+  {
+    "id": 37,
+    "titulo": "Pernil de Porco ao Vinho com Toque de Vovó Descolada",
+    "slug": "pernil-de-porco-ao-vinho-com-toque-de-vovo-descolada",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "1 kg de pernil de porco",
+      "2 dentes de alho amassados",
+      "1 cebola grande picada",
+      "200 ml de vinho tinto seco",
+      "2 folhas de louro",
+      "Sal e pimenta a gosto",
+      "2 colheres de sopa de mel",
+      "Alecrim fresco"
+    ],
+    "modoPreparo": [
+      "Tempere o pernil com sal, pimenta, alho e alecrim – imagine que está preparando um spa para o porco antes do show.",
+      "Coloque para marinar no vinho tinto e deixe dar aquele mergulho profundo por pelo menos 2 horas (ou durante o tempo que você ficar vendo séries).",
+      "Na panela, refogue a cebola até dourar e jogue o pernil com tudo dentro, incluindo o vinho da marinada – porque desperdício não é chique.",
+      "Adicione as folhas de louro e o mel para aquela mistura doce e rebelde.",
+      "Cozinhe em fogo baixo, com a tampa, até a carne estar tão macia que vai se despedir do osso, tipo ex da novela.",
+      "Pra finalizar, dê um toque de forno para dourar e deixar todo mundo babando."
+    ],
+    "descricao": "Um prato que junta tradição e ousadia, para quem quer impressionar sem parecer que passou o dia inteiro na cozinha (mas na verdade passou sim).",
+    "tempo": "3h (com marinada e cozimento)",
+    "dificuldade": "Médio",
+    "preco": "R$ 45,00",
+    "porcoes": "4 porções",
+    "dica": "Se sobrar, conte que é receita secreta da família. Ninguém precisa saber que foi improviso."
+  },
+  {
+    "id": 38,
+    "titulo": "Quiche de Alho-Poró: Chique no último fio verde",
+    "slug": "quiche-de-alho-poro-chique-no-ultimo-fio-verde",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "1 massa folhada pronta",
+      "3 talos de alho-poró fatiados finamente",
+      "3 ovos",
+      "200 ml de creme de leite fresco",
+      "100g queijo gruyère ralado (pode ser parmesão ralado na falta)",
+      "Sal, pimenta do reino e noz-moscada a gosto",
+      "Manteiga para refogar"
+    ],
+    "modoPreparo": [
+      "Pré-aqueça seu forno, enquanto finge que sabe a temperatura exata (180°C tá ótimo).",
+      "Em uma frigideira, derreta manteiga e refogue o alho-poró até ele ficar macio e se sentir importante.",
+      "Misture os ovos com creme de leite, o queijo ralado e tempere com sal, pimenta e uma pitada de noz-moscada — porque a vida precisa de um toque misterioso.",
+      "Forre uma forma com a massa folhada e pique o fundo com um garfo para não empolgar e crescer demais.",
+      "Espalhe o alho-poró refogado, derrame a mistura cremosa e leve ao forno até firmar e dourar — mais ou menos 35 minutos.",
+      "Espere esfriar um pouco, porque ninguém merece boca queimada no nível chef."
+    ],
+    "descricao": "Para quem quer ser chique sem precisar de ingrediente vindo do outro lado do mundo. Um clássico que combina com piada boa e vinho barato.",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "preco": "R$ 30,00",
+    "porcoes": "6 porções",
+    "dica": "Se a massa fugir do forno, diga que é conceito artístico. Ninguém vai te julgar."
+  },
+  {
+    "id": 39,
+    "titulo": "Espaguete ao Molho de Limão Siciliano e Manjericão: Acorda o paladar (e o chefe preguiçoso)",
+    "slug": "espaguete-ao-molho-de-limao-siciliano-e-manjericao",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "250g de espaguete",
+      "Suco e raspas de 2 limões sicilianos",
+      "1 maço de manjericão fresco",
+      "3 colheres de sopa de azeite extra virgem",
+      "2 dentes de alho picados",
+      "Sal e pimenta do reino a gosto",
+      "50g queijo parmesão ralado para servir"
+    ],
+    "modoPreparo": [
+      "Cozinhe o espaguete na água com sal até ficar al dente — tipo você na segunda-feira, firme, mas não muito duro.",
+      "Enquanto isso, aqueça o azeite e refogue o alho suavemente, sem deixar queimar (porque queimar é coisa de iniciante).",
+      "Desligue o fogo, misture o suco e as raspas do limão, e adicione as folhas de manjericão rasgadas na hora — nada de preguiça com manjericão congelado.",
+      "Escorra o macarrão e misture ao molho, mexendo com amor (ou com garfo mesmo, que também dá).",
+      "Sirva com parmesão ralado e um sorriso porque você merece.",
+      "Se quiser impressionar, conte que esse prato é a cara do verão, mesmo que esteja chovendo."
+    ],
+    "descricao": "Para quem quer uma receita gourmet, rápida e que vai acordar até seu vizinho. O limão dá o toque ácido, o manjericão o charme e você, a piada final.",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 18,00",
+    "porcoes": "2 porções",
+    "dica": "Use o limão inteiro, porque quanto mais azedo, mais chique. Ou pelo menos é o que dizem."
+  },
+  {
+    "id": 40,
+    "titulo": "Caldinho de Mandioquinha com Gengibre: O aconchego que te dá um tapa gourmet",
+    "slug": "caldinho-de-mandioquinha-com-gengibre-o-aconchego-que-te-da-um-tapa-gourmet",
+    "categoria": "Gourmet 💎",
+    "ingredientes": [
+      "500g de mandioquinha descascada e picada",
+      "1 pedaço de gengibre fresco (3cm) ralado",
+      "1 dente de alho picado",
+      "1 cebola média picada",
+      "1 litro de caldo de legumes ou água",
+      "Sal e pimenta do reino a gosto",
+      "Cheiro verde para decorar",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e o alho no azeite até ficarem dourados e mais perfumados que seu chefe depois do café.",
+      "Junte a mandioquinha e o gengibre, mexendo como se estivesse fazendo mágica, mas é só calor mesmo.",
+      "Cubra com caldo de legumes e deixe cozinhar até a mandioquinha virar um abraço quente, bem macia.",
+      "Bata tudo no liquidificador até ficar cremoso, tipo aquele suspense do final da série.",
+      "Volte para a panela para ajustar o sal e a pimenta, porque ninguém merece caldinho apagadinho.",
+      "Sirva com cheiro verde e prepare-se para os aplausos (ou pelo menos um obrigado)."
+    ],
+    "descricao": "Quando a mandioquinha encontra o gengibre, é como se o Brasil tropical desse um abraço gourmet no seu estômago.",
+    "tempo": "40 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "4 porções",
+    "dica": "Se sobrar, guarde para os dias que você quer se sentir abraçado pela culinária sem sair do sofá."
   }
 ]

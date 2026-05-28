@@ -265,5 +265,718 @@
     "preco": "R$ 8,00",
     "porcoes": "1 porção",
     "dica": "Lembre-se: sal rosa não vai te fazer virar marombeiro, mas pelo menos deixa a torrada mais charmosa do que você no espelho do vestiário."
+  },
+  {
+    "id": 11,
+    "titulo": "Shake do Hulk: Verde que te quero forte",
+    "slug": "shake-do-hulk-verde-que-te-quero-forte",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "1 banana prata",
+      "200ml de leite de amêndoas",
+      "1 colher de sopa de pasta de amendoim",
+      "1 colher de chá de cacau em pó",
+      "1 colher de chá de spirulina em pó",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Jogue tudo no liquidificador e imagine que está ficando verde de força.",
+      "Bata até parecer que Hulk mexeu ali dentro. Se ficar grosso, junte um pouco mais de leite e grite: 'Mais verde, por favor!'"
+    ],
+    "descricao": "Um shake pré-treino que vai te deixar tão forte que até o Hulk vai pedir sua receita. Combina energia, proteína e aquela cor verde que faz a galera perguntar se você virou super-herói.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,50",
+    "porcoes": "1 porção",
+    "dica": "Se você ficar verde, não se preocupe. Só evite abraçar os amigos até o treino."
+  },
+  {
+    "id": 12,
+    "titulo": "Tapioca Turbo: Carboidrato com comédia",
+    "slug": "tapioca-turbo-carboidrato-com-comedia",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "2 colheres de sopa de goma de tapioca hidratada",
+      "1 colher de sopa de queijo coalho ralado",
+      "1 colher de chá de chia",
+      "Mel para regar"
+    ],
+    "modoPreparo": [
+      "Esquente a frigideira e espalhe a goma de tapioca como se estivesse pintando sua tela da força.",
+      "Espalhe o queijo, deixe derreter e salpique a chia como se fosse confete na festa do pré-treino.",
+      "Dobre a tapioca, regue com mel e diga: ‘Agora só falta o músculo aparecer!’"
+    ],
+    "descricao": "A tapioca que vai te dar energia para correr daquela desculpa de faltar treino. Sabor doce, saudável e pronta em minutos - para você não perder o foco ou a piada.",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "1 porção",
+    "dica": "Coma rápido, porque a preguiça não espera."
+  },
+  {
+    "id": 13,
+    "titulo": "Café Bombado: Energia que acorda até preguiça",
+    "slug": "cafe-bombado-energia-que-acorda-ate-preguica",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "150ml de café coado",
+      "100ml de leite desnatado",
+      "1 colher de sopa de cacau em pó",
+      "1 colher de chá de canela em pó",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Prepare o café com o amor de quem quer evitar soneca no treino.",
+      "Misture o leite, cacau e canela – porque sua vida merece um pouco de chocolate e tempero, até na energia.",
+      "Adoce com mel e tome como se fosse poção mágica."
+    ],
+    "descricao": "Uma bebida que vai te acordar mais rápido que um ‘buzinaço’ no trânsito. Combina o poder do café com aquela pitada de doçura e antioxidantes para um pré-treino de respeito.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 3,50",
+    "porcoes": "1 porção",
+    "dica": "Não beba 10 para não virar o próprio café ambulante."
+  },
+  {
+    "id": 14,
+    "titulo": "Banana Explosiva com Aveia e Canela",
+    "slug": "banana-explosiva-com-aveia-e-canela",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "1 banana madura",
+      "3 colheres de sopa de aveia em flocos",
+      "1 colher de chá de canela em pó",
+      "1 colher de sopa de mel",
+      "1 colher de chá de semente de abóbora"
+    ],
+    "modoPreparo": [
+      "Amasse a banana até ficar tipo purê de gente feliz.",
+      "Misture a aveia, canela, mel e sementes como se fosse preparar o coquetel da força.",
+      "Coma rápido antes que a preguiça te convença a ficar no sofá."
+    ],
+    "descricao": "Doce, nutritiva e com um toque crocante que vai te dar energia para explodir no treino ou pelo menos não cochilar na esteira.",
+    "tempo": "8 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,80",
+    "porcoes": "1 porção",
+    "dica": "Se quiser explosão garantida, faça uma dancinha antes de comer."
+  },
+  {
+    "id": 15,
+    "titulo": "Sanduíche do Atleta Preguiçoso",
+    "slug": "sanduiche-do-atleta-preguicoso",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "2 fatias de pão integral",
+      "2 fatias de peito de peru",
+      "Folhas de alface",
+      "1 fatia de queijo minas frescal",
+      "1 colher de sopa de mostarda"
+    ],
+    "modoPreparo": [
+      "Passe a mostarda no pão como se estivesse pintando sua vitória no treino.",
+      "Monte o sanduíche com peito de peru, queijo e alface, cuidando para não perder nenhum ingrediente por preguiça.",
+      "Morda com vontade e finja que está na final da maratona."
+    ],
+    "descricao": "Um sanduíche simples, rápido e cheio de proteína para aquele treino que você até quer fazer, mas quer ir logo para casa depois.",
+    "tempo": "6 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "1 porção",
+    "dica": "Para não errar, não deixe o pão cair na cara."
+  },
+  {
+    "id": 16,
+    "titulo": "Suco Energia de Abacaxi com Gengibre e Cúrcuma",
+    "slug": "suco-energia-de-abacaxi-com-gengibre-e-curcuma",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "1 fatia média de abacaxi",
+      "1 pedaço pequeno de gengibre",
+      "1 colher de chá de cúrcuma em pó",
+      "200ml de água de coco",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Coloque tudo no liquidificador e bata até parecer uma poção do bem.",
+      "Tome com força e imagine que está limpando a preguiça do corpo.",
+      "Se cuspir, faça de novo (mas não exagere no gengibre)."
+    ],
+    "descricao": "Um suco cheio de vitaminas e anti-inflamatórios naturais para te deixar pronto para qualquer desafio, até para aquela série de agachamento que parece uma piada.",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Não faça careta, o segredo está no poder do gengibre."
+  },
+  {
+    "id": 17,
+    "titulo": "Ovos Recheados para Hércules de Cozinha",
+    "slug": "ovos-recheados-para-hercules-de-cozinha",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "3 ovos cozidos",
+      "1 colher de sopa de maionese light",
+      "1 colher de chá de mostarda",
+      "Salsinha picada a gosto",
+      "Pimenta do reino a gosto"
+    ],
+    "modoPreparo": [
+      "Corte os ovos ao meio, mas cuidado para não deixar cair na mesa e perder metade da força.",
+      "Misture as gemas com maionese, mostarda e salsinha como se fosse criar o elixir do pré-treino.",
+      "Recheie as metades e coma como se fosse o lanche dos campeões."
+    ],
+    "descricao": "Clássico, simples e cheio de proteína para você parar de inventar desculpas e partir para o treino com estilo e humor.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,50",
+    "porcoes": "1 porção",
+    "dica": "Se a pimenta fizer você chorar, diga que é suor de treino antecipado."
+  },
+  {
+    "id": 18,
+    "titulo": "Iogurte Ninja com Frutas e Granola",
+    "slug": "iogurte-ninja-com-frutas-e-granola",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "200g de iogurte natural",
+      "1 colher de sopa de granola",
+      "½ maçã picada",
+      "½ banana picada",
+      "Mel para adoçar"
+    ],
+    "modoPreparo": [
+      "Misture o iogurte com as frutas como se estivesse preparando um arsenal secreto.",
+      "Salpique a granola por cima com a precisão de um ninja.",
+      "Adicione mel para dar doçura e ataque rápido de energia."
+    ],
+    "descricao": "Um pré-treino leve, saboroso e nutritivo para você atacar os exercícios sem perder a pose do guerreiro da academia.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "1 porção",
+    "dica": "Coma sem fazer barulho, ninja que é ninja não anuncia a chegada."
+  },
+  {
+    "id": 19,
+    "titulo": "Pãozinho de Batata Doce: O carbo que te entende",
+    "slug": "paozinho-de-batata-doce-o-carbo-que-te-entende",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "2 batatas doces médias cozidas",
+      "1 ovo",
+      "3 colheres de sopa de farinha de aveia",
+      "1 colher de chá de fermento em pó",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Amasse as batatas com um garfo até virar um purê que parece fofura de criança.",
+      "Misture ovo, farinha e fermento, como se estivesse preparando a massa da felicidade.",
+      "Forme bolinhas, asse a 180°C por 20 minutos e sinta o poder do carbo na veia."
+    ],
+    "descricao": "Pãozinho saudável e caseiro feito para dar aquela energia que nem o melhor meme do Instagram é capaz de te proporcionar antes do treino.",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 7,20",
+    "porcoes": "4 porções",
+    "dica": "Não coma tudo de uma vez, guarde um para o pós-treino (ou para o lanche da tarde)."
+  },
+  {
+    "id": 20,
+    "titulo": "Vitamina Fugitiva: Abacate, Leite e Humor",
+    "slug": "vitamina-fugitiva-abacate-leite-e-humor",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "½ abacate maduro",
+      "200ml de leite desnatado",
+      "1 colher de sopa de mel",
+      "1 colher de sopa de aveia",
+      "Canela para polvilhar"
+    ],
+    "modoPreparo": [
+      "Jogue tudo no liquidificador e bata como se estivesse fugindo da preguiça.",
+      "Sirva com um sorriso e polvilhe canela para dar aquele toque de chef gourmet que você não é, mas quer parecer.",
+      "Beba rápido antes que a vontade de desistir apareça."
+    ],
+    "descricao": "Uma vitamina cremosa, nutritiva e com aquela vibe de que você está fazendo algo bom pela sua vida. Ótima para acordar até músculo preguiçoso.",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,90",
+    "porcoes": "1 porção",
+    "dica": "Se quiser, faça uma careta engraçada antes de tomar, ajuda no ânimo."
+  },
+  {
+    "id": 21,
+    "titulo": "Explosão de Energia com Banana-Pipioca",
+    "slug": "explosao-de-energia-com-banana-pipioca",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "1 banana prata madura",
+      "2 colheres de sopa de milho para pipoca",
+      "1 colher de chá de mel",
+      "1 pitada de canela em pó"
+    ],
+    "modoPreparo": [
+      "Coloque o milho para pipoca na panela e faça o espetáculo: POP, POP, POP!",
+      "Enquanto a pipoca dança, amasse a banana e misture com mel e canela.",
+      "Misture a pipoca com a banana e tente não comer tudo antes do treino."
+    ],
+    "descricao": "Essa receita é para quem quer energia com gostinho de infância e um toque de 'vou voar na academia'. A banana dá o açúcar natural, a pipoca o crocante e o mel o abraço doce que seu treino merece.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "2 porções",
+    "dica": "Se a pipoca estourar demais, você já ganhou o aquecimento!"
+  },
+  {
+    "id": 22,
+    "titulo": "Vitamina Bombada de Açaí e Café",
+    "slug": "vitamina-bombada-de-acai-e-cafe",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "100g de polpa de açaí congelada",
+      "1 xícara de café coado forte",
+      "1 banana nanica",
+      "1 colher de sopa de aveia",
+      "Mel a gosto"
+    ],
+    "modoPreparo": [
+      "Jogue tudo no liquidificador e ligue antes que seus músculos reclamem.",
+      "Beba rápido para não perder o efeito turbo do café e açaí."
+    ],
+    "descricao": "Para quem quer parecer que tomou 3 cafés e ainda está na academia, essa vitamina é o seu superpoder em forma de copo. Açaí para o calor, café para o gás e banana para o docinho natural.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 12,00",
+    "porcoes": "1 porção",
+    "dica": "Se ficar muito forte, finja que é energia concentrada!"
+  },
+  {
+    "id": 23,
+    "titulo": "Torrada Power de Abacate com Ovo Caipira",
+    "slug": "torrada-power-de-abacate-com-ovo-caipira",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "2 fatias de pão integral",
+      "1/2 abacate maduro",
+      "1 ovo caipira",
+      "Sal e pimenta do reino a gosto",
+      "Gotas de limão"
+    ],
+    "modoPreparo": [
+      "Toste o pão até ficar mais crocante que sua motivação na segunda-feira.",
+      "Amasse o abacate com sal, pimenta e limão e espalhe generosamente.",
+      "Frite o ovo de um jeito que ele fique mais bonito do que seu rosto de sono.",
+      "Monte a torrada e coma pensando que você já fez metade do treino."
+    ],
+    "descricao": "Essa receita é o match perfeito: gordura boa do abacate, proteína do ovo e carboidrato do pão. Uma explosão de energia com gostinho de ‘eu sou fitness, mas não sou chato’.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 9,00",
+    "porcoes": "1 porção",
+    "dica": "Se o ovo virar omelete, chame de ‘nova receita fitness’."
+  },
+  {
+    "id": 24,
+    "titulo": "Smoothie do Hulk Pré-Treino",
+    "slug": "smoothie-do-hulk-pre-treino",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "200ml de leite de amêndoas",
+      "1 maçã verde",
+      "1 punhado de espinafre fresco",
+      "1 colher de sopa de chia",
+      "1 colher de sopa de mel"
+    ],
+    "modoPreparo": [
+      "Coloque tudo no liquidificador e ligue antes que o Hulk perca a paciência.",
+      "Beba verde para ficar forte, não verde de inveja."
+    ],
+    "descricao": "Se o Hulk fosse fitness, esse seria o pré-treino dele. Leve, nutritivo e verde, para você ficar com energia e sem destruir o sofá.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 11,50",
+    "porcoes": "1 porção",
+    "dica": "Cuidado pra não ficar verde demais e assustar os vizinhos."
+  },
+  {
+    "id": 25,
+    "titulo": "Pão de Queijo Turbo",
+    "slug": "pao-de-queijo-turbo",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "150g de polvilho doce",
+      "100g de queijo minas padrão ralado",
+      "50ml de leite",
+      "1 ovo",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Misture tudo até virar uma massa que parece uma bola de basquete amassada.",
+      "Faça bolinhas e asse até ficarem douradas e cheirosas.",
+      "Coma antes do treino e sinta o turbo começar."
+    ],
+    "descricao": "Se você acha que pão de queijo é só lanche, está na hora de repensar. Esse turbo vai te encher de carboidrato e queijo, porque a vida também precisa de alegria e sabor.",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 8,00",
+    "porcoes": "4 porções",
+    "dica": "Não jogue na academia, é só pra comer mesmo."
+  },
+  {
+    "id": 26,
+    "titulo": "Barra de Cereal Caseira do Atleta Preguiçoso",
+    "slug": "barra-de-cereal-caseira-do-atleta-preguicoso",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "1 xícara de aveia em flocos",
+      "1/2 xícara de mel",
+      "1/3 xícara de castanha-do-pará picada",
+      "1/3 xícara de uva passa",
+      "1 colher de sopa de pasta de amendoim"
+    ],
+    "modoPreparo": [
+      "Misture tudo numa tigela e faça aquela cara de ‘será que vai dar certo?’",
+      "Forre uma forma e aperte tudo com força, como se fosse empurrar o preguiçoso pra academia.",
+      "Leve à geladeira e corte em barras antes de devorar."
+    ],
+    "descricao": "Perfeita para quem diz que não tem tempo para preparar nada, essa barra caseira é o combustível do preguiçoso que quer treinar. Prático, nutritivo e com gostinho de ‘eu me superei hoje’.",
+    "tempo": "20 min + geladeira",
+    "dificuldade": "Fácil",
+    "preco": "R$ 10,00",
+    "porcoes": "5 porções",
+    "dica": "Se não der tempo de gelar, finja que é barra de energia líquida."
+  },
+  {
+    "id": 27,
+    "titulo": "Mix Selvagem de Castanhas e Frutas Secas",
+    "slug": "mix-selvagem-de-castanhas-e-frutas-secas",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "50g de castanha de caju",
+      "50g de amêndoas",
+      "50g de uva passa",
+      "50g de damasco seco picado",
+      "1 pitada de sal rosa do Himalaia"
+    ],
+    "modoPreparo": [
+      "Junte tudo em um pote e chacoalhe como se fosse um shaker de treino mental.",
+      "Coma aos poucos enquanto lembra que você está ficando forte."
+    ],
+    "descricao": "Simples, direto e eficaz. Essa mistura é como o playlist da academia: te dá energia e não deixa você desistir no meio do caminho.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 15,00",
+    "porcoes": "3 porções",
+    "dica": "Não confunda com petisco, mesmo que pareça."
+  },
+  {
+    "id": 28,
+    "titulo": "Suco de Beterraba do Usain Bolt Brasileiro",
+    "slug": "suco-de-beterraba-do-usain-bolt-brasileiro",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "1 beterraba média cozida",
+      "1 cenoura média",
+      "1 maçã",
+      "Suco de 1 limão",
+      "Gengibre a gosto"
+    ],
+    "modoPreparo": [
+      "Bata tudo no liquidificador e finja que virou o Usain Bolt depois de tomar o suco.",
+      "Beba rápido e corra pro treino, ou pelo menos pro sofá."
+    ],
+    "descricao": "Beterraba é o segredo dos corredores, e aqui você tem o suco que vai te deixar vermelho de energia e não de vergonha do treino ruim.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "2 porções",
+    "dica": "Se começar a sentir vontade de correr, não se assuste, é normal."
+  },
+  {
+    "id": 29,
+    "titulo": "Panqueca Ninja de Aveia e Mel",
+    "slug": "panqueca-ninja-de-aveia-e-mel",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "1 xícara de aveia em flocos finos",
+      "1 ovo",
+      "1/2 xícara de leite",
+      "1 colher de sopa de mel",
+      "Canela para polvilhar"
+    ],
+    "modoPreparo": [
+      "Misture tudo e faça panquecas finas, como um ninja que não quer ser visto.",
+      "Vire na hora certa para não virar panqueca encrenca.",
+      "Sirva com mel e canela, e treine seu sorriso para a academia."
+    ],
+    "descricao": "Panqueca que nem ninja: rápida, eficiente e cheia de energia para te fazer dar aquele salto mortal no treino (ou pelo menos tentar).",
+    "tempo": "20 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,50",
+    "porcoes": "3 porções",
+    "dica": "Se queimar, diga que é treino de resistência."
+  },
+  {
+    "id": 30,
+    "titulo": "Wrap do Atleta Descolado",
+    "slug": "wrap-do-atleta-descolado",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "1 pão sírio integral",
+      "100g de frango desfiado temperado",
+      "Folhas de alface",
+      "Tomate fatiado",
+      "1 colher de sopa de requeijão light"
+    ],
+    "modoPreparo": [
+      "Monte o wrap como se fosse um presente para seu corpo.",
+      "Enrole com carinho e coma como se estivesse em um filme de ação.",
+      "Sinta-se o herói do treino antes mesmo de começar."
+    ],
+    "descricao": "Esse wrap é para quem quer ser saudável e descolado, com proteína, fibras e estilo na mesma mordida. Porque treino também é questão de atitude.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 14,00",
+    "porcoes": "1 porção",
+    "dica": "Se o wrap abrir, é só chamar de treino de empacotamento."
+  },
+  {
+    "id": 31,
+    "titulo": "Café com Power-Up: o turbo do preguiçoso",
+    "slug": "cafe-com-power-up-o-turbo-do-preguicoso",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "200ml de café coado",
+      "1 colher de sopa de cacau em pó",
+      "1 colher de chá de mel",
+      "1 pitada de canela"
+    ],
+    "modoPreparo": [
+      "Faça o café como se estivesse tentando acordar até o vizinho.",
+      "Misture o cacau em pó e a canela, porque café simples é para os fracos.",
+      "Adicione o mel pra adoçar a vida e o treino.",
+      "Mexa tudo e imagine que está carregando suas energias como um download de fibra óptica."
+    ],
+    "descricao": "Para quem quer acordar as energias e dar aquele gás pré-treino, essa receita é o equivalente líquido de um high five.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,50",
+    "porcoes": "1 porção",
+    "dica": "Se errar a quantidade de mel, vira café com sobremesa. Não tem erro, só consequências."
+  },
+  {
+    "id": 32,
+    "titulo": "Banana Explosiva: o combustível amarelo da academia",
+    "slug": "banana-explosiva-o-combustivel-amarelo-da-academia",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "1 banana madura",
+      "1 colher de sopa de pasta de amendoim",
+      "1 colher de sopa de aveia",
+      "1 pitada de canela"
+    ],
+    "modoPreparo": [
+      "Amasse a banana como se estivesse amassando a preguiça.",
+      "Misture a pasta de amendoim e a aveia para o combo energético nível hard.",
+      "Salpique a canela pra sentir que está fazendo algo saudável (e cheiroso).",
+      "Coma pensando na proteína que vai queimar e na pizza que vai merecer depois."
+    ],
+    "descricao": "Simples, poderoso e rápido, esse lanche é o grito de guerra das fibras musculares antes do treino.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 4,80",
+    "porcoes": "1 porção",
+    "dica": "Se a banana estiver muito madura, é sinal de que o treino vai ser intenso (ou que você perdeu a hora)."
+  },
+  {
+    "id": 33,
+    "titulo": "Vitamina Atômica: explosão de energia que nem meme",
+    "slug": "vitamina-atomica-explosao-de-energia-que-nem-meme",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "1 copo de leite desnatado",
+      "1 banana",
+      "2 colheres de sopa de aveia",
+      "1 colher de sopa de mel",
+      "1 colher de café de café solúvel"
+    ],
+    "modoPreparo": [
+      "Jogue tudo no liquidificador como se estivesse misturando sua preguiça e sua vontade de malhar.",
+      "Bata até parecer que virou shake de atleta (ou meme de nutricionista).",
+      "Tome com vontade e sinta a energia invadir o seu ser.",
+      "Se começar a falar rápido, é normal, foi a cafeína agindo."
+    ],
+    "descricao": "Essa vitamina é para quem quer malhar com a energia de um meme viral: rápida, intensa e pra deixar todo mundo olhando.",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,00",
+    "porcoes": "1 porção",
+    "dica": "Cuidado para não tomar demais e acabar falando rápido demais na aula de spinning."
+  },
+  {
+    "id": 34,
+    "titulo": "Suco de Beterraba: o power-up que o Popeye esqueceu",
+    "slug": "suco-de-beterraba-o-power-up-que-o-popeye-esqueceu",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "1 beterraba média",
+      "1 maçã",
+      "1 cenoura",
+      "200ml de água"
+    ],
+    "modoPreparo": [
+      "Descasque a beterraba e a cenoura como se fosse se livrar das preguiças que te atrasam.",
+      "Bata tudo no liquidificador com a maçã e a água, porque energia não é só força, é doce também.",
+      "Coe se quiser se sentir mais fitness do que realmente é.",
+      "Beba e sinta o sangue bombando (literalmente)."
+    ],
+    "descricao": "O suco que vai te dar aquele gás extra, porque até o Popeye deveria ter trocado o espinafre por beterraba.",
+    "tempo": "15 min",
+    "dificuldade": "Médio",
+    "preco": "R$ 8,50",
+    "porcoes": "2 porções",
+    "dica": "Se o suco ficar muito forte, finja que está comendo a raiz da energia mesmo."
+  },
+  {
+    "id": 35,
+    "titulo": "Pão com Pasta de Amendoim: o clássico que treina a boca e o braço",
+    "slug": "pao-com-pasta-de-amendoim-o-classico-que-treina-a-boca-e-o-braco",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "2 fatias de pão integral",
+      "2 colheres de sopa de pasta de amendoim",
+      "1 colher de chá de mel"
+    ],
+    "modoPreparo": [
+      "Espalhe a pasta de amendoim no pão como se estivesse pintando uma obra de arte (mas sem bagunça).",
+      "Regue com mel para a doçura do esforço que virá.",
+      "Coma devagar, aproveitando cada mordida para imaginar os músculos crescendo.",
+      "Repita a frase 'Eu vou conseguir' até acabar."
+    ],
+    "descricao": "Simples, rápido e delicioso, esse pré-treino é a prova de que força pode estar em pequenas doses... e em carboidratos.",
+    "tempo": "5 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,00",
+    "porcoes": "1 porção",
+    "dica": "Se sobrar pasta, não se culpe por lamber a colher. É parte do plano de treino."
+  },
+  {
+    "id": 36,
+    "titulo": "Smoothie do Hulk Brasileiro: verde e poderoso",
+    "slug": "smoothie-do-hulk-brasileiro-verde-e-poderoso",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "1 copo de água de coco",
+      "1 punhado de couve",
+      "1 banana",
+      "1 colher de sopa de chia"
+    ],
+    "modoPreparo": [
+      "Coloque tudo no liquidificador e bata como se estivesse fazendo um milagre verde.",
+      "Se parecer uma poção mágica, é porque está no caminho certo.",
+      "Beba rápido antes que vire um Hulk verde do sofá.",
+      "Sinta a força crescendo e a vontade de esmagar a preguiça."
+    ],
+    "descricao": "O smoothie que vai transformar sua preguiça em Hulk, só não garanta que vai ficar verde, a não ser que você queira.",
+    "tempo": "7 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 7,80",
+    "porcoes": "1 porção",
+    "dica": "Se o sabor estiver forte, finja que está bebendo o suco do herói e que vai valer a pena."
+  },
+  {
+    "id": 37,
+    "titulo": "Omelete da Coragem: ovo pra quem tem medo do treino",
+    "slug": "omelete-da-coragem-ovo-pra-quem-tem-medo-do-treino",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "2 ovos",
+      "1 tomate picado",
+      "1 colher de sopa de cebola picada",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Quebre os ovos com a mesma coragem que você precisa pra ir na academia.",
+      "Misture os ingredientes e tempere com sal e pimenta pra dar sabor à vida (e ao treino).",
+      "Cozinhe na frigideira, fazendo charme como um chef do Masterchef.",
+      "Coma e sinta a coragem invadindo seu corpo, ou pelo menos o estômago."
+    ],
+    "descricao": "Para quem sente que a preguiça é maior que a vontade, esse omelete é o empurrãozinho que faltava antes do treino.",
+    "tempo": "15 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "1 porção",
+    "dica": "Se errar o tempero, finja que é uma nova receita gourmet que você inventou."
+  },
+  {
+    "id": 38,
+    "titulo": "Mix Crocante do Atleta Escondido",
+    "slug": "mix-crocante-do-atleta-escondido",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "30g de castanhas de caju",
+      "30g de amendoim torrado",
+      "20g de uva passa"
+    ],
+    "modoPreparo": [
+      "Misture tudo em um potinho como se fosse um tesouro de energia.",
+      "Coma aos poucos pra fingir que está controlando a fome e a força.",
+      "Sinta o crocante invadindo o corpo e o atleta escondido saindo do sofá.",
+      "Não conte pra ninguém que você roubou esse segredo."
+    ],
+    "descricao": "O mix perfeito para dar aquele up de energia antes do treino, para quem quer ser atleta mas leva jeito de formiga.",
+    "tempo": "2 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 8,00",
+    "porcoes": "1 porção",
+    "dica": "Se sobrar, esconda para não dividir com os amigos que querem te sabotar."
+  },
+  {
+    "id": 39,
+    "titulo": "Iogurte do Ninja: rapidez e força em pote",
+    "slug": "iogurte-do-ninja-rapidez-e-forca-em-pote",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "1 pote de iogurte natural",
+      "2 colheres de sopa de granola",
+      "1 colher de sopa de mel",
+      "Frutas vermelhas (opcional)"
+    ],
+    "modoPreparo": [
+      "Abra o pote com a mesma rapidez que você quer correr na esteira.",
+      "Misture a granola e o mel para virar uma bomba de energia que não explode, só entrega resultado.",
+      "Se quiser parecer fitness, jogue umas frutas vermelhas por cima.",
+      "Coma antes que o treino comece, senão o iogurte vira desculpa para não malhar."
+    ],
+    "descricao": "A energia que cabe no pote, para quem quer ser rápido e forte sem perder tempo (e sem perder o humor).",
+    "tempo": "3 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 6,50",
+    "porcoes": "1 porção",
+    "dica": "Se quiser impressionar, fale que é o segredo dos ninjas do crossfit."
+  },
+  {
+    "id": 40,
+    "titulo": "Tapioca Turbo: o combustível do Nordeste para sua academia",
+    "slug": "tapioca-turbo-o-combustivel-do-nordeste-para-sua-academia",
+    "categoria": "Pré-treino 🔋",
+    "ingredientes": [
+      "2 colheres de sopa de goma de tapioca",
+      "1 colher de sopa de queijo coalho ralado",
+      "1 colher de chá de orégano"
+    ],
+    "modoPreparo": [
+      "Espalhe a goma na frigideira quente como se estivesse pintando um quadro energético.",
+      "Quando a parte de baixo estiver firme, espalhe o queijo e polvilhe o orégano, porque treino sem estilo não vale.",
+      "Dobre a tapioca com elegância e cozinhe mais um pouco.",
+      "Coma rápido para entrar em modo turbo e deixar a preguiça no chinelo."
+    ],
+    "descricao": "A tapioca que vai transformar sua energia com sabor e estilo nordestino, porque pré-treino também pode ser regional e saboroso.",
+    "tempo": "10 min",
+    "dificuldade": "Fácil",
+    "preco": "R$ 5,00",
+    "porcoes": "1 porção",
+    "dica": "Se grudar na frigideira, finja que é técnica de resistência para o treino."
   }
 ]
