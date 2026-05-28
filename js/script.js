@@ -43,7 +43,6 @@ const NICHOS = [
   { id: "churrasco", name: "Churrasco 🔥", file: "churrasco" },
   { id: "boteco-em-casa", name: "Boteco em casa 🍺", file: "boteco-em-casa" },
   { id: "vendo-o-fut", name: "Vendo o fut ⚽", file: "vendo-o-fut" },
-  { id: "cinema", name: "Cinema 🎬", file: "cinema" },
   { id: "jantar-romantico", name: "Jantar romântico 🕯️", file: "jantar-romantico" },
   { id: "pra-impressionar", name: "Pra impressionar 🎩", file: "pra-impressionar" },
   { id: "piquenique", name: "Piquenique 🧺", file: "piquenique" },
@@ -72,10 +71,6 @@ const NICHOS = [
   { id: "pra-criancada", name: "Pra criançada 👶", file: "pra-criancada" },
   { id: "pra-vovo-e-vovo", name: "Pra vovô e vovó 👴", file: "pra-vovo-e-vovo" },
   { id: "a-galera-toda", name: "A galera toda 🎉", file: "a-galera-toda" },
-
-  // 💀 Especiais
-  { id: "receita-de-famosos", name: "Receita de famosos ⭐", file: "receita-de-famosos" },
-  { id: "ultima-refeicao", name: "Última refeição ☠️🔒", file: "ultima-refeicao" },
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
