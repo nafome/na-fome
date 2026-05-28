@@ -11,320 +11,320 @@
 
   <!-- Horário / Refeição -->
   <url>
-    <loc>https://nafome.com.br/?nicho=cafe-da-manha</loc>
+    <loc>https://nafome.com.br/pages/cafe-da-manha/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=almoco</loc>
+    <loc>https://nafome.com.br/pages/almoco/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=lanche-da-tarde</loc>
+    <loc>https://nafome.com.br/pages/lanche-da-tarde/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=jantar</loc>
+    <loc>https://nafome.com.br/pages/jantar/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=madrugada</loc>
+    <loc>https://nafome.com.br/pages/madrugada/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
 
   <!-- Situação Financeira -->
   <url>
-    <loc>https://nafome.com.br/?nicho=to-duro</loc>
+    <loc>https://nafome.com.br/pages/to-duro/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=final-do-mes</loc>
+    <loc>https://nafome.com.br/pages/final-do-mes/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=recebi-hoje</loc>
+    <loc>https://nafome.com.br/pages/recebi-hoje/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=gourmet</loc>
+    <loc>https://nafome.com.br/pages/gourmet/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
 
   <!-- Saúde / Dieta / Treino -->
   <url>
-    <loc>https://nafome.com.br/?nicho=detox</loc>
+    <loc>https://nafome.com.br/pages/detox/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=to-de-dieta</loc>
+    <loc>https://nafome.com.br/pages/to-de-dieta/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=vegano</loc>
+    <loc>https://nafome.com.br/pages/vegano/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=vegetariano</loc>
+    <loc>https://nafome.com.br/pages/vegetariano/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=sem-gluten</loc>
+    <loc>https://nafome.com.br/pages/sem-gluten/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=sem-lactose</loc>
+    <loc>https://nafome.com.br/pages/sem-lactose/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=pre-treino</loc>
+    <loc>https://nafome.com.br/pages/pre-treino/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=pos-treino</loc>
+    <loc>https://nafome.com.br/pages/pos-treino/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=ganhar-massa</loc>
+    <loc>https://nafome.com.br/pages/ganhar-massa/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
 
   <!-- Jeito de Cozinhar / Equipamento -->
   <url>
-    <loc>https://nafome.com.br/?nicho=em-15-minutos</loc>
+    <loc>https://nafome.com.br/pages/em-15-minutos/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=uma-panela-so</loc>
+    <loc>https://nafome.com.br/pages/uma-panela-so/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=na-air-fryer</loc>
+    <loc>https://nafome.com.br/pages/na-air-fryer/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=no-micro-ondas</loc>
+    <loc>https://nafome.com.br/pages/no-micro-ondas/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=no-forno</loc>
+    <loc>https://nafome.com.br/pages/no-forno/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=sem-fogao</loc>
+    <loc>https://nafome.com.br/pages/sem-fogao/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=sem-sujar-louca</loc>
+    <loc>https://nafome.com.br/pages/sem-sujar-louca/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=nao-sei-cozinhar</loc>
+    <loc>https://nafome.com.br/pages/nao-sei-cozinhar/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
 
   <!-- Ocasião / Momento -->
   <url>
-    <loc>https://nafome.com.br/?nicho=final-de-semana</loc>
+    <loc>https://nafome.com.br/pages/final-de-semana/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=churrasco</loc>
+    <loc>https://nafome.com.br/pages/churrasco/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=boteco-em-casa</loc>
+    <loc>https://nafome.com.br/pages/boteco-em-casa/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=vendo-o-fut</loc>
+    <loc>https://nafome.com.br/pages/vendo-o-fut/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=jantar-romantico</loc>
+    <loc>https://nafome.com.br/pages/jantar-romantico/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=pra-impressionar</loc>
+    <loc>https://nafome.com.br/pages/pra-impressionar/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=piquenique</loc>
+    <loc>https://nafome.com.br/pages/piquenique/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=natal</loc>
+    <loc>https://nafome.com.br/pages/natal/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=ano-novo</loc>
+    <loc>https://nafome.com.br/pages/ano-novo/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=pascoa</loc>
+    <loc>https://nafome.com.br/pages/pascoa/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
 
   <!-- Estado Físico -->
   <url>
-    <loc>https://nafome.com.br/?nicho=to-doente</loc>
+    <loc>https://nafome.com.br/pages/to-doente/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=de-ressaca</loc>
+    <loc>https://nafome.com.br/pages/de-ressaca/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=to-com-frio</loc>
+    <loc>https://nafome.com.br/pages/to-com-frio/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
 
   <!-- Tipo de Comida -->
   <url>
-    <loc>https://nafome.com.br/?nicho=fast-food-caseiro</loc>
+    <loc>https://nafome.com.br/pages/fast-food-caseiro/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=comida-de-rua</loc>
+    <loc>https://nafome.com.br/pages/comida-de-rua/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=comida-regional</loc>
+    <loc>https://nafome.com.br/pages/comida-regional/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=frutos-do-mar</loc>
+    <loc>https://nafome.com.br/pages/frutos-do-mar/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=sobremesa</loc>
+    <loc>https://nafome.com.br/pages/sobremesa/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
 
   <!-- Bebidas -->
   <url>
-    <loc>https://nafome.com.br/?nicho=cafe</loc>
+    <loc>https://nafome.com.br/pages/cafe/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=drinks</loc>
+    <loc>https://nafome.com.br/pages/drinks/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=drinks-sem-alcool</loc>
+    <loc>https://nafome.com.br/pages/drinks-sem-alcool/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
 
   <!-- Público -->
   <url>
-    <loc>https://nafome.com.br/?nicho=pra-criancada</loc>
+    <loc>https://nafome.com.br/pages/pra-criancada/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=pra-vovo-e-vovo</loc>
+    <loc>https://nafome.com.br/pages/pra-vovo-e-vovo/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nafome.com.br/?nicho=a-galera-toda</loc>
+    <loc>https://nafome.com.br/pages/a-galera-toda/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
 
 </urlset>
