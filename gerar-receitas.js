@@ -12,9 +12,10 @@ const fs   = require('fs');
 const path = require('path');
 
 // ─── Configuração ────────────────────────────────────────────────
-const BASE_URL     = 'https://nafome.com.br';
-const RECEITAS_DIR = path.join(__dirname, 'data', 'receitas');
-const OUTPUT_DIR   = path.join(__dirname, 'receitas');
+const BASE_URL      = 'https://nafome.com.br';
+const RECEITAS_DIR  = path.join(__dirname, 'data', 'receitas');
+const OUTPUT_DIR    = path.join(__dirname, 'receitas');
+const LINK_AFILIADO = 'https://amzn.to/3RApl7e';
 // ────────────────────────────────────────────────────────────────
 
 function slugParaCategoria(categoria) {
@@ -300,6 +301,55 @@ function gerarHTML(receita, nichoSlug) {
     }
     .dica-box strong { color: #ff6b35; }
 
+    /* ── Banner Afiliado ── */
+    .afiliado-box {
+      background: #fff8f0;
+      border: 1.5px solid #ff9900;
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin: 0 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .afiliado-box .afiliado-texto { flex: 1; min-width: 200px; }
+    .afiliado-box .afiliado-label {
+      font-size: 11px;
+      color: #aaa;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 4px;
+    }
+    .afiliado-box .afiliado-titulo {
+      font-size: 15px;
+      font-weight: 700;
+      color: #111;
+      margin-bottom: 4px;
+    }
+    .afiliado-box .afiliado-desc {
+      font-size: 13px;
+      color: #555;
+    }
+    .afiliado-box .afiliado-btn {
+      background: #ff9900;
+      color: #111;
+      font-weight: 700;
+      font-size: 14px;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      white-space: nowrap;
+      display: inline-block;
+      transition: background 0.2s, transform 0.2s;
+    }
+    .afiliado-box .afiliado-btn:hover {
+      background: #e68a00;
+      transform: scale(1.03);
+      text-decoration: none;
+    }
+
     /* ── CTA ── */
     .cta-box {
       background: linear-gradient(135deg, #ff6b35 0%, #e55a25 100%);
@@ -394,6 +444,16 @@ function gerarHTML(receita, nichoSlug) {
       <strong>💡 Dica:</strong> ${receita.dica}
     </div>` : ''}
 
+    <!-- Banner Afiliado Amazon -->
+    <div class="afiliado-box">
+      <div class="afiliado-texto">
+        <div class="afiliado-label">parceiro recomendado</div>
+        <div class="afiliado-titulo">Air Fryer Philips Walita — a mais vendida do Brasil</div>
+        <div class="afiliado-desc">Faça suas receitas sem óleo, com mais sabor e praticidade.</div>
+      </div>
+      <a href="${LINK_AFILIADO}" target="_blank" rel="nofollow sponsored" class="afiliado-btn">Ver na Amazon →</a>
+    </div>
+
     <!-- Anúncio inline -->
     <div class="ad-inline">
       <span class="ad-label">publicidade</span>
@@ -479,7 +539,7 @@ function main() {
   console.log(`\n📁 Pasta de saída: ${OUTPUT_DIR}`);
   console.log(`\n🚀 Próximo passo:`);
   console.log(`   git add receitas/`);
-  console.log(`   git commit -m "feat: páginas individuais por receita"`);
+  console.log(`   git commit -m "feat: banner afiliado Amazon em todas as receitas"`);
   console.log(`   git push`);
 }
 
