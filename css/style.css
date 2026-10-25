@@ -628,6 +628,45 @@ footer a:hover {
   border-color: var(--border);
 }
 
+/* LINKS DOS NICHOS (rodapé da home) */
+.todos-nichos {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.todos-nichos h2 {
+  font-size: 11px !important;
+  font-weight: 700;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 14px !important;
+}
+
+.todos-nichos ul {
+  gap: 8px !important;
+}
+
+.todos-nichos a {
+  display: inline-block;
+  background: var(--card);
+  border: 1.5px solid var(--border);
+  border-radius: 999px;
+  padding: 7px 14px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.todos-nichos a:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: white;
+  transform: translateY(-1px);
+}
+
 .spin-again-btn:hover {
   background: var(--text);
   color: white;
