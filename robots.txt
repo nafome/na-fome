@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nafome.com.br/sitemap.xml
