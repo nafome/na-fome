@@ -2,6 +2,12 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
+  <script>
+  (function(){
+    var s = new URLSearchParams(location.search).get('receita');
+    if (s && /^[a-z0-9-]+$/.test(s)) location.replace('/receita/' + s + '/');
+  })();
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <title id="pageTitle">NaFome — Sorteio de Receitas</title>
   <meta name="description" content="Qualquer coisa não é comida. Tá com fome mas sem ideia? Sorteie uma receita agora. Receitas rápidas, baratas e fáceis para qualquer situação.">
@@ -184,9 +190,65 @@
 
   </div>
 
-  <div class="ad-banner ad-bottom">
+    <div class="ad-banner ad-bottom">
     <span class="ad-label">publicidade</span>
   </div>
+
+  <nav class="todos-nichos" aria-label="Receitas por situação" style="max-width:900px;margin:32px auto;padding:0 20px;text-align:center">
+    <h2 style="font-size:18px;margin-bottom:12px">Receitas por situação</h2>
+    <ul style="list-style:none;display:flex;flex-wrap:wrap;gap:8px 16px;justify-content:center;font-size:14px">
+      <li><a href="/a-galera-toda/">🎉 A Galera Toda</a></li>
+      <li><a href="/almoco/">🍽️ Almoço</a></li>
+      <li><a href="/ano-novo/">🥂 Ano Novo</a></li>
+      <li><a href="/boteco-em-casa/">🍺 Boteco em Casa</a></li>
+      <li><a href="/cafe-da-manha/">☀️ Café da Manhã</a></li>
+      <li><a href="/cafe/">☕ Café</a></li>
+      <li><a href="/churrasco/">🔥 Churrasco</a></li>
+      <li><a href="/comida-de-rua/">🥙 Comida de Rua</a></li>
+      <li><a href="/comida-regional/">🍛 Comida Regional</a></li>
+      <li><a href="/de-ressaca/">🤢 De Ressaca</a></li>
+      <li><a href="/detox/">🥒 Detox</a></li>
+      <li><a href="/drinks-sem-alcool/">🧃 Drinks Sem Álcool</a></li>
+      <li><a href="/drinks/">🍹 Drinks</a></li>
+      <li><a href="/em-15-minutos/">⏱️ Em 15 Minutos</a></li>
+      <li><a href="/fast-food-caseiro/">🍔 Fast Food Caseiro</a></li>
+      <li><a href="/final-de-semana/">😎 Final de Semana</a></li>
+      <li><a href="/final-do-mes/">💸 Final do Mês</a></li>
+      <li><a href="/frutos-do-mar/">🦐 Frutos do Mar</a></li>
+      <li><a href="/ganhar-massa/">🏋️ Ganhar Massa</a></li>
+      <li><a href="/gourmet/">💎 Gourmet</a></li>
+      <li><a href="/jantar-romantico/">🕯️ Jantar Romântico</a></li>
+      <li><a href="/jantar/">🌙 Jantar</a></li>
+      <li><a href="/lanche-da-tarde/">🥪 Lanche da Tarde</a></li>
+      <li><a href="/madrugada/">🦉 Madrugada</a></li>
+      <li><a href="/na-air-fryer/">💨 Na Air Fryer</a></li>
+      <li><a href="/nao-sei-cozinhar/">😬 Não Sei Cozinhar</a></li>
+      <li><a href="/natal/">🎄 Natal</a></li>
+      <li><a href="/no-forno/">🔆 No Forno</a></li>
+      <li><a href="/no-micro-ondas/">📡 No Micro-ondas</a></li>
+      <li><a href="/pascoa/">🐣 Páscoa</a></li>
+      <li><a href="/piquenique/">🧺 Piquenique</a></li>
+      <li><a href="/pos-treino/">💪 Pós-Treino</a></li>
+      <li><a href="/pra-criancada/">👶 Pra Criançada</a></li>
+      <li><a href="/pra-impressionar/">🎩 Pra Impressionar</a></li>
+      <li><a href="/pra-vovo-e-vovo/">👴 Pra Vovô e Vovó</a></li>
+      <li><a href="/pre-treino/">🔋 Pré-Treino</a></li>
+      <li><a href="/recebi-hoje/">💰 Recebi Hoje</a></li>
+      <li><a href="/sem-fogao/">🚫 Sem Fogão</a></li>
+      <li><a href="/sem-gluten/">🌾 Sem Glúten</a></li>
+      <li><a href="/sem-lactose/">🥛 Sem Lactose</a></li>
+      <li><a href="/sem-sujar-louca/">🙏 Sem Sujar Louça</a></li>
+      <li><a href="/sobremesa/">🍫 Sobremesa</a></li>
+      <li><a href="/to-com-frio/">🥶 Tô com Frio</a></li>
+      <li><a href="/to-de-dieta/">🥑 Tô de Dieta</a></li>
+      <li><a href="/to-doente/">🤒 Tô Doente</a></li>
+      <li><a href="/to-duro/">🪙 Tô Duro</a></li>
+      <li><a href="/uma-panela-so/">🫕 Uma Panela Só</a></li>
+      <li><a href="/vegano/">🌱 Vegano</a></li>
+      <li><a href="/vegetariano/">🥗 Vegetariano</a></li>
+      <li><a href="/vendo-o-fut/">⚽ Vendo o Fut</a></li>
+    </ul>
+  </nav>
 
   <footer>
     Na Fome © <span id="anoFooter"></span> — Feito pra quem tá com fome e sem ideia 🍽️<br>
